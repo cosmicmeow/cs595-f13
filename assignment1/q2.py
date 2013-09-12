@@ -18,7 +18,7 @@ soup = BeautifulSoup(getHtml)
 #	print teamNames.get('title')
 for teamNames in soup.html.body.find_all('div',{'class':'final-state'}):
 	print teamNames
-	print teamNames.get('div',{'class':'team visitor'})
-	print teamNames.get('div',{'class':'team home'})
+	#print teamNames.get('div',{'class':'team visitor'})
+	#print teamNames.get('div',{'class':'team home'})
 #team-home
 #team-visitor 
