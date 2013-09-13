@@ -1,0 +1,26 @@
+1.  Demonstrate that you know how to use "curl" well enough to
+correctly POST data to a form.  Show that the HTML response that
+is returned is "correct" (e.g., save it to a file and then view
+that file in a browser and take a screen shot).
+
+---------------------------------
+
+atria:~> curl -I http://contest.vinylmint.com/
+HTTP/1.1 200 OK
+Date: Thu, 12 Sep 2013 04:31:19 GMT
+Server: Apache
+X-Pingback: http://contest.vinylmint.com/xmlrpc.php
+Cache-Control: max-age=3600
+Expires: Thu, 12 Sep 2013 05:31:19 GMT
+Content-Type: text/html; charset=UTF-8
+
+---------------------------------
+
+
+atria:~> curl -d "fullname=Artemis%20Fowl&email=evilgenius@child.com&url=www.goldplease.com&form_message=YAY?" http://contest.vinylmint.com/contact-us > out.html
+
+Result in output.png
+
+
+------------------------------------
+Sources: http://superuser.com/questions/149329/what-is-the-curl-command-line-syntax-to-do-a-post-request, http://curl.haxx.se/docs/manual.html
