@@ -34,12 +34,13 @@ for teamNames in soup.html.body.find_all('div',{'class':'mod-content'}):
 	#visitors
 	 	visitor =teamNames.find_all('div',{'class':'team visitor'})
 	 	home = teamNames.find_all('div',{'class':'team home'})
-	 	#print repr(visitor)x
+	 	#print repr(visitor)
+	 	#print repr(home)
+
+	 	#for scores in home.find_all("scores"):
+	 	#	print "scores"
 	 	print repr(home)
 
-	 	for "scores" in home:
-	 		print "scores"
-	 	#print repr(home)
 
 	# teamNames.prettify().encode('utf-8')
 	#print teamNames.get('div',{'class':'team visitor'})

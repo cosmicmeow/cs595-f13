@@ -1,0 +1,23 @@
+# from here https://httpkit.com/resources/HTTP-from-the-Command-Line/#post-html-form-data
+#			http://curl.haxx.se/libcurl/c/http-post.html
+#			http://www.yilmazhuseyin.com/blog/dev/curl-tutorial-examples-usage/
+
+
+#$ curl -I  www.cs.odu.edu/~acm/
+
+HTTP/1.1 200 OK
+Date: Sun, 08 Sep 2013 03:56:06 GMT
+Server: Apache/2.2.17 (Unix) PHP/5.3.5 mod_ssl/2.2.17 OpenSSL/0.9.8q
+Last-Modified: Thu, 05 Sep 2013 20:46:16 GMT
+ETag: "1e80-4e5a903649619"
+Accept-Ranges: bytes
+Content-Length: 7808
+Content-Type: text/html
+
+
+curl -d "Field1=The" -d "Field2=Fox" -d "Field3=acm@cs.odu.edu" -d "Field4=what does he say? " -d "saveForm=true" https://acmodu.wufoo.com/forms/z7x4m1/ > Q1.html
+
+
+
+# Question 2
+
