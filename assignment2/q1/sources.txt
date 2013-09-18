@@ -1,0 +1,9 @@
+sources
+========
+Filtering
+--------------
+http://stackoverflow.com/questions/6257544/twitter-search-api-to-exclude-tweets-with-a-filter
+
+Original Boiler Plate
+--------------------
+http://thomassileo.com/blog/2013/01/25/using-twitter-rest-api-v1-dot-1-with-python/

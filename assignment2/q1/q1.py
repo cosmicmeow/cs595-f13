@@ -3,13 +3,13 @@ from __future__ import unicode_literals
 import requests
 from requests_oauthlib import OAuth1
 from urlparse import parse_qs
-
+import json
 REQUEST_TOKEN_URL = "https://api.twitter.com/oauth/request_token"
 AUTHORIZE_URL = "https://api.twitter.com/oauth/authorize?oauth_token="
 ACCESS_TOKEN_URL = "https://api.twitter.com/oauth/access_token"
 
-CONSUMER_KEY = "YOUR_CONSUMER_KEY"
-CONSUMER_SECRET = "YOUR CONSUMER_SECRET"
+CONSUMER_KEY = ""
+CONSUMER_SECRET = ""
 
 OAUTH_TOKEN = ""
 OAUTH_TOKEN_SECRET = ""
@@ -60,5 +60,22 @@ if __name__ == "__main__":
         print
     else:
         oauth = get_oauth()
-        r = requests.get(url="https://api.twitter.com/1.1/statuses/mentions_timeline.json", auth=oauth)
-        print r.json()
+        r = requests.get(url="https://api.twitter.com/1.1/search/tweets.json?q=%23mileycyrus%20filter%3Alinks&count=100&include_entities=true", auth=oauth)
+        r = r.json()
+
+        urls = list()
+        print r["search_metadata"]["count"] 
+        for tweet in range(r["search_metadata"]["count"]):
+            print tweet
+            if (r["statuses"][tweet]!=[]):
+              if (r["statuses"][tweet]["entities"]["urls"]!=[]):
+                if(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"] not in urls):   
+                    #if url already exists do not append                 
+                    urls.append(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"])
+                #print r["statuses"][tweet]["entities"]["urls"][0]["url"]
+                #print r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"]
+        #include_entities
+        for links in urls:
+             print links
+        print len([urls])
+        #r["statuses"][int(tweet)]["entities"]["urls"][0]["expanded_url"]
