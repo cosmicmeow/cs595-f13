@@ -61,7 +61,8 @@ if __name__ == "__main__":
     else:
         oauth = get_oauth()
         urls = list()
-        while len(urls) < 101:
+        f = open('workfile', 'w')
+        while len(urls) < 1001:
         ##first request 
             r = requests.get(url="https://api.twitter.com/1.1/search/tweets.json?q=%23python%20filter%3Alinks&count=100&include_entities=true", auth=oauth)
             r = r.json()
@@ -105,7 +106,247 @@ if __name__ == "__main__":
                     except:
                         pass
         ##next request 
-            r = requests.get(url="https://api.twitter.com/1.1/search/tweets.json?q=%23dart%20filter%3Alinks&count=100&include_entities=true", auth=oauth)
+            r = requests.get(url="https://api.twitter.com/1.1/search/tweets.json?q=%23csharp%20filter%3Alinks&count=100&include_entities=true", auth=oauth)
+            r = r.json()
+            print r["search_metadata"]["count"] 
+            for tweet in range(r["search_metadata"]["count"]):
+                if ((r["statuses"][tweet])):
+                    try: 
+                        if (r["statuses"][tweet]["entities"]["urls"]!=[]):
+                    # if tweet entities exists  
+                             if(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"] not in urls):   
+                        #if url already exists do not append                 
+                                urls.append(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"])
+                    except:
+                        pass
+        ##next request 
+            r = requests.get(url="https://api.twitter.com/1.1/search/tweets.json?q=%23javascript%20filter%3Alinks&count=100&include_entities=true", auth=oauth)
+            r = r.json()
+            print r["search_metadata"]["count"] 
+            for tweet in range(r["search_metadata"]["count"]):
+                if ((r["statuses"][tweet])):
+                    try: 
+                        if (r["statuses"][tweet]["entities"]["urls"]!=[]):
+                    # if tweet entities exists  
+                             if(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"] not in urls):   
+                        #if url already exists do not append                 
+                                urls.append(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"])
+                    except:
+                        pass
+
+        ##next request 
+            r = requests.get(url="https://api.twitter.com/1.1/search/tweets.json?q=%23go%20filter%3Alinks&count=100&include_entities=true", auth=oauth)
+            r = r.json()
+            print r["search_metadata"]["count"] 
+            for tweet in range(r["search_metadata"]["count"]):
+                if ((r["statuses"][tweet])):
+                    try: 
+                        if (r["statuses"][tweet]["entities"]["urls"]!=[]):
+                    # if tweet entities exists  
+                             if(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"] not in urls):   
+                        #if url already exists do not append                 
+                                urls.append(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"])
+                    except:
+                        pass
+        ##next request 
+            r = requests.get(url="https://api.twitter.com/1.1/search/tweets.json?q=%23cpp%20filter%3Alinks&count=100&include_entities=true", auth=oauth)
+            r = r.json()
+            print r["search_metadata"]["count"] 
+            for tweet in range(r["search_metadata"]["count"]):
+                if ((r["statuses"][tweet])):
+                    try: 
+                        if (r["statuses"][tweet]["entities"]["urls"]!=[]):
+                    # if tweet entities exists  
+                             if(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"] not in urls):   
+                        #if url already exists do not append                 
+                                urls.append(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"])
+                    except:
+                        pass
+        ##next request 
+            r = requests.get(url="https://api.twitter.com/1.1/search/tweets.json?q=%23html%20filter%3Alinks&count=100&include_entities=true", auth=oauth)
+            r = r.json()
+            print r["search_metadata"]["count"] 
+            for tweet in range(r["search_metadata"]["count"]):
+                if ((r["statuses"][tweet])):
+                    try: 
+                        if (r["statuses"][tweet]["entities"]["urls"]!=[]):
+                    # if tweet entities exists  
+                             if(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"] not in urls):   
+                        #if url already exists do not append                 
+                                urls.append(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"])
+                    except:
+                        pass
+        ##next request 
+            r = requests.get(url="https://api.twitter.com/1.1/search/tweets.json?q=%23go%20filter%3Alinks&count=100&include_entities=true", auth=oauth)
+            r = r.json()
+            print r["search_metadata"]["count"] 
+            for tweet in range(r["search_metadata"]["count"]):
+                if ((r["statuses"][tweet])):
+                    try: 
+                        if (r["statuses"][tweet]["entities"]["urls"]!=[]):
+                    # if tweet entities exists  
+                             if(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"] not in urls):   
+                        #if url already exists do not append                 
+                                urls.append(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"])
+                    except:
+                        pass
+        ##next request 
+            r = requests.get(url="https://api.twitter.com/1.1/search/tweets.json?q=%23less%20filter%3Alinks&count=100&include_entities=true", auth=oauth)
+            r = r.json()
+            print r["search_metadata"]["count"] 
+            for tweet in range(r["search_metadata"]["count"]):
+                if ((r["statuses"][tweet])):
+                    try: 
+                        if (r["statuses"][tweet]["entities"]["urls"]!=[]):
+                    # if tweet entities exists  
+                             if(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"] not in urls):   
+                        #if url already exists do not append                 
+                                urls.append(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"])
+                    except:
+                        pass
+        ##next request 
+            r = requests.get(url="https://api.twitter.com/1.1/search/tweets.json?q=%23sass%20filter%3Alinks&count=100&include_entities=true", auth=oauth)
+            r = r.json()
+            print r["search_metadata"]["count"] 
+            for tweet in range(r["search_metadata"]["count"]):
+                if ((r["statuses"][tweet])):
+                    try: 
+                        if (r["statuses"][tweet]["entities"]["urls"]!=[]):
+                    # if tweet entities exists  
+                             if(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"] not in urls):   
+                        #if url already exists do not append                 
+                                urls.append(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"])
+                    except:
+                        pass
+        ##next request 
+            r = requests.get(url="https://api.twitter.com/1.1/search/tweets.json?q=%23sinatra%20filter%3Alinks&count=100&include_entities=true", auth=oauth)
+            r = r.json()
+            print r["search_metadata"]["count"] 
+            for tweet in range(r["search_metadata"]["count"]):
+                if ((r["statuses"][tweet])):
+                    try: 
+                        if (r["statuses"][tweet]["entities"]["urls"]!=[]):
+                    # if tweet entities exists  
+                             if(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"] not in urls):   
+                        #if url already exists do not append                 
+                                urls.append(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"])
+                    except:
+                        pass
+        ##next request 
+            r = requests.get(url="https://api.twitter.com/1.1/search/tweets.json?q=%23school%20filter%3Alinks&count=100&include_entities=true", auth=oauth)
+            r = r.json()
+            print r["search_metadata"]["count"] 
+            for tweet in range(r["search_metadata"]["count"]):
+                if ((r["statuses"][tweet])):
+                    try: 
+                        if (r["statuses"][tweet]["entities"]["urls"]!=[]):
+                    # if tweet entities exists  
+                             if(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"] not in urls):   
+                        #if url already exists do not append                 
+                                urls.append(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"])
+                    except:
+                        pass
+        ##next request 
+            r = requests.get(url="https://api.twitter.com/1.1/search/tweets.json?q=%23rails%20filter%3Alinks&count=100&include_entities=true", auth=oauth)
+            r = r.json()
+            print r["search_metadata"]["count"] 
+            for tweet in range(r["search_metadata"]["count"]):
+                if ((r["statuses"][tweet])):
+                    try: 
+                        if (r["statuses"][tweet]["entities"]["urls"]!=[]):
+                    # if tweet entities exists  
+                             if(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"] not in urls):   
+                        #if url already exists do not append                 
+                                urls.append(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"])
+                    except:
+                        pass
+        ##next request 
+            r = requests.get(url="https://api.twitter.com/1.1/search/tweets.json?q=%23code%20filter%3Alinks&count=100&include_entities=true", auth=oauth)
+            r = r.json()
+            print r["search_metadata"]["count"] 
+            for tweet in range(r["search_metadata"]["count"]):
+                if ((r["statuses"][tweet])):
+                    try: 
+                        if (r["statuses"][tweet]["entities"]["urls"]!=[]):
+                    # if tweet entities exists  
+                             if(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"] not in urls):   
+                        #if url already exists do not append                 
+                                urls.append(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"])
+                    except:
+                        pass
+        ##next request 
+            r = requests.get(url="https://api.twitter.com/1.1/search/tweets.json?q=%23college%20filter%3Alinks&count=100&include_entities=true", auth=oauth)
+            r = r.json()
+            print r["search_metadata"]["count"] 
+            for tweet in range(r["search_metadata"]["count"]):
+                if ((r["statuses"][tweet])):
+                    try: 
+                        if (r["statuses"][tweet]["entities"]["urls"]!=[]):
+                    # if tweet entities exists  
+                             if(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"] not in urls):   
+                        #if url already exists do not append                 
+                                urls.append(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"])
+                    except:
+                        pass
+
+        ##next request 
+            r = requests.get(url="https://api.twitter.com/1.1/search/tweets.json?q=%23css%20filter%3Alinks&count=100&include_entities=true", auth=oauth)
+            r = r.json()
+            print r["search_metadata"]["count"] 
+            for tweet in range(r["search_metadata"]["count"]):
+                if ((r["statuses"][tweet])):
+                    try: 
+                        if (r["statuses"][tweet]["entities"]["urls"]!=[]):
+                    # if tweet entities exists  
+                             if(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"] not in urls):   
+                        #if url already exists do not append                 
+                                urls.append(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"])
+                    except:
+                        pass
+        ##next request 
+            r = requests.get(url="https://api.twitter.com/1.1/search/tweets.json?q=%23hacker%20filter%3Alinks&count=100&include_entities=true", auth=oauth)
+            r = r.json()
+            print r["search_metadata"]["count"] 
+            for tweet in range(r["search_metadata"]["count"]):
+                if ((r["statuses"][tweet])):
+                    try: 
+                        if (r["statuses"][tweet]["entities"]["urls"]!=[]):
+                    # if tweet entities exists  
+                             if(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"] not in urls):   
+                        #if url already exists do not append                 
+                                urls.append(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"])
+                    except:
+                        pass
+        ##next request 
+            r = requests.get(url="https://api.twitter.com/1.1/search/tweets.json?q=%23science%20filter%3Alinks&count=100&include_entities=true", auth=oauth)
+            r = r.json()
+            print r["search_metadata"]["count"] 
+            for tweet in range(r["search_metadata"]["count"]):
+                if ((r["statuses"][tweet])):
+                    try: 
+                        if (r["statuses"][tweet]["entities"]["urls"]!=[]):
+                    # if tweet entities exists  
+                             if(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"] not in urls):   
+                        #if url already exists do not append                 
+                                urls.append(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"])
+                    except:
+                        pass
+        ##next request 
+            r = requests.get(url="https://api.twitter.com/1.1/search/tweets.json?q=%23computer%20filter%3Alinks&count=100&include_entities=true", auth=oauth)
+            r = r.json()
+            print r["search_metadata"]["count"] 
+            for tweet in range(r["search_metadata"]["count"]):
+                if ((r["statuses"][tweet])):
+                    try: 
+                        if (r["statuses"][tweet]["entities"]["urls"]!=[]):
+                    # if tweet entities exists  
+                             if(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"] not in urls):   
+                        #if url already exists do not append                 
+                                urls.append(r["statuses"][tweet]["entities"]["urls"][0]["expanded_url"])
+                    except:
+                        pass
+        ##next request 
+            r = requests.get(url="https://api.twitter.com/1.1/search/tweets.json?q=%23jobs%20filter%3Alinks&count=100&include_entities=true", auth=oauth)
             r = r.json()
             print r["search_metadata"]["count"] 
             for tweet in range(r["search_metadata"]["count"]):
@@ -119,5 +360,9 @@ if __name__ == "__main__":
                     except:
                         pass
             for links in urls:
-                 print links
-            print len(urls)
+                try:
+                    f.write (links+"\n")
+                except:
+                    pass
+            #pickle.dump(urls, workfile)
+            #print len(urls)

@@ -2,7 +2,6 @@
 python
 ruby
 csharp
-java
 go
 dart
 cpp
@@ -12,14 +11,5 @@ html5
 less
 sass
 rails
-django
-sinatra
-larvell
-backbonejs
-enyojs
-leaflet
-d3js
-php
-haskell
-scala
-fortran
+css
+hacker
