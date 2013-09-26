@@ -7,3 +7,11 @@ http://stackoverflow.com/questions/6257544/twitter-search-api-to-exclude-tweets-
 Original Boiler Plate
 --------------------
 http://thomassileo.com/blog/2013/01/25/using-twitter-rest-api-v1-dot-1-with-python/
+
+how to run bash curl
+http://stackoverflow.com/questions/5460923/run-bash-built-in-commands-in-python
+
+how to follow uris
+====================
+google group Dr. Nelson's Hint
+http://docs.python-requests.org/en/latest/

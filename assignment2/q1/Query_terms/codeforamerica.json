@@ -1,0 +1,3043 @@
+{
+  "search_metadata": {
+    "count": 15,
+    "completed_in": 0.043,
+    "max_id_str": "379350185492492288",
+    "since_id_str": "0",
+    "next_results": "?max_id=377887072310554623&q=%23codeforamerica&include_entities=1",
+    "refresh_url": "?since_id=379350185492492288&q=%23codeforamerica&include_entities=1",
+    "since_id": 0,
+    "query": "%23codeforamerica",
+    "max_id": 379350185492492288
+  },
+  "statuses": [
+    {
+      "contributors": null,
+      "truncated": false,
+      "text": "RT @nselby: What a fantastic week at @codeforamerica   thank you @Dharmishta, @ronboug , @timoreilly &amp; mentors &amp; fellows. #codeforamerica",
+      "in_reply_to_status_id": null,
+      "id": 379350185492492288,
+      "favorite_count": 0,
+      "source": "web",
+      "retweeted": false,
+      "coordinates": null,
+      "entities": {
+        "symbols": [],
+        "user_mentions": [
+          {
+            "id": 14409894,
+            "indices": [
+              3,
+              10
+            ],
+            "id_str": "14409894",
+            "screen_name": "nselby",
+            "name": "Nick Selby"
+          },
+          {
+            "id": 64482503,
+            "indices": [
+              37,
+              52
+            ],
+            "id_str": "64482503",
+            "screen_name": "codeforamerica",
+            "name": "Code for America"
+          },
+          {
+            "id": 14307231,
+            "indices": [
+              65,
+              76
+            ],
+            "id_str": "14307231",
+            "screen_name": "Dharmishta",
+            "name": "Dharmishta Rood"
+          },
+          {
+            "id": 57844405,
+            "indices": [
+              78,
+              86
+            ],
+            "id_str": "57844405",
+            "screen_name": "ronboug",
+            "name": "ron bouganim"
+          },
+          {
+            "id": 2384071,
+            "indices": [
+              89,
+              100
+            ],
+            "id_str": "2384071",
+            "screen_name": "timoreilly",
+            "name": "Tim O'Reilly"
+          }
+        ],
+        "hashtags": [
+          {
+            "indices": [
+              130,
+              145
+            ],
+            "text": "codeforamerica"
+          }
+        ],
+        "urls": []
+      },
+      "in_reply_to_screen_name": null,
+      "in_reply_to_user_id": null,
+      "retweet_count": 1,
+      "id_str": "379350185492492288",
+      "favorited": false,
+      "retweeted_status": {
+        "contributors": null,
+        "truncated": false,
+        "text": "What a fantastic week at @codeforamerica   thank you @Dharmishta, @ronboug , @timoreilly &amp; mentors &amp; fellows. #codeforamerica",
+        "in_reply_to_status_id": null,
+        "id": 378886215740555265,
+        "favorite_count": 0,
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "retweeted": false,
+        "coordinates": null,
+        "entities": {
+          "symbols": [],
+          "user_mentions": [
+            {
+              "id": 64482503,
+              "indices": [
+                25,
+                40
+              ],
+              "id_str": "64482503",
+              "screen_name": "codeforamerica",
+              "name": "Code for America"
+            },
+            {
+              "id": 14307231,
+              "indices": [
+                53,
+                64
+              ],
+              "id_str": "14307231",
+              "screen_name": "Dharmishta",
+              "name": "Dharmishta Rood"
+            },
+            {
+              "id": 57844405,
+              "indices": [
+                66,
+                74
+              ],
+              "id_str": "57844405",
+              "screen_name": "ronboug",
+              "name": "ron bouganim"
+            },
+            {
+              "id": 2384071,
+              "indices": [
+                77,
+                88
+              ],
+              "id_str": "2384071",
+              "screen_name": "timoreilly",
+              "name": "Tim O'Reilly"
+            }
+          ],
+          "hashtags": [
+            {
+              "indices": [
+                118,
+                133
+              ],
+              "text": "codeforamerica"
+            }
+          ],
+          "urls": []
+        },
+        "in_reply_to_screen_name": null,
+        "in_reply_to_user_id": null,
+        "retweet_count": 1,
+        "id_str": "378886215740555265",
+        "favorited": false,
+        "user": {
+          "follow_request_sent": false,
+          "profile_use_background_image": false,
+          "default_profile_image": false,
+          "id": 14409894,
+          "verified": false,
+          "profile_text_color": "333333",
+          "profile_image_url_https": "https://si0.twimg.com/profile_images/1381342022/selby-twitter_normal.png",
+          "profile_sidebar_fill_color": "DDFFCC",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "http://t.co/FbWuhpgK3y",
+                  "indices": [
+                    0,
+                    22
+                  ],
+                  "expanded_url": "http://nickselby.com",
+                  "display_url": "nickselby.com"
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "followers_count": 5110,
+          "profile_sidebar_border_color": "BDDCAD",
+          "id_str": "14409894",
+          "profile_background_color": "9AE4E8",
+          "listed_count": 292,
+          "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/4136193/950TE-hawks-cay-th.jpg",
+          "utc_offset": -18000,
+          "statuses_count": 17222,
+          "description": "CEO of StreetCred Software (a Code for America Accelerator company). TX Cop. Cyber Incident Responder. Tweets reflect my views, not those of StreetCred or CfA.",
+          "friends_count": 1998,
+          "location": "US",
+          "profile_link_color": "0084B4",
+          "profile_image_url": "http://a0.twimg.com/profile_images/1381342022/selby-twitter_normal.png",
+          "following": false,
+          "geo_enabled": false,
+          "profile_background_image_url": "http://a0.twimg.com/profile_background_images/4136193/950TE-hawks-cay-th.jpg",
+          "screen_name": "nselby",
+          "lang": "en",
+          "profile_background_tile": false,
+          "favourites_count": 0,
+          "name": "Nick Selby",
+          "notifications": false,
+          "url": "http://t.co/FbWuhpgK3y",
+          "created_at": "Wed Apr 16 16:35:58 +0000 2008",
+          "contributors_enabled": false,
+          "time_zone": "Bogota",
+          "protected": false,
+          "default_profile": false,
+          "is_translator": false
+        },
+        "geo": null,
+        "in_reply_to_user_id_str": null,
+        "lang": "en",
+        "created_at": "Sat Sep 14 14:21:27 +0000 2013",
+        "in_reply_to_status_id_str": null,
+        "place": null,
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        }
+      },
+      "user": {
+        "follow_request_sent": false,
+        "profile_use_background_image": false,
+        "default_profile_image": false,
+        "id": 64482503,
+        "verified": false,
+        "profile_text_color": "333333",
+        "profile_image_url_https": "https://si0.twimg.com/profile_images/378800000054717245/3a30f0f49c610082825bc1975554d004_normal.png",
+        "profile_sidebar_fill_color": "F3F3F3",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/ev5XaNq0Og",
+                "indices": [
+                  0,
+                  22
+                ],
+                "expanded_url": "http://codeforamerica.org",
+                "display_url": "codeforamerica.org"
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "followers_count": 20308,
+        "profile_sidebar_border_color": "FFFFFF",
+        "id_str": "64482503",
+        "profile_background_color": "EBEBEB",
+        "listed_count": 1425,
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme7/bg.gif",
+        "utc_offset": -25200,
+        "statuses_count": 6973,
+        "description": "Government can work for the people, by the people, in the 21st century. Help us make it so.",
+        "friends_count": 899,
+        "location": "San Francisco, California",
+        "profile_link_color": "CF1B41",
+        "profile_image_url": "http://a0.twimg.com/profile_images/378800000054717245/3a30f0f49c610082825bc1975554d004_normal.png",
+        "following": true,
+        "geo_enabled": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/64482503/1355962838",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme7/bg.gif",
+        "screen_name": "codeforamerica",
+        "lang": "en",
+        "profile_background_tile": false,
+        "favourites_count": 31,
+        "name": "Code for America",
+        "notifications": false,
+        "url": "http://t.co/ev5XaNq0Og",
+        "created_at": "Mon Aug 10 18:59:29 +0000 2009",
+        "contributors_enabled": false,
+        "time_zone": "Pacific Time (US & Canada)",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+      },
+      "geo": null,
+      "in_reply_to_user_id_str": null,
+      "lang": "en",
+      "created_at": "Sun Sep 15 21:05:06 +0000 2013",
+      "in_reply_to_status_id_str": null,
+      "place": null,
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      }
+    },
+    {
+      "contributors": null,
+      "truncated": false,
+      "text": "What a fantastic week at @codeforamerica   thank you @Dharmishta, @ronboug , @timoreilly &amp; mentors &amp; fellows. #codeforamerica",
+      "in_reply_to_status_id": null,
+      "id": 378886215740555265,
+      "favorite_count": 0,
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "retweeted": false,
+      "coordinates": null,
+      "entities": {
+        "symbols": [],
+        "user_mentions": [
+          {
+            "id": 64482503,
+            "indices": [
+              25,
+              40
+            ],
+            "id_str": "64482503",
+            "screen_name": "codeforamerica",
+            "name": "Code for America"
+          },
+          {
+            "id": 14307231,
+            "indices": [
+              53,
+              64
+            ],
+            "id_str": "14307231",
+            "screen_name": "Dharmishta",
+            "name": "Dharmishta Rood"
+          },
+          {
+            "id": 57844405,
+            "indices": [
+              66,
+              74
+            ],
+            "id_str": "57844405",
+            "screen_name": "ronboug",
+            "name": "ron bouganim"
+          },
+          {
+            "id": 2384071,
+            "indices": [
+              77,
+              88
+            ],
+            "id_str": "2384071",
+            "screen_name": "timoreilly",
+            "name": "Tim O'Reilly"
+          }
+        ],
+        "hashtags": [
+          {
+            "indices": [
+              118,
+              133
+            ],
+            "text": "codeforamerica"
+          }
+        ],
+        "urls": []
+      },
+      "in_reply_to_screen_name": null,
+      "in_reply_to_user_id": null,
+      "retweet_count": 1,
+      "id_str": "378886215740555265",
+      "favorited": false,
+      "user": {
+        "follow_request_sent": false,
+        "profile_use_background_image": false,
+        "default_profile_image": false,
+        "id": 14409894,
+        "verified": false,
+        "profile_text_color": "333333",
+        "profile_image_url_https": "https://si0.twimg.com/profile_images/1381342022/selby-twitter_normal.png",
+        "profile_sidebar_fill_color": "DDFFCC",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/FbWuhpgK3y",
+                "indices": [
+                  0,
+                  22
+                ],
+                "expanded_url": "http://nickselby.com",
+                "display_url": "nickselby.com"
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "followers_count": 5110,
+        "profile_sidebar_border_color": "BDDCAD",
+        "id_str": "14409894",
+        "profile_background_color": "9AE4E8",
+        "listed_count": 292,
+        "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/4136193/950TE-hawks-cay-th.jpg",
+        "utc_offset": -18000,
+        "statuses_count": 17222,
+        "description": "CEO of StreetCred Software (a Code for America Accelerator company). TX Cop. Cyber Incident Responder. Tweets reflect my views, not those of StreetCred or CfA.",
+        "friends_count": 1998,
+        "location": "US",
+        "profile_link_color": "0084B4",
+        "profile_image_url": "http://a0.twimg.com/profile_images/1381342022/selby-twitter_normal.png",
+        "following": false,
+        "geo_enabled": false,
+        "profile_background_image_url": "http://a0.twimg.com/profile_background_images/4136193/950TE-hawks-cay-th.jpg",
+        "screen_name": "nselby",
+        "lang": "en",
+        "profile_background_tile": false,
+        "favourites_count": 0,
+        "name": "Nick Selby",
+        "notifications": false,
+        "url": "http://t.co/FbWuhpgK3y",
+        "created_at": "Wed Apr 16 16:35:58 +0000 2008",
+        "contributors_enabled": false,
+        "time_zone": "Bogota",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+      },
+      "geo": null,
+      "in_reply_to_user_id_str": null,
+      "lang": "en",
+      "created_at": "Sat Sep 14 14:21:27 +0000 2013",
+      "in_reply_to_status_id_str": null,
+      "place": null,
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      }
+    },
+    {
+      "contributors": null,
+      "truncated": false,
+      "text": "RT @krysfree: Rise to the \"Resilient Cities\" challenge! Join us for #HackCitySF at #CodeforAmerica 9/20 - Register now &gt;&gt; http://t.co/IKalo…",
+      "in_reply_to_status_id": null,
+      "id": 378438573391093760,
+      "favorite_count": 0,
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "retweeted": false,
+      "coordinates": null,
+      "entities": {
+        "symbols": [],
+        "user_mentions": [
+          {
+            "id": 13368892,
+            "indices": [
+              3,
+              12
+            ],
+            "id_str": "13368892",
+            "screen_name": "krysfree",
+            "name": "krys"
+          }
+        ],
+        "hashtags": [
+          {
+            "indices": [
+              68,
+              79
+            ],
+            "text": "HackCitySF"
+          },
+          {
+            "indices": [
+              83,
+              98
+            ],
+            "text": "CodeforAmerica"
+          }
+        ],
+        "urls": []
+      },
+      "in_reply_to_screen_name": null,
+      "in_reply_to_user_id": null,
+      "retweet_count": 1,
+      "id_str": "378438573391093760",
+      "favorited": false,
+      "retweeted_status": {
+        "contributors": null,
+        "truncated": false,
+        "text": "Rise to the \"Resilient Cities\" challenge! Join us for #HackCitySF at #CodeforAmerica 9/20 - Register now &gt;&gt; http://t.co/IKaloXb1MU",
+        "in_reply_to_status_id": null,
+        "id": 378277247418781696,
+        "favorite_count": 0,
+        "source": "<a href=\"http://twitter.com/tweetbutton\" rel=\"nofollow\">Tweet Button</a>",
+        "retweeted": false,
+        "coordinates": null,
+        "entities": {
+          "symbols": [],
+          "user_mentions": [],
+          "hashtags": [
+            {
+              "indices": [
+                54,
+                65
+              ],
+              "text": "HackCitySF"
+            },
+            {
+              "indices": [
+                69,
+                84
+              ],
+              "text": "CodeforAmerica"
+            }
+          ],
+          "urls": [
+            {
+              "url": "http://t.co/IKaloXb1MU",
+              "indices": [
+                114,
+                136
+              ],
+              "expanded_url": "http://grn.bz/1d8aIKr",
+              "display_url": "grn.bz/1d8aIKr"
+            }
+          ]
+        },
+        "in_reply_to_screen_name": null,
+        "in_reply_to_user_id": null,
+        "retweet_count": 1,
+        "id_str": "378277247418781696",
+        "favorited": false,
+        "user": {
+          "follow_request_sent": false,
+          "profile_use_background_image": false,
+          "default_profile_image": false,
+          "id": 13368892,
+          "verified": false,
+          "profile_text_color": "D82222",
+          "profile_image_url_https": "https://si0.twimg.com/profile_images/3749531931/238c8f21f2b48b585eb74423f8b2e55c_normal.jpeg",
+          "profile_sidebar_fill_color": "B8B8B8",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "http://t.co/nLwMxKkcMs",
+                  "indices": [
+                    0,
+                    22
+                  ],
+                  "expanded_url": "http://about.krysfreeman.com",
+                  "display_url": "about.krysfreeman.com"
+                }
+              ]
+            },
+            "description": {
+              "urls": [
+                {
+                  "url": "http://t.co/yoF3ZA8Gni",
+                  "indices": [
+                    31,
+                    53
+                  ],
+                  "expanded_url": "http://grn.bz/HackCity13",
+                  "display_url": "grn.bz/HackCity13"
+                }
+              ]
+            }
+          },
+          "followers_count": 2558,
+          "profile_sidebar_border_color": "000000",
+          "id_str": "13368892",
+          "profile_background_color": "000000",
+          "listed_count": 110,
+          "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/19954503/blktwtbkgsmpl.png",
+          "utc_offset": -25200,
+          "statuses_count": 13125,
+          "description": "[ Event Producer #HackCitySF - http://t.co/yoF3ZA8Gni ] \r\nOtherwise known as @bLaKtivist | Co-Founder @Khafra_Co",
+          "friends_count": 504,
+          "location": "Oakland",
+          "profile_link_color": "D19F08",
+          "profile_image_url": "http://a0.twimg.com/profile_images/3749531931/238c8f21f2b48b585eb74423f8b2e55c_normal.jpeg",
+          "following": false,
+          "geo_enabled": false,
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/13368892/1377075827",
+          "profile_background_image_url": "http://a0.twimg.com/profile_background_images/19954503/blktwtbkgsmpl.png",
+          "screen_name": "krysfree",
+          "lang": "en",
+          "profile_background_tile": false,
+          "favourites_count": 888,
+          "name": "krys",
+          "notifications": false,
+          "url": "http://t.co/nLwMxKkcMs",
+          "created_at": "Mon Feb 11 23:54:25 +0000 2008",
+          "contributors_enabled": false,
+          "time_zone": "Pacific Time (US & Canada)",
+          "protected": false,
+          "default_profile": false,
+          "is_translator": false
+        },
+        "geo": null,
+        "in_reply_to_user_id_str": null,
+        "possibly_sensitive": false,
+        "lang": "en",
+        "created_at": "Thu Sep 12 22:01:38 +0000 2013",
+        "in_reply_to_status_id_str": null,
+        "place": null,
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        }
+      },
+      "user": {
+        "follow_request_sent": false,
+        "profile_use_background_image": true,
+        "default_profile_image": false,
+        "id": 292372173,
+        "verified": false,
+        "profile_text_color": "333333",
+        "profile_image_url_https": "https://si0.twimg.com/profile_images/378800000319131487/6ff1130882bc3af836e56523b0c797bc_normal.jpeg",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/Wtn7cEEFPb",
+                "indices": [
+                  0,
+                  22
+                ],
+                "expanded_url": "http://ardorbrand.com",
+                "display_url": "ardorbrand.com"
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "followers_count": 489,
+        "profile_sidebar_border_color": "FFFFFF",
+        "id_str": "292372173",
+        "profile_background_color": "E6E6E6",
+        "listed_count": 15,
+        "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/378800000054387134/c2cc17f6e2b24785d5d641f331b430f4.png",
+        "utc_offset": -18000,
+        "statuses_count": 12309,
+        "description": "Building brands and dreams one tweet/post/email/update at a time.",
+        "friends_count": 409,
+        "location": "Philadelphia | DC |  Oakland",
+        "profile_link_color": "D60824",
+        "profile_image_url": "http://a0.twimg.com/profile_images/378800000319131487/6ff1130882bc3af836e56523b0c797bc_normal.jpeg",
+        "following": false,
+        "geo_enabled": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/292372173/1376846185",
+        "profile_background_image_url": "http://a0.twimg.com/profile_background_images/378800000054387134/c2cc17f6e2b24785d5d641f331b430f4.png",
+        "screen_name": "TheArdorBrand",
+        "lang": "en",
+        "profile_background_tile": true,
+        "favourites_count": 18,
+        "name": "The Ardor Brand",
+        "notifications": false,
+        "url": "http://t.co/Wtn7cEEFPb",
+        "created_at": "Tue May 03 15:02:56 +0000 2011",
+        "contributors_enabled": false,
+        "time_zone": "Quito",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+      },
+      "geo": null,
+      "in_reply_to_user_id_str": null,
+      "lang": "en",
+      "created_at": "Fri Sep 13 08:42:41 +0000 2013",
+      "in_reply_to_status_id_str": null,
+      "place": null,
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      }
+    },
+    {
+      "contributors": null,
+      "truncated": false,
+      "text": "RT @GrnBzEvents: 9/20-9/22 at #CodeforAmerica - #HackCitySF. If you're a #hacker, #designer, #urbanplanner, #entrepreneur we want you! http…",
+      "in_reply_to_status_id": null,
+      "id": 378438503736287232,
+      "favorite_count": 0,
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "retweeted": false,
+      "coordinates": null,
+      "entities": {
+        "symbols": [],
+        "user_mentions": [
+          {
+            "id": 286307191,
+            "indices": [
+              3,
+              15
+            ],
+            "id_str": "286307191",
+            "screen_name": "GrnBzEvents",
+            "name": "GreenBiz Events"
+          }
+        ],
+        "hashtags": [
+          {
+            "indices": [
+              30,
+              45
+            ],
+            "text": "CodeforAmerica"
+          },
+          {
+            "indices": [
+              48,
+              59
+            ],
+            "text": "HackCitySF"
+          },
+          {
+            "indices": [
+              73,
+              80
+            ],
+            "text": "hacker"
+          },
+          {
+            "indices": [
+              82,
+              91
+            ],
+            "text": "designer"
+          },
+          {
+            "indices": [
+              93,
+              106
+            ],
+            "text": "urbanplanner"
+          },
+          {
+            "indices": [
+              108,
+              121
+            ],
+            "text": "entrepreneur"
+          }
+        ],
+        "urls": []
+      },
+      "in_reply_to_screen_name": null,
+      "in_reply_to_user_id": null,
+      "retweet_count": 2,
+      "id_str": "378438503736287232",
+      "favorited": false,
+      "retweeted_status": {
+        "contributors": null,
+        "truncated": false,
+        "text": "9/20-9/22 at #CodeforAmerica - #HackCitySF. If you're a #hacker, #designer, #urbanplanner, #entrepreneur we want you! http://t.co/E6jo4ZpGRc",
+        "in_reply_to_status_id": null,
+        "id": 378213286543519745,
+        "favorite_count": 1,
+        "source": "<a href=\"http://twitter.com/tweetbutton\" rel=\"nofollow\">Tweet Button</a>",
+        "retweeted": false,
+        "coordinates": null,
+        "entities": {
+          "symbols": [],
+          "user_mentions": [],
+          "hashtags": [
+            {
+              "indices": [
+                13,
+                28
+              ],
+              "text": "CodeforAmerica"
+            },
+            {
+              "indices": [
+                31,
+                42
+              ],
+              "text": "HackCitySF"
+            },
+            {
+              "indices": [
+                56,
+                63
+              ],
+              "text": "hacker"
+            },
+            {
+              "indices": [
+                65,
+                74
+              ],
+              "text": "designer"
+            },
+            {
+              "indices": [
+                76,
+                89
+              ],
+              "text": "urbanplanner"
+            },
+            {
+              "indices": [
+                91,
+                104
+              ],
+              "text": "entrepreneur"
+            }
+          ],
+          "urls": [
+            {
+              "url": "http://t.co/E6jo4ZpGRc",
+              "indices": [
+                118,
+                140
+              ],
+              "expanded_url": "http://grn.bz/1d8aIKr",
+              "display_url": "grn.bz/1d8aIKr"
+            }
+          ]
+        },
+        "in_reply_to_screen_name": null,
+        "in_reply_to_user_id": null,
+        "retweet_count": 2,
+        "id_str": "378213286543519745",
+        "favorited": false,
+        "user": {
+          "follow_request_sent": false,
+          "profile_use_background_image": true,
+          "default_profile_image": false,
+          "id": 286307191,
+          "verified": false,
+          "profile_text_color": "333333",
+          "profile_image_url_https": "https://si0.twimg.com/profile_images/1345653708/grnbz_twitter_g4_normal.jpg",
+          "profile_sidebar_fill_color": "83D9E4",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "http://t.co/bllKDwqL9X",
+                  "indices": [
+                    0,
+                    22
+                  ],
+                  "expanded_url": "http://www.GreenBiz.com/events",
+                  "display_url": "GreenBiz.com/events"
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "followers_count": 380,
+          "profile_sidebar_border_color": "26B4CA",
+          "id_str": "286307191",
+          "profile_background_color": "FFFFFF",
+          "listed_count": 14,
+          "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/274944753/twitter-background-circles-v2-06212011.jpg",
+          "utc_offset": -25200,
+          "statuses_count": 550,
+          "description": "",
+          "friends_count": 104,
+          "location": "Oakland, CA",
+          "profile_link_color": "26B4CA",
+          "profile_image_url": "http://a0.twimg.com/profile_images/1345653708/grnbz_twitter_g4_normal.jpg",
+          "following": false,
+          "geo_enabled": false,
+          "profile_background_image_url": "http://a0.twimg.com/profile_background_images/274944753/twitter-background-circles-v2-06212011.jpg",
+          "screen_name": "GrnBzEvents",
+          "lang": "en",
+          "profile_background_tile": false,
+          "favourites_count": 1,
+          "name": "GreenBiz Events",
+          "notifications": false,
+          "url": "http://t.co/bllKDwqL9X",
+          "created_at": "Fri Apr 22 18:55:26 +0000 2011",
+          "contributors_enabled": false,
+          "time_zone": "Pacific Time (US & Canada)",
+          "protected": false,
+          "default_profile": false,
+          "is_translator": false
+        },
+        "geo": null,
+        "in_reply_to_user_id_str": null,
+        "possibly_sensitive": false,
+        "lang": "en",
+        "created_at": "Thu Sep 12 17:47:29 +0000 2013",
+        "in_reply_to_status_id_str": null,
+        "place": null,
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        }
+      },
+      "user": {
+        "follow_request_sent": false,
+        "profile_use_background_image": true,
+        "default_profile_image": false,
+        "id": 292372173,
+        "verified": false,
+        "profile_text_color": "333333",
+        "profile_image_url_https": "https://si0.twimg.com/profile_images/378800000319131487/6ff1130882bc3af836e56523b0c797bc_normal.jpeg",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/Wtn7cEEFPb",
+                "indices": [
+                  0,
+                  22
+                ],
+                "expanded_url": "http://ardorbrand.com",
+                "display_url": "ardorbrand.com"
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "followers_count": 489,
+        "profile_sidebar_border_color": "FFFFFF",
+        "id_str": "292372173",
+        "profile_background_color": "E6E6E6",
+        "listed_count": 15,
+        "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/378800000054387134/c2cc17f6e2b24785d5d641f331b430f4.png",
+        "utc_offset": -18000,
+        "statuses_count": 12309,
+        "description": "Building brands and dreams one tweet/post/email/update at a time.",
+        "friends_count": 409,
+        "location": "Philadelphia | DC |  Oakland",
+        "profile_link_color": "D60824",
+        "profile_image_url": "http://a0.twimg.com/profile_images/378800000319131487/6ff1130882bc3af836e56523b0c797bc_normal.jpeg",
+        "following": false,
+        "geo_enabled": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/292372173/1376846185",
+        "profile_background_image_url": "http://a0.twimg.com/profile_background_images/378800000054387134/c2cc17f6e2b24785d5d641f331b430f4.png",
+        "screen_name": "TheArdorBrand",
+        "lang": "en",
+        "profile_background_tile": true,
+        "favourites_count": 18,
+        "name": "The Ardor Brand",
+        "notifications": false,
+        "url": "http://t.co/Wtn7cEEFPb",
+        "created_at": "Tue May 03 15:02:56 +0000 2011",
+        "contributors_enabled": false,
+        "time_zone": "Quito",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+      },
+      "geo": null,
+      "in_reply_to_user_id_str": null,
+      "lang": "en",
+      "created_at": "Fri Sep 13 08:42:25 +0000 2013",
+      "in_reply_to_status_id_str": null,
+      "place": null,
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      }
+    },
+    {
+      "contributors": null,
+      "truncated": false,
+      "text": "RT @GrnBzEvents: 9/20-9/22 at #CodeforAmerica - #HackCitySF. If you're a #hacker, #designer, #urbanplanner, #entrepreneur we want you! http…",
+      "in_reply_to_status_id": null,
+      "id": 378294853089513472,
+      "favorite_count": 0,
+      "source": "web",
+      "retweeted": false,
+      "coordinates": null,
+      "entities": {
+        "symbols": [],
+        "user_mentions": [
+          {
+            "id": 286307191,
+            "indices": [
+              3,
+              15
+            ],
+            "id_str": "286307191",
+            "screen_name": "GrnBzEvents",
+            "name": "GreenBiz Events"
+          }
+        ],
+        "hashtags": [
+          {
+            "indices": [
+              30,
+              45
+            ],
+            "text": "CodeforAmerica"
+          },
+          {
+            "indices": [
+              48,
+              59
+            ],
+            "text": "HackCitySF"
+          },
+          {
+            "indices": [
+              73,
+              80
+            ],
+            "text": "hacker"
+          },
+          {
+            "indices": [
+              82,
+              91
+            ],
+            "text": "designer"
+          },
+          {
+            "indices": [
+              93,
+              106
+            ],
+            "text": "urbanplanner"
+          },
+          {
+            "indices": [
+              108,
+              121
+            ],
+            "text": "entrepreneur"
+          }
+        ],
+        "urls": []
+      },
+      "in_reply_to_screen_name": null,
+      "in_reply_to_user_id": null,
+      "retweet_count": 2,
+      "id_str": "378294853089513472",
+      "favorited": false,
+      "retweeted_status": {
+        "contributors": null,
+        "truncated": false,
+        "text": "9/20-9/22 at #CodeforAmerica - #HackCitySF. If you're a #hacker, #designer, #urbanplanner, #entrepreneur we want you! http://t.co/E6jo4ZpGRc",
+        "in_reply_to_status_id": null,
+        "id": 378213286543519745,
+        "favorite_count": 1,
+        "source": "<a href=\"http://twitter.com/tweetbutton\" rel=\"nofollow\">Tweet Button</a>",
+        "retweeted": false,
+        "coordinates": null,
+        "entities": {
+          "symbols": [],
+          "user_mentions": [],
+          "hashtags": [
+            {
+              "indices": [
+                13,
+                28
+              ],
+              "text": "CodeforAmerica"
+            },
+            {
+              "indices": [
+                31,
+                42
+              ],
+              "text": "HackCitySF"
+            },
+            {
+              "indices": [
+                56,
+                63
+              ],
+              "text": "hacker"
+            },
+            {
+              "indices": [
+                65,
+                74
+              ],
+              "text": "designer"
+            },
+            {
+              "indices": [
+                76,
+                89
+              ],
+              "text": "urbanplanner"
+            },
+            {
+              "indices": [
+                91,
+                104
+              ],
+              "text": "entrepreneur"
+            }
+          ],
+          "urls": [
+            {
+              "url": "http://t.co/E6jo4ZpGRc",
+              "indices": [
+                118,
+                140
+              ],
+              "expanded_url": "http://grn.bz/1d8aIKr",
+              "display_url": "grn.bz/1d8aIKr"
+            }
+          ]
+        },
+        "in_reply_to_screen_name": null,
+        "in_reply_to_user_id": null,
+        "retweet_count": 2,
+        "id_str": "378213286543519745",
+        "favorited": false,
+        "user": {
+          "follow_request_sent": false,
+          "profile_use_background_image": true,
+          "default_profile_image": false,
+          "id": 286307191,
+          "verified": false,
+          "profile_text_color": "333333",
+          "profile_image_url_https": "https://si0.twimg.com/profile_images/1345653708/grnbz_twitter_g4_normal.jpg",
+          "profile_sidebar_fill_color": "83D9E4",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "http://t.co/bllKDwqL9X",
+                  "indices": [
+                    0,
+                    22
+                  ],
+                  "expanded_url": "http://www.GreenBiz.com/events",
+                  "display_url": "GreenBiz.com/events"
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "followers_count": 380,
+          "profile_sidebar_border_color": "26B4CA",
+          "id_str": "286307191",
+          "profile_background_color": "FFFFFF",
+          "listed_count": 14,
+          "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/274944753/twitter-background-circles-v2-06212011.jpg",
+          "utc_offset": -25200,
+          "statuses_count": 550,
+          "description": "",
+          "friends_count": 104,
+          "location": "Oakland, CA",
+          "profile_link_color": "26B4CA",
+          "profile_image_url": "http://a0.twimg.com/profile_images/1345653708/grnbz_twitter_g4_normal.jpg",
+          "following": false,
+          "geo_enabled": false,
+          "profile_background_image_url": "http://a0.twimg.com/profile_background_images/274944753/twitter-background-circles-v2-06212011.jpg",
+          "screen_name": "GrnBzEvents",
+          "lang": "en",
+          "profile_background_tile": false,
+          "favourites_count": 1,
+          "name": "GreenBiz Events",
+          "notifications": false,
+          "url": "http://t.co/bllKDwqL9X",
+          "created_at": "Fri Apr 22 18:55:26 +0000 2011",
+          "contributors_enabled": false,
+          "time_zone": "Pacific Time (US & Canada)",
+          "protected": false,
+          "default_profile": false,
+          "is_translator": false
+        },
+        "geo": null,
+        "in_reply_to_user_id_str": null,
+        "possibly_sensitive": false,
+        "lang": "en",
+        "created_at": "Thu Sep 12 17:47:29 +0000 2013",
+        "in_reply_to_status_id_str": null,
+        "place": null,
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        }
+      },
+      "user": {
+        "follow_request_sent": false,
+        "profile_use_background_image": false,
+        "default_profile_image": false,
+        "id": 13368892,
+        "verified": false,
+        "profile_text_color": "D82222",
+        "profile_image_url_https": "https://si0.twimg.com/profile_images/3749531931/238c8f21f2b48b585eb74423f8b2e55c_normal.jpeg",
+        "profile_sidebar_fill_color": "B8B8B8",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/nLwMxKkcMs",
+                "indices": [
+                  0,
+                  22
+                ],
+                "expanded_url": "http://about.krysfreeman.com",
+                "display_url": "about.krysfreeman.com"
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "http://t.co/yoF3ZA8Gni",
+                "indices": [
+                  31,
+                  53
+                ],
+                "expanded_url": "http://grn.bz/HackCity13",
+                "display_url": "grn.bz/HackCity13"
+              }
+            ]
+          }
+        },
+        "followers_count": 2558,
+        "profile_sidebar_border_color": "000000",
+        "id_str": "13368892",
+        "profile_background_color": "000000",
+        "listed_count": 110,
+        "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/19954503/blktwtbkgsmpl.png",
+        "utc_offset": -25200,
+        "statuses_count": 13125,
+        "description": "[ Event Producer #HackCitySF - http://t.co/yoF3ZA8Gni ] \r\nOtherwise known as @bLaKtivist | Co-Founder @Khafra_Co",
+        "friends_count": 504,
+        "location": "Oakland",
+        "profile_link_color": "D19F08",
+        "profile_image_url": "http://a0.twimg.com/profile_images/3749531931/238c8f21f2b48b585eb74423f8b2e55c_normal.jpeg",
+        "following": false,
+        "geo_enabled": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/13368892/1377075827",
+        "profile_background_image_url": "http://a0.twimg.com/profile_background_images/19954503/blktwtbkgsmpl.png",
+        "screen_name": "krysfree",
+        "lang": "en",
+        "profile_background_tile": false,
+        "favourites_count": 888,
+        "name": "krys",
+        "notifications": false,
+        "url": "http://t.co/nLwMxKkcMs",
+        "created_at": "Mon Feb 11 23:54:25 +0000 2008",
+        "contributors_enabled": false,
+        "time_zone": "Pacific Time (US & Canada)",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+      },
+      "geo": null,
+      "in_reply_to_user_id_str": null,
+      "lang": "en",
+      "created_at": "Thu Sep 12 23:11:36 +0000 2013",
+      "in_reply_to_status_id_str": null,
+      "place": null,
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      }
+    },
+    {
+      "contributors": null,
+      "truncated": false,
+      "text": "RT @codeforamerica: Great night with @code4sac, getting started on a new member orientation program #codeforamerica&amp;mdash; Emma... http://t…",
+      "in_reply_to_status_id": null,
+      "id": 378286432835891200,
+      "favorite_count": 0,
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "retweeted": false,
+      "coordinates": null,
+      "entities": {
+        "symbols": [],
+        "user_mentions": [
+          {
+            "id": 64482503,
+            "indices": [
+              3,
+              18
+            ],
+            "id_str": "64482503",
+            "screen_name": "codeforamerica",
+            "name": "Code for America"
+          },
+          {
+            "id": 1244345905,
+            "indices": [
+              37,
+              46
+            ],
+            "id_str": "1244345905",
+            "screen_name": "code4sac",
+            "name": "Code for Sacramento"
+          }
+        ],
+        "hashtags": [
+          {
+            "indices": [
+              100,
+              115
+            ],
+            "text": "codeforamerica"
+          }
+        ],
+        "urls": []
+      },
+      "in_reply_to_screen_name": null,
+      "in_reply_to_user_id": null,
+      "retweet_count": 1,
+      "id_str": "378286432835891200",
+      "favorited": false,
+      "retweeted_status": {
+        "contributors": null,
+        "truncated": false,
+        "text": "Great night with @code4sac, getting started on a new member orientation program #codeforamerica&amp;mdash; Emma... http://t.co/YNbYOmeCcc",
+        "in_reply_to_status_id": null,
+        "id": 378154612530094081,
+        "favorite_count": 0,
+        "source": "<a href=\"http://www.tumblr.com/\" rel=\"nofollow\">Tumblr</a>",
+        "retweeted": false,
+        "coordinates": null,
+        "entities": {
+          "symbols": [],
+          "user_mentions": [
+            {
+              "id": 1244345905,
+              "indices": [
+                17,
+                26
+              ],
+              "id_str": "1244345905",
+              "screen_name": "code4sac",
+              "name": "Code for Sacramento"
+            }
+          ],
+          "hashtags": [
+            {
+              "indices": [
+                80,
+                95
+              ],
+              "text": "codeforamerica"
+            }
+          ],
+          "urls": [
+            {
+              "url": "http://t.co/YNbYOmeCcc",
+              "indices": [
+                115,
+                137
+              ],
+              "expanded_url": "http://tmblr.co/ZQ1ANwurCeOp",
+              "display_url": "tmblr.co/ZQ1ANwurCeOp"
+            }
+          ]
+        },
+        "in_reply_to_screen_name": null,
+        "in_reply_to_user_id": null,
+        "retweet_count": 1,
+        "id_str": "378154612530094081",
+        "favorited": false,
+        "user": {
+          "follow_request_sent": false,
+          "profile_use_background_image": false,
+          "default_profile_image": false,
+          "id": 64482503,
+          "verified": false,
+          "profile_text_color": "333333",
+          "profile_image_url_https": "https://si0.twimg.com/profile_images/378800000054717245/3a30f0f49c610082825bc1975554d004_normal.png",
+          "profile_sidebar_fill_color": "F3F3F3",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "http://t.co/ev5XaNq0Og",
+                  "indices": [
+                    0,
+                    22
+                  ],
+                  "expanded_url": "http://codeforamerica.org",
+                  "display_url": "codeforamerica.org"
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "followers_count": 20308,
+          "profile_sidebar_border_color": "FFFFFF",
+          "id_str": "64482503",
+          "profile_background_color": "EBEBEB",
+          "listed_count": 1425,
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme7/bg.gif",
+          "utc_offset": -25200,
+          "statuses_count": 6973,
+          "description": "Government can work for the people, by the people, in the 21st century. Help us make it so.",
+          "friends_count": 899,
+          "location": "San Francisco, California",
+          "profile_link_color": "CF1B41",
+          "profile_image_url": "http://a0.twimg.com/profile_images/378800000054717245/3a30f0f49c610082825bc1975554d004_normal.png",
+          "following": true,
+          "geo_enabled": false,
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/64482503/1355962838",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme7/bg.gif",
+          "screen_name": "codeforamerica",
+          "lang": "en",
+          "profile_background_tile": false,
+          "favourites_count": 31,
+          "name": "Code for America",
+          "notifications": false,
+          "url": "http://t.co/ev5XaNq0Og",
+          "created_at": "Mon Aug 10 18:59:29 +0000 2009",
+          "contributors_enabled": false,
+          "time_zone": "Pacific Time (US & Canada)",
+          "protected": false,
+          "default_profile": false,
+          "is_translator": false
+        },
+        "geo": null,
+        "in_reply_to_user_id_str": null,
+        "possibly_sensitive": false,
+        "lang": "en",
+        "created_at": "Thu Sep 12 13:54:20 +0000 2013",
+        "in_reply_to_status_id_str": null,
+        "place": null,
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        }
+      },
+      "user": {
+        "follow_request_sent": false,
+        "profile_use_background_image": true,
+        "default_profile_image": false,
+        "id": 127042407,
+        "verified": false,
+        "profile_text_color": "333333",
+        "profile_image_url_https": "https://si0.twimg.com/profile_images/2657107582/31ecce2df1fecd84fff2dfd4055b7bab_normal.jpeg",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/9KqxMIKGZM",
+                "indices": [
+                  0,
+                  22
+                ],
+                "expanded_url": "http://www.stela.org.br",
+                "display_url": "stela.org.br"
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "followers_count": 16,
+        "profile_sidebar_border_color": "C0DEED",
+        "id_str": "127042407",
+        "profile_background_color": "C0DEED",
+        "listed_count": 2,
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "utc_offset": null,
+        "statuses_count": 242,
+        "description": "Professor at UDESC State University \r\nPhD Knowledge Engineering \r\nDirector at Stela Research Institute",
+        "friends_count": 46,
+        "location": "Florianopolis, Santa Catarina",
+        "profile_link_color": "0084B4",
+        "profile_image_url": "http://a0.twimg.com/profile_images/2657107582/31ecce2df1fecd84fff2dfd4055b7bab_normal.jpeg",
+        "following": false,
+        "geo_enabled": false,
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "screen_name": "salmjunior",
+        "lang": "en",
+        "profile_background_tile": false,
+        "favourites_count": 1,
+        "name": "José Francisco Salm ",
+        "notifications": false,
+        "url": "http://t.co/9KqxMIKGZM",
+        "created_at": "Sat Mar 27 21:21:21 +0000 2010",
+        "contributors_enabled": false,
+        "time_zone": null,
+        "protected": false,
+        "default_profile": true,
+        "is_translator": false
+      },
+      "geo": null,
+      "in_reply_to_user_id_str": null,
+      "lang": "en",
+      "created_at": "Thu Sep 12 22:38:08 +0000 2013",
+      "in_reply_to_status_id_str": null,
+      "place": null,
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      }
+    },
+    {
+      "contributors": null,
+      "truncated": false,
+      "text": "Rise to the \"Resilient Cities\" challenge! Join us for #HackCitySF at #CodeforAmerica 9/20 - Register now &gt;&gt; http://t.co/IKaloXb1MU",
+      "in_reply_to_status_id": null,
+      "id": 378277247418781696,
+      "favorite_count": 0,
+      "source": "<a href=\"http://twitter.com/tweetbutton\" rel=\"nofollow\">Tweet Button</a>",
+      "retweeted": false,
+      "coordinates": null,
+      "entities": {
+        "symbols": [],
+        "user_mentions": [],
+        "hashtags": [
+          {
+            "indices": [
+              54,
+              65
+            ],
+            "text": "HackCitySF"
+          },
+          {
+            "indices": [
+              69,
+              84
+            ],
+            "text": "CodeforAmerica"
+          }
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/IKaloXb1MU",
+            "indices": [
+              114,
+              136
+            ],
+            "expanded_url": "http://grn.bz/1d8aIKr",
+            "display_url": "grn.bz/1d8aIKr"
+          }
+        ]
+      },
+      "in_reply_to_screen_name": null,
+      "in_reply_to_user_id": null,
+      "retweet_count": 1,
+      "id_str": "378277247418781696",
+      "favorited": false,
+      "user": {
+        "follow_request_sent": false,
+        "profile_use_background_image": false,
+        "default_profile_image": false,
+        "id": 13368892,
+        "verified": false,
+        "profile_text_color": "D82222",
+        "profile_image_url_https": "https://si0.twimg.com/profile_images/3749531931/238c8f21f2b48b585eb74423f8b2e55c_normal.jpeg",
+        "profile_sidebar_fill_color": "B8B8B8",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/nLwMxKkcMs",
+                "indices": [
+                  0,
+                  22
+                ],
+                "expanded_url": "http://about.krysfreeman.com",
+                "display_url": "about.krysfreeman.com"
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "http://t.co/yoF3ZA8Gni",
+                "indices": [
+                  31,
+                  53
+                ],
+                "expanded_url": "http://grn.bz/HackCity13",
+                "display_url": "grn.bz/HackCity13"
+              }
+            ]
+          }
+        },
+        "followers_count": 2558,
+        "profile_sidebar_border_color": "000000",
+        "id_str": "13368892",
+        "profile_background_color": "000000",
+        "listed_count": 110,
+        "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/19954503/blktwtbkgsmpl.png",
+        "utc_offset": -25200,
+        "statuses_count": 13125,
+        "description": "[ Event Producer #HackCitySF - http://t.co/yoF3ZA8Gni ] \r\nOtherwise known as @bLaKtivist | Co-Founder @Khafra_Co",
+        "friends_count": 504,
+        "location": "Oakland",
+        "profile_link_color": "D19F08",
+        "profile_image_url": "http://a0.twimg.com/profile_images/3749531931/238c8f21f2b48b585eb74423f8b2e55c_normal.jpeg",
+        "following": false,
+        "geo_enabled": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/13368892/1377075827",
+        "profile_background_image_url": "http://a0.twimg.com/profile_background_images/19954503/blktwtbkgsmpl.png",
+        "screen_name": "krysfree",
+        "lang": "en",
+        "profile_background_tile": false,
+        "favourites_count": 888,
+        "name": "krys",
+        "notifications": false,
+        "url": "http://t.co/nLwMxKkcMs",
+        "created_at": "Mon Feb 11 23:54:25 +0000 2008",
+        "contributors_enabled": false,
+        "time_zone": "Pacific Time (US & Canada)",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+      },
+      "geo": null,
+      "in_reply_to_user_id_str": null,
+      "possibly_sensitive": false,
+      "lang": "en",
+      "created_at": "Thu Sep 12 22:01:38 +0000 2013",
+      "in_reply_to_status_id_str": null,
+      "place": null,
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      }
+    },
+    {
+      "contributors": null,
+      "truncated": false,
+      "text": "9/20-9/22 at #CodeforAmerica - #HackCitySF. If you're a #hacker, #designer, #urbanplanner, #entrepreneur we want you! http://t.co/E6jo4ZpGRc",
+      "in_reply_to_status_id": null,
+      "id": 378213286543519745,
+      "favorite_count": 1,
+      "source": "<a href=\"http://twitter.com/tweetbutton\" rel=\"nofollow\">Tweet Button</a>",
+      "retweeted": false,
+      "coordinates": null,
+      "entities": {
+        "symbols": [],
+        "user_mentions": [],
+        "hashtags": [
+          {
+            "indices": [
+              13,
+              28
+            ],
+            "text": "CodeforAmerica"
+          },
+          {
+            "indices": [
+              31,
+              42
+            ],
+            "text": "HackCitySF"
+          },
+          {
+            "indices": [
+              56,
+              63
+            ],
+            "text": "hacker"
+          },
+          {
+            "indices": [
+              65,
+              74
+            ],
+            "text": "designer"
+          },
+          {
+            "indices": [
+              76,
+              89
+            ],
+            "text": "urbanplanner"
+          },
+          {
+            "indices": [
+              91,
+              104
+            ],
+            "text": "entrepreneur"
+          }
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/E6jo4ZpGRc",
+            "indices": [
+              118,
+              140
+            ],
+            "expanded_url": "http://grn.bz/1d8aIKr",
+            "display_url": "grn.bz/1d8aIKr"
+          }
+        ]
+      },
+      "in_reply_to_screen_name": null,
+      "in_reply_to_user_id": null,
+      "retweet_count": 2,
+      "id_str": "378213286543519745",
+      "favorited": false,
+      "user": {
+        "follow_request_sent": false,
+        "profile_use_background_image": true,
+        "default_profile_image": false,
+        "id": 286307191,
+        "verified": false,
+        "profile_text_color": "333333",
+        "profile_image_url_https": "https://si0.twimg.com/profile_images/1345653708/grnbz_twitter_g4_normal.jpg",
+        "profile_sidebar_fill_color": "83D9E4",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/bllKDwqL9X",
+                "indices": [
+                  0,
+                  22
+                ],
+                "expanded_url": "http://www.GreenBiz.com/events",
+                "display_url": "GreenBiz.com/events"
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "followers_count": 380,
+        "profile_sidebar_border_color": "26B4CA",
+        "id_str": "286307191",
+        "profile_background_color": "FFFFFF",
+        "listed_count": 14,
+        "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/274944753/twitter-background-circles-v2-06212011.jpg",
+        "utc_offset": -25200,
+        "statuses_count": 550,
+        "description": "",
+        "friends_count": 104,
+        "location": "Oakland, CA",
+        "profile_link_color": "26B4CA",
+        "profile_image_url": "http://a0.twimg.com/profile_images/1345653708/grnbz_twitter_g4_normal.jpg",
+        "following": false,
+        "geo_enabled": false,
+        "profile_background_image_url": "http://a0.twimg.com/profile_background_images/274944753/twitter-background-circles-v2-06212011.jpg",
+        "screen_name": "GrnBzEvents",
+        "lang": "en",
+        "profile_background_tile": false,
+        "favourites_count": 1,
+        "name": "GreenBiz Events",
+        "notifications": false,
+        "url": "http://t.co/bllKDwqL9X",
+        "created_at": "Fri Apr 22 18:55:26 +0000 2011",
+        "contributors_enabled": false,
+        "time_zone": "Pacific Time (US & Canada)",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+      },
+      "geo": null,
+      "in_reply_to_user_id_str": null,
+      "possibly_sensitive": false,
+      "lang": "en",
+      "created_at": "Thu Sep 12 17:47:29 +0000 2013",
+      "in_reply_to_status_id_str": null,
+      "place": null,
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      }
+    },
+    {
+      "contributors": null,
+      "truncated": false,
+      "text": "Rise to the \"Resilient Cities\" challenge! Join us for #HackCitySF at #CodeforAmerica 9/20 http://t.co/a6AGvOG2lc",
+      "in_reply_to_status_id": null,
+      "id": 378187723036966912,
+      "favorite_count": 0,
+      "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">HootSuite</a>",
+      "retweeted": false,
+      "coordinates": null,
+      "entities": {
+        "symbols": [],
+        "user_mentions": [],
+        "hashtags": [
+          {
+            "indices": [
+              54,
+              65
+            ],
+            "text": "HackCitySF"
+          },
+          {
+            "indices": [
+              69,
+              84
+            ],
+            "text": "CodeforAmerica"
+          }
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/a6AGvOG2lc",
+            "indices": [
+              90,
+              112
+            ],
+            "expanded_url": "http://ow.ly/owf9H",
+            "display_url": "ow.ly/owf9H"
+          }
+        ]
+      },
+      "in_reply_to_screen_name": null,
+      "in_reply_to_user_id": null,
+      "retweet_count": 0,
+      "id_str": "378187723036966912",
+      "favorited": false,
+      "user": {
+        "follow_request_sent": false,
+        "profile_use_background_image": true,
+        "default_profile_image": false,
+        "id": 157015781,
+        "verified": false,
+        "profile_text_color": "333333",
+        "profile_image_url_https": "https://si0.twimg.com/profile_images/1015138264/LP_logo_RGB_75x75_normal.jpg",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/vJcY2Kfv1d",
+                "indices": [
+                  0,
+                  22
+                ],
+                "expanded_url": "http://www.livingprinciples.org",
+                "display_url": "livingprinciples.org"
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "followers_count": 4362,
+        "profile_sidebar_border_color": "C0DEED",
+        "id_str": "157015781",
+        "profile_background_color": "FFFFFF",
+        "listed_count": 279,
+        "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/115338579/Living_Principles_Logo_Med_RGB.jpg",
+        "utc_offset": -14400,
+        "statuses_count": 1914,
+        "description": "The Living Principles for Design provide designers and their clients with an understanding of the core facets of sustainability and enable them to take action.",
+        "friends_count": 370,
+        "location": "Global",
+        "profile_link_color": "0084B4",
+        "profile_image_url": "http://a0.twimg.com/profile_images/1015138264/LP_logo_RGB_75x75_normal.jpg",
+        "following": false,
+        "geo_enabled": false,
+        "profile_background_image_url": "http://a0.twimg.com/profile_background_images/115338579/Living_Principles_Logo_Med_RGB.jpg",
+        "screen_name": "LPforDesign",
+        "lang": "en",
+        "profile_background_tile": false,
+        "favourites_count": 0,
+        "name": "The LivingPrinciples",
+        "notifications": false,
+        "url": "http://t.co/vJcY2Kfv1d",
+        "created_at": "Fri Jun 18 16:10:00 +0000 2010",
+        "contributors_enabled": false,
+        "time_zone": "Eastern Time (US & Canada)",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+      },
+      "geo": null,
+      "in_reply_to_user_id_str": null,
+      "possibly_sensitive": false,
+      "lang": "en",
+      "created_at": "Thu Sep 12 16:05:54 +0000 2013",
+      "in_reply_to_status_id_str": null,
+      "place": null,
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      }
+    },
+    {
+      "contributors": null,
+      "truncated": false,
+      "text": "Great night with @code4sac, getting started on a new member orientation program #codeforamerica&amp;mdash; Emma... http://t.co/YNbYOmeCcc",
+      "in_reply_to_status_id": null,
+      "id": 378154612530094081,
+      "favorite_count": 0,
+      "source": "<a href=\"http://www.tumblr.com/\" rel=\"nofollow\">Tumblr</a>",
+      "retweeted": false,
+      "coordinates": null,
+      "entities": {
+        "symbols": [],
+        "user_mentions": [
+          {
+            "id": 1244345905,
+            "indices": [
+              17,
+              26
+            ],
+            "id_str": "1244345905",
+            "screen_name": "code4sac",
+            "name": "Code for Sacramento"
+          }
+        ],
+        "hashtags": [
+          {
+            "indices": [
+              80,
+              95
+            ],
+            "text": "codeforamerica"
+          }
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/YNbYOmeCcc",
+            "indices": [
+              115,
+              137
+            ],
+            "expanded_url": "http://tmblr.co/ZQ1ANwurCeOp",
+            "display_url": "tmblr.co/ZQ1ANwurCeOp"
+          }
+        ]
+      },
+      "in_reply_to_screen_name": null,
+      "in_reply_to_user_id": null,
+      "retweet_count": 1,
+      "id_str": "378154612530094081",
+      "favorited": false,
+      "user": {
+        "follow_request_sent": false,
+        "profile_use_background_image": false,
+        "default_profile_image": false,
+        "id": 64482503,
+        "verified": false,
+        "profile_text_color": "333333",
+        "profile_image_url_https": "https://si0.twimg.com/profile_images/378800000054717245/3a30f0f49c610082825bc1975554d004_normal.png",
+        "profile_sidebar_fill_color": "F3F3F3",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/ev5XaNq0Og",
+                "indices": [
+                  0,
+                  22
+                ],
+                "expanded_url": "http://codeforamerica.org",
+                "display_url": "codeforamerica.org"
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "followers_count": 20308,
+        "profile_sidebar_border_color": "FFFFFF",
+        "id_str": "64482503",
+        "profile_background_color": "EBEBEB",
+        "listed_count": 1425,
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme7/bg.gif",
+        "utc_offset": -25200,
+        "statuses_count": 6973,
+        "description": "Government can work for the people, by the people, in the 21st century. Help us make it so.",
+        "friends_count": 899,
+        "location": "San Francisco, California",
+        "profile_link_color": "CF1B41",
+        "profile_image_url": "http://a0.twimg.com/profile_images/378800000054717245/3a30f0f49c610082825bc1975554d004_normal.png",
+        "following": true,
+        "geo_enabled": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/64482503/1355962838",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme7/bg.gif",
+        "screen_name": "codeforamerica",
+        "lang": "en",
+        "profile_background_tile": false,
+        "favourites_count": 31,
+        "name": "Code for America",
+        "notifications": false,
+        "url": "http://t.co/ev5XaNq0Og",
+        "created_at": "Mon Aug 10 18:59:29 +0000 2009",
+        "contributors_enabled": false,
+        "time_zone": "Pacific Time (US & Canada)",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+      },
+      "geo": null,
+      "in_reply_to_user_id_str": null,
+      "possibly_sensitive": false,
+      "lang": "en",
+      "created_at": "Thu Sep 12 13:54:20 +0000 2013",
+      "in_reply_to_status_id_str": null,
+      "place": null,
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      }
+    },
+    {
+      "contributors": null,
+      "truncated": false,
+      "text": "Great night with @code4sac, getting started on a new member orientation program #codeforamerica",
+      "in_reply_to_status_id": null,
+      "id": 378006704748625920,
+      "favorite_count": 1,
+      "source": "web",
+      "retweeted": false,
+      "coordinates": null,
+      "entities": {
+        "symbols": [],
+        "user_mentions": [
+          {
+            "id": 1244345905,
+            "indices": [
+              17,
+              26
+            ],
+            "id_str": "1244345905",
+            "screen_name": "code4sac",
+            "name": "Code for Sacramento"
+          }
+        ],
+        "hashtags": [
+          {
+            "indices": [
+              80,
+              95
+            ],
+            "text": "codeforamerica"
+          }
+        ],
+        "urls": []
+      },
+      "in_reply_to_screen_name": null,
+      "in_reply_to_user_id": null,
+      "retweet_count": 0,
+      "id_str": "378006704748625920",
+      "favorited": false,
+      "user": {
+        "follow_request_sent": false,
+        "profile_use_background_image": true,
+        "default_profile_image": false,
+        "id": 18731315,
+        "verified": false,
+        "profile_text_color": "333333",
+        "profile_image_url_https": "https://si0.twimg.com/profile_images/2772028793/604725e110e2f9bd3323f37452bdf180_normal.jpeg",
+        "profile_sidebar_fill_color": "EFEFEF",
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "followers_count": 152,
+        "profile_sidebar_border_color": "EEEEEE",
+        "id_str": "18731315",
+        "profile_background_color": "131516",
+        "listed_count": 3,
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+        "utc_offset": -18000,
+        "statuses_count": 755,
+        "description": "Software Engineer @intel; Interested in emerging technology, #civichacking, #SocEnt and trail running. [tweets are my own]",
+        "friends_count": 317,
+        "location": "Sacramento, CA",
+        "profile_link_color": "009999",
+        "profile_image_url": "http://a0.twimg.com/profile_images/2772028793/604725e110e2f9bd3323f37452bdf180_normal.jpeg",
+        "following": false,
+        "geo_enabled": true,
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+        "screen_name": "emmafletcher",
+        "lang": "en",
+        "profile_background_tile": true,
+        "favourites_count": 448,
+        "name": "Emma Fletcher",
+        "notifications": false,
+        "url": null,
+        "created_at": "Wed Jan 07 18:18:36 +0000 2009",
+        "contributors_enabled": false,
+        "time_zone": "Quito",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+      },
+      "geo": null,
+      "in_reply_to_user_id_str": null,
+      "lang": "en",
+      "created_at": "Thu Sep 12 04:06:36 +0000 2013",
+      "in_reply_to_status_id_str": null,
+      "place": null,
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      }
+    },
+    {
+      "contributors": null,
+      "truncated": false,
+      "text": "RT @cbracy: Mr. @nsjacob on the big screen inspiring the Code for Mexico City fellows. #codigocdmx #codeforamerica http://t.co/ZCQZol55P3",
+      "in_reply_to_status_id": null,
+      "id": 377905258485534721,
+      "favorite_count": 0,
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "retweeted": false,
+      "coordinates": null,
+      "entities": {
+        "symbols": [],
+        "user_mentions": [
+          {
+            "id": 6571962,
+            "indices": [
+              3,
+              10
+            ],
+            "id_str": "6571962",
+            "screen_name": "cbracy",
+            "name": "Catherine Bracy"
+          },
+          {
+            "id": 2934781,
+            "indices": [
+              16,
+              24
+            ],
+            "id_str": "2934781",
+            "screen_name": "nsjacob",
+            "name": "Nigel Jacob"
+          }
+        ],
+        "hashtags": [
+          {
+            "indices": [
+              87,
+              98
+            ],
+            "text": "codigocdmx"
+          },
+          {
+            "indices": [
+              99,
+              114
+            ],
+            "text": "codeforamerica"
+          }
+        ],
+        "urls": [],
+        "media": [
+          {
+            "source_status_id_str": "377888487523225600",
+            "expanded_url": "http://twitter.com/cbracy/status/377888487523225600/photo/1",
+            "display_url": "pic.twitter.com/ZCQZol55P3",
+            "url": "http://t.co/ZCQZol55P3",
+            "media_url_https": "https://pbs.twimg.com/media/BT6Hk6mIAAAfmrk.jpg",
+            "source_status_id": 377888487523225600,
+            "id_str": "377888487019905024",
+            "sizes": {
+              "large": {
+                "h": 1365,
+                "resize": "fit",
+                "w": 1024
+              },
+              "small": {
+                "h": 453,
+                "resize": "fit",
+                "w": 340
+              },
+              "medium": {
+                "h": 800,
+                "resize": "fit",
+                "w": 600
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "indices": [
+              115,
+              137
+            ],
+            "type": "photo",
+            "id": 377888487019905024,
+            "media_url": "http://pbs.twimg.com/media/BT6Hk6mIAAAfmrk.jpg"
+          }
+        ]
+      },
+      "in_reply_to_screen_name": null,
+      "in_reply_to_user_id": null,
+      "retweet_count": 2,
+      "id_str": "377905258485534721",
+      "favorited": false,
+      "retweeted_status": {
+        "contributors": null,
+        "truncated": false,
+        "text": "Mr. @nsjacob on the big screen inspiring the Code for Mexico City fellows. #codigocdmx #codeforamerica http://t.co/ZCQZol55P3",
+        "in_reply_to_status_id": null,
+        "id": 377888487523225600,
+        "favorite_count": 4,
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "retweeted": false,
+        "coordinates": null,
+        "entities": {
+          "symbols": [],
+          "user_mentions": [
+            {
+              "id": 2934781,
+              "indices": [
+                4,
+                12
+              ],
+              "id_str": "2934781",
+              "screen_name": "nsjacob",
+              "name": "Nigel Jacob"
+            }
+          ],
+          "hashtags": [
+            {
+              "indices": [
+                75,
+                86
+              ],
+              "text": "codigocdmx"
+            },
+            {
+              "indices": [
+                87,
+                102
+              ],
+              "text": "codeforamerica"
+            }
+          ],
+          "urls": [],
+          "media": [
+            {
+              "expanded_url": "http://twitter.com/cbracy/status/377888487523225600/photo/1",
+              "display_url": "pic.twitter.com/ZCQZol55P3",
+              "url": "http://t.co/ZCQZol55P3",
+              "media_url_https": "https://pbs.twimg.com/media/BT6Hk6mIAAAfmrk.jpg",
+              "id_str": "377888487019905024",
+              "sizes": {
+                "large": {
+                  "h": 1365,
+                  "resize": "fit",
+                  "w": 1024
+                },
+                "small": {
+                  "h": 453,
+                  "resize": "fit",
+                  "w": 340
+                },
+                "medium": {
+                  "h": 800,
+                  "resize": "fit",
+                  "w": 600
+                },
+                "thumb": {
+                  "h": 150,
+                  "resize": "crop",
+                  "w": 150
+                }
+              },
+              "indices": [
+                103,
+                125
+              ],
+              "type": "photo",
+              "id": 377888487019905024,
+              "media_url": "http://pbs.twimg.com/media/BT6Hk6mIAAAfmrk.jpg"
+            }
+          ]
+        },
+        "in_reply_to_screen_name": null,
+        "in_reply_to_user_id": null,
+        "retweet_count": 2,
+        "id_str": "377888487523225600",
+        "favorited": false,
+        "user": {
+          "follow_request_sent": false,
+          "profile_use_background_image": true,
+          "default_profile_image": false,
+          "id": 6571962,
+          "verified": false,
+          "profile_text_color": "333333",
+          "profile_image_url_https": "https://si0.twimg.com/profile_images/3440174751/74cfabd2a67f5855bf3bed74dfa4b2b4_normal.jpeg",
+          "profile_sidebar_fill_color": "C0DFEC",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "http://t.co/zxu0XcdS0W",
+                  "indices": [
+                    0,
+                    22
+                  ],
+                  "expanded_url": "http://cbracy.tumblr.com",
+                  "display_url": "cbracy.tumblr.com"
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "followers_count": 3029,
+          "profile_sidebar_border_color": "A8C7F7",
+          "id_str": "6571962",
+          "profile_background_color": "022330",
+          "listed_count": 176,
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+          "utc_offset": -14400,
+          "statuses_count": 8878,
+          "description": "I run @CodeforAmerica's international programs. #Obama2012 alum. Sometimes I swear on my Twitter. Apologies in advance.",
+          "friends_count": 838,
+          "location": "Oakland",
+          "profile_link_color": "0084B4",
+          "profile_image_url": "http://a0.twimg.com/profile_images/3440174751/74cfabd2a67f5855bf3bed74dfa4b2b4_normal.jpeg",
+          "following": false,
+          "geo_enabled": false,
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+          "screen_name": "cbracy",
+          "lang": "en",
+          "profile_background_tile": false,
+          "favourites_count": 7,
+          "name": "Catherine Bracy",
+          "notifications": false,
+          "url": "http://t.co/zxu0XcdS0W",
+          "created_at": "Mon Jun 04 14:58:40 +0000 2007",
+          "contributors_enabled": false,
+          "time_zone": "Eastern Time (US & Canada)",
+          "protected": false,
+          "default_profile": false,
+          "is_translator": false
+        },
+        "geo": null,
+        "in_reply_to_user_id_str": null,
+        "possibly_sensitive": false,
+        "lang": "en",
+        "created_at": "Wed Sep 11 20:16:50 +0000 2013",
+        "in_reply_to_status_id_str": null,
+        "place": null,
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        }
+      },
+      "user": {
+        "follow_request_sent": false,
+        "profile_use_background_image": true,
+        "default_profile_image": false,
+        "id": 958981508,
+        "verified": false,
+        "profile_text_color": "333333",
+        "profile_image_url_https": "https://si0.twimg.com/profile_images/378800000025552867/22ee768f11fbf85cb4f7f6deb72dfac4_normal.jpeg",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/fzR0mW2dYB",
+                "indices": [
+                  0,
+                  22
+                ],
+                "expanded_url": "http://www.labplc.mx",
+                "display_url": "labplc.mx"
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "followers_count": 2995,
+        "profile_sidebar_border_color": "000000",
+        "id_str": "958981508",
+        "profile_background_color": "000000",
+        "listed_count": 71,
+        "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/874320962/2c431db0bc58822cacd5654fd5edd9f7.png",
+        "utc_offset": -18000,
+        "statuses_count": 795,
+        "description": "El Laboratorio para la Ciudad (#LabPLC) es el área de innovación cívica y creatividad urbana del Gobierno del Distrito Federal #ideasPLC",
+        "friends_count": 539,
+        "location": "english = @labforthecity",
+        "profile_link_color": "0084B4",
+        "profile_image_url": "http://a0.twimg.com/profile_images/378800000025552867/22ee768f11fbf85cb4f7f6deb72dfac4_normal.jpeg",
+        "following": false,
+        "geo_enabled": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/958981508/1369184776",
+        "profile_background_image_url": "http://a0.twimg.com/profile_background_images/874320962/2c431db0bc58822cacd5654fd5edd9f7.png",
+        "screen_name": "LabPLC",
+        "lang": "en",
+        "profile_background_tile": true,
+        "favourites_count": 513,
+        "name": "Lab para la ciudad",
+        "notifications": false,
+        "url": "http://t.co/fzR0mW2dYB",
+        "created_at": "Tue Nov 20 00:06:09 +0000 2012",
+        "contributors_enabled": false,
+        "time_zone": "Central Time (US & Canada)",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+      },
+      "geo": null,
+      "in_reply_to_user_id_str": null,
+      "possibly_sensitive": false,
+      "lang": "en",
+      "created_at": "Wed Sep 11 21:23:29 +0000 2013",
+      "in_reply_to_status_id_str": null,
+      "place": null,
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      }
+    },
+    {
+      "contributors": null,
+      "truncated": false,
+      "text": "RT @cbracy: Mr. @nsjacob on the big screen inspiring the Code for Mexico City fellows. #codigocdmx #codeforamerica http://t.co/ZCQZol55P3",
+      "in_reply_to_status_id": null,
+      "id": 377893115442790400,
+      "favorite_count": 0,
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "retweeted": false,
+      "coordinates": null,
+      "entities": {
+        "symbols": [],
+        "user_mentions": [
+          {
+            "id": 6571962,
+            "indices": [
+              3,
+              10
+            ],
+            "id_str": "6571962",
+            "screen_name": "cbracy",
+            "name": "Catherine Bracy"
+          },
+          {
+            "id": 2934781,
+            "indices": [
+              16,
+              24
+            ],
+            "id_str": "2934781",
+            "screen_name": "nsjacob",
+            "name": "Nigel Jacob"
+          }
+        ],
+        "hashtags": [
+          {
+            "indices": [
+              87,
+              98
+            ],
+            "text": "codigocdmx"
+          },
+          {
+            "indices": [
+              99,
+              114
+            ],
+            "text": "codeforamerica"
+          }
+        ],
+        "urls": [],
+        "media": [
+          {
+            "source_status_id_str": "377888487523225600",
+            "expanded_url": "http://twitter.com/cbracy/status/377888487523225600/photo/1",
+            "display_url": "pic.twitter.com/ZCQZol55P3",
+            "url": "http://t.co/ZCQZol55P3",
+            "media_url_https": "https://pbs.twimg.com/media/BT6Hk6mIAAAfmrk.jpg",
+            "source_status_id": 377888487523225600,
+            "id_str": "377888487019905024",
+            "sizes": {
+              "large": {
+                "h": 1365,
+                "resize": "fit",
+                "w": 1024
+              },
+              "small": {
+                "h": 453,
+                "resize": "fit",
+                "w": 340
+              },
+              "medium": {
+                "h": 800,
+                "resize": "fit",
+                "w": 600
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "indices": [
+              115,
+              137
+            ],
+            "type": "photo",
+            "id": 377888487019905024,
+            "media_url": "http://pbs.twimg.com/media/BT6Hk6mIAAAfmrk.jpg"
+          }
+        ]
+      },
+      "in_reply_to_screen_name": null,
+      "in_reply_to_user_id": null,
+      "retweet_count": 2,
+      "id_str": "377893115442790400",
+      "favorited": false,
+      "retweeted_status": {
+        "contributors": null,
+        "truncated": false,
+        "text": "Mr. @nsjacob on the big screen inspiring the Code for Mexico City fellows. #codigocdmx #codeforamerica http://t.co/ZCQZol55P3",
+        "in_reply_to_status_id": null,
+        "id": 377888487523225600,
+        "favorite_count": 4,
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "retweeted": false,
+        "coordinates": null,
+        "entities": {
+          "symbols": [],
+          "user_mentions": [
+            {
+              "id": 2934781,
+              "indices": [
+                4,
+                12
+              ],
+              "id_str": "2934781",
+              "screen_name": "nsjacob",
+              "name": "Nigel Jacob"
+            }
+          ],
+          "hashtags": [
+            {
+              "indices": [
+                75,
+                86
+              ],
+              "text": "codigocdmx"
+            },
+            {
+              "indices": [
+                87,
+                102
+              ],
+              "text": "codeforamerica"
+            }
+          ],
+          "urls": [],
+          "media": [
+            {
+              "expanded_url": "http://twitter.com/cbracy/status/377888487523225600/photo/1",
+              "display_url": "pic.twitter.com/ZCQZol55P3",
+              "url": "http://t.co/ZCQZol55P3",
+              "media_url_https": "https://pbs.twimg.com/media/BT6Hk6mIAAAfmrk.jpg",
+              "id_str": "377888487019905024",
+              "sizes": {
+                "large": {
+                  "h": 1365,
+                  "resize": "fit",
+                  "w": 1024
+                },
+                "small": {
+                  "h": 453,
+                  "resize": "fit",
+                  "w": 340
+                },
+                "medium": {
+                  "h": 800,
+                  "resize": "fit",
+                  "w": 600
+                },
+                "thumb": {
+                  "h": 150,
+                  "resize": "crop",
+                  "w": 150
+                }
+              },
+              "indices": [
+                103,
+                125
+              ],
+              "type": "photo",
+              "id": 377888487019905024,
+              "media_url": "http://pbs.twimg.com/media/BT6Hk6mIAAAfmrk.jpg"
+            }
+          ]
+        },
+        "in_reply_to_screen_name": null,
+        "in_reply_to_user_id": null,
+        "retweet_count": 2,
+        "id_str": "377888487523225600",
+        "favorited": false,
+        "user": {
+          "follow_request_sent": false,
+          "profile_use_background_image": true,
+          "default_profile_image": false,
+          "id": 6571962,
+          "verified": false,
+          "profile_text_color": "333333",
+          "profile_image_url_https": "https://si0.twimg.com/profile_images/3440174751/74cfabd2a67f5855bf3bed74dfa4b2b4_normal.jpeg",
+          "profile_sidebar_fill_color": "C0DFEC",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "http://t.co/zxu0XcdS0W",
+                  "indices": [
+                    0,
+                    22
+                  ],
+                  "expanded_url": "http://cbracy.tumblr.com",
+                  "display_url": "cbracy.tumblr.com"
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "followers_count": 3029,
+          "profile_sidebar_border_color": "A8C7F7",
+          "id_str": "6571962",
+          "profile_background_color": "022330",
+          "listed_count": 176,
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+          "utc_offset": -14400,
+          "statuses_count": 8878,
+          "description": "I run @CodeforAmerica's international programs. #Obama2012 alum. Sometimes I swear on my Twitter. Apologies in advance.",
+          "friends_count": 838,
+          "location": "Oakland",
+          "profile_link_color": "0084B4",
+          "profile_image_url": "http://a0.twimg.com/profile_images/3440174751/74cfabd2a67f5855bf3bed74dfa4b2b4_normal.jpeg",
+          "following": false,
+          "geo_enabled": false,
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+          "screen_name": "cbracy",
+          "lang": "en",
+          "profile_background_tile": false,
+          "favourites_count": 7,
+          "name": "Catherine Bracy",
+          "notifications": false,
+          "url": "http://t.co/zxu0XcdS0W",
+          "created_at": "Mon Jun 04 14:58:40 +0000 2007",
+          "contributors_enabled": false,
+          "time_zone": "Eastern Time (US & Canada)",
+          "protected": false,
+          "default_profile": false,
+          "is_translator": false
+        },
+        "geo": null,
+        "in_reply_to_user_id_str": null,
+        "possibly_sensitive": false,
+        "lang": "en",
+        "created_at": "Wed Sep 11 20:16:50 +0000 2013",
+        "in_reply_to_status_id_str": null,
+        "place": null,
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        }
+      },
+      "user": {
+        "follow_request_sent": false,
+        "profile_use_background_image": true,
+        "default_profile_image": false,
+        "id": 36204352,
+        "verified": false,
+        "profile_text_color": "473F3E",
+        "profile_image_url_https": "https://si0.twimg.com/profile_images/2969431625/ab7768618585b4421e760e63b1cb7ab8_normal.jpeg",
+        "profile_sidebar_fill_color": "CCFF00",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/VIfz4x6S2A",
+                "indices": [
+                  0,
+                  22
+                ],
+                "expanded_url": "http://moncerisier.tumblr.com",
+                "display_url": "moncerisier.tumblr.com"
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "http://t.co/CqvzvCGUcz",
+                "indices": [
+                  54,
+                  76
+                ],
+                "expanded_url": "http://pinterest.com/gabichabicha/",
+                "display_url": "pinterest.com/gabichabicha/"
+              },
+              {
+                "url": "http://t.co/HbYaYjMsVf",
+                "indices": [
+                  78,
+                  100
+                ],
+                "expanded_url": "http://caracteres.mx/",
+                "display_url": "caracteres.mx"
+              }
+            ]
+          }
+        },
+        "followers_count": 536,
+        "profile_sidebar_border_color": "F70029",
+        "id_str": "36204352",
+        "profile_background_color": "B7D9EB",
+        "listed_count": 10,
+        "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/448199092/medias.jpg",
+        "utc_offset": -18000,
+        "statuses_count": 10888,
+        "description": "mexicana+arquitecta+corredora+come postres+políglota\r\nhttp://t.co/CqvzvCGUcz\r\nhttp://t.co/HbYaYjMsVf",
+        "friends_count": 1280,
+        "location": "México",
+        "profile_link_color": "FF0022",
+        "profile_image_url": "http://a0.twimg.com/profile_images/2969431625/ab7768618585b4421e760e63b1cb7ab8_normal.jpeg",
+        "following": false,
+        "geo_enabled": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/36204352/1355382393",
+        "profile_background_image_url": "http://a0.twimg.com/profile_background_images/448199092/medias.jpg",
+        "screen_name": "gabichabicha",
+        "lang": "en",
+        "profile_background_tile": true,
+        "favourites_count": 17,
+        "name": "Gabriela Olivera",
+        "notifications": false,
+        "url": "http://t.co/VIfz4x6S2A",
+        "created_at": "Tue Apr 28 22:47:14 +0000 2009",
+        "contributors_enabled": false,
+        "time_zone": "Mexico City",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+      },
+      "geo": null,
+      "in_reply_to_user_id_str": null,
+      "possibly_sensitive": false,
+      "lang": "en",
+      "created_at": "Wed Sep 11 20:35:14 +0000 2013",
+      "in_reply_to_status_id_str": null,
+      "place": null,
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      }
+    },
+    {
+      "contributors": null,
+      "truncated": false,
+      "text": "Mr. @nsjacob on the big screen inspiring the Code for Mexico City fellows. #codigocdmx #codeforamerica http://t.co/ZCQZol55P3",
+      "in_reply_to_status_id": null,
+      "id": 377888487523225600,
+      "favorite_count": 4,
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "retweeted": false,
+      "coordinates": null,
+      "entities": {
+        "symbols": [],
+        "user_mentions": [
+          {
+            "id": 2934781,
+            "indices": [
+              4,
+              12
+            ],
+            "id_str": "2934781",
+            "screen_name": "nsjacob",
+            "name": "Nigel Jacob"
+          }
+        ],
+        "hashtags": [
+          {
+            "indices": [
+              75,
+              86
+            ],
+            "text": "codigocdmx"
+          },
+          {
+            "indices": [
+              87,
+              102
+            ],
+            "text": "codeforamerica"
+          }
+        ],
+        "urls": [],
+        "media": [
+          {
+            "expanded_url": "http://twitter.com/cbracy/status/377888487523225600/photo/1",
+            "display_url": "pic.twitter.com/ZCQZol55P3",
+            "url": "http://t.co/ZCQZol55P3",
+            "media_url_https": "https://pbs.twimg.com/media/BT6Hk6mIAAAfmrk.jpg",
+            "id_str": "377888487019905024",
+            "sizes": {
+              "large": {
+                "h": 1365,
+                "resize": "fit",
+                "w": 1024
+              },
+              "small": {
+                "h": 453,
+                "resize": "fit",
+                "w": 340
+              },
+              "medium": {
+                "h": 800,
+                "resize": "fit",
+                "w": 600
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "indices": [
+              103,
+              125
+            ],
+            "type": "photo",
+            "id": 377888487019905024,
+            "media_url": "http://pbs.twimg.com/media/BT6Hk6mIAAAfmrk.jpg"
+          }
+        ]
+      },
+      "in_reply_to_screen_name": null,
+      "in_reply_to_user_id": null,
+      "retweet_count": 2,
+      "id_str": "377888487523225600",
+      "favorited": false,
+      "user": {
+        "follow_request_sent": false,
+        "profile_use_background_image": true,
+        "default_profile_image": false,
+        "id": 6571962,
+        "verified": false,
+        "profile_text_color": "333333",
+        "profile_image_url_https": "https://si0.twimg.com/profile_images/3440174751/74cfabd2a67f5855bf3bed74dfa4b2b4_normal.jpeg",
+        "profile_sidebar_fill_color": "C0DFEC",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/zxu0XcdS0W",
+                "indices": [
+                  0,
+                  22
+                ],
+                "expanded_url": "http://cbracy.tumblr.com",
+                "display_url": "cbracy.tumblr.com"
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "followers_count": 3029,
+        "profile_sidebar_border_color": "A8C7F7",
+        "id_str": "6571962",
+        "profile_background_color": "022330",
+        "listed_count": 176,
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+        "utc_offset": -14400,
+        "statuses_count": 8878,
+        "description": "I run @CodeforAmerica's international programs. #Obama2012 alum. Sometimes I swear on my Twitter. Apologies in advance.",
+        "friends_count": 838,
+        "location": "Oakland",
+        "profile_link_color": "0084B4",
+        "profile_image_url": "http://a0.twimg.com/profile_images/3440174751/74cfabd2a67f5855bf3bed74dfa4b2b4_normal.jpeg",
+        "following": false,
+        "geo_enabled": false,
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+        "screen_name": "cbracy",
+        "lang": "en",
+        "profile_background_tile": false,
+        "favourites_count": 7,
+        "name": "Catherine Bracy",
+        "notifications": false,
+        "url": "http://t.co/zxu0XcdS0W",
+        "created_at": "Mon Jun 04 14:58:40 +0000 2007",
+        "contributors_enabled": false,
+        "time_zone": "Eastern Time (US & Canada)",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+      },
+      "geo": null,
+      "in_reply_to_user_id_str": null,
+      "possibly_sensitive": false,
+      "lang": "en",
+      "created_at": "Wed Sep 11 20:16:50 +0000 2013",
+      "in_reply_to_status_id_str": null,
+      "place": null,
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      }
+    },
+    {
+      "contributors": null,
+      "truncated": false,
+      "text": "Rise to the \"Resilient Cities\" challenge! Join us for #HackCitySF at #CodeforAmerica 9/20 - Learn more: http://t.co/wfQ6ciuTfR",
+      "in_reply_to_status_id": null,
+      "id": 377887072310554624,
+      "favorite_count": 0,
+      "source": "<a href=\"http://www.tweetdeck.com\" rel=\"nofollow\">TweetDeck</a>",
+      "retweeted": false,
+      "coordinates": null,
+      "entities": {
+        "symbols": [],
+        "user_mentions": [],
+        "hashtags": [
+          {
+            "indices": [
+              54,
+              65
+            ],
+            "text": "HackCitySF"
+          },
+          {
+            "indices": [
+              69,
+              84
+            ],
+            "text": "CodeforAmerica"
+          }
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/wfQ6ciuTfR",
+            "indices": [
+              104,
+              126
+            ],
+            "expanded_url": "http://grn.bz/HackCity13",
+            "display_url": "grn.bz/HackCity13"
+          }
+        ]
+      },
+      "in_reply_to_screen_name": null,
+      "in_reply_to_user_id": null,
+      "retweet_count": 0,
+      "id_str": "377887072310554624",
+      "favorited": false,
+      "user": {
+        "follow_request_sent": false,
+        "profile_use_background_image": true,
+        "default_profile_image": false,
+        "id": 15198966,
+        "verified": false,
+        "profile_text_color": "3E4415",
+        "profile_image_url_https": "https://si0.twimg.com/profile_images/230614851/joel_normal.jpg",
+        "profile_sidebar_fill_color": "99CC33",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/p56WdmYlgp",
+                "indices": [
+                  0,
+                  22
+                ],
+                "expanded_url": "http://www.makower.com",
+                "display_url": "makower.com"
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "http://t.co/Ot4HUsQYs3",
+                "indices": [
+                  11,
+                  33
+                ],
+                "expanded_url": "http://GreenBiz.com",
+                "display_url": "GreenBiz.com"
+              }
+            ]
+          }
+        },
+        "followers_count": 20230,
+        "profile_sidebar_border_color": "829D5E",
+        "id_str": "15198966",
+        "profile_background_color": "352726",
+        "listed_count": 1290,
+        "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/421045875/Joel-SOGB2010.jpg",
+        "utc_offset": -25200,
+        "statuses_count": 7478,
+        "description": "Founder of http://t.co/Ot4HUsQYs3; bestselling author; speaker, publisher, entrepreneur in sustainable business, green marketing and cleantech, blah blah blah",
+        "friends_count": 488,
+        "location": "Oakland, California",
+        "profile_link_color": "D02B55",
+        "profile_image_url": "http://a0.twimg.com/profile_images/230614851/joel_normal.jpg",
+        "following": false,
+        "geo_enabled": false,
+        "profile_background_image_url": "http://a0.twimg.com/profile_background_images/421045875/Joel-SOGB2010.jpg",
+        "screen_name": "makower",
+        "lang": "en",
+        "profile_background_tile": true,
+        "favourites_count": 6,
+        "name": "Joel Makower",
+        "notifications": false,
+        "url": "http://t.co/p56WdmYlgp",
+        "created_at": "Sun Jun 22 17:14:13 +0000 2008",
+        "contributors_enabled": false,
+        "time_zone": "Pacific Time (US & Canada)",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+      },
+      "geo": null,
+      "in_reply_to_user_id_str": null,
+      "possibly_sensitive": false,
+      "lang": "en",
+      "created_at": "Wed Sep 11 20:11:13 +0000 2013",
+      "in_reply_to_status_id_str": null,
+      "place": null,
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      }
+    }
+  ]
+}
