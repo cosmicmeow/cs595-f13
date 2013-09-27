@@ -1,0 +1,488 @@
+{
+  "URI": "http://us2.campaign-archive2.com/?u=e2e180baf855ac797ef407fc7&id=c4a3a2ab87&utm_content=buffere8f30&utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer 0",
+  "Estimated Creation Date": "",
+  "Last Modified": "",
+  "Bitly.com": "",
+  "Topsy.com": "",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://blog.disqus.com/post/62187806135/scaling-django-to-8-billion-page-views",
+  "Estimated Creation Date": "2013-09-24T22:28:37",
+  "Last Modified": "",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-24T22:28:37",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://www.meetup.com/newhavenio/events/139225322/",
+  "Estimated Creation Date": "2013-09-09T14:43:22",
+  "Last Modified": "",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-09T14:43:22",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "https://pythonconquerstheuniverse.wordpress.com/2012/02/15/mutable-default-arguments/",
+  "Estimated Creation Date": "2013-06-09T06:29:37",
+  "Last Modified": "",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-06-09T06:29:37",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://www.reddit.com/r/Python/comments/1n6etg/python_quick_reference_for_v27/",
+  "Estimated Creation Date": "2013-09-26T14:36:45",
+  "Last Modified": "2013-09-26T18:37:45",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-26T14:36:45",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://gitat.me/",
+  "Estimated Creation Date": "2013-08-31T17:06:08",
+  "Last Modified": "",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-08-31T17:06:08",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://blog.schockwellenreiter.de/essays/basemap01.html",
+  "Estimated Creation Date": "2013-09-26T15:01:45",
+  "Last Modified": "2013-09-26T15:01:45",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-26T15:03:59",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "https://code.google.com/p/pybotwar/?utm_content=buffercd930&utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer",
+  "Estimated Creation Date": "2012-08-17T13:56:21",
+  "Last Modified": "",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2012-08-17T13:56:21",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://www.infragistics.com/community/blogs/d-coding/archive/2013/09/20/fundamentals-of-python-functions-formatting-amp-assignment-statements-week-2.aspx",
+  "Estimated Creation Date": "2013-09-20T18:37:48",
+  "Last Modified": "",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-20T18:37:48",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://www.10news.com/entertainment/around-the-web/usda-gets-patent-to-test-new-python-trap-in-florida-everglades09262013",
+  "Estimated Creation Date": "2013-09-26T14:51:54",
+  "Last Modified": "",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-26T14:51:54",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://www.youtube.com/watch?v=rXj5nayS7Yg&utm_content=buffer36d9c&utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer",
+  "Estimated Creation Date": "2013-09-24T22:34:24",
+  "Last Modified": "",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-24T22:34:24",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "2013-09-25T19:24:56",
+    "By_Archive": {
+      "other": "2013-09-25T19:24:56"
+    }
+  }
+}
+
+{
+  "URI": "http://habrahabr.ru/company/wargaming/blog/195382/?utm_source=dlvr.it&utm_medium=twitter",
+  "Estimated Creation Date": "2013-09-26T12:19:07",
+  "Last Modified": "",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-26T12:19:07",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://twitpic.com/dezjon",
+  "Estimated Creation Date": "2013-09-26T11:55:42",
+  "Last Modified": "",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-26T11:55:42",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://instagram.com/p/euii9oINxf/",
+  "Estimated Creation Date": "2013-09-26T14:37:20",
+  "Last Modified": "",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-26T14:37:20",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://samrelton.wordpress.com/2013/09/26/emacs-and-anaconda-python/",
+  "Estimated Creation Date": "2013-09-26T14:37:12",
+  "Last Modified": "",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-26T14:37:12",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://pytennessee.tumblr.com/post/62329631129/why-is-pytennessee-going-to-be-weird",
+  "Estimated Creation Date": "2013-09-26T13:47:21",
+  "Last Modified": "",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-26T13:47:21",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://twitpic.com/deze1t",
+  "Estimated Creation Date": "2013-09-26T11:17:27",
+  "Last Modified": "",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-26T11:17:27",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://www.emoticode.net/python/hello-world-2.html",
+  "Estimated Creation Date": "2013-09-26T14:29:37",
+  "Last Modified": "",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-26T14:29:37",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://tomforb.es/breaking-out-of-secured-python-environments",
+  "Estimated Creation Date": "2013-09-25T16:17:34",
+  "Last Modified": "",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-25T16:17:34",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://codevisually.com/pandas-a-python-data-analysis-library/",
+  "Estimated Creation Date": "2013-09-18T09:36:26",
+  "Last Modified": "2013-09-27T01:10:35",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-18T09:36:26",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://www.caktusgroup.com/blog/2013/09/18/central-logging-django-graylog2-and-graypy/?utm_content=bufferce636&utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer",
+  "Estimated Creation Date": "2013-09-18T14:04:11",
+  "Last Modified": "",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-18T14:04:11",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://instagram.com/p/eufYWdkd7p/",
+  "Estimated Creation Date": "2013-09-26T14:08:11",
+  "Last Modified": "",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-26T14:08:11",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://instagram.com/p/eufVBcEd7l/",
+  "Estimated Creation Date": "2013-09-26T14:07:41",
+  "Last Modified": "",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-26T14:07:41",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://www.reddit.com/r/Python/comments/1n6b91/scraping_wunderground/",
+  "Estimated Creation Date": "2013-09-26T13:31:02",
+  "Last Modified": "2013-09-26T13:31:02",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-26T14:05:28",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://www.reddit.com/r/Python/comments/1n6b5t/first_look_at_pythons_enum_in_the_upcoming_python/",
+  "Estimated Creation Date": "2013-09-26T14:05:49",
+  "Last Modified": "2013-09-26T23:50:17",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-26T14:05:49",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://www.amazon.com/Python-Cookbook-David-Beazley/dp/1449340377",
+  "Estimated Creation Date": "2013-05-02T20:33:27",
+  "Last Modified": "",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-05-02T20:33:27",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "2013-07-06T08:02:37",
+    "By_Archive": {
+      "other": "2013-07-06T08:02:37"
+    }
+  }
+}
+
+{
+  "URI": "http://techblog.stickyworld.com/abandoning-php-for-python.html",
+  "Estimated Creation Date": "2013-09-16T08:14:43",
+  "Last Modified": "2013-09-16T10:42:56",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-16T08:14:43",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "https://docs.djangoproject.com/en/1.5/topics/testing/advanced/#integration-with-coverage-py",
+  "Estimated Creation Date": "2013-09-27T02:51:10",
+  "Last Modified": "2013-09-27T02:51:10",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://docopt.org/",
+  "Estimated Creation Date": "2012-06-19T19:10:57",
+  "Last Modified": "2013-07-29T08:09:06",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2012-10-22T03:41:17",
+  "Backlinks": "2013-06-29T07:25:15",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "2012-06-19T19:10:57",
+    "By_Archive": {
+      "other": "2012-06-19T19:10:57"
+    }
+  }
+}
+
+{
+  "URI": "http://pythonhosted.org/Basket/",
+  "Estimated Creation Date": "2012-05-15T14:03:37",
+  "Last Modified": "2012-05-15T14:03:37",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-03-03T18:05:52",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/index.htm",
+  "Estimated Creation Date": "2010-06-05T16:11:40",
+  "Last Modified": "2013-08-11T07:59:53",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2010-09-08T19:48:58",
+  "Backlinks": "2010-10-29T20:54:34",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "2010-06-05T16:11:40",
+    "By_Archive": {
+      "other": "2010-06-05T16:11:40"
+    }
+  }
+}
+
+{
+  "URI": "http://careers.callieregroup.com/jobview.asp?JobID=925",
+  "Estimated Creation Date": "2010-12-11T10:39:48",
+  "Last Modified": "",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-26T13:57:06",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "2010-12-11T10:39:48",
+    "By_Archive": {
+      "other": "2010-12-11T10:39:48"
+    }
+  }
+}
+
+{
+  "URI": "http://www.rajknih.sk/index.php?bk=228823",
+  "Estimated Creation Date": "2013-09-26T13:56:22",
+  "Last Modified": "",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-26T13:56:22",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://stackoverflow.com/questions/19030179/how-to-access-the-first-and-the-last-elements-in-a-dictionary-python",
+  "Estimated Creation Date": "2013-09-26T13:54:31",
+  "Last Modified": "2013-09-27T03:07:39",
+  "Bitly.com": "Bitly Key has expired",
+  "Topsy.com": "2013-09-26T13:54:31",
+  "Backlinks": "",
+  "Google.com": "",
+  "Archives": {
+    "Earliest": "",
+    "By_Archive": {}
+  }
+}
+
+{
+  "URI": "http://stackoverflow.com/questions/19030

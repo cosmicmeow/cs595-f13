@@ -15,3 +15,11 @@ how to follow uris
 ====================
 google group Dr. Nelson's Hint
 http://docs.python-requests.org/en/latest/
+
+
+regex to count the number of momemntos
+===========================
+http://stackoverflow.com/questions/4664850/find-all-occurrences-of-a-substring-in-python
+simple count 
+-------------
+http://stackoverflow.com/questions/4664850/find-all-occurrences-of-a-substring-in-python

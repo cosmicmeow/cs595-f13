@@ -1,4 +1,4 @@
-import pycurl
+#import pycurl
 import requests
 
 odu_memento = "http://mementoproxy.cs.odu.edu/aggr/timemap/link/"
@@ -12,12 +12,13 @@ for each in l:
   		query = odu_memento+ each
   		#print each
   		num = num + 1
+  		print num
 		r= requests.get(query)
 		if (r.status_code==200):
-			#print r.url 
+			print r.url 
 			search = r.text
 			count = [i for i in range(len(search)) if search.startswith('memento', i)]
-			t.write(each+" "+ count +"\n")
+			t.write(each+" "+ len(count) +"\n")
 		elif (r.status_code==404):
 			print each+" 0\n"
 			t.write(each+" 0\n")

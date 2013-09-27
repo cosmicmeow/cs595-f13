@@ -9,11 +9,11 @@ REQUEST_TOKEN_URL = "https://api.twitter.com/oauth/request_token"
 AUTHORIZE_URL = "https://api.twitter.com/oauth/authorize?oauth_token="
 ACCESS_TOKEN_URL = "https://api.twitter.com/oauth/access_token"
 
-CONSUMER_KEY = "r46KjjjIQmAISFZ0FdndQ"
-CONSUMER_SECRET = "MEspj9D2kMLNXKwFKLly6DpxY4xHG5AknOR5aICZDA"
+CONSUMER_KEY = ""
+CONSUMER_SECRET = ""
 
-OAUTH_TOKEN = "299932017-9O6ezdFRELsq2XAjovKLrUkD7ISRS2KfPExqJSzf"
-OAUTH_TOKEN_SECRET = "noxgwGKHAmSlKmgna1a5gYkIeHDE2kQYogrPCEDFIgs"
+OAUTH_TOKEN = ""
+OAUTH_TOKEN_SECRET = ""
 
 
 def setup_oauth():
