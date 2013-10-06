@@ -1,0 +1,1634 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<title>Bitnavegantes: Identificada la principal causa de la pérdida de memoria relacionada con la edad, y es potencialmente reversible</title>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { var b=window,e="jstiming",g="tick";(function(){function d(a){this.t={};this.tick=function(a,d,c){c=void 0!=c?c:(new Date).getTime();this.t[a]=[c,d]};this[g]("start",null,a)}var a=new d;b.jstiming={Timer:d,load:a};if(b.performance&&b.performance.timing){var a=b.performance.timing,c=b[e].load,f=a.navigationStart,a=a.responseStart;0<f&&a>=f&&(c[g]("_wtsrt",void 0,f),c[g]("wtsrt_","_wtsrt",a),c[g]("tbsd_","wtsrt_"))}try{a=null,b.chrome&&b.chrome.csi&&(a=Math.floor(b.chrome.csi().pageT),c&&0<f&&(c[g]("_tbnd",void 0,b.chrome.csi().startE),
+c[g]("tbnd_","_tbnd",f))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),null==a&&b.external&&(a=b.external.pageT,c&&0<f&&(c[g]("_tbnd",void 0,b.external.startE),c[g]("tbnd_","_tbnd",f))),a&&(b[e].pt=a)}catch(l){}})();b.tickAboveFold=function(d){var a=0;if(d.offsetParent){do a+=d.offsetTop;while(d=d.offsetParent)}d=a;750>=d&&b[e].load[g]("aft")};var h=!1;function k(){h||(h=!0,b[e].load[g]("firstScrollTime"))}b.addEventListener?b.addEventListener("scroll",k,!1):b.attachEvent("onscroll",k);
+ })();</script>
+<meta content='blogger' name='generator'/>
+<link href='http://bitnavegante.blogspot.com.es/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://bitnavegante.blogspot.com/2013/08/perdida-de-memoria-relacionada-con-proteina.html' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Bitnavegantes - Atom" href="http://bitnavegante.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Bitnavegantes - RSS" href="http://bitnavegante.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Bitnavegantes - Atom" href="http://www.blogger.com/feeds/5966811725215420136/posts/default" />
+
+<link rel="alternate" type="application/atom+xml" title="Bitnavegantes - Atom" href="http://bitnavegante.blogspot.com/feeds/1934268813223962326/comments/default" />
+<link rel="image_src" href="http://1.bp.blogspot.com/-Rs5b8UF4Hic/UiDBcyjVNRI/AAAAAAAAc3o/3QVg0-nh2eE/s72-c/cerebro-raton.jpg" />
+<link href='https://plus.google.com/115486275296456536560' rel='publisher'/>
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'/>
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'/>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+<link type='text/css' rel='stylesheet' href='//www.blogger.com/static/v1/widgets/2775015444-widget_css_bundle.css' />
+<link type='text/css' rel='stylesheet' href='//www.google.com/uds/css/gsearch.css' />
+<link type='text/css' rel='stylesheet' href='//www.blogger.com/dyn-css/authorization.css?targetBlogID=5966811725215420136&amp;zx=84c4afcf-65d5-4d21-8bd9-fcdbd5b86255&quot;/&gt;
+' />
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:        Jarid
+Author :     http://www.soratemplates.com
+Designer:    http://www.tielabs.com
+Date:        March 2013
+License:  This free Blogger template is licensed under the Creative Commons Attribution 3.0 License, which permits both personal and commercial use. However, to satisfy the 'attribution' clause of the license, you are required to keep the footer links intact which provides due credit to its authors. For more specific details about the license, you may visit the URL below:
+http://creativecommons.org/licenses/by/3.0
+----------------------------------------------- */
+body#layout .widget-counter,body#layout .flexslider,#navbar,.date-header,.feed-links,.post-location,.post-author,.post-icons,#credit{display: none !important;}
+body,h1,h2,h3,h4,h5,ul,li,a,p,span,img,dd{margin:0;padding:0;list-style:none;text-decoration:none;border:none;outline:none;font-weight:normal}
+#navbar-iframe {
+height:0px;
+visibility:hidden;
+display:none
+}
+body {
+background-image: url(https://lh5.googleusercontent.com/-5RUw5KRtDVQ/UVRWxIukfPI/AAAAAAAAFUs/3m2S3GHbrTQ/s400/body-bg13.png);
+background-color:#fff;
+color: #000000;
+font-family: Tahoma,Arial,Verdana,sans-serif;
+font-size: 15px;
+}
+a { color: #D00000; transition: all 0.2s ease-in-out 0s; }
+a:hover { color: #000000; }
+#wrapper {
+background: none repeat scroll 0 0 #FFFFFF;
+box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+margin: 0 auto 20px;
+position: relative;
+width: 1220px;
+z-index: 1;
+}
+.container { margin: 0 auto; width: 1160px; }
+#top-nav {
+background: none repeat scroll 0 0 #2C2C2C;
+border-bottom: 4px solid #CD2122;
+height: 30px;
+}
+.search-block {
+height:30px;
+overflow: hidden;
+float:right;
+margin-left:5px;
+}
+.search-block #s {
+background:#3c3c3c;
+float: right;
+font: normal 11px tahoma;
+padding: 9px 12px 8px 12px;
+width: 90px;
+color:#999;
+border:0 none;
+border-left:1px solid #222;
+-webkit-transition: all ease-in-out 0.4s;
+-moz-transition: all ease-in-out 0.4s;
+-o-transition: all ease-in-out 0.4s;
+transition: all ease-in-out 0.4s;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0 ;
+opacity:0.7;
+}
+.search-block #s:focus {color:#fff;}
+.search-block .search-button {
+background:#3c3c3c url(https://lh4.googleusercontent.com/-sFLTJ6mMcHI/UVRWxGjnlKI/AAAAAAAAFUc/2GMcHqcwUh4/s1300/separate.png) no-repeat center -215px;
+cursor: pointer;
+float: right;
+height:30px;
+width:30px;
+text-indent:-999999px;
+display: block;
+border:0 none;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0 ;
+opacity:0.7;
+-webkit-transition: all ease-in-out 0.4s;
+-moz-transition: all ease-in-out 0.4s;
+-o-transition: all ease-in-out 0.4s;
+transition: all ease-in-out 0.4s;
+border-right: 1px solid #222;
+}
+.search-block:hover .search-button,.search-block:hover #s {opacity:1; color:#ddd;}
+.social-icons{text-align:center;}
+.social-icons a{position:relative;margin:0; opacity:.7;}
+.social-icons a:hover{ opacity:1;}
+.social-icons.icon_24 img{width:24px; height:24px;}
+.social-icons.icon_16 img{width:16px; height:16px;}
+.social-icons.icon_flat{float:right; margin:4px 5px 0 0;}
+.social-icons.icon_flat a{background:url(https://lh5.googleusercontent.com/-VPUNVfF_698/UVRWxiHmK0I/AAAAAAAAFU0/pXlCMxCAWNQ/s227/social-icons.png) no-repeat top left; width: 20px;height: 20px; opacity:.3;}
+.social-icons.icon_flat a:hover{ opacity:.6;}
+.icon_flat a.google-tieicon{background-position:-38px 1px;}
+.icon_flat a.facebook-tieicon{background-position:left 0;}
+.icon_flat a.twitter-tieicon{background-position:-76px 1px;}
+.icon_flat a.youtube-tieicon{background-position:-38px -82px;}
+.icon_flat a.dribbble-tieicon{background-position:-121px -82px;}
+.icon_flat a.rss-tieicon{background-position:left -123px;}
+.icon_flat a.pinterest-tieicon{background-position:-76px -123px;}
+.icon_flat a.instagram-tieicon{background-position:left -209px;}
+a.ttip, a.tooldown{display:inline-block;}
+.tipsy { font-size: 10px; position: absolute; padding: 5px; z-index: 100000; }
+.tipsy-inner { background-color: #000; color: #FFF; max-width: 200px; padding: 5px 8px 4px 8px; text-align: center; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; box-shadow: 0 0 2px #000000; -webkit-box-shadow: 0 0 2px #000000; -moz-box-shadow: 0 0 2px #000000; }
+.tipsy-arrow { position: absolute; width: 0; height: 0; line-height: 0; border: 5px dashed #000; }
+.tipsy-arrow-n { border-bottom-color: #000; }
+.tipsy-arrow-s { border-top-color: #000; }
+.tipsy-arrow-e { border-left-color: #000; }
+.tipsy-arrow-w { border-right-color: #000; }
+.tipsy-n .tipsy-arrow { top: 0; left: 50%; margin-left: -5px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent; }
+.tipsy-nw .tipsy-arrow { top: 0; left: 10px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent;}
+.tipsy-ne .tipsy-arrow { top: 0; right: 10px; border-bottom-style: solid; border-top: none;  border-left-color: transparent; border-right-color: transparent;}
+.tipsy-s .tipsy-arrow { bottom: 0; left: 50%; margin-left: -5px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+.tipsy-sw .tipsy-arrow { bottom: 0; left: 10px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+.tipsy-se .tipsy-arrow { bottom: 0; right: 10px; border-top-style: solid; border-bottom: none; border-left-color: transparent; border-right-color: transparent; }
+.tipsy-e .tipsy-arrow { right: 0; top: 50%; margin-top: -5px; border-left-style: solid; border-right: none; border-top-color: transparent; border-bottom-color: transparent; }
+.tipsy-w .tipsy-arrow { left: 0; top: 50%; margin-top: -5px; border-right-style: solid; border-left: none; border-top-color: transparent; border-bottom-color: transparent; }
+#header-wrapper { margin: 0 0 35px; position: relative; }
+.header-content { background: url(https://lh6.googleusercontent.com/-oTjnGLLM7Ig/UVRWx7Wq0XI/AAAAAAAAFU8/jfkNgNQ9970/s1105/top-shadow.png) no-repeat scroll center top transparent; padding: 25px 0; }
+#header {float:left; width:400px}
+#header,#header a { color: #000 }
+#header a:hover {}
+#header h1 {font-family: 'Playball', cursive;font-weight:normal;font-size:60px;color:#cd2122}
+#header img { margin-top: 15px;border:none;max-height:73px}
+#header .description {}
+.ads-top {float: right;line-height:0; margin-top:8px;}
+.ads-bottom {line-height:0;margin:15px auto 20px;text-align:center;}
+.ads-post {line-height:0;margin:20px auto ;text-align:center;}
+#main-nav {
+background:#2c2c2c;
+margin:0 auto;
+height:50px;
+border-bottom:5px solid #cd2122;
+}
+#main-nav .menu-alert{
+float:left;
+padding:18px 0 0 10px ;
+font-style:italic;
+color:#FFF;
+}
+#top-menu-mob , #main-menu-mob{ display:none; }
+#main-nav ul li {
+text-transform: uppercase;
+font-family: Oswald,arial,Georgia, serif;
+font-size:16px;
+position: relative;
+display: inline-block;
+float: left;
+border:1px solid #222222;
+border-width:0 0 0 1px;
+height:50px;
+}
+#main-nav ul li:first-child,
+#main-nav ul li:first-child a{border:0 none;}
+#main-nav ul li:last-child a{border-right:0 none;}
+#main-nav ul li a {
+display: inline-block;
+height: 50px;
+line-height: 50px;
+color: #ddd;
+padding:0 14px;
+text-shadow:0 1px 1px #000;
+border-left:1px solid #383838;
+}
+#main-nav ul li a .sub-indicator{}
+#main-nav ul li a:hover {}
+#main-nav ul ul{
+display: none;
+padding:0;
+position: absolute;
+top: 50px;
+width: 180px;
+z-index: 99999;
+float: left;
+background: #2d2d2d !important;
+-webkit-box-shadow: 0 3px 4px 1px rgba(0, 0, 0, 0.2);
+box-shadow: 0 3px 4px 1px rgba(0, 0, 0, 0.2);
+-webkit-border-bottom-right-radius: 3px;
+-webkit-border-bottom-left-radius: 3px;
+-moz-border-radius-bottomright: 3px;
+-moz-border-radius-bottomleft: 3px;
+border-bottom-right-radius: 3px;
+border-bottom-left-radius: 3px;
+}
+#main-nav ul ul li, #main-nav ul ul li:first-child {
+background: none !important;
+z-index: 99999;
+min-width: 180px;
+border:0 none;
+border-bottom: 1px solid #222;
+border-top: 1px solid #383838;
+font-size:13px;
+height:auto;
+margin:0;
+}
+#main-nav ul ul li:first-child ,#main-nav ul li.current-menu-item ul li:first-child,
+#main-nav ul li.current-menu-parent ul li:first-child,#main-nav ul li.current-page-ancestor ul li:first-child { border-top:0 none !important;}
+#main-nav ul ul ul ,#main-nav ul li.current-menu-item ul ul, #main-nav ul li.current-menu-parent ul ul, #main-nav ul li.current-page-ancestor ul ul{right: auto;left: 100%; top: 0 !important; z-index: 99999; }
+#main-nav ul.sub-menu a ,
+#main-nav ul ul li.current-menu-item a,
+#main-nav ul ul li.current-menu-parent a,
+#main-nav ul ul li.current-page-ancestor a{
+border:0 none;
+background: none !important;
+height: auto !important;
+line-height: 1em;
+padding: 10px 10px;
+width: 160px;
+display: block !important;
+margin-right: 0 !important;
+z-index: 99999;
+color: #ccc !important;
+text-shadow:0 1px 1px #000 !important;
+}
+#main-nav ul li.current-menu-item ul a,
+#main-nav ul li.current-menu-parent ul a,
+#main-nav ul li.current-page-ancestor ul a{ color:#eee !important; text-shadow:0 1px 1px #222 !important;}
+#main-nav ul li:hover > a, #main-nav ul :hover > a { color: #FFF ;}
+#main-nav ul ul li:hover > a,
+#main-nav ul ul :hover > a {color: #FFF !important; padding-left:15px !important;padding-right:5px !important;}
+#main-nav ul li:hover > ul {display: block;}
+#main-nav ul li.current-menu-item,
+#main-nav ul li.current-menu-parent,
+#main-nav ul li.current-page-ancestor{
+margin-top:0;
+height:50px;
+border-left:0 none !important;
+}
+#main-nav ul li.current-menu-item ul.sub-menu a, #main-nav ul li.current-menu-item ul.sub-menu a:hover,
+#main-nav ul li.current-menu-parent ul.sub-menu a, #main-nav ul li.current-menu-parent ul.sub-menu a:hover
+#main-nav ul li.current-page-ancestor ul.sub-menu a, #main-nav ul li.current-page-ancestor ul.sub-menu a:hover{background: none !important;}
+#main-nav ul li.current-menu-item a, #main-nav ul li.current-menu-item a:hover,
+#main-nav ul li.current-menu-parent a, #main-nav ul li.current-menu-parent a:hover,
+#main-nav ul li.current-page-ancestor a, #main-nav ul li.current-page-ancestor a:hover{
+background:#cd2122;
+text-shadow:0 1px 1px #b43300;
+color:#FFF;
+height:50px;
+line-height:50px;
+border-left:0 none !important;
+}
+#main-nav ul.sub-menu li.current-menu-item,#main-nav ul.sub-menu li.current-menu-item a,
+#main-nav li.current-menu-item ul.sub-menu a,#main-nav ul.sub-menu li.current-menu-parent,
+#main-nav ul.sub-menu li.current-menu-parent a,#main-nav li.current-menu-parent ul.sub-menu a,
+#main-nav ul.sub-menu li.current-page-ancestor,#main-nav ul.sub-menu li.current-page-ancestor a,
+#main-nav li.current-page-ancestor ul.sub-menu a{height:auto !important; line-height: 12px;}
+#main-nav ul li.menu-item-home ul li a,
+#main-nav ul ul li.menu-item-home a,
+#main-nav ul li.menu-item-home ul li a:hover{
+background-color:transparent !important;
+text-indent:0;
+background-image:none !important;
+height:auto !important;
+width:auto;
+}
+#main-menu-mob,#top-menu-mob{
+background: #222;
+width: 710px;
+padding: 5px;
+border: 1px solid #000;
+color:#DDD;
+height: 27px;
+margin:13px 0 0 10px;
+}
+#top-menu-mob{
+width: 350px;
+margin:2px 0 0 0;
+}
+#main-nav.fixed-nav{
+position:fixed;
+top:0;
+left:0;
+width:100% !important;
+z-index:999;
+opacity:0.9;
+-webkit-box-shadow: 0 5px 3px rgba(0, 0, 0, .1);
+-moz-box-shadow: 0 5px 3px rgba(0, 0, 0, .1);
+box-shadow: 0 5px 3px rgba(0, 0, 0, .1);
+}
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden; position:relative; height:498px;}
+.flexslider .slides img {width: 100%; height:100%; display: block;}
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+html[xmlns] .slides {display: block;}
+* html .slides {height: 1%;}
+.no-js .slides > li:first-child {display: block;}
+.flexslider {margin: 0 0 35px;position:relative;zoom: 1;width: 997px;height:498px;background: #000 url(https://lh5.googleusercontent.com/-A2AthZYl-BA/UVRWwC1825I/AAAAAAAAFUM/RvL2vi0g5HY/s16/black-loader.gif) no-repeat 50% 48%;	}
+.flex-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
+.loading .flex-viewport {max-height: 300px;}
+.flexslider .slides {zoom: 1;}
+.carousel li {margin-right: 5px}
+.flex-direction-nav {position:absolute; top:5px; right:5px;}
+.flex-direction-nav a {width: 30px; height: 30px; margin: 0 0 2px; display: block; background-color: #cd2122; background-image: url(https://lh4.googleusercontent.com/-sFLTJ6mMcHI/UVRWxGjnlKI/AAAAAAAAFUc/2GMcHqcwUh4/s1300/separate.png);background-repeat: no-repeat; background-position: 3px -384px;  cursor: pointer; text-indent: -9999px; opacity: 0;  -webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease;}
+.flex-direction-nav .flex-next {background-position: -24px -384px;}
+.flexslider:hover .flex-next {opacity: 0.8; }
+.flexslider:hover .flex-prev {opacity: 0.8;}
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {opacity: 1;}
+.flex-direction-nav .disabled {opacity: .3!important; cursor: default;}
+.flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
+.flex-control-thumbs li {float: left; margin: 0;}
+.flex-control-thumbs img {width: 100%; display: block; opacity: .7; cursor: pointer;}
+.flex-control-thumbs img:hover {opacity: 1;}
+.flex-control-thumbs .active {opacity: 1; cursor: default;}
+.flex-control-nav {position: absolute; top: 10px; left:10px; text-align: center; height:13px;}
+.flex-control-nav li {margin: 0 ; display: inline-block; zoom: 1; *display: inline;}
+.flex-control-paging li a {display: block; cursor: pointer; text-indent: -9999px; border-radius: 100%;-moz-border-radius: 100%;-webkit-border-radius: 100%; margin-right:2px; width:8px; background:#999; height:8px;  -webkit-transition: all .5s ease; -moz-transition: all .5s ease; transition: all .5s ease;}
+.flex-control-paging li a:hover { background: #DDD; }
+.flex-control-paging li a.flex-active { background: #FFF; cursor: default; }
+.slider-caption {position: absolute;left: 15px;bottom: 15px; max-width:90%;opacity: .85;}
+.slider-caption p{padding: 10px;background: #000;color:#FFF;}
+.slider-caption h2 {background: #cd2122; padding:5px 10px;color:#FFF;	display: inline-block;font-family: Oswald,arial,Georgia, serif;}
+#content-wrapper .flexslider { width:620px; height:330px;}
+#content-wrapper .flexslider .slides > li {display: none; -webkit-backface-visibility: hidden; position:relative; height:330px;}
+#content-wrapper .flexslider .slides img {width: 100%; display: block;}
+#content-wrapper .slider-caption h2 a{font-size: 22px;color:#FFF;	}
+#content-wrapper .ei-slider{ height:330px;}
+#content-wrapper .ei-slider-loading{line-height:375px;}
+#content-wrapper .ei-title h3{font-size: 12px;line-height: 14px;width:435px;}
+#content-wrapper .ei-title h2{font-size: 22px;}
+.post-header {float:right;width:305px}
+.post-timestamp,.post-comment-link a{ color: #AAAAAA; font-size: 10px;}
+#main-content { margin: 20px auto 25px; position: relative; }
+#main-wrapper { float: left; width: 620px; }
+#sidebar-wrapper { float: right; width: 300px; }
+#sidebar-mid {
+border-left: 1px solid #EAEAEA;
+border-right: 1px solid #EAEAEA;
+float: left;
+margin: 0 25px;
+padding: 0 14px;
+width: 160px;
+}
+#sidebar-wrapper h2, #sidebar-mid h2 {
+font-family: Oswald,arial,Georgia,serif;
+font-size: 16px;
+line-height: 1;
+text-transform: uppercase;
+border-bottom: 4px solid #333333;
+padding-bottom: 5px;
+}
+.post {border-bottom: 1px solid #F2F2F2;clear:both;padding:15px 0}
+.post h3 {font-size:20px}
+.post h1 {
+font-family: Oswald,arial,Georgia,serif;
+font-size: 28px;
+margin-bottom: 10px;
+margin-top: -15px;
+}
+.post-body img { max-width:600px; }
+.post-body p{ padding-top: 0.5em;}
+.thumb{display:block;float:left;width:300px;height:160px;margin: 0 15px 0 0;}
+.pthumb {float:left;margin:3px 10px 0 0;width:200px;height:111px;overflow:hidden;position:related}
+.pthumb img {width:200px}
+.post blockquote {
+background: url(https://lh6.googleusercontent.com/-6UyQr7E0nTU/UVRWwhvPScI/AAAAAAAAFUU/15cIvW74xwg/s50/quote.png) no-repeat scroll left 18px transparent;
+font-family: Georgia,"Times New Roman",Times,serif;
+font-size: 12px;
+font-style: italic;
+line-height: 22px;
+margin: 20px 0 30px 40px;
+min-height: 60px;
+padding: 0 0 0 60px;
+}
+.post-labels {margin:20px 0}
+.post-share-buttons {margin:20px 0 0}
+.post-labels a{
+border-color: #dedede #d8d8d8 #d3d3d3;
+text-shadow: 0 1px 0 #fff;
+-webkit-box-shadow: 0 1px 1px #eaeaea, inset 0 1px 0 #fbfbfb;
+-moz-box-shadow: 0 1px 1px #eaeaea, inset 0 1px 0 #fbfbfb;
+box-shadow: 0 1px 1px #eaeaea, inset 0 1px 0 #fbfbfb;
+background: #ffffff;
+background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed));
+background: -webkit-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+background: -o-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+background: -ms-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+background: linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+display: inline-block;
+text-decoration: none;
+font-size: 10px;
+padding: 3px 8px;
+line-height: 20px;
+color: #555;
+text-transform: uppercase;
+border: 1px solid #DEDEDE;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px ;
+cursor: pointer;
+}
+.post-labels a:hover{ background:#FFF;}
+.jump-link {
+webkit-transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+-o-transition: all .2s ease-in-out;
+-ms-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+background: #cd2122;
+color: #FFF;
+padding: 3px 7px ;
+}
+.jump-link:hover{background:#444 !important;color:#fff}
+.post-header{padding-bottom: 0.5em}
+.post-header span {
+display: inline-block;
+margin-right: 5px;
+background: url(https://lh4.googleusercontent.com/-sFLTJ6mMcHI/UVRWxGjnlKI/AAAAAAAAFUc/2GMcHqcwUh4/s1300/separate.png) no-repeat scroll left -506px transparent;
+padding-left: 16px;
+}
+span.post-comment-link {
+line-height: 14px;
+display: inline-block;
+margin-right: 5px;
+background-position: left -574px;
+}
+.sidebar .widget-content {padding: 10px 0; margin-bottom: 25px;}
+.sidebar li {
+background: url(https://lh3.googleusercontent.com/-YMqu4_onL3c/UVRWxB0C4xI/AAAAAAAAFUo/eQf6FznqRxQ/s3/sidebar-bullet.png) no-repeat scroll left 8px transparent;
+line-height: 18px;
+overflow: hidden;
+padding: 0 0 5px 12px;
+}
+.sidebar li a:hover{text-decoration:underline}
+.flickr_badge_image { float: left; margin: 5px; }
+.flickr_badge_image img { height: 70px; width: 70px;}
+.widget-counter{
+margin-bottom:20px;
+overflow:hidden;
+clear: both;
+}
+.widget-counter li{
+line-height:15px;
+float:left;
+width:75px;
+height:87px;
+padding:7px 0 10px;
+-moz-transition:.4s linear; -webkit-transition:.4s ease-out; transition:.4s linear;
+}
+.widget-counter li a{display:block;text-align:center;}
+.widget-counter li a strong{ background:url(https://lh4.googleusercontent.com/-sFLTJ6mMcHI/UVRWxGjnlKI/AAAAAAAAFUc/2GMcHqcwUh4/s1300/separate.png) no-repeat;display:block; opacity:0.7; height:51px; margin-bottom:5px; -webkit-transition: opacity ease-in-out 0.4s;  -moz-transition: opacity ease-in-out 0.4s;  -o-transition: opacity ease-in-out 0.4s;  transition: opacity ease-in-out 0.4s;}
+.widget-counter li a:hover strong{opacity:1;}
+.widget-counter li:hover a{text-decoration: none;}
+.widget-counter li.rss-subscribers a strong{ background-position:center -1084px ;}
+.widget-counter li.rss-subscribers a:hover strong{ background-position:center -1139px ;}
+.widget-counter li.rss-subscribers span{font-family: Oswald,arial,Georgia, serif;font-size: 12pt;display: block;text-transform: uppercase;}
+.widget-counter li.facebook-fans a strong {	background-position:center -1192px ;}
+.widget-counter li.facebook-fans a:hover strong {	background-position:center -1246px ;}
+.widget-counter li.twitter-followers a strong{ background-position:center -868px;}
+.widget-counter li.twitter-followers a:hover strong{ background-position:center -922px;}
+.widget-counter li.youtube-subs a strong{ background-position:center -976px;}
+.widget-counter li.youtube-subs a:hover strong{ background-position:center -1030px;}
+.widget-counter li span{display:block;font-size:21px;}
+.widget-counter li a small{color:#777;}
+.feedburner-email{
+border:1px solid #ccc;
+background: #F9F9F9;
+color: #515151;
+font: 12px Tahoma;
+padding: 4px 7px;
+margin-bottom: 10px;
+border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px;
+display: block;
+width: 250px;
+height: 24px;
+}
+.feedburner-email:hover{ color:#000;}
+.feedburner-email:focus{ background:#FFF; color:#000;}
+.feedburner-subscribe{
+border: 1px solid #D9D9D9;
+background: #FBFBFB;
+background: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#FBFBFB),color-stop(100%,#EEE ));
+background: -webkit-linear-gradient(top,#FBFBFB 0,#EEE 100%);
+background: -moz-linear-gradient(top,#FBFBFB 0,#EEE 100%);
+background: -o-linear-gradient(top,#FBFBFB 0,#EEE 100%);
+background: -ms-linear-gradient(top,#FBFBFB 0,#EEE 100%);
+background: linear-gradient(top,#FBFBFB 0,#EEE 100%);
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3),inset 0 1px 0 rgba(255, 255, 255, 0.5);
+color: black;
+text-shadow: 0 1px 0 white;
+height: 30px;
+line-height: 30px;
+width:auto;
+font-size: 13px;
+padding: 0 15px;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+-webkit-transition: background .40s;
+-moz-transition: background .40s;
+-o-transition: background .40s;
+transition: background .40s;
+position:relative;
+cursor:pointer;
+}
+.feedburner-subscribe:hover {
+background: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#FFF),color-stop(100%,#f8f8f8));
+background: -webkit-linear-gradient(top,#FFF 0,#f8f8f8 100%);
+background: -moz-linear-gradient(top,#FFF 0,#f8f8f8 100%);
+background: -o-linear-gradient(top,#FFF 0,#f8f8f8 100%);
+background: -ms-linear-gradient(top,#FFF 0,#f8f8f8 100%);
+background: linear-gradient(top,#FFF ,#f8f8f8 100%);
+}
+.feedburner-subscribe:active {top:2px;}
+#FollowByEmail1 .widget-content {padding:11px}
+#FollowByEmail1 .widget-content p {padding-bottom: 1em}
+#footer {
+background: #333333;
+box-shadow: 0 -8px 0 rgba(0, 0, 0, 0.1);
+color: #DDD;
+margin-top: 20px;
+padding: 20px 0;
+text-shadow: 0 0 1px #000000;
+}
+.footer-widgets-box { width: 22%; float: left; margin-right: 4%; }
+.footer-widgets-box h2 {
+font-family: Oswald,arial,Georgia,serif;
+font-size: 16px;
+text-transform: uppercase;
+border-bottom: 3px solid #666666;
+padding: 10px 0;
+}
+.footer-widgets-box .widget-content { padding: 10px; }
+.footer-widgets-box a { color: #ccc; }
+.footer-widgets-box a:hover { color: #fff; }
+.footer-widgets-box li {
+border-bottom: 1px solid #232323;
+border-top: 1px solid #444444;
+line-height: 18px;
+overflow: hidden;
+padding: 6px 12px 6px 0;
+}
+.footer-widgets-box li:first-child { border-top:none !important }
+.footer-widgets-box li:last-child { border-bottom:none !important }
+.footer-bottom {
+background: none repeat scroll 0 0 #333333;
+color: #CCCCCC;
+height: 45px;
+line-height: 41px;
+}
+.footer-bottom .container { border-top: 4px solid #CD2122; }
+.footer-bottom a {color:#ccc}
+.footer-bottom a:hover {color:#fff}
+#footer-fourth { margin-right: 0; }
+#comments{overflow:hidden}
+#comments h4{display:inline;padding:10px;line-height:40px}
+#comments h4,.comments .comment-header,.comments .comment-thread.inline-thread .comment{position:relative}
+#comments h4,.comments .continue a{background:#cd2122}
+#comments h4,.comments .user a,.comments .continue a{font-size:16px}
+#comments h4,.comments .continue a{font-weight:normal;color:#fff}
+#comments h4:after{content:"";position:absolute;bottom:-10px;left:10px;border-top:10px solid #cd2122;border-right:20px solid transparent;width:0;height:0;line-height:0}
+#comments .avatar-image-container img{border:0}
+.comment-thread{color:#111}
+.comment-thread a{color:#777}
+.comment-thread ol{margin:0 0 20px}
+.comment-thread .comment-content a,.comments .user a,.comments .comment-thread.inline-thread .user a{color:#cd2122}
+.comments .avatar-image-container,.comments .avatar-image-container img{width:48px;max-width:48px;height:48px;max-height:48px}
+.comments .comment-block,.comments .comments-content .comment-replies,.comments .comment-replybox-single{margin-left:60px}
+.comments .comment-block,.comments .comment-thread.inline-thread .comment{border:1px solid #ddd;background:#f9f9f9;padding:10px}
+.comments .comments-content .comment{margin:15px 0 0;padding:0;width:100%;line-height:1em}
+.comments .comments-content .icon.blog-author{position:absolute;top:-12px;right:-12px;margin:0;background-image: url(https://lh5.googleusercontent.com/-cz1ogKtwNBc/T-xs3x0de-I/AAAAAAAABwI/KlCgXlV7uo0/s36/author.png);width:36px;height:36px}
+.comments .comments-content .inline-thread{padding:0 0 0 20px}
+.comments .comments-content .comment-replies{margin-top:0}
+.comments .comment-content{padding:5px 0;line-height:1.4em}
+.comments .comment-thread.inline-thread{border-left:1px solid #ddd;background:transparent}
+.comments .comment-thread.inline-thread .comment{width:auto}
+.comments .comment-thread.inline-thread .comment:after{content:"";position:absolute;top:10px;left:-20px;border-top:1px solid #ddd;width:10px;height:0px}
+.comments .comment-thread.inline-thread .comment .comment-block{border:0;background:transparent;padding:0}
+.comments .comment-thread.inline-thread .comment-block{margin-left:48px}
+.comments .comment-thread.inline-thread .user a{font-size:13px}
+.comments .comment-thread.inline-thread .avatar-image-container,.comments .comment-thread.inline-thread .avatar-image-container img{width:36px;max-width:36px;height:36px;max-height:36px}
+.comments .continue{border-top:0;width:100%}
+.comments .continue a{padding:10px 0;text-align:center}
+.comment .continue{display:none}
+#comment-editor{width:103%!important}
+.comment-form{width:100%;max-width:100%}
+.comments .comments-content .loadmore,.comments .comments-content {margin:0}
+#blog-pager-newer-link {float: left;}
+#blog-pager-older-link {float: right;}
+#blog-pager { margin:0; padding:0 0 10px; text-align: center; clear:both; }
+.pagenavi a {
+float:left;
+text-shadow: 0 1px 0 #FFF;
+margin-right : 3px;
+color: #777;
+padding: 6px 10px 3px;
+}
+.pagenavi a:hover {color:#000;}
+.pagenavi .current {
+float: left;
+margin-right: 3px;
+color: #FFF;
+background-color: #cd2122;
+text-shadow: 0 1px 0 #000;
+padding:4px 10px 6px;
+}
+.pagenavi .pages {float:right; display: block; font-size: 85%; padding: 7px 0 2px;}
+#related-posts h3{
+border-bottom: 4px solid #333333;
+font-family: Oswald,arial,Georgia,serif;
+font-size: 18px;
+padding-bottom: 5px;
+text-transform: uppercase;
+}
+#related-posts ul {   margin-bottom: 20px; padding: 10px 0; }
+#related-posts ul li {
+float: left;
+height: 180px;
+margin: 0 10px 10px 0;
+width: 200px;
+font-size: 15px;
+}
+#related-posts img:hover{opacity:0.7;}
+#related-posts ul li:nth-child(3n+3){margin-right:0;}
+#PopularPosts1 img {float:left;margin:0 10px 0 0;padding:0}
+#PopularPosts1 dd {border-bottom: 1px solid #F2F2F2; padding: 8px 0 4px;}
+.status-msg-body {position:relative !important}
+.CSS_LIGHTBOX { z-index: 9999 !important; }
+
+--></style>
+<script type='text/javascript'>//<![CDATA[
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('5 6(s,n){b s.c(/<.*?>/d,"").e(/\\s+/).f(0,n-1).g(" ")}5 h(a){i p=j.k(a),3="",2=p.l("2");m(2.o>=1)3=\'<2 7="8" 4="\'+2[0].4+\'" />\';q 3=\'<2 7="8 r-2" 4="t://u.v.w/-y/z-A/B/C-D/E.F" />\';p.9=\'<a G="\'+x+\'">\'+3+"</a>"+"<p>"+6(p.9,H)+"...</p>"};',44,44,'||img|imgtag|src|function|stripTags|class|thumb|innerHTML||return|replace|ig|split|slice|join|readmore|var|document|getElementById|getElementsByTagName|if||length||else|no||https|lh4|googleusercontent|com||G9M2DTCTUwM|Tlh|2pwtc5I|AAAAAAAABKM|kCJg|Kf3W2M|no_image_yet|jpg|href|12'.split('|'),0,{}))
+//]]></script>
+<script type='text/javascript'>var switchTo5x=false;</script>
+<script src='http://w.sharethis.com/button/buttons.js' type='text/javascript'></script>
+<script type='text/javascript'>stLight.options({publisher: "d5d9d1dc-b144-4073-a0ef-a707b7e36dba"}); </script>
+<script type="text/javascript">var a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",k="?m=1";function l(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return d+k;case 2:return 0<=e[1].search(g)?null:d+f;default:return null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera Mini")||-1!=a[b][c]("IEMobile")){var m=l();m&&window.location.replace(m)};
+</script><script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body>
+<div id='wrapper'>
+<div id='top-nav'>
+<div class='container'>
+<div class='search-block'>
+<form action='/search' id='searchform' method='get'>
+<input class='search-button' type='submit' value='Search'/>
+<input id='s' name='q' onblur='if (this.value == &#39;&#39;) {this.value = &#39;Search...&#39;;}' onfocus='if (this.value == &#39;Search...&#39;) {this.value = &#39;&#39;;}' type='text' value='Search...'/>
+</form>
+</div>
+<div class='social-icons icon_flat'>
+<a class='tooldown rss-tieicon' href='http://feeds2.feedburner.com/bitnavegante' target='_blank' title='Rss'></a>
+<a class='tooldown google-tieicon' href='http://plus.google.com/115486275296456536560' target='_blank' title='Google+'></a>
+<a class='tooldown facebook-tieicon' href='http://www.facebook.com/pedronay' target='_blank' title='Facebook'></a>
+<a class='tooldown twitter-tieicon' href='https://twitter.com/pedronay' target='_blank' title='Twitter'></a>
+<a class='tooldown pinterest-tieicon' href='#' target='_blank' title='Pinterest'></a>
+<a class='tooldown dribbble-tieicon' href='#' target='_blank' title='Dribbble'></a>
+<a class='tooldown youtube-tieicon' href='#' target='_blank' title='Youtube'></a>
+<a class='tooldown instagram-tieicon' href='#' target='_blank' title='instagram'></a>
+</div>
+</div>
+<div class='clear'></div>
+</div>
+<div class='container'>
+<div id='header-wrapper'>
+<div class='header-content'>
+<div class='header section' id='header'><div class='widget Header' id='Header1'>
+<div id='header-inner'>
+<div class='titlewrapper'>
+<h1 class='title'>
+<a href='http://bitnavegante.blogspot.com.es/'>Bitnavegantes</a>
+</h1>
+</div>
+<div class='descriptionwrapper'>
+<p class='description'><span>
+</span></p>
+</div>
+</div>
+</div></div>
+<div class='ads-top'>
+<a href='#' target='_blank' title='Top Banner Here'>
+<img src='https://sites.google.com/site/enlacesparanavegantes/imagenblog/blog/soplando-planetas1.jpg'/>
+</a>
+</div>
+<div class='clear'></div>
+</div>
+<nav id='main-nav'>
+<div class='container'>
+<div class='main-menu'><ul class='menu' id='menu-main'>
+<li><a href='http://bitnavegante.blogspot.com.es/'>Inicio</a></li>
+<li><a href='#'>Artística</a>
+<ul class='sub-menu'>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Arquitectura'>ARQUITECTURA</a></li>
+<li><a href='http://bitnavegante.blogspot.com.es/search/label/Armon%C3%ADas'>ARMONÍAS</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Arte'>ARTE</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Fotograf%C3%ADa'>FOTOGRAFIA</a></li>
+<li><a href='http://bitnavegante.blogspot.com.es/search/label/Historieta'>Historietas</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Libro'>LIBROS</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Literatura'>LITERATURA</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/M%C3%BAsica'>MÚSICA</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Pintura'>PINTURA</a></li>
+</ul>
+</li>
+<li><a href='#'>Humanística</a>
+<ul class='sub-menu'>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Cultura'>CULTURA</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Sociologia'>SOCIOLOGIA</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Historia'>HISTORIA</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Educaci%C3%B3n'>EDUCACION</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Filosofia'>FILOSOFIA</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Deporte'>DEPORTE</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Derecho'>DERECHO</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Econom%C3%ADa'>ECONOMIA</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Linguistica'>LIGUISTICA</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Espiritualidad'>ESPIRITUALIDAD</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/sociedad'>SOCIEDAD</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Personas'>PERSONAS</a></li>
+</ul>
+</li>
+<li><a href='#'>Ciencias Físicas</a>
+<ul class='sub-menu'>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Astrof%C3%ADsica'>ASTROFISICA</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Cosmolog%C3%ADa'>COSMOLOGIA</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Astroqu%C3%ADmica'>ASTROQUIMICA</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Ciencia'>Ciencias</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/F%C3%ADsica'>FISICA</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Geolog%C3%ADa'>GEOLOGIA</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Matem%C3%A1ticas'>MATEMATICAS</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Qu%C3%ADmica'>QUIMICA</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Universo_electrico'>UNIVERSO ELÉCTRICO</a></li>
+</ul>
+</li>
+<li><a href='#'>Biociencias</a>
+<ul class='sub-menu'>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Biolog%C3%ADa'>BIOLOGIA</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Bot%C3%A1nica'>BOTANICA</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Zoologia'>ZOOLOGIA</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Medio%20ambiente'>MEDIO-AMBIENTE</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Climatolog%C3%ADa'>CLIMATOLOGIA</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Oceanograf%C3%ADa'>OCEANOGRAFIA</a></li>
+</ul>
+</li>
+<li><a href='#'>Salud</a>
+<ul class='sub-menu'>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Medicina'>MEDICINA</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Salud'>SALUD</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Neurolog%C3%ADa'>NEUROLOGIA</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/genetica'>GENETICA</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Optogen%C3%A9tica'>OPTOGENETICA</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Odontologia'>ODONTOLOGIA</a></li>
+</ul>
+</li>
+<li><a href='#'>Tecnología</a>
+<ul class='sub-menu'>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Tecnolog%C3%ADa'>TECNOLOGIA</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/blogger'>BLOGGER</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Linux'>LINUX</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Materiales'>MATERIALES</a></li>
+<li><a href='http://bitnavegante.blogspot.com/search/label/Inteligencia%20Artificial'>INTELIGENCIA ARTIFICIAL</a></li>
+</ul>
+</li>
+<li><a href='#'>PÁGINAS </a>
+<ul class='sub-menu'>
+<li><a href='http://bitnavegante.blogspot.com.es/p/contacto.html'>AUTOR</a></li>
+<li><a href='http://bitnavegante.blogspot.com.es/p/calculadora_28.html'>CALCULADORA</a></li>
+<li><a href='http://bitnavegante.blogspot.com.es/p/enlaces.html'>ENLACES</a></li>
+<li><a href='http://bitnavegante.blogspot.com.es/p/filosofia.html'>FILOSOFÍA</a></li>
+<li><a href='http://bitnavegante.blogspot.com.es/p/blog-page.html'>ÍNDICE Temático</a></li>
+<li><a href='http://bitnavegante.blogspot.com.es/p/indice-recientes.html'>ÍNDICE Recientes</a></li>
+<li><a href='http://bitnavegante.blogspot.com.es/p/lugares.html'>LUGARES</a></li>
+<li><a href='http://bitnavegante.blogspot.com.es/p/mapa.html'>MAPA</a></li>
+<li><a href='http://bitnavegante.blogspot.com.es/p/musica.html'>MÚSICA</a></li>
+<li><a href='http://bitnavegante.blogspot.com.es/2010/10/sistema-operativo-online.html'>S.O.ONLINE</a></li>
+</ul>
+</li>
+<li><a href='http://bitnavegante.blogspot.com.es/p/columnistas.html'>Columnas</a></li>
+</ul></div>
+</div>
+</nav>
+</div>
+<div id='content-wrapper'>
+<div id='main-wrapper'>
+<div class='main section' id='main'><div class='widget Blog' id='Blog1'>
+<div class='post'>
+<h1>Identificada la principal causa de la pérdida de memoria relacionada con la edad, y es potencialmente reversible
+</h1>
+<div class='post-body'>
+<div style="text-align: right;">
+Referencia : <a href="http://www.sciencedaily.com/releases/2013/08/130828144834.htm" target="_blank">Science.Daily.com </a>, 28 agosto 2013</div>
+<hr />
+<b>Un equipo de investigadores del Centro Médico de la Universidad de Columbia (CUMC), dirigido por el premio Nobel Eric R. Kandel, ha encontrado que la deficiencia de una proteína llamada <a href="http://es.wikipedia.org/wiki/RBBP4" target="_blank">RbAp48</a> en el hipocampo, contribuye de manera importante a la pérdida de memoria relacionada con la edad y que esta forma de pérdida de memoria es reversible.</b><br />
+<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-Rs5b8UF4Hic/UiDBcyjVNRI/AAAAAAAAc3o/3QVg0-nh2eE/s1600/cerebro-raton.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="http://1.bp.blogspot.com/-Rs5b8UF4Hic/UiDBcyjVNRI/AAAAAAAAc3o/3QVg0-nh2eE/s1600/cerebro-raton.jpg" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;"><i>Identificación de la proteína RbAp48 en jóvenes ratones. En la 
+imagen, el amarillo muestra el aumento de la RbAp48 en el &#8216;giro 
+dentado&#8217;. Crédito: Elias Pavlopoulos, Ph.D / Columbia University Medical
+ Center).</i></td></tr>
+</tbody></table>
+El estudio fue llevado a cabo con células cerebrales humanas postmortem y en ratones, también ofrece la más fuerte evidencia causal de que la pérdida de memoria relacionada con la edad y la enfermedad de Alzheimer son problemas distintos.<br />
+<br />
+Los resultados se publican hoy en la edición digital de <i>Science Translational Medicine </i>.<br />
+<br />
+"Nuestro estudio proporciona evidencias convincentes de que la pérdida de memoria relacionada con la edad es un síndrome en sí mismo, al margen de la enfermedad de Alzheimer. Además de las implicaciones para el estudio, el diagnóstico y el tratamiento de los trastornos de la memoria, estos resultados tienen consecuencias para la salud pública", indicó el Dr. Kandel, profesor de Ciencias cerebrales en la Universidad de Columbia, co -director de Mortimer B. Zuckerman en el Mind Brain Behavior Institute del Cerebro y director del Instituto Kavli Institute for Brain Science, e investigador senior del Instituto Médico Howard Hughes, en la CUMC. Dr. Kandel compartió el Premio Nobel 2000 en Fisiología o Medicina por sus descubrimientos relacionados con las bases moleculares de la memoria.<br />
+<br />
+El hipocampo, una región del cerebro que se compone de varias subregiones interconectadas, cada una con una población neuronal distinta, juega un papel vital en la memoria. Los estudios han demostrado que la enfermedad de Alzheimer dificulta la memoria por su acción en la <a href="http://es.wikipedia.org/wiki/Corteza_entorrinal" target="_blank">corteza entorrinal</a> (CE), una región del cerebro que proporciona las principales rutas de entradas al hipocampo. Inicialmente se pensó que la pérdida de memoria relacionada con la edad era una manifestación temprana de la enfermedad de Alzheimer, pero las evidencias sugieren que son procesos distintos que afectan al <a href="http://es.wikipedia.org/wiki/Giro_dentado" target="_blank">giro dentado</a> (DG), una subregión del hipocampo que recibe entradas directas de la CE.<br />
+<br />
+"Hasta ahora, sin embargo, nadie ha sido capaz de identificar los defectos moleculares específicos implicados en la pérdida de memoria relacionada con la edad en los humanos", dijo el co-autor principal Scott A. Small, profesor de neurología en Boris y Rose Katz y director del Centro de Investigación del Alzheimer en la CUMC.<br />
+<br />
+El presente estudio fue diseñado para buscar evidencias más directas de que la pérdida de memoria relacionada con la edad es distinta de la enfermedad de Alzheimer. Los investigadores comenzaron realizando un análisis de microarray (la expresión genética) de las células cerebrales post-mortem del DG de ocho personas, de una edad entre 33 a 88 años, todos ellos libres de enfermedad cerebral. El equipo también analizó las células de su CE, que sirvieron como controles, ya que la estructura del cerebro no se ve afectada por el envejecimiento. Los análisis identificaron 17 genes candidatos que podrían estar relacionados con el envejecimiento del DG. Los cambios más significativos se produjeron con un gen llamado RbAp48, cuya expresión fue disminuyendo de manera constante con la edad en todos los sujetos del estudio.<br />
+<br />
+Para determinar si la RbAp48 desempeñaba un papel activo en la pérdida de memoria relacionada con la edad, los investigadores recurrieron a los estudios de ratones. "La primera pregunta era si la RbAp48is se desregulaba en ratones con edad avanzada", apuntó el autor principal, Elias Pavlopoulos, científico investigador asociado de neurología en la CUMC. "Y en efecto, ese resultó ser el caso, se produjo una reducción de la proteína RbAp48 en el DG."<br />
+<br />
+Cuando los investigadores inhibieron la RbAp48 genéticamente en el cerebro de ratones jóvenes y sanos, descubrieron la misma pérdida de la memoria como en los ratones de edad avanzada, según lo medido por este novedoso test de reconocimiento de objetos y pruebas de memoria en el laberinto de agua. Cuando la inhibición de RbAp48 se desactivaba, la memoria de los ratones volvían a la normalidad.<br />
+<br />
+Los investigadores también hicieron estudios de resonancia magnética funcional (fMRI ) de los ratones con la RbAp48 inhibida y encontraron un efecto selectivo en el DG, similar al observado en los estudios de resonancia magnética funcional de ratones de edad avanzada, monos y humanos. Este efecto de inhibición de la RbAp48 en el DG estuvo acompañado por defectos en los mecanismos moleculares parecidos a los encontrados en ratones de edad avanzada. El perfil de fMRI y de los defectos mecánicos de los ratones con la RbAp48 inhibida volvió a la normalidad cuando la inhibición se desactivó.<br />
+<br />
+En otro experimento, los investigadores utilizaron la transferencia génica viral y el aumento de la expresión de la RbAp48 del DG en ratones de edad avanzada. "Nos quedamos asombrados de que no sólo mejoraban su rendimiento en las pruebas de memoria, sino que era comparable al de los ratones jóvenes", señaló el Dr. Pavlopoulos.<br />
+<br />
+"El hecho de que hayamos sido capaces de revertir la pérdida de memoria relacionada con la edad en los ratones es muy alentador", dijo el Dr. Kandel. "Por supuesto, es posible que otros cambios en el DG puedan contribuir a esta forma de pérdida de memoria. Pero al menos, demuestra que esta proteína es un factor muy importante, y nos habla sobre el hecho de que la pérdida de memoria relacionada con la edad, se debe a un cambio funcional en alguna serie de neuronas. A diferencia con la enfermedad de Alzheimer, no hay pérdida significativa de neuronas."<br />
+<br />
+Por último, los datos del estudio sugieren que, la proteína RbAp48 media en sus efectos, al menos en parte, a través de la vía PKA-CREB1-CBP, algo que el equipo ya había encontrado en estudios anteriores como importante para la pérdida de memoria relacionada con la edad del ratón. Según los investigadores, la vía de la RbAp48 y la PKA-CREB1-CBP son objetivos válidos para la intervención terapéutica. Los agentes que mejoran esta vía ya han sido demostrados que mejoran la disfunción del hipocampo relacionada con la edad de los roedores.<br />
+<br />
+"Que estos compuestos funcionen en humanos, aún no se conoce", añadió el Dr. Small. "Pero la cuestión es que puede servir para desarrollar intervenciones efectivas, aunque primero hay que encontrar el objetivo correcto. Ahora tenemos un buen objetivo, y nos permite desarrollar una forma de terapias que pueden ser eficaces, ya sean farmacéuticos, nutracéuticas o de ejercicios físicos y cognitivos."<br />
+<br />
+"Existen ríos de tinta sobre los fracasos en ensayos de medicamentos basados &#8203;&#8203;en los resultados con modelos de ratón para la enfermedad de Alzheimer", señalaba el Dr. Small. "Pero esto es diferente. No se produce el Alzheimer de forma natural en el ratón. Aquí, nosotros hemos causado la pérdida de memoria relacionada con la edad en el ratón, y hemos demostrado que es relevante para el envejecimiento humano."<br />
+<br />
+<hr />
+<i>- Estudio: "A Molecular Mechanism for Age-Related Memory Loss: The Histone Binding Protein RbAp48." The other contributors are Sidonie Jones, Stylianos Kosmidis, Maggie Close, Carla Kim, and Olga Kovalerchik, all at CUMC.<br />- Fuente : <a href="http://newsroom.cumc.columbia.edu/2013/08/28/a-major-cause-of-age-related-memory-loss-identified/" target="_blank">Columbia University Medical Center</a>.<br />- Publicación:&nbsp; Elias Pavlopoulos, Sidonie Jones, Stylianos Kosmidis, Maggie Close, Carla Kim, Olga Kovalerchik, Scott A. Small, and Eric R. Kandel. Molecular Mechanism for Age-Related Memory Loss: The Histone-Binding Protein RbAp48. Sci Transl Med, 28 August 2013 <a href="http://dx.doi.org/10.1126/scitranslmed.3006373" target="_blank">DOI: 10.1126/scitranslmed.3006373</a>.<br />- Imagen:. Identificación de la proteína RbAp48 en jóvenes ratones. En la imagen, el amarillo muestra el aumento de la RbAp48 en el &#8216;giro dentado&#8217;. Crédito: Elias Pavlopoulos, Ph.D / Columbia University Medical Center).</i><br />
+.
+<br/>
+</div>
+<div class='clear'></div>
+<hr/><div><span class='st_sharethis_hcount' displayText='ShareThis'></span>
+<span class='st_meneame_hcount' displayText='Meneame'></span>
+<span class='st_facebook_hcount' displayText='Facebook'></span>
+<span class='st_twitter_hcount' displayText='Tweet'></span>
+<span class='st_googleplus_hcount' displayText='Google +'></span></div><br/><hr/>
+<div class='post-footer'>
+<span class='post-author'>
+Publicado/Traducido, por
+<span>Pedro Donaire</span>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-2132927996'>
+<a href='http://www.blogger.com/post-edit.g?blogID=5966811725215420136&postID=1934268813223962326&from=pencil' title='Editar entrada'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+</div>
+<div class='post-labels'>
+Etiquetas:
+<a href='http://bitnavegante.blogspot.com.es/search/label/Neurolog%C3%ADa' rel='tag'>Neurología</a>
+</div>
+<div id='related-posts'>
+<script type='text/javascript'>//<![CDATA[
+var ry='<h3 class="heading-border"><span>Related Articles</span></h3>';rn='<h3 class="heading-border"><span>No related article available</span></h3>';rcomment='comments';rdisable='disable comments';commentYN='yes';
+var dw='';titles=new Array();titlesNum=0;urls=new Array();timeR=new Array();thumb=new Array();commentsNum=new Array();comments=new Array();function related_results_labels(c){for(var b=0;b<c.feed.entry.length;b++){var d=c.feed.entry[b];titles[titlesNum]=d.title.$t;for(var a=0;a<d.link.length;a++){if('thr$total' in d){commentsNum[titlesNum]=d.thr$total.$t+' '+rcomment}else{commentsNum[titlesNum]=rdisable};if(d.link[a].rel=="alternate"){urls[titlesNum]=d.link[a].href;timeR[titlesNum]=d.published.$t;if('media$thumbnail' in d){thumb[titlesNum]=d.media$thumbnail.url}else{thumb[titlesNum]='http://lh3.ggpht.com/--Z8SVBQZ4X8/TdDxPVMl_sI/AAAAAAAAAAA/jhAgjCpZtRQ/no-image.png'};titlesNum++;break}}}}function removeRelatedDuplicates(){var b=new Array(0);c=new Array(0);e=new Array(0);f=new Array(0);g=new Array(0);for(var a=0;a<urls.length;a++){if(!contains(b,urls[a])){b.length+=1;b[b.length-1]=urls[a];c.length+=1;c[c.length-1]=titles[a];e.length+=1;e[e.length-1]=timeR[a];f.length+=1;f[f.length-1]=thumb[a];g.length+=1;g[g.length-1]=commentsNum[a]}}urls=b;titles=c;timeR=e;thumb=f;commentsNum=g}function contains(b,d){for(var c=0;c<b.length;c++){if(b[c]==d){return true}}return false}function printRelatedLabels(a){var y=a.indexOf('?m=0');if(y!=-1){a=a.replace(/\?m=0/g,'')}for(var b=0;b<urls.length;b++){if(urls[b]==a){urls.splice(b,1);titles.splice(b,1);timeR.splice(b,1);thumb.splice(b,1);commentsNum.splice(b,1)}}var c=Math.floor((titles.length-1)*Math.random());var b=0;if(titles.length==0){dw+=rn}else{dw+=ry;dw+='<ul>';while(b<titles.length&&b<20&&b<maxresults){if(y!=-1){urls[c]=urls[c]+'?m=0'}if(commentYN=='yes'){comments[c]=' - '+commentsNum[c]}else{comments[c]=''};dw+='<li><div class="pthumb"><a href="'+urls[c]+'" rel="nofollow"><img alt="'+titles[c]+'" src="'+ thumb[c].replace("/s72-c/","/s300/")+'"/></a></div><a href="'+urls[c]+'" rel="nofollow">'+titles[c]+'</a><div class="clear"></div></li></div>';if(c<titles.length-1){c++}else{c=0}b++}dw+='</ul>'};urls.splice(0,urls.length);titles.splice(0,titles.length);document.getElementById('related-posts').innerHTML=dw};
+//]]></script>
+<script src='/feeds/posts/default/-/Neurología?alt=json-in-script&callback=related_results_labels' type='text/javascript'></script>
+<script type='text/javascript'>var maxresults=3;removeRelatedDuplicates();printRelatedLabels('http://bitnavegante.blogspot.com.es/2013/08/perdida-de-memoria-relacionada-con-proteina.html');</script>
+</div>
+<div class='clear'></div>
+<span class='post-location'>
+</span>
+</div>
+</div>
+<div class='comments' id='comments'>
+<a name='comments'></a>
+<h4>
+0
+comentarios:
+        
+</h4>
+<div id='Blog1_comments-block-wrapper'>
+<div class='avatar-comment-indent' id='comments-block'>
+</div>
+</div>
+<p class='comment-footer'>
+<div class='comment-form'>
+<a name='comment-form'></a>
+<p>
+</p>
+<a href='http://www.blogger.com/comment-iframe.g?blogID=5966811725215420136&postID=1934268813223962326' id='comment-editor-src'></a>
+<iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='210' id='comment-editor' name='comment-editor' src='' width='100%'></iframe>
+<script type="text/javascript" src="//www.blogger.com/static/v1/jsbin/2373033623-comment_from_post_iframe.js"></script>
+<script type='text/javascript'>
+      BLOG_CMT_createIframe('http://www.blogger.com/rpc_relay.html', '18073725564050316102');
+    </script>
+</div>
+</p>
+<div id='backlinks-container'>
+<div id='Blog1_backlinks-container'>
+</div>
+</div>
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-newer-link'>
+<a class='blog-pager-newer-link' href='http://bitnavegante.blogspot.com.es/2013/08/prologo-al-libro-nuestro-enemigo-el.html' id='Blog1_blog-pager-newer-link' title='Entrada más reciente'>Entrada más reciente</a>
+</span>
+<a class='home-link' href='http://bitnavegante.blogspot.com.es/'>Página principal</a>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://bitnavegante.blogspot.com.es/2013/08/beber-poco-relacionado-menor-riesgo-depresion.html' id='Blog1_blog-pager-older-link' title='Entrada antigua'>Entrada antigua</a>
+</span>
+</div>
+<div class='clear'></div>
+<div class='post-feeds'>
+<div class='feed-links'>
+Suscribirse a:
+<a class='feed-link' href='http://bitnavegante.blogspot.com/feeds/1934268813223962326/comments/default' target='_blank' type='application/atom+xml'>Enviar comentarios (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'es'};</script>
+</div><div class='widget Navbar' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+        gapi.load("iframes-styles-bubble", function() {
+          if (window.iframes && iframes.open) {
+            iframes.open(
+                '//www.blogger.com/navbar.g?targetBlogID\0755966811725215420136\46blogName\75Bitnavegantes\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://bitnavegante.blogspot.com/search\46blogLocale\75es\46v\0752\46homepageUrl\75http://bitnavegante.blogspot.com/\46targetPostID\0751934268813223962326\46blogPostOrPageUrl\75http://bitnavegante.blogspot.com/2013/08/perdida-de-memoria-relacionada-con-proteina.html\46blogFollowUrl\75https://plus.google.com/115486275296456536560\46vt\0753631152052714266294',
+                {
+                  container: "navbar-iframe-container",
+                  id: "navbar-iframe"
+                },
+                {
+                });
+          }
+        });
+      </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+</div>
+<div id='sidebar-mid'>
+<div class='sidebar section' id='side-mid'><div class='widget HTML' id='HTML6'>
+<h2 class='title'>Blog Pedro Donaire</h2>
+<div class='widget-content'>
+<div><img alt='Avatar' class='avatar ' height='70' src='http://4.bp.blogspot.com/_FIs6Y2XOFN8/S3WduxB5DaI/AAAAAAAAMRs/uUuN_YFmESI/S220/pedro400.JPG' width='70'/></div>
+<div>
+<p><b>El Blog Bitnavegantes, es un diario de divulgación, con mi propia selección y traducción de noticias de Ciencia y Humanística</b></p>
+</div><br/><hr/> Si estás interesado en algún artículo puedes guardarlo en formato .pdf, basta con pulsar el botón de abajo.
+<!-- Web2PDF Converter Button BEGIN -->
+<script type="text/javascript">
+var
+pdfbuttonlabel="Guardar en PDF"
+</script>
+<script src="http://www.web2pdfconvert.com/pdfbutton2.js" id="Web2PDF" type="text/javascript"></script>
+<!-- Web2PDF Converter Button END --><div></div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5966811725215420136&widgetType=HTML&widgetId=HTML6&action=editWidget&sectionId=side-mid' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML6"));' target='configHTML6' title='Editar'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Translate' id='Translate1'>
+<h2 class='title'>Traduce (Translate)</h2>
+<div id='google_translate_element'></div>
+<script>
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'es',
+        autoDisplay: 'true',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, 'google_translate_element');
+    }
+  </script>
+<script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5966811725215420136&widgetType=Translate&widgetId=Translate1&action=editWidget&sectionId=side-mid' onclick='return _WidgetManager._PopupConfig(document.getElementById("Translate1"));' target='configTranslate1' title='Editar'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget PopularPosts' id='PopularPosts1'>
+<h2>Popular Posts</h2>
+<div class='widget-content popular-posts'>
+<ul>
+<dd>
+<img alt='El enemigo está dentro de nosotros: 10 parásitos humanos' height='60' src='http://1.bp.blogspot.com/_FIs6Y2XOFN8/SmakMqJqsKI/AAAAAAAAKGE/CLSZ7TIOvFs/s72-c/Anquilostomas-hookworm.jpg' width='60'/>
+<a href='http://bitnavegante.blogspot.com.es/2009/07/el-enemigo-esta-dentro-de-nosotros-10.html' rel='bookmark' title='22/07/2009  Las relaciones simbióticas entre parásito y anfitrión puede tener efectos beneficiosos, incluso cambiar la personalidad humana y...'>El enemigo está dentro de nosotros: 10 parásitos humanos</a>
+<div style='clear: both;'></div>
+</dd>
+<dd>
+<img alt='Colores y olores de la orina, buenos indicadores de salud' height='60' src='http://1.bp.blogspot.com/-NtJxPRL908c/TkqV4r8mzHI/AAAAAAAAOoM/UgCzf0D3ZM4/s72-c/test-orina.jpg' width='60'/>
+<a href='http://bitnavegante.blogspot.com.es/2011/08/colores-y-olores-de-la-orina-bueosn.html' rel='bookmark' title='¿Qué apariencia tiene tu pis últimamente? Esto no es exactamente lo que se llama una conversación cortés, sin embargo, es una pregunta que v...'>Colores y olores de la orina, buenos indicadores de salud</a>
+<div style='clear: both;'></div>
+</dd>
+<dd>
+<img alt='Identificada la principal causa de la pérdida de memoria relacionada con la edad, y es potencialmente reversible' height='60' src='http://1.bp.blogspot.com/-Rs5b8UF4Hic/UiDBcyjVNRI/AAAAAAAAc3o/3QVg0-nh2eE/s72-c/cerebro-raton.jpg' width='60'/>
+<a href='http://bitnavegante.blogspot.com.es/2013/08/perdida-de-memoria-relacionada-con-proteina.html' rel='bookmark' title=' Referencia : Science.Daily.com , 28 agosto 2013   Un equipo de investigadores del Centro Médico de la Universidad de Columbia (CUMC), dirig...'>Identificada la principal causa de la pérdida de memoria relacionada con la edad, y es potencialmente reversible</a>
+<div style='clear: both;'></div>
+</dd>
+<dd>
+<img alt='Planificación urbana: Ciudades subterráneas en crecimiento' height='60' src='http://1.bp.blogspot.com/-7EM7RYL9MFA/UkqhQ8oBC0I/AAAAAAAAeWw/b0fzigdvcMg/s72-c/Coober+Pedy-Australia.jpeg' width='60'/>
+<a href='http://bitnavegante.blogspot.com.es/2013/10/planificacion-urbana-ciudades-subterraneas.html' rel='bookmark' title=' Referencia: Phys.org , 30 septiembre 2013    Bajo las calles de Montreal hay una segunda ciudad, un bullicioso complejo de tiendas y restau...'>Planificación urbana: Ciudades subterráneas en crecimiento</a>
+<div style='clear: both;'></div>
+</dd>
+<dd>
+<img alt='La vida extraterrestre puede no estar basada en el ADN o ARN' height='60' src='http://3.bp.blogspot.com/-dU1fh6EDch4/T52R4jDAKxI/AAAAAAAAQ0M/EfML524X9WI/s72-c/ARN-ADN.png' width='60'/>
+<a href='http://bitnavegante.blogspot.com.es/2012/04/la-vida-extraterrestre-puede-no-estar.html' rel='bookmark' title='Los biólogos han descubierto que otras seis moléculas podrían almacenar información genética y transmitirla. En los laboratorios se han crea...'>La vida extraterrestre puede no estar basada en el ADN o ARN</a>
+<div style='clear: both;'></div>
+</dd>
+<dd>
+<img alt='¿Cómo se forman los fósiles?' height='60' src='http://2.bp.blogspot.com/-hAXssgJTxJw/Uc6sKOfCA9I/AAAAAAAAbfo/OtZxqsQdgpA/s72-c/fosil-ave.jpg' width='60'/>
+<a href='http://bitnavegante.blogspot.com.es/2013/06/como-se-forman-los-fosiles.html' rel='bookmark' title=' Referencia: LiveScience.com .   por José Castro, 26 de junio 2013   Cuando los animales, plantas y otros organismos mueren, generalmente se...'>&#191;Cómo se forman los fósiles?</a>
+<div style='clear: both;'></div>
+</dd>
+<dd>
+<img alt='¿Qué es una fobia? ¿Qué causas, síntomas y tratamiento tiene?' height='60' src='http://2.bp.blogspot.com/-bfNU1qWSJKU/UDeB3qF5MJI/AAAAAAAASdk/Uths0MlQVc8/s72-c/fobias2.jpg' width='60'/>
+<a href='http://bitnavegante.blogspot.com.es/2012/08/fobia-causas-y-tratamiento.html' rel='bookmark' title=' Referencia: Medical.News.Today.com  ,  Autor: Christian Nordqvist, 22 Agosto 2012   Una fobia es un miedo irracional, un tipo de trastorno ...'>&#191;Qué es una fobia? &#191;Qué causas, síntomas y tratamiento tiene?</a>
+<div style='clear: both;'></div>
+</dd>
+<dd>
+<img alt='10 sustancias químicas tóxicas sospechosas de causar autismo y discapacidades del aprendizaje' height='60' src='http://1.bp.blogspot.com/-hJgWyDXZWmk/T5z1vnmEBoI/AAAAAAAAQzk/pHEb2nYQLw4/s72-c/autismo.jpg' width='60'/>
+<a href='http://bitnavegante.blogspot.com.es/2012/04/10-sustancias-quimicas-toxicas.html' rel='bookmark' title='La edición de abril 2012 de Environmental Health Perspectives  ha hecho un llamamiento para una mayor investigación, con el fin de identific...'>10 sustancias químicas tóxicas sospechosas de causar autismo y discapacidades del aprendizaje</a>
+<div style='clear: both;'></div>
+</dd>
+<dd>
+<img alt='no image' height='60' src='http://lh4.ggpht.com/_u7a1IFxc4WI/TTjruHJjcfI/AAAAAAAAAk0/i11Oj6i_bHY/s60/no-image.png' width='60'/>
+<a href='http://bitnavegante.blogspot.com.es/2010/07/el-ataque-de-ira-es-un-trastorno-mental.html' rel='bookmark' title='Un trastorno mental cuyos síntomas incluyen arremeter verbalmente de manera agresiva o violenta, se ha encontrado que es casi dos veces más ...'>El ataque de ira, &#191;es un trastorno mental?</a>
+<div style='clear: both;'></div>
+</dd>
+<dd>
+<img alt='¿Qué es un holograma?' height='60' src='http://3.bp.blogspot.com/-_gRTs3vqkfI/UaCrsiA81tI/AAAAAAAAbAQ/qvz3QRVQS34/s72-c/cnn-holograma-periodista.png' width='60'/>
+<a href='http://bitnavegante.blogspot.com.es/2013/05/que-es-un-holograma.html' rel='bookmark' title=' Referencia: LiveScience.com  .   Robert Workman, 23 de mayo 2013   La holografía es una técnica fotográfica que registra la luz dispersada ...'>&#191;Qué es un holograma?</a>
+<div style='clear: both;'></div>
+</dd>
+</ul>
+</div>
+</div></div>
+</div>
+<div id='sidebar-wrapper'>
+<div class='widget widget-counter'>
+</div>
+<div class='sidebar section' id='sidebar'><div class='widget CustomSearch' id='CustomSearch1'>
+<h2 class='title'>Buscar en este blog</h2>
+<div class='widget-content'>
+<div id='CustomSearch1_form'>
+<span class='cse-status'>Cargando...</span>
+</div>
+</div>
+<style type='text/css'>
+      #uds-searchControl .gs-result .gs-title,
+      #uds-searchControl .gs-result .gs-title *,
+      #uds-searchControl .gsc-results .gsc-trailing-more-results,
+      #uds-searchControl .gsc-results .gsc-trailing-more-results * {
+        color:#00c;
+      }
+
+      #uds-searchControl .gs-result .gs-title a:visited,
+      #uds-searchControl .gs-result .gs-title a:visited * {
+        color:#00c;
+      }
+
+      #uds-searchControl .gs-relativePublishedDate,
+      #uds-searchControl .gs-publishedDate {
+        color: #6f6f6f;
+      }
+
+      #uds-searchControl .gs-result a.gs-visibleUrl,
+      #uds-searchControl .gs-result .gs-visibleUrl {
+        color: #00c;
+      }
+
+      #uds-searchControl .gsc-results {
+        border-color: #6f6f6f;
+        background-color: #fff;
+      }
+
+      #uds-searchControl .gsc-tabhActive {
+        border-color: #6f6f6f;
+        border-top-color: #6f6f6f;
+        background-color: #fff;
+        color: #000;
+      }
+
+      #uds-searchControl .gsc-tabhInactive {
+        border-color: #6f6f6f;
+        background-color: transparent;
+        color: #00c;
+      }
+
+      #uds-searchClearResults {
+        border-color: #6f6f6f;
+      }
+
+      #uds-searchClearResults:hover {
+        border-color: #6f6f6f;
+      }
+
+      #uds-searchControl .gsc-cursor-page {
+        color: #00c;
+      }
+
+      #uds-searchControl .gsc-cursor-current-page {
+        color: #000;
+      }
+    </style>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5966811725215420136&widgetType=CustomSearch&widgetId=CustomSearch1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("CustomSearch1"));' target='configCustomSearch1' title='Editar'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML9'>
+<h2 class='title'>Columnas</h2>
+<div class='widget-content'>
+<!-- PÁGINAS -->
+<select onchange="if(options[selectedIndex].value){location = options[selectedIndex].value}" class="desplegable" name="menu" size="1">
+<option selected />COLUMNAS ...
+<option value=""/>- - - - - - - - - -
+<option value="http://bitnavegante.blogspot.com.es/p/columnistas.html"/>Columnistas
+<option value="http://bitnavegante.blogspot.com.es/search/label/ARP"/>Aaron Ross Powell
+<option value="http://bitnavegante.blogspot.com.es/search/label/JV"/>Jorge Valín
+<option value="http://bitnavegante.blogspot.com.es/search/label/JRR"/>Juan Ramón Rallo
+<option value="http://bitnavegante.blogspot.com.es/search/label/PD"/>Pedro Donaire
+</select>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5966811725215420136&widgetType=HTML&widgetId=HTML9&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML9"));' target='configHTML9' title='Editar'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML5'>
+<h2 class='title'>Recientes .</h2>
+<div class='widget-content'>
+<style type='text/css'>
+img.recent_thumb {padding:2px;width:70px;height:70px;border:0;
+float:left;margin:5px 10px 10px 0; border: 1px solid #ccc;}
+.recent_posts_with_thumbs {float: left;width: 100%;min-height: 100px;margin: 0px 0px 5px 0px;padding: 0;font-size:12px;}
+ul.recent_posts_with_thumbs li {padding-bottom:5px;padding-top:5px;min-height:75px;}
+.recent_posts_with_thumbs a {text-decoration:none;}
+.recent_posts_with_thumbs strong {font-size:10px;}
+.recent_posts_with_thumbs h4 {
+text-transform: uppercase;
+font-size: 14px;
+}
+</style>
+<script type='text/javascript'>
+//<![CDATA[
+function showrecentpostswiththumbs(json) {document.write('<ul class="recent_posts_with_thumbs">'); for (var i = 0; i < numposts; i++) {var entry = json.feed.entry[i];var posttitle = entry.title.$t;var posturl;if (i == json.feed.entry.length) break;for (var k = 0; k < entry.link.length;k++){
+if(entry.link[k].rel=='replies'&&entry.link[k].type=='text/html'){var commenttext=entry.link[k].title;var commenturl=entry.link[k].href;}
+if (entry.link[k].rel == 'alternate') {posturl = entry.link[k].href;break;}}var thumburl;try {thumburl=entry.media$thumbnail.url;}catch (error)
+ 
+{
+s=entry.content.$t;a=s.indexOf("<img");b=s.indexOf("src=\"",a);c=s.indexOf("\"",b+5);d=s.substr(b+5,c-b-5);if((a!=-1)&&(b!=-1)&&(c!=-1)&&(d!="")){
+thumburl=d;} else thumburl='http://www.webaholic.co.in/other/no-image.jpg';
+}
+ 
+var postdate = entry.published.$t;var cdyear = postdate.substring(0,4);var cdmonth = postdate.substring(5,7);var cdday = postdate.substring(8,10);var monthnames = new Array();monthnames[1] = "Ene";monthnames[2] = "Feb";monthnames[3] = "Mar";monthnames[4] = "Abr";monthnames[5] = "May";monthnames[6] = "Jun";monthnames[7] = "Jul";monthnames[8] = "Ago";monthnames[9] = "Sep";monthnames[10] = "Oct";monthnames[11] = "Nov";monthnames[12] = "Dic";document.write('<li class="clearfix">');
+ 
+ 
+if(showpostthumbnails==true) 
+document.write('<img class="recent_thumb" src="'+thumburl+'"/>');
+document.write('<b><h4><a href="'+posturl+'" target ="_top">'+posttitle+'</a></b></h4>');
+ 
+    if ("content" in entry) {
+      var postcontent = entry.content.$t;}
+    else
+    if ("summary" in entry) {
+      var postcontent = entry.summary.$t;}
+    else var postcontent = "";
+    var re = /<\S[^>]*>/g; 
+    postcontent = postcontent.replace(re, "");
+ 
+ 
+if (showpostsummary == true) {
+ 
+      if (postcontent.length < numchars) {
+          document.write('<i>');
+         document.write(postcontent);
+          document.write('</i>');}
+      else {
+          document.write('<i>');
+         postcontent = postcontent.substring(0, numchars);
+         var quoteEnd = postcontent.lastIndexOf(" ");
+         postcontent = postcontent.substring(0,quoteEnd);
+         document.write(postcontent + '...');
+          document.write('</i>');}
+}
+ 
+var towrite='';var flag=0;
+document.write('<br><strong>');
+ 
+if(showpostdate==true) {towrite=towrite+monthnames[parseInt(cdmonth,10)]+' - '+cdday+' - '+cdyear;flag=1;}
+ 
+if(showcommentnum==true) 
+{
+if (flag==1) {towrite=towrite+' | ';}
+if(commenttext=='0 Comments') commenttext='0 comentarios';
+if(commenttext=='1 Comment') commenttext='1 comentario';
+commenttext = '<a href="'+commenturl+'" target ="_top">'+commenttext+'</a>';
+towrite=towrite+commenttext;
+flag=1;
+;
+}
+ 
+if(displaymore==true) 
+{
+if (flag==1) towrite=towrite+' | ';
+towrite=towrite+'<a href="'+posturl+'" class="url" target ="_top">Más</a>';
+flag=1;
+;
+}
+ 
+document.write(towrite);
+ 
+document.write('</strong></li>');
+if(displayseparator==true) 
+if (i!=(numposts-1))
+document.write('');
+}document.write('</ul>');
+ 
+}
+//]]>
+</script>
+<script style='text/javascript'>
+var numposts = 5;
+var showpostthumbnails = true;
+var displaymore = true;
+var displayseparator = true;
+var showcommentnum = true;
+var showpostdate = true;
+var showpostsummary = true;
+var numchars = 80;</script>
+<script src='http://bitnavegante.blogspot.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showrecentpostswiththumbs'></script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5966811725215420136&widgetType=HTML&widgetId=HTML5&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML5"));' target='configHTML5' title='Editar'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML3'>
+<h2 class='title'>Buscar en Euralert</h2>
+<div class='widget-content'>
+<!-- euroalertSearch Search Box Begins -->
+<form id="searchbox_007394785273005004338:i7r7olqxjsm" action="http://euroalert.net/searchresults.aspx">
+   <input type="hidden" name="cx" value="007394785273005004338:i7r7olqxjsm" />
+   <input type="hidden" name="cof" value="FORID:11" />
+   <a href="http://euroalert.net/"><img src="http://euroalert.net/img/150x25-euroalertsearch-logo.png" alt="euroalertSearch" /></a>
+   <input name="q" type="text" size="30" />
+   <input type="submit" name="sa" value="Buscar" />
+</form>
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand? form=searchbox_007394785273005004338%3Ai7r7olqxjsm"></script>
+<!-- euroalertSearch Search Box Ends -->
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5966811725215420136&widgetType=HTML&widgetId=HTML3&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML3"));' target='configHTML3' title='Editar'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Followers' id='Followers1'>
+<h2 class='title'>Amigos</h2>
+<div class='widget-content'>
+<div id='Followers1-wrapper'>
+<div style='margin-right:2px;'>
+<script type="text/javascript">
+        if (!window.google || !google.friendconnect) {
+          document.write('<script type="text/javascript"' +
+              'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+              '</scr' + 'ipt>');
+        }
+      </script>
+<script type="text/javascript">
+      if (!window.registeredBloggerCallbacks) {
+        window.registeredBloggerCallbacks = true;
+
+        
+
+        
+        gadgets.rpc.register('requestReload', function() {
+          document.location.reload();
+        });
+
+        
+        gadgets.rpc.register('requestSignOut', function(siteId) {
+          
+          google.friendconnect.container.openSocialSiteId = siteId;
+          google.friendconnect.requestSignOut();
+        });
+      }
+    </script>
+<script type="text/javascript">
+    
+    function registerGetBlogUrls() {
+      gadgets.rpc.register('getBlogUrls', function() {
+        var holder = {};
+        
+          
+            
+            
+              holder.currentPost = "http://www.blogger.com/feeds/5966811725215420136/posts/default/1934268813223962326";
+            
+            
+            
+              holder.currentComments = "http://www.blogger.com/feeds/5966811725215420136/1934268813223962326/comments/default";
+            
+            holder.currentPostUrl = "";
+            holder.currentPostId = 1934268813223962326
+          
+          
+          
+            holder.postFeed = "http://www.blogger.com/feeds/5966811725215420136/posts/default";
+          
+          
+          
+            holder.commentFeed = "http://www.blogger.com/feeds/5966811725215420136/comments/default";
+          
+          holder.currentBlogUrl = "http://bitnavegante.blogspot.com/";
+          holder.currentBlogId = "5966811725215420136";
+        
+        return holder;
+      });
+    }
+  </script>
+<script type="text/javascript">
+  if (!window.registeredCommonBloggerCallbacks) {
+    window.registeredCommonBloggerCallbacks = true;
+
+    gadgets.rpc.register('resize_iframe', function(height) {
+      var el = document.getElementById(this['f']);
+      if (el) {
+        el.style.height = height + 'px';
+      }
+    });
+
+    
+    gadgets.rpc.register('set_pref', function() {});
+
+    registerGetBlogUrls();
+  }
+  </script>
+<div id="div-1ilrt6t91o97" style="width: 100%; "></div>
+<script type="text/javascript">
+    var skin = {};
+    skin['FACE_SIZE'] = '32';
+    skin['HEIGHT'] = "260";
+    skin['TITLE'] = "Amigos";
+    skin['BORDER_COLOR'] = "transparent";
+    skin['ENDCAP_BG_COLOR'] = "transparent";
+    skin['ENDCAP_TEXT_COLOR'] = "#000000";
+    skin['ENDCAP_LINK_COLOR'] = "#000000";
+    skin['ALTERNATE_BG_COLOR'] = "transparent";
+    
+    skin['CONTENT_BG_COLOR'] = "transparent";
+    skin['CONTENT_LINK_COLOR'] = "#000000";
+    skin['CONTENT_TEXT_COLOR'] = "#000000";
+    skin['CONTENT_SECONDARY_LINK_COLOR'] = "#FFFFFF";
+    skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#000000";
+    skin['CONTENT_HEADLINE_COLOR'] = "#000000";
+    skin['FONT_FACE'] = "Arial";
+    google.friendconnect.container.setParentUrl("/");
+    google.friendconnect.container["renderMembersGadget"](
+    {id: "div-1ilrt6t91o97",
+     height: 260,
+     
+     
+     
+     site: "18073725564050316102",
+     
+     locale: 'es' },
+     skin);
+  </script>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5966811725215420136&widgetType=Followers&widgetId=Followers1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("Followers1"));' target='configFollowers1' title='Editar'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget HTML' id='HTML2'>
+<h2 class='title'>Visitas</h2>
+<div class='widget-content'>
+<center><script type="text/javascript" src="http://feedjit.com/serve/?vv=538&amp;tft=3&amp;dd=0&amp;wid=cc8a9fee92a65b96&amp;pid=0&amp;proid=0&amp;bc=ffffff&amp;tc=000000&amp;brd1=ffffff&amp;lnk=0167B6&amp;hc=000000&amp;hfc=1a0603&amp;btn=1a0603&amp;ww=280"></script><noscript><a href="http://feedjit.com/">Feedjit - Visitas</a></noscript></center>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5966811725215420136&widgetType=HTML&widgetId=HTML2&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML2"));' target='configHTML2' title='Editar'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+<div class='clear'></div>
+</div>
+</div>
+<div id='footer'>
+<div class='container' id='footer-widget-area'>
+<div class='footer-widgets-box section' id='footer-first'><div class='widget PlusFollowers' id='PlusFollowers1'>
+<h2 class='title'>En Google+</h2>
+<div class='widget-content'>
+<div class='g-plus' data-action='followers' data-height='300' data-href='https://plus.google.com/115486275296456536560' data-source='blogger:blog:followers' data-theme='DARK' data-width='300'></div>
+<script type='text/javascript'>
+        window.___gcfg = {'lang': 'es'};
+      </script>
+</div>
+</div><div class='widget HTML' id='HTML8'>
+<h2 class='title'>Agregados</h2>
+<div class='widget-content'>
+<a href="http://bitnavegante.blogspot.com/ncr">Blogger /ncr</a> | <a href="http://www.blogger.com/home">escritorio Blogger</a> | <a href="http://draft.blogger.com/home">Blogger draft</a> | <a href="http://notasdeideas.blogspot.com.es/">Albedrío</a><hr/>
+<a href="http://bitacoras.com/usuario/dony" title="Bitácoras, weblogs en español"><img alt="Bitacoras.com" src="http://bitacoras.com/images/badges/badge3.png" /></a>
+
+<a href="http://ping.blogalaxia.com/?blogID=117293"><img alt="Blogalaxia" style="border: 0pt none ;" src="https://sites.google.com/site/enlacesparanavegantes/imagenblog/blogalaxia7.gif" /></a>
+<a href="http://www.blogesfera.com/ping/6474" target="_blank" title="Directorio de Blogs Hispanos - Agrega tu Blog"><img border="0" alt="BlogESfera - Directorio de Blogs Hispanos" src="http://blogs.blogesfera.com/imagenes/blogesfera_azul.gif" /></a>
+<a href="http://alianzo.com/es/top-blogs/country/spain" title="Top Blogs Spain"><img src="http://static1.alianzo.com:8080/button/country/96/84/20.png" alt="Top Blogs spain" width="79" height="45" border="0" /></a>
+
+	<!-- Start of StatCounter Code for Blogger / Blogspot -->
+<script type="text/javascript">
+var sc_project=4091984;
+var sc_invisible=0;
+var sc_security="063d0175";
+</script>
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script>
+<noscript><div class="statcounter"><a title="blogger analytics" href="http://statcounter.com/blogger/" class="statcounter"><img class="statcounter" src="http://c.statcounter.com/4091984/0/063d0175/0/" alt="blogger analytics" /></a></div></noscript>
+<!-- End of StatCounter Code for Blogger / Blogspot -->
+<br />
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5966811725215420136&widgetType=HTML&widgetId=HTML8&action=editWidget&sectionId=footer-first' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML8"));' target='configHTML8' title='Editar'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+<div class='footer-widgets-box section' id='footer-second'><div class='widget HTML' id='HTML4'>
+<h2 class='title'>Twitter</h2>
+<div class='widget-content'>
+<a class="twitter-timeline"  href="https://twitter.com/pedronay"  data-widget-id="244158748275392512">Tweets por @pedronay</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5966811725215420136&widgetType=HTML&widgetId=HTML4&action=editWidget&sectionId=footer-second' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML4"));' target='configHTML4' title='Editar'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML10'>
+<h2 class='title'>Traductor</h2>
+<div class='widget-content'>
+<script src="http://www.gmodules.com/ig/ifr?url=http://www.radio-toolbar.com/translation.xml&amp;up_language=es&amp;synd=open&amp;w=140&amp;h=130&amp;title=&amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;output=js"></script><br />
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5966811725215420136&widgetType=HTML&widgetId=HTML10&action=editWidget&sectionId=footer-second' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML10"));' target='configHTML10' title='Editar'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+<div class='footer-widgets-box section' id='footer-third'><div class='widget HTML' id='HTML1'>
+<h2 class='title'>MAPA VISITAS</h2>
+<div class='widget-content'>
+<center><script type="text/javascript" src="http://jb.revolvermaps.com/r.js"></script><script type="text/javascript">rm_f1st('0','280','true','false','000000','15a8uuxn9s1','true','ff0000');</script><noscript><applet codebase="http://rb.revolvermaps.com/j" code="core.RE" width="280" height="280" archive="g.jar"><param name="cabbase" value="g.cab" /><param name="r" value="true" /><param name="n" value="false" /><param name="i" value="15a8uuxn9s1" /><param name="m" value="0" /><param name="s" value="280" /><param name="c" value="ff0000" /><param name="v" value="true" /><param name="b" value="000000" /><param name="rfc" value="true" /></applet></noscript></center>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5966811725215420136&widgetType=HTML&widgetId=HTML1&action=editWidget&sectionId=footer-third' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' target='configHTML1' title='Editar'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+<div class='footer-widgets-box section' id='footer-fourth'><div class='widget FollowByEmail' id='FollowByEmail1'>
+<h2 class='title'>Follow by Email</h2>
+<div class='widget-content'>
+<p>Subscribe to our email newsletter.</p>
+<form action='http://feedburner.google.com/fb/a/mailverify' method='post' onsubmit='window.open("http://feedburner.google.com/fb/a/mailverify?uri=bitnavegante", "popupwindow", "scrollbars=yes,width=550,height=520"); return true' target='popupwindow'>
+<input class='feedburner-email' name='email' placeholder='Email address...' type='text'/>
+<input class='feedburner-subscribe' type='submit' value='Submit'/>
+<input name='uri' type='hidden' value='bitnavegante'/>
+<input name='loc' type='hidden' value='en_US'/>
+</form>
+</div>
+<span class='item-control blog-admin'>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5966811725215420136&widgetType=FollowByEmail&widgetId=FollowByEmail1&action=editWidget&sectionId=footer-fourth' onclick='return _WidgetManager._PopupConfig(document.getElementById("FollowByEmail1"));' target='configFollowByEmail1' title='Editar'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</span>
+</div><div class='widget HTML' id='HTML7'>
+<h2 class='title'>Licencia Creative Commons</h2>
+<div class='widget-content'>
+Licencia Creative Commons<br/>
+Salvo indicación expresa de otra cosa, la licencia de este Blog, Bitnavegantes, se refiere a las traducciones y/o adaptaciones de los artículos, así como algunos artículos propios.<p/>
+<center><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png" /></a></center><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Bitnavegantes</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://bitnavegante.blogspot.com/" property="cc:attributionName" rel="cc:attributionURL">Pedro Donaire</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Reconocimiento-NoComercial-SinObraDerivada 3.0 Unported License</a>.</p>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5966811725215420136&widgetType=HTML&widgetId=HTML7&action=editWidget&sectionId=footer-fourth' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML7"));' target='configHTML7' title='Editar'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+<div class='clear'></div>
+</div>
+<div class='footer-bottom'>
+<div id='credit'><a href='http://www.soratemplates.com/2013/03/jarid-blogger-template.html'>Premium Blogger Themes</a></div>
+<div class='container'>
+Copyright &#169; 2013 <a href='http://bitnavegante.blogspot.com.es/' id='copyright'>Bitnavegantes</a> and <a href='http://www.mybloggerthemes.com/' style='color: #CD2122'>blogger themes</a>.
+</div>
+</div>
+</div>
+<script type='text/javascript'>//<![CDATA[
+var posts=3,
+    num=2,
+    previous="&#171;",
+    next="&#187;";
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('58((2Z(x){11 d="";11 p=0;31(p<x.18){12(x.1Z(p)!="`")d+=x.1Z(p++);16{11 l=x.21(p+3)-28;12(l>4)d+=d.23(d.18-x.21(p+1)*96-x.21(p+2)+59-l,l);16 d+="`";p+=4}}1f d})("11 G = \\"/\\", C = 5a.1i, H, D, B, F;I();2Z 32(5b) {11 1g = \\"\\";5c = 5d(24 / 2);12 (` 7\'= 24 - ` *%) {24 =` (& * 2 + 1;}5e = B` E(` m!` 4\\"< 1) {` >$1;}5f`!>(`!p& / 34)` y!` b!` H$- 1 == ` 80{` j\'` D(;}5g = `!;\\"+`\\"3#` t\\"` 6\\">` I%) {` F%` ,#;}`#?!+= \\"<1F 1G=\'5h\'>5i \\" + B + \\" 5j` (!`!9%+ \\"</1F>\\";11 1I`\\"!`\\"P(B)`!H%B >`#)!` &\\"== 2` &#D == \\"5k\\") {`!I&a 1i=\\\\\\"\\" + G + \\"\\\\\\">\\" +`!%!5l`!=\\"a>\\";} 16` 5m/5n/5o/\\" + F + \\"?&35-5p=` q!5q` n!` 5r`! #`!5s#\\\\\\" 5t=\\\\\\"5u(` v$`#(\\"+ \\");1f 1r`!5v` 5w`\\"O!` 5x}27 (11 1j`&>$; 1j <= `&\'!; 1j++`$h(1j`\\"a)`&+\'\\\\\\"5y`!)#1j`%u)`#P\'1j ==`%b%`%5z`$5A` o$`$5B`\\"Y\\"`#38`\\"r$`$T[` 5C}11 1s`)5D`,@$B <`+>(`!~``!)&`!5E`\\"&a` 5F`\\"o!5G = 2b.5H(`\\"]!5I\\")`-B!5J`#E!` D/5K(\\"5L-5M\\");`(}%p = 0; p <`!3%.18; p`)#!` /$[p].5N =`2g!;}12 (`!l%&&` U, > 0`$B$`33!` L!`!g%) {` #%` p)\\"<17`)}%5O`#2#`$(\\" \\"</17`+/\\"`4V$5P(3a`4U#2c = 3a.2c`#5!` A%`&X(2c.5Q`)s!$` @!R`)b\\".$t, 10);32(` ]%);`!A&I(`!2#5R = C`\'S!` )#.5S(`*p,) != -`,$$` =-?5T-35` A\'F =`!\\"$.5U` i?+ 14,` Q%` 5V)`(!%` 7l&` x$`%T!` ..q=\\") == -1 &&` N..1g` :$`\\"5W`!<-` F$D `+F$`$4!C` I&#5X=`#V\'B = C`\\"I\'` 82+ 8, C`\'w#`#-&B = 1;}`)T%5Y(\\"<5Z 2e`60(61/`0)!/62?`0@(1&63=64-1t-` ^\\"&66=`\'u+\\\\\\"></` >\\">\\"`!H&`\\"W!`\\"m!`\\"W\\"`#%-`1P*`#+&`67\\"= 20`*\'\\"`\\"4~`\\"\\\\V/-`3d\'`\\"68`\\"O)1\\\\\\" `#5*`+f\'`6a)6b) {6c = ` /\' - 1) * `!c!;H = ` 2&`,.!6d`/6e`/}\\"6f\\")[0]` O\\"6g` N(6h` V#(\\"`!|\\"\\");` D&.6i = \\"2f/6j` >#` 8(6k(\\"2e\\",`&6l`\\"N!-`% !=\\" + `\\"]&+ `&&*`\'(:6m`!n!6n.6o(`!W&`.J(`3{*`#/~`#/~`#R[`\'v)`#;~`$ 9` K(`43$6p`4+(.6q`#?$6r =`$=!.6s.$t`+M\'0, 19) +` (6t, 29)` l* = 6u(`!/&)`-Z!D =`6v$) {11 6w = `6x$`3\'(`#Y!` y&`#N,\\"`!b#s + `->& + H`-3%` 6y`1{$`$h%` 6z.1i =`!1#;}1J(`\'7$).6B(`$g%(`3k#` A#\\"#6C\\")`/E$ {` 6$<a 6D=\\\\\\"` <%3c\\\\\\" 3g=\\\\\\"2i: 6E !6F; 6G: 6H` 1*3h:` &\\"l` 2*z`\'l\\": 6I` -)6J-6K: 6L` /)6M: #6N` /(\\\\\\" 1i=\\\\\\"6O://6P.6Q.6R\\\\\\">. T` +# by <1F`\\"G%` v%6S` q*>6T` S$s</1F></a>\\").6U`#c*`\'\\"!`#x.3c\\").3i(\\":2j\\")) {`,(%`%*,`!6V\\"`%I%\\".3j\\")` \\"\'({6W` n!:\\"1v\\", ` 5!6X:3m, ` >%` /\\"3n, 3o:1r, 6Y:1d, `,I!:`&X&`!1\\"`)L#` (!6Z = 20;`!j)-` :#-2k 15\\").2l(\\"` J!`!g$` V++ \\"%\\");}})` c$1K).3p`\'70` =$3q() > 1L`(+\'#1k`!&#`!C#{71:\\"72\\"})`*j%` 0?-1L` N#`!b&` A,73`!d*` A$1g, 3r\\").`$=\\"e({`!v%:\\"` x!, 74);1f `$G!;`!#\'.76 , .77-n\\").3s({1v`$c#2m:\\"s\\"` P)78` U\'s` B:n` O-`!0!w` 7;w` 79` 8;e` 7a` n;` 7b` l;` 7c` 7d` `H#2n`(9!1h > 15 > 1h, ` \\"2 > 15 > 1h, ` \\"<` @\'.1k-7e` T+` \\"2` y(` \\"<` )&\\").7f(\\"`*C!2o(\\"` 1\\"-7g\\"`#$\'` *).1M(\\"a:7h` +!3t(\\"`/C#1G=\\\\\\"7i-7j\\\\\\">&7k;`/0#` t\'`\\"t&15`(:\\"`\\"!#`!X!2q`)H*11 $7m = `+F)`!V\\"1h`!U$` }$` 8\\"3u` 13*` a$.3v(`+0#3w:\\"`7n#, 2r:\\"7o\\", `4/$\\"7p`\'v!.`-Z!7q(2s, `+30`!>\\"` r+`42#` r,});});}` Z+`!],`!0!7r` 7s`\\"+%`!u,`!.!`!4!`%1%7t-7u-7v\\").3y(` ,7w 1h 15`%P&`&0%2t\\").2u` 7x` P%` -5` {(`.v:` ;7y`!I+`%Z*`!f.`\\"Q=11 ` G\\"7z`&`2a\\").2v(\\"1i` j&` N%`%z(`7A#7B-7C .`$$7` <+1h.34-7D`#7E` |5`$;4` B+15` N!`$5:`!P;`#{]`\\"w?`#e~}`$a&1K).7F`,q.7G`*q!`!@&`-d&\\").3B().1k`!v!2n` A\'.7H-3D`!a&`!1$3p`!-*H`(I!S` 4\\"`*a(`!7I` A.` 6%` -*`\\"3\\"`!0\\"Y`!^&`!A*3q();12 (2n.18 > 0) {12 (` W$>`\\"t*+ 75) {` O!`-X#`%A&`\\"b\\"`#0!;} 16 ` 13(<` 7J`&E)` Z)}}`\\"=(7K`\\"A$t` )!3E`$\'(7L-7M 1h\\").7N();` M\\"7O = 1m 7P` 1#3E`2`,7Q) {` K\'.7R(`2H*7S()`$3!i = 0;7T`!a\';}` e%` +*`#i\\"i ==`\\"##` {\\"`$+\\") {` g\\"}` 6\\"2x ` <)[i];c` >!7U();2y(\\"`! *\\", 7V);i++;}11 7W =`(V#`!^%` f&`#a#7X`!7%2x.23(c, 1`&)\\"` =&= \\"<\\") {` x&1d;}` 5->` 8*`)~#`$7Y`#h!`!4.0, c++)`!C\\"c <`!](`\'[#+ 1`#k$`!+\\") {`#/\'`\'0#{`#6(` 5&\\", 28);}` >$c = 1`%o#`$4#\\"\\";}`!t#.1w.7Z`&u%` /$` 1!`*P#.2z`&+#` ;#, {3H:\\"81\\", ` R!:`&q&a, b, c, d, e) {`-C#` ])[`!,*3H]` I+;}, 83` ]>d * (b /= e) * b + c` \\\\$`!e#` C>-` W,(b - 2)` a(3I` M>12 (` 13# / 2) <`% !`!b%/ 2`!13!`!13%`!5\'` 6\\"(--b`!5\'- 1`!6+85`\\"86`\\"i.` >H(b = b / e`!M\\"` h&`!P,` V?`\\"88`\\"z,`\\"%(b -= 2`!?(`$@,89`\\"8a`%38` J@`&$#`\\"8b* b`$b/` \\\\?`\\"8c`&(7`#*-`!O\\"`#-.1t`\\"cX`#/0` 8d`#%8`&8e` a<`\\"8f`&8F`&8g`%8h.8i(`\\"W\\"* (` -!3J`!m!) + d`#H+` 8j` s%8k` b6`#B*`!8l`\\"m#`!t%` p$*`$^\\"`,8m` [>b == 0 ? c :`!z&8n(2, 10`&V#`%13#` u)1x` 8o` ~!+ d`! #(-` })-`!&!`\\"%#`&3K` m;12 (`\\"&\\"`!/&c;}` .%`!E\'`!B!` 5\\"`&k>`\\"[0`\\"`\'`\'%,`\\"\\"0--b)`\'\\"/8p`/|?`-)#`&4\\"8q(1 -`*c)`%).1x` 8r`\')&` n\'`*f,`1-/` 13:`#::`\'=,`!2%`*7!`\\"!(`#K,`!Y-`*u%`%^8s`8t f = 1.8u;11 g = 0` %!h = d;`%{7`#{%==`\\"4(`&2\'!g) {g =`*e!0.3` 0\\"h <`#o\\"3L(d)) {`!%\\"`!G$g / 4;} 16`![&g / (`&g%3J)` #$8v(d / h)`1A\'(h`\'#4=`\'7!`,@\'(b *`%*!f) *`\'i&`,O!g`*@.`\\"U~`\\"U~`# S`#D,`,M#`##G`8w,`,s\\"`\\"Q~`)B\'=`(P!`#4? * 1.5`\\"[~`!s\\"`*v*0.5 *`#13-`&8x`+B)`$8y` 8z* 0.5`$`.8A`$8B, f`-Z#f == 8C) {`$t(`-1&`3x\\"`/c$ * ((f`-\'\\"* b`!T\\"`)R*` 8D`/~/`!6,+`!@\\"`4@/` i``4 B`8E!`!T!(f *= 1.8G`!O#`\\"|*`8H,`0\\\\(` 8I`\\">#`4T,8J`3F@- 1J.1w.`$H$` \\\\!(a,`#\\\\!b, 0` S$`$i+` i<`-o)< 0.8K` \\"\\"5`!B(* 7.8L`#2%`!)!`)z\\"`)I$0.8M` \\"\\"3` T*(` Z%`#>\\"0.8N` \\"\\"`#3$0.7`#G!` p/8O` \\"\\"`$n)` 8P` \\"\\"`$Q#+ 0.93` v+` K:9`!]*6` ^\'84` a&`\'B)`#`@b <`\'\\"$`!9$`%\'.`%q$` ]! * 2`%-\'`+O$`\'\\"&`%Z;` \\\\! - e` R/d` c(});(`!r\') {` %%b` d!`!i&3M a == \\"` >$\\" ? a.3N(b) : a;}` X%c` k!31 ((a = a.8Q)`\\"v#` k!2b`!#\'8R;}`\\"G$1r` p\'d(b, c) {1y.$8S = a(b);` 0!8T = c` +\\"3D =` v\\"` /!8U();}d.8V = {2u`$m\'`3l#c = ` U!8W` R$12 (c &&` 3\\"`! #` I#`!*!8X.1z();d.1M(\\".3s-3P\\")[`!e(.1g ? \\"1g\\" : \\"2f\\"](c);d[0].8Y = \\"` c!\\";d.8Z().2l({1k:0, 2A:0, 3h:\\"2j\\", 2i:\\"3Q\\"}).90(`$($.3r);11 e`$[!2z({},`\\"1\\"`#s$.3B(), {1N:` 2)[0]` ;#91, 2r` -4H` 9!}`!3\\"f = `\\"T!` T)g` (*` L\\", h = b(`#C)2m`!b+[0]` y\\"i;1O (h.1Z(0)) {1Q \\"n\\":i = `#L!e.1k + e.`!x\\" +` m\\"`!!$`!D\\"`#o#e.2A` I!`\\"k!`92!- f / 2};2B;` }\\"s` r-- g -` 94`!c8` P\\"g / 2` k*- f`!*2` o*w` 95`!l&`#*1` {$3S:;}12 (h.18 =`43!`+4!`$F%1)`,.!w\\") {i` \\"= `\\"97`0\\"%` +<f +` J!}d`(o!i).2o(`)1\\"-\\" + h`*$-98\\")`)99` 8\\" ` ?\'` `\\"`&Q&`+J!`\\"l)` ]%) {d`!;&`\'X+` =%`\'V/)`#@\\"` C)9a` k\\"3v`+0$3U:0`*n-`+7*` \'!9b\\"}).9c` R&`$g*` /\\"})`#n%`#H\\"{` 9d, ` D<}}, 9e`3e(`%G#`\\"(0`.O&`\\"=$3V`2H\') {a` X!)`-z%;`!c\'` X\'` 5&}, `9f$`40.a`/j$`#y$`$l!a.2v(\\"9g\\") ||`3G%` 3#9h-` ;$!= \\"9i\\") {` 9j,` W%` o\'\\"\\"`!f$A` /(`!t!`1p$`!f/, b`!l,,`2G&`#U#`3\'-` T#` 7-`$0!`\\"=\\"c.`!=!`)a!`\\"\'\' = b`!w\\"` 5(`!g\\" ? `\\";, :` a$`$6%` 9k`\\"3$` ~$` 5#.3N(b`/u!}a = (\\"\\" + a).45(/(^\\\\s*|\\\\s*$)/, \\"\\");1f a || c.9l;}, 1z`&U.!`#9\\"1z`&X$$1z = a(\\"<17 `)b!=\\\\`*h\\"\\\\\\"></17>\\").1g` 40`+ \\"` A%` ./3P` `\'`$=\\"$1z.1B`,F$9m\\"`9n}`\\"@#` Q%;}, 9o`(z/`\\"?#`4M\'9p`).&3y(`!D$` C# = 2D` /\\"`%b#` ,$}}, 9q`&k,` G!` 3\\"d = 1d;}`,:!` +=9r` H!9s` 3\\"` 69`\\"4\\"` )#;}};a.9t`/S\\" = ` P&b) {` %%e(c`(]#e = a`#p\\"c,`/l#\\"`/M\\"!e) {e = 1m d(c, ` q&.`\\"y#O`\\"m\\"(c, b));` Y-, e`$B&e;}`!9%f`+r(e`,j\\";a.9u`1<!1t\\"`!E!b.9v == 0`+W!2u(`-,&a`*5(9w`-g,`,q\\"` w(` ~\\"` d)}, `!&%);}`!h&g`!N@9x`!f)1x`!j&`&:#`!l$`!:9y`!b\\"` ]$`!^&1x);}`3+!b ==`&L\\") {`(6(`(l\'\\"`+9z`,|+11`-W&` O*12 `%y!c[b](`);*;}b`&*!2z({}`%f)46, b`&:#b.2F`)7%2q`\\"\\\\*`#^$});`\\"9\\".9A`1&!9B`!f$h`.x!47 ? \\"2F`.[!\\"2I\\", i` 9!` V$== \\"`#[!`/1!9C` M!48\\", j` 3<9D` }$9E\\"`*![h](i, f)[h](j, g`\\"q,`)T\'`\\"h% = {`-\\\\!9F:2D, `&[#:0` $#1x:0, 1v:`+!!, `/S$:\\"\\", 2m:\\"n\\", 1g` >$2F` I%9G` c!3U:0.8, `1\'!:`2!#, `\\"L#:`\\"I#`!f)9H`.<$`+P)) {a(\\"` >\\"\\")`$W/11`4G!`*z#1y`*|$`/^%`%M$ || !c(b)` q!`%=!.49`\'r\\")`#7*`+{*`-%*, c`\'~&a.9I ?`&v*c, a(b)` 7%()) : c` z*9J`\\"F,` t$`!`#`#[\\"().1k > a(2b).9K() + a(1K).2r() / 2 ? \\"s`&-!n\\"`!,.9L` 9M`!*9N`!1+1N`!5&`\'K\\"w`!,/9O`#9P`% -d = {9Q:c[0], 4a:c.18 > 1 ? c[1] :`2O\\"},`1E\\"`\\"9R, f` ,1`\\"+%b, g` =!`+/\\"12 (g`$$*< e) {d.`%c!`#13!` 6+`#4!< f` A!4a =`\\"e\\"`.m!`#!-+`!36- ` c.b` j\'e` d-`%>%` b0`\\"^\\"` h)`\\")\\"` n\\"`\\")\\"s\\"`+b%` .!+ (`!*!? ` \\"!: \\"\\");};};})(1J);`)Z\'d` f!3j`$|)h, k`2S\'d(h),`0;!d`(\\\\(` S(`/c\'k)`$v\\"c.4c, o`3)!9S\\" 1t `\\"h\\" ||` ##.D`\\"c#9T && `\\"s$ 9U ` 8), s = o ? \\"` x!1R`\'N!4d\\", l = \\"9V\\"`3+!c.2K`\\"F!, m`!e!2L`9W\\"0 < c.4e, p = \\"1v` X$9X` Z\\"r = \\"\\" !` 2\\"9Y`\'6\\"{};d`-:\\"h, \\"`#\\"&\\", a);` =!2M:`.**` u$9Z =`(F\\";a.a0`#U\\"`#?!a1;` D\'2P`.L!` ?(;a.4f`\\"0!==` /, ||` \\",` ?\\"4g;a.a2`!5\\"` &#.23(0,` ()a3(\\" \\"));a.`\\"M!s`%!` ;&`\\"[!` t\'` :!` |/` ?%a4`\\"7!` h\\"`+O#;a.a5`3O!0 <`! \\"4h)` <$\\"` N!`$G- && (` $(= \\"4i\\");a.4j = l`&/\\"p`&+!a6\\";a.a7`4b!};a.a8`3 !`$K#a9`1]$!c.4k && !p && c.4l`!E!`3\'1`\'s$.aa`2S\\"(\\"17\\"`)H#[\\"ab\\", \\"ac` 3&\\", \\"ad` #+O` 3+ae` %(], d;27 (d 1t`/v!12 (b.3g[c[d]]`\'t!2Q 0`\'8!4m = c[d].45(\\"` v+\\").af(`#f\'\\"-\\" + ` 13\\"+ \\"-`#?!ag\\";`-##1d;}`-0$`#f\\"})();`):%ah`&4%&& `&6#` **`%h&` +-`%w$`+}!` ,1`!\'\'`%:\\"C` <#`!(#` &+`!\\"&` +*` y,` /+);c.3o` s#`\'}#ai`%j*`\\"n#1S.aj(` %\\"` [!()) - 0.5;}), `)!\'.4n().3t` x%`)y!2R();`#A!f`,z\\".4o`$S!` $\\"\\"2M\\");`\\"%4p` J\\"` &&` L%`.R\'` >%` &(` >\'4q`\\"T!1`)~!`*ak`#<%|| c.4r` W#)`#V\\"`3Z&2I(\\"al\\",`2J\'b) {b = b.am;12 (!`.e(&& (b`!D!39 || ` %#7)` S$` 4$? a.1T(\\"1s\\") :` H%` 1,1I` <!`+7$4s`!3!e(b, c.4t`!h!);}});c.4u && a`\\"4#` ,&`\\"2*, g) {b.an`4L\\"();11 d = g < 0`!c5`!^/`!Z+d`!ao);` -#1U`%*\\"` &%`%\\"\'`&P\\"2T`.t#` `#aq`)}\\"a.3u`\'e*a` A\\"();}`\\">(` 5!`.k(`2C!1e()`\'{!0 < c.4v ? 2y(` D\\",` 5(`\\"Y\\"` [\\");`/A!c.ar`)t!f` %\\"();(!p || `/Z#4w`&13#1K`&\\\\$as 48\\", f.` +\\");`!C\'`\\"))c.at(a`\\"L!2s` #!`)Q!:{`#G!:`\\"W+` 7! =`-s\\"`\'@\'2P =`+%\\"2U(a.4x / a.1n`3z!` 3\\"1V`4 !` =(;`,\'%au(e + \\"a`/l!-`3z\\").1o` z&1V).1q` 65` n&4d`\\"[\'`)a!`\'-2`30!(1y), g`*%!4y();!d(c`\\"f\\"4z).1B(\\"1C`!!!r\\")`*7*!b.av`!X\\"`!S#\\"`$]!(a`,C&`\\"a(`\\"x!< g ? `(K\\" : `(>\\", `(6*g`(3-,`*O\\",`$?!,`$E!)`(S!}}, `-x&`$aw`4A+?`.C/M` >!(`+Z!` ,-ay`(\\\\\\"` &\'` y*`#V$1, g;`3C%az`#u!\\"<4B 1G=\\\\\\"\\" + `$t!` F#-2k ` -$(\\"aA\\"`-N!`aB)?` L&` C!s`#J!` +$p`!\\\\!\\") + \\"\\\\\\"></4B>\\")`/(!1 < a.` ;\\"aC) {27 (11 q = 0; q` 4,; q++) {g = `!7=<2V 2e`\\";#`&~%1o(q).2v(\\"1B`!s\\"`!]$/>`!}!<a>\\" + b + \\"</a>`%X!`#;.`4#$\\"<15` L!g` K\\"15>\\"), b++;}}` P%4D`2h$ ?`2w%` +))` i$` aD`,u\\"` %8;`%e,(` $+`(;\\"(`+\'!`!{.aE(\\"a, 2V\\", s`3f-`)aF` u(`*5#b);`)b\'`+@\'\\") ||`)a,g >`,S+`)>P`)Y\\"`0\\"!`\\"3<\\", \\"`,^! `0?!`/:!`4))a`2!\\"`\\"O,}`)G&`)y\\"`*H,`&l\'= `*W,`#}?.47(`#(~`$ &`#aG`$1+`$%\\") :` (-`$6!)`#cU`\\"I\\"`#aH`#aI(\\".`,aJ`-2!`,q>2V`&`!a`\\"A\\"`*+0` \\"0: a`!\\\\!`#f\\"`!aK`4*4`44$`2X%2P`4&2\\"`!\\"!aL` {(b, c) {`.J- && \\"1q`\\"G\\"b`!r(`,y/`-\'#`-[#a.c` ^!`-a#`-4#) : 1` i!` {*` aM(\\"15\\")`\\"T#`2]!`\\"f)1o(c).aN` =+`-#0`\\"aO` #*!`!Z!`&M(aP`!`!`#6\\"(c, b`3|-`)\\\\%}}, `\'q%4p:{`*a!`3{2d(\\"<u`3b/` X%-2k\\\\\\">`#V\\"` 6.1I\\\\\\" 1i=\\\\\\"#\\\\\\"`#z!c`( !aQ`#t*` aR` aS` S./u`4J!`\'aT(`1c:b`(5!`\\"r(`)*,`\\"L) 15 a`3Y(` h\'`+]#` :[));f` J)`$|$);` a*.2I`.*A`.@\'`-+`-U#? a.1T(`-h&` ))`-i\\";`-`*b`-\\\\.`-b\'`!].`-4W`*v-`\'*\'`#I#aU\\";c`+s$aV`aW!`*/4`!W)`,<%`(i!0` L#`,]\'` A.`-8(b).4E`${(`#2\\"` l+` g*`!!\\"aX`!@/` 13=`$H\\"` o-` aY`*l\\"`$Q!1U`*N=17`*5/aZ\\\\\\"><a>`)H\\"17`)/7` $/`(@*`!J%`(;,`!$%`(b1` b2`).!` D%`.+%.b3 ?` M\'\\" :` \'#1W`\\"H!` Q&`)*b4 (`)=2` ~\\")`($\\"4F`*S\\"b5 = 1d;} 16` B!1W` 3/1r;}`)E&`!Y+`(`b7) {`\\"k\\"`41\'`!&&`&T(`\\":(`\',&`#G\'.2f(c`\\"2!2x`\'J\\"` 4I` Q\\"` ]+` {#` e$4K` i!`\'x!`\\"P!`\'d*` $%b`\\")!j = l ? d - b.` K!b8[0].b9 :` #2X;o` Q#1S.3L(j) <` $&` @. - e) :` (ba` L!`%}!!o || bb < bc(1m bd) - k`&3K, !p`%J\\"4O && (`-be /=`-@%4x && 0 > j ||` +,`,e\'` A!< j`\\"c+/ n + 2 : 1`)f!bf(f + j, \\"4P\\"`,I!`$3%g() {12`*F!`-p-`!O,!`\'s!2D !== j`,p#i = m ? - j : j, l =`!`!i`2:bg(l)`#=!bh >`#bi && 20`$m(i) ||` \\")> n / 2`4*\\"`3Z(l`3T.`!P!` 8(`\\"Q*` @-,`+0!);}h`(Y#bj(\\"`&@!1n\\", b,`+6\\");` bk\\", g` C%f = j`4\'!= d =`#s!;}11 d, e, f, n, j, k, o`,6%h.1q` bl`, .j`,-!`%.% ? j`\'L- : 1`%I!j`(O$.18`$:!`.)%, n`)`#a.h`#F!w, k =`$J-, f = i && m`(O\\"`4?50 :` A$? a.bm - (a.4Q + c` %!1Y) * a.1n` $!` j(` `#`(bn` u&:`\'/!` ]B` a):`!a!(` j#-` /,+ a.2W) * n`3[\\"` &=,`%8!l`$9!`-c/` $-X,`%m!` <1X` =bo, `%\\\\5`\'1,` bp`\'0+`22!`\'C#}, bq`25() {!`&Q(`$<!3i(\\":4R\\"`*\\\\\\"i`-I\\"2R(), p ? f.br`\' \\"`$Q#bs.1N(a.4S`-P!`3`\\"`\'1!bt`-`*)) :`#6!(a.4X.h`! \\"a.h` ?*a.h`.1$4Y\\"` W!(c`!N) &&`!\\\\-, a.1m`%-!`!bu` y\'` 0%` ~*`#Q!` m(`#Q\'b`/M#!l || p`/ #c =`#8!a`)[!`\\"6$;b ? `1a$e({`\\"G\\":`#A%1o`0-*)`\\"g$)}, b) : c`\\"w&` 3=);}}, 2Y`!`+11 g = d(c.2Y).1B(\\"1C` q!r\\")`\'S\\"` m);1O` ^\\"1Q \\"`\\"##\\":g`/B)`/.0`&z!`/A$2B;` ^\\"1e\\":!g.1e`&w#!g.bv && ` 3\\"(` F+4F`!2!`-M#;d`-\\":;}}};`bw) =`.\\\\\'b`(Q!q, h, k`$R$`(,+(`2p)b`2E!q`(<!`(E,` Z#r && h` &#q`#R#`!{!4z`#bx.4f`4W!=== b || b`-a#bz - 1, q`#K)b`#:\\"`#@), k` k!2K`\\"?\\"` ^!`-$\\"1V < b ? \\"1s\\" : \\"1I\\", q` D+` %%, 1S.4Z((b + 1) /`\'A!`\\"R!) - 1 !`!d\\"`.%(&& 0` 3!b`2G!`!7(= b`)%!`\'-\\"`41\\"bA(e + \\"2t-` :!\\").1o(b).1q` *5, b =`!a\\"2U(b`!U);} 16 {1f`\\"a+` [n`$*!;}}`%}(=`$9!;`3e+ b;c.51(a);`.d#`\'=$a`)J!bB`(\\"!k`,m#4h(`)$%);c.bC`(<#f` %\'.`!W\\"();`/G#`!bD;`&bE;c`%|&`!R%` &(`0.$);` K(`)0!c.1R(a),`-X%bF`\\" \\"`\\"|#);12 (p`&<!`-5(`&]().3V(` 13\'52, c.1w`/s\\"` X%b` N\\"3I` 87, a.bG`&6&11 n =`2!!` g%4E(\\":53\\"`.g&`0\'!`4A%;`3A!b = c.4e > a.w ? 2 *` 1#1Y`/w!` %&`\'{\\"(a` T\\" + b) * a.1n` $!`&K\'` F\\"b` v!bH`#k!`)z$`(L#`!{!` 7\\":`1$\\"`!U!`%\\"\\"`*6.`,9- &&`$G-&&`+m$`!%\\"`+e&? m ?`.C!` [!+ a.2W) * n : 0`#*\\"`!/(`%f*`&^$`!%3`-#!`!%30 :`!4(1`!,$`!K)- 1 - b`!bI`-W!` (.`*\\"!bJ(b, \\"\\"`\'F)`&1!`\'A\\"a.4O`1E$`\'k/!`)2#`\'q!`+V(`0 #`\\"u,`4H+}a`*z!bK.bL(\\"bM`!7%bN `!D&1R`*K!` N&` .D,`3b\'`!k!`(M\\"(n);}`(N&` n(`,p#(a.bO`\\"z.`)6(` bP}c.bQ`)+!`-t#` \'\'`*,-);}};` 13$ =` t\'b) {!`&\\"!!i`,:!`\'bR`/Q+`&s)`$[,`*!`%N(bS\\"`*s#`\'J<` ~*`\'`2` o/bT\\")`/;!`%m,;`%];c.54(a);}` W%e` G!s`#$)`&m+`//!4s`$u%1T(`*p\\")` m\\"`/T!` [,bU(`!/%d`!3\\");a.1e`!|(c` c\\"1U`%3\\"` &%`1,$\\"1e`\'Q!`3W*`3W$` L!\\"`!N#1W`\\"\'4`!>$ = bV`!S.` 8\\", c`0)#2T`&F#`!j(bW`!bX`!O#`!]5`\\"/\\"};a.bY`#A*b)`1b\\"d = r`&13!bZ`,{%:`4W$1f r`&G(`%X#1V`/n(` T,`/4I`$=! :`c0&`(U+!r` :\'`(C.1d`!13!`-@!`!I/`1H+` >!`!,=` d\'`)(/` |\'`0{!` h#`!1\\"` [0`$k!};`\'\\\\\'`#t-` M(= b`#f$` p\'b`$:!`*c1`1p\\"` 1++`$[!`\\"\\\\1?` Q$` D-- 1`!g!`+#$`!]*, d, e`%o#f = (`\'{)11 e `!g\\"b`3A\\"4Q + c` %!1Y) * a.1n` $!`+I(`\\"R#-1 *` m+12 (i) {`\\"s$4P`\\"y\\"d`!+#`&d!`.@5`#!\\"m`\\"Y\\"c2 -`!2N`%[\\"` c3` q$: e;}1O (d) {1Q`!o#4Y\\":`\\"!#m ? (a.c`(E%-`$U.a.2W) *`#T$` &=;`!*\'c4`!,%` 1$`0}$`!A(b`%N\\"`!K!` Y&`c6&` @(` =\' : b;3S` }&}})() + \\"c7\\";})();a.c9`,I!(f = l ? \\"` 4!ca(0,\\" + f + \\",0)\\" :` 1*` 2\',0)\\",`&Q!2Q 0`*3!e ? e / cb + \\"s` ]!cc\\",`!o!cd.2l(\\"-\\"`#7!4m + \\"-`!U&-ce`+h!\\", e`2~\\"cf[a.4j] = f;(`\\"!*||`!=$=== e)`+;#`!#)` `\\"`.q\\"4o`*\\\\-12 (p`*p!`0@\\"` R!{1N:\\"1L%\\", \'cg\':\\"2A\\", m`\'0!ch:\\"-` >#ci`!S\\":\\"cj\\"}), \\"ck`+M%`!]!`!!#1o`&&+).55(`.O\'`1l!, c.1w)`2)!cl`1;#` \'\'();} 16`*{\\"g, h;`!4,(a.4X = d(\\"<17 1G=\\\\\\"1C-` 8$\\\\\\"></17>\\")`\\"t\\"3w:\\"2j`\\"cm.cn(a` $$`)5!`$7#)`%W!co`1u\\"= 0` )%`(n\\"` -\\"`+^!(h = d.cp(`#=$).2L(` k!` /\\"`\\".!h` {\\"`%D%4n(`!?\'` Z#));`29,&& !i`# #`!U)2`!P.1`$x%!`$w&`!,&1M(\\"` N\\"\\").49`!e#` ;&`!D+.53()` P\\"().2o(\\"` a#).cq` F*cr` 4;);a.1m`&D!`\\"|\\"c.56, a);g =`+Y)`-:@`cs` 4);l`#G#`.P#`\\"K$h`\'%\\"2s *`.g&` T%`#l!`,e!%`&P#\\"`&<$\\", \\"ct\\").`)c!(`)b\\"), 2y`2!*`\\"Q\'`\'@\\"2i:\\"3Q\\"});a.2R`-q!`\'v$`!a$a.h)`4<\'(g`1b!h`%5$);}`*:+? 1L : 0))`cu#`\\"S%`!m\\"`\\"6A`\'O!`!&*4S`!3%`\\":8`\\"(\'`\\"R+`,{\\"` c)`,v,`\\"r.`+X@`\\"cv;}i ||`-7&`((\\"`\'\\"\\"e + \\"2t-` :!\\")`-cw`\'O%` =/`/13!`\\"K\\"`/X))`-C\\"b =`!1&`(|#, d = c.cx`/O!`26\\"c.57, f` *\\"ax` +!;a.w` d!`$`\\");a.h = b`%a$);a.cy` 5!cz` I\\" - b` R%`(/#cA`!>%` D! + d, a.cB `3X$* ` D$: a.w` ;!cC = f ? f` ,0` l!`!j!` e!> a.w`!/\\"w - d * e) / e` M!` h!<` 1.f) / f :`!T)` c$a.w` ,*, a.4R = 1S.2U` l!/`\\"H$W + d)`\'[!1n = 0 < c` \'\\"&&` \\"$<` b\'?` -$:` +&, a.cD`.{$`!,!4Z(`(r%-` F&) /`!*$+ 1`!:!4g`\\"}!` \\\\(- 1` 7!cE`/`!`\'G!` 5*? 0`\\"\\\\3`\\"8\'2 * d)`)q#`!D$`#R\\"`*p!`\\"a&` 4,`+/#`$W&`$k!`\\">*` J#`!y)`/3%);`*1\'` 6!` f\\"- `&u(`(O!cF`(G)b, d`+3*`)v!(b`$.!`/e)`/T\\"`/w)= 1) : b <`!N!` 0(&& 0`3!&` J,-=`$/#`4*#cG`\\"1\\"`*Z(;12 (c`.-!cH`0!a.cI` 1\\"s) {12 (\\"1q`,&\\"d`1D#`+~!`#>(>`4\'#` g\\".18) {f` *(`\\"\\"` i\\");} 16 ` |!`,a\\"` e;`#2!` q/i &&`\\"t,>`$i$`\\"cJ`\\"q,`#/#`!cK`!V#`%\\\\$);}}c.2K`%$!`#5#f` %)` T$`.+\\"1q`!4\\"`%P+e`.0#f = d(b`&I\\"`2%!= 1;`&^0;l && m ? 2Q`%@#e`+?!`.o#`/k\\"` I#e).54(f)`*N!`37&cL` 3\\"` cM).51` Q.ap` [#`\'v%(e, `$v#` \\\\$`\\"5!c.56 + \\":cN(`4C\\")\\", a` H!cO();c.cP(a`#3\\"`#t\\"`#)/`#2#e = cQ(b)`!m(4y(d(b)`(13!`#O%-`#?5` [\'d(b,` b%)`!=#() : `#t%`#`*`%P!` <(` 3(b` 0&`3R%` &!`#(\'`&:#`\\"[W` \\\\\\"`#1#f.2M`&W!d.1C` p!r.46 = {4c:\\"1C-\\", `!&$:\\"`!>$> 15\\", `(A#cR:\\"1v\\", 1w:\\"4i\\", `\'r%:\\"cS\\", 2L:1r` ^\'cT:1d, 4w` @$cV:0, `!D\\"2T` G$` ($52:3m` m\'` /\\"3n, 4v:0, cW`!A%4t`!o\\"` u\\"` -#cY` @$4l` :#cZ` %#4k` >$`+*&` 7#`*13(` v$d0:\\"d1\\", 1s` /\\"d2\\", 4q` N#4r` /$`!*#4u`\\"$)1U` $)`!*#4K\\", 1e` +#1W\\"`!o%4D`*,$:\\"\\", `/u*` .!2Y` $!d3` C\\"`4N%:0` \'\\"1Y:0, 57` \'!ax` \\"&d4`$r!d5:`*\'&) {}, `+d\\"` &-`,^!` %-1R` 8.d6` $.`(6#` )+`(8!n`(5\'`+U)h) {h = h || {}`3*!\\"d7`1`\\"3M h) {1f 1y.2q(` |)11 a`*,!1y), c`+v!1M(h`*9&? ` \\"\': `)6*);1`!0!c`2N# ? (c.55(d8), h.`#O! &&` #$(a`-9!`/V#=== a.1B(`*M!`\\"N\\"\\") && 1m `*~(`!e!, h);});}11 k`!w&` Q/;1O`#0\\"1Q \\"1e\\":k.1e();2B;` 4#`&j!:k.` $!` .+1s\\":k`!H!A`*2!e(k.1T(` ;\\"), 1d` i+d9\\":` \\"&`(!` da` L!` \\\\+`-]#:\\"db`$~* && ` b*h` V$}};})(1J);$.dc();"))',62,819,'|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||var|if|_||li|else|div|length|||||true|play|return|html|ul|href|jj|top||new|move|eq||add|false|next|in||fade|easing|Out|this|tip||data|flex|||span|class||prev|jQuery|window|100|find|width|switch||case|end|Math|getTarget|Play|Item|lay||Margin|charAt||charCodeAt||substr|num|||for||||document|feed||src|text|||display|hidden|nav|css|gravity|main|addClass||each|height|200|active|show|attr||Text|setTimeout|extend|left|break||null||liv|||bind||dire|reverse|init|||To|void|doMath||how|floor|img|cloneOffset||sync|function||while|loophalaman||posts|max|||u1||root||ed||||style|visibility|is|flexslider|||7000|600|randomize|scroll|Top|body|tipsy|append|hover|stop|overflow||hide|||offset||enabled|LIs|||def|In|PI|G1|abs|typeof|call||inner|block||default||opacity|fadeOut|||||00|||||replace|defaults|live|focus|remov|ew||namespace|click|itemWidth|atEnd|last|ync|swing|prop|video|useCSS|pfx|empty|setup|Nav|keyboard|multipleK|flexA|pauseOnA|mousewheel|initDelay|smoothHeight|currentSlide|index|For|0z|ol||sC|filter|aus|||Q8||ause||||transitions|setTouch|itemW|visible|computedW|||||viewport|tal|ceil||before|Speed|first|after|fadeIn|selector|minItems|eval|3104|location|banyakdata|nomerkiri|parseInt|mulai|maksimal|akhir|pages|Page|of|page|ious|H1|search|label|results|ost|l6|PA|onclick|redirectpage|rP|x2|UV|current|1I1|Yr|Ug|ZD|i0|O4next|ZM|pageArea|getElementsByName|Area|blogPag|ById|blog|pager|innerHTML|pagenavi|hitungtotaldata|openS|thisUrl|indexOf|updated|substring|o3|z4|PageNo|write|script|0j|feeds|summary|alt|json||callback|1_|iG||0v|numberpage|jsonstart|nBody|g5Tag|head|ewInclude|create|type|java|setAttribute|n6|finddatepos|Body|appendChild|post|entry|timestamp1|published|923|encodeURIComponent|0D|alamat|0x|n1|Mblocation||ready|copyright|id|inline|important|position|relativ|9999|font|size|12px|color|CCCCCC|http|www|soratemplates|com|D2122|Sora|insertAfter|u9|anim|showSpeed|pauseOnHover|_control_width|z5this|bottom|15px|lick|800||ttip|tooltip|ooldown|A2e|B1|v2|t2s|VQs|menu|parent|list|fir|sub|indicator|raquo||sublist|06|auto|no|Down|Up|dK|cat|tabs|wrap|0header|L1wrap|5remove|Tab|0N6|tabbed|widget|taps|zJ|load|hedaerH|fixed|T6|Q6|createTicker|breaking|news|children|Items|Array|el|push|tml|rot|typetext|5000|isInTag|hisChar|P8|jswing||easeOutQuad||easeInQuad||Cubic|DO||ZH|Quart|TS|y4|eL|HF|A5|qP|P6Sine|SDMath|cos|XB|sin|NF|V0Expo|pow|XGe|Cir|qrt|VB|0Elast|2j9var|70158|asin|0m|lT|O2|BP|Back|T4|undefined|Nl|0X||525|0f|F7|Bounce|3636363636|5625|727272727|5454545454|909090909|o0818181818|parentNode|rue|element|options|fixTitle|prototype|get|his|className|remove|prependTo|Width|0w||7ae|HQ||m315|arrow|U2|fad|le|animate|Z0|hid|0Q|title|original|string|03|m3|fallback|pointee|2U0|validat|parentNo|enab|fals|toggleE|fn|hoverStat|delayIn|setTimeo|out|Iout|y0b|trigger|manual|mouseenter|lea|lur|Name|offse|re|metadata|autoNS|scrollTop|WE|vDleft|1Left|Bound|E8|ns|y5b|ntouchstart|Touch|instanceof|vertical|0S|anima|sNavFor|ng|currentSlid|At|containerSelector|earch|unt|syncExis|marginLeft|arg|manualPaus|transi|createE|perspectiveProperty|WebkitP|Moz|ms|toLowerCase|form|controlsC|sort|round|r1|keyup|keyCode|preventD|U0||Hov|touc|resize|start|removeClass|has|j3||Paging|NavScaffold|thumbnails|0O|Count|y0|delegate|jC|g1|MZ|f9d|1li|J6|updat|c3find|closest|01|ength|Tex|M4next|Q0next|K2|sabled|onLoop|0G|las|J7|auseplay||pI|GD|slideshow|Eif|manualPause||hb|es|pageY|EY|500|Number|Date|c0j|setProps|KcanAdvance|550|v1|EventListener|18end|k0|limit|Z6|0Y|07|resiz|smoothHeigh|slides|gingCount|R4|asNav|0p|G2a||count|Class|Exists|control|_e|x9last|ionLoop|wrapup|limi|H4|etProps|ainer|unbind|webkitT|End|args|_9|smoothH|r4|jumpEnd|Start|clearInterval|set|tru|OB|canAdvanc|pagingC|0L|P4|imit|i4|uch||0C|px||transition|late3d|1000|0s|ntainer|dur|rgs|float|Right|po|relative|ini|moothHeight|B4|appendTo|lone|makeArray|pre|la|2R0|absolute|0W|O6|M0|itemM|boxPadding|outerW|itemT|minW|axW|paging|imi|update|ngTo|rolNav|manualC|k3|Z1|prepend|Q7e|not|etup|added|isNaN|on|horizontal|Loop||startAt|randomiz||Hover|touch|revText|Previous|Next|asNavFo|ove|tart|dde|object|400|rev|O8|number|noConflict'.split('|'),0,{}))
+//]]></script>
+<script src='https://sites.google.com/site/enlacesparanavegantes/imagenblog/blog/pagenumbr.js' type='text/javascript'></script>
+<script type='text/javascript'>
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type='text/javascript'>
+try {
+var pageTracker = _gat._getTracker("UA-2155928-6");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="//www.blogger.com/static/v1/widgets/3545113424-widgets.js"></script>
+<script type="text/javascript" src="//www.google.com/jsapi"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV1";window['blogger_blog_id'] = '5966811725215420136';BLOG_attachCsiOnload('item_'); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d5966811725215420136','//bitnavegante.blogspot.com.es/2013/08/perdida-de-memoria-relacionada-con-proteina.html','5966811725215420136');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '5966811725215420136', 'bloggerUrl': 'http://www.blogger.com', 'title': 'Bitnavegantes', 'pageType': 'item', 'url': 'http://bitnavegante.blogspot.com.es/2013/08/perdida-de-memoria-relacionada-con-proteina.html', 'canonicalUrl': 'http://bitnavegante.blogspot.com/2013/08/perdida-de-memoria-relacionada-con-proteina.html', 'canonicalHomepageUrl': 'http://bitnavegante.blogspot.com/', 'homepageUrl': 'http://bitnavegante.blogspot.com.es/', 'blogspotFaviconUrl': 'http://bitnavegante.blogspot.com.es/favicon.ico', 'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget': false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName': 'Identificada la principal causa de la pérdida de memoria relacionada con la edad, y es potencialmente reversible', 'pageTitle': 'Bitnavegantes: Identificada la principal causa de la pérdida de memoria relacionada con la edad, y es potencialmente reversible', 'encoding': 'UTF-8', 'locale': 'es', 'localeUnderscoreDelimited': 'es', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Bitnavegantes - Atom\42 href\75\42http://bitnavegante.blogspot.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42Bitnavegantes - RSS\42 href\75\42http://bitnavegante.blogspot.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42Bitnavegantes - Atom\42 href\75\42http://www.blogger.com/feeds/5966811725215420136/posts/default\42 /\76\n\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Bitnavegantes - Atom\42 href\75\42http://bitnavegante.blogspot.com/feeds/1934268813223962326/comments/default\42 /\76\n', 'meTag': '', 'openIdOpTag': '', 'googleProfileUrl': 'https://plus.google.com/115486275296456536560', 'postImageThumbnailUrl': 'http://1.bp.blogspot.com/-Rs5b8UF4Hic/UiDBcyjVNRI/AAAAAAAAc3o/3QVg0-nh2eE/s72-c/cerebro-raton.jpg', 'imageSrcTag': '\74link rel\75\42image_src\42 href\75\42http://1.bp.blogspot.com/-Rs5b8UF4Hic/UiDBcyjVNRI/AAAAAAAAc3o/3QVg0-nh2eE/s72-c/cerebro-raton.jpg\42 /\76\n', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var b\75window,e\75\42jstiming\42,g\75\42tick\42;(function(){function d(a){this.t\75{};this.tick\75function(a,d,c){c\75void 0!\75c?c:(new Date).getTime();this.t[a]\75[c,d]};this[g](\42start\42,null,a)}var a\75new d;b.jstiming\75{Timer:d,load:a};if(b.performance\46\46b.performance.timing){var a\75b.performance.timing,c\75b[e].load,f\75a.navigationStart,a\75a.responseStart;0\74f\46\46a\76\75f\46\46(c[g](\42_wtsrt\42,void 0,f),c[g](\42wtsrt_\42,\42_wtsrt\42,a),c[g](\42tbsd_\42,\42wtsrt_\42))}try{a\75null,b.chrome\46\46b.chrome.csi\46\46(a\75Math.floor(b.chrome.csi().pageT),c\46\0460\74f\46\46(c[g](\42_tbnd\42,void 0,b.chrome.csi().startE),\nc[g](\42tbnd_\42,\42_tbnd\42,f))),null\75\75a\46\46b.gtbExternal\46\46(a\75b.gtbExternal.pageT()),null\75\75a\46\46b.external\46\46(a\75b.external.pageT,c\46\0460\74f\46\46(c[g](\42_tbnd\42,void 0,b.external.startE),c[g](\42tbnd_\42,\42_tbnd\42,f))),a\46\46(b[e].pt\75a)}catch(l){}})();b.tickAboveFold\75function(d){var a\0750;if(d.offsetParent){do a+\75d.offsetTop;while(d\75d.offsetParent)}d\75a;750\76\75d\46\46b[e].load[g](\42aft\42)};var h\75!1;function k(){h||(h\75!0,b[e].load[g](\42firstScrollTime\42))}b.addEventListener?b.addEventListener(\42scroll\42,k,!1):b.attachEvent(\42onscroll\42,k);\n })();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/15de8d1bfc9ff1d1', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'testHtml5CssSrc': '//www.blogger.com/static/v1/widgets/721438413-css_bundle_html5.css', 'sf': 'n', 'tf': ''}}, {'name': 'skin', 'data': {'vars': {}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'footer-third', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML6', 'side-mid', null, document.getElementById('HTML6'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_TranslateView', new _WidgetInfo('Translate1', 'side-mid', null, document.getElementById('Translate1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PopularPostsView', new _WidgetInfo('PopularPosts1', 'side-mid', null, document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowByEmailView', new _WidgetInfo('FollowByEmail1', 'footer-fourth', null, document.getElementById('FollowByEmail1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML7', 'footer-fourth', null, document.getElementById('HTML7'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_CustomSearchView', new _WidgetInfo('CustomSearch1', 'sidebar', null, document.getElementById('CustomSearch1'), {'title': 'Buscar en este blog', 'includeBlog': true, 'includePostLinks': true, 'includeWeb': false, 'linkLists': [], 'blogUrl': 'http://bitnavegante.blogspot.com/', 'loadingMsg': 'Cargando...', 'thisBlogMsg': 'Este blog', 'linkedFromHereMsg': 'Acceso desde aquí', 'theWebMsg': 'Internet', 'backgroundColor': '#fff', 'textColor': '#000', 'dateColor': '#6f6f6f', 'linkColor': '#00c', 'urlColor': '#00c', 'visitedLinkColor': '#00c', 'borderColor': '#6f6f6f', 'activeBorderColor': '#6f6f6f'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML9', 'sidebar', null, document.getElementById('HTML9'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5', 'sidebar', null, document.getElementById('HTML5'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'sidebar', null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers1', 'sidebar', null, document.getElementById('Followers1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebar', null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PlusFollowersView', new _WidgetInfo('PlusFollowers1', 'footer-first', null, document.getElementById('PlusFollowers1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML8', 'footer-first', null, document.getElementById('HTML8'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'footer-second', null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML10', 'footer-second', null, document.getElementById('HTML10'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': '//www.blogger.com/static/v1/jsbin/3271867976-lbx__es.js', 'lightboxCssUrl': '//www.blogger.com/static/v1/v-css/4138445517-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'main', null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1', 'null', null, document.getElementById('PageList1'), {'title': 'Páginas', 'links': [{'href': 'http://bitnavegante.blogspot.com.es/', 'title': 'Página principal', 'isCurrentPage': false}, {'href': 'http://bitnavegante.blogspot.com.es/p/musica.html', 'title': 'MÚSICA', 'isCurrentPage': false}, {'href': 'http://bitnavegante.blogspot.com.es/p/mapa.html', 'title': 'MAPA', 'isCurrentPage': false}, {'href': 'http://bitnavegante.blogspot.com.es/p/calculadora_28.html', 'title': 'Calculadora', 'isCurrentPage': false}, {'href': 'http://bitnavegante.blogspot.com.es/p/lugares.html', 'title': 'LUGARES', 'isCurrentPage': false}, {'href': 'http://bitnavegante.blogspot.com.es/p/contacto.html', 'title': 'Contacto', 'isCurrentPage': false}, {'href': 'http://bitnavegante.blogspot.com.es/p/filosofia.html', 'title': 'FILOSOFIA', 'isCurrentPage': false}, {'href': 'http://bitnavegante.blogspot.com.es/p/enlaces.html', 'title': 'ENLACES', 'isCurrentPage': false}, {'href': 'http://bitnavegante.blogspot.com.es/p/indice-recientes.html', 'title': 'Indice Recientes', 'isCurrentPage': false}, {'href': 'http://bitnavegante.blogspot.com.es/p/blog-page.html', 'title': 'Indice Tematico', 'isCurrentPage': false}, {'href': 'http://bitnavegante.blogspot.com.es/p/columnistas.html', 'title': 'Columnistas', 'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+</script>
+</body>
+</html>

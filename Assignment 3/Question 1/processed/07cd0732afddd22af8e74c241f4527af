@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+  <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+      
+      <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+      <title>izdvd 0.1.2 : Python Package Index</title>
+      <meta content=""/>
+      <meta content="A set of python scripts for authoring DVDs and/or DVD menus with little or no user interaction."/>
+       <link rel="alternate" type="application/rss+xml"
+             title="RSS: 40 latest updates"
+             href="https://pypi.python.org/pypi?:action=rss"/>
+       <link rel="alternate" type="application/rss+xml"
+             title="RSS: 40 newest packages"
+             href="https://pypi.python.org/pypi?:action=packages_rss"/>
+       <link rel="stylesheet" media="screen" href="/static/styles/screen-switcher-default.css" type="text/css"/>
+       <link media="screen" href="/static/styles/netscape4.css" type="text/css" rel="stylesheet"/>
+       <link media="print" href="/static/styles/print.css" type="text/css" rel="stylesheet"/>
+       <link media="screen" href="/static/styles/largestyles.css" type="text/css" rel="alternate stylesheet" title="large text"/>
+       <link media="screen" href="/static/styles/defaultfonts.css" type="text/css" rel="alternate stylesheet" title="default fonts"/>
+       <link rel="stylesheet" media="screen" href="/static/css/docutils.css" type="text/css"/>
+       <link rel="stylesheet" media="screen" href="/static/css/pygments.css" type="text/css"/>
+
+       <!-- allow pypi to override the standard pydotorg/docutils/etc. styles -->
+       <link rel="stylesheet" href="/static/css/pypi.css" type="text/css"/>
+       <link media="screen" rel="stylesheet" href="/static/css/pypi-screen.css" type="text/css"/>
+
+       
+ 
+ <meta name="description"
+       content="A set of python scripts for authoring DVDs and/or DVD menus with little or no user interaction."/>
+ <link rel="meta" title="DOAP" type="application/rdf+xml"
+       href="/pypi?:action=doap&amp;name=izdvd&amp;version=0.1.2"/>
+ <style type="text/css">
+  table.form th {white-space: pre;}
+ </style>
+
+
+       <style type="text/css">
+       </style>
+    </head>
+    <body>
+     
+
+      <!--  Logo  -->
+      <h1 id="logoheader">
+       <a accesskey="1" href="http://www.python.org" id="logolink">
+        
+          <img src="/static/images/python-3.png" alt="homepage" border="0" id="logo"/>
+        
+        
+       </a>
+      </h1>
+      <!--  Skip to Navigation  -->
+      <div class="skiptonav"><a accesskey="2" href="#left-hand-navigation"><img src="/static/images/trans.gif" alt="skip to navigation" border="0" id="skiptonav"/></a></div>
+      <div class="skiptonav"><a accesskey="3" href="#content-body"><img src="/static/images/trans.gif" alt="skip to content" border="0" id="skiptocontent"/></a></div>
+      <!--  Utility Menu  -->
+
+      <div id="utility-menu">
+        <!--  Search Box  -->
+        <div id="searchbox">
+          <form id="searchform" method="get"
+                name="searchform" action="/pypi">
+            <input type="hidden" name=":action" value="search"/>
+            <div id="search">
+              <input class="input-text" id="term" name="term" autofocus="autofocus"/>
+              <input class="input-button" type="submit" name="submit" value="search" id="submit"/>
+            </div>
+          </form>
+        </div>
+<!-- XXX: reinstate this       <div id="screen-switcher"></div> -->
+      </div>
+      <div id="left-hand-navigation">
+
+        <!--  Main Menu NEED LEVEL TWO HEADER AND FOOTER -->
+        <div id="menu">
+          <ul class="level-one">
+            <li class="selected">
+              <a class="selected" href="/pypi">Package Index</a>
+
+              <ul class="level-two">
+
+                
+                  <li class=""><a class="" href="/pypi?%3Aaction=browse">Browse&nbsp;packages</a></li>
+                
+                
+                  <li class=""><a class="" href="/pypi?%3Aaction=submit_form">Package&nbsp;submission</a></li>
+                
+                
+                  <li class=""><a class="" href="/pypi?%3Aaction=list_classifiers">List&nbsp;trove&nbsp;classifiers</a></li>
+                
+                
+                  <li class=""><a class="" href="/pypi?%3Aaction=index">List&nbsp;packages</a></li>
+                
+                
+                  <li class=""><a class="" href="/pypi?%3Aaction=rss">RSS&nbsp;(latest&nbsp;40&nbsp;updates)</a></li>
+                
+                
+                  <li class=""><a class="" href="/pypi?%3Aaction=packages_rss">RSS&nbsp;(newest&nbsp;40&nbsp;packages)</a></li>
+                
+		<li><a href="/pypi?:action=browse&amp;c=533&amp;show=all">Python 3 Packages</a></li>
+        <li><a href="http://wiki.python.org/moin/CheeseShopTutorial">PyPI Tutorial</a></li>
+        <li><a href="/security">PyPI Security</a></li>
+        <li><a href="http://sourceforge.net/tracker/?group_id=66150&amp;atid=513504">PyPI Support</a></li>
+        <li><a href="https://bitbucket.org/pypa/pypi/issues">PyPI Bug Reports</a></li>
+        <li><a href="http://www.python.org/sigs/distutils-sig/">PyPI Discussion</a></li>
+        <li><a href="http://wiki.python.org/moin/CheeseShopDev">PyPI Developer Info</a></li>
+       </ul>
+
+            </li>
+
+
+
+
+            <li class=""><a href="http://www.python.org/about" class="" title="About The Python Language">About</a>
+            </li><li class=""><a href="http://www.python.org/news" class="" title="">News</a>
+            </li><li class=""><a href="http://www.python.org/doc" class="" title="">Documentation</a>
+            </li><li class=""><a href="http://www.python.org/download" title="">Download</a>
+
+
+            </li><li class=""><a href="http://www.python.org/community" class="" title="">Community</a>
+            </li><li class=""><a href="http://www.python.org/psf" class="" title="Python Software Foundation">Foundation</a>
+            </li><li class=""><a href="http://www.python.org/dev" class="" title="Python Core Language Development">Core Development</a>
+            </li><li class=""><a href="http://www.python.org/links" class="" title="">Links</a>
+          </li>
+          </ul>
+        </div>
+
+      </div>
+      <div id="content-body">
+        <div id="body-main">
+          <div id="content">
+
+            <div id="breadcrumb">
+              <a href="/pypi">Package Index</a>
+              
+                <span class="breadcrumb-separator">&gt;</span>
+                <a href="/pypi/izdvd">izdvd</a>
+              
+              
+                <span class="breadcrumb-separator">&gt;</span>
+                <a href="/pypi/izdvd/0.1.2">0.1.2</a>
+              
+
+            </div>
+
+            <div id="document-floating">
+
+            <div id="document-navigation" style="overflow-y: auto; max-height: 15em; overflow-x: hidden;">
+		
+                  <h4>Not Logged In</h4>
+
+                  <ul>
+		    
+                    <li><a href="/pypi?%3Aaction=login">Login</a></li>
+                    <li><a href="/pypi?%3Aaction=register_form">Register</a></li>
+                    <li><a href="/pypi?%3Aaction=forgotten_password_form">Lost Login?</a></li>
+		    <li>Use <a href="/pypi?:action=openid">OpenID</a>
+                      
+                        <a style="border: none;"
+                           href="/pypi?:action=login&amp;provider=Google"><img
+    width="16" height="16"
+    src="https://www.google.com/favicon.ico" alt="Google"
+    title="Google"/></a>
+                      
+                      
+                        <a style="border: none;"
+                           href="/pypi?:action=login&amp;provider=myOpenID"><img
+    width="16" height="16"
+    src="https://www.myopenid.com/favicon.ico"
+    alt="myOpenID" title="myOpenID"/></a>
+                      
+                      
+                        <a style="border: none;"
+                           href="/pypi?:action=login&amp;provider=Launchpad"><img
+    width="16" height="16"
+    src="https://launchpad.net/@@/launchpad.png"
+    alt="Launchpad" title="Launchpad"/></a>
+                      
+                    </li>
+                  </ul>
+
+		
+
+		
+
+            </div>
+        </div>
+        
+
+
+            <div class="section">
+              <h1>izdvd 0.1.2</h1>
+
+              
+<div id="download-button">
+ 
+  <a class="button green" style="float:right;"
+     href="https://pypi.python.org/packages/source/i/izdvd/izdvd-0.1.2.tar.gz">Download<br/>
+    <span style="font-size: 75%">izdvd-0.1.2.tar.gz</span>
+  </a>
+ 
+ 
+</div>
+
+<p style="font-style: italic">A set of python scripts for authoring DVDs and/or DVD menus with little or no user interaction.</p>
+
+
+
+
+
+
+
+
+<div class="section" id="description">
+<h1>Description</h1>
+<p>Izdvd is a set of python scripts for authoring DVDs and/or DVD menus with
+little or no user interaction.</p>
+<p>Three scripts are included:</p>
+<blockquote>
+<dl class="docutils">
+<dt><strong>izdvd</strong></dt>
+<dd><p class="first">Outputs an authored DVD with a simple menu made from images
+(thumbnails, posters, etc) corresponding to each video laid out in a
+grid.</p>
+<p>Input can be given as video files or directories containing
+video files. If you have image with filenames similar
+to the videos, or videos in separate folders with images named like
+&quot;folder.jpg&quot;, &quot;poster.png&quot;, etc, then it will find the images to use
+for the menu automatically.  Subtitles can be searched for and added
+to the DVD in the same way if desired.</p>
+<p class="last">Optionally, labels can be placed under each menu image.  These can be
+inferred automatically from the video, directory or image name, or they
+can be explicitly specified on the command line.</p>
+</dd>
+<dt><strong>izdvdmenu</strong></dt>
+<dd>Outputs a DVD menu (a set of video and xml files that can be used to
+create a DVD with dvdauthor)</dd>
+<dt><strong>izdvdbg</strong></dt>
+<dd>Outputs a set of image and xml files that can be used to create a DVD
+menu with spumux (part of the dvdauthor package)</dd>
+</dl>
+</blockquote>
+</div>
+<div class="section" id="requirements">
+<h1>Requirements</h1>
+<ul class="simple">
+<li>Linux</li>
+<li>Python 3.x</li>
+<li>python-lxml</li>
+<li>ffmpeg</li>
+<li>imagemagick</li>
+<li>dvdauthor</li>
+<li>mjpegtools</li>
+<li>mediainfo</li>
+<li>toolame</li>
+<li>mplayer (optional; for previewing videos/menus)</li>
+</ul>
+</div>
+<div class="section" id="license">
+<h1>License</h1>
+<ul class="simple">
+<li>Copyright (c) 2013 William Adams</li>
+<li>Distributed under the terms of the Modified BSD License.</li>
+<li>The full license is in the file LICENSE, distributed with this software.</li>
+</ul>
+</div>
+<div class="section" id="installation">
+<h1>Installation</h1>
+<p>From pypi:</p>
+<pre class="literal-block">
+pip install izdvd
+</pre>
+<p>Or download from:</p>
+<pre class="literal-block">
+https://github.com/izzilly/izdvd/archive/master.zip
+</pre>
+<p>Then unpack and run:</p>
+<pre class="literal-block">
+python setup.py
+</pre>
+</div>
+
+
+<a name="downloads">&nbsp;</a>
+<table class="list" style="margin-bottom: 10px;">
+<tr>
+  <th>File</th>
+  <th>Type</th>
+  <th>Py Version</th>
+  <th>Uploaded on</th>
+  <th style="text-align: right;">Size</th>
+</tr>
+
+<tr class="odd">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/source/i/izdvd/izdvd-0.1.2.tar.gz#md5=35965d3455290b64f466e68d84083bcd">izdvd-0.1.2.tar.gz</a>
+      (<a title="MD5 Digest"
+          href="/pypi?:action=show_md5&amp;digest=35965d3455290b64f466e68d84083bcd">md5</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Source
+  </td>
+  <td>
+    
+  </td>
+  <td>2013-09-26</td>
+  <td style="text-align: right;">29KB</td>
+
+</tr>
+
+<tr><td id="last" colspan="6"/></tr>
+  </table>
+
+<ul class="nodot">
+  <li><strong>Downloads (All Versions):</strong></li>
+  <li>
+    <span>2</span> downloads in the last day
+  </li>
+  <li>
+    <span>118</span> downloads in the last week
+  </li>
+  <li>
+    <span>543</span> downloads in the last month
+  </li>
+</ul>
+
+<ul class="nodot">
+ <li>
+  <strong>Author:</strong>
+  <span>William Adams</span>
+ </li>
+
+ 
+
+ 
+
+<!-- The <th> elements below are a terrible terrible hack for setuptools -->
+ <li>
+  <strong>Home Page:</strong>
+  <!-- <th>Home Page -->
+  <a href="https://github.com/izzilly/izdvd">https://github.com/izzilly/izdvd</a>
+ </li>
+
+
+ 
+
+ 
+
+
+ 
+
+ <li>
+  <strong>License:</strong>
+  
+  
+  <span>BSD License</span>
+  
+ </li>
+
+ <li>
+  <strong>Platform:</strong>
+  <span>linux</span>
+ </li>
+
+<!-- TODO: add link to products in follow dependencies... -->
+ 
+ 
+ 
+
+ <li>
+  <strong>Categories</strong>
+  <ul class="nodot">
+   <li>
+    <a href="/pypi?:action=browse&amp;c=4">Development Status :: 4 - Beta</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=8">Environment :: Console</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=32">Intended Audience :: End Users/Desktop</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=60">License :: OSI Approved :: BSD License</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=104">Natural Language :: English</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=170">Operating System :: POSIX :: Linux</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=214">Programming Language :: Python</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=533">Programming Language :: Python :: 3</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=367">Topic :: Multimedia :: Video</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=369">Topic :: Multimedia :: Video :: Conversion</a>
+   </li>
+  </ul>
+ </li>
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ <li>
+  <strong>Package Index Owner:</strong>
+  <span>izzilly</span>
+ </li>
+
+ 
+
+ <li>
+  <strong><a href="http://usefulinc.com/doap">DOAP</a> record:</strong>
+  <a href="/pypi?:action=doap&amp;name=izdvd&amp;version=0.1.2">izdvd-0.1.2.xml</a>
+ </li>
+
+</ul>
+
+
+
+
+
+            </div>
+
+
+          </div>
+          <div id="footer"><div id="credits">
+            <a href="http://www.python.org/about/website">Website maintained by the Python community</a><br/>
+            <a href="https://www.fastly.com/" title="Real-time CDN services provided by Fastly">Real-time CDN by Fastly</a> /
+            <a href="http://osuosl.org/" title="Web and email hosting provided by OSU OSL">hosting by OSU OSL</a> /
+            <a href="http://www.timparkin.co.uk/" title="Design by Tim Parkin, Yorkshire man, photographer and developer">design by Tim Parkin</a>
+          </div>
+          Copyright © 1990-2013, <a href="http://www.python.org/psf">Python Software Foundation</a><br/>
+          <a href="http://www.python.org/about/legal">Legal Statements</a>
+
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>
+

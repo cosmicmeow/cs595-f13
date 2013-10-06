@@ -1,0 +1,704 @@
+<!doctype html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+
+<!--[if lt IE 7]> <html class="no-js ie6 oldie"  xmlns:og="http://ogp.me/ns#"> <![endif]-->
+
+<!--[if IE 7]>    <html class="no-js ie7 oldie"  xmlns:og="http://ogp.me/ns#"> <![endif]-->
+
+<!--[if IE 8]>    <html class="no-js ie8 oldie"  xmlns:og="http://ogp.me/ns#"> <![endif]-->
+
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+
+<!--[if gt IE 8]><!--> <html class="no-js"  xmlns:og="http://ogp.me/ns#"> <!--<![endif]-->
+
+
+
+<head>
+
+
+
+<meta charset="UTF-8">
+
+
+
+
+<!-- Mobile View -->
+
+<meta name="viewport" content="width=device-width">
+
+
+
+
+<title>Kevin Spacey: House of Cards y la r-evolución Netflix | Mis Apis Por Tus Cookies</title>
+
+<link rel="Shortcut Icon" href="http://www.misapisportuscookies.com/wp-content/themes/organic_magazine/images/favicon.ico" type="image/x-icon">
+
+
+
+<link rel="stylesheet" href="http://www.misapisportuscookies.com/wp-content/themes/organic_magazine/style.css">
+
+<link rel="stylesheet" href="http://www.misapisportuscookies.com/wp-content/themes/organic_magazine/style-mobile.css">
+
+<style type="text/css" media="screen">
+
+#content a, #content a:link, #content a:visited,
+#homepage a, #homepage a:link, #homepage a:visited,
+#slideshow a, #slideshow a:link, #slideshow a:visited {
+color: #7a7878;}
+
+#content a:hover, #content a:focus, #content a:active,
+#homepage a:hover, #homepage a:focus, #homepage a:active,
+#slideshow a:hover, #slideshow a:focus, #slideshow a:active {
+color: #CC0000;}
+
+.container h1 a, .container h2 a, .container h3 a, .container h4 a, .container h5 a, .container h6 a,
+.container h1 a:link, .container h2 a:link, .container h3 a:link, .container h4 a:link, .container h5 a:link, .container h6 a:link,
+.container h1 a:visited, .container h2 a:visited, .container h3 a:visited, .container h4 a:visited, .container h5 a:visited, .container h6 a:visited {
+color: #000000!important;}
+
+.container h1 a:hover, .container h2 a:hover, .container h3 a:hover, .container h4 a:hover, .container h5 a:hover, .container h6 a:hover,
+.container h1 a:focus, .container h2 a:focus, .container h3 a:focus, .container h4 a:focus, .container h5 a:focus, .container h6 a:focus,
+.container h1 a:active, .container h2 a:active, .container h3 a:active, .container h4 a:active, .container h5 a:active, .container h6 a:active {
+color: #CC0000!important;}
+
+#submit:hover, #comments #respond input#submit:hover, #searchsubmit:hover, #pbd-alp-load-posts a:hover, #pbd-alp-load-posts a:active, .reply a:hover, .gallery img:hover, .gform_wrapper input.button:hover, .number-paginate a:hover, .number-paginate a:active, .number-paginate .number-current, .flex-direction-nav li .prev:hover, .flex-direction-nav li .next:hover {
+background-color: #CC0000 !important;}
+</style>
+
+
+<!-- IE Fix for HTML5 Tags -->
+
+<!--[if lt IE 9]>
+
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+<![endif]-->
+
+
+
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Mis Apis Por Tus Cookies &raquo; Feed" href="http://www.misapisportuscookies.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Mis Apis Por Tus Cookies &raquo; Comments Feed" href="http://www.misapisportuscookies.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Mis Apis Por Tus Cookies &raquo; Kevin Spacey: House of Cards y la r-evolución Netflix Comments Feed" href="http://www.misapisportuscookies.com/2013/09/kevin-spacey-house-of-cards-y-la-r-evolucion-netflix/feed/" />
+<link rel='stylesheet' id='thickbox-css'  href='http://www.misapisportuscookies.com/wp-includes/js/thickbox/thickbox.css?ver=20121105' type='text/css' media='all' />
+<link rel='stylesheet' id='digg-digg-css'  href='http://www.misapisportuscookies.com/wp-content/plugins/digg-digg/css/diggdigg-style.css?ver=5.3.6' type='text/css' media='screen' />
+<link rel='stylesheet' id='fvch-styles-css'  href='http://www.misapisportuscookies.com/wp-content/plugins/fv-code-highlighter/public/css/fvch-styles.css?ver=1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='et-shortcodes-css-css'  href='http://www.misapisportuscookies.com/wp-content/plugins/et-shortcodes/shortcodes.css?ver=2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='blackbirdpie-css-css'  href='http://www.misapisportuscookies.com/wp-content/plugins/twitter-blackbird-pie/css/blackbirdpie.css?ver=20110416' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.misapisportuscookies.com/wp-includes/js/tw-sack.min.js?ver=1.6.1'></script>
+<script type='text/javascript' src='http://www.misapisportuscookies.com/wp-content/plugins/find-me-on/js/findmeon.js?ver=3.5.2'></script>
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/prototype/1.7.1.0/prototype.js?ver=1.7.1'></script>
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js?ver=1.9.0'></script>
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/builder.js?ver=1.9.0'></script>
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/effects.js?ver=1.9.0'></script>
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/dragdrop.js?ver=1.9.0'></script>
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/slider.js?ver=1.9.0'></script>
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/controls.js?ver=1.9.0'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js?ver=3.5.2'></script>
+<script type='text/javascript' src='http://www.misapisportuscookies.com/wp-includes/js/comment-reply.min.js?ver=3.5.2'></script>
+<script type='text/javascript' src='http://www.misapisportuscookies.com/wp-content/themes/organic_magazine/js/modernizr.foundation.js?ver=3.5.2'></script>
+<script type='text/javascript' src='http://www.misapisportuscookies.com/wp-content/themes/organic_magazine/js/jquery.flexslider.js?ver=3.5.2'></script>
+<script type='text/javascript' src='http://www.misapisportuscookies.com/wp-content/themes/organic_magazine/js/superfish/supersubs.js?ver=3.5.2'></script>
+<script type='text/javascript' src='http://www.misapisportuscookies.com/wp-content/themes/organic_magazine/js/superfish/superfish.js?ver=3.5.2'></script>
+<script type='text/javascript' src='http://www.misapisportuscookies.com/wp-content/themes/organic_magazine/js/superfish/hoverIntent.js?ver=3.5.2'></script>
+<script type='text/javascript' src='http://www.misapisportuscookies.com/wp-content/plugins/twitter-blackbird-pie/js/blackbirdpie.js?ver=20110404'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.misapisportuscookies.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.misapisportuscookies.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Cuando las marcas llegan mal y tarde' href='http://www.misapisportuscookies.com/2013/09/cuando-marcas-llegan-mal-tarde/' />
+<link rel='next' title='El Mobile ha muerto&#8230; jajajaja ¡Es broma!' href='http://www.misapisportuscookies.com/2013/09/el-boom-de-las-apps/' />
+<meta name="generator" content="WordPress 3.5.2" />
+<link rel='shortlink' href='http://www.misapisportuscookies.com/?p=23800' />
+<link rel="image_src" href="" /><!-- Fedmich facebook/digg thumbnail v1.15.6 -->
+<meta property="og:title" content="Kevin Spacey: House of Cards y la r-evolución Netflix">
+<meta property="og:site_name" content="Mis Apis Por Tus Cookies">
+<meta property="og:url" content="http://www.misapisportuscookies.com/2013/09/kevin-spacey-house-of-cards-y-la-r-evolucion-netflix/">
+<meta property="og:locale" content="en_us">
+<link rel="image_src" href="http://i4.ytimg.com/vi/P0ukYf_xvgc/default.jpg" />
+<meta property="og:image" content="http://i4.ytimg.com/vi/P0ukYf_xvgc/default.jpg" />
+<!-- /Fedmich facebook/digg thumbnail -->
+        <style type="text/css">
+            .fvch-codeblock {
+                background: #f2ecec;
+            }
+            .fvch-codeblock pre, .fvch-line-numbers pre {
+                background: #f2ecec;
+                line-height: 1.3em;
+                font-family: 'Monaco', 'Courier New', Courier, monospace;
+                font-size: 11px;
+            }
+            .fvch-line-numbers pre {
+                background: #e2e2e2;
+            }
+        </style>
+        <meta name="generator" content="FV Code Highlighter" />
+        
+<!-- Start Twitter Meta -->
+<meta name="twitter:site" content="@ApisCookies" />
+<meta name="twitter:creator" content="@victorclar" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="http://www.misapisportuscookies.com/wp-content/uploads/2013/09/house-of-cards-150x150.jpg" />
+<meta name="twitter:url" content="http://www.misapisportuscookies.com/2013/09/kevin-spacey-house-of-cards-y-la-r-evolucion-netflix/" />
+<meta name="twitter:title" content="Kevin Spacey: House of Cards y la r-evolución Netflix" />
+<!-- End Twitter Meta -->
+<link type="text/css" rel="stylesheet" href="http://www.misapisportuscookies.com/wp-content/plugins/find-me-on/css/style.css" />
+
+<!-- All in One SEO Pack 2.0 by Michael Torbert of Semper Fi Web Design[686,776] -->
+<link rel="author" href="https://plus.google.com/107282377473274015061" />
+<meta name="description" content="En este vídeo Spacey destaca algunos aspectos clave de la serie y su emisión en Netflix que plasma la crisis que vive el sector y cómo solucionarla." />
+
+<meta name="keywords" content="house of cards, kevin spacey, netflix,contenidos,netflix,streaming,tv online" />
+
+<link rel="canonical" href="http://www.misapisportuscookies.com/2013/09/kevin-spacey-house-of-cards-y-la-r-evolucion-netflix/" />
+<!-- /all in one seo pack -->
+<style type="text/css">
+.avatar {vertical-align:middle}
+.credit {font-size: 50%;}
+</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url('http://www.misapisportuscookies.com/wp-content/themes/organic_magazine/images/background.png'); background-repeat: repeat; background-position: top left; background-attachment: scroll; }
+</style>
+
+
+<link rel="alternate" type="application/rss+xml" title="Mis Apis Por Tus Cookies Feed" href="http://www.misapisportuscookies.com/feed/">
+
+<link rel="pingback" href="http://www.misapisportuscookies.com/xmlrpc.php">
+
+
+
+<!-- Social -->
+
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+
+
+<!-- Google Fonts -->
+
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,300,900' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Kreon:400,300,700' rel='stylesheet' type='text/css'>
+
+
+<script type="text/javascript"> 
+
+	var $j = jQuery.noConflict();
+
+     	$j(document).ready(function() { 
+
+        $j('ul.sf-menu').superfish(); 
+
+    }); 
+
+</script>
+
+
+
+
+<script type="text/javascript">
+
+	var $j = jQuery.noConflict();
+
+	$j(window).load(function() {
+
+		$j('.flexslider').flexslider({
+
+			slideshowSpeed		: 8000,
+
+			animationDuration	: 600
+
+		});
+
+	});
+
+</script>
+
+
+
+<!-- Make Social Buttons Load in Ajax -->
+
+<script type="text/javascript">
+
+	jQuery(document).ajaxComplete(function($) {
+
+		gapi.plusone.go();
+
+		twttr.widgets.load();
+
+		try {
+
+			FB.XFBML.parse();
+
+		}catch(ex){}
+
+	});
+
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18621985-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</head>
+
+
+
+<body class="single single-post postid-23800 single-format-standard custom-background">
+
+
+
+<div id="fb-root"></div>
+
+<script>(function(d, s, id) {
+
+  var js, fjs = d.getElementsByTagName(s)[0];
+
+  if (d.getElementById(id)) return;
+
+  js = d.createElement(s); js.id = id;
+
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=246727095428680";
+
+  fjs.parentNode.insertBefore(js, fjs);
+
+}(document, 'script', 'facebook-jssdk'));
+
+</script>
+
+
+
+<div class="container">
+
+	
+
+	<div class="row">
+
+	
+
+	    <div id="header">
+
+	    
+
+	    	
+	    	
+	    	
+
+	    	<h1 id="custom-header"><a href="http://www.misapisportuscookies.com/" title="Home"><img src="http://www.misapisportuscookies.com/wp-content/uploads/2012/06/cropped-portada_apis_33.jpg" height="135" width="980" alt="Mis Apis Por Tus Cookies" />Mis Apis Por Tus Cookies</a></h1>
+
+	    	
+
+	    </div>
+
+    
+
+    </div>
+
+    
+
+    <div class="row">
+
+    
+
+	    <div id="navigation">
+
+	        <div class="menu"><ul id="menu-home" class="menu"><li id="menu-item-11763" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-11763"><a href="http://www.misapisportuscookies.com/">Home</a></li>
+<li id="menu-item-11896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11896"><a href="http://www.misapisportuscookies.com/sobre-apiscookies/">Sobre @ApisCookies</a>
+<ul class="sub-menu">
+	<li id="menu-item-12674" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12674"><a href="http://www.misapisportuscookies.com/sobre-apiscookies/quienes-somos/">Quienes somos</a></li>
+	<li id="menu-item-11898" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11898"><a href="http://www.misapisportuscookies.com/sobre-apiscookies/contacta-con-apiscookies/">Contacto</a></li>
+	<li id="menu-item-11899" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11899"><a href="http://www.misapisportuscookies.com/sobre-apiscookies/p-privacidad/">P. Privacidad</a></li>
+	<li id="menu-item-19885" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19885"><a href="http://www.misapisportuscookies.com/sobre-apiscookies/politica-de-post-patrocinados/">Post patrocinados</a></li>
+</ul>
+</li>
+<li id="menu-item-11792" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11792"><a href="http://www.misapisportuscookies.com/category/secciones/marketing-2-0/">Marketing 2.0</a>
+<ul class="sub-menu">
+	<li id="menu-item-11786" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11786"><a href="http://www.misapisportuscookies.com/category/secciones/publicidad-2-0/">Comunicación 2.0</a></li>
+	<li id="menu-item-11793" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11793"><a href="http://www.misapisportuscookies.com/category/secciones/marketing-2-0/campanas/">Campañas</a></li>
+	<li id="menu-item-11787" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11787"><a href="http://www.misapisportuscookies.com/category/secciones/publicidad-2-0/branding-2-0/">Branding 2.0</a></li>
+	<li id="menu-item-11790" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11790"><a href="http://www.misapisportuscookies.com/category/secciones/creatividad-2-0/">Creatividad 2.0</a></li>
+	<li id="menu-item-11806" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11806"><a href="http://www.misapisportuscookies.com/category/secciones/social-media-2-0/">Social Media</a></li>
+</ul>
+</li>
+<li id="menu-item-11803" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-11803"><a href="http://www.misapisportuscookies.com/category/secciones/medios-2-0/">Medios 2.0</a>
+<ul class="sub-menu">
+	<li id="menu-item-12260" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12260"><a href="http://www.misapisportuscookies.com/category/secciones/medios-2-0/television-social-medios-2-0/">Televisión social</a></li>
+	<li id="menu-item-13182" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13182"><a href="http://www.misapisportuscookies.com/category/secciones/medios-2-0/transmedia/">Transmedia</a></li>
+	<li id="menu-item-11789" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11789"><a href="http://www.misapisportuscookies.com/category/secciones/publicidad-2-0/politica-2-0/">Política 2.0</a></li>
+	<li id="menu-item-11788" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11788"><a href="http://www.misapisportuscookies.com/category/secciones/publicidad-2-0/famosos-2-0/">Famosos 2.0</a></li>
+</ul>
+</li>
+<li id="menu-item-11799" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11799"><a href="http://www.misapisportuscookies.com/category/secciones/comunicacion-2-0/innovacion-2/">Innovación</a>
+<ul class="sub-menu">
+	<li id="menu-item-11804" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11804"><a href="http://www.misapisportuscookies.com/category/secciones/rr-hh-2-0/">RR.HH. 2.0</a></li>
+	<li id="menu-item-11791" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11791"><a href="http://www.misapisportuscookies.com/category/secciones/educacion-2-0/">Educación 2.0</a></li>
+	<li id="menu-item-11795" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11795"><a href="http://www.misapisportuscookies.com/category/secciones/comunicacion-2-0/3-sector-2-0/">3 Sector 2.0</a></li>
+</ul>
+</li>
+<li id="menu-item-11807" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11807"><a href="http://www.misapisportuscookies.com/category/secciones/tecnologia/">Tecnología</a>
+<ul class="sub-menu">
+	<li id="menu-item-11808" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11808"><a href="http://www.misapisportuscookies.com/category/secciones/tecnologia/aplicaciones-tecnologia/">Aplicaciones</a></li>
+	<li id="menu-item-11810" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11810"><a href="http://www.misapisportuscookies.com/category/secciones/tecnologia/herramientas-2-0/">Herramientas 2.0</a></li>
+	<li id="menu-item-11811" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11811"><a href="http://www.misapisportuscookies.com/category/secciones/tecnologia/redes-sociales-tecnologia/">Redes Sociales</a></li>
+</ul>
+</li>
+<li id="menu-item-11805" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11805"><a href="http://www.misapisportuscookies.com/category/secciones/seo/">SEO/SEM</a>
+<ul class="sub-menu">
+	<li id="menu-item-11942" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11942"><a href="http://www.misapisportuscookies.com/category/secciones/seo/buscadores-seo/">Buscadores</a></li>
+</ul>
+</li>
+<li id="menu-item-11794" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-11794"><a href="http://www.misapisportuscookies.com/category/secciones/comunicacion-2-0/">Más&#8230;</a>
+<ul class="sub-menu">
+	<li id="menu-item-17814" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17814"><a href="http://www.misapisportuscookies.com/category/frikicadas/">Frikicadas</a></li>
+	<li id="menu-item-11800" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11800"><a href="http://www.misapisportuscookies.com/category/secciones/comunicacion-2-0/moda-2-0/">Moda 2.0</a></li>
+	<li id="menu-item-11801" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11801"><a href="http://www.misapisportuscookies.com/category/secciones/comunicacion-2-0/musica-2-0/">Música 2.0</a></li>
+	<li id="menu-item-11796" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-11796"><a href="http://www.misapisportuscookies.com/category/secciones/comunicacion-2-0/cine-2-0/">Cine 2.0</a></li>
+	<li id="menu-item-11798" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11798"><a href="http://www.misapisportuscookies.com/category/secciones/comunicacion-2-0/humor-2-0/">Humor 2.0</a></li>
+	<li id="menu-item-11802" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11802"><a href="http://www.misapisportuscookies.com/category/secciones/comunicacion-2-0/viajes-2-0/">Viajes 2.0</a></li>
+</ul>
+</li>
+</ul></div>
+	        
+
+	        
+		        <div class="searchnav">
+
+		            <form method="get" id="searchform" action="http://www.misapisportuscookies.com/">
+
+		            <input type="text" class="inputbox" value="Buscar" onFocus="if (this.value == 'Buscar') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Buscar';}" name="s" id="s" />
+
+		            </form>
+
+		        </div>
+
+	        
+	    </div>
+
+    
+
+    </div>
+<div id="content" class="row">
+
+	<div class="eight columns">
+	
+		<div class="post-23800 post type-post status-publish format-standard hentry category-cine-2-0 category-medios-2-0 tag-contenidos tag-netflix tag-streaming tag-tv-online" id="post-23800">
+		
+				
+						
+			<h1 class="headline">Kevin Spacey: House of Cards y la r-evolución Netflix</h1>
+		
+	        <div class="postauthor">            
+	            <p>Escrito por <a href="http://www.misapisportuscookies.com/author/victor-clar/" title="Posts by Victor Clar" rel="author">Victor Clar</a> el 26 de September de 2013 | 3:00 pm  &middot; <a href="http://www.misapisportuscookies.com/2013/09/kevin-spacey-house-of-cards-y-la-r-evolucion-netflix/#comments">3 Comentarios</a> &nbsp; </p>
+	        </div>
+	        
+	        	        			
+			<div class="article">
+				<!-- SimpleReach Slide Plugin Version: 0.7.6 -->
+<script type='text/javascript' id='simplereach-slide-tag'>
+    __reach_config = {
+      pid: '4e601a26c2b21966eb000047',
+      title: 'Kevin Spacey: House of Cards y la r-evoluci&oacute;n Netflix',
+      tags: ["contenidos","Netflix","streaming","TV online"],
+      authors: ["Victor Clar"],
+      channels: ["cine-2-0","medios-2-0"],
+      slide_active: true,
+      icon: 'http://www.misapisportuscookies.com/wp-content/uploads/2013/09/house-of-cards-150x150.jpg',
+      date: '2013-09-26 13:00:22',
+      url: 'http://www.misapisportuscookies.com/2013/09/kevin-spacey-house-of-cards-y-la-r-evolucion-netflix/',
+      header: 'TE RECOMENDAMOS'
+    };
+    var content = document.getElementById('simplereach-slide-tag').parentNode, loc;
+    if (content.className){ loc = '.' + content.className; }
+    if (content.id){ loc = '#' + content.id; }
+    __reach_config.loc = loc || content;
+    (function(){
+    var s = document.createElement('script');
+      s.async = true;
+      s.type = 'text/javascript';
+      s.src = document.location.protocol + '//d8rk54i4mohrb.cloudfront.net/js/slide.js';
+      __reach_config.css = '';
+      var tg = document.getElementsByTagName('head')[0];
+      if (!tg) {tg = document.getElementsByTagName('body')[0];}
+      if (tg) {tg.appendChild(s);}
+    })();
+</script>
+<a id="dd_start"></a><p><strong><a href="http://es.wikipedia.org/wiki/House_of_Cards_%28serie_de_televisi%C3%B3n_de_2013%29">House of Cards</a></strong> es una serie sobre las intrigas del poder en Washington DC protagonizado por <a href="http://es.wikipedia.org/wiki/Kevin_Spacey">Kevin Spacey</a> y dirigida por <a href="http://es.wikipedia.org/wiki/David_Fincher">David Fincher</a>. Es una gran serie (<a title="CNET" href="http://news.cnet.com/8301-1023_3-57604071-93/in-online-tv-first-netflix-wins-emmy-for-drama-directing/" target="_blank">recientemente ganó el Emmy a mejor dirección de una serie dramática</a>) que ha roto muchos moldes de la mano de <a href="https://signup.netflix.com/">Netflix</a>, el videoclub en streaming que la emite. En este vídeo Spacey destaca algunos aspectos clave de la serie y su emisión en Netflix que plasma la <strong>crisis que vive el sector y cómo solucionarla</strong> (mi resumen debajo):</p>
+<p><iframe width="500" height="375" src="http://www.youtube.com/embed/P0ukYf_xvgc?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p>Netflix fue la única “cadena” (y la pongo entre comillas por no ser una cadena televisiva tradicional sino una empresa que desafía el cine y la televisión convencional en la era digital) que <strong>no pidió un episodio piloto</strong> – un gasto considerable que exige mostrar demasiado en un solo capítulo, cuando la historia necesita más tiempo para ir desarrollándose.</p>
+<p>Parte del éxito se debe a que Netflix puso <strong>todos los capítulos directamente</strong> a disposición de sus usuarios (y no el tradicional uno por semana), lo que demuestra que los espectadores quieren el control. Hay que darles lo que quieren, cuando lo quieren y en la forma que quieran, a un precio razonable, y pagarán (consiguiendo quitarle un poco a la piratería) – algo que la industria musical no aprendió a tiempo.</p>
+<p><strong>La duración y el formato</strong> (película, serie, en cine, televisión, iPad…) <strong>son etiquetas irrelevantes</strong>, se trata de contenido, de historias, y eso es lo que desea la audiencia. Además, una serie puede interactuar con la audiencia de una manera que la película tradicional jamás podría. La oportunidad está ahí y solo hay que cogerla.</p>
+<p>En EE.UU. hace tiempo que se habla de la crisis del cine y la “edad dorada” de las series: Los Soprano, Mad Men, The Walking Dead, Juego de Tronos… Series increíbles, predominantemente de las cadenas HBO y AMC. Con House of Cards, Netflix, una cadena no convencional, no solo se ha puesto al mismo nivel, sino que <a href="http://www.forbes.com/sites/stevenrosenbaum/2013/02/18/why-i-was-wrong-about-netflix-house-of-cards/">también ha desafiado las reglas del juego</a>. Spacey da en el clavo: dale a la gente <strong>contenido de gran calidad</strong> y libertad para <strong>verlo dónde, cuándo y cómo quieran</strong>. Y las cadenas, o mejor dicho: los &#8220;creadores de contenido&#8221;, que no tomen nota están condenadas.</p>
+<div class='dd_outer'><div class='dd_inner'><div id='dd_ajax_float'><div class='dd_button_v'><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.misapisportuscookies.com/2013/09/kevin-spacey-house-of-cards-y-la-r-evolucion-netflix/" data-count="vertical" data-text="Kevin Spacey: House of Cards y la r-evolución Netflix" data-via="ApisCookies" ></a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div><div style='clear:left'></div><div class='dd_button_v'><a href="http://bufferapp.com/add" class="buffer-add-button" data-count="vertical" data-url="http://www.misapisportuscookies.com/2013/09/kevin-spacey-house-of-cards-y-la-r-evolucion-netflix/" data-via="@ApisCookies"></a><script type="text/javascript" src="http://static.bufferapp.com/js/button.js"></script></div><div style='clear:left'></div><div class='dd_button_v'><script src="http://connect.facebook.net/es_ES/all.js#xfbml=1"></script><fb:like href="http://www.misapisportuscookies.com/2013/09/kevin-spacey-house-of-cards-y-la-r-evolucion-netflix/" send="false" show_faces="false"  layout="box_count" width="50"  ></fb:like></div><div style='clear:left'></div><div class='dd_button_v'><script type='text/javascript' src='https://apis.google.com/js/plusone.js'></script><g:plusone size='tall' href='http://www.misapisportuscookies.com/2013/09/kevin-spacey-house-of-cards-y-la-r-evolucion-netflix/'></g:plusone></div><div style='clear:left'></div><div class='dd_button_v'><a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.misapisportuscookies.com%2F2013%2F09%2Fkevin-spacey-house-of-cards-y-la-r-evolucion-netflix%2F&description=Kevin%20Spacey%3A%20House%20of%20Cards%20y%20la%20r-evoluci%C3%B3n%20Netflix&media=http://www.misapisportuscookies.com/wp-content/uploads/2013/09/house-of-cards.jpg" class="pin-it-button" count-layout="vertical"></a><script type="text/javascript" src="http://assets.pinterest.com/js/pinit.js"></script></div><div style='clear:left'></div><div class='dd_button_extra_v'><script type="text/javascript">jQuery(document).load(function(){ stLight.options({publisher:''}); });</script><div class="st_email_custom"><span id='dd_email_text'>email</span></div></div><div style='clear:left'></div><div class='dd_button_extra_v'><div id='dd_print_button'><span id='dd_print_text'><a href='javascript:window:print()'>print</a></span></div></div><div style='clear:left'></div></div></div></div><script type="text/javascript">var dd_offset_from_content = 60;var dd_top_offset_from_content = 10;var dd_override_start_anchor_id = "";var dd_override_top_offset = "";</script><script type="text/javascript" src="http://www.misapisportuscookies.com/wp-content/plugins/digg-digg//js/diggdigg-floating-bar.js?ver=5.3.6"></script><br/><br/>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://www.misapisportuscookies.com/2013/09/kevin-spacey-house-of-cards-y-la-r-evolucion-netflix/"
+    dc:identifier="http://www.misapisportuscookies.com/2013/09/kevin-spacey-house-of-cards-y-la-r-evolucion-netflix/"
+    dc:title="Kevin Spacey: House of Cards y la r-evolución Netflix"
+    trackback:ping="http://www.misapisportuscookies.com/2013/09/kevin-spacey-house-of-cards-y-la-r-evolucion-netflix/trackback/" />
+</rdf:RDF>			</div>
+			
+								
+		
+		
+		
+		
+		<div id="autor">
+			<span style="float:left; margin-right:10px;"><img alt='' src='http://1.gravatar.com/avatar/7019d3a434cff4e55749a75d9dcae4b6?s=96&amp;d=blank&amp;r=G' class='avatar avatar-96 photo' height='96' width='96' /></span>
+        	
+		<span class="nombre"><a href="http://www.misapisportuscookies.com/author/victor-clar/" title="Posts by Victor Clar" rel="author">Victor Clar</a></span>
+		<p>Estrategia digital, e-commerce internacional, ciudadano del mundo... ¡Un "challenger"! Trabajando en eBay Enterprise</p>		
+		
+		<a href="http://www.victorclar.me"><img src="http://www.misapisportuscookies.com/wp-content/themes/organic_magazine/images/rss.png" /></a> 
+		<a href="https://twitter.com/victorclar"><img src="http://www.misapisportuscookies.com/wp-content/themes/organic_magazine/images/twitter.png" /></a>
+		<a href="https://plus.google.com/107282377473274015061"><img src="http://www.misapisportuscookies.com/wp-content/themes/organic_magazine/images/googleplus.png" /></a>
+		</div>
+		
+		
+		
+		<div class="kcy_karmacracy_widget_h_23800"></div><script defer="defer" src="http://rodney.karmacracy.com/widget-2.0/?id=23800&type=h&width=640&sc=0&rb=1&np=1&c1=e6e3e3&c2=ffffff&c3=f2f2f2&c4=353535&c5=cc0000&c6=ffffff&c7=353535&c8=AD1B25&c9=353535&medio-id=56704686&url=http%3A%2F%2Fwww.misapisportuscookies.com%2F2013%2F09%2Fkevin-spacey-house-of-cards-y-la-r-evolucion-netflix%2F"></script>		
+			<div class="postmeta">
+				<p>Categoría: <a href="http://www.misapisportuscookies.com/category/secciones/comunicacion-2-0/cine-2-0/" title="View all posts in Cine 2.0" rel="category tag">Cine 2.0</a>, <a href="http://www.misapisportuscookies.com/category/secciones/medios-2-0/" title="View all posts in Medios 2.0" rel="category tag">Medios 2.0</a> &middot; Tags: <a href="http://www.misapisportuscookies.com/tag/contenidos/" rel="tag">contenidos</a>, <a href="http://www.misapisportuscookies.com/tag/netflix/" rel="tag">Netflix</a>, <a href="http://www.misapisportuscookies.com/tag/streaming/" rel="tag">streaming</a>, <a href="http://www.misapisportuscookies.com/tag/tv-online/" rel="tag">TV online</a></p>
+			</div>
+		
+		</div>
+		
+		<div class="postcomments">
+				<div id="comments">
+	
+	
+			<h3 id="comments-title">
+			3 comentarios en &ldquo;<span>Kevin Spacey: House of Cards y la r-evolución Netflix</span>&rdquo;		</h3>
+
+		
+		<ol class="commentlist">
+				<li class="comment even thread-even depth-1" id="li-comment-102120">
+		<article id="comment-102120" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='http://0.gravatar.com/avatar/4b4bf6df8d444bc2e13ac57a61f704b4?s=72&amp;d=blank&amp;r=G' class='avatar avatar-72 photo' height='72' width='72' /><span class="fn"><a href='http://luisrull.es' rel='external nofollow' class='url'>Luis Rull (@luisrull)</a></span> <br/> <a href="http://www.misapisportuscookies.com/2013/09/kevin-spacey-house-of-cards-y-la-r-evolucion-netflix/#comment-102120"><time pubdate datetime="2013-09-26T15:16:40+00:00">26/09/2013</time></a> <br/>				</div><!-- .comment-author .vcard -->
+			</footer>
+
+			<div class="comment-content">
+								<p>Gran entrada. Gracias por descubrirme ese vídeo.<br />
+Una pequeñísima corrección: David Fincher sólo dirigió los 2 primeros episodios. La dirección rota en esta serie.</p>
+				<div class="reply">
+					<a class='comment-reply-link' href='/2013/09/kevin-spacey-house-of-cards-y-la-r-evolucion-netflix/?utm_source=feedburner&#038;utm_medium=feed&#038;utm_campaign=Feed%3A+MisApisPorTusCookies+%28Mis+Apis+por+tus+Cookies%29&#038;replytocom=102120#respond' onclick='return addComment.moveForm("comment-102120", "102120", "respond", "23800")'>Reply</a>				</div><!-- .reply -->
+							</div>
+
+		</article><!-- #comment-## -->
+
+	<ul class='children'>
+	<li class="comment byuser comment-author-victor-clar bypostauthor odd alt depth-2" id="li-comment-102307">
+		<article id="comment-102307" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='http://1.gravatar.com/avatar/7019d3a434cff4e55749a75d9dcae4b6?s=48&amp;d=blank&amp;r=G' class='avatar avatar-48 photo' height='48' width='48' /><span class="fn"><a href='http://www.victorclar.me' rel='external nofollow' class='url'>Victor Clar</a></span> <br/> <a href="http://www.misapisportuscookies.com/2013/09/kevin-spacey-house-of-cards-y-la-r-evolucion-netflix/#comment-102307"><time pubdate datetime="2013-09-27T10:03:22+00:00">27/09/2013</time></a> <br/>				</div><!-- .comment-author .vcard -->
+			</footer>
+
+			<div class="comment-content">
+								<p>Gracias Luis, ¡tienes razón! E hizo esos capítulos muy bien para ganarse el Emmy&#8230; Lo he vuelto a consultar y está como productor ejecutivo. Un saludo y ¡gracias!</p>
+				<div class="reply">
+					<a class='comment-reply-link' href='/2013/09/kevin-spacey-house-of-cards-y-la-r-evolucion-netflix/?utm_source=feedburner&#038;utm_medium=feed&#038;utm_campaign=Feed%3A+MisApisPorTusCookies+%28Mis+Apis+por+tus+Cookies%29&#038;replytocom=102307#respond' onclick='return addComment.moveForm("comment-102307", "102307", "respond", "23800")'>Reply</a>				</div><!-- .reply -->
+							</div>
+
+		</article><!-- #comment-## -->
+
+	</li>
+</ul>
+</li>
+	<li class="comment even thread-odd thread-alt depth-1" id="li-comment-102334">
+		<article id="comment-102334" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img src="http://www.misapisportuscookies.com/wp-content/uploads/userphoto/71.thumbnail.jpg" alt="Asier Albistur" width="80" height="79" class="photo" /><span class="fn">Asier</span> <br/> <a href="http://www.misapisportuscookies.com/2013/09/kevin-spacey-house-of-cards-y-la-r-evolucion-netflix/#comment-102334"><time pubdate datetime="2013-09-27T13:09:33+00:00">27/09/2013</time></a> <br/>				</div><!-- .comment-author .vcard -->
+			</footer>
+
+			<div class="comment-content">
+								<p>Cuántas verdades en tan pocos minutos de vídeo.</p>
+				<div class="reply">
+					<a class='comment-reply-link' href='/2013/09/kevin-spacey-house-of-cards-y-la-r-evolucion-netflix/?utm_source=feedburner&#038;utm_medium=feed&#038;utm_campaign=Feed%3A+MisApisPorTusCookies+%28Mis+Apis+por+tus+Cookies%29&#038;replytocom=102334#respond' onclick='return addComment.moveForm("comment-102334", "102334", "respond", "23800")'>Reply</a>				</div><!-- .reply -->
+							</div>
+
+		</article><!-- #comment-## -->
+
+	</li>
+		</ol>
+
+		
+	
+									<div id="respond">
+				<h3 id="reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2013/09/kevin-spacey-house-of-cards-y-la-r-evolucion-netflix/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+MisApisPorTusCookies+%28Mis+Apis+por+tus+Cookies%29#respond" style="display:none;">Cancel reply</a></small></h3>
+									<form action="http://www.misapisportuscookies.com/wp-comments-post.php" method="post" id="commentform">
+																			<p class="comment-notes">Your email address will not be published. Required fields are marked <span class="required">*</span></p>							<p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required='true' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" aria-required='true' /></p>
+<p class="comment-form-url"><label for="url">Website</label><input id="url" name="url" type="text" value="" size="30" /></p>
+												<p class="comment-form-comment"><label for="comment">Comment</label><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>						<p class="form-allowed-tags">You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes:  <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></p>						<p class="form-submit">
+							<input name="submit" type="submit" id="submit" value="Post Comment" />
+							<input type='hidden' name='comment_post_ID' value='23800' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+						</p>
+						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="c559f1987e" /></p>					</form>
+							</div><!-- #respond -->
+						
+</div><!-- #comments -->
+		</div>
+		
+				
+	</div>
+	
+	<div class="four columns">
+		<div class="sidebar right">
+ 
+	<div id="text-22" class="widget widget_text"><h4>¡VÓTANOS!</h4>			<div class="textwidget"><a href="http://bitacoras.com/premios13/votar/3d30ba1331f543b2d00c7f35b638e15e9a44de37"><img src="http://static2.bitacoras.com/images/premios/2013/botones/300x200.png" border="0" alt="Votar en los Premios Bitacoras.com" /></a></div>
+		</div>		<div id="recent-posts-3" class="widget widget_recent_entries">		<h4>ÚLTIMOS POSTS</h4>		<ul>
+					<li>
+				<a href="http://www.misapisportuscookies.com/2013/10/que-te-da-tiempo-a-hacer-en-un-minuto/" title="¿Qué te da tiempo a hacer en un minuto?">¿Qué te da tiempo a hacer en un minuto?</a>
+						</li>
+					<li>
+				<a href="http://www.misapisportuscookies.com/2013/10/pueden-los-periodistas-ser-objetivos-en-redes-sociales/" title="¿Pueden los periodistas ser objetivos en redes sociales?">¿Pueden los periodistas ser objetivos en redes sociales?</a>
+						</li>
+					<li>
+				<a href="http://www.misapisportuscookies.com/2013/10/formacion-social-media/" title="Me aprendo encima: formación en Social Media">Me aprendo encima: formación en Social Media</a>
+						</li>
+				</ul>
+		</div>		<div id="authors-1" class="widget widget_authors">			<h4>BLOGGERS</h4>			<ul><li><a href="http://www.misapisportuscookies.com/author/elsa-bonafonte/" title="Posts by Elsa Bonafonte">Elsa Bonafonte</a> (<a href="http://www.misapisportuscookies.com/author/elsa-bonafonte/feed/" title="RSS">RSS</a>) (64)</li>
+<li><a href="http://www.misapisportuscookies.com/author/tamara-lucas/" title="Posts by Tamara Lucas">Tamara Lucas</a> (<a href="http://www.misapisportuscookies.com/author/tamara-lucas/feed/" title="RSS">RSS</a>) (43)</li>
+<li><a href="http://www.misapisportuscookies.com/author/ivan-fanego/" title="Posts by Ivan Fanego">Iván Fanego</a> (<a href="http://www.misapisportuscookies.com/author/ivan-fanego/feed/" title="RSS">RSS</a>) (42)</li>
+<li><a href="http://www.misapisportuscookies.com/author/carmen-figueiras/" title="Posts by Carmen Figueiras">Carmen Figueiras</a> (<a href="http://www.misapisportuscookies.com/author/carmen-figueiras/feed/" title="RSS">RSS</a>) (41)</li>
+<li><a href="http://www.misapisportuscookies.com/author/mercedes-ortiz/" title="Posts by Mercedes Ortiz">Mercedes Ortiz</a> (<a href="http://www.misapisportuscookies.com/author/mercedes-ortiz/feed/" title="RSS">RSS</a>) (36)</li>
+<li><a href="http://www.misapisportuscookies.com/author/beltzane/" title="Posts by Beltzane">Beltzane G. Belart</a> (<a href="http://www.misapisportuscookies.com/author/beltzane/feed/" title="RSS">RSS</a>) (36)</li>
+<li><a href="http://www.misapisportuscookies.com/author/marta-chamorro/" title="Posts by Marta Chamorro">Marta Chamorro</a> (<a href="http://www.misapisportuscookies.com/author/marta-chamorro/feed/" title="RSS">RSS</a>) (31)</li>
+<li><a href="http://www.misapisportuscookies.com/author/rebeca-saez/" title="Posts by Rebeca Saez">Rebeca Sáez</a> (<a href="http://www.misapisportuscookies.com/author/rebeca-saez/feed/" title="RSS">RSS</a>) (30)</li>
+<li><a href="http://www.misapisportuscookies.com/author/inma-ferragud/" title="Posts by Inma Ferragud">Inma Ferragud</a> (<a href="http://www.misapisportuscookies.com/author/inma-ferragud/feed/" title="RSS">RSS</a>) (30)</li>
+<li><a href="http://www.misapisportuscookies.com/author/elena-merayo/" title="Posts by Elena Merayo">Elena Merayo</a> (<a href="http://www.misapisportuscookies.com/author/elena-merayo/feed/" title="RSS">RSS</a>) (30)</li>
+<li><a href="http://www.misapisportuscookies.com/author/sol-de-leon/" title="Posts by Sol León">Sol León</a> (<a href="http://www.misapisportuscookies.com/author/sol-de-leon/feed/" title="RSS">RSS</a>) (29)</li>
+<li><a href="http://www.misapisportuscookies.com/author/esteban-murga/" title="Posts by Esteban Murga">Esteban Murga</a> (<a href="http://www.misapisportuscookies.com/author/esteban-murga/feed/" title="RSS">RSS</a>) (26)</li>
+<li><a href="http://www.misapisportuscookies.com/author/rebeca-huerga/" title="Posts by Rebeca Huerga">Rebeca Huerga</a> (<a href="http://www.misapisportuscookies.com/author/rebeca-huerga/feed/" title="RSS">RSS</a>) (25)</li>
+<li><a href="http://www.misapisportuscookies.com/author/ana-escurin/" title="Posts by Ana Escurín">Ana Escurín</a> (<a href="http://www.misapisportuscookies.com/author/ana-escurin/feed/" title="RSS">RSS</a>) (23)</li>
+<li><a href="http://www.misapisportuscookies.com/author/elena-garcia/" title="Posts by Elena Garcia">Elena García</a> (<a href="http://www.misapisportuscookies.com/author/elena-garcia/feed/" title="RSS">RSS</a>) (22)</li>
+<li><a href="http://www.misapisportuscookies.com/author/raquel-notario/" title="Posts by Raquel Notario">Raquel Notario</a> (<a href="http://www.misapisportuscookies.com/author/raquel-notario/feed/" title="RSS">RSS</a>) (21)</li>
+<li><a href="http://www.misapisportuscookies.com/author/clara-avila/" title="Posts by Clara Avila">Clara Ávila</a> (<a href="http://www.misapisportuscookies.com/author/clara-avila/feed/" title="RSS">RSS</a>) (21)</li>
+<li><a href="http://www.misapisportuscookies.com/author/aroa-perez/" title="Posts by Aroa Pérez">Aroa Pérez</a> (<a href="http://www.misapisportuscookies.com/author/aroa-perez/feed/" title="RSS">RSS</a>) (21)</li>
+<li><a href="http://www.misapisportuscookies.com/author/ainhoa-torres/" title="Posts by Ainhoa Torres">Ainhoa Torres</a> (<a href="http://www.misapisportuscookies.com/author/ainhoa-torres/feed/" title="RSS">RSS</a>) (20)</li>
+<li><a href="http://www.misapisportuscookies.com/author/jaime-valverde/" title="Posts by Jaime Valverde">Jaime Valverde</a> (<a href="http://www.misapisportuscookies.com/author/jaime-valverde/feed/" title="RSS">RSS</a>) (18)</li>
+<li><a href="http://www.misapisportuscookies.com/author/natalia-rubio/" title="Posts by Natalia Rubio">Natalia Rubio</a> (<a href="http://www.misapisportuscookies.com/author/natalia-rubio/feed/" title="RSS">RSS</a>) (17)</li>
+<li><a href="http://www.misapisportuscookies.com/author/pilar-martinez/" title="Posts by Pilar Martinez">Pilar Martínez</a> (<a href="http://www.misapisportuscookies.com/author/pilar-martinez/feed/" title="RSS">RSS</a>) (17)</li>
+<li><a href="http://www.misapisportuscookies.com/author/victor-clar/" title="Posts by Victor Clar">Víctor Clar</a> (<a href="http://www.misapisportuscookies.com/author/victor-clar/feed/" title="RSS">RSS</a>) (15)</li>
+<li><a href="http://www.misapisportuscookies.com/author/miriam-pelaez/" title="Posts by Miriam Peláez">Miriam Peláez</a> (<a href="http://www.misapisportuscookies.com/author/miriam-pelaez/feed/" title="RSS">RSS</a>) (15)</li>
+<li><a href="http://www.misapisportuscookies.com/author/asier-albistur/" title="Posts by Asier Albistur">Asier Albistur</a> (<a href="http://www.misapisportuscookies.com/author/asier-albistur/feed/" title="RSS">RSS</a>) (14)</li>
+<li><a href="http://www.misapisportuscookies.com/author/rafael-mendez/" title="Posts by Rafael Mendez (mendezlife)">Rafael Méndez Parra</a> (<a href="http://www.misapisportuscookies.com/author/rafael-mendez/feed/" title="RSS">RSS</a>) (13)</li>
+<li><a href="http://www.misapisportuscookies.com/author/alejandra-hernandez/" title="Posts by Alejandra Hernández">Alejandra Hernández</a> (<a href="http://www.misapisportuscookies.com/author/alejandra-hernandez/feed/" title="RSS">RSS</a>) (13)</li>
+<li><a href="http://www.misapisportuscookies.com/author/insustancial/" title="Posts by Insustancial">Señor Insustancial</a> (<a href="http://www.misapisportuscookies.com/author/insustancial/feed/" title="RSS">RSS</a>) (13)</li>
+<li><a href="http://www.misapisportuscookies.com/author/sam-smitten/" title="Posts by Samantha Geraghty">Samantha Geraghty</a> (<a href="http://www.misapisportuscookies.com/author/sam-smitten/feed/" title="RSS">RSS</a>) (12)</li>
+<li><a href="http://www.misapisportuscookies.com/author/jcsacouto/" title="Posts by Jorge C. Sá Couto">Jorge C. Sá Couto</a> (<a href="http://www.misapisportuscookies.com/author/jcsacouto/feed/" title="RSS">RSS</a>) (12)</li>
+<li><a href="http://www.misapisportuscookies.com/author/vilma-nunez/" title="Posts by Vilma Núñez">Vilma Núñez</a> (<a href="http://www.misapisportuscookies.com/author/vilma-nunez/feed/" title="RSS">RSS</a>) (11)</li>
+<li><a href="http://www.misapisportuscookies.com/author/carla-bonafonte/" title="Posts by Carla Bonafonte">Carla Bonafonte</a> (<a href="http://www.misapisportuscookies.com/author/carla-bonafonte/feed/" title="RSS">RSS</a>) (11)</li>
+<li><a href="http://www.misapisportuscookies.com/author/pepe-ortuno/" title="Posts by Pepe Ortuño">Pepe Ortuño</a> (<a href="http://www.misapisportuscookies.com/author/pepe-ortuno/feed/" title="RSS">RSS</a>) (11)</li>
+<li><a href="http://www.misapisportuscookies.com/author/pilar-millan/" title="Posts by Pilar Millán">Pilar Millán</a> (<a href="http://www.misapisportuscookies.com/author/pilar-millan/feed/" title="RSS">RSS</a>) (11)</li>
+<li><a href="http://www.misapisportuscookies.com/author/carolina-de-jove/" title="Posts by Carolina de Jove">Carolina de Jove</a> (<a href="http://www.misapisportuscookies.com/author/carolina-de-jove/feed/" title="RSS">RSS</a>) (10)</li>
+<li><a href="http://www.misapisportuscookies.com/author/paula-g-duque/" title="Posts by Paula G. Duque">Paula G. Duque</a> (<a href="http://www.misapisportuscookies.com/author/paula-g-duque/feed/" title="RSS">RSS</a>) (9)</li>
+<li><a href="http://www.misapisportuscookies.com/author/anna-dias/" title="Posts by Anna Dias">Anna Dias</a> (<a href="http://www.misapisportuscookies.com/author/anna-dias/feed/" title="RSS">RSS</a>) (9)</li>
+<li><a href="http://www.misapisportuscookies.com/author/mis-apis-por-tus-cookies/" title="Posts by Apis Cookies">Apis Cookies</a> (<a href="http://www.misapisportuscookies.com/author/mis-apis-por-tus-cookies/feed/" title="RSS">RSS</a>) (9)</li>
+<li><a href="http://www.misapisportuscookies.com/author/raul-godoy/" title="Posts by Raúl Godoy">Raúl Godoy</a> (<a href="http://www.misapisportuscookies.com/author/raul-godoy/feed/" title="RSS">RSS</a>) (9)</li>
+<li><a href="http://www.misapisportuscookies.com/author/juan-antonio-roncero/" title="Posts by Juanan Roncero">Juanan Roncero</a> (<a href="http://www.misapisportuscookies.com/author/juan-antonio-roncero/feed/" title="RSS">RSS</a>) (9)</li>
+<li><a href="http://www.misapisportuscookies.com/author/alejandro-tourino/" title="Posts by Alejandro Touriño">Alejandro Touriño</a> (<a href="http://www.misapisportuscookies.com/author/alejandro-tourino/feed/" title="RSS">RSS</a>) (8)</li>
+<li><a href="http://www.misapisportuscookies.com/author/david-de-silva/" title="Posts by David de Silva">David de Silva</a> (<a href="http://www.misapisportuscookies.com/author/david-de-silva/feed/" title="RSS">RSS</a>) (8)</li>
+<li><a href="http://www.misapisportuscookies.com/author/nacho-ballesta/" title="Posts by Nacho Ballesta">Nacho Ballesta</a> (<a href="http://www.misapisportuscookies.com/author/nacho-ballesta/feed/" title="RSS">RSS</a>) (8)</li>
+<li><a href="http://www.misapisportuscookies.com/author/eduardo-pradanos/" title="Posts by Eduardo Pradanos">Eduardo Prádanos</a> (<a href="http://www.misapisportuscookies.com/author/eduardo-pradanos/feed/" title="RSS">RSS</a>) (7)</li>
+<li><a href="http://www.misapisportuscookies.com/author/silvia-crespo/" title="Posts by Silvia Crespo">Silvia Crespo</a> (<a href="http://www.misapisportuscookies.com/author/silvia-crespo/feed/" title="RSS">RSS</a>) (7)</li>
+<li><a href="http://www.misapisportuscookies.com/author/lucia-jimenez/" title="Posts by Lucía Jiménez Vida">Lucía Jiménez Vida</a> (<a href="http://www.misapisportuscookies.com/author/lucia-jimenez/feed/" title="RSS">RSS</a>) (7)</li>
+<li><a href="http://www.misapisportuscookies.com/author/david-huelamo/" title="Posts by David Huelamo">David Huélamo</a> (<a href="http://www.misapisportuscookies.com/author/david-huelamo/feed/" title="RSS">RSS</a>) (6)</li>
+<li><a href="http://www.misapisportuscookies.com/author/susana-olleros/" title="Posts by Susana Olleros">Susana Olleros</a> (<a href="http://www.misapisportuscookies.com/author/susana-olleros/feed/" title="RSS">RSS</a>) (4)</li>
+<li><a href="http://www.misapisportuscookies.com/author/invitados/" title="Posts by Invitado">Invitado</a> (<a href="http://www.misapisportuscookies.com/author/invitados/feed/" title="RSS">RSS</a>) (4)</li>
+<li><a href="http://www.misapisportuscookies.com/author/alberto-ramos/" title="Posts by Alberto Ramos">Alberto Ramos</a> (<a href="http://www.misapisportuscookies.com/author/alberto-ramos/feed/" title="RSS">RSS</a>) (4)</li>
+<li><a href="http://www.misapisportuscookies.com/author/julio-sanchez/" title="Posts by Julio Sanchez">Julio Sánchez</a> (<a href="http://www.misapisportuscookies.com/author/julio-sanchez/feed/" title="RSS">RSS</a>) (4)</li>
+<li><a href="http://www.misapisportuscookies.com/author/paula-siquero/" title="Posts by Paula Siguero">Paula Siguero</a> (<a href="http://www.misapisportuscookies.com/author/paula-siquero/feed/" title="RSS">RSS</a>) (2)</li>
+<li><a href="http://www.misapisportuscookies.com/author/alejandro-di-trolio/" title="Posts by Alejandro Di Trolio">Alejandro Di Trolio</a> (<a href="http://www.misapisportuscookies.com/author/alejandro-di-trolio/feed/" title="RSS">RSS</a>) (1)</li>
+<li><a href="http://www.misapisportuscookies.com/author/carlos-j-campo/" title="Posts by Carlos J. Campo">Carlos J. Campo</a> (<a href="http://www.misapisportuscookies.com/author/carlos-j-campo/feed/" title="RSS">RSS</a>) (1)</li>
+<li><a href="http://www.misapisportuscookies.com/author/gisela-rodriguez/" title="Posts by Gisela Rodríguez">Gisela Rodríguez</a> (<a href="http://www.misapisportuscookies.com/author/gisela-rodriguez/feed/" title="RSS">RSS</a>) (1)</li>
+<li><a href="http://www.misapisportuscookies.com/author/miguel-sanchez/" title="Posts by Miguel Sánchez Campillos">Miguel Sánchez Campillos</a> (<a href="http://www.misapisportuscookies.com/author/miguel-sanchez/feed/" title="RSS">RSS</a>) (1)</li>
+<li><a href="http://www.misapisportuscookies.com/author/adriana-andolini/" title="Posts by Adriana Andolini">Adriana Andolini</a> (<a href="http://www.misapisportuscookies.com/author/adriana-andolini/feed/" title="RSS">RSS</a>) (1)</li>
+<li><a href="http://www.misapisportuscookies.com/author/cesc-vilanova/" title="Posts by Cesc Vilanova">Cesc Vilanova</a> (<a href="http://www.misapisportuscookies.com/author/cesc-vilanova/feed/" title="RSS">RSS</a>) (1)</li>
+</ul>					</div>	<div id="text-9" class="widget widget_text"><h4>NOS SIGUEN&#8230;</h4>			<div class="textwidget"><p><a href="http://feeds.feedburner.com/MisApisPorTusCookies"><img src="http://feeds.feedburner.com/~fc/MisApisPorTusCookies?bg=99CCFF&amp;fg=444444&amp;anim=0&amp;label=listeners" height="26" width="88" style="border:0" alt="" /></a></p>
+
+<script type="text/javascript" src="http://twittercounter.com/embed/apiscookies/ffffff/111111"></script><noscript><a href="http://twittercounter.com/apiscookies">Apis Cookies on Twitter Counter.com</a></noscript></div>
+		</div>    
+</div>	</div>
+
+</div>
+
+<div style="clear:both;"></div>
+
+</div> <!-- close container -->
+
+<div class="footerwidgets">
+
+	<div class="row">
+        
+            <div class="two columns">
+				 
+                            </div>
+            
+            <div class="two columns">
+				                            </div>
+            
+            <div class="two columns">
+            	                            </div>
+            
+            <div class="two columns">
+            	                            </div>
+            
+            <div class="four columns">
+				                            </div>
+
+	</div>
+
+</div>
+
+<div class="footer">
+
+	<div class="row">
+		<div class="twelve columns">
+    
+    	<div class="footerleft">       
+            <p>Copyright &copy; 2013 &middot; All Rights Reserved &middot; Mis Apis Por Tus Cookies</p>
+
+            <p><a href="http://www.organicthemes.com/themes/magazine-theme/" title="Organic Magazine WordPress Theme" target="_blank">Magazine Theme v4</a> by <a href="http://www.organicthemes.com" title="Premium WordPress Themes" target="_blank">Organic Themes</a> &middot; <a href="http://kahunahost.com" target="_blank" title="WordPress Hosting">WordPress Hosting</a> &middot; <a href="http://www.misapisportuscookies.com/feed/">RSS Feed</a> &middot; <a href="http://www.misapisportuscookies.com/wp-login.php">Log in</a></p>
+        </div>
+        
+        <div class="footerright">
+    		<a href="http://www.organicthemes.com" title="Designer WordPress Themes" target="_blank"><img src="http://www.misapisportuscookies.com/wp-content/themes/organic_magazine/images/footer_logo.png" alt="Organic Themes" /></a>
+    	</div>
+		
+		</div>
+	</div>
+	
+</div> <!-- close container -->
+
+<script type="text/javascript">if(window.aiModifyParent) {aiModifyParent();}</script><script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/www.misapisportuscookies.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif","closeImage":"http:\/\/www.misapisportuscookies.com\/wp-includes\/js\/thickbox\/tb-close.png"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.misapisportuscookies.com/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+<script type='text/javascript' src='http://w.sharethis.com/button/buttons.js?ver=3.5.2'></script>
+<script type='text/javascript' src='http://www.misapisportuscookies.com/wp-content/plugins/fv-code-highlighter/public/js/toolbox.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.misapisportuscookies.com/wp-content/plugins/et-shortcodes/js/et_shortcodes_frontend.js?ver=2.0'></script>
+
+</body>
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta about="/content/submitting-bugs" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+<link rel="shortcut icon" href="http://community.habitrpg.com/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta content="Submitting Bugs" about="/content/submitting-bugs" property="dc:title" />
+<link rel="shortlink" href="/node/280" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/content/submitting-bugs" />
+  <title>Submitting Bugs | Community Site</title>
+  <style type="text/css" media="all">@import url("http://community.habitrpg.com/modules/system/system.base.css?mngqsz");
+@import url("http://community.habitrpg.com/modules/system/system.menus.css?mngqsz");
+@import url("http://community.habitrpg.com/modules/system/system.messages.css?mngqsz");
+@import url("http://community.habitrpg.com/modules/system/system.theme.css?mngqsz");</style>
+<style type="text/css" media="all">@import url("http://community.habitrpg.com/profiles/openoutreach/modules/contrib/comment_notify/comment_notify.css?mngqsz");
+@import url("http://community.habitrpg.com/modules/book/book.css?mngqsz");
+@import url("http://community.habitrpg.com/modules/comment/comment.css?mngqsz");
+@import url("http://community.habitrpg.com/modules/field/theme/field.css?mngqsz");
+@import url("http://community.habitrpg.com/profiles/openoutreach/modules/contrib/logintoboggan/logintoboggan.css?mngqsz");
+@import url("http://community.habitrpg.com/sites/all/modules/mollom/mollom.css?mngqsz");
+@import url("http://community.habitrpg.com/modules/node/node.css?mngqsz");
+@import url("http://community.habitrpg.com/modules/poll/poll.css?mngqsz");
+@import url("http://community.habitrpg.com/modules/search/search.css?mngqsz");
+@import url("http://community.habitrpg.com/modules/user/user.css?mngqsz");
+@import url("http://community.habitrpg.com/modules/forum/forum.css?mngqsz");
+@import url("http://community.habitrpg.com/profiles/openoutreach/modules/contrib/views/css/views.css?mngqsz");</style>
+<style type="text/css" media="all">@import url("http://community.habitrpg.com/profiles/openoutreach/modules/contrib/ctools/css/ctools.css?mngqsz");
+@import url("http://community.habitrpg.com/profiles/openoutreach/modules/contrib/debut_blog/debut_blog.css?mngqsz");
+@import url("http://community.habitrpg.com/profiles/openoutreach/modules/contrib/debut_link/debut_link.css?mngqsz");
+@import url("http://community.habitrpg.com/profiles/openoutreach/modules/contrib/debut_section/debut_section.css?mngqsz");
+@import url("http://community.habitrpg.com/profiles/openoutreach/modules/contrib/follow/follow.css?mngqsz");
+@import url("http://community.habitrpg.com/profiles/openoutreach/modules/contrib/panels/css/panels.css?mngqsz");
+@import url("http://community.habitrpg.com/profiles/openoutreach/libraries/superfish/css/superfish.css?mngqsz");
+@import url("http://community.habitrpg.com/profiles/openoutreach/libraries/superfish/css/superfish-vertical.css?mngqsz");
+@import url("http://community.habitrpg.com/profiles/openoutreach/libraries/superfish/css/superfish-navbar.css?mngqsz");
+@import url("http://community.habitrpg.com/sites/all/modules/faq/faq.css?mngqsz");
+@import url("http://community.habitrpg.com/profiles/openoutreach/modules/contrib/forward/forward.css?mngqsz");</style>
+<style type="text/css" media="all">@import url("http://community.habitrpg.com/themes/bartik/css/layout.css?mngqsz");
+@import url("http://community.habitrpg.com/themes/bartik/css/style.css?mngqsz");
+@import url("http://community.habitrpg.com/sites/default/files/color/bartik-a973bc54/colors.css?mngqsz");</style>
+<style type="text/css" media="print">@import url("http://community.habitrpg.com/themes/bartik/css/print.css?mngqsz");</style>
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="http://community.habitrpg.com/themes/bartik/css/ie.css?mngqsz" media="all" />
+<![endif]-->
+
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="http://community.habitrpg.com/themes/bartik/css/ie6.css?mngqsz" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://community.habitrpg.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://community.habitrpg.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://community.habitrpg.com/misc/drupal.js?mngqsz"></script>
+<script type="text/javascript" src="http://community.habitrpg.com/profiles/openoutreach/modules/contrib/comment_notify/comment_notify.js?mngqsz"></script>
+<script type="text/javascript" src="http://community.habitrpg.com/profiles/openoutreach/modules/contrib/panels/js/panels.js?mngqsz"></script>
+<script type="text/javascript" src="http://community.habitrpg.com/profiles/openoutreach/libraries/superfish/jquery.hoverIntent.minified.js?mngqsz"></script>
+<script type="text/javascript" src="http://community.habitrpg.com/profiles/openoutreach/libraries/superfish/jquery.bgiframe.min.js?mngqsz"></script>
+<script type="text/javascript" src="http://community.habitrpg.com/profiles/openoutreach/libraries/superfish/superfish.js?mngqsz"></script>
+<script type="text/javascript" src="http://community.habitrpg.com/profiles/openoutreach/libraries/superfish/supersubs.js?mngqsz"></script>
+<script type="text/javascript" src="http://community.habitrpg.com/profiles/openoutreach/libraries/superfish/supposition.js?mngqsz"></script>
+<script type="text/javascript" src="http://community.habitrpg.com/profiles/openoutreach/libraries/superfish/sftouchscreen.js?mngqsz"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bartik","theme_token":"w9Kyorm_AmKceeAsEwJkdlPtRxhtVZfBMDt17jx5Ljg","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/openoutreach\/modules\/contrib\/comment_notify\/comment_notify.js":1,"profiles\/openoutreach\/modules\/contrib\/panels\/js\/panels.js":1,"profiles\/openoutreach\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"profiles\/openoutreach\/libraries\/superfish\/jquery.bgiframe.min.js":1,"profiles\/openoutreach\/libraries\/superfish\/superfish.js":1,"profiles\/openoutreach\/libraries\/superfish\/supersubs.js":1,"profiles\/openoutreach\/libraries\/superfish\/supposition.js":1,"profiles\/openoutreach\/libraries\/superfish\/sftouchscreen.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"profiles\/openoutreach\/modules\/contrib\/comment_notify\/comment_notify.css":1,"modules\/book\/book.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"profiles\/openoutreach\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"sites\/all\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"profiles\/openoutreach\/modules\/contrib\/views\/css\/views.css":1,"profiles\/openoutreach\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openoutreach\/modules\/contrib\/debut_blog\/debut_blog.css":1,"profiles\/openoutreach\/modules\/contrib\/debut_link\/debut_link.css":1,"profiles\/openoutreach\/modules\/contrib\/debut_section\/debut_section.css":1,"profiles\/openoutreach\/modules\/contrib\/follow\/follow.css":1,"profiles\/openoutreach\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openoutreach\/libraries\/superfish\/css\/superfish.css":1,"profiles\/openoutreach\/libraries\/superfish\/css\/superfish-vertical.css":1,"profiles\/openoutreach\/libraries\/superfish\/css\/superfish-navbar.css":1,"sites\/all\/modules\/faq\/faq.css":1,"profiles\/openoutreach\/modules\/contrib\/forward\/forward.css":1,"themes\/bartik\/css\/layout.css":1,"themes\/bartik\/css\/style.css":1,"themes\/bartik\/css\/colors.css":1,"themes\/bartik\/css\/print.css":1,"themes\/bartik\/css\/ie.css":1,"themes\/bartik\/css\/ie6.css":1}},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-280 node-type-faq" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page-wrapper"><div id="page">
+
+  <div id="header" class="without-secondary-menu"><div class="section clearfix">
+
+          <a href="/" title="Home" rel="home" id="logo">
+        <img src="http://community.habitrpg.com/sites/default/files/habitrpg_pixel.png" alt="Home" />
+      </a>
+    
+          <div id="name-and-slogan" class="element-invisible">
+
+                              <div id="site-name" class="element-invisible">
+              <strong>
+                <a href="/" title="Home" rel="home"><span>Community Site</span></a>
+              </strong>
+            </div>
+                  
+                  <div id="site-slogan" class="element-invisible">
+            Community Site          </div>
+        
+      </div> <!-- /#name-and-slogan -->
+    
+      <div class="region region-header">
+    <div id="block-search-form" class="block block-search">
+
+    
+  <div class="content">
+    <form action="/content/submitting-bugs" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-BCAFPemewtOYkF-FXKChRNaJUp91_dd1x4Eed-st08w" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+  </div>
+
+          <div id="main-menu" class="navigation">
+        <h2 class="element-invisible">Main menu</h2><ul id="main-menu-links" class="links clearfix"><li class="menu-585 first"><a href="/blog" title="View a listing of blog posts.">Blog</a></li>
+<li class="menu-714"><a href="/content/about">About</a></li>
+<li class="menu-410"><a href="/forum" title="">Forum</a></li>
+<li class="menu-637"><a href="/section/tutorials">Tutorials</a></li>
+<li class="menu-643"><a href="/extensions">Extensions</a></li>
+<li class="menu-423"><a href="/faq-page" title="">FAQ</a></li>
+<li class="menu-780 last"><a href="/content/trello-github-community-site-what-goes-where">Trello? Github? Community Site? What goes where?</a></li>
+</ul>      </div> <!-- /#main-menu -->
+    
+    
+  </div></div> <!-- /.section, /#header -->
+
+  
+  
+  <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
+
+          <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/" title="Community Site">Home</a> » <a href="/faq-page">Frequently Asked Questions</a></div></div>
+    
+    
+    <div id="content" class="column"><div class="section">
+            <a id="main-content"></a>
+                    <h1 class="title" id="page-title">
+          Submitting Bugs        </h1>
+                          <div class="tabs">
+                  </div>
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-280" class="node node-faq node-promoted node-full clearfix" about="/content/submitting-bugs" typeof="sioc:Item foaf:Document">
+
+      
+      <div class="meta submitted">
+        <div class="user-picture">
+    <img typeof="foaf:Image" src="http://community.habitrpg.com/sites/default/files/styles/thumbnail/public/pictures/picture-1-1365201931.jpg?itok=6AB3CQtz" alt="lefnire&#039;s picture" title="lefnire&#039;s picture" />  </div>
+      <span property="dc:date dc:created" content="2013-05-23T05:19:03-06:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/users/lefnire" typeof="sioc:UserAccount" property="foaf:name" datatype="">lefnire</span> on Thu, 05/23/2013 - 5:19am</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <h2>Does it seem like something&#39;s missing?</h2>
+<p>We recently completed a major rewrite of the HabitRPG site. You should see a huge improvement in site performance and far fewer issues! But there are still a small handful of features of the old site that haven&#39;t been brought live on the new site. They will be ported soon.</p>
+<h2>If not a feature gone missing, carry on!</h2>
+<ol>
+<li>Look at the <a href="https://github.com/lefnire/habitrpg/issues?state=open">issues list</a>&nbsp;to see if someone else has reported the issue. <a href="https://www.evernote.com/shard/s17/sh/4a159680-a709-4949-9805-d849bc124c1d/6276f24fb1dce8985eec7d5b021edd9c">The search bar</a>&nbsp;may help!</li>
+<li>If you don&#39;t see any similar issues in the list, create a new ticket.&nbsp;Include the following:
+<ul>
+<li>What browser you&#39;re using</li>
+<li>Your&nbsp;<a href="http://community.habitrpg.com/content/user-id">User ID</a></li>
+<li><strong>Most importantly</strong>&nbsp;any JavaScript errors that occurred. See&nbsp;<a href="https://developers.google.com/chrome-developer-tools/docs/console#opening_the_console">Chrome Console instructions</a>&nbsp;for how to find them.</li>
+</ul>
+</li>
+<li>If the issue you encountered caused you to <strong>lose Gems</strong> or disrupted a credit card payment, contact <a href="mailto:admin@habitrpg.com?subject=Gems%20issue">admin@habitrpg.com</a> with whatever information you can supply about the lost transaction, and we&#39;ll address the matter right away.</li>
+</ol>
+<h2>Thanks for helping us make HabitRPG even better!</h2>
+ </div></div></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="forward_link first last"><a href="/forward?path=node/280" title="Forward this page to a friend" class="forward-page">Email this page</a></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+      
+    </div></div> <!-- /.section, /#content -->
+
+          <div id="sidebar-second" class="column sidebar"><div class="section">
+          <div class="region region-sidebar-second">
+    <div id="block-user-login" class="block block-user">
+
+    <h2>User login</h2>
+  
+  <div class="content">
+    <form action="/content/submitting-bugs?destination=node/280" method="post" id="user-login-form" accept-charset="UTF-8"><div><a href="/user/login?destination=node/280">Log in/Register</a></div></form>  </div>
+</div>
+<div id="block-menu-menu-bug-and-feature-trackers" class="block block-menu">
+
+    <h2>Bug and Feature Trackers</h2>
+  
+  <div class="content">
+    <ul class="menu clearfix"><li class="first leaf"><a href="https://trello.com/b/EpoYEYod/habitrpg" title="See what features under consideration. Scroll left to see planned enhancements in Kickstarter, Doing, Revisit and Done columns.">HabitRPG.com Feature Tracker</a></li>
+<li class="leaf"><a href="https://github.com/lefnire/habitrpg/issues?state=open" title="Follow link to Report Issues">HabitRPG.com Issues</a></li>
+<li class="leaf"><a href="https://github.com/lefnire/habitrpg-chrome/issues" title="Where to Report Chrome Extension issues">Chrome Extension Issues</a></li>
+<li class="last leaf"><a href="https://github.com/HabitRPG/habitrpg-mobile/issues" title="Report Bugs for Official Mobile App here">Mobile App Issues</a></li>
+</ul>  </div>
+</div>
+<div id="block-menu-menu-forums" class="block block-menu">
+
+    <h2>Forum Compass</h2>
+  
+  <div class="content">
+    <ul class="menu clearfix"><li class="first leaf"><a href="/content/welcome" title="Guidance for Newcomers: Where should you report your issue, question, idea, or problem">Welcome</a></li>
+<li class="leaf"><a href="http://community.habitrpg.com/faq-page" title="">FAQ</a></li>
+<li class="last expanded"><a href="http://community.habitrpg.com/forum" title="">Forums</a><ul class="menu clearfix"><li class="first expanded"><a href="http://community.habitrpg.com/forums/offical" title="Official discussion and topics from the developers.">The Forge</a><ul class="menu clearfix"><li class="first last collapsed"><a href="http://community.habitrpg.com/forums/announcements-polls" title="">Announcements, Polls</a></li>
+</ul></li>
+<li class="expanded"><a href="http://community.habitrpg.com/forums/castle" title="Share and discuss your questions, thoughts and ideas about HabitRPG and its products.">The Castle</a><ul class="menu clearfix"><li class="first leaf"><a href="/forums/habitrpgcom" title="">HabitRPG.com</a></li>
+<li class="leaf"><a href="/forums/habitrpg-chrome-extension" title="">Chrome Extension</a></li>
+<li class="leaf"><a href="/forums/habitrpg-mobile" title="">Mobile App</a></li>
+<li class="leaf"><a href="http://community.habitrpg.com/forums/habitrpg-community-extensions" title="">Community Extensions</a></li>
+<li class="last leaf"><a href="/forums/wizardry-tips-tricks" title="">Tips &amp; Tricks</a></li>
+</ul></li>
+<li class="last expanded"><a href="http://community.habitrpg.com/forums/courtyard" title="Topics not directly related to HabitRPG">The Courtyard</a><ul class="menu clearfix"><li class="first leaf"><a href="/forums/tavern-talk" title="">Tavern Talk</a></li>
+<li class="last leaf"><a href="/forums/productivity" title="">Productivity</a></li>
+</ul></li>
+</ul></li>
+</ul>  </div>
+</div>
+<div id="block-follow-site" class="block block-follow">
+
+    <h2>Follow us on:</h2>
+  
+  <div class="content">
+    <div class="follow-links clearfix"><a href="https://www.facebook.com/Habitrpg" class="follow-link follow-link-facebook follow-link-site" title="Follow us on Facebook">Facebook</a>
+<a href="https://twitter.com/lefnire" class="follow-link follow-link-twitter follow-link-site" title="Follow us on Twitter">Twitter</a>
+<a href="http://habitrpg.tumblr.com/" class="follow-link follow-link-tumblr follow-link-site" title="Follow us on Tumblr">Tumblr</a>
+<a href="/rss.xml" class="follow-link follow-link-this-site follow-link-site" title="Follow us on This site (RSS)">This site (RSS)</a>
+</div>  </div>
+</div>
+  </div>
+      </div></div> <!-- /.section, /#sidebar-second -->
+    
+  </div></div> <!-- /#main, /#main-wrapper -->
+
+  
+  <div id="footer-wrapper"><div class="section">
+
+    
+          <div id="footer" class="clearfix">
+          <div class="region region-footer">
+    <div id="block-openoutreach-powered-by" class="block block-openoutreach">
+
+    
+  <div class="content">
+    <span class="powered-by">Powered by <a href="http://openoutreach.org">Open Outreach</a>.</span>  </div>
+</div>
+  </div>
+      </div> <!-- /#footer -->
+    
+  </div></div> <!-- /.section, /#footer-wrapper -->
+
+</div></div> <!-- /#page, /#page-wrapper -->
+  </body>
+</html>

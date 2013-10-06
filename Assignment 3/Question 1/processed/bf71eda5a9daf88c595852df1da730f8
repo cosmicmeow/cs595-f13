@@ -1,0 +1,1887 @@
+<!DOCTYPE html>
+<html class='v2' dir='ltr'>
+<head>
+<meta content='width=1100' name='viewport'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { var b=window,e="jstiming",g="tick";(function(){function d(a){this.t={};this.tick=function(a,d,c){c=void 0!=c?c:(new Date).getTime();this.t[a]=[c,d]};this[g]("start",null,a)}var a=new d;b.jstiming={Timer:d,load:a};if(b.performance&&b.performance.timing){var a=b.performance.timing,c=b[e].load,f=a.navigationStart,a=a.responseStart;0<f&&a>=f&&(c[g]("_wtsrt",void 0,f),c[g]("wtsrt_","_wtsrt",a),c[g]("tbsd_","wtsrt_"))}try{a=null,b.chrome&&b.chrome.csi&&(a=Math.floor(b.chrome.csi().pageT),c&&0<f&&(c[g]("_tbnd",void 0,b.chrome.csi().startE),
+c[g]("tbnd_","_tbnd",f))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),null==a&&b.external&&(a=b.external.pageT,c&&0<f&&(c[g]("_tbnd",void 0,b.external.startE),c[g]("tbnd_","_tbnd",f))),a&&(b[e].pt=a)}catch(l){}})();b.tickAboveFold=function(d){var a=0;if(d.offsetParent){do a+=d.offsetTop;while(d=d.offsetParent)}d=a;750>=d&&b[e].load[g]("aft")};var h=!1;function k(){h||(h=!0,b[e].load[g]("firstScrollTime"))}b.addEventListener?b.addEventListener("scroll",k,!1):b.attachEvent("onscroll",k);
+ })();</script>
+<meta content='blogger' name='generator'/>
+<link href='http://papasifischannelone.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://papasifischannelone.blogspot.com/2013/09/lvmh-names-jw-anderson-creative.html' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="PAPASIFIS CHANNEL ONE - Atom" href="http://papasifischannelone.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="PAPASIFIS CHANNEL ONE - RSS" href="http://papasifischannelone.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="PAPASIFIS CHANNEL ONE - Atom" href="http://www.blogger.com/feeds/1578905650334958367/posts/default" />
+
+<link rel="alternate" type="application/atom+xml" title="PAPASIFIS CHANNEL ONE - Atom" href="http://papasifischannelone.blogspot.com/feeds/4876361536778615977/comments/default" />
+<!--[if IE]><script type="text/javascript" src="//www.blogger.com/static/v1/jsbin/4163410827-ieretrofit.js"></script>
+<![endif]-->
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>PAPASIFIS CHANNEL ONE: LVMH names J.W. Anderson creative director for Loewe</title>
+<link type='text/css' rel='stylesheet' href='//www.blogger.com/static/v1/widgets/2220499320-widget_css_2_bundle.css' />
+<link type='text/css' rel='stylesheet' href='//www.blogger.com/dyn-css/authorization.css?targetBlogID=1578905650334958367&amp;zx=00bd8014-a5d4-4ef4-9eea-f897703238ac&quot;/&gt;
+' />
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Travel
+Designer: Sookhee Lee
+URL:      www.plyfly.net
+----------------------------------------------- */
+/* Variable definitions
+====================
+<Variable name="keycolor" description="Main Color" type="color" default="#539bcd"/>
+<Group description="Page Text" selector="body">
+<Variable name="body.font" description="Font" type="font"
+default="normal normal 13px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="body.text.color" description="Text Color" type="color" default="#bbbbbb"/>
+</Group>
+<Group description="Backgrounds" selector=".body-fauxcolumns-outer">
+<Variable name="body.background.color" description="Outer Background" type="color" default="#539bcd"/>
+<Variable name="content.background.color" description="Main Background" type="color" default="transparent"/>
+</Group>
+<Group description="Links" selector=".main-outer">
+<Variable name="link.color" description="Link Color" type="color" default="#ff9900"/>
+<Variable name="link.visited.color" description="Visited Color" type="color" default="#b87209"/>
+<Variable name="link.hover.color" description="Hover Color" type="color" default="#ff9900"/>
+</Group>
+<Group description="Blog Title" selector=".header h1">
+<Variable name="header.font" description="Font" type="font"
+default="normal normal 60px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="header.text.color" description="Text Color" type="color" default="#ffffff" />
+</Group>
+<Group description="Blog Description" selector=".header .description">
+<Variable name="description.text.color" description="Description Color" type="color"
+default="#bbbbbb" />
+</Group>
+<Group description="Tabs Text" selector=".tabs-inner .widget li a">
+<Variable name="tabs.font" description="Font" type="font"
+default="normal bold 16px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="tabs.text.color" description="Text Color" type="color" default="#ffffff"/>
+<Variable name="tabs.selected.text.color" description="Selected Color" type="color" default="#ffffff"/>
+</Group>
+<Group description="Tabs Background" selector=".tabs-outer .PageList">
+<Variable name="tabs.background.color" description="Background Color" type="color" default="transparent"/>
+<Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="transparent"/>
+</Group>
+<Group description="Date Header" selector=".main-inner h2.date-header">
+<Variable name="date.font" description="Font" type="font"
+default="normal normal 14px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="date.text.color" description="Text Color" type="color" default="#bbbbbb"/>
+</Group>
+<Group description="Post Title" selector="h3.post-title a">
+<Variable name="post.title.font" description="Font" type="font"
+default="normal bold 20px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="post.title.text.color" description="Text Color" type="color"
+default="#ffffff"/>
+</Group>
+<Group description="Post Background" selector=".column-center-inner">
+<Variable name="post.background.color" description="Background Color" type="color"
+default="transparent"/>
+<Variable name="post.background.url" description="Post Background URL" type="url" default="none"/>
+</Group>
+<Group description="Gadget Title Color" selector="h2">
+<Variable name="widget.title.font" description="Font" type="font"
+default="normal bold 14px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="widget.title.text.color" description="Title Color" type="color" default="#ffffff"/>
+</Group>
+<Group description="Gadget Text" selector=".footer-inner .widget, .sidebar .widget">
+<Variable name="widget.font" description="Font" type="font"
+default="normal normal 20px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="widget.text.color" description="Text Color" type="color" default="#bbbbbb"/>
+</Group>
+<Group description="Gadget Links" selector=".sidebar .widget">
+<Variable name="widget.link.color" description="Link Color" type="color" default="#bbbbbb"/>
+<Variable name="widget.link.visited.color" description="Visited Color" type="color" default="#b87209"/>
+<Variable name="widget.alternate.text.color" description="Alternate Color" type="color" default="#ffffff"/>
+</Group>
+<Group description="Sidebar Background" selector=".column-left-inner .column-right-inner">
+<Variable name="widget.outer.background.color" description="Background Color" type="color" default="transparent" />
+<Variable name="widget.border.bevel.color" description="Bevel Color" type="color" default="transparent" />
+</Group>
+<Variable name="body.background" description="Body Background" type="background"
+color="#539bcd" default="$(color) none repeat-x scroll top center"/>
+<Variable name="content.background" description="Content Background" type="background"
+color="transparent" default="$(color) none repeat scroll top center"/>
+<Variable name="comments.background" description="Comments Background" type="background"
+default="#cccccc none repeat scroll top center"/>
+<Variable name="content.imageBorder.top.space" description="Content Image Border Top Space" type="length" default="0"/>
+<Variable name="content.imageBorder.top" description="Content Image Border Top" type="url" default="none"/>
+<Variable name="content.margin" description="Content Margin Top" type="length" default="20px"/>
+<Variable name="content.padding" description="Content Padding" type="length" default="20px"/>
+<Variable name="content.posts.padding" description="Posts Content Padding" type="length" default="10px"/>
+<Variable name="tabs.background.gradient" description="Tabs Background Gradient" type="url"
+default="url(//www.blogblog.com/1kt/travel/bg_black_50.png)"/>
+<Variable name="tabs.selected.background.gradient" description="Tabs Selected Background Gradient" type="url"
+default="url(//www.blogblog.com/1kt/travel/bg_black_50.png)"/>
+<Variable name="widget.outer.background.gradient" description="Sidebar Gradient" type="url"
+default="url(//www.blogblog.com/1kt/travel/bg_black_50.png)"/>
+<Variable name="footer.background.gradient" description="Footer Background Gradient" type="url" default="none"/>
+<Variable name="mobile.background.overlay" description="Mobile Background Overlay" type="string"
+default="transparent none repeat scroll top left"/>
+<Variable name="mobile.button.color" description="Mobile Button Color" type="color" default="#ffffff" />
+<Variable name="startSide" description="Side where text starts in blog language" type="automatic" default="left"/>
+<Variable name="endSide" description="Side where text ends in blog language" type="automatic" default="right"/>
+*/
+/* Content
+----------------------------------------------- */
+body {
+font: normal normal 20px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #bbbbbb;
+background: #539bcd url(//themes.googleusercontent.com/image?id=0BwVBOzw_-hbMYTM3ZTRlZTktYzE4ZC00NWU0LWEyMzctOWFlZjVkZTkzNGY4) repeat fixed top center;
+}
+html body .region-inner {
+min-width: 0;
+max-width: 100%;
+width: auto;
+}
+a:link {
+text-decoration:none;
+color: #ff9900;
+}
+a:visited {
+text-decoration:none;
+color: #b87209;
+}
+a:hover {
+text-decoration:underline;
+color: #ff9900;
+}
+.content-outer .content-cap-top {
+height: 0;
+background: transparent none repeat-x scroll top center;
+}
+.content-outer {
+margin: 0 auto;
+padding-top: 20px;
+}
+.content-inner {
+background: transparent url(//blogblog.com/1kt/travel/bg_black_70.png) repeat scroll top left;
+background-position: left -0;
+background-color: transparent;
+padding: 20px;
+}
+.main-inner .date-outer {
+margin-bottom: 2em;
+}
+/* Header
+----------------------------------------------- */
+.header-inner .Header .titlewrapper,
+.header-inner .Header .descriptionwrapper {
+padding-left: 10px;
+padding-right: 10px;
+}
+.Header h1 {
+font: normal normal 60px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #65ff00;
+}
+.Header h1 a {
+color: #65ff00;
+}
+.Header .description {
+font-size: 130%;
+}
+/* Tabs
+----------------------------------------------- */
+.tabs-inner {
+margin: 1em 0 0;
+padding: 0;
+}
+.tabs-inner .section {
+margin: 0;
+}
+.tabs-inner .widget ul {
+padding: 0;
+background: transparent url(//www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center;
+}
+.tabs-inner .widget li {
+border: none;
+}
+.tabs-inner .widget li a {
+display: inline-block;
+padding: 1em 1.5em;
+color: #cc0000;
+font: normal bold 30px 'Trebuchet MS',Trebuchet,sans-serif;
+}
+.tabs-inner .widget li.selected a,
+.tabs-inner .widget li a:hover {
+position: relative;
+z-index: 1;
+background: transparent url(//www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center;
+color: #ffffff;
+}
+/* Headings
+----------------------------------------------- */
+h2 {
+font: normal bold 14px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #ffffff;
+}
+.main-inner h2.date-header {
+font: normal normal 14px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #bbbbbb;
+}
+.footer-inner .widget h2,
+.sidebar .widget h2 {
+padding-bottom: .5em;
+}
+/* Main
+----------------------------------------------- */
+.main-inner {
+padding: 20px 0;
+}
+.main-inner .column-center-inner {
+padding: 10px 0;
+}
+.main-inner .column-center-inner .section {
+margin: 0 10px;
+}
+.main-inner .column-right-inner {
+margin-left: 20px;
+}
+.main-inner .fauxcolumn-right-outer .fauxcolumn-inner {
+margin-left: 20px;
+background: transparent url(//www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top left;
+}
+.main-inner .column-left-inner {
+margin-right: 20px;
+}
+.main-inner .fauxcolumn-left-outer .fauxcolumn-inner {
+margin-right: 20px;
+background: transparent url(//www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top left;
+}
+.main-inner .column-left-inner,
+.main-inner .column-right-inner {
+padding: 15px 0;
+}
+/* Posts
+----------------------------------------------- */
+h3.post-title {
+margin-top: 20px;
+}
+h3.post-title a {
+font: normal bold 20px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #ffffff;
+}
+h3.post-title a:hover {
+text-decoration: underline;
+}
+.main-inner .column-center-outer {
+background: transparent none repeat scroll top left;
+_background-image: none;
+}
+.post-body {
+line-height: 1.4;
+position: relative;
+}
+.post-header {
+margin: 0 0 1em;
+line-height: 1.6;
+}
+.post-footer {
+margin: .5em 0;
+line-height: 1.6;
+}
+#blog-pager {
+font-size: 140%;
+}
+#comments {
+background: transparent url(//blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center;
+padding: 15px;
+}
+#comments .comment-author {
+padding-top: 1.5em;
+}
+#comments h4,
+#comments .comment-author a,
+#comments .comment-timestamp a {
+color: #ffffff;
+}
+#comments .comment-author:first-child {
+padding-top: 0;
+border-top: none;
+}
+.avatar-image-container {
+margin: .2em 0 0;
+}
+/* Comments
+----------------------------------------------- */
+#comments a {
+color: #ffffff;
+}
+.comments .comments-content .icon.blog-author {
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+}
+.comments .comments-content .loadmore a {
+border-top: 1px solid #ffffff;
+border-bottom: 1px solid #ffffff;
+}
+.comments .comment-thread.inline-thread {
+background: transparent;
+}
+.comments .continue {
+border-top: 2px solid #ffffff;
+}
+/* Widgets
+----------------------------------------------- */
+.sidebar .widget {
+border-bottom: 2px solid transparent;
+padding-bottom: 10px;
+margin: 10px 0;
+}
+.sidebar .widget:first-child {
+margin-top: 0;
+}
+.sidebar .widget:last-child {
+border-bottom: none;
+margin-bottom: 0;
+padding-bottom: 0;
+}
+.footer-inner .widget,
+.sidebar .widget {
+font: normal normal 20px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #bbbbbb;
+}
+.sidebar .widget a:link {
+color: #bbbbbb;
+text-decoration: none;
+}
+.sidebar .widget a:visited {
+color: #b87209;
+}
+.sidebar .widget a:hover {
+color: #bbbbbb;
+text-decoration: underline;
+}
+.footer-inner .widget a:link {
+color: #ff9900;
+text-decoration: none;
+}
+.footer-inner .widget a:visited {
+color: #b87209;
+}
+.footer-inner .widget a:hover {
+color: #ff9900;
+text-decoration: underline;
+}
+.widget .zippy {
+color: #ffffff;
+}
+.footer-inner {
+background: transparent none repeat scroll top center;
+}
+/* Mobile
+----------------------------------------------- */
+body.mobile  {
+background-size: 100% auto;
+}
+body.mobile .AdSense {
+margin: 0 -10px;
+}
+.mobile .body-fauxcolumn-outer {
+background: transparent none repeat scroll top left;
+}
+.mobile .footer-inner .widget a:link {
+color: #bbbbbb;
+text-decoration: none;
+}
+.mobile .footer-inner .widget a:visited {
+color: #b87209;
+}
+.mobile-post-outer a {
+color: #ffffff;
+}
+.mobile-link-button {
+background-color: #ff9900;
+}
+.mobile-link-button a:link, .mobile-link-button a:visited {
+color: #ffffff;
+}
+.mobile-index-contents {
+color: #bbbbbb;
+}
+.mobile .tabs-inner .PageList .widget-content {
+background: transparent url(//www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center;
+color: #ffffff;
+}
+.mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
+border-left: 1px solid #ffffff;
+}
+
+--></style>
+<style id='template-skin-1' type='text/css'><!--
+body {
+min-width: 1300px;
+}
+.content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 1300px;
+max-width: 1300px;
+_width: 1300px;
+}
+.main-inner .columns {
+padding-left: 0px;
+padding-right: 410px;
+}
+.main-inner .fauxcolumn-center-outer {
+left: 0px;
+right: 410px;
+/* IE6 does not respect left and right together */
+_width: expression(this.parentNode.offsetWidth -
+parseInt("0px") -
+parseInt("410px") + 'px');
+}
+.main-inner .fauxcolumn-left-outer {
+width: 0px;
+}
+.main-inner .fauxcolumn-right-outer {
+width: 410px;
+}
+.main-inner .column-left-outer {
+width: 0px;
+right: 100%;
+margin-left: -0px;
+}
+.main-inner .column-right-outer {
+width: 410px;
+margin-right: -410px;
+}
+#layout {
+min-width: 0;
+}
+#layout .content-outer {
+min-width: 0;
+width: 800px;
+}
+#layout .region-inner {
+min-width: 0;
+width: auto;
+}
+--></style>
+<script type="text/javascript">var a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",k="?m=1";function l(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return d+k;case 2:return 0<=e[1].search(g)?null:d+f;default:return null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera Mini")||-1!=a[b][c]("IEMobile")){var m=l();m&&window.location.replace(m)};
+</script><script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body class='loading'>
+<div class='navbar section' id='navbar'><div class='widget Navbar' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+        gapi.load("iframes-styles-bubble", function() {
+          if (window.iframes && iframes.open) {
+            iframes.open(
+                '//www.blogger.com/navbar.g?targetBlogID\0751578905650334958367\46blogName\75PAPASIFIS+CHANNEL+ONE\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://papasifischannelone.blogspot.com/search\46blogLocale\75el\46v\0752\46homepageUrl\75http://papasifischannelone.blogspot.com/\46targetPostID\0754876361536778615977\46blogPostOrPageUrl\75http://papasifischannelone.blogspot.com/2013/09/lvmh-names-jw-anderson-creative.html\46blogFollowUrl\75https://plus.google.com/113195427342938712410\46vt\758388598453726426840',
+                {
+                  container: "navbar-iframe-container",
+                  id: "navbar-iframe"
+                },
+                {
+                });
+          }
+        });
+      </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<div class='body-fauxcolumns'>
+<div class='fauxcolumn-outer body-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content'>
+<div class='content-fauxcolumns'>
+<div class='fauxcolumn-outer content-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content-outer'>
+<div class='content-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left content-fauxborder-left'>
+<div class='fauxborder-right content-fauxborder-right'></div>
+<div class='content-inner'>
+<header>
+<div class='header-outer'>
+<div class='header-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left header-fauxborder-left'>
+<div class='fauxborder-right header-fauxborder-right'></div>
+<div class='region-inner header-inner'>
+<div class='header section' id='header'><div class='widget Header' id='Header1'>
+<div id='header-inner'>
+<div class='titlewrapper'>
+<h1 class='title'>
+<a href='http://papasifischannelone.blogspot.com/'>PAPASIFIS CHANNEL ONE</a>
+</h1>
+</div>
+<div class='descriptionwrapper'>
+<p class='description'><span>
+</span></p>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class='header-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</header>
+<div class='tabs-outer'>
+<div class='tabs-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left tabs-fauxborder-left'>
+<div class='fauxborder-right tabs-fauxborder-right'></div>
+<div class='region-inner tabs-inner'>
+<div class='tabs section' id='crosscol'><div class='widget PageList' id='PageList1'>
+<h2>Σελίδες</h2>
+<div class='widget-content'>
+<ul>
+<li><a href='http://papasifischannelone.blogspot.com/'>Αρχική σελίδα</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/p/come-with-meto-money.html'>COME WITH ME,TO THE MONEY !!!!!!!</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/p/blog-page.html'>ΚΕΡΔΙΣΕ ΧΡΗΜΑΤΑ ΜΑΖΙ ΜΟΥ.</a></li>
+<li><a href='http://moneyhanders.blogspot.gr/'>MAKE EASY MONEY !!!!! WAY 1</a></li>
+<li><a href='http://moneyhunters2.blogspot.gr/'>MAKE EASY MONEY!!!! WAY 2</a></li>
+<li><a href='http://moneyhunters3.blogspot.gr/'>MAKE EASY MONEY!!!! WAY 3</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/p/h-xrysh-strti.html'> ΣΤΡΑΤΗΓΙΚΗ  ΝΕΟBUX N0 1</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/p/1-neobux.html'> ΣΤΡΑΤΗΓΙΚΗ  ΝΕΟBUX N0 2</a></li>
+<li><a href='http://moneyhunters4.blogspot.gr'>MAKE EASY MONEY!!!! WAY 4</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1578905650334958367&widgetType=PageList&widgetId=PageList1&action=editWidget&sectionId=crosscol' onclick='return _WidgetManager._PopupConfig(document.getElementById("PageList1"));' target='configPageList1' title='Επεξεργασία'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+<div class='tabs section' id='crosscol-overflow'></div>
+</div>
+</div>
+<div class='tabs-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='main-outer'>
+<div class='main-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left main-fauxborder-left'>
+<div class='fauxborder-right main-fauxborder-right'></div>
+<div class='region-inner main-inner'>
+<div class='columns fauxcolumns'>
+<div class='fauxcolumn-outer fauxcolumn-center-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-left-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-right-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<!-- corrects IE6 width calculation -->
+<div class='columns-inner'>
+<div class='column-center-outer'>
+<div class='column-center-inner'>
+<div class='main section' id='main'><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+<!-- google_ad_section_start(name=default) -->
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Πέμπτη, 26 Σεπτεμβρίου 2013</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='1578905650334958367' itemprop='blogId'/>
+<meta content='4876361536778615977' itemprop='postId'/>
+<a name='4876361536778615977'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+LVMH names J.W. Anderson creative director for Loewe
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-4876361536778615977' itemprop='description articleBody'>
+ PARIS (Reuters) - LVMH has reached a deal with British fashion designer J.W. Anderson, appointing him creative director for its high-end handbag brand Loewe. LVMH is also taking a minority stake in J.W. Anderson's label, the French company said in a statement. Financial terms were not disclosed. LVMH, the world's biggest luxury goods group, already revealed last week it was investing in another budding UK label, shoe designer Nicholas Kirkwood. Born in Northern Ireland, Jonathan William Anderson, 29, is known for his urban, androgynous style. ...<br /><p><a href="http://news.yahoo.com/lvmh-names-j-w-anderson-creative-director-loewe-212317225--sector.html" target="_blank" rel="nofollow">View the original article here</a></p>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Αναρτήθηκε από
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://plus.google.com/113195427342938712410' itemprop='url'/>
+<a class='g-profile' href='https://plus.google.com/113195427342938712410' rel='author' title='author profile'>
+<span itemprop='name'>iosif papagiannakis</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+στις
+<meta content='http://papasifischannelone.blogspot.com/2013/09/lvmh-names-jw-anderson-creative.html' itemprop='url'/>
+<a class='timestamp-link' href='http://papasifischannelone.blogspot.com/2013/09/lvmh-names-jw-anderson-creative.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2013-09-26T16:59:00-07:00'>4:59 μ.μ.</abbr></a>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-424507723'>
+<a href='http://www.blogger.com/post-edit.g?blogID=1578905650334958367&postID=4876361536778615977&from=pencil' title='Επεξεργασία ανάρτησης'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='http://www.blogger.com/share-post.g?blogID=1578905650334958367&postID=4876361536778615977&target=email' target='_blank' title='Αποστολή με μήνυμα ηλεκτρονικού ταχυδρομείου
+'><span class='share-button-link-text'>Αποστολή με μήνυμα ηλεκτρονικού ταχυδρομείου
+</span></a><a class='goog-inline-block share-button sb-blog' href='http://www.blogger.com/share-post.g?blogID=1578905650334958367&postID=4876361536778615977&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='http://www.blogger.com/share-post.g?blogID=1578905650334958367&postID=4876361536778615977&target=twitter' target='_blank' title='Μοιραστείτε το στο Twitter'><span class='share-button-link-text'>Μοιραστείτε το στο Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='http://www.blogger.com/share-post.g?blogID=1578905650334958367&postID=4876361536778615977&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Μοιραστείτε το στο Facebook'><span class='share-button-link-text'>Μοιραστείτε το στο Facebook</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://papasifischannelone.blogspot.com/2013/09/lvmh-names-jw-anderson-creative.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Ετικέτες
+<a href='http://papasifischannelone.blogspot.com/search/label/Anderson' rel='tag'>Anderson</a>,
+<a href='http://papasifischannelone.blogspot.com/search/label/creative' rel='tag'>creative</a>,
+<a href='http://papasifischannelone.blogspot.com/search/label/director' rel='tag'>director</a>,
+<a href='http://papasifischannelone.blogspot.com/search/label/Loewe' rel='tag'>Loewe</a>,
+<a href='http://papasifischannelone.blogspot.com/search/label/Names' rel='tag'>Names</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+<div class='comments' id='comments'>
+<a name='comments'></a>
+<h4>Δεν υπάρχουν σχόλια:</h4>
+<div id='Blog1_comments-block-wrapper'>
+<dl class='avatar-comment-indent' id='comments-block'>
+</dl>
+</div>
+<p class='comment-footer'>
+<div class='comment-form'>
+<a name='comment-form'></a>
+<h4 id='comment-post-message'>Δημοσίευση σχολίου</h4>
+<p>
+</p>
+<a href='http://www.blogger.com/comment-iframe.g?blogID=1578905650334958367&postID=4876361536778615977' id='comment-editor-src'></a>
+<iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' width='100%'></iframe>
+<script type="text/javascript" src="//www.blogger.com/static/v1/jsbin/2373033623-comment_from_post_iframe.js"></script>
+<script type='text/javascript'>
+      BLOG_CMT_createIframe('http://www.blogger.com/rpc_relay.html', '09556144843374423465');
+    </script>
+</div>
+</p>
+<div id='backlinks-container'>
+<div id='Blog1_backlinks-container'>
+</div>
+</div>
+</div>
+</div>
+<!-- google_ad_section_end(name=default) -->
+<div class='inline-ad'>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-0221655877486325";
+google_ad_host = "ca-host-pub-1556223355139109";
+google_ad_host_channel = "L0007";
+/* papasifischannelone_main_Blog1_300x250_as */
+google_ad_slot = "2193819878";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+<!-- google_ad_section_start -->
+
+        </div></div>
+      
+<!-- google_ad_section_end -->
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-newer-link'>
+<a class='blog-pager-newer-link' href='http://papasifischannelone.blogspot.com/2013/09/what-was-with-that-crappy-green-screen.html' id='Blog1_blog-pager-newer-link' title='Νεότερη ανάρτηση'>Νεότερη ανάρτηση</a>
+</span>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://papasifischannelone.blogspot.com/2013/09/casting-theft-auto-v-who-psycho-enough.html' id='Blog1_blog-pager-older-link' title='Παλαιότερη Ανάρτηση'>Παλαιότερη Ανάρτηση</a>
+</span>
+<a class='home-link' href='http://papasifischannelone.blogspot.com/'>Αρχική σελίδα</a>
+</div>
+<div class='clear'></div>
+<div class='post-feeds'>
+<div class='feed-links'>
+Εγγραφή σε:
+<a class='feed-link' href='http://papasifischannelone.blogspot.com/feeds/4876361536778615977/comments/default' target='_blank' type='application/atom+xml'>Σχόλια ανάρτησης (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'el'};</script>
+</div></div>
+</div>
+</div>
+<div class='column-left-outer'>
+<div class='column-left-inner'>
+<aside>
+</aside>
+</div>
+</div>
+<div class='column-right-outer'>
+<div class='column-right-inner'>
+<aside>
+<div class='sidebar section' id='sidebar-right-1'><div class='widget HTML' id='HTML2'>
+<h2 class='title'>neobux</h2>
+<div class='widget-content'>
+<a href="http://www.neobux.com/?r=papagiannakis7"><img src="http://images.neobux.com/imagens/banner9/?u=papagiannakis7&amp;u3=13676150" width="610" height="210" /></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1578905650334958367&widgetType=HTML&widgetId=HTML2&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML2"));' target='configHTML2' title='Επεξεργασία'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML4'>
+<h2 class='title'>nerdbux</h2>
+<div class='widget-content'>
+<a target="_blank" href="http://www.nerdbux.com/?ref=papagiannakis7"><img src="http://nerdbux.com/livebanner.php?r=706170616769616E6E616B697337" border="5" width="560" height="200" /></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1578905650334958367&widgetType=HTML&widgetId=HTML4&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML4"));' target='configHTML4' title='Επεξεργασία'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML6'>
+<h2 class='title'>the-bux</h2>
+<div class='widget-content'>
+<a target="_blank" href="http://www.the-bux.net/?ref=papagiannakis7"><img src="http://www.the-bux.net/livebanner.php?r=706170616769616E6E616B697337" border="5" width="580" height="190" /></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1578905650334958367&widgetType=HTML&widgetId=HTML6&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML6"));' target='configHTML6' title='Επεξεργασία'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML3'>
+<h2 class='title'>pro-bux</h2>
+<div class='widget-content'>
+<a href="http://www.probux.com/?r=papasifis"><img src="http://www.probux.com/images/banner2.gif" border="0" width="560" height="200"/></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1578905650334958367&widgetType=HTML&widgetId=HTML3&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML3"));' target='configHTML3' title='Επεξεργασία'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML8'>
+<h2 class='title'>golden</h2>
+<div class='widget-content'>
+<a target="_blank" href="http://www.goldenclix.com/?ref=papagiannakis7"><img src="http://www.goldenclix.com/livebanner.php?r=706170616769616E6E616B697337" border="5" width="550" height="250" /></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1578905650334958367&widgetType=HTML&widgetId=HTML8&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML8"));' target='configHTML8' title='Επεξεργασία'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML13'>
+<h2 class='title'>globalbux</h2>
+<div class='widget-content'>
+<a target="_blank" href="http://www.globalbux.net/?ref=papagiannakis7"><img src="http://www.globalbux.net/images/banner2.gif" border="5" width="520" height="180" /></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1578905650334958367&widgetType=HTML&widgetId=HTML13&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML13"));' target='configHTML13' title='Επεξεργασία'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML9'>
+<h2 class='title'>buxboost</h2>
+<div class='widget-content'>
+<a href="http://buxboost.com/?ref=papagiannakis7" target="_blank"><img src="http://buxboost.com/banner.php?x=6.gif" width="468" height="60" alt="buxboost Banner" /></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1578905650334958367&widgetType=HTML&widgetId=HTML9&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML9"));' target='configHTML9' title='Επεξεργασία'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML16'>
+<h2 class='title'>clixzor</h2>
+<div class='widget-content'>
+<a target="_blank" href="http://www.clixzor.com/?ref=papagiannakis7"><img src="http://www.clixzor.com/images/clixzor-new2.gif" border="5" width="520" height="200" /></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1578905650334958367&widgetType=HTML&widgetId=HTML16&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML16"));' target='configHTML16' title='Επεξεργασία'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML17'>
+<h2 class='title'>PTCSolution</h2>
+<div class='widget-content'>
+<a target="_blank" href="http://www.ptcsolution.com/?ref=papagiannakis7"><img src="http://www.ptcsolution.com/images/ptcsolution300250.gif" border="0" width="300" height="250" /></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1578905650334958367&widgetType=HTML&widgetId=HTML17&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML17"));' target='configHTML17' title='Επεξεργασία'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML15'>
+<h2 class='title'>earn-on</h2>
+<div class='widget-content'>
+<a target="_blank" href="http://www.earn-on.com/?r=papagiannakis7"><img src="http://www.earn-on.com/zx-temp/uploads/image_f162e0be2cd50ec4146e087355797280ae267b42.png" border="0" alt="468x60" width="468" height="60" /></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1578905650334958367&widgetType=HTML&widgetId=HTML15&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML15"));' target='configHTML15' title='Επεξεργασία'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML14'>
+<h2 class='title'>fairbux</h2>
+<div class='widget-content'>
+<a href='http://www.fairbux.com/?ref=papagiannakis7'><img src="http://www.fairbux.com/images/banner5.png" /></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1578905650334958367&widgetType=HTML&widgetId=HTML14&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML14"));' target='configHTML14' title='Επεξεργασία'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML12'>
+<h2 class='title'>silverclix</h2>
+<div class='widget-content'>
+<a target="_blank" href="http://www.silverclix.com/?ref=papagiannakis7"><img src="http://i.imgur.com/d914wKz.gif" border="0" width="486" height="60" /></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1578905650334958367&widgetType=HTML&widgetId=HTML12&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML12"));' target='configHTML12' title='Επεξεργασία'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML11'>
+<h2 class='title'>bestlifebux</h2>
+<div class='widget-content'>
+<a href='http://www.bestlifebux.com/?ref=papagiannakis7'><img src="http://www.bestlifebux.com/images/banner1.gif" /></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1578905650334958367&widgetType=HTML&widgetId=HTML11&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML11"));' target='configHTML11' title='Επεξεργασία'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML7'>
+<h2 class='title'>PTCSolution</h2>
+<div class='widget-content'>
+<a target="_blank" href="http://www.ptcsolution.com/?ref=papagiannakis7"><img src="http://www.ptcsolution.com/images/ptcsolution300250.gif" border="0" width="300" height="250" /></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1578905650334958367&widgetType=HTML&widgetId=HTML7&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML7"));' target='configHTML7' title='Επεξεργασία'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML5'>
+<h2 class='title'>cash n hits</h2>
+<div class='widget-content'>
+<a href="http://www.cashnhits.com/index.php?ref=papasifis007"><img src="http://cnh.cashnhits.net/banners/banner4.gif" border="0" /></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1578905650334958367&widgetType=HTML&widgetId=HTML5&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML5"));' target='configHTML5' title='Επεξεργασία'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML1'>
+<div class='widget-content'>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<a href="http://moneyhanders.blogspot.gr/"></a><br />
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<a href="http://moneyhanders.blogspot.gr/"><br /></a></div>
+<a href="http://moneyhanders.blogspot.gr/"><img border="0" height="278" src="http://www.the-bux.net/livebanner.php?r=706170616769616E6E616B697337" width="640" /></a></div>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1578905650334958367&widgetType=HTML&widgetId=HTML1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' target='configHTML1' title='Επεξεργασία'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget BlogArchive' id='BlogArchive1'>
+<h2>Αρχειοθήκη ιστολογίου</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>&#9660;&#160;</span>
+</a>
+<a class='post-count-link' href='http://papasifischannelone.blogspot.com/search?updated-min=2013-01-01T00:00:00-08:00&amp;updated-max=2014-01-01T00:00:00-08:00&amp;max-results=50'>2013</a>
+<span class='post-count' dir='ltr'>(1996)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://papasifischannelone.blogspot.com/2013_10_01_archive.html'>Οκτώβριος</a>
+<span class='post-count' dir='ltr'>(92)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>&#9660;&#160;</span>
+</a>
+<a class='post-count-link' href='http://papasifischannelone.blogspot.com/2013_09_01_archive.html'>Σεπτέμβριος</a>
+<span class='post-count' dir='ltr'>(511)</span>
+<ul class='posts'>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/dr-jekyll-and-mr-hyde-bryan-cranston-as.html'>Dr. Jekyll and Mr. Hyde: Bryan Cranston as Hal and...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/really-bad-movies.html'>Really Bad Movies &#8211; &#39;Face/Off&#39;</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/this-most-awesome-music-docs-of-the_30.html'>&#39;Dig&#39; This: The Most Awesome Music Docs of the &#39;90...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/nick-offerman-talks-manliness-giggles.html'>Nick Offerman Talks Manliness, Giggles, and His Ne...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-50-year-diary-day-271-doctor-who.html'>The 50 Year Diary - Day 271 - Doctor Who and the S...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/in-mood-of-collette-dinnigan-taylor.html'>In the mood of Collette Dinnigan: &quot;Elizabeth Taylo...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/diesel-founder-taken-aback-by-race-for.html'>Diesel founder taken aback by race for young desig...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/jon-star-scarlett-johansson-explains.html'>&#39;Don Jon&#39; Star Scarlett Johansson Explains How She...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/get-out-your-tissues-because-this-bad.html'>Get Out Your Tissues Because This &#39;Breaking Bad&#39; T...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/pixelwho-is-back-with-new-products.html'>PixelWho Is Back With New Products</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/zac-efron-thanks-fans-for-support-after.html'>Zac Efron Thanks Fans For Support After Rehab Reve...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/season-2-finale-refresher-because-most.html'>&#39;Homeland&#39; Season 2 Finale Refresher, Because Most...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/30-years-ago-genesis-saw-shape-of.html'>30 Years Ago Genesis Saw The Shape Of Things To Co...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/japanese-designers-take-centre-stage-at.html'>Japanese designers take centre stage at Paris fash...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/when-authors-adapt-their-own-work-have_30.html'>When Authors Adapt Their Own Work: Have These Film...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-50-year-diary-day-272-ambassadors.html'>The 50 Year Diary - Day 272 - The Ambassadors of D...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/premiere-recap-season-3-is-off-to-slow.html'>&#39;Homeland&#39; Premiere Recap: Season 3 Is Off to a Sl...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/karl-lagerfeld-shows-his-punk-side-this.html'>Karl Lagerfeld shows his punk side this fall</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/marital-rape-housewife-melissa-gorga.html'>Marital Rape? &#39;Real Housewife&#39; Melissa Gorga Says ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/bad-finale-biggest-moments-and-surprises.html'>&#39;Breaking Bad&#39; Finale: The Biggest Moments And Sur...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/on-of-sex-most-scenes-won-be-what-you.html'>On &#39;Masters Of Sex,&#39; Most &#39;Jarring&#39; Scenes Won&#39;t B...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/sequel-tops-weekend-box-office.html'>&#39;Cloudy&#39; sequel tops weekend box office</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/rio-de-janeiro-dreams-of-being-hollywood.html'>Rio de Janeiro dreams of (being) Hollywood</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/sequel-swallows-up-us-canadian-box.html'>&#39;Meatballs&#39; sequel swallows up U.S., Canadian box ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/when-authors-adapt-their-own-work-have.html'>When Authors Adapt Their Own Work: Have These Film...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/bad-what-won-happen-in-tonight-series.html'>&#39;Breaking Bad&#39;: What Won&#39;t Happen In Tonight&#39;s Ser...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/jennifer-lawrence-to-make-dumb-dumber.html'>Jennifer Lawrence To Make Dumb &amp; Dumber To Cameo</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/would-hollywood-remake-golden-girls.html'>Would Hollywood Remake &#39;The Golden Girls&#39; After Be...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/this-most-awesome-music-docs-of-the.html'>&#39;Dig&#39; This: The Most Awesome Music Docs of the &#39;90...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/live-vicariously-through-your-favorite.html'>Live Vicariously Through Your Favorite Celebrities...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/simons-takes-christian-dior-against.html'>Simons takes Christian Dior against nature</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/tv-clubs-we-want-to-join.html'>TV Clubs We Want to Join</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/carly-rae-jepsen-talks-ariel.html'>Carly Rae Jepsen Talks Ariel Transformation For Li...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/7-times-tony-hale-should-have-won-emmy.html'>7 Times Tony Hale Should Have Won an Emmy for Bust...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/is-zoe-kravitz-next-big-thing.html'>Is Zoë Kravitz The Next Big Thing?</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/an-in-depth-look-at-some-of-drake-new.html'>An In-Depth Look at Some of Drake&#39;s New Lyrics</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/tropical-hanging-garden-for-dior-women.html'>Tropical hanging garden for Dior &#39;flower women&#39;</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-50-year-diary-day-270-doctor-who.html'>The 50 Year Diary - Day 270 - Doctor Who and the S...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/your-moment-of-hubris-best-of-kenny.html'>Your Moment of Hubris: The Best of Kenny Powers</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/oprah-sets-record-straight-on-deleted.html'>Oprah Sets The Record Straight On Deleted The Butl...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/phillips-premieres-at-ny-film-festival.html'>&#39;Captain Phillips&#39; premieres at NY Film Festival</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/these-band-break-ups-shook-music-world.html'>These Band Break-Ups Shook The Music World</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/celebs-as-jurors-save-it-for-screen.html'>Celebs as Jurors: Save it for the Screen?</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/robin-thicke-bows-down-to-wifey-paula.html'>Robin Thicke Bows Down To Wifey Paula Patton&#39;s &#39;Gr...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/julianne-moore-talks-subverting-rom-com.html'>Julianne Moore Talks Subverting the Rom-com Genre ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/bands-who-never-say-die-playing-on.html'>Bands Who Never Say Die: Playing On Without Key Me...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/a-gif-of-every-patrick-stewart-emotion.html'>A GIF of Every Patrick Stewart Emotion</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/hollywood-dumps-romantic-comedies-for.html'>Hollywood dumps romantic comedies for raunchier la...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/joseph-gordon-levitt-jon-reviews-are-in.html'>Joseph Gordon-Levitt&#39;s &#39;Don Jon&#39;: The Reviews Are ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/what-was-with-that-crappy-green-screen.html'>What Was With That Crappy Green Screen on the &#39;Dex...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/lvmh-names-jw-anderson-creative.html'>LVMH names J.W. Anderson creative director for Loe...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/casting-theft-auto-v-who-psycho-enough.html'>Casting &#39;Grand Theft Auto V&#39;: Who&#39;s Psycho Enough ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/exclusive-kkr-pulls-out-of-jones-group.html'>Exclusive: KKR pulls out of Jones Group auction - ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/california-man-behind-anti-islam-film_26.html'>California man behind anti-Islam film freed from f...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/did-of-shield-get-off-to-good-start.html'>Did &#39;Agents of S.H.I.E.L.D.&#39; Get Off To A Good Sta...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-hollywood-reporter-best-stories-of.html'>The Hollywood Reporter&#39;s best stories of the week</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/hunk-four-has-but-sexually-aggressive.html'>&#39;Divergent&#39; Hunk Four Has &#39;Friendly But Sexually A...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/bad-star-quits-meth-for-for-speed-watch.html'>&#39;Breaking Bad&#39; Star Quits Meth For &#39;Need For Speed...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/what-does-disney-have-to-do-with-nikola_26.html'>What Does Disney&#39;s &#39;Tomorrowland&#39; Have to Do with ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/balenciaga-alexander-wang-makes-his-own.html'>Balenciaga&#39;s Alexander Wang makes his own mark</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/fashion-goes-high-tech-at-futuristic.html'>Fashion goes high-tech at futuristic Guy Laroche s...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/is-batman-universe-getting-its-own-in.html'>Is The Batman Universe Getting Its Own &#39;S.H.I.E.L....</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/young-adult-novels-are-taking-over.html'>Young Adult Novels Are Taking Over Theaters</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/celebs-who-married-their-high-school.html'>Celebs Who Married Their High School Sweethearts</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/jennifer-lawrence-fans-in-paradise-over.html'>Jennifer Lawrence Fans In Paradise Over &#39;East Of E...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/trailer-watch-now.html'>&#39;Diana&#39; Trailer: Watch Now!</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/rupert-grint-check-out-latest-nsfw-clip.html'>Rupert Grint&#39;s &#39;CBGB&#39;: Check Out The Latest &lt;i&gt;Ver...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/jw-anderson-teams-up-with-lvmh.html'>J.W. Anderson teams up with LVMH</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/vince-gilligan-and-david-shore-team-for.html'>Vince Gilligan and David Shore Team for &#39;Battle Cr...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/lorde-catches-fire-on-games-soundtrack.html'>Lorde Catches Fire On &#39;Hunger Games&#39; Soundtrack Wi...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/win-150-lululemon-gift-card-and-ipod.html'>Win a $150 Lululemon gift card and Ipod Shuffle in...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/howard-makes-believable-racing-film-with.html'>Howard makes a believable racing film with &#39;Rush&#39;</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/video-aaron-paul-out-for-revenge-in-for.html'>Video: Aaron Paul out for revenge in &#39;Need for Spe...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/pass-popcorn-best-movie-theaters-across.html'>Pass the Popcorn: The Best Movie Theaters Across t...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/what-on-katniss-ipod-official_26.html'>What&#39;s on Katniss&#39; Ipod: The Official Soundtrack f...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/what-on-katniss-ipod-official.html'>What&#39;s on Katniss&#39; Ipod: The Official Soundtrack f...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/what-does-disney-have-to-do-with-nikola.html'>What Does Disney&#39;s &#39;Tomorrowland&#39; Have to Do with ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/predicting-awkwardness-in-nina-dobrev.html'>Predicting the Awkwardness in Nina Dobrev and Dere...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/future-of-marc-jacobs-at-louis-vuitton.html'>Future of Marc Jacobs at Louis Vuitton in doubt</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/does-team-split-up-in-avengers-age-of_26.html'>Does the Team Split Up in &#39;The Avengers: Age of Ul...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/correction-behati-prinsloo-creates.html'>CORRECTION: Behati Prinsloo creates denim line wit...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/isabel-marant-for-h-collection-revealed.html'>Isabel Marant for H&amp;M collection revealed</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/twitter-index-paris-fashion-week.html'>Twitter index: Paris Fashion Week</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/review-fun-performances-make-jon-joy.html'>Review: Fun Performances Make &#39;Don Jon&#39; a Joy Whil...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/does-team-split-up-in-avengers-age-of.html'>Does the Team Split Up in &#39;The Avengers: Age of Ul...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/jennifer-lawrence-reunites-with-games.html'>Jennifer Lawrence Reunites With &#39;Hunger Games&#39; Dir...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/screenwriter-inspired-by-rivalry-not.html'>&#39;Rush&#39; screenwriter inspired by rivalry, not Formu...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-50-year-diary-day-268-doctor-who.html'>The 50 Year Diary - Day 268 - Doctor Who and the S...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/california-man-behind-anti-islam-film.html'>California man behind anti-Islam film to be freed ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-50-year-diary-day-269-doctor-who.html'>The 50 Year Diary - Day 269 - Doctor Who and the S...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/season-5-what-you-need-to-know-before.html'>&#39;Glee&#39; Season 5: What You Need To Know Before Toni...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/jessica-lange-urges-minn-gov-to-halt.html'>Jessica Lange urges Minn. gov. to halt wolf hunts</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/stars-turned-peta-fugitives.html'>Stars Turned PETA Fugitives</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/agents-of-shield-5-burning-questions.html'>&#39;Marvel&#39;s Agents Of S.H.I.E.L.D.&#39;: 5 Burning Quest...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-ny-film-festival-in-flux-to-match.html'>The NY Film Festival in flux, to match the times</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-vampire-syllabus-you-can.html'>The Vampire Syllabus: You Can&#39;t Matriculate Withou...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/review-2-gorgeous-visuals-cheesy-puns.html'>Review: &#39;Cloudy 2&#39; _ gorgeous visuals, cheesy puns...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/cate-blanchett-directorial-debut-could.html'>Cate Blanchett&#39;s Directorial Debut Could Be Brilli...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/seth-rogen-and-evan-goldberg-planning.html'>Seth Rogen and Evan Goldberg planning &#39;Sausage Par...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/batman-vs-superman-fans-won-influence.html'>Batman vs. Superman: Fans won&#39;t influence film</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/should-we-support-is-warmest-color_25.html'>Should We Support &#39;Blue Is the Warmest Color&#39;? The...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/is-cast-of-bang-theory-getting-greedy.html'>Is The Cast of &#39;Big Bang Theory&#39; Getting Greedy?</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-cult-of-coulson-why-do-we-love-and.html'>The Cult of Coulson: Why Do We Love the &#39;Avengers&#39;...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/supermodel-supermom-5-reasons-to-love.html'>Supermodel, Supermom: 5 Reasons To Love Miranda Ke...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/dear-media-stop-counting-down-to.html'>Dear Media: Stop Counting Down To Kendall Jenner&#39;s...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-50-year-diary-day-267-doctor-who.html'>The 50 Year Diary - Day 267 - Doctor Who and the S...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/first-look-at-and-furious-7-roadsters.html'>First look at &#39;Fast and Furious 7&#39; roadsters on In...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/should-we-support-is-warmest-color.html'>Should We Support &#39;Blue Is the Warmest Color&#39;? The...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/lincoln-two-ways-spielberg-v-vampire.html'>Lincoln, Two Ways: Spielberg V. The Vampire Hunter...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/of-monaco-bumped-to-2014-thanks-to_25.html'>&#39;Grace of Monaco&#39; Bumped to 2014 Thanks to Oscar P...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/supermodel-guards-tried-for-firing-at_25.html'>Supermodel&#39;s guards tried for firing at photograph...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/tale-of-beatlemania-in-franco-spain.html'>Tale of Beatlemania in Franco&#39;s Spain amuses film ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/dexters-10-most-omgwtf-moments.html'>Dexter&#8217;s 10 Most OMGWTF Moments</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/china-richest-man-aims-to-rival.html'>China&#39;s richest man aims to rival Hollywood</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/rogen-goldberg-to-make-r-rated-animated.html'>Rogen, Goldberg to make R-rated animated film</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/and-dumber-sequel-will-be-grosser-but.html'>&#39;Dumb and Dumber&#39; Sequel Will Be Grosser, But Is T...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/in-mood-of-marcel-marongiu-word-doesn.html'>In the mood of Marcel Marongiu: &quot;The word &#39;luxury&#39;...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/will-kris-humphries-face-off-with-james.html'>Will Kris Humphries Face Off With James Franco On ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/5-life-changing-must-watch_25.html'>5 Life-Changing, Must-Watch Documentaries on Amazo...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/nicole-kidman-sets-aside-oscar-hopes.html'>Nicole Kidman sets aside Oscar hopes until 2015</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/dvr-me-walter-white-final-bow.html'>DVR Me: Walter White&#39;s Final Bow</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/vampire-mall-24-hour-vampire-swag-to.html'>Vampire Mall: 24 Hour Vampire Swag To Sink Your Fa...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/netflix-aiming-for-more-development.html'>Netflix aiming for more &#39;Arrested Development&#39;</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/of-monaco-bumped-to-2014-thanks-to.html'>&#39;Grace of Monaco&#39; Bumped to 2014 Thanks to Oscar P...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/5-life-changing-must-watch.html'>5 Life-Changing, Must-Watch Documentaries on Amazo...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/paul-dano-and-anton-yelchin-approached.html'>Paul Dano and Anton Yelchin approached for roles i...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/catwalk-with-view-on-first-day-of-paris.html'>Catwalk with a view on first day of Paris fashion</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/miss-piggy-other-muppets-join-kermit.html'>Miss Piggy, other Muppets, join Kermit the Frog at...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/amanda-bynes-drunk-driving-case-moved.html'>Amanda Bynes&#39; drunk driving case moved to mental h...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/review-gordon-levitt-porn-parable-jon.html'>Review: Gordon-Levitt&#39;s porn parable &#39;Don Jon&#39;</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/fashion-trends-arrive-on-emmys-red.html'>Fashion trends arrive on Emmys red carpet</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/dvds-that-we-still-own_23.html'>DVDS That We Still Own</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/tycoon-plans-8-billion-chinese-hollywood.html'>Tycoon plans $8 billion Chinese Hollywood</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/bad-questions-state-answered-about.html'>&#39;Breaking Bad&#39;: The Questions &#39;Granite State&#39; Answ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/10-obscure-netflix-docs-for-your-lonely_23.html'>10 Obscure Netflix Docs for Your Lonely Friday Nig...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/young-designers-energize-milan-fashion.html'>Young designers energize Milan Fashion Week</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/antiquity-inspires-dolce-and-gabbana-in.html'>Antiquity inspires Dolce and Gabbana in Milan show...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/biopic-is-go-but-who-can-handle-lead.html'>&#39;Tupac&#39; Biopic Is A Go, But Who Can Handle The Lea...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/did-sofia-vergara-jinx-her-vera-wang.html'>DID SOFIA VERGARA JINX HER VERA WANG GOWN?</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/snatches-weekly-us-canada-box-office.html'>&#39;Prisoners&#39; snatches weekly U.S., Canada box offic...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/armani-ferre-round-off-upbeat-milan_23.html'>Armani, Ferre round off upbeat Milan Fashion Week</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/korean-historical-thriller-face-reader.html'>Korean historical thriller &#39;The Face Reader&#39; tops ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/in-mood-of-christine-phung-love-for.html'>In the mood of Christine Phung: &#39;I&#39;d love for Sofi...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/stars-blossom-in-bold-blues-and-dusky_23.html'>Stars blossom in bold blues and dusky pinks on Emm...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/2013-emmys-night-no-one-won-their-emmys.html'>2013 Emmys: The Night No One Won Their Emmys Offic...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/rihanna-selfie-with-endangered-monkey.html'>Rihanna&#39;s Selfie with an Endangered Monkey-Sloth G...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/is-amc-making-mistake-of-draperian.html'>Is AMC Making a Mistake of Draperian Proportions W...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-skin-trailer-is-probably-weirdest_23.html'>The &#39;Under the Skin&#39; Trailer Is Probably the Weird...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-skin-trailer-is-probably-weirdest.html'>The &#39;Under the Skin&#39; Trailer Is Probably the Weird...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/young-fashion-designers-thrive-despite.html'>Young fashion designers thrive despite Italy&#39;s cri...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/dvds-that-we-still-own.html'>DVDS That We Still Own</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/milan-fashion-stars-pay-homage-to-film.html'>Milan fashion stars pay homage to film classics</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/supermodel-guards-tried-for-firing-at.html'>Supermodel&#39;s guards tried for firing at photograph...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/stars-blossom-in-bold-blues-and-dusky.html'>Stars blossom in bold blues and dusky pinks on Emm...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/correction-christian-lacroix-for-petit.html'>CORRECTION: Christian Lacroix for Petit Bateau</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/not-just-pretty-face-zoe-saldana-career.html'>Not Just A Pretty Face: Zoe Saldana&#39;s Career Heads...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/dolce-looks-flaunt-riches.html'>Dolce&amp;Gabbana&#39;s looks flaunt the riches</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/marni-brings-kimono-style-to-milan.html'>Marni brings kimono style to Milan catwalks</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/bad-recap-finally-theme-song-pays-off.html'>&#39;Breaking Bad&#39; Recap: Finally, the Theme Song Pays...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/ai-weiwei-to-join-stockholm-film.html'>Ai Weiwei to join Stockholm Film Festival jury</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/antiquity-inspires-dolce-in-milan.html'>Antiquity inspires Dolce&amp;Gabbana in Milan collecti...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/10-obscure-netflix-docs-for-your-lonely.html'>10 Obscure Netflix Docs for Your Lonely Friday Nig...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/wikileaks-leaks-estate-screenplay.html'>WikiLeaks leaks &#39;Fifth Estate&#39; screenplay</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/2013-worst-dressed-emmys-ever-gallery.html'>2013: The Worst Dressed Emmys Ever? &#8212; GALLERY</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-50-year-diary-day-264-spearhead.html'>The 50 Year Diary - Day 264 - Spearhead From Space...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/how-tina-fey-and-amy-poehler-could-make.html'>How Tina Fey and Amy Poehler Could Make the 2014 G...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/charlotte-casiraghi-radiates-natural.html'>Charlotte Casiraghi radiates natural beauty for Gu...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/jude-law-pelvic-thrusts-his-way-to.html'>Jude Law Pelvic Thrusts His Way to Riches in &#39;Dom ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/aaron-sorkin-is-awfully-fond-of-montages.html'>Aaron Sorkin Is Awfully Fond of Montages</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-50-year-diary-day-266-doctor-who.html'>The 50 Year Diary - Day 266 - Doctor Who and the S...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-return-of-like-us-needs-to-happen.html'>The Return of &#39;Spies Like Us&#39; Needs to Happen</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/what-if-michael-jackson-was-still-alive.html'>What if Michael Jackson was still alive?</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/bad-mysteries-we-need-answered-tonight.html'>&#39;Breaking Bad&#39;: The Mysteries We Need Answered Ton...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/paris-fashion-faces-scrutiny-over-lack.html'>Paris fashion faces scrutiny over lack of black mo...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/write-for-series-6-of-doctor-who-online.html'>Write For Series 6 of Doctor Who Online Adventures...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/armani-ferre-round-off-upbeat-milan.html'>Armani, Ferre round off upbeat Milan Fashion Week</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/colin-farrell-and-paula-patton-could.html'>Colin Farrell and Paula Patton could enter &#39;Warcra...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/interview-michael-bay-coen-brothers-and.html'>INTERVIEW: Michael Bay, Coen Brothers and Reese Wi...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/hip-hop-needs-azealia-banks-to-drop.html'>Hip-Hop Needs Azealia Banks To Drop That Album</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/chinese-designer-uma-wang-makes-milan.html'>Chinese designer Uma Wang makes Milan catwalk debu...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-reviews-are-in.html'>&#39;Prisoners&#39;: The Reviews Are In!</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/hugh-jackman-role-taught-him-to-for.html'>Hugh Jackman&#39;s &#39;Prisoners&#39; Role Taught Him To &#39;Pre...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/watch-two-jake-gyllenhaals-in-haunting_20.html'>Watch Two Jake Gyllenhaals in the Haunting &#39;Enemy&#39;...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/bad-why-amc-show-will-end-with-even.html'>&#39;Breaking Bad&#39;: Why AMC&#39;s Show Will End With An Ev...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/if-jj-abrams-wants-and-authentic-wars.html'>If J.J. Abrams Wants an &#39;Emotional and Authentic&#39; ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/autobiographical-films-that-keep-it-real.html'>Autobiographical Films That Keep It Real</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/chris-hemsworth-doesn-get-from-nude.html'>Chris Hemsworth Doesn&#39;t Get A &#39;Rush&#39; From Nude Sce...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/attraction-coming-to-london-stage.html'>&#39;Fatal Attraction&#39; coming to the London stage</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/etro-brings-hippy-chic-to-milan-catwalks.html'>Etro brings hippy chic to Milan catwalks</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-50-year-diary-day-261-spearhead.html'>The 50 Year Diary - Day 261 - Spearhead From Space...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/street-versus-catwalk-other-fashion.html'>Street versus catwalk: The other fashion week in M...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/beauty-tutorials-inspiration-from.html'>Beauty tutorials: inspiration from London Fashion ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/who-should-play-tupac-shakur-in-rapper.html'>Who Should Play Tupac Shakur in the Rapper&#39;s Devel...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/jake-gyllenhaal-went-with-his-gut-for.html'>Jake Gyllenhaal Went With His Gut For &#39;Prisoners&#39;</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-50-year-diary-day-263-spearhead.html'>The 50 Year Diary - Day 263 - Spearhead From Space...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/will-brooks-50-year-diary-volume-one.html'>Will Brooks&#39; 50 Year Diary Volume One: 1963 - 1969...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/watch-two-jake-gyllenhaals-in-haunting.html'>Watch Two Jake Gyllenhaals in the Haunting &#39;Enemy&#39;...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-50-year-diary-day-262-spearhead.html'>The 50 Year Diary - Day 262 - Spearhead From Space...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/wars-episode-vii-jj-abrams-reveals-one.html'>&#39;Star Wars: Episode VII&#39;: J.J. Abrams Reveals One ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/aaron-eckhart-prepares-to-exorcise.html'>Aaron Eckhart prepares to exorcise demons in &#39;Inca...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/bryan-cranston-to-star-in-but-will-he.html'>Bryan Cranston to Star in &#39;Trumbo,&#39; But Will He Be...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/marion-cotillard-is-everything-so-lets.html'>Marion Cotillard Is Everything, So Let&#8217;s Mentally ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/why-you-all-creepy-excited-for-movie.html'>Why You&#39;re All Creepy-Excited for the &#39;Goosebumps&#39;...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/making-ted-3-would-be-totally-bogus.html'>Making &#39;Bill &amp; Ted 3&#39; Would Be A Totally Bogus Mov...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/why-still-matters_20.html'>Why &#39;Fletch&#39; Still Matters</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/milan-fashion-week-gets-off-to.html'>Milan Fashion Week gets off to energetic start</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/just-how-brooding-and-nihilistic-will.html'>Just How Brooding and Nihilistic Will Noah Baumbac...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/list-of-films-in-competition-at-san.html'>List of films in competition at San Sebastian fest...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/hugh-jackman-to-be-honoured-at-spain.html'>Hugh Jackman to be honoured at Spain&#39;s San Sebasti...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/author-chris-nashawaty-tells-how-roger.html'>Author Chris Nashawaty Tells How Roger Corman Help...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/under-influence-7-influential-debut.html'>Under the Influence: 7 Influential Debut Albums of...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/celebrities-hail-style-heritage-at.html'>Celebrities hail style heritage at Milan fashion w...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/is-warmest-color-trailer-is-solemn-sexy.html'>&#39;Blue Is the Warmest Color&#39; Trailer Is Solemn, Sex...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/cranston-books-post-bad-movie-role.html'>Cranston books a post-&#39;Breaking Bad&#39; movie role</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/how-chris-hemsworth-transformed-his.html'>How Chris Hemsworth Transformed His Body From Thor...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/adam-sandler-is-going-to-be-in-actual.html'>Adam Sandler Is Going to Be In an Actual Movie, Wi...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/milan-fashion-week-celebrates-homegrown.html'>Milan fashion week celebrates homegrown creativity...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/tupac-shakur-biopic-to-be-filmed-in-2014.html'>Tupac Shakur biopic to be filmed in 2014</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/disney-and-producer-bruckheimer-to-end.html'>Disney and &#39;Pirates&#39; producer Bruckheimer to end f...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/mfw-soundbites-from-behind-scenes-fendi.html'>MFW: Soundbites from behind the scenes: Fendi, Cos...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/justin-timberlake-incredibly-awkward.html'>Justin Timberlake&#39;s Incredibly Awkward Interview</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/ralph-lauren-makes-changes-to-company.html'>Ralph Lauren makes changes to company leadership</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/fendi-lagerfeld-shows-off-web-savvy.html'>Fendi&#39;s Lagerfeld shows off web-savvy palette in M...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/why-still-matters.html'>Why &#39;Fletch&#39; Still Matters</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/flowing-fabrics-sparkling-corsets-open.html'>Flowing fabrics, sparkling corsets open Milan Fash...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/natalie-portman-female-led-marvel-movie.html'>Natalie Portman: Female-Led Marvel Movie Is Coming...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/simon-pegg-wants-no-part-of-wars-but.html'>Simon Pegg Wants No Part of &#39;Star Wars,&#39; But Saoir...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/oprah-winfrey-on-working-with-lindsay.html'>Oprah Winfrey On Working With Lindsay Lohan, Her N...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/bands-and-bieber-gone-bad.html'>Bands (and Bieber) Gone Bad</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/teen-bullying-takes-musical-turn-in.html'>Teen bullying takes musical turn in stage version ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/blog-post.html'>
+</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/danny-trejo-murders-everything-in-new.html'>Danny Trejo Murders Everything in New &#39;Machete Kil...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/review-opposites-attract-at-high-speeds.html'>Review: Opposites attract at high speeds in &#39;Rush&#39;...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/studio-shakeups-new-reality_18.html'>Studio Shakeups - The New Reality</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/critically-panned-flicks-that-raked-in.html'>Critically-Panned Flicks That Raked In Big Dough</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/reddit-hits-on-madonna.html'>Reddit Hits On Madonna</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/arnold-schwarzenegger-may-play-2.html'>Arnold Schwarzenegger May Play &#39;Avatar 2&#39; Villain:...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/actress-kerry-washington-this-year-best.html'>Actress Kerry Washington this year&#39;s best dressed ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/zac-efron-completed-rehab-five-months.html'>Zac Efron Completed Rehab Five Months Ago</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/lucas-museum-among-finalists-for-golden.html'>Lucas museum among finalists for Golden Gate site</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/studio-shakeups-new-reality.html'>Studio Shakeups - The New Reality</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/mark-wahlberg-graduates-high-school-how.html'>Mark Wahlberg Graduates High School! How Much More...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/burberry-tom-ford-headline-london.html'>Burberry, Tom Ford headline London Fashion Week</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/prada-confident-on-china-sees-recovery.html'>Prada confident on China, sees recovery in Europe</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/london-designers-step-into-spring-with.html'>London designers step into spring with floral fash...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/london-designers-seek-to-defy-tough_17.html'>London designers seek to defy tough markets with l...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/coppola-domingo-among-arts-prize-winners.html'>Coppola, Domingo among arts prize winners</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/new-horror-story-promos-are-serving-up.html'>New &#39;American Horror Story&#39; Promos Are Serving Up ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/british-cosmologist-hawking-backs-right.html'>British cosmologist Hawking backs right to assiste...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/buzzwatch-video-expert-ways-to-handle.html'>BuzzWatch Video: Expert Ways to Handle Wrong Numbe...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/wars-empire-and-rebellion-razor-edge_17.html'>&#39;Star Wars Empire and Rebellion: Razor&#39;s Edge&#39;: Ma...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/london-fashion-week-closes-after-flurry.html'>London Fashion Week closes after flurry of shows</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/get-out-louis-dreyfus-movie-star-for.html'>Get out! Louis-Dreyfus a movie star for first time...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-50-year-diary-day-260-war-games.html'>The 50 Year Diary - Day 260 - The War Games, Episo...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/nine-nine-might-snap-andre-braugher-bad.html'>&#39;Brooklyn Nine-Nine&#39; Might Snap Andre Braugher&#39;s B...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/be-like-man-marvel-brings-jarvis-app-to.html'>Be Like &#39;Iron Man&#39; &#8212; Marvel Brings Jarvis App to i...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/george-lucas-museum-among-3-finalists.html'>George Lucas museum among 3 finalists for SF land</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/furious-series-to-put-lucas-black.html'>&#39;Fast &amp; Furious&#39; Series to Put Lucas Black Behind ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/versace-former-miami-mansion-sells-for.html'>Versace&#39;s former Miami mansion sells for $41.5 mil...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/dvr-me-survivors-sharks-and-funny-girls.html'>DVR Me: Survivors, Sharks, and Funny Girls Named M...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/how-cute-will-new-bear-movie-be-colin.html'>How Cute Will The New &#39;Paddington Bear&#39; Movie Be? ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/rockwell-returns-to-stuff-for-shot.html'>Rockwell returns to &#39;dark stuff&#39; for &#39;Single Shot&#39;...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/looks-like-another-alexander-payne-gem_17.html'>&#39;Nebraska&#39; Looks Like Another Alexander Payne Gem ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/leonardo-dicaprio-will-play-only.html'>Leonardo DiCaprio Will Play the Only Version of Wo...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-50-year-diary-second-doctor-overview.html'>The 50 Year Diary - The Second Doctor Overview</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/it-us-or-them-new-game-posters-want-you.html'>It&#39;s Us or Them: New &#39;Ender&#39;s Game&#39; Posters Want Y...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/kate-winslet-unforgettable-indie-roles.html'>Kate Winslet &#8212; Unforgettable Indie Roles from One ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/mcafee-collins-most-celeb-search.html'>McAfee: Collins most &#39;dangerous&#39; celeb search</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/test-audiences-doing-their-best-to-ruin.html'>Test Audiences Doing Their Best to Ruin &#39;August: O...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/amc-makes-men-viewers-wait-longer-for.html'>AMC Makes &#39;Mad Men&#39; Viewers Wait Longer for Series...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/rob-lowe-cast-in-tape-and-no-it-not_17.html'>Rob Lowe Cast in &#39;Sex Tape,&#39; and No, It&#39;s Not What...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/wars-empire-and-rebellion-razor-edge.html'>&#39;Star Wars Empire and Rebellion: Razor&#39;s Edge&#39;: Ma...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/glittering-tom-ford-soft-burberry-at.html'>Glittering Tom Ford, soft Burberry at London Fashi...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/looks-like-another-alexander-payne-gem.html'>&#39;Nebraska&#39; Looks Like Another Alexander Payne Gem ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/porn-group-lifting-hiv-prompted-filming.html'>Porn group lifting HIV-prompted filming moratorium...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/japan-hands-top-arts-prize-to-filmmaker.html'>Japan hands top arts prize to filmmaker Coppola, s...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/chapter-2-creeps-to-top-of-box-office.html'>&#39;Insidious: Chapter 2&#39; creeps to top of box office...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/ben-affleck-on-batman-blowback-big-boy.html'>Ben Affleck On Batman Blowback: &#39;I&#39;m A Big Boy&#39;</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-bad-spin-offs-we-want-to-see-for.html'>The &#39;Breaking Bad&#39; Spin-Offs We Want to See for Hu...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/rob-lowe-cast-in-tape-and-no-it-not.html'>Rob Lowe Cast in &#39;Sex Tape,&#39; and No, It&#39;s Not What...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-50-year-diary-day-258-war-games.html'>The 50 Year Diary - Day 258 - The War Games, Episo...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/miley-cyrus-liam-hemsworth-split-after.html'>Miley Cyrus, Liam Hemsworth split after four years...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/get-ready-for-britneys-zillionth.html'>Get Ready for Britney&#8217;s Zillionth Comeback, It&#39;s G...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/ap-photos-look-back-at-new-york-fashion.html'>AP PHOTOS: A look back at New York Fashion Week</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/miley-cyrus-breaks-up-with-liam.html'>Miley Cyrus Breaks Up with Liam Hemsworth For Sext...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/years-slave-wins-top-prize-at-toronto.html'>&#39;12 Years a Slave&#39; wins top prize at Toronto film ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/ashish-brings-urban-bling-to-london.html'>Ashish brings urban bling to London Fashion Week</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/nicole-kidman-saves-nation-by-being.html'>Nicole Kidman Saves a Nation by Being Beautiful an...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/lashings-of-sequins-at-london-fashion.html'>Lashings of sequins at London Fashion Week Day 2</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/3-might-happen-but-can-it-work-without_16.html'>&#39;Insidious 3&#39; Might Happen, But Can It Work Withou...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/chapter-2-places-horror-genre-on-top-of.html'>&#39;Insidious: Chapter 2&#39; places the horror genre on ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/and-rise-of-awesomely-awkward-product.html'>&#39;Bones&#39; and the Rise of Awesomely Awkward Product ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/movie-theater-still-king-but-filmmakers.html'>Movie theater still king, but filmmakers slowly wa...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/streaming-battle-begins-everybody-wins.html'>Streaming Battle Begins, Everybody Wins</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/3-might-happen-but-can-it-work-without.html'>&#39;Insidious 3&#39; Might Happen, But Can It Work Withou...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/hunger-games-mockingjay-casts-horror_16.html'>&#39;The Hunger Games: Mockingjay&#39; Casts &#39;American Hor...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-50-year-diary-day-257-war-games.html'>The 50 Year Diary - Day 257 - The War Games, Episo...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/edgy-london-attracts-more-fashion.html'>Edgy London attracts more fashion buyers from U.S....</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/twitter-index-justin-timberlake-london.html'>Twitter index: Justin Timberlake, London Fashion W...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/hunger-games-mockingjay-casts-horror.html'>&#39;The Hunger Games: Mockingjay&#39; Casts &#39;American Hor...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/celebrity-hotties-who-leave-guys-cold.html'>Celebrity Hotties Who Leave Guys Cold</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/horror-flick-2-jolts-box-office-with-41.html'>Horror flick &#39;Insidious 2&#39; jolts box office with $...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/julianne-moore-joins-cast-of-hunger.html'>Julianne Moore joins cast of &#39;The Hunger Games: Mo...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/years-slave-voted-fan-favorite-in.html'>&#39;12 Years a Slave&#39; voted fan favorite in Toronto</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/back-in-good-old-days-films-about.html'>Back in the Good Old Days &#8212; Films About Nostalgia</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/video-glamorous-teaser-trailer-for-of.html'>Video: a glamorous teaser trailer for &#39;Grace of Mo...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-50-year-diary-day-259-war-games.html'>The 50 Year Diary - Day 259 - The War Games, Episo...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/bad-what-does-tonight-episode-title-mean.html'>&#39;Breaking Bad&#39;: What Does Tonight&#39;s Episode Title ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/correction-years-slave-story.html'>Correction: &#39;12 Years a Slave&#39; story</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/miley-cyrus-and-liam-hemsworth-call-off.html'>Miley Cyrus and Liam Hemsworth call off engagement...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/look-mum-another-remake-hollywood-case.html'>Look Mum, Another Remake! Hollywood&#39;s Case of Angl...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/comedian-billy-connolly-treated-for.html'>Comedian Billy Connolly treated for cancer, diagno...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/check-out-these-stunning-minimalist.html'>Check Out These Stunning Minimalist Movie Posters</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/walking-dead-gets-new-companion-series.html'>&#39;The Walking Dead&#39; Gets a New Companion Series</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/chapter-2-gives-horror-genre-its-sixth.html'>&#39;Insidious: Chapter 2&#39; Gives Horror Genre Its Sixt...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/holmes-sanity-evaluation-due-from-state.html'>Holmes sanity evaluation due from state hospital</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/fantasy-gowns-summer-raves-at-london.html'>Fantasy gowns, summer raves at London Fashion Week...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/bad-story-behind-biggest-surprise.html'>&#39;Breaking Bad&#39;: The Story Behind The Biggest Surpr...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/miley-cyrus-unfollows-liam-hemsworth-on.html'>Miley Cyrus Unfollows Liam Hemsworth On Twitter</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/sequel-scares-up-box-office-success.html'>&#39;Insidious&#39; sequel scares up box-office success</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/does-tiff-win-for-years-slave-guarantee.html'>Does the TIFF Win for &#39;12 Years a Slave&#39; Guarantee...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/london-designers-seek-to-defy-tough.html'>London designers seek to defy tough markets with l...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/what-was-up-with-that-dog-at-end-of.html'>What Was Up with That Dog at the End of Last Night...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/funcomfortable-movies-overview.html'>Funcomfortable Movies &#8212; An Overview</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/park-sequel-titled-world.html'>&#39;Jurassic Park&#39; sequel titled &#39;Jurassic World&#39;</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/ny-fashion-week-wraps-up-with-ralph.html'>NY fashion week wraps up with Ralph Lauren, Calvin...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/designers-opt-for-elegance-ease-in.html'>Designers opt for elegance, ease in spring New Yor...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/did-aaron-paul-just-spoil-sunday.html'>Did Aaron Paul Just Spoil Sunday&#39;s Episode of &#39;Bre...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/fleetwood-mac-before-buckingham-nicks.html'>Fleetwood Mac Before Buckingham Nicks: An Essentia...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/reboot-time-movies-that-should-be-remade.html'>Reboot Time &#8212; &#39;80s Movies That Should Be Remade</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/20-wars-origin-stories-we-like-to-see.html'>20 &#39;Star Wars&#39; Origin Stories We&#39;d Like to See, Pa...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/step-up-5-sets-returning-cast-expect.html'>&#8216;Step Up 5&#8242; sets returning cast: Expect twerking</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/one-direction-extended-is-us-five.html'>One Direction&#39;s Extended &#39;This Is Us&#39;: Five Things...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/chris-hemsworth-still-has-idea-what-is.html'>&#39;Avengers&#39; Chris Hemsworth Still Has &#39;No Idea&#39; Wha...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/ralph-lauren-puts-mod-spin-on-spring.html'>Ralph Lauren puts a mod spin on spring</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/viewership-casts-bigger-spotlight-on-tv.html'>&#39;Binge-watching&#39; viewership casts bigger spotlight...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/are-you-there-fans-its-me-azealia.html'>Are You There, Fans? It&#8217;s Me, Azealia.</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/chapter-2-writer-leigh-whannell-talks.html'>&#39;Insidious: Chapter 2&#39; Writer Leigh Whannell Talks...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/ben-affleck-batman-will-be-and-weary.html'>Ben Affleck&#39;s Batman Will Be &#39;Tired And Weary And ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/gordon-ramsay-has-how-many-tv-shows.html'>Gordon Ramsay Has How Many TV Shows?? When Does He...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/this-is-new-black-discovery-will-blow.html'>This &#39;Orange Is the New Black&#39; Discovery Will Blow...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/future-of-mortal-instruments-sequel-in.html'>Future of &#8216;Mortal Instruments&#39; sequel in jeopardy</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/mark-wahlberg-rupert-wyatt-circling.html'>Mark Wahlberg, Rupert Wyatt circling &#8216;The Gambler&#39;...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/beauty-tutorials-inspiration-from-new.html'>Beauty tutorials: inspiration from New York Fashio...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/did-vincent-van-gogh-really-meet-doctor.html'>Did Vincent Van Gogh Really Meet The Doctor?</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/key-adaptation-finds-its-screenwriter.html'>&#39;Locke &amp; Key&#39; adaptation finds its screenwriter</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/daniel-radcliffe-shocks-in-exclusive.html'>Daniel Radcliffe Shocks In Exclusive &#39;Kill Your Da...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/colin-firth-and-nicole-kidman-release.html'>Colin Firth and Nicole Kidman Release Some Demons ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-50-year-diary-day-255-war-games.html'>The 50 Year Diary - Day 255 - The War Games, Episo...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/isabel-marant-jason-wu-julien-dossena.html'>Isabel Marant, Jason Wu, Julien Dossena: the desig...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/a-hollywood-studio-where-dogs-learn-to.html'>A Hollywood studio where dogs learn to fly</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/sara-gilbert-says-she-was-gay-while.html'>Sara Gilbert Says She Was Gay While Dating Co-Star...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/downton-abbey-star-jessica-brown.html'>&#8216;Downton Abbey&#39; star Jessica Brown Findlay to join...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/is-daniel-radcliffe-crying-over-shades.html'>Is Daniel Radcliffe Crying Over &#39;Fifty Shades&#39; Cas...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/ap-photos-ny-fashion-week-with-jarrad.html'>AP Photos: NY Fashion Week with Jarrad Clark</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/now-you-see-me-crosses-200-million-at.html'>&#8216;Now You See Me&#39; crosses $200 million at overseas ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/benedict-cumberbatch-on-what-so-about.html'>Benedict Cumberbatch On What&#39;s So &#39;Terrifying&#39; Abo...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/fashion-week-stay-beautiful-tips-glam.html'>Fashion Week&#39;s Stay Beautiful Tips! (Glam Slam)</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/ben-affleck-to-bring-and-weary-batman.html'>Ben Affleck to Bring &#39;Tired and Weary&#39; Batman to T...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/toronto-film-festival-crosses-over-into.html'>Toronto film festival crosses over into TV</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/julianne-moore-officially-cast-as.html'>Julianne Moore Officially Cast as President Coin i...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/celebrities-turn-low-key-at-ny-fashion_14.html'>Celebrities turn low key at NY Fashion Week</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-day-of-doctor-promo-posters.html'>The Day Of The Doctor - Promo Posters</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/potter-spinoffs-what-to-expect-from.html'>&#39;Harry Potter&#39; Spinoffs: What To Expect From &#39;Fant...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/duck-dynasty-sadie-robertson-insane.html'>Duck Dynasty: Sadie Robertson&#39;s &#39;Absolutely Insane...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/makes-us-want-to-be-better-person.html'>&#39;Amélie&#39; Makes Us Want to Be a Better Person</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/toronto-2013-reviews-who-already.html'>Toronto 2013 Reviews: Who&#39;s Already Leading The Os...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/proenza-schouler-loosen-up-at-ny.html'>Proenza Schouler loosen up at NY Fashion Week</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/american-documentary-filmmaker-saul.html'>American documentary filmmaker Saul Landau dead at...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/sony-studio-analysis-part-2-sony-luck.html'>Sony: Studio Analysis Part 2 - Sony&#39;s Luck Turns</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/rock-star-stage-names-some-of-best.html'>Rock Star Stage Names &#8212; Some of the Best</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/vera-wang-hits-artful-athlete-trend.html'>Vera Wang hits the artful athlete trend</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/canadian-directors-hear-hollywood-call.html'>Canadian directors hear Hollywood&#39;s call, but may ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/christopher-nolan-so-secret-matthew.html'>Christopher Nolan&#39;s &#39;Interstellar&#39;: So Secret Matt...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/obituary-michael-goldie-1927-2013.html'>Obituary: Michael Goldie (1927-2013)</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/movies-like-direction-this-is-us-must.html'>Movies Like &#39;One Direction: This Is Us&#39; Must Stop</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/years-slave-american-story-unearthed-by.html'>&#39;12 Years a Slave:&#39; an American story unearthed by...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/will-vin-diesel-will-his-third-time-be.html'>Will Vin Diesel&#39;s &#39;Riddick&#39;: Will His Third Time B...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/menswear-at-new-york-fashion-week-plays.html'>Menswear at New York Fashion Week plays it safe bu...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-complete-series-1-7-blu-ray-box-set.html'>The Complete Series 1-7 Blu-ray Box-set - Details</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/willem-dafoe-to-portray-writer-in-film.html'>Willem Dafoe to portray a writer in the film adapt...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/neko-case-fights-into-our-hearts-why.html'>Neko Case Fights Into Our Hearts: Why You Should K...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-50-year-diary-day-249-space-pirates.html'>The 50 Year Diary - Day 249 - The Space Pirates, E...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/turturro-lands-unlikely-co-star-woody.html'>Turturro lands an unlikely co-star: Woody Allen</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/benedict-cumberbatch-reveals-origin-of.html'>Benedict Cumberbatch Reveals The Origin Of His &#39;St...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/gives-vin-diesel-his-third-1-weekend-of.html'>&#39;Riddick&#39; Gives Vin Diesel His Third #1 Weekend Of...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/josh-brolin-lost-batman-role-to-ben.html'>Josh Brolin Lost Batman Role To Ben Affleck...But ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/lord-improvised-show-comes-to-melbourne_10.html'>&#39;Time Lord&#39; Improvised Show Comes To Melbourne</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/hugh-jackman-weighs-in-on-guy-ben.html'>Hugh Jackman Weighs In On &#39;Tough Guy&#39; Ben Affleck ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/what-does-ben-affleck-have-planned-for.html'>What Does Ben Affleck Have Planned For Batman? Jen...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-beast-of-babylon-eshort-cover.html'>The Beast Of Babylon - eShort Cover &amp; Details</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/obnoxious-child-actors-ruined-these_10.html'>Obnoxious Child Actors Ruined These Classic Movies...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/what-seth-rogen-raunchy-this-is-end.html'>What&#39;s Seth Rogen&#39;s raunchy &#8216;This is The End&#39; doin...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/celebrities-turn-low-key-at-ny-fashion.html'>Celebrities turn low key at NY Fashion Week</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/kate-winslet-role-wanted-my-kids-to.html'>Kate Winslet&#39;s &#39;Divergent&#39; Role: &#39;I Wanted My Kids...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/bad-robot-new-trailer-messes-with-our.html'>Bad Robot&#39;s New &#39;S.&#39; Trailer Messes with Our Heads...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/robert-pattinson-comes-to.html'>Robert Pattinson Comes To &#39;Life&#39;</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/why-didn-miyazaki-make-these-films_10.html'>Why Didn&#39;t Miyazaki Make These Films?</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/designers-in-new-york-keeping-it-simple.html'>Designers in New York keeping it simple with black...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/chris-hemsworth-joined-by-brothers-liam.html'>Chris Hemsworth Joined By Brothers Liam &amp; Luke Hem...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-50-year-diary-day-252-war-games.html'>The 50 Year Diary - Day 252 - The War Games, Episo...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/are-hugh-jackman-wolverine-days-over-we.html'>Are Hugh Jackman&#39;s Wolverine Days Over? We Asked!</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/sony-studio-analysis-part-1-inside.html'>Sony: Studio Analysis Part 1, Inside Sony&#8217;s Hit  P...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/charlie-hunnam-feels-chemistry-with.html'>Charlie Hunnam Feels &#39;Tangible Chemistry&#39; with &#39;50...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/star-watch-future-of-hollywood-looks.html'>Star Watch: The Future of Hollywood Looks Promisin...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/watch-elizabeth-olsen-squirm-while.html'>Watch Elizabeth Olsen Squirm While Getting Grilled...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/wanna-make-it-in-hollywood-get.html'>Wanna Make It In Hollywood? Get Blacklisted</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/even-sandra-bullock-son-thinks-she.html'>Even Sandra Bullock&#39;s Son Thinks She Should Get wi...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/ian-mcneice-responds-to-churchill.html'>Ian McNeice Responds To Churchill Return Rumours</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/peter-davison-and-sylvester-mccoy.html'>Peter Davison And Sylvester McCoy Outside TVC</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/hugh-jackman-x-men-days-of-future-past.html'>Hugh Jackman: X-Men: Days Of Future Past Is &#39;Gonna...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/bad-who-will-die-next-week.html'>&#39;Breaking Bad&#39;: Who Will Die Next Week?</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/next-villain-ultron-gets-blessing-from.html'>Next &#39;Avengers&#39; Villain Ultron Gets Blessing From ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/strong-mandela-soft-in-debuts.html'>&#39;Salinger&#39; strong, &#39;Winnie Mandela&#39; soft in debuts...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/doctor-who-wins-at-2013-tv-choice-awards.html'>Doctor Who Wins At The 2013 TV Choice Awards</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/listen-to-coldplay-broody-theme-for.html'>Listen To Coldplay&#39;s Broody Theme for &#39;The Hunger ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/why-didn-miyazaki-make-these-films.html'>Why Didn&#39;t Miyazaki Make These Films?</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/fashion-designers-unveil-what-works-for.html'>Fashion designers unveil what works for work</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/obnoxious-child-actors-ruined-these.html'>Obnoxious Child Actors Ruined These Classic Movies...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-50-year-diary-day-243-seeds-of.html'>The 50 Year Diary - Day 243 - The Seeds of Death, ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/demi-lovato-and-naya-rivera-is-it.html'>Demi Lovato And Naya Rivera: Is It &#39;Love&#39;?</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/toronto-2013-reviews-get-your-first.html'>Toronto 2013 Reviews: Get Your First Look At This ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/blogger-calls-911-over-phone-use-at.html'>Blogger calls 911 over phone use at film screening...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/project-runway-all-stars-season-3.html'>&#8216;Project Runway: All Stars&#39; season 3 contenders re...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/rumsfeld-defends-his-war-legacy-in.html'>Rumsfeld defends his war legacy in Venice Festival...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/sylvester-stallone-john-herzfeld-reach.html'>Sylvester Stallone, John Herzfeld reach $250,000 K...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/critics-savage-and-cheerless-diana-film.html'>Critics savage &#39;cheap and cheerless&#39; Diana film as...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/dwayne-johnson-mcg-to-team-on-big.html'>Dwayne Johnson, McG to team on big-screen version ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/jennifer-hudson-impresses-in-uneven.html'>Jennifer Hudson Impresses in Uneven &#39;WInnie Mandel...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/willem-dafoe-to-terrorize-shailene.html'>Willem Dafoe to Terrorize Shailene Woodley in &#39;The...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/jennifer-lopez-to-play-cougar-mom-in.html'>Jennifer Lopez to play cougar mom in thriller &#39;The...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/winnie-mandela-review-jennifer-hudson.html'>&#8216;Winnie Mandela&#39; review: Jennifer Hudson is no one...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/5-oscar-nominees-that-sold-out.html'>5 Oscar Nominees That Sold Out, Maaaaaaaaaaan</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/peak-casts-tom-hiddleston-thinks-loki.html'>&#39;Crimson Peak&#39; Casts Tom Hiddleston, Thinks Loki i...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/willem-dafoe-joins-shailene-woodley-in.html'>Willem Dafoe joins Shailene Woodley in Josh Boone&#39;...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/designers-flash-flesh-at-new-york.html'>Designers flash flesh at New York&#39;s Fashion Week</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/preview-of-spring-styles-at-ny-fashion.html'>Preview of spring styles at NY Fashion Week</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/expect-simple-modern-looks-at-new-york.html'>Expect simple, modern looks at New York&#39;s Fashion ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/monae-to-sing-live-fashion-week-runway.html'>Monae to sing live Fashion Week runway soundtrack</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/estate-exposes-wikileaks-in-toronto.html'>&#39;Fifth Estate&#39; exposes WikiLeaks in Toronto film f...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/italian-documentary-takes-top-honor-at.html'>&#39;Poetic&#39; Italian documentary takes top honor at Ve...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/captain-phillips-review-taut-suspense.html'>&#8216;Captain Phillips&#39; review: Taut suspense, iffy rac...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/harry-potter-actor-evolves-with-bold.html'>Harry Potter actor evolves with bold new roles</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/plus-size-women-in-focus-in-ny-fashion.html'>Plus-size women in focus, in NY fashion week first...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/does-desigual-belong-on-ny-fashion-week.html'>Does Desigual belong on NY Fashion Week runway?</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/nicole-miller-shows-some-fashion-week.html'>Nicole Miller shows some fashion week rebellion</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/gandolfini-on-screen-again-in-said.html'>Gandolfini on screen again in &#39;Enough Said&#39;</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/shang-xia-hermes-to-open-paris-store.html'>Shang Xia, the &#39;Chinese Hermès,&#39; to open Paris sto...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/firth-tackles-story-of-torture.html'>Firth tackles story of torture, forgiveness in &#39;Ra...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/marissa-webb-brings-new-belle-to.html'>Marissa Webb brings a new belle to fashion week</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/cate-blanchett-to-star-in-david-mamet.html'>Cate Blanchett to star in David Mamet&#39;s thriller &#8216;...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/really-bad-movies-got-fingered.html'>Really Bad Movies: &#39;Freddy Got Fingered&#39;</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/carmen-marc-valvo-dives-into-ny-fashion.html'>Carmen Marc Valvo dives into NY Fashion Week</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-occupy-wall-street-collaborative.html'>&#39;99%: The Occupy Wall Street Collaborative Film&#39; r...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/jury-hears-more-from-michael-jackson.html'>Jury hears more from Michael Jackson&#39;s doctors</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/fashion-week-awards-honor-upton-posen.html'>Fashion Week awards honor Upton, Posen and Zoe</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/maje-presents-its-tribute-to-david-bowie.html'>Maje presents its tribute to David Bowie</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/dane-dehaan-to-play-james-dean.html'>Dane DeHaan to play James Dean alongside &#8216;Twilight...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/captures-rage-and-despair-of-vulnerable.html'>&#39;Prisoners&#39; captures rage and despair of a vulnera...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/toronto-breakers-director-harmony.html'>Toronto: &#39;Spring Breakers&#39; director Harmony Korine...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/motor-racing-lauda-relives-1976-on-big.html'>Motor racing-Lauda relives 1976 on the big screen</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/italian-documentary-gra-wins-golden-lion.html'>Italian documentary &#39;Sacro GRA&#39; wins Golden Lion</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/shoji-at-fashion-week-ok-to-call-him.html'>Shoji at fashion week: OK to call him &#39;pretty&#39;</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/ny-fashion-week-has-its-head-at-beach.html'>NY Fashion Week has its head at the beach</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/jennifer-hudson-tackles-role-of-winnie.html'>Jennifer Hudson tackles &#39;intimidating&#39; role of Win...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/lance-armstrong-flix-pile-up-dude-we_8.html'>Lance Armstrong Flix Pile Up: Dude, We Forgive You...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/lance-armstrong-flix-pile-up-dude-we.html'>Lance Armstrong Flix Pile Up: Dude, We Forgive You...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/weevils-and-all-rome-ring-road-film.html'>Weevils and all, Rome ring-road film marks documen...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/lauda-relives-1976-on-big-screen.html'>Lauda relives 1976 on the big screen</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/superheroes-who-need-to-have-their-own.html'>Superheroes Who Need To Have Their Own Movies</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/chai-fits-into-larger-puzzle-at-fashion.html'>Chai fits into larger puzzle at fashion week</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/toronto-kristin-scott-thomas-joins-old.html'>Toronto: Kristin Scott Thomas joins &#39;My Old Lady&#39;;...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/hunger-games-catching-fire-tickets-go.html'>&#8216;Hunger Games: Catching Fire&#39; tickets go on sale O...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/lord-improvised-show-comes-to-melbourne.html'>&#39;Time Lord&#39; Improvised Show Comes To Melbourne</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/shades-movie-casts-dakota-johnson-hunnam.html'>&#39;Fifty Shades&#39; movie casts Dakota Johnson, Hunnam</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-important-detail-book-thief-trailer.html'>The Important Detail &#39;The Book Thief&#39; Trailer Leav...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/christopher-nolan-may-be-about-corn_2.html'>Christopher Nolan&#39;s &#39;Interstellar&#39; May Be About Co...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/flashback-to-2000-why-we-love-charlie_2.html'>Flashback to 2000: Why We Love Charlie&#39;s Angels</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/why-you-should-know-and-love-ray.html'>Why You Should Know and Love Ray Winstone</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-tenth-planet-draft-script-found.html'>The Tenth Planet Draft Script Found</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/oscar-winning-japanese-director.html'>Oscar-winning Japanese director Miyazaki to retire...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/fire-of-wall-street-what-are-our-six_2.html'>&#39;Catching Fire,&#39; &#39;Gravity,&#39; &#39;Wolf of Wall Street&#39;:...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/who-would-win-if-under-dome-became.html'>Who Would Win if &#8216;Under The Dome&#8217; Became &#8216;The Hung...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/despite-bombs-hollywood-posts-record.html'>Despite the bombs, Hollywood posts a record summer...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/dakota-johnson-charlie-hunnam-to-star.html'>Dakota Johnson, Charlie Hunnam to star in &#39;Fifty S...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-50-year-diary-day-244-seeds-of.html'>The 50 Year Diary - Day 244 - The Seeds of Death, ...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/virtual-love-in-gilliam-futuristic.html'>Virtual love in Gilliam&#39;s futuristic &#39;Zero Theorem...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/the-50-year-diary-day-245-space-pirates.html'>The 50 Year Diary - Day 245 - The Space Pirates, E...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/shades-movie-casts-dakota-johnson-as.html'>&#39;Fifty Shades&#39; movie casts Dakota Johnson as lead</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/fire-of-wall-street-what-are-our-six.html'>&#39;Catching Fire,&#39; &#39;Gravity,&#39; &#39;Wolf of Wall Street&#39;:...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/flashback-to-2000-why-we-love-charlie.html'>Flashback to 2000: Why We Love Charlie&#39;s Angels</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/6-female-superheroes-who-need-their-own_2.html'>6 Female Superheroes Who Need Their Own Film</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/actor-michael-douglas-says-no-crisis-in.html'>Actor Michael Douglas says no crisis in marriage</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/direction-this-is-us-sequel-stars.html'>&#39;One Direction: This Is Us&#39; Sequel Stars Zombies A...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/big-city-problems-worst-new-york-city.html'>Big City Problems: Worst New York City TV Cliches</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/6-female-superheroes-who-need-their-own.html'>6 Female Superheroes Who Need Their Own Film</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/6-most-badass-badasses-in-hollywood.html'>6 Most Badass Badasses in Hollywood</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/jfk-assassination-film-shows-gore.html'>JFK assassination film &#39;Parkland&#39; shows gore, avoi...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/violence-shocks-with-domestic-abuse.html'>&#39;Miss Violence&#39; shocks with domestic abuse tales</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/one-direction-director-tells-us-what.html'>One Direction Director Tells Us What You &lt;i&gt;Won&#39;t&lt;...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/bad-director-on-walt-jesse-blowup-and.html'>&#39;Breaking Bad&#39; Director on Walt &amp; Jesse&#39;s Blowup a...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/direction-edges-sings-its-way-to-box.html'>&#39;One Direction&#39; edges &#39;Butler&#39;, sings its way to b...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/bad-recap-walt-gives-rabid-dog-jesse.html'>&#39;Breaking Bad&#39; Recap: Walt Gives Rabid Dog Jesse t...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/venice-ostermann-reveals-wolf-children.html'>Venice: Ostermann reveals wolf children plight</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/poverty-and-recession-infuse-venice.html'>Poverty and recession infuse Venice movies</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/charlie-hunnam-dakota-johnson-named-for.html'>Charlie Hunnam, Dakota Johnson named for &#39;50 Shade...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/10-movies-frat-boys-like.html'>10 Movies Frat Boys Like</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/impresses-gilliam-goes-into-black-hole.html'>&#39;Philomena&#39; impresses, Gilliam goes into black hol...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/christopher-nolan-may-be-about-corn.html'>Christopher Nolan&#39;s &#39;Interstellar&#39; May Be About Co...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/perversion-pervades-venice-film-fest.html'>Perversion pervades Venice film fest with modern G...</a></li>
+<li><a href='http://papasifischannelone.blogspot.com/2013/09/shades-of-grey-casts-charlie-hunnam-and.html'>&#39;Fifty Shades Of Grey&#39; Casts Charlie Hunnam And Da...</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://papasifischannelone.blogspot.com/2013_08_01_archive.html'>Αύγουστος</a>
+<span class='post-count' dir='ltr'>(652)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://papasifischannelone.blogspot.com/2013_07_01_archive.html'>Ιούλιος</a>
+<span class='post-count' dir='ltr'>(741)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1578905650334958367&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Επεξεργασία'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Profile' id='Profile1'>
+<h2>Πληροφορίες</h2>
+<div class='widget-content'>
+<a href='https://plus.google.com/113195427342938712410'><img alt='Η Φωτό Μου' class='profile-img' height='80' src='//lh3.googleusercontent.com/-feFMDvsUIkQ/AAAAAAAAAAI/AAAAAAAADtQ/Mkkzum3t31k/s512-c/photo.jpg' width='80'/></a>
+<dl class='profile-datablock'>
+<dt class='profile-data'>
+<a class='profile-name-link g-profile' href='https://plus.google.com/113195427342938712410' rel='author' style='background-image: url(//www.google.com/images/icons/ui/gprofile_button-16.png);'>
+iosif papagiannakis
+</a>
+<br/>
+<div class='g-follow' data-annotation='bubble' data-height='20' data-href='https://plus.google.com/113195427342938712410'></div>
+</dt>
+</dl>
+<a class='profile-link' href='https://plus.google.com/113195427342938712410' rel='author'>Προβολή πλήρους προφίλ</a>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1578905650334958367&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Profile1"));' target='configProfile1' title='Επεξεργασία'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</aside>
+</div>
+</div>
+</div>
+<div style='clear: both'></div>
+<!-- columns -->
+</div>
+<!-- main -->
+</div>
+</div>
+<div class='main-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<footer>
+<div class='footer-outer'>
+<div class='footer-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left footer-fauxborder-left'>
+<div class='fauxborder-right footer-fauxborder-right'></div>
+<div class='region-inner footer-inner'>
+<div class='foot section' id='footer-1'></div>
+<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-2'>
+<tbody>
+<tr>
+<td class='first columns-cell'>
+<div class='foot section' id='footer-2-1'><div class='widget PlusFollowers' id='PlusFollowers1'>
+<h2 class='title'>Google+ Followers</h2>
+<div class='widget-content'>
+<div class='g-plus' data-action='followers' data-height='300' data-href='https://plus.google.com/113195427342938712410' data-source='blogger:blog:followers' data-theme='DARK' data-width='585'></div>
+<script type='text/javascript'>
+        window.___gcfg = {'lang': 'el'};
+      </script>
+</div>
+</div><div class='widget PlusOne' id='PlusOne1'>
+<div class='widget-content'>
+<g:plusone annotation='bubble' href='http://papasifischannelone.blogspot.com/' size='standard' source='blogger:blog:plusone' width='250'></g:plusone>
+<script type='text/javascript'>
+      window.___gcfg = {"lang": "el"};
+    </script>
+</div>
+</div></div>
+</td>
+<td class='columns-cell'>
+<div class='foot section' id='footer-2-2'><div class='widget Subscribe' id='Subscribe1'>
+<div style='white-space:nowrap'>
+<h2 class='title'>Εγγραφή  στο</h2>
+<div class='widget-content'>
+<div class='subscribe-wrapper subscribe-type-POST'>
+<div class='subscribe expanded subscribe-type-POST' id='SW_READER_LIST_Subscribe1POST' style='display:none;'>
+<div class='top'>
+<span class='inner' onclick='return(_SW_toggleReaderList(event, "Subscribe1POST"));'>
+<img class='subscribe-dropdown-arrow' src='http://img2.blogblog.com/img/widgets/arrow_dropdown.gif'/>
+<img align='absmiddle' alt='' border='0' class='feed-icon' src='http://img1.blogblog.com/img/icon_feed12.png'/>
+Αναρτήσεις
+</span>
+<div class='feed-reader-links'>
+<a class='feed-reader-link' href='http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Fpapasifischannelone.blogspot.com%2Ffeeds%2Fposts%2Fdefault' target='_blank'>
+<img src='http://img1.blogblog.com/img/widgets/subscribe-netvibes.png'/>
+</a>
+<a class='feed-reader-link' href='http://add.my.yahoo.com/content?url=http%3A%2F%2Fpapasifischannelone.blogspot.com%2Ffeeds%2Fposts%2Fdefault' target='_blank'>
+<img src='http://img1.blogblog.com/img/widgets/subscribe-yahoo.png'/>
+</a>
+<a class='feed-reader-link' href='http://papasifischannelone.blogspot.com/feeds/posts/default' target='_blank'>
+<img align='absmiddle' class='feed-icon' src='http://img1.blogblog.com/img/icon_feed12.png'/>
+                Atom
+              </a>
+</div>
+</div>
+<div class='bottom'></div>
+</div>
+<div class='subscribe' id='SW_READER_LIST_CLOSED_Subscribe1POST' onclick='return(_SW_toggleReaderList(event, "Subscribe1POST"));'>
+<div class='top'>
+<span class='inner'>
+<img class='subscribe-dropdown-arrow' src='http://img2.blogblog.com/img/widgets/arrow_dropdown.gif'/>
+<span onclick='return(_SW_toggleReaderList(event, "Subscribe1POST"));'>
+<img align='absmiddle' alt='' border='0' class='feed-icon' src='http://img1.blogblog.com/img/icon_feed12.png'/>
+Αναρτήσεις
+</span>
+</span>
+</div>
+<div class='bottom'></div>
+</div>
+</div>
+<div class='subscribe-wrapper subscribe-type-PER_POST'>
+<div class='subscribe expanded subscribe-type-PER_POST' id='SW_READER_LIST_Subscribe1PER_POST' style='display:none;'>
+<div class='top'>
+<span class='inner' onclick='return(_SW_toggleReaderList(event, "Subscribe1PER_POST"));'>
+<img class='subscribe-dropdown-arrow' src='http://img2.blogblog.com/img/widgets/arrow_dropdown.gif'/>
+<img align='absmiddle' alt='' border='0' class='feed-icon' src='http://img1.blogblog.com/img/icon_feed12.png'/>
+Σχόλια
+</span>
+<div class='feed-reader-links'>
+<a class='feed-reader-link' href='http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Fpapasifischannelone.blogspot.com%2Ffeeds%2F4876361536778615977%2Fcomments%2Fdefault' target='_blank'>
+<img src='http://img1.blogblog.com/img/widgets/subscribe-netvibes.png'/>
+</a>
+<a class='feed-reader-link' href='http://add.my.yahoo.com/content?url=http%3A%2F%2Fpapasifischannelone.blogspot.com%2Ffeeds%2F4876361536778615977%2Fcomments%2Fdefault' target='_blank'>
+<img src='http://img1.blogblog.com/img/widgets/subscribe-yahoo.png'/>
+</a>
+<a class='feed-reader-link' href='http://papasifischannelone.blogspot.com/feeds/4876361536778615977/comments/default' target='_blank'>
+<img align='absmiddle' class='feed-icon' src='http://img1.blogblog.com/img/icon_feed12.png'/>
+                Atom
+              </a>
+</div>
+</div>
+<div class='bottom'></div>
+</div>
+<div class='subscribe' id='SW_READER_LIST_CLOSED_Subscribe1PER_POST' onclick='return(_SW_toggleReaderList(event, "Subscribe1PER_POST"));'>
+<div class='top'>
+<span class='inner'>
+<img class='subscribe-dropdown-arrow' src='http://img2.blogblog.com/img/widgets/arrow_dropdown.gif'/>
+<span onclick='return(_SW_toggleReaderList(event, "Subscribe1PER_POST"));'>
+<img align='absmiddle' alt='' border='0' class='feed-icon' src='http://img1.blogblog.com/img/icon_feed12.png'/>
+Σχόλια
+</span>
+</span>
+</div>
+<div class='bottom'></div>
+</div>
+</div>
+<div style='clear:both'></div>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1578905650334958367&widgetType=Subscribe&widgetId=Subscribe1&action=editWidget&sectionId=footer-2-2' onclick='return _WidgetManager._PopupConfig(document.getElementById("Subscribe1"));' target='configSubscribe1' title='Επεξεργασία'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget PlusBadge' id='PlusBadge1'>
+<link href='https://plus.google.com/113195427342938712410' rel='publisher'/>
+<script type='text/javascript'>
+  window.___gcfg = {
+    lang: 'el'
+  };
+  </script>
+<h2 class='title'>Google+ Badge</h2>
+<div class='widget-content'>
+<g:plus href='https://plus.google.com/113195427342938712410' rel='author' source='blogger:blog:badge' theme='light' width='585'></g:plus>
+</div>
+</div></div>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- outside of the include in order to lock Attribution widget -->
+<div class='foot section' id='footer-3'><div class='widget Attribution' id='Attribution1'>
+<div class='widget-content' style='text-align: center;'>
+Travel πρότυπο. Powered by <a href='http://www.blogger.com' target='_blank'>Blogger</a>.
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1578905650334958367&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("Attribution1"));' target='configAttribution1' title='Επεξεργασία'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+</div>
+<div class='footer-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</footer>
+<!-- content -->
+</div>
+</div>
+<div class='content-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+    window.setTimeout(function() {
+        document.body.className = document.body.className.replace('loading', '');
+      }, 10);
+  </script>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="//www.blogger.com/static/v1/widgets/3545113424-widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV2";window['blogger_blog_id'] = '1578905650334958367';BLOG_attachCsiOnload('item_'); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d1578905650334958367','//papasifischannelone.blogspot.com/2013/09/lvmh-names-jw-anderson-creative.html','1578905650334958367');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '1578905650334958367', 'bloggerUrl': 'http://www.blogger.com', 'title': 'PAPASIFIS CHANNEL ONE', 'pageType': 'item', 'url': 'http://papasifischannelone.blogspot.com/2013/09/lvmh-names-jw-anderson-creative.html', 'canonicalUrl': 'http://papasifischannelone.blogspot.com/2013/09/lvmh-names-jw-anderson-creative.html', 'canonicalHomepageUrl': 'http://papasifischannelone.blogspot.com/', 'homepageUrl': 'http://papasifischannelone.blogspot.com/', 'blogspotFaviconUrl': 'http://papasifischannelone.blogspot.com/favicon.ico', 'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget': false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName': 'LVMH names J.W. Anderson creative director for Loewe', 'pageTitle': 'PAPASIFIS CHANNEL ONE: LVMH names J.W. Anderson creative director for Loewe', 'encoding': 'UTF-8', 'locale': 'el', 'localeUnderscoreDelimited': 'el', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42PAPASIFIS CHANNEL ONE - Atom\42 href\75\42http://papasifischannelone.blogspot.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42PAPASIFIS CHANNEL ONE - RSS\42 href\75\42http://papasifischannelone.blogspot.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42PAPASIFIS CHANNEL ONE - Atom\42 href\75\42http://www.blogger.com/feeds/1578905650334958367/posts/default\42 /\76\n\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42PAPASIFIS CHANNEL ONE - Atom\42 href\75\42http://papasifischannelone.blogspot.com/feeds/4876361536778615977/comments/default\42 /\76\n', 'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var b\75window,e\75\42jstiming\42,g\75\42tick\42;(function(){function d(a){this.t\75{};this.tick\75function(a,d,c){c\75void 0!\75c?c:(new Date).getTime();this.t[a]\75[c,d]};this[g](\42start\42,null,a)}var a\75new d;b.jstiming\75{Timer:d,load:a};if(b.performance\46\46b.performance.timing){var a\75b.performance.timing,c\75b[e].load,f\75a.navigationStart,a\75a.responseStart;0\74f\46\46a\76\75f\46\46(c[g](\42_wtsrt\42,void 0,f),c[g](\42wtsrt_\42,\42_wtsrt\42,a),c[g](\42tbsd_\42,\42wtsrt_\42))}try{a\75null,b.chrome\46\46b.chrome.csi\46\46(a\75Math.floor(b.chrome.csi().pageT),c\46\0460\74f\46\46(c[g](\42_tbnd\42,void 0,b.chrome.csi().startE),\nc[g](\42tbnd_\42,\42_tbnd\42,f))),null\75\75a\46\46b.gtbExternal\46\46(a\75b.gtbExternal.pageT()),null\75\75a\46\46b.external\46\46(a\75b.external.pageT,c\46\0460\74f\46\46(c[g](\42_tbnd\42,void 0,b.external.startE),c[g](\42tbnd_\42,\42_tbnd\42,f))),a\46\46(b[e].pt\75a)}catch(l){}})();b.tickAboveFold\75function(d){var a\0750;if(d.offsetParent){do a+\75d.offsetTop;while(d\75d.offsetParent)}d\75a;750\76\75d\46\46b[e].load[g](\42aft\42)};var h\75!1;function k(){h||(h\75!0,b[e].load[g](\42firstScrollTime\42))}b.addEventListener?b.addEventListener(\42scroll\42,k,!1):b.attachEvent(\42onscroll\42,k);\n })();\74/script\076', 'mobileHeadScript': '', 'adsenseClientId': 'ca-pub-0221655877486325', 'ieCssRetrofitLinks': '\74!--[if IE]\76\74script type\75\42text/javascript\42 src\75\42//www.blogger.com/static/v1/jsbin/4163410827-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/15de8d1bfc9ff1d1', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'testHtml5CssSrc': '//www.blogger.com/static/v1/widgets/721438413-css_bundle_html5.css', 'sf': 'n', 'tf': ''}}, {'name': 'skin', 'data': {'vars': {'mobile_background_overlay': 'transparent none repeat scroll top left', 'tabs_selected_background_gradient': 'url(//www.blogblog.com/1kt/travel/bg_black_50.png)', 'tabs_background_color': 'transparent', 'content_padding': '20px', 'widget_link_visited_color': '#b87209', 'tabs_selected_background_color': 'transparent', 'footer_background_gradient': 'none', 'link_hover_color': '#ff9900', 'post_title_text_color': '#ffffff', 'content_background': 'transparent url(//blogblog.com/1kt/travel/bg_black_70.png) repeat scroll top left', 'description_text_color': '#bbbbbb', 'widget_font': 'normal normal 20px \47Trebuchet MS\47,Trebuchet,sans-serif', 'body_text_color': '#bbbbbb', 'link_visited_color': '#b87209', 'post_background_color': 'transparent', 'post_title_font': 'normal bold 20px \47Trebuchet MS\47,Trebuchet,sans-serif', 'tabs_text_color': '#cc0000', 'endSide': 'right', 'startSide': 'left', 'tabs_font': 'normal bold 30px \47Trebuchet MS\47,Trebuchet,sans-serif', 'widget_outer_background_gradient': 'url(//www.blogblog.com/1kt/travel/bg_black_50.png)', 'content_posts_padding': '10px', 'widget_link_color': '#bbbbbb', 'body_font': 'normal normal 20px \47Trebuchet MS\47,Trebuchet,sans-serif', 'content_imageBorder_top': 'none', 'comments_background': 'transparent url(//blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center', 'date_text_color': '#bbbbbb', 'mobile_button_color': '#ffffff', 'widget_outer_background_color': 'transparent', 'widget_title_font': 'normal bold 14px \47Trebuchet MS\47,Trebuchet,sans-serif', 'widget_title_text_color': '#ffffff', 'widget_text_color': '#bbbbbb', 'content_margin': '20px', 'body_background': '#539bcd url(//themes.googleusercontent.com/image?id\0750BwVBOzw_-hbMYTM3ZTRlZTktYzE4ZC00NWU0LWEyMzctOWFlZjVkZTkzNGY4) repeat fixed top center', 'keycolor': '#539bcd', 'link_color': '#ff9900', 'content_background_color': 'transparent', 'header_font': 'normal normal 60px \47Trebuchet MS\47,Trebuchet,sans-serif', 'header_text_color': '#65ff00', 'widget_border_bevel_color': 'transparent', 'content_imageBorder_top_space': '0', 'date_font': 'normal normal 14px \47Trebuchet MS\47,Trebuchet,sans-serif', 'tabs_selected_text_color': '#ffffff', 'body_background_color': '#539bcd', 'post_background_url': 'none', 'tabs_background_gradient': 'url(//www.blogblog.com/1kt/travel/bg_black_50.png)', 'widget_alternate_text_color': '#ffffff'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1', 'crosscol', null, document.getElementById('PageList1'), {'title': 'Σελίδες', 'links': [{'href': 'http://papasifischannelone.blogspot.com/', 'title': 'Αρχική σελίδα', 'isCurrentPage': false}, {'href': 'http://papasifischannelone.blogspot.com/p/come-with-meto-money.html', 'title': 'COME WITH ME,TO THE MONEY !!!!!!!', 'isCurrentPage': false}, {'href': 'http://papasifischannelone.blogspot.com/p/blog-page.html', 'title': 'ΚΕΡΔΙΣΕ ΧΡΗΜΑΤΑ ΜΑΖΙ ΜΟΥ.', 'isCurrentPage': false}, {'href': 'http://moneyhanders.blogspot.gr/', 'title': 'MAKE EASY MONEY !!!!! WAY 1', 'isCurrentPage': false}, {'href': 'http://moneyhunters2.blogspot.gr/', 'title': 'MAKE EASY MONEY!!!! WAY 2', 'isCurrentPage': false}, {'href': 'http://moneyhunters3.blogspot.gr/', 'title': 'MAKE EASY MONEY!!!! WAY 3', 'isCurrentPage': false}, {'href': 'http://papasifischannelone.blogspot.com/p/h-xrysh-strti.html', 'title': ' ΣΤΡΑΤΗΓΙΚΗ  ΝΕΟBUX N0 1', 'isCurrentPage': false}, {'href': 'http://papasifischannelone.blogspot.com/p/1-neobux.html', 'title': ' ΣΤΡΑΤΗΓΙΚΗ  ΝΕΟBUX N0 2', 'isCurrentPage': false}, {'href': 'http://moneyhunters4.blogspot.gr', 'title': 'MAKE EASY MONEY!!!! WAY 4', 'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebar-right-1', null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'sidebar-right-1', null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML6', 'sidebar-right-1', null, document.getElementById('HTML6'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'sidebar-right-1', null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML8', 'sidebar-right-1', null, document.getElementById('HTML8'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML13', 'sidebar-right-1', null, document.getElementById('HTML13'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML9', 'sidebar-right-1', null, document.getElementById('HTML9'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML16', 'sidebar-right-1', null, document.getElementById('HTML16'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML17', 'sidebar-right-1', null, document.getElementById('HTML17'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML15', 'sidebar-right-1', null, document.getElementById('HTML15'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML14', 'sidebar-right-1', null, document.getElementById('HTML14'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML12', 'sidebar-right-1', null, document.getElementById('HTML12'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML11', 'sidebar-right-1', null, document.getElementById('HTML11'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML7', 'sidebar-right-1', null, document.getElementById('HTML7'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5', 'sidebar-right-1', null, document.getElementById('HTML5'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebar-right-1', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar-right-1', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1', 'sidebar-right-1', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_SubscribeView', new _WidgetInfo('Subscribe1', 'footer-2-2', null, document.getElementById('Subscribe1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PlusBadgeView', new _WidgetInfo('PlusBadge1', 'footer-2-2', null, document.getElementById('PlusBadge1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PlusFollowersView', new _WidgetInfo('PlusFollowers1', 'footer-2-1', null, document.getElementById('PlusFollowers1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PlusOneView', new _WidgetInfo('PlusOne1', 'footer-2-1', null, document.getElementById('PlusOne1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new _WidgetInfo('Attribution1', 'footer-3', null, document.getElementById('Attribution1'), {'attribution': 'Travel πρότυπο. Powered by \74a href\75\47http://www.blogger.com\47 target\75\47_blank\47\76Blogger\74/a\76.'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': '//www.blogger.com/static/v1/jsbin/88585676-lbx__el.js', 'lightboxCssUrl': '//www.blogger.com/static/v1/v-css/4138445517-lightbox_bundle.css'}, 'displayModeFull'));
+</script>
+</body>
+</html>

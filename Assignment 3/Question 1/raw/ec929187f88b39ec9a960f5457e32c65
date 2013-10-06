@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+<head>
+  <title>Transparent HTTP Tunnel for Python sockets (to be used by ftplib ) &laquo; Python recipes &laquo; ActiveState Code</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=8" />
+  <link rel="stylesheet" href="/static/css/activestyle.css" type="text/css"/>
+  <!--[if IE]>
+    <link rel="stylesheet" href="/static/css/ie.css" type="text/css" />
+  <![endif]-->
+  <!--[if IE 7]>
+    <link rel="stylesheet" href="/static/css/ie7.css" type="text/css" />
+  <![endif]-->
+  <!--[if IE 6]>
+    <link rel="stylesheet" href="/static/css/ie6.css" type="text/css" />
+  <![endif]-->
+  <link href="/static/prettify/prettify.css" type="text/css" rel="stylesheet" />
+  
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:bold&subset=latin' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:bold' rel='stylesheet' type='text/css'>
+  
+  
+  <link rel="alternate" href="/feeds/news/" type="application/atom+xml" title="ActiveState Code News" />
+
+  <link type="image/x-icon" href="/static/activestyle/img/favicon.ico" rel="shortcut icon"/>
+
+  <script src="/static/js/jquery-1.3.2.min.js" type="text/javascript"></script>
+  <script src="/static/js/jquery-ui-1.7.2.custom.min.js" type="text/javascript"></script>
+  <script src="/static/js/jquery-form-2.36.js" type="text/javascript"></script>
+  
+  
+
+<link rel="canonical" href="/recipes/577643-transparent-http-tunnel-for-python-sockets-to-be-u/" />
+<!--[if IE]><style type="text/css"> div.codeblock, pre.prettyprint { overflow: visible; overflow-x: auto; overflow-y: hidden; padding-bottom:15px; } </style><![endif]-->
+
+  
+  
+  <!-- Start Google Analytics tracking code -->
+  <script type="text/javascript"> var _gaq = _gaq || [];
+  var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-20072-24']); _gaq.push(['_setDomainName', '.activestate.com']); _gaq.push(['_setAllowLinker', true]); _gaq.push(['_setAllowHash', false]); _gaq.push(['_trackPageview']);
+  (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async =
+  true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })(); </script>
+  <!-- End Google Analytics tracking code -->
+  
+  
+</head>
+<body >
+<div id="as_wrapper">
+ 
+<ul class="as_skip">
+  <li><a href="#q">Skip to Search</a></li>
+  <li><a href="#site_nav">Skip to Navigation</a></li>
+  <li><a href="#as_content">Skip to Content</a></li>
+</ul>
+
+<div id="as_header_wrapper" class="nosearchhi">
+<div id="as_header">
+  <div id="as_navbar" class="as_navbar_short">
+    <ul id="as_sitesnav">
+      <li class="as_logo"><a href="http://www.activestate.com/"><img height="18" width="90" src="/static/activestyle/img/activestate.png" title="ActiveState | The Dynamic Language Experts"></a></li>
+      <span class="as_navsep"></span>
+      <li><a href="http://community.activestate.com/">Community</a></li>
+      <span class="as_navsep">|</span>
+      <li><b><a href="/">Code</a></b></li>
+      <span class="as_navsep">|</span>
+      <li><a href="http://docs.activestate.com/">Docs</a></li>
+      <span class="as_navsep">|</span>
+      <li class="as_sitesnav_more"><a onclick="$('#as_sitesnav_downloads').slideToggle(100); return false;" href="http://www.activestate.com/downloads" ><u>Downloads</u>  <small>&#9660;</small></a>
+        <ul style="display: none;" id="as_sitesnav_downloads">
+          <li><a href="http://www.activestate.com/stackato/download_vm" title="Download Stackato">Stackato</a></li>
+          <li><a href="http://www.activestate.com/activeperl/downloads" title="Download Perl">ActivePerl</a></li>
+          <li><a href="http://www.activestate.com/activepython/downloads" title="Download Python">ActivePython</a></li>
+          <li><a href="http://www.activestate.com/activetcl/downloads" title="Download Tcl">ActiveTcl</a></li>
+          <li><a href="http://www.activestate.com/activeperl-pro-studio/downloads" title="Download ActivePerl Pro Studio">ActivePerl Pro Studio</a></li>
+          <li><a href="http://www.activestate.com/activetcl-pro-studio/downloads" title="Download ActiveTcl Pro Studio">ActiveTcl Pro Studio</a></li>
+          <li><a href="http://www.activestate.com/perl-dev-kit/downloads" title="Download Perl Dev Kit">Perl Dev Kit</a></li>
+          <li><a href="http://www.activestate.com/tcl-dev-kit/downloads" title="Download Tcl Dev Kit">Tcl Dev Kit</a></li>
+          <li><a href="http://www.activestate.com/komodo-ide/downloads" title="Download Komodo IDE">Komodo IDE</a></li>
+        </ul>
+      </li>
+      <span class="as_navsep">|</span>
+      <li class="as_sitesnav_more"><a href="http://www.activestate.com/community" onclick="$('#as_sitesnav_more').slideToggle(100); return false;"><u>more</u> <small>&#9660;</small></a>
+        <ul id="as_sitesnav_more" style="display: none;">
+          <li><a href="http://lists.activestate.com/">Lists</a></li>
+          <li><a href="http://bugs.activestate.com/">Bugs</a></li>
+          <li><a href="http://code.activestate.com/ppm">PPM Index</a></li>
+          <li><a href="http://code.activestate.com/pypm">PyPM Index</a></li>
+        </ul>
+      </li>
+    </ul>
+    <script type="text/javascript">
+      $('body').click(function() { $('#as_sitesnav_more').hide(); $('#as_sitesnav_downloads').hide(); });
+    </script>
+
+    <div id="as_accountnav">
+    
+      Welcome, guest
+      <span class="as_navsep">|</span> <a href="https://account.activestate.com/signin/?next=http%3A//code.activestate.com/recipes/577643-transparent-http-tunnel-for-python-sockets-to-be-u/">Sign In</a>
+    
+      <span class="as_navsep">|</span> <a href="https://account.activestate.com/">My Account</a>
+      <span class="as_navsep">|</span> <a href="https://store.activestate.com/">Store</a>
+      <span class="as_navsep">|</span> <a href="https://store.activestate.com/cart" class="icon-cart">Cart</a>
+    </div>
+  </div>
+  
+  <div id="as_bannerbar">
+    
+<div id="site_logo" class="as_banner_text">
+  <a class="as_banner_text" href="/">ActiveState Code</a> &raquo; <a href="/recipes/" class="as_banner_text">Recipes</a>
+</div>
+
+<div id="site_nav">
+  <form id="search_form" action="/search/recipes/">
+    <input size="24" id="q" name="q" accesskey="s"/>
+    <input type="submit" value="Search" />
+  </form>
+</div>
+
+    <div style="clear:both"></div>
+  </div>
+  
+</div> <!-- end of as_header -->
+
+<div id="as_sub_banner">
+  <div id="as_sub_site_nav">
+    <div id="as_sub_site_links">
+      
+  <a href="/recipes/add/" title="Add a Recipe">Add a Recipe</a>
+  <a href="/recipes/langs/">Languages</a>
+  <a href="/recipes/tags/">Tags</a>
+  <a href="/recipes/users/">Authors</a>
+  <a href="/recipes/sets/">Sets</a>
+  
+
+    </div>
+  </div>
+</div> <!-- end of as_sub_banner -->
+
+</div> <!-- end of as_header_wrapper -->
+
+
+<div id="as_middle">
+  <div id="as_content_wrapper">
+    <div id="as_content">
+      
+      <div id="page_header">
+        <h1>
+Transparent HTTP Tunnel for Python sockets (to be used by ftplib )
+(Python recipe)
+<span class="print_only secondary">by Raphaël Jolivet</span>
+
+<div class="print_only secondary" style="margin-top: 10px;">
+  ActiveState Code (http://code.activestate.com/recipes/577643/)
+</div>
+</h1>
+      </div>
+      
+
+      <div id="content">
+        
+<table class="gutter_table"><tr>
+<td class="gutter">
+
+
+
+
+
+<div id="recipe_scorevote">
+<form action="/recipes/577643-transparent-http-tunnel-for-python-sockets-to-be-u/up/" method="POST"><div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='dc95d50a6e0e70b46cc3ef371285d190' /></div>
+<button class=" upvote" title="Vote up" type="submit">&#x25b2;</button>
+</form>
+<div class="recipe_score ">2</div>
+<form action="/recipes/577643-transparent-http-tunnel-for-python-sockets-to-be-u/down/" method="POST"><div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='dc95d50a6e0e70b46cc3ef371285d190' /></div>
+<button class=" downvote" title="Vote down" type="submit">&#x25bc;</button>
+</form>
+</div>
+
+</td>
+<td>
+
+  <div id="description">
+  <p>This script allows how to transparently install a HTTP proxy (proxy HTTP 1.1, using CONNECT command) on all outgoing sockets.</p>
+
+<p>I did that to bring TCP over HTTP to FTPlib, transparently.
+It should enable HTTP tunneling for all methods / modules that use the low-level socket API.</p>
+
+  </div>
+  
+  <div id="blocks">
+  
+    <div id="block-0" class="block">
+    
+      <div class="block-toolbar as_secondary">
+        <span style="float: right;">Python, 144 lines</span>
+        <div class="block-toolbar-button"><a href="/recipes/577643-transparent-http-tunnel-for-python-sockets-to-be-u/download/1/"><img src="/static/img/bullet_disk.png"/>Download</a></div>
+        <div id="clipboard_container" class="block-toolbar-button" style="position: relative; display: none;"><div id="clipboard_button"><img src="/static/img/bullet_go16.png"/>Copy to clipboard</div></div>
+        
+      </div>
+      <div class="codeblock">
+      <table class="highlighttable"><tr><td class="linenos"><pre>  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144</pre></td><td class="code"><div class="highlight"><pre><span class="c">#!/usr/bin/python</span>
+<span class="k">import</span> <span class="nn">socket</span>
+
+<span class="c"># Class that wraps a real socket and changes it to a HTTP tunnel whenever a connection is asked via the &quot;connect&quot; method</span>
+<span class="k">class</span> <span class="nc">ProxySock</span> <span class="p">:</span>
+    
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">socket</span><span class="p">,</span> <span class="n">proxy_host</span><span class="p">,</span> <span class="n">proxy_port</span><span class="p">)</span> <span class="p">:</span> 
+
+        <span class="c"># First, use the socket, without any change</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">socket</span> <span class="o">=</span> <span class="n">socket</span>
+
+        <span class="c"># Create socket (use real one)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">proxy_host</span> <span class="o">=</span> <span class="n">proxy_host</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">proxy_port</span> <span class="o">=</span> <span class="n">proxy_port</span>
+
+        <span class="c"># Copy attributes</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">family</span> <span class="o">=</span> <span class="n">socket</span><span class="o">.</span><span class="n">family</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">type</span> <span class="o">=</span> <span class="n">socket</span><span class="o">.</span><span class="n">type</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">proto</span> <span class="o">=</span> <span class="n">socket</span><span class="o">.</span><span class="n">proto</span>
+
+    <span class="k">def</span> <span class="nf">connect</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">address</span><span class="p">)</span> <span class="p">:</span>
+
+        <span class="c"># Store the real remote adress</span>
+        <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">host</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">port</span><span class="p">)</span> <span class="o">=</span> <span class="n">address</span>
+       
+        <span class="c"># Try to connect to the proxy </span>
+        <span class="k">for</span> <span class="p">(</span><span class="n">family</span><span class="p">,</span> <span class="n">socktype</span><span class="p">,</span> <span class="n">proto</span><span class="p">,</span> <span class="n">canonname</span><span class="p">,</span> <span class="n">sockaddr</span><span class="p">)</span> <span class="ow">in</span> <span class="n">socket</span><span class="o">.</span><span class="n">getaddrinfo</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">proxy_host</span><span class="p">,</span> 
+            <span class="bp">self</span><span class="o">.</span><span class="n">proxy_port</span><span class="p">,</span>
+            <span class="mf">0</span><span class="p">,</span> <span class="mf">0</span><span class="p">,</span> <span class="n">socket</span><span class="o">.</span><span class="n">SOL_TCP</span><span class="p">)</span> <span class="p">:</span>
+            <span class="k">try</span><span class="p">:</span>
+                
+                <span class="c"># Replace the socket by a connection to the proxy</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">socket</span> <span class="o">=</span> <span class="n">socket</span><span class="o">.</span><span class="n">socket_formal</span><span class="p">(</span><span class="n">family</span><span class="p">,</span> <span class="n">socktype</span><span class="p">,</span> <span class="n">proto</span><span class="p">)</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">sockaddr</span><span class="p">)</span>
+                    
+            <span class="k">except</span> <span class="n">socket</span><span class="o">.</span><span class="n">error</span><span class="p">,</span> <span class="n">msg</span><span class="p">:</span>
+                <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">socket</span> <span class="o">=</span> <span class="bp">None</span>
+                <span class="k">continue</span>
+            <span class="k">break</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">socket</span> <span class="p">:</span>
+            <span class="k">raise</span> <span class="n">socket</span><span class="o">.</span><span class="n">error</span><span class="p">,</span> <span class="n">ms</span> 
+        
+        <span class="c"># Ask him to create a tunnel connection to the target host/port</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">send</span><span class="p">(</span>
+                <span class="p">(</span><span class="s">&quot;CONNECT </span><span class="si">%s</span><span class="s">:</span><span class="si">%d</span><span class="s"> HTTP/1.1</span><span class="se">\r\n</span><span class="s">&quot;</span> <span class="o">+</span> 
+                <span class="s">&quot;Host: </span><span class="si">%s</span><span class="s">:</span><span class="si">%d</span><span class="se">\r\n\r\n</span><span class="s">&quot;</span><span class="p">)</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">host</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">port</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">host</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">port</span><span class="p">));</span>
+
+        <span class="c"># Get the response</span>
+        <span class="n">resp</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">recv</span><span class="p">(</span><span class="mf">4096</span><span class="p">)</span>
+
+        <span class="c"># Parse the response</span>
+        <span class="n">parts</span> <span class="o">=</span> <span class="n">resp</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+        
+        <span class="c"># Not 200 ?</span>
+        <span class="k">if</span> <span class="n">parts</span><span class="p">[</span><span class="mf">1</span><span class="p">]</span> <span class="o">!=</span> <span class="s">&quot;200&quot;</span> <span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s">&quot;Error response from Proxy server : </span><span class="si">%s</span><span class="s">&quot;</span> <span class="o">%</span> <span class="n">resp</span><span class="p">)</span>
+
+    <span class="c"># Wrap all methods of inner socket, without any change</span>
+    <span class="k">def</span> <span class="nf">accept</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">accept</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">bind</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span> <span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">bind</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+    
+    <span class="k">def</span> <span class="nf">close</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    
+    <span class="k">def</span> <span class="nf">fileno</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">fileno</span><span class="p">()</span>
+
+    
+    <span class="k">def</span> <span class="nf">getsockname</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">getsockname</span><span class="p">()</span>
+    
+    <span class="k">def</span> <span class="nf">getsockopt</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span> <span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">getsockopt</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+    
+    <span class="k">def</span> <span class="nf">listen</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span> <span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">listen</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+    
+    <span class="k">def</span> <span class="nf">makefile</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span> <span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">makefile</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+    
+    <span class="k">def</span> <span class="nf">recv</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span> <span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">recv</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+    
+    <span class="k">def</span> <span class="nf">recvfrom</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span> <span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">recvfrom</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">recvfrom_into</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span> <span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">recvfrom_into</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+    
+    <span class="k">def</span> <span class="nf">recv_into</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span> <span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">recv_into</span><span class="p">(</span><span class="nb">buffer</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span>
+    
+    <span class="k">def</span> <span class="nf">send</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span> <span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+    
+    <span class="k">def</span> <span class="nf">sendall</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span> <span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">sendall</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+    
+    <span class="k">def</span> <span class="nf">sendto</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span> <span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">sendto</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+    
+    <span class="k">def</span> <span class="nf">setblocking</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span> <span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">setblocking</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+    
+    <span class="k">def</span> <span class="nf">settimeout</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span> <span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">settimeout</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+    
+    <span class="k">def</span> <span class="nf">gettimeout</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">gettimeout</span><span class="p">()</span>
+    
+    <span class="k">def</span> <span class="nf">setsockopt</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">setsockopt</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+    
+    <span class="k">def</span> <span class="nf">shutdown</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">socket</span><span class="o">.</span><span class="n">shutdown</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+
+    <span class="c"># Return the (host, port) of the actual target, not the proxy gateway</span>
+    <span class="k">def</span> <span class="nf">getpeername</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="p">:</span>
+        <span class="k">return</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">host</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">port</span><span class="p">)</span>
+
+<span class="c"># Install a proxy, by changing the method socket.socket()</span>
+<span class="k">def</span> <span class="nf">setup_http_proxy</span><span class="p">(</span><span class="n">proxy_host</span><span class="p">,</span> <span class="n">proxy_port</span><span class="p">)</span> <span class="p">:</span>
+
+    <span class="c"># New socket constructor that returns a ProxySock, wrapping a real socket</span>
+    <span class="k">def</span> <span class="nf">socket_proxy</span><span class="p">(</span><span class="n">af</span><span class="p">,</span> <span class="n">socktype</span><span class="p">,</span> <span class="n">proto</span><span class="p">)</span> <span class="p">:</span>
+
+        <span class="c"># Create a socket, old school :</span>
+        <span class="n">sock</span> <span class="o">=</span> <span class="n">socket</span><span class="o">.</span><span class="n">socket_formal</span><span class="p">(</span><span class="n">af</span><span class="p">,</span> <span class="n">socktype</span><span class="p">,</span> <span class="n">proto</span><span class="p">)</span>
+
+        <span class="c"># Wrap it within a proxy socket</span>
+        <span class="k">return</span> <span class="n">ProxySock</span><span class="p">(</span>
+                <span class="n">sock</span><span class="p">,</span>
+                <span class="n">proxy_host</span><span class="p">,</span> 
+                <span class="n">proxy_port</span><span class="p">)</span>
+
+    <span class="c"># Replace the &quot;socket&quot; method by our custom one</span>
+    <span class="n">socket</span><span class="o">.</span><span class="n">socket_formal</span> <span class="o">=</span> <span class="n">socket</span><span class="o">.</span><span class="n">socket</span>
+    <span class="n">socket</span><span class="o">.</span><span class="n">socket</span> <span class="o">=</span> <span class="n">socket_proxy</span>
+</pre></div>
+</td></tr></table>
+      </div>
+    
+    </div>
+  
+    <div id="block-1" class="block">
+    
+      <div class="proseblock">
+      <h4 id="usage">Usage</h4>
+
+<p>Just call the <strong>setup_http_proxy</strong> method </p>
+
+<pre class="prettyprint"><code>setup_http_proxy("my.proxy", 8080)
+</code></pre>
+
+<h4 id="example">Example</h4>
+
+<p>Here is a sample script that does FTP over HTTP</p>
+
+<pre class="prettyprint"><code># Imports
+from ftplib import FTP
+from StringIO import StringIO
+
+# Constants
+PROXY_HOST="my.proxy"
+PROXY_PORT=8080
+FTP_HOST="my.ftp.site"
+FTP_USER="anonymous"
+FTP_PASS="anonymous"
+FTP_FILE="/path.to/file.txt"
+FTP_DIR="/path/to/folder/"
+
+# Install the proxy on the "socket" module
+setup_http_proxy(
+        PROXY_HOST, 
+        PROXY_PORT)
+
+# Now, the libftp module can do FTP over HTTP !!, transaprently
+ftp = FTP(
+        FTP_HOST, 
+        FTP_USER, 
+        FTP_PASS)
+
+# List content of a folder
+print "Content of folder '%s' : %s" % (FTP_DIR, ftp.nlst(FTP_DIR))
+
+# Get one file into buffer
+buffer= StringIO()
+ftp.retrlines("retr %s" % FTP_FILE, lambda line : buffer.write(line + "\n"))
+
+# Print it
+print "Content of file '%s' :\n%s" % (
+        FTP_FILE, 
+        buffer.getvalue()
+</code></pre>
+
+<h4 id="limitations-bugs">Limitations, bugs</h4>
+
+<p>The next step should be to enable t black list of "no_proxy" hosts (like 'localhost' or '*.mydomain.com'). It should be fairly easy to do.</p>
+
+      </div>
+    
+    </div>
+  
+  </div>
+  <div id="recipe_tools">
+    <!-- AddThis Button BEGIN -->
+    <script type="text/javascript">var addthis_config = {services_compact: 'delicious,digg,reddit,twitter,email,favorites,more', username: 'xa-4b4f86a749591ece', data_use_flash: false};</script>
+    <a class="addthis_button"></a>
+    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
+    <!-- AddThis Button END -->
+    <a href="/help/feedback/?type=flag&subject=Flag recipe 577643&amp;text=Please indicate **why** you want to flag that recipe."><img src="/static/img/flag.png"/></a>
+  </div>
+  
+  
+  <div class="print_only">
+    Tags: <a href="/recipes/tags/ftp/">ftp</a>, <a href="/recipes/tags/ftplib/">ftplib</a>, <a href="/recipes/tags/http/">http</a>, <a href="/recipes/tags/over/">over</a>, <a href="/recipes/tags/proxy/">proxy</a>, <a href="/recipes/tags/python/">python</a>, <a href="/recipes/tags/socket/">socket</a>, <a href="/recipes/tags/socks/">socks</a>
+  </div>
+  
+
+</td></tr></table> <!-- end of gutter_table -->
+
+
+
+
+<h4 class="section_header">6 comments</h4>
+<div id="comments">
+
+  <div class="section comment" id="c1">
+    <div class="comment_gutter" >
+      <div class="gravatar30">
+        <img src="http://www.gravatar.com/avatar.php?gravatar_id=780ec1620ef307299c3199c92b58e434&amp;d=identicon&amp;s=30" height="30" width="30"/>
+      </div>
+    </div>
+    <div class="comment_content">
+      
+      <div class="comment_header">
+        <a class="comment_author " href="/recipes/users/4178416/">test</a>
+        <span class="comment_time">2 years, 3 months ago</span>
+        <span class="comment_actions">
+            <a title="permalink" href="#c1">&nbsp;#</a>
+            |
+            <a title="flag comment as requiring moderator attention" href="/help/feedback/?type=flag&subject=Flag comment 1 of recipe 577643&amp;text=Please indicate **why** you want to flag that comment.">flag</a>
+            
+        </span>
+      </div>
+      <div class="comment_body">
+        <p>I'm behind a proxy server right now. Usually I connect with Filezilla over HTTP\1.1
+using CONNECT method, but for some tasks I need more functionality. 
+When trying to connect using your module I get this exception:</p>
+
+<pre class="prettyprint"><code>Traceback (most recent call last):
+  File "C:\Python27\MyScripts\ftp_client\main.py", line 19, in &lt;module&gt;
+    ftp = FTP(FTP_HOST, FTP_USER, FTP_PASS)
+  File "C:\Python27\lib\ftplib.py", line 117, in __init__
+    self.connect(host)
+  File "C:\Python27\lib\ftplib.py", line 133, in connect
+    self.af = self.sock.family
+AttributeError: ProxySock instance has no attribute 'family'
+</code></pre>
+
+<p>Is there a way to fix the problem? I'm using Python2.7</p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="section comment" id="c2">
+    <div class="comment_gutter" >
+      <div class="gravatar30">
+        <img src="http://www.gravatar.com/avatar.php?gravatar_id=8cb7f670738cb175c542c84e3ed1db9a&amp;d=identicon&amp;s=30" height="30" width="30"/>
+      </div>
+    </div>
+    <div class="comment_content">
+      
+      <div class="comment_header">
+        <a class="comment_author owner_comment" href="/recipes/users/4135673/">Raphaël Jolivet <span style="font-size: 90%">(author)</span></a>
+        <span class="comment_time">2 years, 3 months ago</span>
+        <span class="comment_actions">
+            <a title="permalink" href="#c2">&nbsp;#</a>
+            |
+            <a title="flag comment as requiring moderator attention" href="/help/feedback/?type=flag&subject=Flag comment 2 of recipe 577643&amp;text=Please indicate **why** you want to flag that comment.">flag</a>
+            
+        </span>
+      </div>
+      <div class="comment_body">
+        <p>Ok I didn't copy the attribute from the wrapped socket.
+It worked fine for me.</p>
+
+<p>Let's add some code in the ProxySock constructor :
+self.family = socket.family
+self.type = socket.type
+self.proto = socket.proto</p>
+
+<p>I have updated the code.
+Please try again and tell if it works.</p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="section comment" id="c3">
+    <div class="comment_gutter" >
+      <div class="gravatar30">
+        <img src="http://www.gravatar.com/avatar.php?gravatar_id=780ec1620ef307299c3199c92b58e434&amp;d=identicon&amp;s=30" height="30" width="30"/>
+      </div>
+    </div>
+    <div class="comment_content">
+      
+      <div class="comment_header">
+        <a class="comment_author " href="/recipes/users/4178416/">test</a>
+        <span class="comment_time">2 years, 3 months ago</span>
+        <span class="comment_actions">
+            <a title="permalink" href="#c3">&nbsp;#</a>
+            |
+            <a title="flag comment as requiring moderator attention" href="/help/feedback/?type=flag&subject=Flag comment 3 of recipe 577643&amp;text=Please indicate **why** you want to flag that comment.">flag</a>
+            
+        </span>
+      </div>
+      <div class="comment_body">
+        <p>Now it works fine, thanks. Now I have all the instruments I need to work over an ftp</p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="section comment" id="c4">
+    <div class="comment_gutter" >
+      <div class="gravatar30">
+        <img src="http://www.gravatar.com/avatar.php?gravatar_id=8cb7f670738cb175c542c84e3ed1db9a&amp;d=identicon&amp;s=30" height="30" width="30"/>
+      </div>
+    </div>
+    <div class="comment_content">
+      
+      <div class="comment_header">
+        <a class="comment_author owner_comment" href="/recipes/users/4135673/">Raphaël Jolivet <span style="font-size: 90%">(author)</span></a>
+        <span class="comment_time">2 years, 3 months ago</span>
+        <span class="comment_actions">
+            <a title="permalink" href="#c4">&nbsp;#</a>
+            |
+            <a title="flag comment as requiring moderator attention" href="/help/feedback/?type=flag&subject=Flag comment 4 of recipe 577643&amp;text=Please indicate **why** you want to flag that comment.">flag</a>
+            
+        </span>
+      </div>
+      <div class="comment_body">
+        <p>Thanks to you for your feedback.
+I'm glad to see it is useful to someone.
+That's the reason why I share code snipnets here.</p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="section comment" id="c5">
+    <div class="comment_gutter" >
+      <div class="gravatar30">
+        <img src="http://www.gravatar.com/avatar.php?gravatar_id=f981b37f5120cd32282071b4e9de12bb&amp;d=identicon&amp;s=30" height="30" width="30"/>
+      </div>
+    </div>
+    <div class="comment_content">
+      
+      <div class="comment_header">
+        <a class="comment_author " href="/recipes/users/4179520/">ms4py</a>
+        <span class="comment_time">1 year, 12 months ago</span>
+        <span class="comment_actions">
+            <a title="permalink" href="#c5">&nbsp;#</a>
+            |
+            <a title="flag comment as requiring moderator attention" href="/help/feedback/?type=flag&subject=Flag comment 5 of recipe 577643&amp;text=Please indicate **why** you want to flag that comment.">flag</a>
+            
+        </span>
+      </div>
+      <div class="comment_body">
+        <p>You should use a new-style class (<code>class ProxySock(object)</code>) with <code>__getattr__</code> instead of copying attributes and wrapping methods:</p>
+
+<pre class="prettyprint"><code>def __getattr__(self, name):
+    '''Automatically wrap methods and attributes for socket object.'''
+    return getattr(self.socket, name)
+</code></pre>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="section comment" id="c6">
+    <div class="comment_gutter" id="clast">
+      <div class="gravatar30">
+        <img src="http://www.gravatar.com/avatar.php?gravatar_id=d7ed6379b5f016cb307336713235b121&amp;d=identicon&amp;s=30" height="30" width="30"/>
+      </div>
+    </div>
+    <div class="comment_content">
+      
+      <div class="comment_header">
+        <a class="comment_author " href="/recipes/users/4186991/">fizejfi</a>
+        <span class="comment_time">3 months, 1 week ago</span>
+        <span class="comment_actions">
+            <a title="permalink" href="#c6">&nbsp;#</a>
+            |
+            <a title="flag comment as requiring moderator attention" href="/help/feedback/?type=flag&subject=Flag comment 6 of recipe 577643&amp;text=Please indicate **why** you want to flag that comment.">flag</a>
+            
+        </span>
+      </div>
+      <div class="comment_body">
+        <p>Hello Raphael,
+My proxy needs an authentification with a username and a password. (different from the username and the password of the ftp I try to reach)
+How can I implement it with your solution ?
+Thanks</p>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<div id="addcomment">
+  <h4 class="section_header">Add a comment</h4>
+  <div class="section">
+    <div class="comment_gutter">
+      
+    </div>
+    <div class="comment_content">
+      
+        <p id="signin_to_comment"><a href="https://account.activestate.com/signin/?next=http%3A//code.activestate.com/recipes/577643-transparent-http-tunnel-for-python-sockets-to-be-u/">Sign in</a> to comment</p>
+      
+    </div>
+  </div>
+</div>
+
+      </div> <!-- end of content -->
+    </div> <!-- end of as_content -->
+  </div> <!-- end of as_content_wrapper -->
+  
+  <div id="as_sidebar_wrapper">
+    <div id="as_sidebar">
+    
+
+<div id="as_sidebar_dynamic">
+
+
+
+
+<table class="gravatar">
+<tr><td style="width: 40px;">
+<img src="http://www.gravatar.com/avatar.php?gravatar_id=8cb7f670738cb175c542c84e3ed1db9a&amp;d=identicon&s=30" height="30" width="30"/>
+</td><td>
+Created by <a href="/recipes/users/4135673/">Raphaël Jolivet</a>
+on <span class="nowrap">Thu, 7 Apr 2011</span>
+(<a href="/recipes/tags/meta:license=mit/" title="Licensed under the MIT License">MIT</a>)
+</td></tr>
+</table>
+
+<table class="prevnext">
+
+<tr class="prevnext-lang-python">
+<td><a class="prevnext_arrow" href="/recipes/577642-mandelbrot-trajectories/?in=lang-python" title="Previous element in Python recipes">&#x25C4;</a></td>
+<td class="prevnext_label"><a href="/recipes/langs/python">Python recipes (4110)</a></td>
+<td><a class="prevnext_arrow" href="/recipes/577644-simple-lf-audio-oscilloscope-using-standard-python/?in=lang-python" title="Next element in Python recipes">&#x25BA;</a></td>
+</tr>
+
+<tr class="prevnext-user-4135673">
+<td><a class="prevnext_arrow" href="/recipes/577620-jardiff/?in=user-4135673" title="Previous element in Raphaël Jolivet&#39;s recipes">&#x25C4;</a></td>
+<td class="prevnext_label"><a href="/recipes/users/4135673">Raphaël Jolivet&#39;s recipes (6)</a></td>
+<td><a class="prevnext_arrow" href="/recipes/577677-balance-refunds-of-dues-between-friends/?in=user-4135673" title="Next element in Raphaël Jolivet&#39;s recipes">&#x25BA;</a></td>
+</tr>
+
+</table>
+
+
+
+
+
+<div id="tags">
+<h3>Tags</h3>
+<ul class="nomachinetags flat"><li class="tag" id="tag-li-507"><a href="/recipes/tags/ftp/" class="tag">ftp</a></li><li class="tag" id="tag-li-3295"><a href="/recipes/tags/ftplib/" class="tag">ftplib</a></li><li class="tag" id="tag-li-246"><a href="/recipes/tags/http/" class="tag">http</a></li><li class="tag" id="tag-li-3288"><a href="/recipes/tags/over/" class="tag">over</a></li><li class="tag" id="tag-li-441"><a href="/recipes/tags/proxy/" class="tag">proxy</a></li><li class="tag" id="tag-li-2508"><a href="/recipes/tags/python/" class="tag">python</a></li><li class="tag" id="tag-li-771"><a href="/recipes/tags/socket/" class="tag">socket</a></li><li class="tag" id="tag-li-3289"><a href="/recipes/tags/socks/" class="tag">socks</a></li></ul><a class="machine_tag_toggle"><span>&#x25b6; Show</span> machine tags (6)</a> <a class="machine_tag_help" href="/help/tags/" title="help about tags and machine tags"><img src="/static/img/help.png"/></a><ul class="machinetags flat"><li class="tag" id="tag-li-2085"><a href="/recipes/tags/meta:language=python/" class="tag">meta:language=python</a></li><li class="tag" id="tag-li-2086"><a href="/recipes/tags/meta:license=mit/" class="tag">meta:license=mit</a></li><li class="tag" id="tag-li-2276"><a href="/recipes/tags/meta:loc=144/" class="tag">meta:loc=144</a></li><li class="tag" id="tag-li-2522"><a href="/recipes/tags/meta:min_python_2=5/" class="tag">meta:min_python_2=5</a></li><li class="tag" id="tag-li-1495"><a href="/recipes/tags/meta:requires=socket/" class="tag">meta:requires=socket</a></li><li class="tag" id="tag-li-1379"><a href="/recipes/tags/meta:score=2/" class="tag">meta:score=2</a></li></ul>
+
+
+
+</div>
+
+<div id="requires">
+  <h3>Required Modules</h3>
+  <ul class="flat">
+  
+  <li><a href="/recipes/langs/python/tags/meta:requires=socket/">socket</a>
+  
+  
+  
+  
+  </li>
+  
+  </ul>
+
+
+</div>
+
+
+<div id="otherinfo">
+<h3>Other Information and Tasks</h3>
+<ul class="action_list">
+  
+  <li><a href="/recipes/add/?fork=577643">Fork this recipe</a></li>
+  <li>Licensed under the <a href="/recipes/tags/meta:license=mit/">MIT License</a></li>
+  <li>Viewed 8067 times</li>
+  
+  
+  
+  <li><a href="history/4/" title="Recipe history">Revision 4</a>
+  
+  <span class="secondary">(updated 1 year ago)</span>
+  </li>
+  
+</ul>
+</div>
+
+</div>
+
+
+<div style="margin: 30px 15px;">
+
+<script type='text/javascript'><!--//<![CDATA[
+  var m3_u = (location.protocol=='https:'?'https://ads.activestate.com/www/delivery/ajs.php':'http://ads.activestate.com/www/delivery/ajs.php');
+  var m3_r = Math.floor(Math.random()*99999999999);
+  if (!document.MAX_used) document.MAX_used = ',';
+  document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+  document.write ("?zoneid=1");
+  document.write ('&amp;cb=' + m3_r);
+  if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+  document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+  document.write ("&amp;loc=" + escape(window.location));
+  if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+  if (document.context) document.write ("&context=" + escape(document.context));
+  if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+  document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://ads.activestate.com/www/delivery/ck.php?n=aa9dea02&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://ads.activestate.com/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=aa9dea02' border='0' alt='' /></a></noscript>
+</div>
+
+
+    </div> <!-- end of sidebar -->
+  </div> <!-- end of as_sidebar_wrapper -->
+
+  <div class="as_clear">&nbsp;</div>
+</div> <!-- end of as_middle -->
+
+
+<div id="as_footer_wrapper" class="as_footer2 nosearchhi">
+<div id="as_footer">
+<div class="as_footer2_section">
+  <h4 class="as_footer2_header">Accounts</h4>
+  <ul>
+    
+    <li><a href="https://account.activestate.com/signup/?activationnext=http%3A//code.activestate.com/recipes/577643-transparent-http-tunnel-for-python-sockets-to-be-u/">Create Account (Free!)</a></li>
+    <li><a href="https://account.activestate.com/signin/?next=http%3A//code.activestate.com/recipes/577643-transparent-http-tunnel-for-python-sockets-to-be-u/">Sign In</a></li>
+    
+    
+  </ul>
+</div>
+<div class="as_footer2_section">
+  <h4 class="as_footer2_header">Code Recipes</h4>
+  <ul>
+    
+<li><a href="/recipes/add/">Add a recipe</a></li>
+<li><a href="/recipes/">Recipes</a></li>
+<li><a href="/recipes/langs/">Languages</a></li>
+<li><a href="/recipes/tags/">Tags</a></li>
+<li><a href="/recipes/users/">Authors</a></li>
+<li><a href="/recipes/sets/">Sets</a></li>
+
+  </ul>
+</div>
+<div class="as_footer2_section">
+  <h4 class="as_footer2_header">Feedback & Information</h4>
+  <ul>
+    <li><a href="/help/feedback/?type=general">Give Site Feedback</a></li>
+    <li><a href="/help/feedback/?type=bug&subject=Problem on page '/recipes/577643-transparent-http-tunnel-for-python-sockets-to-be-u/'">Report a Site Problem</a></li>
+    <li style="margin-top: 10px;"><a href="/about/">About</a></li>
+    <li><a href="/help/faq/">FAQ</a></li>
+    <li><a href="/help/terms/">Terms of Service</a></li>
+  </ul>
+</div>
+<div class="as_footer2_section">
+  <h4 class="as_footer2_header">ActiveState</h4>
+  <ul>
+    <li class="as_footer2_feed"><a href="http://www.activestate.com/blog">ActiveState Blog</a></li>
+    <li><a title="Perl Solutions" href="http://www.activestate.com/perl">Perl Solutions</a></li>
+    <li><a title="Python Solutions" href="http://www.activestate.com/python">Python Solutions</a></li>
+    <li><a title="Tcl Solutions" href="http://www.activestate.com/tcl">Tcl Solutions</a></li>
+    <li><a title="Download Perl" href="http://www.activestate.com/activeperl/downloads">Download ActivePerl</a></li>
+    <li><a title="Download Python" href="http://www.activestate.com/activepython/downloads">Download ActivePython</a></li>
+    <li><a title="Download Tcl" href="http://www.activestate.com/activetcl/downloads">Download ActiveTcl</a></li>
+    <li style="margin-top: 10px"><a href="http://www.activestate.com/company">About ActiveState</a></li>
+    <li><a href="http://www.activestate.com/company/careers">Careers</a></li>
+  </ul>
+</div>
+<div class="as_footer2_copyright">
+  <p>
+  <a href="http://www.activestate.com/privacy-policy">Privacy Policy</a>
+  | <a href="http://www.activestate.com/company/contact-us">Contact Us</a>
+  | <a href="http://www.activestate.com/support">Support</a>
+  </p>
+  <p>&copy; 2013 ActiveState Software Inc. All rights reserved.
+  ActiveState&reg;, Komodo&reg;, ActivePerl&reg;, ActivePython&reg;, ActiveTcl&reg;,
+  and Stackato&reg; are registered trademarks of ActiveState.
+  All other marks are property of their respective owners.</p>
+</div>
+</div> <!-- end of as_footer -->
+</div> <!-- end of as_footer_wrapper -->
+
+<div id="as_messagebar" style="display: none;">
+  <span style="float: right;">
+    <b onclick="$('#as_messagebar').slideUp(150);" style="cursor: pointer;">&nbsp;x&nbsp;</b>
+  </span>
+  <span class="message">&nbsp;</span>
+  <span class="message-undo" style="display: none;">
+    <form method="POST" action=""><button type="submit"><div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='dc95d50a6e0e70b46cc3ef371285d190' /></div><u>Undo</u></button></form>
+  </span>
+</div>
+
+</div> <!-- end of as_wrapper -->
+
+
+<script src="/static/prettify/prettify.js"></script> 
+<script type="text/javascript"> 
+ $(function() {
+    prettyPrint();
+ });
+</script> 
+
+
+
+
+
+
+
+
+<script src="/static/js/flash_detect_min.js" type="text/javascript"></script>
+<script src="/static/zeroclipboard/ZeroClipboard.js" type="text/javascript"></script>
+<script src="/static/js/recipes.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function() {
+    Recipes.hijax_sidebar();
+    Recipes.hijax_voting();
+    // hide machine tags by default
+    Recipes.toggle_machine_tags(false);
+    Recipes.highlight_last_comment();
+    // setup copy button
+    Recipes.setup_copy_button("", "");
+    // Pre-load wait animation used for voting buttons.
+    $('<img src="/static/img/ajax-loader.gif"/>');
+});
+var in_param = "";
+</script>
+
+
+
+
+
+
+    <!-- python tracking -->
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 1071420929;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "666666";
+    var google_conversion_label = "qWX3CIvQhAIQgazy_gM";
+    var google_conversion_value = 0;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="https://www.googleadservices.com/pagead/conversion/1071420929/?label=qWX3CIvQhAIQgazy_gM&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+
+
+
+
+
+
+</body>
+</html>

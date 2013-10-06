@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/
+dc: http://purl.org/dc/terms/
+foaf: http://xmlns.com/foaf/0.1/
+og: http://ogp.me/ns#
+rdfs: http://www.w3.org/2000/01/rdf-schema#
+sioc: http://rdfs.org/sioc/ns#
+sioct: http://rdfs.org/sioc/types#
+skos: http://www.w3.org/2004/02/skos/core#
+xsd: http://www.w3.org/2001/XMLSchema#
+">
+  <head>
+    <meta charset="utf-8" />
+<script>var _sf_startpt=(new Date()).getTime()</script><meta property="og:type" content="article" />
+<meta property="og:site_name" content="Popular Science" />
+<link rel="shortlink" href="http://www.popsci.com/node/132991" />
+<meta property="og:url" content="http://www.popsci.com/article/gadgets/valve-announces-multiple-steam-consoles-will-not-show-them" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="shortcut icon" href="http://www.popsci.com/sites/popsci.com/themes/popsci/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="http://www.popsci.com/article/gadgets/valve-announces-multiple-steam-consoles-will-not-show-them" />
+<meta property="og:image" content="http://www.popsci.com/sites/popsci.com/files/images/2013/09/Screen%20shot%202013-09-25%20at%201.00.24%20PM.png" />
+<meta about="/article/gadgets/valve-announces-multiple-steam-consoles-will-not-show-them" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+<meta content="" about="/article/gadgets/valve-announces-multiple-steam-consoles-will-not-show-them" property="dc:title" />
+<meta name="description" content="As part two in a week-long, three-part announcement, Valve announced a cool thing coming soon--but that they can&#039;t tell us about yet." />
+<meta property="og:title" content="Valve Announces Multiple Steam Consoles, Will Not Show Them" />
+<meta property="og:description" content="As part two in a week-long, three-part announcement, Valve announced a cool thing coming soon--but that they can&#039;t tell us about yet." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+    <title>Valve Announces Multiple Steam Consoles, Will Not Show Them | Popular Science</title>
+    <link type="text/css" rel="stylesheet" href="http://www.popsci.com/sites/popsci.com/files/css/css_pbm0lsQQJ7A7WCCIMgxLho6mI_kBNgznNUWmTWcnfoE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.popsci.com/sites/popsci.com/files/css/css_aPP0JuaXhMIpEe4lktskL5D8Er5llGZES-X1QalndYM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.popsci.com/sites/popsci.com/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="http://www.popsci.com/sites/popsci.com/files/css/css_6_p9Ntl10e_sHbH2eNZScqBFMJIoudlDjZUTVktBAOw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.popsci.com/sites/popsci.com/files/css/css_EDYuTcluj3RO8ZE4UXGzDVBrEmBRMPyxFZmiKunzzlA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.popsci.com/sites/popsci.com/files/css/css_0hSM5DfpBKs-PSSaU8NV4JERB-mWVINKKrDT4jh8p3M.css" media="all" />
+    <script type="text/javascript" src="http://www.popsci.com/sites/popsci.com/files/js/js_zzcIWOou_jnX0ZWAIA4sb6Xy_p5a8FZNA0GySvuWjPU.js"></script>
+<script type="text/javascript" src="http://www.popsci.com/sites/popsci.com/files/js/js_UiNZEFy2N7eflNz4BAtW3bO07NFLSmKmvYWEAuB9RFo.js"></script>
+<script type="text/javascript" src="http://www.popsci.com/sites/popsci.com/files/js/js_92yF4b-6SmrbW_6OBBTXmGl1dqZ5NbGCE-xvWTSVR-4.js"></script>
+<script type="text/javascript" src="http://www.popsci.com/sites/popsci.com/files/js/js_ZferFm4p2i49GlxxN6QufLo-D20N2DKJJ6DJIt65W7k.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+deviceRec.trackName = document.title;
+deviceRec.trackUrl = document.location.href;
+deviceRec.displayValues = false;
+deviceRec.init();
+jQuery(window).load(function(){csTracking.init()});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(
+    Drupal.settings, {
+      "clickstream_tracking" : {
+        "mobile" : deviceRec.mobileBrowser, 
+        "device" : deviceRec.device
+      }
+    }
+    )
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.popsci.com/sites/popsci.com/files/js/js_E1GNaVyyDIeHGNQ_AhjPQWmKxhEkn2COO-ToBYJQ-QA.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"popsci","theme_token":"tUIonQOx3aV0nAG1M6W-rDN_Z7VCn_uWmzP0X8TfFMk","js":{"sites\/popsci.com\/modules\/bonnier\/track_click\/js\/tracking.js":1,"sites\/popsci.com\/modules\/contrib\/jquery_update\/replace\/jquery\/1.5\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/popsci.com\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/popsci.com\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/popsci.com\/modules\/contrib\/borrowed_pane\/js\/borrowed-pane.js":1,"sites\/popsci.com\/modules\/bonnier\/post_social\/js\/post_social.js":1,"sites\/popsci.com\/modules\/contrib\/gpt\/js\/gpt.js":1,"sites\/popsci.com\/modules\/contrib\/modal_forms\/js\/modal_forms_login.js":1,"sites\/popsci.com\/modules\/bonnier\/bonnier_ads_circ\/js\/bonnier_ads_circ.js":1,"sites\/popsci.com\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/popsci.com\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/popsci.com\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/popsci.com\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/popsci.com\/modules\/contrib\/colorbox\/js\/colorbox_inline.js":1,"misc\/progress.js":1,"sites\/popsci.com\/modules\/contrib\/ctools\/js\/modal.js":1,"sites\/popsci.com\/modules\/contrib\/modal_forms\/js\/modal_forms_popup.js":1,"sites\/popsci.com\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/popsci.com\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"sites\/popsci.com\/modules\/bonnier\/bonnier_analytics\/providers\/clickstream_tracking\/js\/device_recognition.js":1,"sites\/popsci.com\/modules\/bonnier\/bonnier_analytics\/providers\/clickstream_tracking\/js\/clickstream_tracking.js":1,"sites\/popsci.com\/modules\/bonnier\/bonnier_analytics\/providers\/omniture\/js\/omniture.js":1,"sites\/popsci.com\/modules\/bonnier\/solr_client_form\/js\/solr_client_form.js":1,"sites\/popsci.com\/modules\/bonnier\/social_plugins\/js\/social_side_bar.js":1,"sites\/popsci.com\/modules\/bonnier\/social_plugins\/js\/social_sidebar_init.js":1,"sites\/popsci.com\/modules\/bonnier\/bonnier_publications\/js\/bonnier_publications.js":1,"0":1,"1":1,"sites\/popsci.com\/themes\/popsci\/js\/html5.js":1,"sites\/popsci.com\/themes\/popsci\/js\/popsci.js":1,"sites\/popsci.com\/themes\/popsci\/js\/jquery.flexslider.js":1,"sites\/popsci.com\/themes\/popsci\/js\/carousels.js":1,"sites\/popsci.com\/themes\/popsci\/js\/responsive-video\/responsive-video.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/popsci.com\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/popsci.com\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/popsci.com\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/popsci.com\/modules\/contrib\/flexslider\/assets\/css\/flexslider_img.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"sites\/popsci.com\/modules\/contrib\/smart_paging\/css\/smart-paging.css":1,"sites\/popsci.com\/modules\/bonnier\/social_plugins\/css\/social_icons.css":1,"sites\/popsci.com\/modules\/bonnier\/social_plugins\/css\/social_side_bar.css":1,"modules\/user\/user.css":1,"sites\/popsci.com\/modules\/contrib\/views\/css\/views.css":1,"sites\/popsci.com\/modules\/contrib\/ckeditor\/ckeditor.css":1,"sites\/popsci.com\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/popsci.com\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/popsci.com\/modules\/contrib\/ctools\/css\/modal.css":1,"sites\/popsci.com\/modules\/contrib\/modal_forms\/css\/modal_forms_popup.css":1,"sites\/popsci.com\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/popsci.com\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"sites\/popsci.com\/themes\/popsci\/layouts\/content_article_sidebar_footer\/content_article_sidebar_footer.css":1,"sites\/popsci.com\/themes\/popsci\/layouts\/site_main_layout\/site_main_layout.css":1,"sites\/popsci.com\/modules\/contrib\/panels\/plugins\/layouts\/onecol\/onecol.css":1,"sites\/popsci.com\/themes\/popsci\/layouts\/content_twocol\/content_twocol.css":1,"sites\/popsci.com\/themes\/popsci\/css\/popsci.css":1}},"bonnier_ads_circ":{"server":"http:\/\/cas.bonniercorp.com","account":"PSC","ad_blocks":[]},"wysiwyg_allowed_attributes":["height","width","hspace","vspace","border","align","style","alt","title","class","id","usemap","data-image_style"],"colorbox":{"transition":"elastic","speed":"350","opacity":"0.85","slideshow":false,"slideshowAuto":true,"slideshowSpeed":"2500","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","overlayClose":true,"maxWidth":"98%","maxHeight":"98%","initialWidth":"75%","initialHeight":"75%","fixed":true,"scrolling":true},"CToolsModal":{"loadingText":"Loading...","closeText":"Close Window","closeImage":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/www.popsci.com\/sites\/popsci.com\/modules\/contrib\/ctools\/images\/icon-close-window.png\u0022 alt=\u0022Close window\u0022 title=\u0022Close window\u0022 \/\u003E","throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/www.popsci.com\/sites\/popsci.com\/modules\/contrib\/ctools\/images\/throbber.gif\u0022 alt=\u0022Loading\u0022 title=\u0022Loading...\u0022 \/\u003E"},"modal-popup-small":{"modalSize":{"type":"fixed","width":300,"height":300},"modalOptions":{"opacity":0.85,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/www.popsci.com\/sites\/popsci.com\/modules\/contrib\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022Loading...\u0022 title=\u0022Loading\u0022 \/\u003E","closeText":"Close"},"modal-popup-medium":{"modalSize":{"type":"fixed","width":550,"height":450},"modalOptions":{"opacity":0.85,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/www.popsci.com\/sites\/popsci.com\/modules\/contrib\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022Loading...\u0022 title=\u0022Loading\u0022 \/\u003E","closeText":"Close"},"modal-popup-large":{"modalSize":{"type":"scale","width":0.8,"height":0.8},"modalOptions":{"opacity":0.85,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/www.popsci.com\/sites\/popsci.com\/modules\/contrib\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022Loading...\u0022 title=\u0022Loading\u0022 \/\u003E","closeText":"Close"},"trackClick":[{"n":"Main nav flyouts","s":"div.pane-main-menu li li a","c":"dom=PSC\u0026loc=mainnavflyout\u0026lnk=%"},{"n":"Main nav","s":"div.pane-main-menu \u003E div \u003E ul \u003E li \u003E a","c":"dom=PSC\u0026loc=mainnav\u0026lnk=%"},{"n":"Header link","s":"div.pane-popsci-site-popsci-site-login-menu li:not(\u0027.first\u0027) a","c":"dom=PSC\u0026loc=header\u0026lnk=%"},{"n":"Sub nav","s":"div.pane-menu-main-sub-nav a","c":"dom=PSC\u0026loc=subnav\u0026lnk=%"},{"n":"Popular 1","s":"div.pane-menu-main-popular-nav li:eq(0) a","c":"dom=PSC\u0026loc=popular\u0026lnk=1\u0026con=%"},{"n":"Popular 2","s":"div.pane-menu-main-popular-nav li:eq(1) a","c":"dom=PSC\u0026loc=popular\u0026lnk=2\u0026con=%"},{"n":"Popular 3","s":"div.pane-menu-main-popular-nav li:eq(2) a","c":"dom=PSC\u0026loc=popular\u0026lnk=3\u0026con=%"},{"n":"Logo","s":"a#logo","c":"dom=PSC\u0026loc=logo"},{"n":"Slider 1","s":"div.pane-popsci-site-home-slideshow .slides li:eq(1) a","c":"dom=PSC\u0026loc=slider\u0026lnk=1\u0026con=%"},{"n":"Slider 2","s":"div.pane-popsci-site-home-slideshow .slides li:eq(2) a","c":"dom=PSC\u0026loc=slider\u0026lnk=2\u0026con=%"},{"n":"Slider 3","s":"div.pane-popsci-site-home-slideshow .slides li:eq(3) a","c":"dom=PSC\u0026loc=slider\u0026lnk=3\u0026con=%"},{"n":"Slider 4","s":"div.pane-popsci-site-home-slideshow .slides li:eq(4) a","c":"dom=PSC\u0026loc=slider\u0026lnk=4\u0026con=%"},{"n":"Slider 5","s":"div.pane-popsci-site-home-slideshow .slides li:eq(5) a","c":"dom=PSC\u0026loc=slider\u0026lnk=5\u0026con=%"},{"n":"Slider 6","s":"div.pane-popsci-site-home-slideshow .slides li:eq(6) a","c":"dom=PSC\u0026loc=slider\u0026lnk=6\u0026con=%"},{"n":"Top Stories","s":"div.pane-node-field-top-stories .field-items a","c":"dom=PSC\u0026loc=topstories\u0026con=%"},{"n":"Most Recent 1","s":"div.views-row-1 a","c":"dom=PSC\u0026loc=recent\u0026lnk=1\u0026con=%"},{"n":"Most Recent 2","s":"div.views-row-2 a","c":"dom=PSC\u0026loc=recent\u0026lnk=2\u0026con=%"},{"n":"Most Recent 3","s":"div.views-row-3 a","c":"dom=PSC\u0026loc=recent\u0026lnk=3\u0026con=%"},{"n":"Most Recent 4","s":"div.views-row-4 a","c":"dom=PSC\u0026loc=recent\u0026lnk=4\u0026con=%"},{"n":"Most Recent 5","s":"div.views-row-5 a","c":"dom=PSC\u0026loc=recent\u0026lnk=5\u0026con=%"},{"n":"Most Recent 6","s":"div.views-row-6 a","c":"dom=PSC\u0026loc=recent\u0026lnk=6\u0026con=%"},{"n":"Most Recent 7","s":"div.views-row-7 a","c":"dom=PSC\u0026loc=recent\u0026lnk=7\u0026con=%"},{"n":"Most Recent 8","s":"div.views-row-8 a","c":"dom=PSC\u0026loc=recent\u0026lnk=8\u0026con=%"},{"n":"Most Recent 9","s":"div.views-row-9 a","c":"dom=PSC\u0026loc=recent\u0026lnk=9\u0026con=%"},{"n":"Most Recent 10","s":"div.views-row-10 a","c":"dom=PSC\u0026loc=recent\u0026lnk=10\u0026con=%"}],"social_plugins":{"facebook":{"view":"faces","username":"60342206410"},"twitter":{"markup":"\u003Ca  class=\u0022twitter-timeline\u0022 href=\u0022https:\/\/twitter.com\/popsci\u0022 data-widget-id=\u0022372453896037224449\u0022 height=\u0022360\u0022\u003ETweets by @popsci\u003C\/a\u003E\u003Cscript\u003E\n  !function(d,s,id){\n  var js;\n  var fjs=d.getElementsByTagName(s)[0];\n  var p=\/^http:\/.test(d.location)?\u0027http\u0027:\u0027https\u0027;\n  if(!d.getElementById(id)){\n  js=d.createElement(s);\n  js.id=id;\n  js.src=p+\u0022:\/\/platform.twitter.com\/widgets.js\u0022;\n  fjs.parentNode.insertBefore(js,fjs);\n  }}(document,\u0022script\u0022,\u0022twitter-wjs\u0022);\u003C\/script\u003E\n  "},"instagram":"\u003Cdiv\u003E\u003Ca href=\u0022http:\/\/instagram.com\/p\/bOjWCnsPp9\/\u0022 height=\u002285\u0022 width=\u002285\u0022 border=\u00220\u0022\u003E\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/distilleryimage9.s3.amazonaws.com\/e822c236e25d11e2896422000a1fb003_5.jpg\u0022 alt=\u0022\u0022 \/\u003E\u003C\/a\u003E\u003C\/div\u003E\u003Cdiv\u003E\u003Ca href=\u0022http:\/\/instagram.com\/p\/bG81W4sPqv\/\u0022 height=\u002285\u0022 width=\u002285\u0022 border=\u00220\u0022\u003E\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/distilleryimage3.s3.amazonaws.com\/058c1b82e00c11e28a2722000a9f1925_5.jpg\u0022 alt=\u0022\u0022 \/\u003E\u003C\/a\u003E\u003C\/div\u003E\u003Cdiv\u003E\u003Ca href=\u0022http:\/\/instagram.com\/p\/bGwhIXsPo6\/\u0022 height=\u002285\u0022 width=\u002285\u0022 border=\u00220\u0022\u003E\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/distilleryimage2.s3.amazonaws.com\/fcc9ca12dffc11e28eb822000a1ddb86_5.jpg\u0022 alt=\u0022\u0022 \/\u003E\u003C\/a\u003E\u003C\/div\u003E\u003Cdiv\u003E\u003Ca href=\u0022http:\/\/instagram.com\/p\/azLNVRsPmq\/\u0022 height=\u002285\u0022 width=\u002285\u0022 border=\u00220\u0022\u003E\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/distilleryimage2.s3.amazonaws.com\/119a1bfeda0311e28e6622000a9f0a1a_5.jpg\u0022 alt=\u0022\u0022 \/\u003E\u003C\/a\u003E\u003C\/div\u003E\u003Cdiv\u003E\u003Ca href=\u0022http:\/\/instagram.com\/p\/azK_EwsPmL\/\u0022 height=\u002285\u0022 width=\u002285\u0022 border=\u00220\u0022\u003E\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/distilleryimage7.s3.amazonaws.com\/cbfcd938da0211e297b922000a1fa527_5.jpg\u0022 alt=\u0022\u0022 \/\u003E\u003C\/a\u003E\u003C\/div\u003E\u003Cdiv\u003E\u003Ca href=\u0022http:\/\/instagram.com\/p\/Z3WrHvMPqP\/\u0022 height=\u002285\u0022 width=\u002285\u0022 border=\u00220\u0022\u003E\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/distilleryimage7.s3.amazonaws.com\/9091561ac7c111e2914122000a9f1439_5.jpg\u0022 alt=\u0022\u0022 \/\u003E\u003C\/a\u003E\u003C\/div\u003E\u003Cdiv\u003E\u003Ca href=\u0022http:\/\/instagram.com\/p\/Z3TTkWMPmN\/\u0022 height=\u002285\u0022 width=\u002285\u0022 border=\u00220\u0022\u003E\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/distilleryimage5.s3.amazonaws.com\/7410457cc7bd11e2bfdf22000aa80117_5.jpg\u0022 alt=\u0022\u0022 \/\u003E\u003C\/a\u003E\u003C\/div\u003E\u003Cdiv\u003E\u003Ca href=\u0022http:\/\/instagram.com\/p\/Zs8ix6MPtj\/\u0022 height=\u002285\u0022 width=\u002285\u0022 border=\u00220\u0022\u003E\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/distilleryimage11.s3.amazonaws.com\/6ad60f7cc49411e2b42122000a9d0ed9_5.jpg\u0022 alt=\u0022\u0022 \/\u003E\u003C\/a\u003E\u003C\/div\u003E\u003Cdiv\u003E\u003Ca href=\u0022http:\/\/instagram.com\/p\/Zs7pXIsPsY\/\u0022 height=\u002285\u0022 width=\u002285\u0022 border=\u00220\u0022\u003E\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/distilleryimage0.s3.amazonaws.com\/5278f5f8c49311e28d1822000a1f8cf0_5.jpg\u0022 alt=\u0022\u0022 \/\u003E\u003C\/a\u003E\u003C\/div\u003E","pinterest":{"user":"popularscience","feed":"\u003Cdiv class=\u0022item\u0022\u003E\u003Cdiv class=\u0022wrapper\u0022\u003E\u003Ca href=\u0022http:\/\/www.pinterest.com\/pin\/552324341771408396\/\u0022 height=\u002285\u0022 width=\u002285\u0022 border=\u00220\u0022\u003E\u003Cimg src=\u0022http:\/\/media-cache-ak0.pinimg.com\/192x\/a9\/ae\/5b\/a9ae5b33fa63828693c66ecf8e5cf102.jpg\u0022\u003E\u003C\/a\u003E\u003C\/div\u003E\u003C\/div\u003E\u003Cdiv class=\u0022item\u0022\u003E\u003Cdiv class=\u0022wrapper\u0022\u003E\u003Ca href=\u0022http:\/\/www.pinterest.com\/pin\/552324341771408393\/\u0022 height=\u002285\u0022 width=\u002285\u0022 border=\u00220\u0022\u003E\u003Cimg src=\u0022http:\/\/media-cache-ec0.pinimg.com\/192x\/96\/54\/cf\/9654cf2a2ba451d90cd80de34f150ed9.jpg\u0022\u003E\u003C\/a\u003E\u003C\/div\u003E\u003C\/div\u003E\u003Cdiv class=\u0022item\u0022\u003E\u003Cdiv class=\u0022wrapper\u0022\u003E\u003Ca href=\u0022http:\/\/www.pinterest.com\/pin\/552324341771408388\/\u0022 height=\u002285\u0022 width=\u002285\u0022 border=\u00220\u0022\u003E\u003Cimg src=\u0022http:\/\/media-cache-ak0.pinimg.com\/192x\/cd\/47\/ea\/cd47ea333eae68620ba8deee752f0927.jpg\u0022\u003E\u003C\/a\u003E\u003C\/div\u003E\u003C\/div\u003E\u003Cdiv class=\u0022item\u0022\u003E\u003Cdiv class=\u0022wrapper\u0022\u003E\u003Ca href=\u0022http:\/\/www.pinterest.com\/pin\/552324341771352279\/\u0022 height=\u002285\u0022 width=\u002285\u0022 border=\u00220\u0022\u003E\u003Cimg src=\u0022http:\/\/media-cache-ec0.pinimg.com\/192x\/67\/47\/e9\/6747e9a46ff6359510bacbb1f9fd2b87.jpg\u0022\u003E\u003C\/a\u003E\u003C\/div\u003E\u003C\/div\u003E\u003Cdiv class=\u0022item\u0022\u003E\u003Cdiv class=\u0022wrapper\u0022\u003E\u003Ca href=\u0022http:\/\/www.pinterest.com\/pin\/552324341771308884\/\u0022 height=\u002285\u0022 width=\u002285\u0022 border=\u00220\u0022\u003E\u003Cimg src=\u0022http:\/\/media-cache-ec0.pinimg.com\/192x\/45\/1b\/2a\/451b2a57bad4b094c92ca5c385025a9f.jpg\u0022\u003E\u003C\/a\u003E\u003C\/div\u003E\u003C\/div\u003E\u003Cdiv class=\u0022item\u0022\u003E\u003Cdiv class=\u0022wrapper\u0022\u003E\u003Ca href=\u0022http:\/\/www.pinterest.com\/pin\/552324341771271837\/\u0022 height=\u002285\u0022 width=\u002285\u0022 border=\u00220\u0022\u003E\u003Cimg src=\u0022http:\/\/media-cache-ak0.pinimg.com\/192x\/9f\/b1\/c4\/9fb1c45e7df7aac3c0b6135cb91976fd.jpg\u0022\u003E\u003C\/a\u003E\u003C\/div\u003E\u003C\/div\u003E\u003Cdiv class=\u0022item\u0022\u003E\u003Cdiv class=\u0022wrapper\u0022\u003E\u003Ca href=\u0022http:\/\/www.pinterest.com\/pin\/552324341771227887\/\u0022 height=\u002285\u0022 width=\u002285\u0022 border=\u00220\u0022\u003E\u003Cimg src=\u0022http:\/\/media-cache-ak0.pinimg.com\/192x\/33\/2c\/a5\/332ca5b6dd61685bc728aebe3192b9db.jpg\u0022\u003E\u003C\/a\u003E\u003C\/div\u003E\u003C\/div\u003E\u003Cdiv class=\u0022item\u0022\u003E\u003Cdiv class=\u0022wrapper\u0022\u003E\u003Ca href=\u0022http:\/\/www.pinterest.com\/pin\/552324341771227573\/\u0022 height=\u002285\u0022 width=\u002285\u0022 border=\u00220\u0022\u003E\u003Cimg src=\u0022http:\/\/media-cache-ak0.pinimg.com\/192x\/76\/9b\/20\/769b20707240995ee367a115d547de1e.jpg\u0022\u003E\u003C\/a\u003E\u003C\/div\u003E\u003C\/div\u003E\u003Cdiv class=\u0022item\u0022\u003E\u003Cdiv class=\u0022wrapper\u0022\u003E\u003Ca href=\u0022http:\/\/www.pinterest.com\/pin\/552324341771222122\/\u0022 height=\u002285\u0022 width=\u002285\u0022 border=\u00220\u0022\u003E\u003Cimg src=\u0022http:\/\/media-cache-ec0.pinimg.com\/192x\/4e\/37\/63\/4e376395e01335b0cacbeec400e067fd.jpg\u0022\u003E\u003C\/a\u003E\u003C\/div\u003E\u003C\/div\u003E"},"youtube":{"vid":"ijual4wjhzU","data":"{\u0022version\u0022:\u00221.0\u0022,\u0022encoding\u0022:\u0022UTF-8\u0022,\u0022entry\u0022:{\u0022xmlns\u0022:\u0022http:\/\/www.w3.org\/2005\/Atom\u0022,\u0022xmlns$media\u0022:\u0022http:\/\/search.yahoo.com\/mrss\/\u0022,\u0022xmlns$gd\u0022:\u0022http:\/\/schemas.google.com\/g\/2005\u0022,\u0022xmlns$yt\u0022:\u0022http:\/\/gdata.youtube.com\/schemas\/2007\u0022,\u0022gd$etag\u0022:\u0022W\/\\\u0022C0QHRH47eCp7I2A9Wh5TFUg.\\\u0022\u0022,\u0022id\u0022:{\u0022$t\u0022:\u0022tag:youtube.com,2008:video:ijual4wjhzU\u0022},\u0022published\u0022:{\u0022$t\u0022:\u00222013-05-23T17:38:17.000Z\u0022},\u0022updated\u0022:{\u0022$t\u0022:\u00222013-09-30T14:28:55.000Z\u0022},\u0022category\u0022:[{\u0022scheme\u0022:\u0022http:\/\/schemas.google.com\/g\/2005#kind\u0022,\u0022term\u0022:\u0022http:\/\/gdata.youtube.com\/schemas\/2007#video\u0022}],\u0022title\u0022:{\u0022$t\u0022:\u0022World\u0027s Largest Lego Model: A life-size X-wing fighter\u0022},\u0022link\u0022:[{\u0022rel\u0022:\u0022alternate\u0022,\u0022type\u0022:\u0022text\/html\u0022,\u0022href\u0022:\u0022http:\/\/www.youtube.com\/watch?v=ijual4wjhzU\u0026feature=youtube_gdata\u0022},{\u0022rel\u0022:\u0022http:\/\/gdata.youtube.com\/schemas\/2007#video.responses\u0022,\u0022type\u0022:\u0022application\/atom+xml\u0022,\u0022href\u0022:\u0022http:\/\/gdata.youtube.com\/feeds\/mobile\/videos\/ijual4wjhzU\/responses?v=2\u0022},{\u0022rel\u0022:\u0022http:\/\/gdata.youtube.com\/schemas\/2007#video.related\u0022,\u0022type\u0022:\u0022application\/atom+xml\u0022,\u0022href\u0022:\u0022http:\/\/gdata.youtube.com\/feeds\/mobile\/videos\/ijual4wjhzU\/related?v=2\u0022},{\u0022rel\u0022:\u0022http:\/\/gdata.youtube.com\/schemas\/2007#mobile\u0022,\u0022type\u0022:\u0022text\/html\u0022,\u0022href\u0022:\u0022http:\/\/m.youtube.com\/details?v=ijual4wjhzU\u0022},{\u0022rel\u0022:\u0022http:\/\/gdata.youtube.com\/schemas\/2007#uploader\u0022,\u0022type\u0022:\u0022application\/atom+xml\u0022,\u0022href\u0022:\u0022http:\/\/gdata.youtube.com\/feeds\/mobile\/users\/SwkELX52qCd-72ubE3lAcw?v=2\u0022},{\u0022rel\u0022:\u0022self\u0022,\u0022type\u0022:\u0022application\/atom+xml\u0022,\u0022href\u0022:\u0022http:\/\/gdata.youtube.com\/feeds\/mobile\/videos\/ijual4wjhzU?v=2\u0022}],\u0022author\u0022:[{\u0022name\u0022:{\u0022$t\u0022:\u0022Popular Science\u0022},\u0022uri\u0022:{\u0022$t\u0022:\u0022http:\/\/gdata.youtube.com\/feeds\/mobile\/users\/Popscivideo\u0022},\u0022yt$userId\u0022:{\u0022$t\u0022:\u0022SwkELX52qCd-72ubE3lAcw\u0022}}],\u0022yt$accessControl\u0022:[{\u0022action\u0022:\u0022comment\u0022,\u0022permission\u0022:\u0022allowed\u0022},{\u0022action\u0022:\u0022commentVote\u0022,\u0022permission\u0022:\u0022allowed\u0022},{\u0022action\u0022:\u0022videoRespond\u0022,\u0022permission\u0022:\u0022moderated\u0022},{\u0022action\u0022:\u0022rate\u0022,\u0022permission\u0022:\u0022allowed\u0022},{\u0022action\u0022:\u0022embed\u0022,\u0022permission\u0022:\u0022allowed\u0022},{\u0022action\u0022:\u0022list\u0022,\u0022permission\u0022:\u0022allowed\u0022},{\u0022action\u0022:\u0022autoPlay\u0022,\u0022permission\u0022:\u0022allowed\u0022},{\u0022action\u0022:\u0022syndicate\u0022,\u0022permission\u0022:\u0022allowed\u0022}],\u0022gd$comments\u0022:{\u0022gd$feedLink\u0022:{\u0022rel\u0022:\u0022http:\/\/gdata.youtube.com\/schemas\/2007#comments\u0022,\u0022href\u0022:\u0022http:\/\/gdata.youtube.com\/feeds\/mobile\/videos\/ijual4wjhzU\/comments?v=2\u0022,\u0022countHint\u0022:34}},\u0022yt$hd\u0022:{},\u0022media$group\u0022:{\u0022media$category\u0022:[{\u0022$t\u0022:\u0022Tech\u0022,\u0022label\u0022:\u0022Science \u0026 Technology\u0022,\u0022scheme\u0022:\u0022http:\/\/gdata.youtube.com\/schemas\/2007\/categories.cat\u0022}],\u0022media$content\u0022:[{\u0022url\u0022:\u0022rtsp:\/\/r1---sn-jc47eu7e.c.youtube.com\/CiILENy73wIaGQk1hyOMl5o7ihMYDSANFEgGUgZ2aWRlb3MM\/0\/0\/0\/video.3gp\u0022,\u0022type\u0022:\u0022video\/3gpp\u0022,\u0022medium\u0022:\u0022video\u0022,\u0022isDefault\u0022:\u0022true\u0022,\u0022expression\u0022:\u0022full\u0022,\u0022duration\u0022:108,\u0022yt$format\u0022:1},{\u0022url\u0022:\u0022rtsp:\/\/r1---sn-jc47eu7e.c.youtube.com\/CiILENy73wIaGQk1hyOMl5o7ihMYESARFEgGUgZ2aWRlb3MM\/0\/0\/0\/video.3gp\u0022,\u0022type\u0022:\u0022video\/3gpp\u0022,\u0022medium\u0022:\u0022video\u0022,\u0022expression\u0022:\u0022full\u0022,\u0022duration\u0022:108,\u0022yt$format\u0022:6}],\u0022media$credit\u0022:[{\u0022$t\u0022:\u0022popscivideo\u0022,\u0022role\u0022:\u0022uploader\u0022,\u0022scheme\u0022:\u0022urn:youtube\u0022,\u0022yt$display\u0022:\u0022Popular Science\u0022,\u0022yt$type\u0022:\u0022partner\u0022}],\u0022media$description\u0022:{\u0022$t\u0022:\u00225.3 million bricks. 46,000 pounds of LEGO. Read more here: http:\/\/pops.ci\/121HD24\u0022,\u0022type\u0022:\u0022plain\u0022},\u0022media$keywords\u0022:{},\u0022media$license\u0022:{\u0022$t\u0022:\u0022youtube\u0022,\u0022type\u0022:\u0022text\/html\u0022,\u0022href\u0022:\u0022http:\/\/www.youtube.com\/t\/terms\u0022},\u0022media$player\u0022:{\u0022url\u0022:\u0022http:\/\/www.youtube.com\/watch?v=ijual4wjhzU\u0026feature=youtube_gdata_player\u0022},\u0022media$thumbnail\u0022:[{\u0022url\u0022:\u0022http:\/\/i1.ytimg.com\/vi\/ijual4wjhzU\/default.jpg\u0022,\u0022height\u0022:90,\u0022width\u0022:120,\u0022time\u0022:\u002200:00:54\u0022,\u0022yt$name\u0022:\u0022default\u0022},{\u0022url\u0022:\u0022http:\/\/i1.ytimg.com\/vi\/ijual4wjhzU\/mqdefault.jpg\u0022,\u0022height\u0022:180,\u0022width\u0022:320,\u0022yt$name\u0022:\u0022mqdefault\u0022},{\u0022url\u0022:\u0022http:\/\/i1.ytimg.com\/vi\/ijual4wjhzU\/hqdefault.jpg\u0022,\u0022height\u0022:360,\u0022width\u0022:480,\u0022yt$name\u0022:\u0022hqdefault\u0022},{\u0022url\u0022:\u0022http:\/\/i1.ytimg.com\/vi\/ijual4wjhzU\/1.jpg\u0022,\u0022height\u0022:90,\u0022width\u0022:120,\u0022time\u0022:\u002200:00:27\u0022,\u0022yt$name\u0022:\u0022start\u0022},{\u0022url\u0022:\u0022http:\/\/i1.ytimg.com\/vi\/ijual4wjhzU\/2.jpg\u0022,\u0022height\u0022:90,\u0022width\u0022:120,\u0022time\u0022:\u002200:00:54\u0022,\u0022yt$name\u0022:\u0022middle\u0022},{\u0022url\u0022:\u0022http:\/\/i1.ytimg.com\/vi\/ijual4wjhzU\/3.jpg\u0022,\u0022height\u0022:90,\u0022width\u0022:120,\u0022time\u0022:\u002200:01:21\u0022,\u0022yt$name\u0022:\u0022end\u0022}],\u0022media$title\u0022:{\u0022$t\u0022:\u0022World\u0027s Largest Lego Model: A life-size X-wing fighter\u0022,\u0022type\u0022:\u0022plain\u0022},\u0022yt$aspectRatio\u0022:{\u0022$t\u0022:\u0022widescreen\u0022},\u0022yt$duration\u0022:{\u0022seconds\u0022:\u0022108\u0022},\u0022yt$uploaded\u0022:{\u0022$t\u0022:\u00222013-05-23T17:38:17.000Z\u0022},\u0022yt$uploaderId\u0022:{\u0022$t\u0022:\u0022UCSwkELX52qCd-72ubE3lAcw\u0022},\u0022yt$videoid\u0022:{\u0022$t\u0022:\u0022ijual4wjhzU\u0022}},\u0022gd$rating\u0022:{\u0022average\u0022:4.785714,\u0022max\u0022:5,\u0022min\u0022:1,\u0022numRaters\u0022:112,\u0022rel\u0022:\u0022http:\/\/schemas.google.com\/g\/2005#overall\u0022},\u0022yt$statistics\u0022:{\u0022favoriteCount\u0022:\u00220\u0022,\u0022viewCount\u0022:\u002229704\u0022},\u0022yt$rating\u0022:{\u0022numDislikes\u0022:\u00226\u0022,\u0022numLikes\u0022:\u0022106\u0022}}}"},"order":"facebook,twitter,instagram,pinterest,youtube","init":"facebook","rsid":"timepopsci","path":"sites\/popsci.com\/modules\/bonnier\/social_plugins"},"bonnier_analytics":{"chartbeat":{"uid":"41685","domain":"www.popsci.com"},"comscore":{"c1":"2","c2":"6035029"},"quantcast":{"account":"p-cafODhhaQOlCs"}},"gpt":{"network_code":"6747\/n6747.popsci","targeted_ad_unit":"gadgets","async":1,"sra":0,"collapse":1,"refresh":0,"targeting":{"remnant":[{"value":"yes"}],"device":[{"value":"Drupal.settings.clickstream_tracking.device","eval":1}],"id":[{"value":"132991"}],"kw":[{"value":"gadgets"},{"value":"video games"},{"value":"games"},{"value":"game consoles"},{"value":"valve"},{"value":"half-life"},{"value":"steam machines"}]}}});
+//--><!]]>
+</script>
+  </head>
+  <body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-132991 node-type-article"  class="html not-front not-logged-in no-sidebars page-node page-node- page-node-132991 node-type-article">
+    <div id="skip-link">
+      <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+    </div>
+    <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+Drupal.GPT = new Drupal.GPTClass(Drupal.settings.gpt);
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+Drupal.GPT.pageOptions.sra ? jQuery(document).ready(Drupal.GPT.run) : googletag.cmd.push(Drupal.GPT.run);
+//--><!]]>
+</script>
+
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=60342206410";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>    <div id="ad-manager-ad-interstitial-0" class="ad-manager-ad gpt-ads"><script type="text/javascript">Drupal.GPT.registerSlot('ad-manager-ad-interstitial-0',{"outofpage":true,"refresh":false,"size":null,"targeting":{}});</script></div>    
+<div class="wrapper clearfix" id="page-wrapper">
+  <div class="inner-wrapper">
+    <div class="header-ads"><div class="panel-pane pane-panels-mini pane-header-pcd" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div class="content-leftcol two-col"><div class="panel-pane pane-block pane-ad-manager-top" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div id="ad-manager-ad-top-0" class="ad-manager-ad gpt-ads"><script type="text/javascript">Drupal.GPT.registerSlot('ad-manager-ad-top-0',{"size":{"0":[[300,50],[320,50]],"767":[[728,90]]},"outofpage":false,"targeting":{"pos":[{"value":"top","eval":0}]},"refresh":true});</script></div>  <!--</div>-->
+
+  
+  </div>
+</div>
+<div class="content-rightcol two-col"><div class="panel-pane pane-block pane-ad-manager-circ-top-right" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div id="ad-manager-ad-circ-top-right-0" class="ad-manager-ad bonnier-ads-circ-ads"><script type="text/javascript">BonnierAdsCirc.addAd('ad-manager-ad-circ-top-right-0', '001_topRight_200x90');</script></div>  <!--</div>-->
+
+  
+  </div>
+</div>
+  <!--</div>-->
+
+  
+  </div>
+</div>
+    <header class="header clearfix">
+      <div class="logo"><div class="panel-pane pane-page-logo" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <a href="/" rel="home" id="logo" title="Home"><img src="http://www.popsci.com/sites/popsci.com/files/PopSciLogo.png" alt="Home" /></a>  <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-block pane-ad-manager-x89" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div id="ad-manager-ad-x89-0" class="ad-manager-ad gpt-ads"><script type="text/javascript">Drupal.GPT.registerSlot('ad-manager-ad-x89-0',{"size":{"0":[[94,90]]},"outofpage":false,"targeting":{"pos":[{"value":"x89","eval":0}]},"refresh":true});</script></div>  <!--</div>-->
+
+  
+  </div>
+</div>
+      <div class="main-nav-wrapper">
+        <nav class="social-nav"><div class="panel-pane pane-panels-mini pane-menu-top-block" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div class="content-leftcol two-col"><div class="panel-pane pane-block pane-popsci-site-popsci-site-login-menu" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div class="item-list"><ul class="menu"><li class="leaf first"><a href="/user/login">Login/Register</a></li>
+<li class="leaf"><a href="http://preferences.bonniercorp.com/domain/popsci" target="_blank">Newsletter</a></li>
+<li class="leaf expanded last"><a>Subscribe</a><ul class="menu"><li class="first leaf"><a href="http://www.emagazines.com/insight/link/?user=5&amp;g=06C55026-C3B9-4D15-A061-1FDBF05CF55F&amp;track1=050" class="circ-ipad" target="_blank">iPad</a></li>
+<li class="leaf"><a href="https://play.google.com/store/magazines/details/Popular_Science?id=CAow4pVT&amp;feature=search_result#?t=W251bGwsMSwyLDEsIm1hZ2F6aW5" class="circ-google-play" target="_blank">Google Play</a></li>
+<li class="leaf"><a href="http://www.amazon.com/gp/product/B005STEW5M/ref%3Das_li_tf_tl?ie=UTF8&amp;tag=emagazines34-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B005STEW5M" class="circ-kindle" target="_blank">Kindle</a></li>
+<li class="leaf"><a href="http://www.barnesandnoble.com/w/popular-science/1017343890?ean=2940000983423&amp;itm=1&amp;usri=2940000983423" class="circ-nook" target="_blank">Nook</a></li>
+<li class="leaf"><a href="http://www.popsci.com/topright-circ-zinio" class="circ-zinio" target="_blank">Zinio</a></li>
+<li class="last leaf"><a href="https://popularscience.bonniersubscriptions.com/web/?off2on_login_url=/promo&amp;off2on_code=HAG0-050" class="circ-print-edition" target="_blank">Print Edition</a></li>
+</ul></li>
+</ul></div>  <!--</div>-->
+
+  
+  </div>
+</div>
+<div class="content-rightcol two-col"><div class="panel-pane pane-social-buttons" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div class="item-list"><ul><li class="social-linkout-buttons facebook-linkout first"><a href="https://www.facebook.com/PopSci" target="_blank"><span class="icon"></span></a></li>
+<li class="social-linkout-buttons twitter-linkout"><a href="https://twitter.com/PopSci" target="_blank"><span class="icon"></span></a></li>
+<li class="social-linkout-buttons google-plus-linkout"><a href="https://plus.google.com/112971505702976750152" target="_blank"><span class="icon"></span></a></li>
+<li class="social-linkout-buttons rss-linkout last"><a href="http://www.popsci.com/rss-feeds" target="_blank"><span class="icon"></span></a></li>
+</ul></div>  <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-solr-client-form" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <form accept-charset="UTF-8" method="post" action="/find" class="solr_client_form">
+<input type="text" maxlength="128" size="15" placeholder="Search" name="apachesolr_panels_search_form" class="solr_client_form_search" title="Enter the terms you wish to search for.">
+<input type="hidden" value="apachesolr_panels_search_form" name="form_id">
+<input id="edit-submit" class="search-submit form-submit" type="submit" value="GO" name="op">
+<input type="hidden" value="find" name="apache_solr_page_path" class="solr_client_path"/>
+</form>  <!--</div>-->
+
+  
+  </div>
+</div>
+  <!--</div>-->
+
+  
+  </div>
+</nav>
+        <nav class="main-nav"><div class="panel-pane pane-menu-tree pane-main-menu" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div class="menu-block-wrapper menu-block-ctools-main-menu-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-2176"><a href="/" class="home-link">Home</a></li>
+<li class="expanded menu-mlid-2857"><a href="/gadgets" class="gadgets">Gadgets</a><ul class="menu"><li class="first leaf menu-mlid-2858"><a href="/category/tags/computers">Computers</a></li>
+<li class="leaf menu-mlid-2859"><a href="/category/tags/cameras">Cameras</a></li>
+<li class="leaf menu-mlid-2860"><a href="/category/tags/smart-phones">Smart Phones</a></li>
+<li class="leaf menu-mlid-3719"><a href="/category/tags/3dtv">Smart TVs</a></li>
+<li class="last leaf menu-mlid-2862"><a href="/category/tags/video-games">Video Games</a><div class="menu-item-block-wrapper">
+  <div id="block-ad-manager-x01" class="block block-ad-manager">
+
+    
+  <div class="content">
+    <div id="ad-manager-ad-x01-0" class="ad-manager-ad gpt-ads"><script type="text/javascript">Drupal.GPT.registerSlot('ad-manager-ad-x01-0',{"size":{"0":null,"1000":[[179,58]]},"outofpage":false,"targeting":{"pos":[{"value":"x01","eval":0}]},"refresh":true});</script></div>  </div>
+</div>
+</div>
+</li>
+</ul></li>
+<li class="expanded menu-mlid-2863"><a href="/cars" class="cars">Cars</a><ul class="menu"><li class="first leaf menu-mlid-2864"><a href="/category/tags/concepts">Concepts</a></li>
+<li class="leaf menu-mlid-4277"><a href="/category/tags/hybrids">Hybrids</a></li>
+<li class="leaf menu-mlid-2866"><a href="/category/tags/electric-cars">Electric Cars</a></li>
+<li class="last leaf menu-mlid-2868"><a href="http://www.driverside.com/" target="_blank">More From Our Partner: Driverside</a><div class="menu-item-block-wrapper">
+  <div id="block-ad-manager-x02" class="block block-ad-manager">
+
+    
+  <div class="content">
+    <div id="ad-manager-ad-x02-0" class="ad-manager-ad gpt-ads"><script type="text/javascript">Drupal.GPT.registerSlot('ad-manager-ad-x02-0',{"size":{"0":null,"1000":[[179,58]]},"outofpage":false,"targeting":{"pos":[{"value":"x02","eval":0}]},"refresh":true});</script></div>  </div>
+</div>
+</div>
+</li>
+</ul></li>
+<li class="expanded menu-mlid-2869"><a href="/science" class="science">Science</a><ul class="menu"><li class="first leaf menu-mlid-2870"><a href="/category/tags/future-environment">Future of the Environment</a></li>
+<li class="leaf menu-mlid-2871"><a href="/category/tags/energy">Energy</a></li>
+<li class="leaf menu-mlid-2872"><a href="/category/tags/health">Health</a></li>
+<li class="last leaf menu-mlid-4291"><a href="/category/tags/future-energy">Future of Energy</a><div class="menu-item-block-wrapper">
+  <div id="block-ad-manager-x03" class="block block-ad-manager">
+
+    
+  <div class="content">
+    <div id="ad-manager-ad-x03-0" class="ad-manager-ad gpt-ads"><script type="text/javascript">Drupal.GPT.registerSlot('ad-manager-ad-x03-0',{"size":{"0":null,"1000":[[179,58]]},"outofpage":false,"targeting":{"pos":[{"value":"x03","eval":0}]},"refresh":true});</script></div>  </div>
+</div>
+</div>
+</li>
+</ul></li>
+<li class="expanded menu-mlid-2873"><a href="/technology" class="technology">Technology</a><ul class="menu"><li class="first leaf menu-mlid-2874"><a href="/category/tags/military">Military</a></li>
+<li class="leaf menu-mlid-2875"><a href="/category/tags/aviation">Aviation</a></li>
+<li class="leaf menu-mlid-2876"><a href="/category/tags/lighting">Lighting</a></li>
+<li class="leaf menu-mlid-2877"><a href="/category/tags/space">Space</a></li>
+<li class="leaf menu-mlid-2878"><a href="/category/tags/robots">Robots</a></li>
+<li class="last leaf menu-mlid-2879"><a href="/category/tags/engineering">Engineering</a><div class="menu-item-block-wrapper">
+  <div id="block-ad-manager-x04" class="block block-ad-manager">
+
+    
+  <div class="content">
+    <div id="ad-manager-ad-x04-0" class="ad-manager-ad gpt-ads"><script type="text/javascript">Drupal.GPT.registerSlot('ad-manager-ad-x04-0',{"size":{"0":null,"1000":[[179,58]]},"outofpage":false,"targeting":{"pos":[{"value":"x04","eval":0}]},"refresh":true});</script></div>  </div>
+</div>
+</div>
+</li>
+</ul></li>
+<li class="last expanded menu-mlid-2880"><a href="/diy" class="diy">DIY</a><ul class="menu"><li class="first leaf menu-mlid-2881"><a href="/category/tags/projects">Projects</a></li>
+<li class="leaf menu-mlid-2882"><a href="/category/tags/hacks">Hacks</a></li>
+<li class="leaf menu-mlid-2883"><a href="/category/tags/tools">Tools</a></li>
+<li class="leaf menu-mlid-2884"><a href="/category/tags/auto-diy-0">Auto DIY</a></li>
+<li class="last leaf menu-mlid-2885"><a href="http://toolmonger.com/" target="_blank">More From Our Partner: Toolmonger</a><div class="menu-item-block-wrapper">
+  <div id="block-ad-manager-x05" class="block block-ad-manager">
+
+    
+  <div class="content">
+    <div id="ad-manager-ad-x05-0" class="ad-manager-ad gpt-ads"><script type="text/javascript">Drupal.GPT.registerSlot('ad-manager-ad-x05-0',{"size":{"0":null,"1000":[[179,58]]},"outofpage":false,"targeting":{"pos":[{"value":"x05","eval":0}]},"refresh":true});</script></div>  </div>
+</div>
+</div>
+</li>
+</ul></li>
+</ul></div>
+  <!--</div>-->
+
+  
+  </div>
+</nav>
+        <nav class="sub-nav"><div class="panel-pane pane-panels-mini pane-menu-block-bottom" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div class="content-leftcol two-col"><div class="panel-pane pane-menu-tree pane-menu-main-sub-nav" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div class="menu-block-wrapper menu-block-ctools-menu-main-sub-nav-1 menu-name-menu-main-sub-nav parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-773"><a href="/galleries">Galleries</a></li>
+<li class="leaf menu-mlid-3077"><a href="/category/tags/video">Videos</a></li>
+<li class="last expanded menu-mlid-775"><a href="/">Columns</a><ul class="menu"><li class="first leaf menu-mlid-1701"><a href="/category/tags/beersci">Beersci</a></li>
+<li class="leaf menu-mlid-1702"><a href="/category/category-badges/sex-files">Sex Files</a></li>
+<li class="last leaf menu-mlid-1703"><a href="/category/tags/gamesci">Gamesci</a></li>
+</ul></li>
+</ul></div>
+  <!--</div>-->
+
+  
+  </div>
+</div>
+<div class="content-rightcol two-col"><div class="panel-pane pane-menu-tree pane-menu-main-popular-nav" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div class="menu-block-wrapper menu-block-ctools-menu-main-popular-nav-1 menu-name-menu-main-popular-nav parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-3078"><a href="/category/tags/may-2013-invention-awards">2013 Invention Awards</a></li>
+<li class="leaf menu-mlid-3079"><a href="/category/tags/tech-transfers">Tech Transfers</a></li>
+<li class="last leaf menu-mlid-782"><a href="http://www.popsci.com/article/science/october-2013-future-car">Magazine</a></li>
+</ul></div>
+  <!--</div>-->
+
+  
+  </div>
+</div>
+  <!--</div>-->
+
+  
+  </div>
+</nav>
+      </div>
+    </header>
+    <div class="pushdown-ads"><div class="panel-pane pane-block pane-ad-manager-x90" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div id="ad-manager-ad-x90-0" class="ad-manager-ad gpt-ads"><script type="text/javascript">Drupal.GPT.registerSlot('ad-manager-ad-x90-0',{"size":{"0":null,"1000":[[990,50]]},"outofpage":false,"targeting":{"pos":[{"value":"x90","eval":0}]},"refresh":true});</script></div>  <!--</div>-->
+
+  
+  </div>
+</div>
+    <div class="content-wrapper"><div class="panel-pane pane-pane-messages" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+      <div class="tabs"></div>
+  <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-page-content" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <article class="content-article article-sidebar">
+  <header class="content-header article-sidebar"><div class="panel-pane pane-panels-mini pane-header-article" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div class="panel-display panel-1col clearfix" id="mini-panel-header_article">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-node-title" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <h1>Valve Announces Multiple Steam Consoles, Will Not Show Them</h1>
+  <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-entity-field pane-node-field-headline dek" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    
+  <h2><span class="prefix-text"></span> <p>As part two in a week-long, three-part announcement, Valve announced a cool thing coming soon--but that they can't tell us about yet.</p>
+</h2>  <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-popsci-site-byline" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <span class="byline_author">By <div class="field field-name-field-author field-type-taxonomy-term-reference field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/category/popsci-authors/colin-lecher" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Colin Lecher</a></div></div></div></span>
+    <span class="byline_posted">Posted 09.25.2013 at 1:24 pm </span>
+    
+    <span class="comment_count"></span>
+      <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-block pane-post-social-post-social-block" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div class="pw-widget pw-counter-show pw-size-medium" pw:twitter-via="popsci">
+  <a class="pw-button-facebook"></a>
+  <a class="pw-button-twitter"></a>
+  <a class="pw-button-stumbleupon"></a>
+  <a class="pw-button-digg"></a>
+  <a class="pw-button-reddit"></a>
+  <a class="pw-button-googleplus"></a>
+  <a class="customIcon pw-button pw-size-medium" href=""><span class="pw-icon"><img src="/sites/popsci.com/files/post_icon_24.png" alt="" height="24" width="24" /></span></a>
+  <a class="pw-button-email pw-counter"></a>
+</div>
+<script src="http://i.po.st/static/v3/post-widget.js#publisherKey=am3ljo5ms1qhfnpfgkj5" type="text/javascript"></script>
+<script>
+  var pwidget_config = { 
+    track: "query", 
+    copypaste: false, 
+    click: "true",
+    shareQuote: false, 
+  };
+  post_widget(".customIcon", {
+	click: "true",
+  });
+</script>  <!--</div>-->
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  <!--</div>-->
+
+  
+  </div>
+</header>
+  <div class="content-main article-sidebar"><div id="node-132991" class="node node-article node-promoted clearfix" about="/article/gadgets/valve-announces-multiple-steam-consoles-will-not-show-them" typeof="sioc:Item foaf:Document">
+
+  
+      
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p></p><div class="media media-element-container media-default" style="width: 525px;"><img height="283" width="525" class="media-element file-default attr__typeof__foaf:Image img__fid__190735 img__view_mode__default attr__format__default attr__title__ attr__data-image_style__article_image_large" data-image_style="article_image_large" typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/article_image_large/public/Screen%20shot%202013-09-25%20at%201.00.24%20PM_0.png?itok=jlErOhF0" alt="" title="" /><div class="field field-name-field-file-title field-type-text field-label-hidden">
+    Steam Machines  </div>
+
+  <div class="field field-name-field-file-credit field-type-text field-label-hidden">
+    Valve Corporation  </div></div>
+
+<p>Ugh. So on Monday, Valve, the gaming company behind games like <em>Portal</em> and <em>Half-Life,</em> plus the virtual, iTunes-style gaming store Steam, announced that they'd created <a href="http://www.popsci.com/gadgets/article/2013-09/valve-just-announced-its-own-operating-system">a new operating system</a>, called SteamOS. We assumed that this was leading up to the announcement of some kind of hardware that ran on the system, and we were right! <a href="http://store.steampowered.com/livingroom/SteamMachines/">Part two</a> in the company's week-long, three-part saga of announcements is the announcement of "multiple" consoles for playing games through Steam. Is this the <em>Empire Strikes Back</em> of this totally unnecessary trilogy announcement?</p><p>No, it is not. Since we got almost zero information apart from the fact that these gaming machines are coming out in 2014. Apparently, Valve is working on its own prototype right now to kick out any bugs before releasing the real consoles--and they're sending out the prototypes to 300 users for testing in the meantime--but that one console won't be the only one you can choose from. Valve will be teaming up with multiple manufacturers to make different versions of the console, all running on the Steam operating system, but deviating by price, size, loudness, etc. The prototype version will be "hackable," Valve writes on a site making the announcement. Users can change the hardware or the operating system to their specifications.</p><p><span style="line-height: 1.6em;">And... that's pretty much it. In a Q&amp;A at the bottom of the site, Valve asked itself, "Where's a picture of it? How big is it?" The answer is: "We promise we'll tell you more about it soon."</span></p><p>There is one more announcement left, coming at 1 p.m. EST Friday. Maybe we'll get to check out the actual prototype then. </p>
+</div></div></div>  </div>
+
+  
+  
+</div>
+<div class="panel-pane pane-block pane-post-social-post-social-block bottom" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div class="pw-widget pw-counter-show pw-size-medium" pw:twitter-via="popsci">
+  <a class="pw-button-facebook"></a>
+  <a class="pw-button-twitter"></a>
+  <a class="pw-button-stumbleupon"></a>
+  <a class="pw-button-digg"></a>
+  <a class="pw-button-reddit"></a>
+  <a class="pw-button-googleplus"></a>
+  <a class="customIcon pw-button pw-size-medium" href=""><span class="pw-icon"><img src="/sites/popsci.com/files/post_icon_24.png" alt="" height="24" width="24" /></span></a>
+  <a class="pw-button-email pw-counter"></a>
+</div>
+<script src="http://i.po.st/static/v3/post-widget.js#publisherKey=am3ljo5ms1qhfnpfgkj5" type="text/javascript"></script>
+<script>
+  var pwidget_config = { 
+    track: "query", 
+    copypaste: false, 
+    click: "true",
+    shareQuote: false, 
+  };
+  post_widget(".customIcon", {
+	click: "true",
+  });
+</script>  <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-block pane-popsci-site-popsci-site-outbrain" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div class="OUTBRAIN" data-src="http://www.popsci.com/article/gadgets/valve-announces-multiple-steam-consoles-will-not-show-them" data-widget-id="AR_2" data-ob-template="pop_sci"></div><script type="text/javascript">
+(function() {
+var ob = document.createElement("script");
+ob.async = true;
+ob.type = "text/javascript";
+var useSSL = "https:" == document.location.protocol;
+ob.src = (useSSL ? "https:" : "http:") + "//widgets.outbrain.com/outbrain.js";
+var node =document.getElementsByTagName("script")[0];
+node.parentNode.insertBefore(ob, node);
+})();
+</script>  <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-popsci-site-sidebar-galleries pane-popsci-site-popsci-site-photo-galleries" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+     
+  <h2>Photo Galleries <a href="/galleries/feed" class="rss-link">Rss</a></h2>
+  <div class="item-list"><ul><li class="first">      <div class="image">
+      <a href="/gallery/cyberpunk-skyscraper-and-other-amazing-images-week"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/100_square/public/images/2013/10/toes2_.jpg?itok=O5N268Ik" width="100" height="100" alt="" /></a>    </div>
+        <a href="/gallery/cyberpunk-skyscraper-and-other-amazing-images-week">A Cyberpunk Skyscraper And Other Amazing Images From This Week</a>  </li>
+<li>      <div class="image">
+      <a href="/gallery/best-astronaut-selfies"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/100_square/public/images/2013/10/selfie-580x382.jpg?itok=pCUIiWlS" width="100" height="100" alt="" /></a>    </div>
+        <a href="/gallery/best-astronaut-selfies">Best Astronaut Selfies</a>  </li>
+<li class="last">      <div class="image">
+      <a href="/gadgets/gallery/2013-09/goods-october-2013s-hottest-gadgets"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/100_square/public/images/2013/09/PSC1013_WN_046.jpg?itok=QbTvAmCj" width="100" height="100" alt="" /></a>    </div>
+        <a href="/gadgets/gallery/2013-09/goods-october-2013s-hottest-gadgets">The Goods: October 2013&#039;s Hottest Gadgets</a>  </li>
+</ul></div>  <a href="/galleries">+ More Photo Galleries</a>  <!--</div>-->
+
+  
+  </div>
+</div>
+  <div class="content-footer article-sidebar"><div class="panel-pane pane-popsci-site-comments-panel pane-comments" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div class="panel-display panel-1col clearfix" id="mini-panel-comments">
+  <div class="panel-panel panel-col">
+    <div></div>
+  </div>
+</div>
+  <!--</div>-->
+
+  
+  </div>
+</div>
+</article>
+<aside class="sidebar sidebar-right article-sidebar"><div class="panel-pane pane-panels-mini pane-sidebar-default" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div class="panel-display panel-1col clearfix" id="mini-panel-sidebar_default">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-block pane-ad-manager-right1" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div id="ad-manager-ad-right1-0" class="ad-manager-ad gpt-ads"><script type="text/javascript">Drupal.GPT.registerSlot('ad-manager-ad-right1-0',{"size":{"0":null,"1000":[[300,250],[300,600]]},"outofpage":false,"targeting":{"pos":[{"value":"right1","eval":0}]},"refresh":true});</script></div>  <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-views pane-most-popular" >
+  
+        <h2 class="pane-title">Popular on PopSci</h2>
+    
+  
+  <!--<div class="pane-content">-->
+    <div class="view view-most-popular view-id-most_popular view-display-id-block view-dom-id-858336ed9a7c13524c0df32717f9d662">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ol>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/gadgets/article/2013-09/goods-october-2013s-hottest-gadgets">October 2013&#039;s Hottest Gadgets</a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/science/article/2013-06/no-brainer">Why The Government Should Fund Unpopular Science </a></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/gadgets/article/2013-09/fastest-zero-emission-motorcycle">This Is The Fastest Zero-Emission Motorcycle </a></span>  </div></li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/technology/article/2013-09/mummy-medicine">How Studying Mummies Could Cure Modern Diseases</a></span>  </div></li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/technology/article/2013-09/what-happens-if-astronaut-floats-space">What Happens If An Astronaut Floats Off In Space?</a></span>  </div></li>
+          <li class="views-row views-row-6 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/technology/article/2013-09/body-research">What Happens When You Donate Your Body To Science?</a></span>  </div></li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/science/article/2013-09/top-us-dog-breeds">The Top U.S. Dog Breeds [Infographic]</a></span>  </div></li>
+          <li class="views-row views-row-8 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/diy/article/2013-09/drainpipe-submarine">A DIY Submarine That Can Dive 30 Feet</a></span>  </div></li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/cars/article/2013-09/fuel-boom">The Rise Of Electric Car Charging Stations In The U.S. [Infographic]</a></span>  </div></li>
+          <li class="views-row views-row-10 views-row-even views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/technology/article/2013-09/three-parents-one-baby-no-disease">How Having Three Parents Leads To Disease-Free Kids</a></span>  </div></li>
+      </ol></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-optional-sidebar-block" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    
+  <div class="field field-name-field-body field-type-text-long field-label-hidden">
+    <div class="pane-popsci-site-popsci-site-current-issue">
+<h2 class="pane-title">Current Issue</h2>
+<a href="http://www.popsci.com/article/science/october-2013-future-car"><img src="/sites/popsci.com/files/october-mini.jpg" style="float: left; " /></a><div style="float: right; align: right; width: 190px">
+<h3 style="line-height: 1.2em;"><a href="http://www.popsci.com/article/science/october-2013-future-car">October 2013: The Future Of The Car</a></h3>
+Learn why self-driving cars can already outperform humans, meet the electric vehicles hitting the racetrack, and read a millennial's manifesto on why you can't sell him a car. Plus: our annual edition of the Brilliant 10! Our list of the 10 minds shaking up the world of science.</div></div>
+  </div>
+  <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-block pane-ad-manager-middle" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div id="ad-manager-ad-middle-0" class="ad-manager-ad gpt-ads"><script type="text/javascript">Drupal.GPT.registerSlot('ad-manager-ad-middle-0',{"size":{"0":null,"1000":[[300,250],[351,233]]},"outofpage":false,"targeting":{"pos":[{"value":"middle","eval":0}]},"refresh":true});</script></div>  <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-borrowed-pane" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div data-selector=".pane-popsci-site-sidebar-galleries" data-refresh="" data-events="" data-flag="" class="borrowed-pane-container"></div>  <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-optional-sidebar-block" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    
+  <div class="field field-name-field-body field-type-text-long field-label-hidden">
+    <div class="pane-popsci-site-popsci-site-current-issue">
+<h2 class="pane-title">Archive Search</h2>
+
+<p><a href="/archives"><img src="http://www.popsci.com/sites/popsci.com/files/archivesearch-block-3_0.jpg" style="margin-top:-0.5em;" /></a></p></div>
+  </div>
+  <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-block pane-social-plugins-social-plugins-widget" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div id="social-side-bar">
+  <div class="ssb-nav">
+   <ul>
+   </ul>
+  </div>
+  <div class="ssb-panels">
+    <div class="ssb-panels-wrapper">
+    </div>
+  </div>
+</div>
+  <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-entity-field pane-node-field-image-link pane-popsci-site-popsci-site-events-promotion" >
+  
+        <h2 class="pane-title">Events And Promotions</h2>
+    
+  
+  <!--<div class="pane-content">-->
+    <div class="field field-name-field-image-link field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="item-list"><ul class="events-promotions"><li class="first"><div class="image-content">
+ <div class="image"><a href="http://ad.doubleclick.net/clk;275909911;102908925;o"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/100_square/public/images/2013/09/CONTEST.jpg?itok=tfsTh4PE" width="100" height="100" alt="" /></a></div>
+ <div class="image-extras">
+	 	 	  </div>
+</div><div class="field field-name-field-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="http://ad.doubleclick.net/clk;275909911;102908925;o">Enter Now</a></div></div></div></li>
+<li><div class="image-content">
+ <div class="image"><a href="http://www.popsci.com/science/article/2013-07/whisky-sour-almost-expert-no-4"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/100_square/public/images/2013/08/AlmostAnExpert_100x100.jpg?itok=UoqddRFD" width="100" height="100" alt="" /></a></div>
+ <div class="image-extras">
+	 	 	  </div>
+</div><div class="field field-name-field-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="http://www.popsci.com/science/article/2013-07/whisky-sour-almost-expert-no-4">Watch Now</a></div></div></div></li>
+<li class="last"><div class="image-content">
+ <div class="image"><a href="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=tf&amp;c=20&amp;mc=click&amp;pli=8093124&amp;PluID=0&amp;ord=123456789"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/100_square/public/images/2013/08/Glenfiddich-Science-Of-100x100-2.jpg?itok=whsSYX68" width="100" height="100" alt="" /></a></div>
+ <div class="image-extras">
+	 	 	  </div>
+</div><div class="field field-name-field-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=tf&amp;c=20&amp;mc=click&amp;pli=8093124&amp;PluID=0&amp;ord=123456789">Read More</a></div></div></div></li>
+</ul></div><IMG SRC="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=tf&c=19&mc=imp&pli=8093124&PluID=0&ord=123456789&rtu=-1"  BORDER=0 WIDTH=1 HEIGHT=1 ALT="Advertisement" />
+<IMG SRC="http://ad.doubleclick.net/ad/N8485.109239.POPPHOTO.COM/B7819995.46;sz=1x1;ord=123456789?" BORDER=0 WIDTH=1 HEIGHT=1 ALT="Advertisement" /></div></div></div>  <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-block pane-ad-manager-right2" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div id="ad-manager-ad-right2-0" class="ad-manager-ad gpt-ads"><script type="text/javascript">Drupal.GPT.registerSlot('ad-manager-ad-right2-0',{"size":{"0":null,"1000":[[300,250],[300,600]]},"outofpage":false,"targeting":{"pos":[{"value":"right2","eval":0}]},"refresh":true});</script></div>  <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-optional-sidebar-block" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    
+  <div class="field field-name-field-body field-type-text-long field-label-hidden">
+    <div class="pane-popsci-site-popsci-site-masthead">
+<h2 class="pane-title">Masthead</h2>
+
+<p><strong>Online Content Director</strong>: <a href="http://www.popsci.com/category/popsci-authors/suzanne-labarre">Suzanne LaBarre</a> | <a href="mailto:suzanne.labarre@popsci.com" style="font-weight: normal;">Email</a><br /><strong>Senior Editor</strong>: <a href="http://www.popsci.com/category/popsci-authors/paul-adams">Paul Adams</a> | <a href="mailto:paul@popsci.com" style="font-weight: normal;">Email</a><br /><strong>Associate Editor</strong>: <a href="http://www.popsci.com/category/popsci-authors/dan-nosowitz">Dan Nosowitz</a> | <a href="mailto:dan@popsci.com" style="font-weight: normal;">Email</a><br /><strong>Assistant Editor</strong>: <a href="http://www.popsci.com/category/popsci-authors/colin-lecher">Colin Lecher</a> | <a href="mailto:colin.lecher@gmail.com" style="font-weight: normal;">Email</a><br /><strong>Assistant Editor</strong>: <a href="http://www.popsci.com/category/popsci-authors/rose-pastore">Rose Pastore</a> | <a href="mailto:rose.pastore@popsci.com" style="font-weight: normal;">Email</a></p><p><strong>Contributing Writers</strong>:<br /><!-- <a href="http://www.popsci.com/category/popsci-authors/clay-dillow"> Clay Dillow</a> | <a style="font-weight: normal;" href="mailto:clay.popsci@gmail.com">Email</a> <a href="http://www.popsci.com/category/popsci-authors/rebecca-boyle">Rebecca Boyle</a> | <a href="mailto:rebeccaboyle31@gmail.com" style="font-weight: normal;">Email</a><br />--><a href="http://www.popsci.com/category/popsci-authors/kelsey-d-atherton">Kelsey D. Atherton</a> | <a href="mailto:kelsey.d.atherton@gmail.com" style="font-weight: normal;">Email</a><br /><a href="http://www.popsci.com/category/popsci-authors/francie-diep">Francie Diep</a> | <a href="mailto:fcdiep@gmail.com" style="font-weight: normal;">Email</a><br /><a href="http://www.popsci.com/category/popsci-authors/shaunacy-ferro">Shaunacy Ferro</a> | <a href="mailto:shaunacy.ferro@bonniercorp.com" style="font-weight: normal;">Email</a></p></div>
+  </div>
+  <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-block pane-ad-manager-subscribe-now" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div id="ad-manager-ad-subscribe-now-0" class="ad-manager-ad bonnier-ads-circ-ads"><script type="text/javascript">BonnierAdsCirc.addAd('ad-manager-ad-subscribe-now-0', '005_rightRail_358x336');</script></div>  <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-block pane-ad-manager-middle1" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div id="ad-manager-ad-middle1-0" class="ad-manager-ad gpt-ads"><script type="text/javascript">Drupal.GPT.registerSlot('ad-manager-ad-middle1-0',{"size":{"0":null,"1000":[[300,100],[340,100]]},"outofpage":false,"targeting":{"pos":[{"value":"middle1","eval":0}]},"refresh":true});</script></div>  <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-block pane-ad-manager-right3" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div id="ad-manager-ad-right3-0" class="ad-manager-ad gpt-ads"><script type="text/javascript">Drupal.GPT.registerSlot('ad-manager-ad-right3-0',{"size":{"0":null,"1000":[[300,250],[300,600]]},"outofpage":false,"targeting":{"pos":[{"value":"right3","eval":0}]},"refresh":true});</script></div>  <!--</div>-->
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  <!--</div>-->
+
+  
+  </div>
+</aside>
+  <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-popsci-site-footer-carousel" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div class="footer-carousel flexslider">
+  <h2>Inside Popular Science</h2>
+  <div class="view view-carousels view-id-carousels view-display-id-default view-dom-id-96551e10914114b825db94c812198842">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul class="slides">          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/gallery/cyberpunk-skyscraper-and-other-amazing-images-week"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/carousel_thumb/public/images/2013/10/toes2_.jpg?itok=5TSDI6td" width="150" height="100" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/gallery/cyberpunk-skyscraper-and-other-amazing-images-week">A Cyberpunk Skyscraper And Other Amazing Images From This Week</a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/gallery/best-astronaut-selfies"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/carousel_thumb/public/images/2013/10/selfie-580x382.jpg?itok=cfYFhtau" width="150" height="100" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/gallery/best-astronaut-selfies">Best Astronaut Selfies</a></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/gadgets/gallery/2013-09/goods-october-2013s-hottest-gadgets"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/carousel_thumb/public/images/2013/09/PSC1013_WN_046.jpg?itok=zZBhDnhO" width="150" height="100" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/gadgets/gallery/2013-09/goods-october-2013s-hottest-gadgets">The Goods: October 2013&#039;s Hottest Gadgets</a></span>  </div></li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/gallery/science/5-gross-cool-vintage-anatomy-drawings"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/carousel_thumb/public/images/2013/09/vintage%20eye%20tumor%20crop_0.jpg?itok=eaXuuNRC" width="150" height="100" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/gallery/science/5-gross-cool-vintage-anatomy-drawings">5 Gross But Cool Vintage Anatomy Drawings</a></span>  </div></li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/gallery/inflatable-concert-hall-and-other-amazing-images-week"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/carousel_thumb/public/images/2013/09/dezeen_batman_paradise_valley_by_Nick-Tsontakis_ss_5.jpg?itok=N_zWZslj" width="150" height="100" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/gallery/inflatable-concert-hall-and-other-amazing-images-week">An Inflatable Concert Hall And Other Amazing Images From This Week</a></span>  </div></li>
+          <li class="views-row views-row-6 views-row-even">  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/gadgets/gallery/2013-09/tools-21st-century-pet-care"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/carousel_thumb/public/images/2013/09/PSC1013_WN_035.jpg?itok=xiupgrWd" width="150" height="100" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/gadgets/gallery/2013-09/tools-21st-century-pet-care">5 Of The Best Doggie Gadgets</a></span>  </div></li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/technology/gallery/2013-08/10-amazing-high-tech-fabrics"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/carousel_thumb/public/images/2013/08/013.TextileVisionaries_cmyk.jpg?itok=lb2QcCbM" width="150" height="100" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/technology/gallery/2013-08/10-amazing-high-tech-fabrics">10 Amazing Textiles Of The Future </a></span>  </div></li>
+          <li class="views-row views-row-8 views-row-even">  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/science/gallery/2013-09/faces-historical-anatomical-drawings"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/carousel_thumb/public/images/2013/09/many-weapons.jpg?itok=qe5cdVIc" width="150" height="100" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/science/gallery/2013-09/faces-historical-anatomical-drawings">7 Fantastic Vintage Anatomy Drawings</a></span>  </div></li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/science/gallery/2013-09/microsoft-excel-art-and-other-amazing-images-week"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/carousel_thumb/public/images/2013/09/buildings_nl3.jpg?itok=lUPLpjGU" width="150" height="100" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/science/gallery/2013-09/microsoft-excel-art-and-other-amazing-images-week">A Giant Teddy Bear And Other Amazing Images From This Week</a></span>  </div></li>
+          <li class="views-row views-row-10 views-row-even">  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/science/gallery/2013-09/best-astronomy-photos-year"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/carousel_thumb/public/images/2013/09/solarsystem_0.jpg?itok=FtcklW_Y" width="150" height="100" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/science/gallery/2013-09/best-astronomy-photos-year">The Prettiest Space Photos Of The Year</a></span>  </div></li>
+          <li class="views-row views-row-11 views-row-odd">  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/gadgets/gallery/2011-03/archive-gallery-popscis-daycare-horrors"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/carousel_thumb/public/images/2011/03/sleepingporch2.jpg?itok=MAw5N3FY" width="150" height="100" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/gadgets/gallery/2011-03/archive-gallery-popscis-daycare-horrors">11 Terrifying Childcare Inventions From The Early 20th Century</a></span>  </div></li>
+          <li class="views-row views-row-12 views-row-even">  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/technology/gallery/2013-09/bullets-holes-look-galaxies"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/carousel_thumb/public/images/2013/09/12_44Caliber_0.jpg?itok=H4xcbqKs" width="150" height="100" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/technology/gallery/2013-09/bullets-holes-look-galaxies">Bullet Holes In Plexiglas Look Like Galaxies</a></span>  </div></li>
+          <li class="views-row views-row-13 views-row-odd">  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/science/gallery/2013-09/now-you-can-explore-gal%C3%A1pagos-islands-google-street-view"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/carousel_thumb/public/images/2013/09/sealions.jpg?itok=cLzUyoHJ" width="150" height="100" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/science/gallery/2013-09/now-you-can-explore-gal%C3%A1pagos-islands-google-street-view">The Coolest Things We Saw Exploring The Galápagos Islands In Google Street View</a></span>  </div></li>
+          <li class="views-row views-row-14 views-row-even">  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/science/gallery/2013-09/hoodies-carved-marble-and-other-amazing-images-week"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/carousel_thumb/public/images/2013/09/2-Jonty-Hurwitz-600x450.jpg?itok=29Lfkj00" width="150" height="100" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/science/gallery/2013-09/hoodies-carved-marble-and-other-amazing-images-week">Hoodies Carved From Marble And Other Amazing Images From This Week</a></span>  </div></li>
+          <li class="views-row views-row-15 views-row-odd">  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/technology/gallery/2013-09/crazy-tech-behind-2013-americas-cup"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/carousel_thumb/public/images/2013/09/GMR_AC34AugD8_5881.jpg?itok=gnfEJVhe" width="150" height="100" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/technology/gallery/2013-09/crazy-tech-behind-2013-americas-cup">The Crazy Tech Behind The 2013 America&#039;s Cup</a></span>  </div></li>
+          <li class="views-row views-row-16 views-row-even">  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/science/gallery/2013-09/6-most-important-milestones-history-drugs"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/carousel_thumb/public/images/2013/09/Colchicine_041.jpg?itok=F01scHqT" width="150" height="100" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/science/gallery/2013-09/6-most-important-milestones-history-drugs">6 Of The Most Important Milestones In The History Of Drugs </a></span>  </div></li>
+          <li class="views-row views-row-17 views-row-odd">  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/science/gallery/2013-09/3-d-scanned-elephant-and-other-amazing-images-week"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/carousel_thumb/public/images/2013/09/1-1.jpg?itok=DPj28m-U" width="150" height="100" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/science/gallery/2013-09/3-d-scanned-elephant-and-other-amazing-images-week">A Skull Made Of Cocaine And Other Amazing Images From This Week</a></span>  </div></li>
+          <li class="views-row views-row-18 views-row-even">  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/science/gallery/2013-08/best-animal-students"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/carousel_thumb/public/images/2013/08/abysinian.jpg?itok=yK_pWWw0" width="150" height="100" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/science/gallery/2013-08/best-animal-students">The Best Students In The Animal Kingdom </a></span>  </div></li>
+          <li class="views-row views-row-19 views-row-odd">  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/gadgets/gallery/2013-08/goods-september-2013s-hottest-gadgets"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/carousel_thumb/public/images/2013/08/FishingPole1.jpg?itok=e90v-VQ0" width="150" height="100" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/gadgets/gallery/2013-08/goods-september-2013s-hottest-gadgets">The Goods: September 2013&#039;s Hottest Gadgets</a></span>  </div></li>
+          <li class="views-row views-row-20 views-row-even views-row-last">  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/science/gallery/2013-08/nine-psychedelic-worlds-film-soap"><img typeof="foaf:Image" src="http://www.popsci.com/sites/popsci.com/files/styles/carousel_thumb/public/images/2013/08/soap-film-1.jpg?itok=2g7f751a" width="150" height="100" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/science/gallery/2013-08/nine-psychedelic-worlds-film-soap">9 Trippy Photos Of Soap Film </a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>  <!--</div>-->
+
+  
+  </div>
+</div>
+    <div class="clearfix"></div>
+    <footer class="main-footer">
+      <div class="footer-ads"><div class="panel-pane pane-block pane-ad-manager-bottom" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div id="ad-manager-ad-bottom-0" class="ad-manager-ad gpt-ads"><script type="text/javascript">Drupal.GPT.registerSlot('ad-manager-ad-bottom-0',{"size":{"0":null,"767":[[728,90]]},"outofpage":false,"targeting":{"pos":[{"value":"bottom","eval":0}]},"refresh":true});</script></div>  <!--</div>-->
+
+  
+  </div>
+</div>
+      <div class="footer-sitemap"><div class="panel-pane pane-panels-mini pane-social-footer" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div class="content-leftcol two-col"><div class="panel-pane pane-custom pane-1 footer-logo" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <!--smart_paging_filter--><p><img alt="PopSci Footer Logo" src="/sites/popsci.com/themes/popsci/images/popsci-footer-logo.jpg" /></p>
+  <!--</div>-->
+
+  
+  </div>
+</div>
+<div class="content-rightcol two-col"><div class="panel-pane pane-social-buttons" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <div class="item-list"><ul><li class="social-linkout-buttons facebook-linkout first"><a href="https://www.facebook.com/PopSci" target="_blank"><span class="icon"></span></a></li>
+<li class="social-linkout-buttons twitter-linkout"><a href="https://twitter.com/PopSci" target="_blank"><span class="icon"></span></a></li>
+<li class="social-linkout-buttons google-plus-linkout"><a href="https://plus.google.com/112971505702976750152" target="_blank"><span class="icon"></span></a></li>
+<li class="social-linkout-buttons pinterest-linkout"><a href="http://pinterest.com/popularscience" target="_blank"><span class="icon"></span></a></li>
+<li class="social-linkout-buttons instagram-linkout"><a href="http://instagram.com/popsci" target="_blank"><span class="icon"></span></a></li>
+<li class="social-linkout-buttons tumblr-linkout"><a href="http://popsci.tumblr.com" target="_blank"><span class="icon"></span></a></li>
+<li class="social-linkout-buttons youtube-linkout"><a href="http://www.youtube.com/Popscivideo" target="_blank"><span class="icon"></span></a></li>
+<li class="social-linkout-buttons rss-linkout last"><a href="http://www.popsci.com/rss-feeds" target="_blank"><span class="icon"></span></a></li>
+</ul></div>  <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-solr-client-form" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <form accept-charset="UTF-8" method="post" action="/find" class="solr_client_form">
+<input type="text" maxlength="128" size="15" placeholder="" name="apachesolr_panels_search_form" class="solr_client_form_search" title="Enter the terms you wish to search for.">
+<input type="hidden" value="apachesolr_panels_search_form" name="form_id">
+<input id="edit-submit" class="search-submit form-submit" type="submit" value="GO" name="op">
+<input type="hidden" value="find" name="apache_solr_page_path" class="solr_client_path"/>
+</form>  <!--</div>-->
+
+  
+  </div>
+</div>
+  <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-block pane-menu-menu-footer-menu" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <ul class="menu"><li class="first leaf"><a href="https://ssl.palmcoastd.com/08913/apps/-180178?iKey=N**0WE&amp;webSyncID=6876e753-766d-b5c3-323b-625abcd7eb01&amp;sessionGUID=a76de8c8-9382-d693-7509-847d8d046773">Subscribe to the Print Edition</a></li>
+<li class="leaf"><a href="https://ssl.palmcoastd.com/08913/apps/-180178?iKey=N**0WE&amp;webSyncID=6876e753-766d-b5c3-323b-625abcd7eb01&amp;sessionGUID=c799c818-665b-7da8-2d84-ede140bc69ca" target="_blank">Subscribe to the iPad Edition</a></li>
+<li class="leaf"><a href="https://secure.palmcoastd.com/pcd/eServ?iServ=MDg5MTM0NjQ1Ng==" target="_blank">Renew Subscription</a></li>
+<li class="leaf"><a href="https://secure.palmcoastd.com/pcd/eServ?iServ=MDg5MTM0NjQ1Ng==" target="_blank">Customer Service</a></li>
+<li class="leaf"><a href="/sitemap.xml">Site Map</a></li>
+<li class="leaf"><a href="/about-us">About Us</a></li>
+<li class="leaf"><a href="/contact-us">Contact Us</a></li>
+<li class="leaf"><a href="/advertising">Advertising</a></li>
+<li class="leaf"><a href="/privacy-policy">Privacy Policy</a></li>
+<li class="leaf"><a href="/terms-of-use">Terms of Use</a></li>
+<li class="leaf"><a href="/abuse">Abuse</a></li>
+<li class="leaf"><a href="http://www.replayphotos.com/popularsciencephotostore/">Buy Popular Science Covers</a></li>
+<li class="last leaf"><a href="/rss-feeds">RSS Feeds</a></li>
+</ul>  <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-block pane-popsci-site-popsci-site-footer-copyright" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    
+    <p class="copyright-top">Copyright &copy; 2013 Popular Science. A <a href="http://www.bonniercorp.com/">Bonnier Corporation</a> Company. All rights reserved. Reproduction in whole or in part without permission is prohibited.</p>
+    <p><a href="http://www.bonniercorp.com/" class="bonnier-link"></a></p>
+      <!--</div>-->
+
+  
+  </div>
+<div class="panel-pane pane-block pane-bonnier-publications-bonnier-publications" >
+  
+      
+  
+  <!--<div class="pane-content">-->
+    <form action="/?q=node/add" method="post" id="-bonnier-publications-listings" accept-charset="UTF-8"><div><div class="form-item form-type-select form-item-bonnier-publications-options">
+  <label for="edit-bonnier-publications-options"><img src="http://www.popsci.com/sites/popsci.com/modules/bonnier/bonnier_publications/theme/images/bonnier.png" title="Bonnier Publications" /> </label>
+ <select onchange="_bonnier_publications_onchange_callback(this)" id="edit-bonnier-publications-options" name="bonnier_publications_options" class="form-select"><option value="" selected="selected">Visit Our Sister Sites</option><optgroup label="Travel, Dive and Epicurean"><option value="http://www.destinationweddingmag.com/">Destination Weddings &amp; Honeymoon</option><option value="http://www.floridatravellife.com/">Florida Travel + Life</option><option value="http://www.saveur.com/">Saveur</option><option value="http://www.islands.com/">Islands</option><option value="http://www.scubadiving.com/">Scuba Diving</option><option value="http://www.sportdiver.com/">Sport Diver</option></optgroup><optgroup label="Marine &amp; Aviation"><option value="http://www.boatingmag.com/">Boating</option><option value="http://www.cruisingworld.com/">Cruising World</option><option value="http://www.flyfishinsalt.com/">Fly Fishing in Salt Waters</option><option value="http://www.flyingmag.com/">Flying</option><option value="http://www.marlinmag.com/">Marlin</option><option value="http://www.marlinuniversity.com/">Marlin University</option><option value="http://www.sailingworld.com/">Sailing World</option><option value="http://www.saltwatersportsman.com/">Salt Water Sportsman</option><option value="http://www.sportfishingmag.com/">Sport Fishing</option><option value="http://www.wakeboardingmag.com/">Wakeboarding</option><option value="http://www.waterskimag.com/">WaterSki</option><option value="http://www.yachtingmagazine.com/">Yachting</option></optgroup><optgroup label="Men's Group"><option value="http://www.americanphotomag.com">American Photo</option><option value="http://www.fieldandstream.com/">Field &amp; Stream</option><option value="http://www.outdoorlife.com/">Outdoor Life</option><option value="http://www.popsci.com/">Popular Science</option><option value="http://www.popphoto.com/">Popular Photography</option><option value="http://www.shotbusiness.com/">SHOT Business</option></optgroup><optgroup label="Motorcycle"><option value="http://www.motorcyclistonline.com">Motorcyclist</option><option value="http://www.cycleworld.com">Cycle World</option><option value="http://www.dirtrider.com">Dirt Rider</option><option value="http://www.atvrideronline.com">ATV Rider</option><option value="http://www.sportrider.com">Sport Rider</option><option value="http://www.streetchopper.com">Street Chopper</option><option value="http://www.hotbikeweb.com">Hot Bike</option><option value="http://www.superstreetbike.com">Super Streetbike</option><option value="http://www.motorcyclecruiser.com">Motorcycle Cruiser</option><option value="http://www.baggersmag.com">Baggers</option></optgroup><optgroup label="Working Mother Media"><option value="http://www.workingmother.com/">Working Mother</option></optgroup><optgroup label="Entertainment / Events"><option value="http://www.world-ent.com">World Entertainment Services</option><option value="http://www.bonniercorp.com/brands/World-Sports-Marketing.html">World Sports &amp; Marketing</option></optgroup></select>
+</div>
+<input type="hidden" name="form_build_id" value="form-RmeHFoKOKXmSkcUGygkjf-zJpyr0SoEQcM0lz4TdHk8" />
+<input type="hidden" name="form_id" value="_bonnier_publications_listings" />
+</div></form>  <!--</div>-->
+
+  
+  </div>
+</div>
+    </footer>
+  </div>
+</div>
+<div id="stay-connected-float" style="display:none;">
+  </div>    <div id="ad-manager-ad-x96-0" class="ad-manager-ad gpt-ads"><script type="text/javascript">Drupal.GPT.registerSlot('ad-manager-ad-x96-0',{"size":{"0":null,"1025":[[1500,889]]},"outofpage":false,"targeting":{"pos":[{"value":"x96","eval":0}]},"refresh":true});</script></div>    
+      <!-- Start quantcast tag -->
+      <script type="text/javascript">
+      _qacct = Drupal.settings.bonnier_analytics.quantcast.account;
+      // function to refresh the tag, creating a new page hit
+      function quantcast_refresh() {
+        quantserve();
+      }
+      // Load script once windows load
+      jQuery.getScript('http://edge.quantserve.com/quant.js', function (data, textStatus, jqxhr) {});
+      </script>
+      <noscript><img src="http://pixel.quantserve.com/pixel/p-cafODhhaQOlCs.gif" style="display:none" height="1" width="1" alt="Quantcast" /></noscript>
+      <!-- End quantcast tag -->
+    <script type="text/javascript">
+  var s_account = 'bonndev';
+  var s_dynamicAccountList = 'timepopsci=www.popsci.com';
+  var s_linkTrackVars = '';
+  var s_linkTrackEvents = '';
+  var s_formList = '';
+  var s_varUsed = '';
+  var s_eventList = '';
+</script>
+<script type="text/javascript" src="http://www.popsci.com/sites/popsci.com/modules/bonnier/bonnier_analytics/providers/omniture/js/s_code.js"></script>
+<script type="text/javascript"><!--
+  // function to reload the tag, creating another page hit
+  function omniture_refresh() {
+    if (s !== undefined) {
+      void(s.t());
+    };
+  }
+
+      // Omniture Key Condition - omniture_default
+          s.channel = "gadgets";
+          s.pageName = "" + s.channel + ":Article:Valve Announces Multiple Steam Consoles, Will Not Show Them";
+          s.prop2 = "colin lecher";
+          s.prop3 = "gadgets, video games, games, steam machines, valve, half-life, game consoles";
+          s.prop4 = "article";
+          s.prop16 = "video games";
+          s.prop5 = "";
+          s.prop8 = "";
+          s.prop18 = "";
+          s.prop20 = "";
+          s.pageType = "";
+          s.events = "";
+        
+      s.trackingServer = 'popsci.com.122.2o7.net';
+    
+    
+      s.visitorMigrationServer = '50DB26A6';
+    
+    
+      var omnitureScodeArray = {"s.channel":"\"gadgets\";\n","s.pageName":"\"\" + s.channel + \":Article:Valve Announces Multiple Steam Consoles, Will Not Show Them\";\n","s.prop2":"\"colin lecher\";\n","s.prop3":"\"gadgets, video games, games, steam machines, valve, half-life, game consoles\";\n","s.prop4":"\"article\";\n","s.prop16":"\"video games\";\n","s.prop5":"\"\";\n","s.prop8":"\"\";\n","s.prop18":"\"\";\n","s.prop20":"\"\";\n","s.pageType":"\"\";\n","s.events":"\"\";\n"};
+    omniture_cleanup(2);
+    
+  
+  /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+  var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+  <script type="text/javascript"><!--
+  if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+  //--></script><noscript><img src="http://bonniercorp.122.2o7.net/b/ss//1/H.22.1--NS/0"
+  height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
+  <!-- End SiteCatalyst code version: H.22.1. -->
+  <!-- Start nielsen tag -->
+  <script type="text/javascript">
+    var d = new Image(1, 1);
+    d.onerror = d.onload = function () {
+      d.onerror = d.onload = null;
+    };
+    d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-903454h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
+  </script>
+  <noscript><div><img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-903454h&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt="" /></div></noscript>
+  <!-- End nielsen tag -->
+  
+    <!-- Begin comScore Tag -->
+    <script type="text/javascript">
+    var _comscore = _comscore || [];
+    _comscore.push({ c1: "2", c2: "6035029" });
+    (function() {
+      var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+      s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+      el.parentNode.insertBefore(s, el);})();
+    </script>
+    <noscript>
+      <img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035029&amp;cv=2.0&amp;cj=1" style="display:none" width="0" height="0" alt="" />
+    </noscript>
+    <!-- End comScore Tag -->
+    <!-- Start chartbeat tag -->
+    <script type="text/javascript">
+    var _sf_async_config={};
+    /** CONFIGURATION START **/
+    _sf_async_config.uid = Drupal.settings.bonnier_analytics.chartbeat.uid;
+    _sf_async_config.domain = Drupal.settings.bonnier_analytics.chartbeat.domain;
+    /** CONFIGURATION END **/
+    function loadChartbeat() {
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement("script");
+      e.setAttribute("language", "javascript");
+      e.setAttribute("type", "text/javascript");
+      e.setAttribute("src",
+         (("https:" == document.location.protocol) ?
+           "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" :
+           "http://static.chartbeat.com/") +
+         "js/chartbeat.js");
+      document.body.appendChild(e);
+    }
+    loadChartbeat();
+    </script>
+    <!-- End chartbeat tag --><script type="text/javascript" src="http://www.popsci.com/sites/popsci.com/files/js/js_IY3TGaWlTHx6ZFiKhMMLO5J46Tey7RB5-6u7-O-RCGA.js"></script>
+  </body>
+</html>

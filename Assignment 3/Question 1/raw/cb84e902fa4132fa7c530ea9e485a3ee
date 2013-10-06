@@ -1,0 +1,1102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- CONTENTdm Version 6.4.0.264s/6.4.0.491w (c) OCLC 2011-2013. All Rights Reserved. //--><!-- dmQuery/all/CISOSEARCHALL^Sentinel^all^and/title!creato!descri/nosort/20/1/1/0/1/creato!subjec!date!formatb!relatik/0/0/xml --><!-- /!/search?query=+%28ft%3ASentinel%29 and (za:f3 or za:"128.82.4.182")&group=$group.pa.cp<ITEM><DB>$pa</DB><KEY>$cp</KEY><SORT>$sort-$max.ft.$d</SORT></ITEM>&collection=/norfolk1919/,/womenscenter/,/vsooh/,/oralhistory/,/sdinv/,/oduphotos/,/dove/,/revelli/&suggest=1&facet=1&maxfacet=10&rsum=cr:su:da:fm:rm:&facetinitial=cr:su:da:fm:rm:&rankboost=&proximity=strict&priority=normal&unanchoredphrases=1&maxres=20&firstres=0&rform=/!/null.htm -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+  <title>Old Dominion University Libraries Digital Collections</title>
+	
+    <link href="/ui/custom/default/collection/default/css/main.css" type="text/css" rel="stylesheet" />
+    <style>
+  .line_breaker, pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    white-space: pre-line;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -hp-pre-wrap;
+    word-wrap: break-word;
+  }
+  </style>
+  <link rel="shortcut icon" href="/ui/cdm/default/collection/default/images/favicon.ico" type="image/x-icon" />
+  	<script type="text/javascript">
+    var cdmHttps = 'off';
+    var cdmInsecureWebsitePort = '';
+    var cdmSecureWebsitePort = '';
+  </script>
+        <!-- NEW JQUERY and UI -->
+      <script type="text/javascript" src="/utils/getstaticcontent/file/js~jquery_1.7.2~jquery-1.7.2.js/type/javascript">//</script>
+      <script type="text/javascript" src="/utils/getstaticcontent/file/js~jquery_1.7.2~jquery-ui-1.8.20.js/type/javascript">//</script>
+      <script type="text/javascript" src="/utils/getstaticcontent/file/js~jquery-ui-togglebox.js/type/javascript">//</script>
+      <script type="text/javascript" src="/utils/getstaticcontent/file/js~jquery.hoverIntent.minified.js/type/javascript">//</script>
+      <script type="text/javascript" src="/utils/getstaticcontent/file/js~jquery.scrollTo-min.js/type/javascript">//</script>
+
+
+      <script type="text/javascript" src="/utils/getstaticcontent/file/js~default.js/type/javascript">//</script>
+      <link type="text/css" href="/utils/getstaticcontent/file/js~bt~jquery.bt.css/type/stylesheet" rel="stylesheet" />
+      <script type="text/javascript" src="/utils/getstaticcontent/file/js~bt~jquery.bt.min.js/type/javascript">//</script>
+      <script type="text/javascript" src="/utils/getstaticcontent/file/js~quickview.js/type/javascript">//</script>
+      <link type="text/css" href="/utils/getstaticcontent/file/js~skins~tango~skin.css/type/stylesheet" rel="stylesheet" />
+      <link type="text/css" href="/utils/getstaticcontent/file/js~skins~cdm~skin.css/type/stylesheet" rel="stylesheet" />
+        
+  <!--[if IE]>
+		<script type="text/javascript" src="/ui/cdm/default/collection/default/js/excanvas.compiled.js"></script>
+	<![endif]-->
+	<!--[if IE 7]>
+		<link href="/ui/cdm/default/collection/default/css/ie7.css" type="text/css" rel="stylesheet" />
+	<![endif]-->
+  <!--[if IE 7]>
+  <style type="text/css">.idx_collections_list_image .jcarousel-skin-cdm .jcarousel-item {line-height: 80px;}</style>
+  <![endif]-->
+  
+    
+  
+      <script type="text/javascript">
+      //services_exclude: 'print'
+      var addthis_config = {
+            services_compact: 'email, facebook',
+            services_expanded: ''
+      }
+    </script>
+               
+</head>
+
+
+<body>
+  <a name="top"></a>
+
+<!-- HEADER -->
+	<div id="headerWrapper" tabindex="1000">
+    <p><img src="/ui/custom/default/collection/default/images/white_logo3.png" alt="" /></p>
+    <span class="clear"></span>
+	</div>
+
+<!--  NAV_TOP -->
+	<div id="nav_top">
+		<div id="nav_top_left">
+			<ul class="nav">
+                  <li class="nav_li">
+            <a tabindex="1001" id="nav_top_left_first_link" href="/cdm/"  >
+              <div class="nav_top_left_text_container">All Collections</div>
+            </a>
+          </li>
+                    <li class="nav_li">
+            <a tabindex="1002"  href="/cdm/about"  >
+              <div class="nav_top_left_text_container">About the Collections</div>
+            </a>
+          </li>
+                    <li class="nav_li">
+            <a tabindex="1003"  href="/cdm/search"  >
+              <div class="nav_top_left_text_container">Search All Collections</div>
+            </a>
+          </li>
+          					
+			</ul>
+		</div>
+
+		<div id="nav_top_right">
+			<ul class="nav">
+							<li class="nav_li_right_1">
+					<span class=""><!--<a href="javascript:session_check(fx);" id="debug_session_check">Session Check</a>&nbsp;-&nbsp;<a href="javascript:session_auth();" id="debug_session_auth">Session Auth</a>&nbsp;-&nbsp;<a href="javascript:session_deauth();" id="debug_session_de-auth">Session De-Auth</a>&nbsp;-&nbsp;-->
+                
+						  <span class="currentUser" id="currentUser"></span><a tabindex="1004" id="login_link" href="http://dc.lib.odu.edu/login/" data-analytics='{"category":"navigation","action":"click","label":"Log in link"}'>Log in</a>
+                      </span>
+                                    
+				</li>
+
+				<li class="nav_li_right_1 nav_top_right_divider">
+					&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; 
+				</li>
+                
+				<li class="nav_li_right_1">
+					<span class="icon_10 icon_nav_top_right ui-icon-help cdmHelpLink"></span><a tabindex="1005" class="cdmHelpLink" href="javascript:;" data-analytics='{"category":"navigation","action":"click","label":"Help link"}'><b>Help</b></a>
+				</li>
+        				</li>
+			</ul>
+		</div>
+	</div>
+
+
+<!-- SEARCH -->
+	<div id="search">
+		<div id="search_content" class="float_left">
+			<div class="search_content_container float_left spaceMar5T">
+				<span id="search_content_text">Search</span>&nbsp;
+			</div>
+			
+              <!--[if lte IE 7]>
+          <style>.search_within_results_li{margin-top:0px;}#search_results_button_arrow{margin-top:4px;}</style>
+        <![endif]-->
+
+        <div class="search_content_container search_results_btn_container spaceMar15R float_left">
+          <ul class="search_results_list">
+            <li class="float_left"><input tabindex="1" type="text" id="search_content_box" name="search_content_box" class="search_content_box_results" value="" autocomplete="off" data-analytics='{"category":"search","action":"return","label":"query"}' /></li>
+            <li class="search_within_results_li">
+              <input id="search_results_button_mode" type="hidden" value="results" />
+              <input id="search_results_button_text_0" type="hidden" value="new search" />
+              <input id="search_results_button_text_1" type="hidden" value="within results" />
+              <a tabindex="2" href="javascript:;" id="search_results_dd_link" class="search_content_button_link" data-analytics='{"category":"search","action":"click","label":"within results link"}'>within results<span id="search_results_button_arrow" class="icon_10 icon_nav_top_left ui-icon-triangle-1-s"></span></a>
+              <br /><br />
+              <div id="search_results_dd_container"><br />
+                <div id="search_results_dd_content">
+                                      <div class="dd_option">
+                      <a tabindex="3" sbm="0" class="dd_option_searchresults" href="javascript:;" data-analytics='{"category":"search","action":"click","label":"within results link: new search"}'>
+                        new search                      </a>
+                    </div>
+                                        <div class="dd_option">
+                      <a tabindex="4" sbm="1" class="dd_option_searchresults" href="javascript:;" data-analytics='{"category":"search","action":"click","label":"within results link: within results"}'>
+                        within results                      </a>
+                    </div>
+                                    </div>
+              </div>
+            </li>
+          </ul>
+          <span class="clear"></span>
+        </div>
+        
+          
+              <input type="hidden" name="cdm_searchbox_mode" id="cdm_searchbox_mode" value="results" />
+      <input type="hidden" name="searchterm" id="searchterm" value="Sentinel" />
+			<div class="search_content_container float_left" style="margin-top:3px;">
+				<input tabindex="5" id="simple_search_button" class="search_content_button spaceMar15L" type="button" value="Search" data-analytics='{"category":"search","action":"click","label":"query"}' />
+			</div>
+			
+		</div>
+       <div class="search_content_container_advanced float_left ">
+		  <a tabindex="6" href="javascript://;" id="search_content_adv_link" class="action_link_10" data-analytics='{"category":"advanced search","action":"toggle","label":"advanced-search-link"}'>Advanced Search</a>
+    </div>
+    <div id="search_content_close_icon" class="search_content_container_advanced cdm_hide float_left spaceMar5L">
+      <span class="icon_16 ui-icon-circle-close"></span>
+    </div>
+    <span class="clear"></span>
+    <div id="suggested_search_terms">&nbsp;</div>
+          <input type="hidden" id="cdm_search_query" value="search/collection/all/searchterm/Sentinel/mode/all/page/1" />
+      	</div>
+
+	<div id="adv_search" >
+		<div id="adv_search_content" class="float_left">
+			<div id="adv_search_col_1">
+				<h2 class="cdm_style float_left" style="margin-bottom:0;">Find results with:</h2>
+        <div id="adv_search_error" style="display:none;height:24px;width:500px;" class="float_left spacePad10T spacePad10L spaceMar10L ui-state-error ui-corner-all"><span class="icon_10 ui-icon-alert"></span>error div</div>
+        <span class="clear"></span>
+        <ul style="float:left;padding:0;margin:0;margin-bottom:15px;list-style-type:none;" id="adv_search_query_builder_list"></ul>
+        <span class="clear"></span>
+        <div><a id="adv_search_add_field_link" class="action_link_10 adv_search_add_field_link_disabled" href="javascript://">Add another field</a></div>
+        <span class="clear"></span>
+        <!-- advancedSearchByDateEnabled -->
+
+                  <div id="adv_search_col_1_bottom" class="spaceMar10T">
+            <span id="icon_adv_search_datearrow" class="icon_10 icon_adv_search ui-icon-triangle-1-e"></span>
+            <span class="icon_10 icon_adv_search ui-icon-calendar"></span>
+            <a id="adv_search_by_date_link" class="action_link_10" href="javascript://" data-analytics='{"category":"advanced search","action":"toggle","label":"search-by-date-link"}'>Search by date</a>
+            <div id="adv_search_by_date_container" class="spaceMar10T">
+              <ul id="adv_search_datepicker_list" style="list-style-type:none;padding:0;margin:0;">
+                <li class="float_left">
+                  <select id="adv_search_date_range" class="adv_search_date_range">
+                    <option value="from" selected="selected">from</option>
+                    <option value="after">after</option>
+                    <option value="before">before</option>
+                    <option value="on">on</option>
+                  </select>
+                </li>
+                <li class="float_left spaceMar15L"><input type="text" id="datepicker1" class="datestring" value="mm/dd/yyyy" /></li>
+                <li class="float_left spaceMar15L spacePad5"><span id="datepickerTo">to</span></li>
+                <li class="float_left spaceMar15L"><input type="text" id="datepicker2" class="datestring" value="mm/dd/yyyy" /></li>
+              </ul>
+              <span class="clear"></span>
+            </div>
+          </div>
+                <span class="clear"></span>
+        <div class="spaceMar15R spaceMar15T float_left"><input id="advanced_search_button" class="search_content_button" type="button" value="Search" data-analytics='{"category":"advanced search","action":"click","label":"search-button"}' /></div>
+        <div class="spaceMar15R spaceMar15T float_left"><input id="advanced_search_clearall" class="search_content_button" type="button" value="Clear All" data-analytics='{"category":"advanced search","action":"click","label":"clear-all-button"}' /></div>
+        <span class="clear"></span>
+			</div>
+		</div>
+		<div id="adv_search_col_2">
+      <h3 class="cdm_style">Searching collections:</h3>
+			<ul id="advsearchCollectionList" class="cdm_style">
+        			</ul>
+                <div id="advsearchAllMoreText" class="spaceMar10B light_gray_text">All Collections</div>
+                <span class="clear"></span>
+			
+            
+      <div><a id="advanced_max_collections_link" class="action_link_10" href="javascript://" data-analytics='{"category":"advanced search","action":"open","label":"Add or remove collections popup"}'>
+        
+              Add or remove collections              
+      </a></div>
+		</div>
+		<span class="clear"></span>
+  </div>
+	
+<!-- BEGIN TOP CONTENT -->
+	<div id="top_content">
+			<div id="results_tn_wrapper">
+
+    <div id="results_tn_col1">
+
+		<h2 class="cdm_style">Add or remove other collections to your search:</h2><br /><br />
+
+			<div>
+                  <div class="results_tn_collection_box results_tn_collection_box_checked">
+            <table><tr>
+              <td><input tabindex="650" type="checkbox" checked='checked' coll="rmcoll/dove" tc="dove" name="dove" class="all_collections_checkbox" /></td>
+              <td><a tabindex="651" href="javascript://" coll="rmcoll/dove" class="body_link_11 results_tn_collection_box_inner1 all_collections_checkbox" tc="dove">DOVE - Desegregation of Virginia Education</a></td>
+            </tr></table>
+          </div>
+                    <div class="results_tn_collection_box results_tn_collection_box_checked">
+            <table><tr>
+              <td><input tabindex="652" type="checkbox" checked='checked' coll="rmcoll/revelli" tc="revelli" name="revelli" class="all_collections_checkbox" /></td>
+              <td><a tabindex="653" href="javascript://" coll="rmcoll/revelli" class="body_link_11 results_tn_collection_box_inner1 all_collections_checkbox" tc="revelli">National Band Association William D. Revelli Memorial Band Competition Winners</a></td>
+            </tr></table>
+          </div>
+                    <div class="results_tn_collection_box results_tn_collection_box_checked">
+            <table><tr>
+              <td><input tabindex="654" type="checkbox" checked='checked' coll="rmcoll/norfolk1919" tc="norfolk1919" name="norfolk1919" class="all_collections_checkbox" /></td>
+              <td><a tabindex="655" href="javascript://" coll="rmcoll/norfolk1919" class="body_link_11 results_tn_collection_box_inner1 all_collections_checkbox" tc="norfolk1919">Norfolk Nineteen Nineteen Photographic Collection</a></td>
+            </tr></table>
+          </div>
+                    <div class="results_tn_collection_box results_tn_collection_box_checked">
+            <table><tr>
+              <td><input tabindex="656" type="checkbox" checked='checked' coll="rmcoll/oduphotos" tc="oduphotos" name="oduphotos" class="all_collections_checkbox" /></td>
+              <td><a tabindex="657" href="javascript://" coll="rmcoll/oduphotos" class="body_link_11 results_tn_collection_box_inner1 all_collections_checkbox" tc="oduphotos">ODU Photographic Collection</a></td>
+            </tr></table>
+          </div>
+                    <div class="results_tn_collection_box results_tn_collection_box_checked">
+            <table><tr>
+              <td><input tabindex="658" type="checkbox" checked='checked' coll="rmcoll/oralhistory" tc="oralhistory" name="oralhistory" class="all_collections_checkbox" /></td>
+              <td><a tabindex="659" href="javascript://" coll="rmcoll/oralhistory" class="body_link_11 results_tn_collection_box_inner1 all_collections_checkbox" tc="oralhistory">Oral Histories in the Perry Library</a></td>
+            </tr></table>
+          </div>
+          				
+			</div>
+
+                <div id="results_tn_collection_show_more_link_container">
+                          <a tabindex="660" id="results_tn_collection_show_more_link" href="javascript://" class="action_link_10">
+                            <span class="icon_10 ui-icon-circlesmall-plus"></span>Show 3 more            </a>
+          </div>
+          <div id="results_tn_collection_show_more_container">
+                          <div class="results_tn_collection_box results_tn_collection_box_checked">
+                <table><tr>
+                <td><input tabindex="661" type="checkbox" checked='checked' coll="rmcoll/womenscenter" tc="womenscenter" name="womenscenter" class="all_collections_checkbox" /></td>
+                <td><a tabindex="662" href="javascript://"  coll="rmcoll/womenscenter" class="body_link_11 results_tn_collection_box_inner1 all_collections_checkbox" tc="womenscenter">Papers of the ODU Women's Center</a></td>
+                </tr></table>
+              </div>
+                            <div class="results_tn_collection_box results_tn_collection_box_checked">
+                <table><tr>
+                <td><input tabindex="663" type="checkbox" checked='checked' coll="rmcoll/sdinv" tc="sdinv" name="sdinv" class="all_collections_checkbox" /></td>
+                <td><a tabindex="664" href="javascript://"  coll="rmcoll/sdinv" class="body_link_11 results_tn_collection_box_inner1 all_collections_checkbox" tc="sdinv">School Desegregation in Norfolk, Virginia</a></td>
+                </tr></table>
+              </div>
+                            <div class="results_tn_collection_box results_tn_collection_box_checked">
+                <table><tr>
+                <td><input tabindex="665" type="checkbox" checked='checked' coll="rmcoll/vsooh" tc="vsooh" name="vsooh" class="all_collections_checkbox" /></td>
+                <td><a tabindex="666" href="javascript://"  coll="rmcoll/vsooh" class="body_link_11 results_tn_collection_box_inner1 all_collections_checkbox" tc="vsooh">VSO Oral Histories</a></td>
+                </tr></table>
+              </div>
+                          <div id="results_tn_collection_hide_more_link_container">
+              <a tabindex="667" id="results_tn_collection_hide_more_link" href="javascript://" class="action_link_10">
+                <span class="icon_10 ui-icon-circlesmall-plus"></span>Hide              </a>
+            </div>
+          </div>
+              <input type="hidden" id="cdm_hiddenCollectionsInSearch" value="3" />
+			<div style="height:10px;">&nbsp;</div>
+
+
+
+      			<h2 class="cdm_style">Narrow your search by:</h2><br /><br />
+      <div id="results_tn_accordion" class="cdm_accordion">
+
+
+              <h3 thetabindex="668" class="accordion_header accordion_header_open" data-analytics='{"category":"facets","action":"toggle","label":"Date"}'>
+			    <a tabindex="-1" class="details_accordion_heading" href="javascript://;">
+					  Date					</a>
+				</h3>
+        <div class="accordion_window">
+          <ul class="cdm_style">
+                            <li><a class="cdm_facet_link body_link_11" href="javascript:;" facetalias="date" facetterm="1955-08-22" tabindex="669" data-analytics='{"category":"facets","action":"click","label":"Date: 1955-08-22"}'>1955-08-22</a> <span class="li_text_1">(1)</span></li>
+                                <li><a class="cdm_facet_link body_link_11" href="javascript:;" facetalias="date" facetterm="1955-09" tabindex="670" data-analytics='{"category":"facets","action":"click","label":"Date: 1955-09"}'>1955-09</a> <span class="li_text_1">(1)</span></li>
+                          </ul>
+        </div>
+                <h3 thetabindex="671" class="accordion_header accordion_header_open" data-analytics='{"category":"facets","action":"toggle","label":"Subject"}'>
+			    <a tabindex="-1" class="details_accordion_heading" href="javascript://;">
+					  Subject					</a>
+				</h3>
+        <div class="accordion_window">
+          <ul class="cdm_style">
+                            <li><a class="cdm_facet_link body_link_11" href="javascript:;" facetalias="subjec" facetterm="brown v. board of education of topeka" tabindex="672" data-analytics='{"category":"facets","action":"click","label":"Subject: brown v. board of education of topeka"}'>brown v. board of education of topeka</a> <span class="li_text_1">(1)</span></li>
+                                <li><a class="cdm_facet_link body_link_11" href="javascript:;" facetalias="subjec" facetterm="defenders of state sovereignty and individual liberties" tabindex="673" data-analytics='{"category":"facets","action":"click","label":"Subject: defenders of state sovereignty and individual liberties"}'>defenders of state sovereignty and individual liberties</a> <span class="li_text_1">(1)</span></li>
+                                <li><a class="cdm_facet_link body_link_11" href="javascript:;" facetalias="subjec" facetterm="hurston, zora neale" tabindex="674" data-analytics='{"category":"facets","action":"click","label":"Subject: hurston, zora neale"}'>hurston, zora neale</a> <span class="li_text_1">(1)</span></li>
+                                <li><a class="cdm_facet_link body_link_11" href="javascript:;" facetalias="subjec" facetterm="orlando sentinel" tabindex="675" data-analytics='{"category":"facets","action":"click","label":"Subject: orlando sentinel"}'>orlando sentinel</a> <span class="li_text_1">(1)</span></li>
+                                <li><a class="cdm_facet_link body_link_11" href="javascript:;" facetalias="subjec" facetterm="richmond times-dispatch" tabindex="676" data-analytics='{"category":"facets","action":"click","label":"Subject: richmond times-dispatch"}'>richmond times-dispatch</a> <span class="li_text_1">(1)</span></li>
+                                <li><a class="cdm_facet_link body_link_11" href="javascript:;" facetalias="subjec" facetterm="school integration -- massive resistance movement -- virginia" tabindex="677" data-analytics='{"category":"facets","action":"click","label":"Subject: school integration -- massive resistance movement -- virginia"}'>school integration -- massive resistance movement -- virginia</a> <span class="li_text_1">(1)</span></li>
+                                <li><a class="cdm_facet_link body_link_11" href="javascript:;" facetalias="subjec" facetterm="segregation -- united states" tabindex="678" data-analytics='{"category":"facets","action":"click","label":"Subject: segregation -- united states"}'>segregation -- united states</a> <span class="li_text_1">(1)</span></li>
+                                <li><a class="cdm_facet_link body_link_11" href="javascript:;" facetalias="subjec" facetterm="segregation in education -- united states" tabindex="679" data-analytics='{"category":"facets","action":"click","label":"Subject: segregation in education -- united states"}'>segregation in education -- united states</a> <span class="li_text_1">(1)</span></li>
+                                <li><a class="cdm_facet_link body_link_11" href="javascript:;" facetalias="subjec" facetterm="segregation in education -- virginia" tabindex="680" data-analytics='{"category":"facets","action":"click","label":"Subject: segregation in education -- virginia"}'>segregation in education -- virginia</a> <span class="li_text_1">(1)</span></li>
+                                <li><a class="cdm_facet_link body_link_11" href="javascript:;" facetalias="subjec" facetterm="states' rights (american politics)" tabindex="681" data-analytics='{"category":"facets","action":"click","label":"Subject: states' rights (american politics)"}'>states' rights (american politics)</a> <span class="li_text_1">(1)</span></li>
+                          </ul>
+        </div>
+                  
+      </div>
+
+					
+
+
+			<!--<div id="results_tn_narrow_link_list_container"></div>-->
+      
+
+            <span class="clear"></span>
+		</div>    <!-- removed column to helper -->
+
+			<div id="results_tn_col2">
+			<div class="float_left body_text_10">
+				<h3 class="cdm_style">You've searched:</h3>
+				All Collections			</div>
+			
+			
+              <span class="clear"></span>
+        <div class="float_left spaceMar10T spaceMar10B spacePad5T spacePad5B spacePadBT body_text_10" style="width:100%;min-width:645px;float:left;border: 1px solid #E9E9E9;">
+          <ul style="list-style-type:none;margin: 0;padding:0;">
+                            <li class="float_left spaceMar10L spaceMar5T spaceMar5B">
+                  <span class="bold">All fields:</span>
+                  Sentinel<span tabindex="15" searchterm="searchquery_0" class="search_term_remover icon_10 icon_drop_down ui-icon-close"></span>
+                  <span class="bold">
+                                    </span>
+                  <input type="hidden" id="searchquery_0" value="CISOSEARCHALL^Sentinel^all^and" />
+                </li>
+                          </ul>
+        </div>
+        	  
+		  
+      <span class="clear"></span>
+			<div class="float_right body_text_10">
+				(3 results)
+			</div>
+			<br /><br />
+
+	<!-- LINK_BAR -->
+      
+      <div id="link_bar_search">
+				<div id="link_bar_content" class="link_bar_content_results">
+
+					<div id="link_bar_container">
+
+						<img alt="" src="/utils/getstaticcontent/file/images~univ_pg_control_sep.png/type/pngimage" class="link_bar_sep" />
+            			                <div class="link_bar_link" style="height:20px;">
+                Sort by:
+                <a tabindex="16" id="search_sort_by_dd_link" href="javascript://" class="action_link_10">
+                  Relevance<span class="icon_10 icon_drop_down ui-icon-triangle-1-s"></span></a>
+
+                <br /><br /><br />
+                <div id="search_sort_by_dd_container">
+                  <div id="search_sort_by_dd_content">
+                                          <div tabindex="17" class="dd_option" orderby="order/nosort/ad/desc">
+                          <span class="body_link_11">
+                          Relevance                        </span>
+                      </div>
+                                            <div tabindex="18" class="dd_option" orderby="order/title">
+                          <span class="body_link_11">
+                          Title                        </span>
+                      </div>
+                                            <div tabindex="19" class="dd_option" orderby="order/subjec">
+                          <span class="body_link_11">
+                          Subject                        </span>
+                      </div>
+                                            <div tabindex="20" class="dd_option" orderby="order/descri">
+                          <span class="body_link_11">
+                          Description                        </span>
+                      </div>
+                                            <div tabindex="21" class="dd_option" orderby="order/creato">
+                          <span class="body_link_11">
+                          Creator                        </span>
+                      </div>
+                                            <div tabindex="22" class="dd_option" orderby="order/date">
+                          <span class="body_link_11">
+                          Date                        </span>
+                      </div>
+                                            <div tabindex="23" class="dd_option" orderby="order/relatik">
+                          <span class="body_link_11">
+                          Relation-Is Format Of                        </span>
+                      </div>
+                                        </div>
+                  <span class="clear"></span>
+                </div>
+              </div>
+			  
+			  			                <img alt="" src="/utils/getstaticcontent/file/images~univ_pg_control_sep.png/type/pngimage" class="link_bar_sep" />
+			                <div id="display_options_link" class="link_bar_link" style="padding:3px 4px 0 5px;">
+                <a tabindex="24" href="javascript://" class="action_link_10">
+                  <span class="icon_10 ui-icon-image"></span>Display Options                </a>
+              </div>
+			  			  
+            		<img alt="" src="/utils/getstaticcontent/file/images~univ_pg_control_sep.png/type/pngimage" class="link_bar_sep float_right" />
+            					</div><!-- end link bar container -->
+          <span class="clear"></span>
+				</div>
+			</div>			
+
+
+			<br />
+			Display:
+			<a tabindex="50" id="search_display_dd_link" href="javascript://" class="action_link_10">
+				20<span class="icon_10 icon_drop_down ui-icon-triangle-1-s"></span>
+			</a>
+      <br /><br />
+      <div id="search_display_dd_container"><br />
+	      <div id="search_display_dd_content">
+                      <div tabindex="51" class="dd_option" display="display/20">
+              <a tabindex="-1" href="javascript:;">
+                20              </a>
+            </div>
+                        <div tabindex="52" class="dd_option" display="display/50">
+              <a tabindex="-1" href="javascript:;">
+                50              </a>
+            </div>
+                        <div tabindex="53" class="dd_option" display="display/100">
+              <a tabindex="-1" href="javascript:;">
+                100              </a>
+            </div>
+                        <div tabindex="54" class="dd_option" display="display/200">
+              <a tabindex="-1" href="javascript:;">
+                200              </a>
+            </div>
+            				</div>
+				<span class="clear"></span>
+			</div>			
+			
+      <div id="cdmResultsGridView">
+        <ul id="cdmResultsGridList">
+          <li class="listItem listItemColumnHeaders">
+            <ul>
+                            <h3 class="cdm_style">
+                              <li class="cdmResultsGridItemImgHeader  float_left">
+                  Thumbnail                </li>
+                                <li class="cdmResultsGridItemTextHeader  float_left">
+                                      <a tabindex="55" class="action_link_10" href="/cdm/search/searchterm/Sentinel/mode/all/order/title">
+                    Title</a>                </li>
+                                <li class="cdmResultsGridItemTextHeader  float_left">
+                                      <a tabindex="56" class="action_link_10" href="/cdm/search/searchterm/Sentinel/mode/all/order/creato">
+                    Creator</a>                </li>
+                                <li class="cdmResultsGridItemTextHeader  float_left">
+                                      <a tabindex="57" class="action_link_10" href="/cdm/search/searchterm/Sentinel/mode/all/order/descri">
+                    Description</a>                </li>
+                                <li class="cdmResultsGridItemTextHeader  float_left">
+                  Collection                </li>
+                             </h3></ul>
+             <span class="clear"></span>
+          </li>
+
+                          <li class="listItem">
+                  <ul>
+                                          <li class="cdmResultsGridItemImg float_left " style="position:relative;">
+                                                <span class="float_left " >
+                        <a tabindex="58" href="/cdm/singleitem/collection/sdinv/id/175/rec/1" item_id="175" itemcoll="/sdinv" >
+						                                          <img class="results_tn_img" alt="A Negro Deplores the Segregation Decision" src="/utils/getthumbnail/collection/sdinv/id/175" item_id="175" itemcoll="/sdinv" />
+						                                          </a><br />
+                        </span>
+						                                        <!--span  tabindex="59" id="result_1" class="results_tn_icon_favs_link icon_10 icon_fav_link_off ui-icon-folder-open under_construction_link" title="Add to favorites"></span-->
+						                <br/>
+						                                      </li>
+                                              <li class="cdmResultsGridItemText float_left line_breaker ">
+                                                        <a tabindex="60" href="/cdm/singleitem/collection/sdinv/id/175/rec/1" item_id="175" itemcoll="/sdinv" class="body_link_11">
+                                A Negro Deplores the Segregation Decision                              </a>
+                                                      </li>
+                                                <li class="cdmResultsGridItemText float_left line_breaker ">
+                          <span><br />Hurston, Zora Neale</span>                        </li>
+                                                <li class="cdmResultsGridItemText float_left line_breaker ">
+                          <span><br />Letter written by author, Zora Neale Hurston, to the Orlando Sentinel criticizing the the U.S. Supreme Court's decision to end school segregation.  Reprinted in the Richmond-Times Dispatch</span>                        </li>
+                                                <li class="cdmResultsGridItemLink float_left line_breaker ">
+                          <a  tabindex="61" href="/cdm/landingpage/collection/sdinv" class="body_link_11">
+                          School Desegregation in Norfolk, Virginia                          </a>
+                        </li>
+                                          </ul>
+                  <span class="clear"></span>
+                </li>
+                                <li class="listItem">
+                  <ul>
+                                          <li class="cdmResultsGridItemImg float_left " style="position:relative;">
+                                                <span class="float_left " >
+                        <a tabindex="62" href="/cdm/compoundobject/collection/sdinv/id/584/rec/2" item_id="584" itemcoll="/sdinv" >
+						                                          <img class="results_tn_img" alt="Defenders' News and Views" src="/utils/getthumbnail/collection/sdinv/id/584" item_id="584" itemcoll="/sdinv" />
+						                                          </a><br />
+                        </span>
+						                                        <!--span  tabindex="63" id="result_2" class="results_tn_icon_favs_link icon_10 icon_fav_link_off ui-icon-folder-open under_construction_link" title="Add to favorites"></span-->
+						                <br/>
+						                                      </li>
+                                              <li class="cdmResultsGridItemText float_left line_breaker ">
+                                                        <a tabindex="64" href="/cdm/compoundobject/collection/sdinv/id/584/rec/2" item_id="584" itemcoll="/sdinv" class="body_link_11">
+                                Defenders' News and Views                              </a>
+                                                      </li>
+                                                <li class="cdmResultsGridItemText float_left line_breaker ">
+                          <span><br />The Defenders of State Sovereignty and Individual Liberties</span>                        </li>
+                                                <li class="cdmResultsGridItemText float_left line_breaker ">
+                          <span><br />Newsletter of the Defenders of State Sovereignty includes information on their incorporation, officers, chapters, publications, and news.</span>                        </li>
+                                                <li class="cdmResultsGridItemLink float_left line_breaker ">
+                          <a  tabindex="65" href="/cdm/landingpage/collection/sdinv" class="body_link_11">
+                          School Desegregation in Norfolk, Virginia                          </a>
+                        </li>
+                                          </ul>
+                  <span class="clear"></span>
+                </li>
+                                <li class="listItem">
+                  <ul>
+                                          <li class="cdmResultsGridItemImg float_left " style="position:relative;">
+                                                <span class="float_left " >
+                        <a tabindex="66" href="/cdm/singleitem/collection/sdinv/id/931/rec/3" item_id="931" itemcoll="/sdinv" >
+						                                          <img class="results_tn_img" alt="Defenders' News and Views" src="/utils/getthumbnail/collection/sdinv/id/931" item_id="931" itemcoll="/sdinv" />
+						                                          </a><br />
+                        </span>
+						                                        <!--span  tabindex="67" id="result_3" class="results_tn_icon_favs_link icon_10 icon_fav_link_off ui-icon-folder-open under_construction_link" title="Add to favorites"></span-->
+						                <br/>
+						                                      </li>
+                                              <li class="cdmResultsGridItemText float_left line_breaker ">
+                                                        <a tabindex="68" href="/cdm/singleitem/collection/sdinv/id/931/rec/3" item_id="931" itemcoll="/sdinv" class="body_link_11">
+                                Defenders' News and Views                              </a>
+                                                      </li>
+                                                <li class="cdmResultsGridItemText float_left line_breaker ">
+                          <span><br />The Defenders of State Sovereignty and Individual Liberties</span>                        </li>
+                                                <li class="cdmResultsGridItemText float_left line_breaker ">
+                          <span><br />Newsletter of the Defenders of State Sovereignty includes information on their officers, chapters, publications, and news.</span>                        </li>
+                                                <li class="cdmResultsGridItemLink float_left line_breaker ">
+                          <a  tabindex="69" href="/cdm/landingpage/collection/sdinv" class="body_link_11">
+                          School Desegregation in Norfolk, Virginia                          </a>
+                        </li>
+                                          </ul>
+                  <span class="clear"></span>
+                </li>
+                        </ul>
+        <span class="clear"></span>
+      </div>
+						<span class="clear"></span>
+			<!-- <br /><br /> -->
+	<!-- LINK_BAR -->
+    
+      <div id="link_bar_search_bottom">
+				<div id="link_bar_content_bottom" class="link_bar_content_results">
+
+					<div id="link_bar_container">
+
+						<img alt="" src="/utils/getstaticcontent/file/images~univ_pg_control_sep.png/type/pngimage" class="link_bar_sep" />
+            		<img alt="" src="/utils/getstaticcontent/file/images~univ_pg_control_sep.png/type/pngimage" class="link_bar_sep float_right" />
+            					</div><!-- end link bar container -->
+          <span class="clear"></span>
+				</div>
+			</div>
+		</div><!-- end col2 -->
+		
+	</div>
+
+<!-- dialogs -->
+<!-- DISPLAY OPTIONS DIALOG -->
+		<div id="display_options_dialog" title="Results Page Display Options" dialog_name="display_options">
+			<div id="display_options_content" class="body_text_10">
+				<div id="display_options_info">
+				</div>
+				<div id="display_options_col1">
+					<img alt="" src="/utils/getstaticcontent/file/images~preview_icon.gif/type/gifimage" />
+				</div>
+				<div id="display_options_col2">
+					<div id="display_options_container1">
+						<h3 class="cdm_style">QuickView</h3>
+					</div>
+					<div id="display_options_container2">
+						Display a larger image and more item information when the pointer pauses over a thumbnail					</div>
+					<div id="display_options_container3">
+						<table>
+							<tr>
+								<td><input id="cdm_display_options_0" class="cdm_qv_radio" name="image_preview_toggle_radio" type="radio" value="on" checked /></td><td>on</td>
+								<td><input id="cdm_display_options_1" class="cdm_qv_radio" name="image_preview_toggle_radio" type="radio" value="off"  /></td><td>off</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div id="display_options_col3">&nbsp;</div>
+				<div id="display_options_col4">
+					<div id="display_options_container4">
+						<h3 class="cdm_style">Layout options:</h3>
+					</div>
+					<div id="display_options_container5">
+            <input type="hidden" id="cdm_browserviewmode" value="" />
+						<table>
+							<tr>
+								<td><input id="cdm_display_options_2" class="cdm_bvm_radio" name="results_type_radio" type="radio" value="resultsbrowseallitemsthumb"  /></td>
+								<td><img alt="" style="margin-top:3px;" src="/utils/getstaticcontent/file/images~thum_icon.gif/type/gifimage" /></td>
+								<td><b>Thumbnail</b> with title</td>
+							</tr>
+							<tr>
+								<td><input id="cdm_display_options_3" class="cdm_bvm_radio" name="results_type_radio" type="radio" value="resultsgrid" checked /></td>
+								<td><img alt="" style="margin-top:3px;" src="/utils/getstaticcontent/file/images~grid_icon.gif/type/gifimage" /></td>
+								<td><b>Grid</b> with smaller thumbnails and more detail</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<span class="clear"></span>
+			</div>
+
+			<div class="float_right">
+				<table><tr>
+					<td>
+						<div id="results_view_option_button" class="dialog_button max_collections_link" button_type="dialog">
+							<table class="button_table"><tr>
+								<td><span class="dialog_button_text">OK</span></td>
+							</tr></table>
+						</div>
+					</td>
+				</tr></table>
+			</div>
+			<div class="float_right">
+				<table><tr>
+					<td>
+						<div id="results_view_option_cancel" class="dialog_button max_collections_link" button_type="dialog">
+							<table class="button_table"><tr>
+								<td><span class="dialog_button_text">Cancel</span></td>
+							</tr></table>
+						</div>
+					</td>
+				</tr></table>
+			</div>
+		</div><input type="hidden" id="cdm_view" value="resultsgrid" />
+<input type="hidden" id="cdm_results_page" value="1" />
+<input type="hidden" id="cdm_results_display" value="" />
+<input type="hidden" id="cdm_results_orderby" value="nosort" />
+<input type="hidden" id="cdm_results_ascdesc" value="asc" />
+<input type="hidden" id="cdm_query_total" value="1" />
+<input type="hidden" id="cdm_quickview_page" value="Results" />
+<input type="hidden" id="cdm_suggested_topics" value="off" />
+<input type="hidden" id="cdm_collection" value="" />
+<input type="hidden" id="cdm_results_list" value="sdinv<175>/sdinv<584~-1>/sdinv<931>/" />
+<input type="hidden" id="cdm_results_total" value="3" />
+<input type="hidden" id="cdm_results_maxrecs" value="20" />
+<input type="hidden" id="cdm_suggestedtopics_counts" value="on" />
+
+<script language="JavaScript" type="text/javascript" src="/ui/cdm/default/collection/default/js/cdm_api_results.js" ></script>
+<script language="JavaScript" type="text/javascript">
+  // reload page
+  function reload(){
+    if(isSafari){
+      location.replace(location.href.replace(/#/,'?')); // a hack, but it works.
+    } else if(isFirefox){
+      parent.location.replace(location.href);
+    } else {
+      parent.location.reload(true);
+    }
+  }
+</script>	</div>
+<!-- END TOP CONTENT -->
+
+<!-- FOOTER -->
+  <span class="clear"></span>
+  <div id="cdmFooterWrapper" class="spaceMar20T">
+    <div id="backToTopLink" class="float_left spaceMar20L"><a href="#top" class="action_link_10" data-analytics='{"category":"navigation","action":"click","label":"Back to top link"}'>Back to top</a></div>
+    <span class="clear"></span>
+    <div id="nav_footer">
+      <div id="nav_footer_left">
+        <ul class="nav">
+                      <li class="nav_footer_li"><a href="http://www.lib.odu.edu">ODU Libraries Home</a></li>
+                              <li class="nav_footer_left_divider">|</li>
+                              <li class="nav_footer_li"><a href="/cdm/">Digital Collections Home</a></li>
+                              <li class="nav_footer_left_divider">|</li>
+                              <li class="nav_footer_li"><a href="/cdm/about">About the Collections</a></li>
+                              <li class="nav_footer_left_divider">|</li>
+                              <li class="nav_footer_li"><a href="/cdm/about#copyright">Copyright and Use</a></li>
+                              <li class="nav_footer_left_divider">|</li>
+                              <li class="nav_footer_li"><a href="mailto:kvaughan@odu.edu;">Contact Us</a></li>
+                      </ul>
+      </div>
+      <div id="nav_footer_right"><ul class="nav">
+        <li class="nav_footer_li"><a href="http://www.contentdm.org/" data-analytics='{"category":"navigation","action":"click","label":"Powered by CONTENTdm&reg; link"}'>Powered by CONTENTdm&reg;</a></li></ul>
+      </div>
+      <br /><br />
+    </div>
+    <span class="clear"></span>
+  </div>
+
+    <div id="login_dialog" title="Log in" dialog_name="login_dialog"></div>
+
+  <span class="clear"></span>
+	<div id="content_footer"></div>
+  <input type="hidden" id="collectionHomeUrl" value="/cdm/" />
+  <input type="hidden" id="cdm_advancedSearchMaxFields" value="4" />
+  <input type="hidden" id="cdm_advancedSearchFields" value="all!title!subjec!descri!creato!publis!contri!date!type!format!identi!source!langua!relati!covera!rights!audien!titlea!descria!describ!datea!dateg!formata!formatb!identia!coveraa!coverab" />
+  <input type="hidden" id="cdm_advancedSearchByDateFormat" value="mm/dd/yyyy" />
+  <input type="hidden" id="cdm_advancedSearchDPFormat" value="mm/dd/yy" />
+  <input type="hidden" id="cdm_searchDefaultConnector" value="and" />
+  <input type="hidden" id="cdm_searchDefaultField" value="all" />
+  <input type="hidden" id="cdm_searchDefaultMode" value="all" />
+  <input type="hidden" id="cdm_searchDefaultOrder" value="nosort" />
+  <input type="hidden" id="cdm_hyperlinkingCollection" value="all" />
+
+  <input type="hidden" id="cdm_fullTextSearchDisplay" value="1" />
+  <input type="hidden" id="cdm_fullTextSearchMode" value="any" />
+  <input type="hidden" id="cdm_fullTextSearchModeConfig" value="any" />
+
+  <input type="hidden" id="cdm_collectionSearchLimit" value="500" />
+  <input type="hidden" id="cdm_browseview" value="resultsgrid" />
+  <input type="hidden" id="cdm_quickview" value="" />
+  <input type="hidden" id="cdm_quickviewLandingPage" value="on" />
+  <input type="hidden" id="cdm_quickviewResults" value="on" />
+  <input type="hidden" id="cdm_quickviewCompoundObject" value="off" />
+
+  <input type="hidden" id="cdm_collection" value="" />
+  <input type="hidden" id="cdm_collectionDateField" value="date" />
+  <input type="hidden" id="cdm_searchCollections" value="all" />
+  <input type="hidden" id="cdm_collectionTotal" value="8" />
+  <input type="hidden" id="cdm_collectionsOn" value="8" />
+  <input type="hidden" id="cdm_collectionsDisplayLimit" value="5" />
+  <input type="hidden" id="cdm_abs_path" value="/ui/cdm/default/collection/default/" />
+  <input type="hidden" id="cdm_custom_abs_path" value="/ui/custom/default/collection/default/" />
+  <input type="hidden" id="cdm_host" value="dc.lib.odu.edu" />
+
+  <input type="hidden" id="cdm_qvBGColor" value="#FFFFFF" />
+  <input type="hidden" id="cdm_qvBorderColor" value="#6DA8D5" />
+  <input type="hidden" id="cdm_resultquery" value="<!-- dmQuery/all/CISOSEARCHALL^Sentinel^all^and/title!creato!descri/nosort/20/1/1/0/1/creato!subjec!date!formatb!relatik/0/0/xml -->" />
+  <input type="hidden" id="cdm_slashencode" value="on" />
+
+  <!-- language fields -->
+  <input type="hidden" id="cdm_language_and" value="and" />
+  <input type="hidden" id="cdm_language_or" value="or" />
+  <input type="hidden" id="cdm_language_in" value="in" />
+  <input type="hidden" id="cdm_language_advancedsearch" value="Advanced Search" />
+  <input type="hidden" id="cdm_language_closeadvancedsearch" value="Close Advanced Search" />
+  <input type="hidden" id="cdm_language_allofthewords" value="All of the words" />
+  <input type="hidden" id="cdm_language_anyofthewords" value="Any of the words" />
+  <input type="hidden" id="cdm_language_noneofthewords" value="None of the words" />
+  <input type="hidden" id="cdm_language_theexactphrase" value="The exact phrase" />
+  <input type="hidden" id="cdm_language_allfields" value="All fields" />
+  <input type="hidden" id="cdm_language_error_enterAWordOrPhrase" value="Enter a word or phrase" />
+  <input type="hidden" id="cdm_language_error_noneoperatormissing" value="An additional search operator must be used in conjunction with 'None of the words'. Please refine your search." />
+  <input type="hidden" id="cdm_language_addorremovecollections" value="Add or remove collections" />
+  <input type="hidden" id="cdm_language_limitsearchtospecificcollections" value="Limit search to specific collections" />
+  <input type="hidden" id="cdm_language_error_failedtoretrieveitem" value="Failed to retrieve the item." />
+  <input type="hidden" id="cdm_language_error_failedtoretrieveiteminformation" value="Failed to retrieve the item information." />
+  <input type="hidden" id="cdm_language_error_therewasaproblemrefreshingtheimage" value="There was a problem refreshing the image." />
+  <input type="hidden" id="cdm_language_error_enterADate" value="Enter a date" />
+  <input type="hidden" id="cdm_language_error_enterAnEndDate" value="Enter an end date" />
+  <input type="hidden" id="cdm_language_error_theseconddatecannotbeearlierthanthefirstdate" value="ERROR: The second date cannot be earlier than the first date." />
+  <input type="hidden" id="cdm_language_error_therewasanerrorreturningthefulltextsearchtotals" value="There was an error returning the full-text search totals." />
+  <input type="hidden" id="cdm_language_error_therewasanerrorupdatingthecollectionlist" value="There was an error updating the collection list." />
+  
+  <input type="hidden" id="cdm_language_error_therewasanerrorupdatingprevandnextlinks" value="There was an error updating the prev and next links." />
+  <input type="hidden" id="cdm_language_error_therewasanerrorretrievingthenopdfview" value="There was an error retrieving the no PDF view." />
+  <input type="hidden" id="cdm_language_error_therewasanerrorretrievingthenopdfviewreturnedfailure" value="There was an error retrieving the no PDF view. Returned failure." />
+  <input type="hidden" id="cdm_language_error_themediatypeisunsupported" value="The media type is unsupported." />
+  <input type="hidden" id="cdm_language_error_therewasanerrorretrievingthenomediasupportview" value="There was an error retrieving the no media support view." />
+  <input type="hidden" id="cdm_language_error_therewasanerrorretrievingthenomediasupportviewreturnedfailure" value="There was an error retrieving the no media support view. Returned Failure" />
+  
+  <input type="hidden" id="cdm_language_hidereportabuselinks" value="hide report abuse links" />
+  <input type="hidden" id="cdm_language_error_thereWasAnErrorRatingTheItem" value="There was an error rating the item." />
+  <input type="hidden" id="cdm_language_error_therewasaproblemsubmittingyourcomplaint" value="There was a problem submitting your complaint." />
+  <input type="hidden" id="cdm_language_error_therewasaproblemsubmittingyourcomplaintpleasetryagain" value="There was a problem submitting your complaint.\nPlease try again." />
+  <input type="hidden" id="cdm_language_error_therewasanerrorretrievingtheratings" value="There was an error retrieving the ratings." />
+  <input type="hidden" id="cdm_language_error_therewasanerrorretrievingtheratingsreturnedfailure" value="There was an error retrieving the ratings. Returned failure." />
+  <input type="hidden" id="cdm_language_error_yourCommentHasBeenReportedToTheSiteAdministrator" value="Your comment has been reported to the site administrator." />
+
+  <input type="hidden" id="cdm_language_close" value="Close" />
+  <input type="hidden" id="cdm_language_login" value="Log in" />
+  <input type="hidden" id="cdm_language_logout" value="Log out" />
+  <input type="hidden" id="cdm_language_username" value="User Name" />
+  <input type="hidden" id="cdm_language_password" value="Password" />
+  <input type="hidden" id="cdm_language_cancel" value="Cancel" />
+  <input type="hidden" id="cdm_language_ok" value="OK" />
+  <input type="hidden" id="cdm_language_authenticating" value="Authenticating" />
+  <input type="hidden" id="cdm_language_loading" value="loading..." />
+  <input type="hidden" id="cdm_language_allCollections" value="All Collections" />
+  <input type="hidden" id="cdm_language_remove" value="remove" />
+  <input type="hidden" id="cdm_language_plus" value="Plus" />
+  <input type="hidden" id="cdm_language_more" value="more" />
+  <input type="hidden" id="cdm_language_foundindocument" value="found in document" />
+  <input type="hidden" id="cdm_language_found" value="found" />
+  <input type="hidden" id="cdm_language_for" value="for" />
+
+  <input type="hidden" id="cdm_language_error_failedtoretrieveimages" value="Failed to retrieve the images." />
+  <input type="hidden" id="cdm_language_error_printsubsetnovalueentered" value="You did not enter a value." />
+  <input type="hidden" id="cdm_language_error_nousernameentered" value="Please enter a user name." />
+  <input type="hidden" id="cdm_language_error_nopasswordentered" value="Please enter a password" />
+  <input type="hidden" id="cdm_language_error_authenticationfailed" value="Authentication Failed\nThe user name and/or password is not recognized.\nPlease check the spelling and try again." />
+  
+  <input type="hidden" id="cdm_language_error_therewasaproblemretrievingtheimages" value="There was a problem retrieving the images." />
+
+  <input type="hidden" id="cdm_language_error_therewasaproblemsavingquickviewsetting" value="There was a problem saving QuickView setting." />
+  <!-- end language fields -->
+    <input type="hidden" id="cdm_helplauncher" value="0" />
+  <!-- MAX COLLECTIONS DIALOG -->
+		<div id="advanced_max_collections_dialog" title="Refine Your Search" dialog_name="advanced_max_collections">
+			<div id="advanced_max_collections_content">
+				<div class="advanced_max_collections_info body_text_10">
+					Select the collections to add or remove from your search				</div>
+				<div id="advanced_maxCollectionNav" class="advanced_max_collections_alpha_nav">
+                        <div class="advanced_max_collections_alpha_nav_box advanced_max_collections_alpha_nav_box_disabled">
+                A              </div>
+                            <div class="advanced_max_collections_alpha_nav_box advanced_max_collections_alpha_nav_box_disabled">
+                B              </div>
+                            <div class="advanced_max_collections_alpha_nav_box advanced_max_collections_alpha_nav_box_disabled">
+                C              </div>
+                            <div class="advanced_max_collections_alpha_nav_box">
+                <span collectionLetter="advanced_maxCollections_D" style="cursor:pointer;" class="advanced_max_collections_alpha_nav_a advanced_maxCollectionsNavLink">D</span>
+              </div>
+                            <div class="advanced_max_collections_alpha_nav_box advanced_max_collections_alpha_nav_box_disabled">
+                E              </div>
+                            <div class="advanced_max_collections_alpha_nav_box advanced_max_collections_alpha_nav_box_disabled">
+                F              </div>
+                            <div class="advanced_max_collections_alpha_nav_box advanced_max_collections_alpha_nav_box_disabled">
+                G              </div>
+                            <div class="advanced_max_collections_alpha_nav_box advanced_max_collections_alpha_nav_box_disabled">
+                H              </div>
+                            <div class="advanced_max_collections_alpha_nav_box advanced_max_collections_alpha_nav_box_disabled">
+                I              </div>
+                            <div class="advanced_max_collections_alpha_nav_box advanced_max_collections_alpha_nav_box_disabled">
+                J              </div>
+                            <div class="advanced_max_collections_alpha_nav_box advanced_max_collections_alpha_nav_box_disabled">
+                K              </div>
+                            <div class="advanced_max_collections_alpha_nav_box advanced_max_collections_alpha_nav_box_disabled">
+                L              </div>
+                            <div class="advanced_max_collections_alpha_nav_box advanced_max_collections_alpha_nav_box_disabled">
+                M              </div>
+                            <div class="advanced_max_collections_alpha_nav_box">
+                <span collectionLetter="advanced_maxCollections_N" style="cursor:pointer;" class="advanced_max_collections_alpha_nav_a advanced_maxCollectionsNavLink">N</span>
+              </div>
+                            <div class="advanced_max_collections_alpha_nav_box">
+                <span collectionLetter="advanced_maxCollections_O" style="cursor:pointer;" class="advanced_max_collections_alpha_nav_a advanced_maxCollectionsNavLink">O</span>
+              </div>
+                            <div class="advanced_max_collections_alpha_nav_box">
+                <span collectionLetter="advanced_maxCollections_P" style="cursor:pointer;" class="advanced_max_collections_alpha_nav_a advanced_maxCollectionsNavLink">P</span>
+              </div>
+                            <div class="advanced_max_collections_alpha_nav_box advanced_max_collections_alpha_nav_box_disabled">
+                Q              </div>
+                            <div class="advanced_max_collections_alpha_nav_box advanced_max_collections_alpha_nav_box_disabled">
+                R              </div>
+                            <div class="advanced_max_collections_alpha_nav_box">
+                <span collectionLetter="advanced_maxCollections_S" style="cursor:pointer;" class="advanced_max_collections_alpha_nav_a advanced_maxCollectionsNavLink">S</span>
+              </div>
+                            <div class="advanced_max_collections_alpha_nav_box advanced_max_collections_alpha_nav_box_disabled">
+                T              </div>
+                            <div class="advanced_max_collections_alpha_nav_box advanced_max_collections_alpha_nav_box_disabled">
+                U              </div>
+                            <div class="advanced_max_collections_alpha_nav_box">
+                <span collectionLetter="advanced_maxCollections_V" style="cursor:pointer;" class="advanced_max_collections_alpha_nav_a advanced_maxCollectionsNavLink">V</span>
+              </div>
+                            <div class="advanced_max_collections_alpha_nav_box advanced_max_collections_alpha_nav_box_disabled">
+                W              </div>
+                            <div class="advanced_max_collections_alpha_nav_box advanced_max_collections_alpha_nav_box_disabled">
+                X              </div>
+                            <div class="advanced_max_collections_alpha_nav_box advanced_max_collections_alpha_nav_box_disabled">
+                Y              </div>
+                            <div class="advanced_max_collections_alpha_nav_box advanced_max_collections_alpha_nav_box_disabled">
+                Z              </div>
+              					<span class="clear"></span>
+				</div>
+        
+        <div id="advanced_maxCollectionSelectAll">
+          <ul id="advanced_maxCollectionSelectAllList">
+            <li>
+              <table width="440">
+                <tr>
+						      <td style="padding-top:0;padding-bottom:0;">&nbsp;</td>
+						      <td style="padding-top:0;padding-bottom:0;">
+						        <div>
+                      <div class="results_tn_collection_selectall_max">
+                        <table><tr>
+                          <td style="padding-top:0;padding-bottom:0;"><input id="advanced_max_collections_checkbox_select_all" dialogMode="advanced_" class="max_collections_checkbox_select_all" type="checkbox" checked='checked' name="all" /></td>
+                          <td style="padding-top:0;padding-bottom:0;"><a href="javascript://" dialogMode="advanced_" class="action_link_10 max_collections_link_select_all">Select All Collections</a></td>
+                        </tr></table>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+        </div>
+
+				<div id="advanced_maxCollectionScroller" class="advanced_max_collections_selections_container">
+
+          <ul id="advanced_maxCollectionScrollerList">
+                          <li id="advanced_maxCollections_D" >
+              <table cellspacing="6" width="440">
+              <tr>
+							<td class="advanced_max_collections_group">D</td>
+							<td>
+								<div>
+                                        <div class="results_tn_collection_box_max results_tn_collection_box_checked">
+                        <table><tr>
+                          <td><input class="advanced_max_collections_checkbox" type="checkbox" checked='checked' coll="dove" name="dove" collname="DOVE - Desegregation of Virginia Education" dialogMode="advanced_" /></td>
+                          <td><a href="javascript://" coll="dove" dialogMode="advanced_" class="body_link_11 results_tn_collection_box_inner2">DOVE - Desegregation of Virginia Education</a></td>
+                        </tr></table>
+                      </div>
+                                        </div>
+							</td>
+						</tr>
+            </table>
+            </li>
+                          <li id="advanced_maxCollections_N" >
+              <table cellspacing="6" width="440">
+              <tr>
+							<td class="advanced_max_collections_group">N</td>
+							<td>
+								<div>
+                                        <div class="results_tn_collection_box_max results_tn_collection_box_checked">
+                        <table><tr>
+                          <td><input class="advanced_max_collections_checkbox" type="checkbox" checked='checked' coll="revelli" name="revelli" collname="National Band Association William D. Revelli Memorial Band Competition Winners" dialogMode="advanced_" /></td>
+                          <td><a href="javascript://" coll="revelli" dialogMode="advanced_" class="body_link_11 results_tn_collection_box_inner2">National Band Association William D. Revelli Memorial Band Competition Winners</a></td>
+                        </tr></table>
+                      </div>
+                                            <div class="results_tn_collection_box_max results_tn_collection_box_checked">
+                        <table><tr>
+                          <td><input class="advanced_max_collections_checkbox" type="checkbox" checked='checked' coll="norfolk1919" name="norfolk1919" collname="Norfolk Nineteen Nineteen Photographic Collection" dialogMode="advanced_" /></td>
+                          <td><a href="javascript://" coll="norfolk1919" dialogMode="advanced_" class="body_link_11 results_tn_collection_box_inner2">Norfolk Nineteen Nineteen Photographic Collection</a></td>
+                        </tr></table>
+                      </div>
+                                        </div>
+							</td>
+						</tr>
+            </table>
+            </li>
+                          <li id="advanced_maxCollections_O" >
+              <table cellspacing="6" width="440">
+              <tr>
+							<td class="advanced_max_collections_group">O</td>
+							<td>
+								<div>
+                                        <div class="results_tn_collection_box_max results_tn_collection_box_checked">
+                        <table><tr>
+                          <td><input class="advanced_max_collections_checkbox" type="checkbox" checked='checked' coll="oduphotos" name="oduphotos" collname="ODU Photographic Collection" dialogMode="advanced_" /></td>
+                          <td><a href="javascript://" coll="oduphotos" dialogMode="advanced_" class="body_link_11 results_tn_collection_box_inner2">ODU Photographic Collection</a></td>
+                        </tr></table>
+                      </div>
+                                            <div class="results_tn_collection_box_max results_tn_collection_box_checked">
+                        <table><tr>
+                          <td><input class="advanced_max_collections_checkbox" type="checkbox" checked='checked' coll="oralhistory" name="oralhistory" collname="Oral Histories in the Perry Library" dialogMode="advanced_" /></td>
+                          <td><a href="javascript://" coll="oralhistory" dialogMode="advanced_" class="body_link_11 results_tn_collection_box_inner2">Oral Histories in the Perry Library</a></td>
+                        </tr></table>
+                      </div>
+                                        </div>
+							</td>
+						</tr>
+            </table>
+            </li>
+                          <li id="advanced_maxCollections_P" >
+              <table cellspacing="6" width="440">
+              <tr>
+							<td class="advanced_max_collections_group">P</td>
+							<td>
+								<div>
+                                        <div class="results_tn_collection_box_max results_tn_collection_box_checked">
+                        <table><tr>
+                          <td><input class="advanced_max_collections_checkbox" type="checkbox" checked='checked' coll="womenscenter" name="womenscenter" collname="Papers of the ODU Women's Center" dialogMode="advanced_" /></td>
+                          <td><a href="javascript://" coll="womenscenter" dialogMode="advanced_" class="body_link_11 results_tn_collection_box_inner2">Papers of the ODU Women's Center</a></td>
+                        </tr></table>
+                      </div>
+                                        </div>
+							</td>
+						</tr>
+            </table>
+            </li>
+                          <li id="advanced_maxCollections_S" >
+              <table cellspacing="6" width="440">
+              <tr>
+							<td class="advanced_max_collections_group">S</td>
+							<td>
+								<div>
+                                        <div class="results_tn_collection_box_max results_tn_collection_box_checked">
+                        <table><tr>
+                          <td><input class="advanced_max_collections_checkbox" type="checkbox" checked='checked' coll="sdinv" name="sdinv" collname="School Desegregation in Norfolk, Virginia" dialogMode="advanced_" /></td>
+                          <td><a href="javascript://" coll="sdinv" dialogMode="advanced_" class="body_link_11 results_tn_collection_box_inner2">School Desegregation in Norfolk, Virginia</a></td>
+                        </tr></table>
+                      </div>
+                                        </div>
+							</td>
+						</tr>
+            </table>
+            </li>
+                          <li id="advanced_maxCollections_V" >
+              <table cellspacing="6" width="440">
+              <tr>
+							<td class="advanced_max_collections_group">V</td>
+							<td>
+								<div>
+                                        <div class="results_tn_collection_box_max results_tn_collection_box_checked">
+                        <table><tr>
+                          <td><input class="advanced_max_collections_checkbox" type="checkbox" checked='checked' coll="vsooh" name="vsooh" collname="VSO Oral Histories" dialogMode="advanced_" /></td>
+                          <td><a href="javascript://" coll="vsooh" dialogMode="advanced_" class="body_link_11 results_tn_collection_box_inner2">VSO Oral Histories</a></td>
+                        </tr></table>
+                      </div>
+                                        </div>
+							</td>
+						</tr>
+            </table>
+            </li>
+                      </ul>
+				</div>
+                <div id="advanced_collection_limit_information" class="spaceMar30L spaceMar10T body_text_10" style='display:none;'>
+          <ul style="list-style-type:none;padding:0;margin:0;">
+            <li> 500<li>
+            <li>You have selected: <span id="advanced_cdmCollectionsSelected" class="bold">8</span><li>
+          </ul>
+          <span class="clear"></span>
+        </div>
+
+				<span class="clear"></span>
+				<div class="advanced_max_collections_bottom_sep">&nbsp;</div>
+				<div class="float_right">
+					<table><tr>
+						<td>
+							<div id="advanced_all_collections_ok_button" class="dialog_button" button_type="dialog">
+								<table class="button_table"><tr>
+									<td><span class="dialog_button_text">OK</span></td>
+								</tr></table>
+							</div>
+						</td>
+					</tr></table>
+				</div>
+				<div class="float_right">
+					<table><tr>
+						<td>
+							<div id="advanced_max_collections_cancel_button" class="dialog_button dialog_cancel_button advanced_max_collections_link" button_type="dialog">
+								<table class="button_table"><tr>
+									<td><span class="dialog_button_text">Cancel</span></td>
+								</tr></table>
+							</div>
+						</td>
+					</tr></table>
+				</div>
+			</div>
+		</div>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('span.advanced_maxCollectionsNavLink').click(function(){
+      targetLetter = $(this).attr("collectionLetter");
+      var target = $("#advanced_maxCollectionScroller").find('#'+targetLetter);
+      $("#advanced_maxCollectionScroller").stop().scrollTo( target, 800 );
+      $('span.advanced_maxCollectionsNavLink').each(function(){
+        if($(this).parent().hasClass("advanced_max_collections_alpha_nav_box_on")){
+          $(this).parent().removeClass("advanced_max_collections_alpha_nav_box_on");
+        }
+      });
+      $(this).parent().addClass("advanced_max_collections_alpha_nav_box_on");
+      $(this).blur();
+    });
+  });
+</script>
+
+  <script language="JavaScript" type="text/javascript">
+    cdm.gvars.collectionFieldsInfo['all'] = 'All fields';
+    cdm.gvars.collectionFieldsInfo['title'] = 'Title';cdm.gvars.collectionFieldsInfo['subjec'] = 'Subject';cdm.gvars.collectionFieldsInfo['descri'] = 'Description';cdm.gvars.collectionFieldsInfo['creato'] = 'Creator';cdm.gvars.collectionFieldsInfo['publis'] = 'Publisher';cdm.gvars.collectionFieldsInfo['contri'] = 'Contributors';cdm.gvars.collectionFieldsInfo['date'] = 'Date';cdm.gvars.collectionFieldsInfo['type'] = 'Type';cdm.gvars.collectionFieldsInfo['format'] = 'Format';cdm.gvars.collectionFieldsInfo['identi'] = 'Identifier';cdm.gvars.collectionFieldsInfo['source'] = 'Source';cdm.gvars.collectionFieldsInfo['langua'] = 'Language';cdm.gvars.collectionFieldsInfo['relati'] = 'Relation';cdm.gvars.collectionFieldsInfo['covera'] = 'Coverage';cdm.gvars.collectionFieldsInfo['rights'] = 'Rights';cdm.gvars.collectionFieldsInfo['audien'] = 'Audience';cdm.gvars.collectionFieldsInfo['accrua'] = 'Accrual Method';cdm.gvars.collectionFieldsInfo['accrub'] = 'Accrual Periodicity';cdm.gvars.collectionFieldsInfo['accruc'] = 'Accrual Policy';cdm.gvars.collectionFieldsInfo['instru'] = 'Instructional Method';cdm.gvars.collectionFieldsInfo['proven'] = 'Provenance';cdm.gvars.collectionFieldsInfo['titlea'] = 'Title-Alternative';cdm.gvars.collectionFieldsInfo['descria'] = 'Description-Table Of Contents';cdm.gvars.collectionFieldsInfo['describ'] = 'Description-Abstract';cdm.gvars.collectionFieldsInfo['datea'] = 'Date-Created';cdm.gvars.collectionFieldsInfo['dateb'] = 'Date-Valid';cdm.gvars.collectionFieldsInfo['datec'] = 'Date-Available';cdm.gvars.collectionFieldsInfo['dated'] = 'Date-Issued';cdm.gvars.collectionFieldsInfo['datee'] = 'Date-Modified';cdm.gvars.collectionFieldsInfo['datef'] = 'Date-Accepted';cdm.gvars.collectionFieldsInfo['dateg'] = 'Date-Copyrighted';cdm.gvars.collectionFieldsInfo['dateh'] = 'Date-Submitted';cdm.gvars.collectionFieldsInfo['formata'] = 'Format-Extent';cdm.gvars.collectionFieldsInfo['formatb'] = 'Format-Medium';cdm.gvars.collectionFieldsInfo['identia'] = 'Identifier-Bibliographic Citation';cdm.gvars.collectionFieldsInfo['relatia'] = 'Relation-Is Version Of';cdm.gvars.collectionFieldsInfo['relatib'] = 'Relation-Has Version';cdm.gvars.collectionFieldsInfo['relatic'] = 'Relation-Is Replaced By';cdm.gvars.collectionFieldsInfo['relatid'] = 'Relation-Replaces';cdm.gvars.collectionFieldsInfo['relatie'] = 'Relation-Is Required By';cdm.gvars.collectionFieldsInfo['relatif'] = 'Relation-Requires';cdm.gvars.collectionFieldsInfo['relatig'] = 'Relation-Is Part Of';cdm.gvars.collectionFieldsInfo['relatih'] = 'Relation-Has Part';cdm.gvars.collectionFieldsInfo['relatii'] = 'Relation-Is Referenced By';cdm.gvars.collectionFieldsInfo['relatij'] = 'Relation-References';cdm.gvars.collectionFieldsInfo['relatik'] = 'Relation-Is Format Of';cdm.gvars.collectionFieldsInfo['relatil'] = 'Relation-Has Format Of';cdm.gvars.collectionFieldsInfo['relatim'] = 'Relation-Conforms To';cdm.gvars.collectionFieldsInfo['rightsa'] = 'Rights-Access Rights';cdm.gvars.collectionFieldsInfo['rightsb'] = 'Rights-License';cdm.gvars.collectionFieldsInfo['rightsc'] = 'Rights-Rights Holder';cdm.gvars.collectionFieldsInfo['coveraa'] = 'Coverage-Spatial';cdm.gvars.collectionFieldsInfo['coverab'] = 'Coverage-Temporal';cdm.gvars.collectionFieldsInfo['audiena'] = 'Audience-Mediator';cdm.gvars.collectionFieldsInfo['audienb'] = 'Audience-Education Level';  </script>
+  <script language="JavaScript" type="text/javascript" src="/utils/getstaticcontent/file/js~cdm_api_search.js/type/javascript" ></script>
+  <script type="text/javascript" src="/utils/getstaticcontent/file/ui~jquery.ui.accordion.js/type/javascript">//</script>
+  <script language="JavaScript" type="text/javascript">
+    $(document).ready(function(){
+      if($.browser.msie && $.browser.version < 8){
+        if($("#details").exists() ){
+          setTimeout("showtheDetailsIE7()",1000);
+        }
+      }
+    });
+    function showtheDetailsIE7(){
+      $("#details").css("display","block");
+    }
+  </script>
+</body>
+</html>

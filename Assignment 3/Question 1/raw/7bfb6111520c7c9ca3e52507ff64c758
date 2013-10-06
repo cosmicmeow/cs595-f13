@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML/CSS Web Developer</title>
+	<meta name="robots" content="NOARCHIVE,NOFOLLOW">
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=1">
+	<link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/clnew.css?v=ca1df59bd7247009816e7e4b853a4847">
+	
+	<!--[if lt IE 9]>
+<script type="text/javascript" src="//www.craigslist.org/js/html5shiv.js?v=ed7af45dcbda983c8455631037ebcdda" ></script>
+<![endif]-->
+</head>
+
+<body class="posting">
+	<script type="text/javascript"><!--
+	function C(k){return(document.cookie.match('(^|; )'+k+'=([^;]*)')||0)[2]}
+	var pagetype, pagemode;
+	(function(){
+		var h = document.documentElement;
+		h.className = h.className.replace('nojs', '');
+		var b = document.body;
+		var bodyClassList = b.className.split(/\s+/);;
+		pagetype = bodyClassList[0];
+		var fmt = C('cl_fmt');
+		if (fmt) {
+			pagemode = fmt;
+			bodyClassList.push(fmt);
+		} else if (screen.width <= 480) {
+			pagemode = 'mobile';
+			bodyClassList.push(pagemode);
+		}
+		var width = window.innerWidth || document.documentElement.clientWidth;
+		if (width > 1000) { bodyClassList.push('w1024'); }
+		var mode = C('cl_img');
+		for (var i = 0, len = bodyClassList.length; i < len; i++){
+			if (bodyClassList[i] === 'map') { mode = undefined; }
+		}
+		if (mode) { bodyClassList.push(mode); }
+		b.className = bodyClassList.join(' ');
+	}());
+--></script>
+
+
+	<article id="pagecontainer">
+			<header class="bchead">
+	<div class="contents closed">
+		<div class="topright_box">
+			<div id="favorites">
+    <a href="#" class="favlink"><span class="n">0</span> favorites</a>
+</div>
+
+		</div>
+		<div class="dropdown down">&or;</div>
+		<div class="dropdown up">&and;</div>
+		<div class="leftside">
+            <button class="back">&lt;</button>
+            <div class="breadbox">
+                <div class="breadcrumbs">
+	            	<span class="crumb"><a href="//www.craigslist.org/about/sites">CL</a></span>  <span class="crumb"><a href="http://orangecounty.craigslist.org/">orange co</a></span>   <span class="crumb"> <a href="http://orangecounty.craigslist.org/jjj/">all jobs</a></span> <span class="crumb"><a href="http://orangecounty.craigslist.org/web/">web/HTML/info design jobs</a></span>
+                </div>
+            </div>
+		</div>
+	</div>
+</header>
+
+		<section class="body">
+			<section class="dateReplyBar">
+	
+		<script type="text/javascript"><!--
+			var isPreview = "";
+var postingTitle = "HTML/CSS Web Developer (Laguna Hills, CA)";
+var bestOf = "";
+var postingURL = "http%3A%2F%2Forangecounty.craigslist.org%2Fweb%2F4093290795.html";
+var displayEmail = "xpjbm-4093290795@job.craigslist.org";
+
+		--></script>
+	
+
+<button class="reply_button">Reply</button>
+
+<span class="replytext">Reply to:</span> <a href="mailto:xpjbm-4093290795@job.craigslist.org?subject=HTML%2FCSS%20Web%20Developer%20%28Laguna%20Hills%2C%20CA%29&amp;body=%0A%0Ahttp%3A%2F%2Forangecounty.craigslist.org%2Fweb%2F4093290795.html%0A">xpjbm-4093290795@job.craigslist.org</a><sup> [<a href="http://www.craigslist.org/about/help/replying_to_posts" target="_blank">?</a>]</sup>
+
+<div class="returnemail"> </div>
+
+
+	<aside class="flags">
+	<span class="flagChooser" class="tsb">
+		flag <sup>[<a href="//www.craigslist.org/about/help/flags_and_community_moderation">?</a>]</sup> :
+		<a data-flag="16" href="https://post.craigslist.org/flag?flagCode=16&amp;postingID=4093290795"
+			title="Wrong category, wrong site, discusses another post, or otherwise misplaced">
+			miscategorized</a>
+		<a data-flag="28" href="https://post.craigslist.org/flag?flagCode=28&amp;postingID=4093290795"
+			title="Violates craigslist Terms Of Use or other posted guidelines">
+			prohibited</a>
+		<a data-flag="15" href="https://post.craigslist.org/flag?flagCode=15&amp;postingID=4093290795"
+			title="Posted too frequently, in multiple cities/categories, or is too commercial">
+			spam</a>
+		<a data-flag="9" href="https://post.craigslist.org/flag?flagCode=9&amp;postingID=4093290795"
+			title="Should be considered for inclusion in the Best-Of-Craigslist">
+			best of</a>
+	</span>
+</aside>
+
+		<p class="postinginfo">Posted: <date title="1380233939000">2013-09-26,  3:18PM PDT</date></p>
+</section>
+
+<h2 class="postingtitle">
+  <span class="star"></span>
+  HTML/CSS Web Developer (Laguna Hills, CA)
+</h2>
+<section class="userbody">
+
+	 
+
+	
+	<section id="postingbody">
+		This position is for someone to work part-time (30 hours/week) for a fast-growing SEO/Web-Design/Ecommerce agency in Laguna Hills.  You will be required to commute to our office for training and projects.  This is an entrepreneurial company so a strong desire to learn and grow new skills is a must.  For the right candidate it will grow to a full-time position in November or December.<br>
+<br>
+Job requirements/skills you need:<br>
+<br>
+- Strong knowledge of HTML (must be able to edit using a text editor)<br>
+- Wordpress and PHP development skills<br>
+- CSS skills (strong debugging skills)<br>
+- JavaScript and/or jQuery knowledge<br>
+- Cross browser HTML/CSS coding<br>
+<br>
+Knowledge, Skills, and Abilities:<br>
+ <br>
+- Detail oriented, able to multi-task<br>
+- Excellent organizational & time management skills<br>
+- Outstanding verbal and written communication skills<br>
+- Ability to work independently and figure out problems<br>
+- Team player and self-starter<br>
+- Professional and courteous<br>
+- Ability to work under pressure<br>
+<br>
+Job Responsibilities<br>
+<br>
+- Building fully responsive custom Wordpress templates using HTML/CSS/PHP<br>
+- Building fully responsive custom Ecommerce templates for online stores<br>
+- Working with our Marketing & SEO team to implement site updates and web changes<br>
+- Build custom landing pages for marketing campaigns and PPC<br>
+- Convert PDSs to HTML/CSS <br>
+<br>
+- This a part-time position but will grow into full-time quickly<br>
+- Hours Expected: 20-30 Hours/Week (will vary based on project workload)<br>
+- Principals only, no recruiters<br>
+- Compensation: DOE
+	</section>
+	<section class="cltags"><!-- START CLTAGS -->
+<ul class="blurbs">
+<li> <!-- CLTAG GeographicArea=Laguna Hills, CA -->Location: Laguna Hills, CA</li>
+<li> <!-- CLTAG compensation=DOE -->Compensation: DOE</li>
+<li>Principals only. Recruiters, please don't contact this job poster.</li>
+<li>Please do not contact job poster about other services, products or commercial interests.</li></ul><!-- END CLTAGS -->
+</section>
+	<div class="postinginfos">
+		<p class="postinginfo">Posting ID: 4093290795</p>
+		<p class="postinginfo">Posted: <date title="1380233939000">2013-09-26,  3:18PM PDT</date></p>
+		<p class="postinginfo">Updated: <date title="1380233940000">2013-09-26,  3:19PM PDT</date></p>
+			   <p class="postinginfo"><a href="https://accounts.craigslist.org/eaf?postingID=4093290795&amp;token=U2FsdGVkX18zNjQyMzY0MqxVjVGL20Rq9tX4kkMV5-0Tohv6i1VUfk54WsrGcFFyhTzMWuY5ZrcM8B1eExHbRrMzgQwLsKBG" class="tsb">email to a friend</a></p>
+	</div>
+</section>
+
+
+
+
+
+		</section>
+			<ul id="fmtsel">
+	<li><b>FORMAT:</b></li>
+	<li class="fsel" data-mode="mobile">mobile</li>
+	<li class="fsel" data-mode="regular">standard</li>
+</ul>
+
+<footer>
+	
+	<ul class="clfooter">
+		<li>&copy; 2013 craigslist</li>
+		<li><a href="//www.craigslist.org/about/help/">help</a></li>
+		<li><a href="//www.craigslist.org/about/terms.of.use">terms</a></li>
+		<li><a href="//www.craigslist.org/about/privacy.policy">privacy</a></li>
+		<li><a href="//www.craigslist.org/about/scams">safety</a></li>
+		<li><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+		<li><a href="//www.craigslist.org/about/">about</a></li>
+		<li><a href="//www.craigslist.org/about/craigslist_is_hiring" style="color: #0b0">cl jobs</a></li>
+	</ul>
+</footer>
+
+	</article>
+
+	
+		<script type="text/javascript"><!--
+			var pID = "4093290795";
+var wwwurl = "http://www.craigslist.org";
+
+		--></script>
+	
+	<script type="text/javascript" src="//www.craigslist.org/js/jquery-1.9.1.js?v=56eaef3b8a28d9d45bb4f86004b0eaae" ></script>
+	<script type="text/javascript" src="//www.craigslist.org/js/jquery.timeago.js?v=671b8704b14bcebf0881aa5c3f06401b" ></script>
+	<script type="text/javascript" src="//www.craigslist.org/js/swipe.js?v=b9534214d2dc51e408cc6fb2dd26ca45" ></script>
+	<script type="text/javascript" src="//www.craigslist.org/js/postings.js?v=c741dc061da72c6ca6c36bf9b528a0ac" ></script>
+	<script type="text/javascript" src="//www.craigslist.org/js/localstorage.js?v=0dcff58ebaf4af52c0b82d96a5fd7000" ></script>
+	<script type="text/javascript" src="//www.craigslist.org/js/formats.js?v=ba68617aa51dda99132e33557bf98abc" ></script>
+
+	<![if gte IE 8]>
+		<script type="text/javascript" src="//www.craigslist.org/js/favorites.js?v=c2dbff2669a8f8bcc8654905d51e3c11" ></script>
+	<![endif]>
+	
+	
+	
+	
+</body>
+</html>
+

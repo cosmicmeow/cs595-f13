@@ -1,0 +1,677 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>How to deploy a Ruby on Rails app from GitHub to Heroku | SYS-CON MEDIA</title>
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.sys-con.com/index.rss" />
+  <link rel="shortcut icon" href="http://gemsres.com/ui/2.0/gems/favicon.ico" />
+  <meta name="keywords" content="http://www.sys-con.com/, http://www.sys-con.tv/, http://jdj.sys-con.com/, http://linux.sys-con.com/, http://linuxbusinessnews.sys-con.com/, http://webservices.sys-con.com/, http://dotnet.sys-con.com/, http://issj.sys-con.com"/>
+  <meta name="description" content="SYS-CON Media, NJ, The world's leading i-technology media company on breaking technology news."/>
+  <link type="text/css" rel="stylesheet" media="all" href="/modules/logintoboggan/logintoboggan.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/fivestar/css/fivestar.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/comment/comment.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="http://gemsres.com/ui/2.0/gems/uz_theme_gems_outer.css" />
+<link type="text/css" rel="stylesheet" media="all" href="http://gemsres.com/ui/2.0/gems/uz_theme_gems_inner.css" />
+<link type="text/css" rel="stylesheet" media="all" href="http://gemsres.com/ui/2.0/gems/uz_theme_gems_site.css" />
+  <script type="text/javascript" src="/misc/jquery.js?r"></script>
+<script type="text/javascript" src="/misc/drupal.js?r"></script>
+<script type="text/javascript" src="/sites/all/modules/uz_node/uz_node.feedback.js?r"></script>
+<script type="text/javascript" src="/modules/fivestar/js/fivestar.js?r"></script>
+<script type="text/javascript" src="/sites/all/themes/uz_theme/uz_theme.js?r"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "fivestar": { "titleUser": "Your rating: ", "titleAverage": "Average: ", "feedbackSavingVote": "Saving your vote...", "feedbackVoteSaved": "Your vote has been saved.", "feedbackDeletingVote": "Deleting your vote...", "feedbackVoteDeleted": "Your vote has been deleted." } });
+//--><!]]>
+</script>
+  
+<script type="application/javascript">var _prum={id:"516718dde6e53dbd7d000001"};var PRUM_EPISODES=PRUM_EPISODES||{};PRUM_EPISODES.q=[];PRUM_EPISODES.mark=function(b,a){PRUM_EPISODES.q.push(["mark",b,a||new Date().getTime()])};PRUM_EPISODES.measure=function(b,a,b){PRUM_EPISODES.q.push(["measure",b,a,b||new Date().getTime()])};PRUM_EPISODES.done=function(a){PRUM_EPISODES.q.push(["done",a])};PRUM_EPISODES.mark("firstbyte");(function(){var b=document.getElementsByTagName("script")[0];var a=document.createElement("script");a.type="text/javascript";a.async=true;a.charset="UTF-8";a.src="//rum-static.pingdom.net/prum.min.js";b.parentNode.insertBefore(a,b)})();</script><meta name="google-site-verification" content="wT-eP7-k8lEt4As_ltjRl2w_1J84KeUTpGPyQ_B0oJI" /><style>body { background: url("http://www2.cdn.sys-con.com/eventserver/global/NEW-bg_ajax-world_EVENTSHOME.png") no-repeat scroll 50% 0 #4C586C; }#nav_gems_home { background: url("http://www2.cdn.sys-con.com/eventserver/global/nav-background-home_EVENTSHOME.png") no-repeat scroll 0 0 transparent; height: 39px; padding: 0; width: 1015px;}#nav_gems_home ul { height: 34px; list-style: none outside none; margin: 0; padding: 0;}#nav_gems_home ul li { float: left; margin: 0; padding: 0;}#nav_gems_home ul li a { display: block; height: 34px;}#nav_gems_home ul li a { display: block; height: 34px;}#nav_gems_home ul li a span { display: none;}#nav_gems_home ul li.itm01 a { background: url("http://www2.cdn.sys-con.com/eventserver/global/nav_sprite-gems-home_EVENTSHOME.png") no-repeat scroll 0 0 transparent; width: 53px;}#nav_gems_home ul li.itm01 a:hover { background: url("http://www2.cdn.sys-con.com/eventserver/global/nav_sprite-gems-home_EVENTSHOME.png") no-repeat scroll 0 -34px transparent; width: 53px;}#nav_gems_home ul li.itm02 a { background: url("http://www2.cdn.sys-con.com/eventserver/global/nav_sprite-gems-home_EVENTSHOME.png") no-repeat scroll -53px 0 transparent; width: 108px;}#nav_gems_home ul li.itm02 a:hover { background: url("http://www2.cdn.sys-con.com/eventserver/global/nav_sprite-gems-home_EVENTSHOME.png") no-repeat scroll -53px -34px transparent; width: 108px;}#nav_gems_home ul li.itm03 a { background: url("http://www2.cdn.sys-con.com/eventserver/global/nav_sprite-gems-home_EVENTSHOME.png") no-repeat scroll -161px 0 transparent; width: 94px;}#nav_gems_home ul li.itm03 a:hover { background: url("http://www2.cdn.sys-con.com/eventserver/global/nav_sprite-gems-home_EVENTSHOME.png") no-repeat scroll -161px -34px transparent; width: 94px;}#nav_gems_home ul li.itm04 a { background: url("http://www2.cdn.sys-con.com/eventserver/global/nav_sprite-gems-home_EVENTSHOME.png") no-repeat scroll -255px 0 transparent; width: 81px;}#nav_gems_home ul li.itm04 a:hover { background: url("http://www2.cdn.sys-con.com/eventserver/global/nav_sprite-gems-home_EVENTSHOME.png") no-repeat scroll -255px -34px transparent; width: 81px;}#nav_gems_home ul li.itm05 a { background: url("http://www2.cdn.sys-con.com/eventserver/global/nav_sprite-gems-home_EVENTSHOME.png") no-repeat scroll -336px 0 transparent; width: 104px;}#nav_gems_home ul li.itm05 a:hover { background: url("http://www2.cdn.sys-con.com/eventserver/global/nav_sprite-gems-home_EVENTSHOME.png") no-repeat scroll -336px -34px transparent; width: 104px;}#nav_gems_home ul li.itm06 a { background: url("http://www2.cdn.sys-con.com/eventserver/global/nav_sprite-gems-home_EVENTSHOME.png") no-repeat scroll -440px 0 transparent; width: 82px;}#nav_gems_home ul li.itm06 a:hover { background: url("http://www2.cdn.sys-con.com/eventserver/global/nav_sprite-gems-home_EVENTSHOME.png") no-repeat scroll -440px -34px transparent; width: 82px;}#nav_gems_home ul li.itm07 a { background: url("http://www2.cdn.sys-con.com/eventserver/global/nav_sprite-gems-home_EVENTSHOME.png") no-repeat scroll -522px 0 transparent; width: 106px;}#nav_gems_home ul li.itm07 a:hover { background: url("http://www2.cdn.sys-con.com/eventserver/global/nav_sprite-gems-home_EVENTSHOME.png") no-repeat scroll -522px -34px transparent; width: 106px;}#nav_gems_home ul li.itm08 a { background: url("http://www2.cdn.sys-con.com/eventserver/global/nav_sprite-gems-home_EVENTSHOME.png") no-repeat scroll -628px 0 transparent; width: 83px;}#nav_gems_home ul li.itm08 a:hover { background: url("http://www2.cdn.sys-con.com/eventserver/global/nav_sprite-gems-home_EVENTSHOME.png") no-repeat scroll -628px -34px transparent; width: 83px;}#nav_gems_home ul li.itm09 a { background: url("http://www2.cdn.sys-con.com/eventserver/global/nav_sprite-gems-home_EVENTSHOME.png") no-repeat scroll -711px 0 transparent; width: 164px;}#nav_gems_home ul li.itm09 a:hover { background: url("http://www2.cdn.sys-con.com/eventserver/global/nav_sprite-gems-home_EVENTSHOME.png") no-repeat scroll -711px -34px transparent; width: 164px;}</style><script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-29758464-1']); _gaq.push(['_setDomainName', 'sys-con.com']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();</script> <meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@CloudExpo" />
+<meta name="twitter:title" content="How to deploy a Ruby on Rails app from GitHub to Heroku" />
+ <meta name="twitter:description" content=""/> 
+ <meta name="twitter:image" content=""/>
+ 	
+  <script type="text/javascript">
+  <!--
+  function MM_jumpMenu(targ,selObj,restore){ //v3.0
+    eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+    if (restore) selObj.selectedIndex=0;
+  }
+  addthis_pub  = 'syscon';
+  //-->
+  </script>
+  <script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+</head>
+<body>
+  <div id="container">
+    <table cellpadding="0" cellspacing="0" id="container-table">
+    <tr>
+      <td colspan="2"><div id="header-all"><div id="header-navbar">
+  <div id="navcontainer-2">
+<meta name="google-site-verification" content="wT-eP7-k8lEt4As_ltjRl2w_1J84KeUTpGPyQ_B0oJI" />
+    <ul id="navlist-2">
+      <li><a target="_blank" href="http://www2.sys-con.com/advertising/index.html">Advertise</a></li>
+  <li>|</li>
+      <li><a target="_blank" href="http://www.sys-con.com/general/contactus.htm">Contact</a></li>
+  <li>|</li>
+      <li><a target="_blank" href="http://www.sys-con.com/general/aboutus.htm">About</a></li>
+    </ul>
+  </div>
+    <!-- end #navcontainer-2 -->
+  <div id="header-greeting">
+  <p>Welcome!</p>
+  </div>
+  <div id="navcontainer">
+          <ul id="navlist">
+        <li><a href="http://id.sys-con.com/user/register">Register</a></li> <li>|</li> <li><a href="https://www.sys-con.com/user?destination=node%2F2811441">Sign-in</a></li>      </ul>
+    </div>
+    <!-- end #navcontainer -->
+  </div>
+<!-- end #header-navbar -->
+<div id="header" style="height:110px;">
+	<div id="header-logo">
+	  <img src="http://res.cdn.sys-con.com/ui/2.0/gems/images/logo_sys-con.png" alt="SYS-CON Media" />
+	  <div id="author-url-home"><a href="http://www.sys-con.com">www.sys-con.com</a></div>
+	</div>
+	<div id="header-ad"></div>
+</div>
+<div id="nav_gems_home">
+  <ul>
+        <li class="itm01"><a href="http://www.ulitzer.com/"><span>Ulitzer</span></a></li>
+        <li class="itm02"><a href="http://www2.sys-con.com/advertising/index.html"><span>Advertise</span></a></li>
+        <li class="itm03"><a href="http://main.ulitzer.com/authors"><span>Authors</span></a></li>
+        <li class="itm04"><a href="http://main.ulitzer.com/topics"><span>Topics</span></a></li>
+        <li class="itm05"><a href="http://main.ulitzer.com/members"><span>Members</span></a></li>
+        <li class="itm06"><a href="http://www.sys-con.tv"><span>Videos</span></a></li>
+        <li class="itm07"><a href="http://webcast.sys-con.com"><span>Webcasts</span></a></li>
+        <li class="itm08"><a href="http://events.sys-con.com"><span>Events</span></a></li>
+        <li class="itm09"><a href="http://dashboard.ulitzer.com/write"><span>Write An Article</span></a></li>
+<!--
+    <li class="itm01"><a href="http://www.sys-con.com/general/advertise.htm"><span>Advertise</span></a></li>
+    <li class="itm02"><a href="http://main.ulitzer.com/authors"><span>Authors</span></a></li>
+    <li class="itm03"><a href="http://main.ulitzer.com/topics"><span>Topics</span></a></li>
+    <li class="itm04"><a href="http://main.ulitzer.com/members"><span>Members</span></a></li>
+    <li class="itm05"><a href="http://www.sys-con.tv"><span>Videos</span></a></li>
+    <li class="itm06"><a href="http://webcast.sys-con.com"><span>Webcasts</span></a></li>
+    <li class="itm07"><a href="http://events.sys-con.com"><span>Events</span></a></li>
+    <li class="itm08"><a href="http://dashboard.ulitzer.com/write"><span>Write An Article</span></a></li>
+-->
+  </ul>
+</div></div></td>
+    </tr>
+    <tr>
+      <td colspan="2"><div id="header-title"><div>
+      <table width="986" height="95" border="0" align="center" cellpadding="0" cellspacing="0">
+           <tr>
+             <td width="728" height="90" align="left" valign="top"><div align="left">
+
+<!--/* OpenX Javascript Tag v2.8.10 */-->
+
+<script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://banners.sys-con.com/openx/www/delivery/ajs.php':'http://banners.sys-con.com/openx/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=1");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://banners.sys-con.com/openx/www/delivery/ck.php?n=a9192e85&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://banners.sys-con.com/openx/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a9192e85' border='0' alt='' /></a></noscript>
+
+
+
+
+
+
+
+
+</div></td>
+
+
+             <td width="242" align="right" valign="top"><div align="right"><div align="right">
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="242" height="90" id="rotating-242x90" align="middle">
+<param name="allowScriptAccess" value="sameDomain" />
+<param name="movie" value="http://www2.sys-con.com/eventserver/other/ads/rotating-242x90.swf" /><param name="quality" value="high" /><param name="wmode" value="transparent" /><embed src="http://www2.sys-con.com/eventserver/other/ads/rotating-242x90.swf" quality="high" wmode="transparent" width="242" height="90" name="rotating-242x90" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+</object></td>
+           </tr></table><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29758464-1']);
+  _gaq.push(['_setDomainName', 'sys-con.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>  
+</div>
+<div>
+      <style type="text/css">
+#mainpage_overlay_fix {
+	position:absolute;
+	width:688px;
+	height:85px;
+	margin-top:-147px;
+	margin-left:293px;
+}
+
+#mainpage_overlay_fix img{
+	border-style:solid;
+	border-color:#666666;
+	border-width:1px;
+}
+
+
+</style>
+
+<div id="mainpage_overlay_fix">
+
+
+
+</div>   
+</div>
+</div></td>
+    </tr>
+    <tr bgcolor="#FFFFFF">
+      <td valign="top">
+        <table cellpadding="0" cellspacing="0">
+        <tr>
+          <td colspan="2"><div id="content-above"></div></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div id="full-width-title">
+              <p class="topics">SYS-CON MEDIA Authors: <span class="topic-links"><a href="http://cloudventures.sys-con.com/">Cloud Ventures</a>, <a href="http://adriansanders.sys-con.com/">Chris Bliss</a>, <a href="http://chrisavis.sys-con.com/">Chris Avis</a>, <a href="http://realwirenews.sys-con.com/">RealWire News Distribution</a>, <a href="http://bobgourley.sys-con.com/">Bob Gourley</a></span></p>                            <p class="category">Blog Feed Post</p>
+              <h2>How to deploy a Ruby on Rails app from GitHub to Heroku</h2>
+              <p class="subtitle"></p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">
+            <div id="content">
+              <div id="widget-x" class="content-widget-x">
+                <table width="468" border="0" class="storyauthor">
+                  <tr>
+                    <td>By <strong><a href="http://manuelweiss.sys-con.com/">Manuel Weiss</a></strong></td>
+                    <td><div align="right">Article Rating:</div></td>
+                    <td width="100"><form action="/node/2811441"  accept-charset="UTF-8" method="post" id="fivestar-form-node-2811441" class="fivestar-widget">
+<div><div class="fivestar-form-2811441 clear-block"><input type="hidden" name="content_type" id="edit-content-type-2811441" value="node"  />
+<input type="hidden" name="content_id" id="edit-content-id-2811441" value="2811441"  />
+<div class="fivestar-form-item  fivestar-average-stars"><div class="form-item" id="edit-vote-0-wrapper">
+ <input type="hidden" name="auto_submit_path" id="edit-auto-submit-path-0" value="/fivestar/vote/node/2811441"  class="fivestar-path" />
+<select name="vote" class="form-select" id="edit-vote-0" ><option value="-">Select rating</option><option value="20">Give it 1/5</option><option value="40">Give it 2/5</option><option value="60">Give it 3/5</option><option value="80">Give it 4/5</option><option value="100">Give it 5/5</option></select>
+</div>
+</div><input type="hidden" name="destination" id="edit-destination-2811441" value="node/2811441"  />
+<input type="submit" name="op" id="edit-fivestar-submit-2811441" value="Rate"  class="form-submit fivestar-submit" />
+<input type="hidden" name="form_build_id" id="form-7817edc7f04d7e013725a10ad4a665c8" value="form-7817edc7f04d7e013725a10ad4a665c8"  />
+<input type="hidden" name="form_id" id="edit-fivestar-form-node-2811441" value="fivestar_form_node_2811441"  />
+</div>
+</div></form>
+</td>
+                  </tr>
+                  <tr>
+                    <td>September 26, 2013 12:39 PM EDT</td>
+                                        <td><div align="right">Reads:</div></td>
+                    <td width="90" class="orange-text">228</td>
+                                      </tr>
+                </table>  
+                <div class="actions-panel">
+                  <ul>
+                    <li class="itm01"><a href="#related"><span>Related</span></a></li>
+                    <li class="itm02">
+                      <a title="print this story"
+                        onmouseover="window.status='';return true"
+                        href="##" onclick="windowPopup('Print Story','/node/2811441/print'); return false;">
+                        <span>Print</span>
+                      </a>
+                    </li>
+                    <li class="itm03">
+                      <a title="alert someone to this story"
+                        onmouseover="window.status='';return true"
+                        href="##" onclick="windowPopup('Email this Story','/node/2811441/email'); return false;">
+                        <span>Email</span>
+                      </a>
+                    </li>
+                    <li class="itm04"><a href="#feedback"><span>Feedback</span></a></li>
+                    <li class="itm05"><a href="http://www.addthis.com/bookmark.php" 
+                      onmouseover="return addthis_open(this, '', '[URL]', '[TITLE]')" 
+                      onmouseout="addthis_close()" onclick="return addthis_sendto()">
+                      <span>Add This</span></a></li>
+                    <li class="itm06">
+                      <a title="blog/write about this story"
+                        onmouseover="window.status='';return true"
+                        href="##" onclick="windowPopup('Blog about this Story','/node/2811441/blog'); return false;">
+                        <span>Blog This</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div id="main-story-content">
+                                <p><iframe src="http://player.vimeo.com/video/75497977" height="498" width="885" allowfullscreen="" frameborder="0"></iframe></p>
+<h2>How to set up Continuous Integration and Continuous Deployment for a Ruby on Rails Application from GitHub to Heroku</h2>
+<p>In this blog post we&#8217;re gonna deploy a Ruby on Rails application from a GitHub repository to Heroku using <a href="https://www.codeship.io/">the Codeship</a>.</p>
+<p>We&#8217;ve set up a simple Ruby on Rails application called <a href="https://github.com/codeship-tutorials/codefish-rails">codefish</a> which contains some RSpec examples. We&#8217;ll use screenshots of this application in this blog post. If you don&#8217;t have an own project to set up but you want to follow along on your computer, just fork the repository.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/codefish-rails.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/codefish-rails.png" alt="Codefish Rails on GitHub" /></a></p>
+<p>Together, we&#8217;re gonna deploy this application to Heroku using the Codeship.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/screenshots/codeship-landingpage.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/screenshots/codeship-landingpage.png" alt="The Codeship Landing Page" /></a></p>
+<p>First, sign in to the Codeship with GitHub. The Codeship needs access to your GitHub repositories to be able to set them up. Let&#8217;s allow access.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/oauth.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/oauth.png" alt="GitHub Access" /></a></p>
+<p>We&#8217;re back at the Codeship. Now let&#8217;s create your first project.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/screenshots/codeship-welcome.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/screenshots/codeship-welcome.png" alt="Let's set up our first project on Codeship" /></a></p>
+<p>The first step of your project setup is to select GitHub as your repository provider.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/repo-provider-selection.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/repo-provider-selection.png" alt="Select your repository provider" /></a></p>
+<p>In the list of your GitHub repositories</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/repo-selection.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/repo-selection.png" alt="Search for your repository in the list" /></a></p>
+<p>search for the repository you want to set up and select it. In my case I search for &#8220;codefish&#8221;.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/repo-selection-filtered.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/repo-selection-filtered.png" alt="Find your repository in the filtered list" /></a></p>
+<p>Now your repository is connected and you can set up your test commands:</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/screenshots/codeship-technology.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/screenshots/codeship-technology.png" alt="Set up your test commands" /></a></p>
+<p>Codefish is a Ruby on Rails application. So I choose &#8220;Ruby on Rails&#8221; as my framework. This prepopulates the setup commands and the test commands for you.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/screenshots/codeship-technology-rails.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/screenshots/codeship-technology-rails.png" alt="Select Ruby on Rails as your technology" /></a></p>
+<p>The Codeship suggests Ruby 1.9.3, but you can use whatever Ruby version you like. If you&#8217;re unsure about the Ruby version of your project, type <code>ruby -v</code> in the Terminal.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/screenshots/ruby-version.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/screenshots/ruby-version.png" alt="Type ruby -v and find out your Ruby version" /></a></p>
+<p>Just copy your Ruby version into the <code>rvm use</code> statement and add a hyphen before the patch version.</p>
+<p>By deleting the hash key you can uncomment the test command <code>bundle exec rspec</code> to run your RSpec examples on every build.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/test-commands.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/test-commands.png" alt="Uncomment the test command bundle exec rake" /></a></p>
+<p>Now let&#8217;s finish your setup and go to the dashboard.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/screenshots/codeship-dashboard.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/screenshots/codeship-dashboard.png" alt="Finish your setup. You are on the Dashboard now" /></a></p>
+<p>You can trigger a build for your application by pushing to your repository. Let&#8217;s add the Codeship status image to the README file. I use markdown syntax to insert the image.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/screenshots/codeship-image.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/screenshots/codeship-image.png" alt="Copy the code for the Codeship status badge to your README file" /></a></p>
+<p>Now commit and push this change.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/push.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/push.png" alt="Commit and push your change" /></a></p>
+<p>This triggered a new build on the Codeship.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/first-build-running.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/first-build-running.png" alt="A new build got triggered on the Codeship" /></a></p>
+<p>You can access the build details by clicking the arrow on the right. Here you can follow the running build.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/first-build-running-details.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/first-build-running-details.png" alt="Click on the arrow to the right to access the build details" /></a></p>
+<p>And a few seconds later your build succeeded! Great!</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/first-build-finished.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/first-build-finished.png" alt="Look at all the commands that are running" /></a></p>
+<p>You see all the commands that were run. After a few initial preparation commands the Codeship ran the commands that you specified a few moments ago.</p>
+<p>You can inspect the output of a single command by clicking on it. For the <code>codefish</code> application, we can see that two RSpec examples were run.</p>
+
+<!--portletbreak-->
+
+
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/build-log.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/build-log.png" alt="Look at the log of a single command by clicking on it" /></a></p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/first-build-finished.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/first-build-finished.png" alt="look at the Rspec command" /></a></p>
+<p>You&#8217;ve already pushed to your repository, watched your build log and got a green build. So you can finish the assistant at the top.</p>
+<p>[click on "click to finish" button]</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/build-without-road-to-success.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/build-without-road-to-success.png" alt="Finish the setup wizard by clicking on the click to finish button" /></a></p>
+<p>Now let&#8217;s deploy your application to Heroku. Go to your project settings by clicking on the settings icon in the projects dropdown.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/go-to-project-settings.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/go-to-project-settings.png" alt="Go to your project settings by clicking on the settings icon in the projects dropdown" /></a></p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/project-settings.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/project-settings.png" alt="You are on the Testing Setup screen now" /></a></p>
+<p>Then navigate to the &#8220;Deployment&#8221; section.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/deployment-settings.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/deployment-settings.png" alt="You are on the Deployment Setup screen now" /></a></p>
+<p>As we want to deploy to Heroku we click on the &#8220;Heroku&#8221; button.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/new-heroku-deployment.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/new-heroku-deployment.png" alt="Click on the Heroku button" /></a></p>
+<p>Now you are asked to enter the name of your Heroku application and your API key. If you haven&#8217;t already, now is the time to go to Heroku and create an application.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/heroku-apps.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/heroku-apps.png" alt="You are on the Heroku page now" /></a></p>
+<p>I named my application &#8220;codefish-rails&#8221;, but please choose whatever name you like</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/create-heroku-app.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/create-heroku-app.png" alt="Create your app and name it codefish-rails" /></a></p>
+<p>and create your app.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/heroku-app-created.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/heroku-app-created.png" alt="You successfully created your Heroku App" /></a></p>
+<p>Back at your deployment configuration on the Codeship enter the application name.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/heroku-deployment-name.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/heroku-deployment-name.png" alt="Back on the Codeship we enter the application name codefish-rails" /></a></p>
+<p>To retrieve your Heroku API key, follow the link to your Heroku account and click &#8220;Show API key&#8221;.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/show-api-key.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/show-api-key.png" alt="Click on the link to get your Heroku API key" /></a></p>
+<p>Copy it and insert it into your deployment configuration at the Codeship.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/complete-heroku-deployment.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/complete-heroku-deployment.png" alt="Copy and paste the Heroku API key to the Codeship" /></a></p>
+<p>Now save your deployment configuration.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/saved-heroku-deployment.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/saved-heroku-deployment.png" alt="Save your deployment configuration by clicking on the green checkmark" /></a></p>
+<p>From now on the Codeship will deploy your application to Heroku everytime you push to your GitHub repository. Now let&#8217;s push a change and see if it gets deployed. Change something in your application first,</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/added-paragraph.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/added-paragraph.png" alt="Add a new paragraph you can then commit and push" /></a></p>
+<p>then commit and push the change.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/commit-and-push-paragraph.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/commit-and-push-paragraph.png" alt="Commit and push the change" /></a></p>
+<p>And immediately another build will start running on the Codeship. Let&#8217;s go back to your project overview.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/deploy-build-started.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/screenshots/deploy-build-started.png" alt="Go back to the project overview to see a new running build" /></a></p>
+<p>After the commands we already know from your first build, your application also gets deployed to Heroku now.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/build-deployment.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/build-deployment.png" alt="After some initial commands were run your application gets deployed" /></a></p>
+<p>And about 2 minutes later your application is online.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/build-deployment-complete.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/build-deployment-complete.png" alt="After about 2 minutes your application is online" /></a></p>
+<p>When you open the URL of your Heroku app now, your deployed application appears.</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/deployed-application.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/deployed-application.png" alt="Have a look at the app you just deployed on http://codefish-rails.herokuapp.com/" /></a></p>
+<p>If you need help with setting up your own application, please use the support link in the top-right corner or tweet us at codeship!</p>
+<p><a href="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/build-deployment-complete.png"> <img src="https://raw.github.com/codeship/screencast-storyboards/master/rails/github/heroku/screenshots/build-deployment-complete.png" alt="If you need help please click the support link in the top-right corner or tweet us @codeship" /></a></p>                </div>
+      
+                                  <p class="read-original"><a href="http://blog.codeship.io/2013/09/26/how-to-deploy-a-ruby-on-rails-app-from-github-to-heroku.html" target="_blank">Read the original blog entry...</a></p>
+                      
+                      
+                <p class="story-footer">
+                  Published September 26, 2013                                    &#150; Reads 228                                    <br />
+                  Copyright &copy; 2013 SYS-CON Media, Inc. &mdash; All Rights Reserved.
+                  <br />
+                  Syndicated stories and blog feeds, all rights reserved by the author.
+                </p>
+      
+                <div class="actions-panel">
+                  <ul>
+                    <li class="itm01"><a href="#related"><span>Related</span></a></li>
+                    <li class="itm02">
+                      <a title="print this story"
+                        onmouseover="window.status='';return true"
+                        href="##" onclick="windowPopup('Print Story','/node/2811441/print'); return false;">
+                        <span>Print</span>
+                      </a>
+                    </li>
+                    <li class="itm03">
+                      <a title="alert someone to this story"
+                        onmouseover="window.status='';return true"
+                        href="##" onclick="windowPopup('Email this Story','/node/2811441/email'); return false;">
+                        <span>Email</span>
+                      </a>
+                    </li>
+                    <li class="itm04"><a href="#feedback"><span>Feedback</span></a></li>
+                    <li class="itm05"><a href="http://www.addthis.com/bookmark.php" 
+                      onmouseover="return addthis_open(this, '', '[URL]', '[TITLE]')" 
+                      onmouseout="addthis_close()" onclick="return addthis_sendto()">
+                      <span>Add This</span></a></li>
+                    <li class="itm06">
+                      <a title="blog/write about this story"
+                        onmouseover="window.status='';return true"
+                        href="##" onclick="windowPopup('Blog about this Story','/node/2811441/blog'); return false;">
+                        <span>Blog This</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+      
+                <a id="related"></a>
+
+                                
+                      
+                                  <div class="about-the-author">
+                  <h2><a href="http://manuelweiss.sys-con.com/">More Stories By Manuel Weiss</a></h2>
+                  <p>I am the cofounder of Codeship – a hosted Continuous Integration and Deployment platform for web applications.
+On the Codeship blog we love to write about Software Testing, Continuos Integration and Deployment. Also check out our weekly screencast series 'Testing Tuesday'!</p>
+                  </div> 
+                                
+                <div id="content-below">
+                
+                  <a id="feedback"></a>
+                                  
+                  
+                                    
+                </div>
+              </div>
+            </div>
+          </td>
+          <td valign="top"><div id="sidebar-3"><div class="portletsmallfeedback"><div class="portlettitlesmall">Comments</div><table border="0" cellpadding="2" cellspacing="0" width="99%"><tr><td><div class="story"><div><a href="/node/2753388"><span class="storytitle">Why Shutting Down TechNet Is Not a Problem for IT Pros</span></a></div><div class="storyauthor">By Toddy Mladenov</div><div class="storysummary">toddysm wrote: @Codi: I think we are having much more detailed conversation on your blog.
+
+I think lot of the points are addressed there or on my blog and I don't want to repeat those again and again. 
+
+On the self installing software point by pcarlpatrick I hear you that this has been promise since the 70s but 10 years ago I had to install Linux, then Java, then DB2 then WebSphere and now I can get all those + the LB and the FW configured with a click of a button. I personally like this better then spending hours or days using the traditional approach.</div><div class="storytagline">Aug. 8, 2013 12:53 AM EDT</div><div><a href="/node/2753388"><span class="readmore">read more &amp; respond &raquo;</span></a></div></div></td></tr></table></div><div>
+      <style type="text/css">
+.textlinktiny
+{
+font-family: Verdana,Arial,Helvetica,sans-serif;
+color: #000099;
+    font-size: 9px;
+    margin-top: 0px;
+    padding-bottom: 3px;
+}
+</style>
+
+
+<a href="http://www.sys-con.com"><div class=textlinktiny>Did you read today's <b>front page stories</b> & breaking news?</a></b>
+
+<table><tr><td></td></tr></table>  
+</div>
+<div>
+      <center>
+<!--/* OpenX iFrame Tag v2.6.2 */-->
+
+<iframe id='affbc2fb' name='affbc2fb' src='http://banners.sys-con.com/openx/www/delivery/afr.php?n=affbc2fb&amp;zoneid=226&amp;cb=INSERT_RANDOM_NUMBER_HERE' framespacing='0' frameborder='no' scrolling='no' width='160' height='160'><a href='http://banners.sys-con.com/openx/www/delivery/ck.php?n=a09cfa5b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://banners.sys-con.com/openx/www/delivery/avw.php?zoneid=226&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a09cfa5b' border='0' alt='' /></a></iframe>
+<script type='text/javascript' src='http://banners.sys-con.com/openx/www/delivery/ag.php'></script>
+</center>
+<table><tr><td></td></tr></table>  
+</div>
+<div>
+      <!--/* OpenX iFrame Tag v2.8.10 */-->
+
+<iframe id='aac63add' name='aac63add' src='http://banners.sys-con.com/openx/www/delivery/afr.php?zoneid=6&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='160' height='600'><a href='http://banners.sys-con.com/openx/www/delivery/ck.php?n=aeef126c&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://banners.sys-con.com/openx/www/delivery/avw.php?zoneid=6&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=aeef126c' border='0' alt='' /></a></iframe>
+  
+</div>
+<div>
+      <a href="http://news.google.com/news?as_scoring=d&hl=en&q=sys-con">
+  <div class="textlinktiny"><b>Live Google News</b> by <b>SYS-CON!</b></div>
+</a>
+
+<table><tr><td></td></tr></table>  
+</div>
+</div></td>
+        </tr>
+        <tr>
+          <td><!--Content Below--></td>
+          <td>&nbsp;</td>
+        </tr>
+        </table>
+      </td>
+      <td valign="top"><div id="sidebar-4"><div>
+      <!--/* OpenX iFrame Tag v2.8.10 */-->
+
+<iframe id='ace37d03' name='ace37d03' src='http://banners.sys-con.com/openx/www/delivery/afr.php?zoneid=11&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='336' height='298'><a href='http://banners.sys-con.com/openx/www/delivery/ck.php?n=acf4a237&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://banners.sys-con.com/openx/www/delivery/avw.php?zoneid=11&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=acf4a237' border='0' alt='' /></a></iframe>
+  
+</div>
+<div>
+      <p><!--/* OpenX Javascript Tag v2.8.10 */-->
+
+<script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://banners.sys-con.com/openx/www/delivery/ajs.php':'http://banners.sys-con.com/openx/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=2");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://banners.sys-con.com/openx/www/delivery/ck.php?n=a6bd561a&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://banners.sys-con.com/openx/www/delivery/avw.php?zoneid=2&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a6bd561a' border='0' alt='' /></a></noscript>
+<p>
+  
+</div>
+<div class="portletsmall"><div class="portlettitlesmall">Breaking Java News</div><table border="0" cellpadding="2" cellspacing="0" width="99%"><tr><td><div class="story"><div><a href="/node/2822255"><span class="storytitle">576GH/s Bitcoin miner presented by KnCMiner at Crypto-Currency con 2013, in Atlanta</span></a></div></div></td></tr><tr><td><div class="story"><div><a href="/node/2822254"><span class="storytitle">576GH/s Bitcoin miner presented by KnCMiner at Crypto-Currency con 2013, in Atlanta</span></a></div></div></td></tr><tr><td><div class="story"><div><a href="/node/2822253"><span class="storytitle">Junior League of Portland Activates Fourth Annual JLP CAREs Event to Revitalize Community, Raise Funds</span></a></div></div></td></tr><tr><td><div class="story"><div><a href="/node/2822250"><span class="storytitle">CFIA/Health Hazard Alert-Certain Reser&#039;s Fine Foods Brand Cheesy Macaroni Salad May Contain Listeria Monocytogenes</span></a></div></div></td></tr><tr><td><div class="story"><div><a href="/node/2822248"><span class="storytitle">Destin, Florida Hotel Hosts South Walton Fashion Week </span></a></div></div></td></tr></table></div><div>
+      <!--/* OpenX Javascript Tag v2.8.10 */-->
+
+<script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://banners.sys-con.com/openx/www/delivery/ajs.php':'http://banners.sys-con.com/openx/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=2");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://banners.sys-con.com/openx/www/delivery/ck.php?n=a4f8504c&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://banners.sys-con.com/openx/www/delivery/avw.php?zoneid=2&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a4f8504c' border='0' alt='' /></a></noscript>
+  
+</div>
+<div>
+      <!-- google_ad_region_end -->  
+</div>
+<div class="portlet-top-margin">
+      <!--/* OpenX iFrame Tag v2.6.2 */-->
+
+<iframe id='a7da3165' name='a7da3165' src='http://banners.sys-con.com/openx/www/delivery/afr.php?n=a7da3165&amp;zoneid=232&amp;cb=INSERT_RANDOM_NUMBER_HERE' framespacing='0' frameborder='no' scrolling='no' width='336' height='600'><a href='http://banners.sys-con.com/openx/www/delivery/ck.php?n=afc36652&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://banners.sys-con.com/openx/www/delivery/avw.php?zoneid=232&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=afc36652' border='0' alt='' /></a></iframe>
+<script type='text/javascript' src='http://banners.sys-con.com/openx/www/delivery/ag.php'></script>
+
+<p>  
+</div>
+</div></td>
+    </tr>
+        <tr>
+      <td colspan="2"><div id="footer"><style type="text/css">
+
+.event-footer-lfc {
+font-size: 10px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: #ccc;
+}	
+
+.event-footer-lfc2 {
+	font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: #555555; 
+	font-style: italic;
+}
+
+.footer-nav {
+	padding: 1px 5px 5px 5px !important;
+	margin: 0 10px 10px 10px !important;
+	float: left !important;
+}
+
+#footer-terms {
+	font-family:Verdana, Arial, Helvetica, sans-serif !important;
+	margin:10px 0 0 !important;
+	border-top:1px solid #667788 !important;
+	background: #000000 !important;
+	color: #FFFFFF !important;
+	padding: 9px !important;
+	clear: both !important;
+}
+#footer-terms p {
+	color: #fff !important;
+	font-size: 10px !important;
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+}
+
+</style>
+<meta name="google-site-verification" content="wT-eP7-k8lEt4As_ltjRl2w_1J84KeUTpGPyQ_B0oJI" />
+
+			<img src="http://www2.sys-con.com/eventserver/global/headers/2013west_cloud.jpg" width="1015" height="161" border="0" usemap="#Map">
+            
+            <div class="footer-nav">
+              <h2>Cloud Expo </h2>
+              <ul>
+                <li><a href="http://cloudcomputingexpo.com/">Home</a></li>
+                <li><a href="http://cloudcomputingexpo.com/">Register</a></li>
+                <li><a href="http://cloudcomputingexpo.com/">Keynotes</a></li>
+                <li><a href="http://cloudcomputingexpo.com/">Speakers</a></li>
+                <li><a href="http://cloudcomputingexpo.com/">Sessions</a></li>
+                <li><a href="http://cloudcomputingexpo.com/">Schedule</a></li>
+                <li><a href="http://cloudcomputingexpo.com/">Exhibitors</a></li>
+                <li><a href="http://cloudcomputingexpo.com/">Sponorship Info </a></li>
+                <li><a href="http://cloudcomputingexpo.com/">Conference Info </a></li>
+                <li><a href="http://cloudcomputingexpo.com/">Hotel Info </a></li>
+                <li><a href="http://cloudcomputingexpo.com/">Press Registration </a></li>
+                <li><a href="http://cloudcomputingexpo.com/">Call For Papers </a></li>
+                <li><a href="http://cloudcomputingexpo.com/">Media Sponsors </a></li>
+                <li><a href="http://cloudcomputingexpo.com/">Advisory Board </a></li>
+                <li><a href="http://cloudcomputingexpo.com/">Volunteers</a></li>
+              </ul>
+          </div>
+          <div class="footer-nav">
+              <table width="800" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td valign="top"><h2>Is Your Business 100% Ready for the
+New Era of Cloud Computing and
+Big Data? The Only Enterprise IT Event in 2013 Covering
+the Entire Scope of both Cloud & Big Data<br>
+                    <span class="style1"><span class="style2"><a href="http://cloudcomputingexpo.com/">                      <br>
+                      </a><span class="event-footer-lfc">
+                      
+                      
+                      
+                      Come to Silicon Valley and get yourself up to date with the Big Data revolution! As advanced data storage, access and analytics technologies aimed at handling high-volume and/or fast moving data all move center stage, aided by the Cloud Computing boom, Cloud Expo is the single most effective event for you to learn how to use you own enterprise data – processed in the Cloud – most effectively to drive value for your business.
+<br><br>
+There is little doubt that Big Data solutions will have an increasing role in the Enterprise IT mainstream over time. Get a jump on that rapidly evolving trend at Big Data Expo, which we are introducing in November at Cloud Expo Silicon Valley.
+                 <br>
+                      <br>
+"Cloud" has become synonymous with "computing" and "software" in two short years. Cloud Expo is the new PC Expo, Comdex, and InternetWorld of our decade. By 2012, more than 50,000 delegates per year will participate in Cloud Expo worldwide. <br>
+                      <br>
+                      The cloud is certainly a compelling alternative to running all applications within a traditional corporate data center. But moving from theory into practice is where things get complicated, and this is where attending a top industry event like Cloud Expo comes in.<br>
+                      <br>
+                      No one can take full advantage of cloud computing without first becoming familiar with the latest issues and trends, which is why the organizing principle of the 10th International Cloud  Expo on November 4-7, 2013 - is to ensure - through an intensive four-day schedule of keynotes, general and breakout sessions, and our bustling Expo Floor - that attending delegates leave the Santa Clara Convention Center with abundant resources, ideas and examples they can apply immediately to leveraging the Cloud, helping them to maximize performance, minimize cost and improve the scalability of their Enterprise IT endeavors. <br>
+                      <br>
+Delegates will leave Cloud Expo with dramatically increased understanding the entire scope of the entire cloud computing spectrum from storage to security.
+
+<br><br>
+Whether you're an enterprise or small to medium business, you'll soon be benefiting from the Cloud. Join your peers in Silicon Valley November 4-7, and maximize those benefits already in 2013. See you in Santa Clara!</span></span></span><br>
+                  </h2>                    </td>
+                  <td width="25">&nbsp;</td>
+                  <td width="200" valign="top"><h2><a href="http://www.cloudcomputingexpo.com" target="_blank"><img src="http://www2.cdn.sys-con.com//eventserver/other/footer/reg_button.png" width="190" height="153"></a>Register Now! <br>
+                      <span class="event-footer-lfc">Save $500 on your &ldquo;Golden Pass&rdquo;! Call 201.802.3020 <br>
+                      or click here to Register <br>
+                    Early Bird Expires Friday.<br>
+                      </span><br>
+                  Speaker Opportunities <br>
+                  <span class="event-footer-lfc">Submit your speaking proposal for the upcoming Cloud Expo in Silicon Valley<br>
+[November 4-7, 2013]<br>
+                  </span><br>
+                  Exhibitor Info <br>
+                  <span class="style1"><span class="event-footer-lfc">Please Call 201.802.3021 <br>
+events (at) sys-con.com. <br>
+Carmen Gonzalez, <br>
+carmen (at) sys-con.com.<br>
+                  </span></span></h2>
+                    <br>
+                    <table width="125" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td><span class="event-footer-lfc2">Produced and presented by Cloud Expo, Inc.</span></td>
+                      </tr>
+                    </table>
+                    <h2><em><br>
+  </em><br>
+  <br>
+  <span class="style5"><br>
+  </span></h2>
+                    <h2><br>
+                    </h2></td>
+                </tr>
+              </table>
+              <!--</div>
+<div class="footer-nav">-->
+</div>
+          <div id="footer-terms">
+              <p><img src="http://www2.cdn.sys-con.com/eventserver/other/footer/logo_ulitzer_sml.png"  align="left" /><a href="http://www.sys-con.com/general/terms.htm">Terms of Use &amp; Our Privacy Statement</a> - <a href="http://www.sys-con.com/general/aboutfeeds.htm">About Newsfeeds / Videofeeds</a>. Copyright &copy;1994-2013 Ulitzer, Inc.<br />
+                All Rights Reserved. All marks are trademarks of Ulitzer, Inc.<br />
+                Reproduction in whole or in part in any form or medium without express written permission of Ulitzer, Inc. is prohibited.</p>
+          </div>
+        </div></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+      <script type="text/javascript">_uacct = "UA-271410-1"; urchinTracker(); </script>
+
+<map name="Map">
+<area shape="rect" coords="16,8,279,152" href="http://cloudcomputingexpo.com/" target="_blank">
+<area shape="rect" coords="525,11,670,151" href="http://www.cloudcomputingexpo.com" target="_blank">
+<area shape="rect" coords="981,127,1005,153" href="http://cloudexpo.ulitzer.com/index.rss" target="_blank">
+<area shape="rect" coords="869,4,1011,29" href="http://www.twitter.com/cloudexpo" target="_blank">
+<area shape="rect" coords="988,135,994,139" href="#"><area shape="rect" coords="284,10,513,149" href="http://bigdataexpo.net/">
+</map></body>
+</html></div></td>
+    </tr>
+    </table>
+  </div>
+  
+      <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+      <script type="text/javascript">_uacct = "UA-271410-1"; urchinTracker(); </script>
+
+
+    <div id="elementDiv" style="z-index: 1000; width:620; height:420; background-color:white; visibility:hidden; position:absolute; top:0; left:0; border: 8px ridge black; padding: 10px;">
+    <!--/* OpenX iFrame Tag v2.8.10 */-->
+
+<iframe id='a6214aaa' name='a6214aaa' src='http://banners.sys-con.com/openx/www/delivery/afr.php?zoneid=332&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='640' height='480'><a href='http://banners.sys-con.com/openx/www/delivery/ck.php?n=a6540280&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://banners.sys-con.com/openx/www/delivery/avw.php?zoneid=332&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a6540280' border='0' alt='' /></a></iframe>
+
+    <div align="center"><a onclick="closeElement();">close this window</a></div>
+    </div>
+    <script>welcome('WM_');</script>
+</body>
+</html>

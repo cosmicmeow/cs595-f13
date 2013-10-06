@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html> 
+<head>
+	<meta charset='UTF-8'>
+	<meta name='viewport'            content='width=device-width, initial-scale=1, maximum-scale=1'>
+	<meta name='color:Accent'        content='#7cc0b0'>
+	<meta property='og:title'        content='XXIIVV ∴ NEON HERMETISM'/>
+	<meta property='og:type'         content='website'/>
+	<meta property='og:url'          content='http://wiki.xxiivv.com/Mute'/>
+	<meta property='og:email'        content='me@m0oo.com'/>
+	<meta property='og:site_name'    content='Neon Hermetism'/>
+	<meta property='fb:admins'       content='deoxys'/>
+	<meta name='SKYPE_TOOLBAR' 		 content='SKYPE_TOOLBAR_PARSER_COMPATIBLE' />
+	<meta name='apple-mobile-web-app-capable' content='yes' />
+	<meta name='viewport' 			 content='width=device-width, initial-scale=1.0'>
+	<meta name='description'         content='Works of Devine Lu Linvega' />
+	<meta name='keywords'            content='aliceffekt, traumae, ikaruga, devine lu linvega' />
+	<link rel='stylesheet'           type='text/css'                 href='inc/style.main.css' />
+	<link rel='shortcut icon' 		 href='http://wiki.xxiivv.com/img/interface/favicon.ico' />
+	<link rel='apple-touch-icon-precomposed' 	 href='../../img/interface/phone_xxiivv.png'/>
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js' ></script>
+	<script src='inc/jquery.main.js'></script>
+	<title>XXIIVV ∴ Mute</title>
+</head>
+<body>
+<content class='header'><a href='/' class='logo'></a><form action='/'><input placeholder='Mute' class='bgclear' name='search'/></form></content>
+<content class='navi'><table><tr><th width='20px'></th><th>File</th><th>Format</th><th>Notes</th></tr><tr><td><img src='img/interface/icon_parent.gif'/></td><td><a href='Programming'>Parent</a></td><td></td><td></td></tr><tr><td><img src='img/interface/icon_photo.gif'/></td><td><a href='/graphic:356'>Image.jpg</a></td><td>Graphic</td><td></td></tr><tr><td><img src='img/interface/icon_logs.gif'/></td><td><a href='/logs:Mute'>Logs</a></td><td>Horaire</td><td>57 Commits</td></tr><tr><td><img src='img/interface/icon_diary.gif'/></td><td><a href='356'>Mutescript Draft</a></td><td>Text</td><td></td></tr></table><hr /></content>
+
+<content class='article'><p>Mute, or mutescript, is a small experimental programming language with single line functions inspired by <a href="http://en.wikipedia.org/wiki/APL_(programming_language)">APL</a>. This is just a draft, and should grow into an actual documentation shortly. This explores some ideas that might make the project unfit to serve specific needs, but ought to show a new approach to programming. To be receptive to the following, forget your sense of variables and functions, for in Mute, variables and functions are one, referred to as lines.</p>
+
+<p>A draft version of mute can be downloaded from <a href='https://github.com/aliceffekt/mute'>Github</a>. You only need PHP to run the <b><a href='https://github.com/aliceffekt/mute/blob/master/mute.main.txt'>example file</a></b>. I recorded a small demo showing some of the features of <a href="http://www.youtube.com/watch?v=DStVYilsU5k">Mute</a>.</p>
+
+<h2>Syntax</h2>
+<p>There are 4 types of brackets used in Mute. Brackets can be used multiple times on the same line to express multiple conditions, multiple values and multiple operations.</p>
+
+<pre>
+( condition ) <comment># Defines the condition at which it can operate</comment>
+[ value ] <comment># The value(s) of the line</comment>
+{ operation } <comment># Operation conducted by the line</comment>
+&lt; module &gt; <comment># Execute line from within module</comment>
+<comment># Mark the line as comment</comment>
+</pre>
+
+<p>If we put it together.</p>
+
+<pre>
+name(condition)[value]{operations}
+</pre>
+
+<p>Not one piece of the line is mandatory, so a simple value setup would look like.</p>
+
+<pre>
+a[5] <comment># a = 5</comment>
+b(a>4)[5] <comment># if(a > 4){b = 5;}</comment>
+b(a>4)[5]{c[5]}<comment># if(a > 4){b = 5; c = 5;}</comment>
+</pre>
+
+<h2>Examples</h2>
+
+<p>Three simple 'hello world' programs, showing how unnamed lines work. </p>
+<pre>
+{"Hello World"} <comment># Hello world</comment>
+[Hello world]{$} <comment># Hello world</comment>
+[World]{"Hello @1",$} <comment># Hello world</comment>
+</pre>
+
+<p>Conditional cases are handled at the variable level.</p>
+<pre>
+a[2]
+b(a>1){"Hello World"} <comment># Hello world (for a = 2)</comment>
+</pre>
+
+<p>Lists or single variables are the same too.</p>
+<pre>
+a[0,1,2,3] <comment># This list/array has the name "a"</comment>
+b{"Third number: @1",a.2} <comment># 2</comment>
+a{"Third number: @1",$.2} <comment># 2, a line calling itself can use $ for self</comment>
+</pre>
+
+<p>Functions, variables operation are also the same.</p>
+<pre>
+b($ > 1){"Hello World"}
+a[4]($ > a.1){b[3]} <comment># Hello World, this sets b[x] with value of 3</comment>
+a[4]($ > a.1){b.3} <comment># {null}, this gets the 3rd value of b[], i this case, null</comment>
+</pre>
+
+<h2>Conditions</h2>
+
+<table>
+<tr><td>=</td><td>Is Equal</td></tr>
+<tr><td>></td><td>Is Greater than</td></tr>
+<tr><td><</td><td>Is Lesser than</td></tr>
+</table>
+
+<h2>Values</h2>
+
+<table>
+<tr><td>~</td><td>Random between</td></tr>
+<tr><td>&</td><td>Merge Strings</td></tr>
+<tr><td>+</td><td>Add value</td></tr>
+<tr><td>-</td><td>Subtract value</td></tr>
+<tr><td>.</td><td>Get Value at index</td></tr>
+</table>
+
+<h2>Operations</h2>
+
+<table>
+<tr><td>"</td><td>Print</td></tr>
+</table>
+
+<h2>Examples</h2>
+
+<p>The examples have been moved to <a href='https://github.com/aliceffekt/mute'>Github</a>. Have a look at the <a href='https://github.com/aliceffekt/mute/blob/master/mute.main.txt'>example file</a>.</p></content>
+<content class='footer'>
+    <a class='cc' href='http://creativecommons.org/licenses/by-sa/3.0/' target='_blank'>
+      <img src='img/interface/icn_cc.png' class='auto' style='display: inline-block'>
+     </a>
+     <hr /></content>
+
+</body>
+</html>

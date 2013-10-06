@@ -1,0 +1,1760 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { var b=window,e="jstiming",g="tick";(function(){function d(a){this.t={};this.tick=function(a,d,c){c=void 0!=c?c:(new Date).getTime();this.t[a]=[c,d]};this[g]("start",null,a)}var a=new d;b.jstiming={Timer:d,load:a};if(b.performance&&b.performance.timing){var a=b.performance.timing,c=b[e].load,f=a.navigationStart,a=a.responseStart;0<f&&a>=f&&(c[g]("_wtsrt",void 0,f),c[g]("wtsrt_","_wtsrt",a),c[g]("tbsd_","wtsrt_"))}try{a=null,b.chrome&&b.chrome.csi&&(a=Math.floor(b.chrome.csi().pageT),c&&0<f&&(c[g]("_tbnd",void 0,b.chrome.csi().startE),
+c[g]("tbnd_","_tbnd",f))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),null==a&&b.external&&(a=b.external.pageT,c&&0<f&&(c[g]("_tbnd",void 0,b.external.startE),c[g]("tbnd_","_tbnd",f))),a&&(b[e].pt=a)}catch(l){}})();b.tickAboveFold=function(d){var a=0;if(d.offsetParent){do a+=d.offsetTop;while(d=d.offsetParent)}d=a;750>=d&&b[e].load[g]("aft")};var h=!1;function k(){h||(h=!0,b[e].load[g]("firstScrollTime"))}b.addEventListener?b.addEventListener("scroll",k,!1):b.attachEvent("onscroll",k);
+ })();</script>
+<meta content='blogger' name='generator'/>
+<link href='http://octobersveryown.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="OCTOBERS VERY OWN - Atom" href="http://octobersveryown.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="OCTOBERS VERY OWN - RSS" href="http://octobersveryown.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="OCTOBERS VERY OWN - Atom" href="http://www.blogger.com/feeds/7578652831984032482/posts/default" />
+
+<link rel="alternate" type="application/atom+xml" title="OCTOBERS VERY OWN - Atom" href="http://octobersveryown.blogspot.com/feeds/1502746329313616970/comments/default" />
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>OCTOBERS VERY OWN: Drake x FIFA 14</title>
+<link type='text/css' rel='stylesheet' href='//www.blogger.com/static/v1/widgets/2775015444-widget_css_bundle.css' />
+<link type='text/css' rel='stylesheet' href='//www.blogger.com/dyn-css/authorization.css?targetBlogID=7578652831984032482&amp;zx=f13b8a73-b748-4f7f-8e81-d4ac4839a9ab&quot;/&gt;
+' />
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Minima Black
+Designer: Douglas Bowman
+URL:      www.stopdesign.com
+Date:     26 Feb 2004
+Updated by: Blogger Team
+----------------------------------------------- */
+#navbar-iframe {
+display: none !important;
+}
+/* Variable definitions
+====================
+<Variable name="bgcolor" description="Page Background Color"
+type="color" default="#000">
+<Variable name="textcolor" description="Text Color"
+type="color" default="#ccc">
+<Variable name="linkcolor" description="Link Color"
+type="color" default="#9ad">
+<Variable name="pagetitlecolor" description="Blog Title Color"
+type="color" default="#ccc">
+<Variable name="descriptioncolor" description="Blog Description Color"
+type="color" default="#777">
+<Variable name="titlecolor" description="Post Title Color"
+type="color" default="#ad9">
+<Variable name="bordercolor" description="Border Color"
+type="color" default="#333">
+<Variable name="sidebarcolor" description="Sidebar Title Color"
+type="color" default="#777">
+<Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#999">
+<Variable name="visitedlinkcolor" description="Visited Link Color"
+type="color" default="#a7a">
+<Variable name="bodyfont" description="Text Font"
+type="font" default="normal normal 100% 'Trebuchet MS',Trebuchet,Verdana,Sans-serif">
+<Variable name="headerfont" description="Sidebar Title Font"
+type="font"
+default="normal bold 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif">
+<Variable name="pagetitlefont" description="Blog Title Font"
+type="font"
+default="normal bold 200% 'Trebuchet MS',Trebuchet,Verdana,Sans-serif">
+<Variable name="descriptionfont" description="Blog Description Font"
+type="font"
+default="normal normal 78% 'Trebuchet MS', Trebuchet, Verdana, Sans-serif">
+<Variable name="postfooterfont" description="Post Footer Font"
+type="font"
+default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif">
+<Variable name="startSide" description="Start side in blog language"
+type="automatic" default="left">
+<Variable name="endSide" description="End side in blog language"
+type="automatic" default="right">
+*/
+/* Use this with templates/template-twocol.html */
+body, .body-fauxcolumn-outer {
+background:#000000;
+margin:0;
+color:#cccccc;
+font: x-small "Trebuchet MS", Trebuchet, Verdana, Sans-serif;
+font-size/* */:/**/small;
+font-size: /**/small;
+text-align: center;
+}
+a:link {
+color:#b3b3b3;
+text-decoration:none;
+}
+a:visited {
+color:#e6e6e6;
+text-decoration:none;
+}
+a:hover {
+color:#ffffff;
+text-decoration:underline;
+}
+a img {
+border-width:0;
+}
+/* Header
+-----------------------------------------------
+*/
+#leaderboard-ad {
+width:728px;
+height:90px;
+margin:0 auto 10px;
+border:0px solid #333333;
+}
+#header-wrapper {
+width:880px;
+height:245px;
+margin:0 auto 10px;
+border:0px solid #333333;
+}
+#header-inner {
+background-position: center;
+margin-left: auto;
+margin-right: auto;
+}
+#header {
+margin: 0px;
+border: 0px solid #333333;
+text-align: center;
+color:#cccccc;
+}
+#header h1 {
+margin:5px 5px 0;
+padding:25px 20px .25em;
+line-height:1.2em;
+text-transform:uppercase;
+letter-spacing:.2em;
+font: normal bold 200% Verdana, sans-serif;
+}
+#header a {
+color:#cccccc;
+text-decoration:none;
+}
+#header a:hover {
+color:#cccccc;
+}
+#header .description {
+margin:0 5px 5px;
+padding:0 20px 15px;
+max-width:800px;
+text-transform:uppercase;
+letter-spacing:.2em;
+line-height: 1.4em;
+font: normal normal 78% 'Trebuchet MS', Trebuchet, Verdana, Sans-serif;
+color: #777777;
+}
+#header img {
+margin-left: auto;
+margin-right: auto;
+}
+/* Outer-Wrapper
+----------------------------------------------- */
+#outer-wrapper {
+width: 880px;
+margin:0 auto;
+padding:10px;
+text-align:left;
+font: normal normal 100% 'Trebuchet MS',Trebuchet,Verdana,Sans-serif;
+}
+#main-wrapper {
+float: left;
+margin: 0 0 0 8px;
+/* overflow: hidden; */
+width: 675px;
+word-wrap: break-word;
+}
+#sidebar-wrapper {
+width: 180px;
+float: right;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+}
+/* Headings
+----------------------------------------------- */
+h2 {
+margin:1.5em 0 .75em;
+font:normal bold 58% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif;
+line-height: 1.4em;
+text-transform:uppercase;
+letter-spacing:.2em;
+color:#666666;
+font-size:78%;
+font-weight:bold;
+}
+/* Posts
+-----------------------------------------------
+*/
+h2.date-header {
+margin:1.5em 0 .8em;
+font-size:78%;
+}
+.post {
+margin:.5em 0 1.5em;
+border-bottom:1px dotted #333333;
+padding-bottom:1.5em;
+}
+.post h3 {
+margin:.25em 0 0;
+padding:0 0 15px;
+font-size:175%;
+font-weight:bold;
+line-height:1.0em;
+letter-spacing:.0em;
+color:#ffffff;
+}
+.post h3 a, .post h3 a:visited, .post h3 strong {
+display:block;
+text-decoration:none;
+color:#ffffff;
+font-weight:normal;
+}
+.post h3 strong, .post h3 a:hover {
+color:#cccccc;
+}
+.post-body {
+margin:0 0 .75em;
+line-height:1.6em;
+}
+.post-body blockquote {
+line-height:1.3em;
+}
+.post-footer {
+margin: .75em 0;
+color:#666666;
+text-transform:uppercase;
+letter-spacing:.1em;
+font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+line-height: 3.4em;
+font-size:85%;
+}
+.comment-link {
+margin-left:.6em;
+}
+.post img {
+padding:4px;
+border:1px solid #333333;
+}
+.post blockquote {
+margin:1em 20px;
+}
+.post blockquote p {
+margin:.75em 0;
+}
+/* Comments
+----------------------------------------------- */
+#comments h4 {
+margin:1em 0;
+font-weight: bold;
+line-height: 1.4em;
+text-transform:uppercase;
+letter-spacing:.2em;
+color: #666666;
+}
+#comments-block {
+margin:1em 0 1.5em;
+line-height:1.6em;
+}
+#comments-block .comment-author {
+margin:.5em 0;
+}
+#comments-block .comment-body {
+margin:.25em 0 0;
+}
+#comments-block .comment-footer {
+margin:-.25em 0 2em;
+line-height: 1.4em;
+text-transform:uppercase;
+letter-spacing:.1em;
+}
+#comments-block .comment-body p {
+margin:0 0 .75em;
+}
+.deleted-comment {
+font-style:italic;
+color:gray;
+}
+.feed-links {
+clear: both;
+line-height: 2.5em;
+}
+#blog-pager-newer-link {
+float: left;
+}
+#blog-pager-older-link {
+float: right;
+}
+#blog-pager {
+text-align: center;
+}
+/* Sidebar Content
+----------------------------------------------- */
+.sidebar {
+color: #999999;
+line-height: 1.5em;
+}
+.sidebar ul {
+list-style:none;
+margin:0 0 0;
+padding:0 0 0;
+}
+.sidebar li {
+margin:0;
+padding-top:0;
+padding-right:0;
+padding-bottom:.25em;
+padding-left:15px;
+text-indent:-15px;
+line-height:1.1em;
+letter-spacing:.1em;
+font-size:85%;
+}
+.sidebar .widget, .main .widget {
+border-bottom:1px dotted #333333;
+margin:0 0 1.0em;
+padding:0 0 1.0em;
+}
+.main .Blog {
+border-bottom-width: 0;
+}
+/* Profile
+----------------------------------------------- */
+.profile-img {
+float: left;
+margin-top: 0;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 0;
+padding: 4px;
+border: 1px solid #333333;
+}
+.profile-data {
+margin:0;
+text-transform:uppercase;
+letter-spacing:.1em;
+font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+color: #666666;
+font-weight: bold;
+line-height: 1.6em;
+}
+.profile-datablock {
+margin:.5em 0 .5em;
+}
+.profile-textblock {
+margin: 0.5em 0;
+line-height: 1.6em;
+}
+.profile-link {
+font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+text-transform: uppercase;
+letter-spacing: .1em;
+}
+/* Footer
+----------------------------------------------- */
+#footer {
+width:660px;
+clear:both;
+margin:0 auto;
+padding-top:15px;
+line-height: 1.6em;
+text-transform:uppercase;
+letter-spacing:.1em;
+text-align: center;
+}
+.profile-name-link
+{
+background-image:none !important;
+padding-left:15px;
+}
+/* New Styles */
+h2, #outer-wrapper, .post-footer{
+font-family: Arial, sans-serif;
+}
+@font-face {
+font-family: 'FranklinGothicLTCom-Heavy';
+src: url('http://www.octobersveryown.com/static/webfonts/272EB4_0_0.eot');
+src: url('http://www.octobersveryown.com/static/webfonts/272EB4_0_0.eot?#iefix') format('embedded-opentype'), url('http://www.octobersveryown.com/static/webfonts/272EB4_0_0.woff') format('woff'), url('http://www.octobersveryown.com/static/webfonts/272EB4_0_0.ttf') format('truetype');
+}
+@font-face {
+font-family: 'FranklinGothicLTCom-Bk';
+src: url('http://www.octobersveryown.com/static/webfonts/272EB4_1_0.eot');
+src: url('http://www.octobersveryown.com/static/webfonts/272EB4_1_0.eot?#iefix') format('embedded-opentype'), url('http://www.octobersveryown.com/static/webfonts/272EB4_1_0.woff') format('woff'), url('http://www.octobersveryown.com/static/webfonts/272EB4_1_0.ttf') format('truetype');
+}
+.post h3{
+font-family: 'FranklinGothicLTCom-Heavy', Arial, sans-serif;
+font-weight: normal;
+}
+.widget.Image{
+display: none;
+}
+.date-outer{
+background: url('http://www.octobersveryown.com/static/css/images/owl_black_37x45.png') no-repeat;
+padding-top: 50px;
+margin-bottom: 45px;
+}
+#header{
+width: 600px;
+padding: 0 10px;
+margin: 0 auto;
+color: #FFF;
+font: 13px/1.28 'FranklinGothicLTCom-Bk', Helvetica, sans-serif;
+}
+#header {
+padding-top: 0;
+height: 80px;
+margin-bottom: 100px;
+}
+#header h1 {
+width: 226px;
+height: 10px;
+margin: 0 auto 26px auto;
+}
+#header h1 a {
+background: url('http://www.octobersveryown.com/static/css/images/header-226x10.png') no-repeat;
+width: 226px;
+height: 10px;
+color: #FFF;
+text-indent: -99999px;
+display: block;
+font-size: 10px;
+text-transform: uppercase;
+text-align: center;
+letter-spacing: 2px;
+}
+#top-nav,
+#shop-nav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+text-align: center;
+width: 580px;
+margin: 4px auto 0 auto;
+}
+#top-nav li a {
+text-transform: uppercase;
+}
+#top-nav li,
+#shop-nav li {
+display: inline-block;
+/*border: 1px solid #ccc;*/
+margin: 4px 1px;
+}
+#top-nav li a,
+#shop-nav li a {
+display: inline-block;
+color: #FFF;
+text-decoration: none;
+height: 18px;
+padding: 0 8px 0 10px;
+line-height: 19px;
+}
+#top-nav,
+#shop-nav {
+font-size: 11px;
+letter-spacing: 2px;
+}
+#top-nav li a:hover,
+#top-nav li.blog a{
+background: #FFF;
+color: #000;
+}
+#top-nav li.black-october a {
+color: #545454;
+}
+#leaderboard-ad{
+display: none;
+}
+/* New Styles */
+h2, #outer-wrapper, .post-footer{
+font-family: Arial, sans-serif;
+}
+@font-face {
+font-family: 'FranklinGothicLTCom-Heavy';
+src: url('http://www.octobersveryown.com/static/webfonts/272EB4_0_0.eot');
+src: url('http://www.octobersveryown.com/static/webfonts/272EB4_0_0.eot?#iefix') format('embedded-opentype'), url('http://www.octobersveryown.com/static/webfonts/272EB4_0_0.woff') format('woff'), url('http://www.octobersveryown.com/static/webfonts/272EB4_0_0.ttf') format('truetype');
+}
+@font-face {
+font-family: 'FranklinGothicLTCom-Bk';
+src: url('http://www.octobersveryown.com/static/webfonts/272EB4_1_0.eot');
+src: url('http://www.octobersveryown.com/static/webfonts/272EB4_1_0.eot?#iefix') format('embedded-opentype'), url('http://www.octobersveryown.com/static/webfonts/272EB4_1_0.woff') format('woff'), url('http://www.octobersveryown.com/static/webfonts/272EB4_1_0.ttf') format('truetype');
+}
+.post h3{
+font-family: 'FranklinGothicLTCom-Heavy', Arial, sans-serif;
+font-weight: normal;
+}
+.widget.Image{
+display: none;
+}
+.date-outer{
+background: url('http://www.octobersveryown.com/static/css/images/owl_black_37x45.png') no-repeat;
+padding-top: 50px;
+margin-bottom: 45px;
+}
+#header{
+width: 600px;
+padding: 0 10px;
+margin: 0 auto;
+color: #FFF;
+font: 13px/1.28 'FranklinGothicLTCom-Bk', Helvetica, sans-serif;
+}
+#header {
+padding-top: 0;
+height: 80px;
+margin-bottom: 100px;
+}
+#header h1 {
+width: 226px;
+height: 10px;
+margin: 0 auto 26px auto;
+}
+#header h1 a {
+background: url('http://www.octobersveryown.com/static/css/images/header-226x10.png') no-repeat;
+width: 226px;
+height: 10px;
+color: #FFF;
+text-indent: -99999px;
+display: block;
+font-size: 10px;
+text-transform: uppercase;
+text-align: center;
+letter-spacing: 2px;
+}
+#top-nav,
+#shop-nav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+text-align: center;
+width: 580px;
+margin: 4px auto 0 auto;
+}
+#top-nav li a {
+text-transform: uppercase;
+}
+#top-nav li,
+#shop-nav li {
+display: inline-block;
+/*border: 1px solid #ccc;*/
+margin: 4px 1px;
+}
+#top-nav li a,
+#shop-nav li a {
+display: inline-block;
+color: #FFF;
+text-decoration: none;
+height: 18px;
+padding: 0 8px 0 10px;
+line-height: 19px;
+}
+#top-nav,
+#shop-nav {
+font-size: 11px;
+letter-spacing: 2px;
+}
+#top-nav li a:hover,
+#top-nav li.blog a{
+background: #FFF;
+color: #000;
+}
+#top-nav li.black-october a {
+color: #545454;
+}
+#leaderboard-ad{
+display: none;
+}
+
+--></style>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body>
+<div id='fb-root'></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+<div class='navbar section' id='navbar'><div class='widget Navbar' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+        gapi.load("iframes-styles-bubble", function() {
+          if (window.iframes && iframes.open) {
+            iframes.open(
+                '//www.blogger.com/navbar.g?targetBlogID\0757578652831984032482\46blogName\75OCTOBERS+VERY+OWN\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://octobersveryown.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://octobersveryown.blogspot.com/\46targetPostID\0751502746329313616970\46blogPostOrPageUrl\75http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html\46vt\75-4700861351127171981',
+                {
+                  container: "navbar-iframe-container",
+                  id: "navbar-iframe"
+                },
+                {
+                });
+          }
+        });
+      </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<div id='outer-wrapper'><div id='wrap2'>
+<!-- skip links for text browsers -->
+<span id='skiplinks' style='display:none;'>
+<a href='#main'>skip to main </a> |
+      <a href='#sidebar'>skip to sidebar</a>
+</span>
+<div id='leaderboard-ad'>
+<!--a href='http://itunes.apple.com/us/album/headlines-single/id454929776' target='_blank'> <img src='http://www.octobersveryown.net/graphics/Headlines_Banner.jpg'/> </a> </a-->
+</div>
+<div class='clearfix' id='header' style='visibility: visible; display: block;'>
+<h1><a href='http://www.octobersveryown.com/'>October's Very Own</a>
+</h1>
+<ul id='top-nav'>
+<!--<li class="home"><a href="http://www.octobersveryown.com/">Home</a></li>-->
+<li class='blog'><a href='http://www.octobersveryown.blogspot.com/'>Our Blog</a></li>
+<li class='store'><a href='http://www.octobersveryown.com/shop/'>Store</a></li>
+<li class='drake'><a href='http://www.octobersveryown.com/drake/'>Drake</a></li>
+<li class='ovo-sound'><a href='http://ovosound.com'>OVO Sound</a></li>
+<li class='black-october'><a href='http://www.octobersveryown.com/black-october/'>Black October</a></li>
+<li class='ovo-fest'><a href='http://www.octobersveryown.com/ovo-fest/'>OVOFest</a></li>
+</ul>
+</div>
+<div id='content-wrapper'>
+<div id='crosscol-wrapper' style='text-align:center'>
+<div class='crosscol section' id='crosscol'></div>
+</div>
+<div id='main-wrapper'>
+<div class='main section' id='main'><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+<!-- google_ad_section_start(name=default) -->
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Thursday, September 26, 2013</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='7578652831984032482' itemprop='blogId'/>
+<meta content='1502746329313616970' itemprop='postId'/>
+<a name='1502746329313616970'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+Drake x FIFA 14
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-1502746329313616970' itemprop='description articleBody'>
+<iframe allowfullscreen="" frameborder="0" height="349" mozallowfullscreen="" src="http://player.vimeo.com/video/75537032?color=ffffff" webkitallowfullscreen="" width="540"></iframe><br />
+<br />
+<a href="http://amzn.to/18pU1sS">http://amzn.to/18pU1sS</a>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='http://www.blogger.com/profile/08243710595462436487' itemprop='url'/>
+<a href='http://www.blogger.com/profile/08243710595462436487' rel='author' title='author profile'>
+<span itemprop='name'>Oliver</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html' itemprop='url'/>
+<a class='timestamp-link' href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2013-09-26T19:36:00-04:00'>7:36 PM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='star-ratings'>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1744060729'>
+<a href='http://www.blogger.com/post-edit.g?blogID=7578652831984032482&postID=1502746329313616970&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+</div>
+<div class='fb-like' data-colorscheme='dark' data-href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html' data-layout='button_count' data-send='true' data-show-faces='false' data-width='450' style='top: 3px;'></div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+<div class='comments' id='comments'>
+<a name='comments'></a>
+<h4>27 comments:</h4>
+<div id='Blog1_comments-block-wrapper'>
+<dl class='avatar-comment-indent' id='comments-block'>
+<dt class='comment-author ' id='c6315139195669969040'>
+<a name='c6315139195669969040'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Anonymous">
+
+</span></div>
+Anonymous
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-6315139195669969040'>
+<p>
+I love how he takes the time to interact with the fans!<br />~renay
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380238913954#c6315139195669969040' title='comment permalink'>
+September 26, 2013 at 7:41 PM
+</a>
+<span class='item-control blog-admin pid-995695854'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=6315139195669969040' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c5571923049494051083'>
+<a name='c5571923049494051083'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/09507124300806573398" rel="nofollow" onclick="" class="avatar-hovercard" id="av-1-09507124300806573398"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="//lh4.googleusercontent.com/-3sO6BPnOqCw/AAAAAAAAAAI/AAAAAAAAAT8/bjuui3p7AZM/s512-c/photo.jpg" title="Massoot Mohammed">
+
+<noscript><img src="//lh4.googleusercontent.com/-3sO6BPnOqCw/AAAAAAAAAAI/AAAAAAAAAT8/bjuui3p7AZM/s512-c/photo.jpg" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/09507124300806573398' rel='nofollow'>Massoot Mohammed</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-5571923049494051083'>
+<p>
+My two favourite things, OVO and FIFA. Keep it coming, you&#39;re gaining new fans with this kind of marketing
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380240470782#c5571923049494051083' title='comment permalink'>
+September 26, 2013 at 8:07 PM
+</a>
+<span class='item-control blog-admin pid-1893731774'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=5571923049494051083' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c8045538123936850095'>
+<a name='c8045538123936850095'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Anonymous">
+
+</span></div>
+Anonymous
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-8045538123936850095'>
+<p>
+Drizzy cant beat me in Fifa tho - Jahbu <br />
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380240535453#c8045538123936850095' title='comment permalink'>
+September 26, 2013 at 8:08 PM
+</a>
+<span class='item-control blog-admin pid-66943314'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=8045538123936850095' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c6213864407455327007'>
+<a name='c6213864407455327007'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Tyler P.">
+
+</span></div>
+Tyler P.
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-6213864407455327007'>
+<p>
+Love how the press is also done by OVO. DIY tings.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380241329905#c6213864407455327007' title='comment permalink'>
+September 26, 2013 at 8:22 PM
+</a>
+<span class='item-control blog-admin pid-1747393305'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=6213864407455327007' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c948067682205268360'>
+<a name='c948067682205268360'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Anonymous">
+
+</span></div>
+Anonymous
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-948067682205268360'>
+<p>
+Nwts is the best CD. That&#39;s true emotion. Everyone needs to buy this. -Kat
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380241397469#c948067682205268360' title='comment permalink'>
+September 26, 2013 at 8:23 PM
+</a>
+<span class='item-control blog-admin pid-1615171376'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=948067682205268360' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c4936504089817674002'>
+<a name='c4936504089817674002'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Petra">
+
+</span></div>
+Petra
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-4936504089817674002'>
+<p>
+I almost feel like the NWTS was a birthday present :-) keep up the good work!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380243305516#c4936504089817674002' title='comment permalink'>
+September 26, 2013 at 8:55 PM
+</a>
+<span class='item-control blog-admin pid-1740692551'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=4936504089817674002' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c2220484448413354820'>
+<a name='c2220484448413354820'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Anonymous">
+
+</span></div>
+Anonymous
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-2220484448413354820'>
+<p>
+So in Love ... Drake is Perfect
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380249281825#c2220484448413354820' title='comment permalink'>
+September 26, 2013 at 10:34 PM
+</a>
+<span class='item-control blog-admin pid-436318376'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=2220484448413354820' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c2274969720773180339'>
+<a name='c2274969720773180339'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/15695313879641653114" rel="nofollow" onclick="" class="avatar-hovercard" id="av-7-15695313879641653114"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="gwendolyn russell">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/15695313879641653114' rel='nofollow'>gwendolyn russell</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-2274969720773180339'>
+<p>
+Listen, My name is Gwendolyn from DETROIT MI I bought Floor seats for the show at the palace at auburn hills, my girl and I. I am interested in attending an after party with Drizzy and his crew I kno ya&#39;ll hear it ever day but I am  a true fan &amp; it would for real mean the world to meet you guys. Not just Drake but everyone behind the music..I&#39;m 22 and real as fuck. if you guys do after party in Michigan after the show let me know how to be apart of that! I promise you, you won&#39;t have any regreats! Email mail with some info guys- Tru Fan--- gsrdetroit@gmail.com or check me out at https://www.facebook.com/detroitegwendolyn<br /><br />we&#39;ll shut it down! 
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380249624458#c2274969720773180339' title='comment permalink'>
+September 26, 2013 at 10:40 PM
+</a>
+<span class='item-control blog-admin pid-1463319466'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=2274969720773180339' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c2815860054237740893'>
+<a name='c2815860054237740893'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/13651342130028937567" rel="nofollow" onclick="" class="avatar-hovercard" id="av-8-13651342130028937567"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://2.bp.blogspot.com/-HdpgaBWZL7U/UZTXv3Dwo1I/AAAAAAAAAQ0/5hwzX9adRPA/s45/nesha.jpeg" title="honeyrasta87">
+
+<noscript><img src="http://2.bp.blogspot.com/-HdpgaBWZL7U/UZTXv3Dwo1I/AAAAAAAAAQ0/5hwzX9adRPA/s45/nesha.jpeg" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/13651342130028937567' rel='nofollow'>honeyrasta87</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-2815860054237740893'>
+<p>
+Soccer is like playing cards in my family we should play a game one day:)
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380250486478#c2815860054237740893' title='comment permalink'>
+September 26, 2013 at 10:54 PM
+</a>
+<span class='item-control blog-admin pid-441919645'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=2815860054237740893' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c1424921743729765913'>
+<a name='c1424921743729765913'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Anonymous">
+
+</span></div>
+Anonymous
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-1424921743729765913'>
+<p>
+WOW!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380250513193#c1424921743729765913' title='comment permalink'>
+September 26, 2013 at 10:55 PM
+</a>
+<span class='item-control blog-admin pid-436318376'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=1424921743729765913' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c341209151749781003'>
+<a name='c341209151749781003'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Anonymous">
+
+</span></div>
+Anonymous
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-341209151749781003'>
+<p>
+I wish I could kick Drakes ass in FIFA
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380250566668#c341209151749781003' title='comment permalink'>
+September 26, 2013 at 10:56 PM
+</a>
+<span class='item-control blog-admin pid-436318376'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=341209151749781003' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c7200518546078210347'>
+<a name='c7200518546078210347'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Marnier">
+
+</span></div>
+Marnier
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-7200518546078210347'>
+<p>
+OVO &amp; FIFA LEgo Drizzy &lt;3 Nothing but love. oh yea btw cant wait to see you October 30th :)
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380251856738#c7200518546078210347' title='comment permalink'>
+September 26, 2013 at 11:17 PM
+</a>
+<span class='item-control blog-admin pid-28670337'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=7200518546078210347' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c5245471932533932676'>
+<a name='c5245471932533932676'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/02334939336834423887" rel="nofollow" onclick="" class="avatar-hovercard" id="av-12-02334939336834423887"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="//lh6.googleusercontent.com/-KyNPmaN9kJk/AAAAAAAAAAI/AAAAAAAAACk/MDdTW7Naf2Y/s512-c/photo.jpg" title="Brittney Ridley">
+
+<noscript><img src="//lh6.googleusercontent.com/-KyNPmaN9kJk/AAAAAAAAAAI/AAAAAAAAACk/MDdTW7Naf2Y/s512-c/photo.jpg" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/02334939336834423887' rel='nofollow'>Brittney Ridley</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-5245471932533932676'>
+<p>
+@Drake<br /><br />Lol You would probably slap me silly for saying this but man...I hate sports with a passion! I just don&#39;t get it, I never been a sports fan...lolololol it just not in me. I&#39;ve always been surrounded by music my whole life...so music is all I really know. Smh, I should probably face the wall of shame...lol for this one! Interesting post tho...love you.  :-)<br /><br />-Britt Britt
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380253857886#c5245471932533932676' title='comment permalink'>
+September 26, 2013 at 11:50 PM
+</a>
+<span class='item-control blog-admin pid-1749363894'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=5245471932533932676' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c4072834364097925654'>
+<a name='c4072834364097925654'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Anonymous">
+
+</span></div>
+Anonymous
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-4072834364097925654'>
+<p>
+Keep on doing ur thing man ! Really like what u did for those kids dog ! Come back to Canada and do the same for us follow me (OVO_OFFICIAL) or contact me at (5873375545)
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380255451951#c4072834364097925654' title='comment permalink'>
+September 27, 2013 at 12:17 AM
+</a>
+<span class='item-control blog-admin pid-401580020'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=4072834364097925654' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c2548810072603981139'>
+<a name='c2548810072603981139'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Anonymous">
+
+</span></div>
+Anonymous
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-2548810072603981139'>
+<p>
+I have been sporting u drizzy dice Comback season and this is the reason why I am in edmonton and bought floor seats to ur show on December 1 I faint wait to see man and all the real niggas behind the music especially future the nigga is a crazy DJ email me if you can coz I produce beats I thought u might want to test some of them out my email is (pa.sani@hotmail.com) it contact me at (5873375545) I am reping my city like ur reping urs peace !!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380255776565#c2548810072603981139' title='comment permalink'>
+September 27, 2013 at 12:22 AM
+</a>
+<span class='item-control blog-admin pid-401580020'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=2548810072603981139' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c7198668546991802568'>
+<a name='c7198668546991802568'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/04289660013409254295" rel="nofollow" onclick="" class="avatar-hovercard" id="av-15-04289660013409254295"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="Sagar Khattak">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/04289660013409254295' rel='nofollow'>Sagar Khattak</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-7198668546991802568'>
+<p>
+Entertainment for Fun... Entertainment Articles, Entertainment News, Entertainment Pictures, Bollywood, Hollywood and Lollywood Pictures and Videos, Entertainment Latest updates, Hot Entertainment News and Pictures Funny Entertainment Pictures, lol Pictures, Funny Pictures and Much More Fun Only on 1 Current Affairs Network<br /><a href="http://www.hotcurrentaffairs.com/entertainment/" rel="nofollow">hotcurrentaffairs.com</a>
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380282036106#c7198668546991802568' title='comment permalink'>
+September 27, 2013 at 7:40 AM
+</a>
+<span class='item-control blog-admin pid-1218580673'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=7198668546991802568' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c5935970116744391444'>
+<a name='c5935970116744391444'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Anonymous">
+
+</span></div>
+Anonymous
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-5935970116744391444'>
+<p>
+Just Love Him &#9829;&#9829;&#9829;
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380284220681#c5935970116744391444' title='comment permalink'>
+September 27, 2013 at 8:17 AM
+</a>
+<span class='item-control blog-admin pid-1555334969'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=5935970116744391444' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c838372036126032044'>
+<a name='c838372036126032044'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/12392824819766192610" rel="nofollow" onclick="" class="avatar-hovercard" id="av-17-12392824819766192610"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="//lh3.googleusercontent.com/-MSXpqgSGbiM/AAAAAAAAAAI/AAAAAAAAABQ/7QXH-OvkErk/s512-c/photo.jpg" title="meicha henry">
+
+<noscript><img src="//lh3.googleusercontent.com/-MSXpqgSGbiM/AAAAAAAAAAI/AAAAAAAAABQ/7QXH-OvkErk/s512-c/photo.jpg" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/12392824819766192610' rel='nofollow'>meicha henry</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-838372036126032044'>
+<p>
+I love Drake and Soccer,so this is great,love the new album.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380339600216#c838372036126032044' title='comment permalink'>
+September 27, 2013 at 11:40 PM
+</a>
+<span class='item-control blog-admin pid-1045593274'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=838372036126032044' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c4937706833951530799'>
+<a name='c4937706833951530799'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Kiandr&eacute; C..">
+
+</span></div>
+Kiandré C..
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-4937706833951530799'>
+<p>
+I wrote a song for drake , I think he should hear it ..
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380376379692#c4937706833951530799' title='comment permalink'>
+September 28, 2013 at 9:52 AM
+</a>
+<span class='item-control blog-admin pid-1107133964'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=4937706833951530799' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c7479315985988040796'>
+<a name='c7479315985988040796'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/04520114804041405149" rel="nofollow" onclick="" class="avatar-hovercard" id="av-19-04520114804041405149"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="//lh4.googleusercontent.com/-cXoig_lFoXU/AAAAAAAAAAI/AAAAAAAAAB0/uB5_1V8PeLA/s512-c/photo.jpg" title="Mel ga">
+
+<noscript><img src="//lh4.googleusercontent.com/-cXoig_lFoXU/AAAAAAAAAAI/AAAAAAAAAB0/uB5_1V8PeLA/s512-c/photo.jpg" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/04520114804041405149' rel='nofollow'>Mel ga</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-7479315985988040796'>
+<p>
+My husband pays zero attention to me and drakes songs make you feel like he&#39;s talking directt to you. Thank you for paying attention to me since the man I was loved no longer does that! I know I sound stupid but I think you should know that. 
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380420425874#c7479315985988040796' title='comment permalink'>
+September 28, 2013 at 10:07 PM
+</a>
+<span class='item-control blog-admin pid-1643087996'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=7479315985988040796' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c675593293725826458'>
+<a name='c675593293725826458'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Anonymous">
+
+</span></div>
+Anonymous
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-675593293725826458'>
+<p>
+Why did u marry his ass? Fix it instead of complaining!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380434074943#c675593293725826458' title='comment permalink'>
+September 29, 2013 at 1:54 AM
+</a>
+<span class='item-control blog-admin pid-436318376'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=675593293725826458' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c6651939979098105360'>
+<a name='c6651939979098105360'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/15677173933440829803" rel="nofollow" onclick="" class="avatar-hovercard" id="av-21-15677173933440829803"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="Wizz">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/15677173933440829803' rel='nofollow'>Wizz</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-6651939979098105360'>
+<p>
+NWTS is a blast Drake! LOVE FROM ISRAEL! Wish I could be there... #ovo
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380455106605#c6651939979098105360' title='comment permalink'>
+September 29, 2013 at 7:45 AM
+</a>
+<span class='item-control blog-admin pid-1183937838'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=6651939979098105360' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c5647193041910932506'>
+<a name='c5647193041910932506'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/15677173933440829803" rel="nofollow" onclick="" class="avatar-hovercard" id="av-22-15677173933440829803"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="Wizz">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/15677173933440829803' rel='nofollow'>Wizz</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-5647193041910932506'>
+<p>
+NTWS is a blast Drake! Love from Israel &#9829; &#9829; &#9829; !!! Wish I could be there...
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380455135935#c5647193041910932506' title='comment permalink'>
+September 29, 2013 at 7:45 AM
+</a>
+<span class='item-control blog-admin pid-1183937838'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=5647193041910932506' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c4865417387981943753'>
+<a name='c4865417387981943753'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Anonymous">
+
+</span></div>
+Anonymous
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-4865417387981943753'>
+<p>
+Skiwoop!! You need to come to VA beach and hand out some more FIFA 14!!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380480689039#c4865417387981943753' title='comment permalink'>
+September 29, 2013 at 2:51 PM
+</a>
+<span class='item-control blog-admin pid-1889671585'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=4865417387981943753' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c3684889281941920008'>
+<a name='c3684889281941920008'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/09830807459816892942" rel="nofollow" onclick="" class="avatar-hovercard" id="av-24-09830807459816892942"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="//lh4.googleusercontent.com/-wxDUy0ybNb0/AAAAAAAAAAI/AAAAAAAAADQ/t81CTJdRGl0/s512-c/photo.jpg" title="Cruza MxB">
+
+<noscript><img src="//lh4.googleusercontent.com/-wxDUy0ybNb0/AAAAAAAAAAI/AAAAAAAAADQ/t81CTJdRGl0/s512-c/photo.jpg" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/09830807459816892942' rel='nofollow'>Cruza MxB</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-3684889281941920008'>
+<p>
+CHECK THIS OUT!<br />http://www.hotnewhiphop.com/cruise-n-cruza-jackpot-song.1538860.html
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380566518905#c3684889281941920008' title='comment permalink'>
+September 30, 2013 at 2:41 PM
+</a>
+<span class='item-control blog-admin pid-144708874'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=3684889281941920008' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c8624445596710785513'>
+<a name='c8624445596710785513'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/09830807459816892942" rel="nofollow" onclick="" class="avatar-hovercard" id="av-25-09830807459816892942"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="//lh4.googleusercontent.com/-wxDUy0ybNb0/AAAAAAAAAAI/AAAAAAAAADQ/t81CTJdRGl0/s512-c/photo.jpg" title="Cruza MxB">
+
+<noscript><img src="//lh4.googleusercontent.com/-wxDUy0ybNb0/AAAAAAAAAAI/AAAAAAAAADQ/t81CTJdRGl0/s512-c/photo.jpg" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/09830807459816892942' rel='nofollow'>Cruza MxB</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-8624445596710785513'>
+<p>
+CHECK THIS OUT!<br />http://www.hotnewhiphop.com/cruise-n-cruza-jackpot-song.1538860.html
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380566551904#c8624445596710785513' title='comment permalink'>
+September 30, 2013 at 2:42 PM
+</a>
+<span class='item-control blog-admin pid-144708874'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=8624445596710785513' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c129519445547626262'>
+<a name='c129519445547626262'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Anonymous">
+
+</span></div>
+Anonymous
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-129519445547626262'>
+<p>
+Come on Drake, you from Toronto and you like soccer and basketball but where&#39;s your love for HOCKEY???
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html?showComment=1380735254410#c129519445547626262' title='comment permalink'>
+October 2, 2013 at 1:34 PM
+</a>
+<span class='item-control blog-admin pid-233656541'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=7578652831984032482&postID=129519445547626262' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+</dl>
+</div>
+<p class='comment-footer'>
+<a href='http://www.blogger.com/comment.g?blogID=7578652831984032482&amp;postID=1502746329313616970' onclick=''>Post a Comment</a>
+</p>
+<div id='backlinks-container'>
+<div id='Blog1_backlinks-container'>
+</div>
+</div>
+</div>
+</div>
+
+        </div></div>
+      
+<!-- google_ad_section_end -->
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-newer-link'>
+<a class='blog-pager-newer-link' href='http://octobersveryown.blogspot.com/2013/09/crwn-x-drake-episode-3.html' id='Blog1_blog-pager-newer-link' title='Newer Post'>Newer Post</a>
+</span>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://octobersveryown.blogspot.com/2013/09/crwn-x-drake-episode-2.html' id='Blog1_blog-pager-older-link' title='Older Post'>Older Post</a>
+</span>
+<a class='home-link' href='http://octobersveryown.blogspot.com/'>Home</a>
+</div>
+<div class='clear'></div>
+<div class='post-feeds'>
+<div class='feed-links'>
+Subscribe to:
+<a class='feed-link' href='http://octobersveryown.blogspot.com/feeds/1502746329313616970/comments/default' target='_blank' type='application/atom+xml'>Post Comments (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'en'};</script>
+</div></div>
+</div>
+<div id='sidebar-wrapper'>
+<div class='sidebar section' id='sidebar'><div class='widget Profile' id='Profile1'>
+<h2>October's Very Own</h2>
+<div class='widget-content'>
+<ul>
+<li><a class='profile-name-link g-profile' href='http://www.blogger.com/profile/13167780754367945114' style='background-image: url(//www.blogger.com/img/logo-16.png);'>Niko</a></li>
+<li><a class='profile-name-link g-profile' href='http://www.blogger.com/profile/08243710595462436487' style='background-image: url(//www.blogger.com/img/logo-16.png);'>Oliver</a></li>
+<li><a class='profile-name-link g-profile' href='http://www.blogger.com/profile/18279639341104226257' style='background-image: url(//www.blogger.com/img/logo-16.png);'>40</a></li>
+<li><a class='profile-name-link g-profile' href='http://www.blogger.com/profile/15570267084622774394' style='background-image: url(//www.blogger.com/img/logo-16.png);'>Drizzy</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=7578652831984032482&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("Profile1"));' target='configProfile1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Image' id='Image1'>
+<div class='widget-content'>
+<a href='http://www.octobersveryown.net/shop/'>
+<img alt='' height='388' id='Image1_img' src='http://3.bp.blogspot.com/-BhYHI4OPzoA/UcTnCsq6tPI/AAAAAAAAEc4/8FHG89aHDmo/s1600/sidebanner.png' width='180'/>
+</a>
+<br/>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=7578652831984032482&widgetType=Image&widgetId=Image1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("Image1"));' target='configImage1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget BlogArchive' id='BlogArchive1'>
+<h2>Archive</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='flat'>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2013_10_01_archive.html'>October</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2013_09_01_archive.html'>September</a> (12)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2013_08_01_archive.html'>August</a> (5)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2013_07_01_archive.html'>July</a> (3)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2013_06_01_archive.html'>June</a> (10)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2013_05_01_archive.html'>May</a> (4)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2013_04_01_archive.html'>April</a> (10)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2013_03_01_archive.html'>March</a> (3)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2013_02_01_archive.html'>February</a> (6)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2013_01_01_archive.html'>January</a> (4)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2012_12_01_archive.html'>December</a> (3)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2012_11_01_archive.html'>November</a> (3)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2012_10_01_archive.html'>October</a> (8)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2012_09_01_archive.html'>September</a> (3)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2012_08_01_archive.html'>August</a> (9)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2012_07_01_archive.html'>July</a> (7)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2012_06_01_archive.html'>June</a> (13)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2012_05_01_archive.html'>May</a> (12)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2012_04_01_archive.html'>April</a> (10)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2012_03_01_archive.html'>March</a> (14)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2012_02_01_archive.html'>February</a> (9)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2012_01_01_archive.html'>January</a> (13)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2011_12_01_archive.html'>December</a> (18)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2011_11_01_archive.html'>November</a> (26)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2011_10_01_archive.html'>October</a> (17)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2011_09_01_archive.html'>September</a> (10)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2011_08_01_archive.html'>August</a> (13)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2011_07_01_archive.html'>July</a> (19)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2011_06_01_archive.html'>June</a> (29)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2011_05_01_archive.html'>May</a> (17)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2011_04_01_archive.html'>April</a> (12)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2011_03_01_archive.html'>March</a> (19)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2011_02_01_archive.html'>February</a> (10)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2011_01_01_archive.html'>January</a> (23)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2010_12_01_archive.html'>December</a> (9)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2010_11_01_archive.html'>November</a> (14)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2010_10_01_archive.html'>October</a> (12)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2010_09_01_archive.html'>September</a> (14)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2010_08_01_archive.html'>August</a> (19)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2010_07_01_archive.html'>July</a> (14)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2010_06_01_archive.html'>June</a> (15)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2010_05_01_archive.html'>May</a> (17)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2010_04_01_archive.html'>April</a> (16)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2010_03_01_archive.html'>March</a> (15)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2010_02_01_archive.html'>February</a> (17)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2010_01_01_archive.html'>January</a> (23)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2009_12_01_archive.html'>December</a> (25)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2009_11_01_archive.html'>November</a> (20)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2009_10_01_archive.html'>October</a> (29)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2009_09_01_archive.html'>September</a> (27)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2009_08_01_archive.html'>August</a> (37)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2009_07_01_archive.html'>July</a> (32)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2009_06_01_archive.html'>June</a> (51)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2009_05_01_archive.html'>May</a> (50)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2009_04_01_archive.html'>April</a> (36)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2009_03_01_archive.html'>March</a> (46)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2009_02_01_archive.html'>February</a> (43)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2009_01_01_archive.html'>January</a> (30)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2008_12_01_archive.html'>December</a> (36)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2008_11_01_archive.html'>November</a> (37)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2008_10_01_archive.html'>October</a> (33)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2008_09_01_archive.html'>September</a> (42)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2008_08_01_archive.html'>August</a> (51)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2008_07_01_archive.html'>July</a> (28)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2008_06_01_archive.html'>June</a> (30)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2008_05_01_archive.html'>May</a> (16)
+      </li>
+<li class='archivedate'>
+<a href='http://octobersveryown.blogspot.com/2008_04_01_archive.html'>April</a> (14)
+      </li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=7578652831984032482&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget LinkList' id='LinkList1'>
+<div class='widget-content'>
+<ul>
+<li><a href='http://www.octobersveryown.com/shop'>OVO E-Shop</a></li>
+<li><a href='http://www.facebook.com/WelcomeOVO'>OVOFacebook</a></li>
+<li><a href='http://instagram.com/welcomeovo/'>OVOInstagram</a></li>
+<li><a href='http://www.twitter.com/welcomeovo'>OVOTwitter</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=7578652831984032482&widgetType=LinkList&widgetId=LinkList1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList1"));' target='configLinkList1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Image' id='Image2'>
+<div class='widget-content'>
+<a href='http://www.livenation.com/search?query=drake'>
+<img alt='' height='600' id='Image2_img' src='http://1.bp.blogspot.com/-Hn3H4Ek79wQ/UcTpkgJciII/AAAAAAAAEdg/6gBOImRDM9U/s1600/Drake_160x600_Generic.jpg' width='160'/>
+</a>
+<br/>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=7578652831984032482&widgetType=Image&widgetId=Image2&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("Image2"));' target='configImage2' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+<!-- spacer for skins that want sidebar and main to be the same height-->
+<div class='clear'>&#160;</div>
+</div>
+<!-- end content-wrapper -->
+<div id='footer-wrapper'>
+<div class='footer section' id='footer'></div>
+</div>
+</div></div>
+<!-- end outer-wrapper -->
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="//www.blogger.com/static/v1/widgets/3545113424-widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV1";window['blogger_blog_id'] = '7578652831984032482';BLOG_attachCsiOnload('item_'); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d7578652831984032482','//octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html','7578652831984032482');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '7578652831984032482', 'bloggerUrl': 'http://www.blogger.com', 'title': 'OCTOBERS VERY OWN', 'pageType': 'item', 'url': 'http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html', 'canonicalUrl': 'http://octobersveryown.blogspot.com/2013/09/drake-x-fifa-14.html', 'canonicalHomepageUrl': 'http://octobersveryown.blogspot.com/', 'homepageUrl': 'http://octobersveryown.blogspot.com/', 'blogspotFaviconUrl': 'http://octobersveryown.blogspot.com/favicon.ico', 'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget': false, 'analyticsAccountNumber': 'UA-32375334-1', 'searchLabel': '', 'searchQuery': '', 'pageName': 'Drake x FIFA 14', 'pageTitle': 'OCTOBERS VERY OWN: Drake x FIFA 14', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42OCTOBERS VERY OWN - Atom\42 href\75\42http://octobersveryown.blogspot.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42OCTOBERS VERY OWN - RSS\42 href\75\42http://octobersveryown.blogspot.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42OCTOBERS VERY OWN - Atom\42 href\75\42http://www.blogger.com/feeds/7578652831984032482/posts/default\42 /\76\n\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42OCTOBERS VERY OWN - Atom\42 href\75\42http://octobersveryown.blogspot.com/feeds/1502746329313616970/comments/default\42 /\76\n', 'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var b\75window,e\75\42jstiming\42,g\75\42tick\42;(function(){function d(a){this.t\75{};this.tick\75function(a,d,c){c\75void 0!\75c?c:(new Date).getTime();this.t[a]\75[c,d]};this[g](\42start\42,null,a)}var a\75new d;b.jstiming\75{Timer:d,load:a};if(b.performance\46\46b.performance.timing){var a\75b.performance.timing,c\75b[e].load,f\75a.navigationStart,a\75a.responseStart;0\74f\46\46a\76\75f\46\46(c[g](\42_wtsrt\42,void 0,f),c[g](\42wtsrt_\42,\42_wtsrt\42,a),c[g](\42tbsd_\42,\42wtsrt_\42))}try{a\75null,b.chrome\46\46b.chrome.csi\46\46(a\75Math.floor(b.chrome.csi().pageT),c\46\0460\74f\46\46(c[g](\42_tbnd\42,void 0,b.chrome.csi().startE),\nc[g](\42tbnd_\42,\42_tbnd\42,f))),null\75\75a\46\46b.gtbExternal\46\46(a\75b.gtbExternal.pageT()),null\75\75a\46\46b.external\46\46(a\75b.external.pageT,c\46\0460\74f\46\46(c[g](\42_tbnd\42,void 0,b.external.startE),c[g](\42tbnd_\42,\42_tbnd\42,f))),a\46\46(b[e].pt\75a)}catch(l){}})();b.tickAboveFold\75function(d){var a\0750;if(d.offsetParent){do a+\75d.offsetTop;while(d\75d.offsetParent)}d\75a;750\76\75d\46\46b[e].load[g](\42aft\42)};var h\75!1;function k(){h||(h\75!0,b[e].load[g](\42firstScrollTime\42))}b.addEventListener?b.addEventListener(\42scroll\42,k,!1):b.attachEvent(\42onscroll\42,k);\n })();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/15de8d1bfc9ff1d1', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'testHtml5CssSrc': '//www.blogger.com/static/v1/widgets/721438413-css_bundle_html5.css', 'sf': 'n', 'tf': ''}}, {'name': 'skin', 'data': {'vars': {'sidebartextcolor': '#999999', 'linkcolor': '#b3b3b3', 'visitedlinkcolor': '#e6e6e6', 'textcolor': '#cccccc', 'headerfont': 'normal bold 58% \47Trebuchet MS\47,Trebuchet,Arial,Verdana,Sans-serif', 'pagetitlefont': 'normal bold 200% Verdana, sans-serif', 'bgcolor': '#000000', 'descriptioncolor': '#777777', 'titlecolor': '#ffffff', 'bordercolor': '#333333', 'postfooterfont': 'normal normal 78% \47Trebuchet MS\47, Trebuchet, Arial, Verdana, Sans-serif', 'pagetitlecolor': '#cccccc', 'bodyfont': 'normal normal 100% \47Trebuchet MS\47,Trebuchet,Verdana,Sans-serif', 'endSide': 'right', 'startSide': 'left', 'descriptionfont': 'normal normal 78% \47Trebuchet MS\47, Trebuchet, Verdana, Sans-serif', 'sidebarcolor': '#666666'}, 'override': '\n/* New Styles */\nh2, #outer-wrapper, .post-footer{\n  font-family: Arial, sans-serif;\n}\n\n@font-face {\n  font-family: \47FranklinGothicLTCom-Heavy\47;\nsrc: url(\47http://www.octobersveryown.com/static/webfonts/272EB4_0_0.eot\47);\nsrc: url(\47http://www.octobersveryown.com/static/webfonts/272EB4_0_0.eot?#iefix\47) format(\47embedded-opentype\47), url(\47http://www.octobersveryown.com/static/webfonts/272EB4_0_0.woff\47) format(\47woff\47), url(\47http://www.octobersveryown.com/static/webfonts/272EB4_0_0.ttf\47) format(\47truetype\47);\n}\n@font-face {\n  font-family: \47FranklinGothicLTCom-Bk\47;\n  src: url(\47http://www.octobersveryown.com/static/webfonts/272EB4_1_0.eot\47);\n  src: url(\47http://www.octobersveryown.com/static/webfonts/272EB4_1_0.eot?#iefix\47) format(\47embedded-opentype\47), url(\47http://www.octobersveryown.com/static/webfonts/272EB4_1_0.woff\47) format(\47woff\47), url(\47http://www.octobersveryown.com/static/webfonts/272EB4_1_0.ttf\47) format(\47truetype\47);\n}\n.post h3{\nfont-family: \47FranklinGothicLTCom-Heavy\47, Arial, sans-serif;\nfont-weight: normal;\n}\n.widget.Image{\ndisplay: none;\n}\n.date-outer{\nbackground: url(\47http://www.octobersveryown.com/static/css/images/owl_black_37x45.png\47) no-repeat;\npadding-top: 50px;\nmargin-bottom: 45px;\n}\n\n#header{\n  width: 600px;\n  padding: 0 10px;\n  margin: 0 auto;\n  color: #FFF;\n  font: 13px/1.28 \47FranklinGothicLTCom-Bk\47, Helvetica, sans-serif;\n}\n#header {\n  padding-top: 0;\n  height: 80px;\nmargin-bottom: 100px;\n}\n\n#header h1 {\n  width: 226px;\n  height: 10px;\n  margin: 0 auto 26px auto;\n}\n#header h1 a {\nbackground: url(\47http://www.octobersveryown.com/static/css/images/header-226x10.png\47) no-repeat;\n  width: 226px;\n  height: 10px;\n  color: #FFF;\n  text-indent: -99999px;\n  display: block;\n  font-size: 10px;\n  text-transform: uppercase;\n  text-align: center;\n  letter-spacing: 2px;\n}\n#top-nav,\n#shop-nav {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n  text-align: center;\n  width: 580px;\n  margin: 4px auto 0 auto;\n}\n#top-nav li a {\n  text-transform: uppercase;\n}\n#top-nav li,\n#shop-nav li {\n  display: inline-block;\n  /*border: 1px solid #ccc;*/\n\n  margin: 4px 1px;\n}\n#top-nav li a,\n#shop-nav li a {\n  display: inline-block;\n  color: #FFF;\n  text-decoration: none;\n  height: 18px;\n  padding: 0 8px 0 10px;\n  line-height: 19px;\n}\n#top-nav,\n#shop-nav {\n  font-size: 11px;\n  letter-spacing: 2px;\n}\n#top-nav li a:hover,\n#top-nav li.blog a{\n  background: #FFF;\n  color: #000;\n}\n#top-nav li.black-october a {\n  color: #545454;\n}\n#leaderboard-ad{\ndisplay: none;\n}\n\n'}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1', 'sidebar', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image1', 'sidebar', null, document.getElementById('Image1'), {'resize': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1', 'sidebar', null, document.getElementById('LinkList1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image2', 'sidebar', null, document.getElementById('Image2'), {'resize': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': '//www.blogger.com/static/v1/jsbin/2456262163-lbx.js', 'lightboxCssUrl': '//www.blogger.com/static/v1/v-css/4138445517-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1', 'null', null, document.getElementById('PageList1'), {'title': 'Pages', 'links': [{'href': 'http://octobersveryown.blogspot.com/', 'title': 'Home', 'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+</script>
+</body>
+<!-- Start of StatCounter Code for Default Guide -->
+<script type='text/javascript'>
+var sc_project=3829500; 
+var sc_invisible=1; 
+var sc_security="b60c0a7d"; 
+</script>
+<script src='http://www.statcounter.com/counter/counter.js' type='text/javascript'></script>
+<noscript><div class='statcounter'><a href='http://statcounter.com/' target='_blank' title='web analytics'><img alt='web analytics' class='statcounter' src='http://c.statcounter.com/3829500/0/b60c0a7d/1/'/></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+</html>

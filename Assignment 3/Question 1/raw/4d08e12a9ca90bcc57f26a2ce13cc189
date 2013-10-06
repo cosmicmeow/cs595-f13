@@ -1,0 +1,948 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Dependency Management in PHP: Better Late than Never! | Sequoia McDowell</title>
+
+		<meta name="description" content="Dependency Management in PHP | 2013 Talk">
+		<meta name="author" content="Sequia McDowell">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/night.css" id="theme">
+		<link rel="stylesheet" href="css/ansi2html.css" >
+		<link rel="stylesheet" href="css/sequoia.css" >
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/tomorrow-night-bright.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section> <!-- titlecard -->
+					<h1 style="line-height:1em;">Dependency Management in PHP</h1>
+					<h2 style="font-style:italic">Better Late than Never</h2>
+				</section>
+				<section>
+					<h1>Overview</h1>
+					<ul>
+						<li class="fragment">What it is dependency management &amp; how it can help you</li>
+						<li class="fragment">How to discover and use packages</li>
+						<li class="fragment">How to write (and publish!) your own packages</li>
+					</ul>
+					<aside class="notes">
+						<ul>
+							<li>Talking about dependency management in PHP: Important topic, dear to me, <b>move the community forward</b></li>
+							<li>time allowing: What came before (PEAR), &amp; travis</li>
+						</ul>
+					</aside>
+				</section>
+
+				<section> <!-- about me -->
+					<h1>About Me</h1>
+					<ul>
+						<li>Sequoia McDowell</li>
+						<li>Software Engineer at <a href="http://www.ptc.com/training/">PTC</a> </li>
+						<li><a href="http://twitter.com/_sequoia">@_sequoia</a> </li>
+						<li>sequoia.mcdowell@gmail.com</li>
+					</ul>
+					<aside class="notes">
+						<ul>
+              <li>PHP: my first lang. Wrote own CMS, PEAR, joomla,wordpress,silverscript,cakephp,slim -&gt; lived thru recent history of PHP code organization patterns</li>
+							<li>Use mostly Java &amp; JS at work now, got to use PHP recently for a project, used composer to organize it</li>
+							<li>Composer was pretty cool! Refreshing way to write PHP, felt like Node</li>
+							<li>This is what other communities have been doing for a while: package management (npm, gems)</li>
+							<li>Not an expert in this; talking because this is the future of PHP development, and it is good</li>
+							<li>Feel free to come say "Hi" and/or ask questions</li>
+						</ul>
+					</aside>
+				</section>
+
+				<section> <!-- what -->
+					<section>
+						<h1>Package Management</h1>
+						<ul>
+							<li class="fragment">What is a package manager?
+								<div class="fragment"> 
+								<blockquote title="source: Wikipedia">...a collection of software tools to automate the process of installing, upgrading, configuring, and removing software packages for a computer's operating system in a consistent manner.</blockquote>
+								<p>dpkg/apt, rpm/yum, npm, rubygems</p>
+								</div>
+							</li>
+							<li class="fragment">What is a package?
+								<blockquote class="fragment" title="source: getcomposer.org">A package is essentially just a directory containing something.</blockquote>
+							</li>
+						</ul>
+						<aside class="notes">
+						<ul>
+							<li><b>What is a package manager?</b></li>
+							<li>Basically: Tool that helps you install software</li>
+							<li>ex: apt-get for linux, homebrew for mac, npm &amp; rubygems, chocolatey</li>
+							<li><b>What is a package</b></li>
+							<li>different kinds of package specifications (.rpm, .deb etc.), for scripted langs usually a directory w/stuff &amp; a definition file</li>
+							<li>for our purposes, according to composer site: (LAST POINT)</li>
+						</ul>
+						</aside>
+					</section>
+
+					<section>
+					<h2>Example Package: zelenin/curl</h2>
+					<pre class="ansi2html">
+www &gt; tree Curl/
+Curl/
+├── composer.json
+├── example.php
+├── src
+│   └── Zelenin
+│       └── Curl.php
+└── readme.md
+
+2 directories, 4 files
+					</pre>
+
+					<aside class="notes">
+						<ul>
+							<li>Picked cuz small package, doesn't have to be big &amp; scary, can be this simple</li>
+              <li>src/Zelenin/Curl NS -&gt; Lib</li>
+							<!--<li>note src / namespace / classname (psr-0, beyond scope of this talk)</li>-->
+              <li><b>May have noticed diff: dep man vs. pack man</b></li>
+						</ul>
+					</aside>
+					</section>
+
+					<section>
+					<h2>Package Manager vs. Dependency Manager</h2>
+					<ul>
+						<li>Package Manager: installs packages globally and/or to be invoked independently</li>
+						<li>Dependency Manager: installs packages locally, relative to a project, for the project</li>
+					</ul>
+					<aside class="notes">
+					from composer: By default it will never install anything globally. Thus, it is a dependency manager.
+					</aside>
+					</section>
+
+				</section>
+
+				<section><!-- why -->
+					<section> <!-- why -->
+						<h1>Why Use a Dependency Manager?</h1>
+						<ul>
+							<li class="fragment">Easier installation of application/library</li>
+							<li class="fragment">Fewer version conflicts</li>
+							<li class="fragment">Find problems faster (esp. for platform dependencies)</li>
+							<li class="fragment">More consistency &amp; transparency</li>
+							<li class="fragment">$$$</li>
+						</ul>
+						<aside class="notes">
+							<ul>
+								<li>clone project &amp; run a single command</li>
+								<li>two projects that rely on same lib, diff. versions</li>
+								<!--<li>if project relies on sendmail for "contact me" box &amp; server doesn't have it, find out immediately, not after wondering why you're not getting emails for months</li>-->
+								<li>If you're installing a project that relies on bz2 to backup &amp; archive data and server doesn't have it, find out when you install instead of when you look for backups and realize you don't have any (yes, contrived example)</li>
+								<li>quickly get an overview of what a package depends on</li>
+                <li>Job prospects, working on others' projects; Soon this will be required knowledge: Laravel/ZF/Sym shop -> need this skill.  In 12-24mo if you're not using this, you're behind</li>
+							</ul>
+						</aside>
+					</section>
+
+					<section> <!-- bad old days -->
+						<h2>Bad old days</h2>
+							<ul>
+								<li class="fragment">"Go get library X from location Y..."</li>
+								<li class="fragment">"Does this plugin even work with this version of the framework?"</li>
+								<li class="fragment">"No, it doesn't... where do I find the old one"</li>
+								<li class="fragment">"I didn't know this relied on PHP 5.4! :("</li>
+								<li class="fragment">Authoring a new lib/framework: roll your own sanity checker</li>
+							</ul>
+						<aside class="notes">
+							<ul>
+								<li>many frameworks made their own build tools</li>
+								<li>many frameworks did their own dependency checking</li>
+								<li>Composer fixes this!</li>
+								<li>(really you could typically get older versions if you dug thru repos, but w/o recursive dep listings it was harder, composer also makes it easier to leverage VCS features like tags)</li>
+							</ul>
+						</aside>
+					</section>
+				</section>
+
+				<section> <!-- installing composer -->
+					<section>
+						<h1>Installing Composer</h1>
+						<ul>
+							<li>Requires PHP 5.3.2 (Released Dec 20, 2012)</li>
+							<li>Install via curl (*nix):<br>
+	<pre class="ansi2html">
+$ curl -sS https://getcomposer.org/installer | php</pre>
+							</li>
+							<li>Move into your <code>$PATH</code> for easier access
+	<pre class="ansi2html">
+$ mv composer.phar /usr/local/bin/composer
+# now reachable via `composer [command]
+# rather than `php composer.phar [command]</pre>
+							</li>
+						</ul>
+						<aside class="notes">
+							<ul>
+								<li>Need late-version PHP</li>
+								<li>putting in path is optional, allows you to call composer rather than php composer.phar</li>
+							</ul>
+						</aside>
+					</section>
+					<section>
+						<h2>Other Installation Methods</h2>
+						<ul>
+							<li>Without curl:
+	<pre class="ansi2html">
+$ php -r \
+"eval('?>'.file_get_contents('https://getcomposer.org/installer'));"
+	</pre>
+							</li>
+							<li>Windows: <a href="https://getcomposer.org/Composer-Setup.exe">Composer-Setup.exe</a> </li>
+						</ul>
+						<aside class="notes">
+							<ul>
+								<li>Not gonna go into these</li>
+							</ul>
+						</aside>
+					</section>
+					<section style="margin-top:-16%!important;">
+<pre class="ansi2html">
+<span class="f5">[499]</span>$ composer
+   ______
+  / ____/___  ____ ___  ____  ____  ________  _____
+ / /   / __ \/ __ `__ \/ __ \/ __ \/ ___/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ (__  )  __/ /
+\____/\____/_/ /_/ /_/ .___/\____/____/\___/_/
+                    /_/
+<span class="f2">Composer</span> version <span class="f3">6a1262e675b5c1c2c7b1cc58a14028f67885b880</span>
+
+<span class="f3">Usage:</span>
+  [options] command [arguments]
+
+<span class="f3">Options:</span>
+  <span class="f2">--help</span>           <span class="f2">-h</span> Display this help message.
+  <span class="f2">--quiet</span>          <span class="f2">-q</span> Do not output any message.
+  <span class="f2">--verbose</span>        <span class="f2">-v|vv|vvv</span> Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+  <span class="f2">--version</span>        <span class="f2">-V</span> Display this application version.
+  <span class="f2">--ansi</span>              Force ANSI output.
+  <span class="f2">--no-ansi</span>           Disable ANSI output.
+  <span class="f2">--no-interaction</span> <span class="f2">-n</span> Do not ask any interactive question.
+  <span class="f2">--profile</span>           Display timing and memory usage information
+  <span class="f2">--working-dir</span>    <span class="f2">-d</span> If specified, use the given directory as working directory.
+
+<span class="f3">Available commands:</span>
+  <span class="f2">about           </span> Short information about Composer
+  <span class="f2">archive         </span> Create an archive of this composer package
+  <span class="f2">config          </span> Set config options
+  <span class="f2">create-project  </span> Create new project from a package into given directory.
+  <span class="f2">depends         </span> Shows which packages depend on the given package
+  <span class="f2">diagnose        </span> Diagnoses the system to identify common errors.
+  <span class="f2">dump-autoload   </span> Dumps the autoloader
+  <span class="f2">dumpautoload    </span> Dumps the autoloader
+  <span class="f2">help            </span> Displays help for a command
+  <span class="f2">init            </span> Creates a basic composer.json file in current directory.
+  <span class="f2">install         </span> Installs the project dependencies from the composer.lock file if present, or falls back on the composer.json.
+  <span class="f2">list            </span> Lists commands
+  <span class="f2">require         </span> Adds required packages to your composer.json and installs them
+  <span class="f2">run-script      </span> Run the scripts defined in composer.json.
+  <span class="f2">search          </span> Search for packages
+  <span class="f2">self-update     </span> Updates composer.phar to the latest version.
+  <span class="f2">selfupdate      </span> Updates composer.phar to the latest version.
+  <span class="f2">show            </span> Show information about packages
+  <span class="f2">status          </span> Show a list of locally modified packages
+  <span class="f2">update          </span> Updates your dependencies to the latest version according to composer.json, and updates the composer.lock file.
+  <span class="f2">validate        </span> Validates a composer.json
+</pre>
+					<aside class="notes">
+						<ul>
+							<li>Wonderful help screen, colorized &amp; organized &amp; concise</li>
+              <li>Look these over</li>
+							<li>We'll look more closely at some of these commands later</li>
+              <li><b>Now look at some to help you get oriented: a few useful commands</b></li>
+						</ul>
+					</aside>
+					</section>
+				</section><!-- installing -->
+
+				<section> <!-- getting oriented -->
+					<h1>Getting Oriented</h1>
+					<h2 style="font-style:italic">a few helpful commands</h2>
+					<ul>
+						<li class="fragment"><code>diagnose</code>: system sanity check
+<pre class="ansi2html">
+<span class="f5">[499]</span>$ composer diagnose
+Checking platform settings: <span class="f2">OK</span>
+Checking http connectivity: <span class="f2">OK</span>
+Checking composer.json: <span class="f7 b1">FAIL</span>
+<span class="f0 b3">No license specified, it is recommended to do so. For closed-source software you
+may use &quot;proprietary&quot; as license.</span>
+Checking disk free space: <span class="f2">OK</span>
+Checking composer version: <span class="f2">OK</span>
+</pre>
+						</li>
+						<li class="fragment"><code>-V</code>: version
+<pre class="ansi2html">
+<span class="f5">[500]</span>$ composer -V
+<span class="f2">Composer</span> version <span class="f3">6a1262e675b5c1c2c7b1cc58a14028f67885b880</span></pre>
+						</li>
+						<li class="fragment"><code>help [command name]</code>: help output for commands</li>
+						<li class="fragment"><code>-v|vv|vvv</code>: increase verbosity</li>
+					</ul>
+					<aside class="notes">
+						<ul>
+							<li>These commands help you find your way around composer &amp; packages, &amp; fix problems when they come up</li>
+							<li>diagnose checks for common issues and makes sure you have the stuff composer needs in place. (check this before asking for help)<br>
+						also validates composer.json if one is present</li>
+						</ul>
+					</aside>
+				</section><!-- oriented -->
+
+				<section><!-- installing a package -->
+					<section> <!-- installing a package -->
+						<h1>Installing a Package Using Composer</h1>
+						<ol>
+							<li class="fragment">Start a new project from scratch</li>
+							<li class="fragment">Start a new project based on a framework</li>
+							<li class="fragment">Work on an existing library or project</li>
+						</ol>
+
+						<aside class="notes">
+						<p>clone &amp; install, create package &amp; install, use create-prjoject... when do I use what?</p>
+							<ul>
+								<li><b>Depends on what you want to do</b></li>
+								<li>1. write your own composer.json start from scratch<br>
+								creating your own project with your own list of dependencies</li>
+								<li>2. start based on a framework<br>
+								Starting your own project on laravel or ZF2</li>
+								<li>3. Clone &amp; install<br>
+								for when you want to work directly on a lib, or work on a project you're tracking</li>
+							</ul>
+						</aside>
+					</section>
+
+					<section> <!-- write composer.json -->
+						<h4>Start a New Project</h4>
+						<p>Create new <code>composer.json</code></p>
+<pre class="ansi2html"><span class="fragment"><span class="f5">[501]</span>$ cat composer.json
+{
+	&quot;require&quot;: {
+		&quot;slim/slim&quot;:&quot;*&quot;
+	}
+}
+</span>
+<span class="fragment"><span class="f5">[502]</span>$ composer install
+<span class="f2">Loading composer repositories with package information</span>
+<span class="f2">Installing dependencies (including require-dev)</span>
+  - Installing <span class="f2">slim/slim</span> (<span class="f3">2.3.1</span>)
+    Loading from cache
+
+<span class="f2">Writing lock file</span>
+<span class="f2">Generating autoload files</span></span>
+
+<span class="fragment"><span class="f5">[503]</span>$ ls -l vendor
+total 12
+-rw-rw-r-- 1 diamonds diamonds  182 Aug  9 22:50 autoload.php
+drwxrwxr-x 2 diamonds diamonds 4096 Aug  9 22:50 composer
+drwxrwxr-x 3 diamonds diamonds 4096 Aug  9 22:50 slim</span></pre>
+						<aside class="notes">
+						<ul>
+							<li>Start with a clean/empty file</li>
+							<li>I just need "slim" for my project right now, latest version</li>
+							<li><b>TRANS: </b>add slim, install</li>
+							<li>this is how you start your own roll-your-own project</li>
+							<li><b>TRANS: </b>Code is now in vendor directory</li>
+						</ul>
+						</aside>
+					</section>
+
+					<section> <!--create-project-->
+						<h4>Create a site/project based on a framework</h4>
+						<p><code>create-project</code></p>
+<pre class="ansi2html"><span class="fragment"><span class="f5">[500]</span>$ composer create-project laravel/laravel
+<span class="f2">Installing laravel/laravel (v4.0.6)</span>
+  - Installing <span class="f2">laravel/laravel</span> (<span class="f3">v4.0.6</span>)
+    Downloading: <span class="f3">100%</span>
+
+<span class="f2">Created project in /tmp/laravel</span>
+<span class="f2">Loading composer repositories with package information</span>
+<span class="f2">Installing dependencies (including require-dev)</span>
+  - Installing <span class="f2">filp/whoops</span> (<span class="f3">1.0.7</span>)
+    Downloading: <span class="f3">100%</span>
+
+  - Installing <span class="f2">doctrine/lexer</span> (<span class="f3">dev-master bc0e1f0</span>)
+    Loading from cache	
+...
+  - Installing <span class="f2">laravel/framework</span> (<span class="f3">4.0.x-dev e943b3d</span>)
+    Cloning e943b3da84ab556f0176eea73387cd14fa07933e
+
+symfony/translation suggests installing symfony/config ()
+symfony/translation suggests installing symfony/yaml ()
+...
+monolog/monolog suggests installing ext-amqp (Allow sending log messages to an AMQP server (1.0+ required))
+monolog/monolog suggests installing ext-mongo (Allow sending log messages to a Mongoserver)
+<span class="f2">Writing lock file</span>
+<span class="f2">Generating autoload files</span>
+Generating optimized class loader
+Application key [3keZh90lTVfdiyQ1aw5zwUvwY7w5OXBt] set successfully.</span></pre>
+						<aside class="notes">
+							<ul>
+								<li><b>using create-project</b></li>
+								<li>old way: download ZIP &amp; unzip</li>
+								<li>New frameworks depend on many packages, not all in one place -&gt; can't easily install zip</li>
+								<li>Want a standard "basic" install, <b>bootstrap install</b>, all stuff for a "basic" laravel instance</li>
+                <li>Don't clone the framework's repo! you want to track your project separately, not as a "fork" of the core framework</li>
+								<li><b>Skeleton package is a sort of "jump-start" for a framework</b></li>
+								<li><b>They have a good standard config already</b></li>
+								<li>skeleton project laravel/laravel declares laravel/framework as a dependency</li>
+							</ul>
+						</aside>
+					</section>
+
+					<section><!-- clone & install -->
+						<h4>Work on an existing project or Library</h4>
+						<code>git clone &amp;&amp; composer install</code>
+							<pre class="ansi2html"><span class="fragment"><span class="f5">[499]</span>$ git clone https://github.com/Seldaek/monolog.git
+Cloning into 'monolog'...
+remote: Counting objects: 3810, done.
+remote: Compressing objects: 100% (2109/2109), done.
+remote: Total 3810 (delta 1560), reused 3519 (delta 1313)
+Receiving objects: 100% (3810/3810), 744.90 KiB | 759 KiB/s, done.
+Resolving deltas: 100% (1560/1560), done.
+<span class="f5">[500]</span>$ cd monolog/ </span><span class="fragment">
+<span class="f5">[501]</span>$ composer install
+<span class="f2">Loading composer repositories with package information</span>
+<span class="f2">Installing dependencies (including require-dev)</span>
+  - Installing <span class="f2">psr/log</span> (<span class="f3">1.0.0</span>)
+    Downloading: <span class="f3">100%</span>
+
+  - Installing <span class="f2">mlehner/gelf-php</span> (<span class="f3">v1.0</span>)
+    Downloading: <span class="f3">100%</span>
+
+  - Installing <span class="f2">raven/raven</span> (<span class="f3">0.5.1</span>)
+    Downloading: <span class="f3">100%</span>
+
+  - Installing <span class="f2">doctrine/common</span> (<span class="f3">2.3.0</span>)
+    Downloading: <span class="f3">100%</span>
+
+  - Installing <span class="f2">doctrine/couchdb</span> (<span class="f3">dev-master 44f0b79</span>)
+    Cloning 44f0b7926926aa77431591c6debf3004ce13ddfa
+
+<span class="f2">Writing lock file</span>
+<span class="f2">Generating autoload files</span></span></pre>
+						<aside class="notes">
+							<ul>
+								<li><b>Installing from source</b></li>
+								<li>use to work directly on a library or existing personal project</li>
+								<li><b>FOR EXAMPLE </b> creating a local dev install of a project you work on in the office</li>
+								<li><b>FOR EXAMPLE </b> contribute to monolog</li>
+								<li>Clone the project</li>
+								<li>composer install</li>
+								<li><b>root project</b></li>
+								<li>now you can modify package, run tests (this package runs tests thru travis-ci which already has phpunit on hand), etc.</li>
+							</ul>
+							<b>Next:</b> Going to look at that composer.json but first lets look at a tool that makes it a lot easier to create
+						</aside>
+					</section><!--install from source-->
+				</section> <!-- installing a package -->
+
+				<section> <!-- composer init -->
+					<section><!-- composer init 1 -->
+						<h1>Interactive Project Setup</h1>
+						<h2><code>composer init</code></h2>
+						
+<pre class="ansi2html">
+
+<span class="fragment"><span class="f5">[501]</span>$ composer init
+
+<span class="f7 b4">                                            </span>
+<span class="f7 b4">  Welcome to the Composer config generator  </span>
+<span class="f7 b4">                                            </span>
+
+This command will guide you through creating your composer.json config.</span>
+
+<span class="fragment"><span class="f2">Package name (</span><span class="f2">&lt;vendor&gt;/</span><span class="f2">&lt;name&gt;)</span> [<span class="f3">diamonds/foo</span>]: sequoia/clientSite
+<span class="f2">Description</span> []: site for client X
+<span class="f2">Author</span> [<span class="f3">Sequoia McDowell </span>&lt;sequoia.mcdowell@gmail.com&gt;]: </span>
+<span class="fragment"><span class="f2">Minimum Stability</span> []: stable</span> 
+<span class="fragment"><span class="f2">License</span> []: proprietary</span>
+
+<span class="fragment">Define your dependencies.
+
+<span class="f2">Would you like to define your dependencies (require) interactively</span> [<span class="f3">yes</span>]?</span>
+<span class="fragment"><span class="f2">Search for a package</span> []: slim</span>
+
+</pre>
+						<aside class="notes">
+							<ul>
+								<li><b>I'm gonna step thru how you might start a new project with composer</b></li>
+								<li>init Walks you thru the steps, generates composer.json for you</li>
+								<li>like npm init</li>
+								<li>not everything intuitive, rough around the edges</li>
+                <li><b>EXAMPLE AFTER NOTES</b></li>
+							</ul>
+						</aside>
+					</section>
+
+					<section style="margin-top:-9%"><!-- composer init 2 -->
+<pre class="ansi2html">
+<span class="f2">Search for a package</span> []: slim
+
+<span class="fragment">Found <span class="f2">15</span> packages matching <span class="f2">slim</span>
+
+ <span class="f2">  [0]</span> slim/slim
+ <span class="f2">  [1]</span> slim/slim-skeleton
+ <span class="f2">  [2]</span> slim/extras
+ <span class="f2">  [3]</span> slim/views
+ <span class="f2">  [4]</span> slim/strong
+ <span class="f2">  [5]</span> slim/shady
+ <span class="f2">  [6]</span> flynsarmy/slim-monolog
+ <span class="f2">  [7]</span> zeuxisoo/slim-whoops
+ <span class="f2">  [8]</span> entomb/slim-json-api
+ <span class="f2">  [9]</span> hellogerard/less-slim-middleware
+ <span class="f2"> [10]</span> petebrowne/slim-layout-view
+ <span class="f2"> [11]</span> rtablada/slim-post
+ <span class="f2"> [12]</span> slimcontroller/slimcontroller
+ <span class="f2"> [13]</span> mikehaertl/phpwkhtmltopdf
+ <span class="f2"> [14]</span> voodoophp/voodoo
+
+<span class="f2">Enter package # to add, or the complete package name if it is not listed</span> []: 0</span>
+<span class="fragment"><span class="f2">Enter the version constraint to require</span> []: 2</span>
+<span class="fragment"><span class="f2">Search for a package</span> []:
+<span class="f2">Would you like to define your dev dependencies (require-dev) interactively</span> [<span class="f3">yes</span>]? no</span>
+
+<span class="fragment">
+{
+    &quot;name&quot;: &quot;sequoia/clientSite&quot;,
+    &quot;description&quot;: &quot;site for client X&quot;,
+    &quot;require&quot;: {
+        &quot;slim/slim&quot;: &quot;2&quot;
+    },
+    &quot;license&quot;: &quot;proprietary&quot;,
+    &quot;authors&quot;: [
+        {
+            &quot;name&quot;: &quot;Sequoia McDowell&quot;,
+            &quot;email&quot;: &quot;sequoia.mcdowell@gmail.com&quot;
+        }
+    ],
+    &quot;minimum-stability&quot;: &quot;stable&quot;
+}
+
+<span class="f2">Do you confirm generation</span> [<span class="f3">yes</span>]?</span>
+</pre>
+						<aside class="notes">
+							<ul>
+								<li>Walks you thru project creation, autogenerates your composer.json</li>
+								<li>not clear that you should hit enter to exit; not adding a version means "skip this" not "any version"</li>
+							</ul>
+						</aside>
+					</section>
+
+					<section> <!-- install and use deps-->
+					<h2>Installing</h2>
+<pre class="ansi2html"><span class="f5">[502]</span>$ composer install
+<span class="f2">Loading composer repositories with package information</span>
+<span class="f2">Installing dependencies (including require-dev)</span>
+  - Installing <span class="f2">slim/slim</span> (<span class="f3">2.0.0</span>)
+    Downloading: <span class="f3">100%</span>
+
+<span class="f2">Writing lock file</span>
+<span class="f2">Generating autoload files</span></pre>
+<div class="fragment">
+					<h2>Using the Dependencies</h2>
+<pre><code>&lt;?php
+//index.php
+
+require 'vendor/autoload.php';
+$app = new \Slim\Slim();
+
+$app-&gt;get("/",function(){
+    echo "you should probably copy the .htaccess file to this dir...";
+});
+
+$app-&gt;run();
+</code></pre>
+</div>
+							<aside class="notes">
+								<ul>
+									<li>install, call autoloader file</li>
+									<li>autoloader generated by composer, autoloads classes as they are invoked</li>
+									<li>Now you can git init &amp; commit</li>
+									<li>(Make sure to ignore vendor/*!</li>
+								</ul>
+							</aside>
+					</section>
+
+				</section>
+
+				<section> <!-- composer.json -->
+
+					<section> <!-- intro -->
+						<h1><code>composer.json</code></h1>
+						<ul>
+							<li class="fragment">List package information</li>
+							<li class="fragment">Define dependencies</li>
+							<li class="fragment">Declare where the files for your package are</li>
+							<li class="fragment">Constrain what types of dependencies are installed</li>
+							<li class="fragment">...and more</li>
+						</ul>
+						<aside class="notes">
+						<ul>
+							<li>info: name, authors, license, repo location, where to get support</li>
+							<li>using psr-0 or other methods</li>
+							<li>minimum-stability &amp; prefer-stable</li>
+						</ul>
+						</aside>
+					</section>
+
+					<section style="margin-top:-8%"> <!-- example composer.json 1 -->
+<pre class="ansi2html">
+{
+    <span class="fragment">"name": "monolog/monolog",
+    "description": "Sends your logs to files, sockets, inboxes, databases and various...",
+    "keywords": ["log", "logging", "psr-3"],</span>
+    <span class="fragment">"homepage": "http://github.com/Seldaek/monolog",
+    "type": "library",
+    "license": "MIT",</span>
+    <span class="fragment">"authors": [
+        {
+            "name": "Jordi Boggiano",
+            "email": "j.boggiano@seld.be",
+            "homepage": "http://seld.be"
+        }
+    ],</span>
+    <span class="fragment">"require": {
+        "php": "&gt;=5.3.0",
+        "psr/log": "~1.0"
+    },</span>
+    <span class="fragment">"require-dev": {
+        "mlehner/gelf-php": "1.0.*",
+        "raven/raven": "0.5.*",
+        "doctrine/couchdb": "dev-master"
+    },</span>
+    <span class="fragment">"suggest": {
+        "mlehner/gelf-php": "Allow sending log messages to a GrayLog2 server",
+        "raven/raven": "Allow sending log messages to a Sentry server",
+        "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+        "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+        "ext-mongo": "Allow sending log messages to a MongoDB server"
+    },</span>
+    <span class="fragment">"autoload": {
+        "psr-0": {"Monolog": "src/"}
+    },</span>
+    <span class="fragment">"extra": {
+        "branch-alias": {
+            "dev-master": "1.6.x-dev"
+        }
+    }</span>
+}</pre>
+						<aside class="notes">
+							<ul>
+                <li>name, description, keywords. used by packagist / composer search</li>
+                <li>re type: this can be library, project, metapackage, or composer-installer: custom installer can e.g. put files outside of the /vendor directory.  Some frameworks use these for custom install logic</li>
+								<li>support is another great key with metadata: tell your uses where to file bugs, where the forum is, where the IRC channel is <b>KNIT COMMUNITY TOGETHER</b></li>
+                <li>require: <b>platform deps:</b> php version &amp; ext- lib- bcrypt or curl</li>
+                <li>require: <b>other packages</b>: version: *, ~, &gt;= etc.</li>
+                <li>require-dev: tools used for dev</li>
+                <li>suggest: other packages that are useful with this one. also <b>conflict</b> &amp; <b>replace</b></li>
+                <li>autoload defines where sources for your package are, and how they're structured. psr-0 here: /vendor/namespace/library, defines how _ are used in path names etc..  Can also load non-psr-0 libs with classmap or include files on each request with `files`</li>
+                <li>extras here has branch-alias</li>
+                <li>NOT "version": git tracks this</li>
+							</ul>
+						</aside>
+					</section>
+
+					<section><!-- Root-only properties -->
+						<h2>Root-only properties</h2>
+						<ul>
+							<li class="fragment"><code>require-dev</code></li>
+							<li class="fragment"><code>minimum-stability</code></li>
+							<li class="fragment"><code>repositories</code></li>
+							<li class="fragment"><code>config</code></li>
+							<li class="fragment"><code>scripts</code></li>
+						</ul>
+						<aside class="notes">
+							<ul>
+								<li>only work if what you're installing is the root project</li>
+								<li>require-dev: tools for testing, compiling css, etc.</li>
+								<li>minimum-stability: prod package you want all stable stuff, disallow deps from loading &gt;stable libs</li>
+								<li>repositories: use this when you want to point to a repo other than packagist</li>
+								<li>config: where deps are installed, cache size, process-timeout, etc.</li>
+								<li>scripts: pre-install and post-install most notable.  Can call static class methods directly so you can put install logic in a class in your app</li>
+                <li>SO THIS SEEMS TO WORK, allows easy install, but how do you <b>ensure</b> that your application will work after install? what if a minor lib change breaks something subtly? enter: composer.lock</li>
+							</ul>
+						</aside>
+					</section>
+
+					<section><!-- composer.lock -->
+						<h2><code>composer.lock</code></h2>
+						<ul>
+							<li class="fragment">Record which dependency versions are currently installed</li>
+							<li class="fragment"><b>Check this into your VCS</b> (unless it's a library)</li>
+							<li class="fragment">Exact same libs (from same location) across all servers</li>
+							<li class="fragment">Clone &amp; install 12 months later: all same lib versions</li>
+							<li class="fragment">Update lockfile with <code>composer update [packagename]</code></li>
+						</ul>
+						<aside class="notes">
+							<ul>
+								<li>known working set of deps</li>
+								<li>update &amp; run tests, if fail, revert to last committed lockfile</li>
+								<li>update deps together or one X one</li>
+								<li>only works on root project</li>
+							</ul>
+						</aside>
+					</section>
+
+				</section>
+
+        <section> <!-- finding & adding -->
+          <section> <!-- finding and adding packages -->
+						<h1>Finding and Adding Packages</h1>
+							<ul>
+								<li class="fragment">Packagist.com</li>
+								<li class="fragment"><code>composer search</code></li>
+								<li class="fragment"><code>composer require</code></li>
+							</ul>
+					</section>
+
+					<section> <!-- packagist.org search -->
+          <img src="img/packagist-search.png" alt="a screenshot of packagist.org with 'twitter bootstrap' in the search box and search results displayed below" />
+					<aside class="notes">
+          shows you how many ppl have d/l'd &amp; starred: useful when looking for a mainline package<br>
+          (composer search calls a search endpoint in at packagist.org which presumably sorts the same way, but you don't see this extra info)
+					</aside>
+					</section>
+
+					<section> <!-- packagist.org package -->
+          <img src="img/packagist-package.png" alt="a screenshot of the twitter/bootstrap package page on packagist.org. Available releases/versions are listed below the package metadata" />
+					<aside class="notes">
+          Shows you the version<br><br>
+          <b>but we're too cool and 31337 for this!!</b> We want to stay in the shell! :)<br>
+          so... composer search
+					</aside>
+					</section>
+
+					<section> <!-- composer search -->
+<pre class="ansi2html"><span class="f5">[501]</span>$ composer search bootstrap
+<span class="fragment">twitter/bootstrap Sleek, intuitive, and powerful front-end framework for faster and easier...
+twbs/bootstrap Sleek, intuitive, and powerful front-end framework for faster and easier we...
+components/bootstrap Sleek, intuitive, and powerful front-end framework for faster and eas...
+mopa/bootstrap-bundle Easy integration of twitters bootstrap into symfony2
+braincrafted/bootstrap-bundle Twitter Bootstrap for Symfony2
+qubes/bootstrap Bootstrap Helper
+phundament/p3bootstrap Bootstrap Theme for Phundament
+typo3/twitter-bootstrap Simple and flexible HTML, CSS, and Javascript for popular user int...
+jasny/bootstrap Sleek, intuitive, and powerful front-end framework for faster and easier w...
+jlong/sass-twitter-bootstrap A sass port of the sleek, intuitive, and powerful front-end f...
+nervo/bootstrap Simple and flexible HTML, CSS, and Javascript for popular user interface c...
+naturalweb/bootstrap Simple Module to allow facilitate use of Twitter Bootstrap Zend Frame...
+komola/bootstrap-zend-framework Twitter bootstrap for ZF1
+kdyby/bootstrap-form-renderer Nette forms renderer with bootstrap
+mwillbanks/zfc-twitter-bootstrap A module that assists in implementing Twitter Bootstrap f...</span>
+
+<span class="fragment"><span class="f5">[502]</span>$ composer require twitter/bootstrap</span>
+<span class="fragment"><span class="f2">Please provide a version constraint for the twitter/bootstrap requirement</span>: 2.*</span>
+<span class="fragment"><span class="f2">composer.json has been updated</span>
+<span class="f2">Loading composer repositories with package information</span>
+<span class="f2">Updating dependencies (including require-dev)</span>
+  - Installing <span class="f2">twitter/bootstrap</span> (<span class="f3">v2.3.2</span>)
+    Loading from cache
+
+<span class="f2">Generating autoload files</span></span>
+
+<span class="fragment"><span class="f5">[503]</span>$ cat composer.json 
+{
+    &quot;require&quot;: {
+        &quot;twitter/bootstrap&quot;: &quot;2.*&quot;
+    }
+}</span></pre>
+          <aside class="notes">doesn't tell you version numbers which kinda sucks</aside>
+					</section>
+
+				</section>
+
+        <section><!-- publishing to packagist -->
+          <section style="margin-top:-5%"><!-- publishing img -->
+            <h2>Publishing to Packagist.org</h2>
+            <img class="fragment" src="img/packagist-submit.png" alt="screenshot of packagist.org: submit package page. Form contains a single input field for VCS repo location and a large green button labeled 'check'."/>
+            <aside class="notes">
+              <ul>
+                <li>You've got your great new library, ready to share with the world</li>
+                <li>How do you get your package on Packagist?</li>
+                <li>Just paste in your github repo location!</li>
+              </ul>
+            </aside>
+          </section>
+
+          <section><!-- finer points of packagist -->
+            <h2>How Packagist Works</h2>
+            <ul>
+              <li class="fragment">Gets package metadata from <code>composer.json</code></li>
+              <li class="fragment">Lists release versions based on tag names (or comparable branch name)</li>
+              <li class="fragment">Users may also require branches directly using <code>dev-branchname</code></li>
+              <li class="fragment">Scans repo once per day for new code</li>
+            </ul>
+            <aside class="notes">
+            <ul>
+              <li>Service hook for github can tell packagist to rescan whenver you push</li>
+              <li>comparable means countable, +1 able (basically, a number)</li>
+              <li>Use semantic versioning!!!</li>
+            </ul>
+            </aside>
+          </section>
+        </section>
+
+        <section> <!-- ci with travis -->
+          <section> <!-- intro to CI -->
+            <h1>CI with Travis</h1>
+            <blockquote>
+              Travis CI is a hosted continuous integration service for the open source community.
+            </blockquote>
+            <ul>
+              <li class="fragment">Runs when you push to github</li>
+              <li class="fragment">Can test against multiple PHP versions</li>
+              <li class="fragment">Notifications on build failure</li>
+              <li class="fragment">Has common tools (xdebug, phpunit, composer)</li>
+              <li class="fragment"><code>.travis.yml</code> tells travis how to run your build</li>
+              <li class="fragment">Best part: <span class="fragment"><img style="margin:0;border:0;" src="img/build-passing.png" alt="'build: passing' badge from travis-ci.org"/></span></li>
+            </ul>
+            <aside class="notes">
+              <ul>
+                <li>Continuous integration: building &amp; testing at regular intervals rather than once after a long dev period</li>
+                <li>PHP isn't compiled but a package depending on other packages does require a build</li>
+                <li>Multiple php versions, great!</li>
+                <li>travis-ci.org</li>
+              </ul>
+            </aside>
+          </section>
+
+          <section> <!-- .travis.yml -->
+          <h2><code>.travis.yml</code></h2>
+<pre class="ansi2html">language: php
+
+php:
+  - 5.3.3
+  - 5.3
+  - 5.4
+  - 5.5
+
+before_script:
+  - composer install --dev --prefer-source
+
+script: phpunit</pre>
+            <aside class="notes"> 
+              <ul>
+                <li>Using monolog as example again</li>
+                <li>test across many PHP versions</li>
+                <li>run composer before</li>
+                <li>run phpunit</li>
+                <li>(phpunit config in its own XML file)</li>
+                <li>totally transparent after setup; runs when you merge in PRs as well</li>
+              </ul>
+            </aside>
+          </section>
+        </section>
+
+        <section>
+          <h1>What about PEAR?</h1>
+          <ul>
+            <li class="fragment">Only one channel for a long time</li>
+            <li class="fragment">Language features (namespaces)</li>
+            <li class="fragment">Frameworks</li>
+            <li class="fragment">Many packages not updated to PHP5</li>
+            <li class="fragment">Github filled many of the same needs, better</li>
+            <li class="fragment">vs. Composer: PEAR requires server software, Composer can install from git repo</li>
+            <li class="fragment">Successes: PEAR installer itself, DB, MDB2; <a href="https://pear.php.net/channels/">many projects have channels still</a></li>
+            <li class="fragment">Still used for: PHP extensions</li>
+          </ul>
+          <aside class="notes">
+            <ul>
+              <li>PEAR the installer vs. PEAR the repo</li>
+              <li>Only one channel: quality over quantity, vetted packages, hard to grow</li>
+              <li>ZEND framework, "official php libarary" 1 big chunk, didn't use PEAR. others followed</li>
+              <li>By the time they added channels, hard to set up, people already on frameworks; package spec undocumented</li>
+              <li>no namespaces -&lt; hard to share code -&lt; large frameworks instead</li>
+              <li>PHP5: devs didn't see need to update, many maintainers left project &amp; didn't get replaced</li>
+              <li>github: getting/hosting code, issue tracking,</li>
+              <li>Pear installer still widely used; ESP. for PHP Extensions</li>
+            </ul>
+          </aside>
+        </section>
+
+        <section><!-- outro -->
+          <h1>Summary</h1>
+          <ul>
+            <li class="fragment">What &amp; Why of Package Management</li>
+            <li class="fragment">How to Package Your Application</li>
+            <li class="fragment">How to Share</li>
+            <li class="fragment">How to Test</li>
+          </ul>
+          <aside class="notes">
+            <ul>
+              <li><b>What we've gone over</b></li>
+              <li><b>4 points</b></li>
+              <li>Questions?</li>
+            </ul>
+          </aside>
+        </section>
+
+        <section>
+					<h1 class="fragment">Go forth &amp; package! :)</h1>
+          <ul>
+            <li>slides: <a href="http://sequoia.github.io/composer-talk">http://sequoia.github.io/composer-talk</a></li>
+            <li>sequoia.mcdowell@gmail.com</li>
+            <li>@_sequoia</li>
+          </ul>
+        </section>
+
+			</div> <!-- .slides -->
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

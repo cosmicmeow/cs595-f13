@@ -1,0 +1,274 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<meta name="Keywords" content="保育士,求人,転職,幼稚園,保育園,幼稚園教諭" />
+<meta name="Description" content="保育士、幼稚園教諭のための求人「保育情報どっとこむ」は保育に特化した求人サイトです。転職、就職をお考えの際は今すぐ無料会員登録！" />
+<title>絞込み検索｜｜保育士 求人情報（正社員・パート・派遣）｜幼稚園教諭｜栄養士｜保育情報どっとこむ</title>
+<link href="css/screen.css" rel="stylesheet" type="text/css" />
+<link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
+
+<script src="js/external.js" type="text/javascript"></script>
+<script src="js/analytics.js" type="text/javascript"></script>
+<script src="js/windowname.js" type="text/javascript"></script>
+<script src="js/goToURL.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+<script type="text/javascript" src="js/lightbox.js"></script><script src="js/jquery-1.3.2.min.js" type="text/javascript"></script>
+<script src="js/search-filter.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/original.js"></script>
+</head>
+<body>
+<div id="container">
+
+	<!--  inc_header -->
+	<h1><div class="seo" id="top">保育士求人（正社員・パート・派遣）｜幼稚園教諭</div></h1>
+	<div id="header" class="clearfix">
+		<div class="headleft">
+			<a href="index.html"><img src="images/base/sitetitle.gif" alt="保育士求人　保育情報どっとこむ" width="380" height="80" /></a>
+		</div>
+		<div class="headright">
+			<p class="totaltxt">2013年10月06日現在　保育のお仕事<span>1,970</span>件</p>
+			<div class="login_area clearfix">
+				<a href="index2.html"><img src="images/base/kyujintop.gif" alt="求人トップへ" width="84" height="29" border="0" /></a><a href="mypage/login.html"><img src="images/base/login.gif" alt="ログイン" width="110" height="29" border="0" class="mb05" /></a>
+			</div>
+		</div>
+	</div>
+	<ul id="menu" class="clearfix">
+		<li><a href="search_list.html" class="menu02"><span>お仕事検索</span></a></li>
+		<li><a href="html/hoiku.html" class="menu01"><span>保育情報どっとこむとは？</span></a></li>
+		<li><a href="html/faq.html" class="menu03"><span>転職Ｑ＆Ａ</span></a></li>
+		<li><a href="https://www.hoikujyouhou.com/h/mypage/index.html" class="menu04"><span>マイページ</span></a></li>
+		<li><a href="https://www.hoikujyouhou.com/h/html/contact.html" class="menu05"><span>お問合わせ</span></a></li>
+	</ul>
+	<!-- inc_header -->
+
+	<div id="contents" class="clearfix">
+
+		<div id="main">
+<div id="navi"><a href="index.html">ホーム</a>&nbsp;&gt;&nbsp;<a href="index2.html">求人トップ</a>&nbsp;&gt;&nbsp;<a href="search_list.html">お仕事検索</a>&nbsp;&gt;&nbsp;検索結果詳細</div>
+			<h2 class="pagetitle">検索結果詳細</h2>
+
+			<div class="listitem">
+				<div class="slistbox2-top clearfix"></div>
+				<div class="slistbox2 clear"></div>
+				<!-- アイコン+エントリーボタンエリアここから -->
+				<div class="area1 clearfix">
+					<div class="icon">
+						<!-- ※アイコンの型を公式のものに変更。今まで使っていたものを拡張子pngにしてください。下部６点が新規です -->
+						<!-- アイコン終わり -->
+					</div>
+					<div class="entry">
+						<a href="https://www.hoikujyouhou.com/h/entry.html?rid="><img src="images/contents/button/entry.png" alt="このお仕事にエントリー" width="200" height="57" border="0" /></a>
+					</div>
+				</div>
+				<!-- アイコン+エントリーボタンエリアここまで -->
+
+				<table width="705" border="0" cellspacing="0" cellpadding="0" class="table1 mb10 clear">
+					<tr>
+						<th class="th01" scope="row">仕事内容</th>
+						<td class="tdw"></td>
+					</tr>
+					<tr>
+						<th class="th01" scope="row">資格・免許</th>
+						<td class="tdw"></td>
+					</tr>
+
+
+					<tr>
+						<th class="th01" scope="row">勤務地</th>
+						<td class="tdw"></td>
+					</tr>
+					<tr>
+						<th class="th01" scope="row">最寄（駅）</th>
+						<td class="tdw"></td>
+					</tr>
+					<tr>
+						<th class="th01" scope="row">勤務時間</th>
+						<td class="tdw"></td>
+					</tr>
+					<tr>
+						<th class="th01" scope="row">休日</th>
+						<td class="tdw"></td>
+					</tr>
+					<tr>
+						<th class="th01" scope="row">期間</th>
+						<td class="tdw"></td>
+					</tr>
+					<tr>
+						<th class="th01" scope="row">待遇</th>
+						<td class="tdw"></td>
+					</tr>
+					<tr>
+						<th class="th01" scope="row">スタッフからの一言</th>
+						<td class="tdw"></td>
+					</tr>
+				</table>
+
+				<!-- フリーダイヤル+ボタンここから -->
+				<div class="bottom-line clearfix mb20">
+					<div class="bottom-line-left">仕事No.</div>
+					<div class="bottom-line-img clearfix">
+						<img src="images/contents/search_list2/keep.png" alt="この求人をキープする" width="200" height="37" border="0" />
+						<a href="javascript:chkMember();"><img src="images/contents/search_list2/detail_btn.png" alt="会員限定の情報を見る" width="200" height="37" border="0" /></a>
+						<div id="message" class="color01 clear"></div>
+					</div>
+				</div>
+				<!-- フリーダイヤル+ボタンここまで -->
+
+				<!-- 支店名ここから -->
+				<h3 class="s_midashi1 mb10">人材派遣アスカグループ　</h3>
+				<p class="mb30">ご応募が完了すると、後ほど弊社担当よりご連絡差し上げますので、お待ち下さい。</p>
+				<!-- 支店名ここまで -->
+
+				<div class="social clearfix">
+
+					<div class="socialbtn">
+						<a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-lang="ja" style="float:left;">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+					</div>
+
+					<div class="socialbtn">
+						<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.hoikujyouhou.com/search_filter2.html?rid=16575&amp;send=true&amp;layout=button_count&amp;width=150&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;float:left;" allowTransparency="true"></iframe>
+					</div>
+
+					<div class="socialbtn">
+						<script type="text/javascript" src="http://static.evernote.com/noteit.js"></script>
+						<a href="javascript:void(0);" onclick="Evernote.doClip({providerName:'保育情報どっとこむ',contentId:'main'}); return false;" style="float:left;"><img src="http://static.evernote.com/article-clipper-jp.png" alt="Clip to Evernote" /></a>
+					</div>
+
+					<div class="socialbtn">
+						<div data-plugins-type="mixi-favorite" data-service-key="acdddd3c5d6c2d5dbc773fe81c5dd447954e74f7" data-size="medium" data-href="http://www.hoikujyouhou.com/search_filter2.html?rid=16575" data-show-faces="false" data-show-count="true" data-show-comment="true" data-width="135"></div>
+						<script type="text/javascript">
+							(function(d) {
+								var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true;
+								s.src = '//static.mixi.jp/js/plugins.js#lang=ja';
+								d.getElementsByTagName('head')[0].appendChild(s);
+							})(document);
+						</script>
+					</div>
+
+					<div class="socialbtn">
+						<a href="javascript:void(0);" onclick="javascript:window.print();return false;"><img src="images/contents/schedule/print.png" alt="印刷" width="65" height="20" /></a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div id="rightmenu">
+			<!-- inc_right -->
+			<a href="sp/">
+				<img src="images/base/bnr_sp.jpg" width="180" height="60" alt="保育情報どっとこむスマホ" class="dispb mb05" />
+			</a>
+			<!-- STEP1ここから -->
+			<a href="search_list.html"><img src="images/base/step1.jpg" alt="お仕事探し！" width="180" height="150" border="0" class="mb05" /></a>
+			<!-- STEP1ここまで -->
+
+			<!-- 共通項目ここから -->
+			<div id="flash">
+				<div class="box0a">
+					<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="178" height="273">
+						<param name="movie" value="images/base/step2.swf">
+						<param name="wmode" value="transparent">
+						<param name="wmode" value="transparent">
+						<param name="quality" value="high">
+						<embed src="images/base/step2.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="178" height="273" wmode="transparent"></embed>
+					</object>
+				</div>
+			</div>
+			<a href="https://www.hoikujyouhou.com/h/regist.html"><img src="images/base/step2-bnr.png" alt="今すぐ登録" width="180" height="20" border="0" class="mb05" /></a>
+			
+
+			<img src="images/base/step3.jpg" alt="会員専用ページ" width="180" height="105" />
+			<div class="box0 step3">
+				<form method="post" action="/search_filter2.html?rid=16575">
+
+
+
+					<!-- ▼ログイン前の表示 -->
+					<p class="mb0">会員ID</p>
+					<input type="text" name="login_id" id="login_id" class="text" />
+					<p class="mb0">パスワード</p>
+					<input type="password" name="login_pass" id="login_pass" class="text2" />
+
+					<p class="chkbox"><input type="checkbox" name="hozon" id="hozon" value="1" /><label for="hozon">ログイン状態を保存する</label></p>
+
+					<input type="hidden" name="login_exe" id="login_exe" value="1" />
+					<input type="image" alt="ログイン" src="images/base/step3button.gif" class="btn" />
+					<p class="reissue"><a href="reminder.html" class="link" rel="external">パスワードを忘れた方はこちら</a></p>
+					<!-- ▲ログイン前の表示 ここまで-->
+				</form>
+
+			</div>
+		    <a href="schedule2/index.html"><img src="images/base/bnr_tourokukai.jpg" alt="登録会情報はこちら" width="180" height="125" border="0" class="mb05" /></a>
+			<a href="http://asukaseminar1.blog.fc2.com/" target="_blank" rel="nofollow"><img src="images/base/bnr_blog_event.jpg" alt="セミナー情報" width="180" height="50" border="0" class="mb05" /></a>
+			<a href="http://asuka0report.blog.fc2.com/" target="_blank" rel="nofollow"><img src="images/base/bnr_blog_report.jpg" alt="保育の現場レポート" width="180" height="50" border="0" class="mb05" /></a>
+			<a href="html/guide.html"><img src="images/base/bnr_guide.jpg" alt="店舗案内" width="180" height="65" border="0" class="mb05" /></a>
+			
+			<a href="life2/index.html"><img src="images/base/bnr_interview.jpg" alt="保育の現場インタビュー" width="180" height="65" border="0" class="mb05" /></a>
+			
+			<a href="html/material.html"><img src="images/base/bnr_sozaikan.jpg" alt="保育の素材缶" width="180" height="65" border="0" class="mb05" /></a>
+			<a href="html/words.html"><img src="images/base/bnr_glossary.jpg" alt="保育園用語集" width="180" height="65" border="0" class="mb05" /></a>
+			<a href="html/link2.html"><img src="images/base/bnr_link2.jpg" alt="おすすめ保育園幼稚園リンク集" width="180" height="65" border="0" class="mb05" /></a>
+			
+
+			<ul class="wood mb10">
+				<li><a href="html/link.html">リンク</a></li>
+				<li><a href="news2/index.html">お知らせ・ニュース</a></li>
+				<li><a href="blog2/index.html">スタッフブログ</a></li>
+				<li><a href="html/houjin/biz.html">法人・施設様へ</a></li>
+			</ul>
+
+			<img src="images/base/company.gif" alt="運営会社紹介" width="180" height="23" />
+			<div class="r_company">
+				<ul>
+					<li><a href="html/outline.html">会社概要</a></li>
+					<li><a href="html/guide.html">店舗案内</a></li>
+					<li><a href="html/privacy.html">個人情報保護方針</a></li>
+				</ul>
+				人材派遣・人材紹介の<br />
+				アスカグループ
+				<p class="fd mb0">TEL0120-777-277</p>
+				（フリーダイヤル）
+			</div>
+
+			<img src="images/base/twitter.gif" alt="アスカツイッター" width="180" height="23" />
+			<div class="r_twitter">
+				<a class="twitter-timeline" height="300" data-border-color="#9c3" data-chrome="nofooter" href="https://twitter.com/asuka_000" data-widget-id="347259610090070016">@asuka_000 からのツイート</a>
+				<script src="js/TWTR1.js" type="text/javascript"></script>
+			</div>
+
+			
+			<a href="http://www.asuka-hu.co.jp/" rel="external"><img src="images/base/bnr_asuka.jpg" alt="アスカグループ" width="180" height="60" border="0" class="mb05" /></a>
+			<script type="text/javascript" src="https://seal.verisign.com/getseal?host_name=www.hoikujyouhou.com&amp;size=L&amp;use_flash=NO&amp;use_transparent=YES&amp;lang=ja"></script>
+			<!-- 共通項目ここまで -->
+			<!-- inc_right -->
+		</div>
+
+	</div>
+
+	<!-- inc_footer -->
+	<div id="footer" class="clear">
+		<div class="f_seo">保育士　求人(正社員・パート・派遣)|幼稚園教諭|転職|保育情報どっとこむ|株式会社アスカ|株式会社アスカクリエート</div>
+		<div class="copy">
+			<p>Copyright(C) Asuka Corporation All Rights Reserved.</p>
+			<ul>
+				<li><a href="html/sitemap.html">サイトマップ</a></li>
+				<li><a href="html/privacy.html">個人情報保護</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- inc_footer -->
+
+</div>
+<script type="text/javascript" language="javascript" src="js/yahoo1.js"></script>
+<script type="text/javascript" language="javascript" src="//b92.yahoo.co.jp/js/s_retargeting.js"></script>
+</body>
+</html>

@@ -1,0 +1,1144 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<!-- HEADER-->
+<head>
+<base href="http://idgnow.uol.com.br/ti-pessoal/2013/09/25/games-valve-entra-no-mercado-de-consoles-com-o-steam-machine" />
+<title>Games: Valve entra no mercado de consoles com o Steam Machine - IDG Now!</title>
+<meta name="description"
+content="Anunciado nesta quarta-feira, 25/9, console vai rodar o sistema SteamOS e terá modelos diferentes feitos por diversas fabricantes." />
+<meta name="publisher" content="Now Digital" />
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@idgnow">
+<meta property="fb:admins" content="100001385884952" />
+<meta property="og:site_name" content="IDG Now!" />
+<meta property="og:url" content="http://idgnow.uol.com.br/ti-pessoal/2013/09/25/games-valve-entra-no-mercado-de-consoles-com-o-steam-machine/" />
+<meta property="og:title" content="Games: Valve entra no mercado de consoles com o Steam Machine - IDG Now!" />
+<meta property="og:type" content="article" />
+<meta property="og:description" content="Anunciado nesta quarta-feira, 25/9, console vai rodar o sistema SteamOS e terá modelos diferentes feitos por diversas fabricantes." />
+<meta property="og:image" content="http://idgnow.uol.com.br/imagens/logo-idgnow2-fb3.gif" />
+<!-- INICIO HEADER JS -->
+
+<!--[if lte IE 6]>
+    <script type="text/javascript" src="http://idgnow.uol.com.br/js/DD_belatedPNG.js"></script>
+    <script type="text/javascript">
+        DD_belatedPNG.fix('img, .png_bg');
+    </script>
+<![endif]-->
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- jQuery (required) -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+<!-- ANYTHINGSLIDER -->
+    <link rel="stylesheet"
+          href="http://idgnow.uol.com.br/css/anythingslider.css" />
+    <script src="http://idgnow.uol.com.br/js/jquery.anythingslider.min-1.8.17.js"></script>
+    <link rel="stylesheet"
+          href="http://idgnow.uol.com.br/css/theme-cs-portfolio.css" />
+<!-- // ANYTHINGSLIDER -->
+
+<!-- DFP vars -->
+<script language="javascript" type="text/javascript">
+Tile = 0;
+pOrd = Math.floor(Math.random() * 1E10);
+</script>
+<!-- // DFP vars -->
+
+<!-- FIM HEADER JS -->
+<!-- INICIO HEADER CSS -->
+
+    <link rel="stylesheet"
+          href="http://idgnow.uol.com.br/css/global21.css"
+          type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" media="screen"
+          href="http://idgnow.uol.com.br/css/categoria.css" />
+    <link rel="stylesheet"
+          href="http://idgnow.uol.com.br/css/plone-compatibility.css"
+          type="text/css" media="screen" />
+    <link rel="stylesheet"
+          href="http://idgnow.uol.com.br/css/custom-tweet-button.css"
+          type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css"
+          href="http://idgnow.uol.com.br/viewlets/viewlet_ticker_patrocinio.css" />
+    <link rel="stylesheet" type="text/css"
+          href="http://idgnow.uol.com.br/viewlets/viewlet_ticker_patrocinio_home.css" />
+    <link rel="alternate stylesheet" type="text/css"
+          media="screen" title="Texto Medio"
+          href="http://files.macworldbrasil.com.br/txtmedio.css" />
+
+
+    <!-- Internet Explorer CSS Fixes -->
+    <!--[if lt IE 7]>
+        
+    <![endif]-->
+
+<!-- FIM HEADER CSS -->
+<link rel="shortcut icon" type="image/x-icon"
+href="http://idgnow.uol.com.br/favicon.ico" />
+<link rel="search"
+href="http://idgnow.uol.com.br/search_form"
+title="Search this site" />
+<link rel="home" href="http://idgnow.uol.com.br"
+title="Front page" />
+<link rel="contents"
+href="http://idgnow.uol.com.br/sitemap.xml.gz"
+title="Site Map" />
+<link rel="up"
+href="http://idgnow.uol.com.br/ti-pessoal/2013/09/25"
+title="Up one level" />
+<!-- Disable IE6 image toolbar -->
+<meta http-equiv="imagetoolbar" content="no" />
+<!-- A slot where you can insert CSS in the header from a template -->
+<!-- A slot where you can insert elements in the header from a template -->
+<!-- A slot where you can insert javascript in the header from a template -->
+<script type="text/javascript"
+src="http://idgnow.uol.com.br/js1d/refresh_banner.js"></script>
+<script language="javascript" type="text/javascript">
+sitepage = 'idgnow/ti-pessoal/interna';
+OA_source = 'ti-pessoalinterna'
+kw = '';
+</script>
+<link rel="alternate" type="application/rss+xml" title="IDG Now! - Últimas notícias" href="http://www.idgnow.com.br/RSS2" />
+<link rel="alternate" type="application/rss+xml" title="IDG Now! - Blogs" href="http://www.idgnow.com.br/RSS2_blog" />
+<link rel="alternate" type="application/rss+xml" title="IDG Now! - Colunas" href="http://www.idgnow.com.br/RSS2_coluna" />
+<link rel="alternate" type="application/rss+xml" title="IDG Now! - Mercado" href="http://www.idgnow.com.br/mercado/RSS2" />
+<link rel="alternate" type="application/rss+xml" title="IDG Now! - Internet" href="http://www.idgnow.com.br/internet/RSS2" />
+<link rel="alternate" type="application/rss+xml" title="IDG Now! - Segurança" href="http://www.idgnow.com.br/seguranca/RSS2" />
+<link rel="alternate" type="application/rss+xml" title="IDG Now! - Computação Pessoal" href="http://www.idgnow.com.br/computacao_pessoal/RSS2" />
+<link rel="alternate" type="application/rss+xml" title="IDG Now! - Computação Corporativa" href="http://www.idgnow.com.br/computacao_corporativa/RSS2" />
+<link rel="alternate" type="application/rss+xml" title="IDG Now! - Carreira" href="http://www.idgnow.com.br/carreira/RSS2" />
+<link rel="alternate" type="application/rss+xml" title="IDG Now! - Mobilidade" href="http://www.idgnow.com.br/mobilidade/RSS2" />
+<link rel="alternate" type="application/rss+xml" title="IDG Now! - Central de Álbum de Fotos" href="http://www.idgnow.com.br/galerias/RSS2" />
+<link rel="alternate" type="application/rss+xml" title="IDG Now! - Podcast IDG Now!" href="http://www.idgnow.com.br/podcast.xml" />
+<!-- GOOGLE ANALYTICS -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-757904-1']);
+_gaq.push(['_setLocalGifPath', 'http://idgnow.uol.com.br/urchin.gif']);
+_gaq.push(['_setLocalRemoteServerMode']);
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+_gaq.push(['b._setAccount', 'UA-757904-21']);
+_gaq.push(['b._trackPageview']);
+_gaq.push(['c._setAccount', 'UA-757904-32']);
+_gaq.push(['c._trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<!-- /GOOGLE ANALYTICS -->
+<!-- INICIO NAVEGG -->
+
+      <script type="text/javascript">var DARTSTRING = '';</script>
+
+<!-- FIM NAVEGG -->
+<!-- For iPhone with high-resolution Retina display: -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://idgnow.uol.com.br/mobile/apple-touch-icon-114x114-precomposed.png">
+<!-- For first- and second-generation iPad: -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://idgnow.uol.com.br/mobile/apple-touch-icon-72x72-precomposed.png">
+<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+<link rel="apple-touch-icon-precomposed" href="http://idgnow.uol.com.br/mobile/apple-touch-icon-precomposed.png">
+</head>
+<body>
+<!-- INICIO INTERSTITIAL + BACKGROUND ADs -->
+<div id="nd-interstitial" style="display:none;">
+</div>
+<div id="nd-site">
+<!-- X01 -->
+<script language="javascript"
+type="text/javascript"
+src="http://idgnow.uol.com.br/js1d/dfp_interstitial2_ti-pessoal.js"></script>
+<!-- FIM INTERSTITIAL + BACKGROUND ADs -->
+<!-- INICIO BARRA UOL -->
+<script src="http://barra.uolhost.com.br/bpv2_m2_1024.js"></script>
+<!--googleoff: index-->
+<noscript><div>UOL HOST: <a href="http://www.uolhost.com.br/hospedagem-de-sites.html" rel="nofollow">Hospedagem</a> de sites,
+<a href="http://www.uolhost.com.br/loja-virtual/" rel="nofollow">Loja Virtual</a>,
+<a href="http://www.uolhost.com.br/registro-de-dominio.html" rel="nofollow">Registro de domínios</a></div></noscript>
+<!--googleon: index-->
+<!-- FIM BARRA UOL -->
+<!-- INICIO MENU LOGIN -->
+<!-- FIM MENU LOGIN -->
+<!-- INICIO MENU PORTAIS -->
+<div class="barraInterSites">
+    <ul id="tabsMenuSites" class="clearfix;">
+    <li class="abaIdgnow"><a href="javascript:void(0);" rel="external" title="IDG Now!">IDG Now!</a></li>
+    <li class="abaPcw"><a href="http://pcworld.com.br/" rel="external" title="PCWorld">PCWorld</a></li>
+    <li class="abaMac"><a href="http://macworldbrasil.com.br/" rel="external" title="Macworld">Macworld</a></li>
+    <li class="abaCw"><a href="http://computerworld.com.br/" rel="external" title="Computerworld">Computerworld</a></li>
+    <li class="abaCio"><a href="http://cio.com.br/" rel="external" title="CIO">CIO</a></li>
+    <li class="abaNowdigital">
+        <a href="http://www.nowdigital.com.br/" rel="external" title="Now!Digital">Now!Digital</a>
+        <ul class="dropNowdigital">
+        <li><a href="http://www.nowdigital.com.br/inst_historia" rel="external" title="A Empresa">A EMPRESA</a></li>
+        <li><a href="http://www.eventosnowdigital.com.br/" rel="external" title="Eventos">EVENTOS</a></li>
+        <li><a href="http://www.digitalage20.com.br/" rel="external" title="Digital Age 2.0">DIGITAL AGE 2.0</a></li>
+        <li><a href="http://itboard.com.br/" rel="external" title="IT Board">IT BOARD</a></li>
+        <li><a href="http://www.nowdigital.com.br/estaticas/mediakit/MidiaKit2013_COMPLETO_BR.pdf" rel="external" title="Para anunciar">PARA ANUNCIAR</a></li>
+        </ul>
+    </li>
+    </ul>
+</div>
+
+<!-- FIM MENU PORTAIS -->
+<!-- INICIO CONTEUDO GLOBAL -->
+<div id="conteiner">
+<!-- INICIO CABECALHO -->
+<!-- INICIO PUBLICIDADE TOPO + BLOGS -->
+<div class="publicidadeTopo clearfix">
+<div class="topBanner">
+<script language="javascript" type="text/javascript">
+Tile = Number(Tile)+1;
+if (kw != ''){
+if (17>Tile) document.write('<script type="text/javascript" src="http://ad.br.doubleclick.net/N6594/adj/'+sitepage+';tile=' + Tile + ';pos=top;sz=728x90,468x60;kw=' +kw+ ';ord=' + pOrd + '?"><\/script>');
+}else{
+if (17>Tile) document.write('<script type="text/javascript" src="http://ad.br.doubleclick.net/N6594/adj/'+sitepage+';tile=' + Tile + ';pos=top;sz=728x90,468x60;ord=' + pOrd + '?"><\/script>');
+}
+</script>
+</div>
+<!-- INICIO BLOGS -->
+<div class="boxBlog">
+<div class="itemBlog clearfix">
+<ul id="sliderBlogsTopo"><li><div class="txtItemBlog"><h2><a href="http://idgnow.uol.com.br/blog/vivo/" title="Fique por Dentro">Fique por Dentro</a></h2><p><a href="http://idgnow.uol.com.br/blog/vivo/2013/10/01/fibra-optica-ganha-espaco-tambem-fora-de-sao-paulo" title="Fibra óptica ganha espaço também fora de São Paulo">Fibra óptica ganha espaço também fora de São Paulo</a></p></div><a href="http://idgnow.uol.com.br/blog/vivo/2013/10/01/fibra-optica-ganha-espaco-tambem-fora-de-sao-paulo" title="Vivo Empresas"><img src="http://idgnow.uol.com.br/blog/vivo/files/2013/08/Vivo_blog_80x92_b.png" alt="Vivo Empresas" class="fotoItemBlog" nopin="nopin" /></a></li><li><div class="txtItemBlog"><h2><a href="http://idgnow.uol.com.br/blog/plural/" title="Plural">Plural</a></h2><p><a href="http://idgnow.uol.com.br/blog/plural/2013/10/03/use-o-jeito-hacker-para-resolver-o-problema-de-oferta-e-demanda-no-marketplace" title="Use o jeito hacker para resolver o problema de oferta e demanda no marketplace">Use o jeito hacker para resolver o problema de oferta e demanda no marketplace</a></p></div><a href="http://idgnow.uol.com.br/blog/plural/2013/10/03/use-o-jeito-hacker-para-resolver-o-problema-de-oferta-e-demanda-no-marketplace" title="Articulistas convidados"><img src="http://idgnow.uol.com.br/blog/plural/files/2012/04/plural_vl_top.jpg" alt="Articulistas convidados" class="fotoItemBlog" nopin="nopin" /></a></li><li><div class="txtItemBlog"><h2><a href="http://idgnow.uol.com.br/blog/circuito/" title="Circuito De Luca">Circuito De Luca</a></h2><p><a href="http://idgnow.uol.com.br/blog/circuito/2013/10/04/brasil-cai-oito-posicoes-no-ranking-de-liberdade-na-internet" title="Brasil cai oito posições no ranking de liberdade na Internet">Brasil cai oito posições no ranking de liberdade na Internet</a></p></div><a href="http://idgnow.uol.com.br/blog/circuito/2013/10/04/brasil-cai-oito-posicoes-no-ranking-de-liberdade-na-internet" title="Cristina De Luca"><img src="http://idgnow.uol.com.br/blog/circuito/files/2010/08/deluca-VL2.jpg" alt="Cristina De Luca" class="fotoItemBlog" nopin="nopin" /></a></li><li><div class="txtItemBlog"><h2><a href="http://idgnow.uol.com.br/blog/tecnologia/" title="Tecnologia">Tecnologia</a></h2><p><a href="http://idgnow.uol.com.br/blog/tecnologia/2013/09/30/a-hora-dos-sistemas-de-engajamento" title="A hora dos sistemas de engajamento">A hora dos sistemas de engajamento</a></p></div><a href="http://idgnow.uol.com.br/blog/tecnologia/2013/09/30/a-hora-dos-sistemas-de-engajamento" title="Cezar Taurion"><img src="http://idgnow.uol.com.br/blog/tecnologia/files/2012/10/cezar-53x62.jpg" alt="Cezar Taurion" class="fotoItemBlog" nopin="nopin" /></a></li><li><div class="txtItemBlog"><h2><a href="http://idgnow.uol.com.br/blog/demo/" title="Demo Blog">Demo Blog</a></h2><p><a href="http://idgnow.uol.com.br/blog/demo/2013/10/01/startups-de-tecnologia-poderao-ter-isencao-fiscal-por-dois-anos" title="Startups de tecnologia poderão ter isenção fiscal por dois anos">Startups de tecnologia poderão ter isenção fiscal por dois anos</a></p></div><a href="http://idgnow.uol.com.br/blog/demo/2013/10/01/startups-de-tecnologia-poderao-ter-isencao-fiscal-por-dois-anos" title="Demo Blog"><img src="http://idgnow.uol.com.br/blog/demo/files/2013/02/demo-blog80-92b.jpg" alt="Demo Blog" class="fotoItemBlog" nopin="nopin" /></a></li></ul>
+</div>
+<ul class="navBlog">
+<li class="btnBlogAnt" id="btnBlogAnt"></li>
+<li class="btnBlogProx" id="btnBlogProx"></li>
+</ul>
+<script>
+// Set up Sliders
+// **************
+$(function(){
+$('#sliderBlogsTopo').anythingSlider({
+theme              : 'cs-portfolio',
+resizeContents     : false,
+vertical           : false,
+hashTags           : false,
+buildArrows        : true,
+startPanel         : 0,
+buildNavigation    : false,
+buildStartStop     : false,
+appendForwardTo    : $('#btnBlogProx'),
+forwardText        : "PRÓXIMO",
+appendBackTo       : $('#btnBlogAnt'),
+backText           : "ANTERIOR",
+pauseOnHover       : true,
+autoPlay           : false,
+easing             : 'linear',
+delay              : 7300,
+animationTime      : 300,
+onSlideComplete    : function(slider){
+}
+})
+});
+</script>
+</div>
+<!-- FIM BLOGS -->
+</div>
+<!-- FIM PUBLICIDADE TOPO + BLOGS -->
+<header id="header">
+<div class="contHeader">
+<div class="barraLogo">
+<!-- INICIO LOGO + SOCIAL -->
+<h1><a title="Home"
+href="http://idgnow.uol.com.br"><img
+title="IDG Now!"
+src="http://idgnow.uol.com.br/imagens/logo_idgnow_v02.gif" /></a></h1>
+<div class="redesSociais">
+<ul>
+<li><a href="http://twitter.com/idgnow" target="_blank" class="btnTwitter png_bg" title="Twitter">Twitter</a></li>
+<li><a href="http://www.facebook.com/pages/IDG-Now/23027913857" target="_blank" class="btnFacebook png_bg" title="Facebook">Facebook</a></li>
+<li><a href="http://youtube.com/idgnow" target="_blank" class="btnYoutube png_bg" title="YouTube">YouTube</a></li>
+<li><a href="http://idgnow.uol.com.br/rss" target="_blank" class="btnRss png_bg" title="RSS">RSS</a></li>
+</ul>
+<p>tecnologia em primeiro lugar</p>
+</div>
+<!-- FIM LOGO + SOCIAL -->
+<table class="wrapBusca clearfix">
+<tr>
+<!-- INICIO BUSCA -->
+<td class="boxBusca">
+<form id="idgnow-form-top" action="http://idgnow.uol.com.br/busca">
+<fieldset>
+<input type="submit" class="btnBusca" name="sa" value="" />
+<input type="hidden" name="cx" value="009797713746722025445:rcxwsh43g6g " />
+<input type="hidden" name="ie" value="UTF-8" />
+<input type="text" name="q" class="campoBusca" style="background: url(http://www.google.com/cse/intl/pt_BR/images/google_custom_search_watermark.gif) no-repeat scroll left 15px; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" />
+<span>Busca Google</span>
+</fieldset>
+</form>
+<script type="text/javascript"
+src="http://idgnow.uol.com.br/js1d/busca_form.js"></script>
+</td>
+<!-- FIM BUSCA -->
+</tr>
+</table>
+</div>
+</div>
+<!-- INICIO BARRA MENU -->
+<nav class="menu clearfix">
+<ul>
+<li class="lastOptMenu">
+<a title="Tópicos" href="javascript:void();">TÓPICOS</a>
+<ul class="dropTopicos">
+<li><a href="http://idgnow.uol.com.br/topico/Rede Social"
+title="Rede Social">Rede Social</a></li>
+<li><a href="http://idgnow.uol.com.br/topico/Banda Larga"
+title="Banda Larga">Banda Larga</a></li>
+<li><a href="http://idgnow.uol.com.br/topico/Seguranca"
+title="Segurança">Segurança</a></li>
+<li><a href="http://idgnow.uol.com.br/topico/Mercado"
+title="Mercado">Mercado</a></li>
+<li><a href="http://idgnow.uol.com.br/topico/Tablet"
+title="Tablet">Tablet</a></li>
+<li><a href="http://idgnow.uol.com.br/topico/E-reader"
+title="E-reader">E-reader</a></li>
+<li><a href="http://idgnow.uol.com.br/topico/Smartphone"
+title="Smartphone">Smartphone</a></li>
+<li><a href="http://idgnow.uol.com.br/topico/SEO"
+title="SEO">SEO</a></li>
+<li><a href="http://idgnow.uol.com.br/topico/Android"
+title="Android">Android</a></li>
+<li><a href="http://idgnow.uol.com.br/topico/iOS"
+title="iOS">iOS</a></li>
+<li><a href="http://idgnow.uol.com.br/topico/Windows Phone"
+title="Windows Phone">Windows Phone</a></li>
+</ul>
+</li>
+<li><a title="ÚLTIMAS NOTÍCIAS"
+href="http://idgnow.uol.com.br/ultimas-noticias/">ÚLTIMAS</a></li>
+<li><a title="INTERNET"
+href="http://idgnow.uol.com.br/internet/">INTERNET</a></li>
+<li><a title="MOBILIDADE"
+href="http://idgnow.uol.com.br/mobilidade/">MOBILIDADE</a></li>
+<li><a title="TI CORPORATIVA"
+href="http://idgnow.uol.com.br/ti-corporativa/">TI CORPORATIVA</a></li>
+<li><a title="TI PESSOAL"
+href="http://idgnow.uol.com.br/ti-pessoal/"
+class="activeLinkMenu">TI PESSOAL</a></li>
+<li><a title="VÍDEOS"
+href="http://idgnow.uol.com.br/videos/">VÍDEOS</a></li>
+<li class="itemBlogs">
+<a title="BLOGS"
+href="http://idgnow.uol.com.br/blogs/">BLOGS</a>
+<ul class="dropBlogs">
+<li><a title="CIRCUITO DE LUCA"
+href="http://idgnow.uol.com.br/blog/circuito/">CIRCUITO DE LUCA</a></li>
+<li><a title="DEMO Blog"
+href="http://idgnow.uol.com.br/blog/demo/">DEMO Blog</a></li>
+<li><a title="DIGITALIS Direito Digital por PAtricia Peck Pinheiro"
+href="http://idgnow.uol.com.br/blog/digitalis/">DIGITALIS</a></li>
+<li><a title="Endeavor Brasil"
+href="http://idgnow.uol.com.br/blog/endeavor/">Endeavor Brasil</a></li>
+<li><a title="Futuro do presente por Silvia Bassi"
+href="http://idgnow.uol.com.br/blog/futuro-do-presente/">Futuro do presente</a></li>
+<li><a title="Geeks ao Volante - Blog coletivo do IDGNow"
+href="http://idgnow.uol.com.br/blog/geeks-ao-volante/">Geeks ao Volante</a></li>
+<li><a title="GLOG - Blog coletivo do IDGNow"
+href="http://idgnow.uol.com.br/blog/glog/">GLOG</a></li>
+<li><a title="#HASHTAG"
+href="http://idgnow.uol.com.br/blog/hashtag/">#HASHTAG</a></li>
+<li><a title="INOVA por Renato Rodrigues"
+href="http://idgnow.uol.com.br/blog/inova/">INOVA</a></li>
+<li><a title="MENTE HACKER"
+href="http://idgnow.uol.com.br/blog/mente-hacker/">MENTE HACKER</a></li>
+<li><a title="MUNDO UC&amp;C"
+href="http://idgnow.uol.com.br/blog/voitel/">MUNDO UC&amp;C</a></li>
+<li><a title="PLANOS &amp; IDEIAS por Ricardo Almeida"
+href="http://idgnow.uol.com.br/blog/planoseideias/">PLANOS & IDEIAS</a></li>
+<li><a title="PLURAL"
+href="http://idgnow.uol.com.br/blog/plural/">PLURAL</a></li>
+<li><a title="STARTUPLACE por André Teles/Carlos Matos"
+href="http://idgnow.uol.com.br/blog/startuplace/">STARTUPLACE</a></li>
+<li><a title="TECH insights &amp; trends"
+href="http://idgnow.uol.com.br/blog/tech-insights-trends/">TECH insights & trends</a></li>
+<li><a title="TECNOLOGIA por Cezar Taurion"
+href="http://idgnow.uol.com.br/blog/tecnologia/">TECNOLOGIA</a></li>
+<li><a title="TECNOLOGIA &amp; COMUNICAÇÃO por Walter Lima"
+href="http://idgnow.uol.com.br/blog/tecnologiaecomunicacao/">TECNOLOGIA & COMUNICAÇÃO</a></li>
+<li><a title="VIVO - FIQUE POR DENTRO"
+href="http://idgnow.uol.com.br/blog/vivo/">VIVO - FIQUE POR DENTRO</a></li>
+</ul>
+</li>
+<li class="itVerticals">
+<a href="javascript:void(0);" class="linkBlank" title="IT Verticals">IT VERTICALS</a>
+<ul class="dropVerticals">
+<li><a title="CLOUD"
+href="http://idgnow.uol.com.br/especiais/cloud_computing/">CLOUD</a></li>
+<li><a title="IFA 2012"
+href="http://idgnow.uol.com.br/especiais/ifa-2012/">IFA 2012</a></li>
+<li><a title="Windows 8"
+href="http://idgnow.uol.com.br/especiais/windows8/">Windows 8</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+<!-- FIM BARRA MENU -->
+</header>
+
+<!-- FIM CABECALHO -->
+<!-- INICIO MIOLO -->
+<div id="portal-column-content">
+<div id="content" class="">
+<div class="documentContent" id="region-content">
+<!-- TICKER -->
+<div class="tickerPatrocinio">
+<script type="text/javascript"
+src="http://idgnow.uol.com.br/js-nbusiness-2010/jquery.ticker.min.js"></script>
+<script type="text/javascript"
+src="http://idgnow.uol.com.br/js-nbusiness-2010/sortear_link.js"></script>
+<script type="text/javascript"
+src="http://idgnow.uol.com.br/js-nbusiness-2010/ticker_links_nbusiness.js"></script>
+<script type="text/javascript"
+src="http://idgnow.uol.com.br/js-nbusiness-2010/get_array_links_whitepapers2.js"></script>
+<div class="logoTicker"><img nopin="nopin" src="http://idgnow.uol.com.br/imagens/logo_ticker_wp.png" alt="" /></div>
+<div class="scrollText" id="divWPticker">Texto t e x t o texto t e x t o texto t e x t o texto t e x t o texto t e x t o texto t e x t o texto
+<script type="text/javascript">tickerWPView('idgnow',3);</script>
+</div>
+<script type="text/javascript">
+$(function () {
+$("#js-news").ticker({
+speed: 0.40,
+titleText: '',
+pauseOnItems: 7500
+});
+});
+</script>
+</div>
+<!-- /TICKER -->
+<section id="conteudo" class="clearfix">
+<!-- Main Column -->
+<div class="mainCol">
+<!-- INICIO SELO ESPECIAL -->
+<!-- FIM SELO ESPECIAL -->
+<!-- INICIO BANNER+SECAO -->
+<script type="text/javascript">var newsTopicoId='ti-pessoal'; var newsTopico='TI pessoal';var hasTopico=0</script>
+<link rel="stylesheet" type="text/css" media="screen"
+href="http://idgnow.uol.com.br/css/noticia.css" />
+<div class="patrocinioCanalCateg">
+<h2>
+<span class="titTag" id="titTag"></span>
+<span class="patrocinioMateria">
+<script language="javascript" type="text/javascript">
+Tile = Number(Tile)+1;
+if (kw != ''){
+if (17>Tile) document.write('<script type="text/javascript" src="http://ad.br.doubleclick.net/N6594/adj/'+sitepage+';tile=' + Tile + ';pos=x30;sz=120x40,172x40' +DARTSTRING+ ';kw=' +kw+ ';ord=' + pOrd + '?"><\/script>');
+}else{
+if (17>Tile) document.write('<script type="text/javascript" src="http://ad.br.doubleclick.net/N6594/adj/'+sitepage+';tile=' + Tile + ';pos=x30;sz=120x40,172x40' +DARTSTRING+ ';ord=' + pOrd + '?"><\/script>');
+}
+</script>
+</span>
+</h2>
+</div>
+
+<script type="text/javascript"
+src="http://idgnow.uol.com.br/js1d/patrocinio_secao.js"></script>
+<!-- FIM BANNER+SECAO -->
+<!-- Notícia -->
+<article class="noticia clearfix">
+<h2>Games: Valve entra no mercado de consoles com o Steam Machine</h2>
+<div class="autorNoticia">
+<span>TechHive / EUA</span>
+</div>
+<div class="btnFollowAutor">
+</div>
+<div class="infoNoticia">
+25 de setembro de 2013 - 19h28
+</div>
+<!-- INICIO BARRA SHARE -->
+<ul class="barraShareVert" id="barraShareVert">
+<li><a href="https://twitter.com/share"
+class="twitter-share-button" data-via="idgnow"
+data-lang="en"
+data-related="pcworldbrasil%2Cmacworld_brasil"
+data-count="vertical"
+data-url="http://idgnow.uol.com.br/ti-pessoal/2013/09/25/games-valve-entra-no-mercado-de-consoles-com-o-steam-machine/"
+data-text="Games: Valve entra no mercado de consoles com o Steam Machine"
+data-hashtags="Valve,SteamMachine">Tweet</a></li>
+<li><script type="in/share" data-counter="top"
+data-url="http://idgnow.uol.com.br/ti-pessoal/2013/09/25/games-valve-entra-no-mercado-de-consoles-com-o-steam-machine/"></script></li>
+<li><iframe scrolling="no" frameborder="0"
+style="border:none; overflow:hidden; width:90px; height:61px;"
+allowtransparency="true"
+src="//www.facebook.com/plugins/like.php?href=http://idgnow.uol.com.br/ti-pessoal/2013/09/25/games-valve-entra-no-mercado-de-consoles-com-o-steam-machine/%2F&amp;send=false&amp;layout=box_count&amp;width=90&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=61"></iframe></li>
+<li><div class="g-plusone" data-size="tall"
+data-href="http://idgnow.uol.com.br/ti-pessoal/2013/09/25/games-valve-entra-no-mercado-de-consoles-com-o-steam-machine/"></div></li>
+<li><a class="btnImprima" target="_blank"
+href="http://idgnow.uol.com.br/ti-pessoal/2013/09/25/games-valve-entra-no-mercado-de-consoles-com-o-steam-machine//pagina-impressao">Imprima</a></li>
+<li><span class="st_sharethis" st_page="home"
+displaytext="Mais +"
+data-uri="http://idgnow.uol.com.br/ti-pessoal/2013/09/25/games-valve-entra-no-mercado-de-consoles-com-o-steam-machine/"
+data-title="Games: Valve entra no mercado de consoles com o Steam Machine"></span></li>
+</ul>
+<ul class="barraShareHoriz clearfix"
+id="barraShareHoriz">
+<li><a href="http://twitter.com/share"
+class="twitter-share-button"
+data-count="horizontal" data-via="idgnow"
+data-related="pcworldbrasil%2Cmacworld_brasil"
+data-lang="en"
+data-url="http://idgnow.uol.com.br/ti-pessoal/2013/09/25/games-valve-entra-no-mercado-de-consoles-com-o-steam-machine/"
+data-text="Games: Valve entra no mercado de consoles com o Steam Machine"
+data-hashtags="Valve,SteamMachine">Tweet</a></li>
+<li><script type="in/share" data-counter="right"
+data-onsuccess="LinkedInShare"
+data-url="http://idgnow.uol.com.br/ti-pessoal/2013/09/25/games-valve-entra-no-mercado-de-consoles-com-o-steam-machine/"></script></li>
+<li><iframe scrolling="no" frameborder="0"
+style="border:none; overflow:hidden; width:90px; height:21px;"
+allowtransparency="true"
+src="//www.facebook.com/plugins/like.php?href=http://idgnow.uol.com.br/ti-pessoal/2013/09/25/games-valve-entra-no-mercado-de-consoles-com-o-steam-machine/%2F&amp;send=false&amp;layout=button_count&amp;width=90&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21"></iframe></li>
+<li><g:plusone size="medium"
+href="http://idgnow.uol.com.br/ti-pessoal/2013/09/25/games-valve-entra-no-mercado-de-consoles-com-o-steam-machine/"></g:plusone></li>
+<li><a class="btnImprima" target="_blank"
+href="http://idgnow.uol.com.br/ti-pessoal/2013/09/25/games-valve-entra-no-mercado-de-consoles-com-o-steam-machine//pagina-impressao">Imprima</a></li>
+<li class="btnShareMais"><span class="st_sharethis"
+st_page="home" displaytext="Mais +"
+data-uri="http://idgnow.uol.com.br/ti-pessoal/2013/09/25/games-valve-entra-no-mercado-de-consoles-com-o-steam-machine/"
+data-title="Games: Valve entra no mercado de consoles com o Steam Machine"></span></li>
+</ul>
+<!-- FIM BARRA SHARE -->
+<div class="olhoNoticia">Anunciado nesta quarta-feira, 25/9, console vai rodar o sistema SteamOS e terá modelos diferentes feitos por diversas fabricantes.</div>
+<div class="corpoNoticia">
+<div class="boxesLeft">
+</div>
+<p class="p1">Finalmente aconteceu: a Valve anunciou uma nova linha de consoles nesta quarta-feira, 25/9, que vão rodar o recém-anunciado SteamOS e serão lançados no ano que vem.</p>
+<p class="p1">Chamados de Steam Machnes, os consoles terão diferentes modelos, com preços, fabricantes e perfis de hardware variados. A Valve não revelou detalhes sobre as especificações técnicas do aparelho, mas disse que vai enviar ainda em 2013 cerca de 300 protótipos aos usuários Steam que se qualifiquem para o programa beta do Steam Machines.</p>
+<p style="text-align: center;" class="p1"><img class="image-inline" src="http://idgnow.uol.com.br/idgimages/imagefolder.2013-09-13.5640933562/steammachines01.png" alt="steammachines01.png" /></p>
+<p class="p1">Quem quiser entrar para a lista de potenciais provadores precisa realizar algumas etapas antes de 25 de outubro. Faça login no Steam e entre para o grupo Steam Universe, que já tinha superado os 100 mil membros até o fechamento dessa reportagem. Em seguida, você precisa preencher uma ficha de inscrição.</p>
+<p style="text-align: center;" class="p1"><img class="image-inline" src="http://idgnow.uol.com.br/idgimages/imagefolder.2013-09-13.5640933562/steammachines02.png" alt="steammachines02.png" /></p>
+<p class="p1"><strong>O que esperar</strong></p>
+<p class="p1">Isso é o que já sabemos até agora: o protótipo da Valve é feito para pessoas que preferem “o maior controle possível sobre seu hardware”. Mas haverá outros Steam Machines de fabricantes diferentes que serão feitas para pessoas que ligam mais para preço e tamanho, por exemplo.&nbsp;</p>
+<p class="p1">O Steam Machine é feito para rodar o SteamOS, mas você pode modificá-lo para rodar qualquer sistema operacional que quiser. No entanto, provavelmente seria mais interessante manter o SteamOS instalado em Steam Machines menos poderosoas caso já tenha uma plataforma de games com Windows, uma vez que o sistema da Valve é capaz de realizar streaming de games de outro PC via Wi-Fi.</p>
+<p style="text-align: center;" class="p1"><img class="image-inline" src="http://idgnow.uol.com.br/idgimages/imagefolder.2013-09-13.5640933562/steammachines03.png" alt="steammachines03.png" /></p>
+</div>
+<!-- INICIO BARRA SHARE -->
+<ul class="barraShareHoriz clearfix"
+id="barraShareHoriz2">
+<li><a href="http://twitter.com/share"
+class="twitter-share-button"
+data-count="horizontal" data-via="idgnow"
+data-related="pcworldbrasil%2Cmacworld_brasil"
+data-lang="en"
+data-url="http://idgnow.uol.com.br/ti-pessoal/2013/09/25/games-valve-entra-no-mercado-de-consoles-com-o-steam-machine/"
+data-text="Games: Valve entra no mercado de consoles com o Steam Machine"
+data-hashtags="Valve,SteamMachine">Tweet</a></li>
+<li><script type="in/share" data-counter="right"
+data-onsuccess="LinkedInShare"
+data-url="http://idgnow.uol.com.br/ti-pessoal/2013/09/25/games-valve-entra-no-mercado-de-consoles-com-o-steam-machine/"></script></li>
+<li><iframe scrolling="no" frameborder="0"
+style="border:none; overflow:hidden; width:90px; height:21px;"
+allowtransparency="true"
+src="//www.facebook.com/plugins/like.php?href=http://idgnow.uol.com.br/ti-pessoal/2013/09/25/games-valve-entra-no-mercado-de-consoles-com-o-steam-machine/%2F&amp;send=false&amp;layout=button_count&amp;width=90&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21"></iframe></li>
+<li><g:plusone size="medium"
+href="http://idgnow.uol.com.br/ti-pessoal/2013/09/25/games-valve-entra-no-mercado-de-consoles-com-o-steam-machine/"></g:plusone></li>
+<li><a class="btnImprima" target="_blank"
+href="http://idgnow.uol.com.br/ti-pessoal/2013/09/25/games-valve-entra-no-mercado-de-consoles-com-o-steam-machine//pagina-impressao">Imprima</a></li>
+<li class="btnShareMais"><span class="st_sharethis"
+st_page="home" displaytext="Mais +"
+data-uri="http://idgnow.uol.com.br/ti-pessoal/2013/09/25/games-valve-entra-no-mercado-de-consoles-com-o-steam-machine/"
+data-title="Games: Valve entra no mercado de consoles com o Steam Machine"></span></li>
+</ul>
+<!-- FIM BARRA SHARE -->
+<!-- INICIO WHITEPAPERS -->
+<script type="text/javascript" src="http://idgnow.uol.com.br/js-nbusiness-2010/get_array_links_whitepapers2.js"></script>
+<script type="text/javascript" src="http://idgnow.uol.com.br/js1d/sortear_link.js"></script>
+<script type="text/javascript" src="http://idgnow.uol.com.br/js-nbusiness-2010/inc_nbusiness.js"></script>
+<link href="http://idgnow.uol.com.br/css/inc_nbusiness_rodape.css"
+rel="stylesheet" type="text/css" />
+<div id="post-rodape">
+<hr class="hr-strong">
+<div id="divIncNBusiness"><script>inc_nbusinessView('idgnow', 2);</script></div>
+<hr class="hr-strong">
+</div>
+<!-- FIM WHITEPAPERS -->
+<!-- INICIO INC BOX NEWS W IMG -->
+<div class="noticiasComImagem clearfix">
+<h2>>> VEJA TAMBÉM</h2>
+<!-- INICIO BOX CHAMADA ESPECIAL -->
+<div class="boxNoticiasComImagem">
+<figure>
+<a href="http://idgnow.uol.com.br/mobilidade/2013/10/04/rival-do-skype-app-de-mensagens-e-videochamadas-line-chega-ao-brasil?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=Rival+do+Skype%3A+app+de+mensagens+e+videochamadas+Line+chega+ao+Brasil&amp;utm_content=rodape-materia-img"
+title="Rival do Skype: app de mensagens e videochamadas Line chega ao Brasil"><img
+src="http://idgnow.uol.com.br/idgimages/201310/lineapp_43501.jpg"
+alt="Rival do Skype: app de mensagens e videochamadas Line chega ao Brasil" /></a>
+</figure>
+<ul>
+<li><h3><a href="http://idgnow.uol.com.br/mobilidade/2013/10/04/rival-do-skype-app-de-mensagens-e-videochamadas-line-chega-ao-brasil?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=Rival+do+Skype%3A+app+de+mensagens+e+videochamadas+Line+chega+ao+Brasil&amp;utm_content=rodape-materia-img"
+title="Rival do Skype: app de mensagens e videochamadas Line chega ao Brasil">Rival do Skype: app de mensagens e videochamadas Line chega ao Brasil</a></h3></li>
+</ul>
+</div>
+<!-- INICIO BOX CHAMADA ESPECIAL -->
+<div class="boxNoticiasComImagem">
+<figure>
+<a href="http://idgnow.uol.com.br/ti-pessoal/2013/10/04/gta-v-e-tao-violento-quanto-tv-e-cinema-defendem-atores-do-game?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=%22GTA+V%22+%C3%A9+t%C3%A3o+violento+quanto+TV+e+cinema%2C+defendem+atores+do+game&amp;utm_content=rodape-materia-img"
+title="&quot;GTA V&quot; é tão violento quanto TV e cinema, defendem atores do game"><img
+src="http://idgnow.uol.com.br/idgimages/imagefolder.2013-01-02.4179038441/gtav_43501.jpg"
+alt="&quot;GTA V&quot; é tão violento quanto TV e cinema, defendem atores do game" /></a>
+</figure>
+<ul>
+<li><h3><a href="http://idgnow.uol.com.br/ti-pessoal/2013/10/04/gta-v-e-tao-violento-quanto-tv-e-cinema-defendem-atores-do-game?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=%22GTA+V%22+%C3%A9+t%C3%A3o+violento+quanto+TV+e+cinema%2C+defendem+atores+do+game&amp;utm_content=rodape-materia-img"
+title="&quot;GTA V&quot; é tão violento quanto TV e cinema, defendem atores do game">"GTA V" é tão violento quanto TV e cinema, defendem atores do game</a></h3></li>
+</ul>
+</div>
+<hr>
+<!-- INICIO BOX CHAMADA ESPECIAL -->
+<div class="boxNoticiasComImagem">
+<figure>
+<a href="http://idgnow.uol.com.br/mobilidade/2013/10/04/instagram-anuncia-que-publicidade-esta-chegando-ao-servico?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=Instagram+anuncia+que+publicidade+est%C3%A1+chegando+ao+servi%C3%A7o&amp;utm_content=rodape-materia-img"
+title="Instagram anuncia que publicidade está chegando ao serviço"><img
+src="http://idgnow.uol.com.br/idgimages/imagefolder.2013-08-01.2281037872/instagram_435.jpg"
+alt="Instagram anuncia que publicidade está chegando ao serviço" /></a>
+</figure>
+<ul>
+<li><h3><a href="http://idgnow.uol.com.br/mobilidade/2013/10/04/instagram-anuncia-que-publicidade-esta-chegando-ao-servico?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=Instagram+anuncia+que+publicidade+est%C3%A1+chegando+ao+servi%C3%A7o&amp;utm_content=rodape-materia-img"
+title="Instagram anuncia que publicidade está chegando ao serviço">Instagram anuncia que publicidade está chegando ao serviço</a></h3></li>
+</ul>
+</div>
+<!-- INICIO BOX CHAMADA ESPECIAL -->
+<div class="boxNoticiasComImagem">
+<figure>
+<a href="http://idgnow.uol.com.br/internet/2013/10/03/facebook-apaga-posts-e-cumpre-ordem-judicial-para-nao-sair-do-ar-no-brasil?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=Facebook+apaga+posts+e+cumpre+ordem+judicial+para+n%C3%A3o+sair+do+ar&amp;utm_content=rodape-materia-img"
+title="Facebook apaga posts e cumpre ordem judicial para não sair do ar"><img
+src="http://idgnow.uol.com.br/idgimages/imagefolder.2013-01-02.4179038441/facebook_43501.jpg"
+alt="Facebook apaga posts e cumpre ordem judicial para não sair do ar" /></a>
+</figure>
+<ul>
+<li><h3><a href="http://idgnow.uol.com.br/internet/2013/10/03/facebook-apaga-posts-e-cumpre-ordem-judicial-para-nao-sair-do-ar-no-brasil?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=Facebook+apaga+posts+e+cumpre+ordem+judicial+para+n%C3%A3o+sair+do+ar&amp;utm_content=rodape-materia-img"
+title="Facebook apaga posts e cumpre ordem judicial para não sair do ar">Facebook apaga posts e cumpre ordem judicial para não sair do ar</a></h3></li>
+</ul>
+</div>
+</div>
+
+<!-- FIM INC BOX NEWS W IMG -->
+<!-- INICIO INC BOX OUTROS SITES -->
+<section class="noticiasOutrosSites2 clearfix">
+<div class="boxNoticiasOutrosSites2 lastNewsPcw2">
+<h3>PCWorld</h3>
+<ul>
+<li>
+<h2><a target="_blank"
+href="http://pcworld.uol.com.br/dicas/2013/10/04/como-se-livrar-dos-piores-incomodos-em-seu-pc?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=Como+se+livrar+dos+piores+inc%C3%B4modos+em+seu+PC&amp;utm_content=rodape-materia"
+title="Como se livrar dos piores incômodos em seu PC">Como se livrar dos piores incômodos em seu PC</a></h2>
+</li>
+<li>
+<h2><a target="_blank"
+href="http://pcworld.uol.com.br/noticias/2013/10/03/lojas-fazem-pre-lancamento-do-galaxy-note-3-em-sao-paulo?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=Galaxy+Note+3+entre+em+pr%C3%A9-venda+em+S%C3%A3o+Paulo+neste+s%C3%A1bado&amp;utm_content=rodape-materia"
+title="Galaxy Note 3 entre em pré-venda em São Paulo neste sábado">Galaxy Note 3 entre em pré-venda em São Paulo neste sábado</a></h2>
+</li>
+<li>
+<h2><a target="_blank"
+href="http://pcworld.uol.com.br/noticias/2013/10/03/intel-cria-computador-para-entusiastas-baseado-no-processador-quark?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=Intel+cria+computador+para+entusiastas+baseado+no+processador+Quark&amp;utm_content=rodape-materia"
+title="Intel cria computador para entusiastas baseado no processador Quark">Intel cria computador para entusiastas baseado no processador Quark</a></h2>
+</li>
+</ul>
+</div>
+<div class="boxNoticiasOutrosSites2 lastNewsMac2">
+<h3>Macworld</h3>
+<ul>
+<li>
+<h2><a target="_blank"
+href="http://macworldbrasil.uol.com.br/noticias/2013/10/04/aplicativo-do-netflix-para-iphone-e-ipad-ganha-suporte-para-hd-e-airplay?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=Aplicativo+do+Netflix+para+iPhone+e+iPad+ganha+suporte+para+HD+e+AirPlay&amp;utm_content=rodape-materia"
+title="Aplicativo do Netflix para iPhone e iPad ganha suporte para HD e AirPlay">Aplicativo do Netflix para iPhone e iPad ganha suporte para HD e AirPlay</a></h2>
+</li>
+<li>
+<h2><a target="_blank"
+href="http://macworldbrasil.uol.com.br/noticias/2013/10/04/apple-libera-versao-final-do-mac-os-x-mavericks-para-desenvolvedores?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=Apple+libera+vers%C3%A3o+final+do+Mac+OS+X+Mavericks+para+desenvolvedores&amp;utm_content=rodape-materia"
+title="Apple libera versão final do Mac OS X Mavericks para desenvolvedores">Apple libera versão final do Mac OS X Mavericks para desenvolvedores</a></h2>
+</li>
+<li>
+<h2><a target="_blank"
+href="http://macworldbrasil.uol.com.br/noticias/2013/10/02/video-novos-iphones-5s-e-5c-sao-destruidos-no-liquidificador?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=V%C3%ADdeo%3A+novos+iPhones+5S+e+5C+s%C3%A3o+destru%C3%ADdos+no+liquidificador&amp;utm_content=rodape-materia"
+title="Vídeo: novos iPhones 5S e 5C são destruídos no liquidificador">Vídeo: novos iPhones 5S e 5C são destruídos no liquidificador</a></h2>
+</li>
+</ul>
+</div>
+<hr>
+<div class="boxNoticiasOutrosSites2 lastNewsCw2">
+<h3>COMPUTERWORLD</h3>
+<ul>
+<li>
+<h2><a target="_blank"
+href="http://computerworld.uol.com.br/negocios/2013/10/04/uol-fecha-acordo-com-virtustream-e-expande-oferta-em-nuvem?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=UOL+fecha+acordo+com+Virtustream+e+expande+oferta+em+nuvem&amp;utm_content=rodape-materia"
+title="UOL fecha acordo com Virtustream e expande oferta em nuvem">UOL fecha acordo com Virtustream e expande oferta em nuvem</a></h2>
+</li>
+<li>
+<h2><a target="_blank"
+href="http://computerworld.uol.com.br/tecnologia/2013/10/04/ceitec-lanca-chip-rfid-para-aplicacoes-em-logistica?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=Ceitec+lan%C3%A7a+chip+RFID+para+aplica%C3%A7%C3%B5es+em+log%C3%ADstica&amp;utm_content=rodape-materia"
+title="Ceitec lança chip RFID para aplicações em logística">Ceitec lança chip RFID para aplicações em logística</a></h2>
+</li>
+<li>
+<h2><a target="_blank"
+href="http://computerworld.uol.com.br/negocios/2013/10/04/samsung-espera-lucro-recorde-de-us-9-4-bilhoes?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=Samsung+espera+lucro+recorde+de+US%249%2C4+bilh%C3%B5es+&amp;utm_content=rodape-materia"
+title="Samsung espera lucro recorde de US$9,4 bilhões ">Samsung espera lucro recorde de US$9,4 bilhões </a></h2>
+</li>
+</ul>
+</div>
+<div class="boxNoticiasOutrosSites2 lastNewsCio2">
+<h3>CIO</h3>
+<ul>
+<li>
+<h2><a target="_blank"
+href="http://cio.uol.com.br/tecnologia/2013/10/04/como-proteger-o-seu-android?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=Como+proteger+o+seu+Android&amp;utm_content=rodape-materia"
+title="Como proteger o seu Android">Como proteger o seu Android</a></h2>
+</li>
+<li>
+<h2><a target="_blank"
+href="http://cio.uol.com.br/gestao/2013/10/04/tres-passos-para-criar-politicas-de-protecao-de-dados-confidenciais?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=Tr%C3%AAs+passos+para+criar+pol%C3%ADticas+de+prote%C3%A7%C3%A3o+de+dados+confidenciais&amp;utm_content=rodape-materia"
+title="Três passos para criar políticas de proteção de dados confidenciais">Três passos para criar políticas de proteção de dados confidenciais</a></h2>
+</li>
+<li>
+<h2><a target="_blank"
+href="http://cio.uol.com.br/carreira/2013/10/04/fim-do-ano-e-estrategico-para-quem-busca-recolocacao-profissional?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=Final+do+ano+%C3%A9+estrat%C3%A9gico+para+quem+busca+recoloca%C3%A7%C3%A3o+profissional&amp;utm_content=rodape-materia"
+title="Final do ano é estratégico para quem busca recolocação profissional">Final do ano é estratégico para quem busca recolocação profissional</a></h2>
+</li>
+</ul>
+</div>
+</section>
+
+<!-- FIM INC BOX OUTROS SITES -->
+<!-- COMENTARIOS - DISQUS -->
+<div id="boxDisqusComentarios">
+<a name="ancDisqus"></a>
+<div id="disqus_thread"></div>
+</div>
+<!-- FIM DE COMENTARIOS - DISQUS -->
+<!-- Parceiro UOL -->
+<section class="parceiroMainColumn">
+<iframe src="http://shopping.uol.com.br/st/parceiros/id-now/vitrine-idgnow-550x250.html?par=nowdigital" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" frameborder="0" scrolling="no" height="250" width="550"></iframe>
+</section>
+<!-- FIM Parceiro UOL -->
+</article>
+<!-- // Notícia -->
+</div>
+<!-- // Main Column -->
+<!-- INICIO ASIDE -->
+<aside id="aside"><div class="slot_header"></div><div>
+<div class="boxIlhaBanner300">
+<p>Publicidade</p>
+<div class="contBoxIlhaBanner300"><script type="text/javascript">
+Tile = Number(Tile)+1;
+if (kw != ''){
+document.write('<iframe id="bannerX20" src="http://ad.doubleclick.net/N6594/adi/' +sitepage+ ';tile=' +Tile+ ';pos=x20;sz=300x250,336x280' + ';kw=' +kw+ ';ord=' + pOrd + '?" width="300" height="250" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>');
+}else{
+document.write('<iframe id="bannerX20" src="http://ad.doubleclick.net/N6594/adi/' +sitepage+ ';tile=' +Tile+ ';pos=x20;sz=300x250,336x280' + ';ord=' + pOrd + '?" width="300" height="250" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>');
+}
+</script>
+</div>
+</div>
+</div><div>
+<div class="boxIlhaBanner300">
+<script type="text/javascript">
+Tile = Number(Tile)+1;
+if (kw != ''){
+document.write('<iframe id="bannerX70" src="http://ad.doubleclick.net/N6594/adi/' +sitepage+ ';tile=' +Tile+ ';pos=x70;sz=300x100' + ';kw=' +kw+ ';ord=' + pOrd + '?" width="300" height="100" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>');
+}else{
+document.write('<iframe id="bannerX70" src="http://ad.doubleclick.net/N6594/adi/' +sitepage+ ';tile=' +Tile+ ';pos=x70;sz=300x100' + ';ord=' + pOrd + '?" width="300" height="100" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>');
+}
+</script>
+</div>
+</div><div>
+<div class="boxIlhaBanner300">
+<p>Evento</p>
+<div class="contBoxIlhaBanner300100"><script type="text/javascript">
+Tile = Number(Tile)+1;
+if (kw != ''){
+document.write('<iframe id="bannerX99" src="http://ad.doubleclick.net/N6594/adi/' +sitepage+ ';tile=' +Tile+ ';pos=x99;sz=300x100' + ';kw=' +kw+ ';ord=' + pOrd + '?" width="300" height="100" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>');
+}else{
+document.write('<iframe id="bannerX99" src="http://ad.doubleclick.net/N6594/adi/' +sitepage+ ';tile=' +Tile+ ';pos=x99;sz=300x100' + ';ord=' + pOrd + '?" width="300" height="100" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>');
+}
+</script>
+</div>
+</div>
+</div><div>
+</div><div>
+<script>
+$(function(){
+var slider1 = $('#slider1');
+$('#prevsecao1').hide(); /*init*/
+$('#prevsecao1').click(function(){
+currentPage = slider1.data('AnythingSlider').currentPage;
+currentPage = currentPage - 1;
+slider1.data('AnythingSlider').goBack();
+if ( currentPage == 1){
+$(this).hide();
+}
+if (currentPage != 3){
+$('#nextsecao1').show();
+}
+slider1.data('AnythingSlider').checkResize();
+});
+$('#nextsecao1').click(function(){
+currentPage = slider1.data('AnythingSlider').currentPage;
+currentPage = currentPage +1;
+slider1.data('AnythingSlider').goForward();
+if (currentPage != 1){
+$('#prevsecao1').show();
+}
+if (currentPage == 3){
+$(this).hide();
+}
+slider1.data('AnythingSlider').checkResize();
+});
+slider1.anythingSlider({
+autoPlay: false,
+buildArrows: false,
+buildNavigation: false,
+infiniteSlides: false,
+hashTags: false,
+buildStartStop: false,
+expand:true,
+vertical:true,
+delay: 1000
+});
+});
+</script>
+<section class="accordion boxInterTopicos">
+<script>$(function(){
+});</script>
+<div class="grupoTopicos" id="one">
+<h2><a href="#one" class="linkTopicos">TI pessoal</a></h2>
+<div class="contGrupo">
+<div class="setaGrupoCima"><a href="javascript:void(0);" id="prevsecao1">Cima</a></div>
+<div class="grupoNoticias">
+<ul id="slider1" class="slider">
+<li class="clearfix">
+<div class="chamadaGrupoNoticias clearfix">
+<h3><a href="http://idgnow.uol.com.br/ti-pessoal/2013/10/04/gta-v-e-tao-violento-quanto-tv-e-cinema-defendem-atores-do-game" title=""GTA V" é tão violento quanto TV e cinema, defendem atores do game">"GTA V" é tão violento quanto TV e cinema, defendem atores do game</a></h3>
+</div>
+<div class="chamadaGrupoNoticias clearfix">
+<h3><a href="http://idgnow.uol.com.br/ti-pessoal/2013/10/04/dica-saiba-como-se-livrar-dos-piores-incomodos-em-seu-pc" title="Dica: saiba como se livrar dos piores incômodos em seu PC">Dica: saiba como se livrar dos piores incômodos em seu PC</a></h3>
+</div>
+<div class="chamadaGrupoNoticias clearfix">
+<h3><a href="http://idgnow.uol.com.br/ti-pessoal/2013/10/03/veja-como-o-steamos-pode-desafiar-o-dominio-do-windows-nos-games-de-pc" title="Veja como o SteamOS pode desafiar o domínio do Windows nos games de PC">Veja como o SteamOS pode desafiar o domínio do Windows nos games de PC</a></h3>
+</div>
+<div class="chamadaGrupoNoticias clearfix">
+<h3><a href="http://idgnow.uol.com.br/ti-pessoal/2013/10/02/filme-do-game-world-of-warcraft-sera-lancado-em-dezembro-de-2015" title="Filme do game "World of Warcraft" será lançado em dezembro de 2015">Filme do game "World of Warcraft" será lançado em dezembro de 2015</a></h3>
+</div>
+<div class="chamadaGrupoNoticias clearfix">
+<h3><a href="http://idgnow.uol.com.br/ti-pessoal/2013/10/01/apos-quase-um-ano-windows-8-supera-numero-de-usuarios-de-mac" title="Após quase um ano, Windows 8 supera número de usuários de Mac">Após quase um ano, Windows 8 supera número de usuários de Mac</a></h3>
+</div></li><li class="clearfix">
+<div class="chamadaGrupoNoticias clearfix">
+<h3><a href="http://idgnow.uol.com.br/ti-pessoal/2013/10/01/dica-controle-como-o-windows-se-comporta-quando-voce-deixa-o-pc-ligado" title="Dica: controle como o Windows se comporta quando você deixa o PC ligado">Dica: controle como o Windows se comporta quando você deixa o PC ligado</a></h3>
+</div>
+<div class="chamadaGrupoNoticias clearfix">
+<h3><a href="http://idgnow.uol.com.br/ti-pessoal/2013/09/29/review-novo-sistema-windows-8-1-e-um-grande-meio-termo" title="Review: novo sistema Windows 8.1 é um grande meio-termo">Review: novo sistema Windows 8.1 é um grande meio-termo</a></h3>
+</div>
+<div class="chamadaGrupoNoticias clearfix">
+<h3><a href="http://idgnow.uol.com.br/ti-pessoal/2013/09/27/apos-console-e-sistema-steam-valve-lanca-joystick-especial" title="Após console e sistema Steam, Valve lança joystick especial">Após console e sistema Steam, Valve lança joystick especial</a></h3>
+</div>
+<div class="chamadaGrupoNoticias clearfix">
+<h3><a href="http://idgnow.uol.com.br/ti-pessoal/2013/09/27/entenda-como-malwares-bancarios-agem-e-previna-se" title="Entenda como malwares bancários agem e previna-se">Entenda como malwares bancários agem e previna-se</a></h3>
+</div>
+<div class="chamadaGrupoNoticias clearfix">
+<h3><a href="http://idgnow.uol.com.br/ti-pessoal/2013/09/26/bill-admite-que-o-201cctrl-alt-del201d-foi-um-erro-e-poe-a-culpa-na-ibm" title="Bill Gates admite que “Ctrl+Alt+Del” foi um erro e põe a culpa na IBM">Bill Gates admite que “Ctrl+Alt+Del” foi um erro e põe a culpa na IBM</a></h3>
+</div></li><li class="clearfix">
+<div class="chamadaGrupoNoticias clearfix">
+<h3><a href="http://idgnow.uol.com.br/ti-pessoal/2013/09/25/games-valve-entra-no-mercado-de-consoles-com-o-steam-machine" title="Games: Valve entra no mercado de consoles com o Steam Machine">Games: Valve entra no mercado de consoles com o Steam Machine</a></h3>
+</div>
+<div class="chamadaGrupoNoticias clearfix">
+<h3><a href="http://idgnow.uol.com.br/ti-pessoal/2013/09/23/senhas-aprenda-mudancas-simples-que-fazem-toda-a-diferenca" title="Senhas: aprenda mudanças simples que fazem toda a diferença">Senhas: aprenda mudanças simples que fazem toda a diferença</a></h3>
+</div>
+<div class="chamadaGrupoNoticias clearfix">
+<h3><a href="http://idgnow.uol.com.br/ti-pessoal/2013/09/23/games-na-tv-da-sala-valve-anuncia-sistema-operacional-gratuito-steamos" title="Games na sala: Valve anuncia sistema operacional gratuito SteamOS">Games na sala: Valve anuncia sistema operacional gratuito SteamOS</a></h3>
+</div>
+<div class="chamadaGrupoNoticias clearfix">
+<h3><a href="http://idgnow.uol.com.br/ti-pessoal/2013/09/20/recorde-gta-v-arrecada-us-1-bilhao-em-3-dias-e-supera-call-of-duty" title="Recorde: "GTA V" arrecada US$1 bilhão em 3 dias e supera "Call of Duty" ">Recorde: "GTA V" arrecada US$1 bilhão em 3 dias e supera "Call of Duty" </a></h3>
+</div>
+<div class="chamadaGrupoNoticias clearfix">
+<h3><a href="http://idgnow.uol.com.br/ti-pessoal/2013/09/19/morre-criador-dos-videogames-nintendo-hiroshi-yamauchi" title="Morre criador do negócio de videogames na Nintendo, Hiroshi Yamauchi">Morre criador do negócio de videogames na Nintendo, Hiroshi Yamauchi</a></h3>
+</div></li>
+</ul>
+</div>
+<div class="setaGrupoBaixo"><a href="javascript:void(0);" id="nextsecao1">Baixo</a></div>
+</div>
+</div>
+
+</section>
+<script>
+$(document).ready(function(){
+$('.accordion h2').click(function(){
+if( $(this).next().is(':hidden') )
+{
+$('.accordion h2').removeClass('active').next().slideUp();
+$(this).addClass('active').next().slideDown();
+}
+return false;
+});
+$('.accordion #one h2').addClass('active');
+$('.accordion #one .contGrupo').slideDown();
+});
+</script>
+</div><div>
+<div class="boxIlhaBanner300">
+    <p>Publicidade</p>
+    <div class="contBoxIlhaBanner300600"><script type="text/javascript">
+              Tile = Number(Tile)+1;
+              if (kw != ''){
+                  document.write('<iframe id="bannerX69" src="http://ad.doubleclick.net/N6594/adi/' +sitepage+ ';tile=' +Tile+ ';pos=x69;sz=300x600' + DARTSTRING + ';kw=' +kw+ ';ord=' + pOrd + '?" width="300" height="600" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>');
+              }else{
+                  document.write('<iframe id="bannerX69" src="http://ad.doubleclick.net/N6594/adi/' +sitepage+ ';tile=' +Tile+ ';pos=x69;sz=300x600' + DARTSTRING + ';ord=' + pOrd + '?" width="300" height="600" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>');
+              }
+          </script>
+       </div>
+</div>
+
+</div><div>
+<script src="http://idgnow.uol.com.br/js1d/redes_sociais_viewlet.js"></script>
+<span></span>
+    <section class="boxMaisNoticias">
+        <ul class="abasMaisNoticias">
+            <li class="tabMaisLidas"><a id="tabMaisLidasNoticias" href="javascript:void(0);" onclick="trocarAbaMaisNoticias('maislidas');" title="Mais lidas" rel="nofollow">+ Lidas</a></li>
+            <li class="tabMaisComentadas"><a id="tabMaisComentadas" href="javascript:void(0);" onclick="trocarAbaMaisNoticias('maiscomentadas');" title="Mais comentadas" rel="nofollow">+ Comentadas</a></li>            
+            <li class="tabMaisCompartilhadas" style="background-color:white;border-right:1px solid white;">&nbsp;</li>
+        </ul>
+        <ul class="contBoxMaisNoticias" id="abaMaisLidasNoticias">
+           <ul><li class=""><a href="http://idgnow.uol.com.br/ti-pessoal/2012/04/05/veja-5-sites-gratuitos-para-criar-fotos-de-capa-legais-para-seu-facebook" title="Facebook: 5 sites gratuitos para criar fotos de capa legais ">Facebook: 5 sites gratuitos para criar fotos de capa legais </a></li><li><a href="http://idgnow.uol.com.br/ti-pessoal/2013/10/04/gta-v-e-tao-violento-quanto-tv-e-cinema-defendem-atores-do-game" title="&quot;GTA V&quot; &eacute; t&atilde;o violento quanto TV e cinema, defendem atores do game">"GTA V" é tão violento quanto TV e cinema, defendem atores do game</a></li><li><a href="http://idgnow.uol.com.br/ti-pessoal/2012/10/26/windows-8-10-dicas-para-dominar-o-sistema-operacional" title="Windows 8: 10 dicas para dominar o sistema operacional">Windows 8: 10 dicas para dominar o sistema operacional</a></li><li><a href="http://idgnow.uol.com.br/ti-pessoal/2013/08/13/novo-app-gratuito-da-ao-windows-8-um-menu-iniciar-no-estilo-moderno" title="Novo app gratuito d&aacute; ao Windows 8 um Menu Iniciar no estilo &quot;moderno&quot;">Novo app gratuito dá ao Windows 8 um Menu Iniciar no estilo "moderno"</a></li><li class="lastItemMais"><a href="http://idgnow.uol.com.br/ti-pessoal/2012/08/13/dicas-sete-truques-para-resolver-problemas-com-sua-rede-wi-fi" title="Dicas: Sete truques para resolver problemas com sua rede Wi-Fi">Dicas: Sete truques para resolver problemas com sua rede Wi-Fi</a></li></ul>
+        </ul>
+        <ul class="contBoxMaisNoticias" id="abaMaisComentadas">
+           <script type="text/javascript" src="http://siteidgnow.disqus.com/popular_threads_widget.js?num_items=5"></script>
+        </ul>
+</section>
+<script>trocarAbaMaisNoticias('maislidas');</script>
+
+</div><div>
+<div class="viewlet">
+<div class="viewletShopNow">
+<iframe src="http://shopping.uol.com.br/st/parceiros/id-now/vitrine-idgnow.html?par=nowdigital" frameborder="0" scrolling="no" height="260" width="310" id="shop-home"></iframe></div>
+</div>
+</div><div>
+<div class="boxIlhaBanner300">
+<p>Publicidade</p>
+<div class="contBoxIlhaBanner300"><script type="text/javascript">
+Tile = Number(Tile)+1;
+if (kw != ''){
+document.write('<iframe id="bannerX21" src="http://ad.doubleclick.net/N6594/adi/' +sitepage+ ';tile=' +Tile+ ';pos=x21;sz=300x250,336x280' + ';kw=' +kw+ ';ord=' + pOrd + '?" width="300" height="250" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>');
+}else{
+document.write('<iframe id="bannerX21" src="http://ad.doubleclick.net/N6594/adi/' +sitepage+ ';tile=' +Tile+ ';pos=x21;sz=300x250,336x280' + ';ord=' + pOrd + '?" width="300" height="250" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>');
+}
+</script>
+</div>
+</div>
+</div><div>
+<section class="boxWhitePapers">
+<h2>White Papers</h2>
+<h3><a target="_blank"
+href="http://whitepapers.computerworld.com.br/wp_nec_unified_communications?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=A+import%C3%A2ncia+das+Comunica%C3%A7%C3%B5es+Unificadas+para+a+sua+empresa&amp;utm_content=viewletColDir">A importância das Comunicações Unificadas para a sua empresa</a></h3>
+<p>Veja nesse informativo da NEC como obter todos os benefícios ao implantar esse sistema</p>
+<h3><a target="_blank"
+href="http://whitepapers.computerworld.com.br/emc_computacao_em_nuvem?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=Aproveitando+os+benefi%CC%81cios+da+computac%CC%A7a%CC%83o+em+nuvem&amp;utm_content=viewletColDir">Aproveitando os benefícios da computação em nuvem</a></h3>
+<p>Descubra tudo sobre este valioso serviço para a transformação das empresas</p>
+<h3><a target="_blank"
+href="http://whitepapers.computerworld.com.br/TC_Storage_Convergente_WP?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=Avaliando+o+storage+em+uma+solu%C3%A7%C3%A3o+de+TI+convergente&amp;utm_content=viewletColDir">Avaliando o storage em uma solução de TI convergente</a></h3>
+<p>Mantenha o equilíbrio certo entre performance, eficiência e custo, cada camada precisa fornecer a funcionalidade necessária.</p>
+<h3><a target="_blank"
+href="http://whitepapers.computerworld.com.br/TC_BladeConvergente_WP?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=Novo+Blade+Data+Center+Convergente+da+Dell+&amp;utm_content=viewletColDir">Novo Blade Data Center Convergente da Dell </a></h3>
+<p>Conheça a solução flexível que oferece recursos de computação, armazenamento e rede, assim como uma infraestrutura de gerenciamento integrada em um único chassi, que é extremamente densa, fácil de gerenciar e potente.</p>
+<h3><a target="_blank"
+href="http://whitepapers.computerworld.com.br/TC_The_road_to_convergence_WP?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=O+caminho+para+a+converg%C3%AAncia&amp;utm_content=viewletColDir">O caminho para a convergência</a></h3>
+<p>As seis chaves para chegar lá com mais confi ança e o mínimo de riscos.</p>
+<h3><a target="_blank"
+href="http://whitepapers.computerworld.com.br/TC_5_reasons_to_converge_WP?utm_source=idgnow&amp;utm_medium=site&amp;utm_campaign=Cinco+raz%C3%B5es+para+aderir+%C3%A0+infraestrutura+convergente&amp;utm_content=viewletColDir">Cinco razões para aderir à infraestrutura convergente</a></h3>
+<p>Aderindo de forma agressiva a sistemas de maior convergência e melhor automação da infraestrutura de sistemas</p>
+
+</section>
+</div></aside>
+<!-- FIM ASIDE -->
+<!-- AT -->
+<script type="text/javascript">document.write('<img src="http://at.idg.com.br/at.gif?rnd=0.297694687103&uid=05a437272ba7f3579a1bbdf5c29fb24f&site=idgnow2&section=ti-pessoal&relative_path=ti-pessoal/2013/09/25/games-valve-entra-no-mercado-de-consoles-com-o-steam-machine&title=Games%3A%20Valve%20entra%20no%20mercado%20de%20consoles%20com%20o%20Steam%20Machine&type=noticias" width="1" height="1">');</script>
+<!-- INICIO PUBLICIDADE BOTTOM -->
+<div class="bottomBanner">
+<div class="bottomFullBanner"><script type="text/javascript">
+Tile = Number(Tile)+1;
+if (kw != ''){
+document.write('<iframe id="bannerTOP1" src="http://ad.doubleclick.net/N6594/adi/' +sitepage+ ';tile=' +Tile+ ';pos=top1;sz=728x90,468x60' + ';kw=' +kw+ ';ord=' + pOrd + '?" width="728" height="90" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>');
+}else{
+document.write('<iframe id="bannerTOP1" src="http://ad.doubleclick.net/N6594/adi/' +sitepage+ ';tile=' +Tile+ ';pos=top1;sz=728x90,468x60' + ';ord=' + pOrd + '?" width="728" height="90" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>');
+}
+</script>
+</div>
+</div>
+<!-- FIM PUBLICIDADE BOTTOM -->
+</section>
+<!-- RESIZE SCRIPT -->
+<script type="text/javascript"
+src="http://idgnow.uol.com.br/js1d/barra-share.js"></script>
+<!-- INICIO SHARETHIS -->
+<script type="text/javascript">var switchTo5x=false;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "78177eb6-b9d3-448c-a499-4cc4912adf39"}); </script>
+<script type="text/javascript" src="http://platform.linkedin.com/in.js"></script>
+<!-- FIM SHARETHIS -->
+</div>
+</div>
+</div>
+<!-- FIM MIOLO -->
+<!-- INICIO FOOTER -->
+<div>
+<!-- INICIO RODAPE -->
+    <footer id="footer">
+        <div class="contFooter clearfix">
+            <!-- INICIO MENU FOOTER -->
+            <nav class="menuFooter clearfix">
+                <ul>
+                    <li><a title="Últimas Notícias"
+                           href="http://idgnow.uol.com.br/ultimas-noticias">ÚLTIMAS NOTÍCIAS</a></li>
+                    <li><a title="Internet"
+                           href="http://idgnow.uol.com.br/internet">INTERNET</a></li>
+                    <li><a title="Mobilidade"
+                           href="http://idgnow.uol.com.br/mobilidade">MOBILIDADE</a></li>
+                    <li><a title="TI Corporativa"
+                           href="http://idgnow.uol.com.br/ti-corporativa">TI CORPORATIVA</a></li>
+                    <li><a title="TI Pessoal"
+                           href="http://idgnow.uol.com.br/ti-pessoal">TI PESSOAL</a></li>
+                    <li class="lastOptMargin"><a href="#" title="Blogs">BLOGS</a></li>
+                </ul>
+            </nav>
+            <!-- FIM MENU FOOTER -->
+            <div class="logoIdgnowFooter">
+                <img alt="IDG Now!"
+                     src="http://idgnow.uol.com.br/imagens/logo_idgnow_footer_v02.gif" />
+                <nav class="linksSite">
+                    <ul>
+                        <li><a title="Expediente"
+    href="http://idgnow.uol.com.br/expediente">EXPEDIENTE</a></li>
+                        <li><a title="Fale conosco"
+    href="http://idgnow.uol.com.br/fale-conosco">FALE CONOSCO</a></li>
+                        <li><a title="Anuncie"
+    href="http://idgnow.uol.com.br/anuncie">ANUNCIE</a></li>
+                        <li><a
+    title="Política de privacidade"
+    href="http://idgnow.uol.com.br/politica-de-privacidade">POLÍTICA DE PRIVACIDADE</a></li>
+                        <!--li><a href="#" title="Mapa do site">MAPA DO SITE</a></li-->
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="infoFooter">
+                <div class="blocoFooterNews clearfix">
+                    <h2>Newsletters</h2>
+                    <p>Receba diariamente as notícias mais quentes de tecnologia e internet diretamente em seu e-mail.</p>
+                    <form method="post"
+                          action="http://idgnow.uol.com.br/check_login">
+                        <fieldset class="formFooterNews">
+                            <input type="text" name="email" class="campoFooterNews" />
+                            <input type="submit" class="btnFooterNews" value="" />
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="blocoFooterRss clearfix">
+                    <h2>Canais RSS</h2>
+                    <p>Todo o conteúdo no IDGNow vai até você! Ao usar RSS, você fica sabendo imediatamente quando uma notícia é publicada. Clique aqui para assinar os canais do seu interesse.</p>
+                    <a class="linkMaisInfo"
+                       title="todas os canais"
+                       href="http://idgnow.uol.com.br/rss">todas os canais</a>
+                </div>
+                <div class="blocoNowdigital clearfix">
+                    <a href="http://www.nowdigital.com.br" target="_blank" class="linkNowdigital" title="Now!Digital">Now!Digital</a>
+                    <ul>
+                        <li><a href="http://www.nowdigital.com.br/inst_historia" target="_blank" title="A Empresa">A EMPRESA</a></li>
+                        <li><a href="http://www.eventosnowdigital.com.br/" target="_blank" title="Eventos Corporativos">EVENTOS CORPORATIVOS</a></li>
+                        <li><a href="http://digitalage20.com.br" target="_blank" title="Digital Age 2.0">DIGITAL AGE 2.0</a></li>
+                        <li><a href="http://demobrasil.com.br/" target="_blank" title="Demo Brasil">DEMO BRASIL</a></li>
+                    </ul>
+                </div>
+                <!-- INICIO MENU SITES -->
+                <div class="navSites">
+                    <h3>Rede Now!Digital:</h3>
+                    <ul>
+                        <li><a href="http://pcworld.com.br" target="_blank" class="linkPcw" title="PCWorld">PCWorld</a></li>
+                        <li><a href="http://macworldbrasil.com.br" target="_blank" class="linkMac" title="Macworld">Macworld</a></li>
+                        <li><a href="http://computerworld.com.br" target="_blank" class="linkCw" title="Computerworld">Computerworld</a></li>
+                        <li><a href="http://cio.com.br" target="_blank" class="linkCio" title="CIO">CIO</a></li>
+                    </ul>
+                </div>
+                <!-- FIM MENU SITES -->
+            </div>
+        </div>
+        <div class="copyright clearfix">
+            <p>
+                Copyright 2013 Now!Digital Business Ltda. Todos os direitos reservados.<br />
+                A reprodução total ou parcial de qualquer meio ou forma sem expressa autorização por escrito da Now!Digital Business Ltda. é<br /> proibida. IDG Now! é uma propriedade da International Data Group, Inc., licenciado pela Now!Digital Business Ltda.
+            </p>
+            <ul class="clearfix">
+                <li>HOSPEDADO POR<br /><a href="http://www.uoldiveo.com.br/" target="_blank" title="DHC"><img
+    alt="UOL Diveo"
+    src="http://idgnow.uol.com.br/imagens/logo_uol_diveo_footer.gif" /></a></li>
+            </ul>
+        </div>
+        <div class="sompraFooter"></div>
+    </footer>
+<!-- FIM RODAPE -->
+</div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/yui/2.8.1/build/yahoo/yahoo-min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/yui/2.8.1/build/get/get-min.js"></script>
+
+
+
+<!-- SHARE INCLUDES -->
+    <script type="text/javascript">
+    var objTransaction1 = YAHOO.util.Get.script(["http://platform.twitter.com/widgets.js"], {
+        onSuccess: function() {}
+    });
+    </script>
+<!-- //SHARE INCLUDES -->
+
+
+<!-- SiteCatalyst code version: H.19.3. Copyright 1997-2009 Omniture, Inc. More info available at http://www.omniture.com -->
+<script language="JavaScript" type="text/javascript" src="http://me.jsuol.com/omtr/nowdigital1.js"></script>
+<script language="JavaScript" type="text/javascript"><!--
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=uol_sc.t();if(s_code)document.write(s_code)//--></script>
+<!-- End SiteCatalyst code version: H.19.3. -->
+
+<!-- GOOGLE ANALYTICS -->
+
+<script type="text/javascript" src="http://idgnow.uol.com.br/ga_social_tracking.js"></script>
+<script>_ga.trackSocial();</script>
+
+<!-- /GOOGLE ANALYTICS -->
+<!-- INICIO GOOGLE PLUS ONE TAGS -->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'pt-BR'};
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<!-- FIM GOOGLE PLUS ONE TAGS -->
+
+<!-- script banner x21 uol -->
+<script src="http://tm.uol.com.br/b/par/parceiros.js"></script>
+<!-- //fim script banner x21 uol -->
+
+<!-- FIM FOOTER -->
+</div>
+<!-- FIM CONTEUDO GLOBAL -->
+<script type="text/javascript">
+/**
+* var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread]
+*/
+var disqus_identifier = '/ti-pessoal/2013/09/25/games-valve-entra-no-mercado-de-consoles-com-o-steam-machine/';
+var disqus_shortname = 'siteidgnow';
+(function() {
+var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+dsq.src = 'http://siteidgnow.disqus.com/embed.js';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<script>
+$(document).ready(function(){
+var h2item = $('div#discovery-options').next();
+$('#dsq1').contents().find(h2item).html("Leia também...");
+});
+</script>
+</div>
+<!-- DIV nd-site -->
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>お知らせ ｜ NHK「双方向クイズ 天下統一」</title>
+	<!--=================================== meta ===================================-->
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta name="robots" content="index,follow">
+	<meta name="description" content="ＮＨＫ「双方向クイズ 天下統一」公式ホームページ" />
+	<meta name="keywords" content="NHK,クイズ,天下統一,双方向,中山秀征,皆藤愛子" />
+	<meta name="nhk.bangumi.rubi" content="てんかとういつ" />
+	<meta name="nhk.bangumi.shutsuensha" content="中山秀征,皆藤愛子" />
+	<meta name="author" content="日本放送協会" />
+	<meta name="copyright" content="NHK(Japan Broadcasting Corporation) " />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">
+	<!--=================================== CSS file ===================================-->
+	<link rel="stylesheet" href="../common/css/shared.css">
+	<link rel="stylesheet" href="../common/css/topics.css">
+	<!--=================================== Javascript file ===================================-->
+	<script type="text/javascript" src="/common/sp/nol_SmartPhone.js" charset="utf-8"></script>
+	<script type="text/javascript" src="../../common/js/smart.js"></script>
+	<script type="text/javascript" src="../common/js/jquery-1.7.2.js"></script>
+	<script type="text/javascript" src="../common/js/function.js"></script>
+	<script type="text/javascript" src="../common/js/include.js"></script>
+	<script type="text/javascript" src="../common/js/accordion.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<section id="top">
+			<script type="text/javascript">nol_showSpCmnHeader({design:'white',callback:function(){goPC();}, pgParam:''});</script>
+			<header>
+				<h1><a href="../index.html"><img src="images/title.png" alt="お知らせ｜双方向クイズ 天下統一"></a></h1>
+			</header><!--//header-->
+
+			<div id="contents">
+				<div class="inner">
+					<div class="detail">
+						<div class="title">
+							<div><img src="../common/images/line.png" alt="" width="100%"></div>
+							<p>2013.09.25</p>
+							<h2>9月27日(金)正午より領主選択をスタート！</h2>
+							<div><img src="../common/images/line.png" alt="" width="100%"></div>
+						</div><!--//title -->
+
+						<div class="inner">
+							<p>9月27日(金)正午より領主選択を開始します。あなたが軍勢となって支える領主を選び、10月5日(土)午前0：10(※4日深夜)の放送で、天下統一を目指して頑張ってください。<br />戦いは放送前から始まっています！&emsp;予習クイズでは、生放送で出題されるクイズをはじめ、クイズを有利に進めることが出来るアイテムを手に入れることが出来ます。ぜひ、挑戦してください。</p>
+							<p class="btn_detail"><a href="../cast/20131005/cast01.html">領主プロフィールはコチラ！</a></p>
+						</div><!--//inner -->
+					</div><!--//detail -->
+
+					<div><img src="../common/images/line.png" alt="" width="100%"></div>
+					<div class="page_nav clearfix">
+						<p class="btn_prev"><a href="20131002.html"><img src="../common/images/btn_prev.png" width="135" alt="前へ"></a></p>
+						<p class="btn_next"><a href="20130920.html"><img src="../common/images/btn_next.png" width="135" alt="次へ"></a></p>
+					</div><!--//page_nav -->
+
+					<div class="btn_back">
+						<div><img src="../common/images/line_top.png" alt="" width="100%"></div>
+						<p><a href="index.html">戻る</a></p>
+						<div><img src="../common/images/line_btm.png" alt="" width="100%"></div>
+					</div><!--//btn_back -->
+				</div><!--//inner--> 
+			</div><!--//content-->
+
+			<script type="text/javascript">spfooter();</script>
+			<!--//javascript-->
+			<script type="text/javascript">nol_showSpCmnFooter({design:'white',callback:function(){goPC();}, pgBlock:true});</script>
+		</section>
+	</div><!--//wrapper-->
+</body>
+</html>

@@ -1,0 +1,1139 @@
+<!DOCTYPE html> 
+<!--[if lt IE 7 ]><html class="no-js ie ie6" lang="es-ES" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 7 ]><html class="no-js ie ie7" lang="es-ES" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="es-ES" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="es-ES" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>NVIDIA liberará documentación sobre sus GPUs - MuyLinux</title>
+
+<script type='text/javascript'>window.mod_pagespeed_start = Number(new Date());</script><style>html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0px;padding:0px;border:0px;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}ol,ul{list-style:none}blockquote::before,blockquote::after,q::before,q::after{content:none}table{border-collapse:collapse;border-spacing:0px}body{height:100%;min-height:100%;font-size:14px;line-height:1.5em;color:#444;font-family:Arial,Helvetica,sans-serif;font-weight:normal}a{color:#ff7900;text-decoration:none;outline:0px}a:hover{color:#222}a img{opacity:.99}a{-webkit-transition:.2s ease}a img{opacity:.99;-webkit-transition:opacity .2s ease}strong{font-weight:600}li{list-style:none}.aligncenter{margin-left:auto;margin-right:auto}::selection{background-color:#0097c8;color:#fff;background-position:initial initial;background-repeat:initial initial}*::-moz-selection{background-color:#0097c8;color:#fff;background-position:initial initial;background-repeat:initial initial}@font-face { font-family: LeagueGothicRegular; src: url(http://www.muylinux.com/wp-content/themes/newsroom14/font/League_Gothic-webfont.eot?#iefix) format(embedded-opentype), url(http://www.muylinux.com/wp-content/themes/newsroom14/font/League_Gothic-webfont.woff) format(woff), url(http://www.muylinux.com/wp-content/themes/newsroom14/font/League_Gothic-webfont.ttf) format(truetype), url(http://www.muylinux.com/wp-content/themes/newsroom14/font/League_Gothic-webfont.svg#LeagueGothicRegular) format(svg); font-weight: normal; font-style: normal; }.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0px;height:0px}.fix::before,.fix::after{content:'';display:table}.fix::after{clear:both}.fix{zoom:1}input,textarea,button,select,label{font-size:13px}input::-moz-focus-inner,button::-moz-focus-inner{border:0px;padding:0px}input[type="text"],input[type="password"],input[type="email"],input[type="submit"],button,textarea{margin:0px;box-sizing:border-box}input,textarea,button{-webkit-appearance:none;-webkit-transition:all .2s ease}input[type="text"],input[type="password"],input[type="email"],textarea{background-color:#fff;border:1px solid #ccc;color:#777;display:block;max-width:100%;outline:none;padding:7px 8px;border-top-left-radius:2px;border-top-right-radius:2px;border-bottom-right-radius:2px;border-bottom-left-radius:2px;-webkit-box-shadow:rgba(0,0,0,.0392157) 0px 1px 0px inset;box-shadow:rgba(0,0,0,.0392157) 0px 1px 0px inset;background-position:initial initial;background-repeat:initial initial}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,textarea:focus{border-color:#bbb;color:#444;-webkit-box-shadow:rgba(0,0,0,.2) 0px 0px 3px;box-shadow:rgba(0,0,0,.2) 0px 0px 3px}input[type="submit"]:hover,button[type="submit"]:hover{background-color:#444;background-position:initial initial;background-repeat:initial initial}.text{font-size:100%;line-height:1.57;text-rendering:optimizelegibility}.text img{max-width:100%;height:auto}.text a:active,.text a:focus{outline:invert none medium}.text p,.text dd{margin-bottom:14px}.text img{margin-bottom:14px}.text img.aligncenter{clear:both;display:block}h1,h2,h3,h4,h5,h6{color:#111;font-weight:600}#wrap{min-width:1024px;height:100%}.container,#header-inner,#nav-topbar,#nav,#nav-sub{max-width:1024px;min-width:1024px;width:100%;margin:0px auto}.content,.content-part{width:100%;position:relative}.content-part{padding-bottom:10px}.single .content{border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#ddd}.pad,.single .entry-format{padding:30px 30px 20px}.sidebar{width:340px;overflow:hidden}.main.sidebar-right{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/sidebar-right.png.pagespeed.ce.7-K7NgUZ47.png);padding-right:340px;background-position:100% 0px;background-repeat:no-repeat repeat}.main.sidebar-right .sidebar{float:right;margin-right:-340px}.main.sidebar-right .content-part{float:left}#header{background-color:#fff;position:relative;z-index:99;background-position:initial initial;background-repeat:initial initial}#header-inner{}#header-line{background-color:#ff7900;height:6px;background-position:initial initial;background-repeat:initial initial}#header .pad{padding-top:5px;padding-bottom:5px}#header .container{max-width:100%}#logo{font-family:LeagueGothicRegular,Arial,sans-serif;font-size:42px;font-weight:400;text-transform:uppercase;float:left;line-height:50px;padding:10px 0px}#logo a{display:block;color:#111;float:left;max-width:100%;white-space:nowrap}#logo a:hover,#logo a:hover img{opacity:.9}#logo a:active,#logo a:active img{opacity:1}#logo a img{float:left;display:block;max-width:100%;max-height:100px;height:auto;padding:5px 0px;margin:0px auto}#tagline{font-size:12px;font-style:italic;color:#999;float:left;margin-left:20px;line-height:50px;padding:10px 0px}#header-social li a:hover{opacity:.9}#header-social li a:hover span.icon img{opacity:1}#header-social li a:hover span.icon-title{background-color:#111;display:inline-block;text-align:center;color:#ddd;padding:4px 8px;font-size:11px;line-height:16px;white-space:nowrap;position:absolute;bottom:-36px;right:0px;border-top-left-radius:2px;border-top-right-radius:2px;border-bottom-right-radius:2px;border-bottom-left-radius:2px;-webkit-transition:opacity .3s ease;background-position:initial initial;background-repeat:initial initial}#header-social li a:hover span.icon-title i.icon-pike{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/sprite-v.png.pagespeed.ce.yZRW-0j94i.png);width:9px;height:5px;position:absolute;top:-5px;right:11px;background-position:-185px 0px;background-repeat:no-repeat no-repeat}#header-search{float:right;width:300px;margin-top:40px;margin-left:20px}#header-search input#s{background-color:#fff;float:left;font-size:16px;text-shadow:#fff 0px 1px 0px;width:300px;height:40px;padding:6px 24px 6px 6px;color:#bbb;margin:0px!important;background-position:initial initial;background-repeat:initial initial}#header-search input#s:focus{border-color:#ddd;color:#444}#nav-topbar li a:hover,#nav-topbar li:hover a{background-color:#292929;color:#ddd!important;background-position:initial initial;background-repeat:initial initial}#nav-topbar li a:hover,#nav-topbar li:hover a,#nav-topbar li.current_page_item a,#nav-topbar li.current-menu-ancestor a,#nav-topbar li.current-menu-item a{color:#ddd}#nav-topbar li:hover>ul{display:block}#nav-topbar ul li a,#nav-topbar li:hover ul li a{background-color:transparent;border-style:none none solid;border-bottom-width:1px;border-bottom-color:#333;font-size:11px;line-height:14px;font-weight:normal;float:none;padding:7px 0px;width:120px;display:block;color:#888!important;background-position:initial initial;background-repeat:initial initial}#nav-topbar ul li a:hover,#nav-topbar li:hover ul li a:hover{color:#ddd!important}#nav-topbar ul.sub-menu li:last-child a{border-bottom-width:0px}#nav-topbar ul li:last-child ul a{border-bottom-width:1px!important;border-bottom-style:solid!important;border-bottom-color:#333!important}#nav-topbar ul li ul li:last-child a{border-bottom-width:0px!important}#header-nav{background-color:#fff;border-top-width:1px;border-top-style:solid;border-top-color:#eee;background-position:initial initial;background-repeat:initial initial}#nav{font-family:LeagueGothicRegular,Arial,sans-serif;font-size:20px;font-weight:normal;border-left-width:1px;border-left-style:solid;border-left-color:#eee}#nav li{border-right-width:1px;border-right-style:solid;border-right-color:#eee;list-style:none;display:inline;float:left;position:relative}#nav li a{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/sprite-h.png.pagespeed.ce.Pf5hySK3LF.png);color:#444;display:block;text-transform:uppercase;line-height:20px;padding:12px 20px;background-position:50% -76px;background-repeat:repeat no-repeat}#nav li a:hover,#nav li:hover a{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/sprite-h.png.pagespeed.ce.Pf5hySK3LF.png);background-color:#f4f4f4;color:#111!important;background-position:50% 0px;background-repeat:repeat no-repeat}#nav li a:hover,#nav li:hover a,#nav li.current_page_item a,#nav li.current-menu-ancestor a,#nav li.current-menu-item a{color:#ff7900}#nav li.current_page_item a:hover,#nav li.current-menu-ancestor a:hover,#nav li.current-menu-item a:hover,#nav li.current_page_item:hover a,#nav li.current-menu-ancestor:hover a,#nav li.current-menu-item:hover a{background-position:50% -120px}#nav li:hover>ul{display:block}#nav ul li a,#nav li:hover ul li a{border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#e5e5e5;font-size:17px;line-height:16px;font-weight:normal;float:none;padding:10px 0px;width:140px;display:block;background-color:transparent!important;color:#777!important;text-shadow:none!important;background-position:initial initial!important;background-repeat:initial initial!important}#nav ul li a:hover,#nav li:hover ul li a:hover{color:#111!important}#nav ul.sub-menu li:last-child a{border-bottom-width:0px}#nav ul li:last-child ul a{border-bottom-width:1px!important;border-bottom-style:solid!important;border-bottom-color:#e5e5e5!important}#nav ul li ul li:last-child a{border-bottom-width:0px!important}#nav-sub li a:hover,#nav-sub li:hover a{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/nav-sub-bullet.png.pagespeed.ce.9-ipsaww-R.png);color:#111!important;background-position:0% 0%;background-repeat:repeat repeat}#nav-sub li a:hover,#nav-sub li:hover a,#nav-sub li.current_page_item a,#nav-sub li.current-menu-ancestor a,#nav-sub li.current-menu-item a{color:#ed1a3b}#nav-sub li:hover>ul{display:block}#nav-sub ul li a,#nav-sub li:hover ul li a{border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#ddd;font-size:16px;line-height:16px;font-weight:normal;float:none;padding:10px 0px;width:140px;display:block;background-color:transparent!important;color:#777!important;background-position:initial initial!important;background-repeat:initial initial!important}#nav-sub ul li a:hover,#nav-sub li:hover ul li a:hover{color:#111!important}#nav-sub ul.sub-menu li:last-child a{border-bottom-width:0px}#nav-sub ul li:last-child ul a{border-bottom-width:1px!important;border-bottom-style:solid!important;border-bottom-color:#e5e5e5!important}#nav-sub ul li ul li:last-child a{border-bottom-width:0px!important}.flex-newsflash:hover .flex-next{opacity:1}.flex-newsflash:hover .flex-prev{opacity:1}.flex-newsflash:hover .flex-next:hover,.flex-newsflash:hover .flex-prev:hover{opacity:1}.newsflash .article h3 a:hover{color:#fff}.newsflash li.article:last-child .pad{border-left-width:1px;border-left-style:solid;border-left-color:#292929}#page{}#page-inner{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/grad-page.png.pagespeed.ce.PVYcnhho6p.png);background-color:#fff;margin-top:20px;background-position:50% 0%;background-repeat:repeat no-repeat}.entry{position:relative;overflow:hidden}.blog .entry,.single .entry,.archive .entry,.search .entry{border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#eee}.megaspot .entry-thumbnail a:hover{color:#fff}.megaspot .entry-thumbnail a:hover img{opacity:.99}.entry-thumbnail a:hover img{opacity:.9}.entry-thumbnail a:hover .glass{background-position:40% 50%}.entry-thumbnail a:active .icon-thumb{opacity:.8}.entry-category{float:left;font-family:Oswald,Arial,sans-serif;font-weight:300;font-size:12px;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px}.single .entry-category{font-size:16px;margin-top:-10px;letter-spacing:0px}.entry-comments{font-family:LeagueGothicRegular,Arial,sans-serif;text-transform:uppercase;letter-spacing:1px}p.entry-comments{float:right;margin-bottom:4px}.entry-comments a{font-size:14px;color:#fff;display:block;float:left}.entry-comments a:hover{color:#fff}.entry-comments a span{background-color:#ff7900;padding:0px 6px 0px 7px;margin-right:2px;position:relative;text-shadow:rgba(0,0,0,.2) 0px 1px 0px;background-position:initial initial;background-repeat:initial initial}.entry-comments a span i.pike{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/sprite-v.png.pagespeed.ce.yZRW-0j94i.png);background-color:#ff7900;display:block;width:5px;height:5px;position:absolute;left:6px;bottom:-5px;background-position:-194px 0px;background-repeat:no-repeat no-repeat}.entry-comments a:hover span,.entry-comments a:hover span i.pike{background-color:#83ad02}.single .entry-comments{float:left;margin-top:-10px;margin-right:10px}.entry-title{color:#111}.entry-title a:hover{color:#444;text-decoration:underline}.blog .entry-title,.single .entry-title,.archive .entry-title,.search .entry-title{margin-bottom:4px;font-size:24px;letter-spacing:-.5px;line-height:1.3em;font-family:Oswald,sans-serif;font-weight:400}.single .entry{margin-bottom:0px}.single .entry-title{font-size:42px;margin:10px 0px 0px;line-height:1.25em}.single .entry-category,.single .entry-meta,.single .entry-title{text-shadow:#fff 0px 1px 0px}.entry-meta li{float:left;display:inline;margin-right:14px;margin-bottom:10px}.entry-meta li.entry-author a{color:#ff7900}.entry-meta li.entry-author a:hover{color:#111}.entry-meta li.entry-date{}.entry-meta li,.entry-meta a{color:#999}.entry-meta a:hover{color:#222}.entry-meta span{color:#444;font-weight:bold;display:block}.entry-tags{padding:20px 0px}.entry-tags span{font-size:13px;color:#999;display:block;float:left;margin:0px 10px 8px 0px}.entry-tags a{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/tag.png.pagespeed.ce.tzJ_kA_zmK.png);background-color:#ebebeb;display:inline-block;line-height:16px;white-space:nowrap;font-size:11px;color:#999;padding:1px 7px 1px 18px;margin:0px 5px 5px 0px;background-position:0px 0px;background-repeat:no-repeat no-repeat}.entry-tags a:hover{background-color:#ed1a3b;color:#fff}a.more-link:hover{text-decoration:underline}.entry-browse{}.entry-browse li{width:50%;display:inline;float:left;text-align:center}.entry-browse li a strong{display:block;font-family:LeagueGothicRegular,Arial,sans-serif;color:#111;letter-spacing:.5px;font-weight:normal;text-transform:uppercase}.entry-browse li a span{color:#999;-webkit-transition:.2s ease-out}.entry-browse li a{min-height:84px;display:block;padding:16px 40px 24px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#eee}.entry-browse li a:hover{}.entry-browse li a:hover span{color:#111}.entry-browse li.previous a{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/entry-browse-prev.png.pagespeed.ce.PypTv7Vhlz.png);border-right-width:1px;border-right-style:solid;border-right-color:#eee;background-position:15px 50%;background-repeat:no-repeat no-repeat}.entry-browse li.next a{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/entry-browse-next.png.pagespeed.ce.biQZL-Pvez.png);background-position:100% 50%;background-repeat:no-repeat no-repeat}.entry-related li:nth-child(5) article {border-right-color:#fff}.entry-related a:hover{color:#444}.entry-related a:hover .glass{background-position:40% 50%}.entry-related a:hover img{opacity:.9}.entry-related a:hover .rel-entry-title{text-decoration:underline}.entry-related a:active .icon-thumb{opacity:.8}a.jp-play:hover{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/jplayer.png.pagespeed.ce.EpcJ8dpD5Z.png);background-position:-33px 0px;background-repeat:no-repeat no-repeat}a.jp-pause:hover{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/jplayer.png.pagespeed.ce.EpcJ8dpD5Z.png);background-position:-33px -30px;background-repeat:no-repeat no-repeat}a.jp-mute:hover{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/jplayer.png.pagespeed.ce.EpcJ8dpD5Z.png);background-position:-43px -68px;background-repeat:no-repeat no-repeat}a.jp-unmute:hover{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/jplayer.png.pagespeed.ce.EpcJ8dpD5Z.png);background-position:-43px -98px;background-repeat:no-repeat no-repeat}.home-widgets .widget:last-child{padding-bottom:0px}.home-widgets .widget_wpb_tabs li:last-child{background-image:none;background-position:initial initial;background-repeat:initial initial}.widget{color:#777;font-size:14px}.widget a{color:#111}.widget a:hover{color:#444;text-decoration:underline}.widget-title{font-family:LeagueGothicRegular,Arial,sans-serif;font-weight:normal;font-size:16px;letter-spacing:.5px;text-transform:uppercase;margin-bottom:8px}.widget-title span{display:block;float:left;line-height:21px;padding:4px 8px 2px 26px}.widget-title a,.widget-title a:hover{color:#fff}.sidebar .widget{padding:20px}.sidebar .widget-title{border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#111;padding:0px 20px;margin-left:-20px;margin-right:-20px}.sidebar .widget-title span{background-color:#111;color:#fff;display:block;float:left}.widget-title span{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/icons-14.png.pagespeed.ce.1otdZgtgZ_.png);background-position:7px 7px;background-repeat:no-repeat no-repeat}.widget_pages ul li a:hover{background-color:#f4f4f4}.widget_nav_menu ul li a:hover{background-color:#f4f4f4}.widget_search input#s:focus{color:#444;-webkit-box-shadow:none;box-shadow:none}.widget_tag_cloud .tagcloud a:hover{color:#ed1a3b;text-decoration:none}.sidebar .widget.widget_text{font-size:13px}.widget_calendar a:hover{color:#444}.widget_wpb_tabs .wpb-tabs{padding-top:10px}.widget_wpb_tabs .wpb-tabs li{background-image:none;padding:0px;float:left;display:block;background-position:initial initial;background-repeat:initial initial}.widget_wpb_tabs .wpb-tabs.tabs-3 li{width:33.3%}.widget_wpb_tabs .wpb-tabs li a{display:block;background-color:#ddd;border-left-width:1px;border-left-style:solid;border-left-color:#fff;-webkit-box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 1px inset, rgba(255, 255, 255, 0.6) 0px 1px 0px;box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 1px inset, rgba(255, 255, 255, 0.6) 0px 1px 0px;background-position:initial initial;background-repeat:initial initial}.widget_wpb_tabs .wpb-tabs li a:hover{background-color:#d5d5d5;background-position:initial initial;background-repeat:initial initial}.widget_wpb_tabs .wpb-tabs li:first-child a{border-left-width:0px}.widget_wpb_tabs .wpb-tabs li a.active{color:#fff;background-color:#ff7900!important;background-position:initial initial!important;background-repeat:initial initial!important}.widget_wpb_tabs .wpb-tabs li span{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/widgets/tabs.png.pagespeed.ce.aND7XwdDk0.png);height:32px;display:block;width:100%;overflow:hidden;text-indent:-999px;background-position:50% 0%;background-repeat:no-repeat no-repeat}.widget_wpb_tabs .wpb-tabs li.wpb-tab-recent span{background-position:50% 0px}.widget_wpb_tabs .wpb-tabs li.wpb-tab-recent .active span{background-position:50% -32px}.widget_wpb_tabs .wpb-tabs li.wpb-tab-popular span{background-position:50% -64px}.widget_wpb_tabs .wpb-tabs li.wpb-tab-comments span{background-position:50% -128px}.widget_wpb_tabs{}.widget_wpb_tabs ul{padding:0px;width:100%}.widget_wpb_tabs ul.wpb-tab{display:none}.widget_wpb_tabs li{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/hr.png.pagespeed.ce.cPoo9HbNE6.png);padding:15px 0px;width:100%;background-position:50% 100%;background-repeat:repeat no-repeat}.widget_wpb_tabs a{display:block}.widget_wpb_tabs a:active .icon-thumb{opacity:.8}.widget_wpb_tabs a img{display:block;width:100%;height:auto}.widget_wpb_tabs a:hover img{opacity:.9}.widget_wpb_tabs a span{display:block}.widget_wpb_tabs .wpb-thumb{position:relative;float:left}.widget_wpb_tabs .wpb-thumb-enabled a{padding-left:110px}.widget_wpb_tabs .wpb-thumb{width:96px;margin-left:-110px}.widget_wpb_tabs .list-comments .wpb-thumb-enabled a{padding-left:78px}.widget_wpb_tabs .list-comments .wpb-thumb{width:64px;margin-left:-78px}.widget_wpb_tabs .wpb-text i{font-style:normal;display:block;float:left;width:100%}.widget_wpb_tabs a:hover .wpb-text i.title{text-decoration:underline}.widget_wpb_tabs .wpb-text i.meta{color:#999;font-style:italic;font-size:12px}ul#breadcrumbs li a:hover{text-decoration:underline}#subfooter .widget a:hover{color:#ccc;text-decoration:underline}#subfooter .widget-title a:hover{color:#fff}#subfooter .widget_pages ul li a:hover,#subfooter .widget_nav_menu ul li a:hover{background-color:#161616}#subfooter .widget_search input#s:focus{color:#999}#subfooter .widget_tag_cloud .tagcloud a:hover{color:#ccc;text-decoration:none}#subfooter .widget_calendar a:hover{color:#777}#subfooter .widget_wpb_tabs .wpb-tabs li a:hover{background-color:#383838}#subfooter .toggle .title:hover{color:#ccc;background-color:#262626}#subfooter .accordion .title a:hover{color:#ccc;background-image:none;text-decoration:none;background-position:initial initial;background-repeat:initial initial}#subfooter .accordion .title:hover{background-image:none;background-position:initial initial;background-repeat:initial initial}#footer{background-color:#111;color:#777;width:100%;background-position:initial initial;background-repeat:initial initial}#footer-inner{}#footer-inner a{color:#777}#footer-inner a:hover{color:#ccc;text-decoration:underline}#footer .pad{padding-top:0px;padding-bottom:0px}#nav-alt{background-color:#fff;font-family:LeagueGothicRegular,Arial,sans-serif;font-weight:normal;font-size:0px;text-align:center;border-bottom-width:5px;border-bottom-style:solid;border-bottom-color:#ff7900;border-top-width:1px;border-top-style:solid;border-top-color:#e9e9e9;border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-right-radius:4px;border-bottom-left-radius:4px;background-position:50% 0%;background-repeat:repeat repeat}#nav-alt li{border-right-width:1px;border-right-style:solid;border-right-color:#e9e9e9;list-style:none;display:inline-block;position:relative}#nav-alt li:first-child{border-left-width:1px;border-left-style:solid;border-left-color:#e9e9e9}#nav-alt li a{font-size:16px;color:#888;display:inline-block;text-transform:uppercase;line-height:20px;padding:12px 20px}#nav-alt li a:hover,#nav-alt li:hover a{background-color:#333;text-decoration:none;color:#ccc!important;background-position:initial initial;background-repeat:initial initial}#nav-alt li a:hover,#nav-alt li:hover a,#nav-alt li.current_page_item a,#nav-alt li.current-menu-ancestor a,#nav-alt li.current-menu-item a{color:#ccc}#nav-alt li:hover>ul{display:block}#nav-alt ul li:first-child{border-left-width:0px}#nav-alt ul li a,#nav-alt li:hover ul li a{font-size:16px;line-height:16px;font-weight:normal;float:none;padding:10px 0px;width:140px;display:block;background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/hr-light.png.pagespeed.ce.C19qqYBhOC.png)!important;background-color:transparent!important;color:#888!important;text-shadow:none!important;background-position:50% 100%!important;background-repeat:repeat no-repeat!important}#nav-alt ul li a:hover,#nav-alt li:hover ul li a:hover{color:#ccc!important}#nav-alt ul.sub-menu li:last-child a{border-bottom-width:0px}#nav-alt ul li:last-child ul a{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/hr-light.png.pagespeed.ce.C19qqYBhOC.png)!important;background-color:transparent!important;background-position:50% 100%!important;background-repeat:repeat no-repeat!important}#nav-alt ul li ul li:last-child a{border-bottom-width:0px!important}#footer #footer-bottom .pad{padding-top:0px;padding-bottom:30px}#footer-bottom .grid{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/hr-light.png.pagespeed.ce.C19qqYBhOC.png);padding:10px 0px;margin:0px;width:100%;text-align:center;background-position:50% 100%;background-repeat:repeat no-repeat}#footer #copy{color:#777;font-size:13px;line-height:20px;padding:4px 0px}#footer-social li a:hover{background-color:#292929;background-position:initial initial;background-repeat:initial initial}#footer-social li a:hover span.icon img{opacity:1}#footer-social li a:hover span.icon-title{background-color:#fff;display:inline-block;text-align:center;color:#111;padding:4px 8px;font-size:11px;line-height:16px;white-space:nowrap;position:absolute;top:-36px;right:0px;border-top-left-radius:2px;border-top-right-radius:2px;border-bottom-right-radius:2px;border-bottom-left-radius:2px;box-shadow:rgba(0,0,0,.701961) 0px 0px 10px;background-position:initial initial;background-repeat:initial initial}#footer-social li a:hover span.icon-title i.icon-pike{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/sprite-v.png.pagespeed.ce.yZRW-0j94i.png);width:9px;height:5px;position:absolute;bottom:-5px;right:11px;background-position:-176px 0px;background-repeat:no-repeat no-repeat}#footer a#to-top{display:block;height:30px;margin:-10px 0px 0px;float:left;width:100%}#footer a#to-top:hover{background-color:#777}.commentlist li .comment-body .fn a:hover{color:#444}.commentlist li:last-child,.commentlist li li:last-child,.commentlist li li li:last-child,.commentlist li li li li:last-child{padding-bottom:0px!important}.commentlist .comment-meta a.comment-edit-link:hover{color:#444}.commentlist .reply a:hover{background-position:0px -280px}.commentlist .reply a:active{color:#111;border-color:#b4b4b4 #d7d7d7;background-position:0px -320px}#cancel-comment-reply-link:hover{color:#777}#child-menu li ul li:last-child{border-bottom-width:0px}#child-menu li ul li a:hover{background-color:#ebebeb;color:#111;background-position:initial initial;background-repeat:initial initial}#child-menu li li.current_page_item a,#child-menu li li.current-menu-item a,#child-menu li li.current_page_parent a,#child-menu li li.current_page_item a:hover,#child-menu li li.current-menu-item a:hover,#child-menu li li.current_page_parent a:hover{background-color:#e5e5e5;color:#000;-webkit-box-shadow:none;box-shadow:none;background-position:initial initial;background-repeat:initial initial}#child-menu li ul li ul li:first-child{padding-top:5px}#child-menu li ul li ul li:last-child{padding-bottom:5px}#child-menu li li.current_page_item li a:hover,#child-menu li li.current-menu-item li a:hover,#child-menu li li.current_page_parent li a:hover{background-color:#d5d5d5;color:#111;-webkit-box-shadow:rgba(0,0,0,.0980392) 0px 1px 0px inset;box-shadow:rgba(0,0,0,.0980392) 0px 1px 0px inset;background-position:initial initial;background-repeat:initial initial}#child-menu li li li.current_page_item a,#child-menu li li li.current-menu-item a,#child-menu li li li.current_page_item a:hover,#child-menu li li li.current-menu-item a:hover{background-color:#d5d5d5;color:#ed1a3b;-webkit-box-shadow:rgba(0,0,0,.0980392) 0px 1px 0px inset;box-shadow:rgba(0,0,0,.0980392) 0px 1px 0px inset;background-position:initial initial;background-repeat:initial initial}.wp-pagenavi a:hover{-webkit-box-shadow:rgba(0,0,0,.14902) 0px 0px 10px;box-shadow:rgba(0,0,0,.14902) 0px 0px 10px;border-color:#cecece #ccc #adadad!important;background-position:0px -280px}.wp-pagenavi a:active,.wp-pagenavi span.current{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/sprite-h.png.pagespeed.ce.Pf5hySK3LF.png);background-color:#ddd;border-color:#b4b4b4 #c2c2c2!important;background-position:0px -320px;background-repeat:repeat no-repeat}.fancybox-nav:hover span{visibility:visible}.flex-container a:active,.flexslider a:active,.flex-container a:focus,.flexslider a:focus{outline:none}.slides::after{content:'.';display:block;clear:both;visibility:hidden;line-height:0;height:0px}.no-js .slides>li:first-child{display:block}.flexslider:hover .flex-next,.flexslider:hover .flex-prev{opacity:.8}.flexslider:hover .flex-next:hover,.flexslider:hover .flex-prev:hover{opacity:1}.flex-control-paging li a:hover{background-position:-43px -13px}.flex-control-thumbs img:hover{opacity:1}.ie7 .flexslider:hover .flex-next,.ie7 .flexslider:hover .flex-prev{opacity:1}.grid{margin-right:2.1%;float:left;display:inline;position:relative}a.button:hover{background-color:#666}a.button:active{background-color:#555}a.button.light:hover{color:#444;border-color:#aaa}a.button.light:active{background-image:none}a.button.dark:hover{background-color:#555}a.button.dark:active{background-image:none}.alert .alert-close:hover{opacity:1}ul.tabs-nav li a:hover{color:#444;cursor:pointer}.accordion .title a:hover{background-color:#f8f8f8;color:#ed1a3b;background-position:initial initial;background-repeat:initial initial}.accordion .title.active a:hover{background-image:none;background-position:initial initial;background-repeat:initial initial}.toggle .title:hover{background-color:#f8f8f8;color:#ed1a3b;background-position:initial initial;background-repeat:initial initial}#disqus_thread{padding:10px}button{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/widgets/xsearch.png.pagespeed.ic.pSARvRiqtw.png);width:30px;height:30px;float:right;margin-top:-38px;margin-right:10px;cursor:pointer;border:none!important;background-position:initial initial;background-repeat:no-repeat no-repeat}</style>
+<link rel="pingback" href="http://www.muylinux.com/xmlrpc.php">
+
+<script>document.documentElement.className=document.documentElement.className.replace("no-js","js");</script>
+
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://www.muylinux.com/wp-content/themes/newsroom14/js/ie/selectivizr.js"></script>
+<![endif]-->
+
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.4.15 - http://yoast.com/wordpress/seo/ -->
+<meta name="description" content="NVIDIA seguirá los pasos de ATI/AMD y liberará documentación sobre las especificaciones de sus GPU."/>
+<link rel="canonical" href="http://www.muylinux.com/2013/09/24/nvidia-liberara-documentacion-gpus/"/>
+<meta property="og:locale" content="es_ES"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="NVIDIA liberará documentación sobre sus GPUs - MuyLinux"/>
+<meta property="og:description" content="NVIDIA seguirá los pasos de ATI/AMD y liberará documentación sobre las especificaciones de sus GPU."/>
+<meta property="og:url" content="http://www.muylinux.com/2013/09/24/nvidia-liberara-documentacion-gpus/"/>
+<meta property="og:site_name" content="MuyLinux"/>
+<meta property="og:image" content="http://www.muylinux.com/wp-content/uploads/2013/09/nvidia-500x333.jpeg"/>
+<meta property="og:image" content="http://www.muylinux.com/wp-content/uploads/2013/09/nvidia.jpeg"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="@muylinux"/>
+<meta name="twitter:domain" content="MuyLinux"/>
+<meta name="twitter:creator" content="@muylinux"/>
+<!-- / Yoast WordPress SEO plugin. -->
+
+<style media="all">#cookie-law-info-bar{border:0px;font-size:10pt;margin:0px auto;padding:5px 0px;text-align:center;width:100%;z-index:9999}#cookie-law-info-bar span{vertical-align:middle}.cli-plugin-button,.cli-plugin-button:visited{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/plugins/cookie-law-info/images/xoverlay.png.pagespeed.ic.XqXUA_7FV8.png);background-color:#222;display:inline-block;padding:5px 10px 6px;color:#fff;text-decoration:none;border-top-left-radius:6px;border-top-right-radius:6px;border-bottom-right-radius:6px;border-bottom-left-radius:6px;-webkit-box-shadow:rgba(0,0,0,.6) 0px 1px 3px;text-shadow:rgba(0,0,0,.247059) 0px -1px 1px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:rgba(0,0,0,.247059);position:relative;cursor:pointer;margin:auto 10px;background-position:initial initial;background-repeat:repeat no-repeat}.cli-plugin-button:hover{background-color:#111;color:#fff}.cli-plugin-button:active{top:1px}.small.cli-plugin-button,.small.cli-plugin-button:visited{font-size:11px}.cli-plugin-button,.cli-plugin-button:visited,.medium.cli-plugin-button,.medium.cli-plugin-button:visited{font-size:13px;font-weight:bold;line-height:1;text-shadow:rgba(0,0,0,.247059) 0px -1px 1px}.large.cli-plugin-button,.large.cli-plugin-button:visited{font-size:14px;padding:8px 14px 9px}.super.cli-plugin-button,.super.cli-plugin-button:visited{font-size:34px;padding:8px 14px 9px}.pink.cli-plugin-button,.magenta.cli-plugin-button:visited{background-color:#e22092}.pink.cli-plugin-button:hover{background-color:#c81e82}.green.cli-plugin-button,.green.cli-plugin-button:visited{background-color:#91bd09}.green.cli-plugin-button:hover{background-color:#749a02}.red.cli-plugin-button,.red.cli-plugin-button:visited{background-color:#e62727}.red.cli-plugin-button:hover{background-color:#cf2525}.orange.cli-plugin-button,.orange.cli-plugin-button:visited{background-color:#ff5c00}.orange.cli-plugin-button:hover{background-color:#d45500}.blue.cli-plugin-button,.blue.cli-plugin-button:visited{background-color:#2981e4}.blue.cli-plugin-button:hover{background-color:#2575cf}.yellow.cli-plugin-button,.yellow.cli-plugin-button:visited{background-color:#ffb515}.yellow.cli-plugin-button:hover{background-color:#fc9200}</style>
+<style media="all">.socialmedia-buttons{margin-top:5px}.smw_center{text-align:center}.smw_center img,.smw_left img{display:inline;-webkit-transition:all .2s ease-in;border:0px!important;margin-right:10px!important}.socialmedia-buttons a{background-image:none!important;background-position:initial initial!important;background-repeat:initial initial!important}.socialmedia-buttons a:hover{text-decoration:none;border:0px}.socialmedia-buttons img{vertical-align:middle;margin-bottom:3px}.socialmedia-buttons img.fade:hover{-webkit-transition:all .2s ease-in;opacity:1!important}.socialmedia-buttons img.scale:hover{-webkit-transform:scale(1.2);-webkit-transition:all .2s ease-in}.socialmedia-buttons img.bounce:hover{-webkit-transform:translate(0px,-2px);-webkit-transition:-webkit-transform .2s ease-in}.socialmedia-buttons img.combo:hover{-webkit-transform:scale(1.1) translate(0px,-4px);-webkit-transition:all .2s ease-in;opacity:1!important}</style>
+<style media="all">.wp_syntax caption a:hover{color:#1982d1!important;text-decoration:underline!important}</style>
+<style media="all">#wrap{min-width:100%}.container,#header-inner,#nav-topbar,#nav,#nav-sub{min-width:320px}@media only screen and (max-width:1023px) and (min-width:640px){#nav{border-left-width:0px}.entry-related li:nth-child(4) article {border-right-color:#fff}.entry-related li:nth-child(4) {display:none}}@media only screen and (max-width:860px) and (min-width:640px){body{font-size:13px}.main.sidebar-right{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/img/sidebar-right-260.png.pagespeed.ce.FRIkUfqNim.png);padding-right:260px}.main.sidebar-right .sidebar{float:right;margin-right:-260px}.sidebar{width:260px}.single .entry-title{font-size:36px}.widget{font-size:13px}.widget_wpb_tabs .wpb-thumb-enabled a{padding-left:74px}.widget_wpb_tabs .wpb-thumb{width:60px;margin-left:-74px}.widget_wpb_tabs .list-comments .wpb-thumb-enabled a{padding-left:54px}.widget_wpb_tabs .list-comments .wpb-thumb{width:40px;margin-left:-54px}}@media only screen and (max-width:768px) and (min-width:640px){.pad,.single .entry-format{padding:25px 25px 15px}.grid{margin-right:2.9%}#tagline{display:none}#nav li a{padding-left:15px;padding-right:15px}.entry-browse li{width:100%}.entry-browse li a{min-height:auto}.entry-browse li.previous a{border-right-width:0px}}@media only screen and (max-width:639px){.content,.content-part,.sidebar{width:100%;float:none;margin-right:0px!important;margin-left:0px!important}.main{background-image:none!important;padding:0px!important}.grid,.content-part .grid{width:100%;margin:0px 0px 20px}body{font-size:13px}.pad{padding:20px 20px 10px}#header .pad{padding-top:0px;padding-bottom:0px}#logo{border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#f1f1f1;padding-top:15px;padding-bottom:15px}#logo{width:100%;float:none;line-height:50px}#logo a{float:none;text-align:center}#logo a img{float:none}.mobile-sidebar-disable .sidebar,.sidebar{background-color:#f4f4f4;border-top-width:1px;border-top-style:solid;border-top-color:#ddd;padding-top:20px;width:100%;display:block;float:none;background-position:initial initial;background-repeat:initial initial}#sticky-footer-push,#tagline,#header-nav,.mobile-sidebar-disable .sidebar,.caption-bar,li.entry-author,#page-image-text span.description,#slidecaption,#breadcrumb{display:none}#nav-alt li a{padding-left:8px;padding-right:8px}.single .entry-comments,.single .entry-category{margin-top:0px}.single .entry-title,.single .single-header-small .entry-title{font-size:32px}.entry-browse li{width:100%}.entry-browse li a{min-height:auto}.entry-browse li.previous a{border-right-width:0px}.entry-related li:nth-child(4) article {border-right-color:#fff}.entry-related li:nth-child(4) {display:none}}@media only screen and (max-width:479px){body{font-size:12px}.pad,.single .entry-format{padding:15px 15px 5px}#header-search,#header-social,#page-image-text,#page-title h1 span,#page-title h2 span,.entry-author-block,.entry-tags,.flex-post .flex-control-nav,#slidecounter{display:none}.megaspot .entry .entry-thumbnail a:hover{color:#444}.single .entry-title,.single .single-header-small .entry-title{font-size:22px}.entry-related li:nth-child(2) article {border-right-color:#fff}.entry-related li:nth-child(3), .entry-related li:nth-child(4) {display:none}.entry-meta{font-size:12px}}</style>
+<style media="all">#wrap,.container{max-width:1120px;min-width:320px;margin:0px auto}#topbar-nav,#nav-topbar,#header-inner,#header-nav,#header-line,#subheader-nav,#nav-sub,.ads-header,.ads-footer{max-width:1118px;min-width:0px;margin:0px auto}body{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/styles/boxed/xbg.png.pagespeed.ic.dKsaYOlBu2.png);background-color:#eee;background-position:50% 0%;background-repeat:repeat repeat}#wrap{-webkit-box-shadow: rgba(0, 0, 0, 0.027451) 5px 0px 0px, rgba(0, 0, 0, 0.027451) -5px 0px 0px;box-shadow: rgba(0, 0, 0, 0.027451) 5px 0px 0px, rgba(0, 0, 0, 0.027451) -5px 0px 0px}#header,#subheader{background-image:none;background-position:initial initial;background-repeat:initial initial}#page-inner{background-image:none;margin-top:0px}#nav{border-left-width:0px}#nav-sub li:first-child a{background-image:none}#header-inner,#header-nav,#header-line,#subheader-nav,#subheader-inner,#page-inner,#breadcrumb-inner,.ads-header{border-left-width:1px;border-left-style:solid;border-left-color:#ddd;border-right-width:1px;border-right-style:solid;border-right-color:#ddd}#header-inner{background-color:#fff;background-position:initial initial;background-repeat:initial initial}#subfooter-inner,#footer-inner,.ads-footer{border-left-width:1px;border-left-style:solid;border-left-color:#fff;border-right-width:1px;border-right-style:solid;border-right-color:#fff}#footer-inner{background-color:#fff;background-position:initial initial;background-repeat:initial initial}#footer{background-image:none;border-top-width:0px;background-position:initial initial;background-repeat:initial initial}#nav-alt{border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-right-radius:0px;border-bottom-left-radius:0px}.entry-browse li a:hover{background-color:#f3f3f3}.entry-browse li a:hover span{color:#777}.entry-related article:hover{background-color:#f3f3f3}.widget_wpb_tabs .wpb-tabs li a{background-color:#eee;-webkit-box-shadow:none;box-shadow:none;background-position:initial initial;background-repeat:initial initial}.widget_wpb_tabs .wpb-tabs li a:hover{background-color:#e5e5e5;background-position:initial initial;background-repeat:initial initial}@media only screen and (max-width:1024px){#header-inner,#header-nav,#header-line,#subheader-nav,#subheader-inner,#page-inner,#breadcrumb-inner,#subfooter-inner,#footer-inner{border-left-width:0px;border-right-width:0px}}</style>
+<style media="all">.wp-pagenavi a:hover,.wp-pagenavi span.current{border-color:#000}</style>
+<style media="screen">#colorbox,#cboxOverlay,#cboxWrapper{position:absolute;top:0px;left:0px;z-index:9999;overflow:hidden}#cboxOverlay{position:fixed;width:100%;height:100%}#cboxMiddleLeft,#cboxBottomLeft{clear:left}#cboxContent{position:relative;overflow:visible}#cboxTitle{margin:0px}#cboxPrevious,#cboxNext,#cboxClose,#cboxSlideshow{cursor:pointer}#colorbox,#cboxContent,#cboxLoadedContent{box-sizing:content-box}#cboxOverlay{background-color:#000;background-position:initial initial;background-repeat:initial initial}#colorbox{}#cboxContent{background-color:#000;margin-top:20px;background-position:initial initial;background-repeat:initial initial}#cboxBottomCenter{height:30px;background-color:#000;background-position:initial initial;background-repeat:initial initial}#cboxTitle{position:absolute;bottom:-25px;left:5px;color:#ccc}#cboxCurrent{position:absolute;bottom:-25px;right:35px;color:#ccc}#cboxSlideshow{position:absolute;top:-20px;right:90px;color:#fff}#cboxPrevious{position:absolute;top:50%;left:5px;margin-top:-41px;background-image:url(http://www.muylinux.com/2013/09/24/nvidia-liberara-documentacion-gpus/?ModPagespeedFilters=compute_critical_css,decode_rewritten_urls,flatten_css_imports,inline_css,inline_import_to_link,rewrite_css&ModPagespeedCssFlattenMaxBytes=0&ModPagespeedCssImageInlineMaxBytes=0&ModPagespeedCssInlineMaxBytes=10485760);width:49%;height:100%;text-indent:-9999px}#cboxNext{position:absolute;top:50%;right:5px;margin-top:-41px;background-image:url(http://www.muylinux.com/2013/09/24/nvidia-liberara-documentacion-gpus/?ModPagespeedFilters=compute_critical_css,decode_rewritten_urls,flatten_css_imports,inline_css,inline_import_to_link,rewrite_css&ModPagespeedCssFlattenMaxBytes=0&ModPagespeedCssImageInlineMaxBytes=0&ModPagespeedCssInlineMaxBytes=10485760);width:49%;height:100%;text-indent:-9999px}#cboxClose{position:absolute;bottom:-25px;right:5px;display:block;background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/plugins/lightbox-plus/css/black/images/xclose.png.pagespeed.ic.XsXGwK9GpC.png);width:22px;height:22px;text-indent:-9999px;background-position:50% 0%;background-repeat:no-repeat no-repeat}</style>
+<script type='text/javascript' src='http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-includes/js/jquery/jquery.js,qver=1.10.2.pagespeed.jm.IA0LeBJnom.js'></script>
+<script type='text/javascript' src='http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-includes/js/jquery/jquery-migrate.min.js,qver=1.2.1.pagespeed.jm.LVTOO3Z2GS.js'></script>
+<script type='text/javascript' src='http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/plugins/cookie-law-info/js/jquery.cookie.js,qver=3.6.1.pagespeed.jm.BhnLhvkZxJ.js'></script>
+<script type='text/javascript' src='http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/plugins/cookie-law-info/js/cookielawinfo.js,qver=3.6.1.pagespeed.jm.IT9CpfVOZJ.js'></script>
+<script type='text/javascript' src='http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-includes/js/comment-reply.min.js,qver=3.6.1.pagespeed.ce.YYW5hq-CGg.js'></script>
+
+<style>.highslide-loading{display:block;color:#000;font-size:8pt;font-family:sans-serif;font-weight:bold;text-decoration:none;padding:2px 2px 2px 22px;border:1px solid #000;background-color:#fff;background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/plugins/Viva-ThumbZoom/lib/v-zoom/graphics/loader.white.gif.pagespeed.ce.8q8GDxytvJ.gif);background-position:3px 1px;background-repeat:no-repeat no-repeat}a.highslide-credits:hover,a.highslide-credits:hover i{color:#fff;background-color:gray}.highslide-wrapper .highslide-header a:hover{color:#000}</style>
+
+				<script type='text/javascript' src='http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/plugins/Viva-ThumbZoom/lib/v-zoom/viva-zoom-mini.js.pagespeed.ce.TeQr8BgNii.js'></script>
+
+				<script type='text/javascript'>vz.graphicsDir='http://www.muylinux.com/wp-content/plugins/Viva-ThumbZoom/lib/v-zoom/graphics/';vz.outlineType='rounded-white';</script>
+<link rel="shortcut icon" href="http://www.muylinux.com/wp-content/uploads/2013/08/faviconMuyLinux2.ico">
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">var sc_project=3622164;var sc_invisible=1;var sc_security="094df664";</script>
+<script type="text/javascript" src="http://1-ps.googleusercontent.com/x/www.muylinux.com/www.statcounter.com/counter/counter.js.pagespeed.ce.fy2CEqVdT7.js"></script>
+<noscript><div class="statcounter"><a title="site stats" href="http://statcounter.com/free-web-stats/" target="_blank"><img class="statcounter" src="http://c.statcounter.com/3622164/0/094df664/1/" alt="site stats"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+<!-- Analytics linux-->
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-3771886-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+<!--fin analytics-->
+
+
+
+
+<!-- Analytics mc-->
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-3771886-36']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+<!--fin analytics-->
+</head>
+
+<body class="single single-post postid-28355 single-format-standard mobile-sidebar-disable">
+	
+
+<div id="wrap">
+	<header id="header">
+		<div class="container">
+						
+						
+			<div id="header-inner" class="fix">			
+				<div class="pad fix">
+					<p id="logo"><a href="http://www.muylinux.com/" rel="home"><img src="http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/uploads/2013/08/xmuylinux1.png.pagespeed.ic.KKwI21bGtF.png" alt="MuyLinux"></a></p>
+					<p id="tagline"></p>											<div id="header-search" class="fix"><form method="get" id="searchform" action="http://www.muylinux.com/">
+	<div>
+		<input type="text" id="s" name="s" onblur="if(this.value=='')this.value='';" onfocus="if(this.value=='')this.value='';" value=""/>
+
+<button></button>
+
+
+
+</form>
+
+</div>
+													
+											
+<div class="side-nav header-widget-zone" style="margin-top:50px !important;"><div class="socialmedia-buttons smw_center"><a href="https://plus.google.com/107130199954408172638/posts" rel="publisher" target="_blank"><img width="32" height="32" src="http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/plugins/social-media-widget/images/default/32/32x32xgoogleplus.png.pagespeed.ic._auBeyJTqt.png" alt="Síguenos en Google+" title="Síguenos en Google+" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"/></a><a href="https://twitter.com/muylinux" rel="nofollow" target="_blank"><img width="32" height="32" src="http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/plugins/social-media-widget/images/default/32/32x32xtwitter.png.pagespeed.ic.Y13I1S_A0v.png" alt="Síguenos en Twitter" title="Síguenos en Twitter" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"/></a><a href="https://www.facebook.com/muylinux?fref=ts" rel="nofollow" target="_blank"><img width="32" height="32" src="http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/plugins/social-media-widget/images/default/32/32x32xfacebook.png.pagespeed.ic.JyW5kUs7nr.png" alt="Síguenos en Facebook" title="Síguenos en Facebook" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"/></a><a href="http://www.muylinux.com/feed" rel="nofollow" target="_blank"><img width="32" height="32" src="http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/plugins/social-media-widget/images/default/32/32x32xrss.png.pagespeed.ic.qRKL39fHFi.png" alt="Síguenos en RSS" title="Síguenos en RSS" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"/></a><a href="mailto:muylinux@tpnet.es" rel="nofollow" target="_blank"><img width="32" height="32" src="http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/plugins/social-media-widget/images/default/32/32x32xemail.png.pagespeed.ic.aroQEWXjo1.png" alt="Síguenos en E-mail" title="Síguenos en E-mail" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"/></a><a href="http://www.youtube.com/user/MuyComputer" rel="nofollow" target="_blank"><img width="32" height="32" src="http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/plugins/social-media-widget/images/default/32/32x32xyoutube.png.pagespeed.ic.aaX_me5bj3.png" alt="Síguenos en YouTube" title="Síguenos en YouTube" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade"/></a></div></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<nav id="header-nav" class="fix"><ul id="nav" class="fix"><li id="menu-item-27984" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-27984"><a href="http://www.muylinux.com/">Inicio</a></li>
+<li id="menu-item-27985" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27985"><a href="http://www.muylinux.com/distribuciones/">Distribuciones</a></li>
+<li id="menu-item-27986" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27986"><a href="http://www.muylinux.com/empresas/">Empresas</a></li>
+<li id="menu-item-27987" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27987"><a href="http://www.muylinux.com/gnome/">GNOME</a></li>
+<li id="menu-item-27988" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27988"><a href="http://www.muylinux.com/gnulinux/">GNU/Linux</a></li>
+<li id="menu-item-27990" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27990"><a href="http://www.muylinux.com/kde/">KDE</a></li>
+<li id="menu-item-27991" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27991"><a href="http://www.muylinux.com/kernel/">Kernel</a></li>
+<li id="menu-item-27992" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-27992"><a href="http://www.muylinux.com/open-source/">Open Source</a></li>
+<li id="menu-item-27993" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27993"><a href="http://www.muylinux.com/seguridad/">Seguridad</a></li>
+<li id="menu-item-27994" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27994"><a href="http://www.muylinux.com/trucos/">Trucos</a></li>
+<li id="menu-item-27995" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27995"><a href="http://www.muylinux.com/ubuntu/">Ubuntu</a></li>
+</ul></nav>	
+			
+			<div id="header-line"></div>
+					</div>
+
+
+
+
+
+<!--CÓDIGO DFP-->
+
+<script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'></script>
+<script type='text/javascript'>GS_googleAddAdSenseService("ca-pub-5475175608606543");GS_googleEnableAllServices();</script>
+<script type='text/javascript'>GA_googleAddSlot("ca-pub-5475175608606543","160x600_Sky_Lateral_MuyLinux");GA_googleAddSlot("ca-pub-5475175608606543","1x1_Intersticial_MuyLinux");GA_googleAddSlot("ca-pub-5475175608606543","300x250_MPU_Inferior_MuyLinux");GA_googleAddSlot("ca-pub-5475175608606543","300x250_MPU_Singles_MuyLinux");GA_googleAddSlot("ca-pub-5475175608606543","300x600_Doble_MPU_Superior_MuyLinux");GA_googleAddSlot("ca-pub-5475175608606543","468x60_minibanner_singles_MuyLinux");GA_googleAddSlot("ca-pub-5475175608606543","640x480_Superbanner_Singles_MuyLinux");GA_googleAddSlot("ca-pub-5475175608606543","618x247_Superbanner_singles_MuyLinux");GA_googleAddSlot("ca-pub-5475175608606543","728x270_LB_Desplegable_Superior_MuyLinux");GA_googleAddSlot("ca-pub-5475175608606543","728x270_LB_Desplegable_Superior_Singles_MuyLinux");GA_googleAddSlot("ca-pub-5475175608606543","728x90_MPU_Singles_MuyLinux");GA_googleAddSlot("ca-pub-5475175608606543","800x600_Intersticial_MuyLinux");GA_googleAddSlot("ca-pub-5475175608606543","Skin_MuyLinux");</script>
+<script type='text/javascript'>GA_googleFetchAds();</script>
+
+
+<!--FIN CÓDIGO DFP-->
+	</header><!--/header-->
+	
+<div id="page">
+	<div class="container">
+		<div id="page-inner">
+			
+						
+							<header class="content">
+
+
+
+<!-- 728x270_LB_Desplegable_Superior_Singles_MuyLinux -->
+<div style="margin-left:180px; padding-top:10px;">
+<script type="text/javascript">GA_googleFillSlot("728x270_LB_Desplegable_Superior_Singles_MuyLinux");</script>
+</div>
+
+
+
+
+	<div class="pad fix">
+					<p class="entry-comments">
+				<a href="http://www.muylinux.com/2013/09/24/nvidia-liberara-documentacion-gpus/#comments">
+					<span><span class="dsq-postid" rel="28355 http://www.muylinux.com/?p=28355">53</span><i class="pike"></i></span>
+				</a>
+			</p>
+				
+					<p class="entry-category"><a href="http://www.muylinux.com/destacados/" title="Ver todas las entradas en Destacados" rel="category tag">Destacados</a> &middot; <a href="http://www.muylinux.com/hardware/" title="Ver todas las entradas en Hardware" rel="category tag">Hardware</a> &middot; <a href="http://www.muylinux.com/open-source/" title="Ver todas las entradas en Open Source" rel="category tag">Open Source</a></p>
+				
+		<div class="clear"></div>
+		<h1 class="entry-title">NVIDIA liberará documentación sobre sus GPUs</h1>
+		<ul class="entry-meta fix">
+							<li class="entry-author">por <a href="http://www.muylinux.com/author/eduardo-medina/" title="Entradas de Eduardo Medina" rel="author">Eduardo Medina</a></li>
+						
+							<li class="entry-date">
+					24 de septiembre, 2013									</li>
+
+			
+
+
+
+
+
+
+<!--se incluye redes sociales-->
+<br/>
+<br/>
+					<div class="social">
+						<ul>
+						<li style="margin-right:15px;>
+
+<!-- Inserta esta etiqueta en la sección " head" o justo antes de la etiqueta "body" de cierre. -->
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+  {lang: 'es', parsetags: 'explicit'}
+</script>
+
+<!-- Inserta esta etiqueta donde quieras que aparezca Botón +1. -->
+<div class="g-plusone" data-annotation="none"></div>
+
+<!-- Inserta esta invocación donde quieras. -->
+<script type="text/javascript">gapi.plusone.go();</script>
+
+
+</li>
+						<li style="padding-top:2px; margin-right:-10px;">
+
+
+						<a href="https://twitter.com/share" class="twitter-share-button" data-via="muylinux" data-lang="es">Twittear</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>
+
+
+</li>
+						<li style="margin-top:2px;">
+<div id="fb-root"></div>
+<script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/es_LA/all.js#xfbml=1";fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));</script>
+
+<fb:like width="450" layout="button_count" action="like" show_faces="false" send="false"></fb:like>
+						
+
+
+						</ul>
+					</div>
+
+<!-- finalización de redes sociales-->
+
+
+
+
+
+
+
+		</ul>
+	</div><!--/pad-->
+</header>						
+			<div class="main fix sidebar-right">
+
+				<div class="content-part">
+					<article id="entry-28355" class="post-28355 post type-post status-publish format-standard hentry category-destacados category-hardware category-open-source tag-controladores-graficos tag-gpu tag-nouveau tag-nvidia tag-open-source entry fix">	
+																		<div class="pad fix">	
+						
+							<div class="text">
+								<p><img class="aligncenter size-full wp-image-28356" alt="NVIDIA liberará documentación sobre sus GPUs" src="http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/uploads/2013/09/718x479xnvidia.jpeg.pagespeed.ic.AWLgu-r6jp.jpg" width="718" height="479" title=""/></p>
+<p>Vía <a title="NVIDIA To Begin Publishing Open GPU Documentation" href="http://www.phoronix.com/scan.php?page=news_item&amp;px=MTQ2NzY" target="_blank">Phoronix</a> nos llega la noticia de que <strong>NVIDIA seguirá los pasos de ATI/AMD y liberará documentación sobre las especificaciones de sus GPU</strong>. El gigante por excelencia del procesamiento gráfico ha realizado este sorprendente anuncio en el XDC2013, evento de conferencias relacionadas con Xorg, que este año se está celebrando en la ciudad de Portland.</p>
+<p>Por el momento la empresa californiana ha anunciado que el lunes liberó documentación referente al <strong>Control de Bloqueo del Dispositivo para NVIDIA VBIOS</strong>, que &#8220;describe la topología de la tarjeta gráfica y la información sobre la conexión al monitor&#8221;. También ha anunciado que seguirán la lista de correo Nouveau, y la creación de una cuenta de correo bajo el dominio nvidia.com con el fin de que los desarrolladores del driver libre puedan buscar información.</p>
+<p>Todo un golpe de efecto de NVIDIA, que tras las famosas y gruesas palabras de <a title="Linus a NVIDIA: “que te jodan”" href="http://www.muylinux.com/2012/06/18/linus-a-nvidia-que-te-jodan/" target="_blank">Linus Torvalds</a> y de fastidíarsele algunas ventas en China, trata de volver a ganarse el respeto de la comunidad Linuxera con este anuncio y, anteriormente, con la liberación de <a title="NVIDIA vuelve a liberar drivers, ahora SoCs Tegra" href="http://www.muylinux.com/2013/04/19/nvidia-vuelve-a-liberar-drivers-ahora-socs-tegra/" target="_blank">drivers para SoCs Tegra</a>.</p>
+<p>¿A qué se debe este cambio de política?. La próxima versión del driver privativo de AMD, <a title="AMD Catalyst™ 13.8 LINUX Beta Driver" href="http://support.amd.com/us/kbarticles/Pages/AMDCatalyst13-8LINBetaDriver.aspx" target="_blank">Catalyst 13.8</a>, promete soportar hasta Linux 3.10, lo que le puede dar ventaja de cara al mercado ante una más que posible mejoría de su soporte para Linux. A NVIDIA no le ha quedado otra que mover ficha y apuntarse al carro de <strong>apoyar los controladores Open Source</strong>, ya que era la única de los tres grandes de los chips gráficos (no hay que olvidar a Intel) que no aportaba nada en este sentido, ya que Nouveau hasta ahora no es más que un &#8220;milagro&#8221; obrado a través de ingeniería inversa.</p>
+<p>Estamos sin duda ante una gran noticia los usuarios de NVIDIA y del Linux desktop, que cada día va ganando más protagonismo.</p>
+																<div class="clear"></div>
+							</div>
+							
+															<p class="entry-tags"><span></span> <a href="http://www.muylinux.com/tag/controladores-graficos/" rel="tag">Controladores gráficos</a><a href="http://www.muylinux.com/tag/gpu/" rel="tag">GPU</a><a href="http://www.muylinux.com/tag/nouveau/" rel="tag">Nouveau</a><a href="http://www.muylinux.com/tag/nvidia/" rel="tag">NVIDIA</a><a href="http://www.muylinux.com/tag/open-source/" rel="tag">Open Source</a></p>							
+														
+						</div><!--/entry content-->
+
+
+<!-- 618x247_Superbanner_singles_MuyLinux -->
+<span style="text-align:center; margin:25px;">
+<script type='text/javascript'>GA_googleFillSlot("618x247_Superbanner_singles_MuyLinux");</script>
+</span>
+
+
+<!-- 468x60_minibanner_singles_MuyLinux -->
+<span style="text-align:center; margin:200px;">
+<script type='text/javascript'>GA_googleFillSlot("468x60_minibanner_singles_MuyLinux");</script>
+</span>
+
+
+					</article>
+					
+										<ul class="entry-browse fix">
+						<li class="previous"><a href="http://www.muylinux.com/2013/09/23/proyecto-fedora-10-aniversario/" rel="prev"><strong>Anterior post</strong> <span>El Proyecto Fedora cumple 10 años</span></a></li>
+						<li class="next"><a href="http://www.muylinux.com/2013/09/25/firefox-24-h264-aac-mp3/" rel="next"><strong>Siguiente post</strong> <span>Firefox 24 estrenó soporte nativo para H.264, AAC y MP3. ¡Actívalo!</span></a></li>
+					</ul>
+										
+										
+					
+<div id="disqus_thread">
+                    <div id="dsq-content">
+
+
+            <ul id="dsq-comments">
+                    <li class="comment even thread-even depth-1" id="dsq-comment-175174">
+        <div id="dsq-comment-header-175174" class="dsq-comment-header">
+            <cite id="dsq-cite-175174">
+                <span id="dsq-author-user-175174">Hasher</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175174" class="dsq-comment-body">
+            <div id="dsq-comment-message-175174" class="dsq-comment-message"><p>Y&#8230; entre Valve, que ya va por el SO propio y el movimiento de varias empresas y desarrolladoras hacia Gnu/Linux como una gran base limpia para hacer negocios a diferencia de Microsoft o Apple, creo que lo de Nvidia es un movimiento no solo para los usuarios, sino para los estudios, como para que los tengan en cuenta.</p>
+<p>A fin de cuentas, todo es negocio&#8230; y mejor para nosotros, para por fin poder exprimir el poder de nuestras tarjetas graficas.</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-175177">
+        <div id="dsq-comment-header-175177" class="dsq-comment-header">
+            <cite id="dsq-cite-175177">
+http://trollsyopensource.blogspot.com.es/                <span id="dsq-author-user-175177">Eduardo Medina</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175177" class="dsq-comment-body">
+            <div id="dsq-comment-message-175177" class="dsq-comment-message"><p>Bueno, los usuarios compran, su perfil es lo de menos, xD.</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-3" id="dsq-comment-175333">
+        <div id="dsq-comment-header-175333" class="dsq-comment-header">
+            <cite id="dsq-cite-175333">
+http://eliotreyna.lamula.pe/                <span id="dsq-author-user-175333">eliotime3000</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175333" class="dsq-comment-body">
+            <div id="dsq-comment-message-175333" class="dsq-comment-message"><p>Y al menos, haría que Adobe piense portar en un futuro TODA la Creative Suite de una vez por todas.</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-4" id="dsq-comment-175345">
+        <div id="dsq-comment-header-175345" class="dsq-comment-header">
+            <cite id="dsq-cite-175345">
+http://trollsyopensource.blogspot.com.es/                <span id="dsq-author-user-175345">Eduardo Medina</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175345" class="dsq-comment-body">
+            <div id="dsq-comment-message-175345" class="dsq-comment-message"><p>Ojalá, eso sería un pelotazo.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-175178">
+        <div id="dsq-comment-header-175178" class="dsq-comment-header">
+            <cite id="dsq-cite-175178">
+                <span id="dsq-author-user-175178">Benji Sandoval</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175178" class="dsq-comment-body">
+            <div id="dsq-comment-message-175178" class="dsq-comment-message"><p>Yo sería cauto&#8230; es un avance, pero nada como liberar los drivers, como ha hecho Intel.</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-175187">
+        <div id="dsq-comment-header-175187" class="dsq-comment-header">
+            <cite id="dsq-cite-175187">
+                <span id="dsq-author-user-175187">Otto Swanstaiger</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175187" class="dsq-comment-body">
+            <div id="dsq-comment-message-175187" class="dsq-comment-message"><p>Como yo lo entiendo lo más importante que ha hecho Intel es liberar las especificaciones técnicas, puesto facilita que cualquiera pueda mantener el driver.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even depth-2" id="dsq-comment-175188">
+        <div id="dsq-comment-header-175188" class="dsq-comment-header">
+            <cite id="dsq-cite-175188">
+                <span id="dsq-author-user-175188">mitsuzero</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175188" class="dsq-comment-body">
+            <div id="dsq-comment-message-175188" class="dsq-comment-message"><p>si, pero que liberen, ya es un &#8220;AVAAAANCEEEEE!&#8221;(de hecho vale gritar) &#8230;. Va con todo Linux!!</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-even depth-1" id="dsq-comment-175179">
+        <div id="dsq-comment-header-175179" class="dsq-comment-header">
+            <cite id="dsq-cite-175179">
+                <span id="dsq-author-user-175179">Jonathan García Romero</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175179" class="dsq-comment-body">
+            <div id="dsq-comment-message-175179" class="dsq-comment-message"><p>A&#8230; dios quiera que pronto tengamos grandes juegos en linux, que ya los hay pero bastante menos en comparación con windows..</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-175195">
+        <div id="dsq-comment-header-175195" class="dsq-comment-header">
+            <cite id="dsq-cite-175195">
+                <span id="dsq-author-user-175195">Ds23yTube</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175195" class="dsq-comment-body">
+            <div id="dsq-comment-message-175195" class="dsq-comment-message"><p>Espero que con el nuevo driver de amd me soporte la memoria dedicada en linux. Alguien sabe si se puede activar la memoria dedicada en Linux??. Tengo una ATI HD 4500 de 512MB que soporta hasta 2GB y en linux solo me soporta los 512MB, hay alguna manera de activar la dedicación ??</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-175205">
+        <div id="dsq-comment-header-175205" class="dsq-comment-header">
+            <cite id="dsq-cite-175205">
+                <span id="dsq-author-user-175205">Julio Echavarria</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175205" class="dsq-comment-body">
+            <div id="dsq-comment-message-175205" class="dsq-comment-message"><p>Estas algo confundido, los 512MB son dedicados, los 1.5 GB restantes son compartidos, varia de tarjeta a tarjeta y de driver a driver, la memoria compartida se usa bajo demanda y en algunos casos es administrada por la board. Además la serie 4000 paso a ser legacy y por asunto del xorg no puede ser instalado el driver privativo en algunas distros.</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-3" id="dsq-comment-175250">
+        <div id="dsq-comment-header-175250" class="dsq-comment-header">
+            <cite id="dsq-cite-175250">
+                <span id="dsq-author-user-175250">Ds23yTube</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175250" class="dsq-comment-body">
+            <div id="dsq-comment-message-175250" class="dsq-comment-message"><p>Ehhh ?? la memoría física de vídeo son 512MB y la dedicada es la compartida que son 2GB.</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-4" id="dsq-comment-175256">
+        <div id="dsq-comment-header-175256" class="dsq-comment-header">
+            <cite id="dsq-cite-175256">
+                <span id="dsq-author-user-175256">Julio Echavarria</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175256" class="dsq-comment-body">
+            <div id="dsq-comment-message-175256" class="dsq-comment-message"><p>Ahhhh bueno&#8230;</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-175196">
+        <div id="dsq-comment-header-175196" class="dsq-comment-header">
+            <cite id="dsq-cite-175196">
+                <span id="dsq-author-user-175196">luislmv85</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175196" class="dsq-comment-body">
+            <div id="dsq-comment-message-175196" class="dsq-comment-message"><p>Genial. Pronto me voy a comprar una GTX 760 y esta noticia me viene como anillo al dedo. Las tarjetas Nvidia, antes de que se liberase nada, ya se comportaban mucho mejor que las AMD sobre Linux, con esto, supongo que no tendrán rival en nuestro sistema. Ojo, que no estoy diciendo que Nvidia sea mejor o peor que AMD, sólo que los controladores de AMD para Linux, tanto libres como privativos dejan mucho que desear, tanto que no estoy usando mi pc de escritorio, que mota una HD 7750, hasta que me pueda comprar la GTX 760. Mientras estoy usando mi portátil que tiene una GT 630M de 2GB y que con los controladores libres actuales se comporta bastante bien.<br/>
+Saludos</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-175210">
+        <div id="dsq-comment-header-175210" class="dsq-comment-header">
+            <cite id="dsq-cite-175210">
+                <span id="dsq-author-user-175210">Tony_GPR</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175210" class="dsq-comment-body">
+            <div id="dsq-comment-message-175210" class="dsq-comment-message"><p>A la gente que usa el driver binario no le afecta esta noticia.</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-3" id="dsq-comment-175226">
+        <div id="dsq-comment-header-175226" class="dsq-comment-header">
+            <cite id="dsq-cite-175226">
+                <span id="dsq-author-user-175226">luislmv85</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175226" class="dsq-comment-body">
+            <div id="dsq-comment-message-175226" class="dsq-comment-message"><p>Supongo que con driver binario te refieres al privativo. El caso es que no entendí bien, ya que los binarios los puedes hacer directamente del código fuente o los puedes descargar ya compilados tanto del libre como del privativo. Obviamente esta noticia es buena para los que usan el driver libre como yo.<br/>
+Saludos</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-4" id="dsq-comment-175233">
+        <div id="dsq-comment-header-175233" class="dsq-comment-header">
+            <cite id="dsq-cite-175233">
+                <span id="dsq-author-user-175233">Tony_GPR</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175233" class="dsq-comment-body">
+            <div id="dsq-comment-message-175233" class="dsq-comment-message"><p>Si, me refería a los privativos.</p>
+<p>Lo digo porque normalmente los últimos modelos de GPU no funcionan muy bien con los drivers libres, y la GTX 760 tiene solo un par de meses en el mercado..</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-5" id="dsq-comment-175302">
+        <div id="dsq-comment-header-175302" class="dsq-comment-header">
+            <cite id="dsq-cite-175302">
+                <span id="dsq-author-user-175302">luislmv85</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175302" class="dsq-comment-body">
+            <div id="dsq-comment-message-175302" class="dsq-comment-message"><p>Es posible que al principio no marche bien. Es una de las razones por la que estoy esperando un poco antes de comprarla<br/>
+Saludos</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt depth-2" id="dsq-comment-175227">
+        <div id="dsq-comment-header-175227" class="dsq-comment-header">
+            <cite id="dsq-cite-175227">
+http://trollsyopensource.blogspot.com.es/                <span id="dsq-author-user-175227">Eduardo Medina</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175227" class="dsq-comment-body">
+            <div id="dsq-comment-message-175227" class="dsq-comment-message"><p>Te puedo decir que el soporte de AMD ha mejorado mucho, aunque la última vez que probé Catalyst sobre Linux hace ya año y medio, pero iba bastante mejor que en épocas pasadas, eso si, seguían siendo bastante mejorables.</p>
+<p>Con la versión 13.8 parece que por fin se van a dejar de ciertas pamplinas y van a soportar casi todas las distribuciones en condiciones, porque por lo que se, hasta ahora Catalyst llega hasta el kernel 3.5, lo que es risa, ya que cualquier distribución mínimamente moderna, menos quizá Debian Stable, usa una versión más reciente.</p>
+<p>Lo malo es que AMD ha quedado tan estigmatizada que por mucho que mejore lo tendrán como la mala de la película. Esto me recuerda a la competencia entre NetBeans y Eclipse, mucha gente todavía raja del primero porque lo probaron hace tres años o más, pero es que en los últimos tres años NetBeans ha mejorado una barbaridad y hoy en día me parece mucho más usable que Eclipse, aparte que es más completo viendo lo que me dedico.</p>
+<p>Eclipse, a la mínima que le metas tres repositorios se vuelve casi caos ingobernable, aparte, no me permite trabajar proyecto Symfony ni plantillas Smarty, cosa que si me permite NetBeans.</p>
+<p>Yo llevo ya casi tres años dándole caña a mi HD3870 con el driver libre y por ahora me ha ido bastante bien. Menos juegos, he podido hacer prácticamente de todo, aunque estoy notando también que la tarjeta me está empezando a dar errores que antes no me daba (sobre todo parpadeos), ya que casi todo el tiempo que está encendida va a 90ºC.</p>
+<p>Lo único que ha hecho que no se haya muerto es que he quitado de la torre todos los embellecedores y mi padre carcasa le hizo un porrón de agujeros a la carcasa para que la calor se vaya y le entre aire fresco. De  no tener la torre así o ser un portátil, esa tarjeta habría muerto hace mucho.</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-3" id="dsq-comment-175232">
+        <div id="dsq-comment-header-175232" class="dsq-comment-header">
+            <cite id="dsq-cite-175232">
+                <span id="dsq-author-user-175232">Luis Ruiz</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175232" class="dsq-comment-body">
+            <div id="dsq-comment-message-175232" class="dsq-comment-message"><p># echo low &gt; /sys/class/drm/card0/device/power_profile</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt depth-3" id="dsq-comment-175305">
+        <div id="dsq-comment-header-175305" class="dsq-comment-header">
+            <cite id="dsq-cite-175305">
+                <span id="dsq-author-user-175305">luislmv85</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175305" class="dsq-comment-body">
+            <div id="dsq-comment-message-175305" class="dsq-comment-message"><p>Hola Eduardo. Quizás mejore el driver con el tiempo, pero en estos momentos en mi pc de escritorio con Kubuntu 13.04 y KDE 11.1 el driver actual funciona muy mal. No tengo soporte OpenGL 3.0, con el driver libre no hay manera de que transmita sonido por el HDMI. Si le pongo el privativo para que funcione el audio me crea un franja negra en el borde de la pantalla (Lo mismo ocurre en Windows, pero la versión de Catalyst para windows tiene una opción para abrir la pantalla hasta el borde y de esa manera desaparece el molesto marco negro. Realmente la versión para Linux de Catalyst está muy recortada respecto a su homologa en Windows). Encotré unas instrucciones para poner en terminal y de esa manera abrir la pantalla, pero cuando está se refresca por cualquier motivo, vuelve a sus valores predeterminados. Hice un script para facilitar la tarea y lo hice ejecutar al inicio de sesión. Aún así es una verdadera jodedera ya que hay que estar ejecutando el script a cada rato. Por otra parte con el driver privativo al inicio y al final de la reproducción de un sonido la pantalla me parpadea.</p>
+<p>En fin que ambos drivers actuales son una porquería. Espero que mejoren como dices pero hasta ahora, mi experiencia personal es bastante mala con la serie HD 7000. </p>
+<p>Puede que con una tarjeta más vieja la cosa marche diferente (HD3870). Yo mismo tenía una placa Gigabyte con una HD 4590 si mal no recuerdo y nunca tuve grandes problemas con ella, pero al actualizar la PC y comprarme la HD 7750 todo cambió.<br/>
+Saludos</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-4" id="dsq-comment-175313">
+        <div id="dsq-comment-header-175313" class="dsq-comment-header">
+            <cite id="dsq-cite-175313">
+http://trollsyopensource.blogspot.com.es/                <span id="dsq-author-user-175313">Eduardo Medina</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175313" class="dsq-comment-body">
+            <div id="dsq-comment-message-175313" class="dsq-comment-message"><p>Por desgracia y por lo que se, en las modelos 7000 el soporte para Linux está siendo un truño, ya que no paro de leer problemas.</p>
+<p>El HD2600 Mobility de mi Toshiba es otra que nunca ha terminado de ir fina del todo, pero al menos no me daba problemas como el tuyo.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt depth-4" id="dsq-comment-175352">
+        <div id="dsq-comment-header-175352" class="dsq-comment-header">
+            <cite id="dsq-cite-175352">
+                <span id="dsq-author-user-175352">Erick Osorio</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175352" class="dsq-comment-body">
+            <div id="dsq-comment-message-175352" class="dsq-comment-message"><p>Yo tengo una RADEON HD 5670,  y tengo soporte para OpenGL 4.3 (según glxinfo | grep -i opengl )</p>
+<p>En efectos de KDE 4.11 puedo seleccionar OpenGL 3.1 sin problemas.</p>
+<p>Las rayas negras en los bordes se pueden solucionar desde Catalyst &gt; Administrador de pantalla &gt; DTV &gt; Ajustes &gt; Opciones de escalada.<br/>
+Hay un pequeño bug en Catalyst que hace que cuando reinices el servidor xorg éste no cargué la configuración de la sobreexploración (escalada). Se soluciona con:</p>
+<p>sudo amdconfig &#8211;set-pcs-val=MCIL,DigitalHDTVDefaultUnderscan,0</p>
+<p>Y bueno, no tengo problemas de rendimiento (evidentemente el 2D de Catalyst apesta, pero el 3D funciona bien), ni calentamiento.</p>
+<p>Espero que haya podido ayudarte.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment even depth-3" id="dsq-comment-175467">
+        <div id="dsq-comment-header-175467" class="dsq-comment-header">
+            <cite id="dsq-cite-175467">
+                <span id="dsq-author-user-175467">tuxtor</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175467" class="dsq-comment-body">
+            <div id="dsq-comment-message-175467" class="dsq-comment-message"><p>El problema no se limita a eso, hace tiempo tuve una ATI x200m y en escritorio una NVIDIA fx5700, la ATI perdio el soporte del driver privativo alrededor del segundo año y me mandaron a cagar o usaba el driver libre si o si.</p>
+<p>La NVIDIA siguio funcionando igual de bien con el driver privativo y sigue estando soportada por el driver legacy que de vez en cuando recibe actualizaciones. NVIDIA tiene mejores politicas de soporte para Linux (si el kernel para los puritanos) a pesar de ser más cerrados.</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-4" id="dsq-comment-175689">
+        <div id="dsq-comment-header-175689" class="dsq-comment-header">
+            <cite id="dsq-cite-175689">
+http://trollsyopensource.blogspot.com.es/                <span id="dsq-author-user-175689">Eduardo Medina</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175689" class="dsq-comment-body">
+            <div id="dsq-comment-message-175689" class="dsq-comment-message"><p>De hecho la serie 8000 de nVidia, que es equivalente a la 3000 de ATI, todavía tiene soporte.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-175198">
+        <div id="dsq-comment-header-175198" class="dsq-comment-header">
+            <cite id="dsq-cite-175198">
+                <span id="dsq-author-user-175198">pocafe</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175198" class="dsq-comment-body">
+            <div id="dsq-comment-message-175198" class="dsq-comment-message"><p>F**k you Nvidia! Al final le hicieron un poco de caso.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-even depth-1" id="dsq-comment-175202">
+        <div id="dsq-comment-header-175202" class="dsq-comment-header">
+            <cite id="dsq-cite-175202">
+                <span id="dsq-author-user-175202">Dnuke</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175202" class="dsq-comment-body">
+            <div id="dsq-comment-message-175202" class="dsq-comment-message"><p>&#8230;&#8221;NVIDIA liberará documentación&#8221;&#8230;<br/>
+Algo debe de estar mal en el titulo: Nvidia nunca libera información porque si lo hiciese no puede &#8220;ofrecer una experiencia consistente entre plataformas&#8221; (o al menos eso fué lo que le devolvió a Tolvards después del dedo medio)&#8230;<br/>
+Siempre que los controladores no se descontrolicen, que liberen es perfecto, porque otra cosa sería que con esto se hagan los locos y que luego de un tiempo se pierdan características de los GPU (como podría ser el SLI, a nadie le caería bien que un SLI de 8600GT deje de servirle).</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-2" id="dsq-comment-175228">
+        <div id="dsq-comment-header-175228" class="dsq-comment-header">
+            <cite id="dsq-cite-175228">
+http://trollsyopensource.blogspot.com.es/                <span id="dsq-author-user-175228">Eduardo Medina</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175228" class="dsq-comment-body">
+            <div id="dsq-comment-message-175228" class="dsq-comment-message"><p>Lo que hará nVidia será liberar especificaciones sobre el hardware para así facilitar el desarrollo Nouveau, o por lo menos eso ha anunciado que va a hacer, porque a lo mejor luego pasa tres kilos.</p>
+<p>ATI/AMD lleva ya tiempo haciendo esto, por eso los drivers libres ATI/AMD llevan años ofreciendo aceleración 3D, porque no han tenido que tirar de ingeniería inversa como Nouveau hasta ahora, sino que han tenido documentación sobre las especificaciones del hardware que les ha permitido crear un driver mejor que los libres de nVidia, porque no olvidemos que nVidia es mejor, si, pero siempre que uses el driver privativo.</p>
+<p>Si esto se hace bien, en un tiempo muchos usuarios de nVidia no necesitarán del driver privativo para tener una experiencia más que decente.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-175203">
+        <div id="dsq-comment-header-175203" class="dsq-comment-header">
+            <cite id="dsq-cite-175203">
+http://soy-pikachu.tumblr.com/                <span id="dsq-author-user-175203">Pikachu ♥</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175203" class="dsq-comment-body">
+            <div id="dsq-comment-message-175203" class="dsq-comment-message"><p>Bueno, esto es un gran avance :D espero que SteamOS se beneficie de esto</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-2" id="dsq-comment-175211">
+        <div id="dsq-comment-header-175211" class="dsq-comment-header">
+            <cite id="dsq-cite-175211">
+                <span id="dsq-author-user-175211">Erick Osorio</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175211" class="dsq-comment-body">
+            <div id="dsq-comment-message-175211" class="dsq-comment-message"><p>Te di like sólo por pikachu. :3</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-3" id="dsq-comment-175212">
+        <div id="dsq-comment-header-175212" class="dsq-comment-header">
+            <cite id="dsq-cite-175212">
+http://soy-pikachu.tumblr.com/                <span id="dsq-author-user-175212">Pikachu ♥</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175212" class="dsq-comment-body">
+            <div id="dsq-comment-message-175212" class="dsq-comment-message"><p>yo te di like solo por Sesshomaru :D</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-4" id="dsq-comment-175221">
+        <div id="dsq-comment-header-175221" class="dsq-comment-header">
+            <cite id="dsq-cite-175221">
+                <span id="dsq-author-user-175221">mocordorsong</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175221" class="dsq-comment-body">
+            <div id="dsq-comment-message-175221" class="dsq-comment-message"><p>a ver si madurais un poco!!!!</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-5" id="dsq-comment-175324">
+        <div id="dsq-comment-header-175324" class="dsq-comment-header">
+            <cite id="dsq-cite-175324">
+http://soy-pikachu.tumblr.com/                <span id="dsq-author-user-175324">Pikachu ♥</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175324" class="dsq-comment-body">
+            <div id="dsq-comment-message-175324" class="dsq-comment-message"><p>a mis 21 años, sigo viendo anime y jugando super nintendo, eso no significa que no sea maduro, significa que no dejare de hacer lo que me gusta, solo porque un idiota con un seudonimo en internet me lo diga.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even depth-5" id="dsq-comment-175354">
+        <div id="dsq-comment-header-175354" class="dsq-comment-header">
+            <cite id="dsq-cite-175354">
+                <span id="dsq-author-user-175354">mocordorsong</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175354" class="dsq-comment-body">
+            <div id="dsq-comment-message-175354" class="dsq-comment-message"><p>oYE, SIN FALTAR AL RESPETO. Yo sigo jugando a la DreamCast y veo películas de animación. Y porque un tarado me llame idiota no me enfado. PIKATXUUUUUUUUUUUUU</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt depth-5" id="dsq-comment-175490">
+        <div id="dsq-comment-header-175490" class="dsq-comment-header">
+            <cite id="dsq-cite-175490">
+http://soy-pikachu.tumblr.com/                <span id="dsq-author-user-175490">Pikachu ♥</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175490" class="dsq-comment-body">
+            <div id="dsq-comment-message-175490" class="dsq-comment-message"><p>Las mayúsculas te dan toda la razon amigo, ve se feliz, ganaste internet.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even depth-5" id="dsq-comment-175535">
+        <div id="dsq-comment-header-175535" class="dsq-comment-header">
+            <cite id="dsq-cite-175535">
+                <span id="dsq-author-user-175535">mocordorsong</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175535" class="dsq-comment-body">
+            <div id="dsq-comment-message-175535" class="dsq-comment-message"><p>Gracias inmaduru</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt depth-4" id="dsq-comment-175222">
+        <div id="dsq-comment-header-175222" class="dsq-comment-header">
+            <cite id="dsq-cite-175222">
+                <span id="dsq-author-user-175222">mocordorsong</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175222" class="dsq-comment-body">
+            <div id="dsq-comment-message-175222" class="dsq-comment-message"><p>A madurar</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even depth-4" id="dsq-comment-175334">
+        <div id="dsq-comment-header-175334" class="dsq-comment-header">
+            <cite id="dsq-cite-175334">
+                <span id="dsq-author-user-175334">Martin</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175334" class="dsq-comment-body">
+            <div id="dsq-comment-message-175334" class="dsq-comment-message"><p>Ya ya chicos mejor darse un beso en lo oscurito</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt depth-2" id="dsq-comment-175224">
+        <div id="dsq-comment-header-175224" class="dsq-comment-header">
+            <cite id="dsq-cite-175224">
+http://www.portallinux.es/                <span id="dsq-author-user-175224">Zagur</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175224" class="dsq-comment-body">
+            <div id="dsq-comment-message-175224" class="dsq-comment-message"><p>Hay Pikachu, hay meneo. Ah, no, que eso se dice en otra web xD</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-3" id="dsq-comment-175322">
+        <div id="dsq-comment-header-175322" class="dsq-comment-header">
+            <cite id="dsq-cite-175322">
+http://soy-pikachu.tumblr.com/                <span id="dsq-author-user-175322">Pikachu ♥</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175322" class="dsq-comment-body">
+            <div id="dsq-comment-message-175322" class="dsq-comment-message"><p>jajajajaj XDD</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-even depth-1" id="dsq-comment-175207">
+        <div id="dsq-comment-header-175207" class="dsq-comment-header">
+            <cite id="dsq-cite-175207">
+                <span id="dsq-author-user-175207">Gabrielix</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175207" class="dsq-comment-body">
+            <div id="dsq-comment-message-175207" class="dsq-comment-message"><p>Intel se subio al tren de MESA para no tener que empezar desde cero, ya que venia muy atrasado, si fueran pro sofware libre ya habrian liberado el compilador ICC, el BLOB de random, el SDK para OpenCL, etc etc etc. Basicamente son las misma mierda Intel, AMD y nVidia, sino miren sus paginas son claras propagandas windozas, todo es windows como si no existiera otra cosa, win8ready por todos lados, sino muestrenme una caja de mother, placa de video, de sonido, etc que diga Linux Supported</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-2" id="dsq-comment-175230">
+        <div id="dsq-comment-header-175230" class="dsq-comment-header">
+            <cite id="dsq-cite-175230">
+http://trollsyopensource.blogspot.com.es/                <span id="dsq-author-user-175230">Eduardo Medina</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175230" class="dsq-comment-body">
+            <div id="dsq-comment-message-175230" class="dsq-comment-message"><p>Bueno, todas tienen una sección de Linux por lo que se, aunque evidentemente está un poco escondida.</p>
+<p>Tienes que ver que Microsoft, a día de hoy, sigue presionando a los fabricantes para que hagan lo que ella diga. De hecho las páginas web de todos los fabricantes están en ASP y posiblemente Microsoft hasta les pague el mantenimiento de las páginas a cambio de las contrapartidas que ya conocemos.</p>
+<p>Sin embargo, eso es lo que hay, así que si Linux quiere triunfar en el escritorio tiene que camelarse a esos tres, no nos queda otra.</p>
+<p>No hace falta que me hables de Wintel, la opción de compra que tiene Microsoft sobre nVidia (y quizá por esto en los últimos tiempos el soporte de esta empresa para Linux haya bajado tanto) o la dejadez de AMD en sus drivers gráficos. Pero mandar al infierno a esos tres no va a servir de nada y es más, si acaso iremos a peor, así que lo único que nos queda es convencerlos de que Linux es un producto es válido y que merece la pena que nos den un soporte decente.</p>
+<p>Por suerte, gracias a la irrupción de Steam, todo esto está cambiando y mucho. nVidia está volviendo a mejorar su soporte (aunque parece que Optimus no termina de llegar), AMD ha mejorado mucho y en la próxima generación de Haswell a lo mejor con una IGP podamos jugar a muchos juegos sobre Linux.</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-3" id="dsq-comment-175260">
+        <div id="dsq-comment-header-175260" class="dsq-comment-header">
+            <cite id="dsq-cite-175260">
+                <span id="dsq-author-user-175260">Gabrielix</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175260" class="dsq-comment-body">
+            <div id="dsq-comment-message-175260" class="dsq-comment-message"><p>La IGP de Intel mejora continuamente pero sigue siendo una cagada incomparable con nvidia y ati, Linux no pretende acercarse mas a los usuarios, salvo ubuntu y similares, la gente usa win porque es lo que viene, lo que ven y lo que les meten los fabricantes de pc, notebooks, telefonos, etc. Casi nadie cambia el sistema operativo, no tenemos leyes que defiendan al consumidor de poder comprar una computadora sin el sistema operativo. Eso es debido a los complot del gobierno corrupto con estas empresas, sino mira el plan conectar igualdad, todas las licencias que compra el gobierno de argentina pero por otro lado le quieren hacer creer a los linuxeros que tendran una propia distro argentina que nadie usa.</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-4" id="dsq-comment-175264">
+        <div id="dsq-comment-header-175264" class="dsq-comment-header">
+            <cite id="dsq-cite-175264">
+http://trollsyopensource.blogspot.com.es/                <span id="dsq-author-user-175264">Eduardo Medina</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175264" class="dsq-comment-body">
+            <div id="dsq-comment-message-175264" class="dsq-comment-message"><p>También Mageia, Linux Mint e incluso OpenSuse han hecho intentos para cuajar, pero hasta ahora la mejor posicionada es de largo Ubuntu. A Red Hat este mercado no le interesa y a Oracle tampoco. Tienes que ver que buena parte de las empresas que desarrolla Linux no trabajan de cara al público y no tienen por qué hacerlo.</p>
+<p>Sobre las IGP, en la próxima generación de Haswell pueden tener, si Intel cumple, que raras veces pasa, una potencia equivalente a una nVidia de gama media, cosa que va sobrada para el 90% de los usuarios y abre la puerta a ejecutar juegos no muy recientes para Steam en Linux, así que de cagada nada, que no todos necesitamos un tera de memoria gráfica y una potencia infinita, de hecho yo con el driver libre de AMD estoy que tiro perfectamente.</p>
+<p>Sobre la política, en parte estoy de acuerdo, pero prefiero no profundizar en este portal sobre el tema. Solo te diré que hay fabricantes que venden equipos y muy buenos sin SO, como por ejemplo Mountain, pero claro, hay que buscarlos y conocerlos.</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-5" id="dsq-comment-175267">
+        <div id="dsq-comment-header-175267" class="dsq-comment-header">
+            <cite id="dsq-cite-175267">
+                <span id="dsq-author-user-175267">Gabrielix</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175267" class="dsq-comment-body">
+            <div id="dsq-comment-message-175267" class="dsq-comment-message"><p>Sobre las IGP de intel solo podemos opinar vos, yo y el mundo sobre las que existen en la mesa, el futuro es hablar de star trek. Siempre fueron promesas rotas, un precio elevado y performance exagerados o inflados, intel en VGA siempre fue un fiasco desde la primer placa que fabricaron. Con respecto a los fabricantes que venden sin OS conozco varios pero solo venden como mayoristas, casi nunca llegan al publico en ese estado, el caso de Dell es patetico porque la misma notebook con diferente SO tiene la mitad de ram y es mas cara. La discusion puede ser eterna pero ya no tengo ganas de poner mas nada aqui ni leer cosas como &#8220;hay que buscarlos y conocerlos&#8221; asi que EOT para mi.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even depth-5" id="dsq-comment-175272">
+        <div id="dsq-comment-header-175272" class="dsq-comment-header">
+            <cite id="dsq-cite-175272">
+http://trollsyopensource.blogspot.com.es/                <span id="dsq-author-user-175272">Eduardo Medina</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175272" class="dsq-comment-body">
+            <div id="dsq-comment-message-175272" class="dsq-comment-message"><p>Sobre las IGP, en MuyComputer puedes ver noticias. Habrá que ver si cumplen, pero tienes que ver que ahora Intel tiene la presión de las APU AMD y que yo sepa las IGP ahora cumplen bien su función, eso si, incomparables a la competencia.</p>
+<p>Sobre los fabricantes, <a href="http://www.mountain.es/" rel="nofollow">Mountain</a> si vende a todo público, aunque se centran en sectores profesionales. Por lo que veo eres latinoaemricano (por el <i>vos</i>), así que no se si venderán a tu país, es cuestión de preguntar y son más baratos que otros fabricantes cuando venden en Europa, como por ejemplo Dell.</p>
+<p>Sobre Intel, para mi en el tema de microprocesadores son los mejores y de largo, pero sus precios son abusivos, en eso te doy la razón.</p>
+<p>Y por último, no entiendo tu enfado, porque al menos en España no se cobra por usas Google y preguntar en foros.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-175208">
+        <div id="dsq-comment-header-175208" class="dsq-comment-header">
+            <cite id="dsq-cite-175208">
+                <span id="dsq-author-user-175208">Diego Silberberg</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175208" class="dsq-comment-body">
+            <div id="dsq-comment-message-175208" class="dsq-comment-message"><p>A pasito.. los anti progreso tardan en cambiar de idea..</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-175213">
+        <div id="dsq-comment-header-175213" class="dsq-comment-header">
+            <cite id="dsq-cite-175213">
+                <span id="dsq-author-user-175213">Jamin Fernandez</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175213" class="dsq-comment-body">
+            <div id="dsq-comment-message-175213" class="dsq-comment-message"><p>O/</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-175219">
+        <div id="dsq-comment-header-175219" class="dsq-comment-header">
+            <cite id="dsq-cite-175219">
+http://www.oblogdeleo.wesped.es/                <span id="dsq-author-user-175219">Leo</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175219" class="dsq-comment-body">
+            <div id="dsq-comment-message-175219" class="dsq-comment-message"><p>Receloso estoy de estos&#8230; no me fio ni un pelo</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="post pingback">
+        <p>Pingback: <a href='http://www.redeszone.net/2013/09/25/nvidia-decide-liberar-documentacion-para-los-ssoo-linux/' rel='external nofollow' class='url'>NVIDIA decide liberar documentación para los SSOO Linux</a></p>
+    </li>
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-175223">
+        <div id="dsq-comment-header-175223" class="dsq-comment-header">
+            <cite id="dsq-cite-175223">
+                <span id="dsq-author-user-175223">mocordorsong</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175223" class="dsq-comment-body">
+            <div id="dsq-comment-message-175223" class="dsq-comment-message"><p>Gran noticia!!!!</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-175235">
+        <div id="dsq-comment-header-175235" class="dsq-comment-header">
+            <cite id="dsq-cite-175235">
+                <span id="dsq-author-user-175235">Jorge Rodríguez Santos</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175235" class="dsq-comment-body">
+            <div id="dsq-comment-message-175235" class="dsq-comment-message"><p>Los juegos AAA van a empezar a llegar a Linux.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-175283">
+        <div id="dsq-comment-header-175283" class="dsq-comment-header">
+            <cite id="dsq-cite-175283">
+                <span id="dsq-author-user-175283">Gonzalo García</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-175283" class="dsq-comment-body">
+            <div id="dsq-comment-message-175283" class="dsq-comment-message"><p>Copadísimo, raro, algo no cuadra, pero así como se plantea es una noticia exelente</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="post pingback">
+        <p>Pingback: <a href='http://www.isaiasv.net/?p=2177' rel='external nofollow' class='url'>NVIDIA liberará documentación sobre sus GPUs</a></p>
+    </li>
+    </li><!-- #comment-## -->
+            </ul>
+
+
+        </div>
+
+    </div>
+
+<script type="text/javascript">var disqus_url='http://www.muylinux.com/2013/09/24/nvidia-liberara-documentacion-gpus/';var disqus_identifier='28355 http://www.muylinux.com/?p=28355';var disqus_container_id='disqus_thread';var disqus_domain='disqus.com';var disqus_shortname='muylinux';var disqus_title="NVIDIA liberará documentación sobre sus GPUs";var disqus_config=function(){var config=this;config.language='';config.callbacks.preData.push(function(){document.getElementById(disqus_container_id).innerHTML='';});config.callbacks.onReady.push(function(){var script=document.createElement('script');script.async=true;script.src='?cf_action=sync_comments&post_id=28355';var firstScript=document.getElementsByTagName("script")[0];firstScript.parentNode.insertBefore(script,firstScript);});};</script>
+
+<script type="text/javascript">var DsqLocal={'trackbacks':[{'author_name':"NVIDIA decide liberar documentación para los SSOO Linux",'author_url':"http:\/\/www.redeszone.net\/2013\/09\/25\/nvidia-decide-liberar-documentacion-para-los-ssoo-linux\/",'date':"09\/25\/2013 10:00 AM",'excerpt':"[&#8230;] Fuente | muylinux [&#8230;] ",'type':"pingback"},{'author_name':"NVIDIA liberará documentación sobre sus GPUs",'author_url':"http:\/\/www.isaiasv.net\/?p=2177",'date':"09\/29\/2013 08:06 PM",'excerpt':"[&#8230;] Continuar Leyendo. [&#8230;] ",'type':"pingback"}],'trackback_url':"http:\/\/www.muylinux.com\/2013\/09\/24\/nvidia-liberara-documentacion-gpus\/trackback\/"};</script>
+
+<script type="text/javascript">(function(){var dsq=document.createElement('script');dsq.type='text/javascript';dsq.async=true;dsq.src='//'+disqus_shortname+'.'+'disqus.com'+'/embed.js?pname=wordpress&pver=2.74';(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(dsq);})();</script>
+
+
+
+<!-- 300x250_MPU_Singles_MuyLinux -->
+<span style="text-align:center; margin:200px;">
+<script type='text/javascript'>GA_googleFillSlot("300x250_MPU_Singles_MuyLinux");</script>
+</span>
+
+
+<!-- 728x90_MPU_Singles_MuyLinux -->
+<span style="text-align:center; margin:25px;">
+<script type='text/javascript'>GA_googleFillSlot("728x90_MPU_Singles_MuyLinux");</script>
+</span>
+
+
+
+
+
+
+				</div><!--/content-part-->
+				
+				<div class="sidebar">	
+					
+					
+<ul>
+	<li id="execphp-2" class="widget widget_execphp">			
+			<div class="execphpwidget"><!-- 300x600_Doble_MPU_Superior_MuyLinux -->
+<script type='text/javascript'>GA_googleFillSlot("300x600_Doble_MPU_Superior_MuyLinux");</script></div>
+		</li><li id="text-3" class="widget widget_text">			<div class="textwidget"><a href="http://suscripciones.tpnet.es/lists/?p=subscribe&id=3" target="_blanck"><img src="http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/uploads/2013/07/xiconNewsletter.jpg.pagespeed.ic.ScNFbNBvuD.jpg"></a></div>
+		</li><li id="wpb-tabs-2" class="widget widget_wpb_tabs"><h3 class="widget-title fix"><span>Lo último</span></h3><ul class="wpb-tabs fix tabs-3"><li class="wpb-tab-recent"><a href="#wpb-tab-recent-2" title="Recent Posts"><span>Recent Posts</span></a></li><li class="wpb-tab-comments"><a href="#wpb-tab-comments-2" title="Comments"><span>Comments</span></a></li><li class="wpb-tab-popular"><a href="#wpb-tab-popular-2" title="Most Popular"><span>Most Popular</span></a></li></ul><ul id="wpb-tab-recent-2" class="list-recent wpb-tab"><li class="format- wpb-thumb-enabled fix"><a title="PING: Valve, LibreOffice, Shumway, Arduino, Zentyal, WPS Office&#8230;" href="http://www.muylinux.com/2013/10/05/ping-15/"><span class="wpb-thumb"><img width="150" height="100" src="http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/uploads/2013/10/150x100xPING-150x100.png.pagespeed.ic.GxBuGI1Dq7.png" class="attachment-size-thumbnail wp-post-image" alt="PING"/></span><span class="wpb-text"><i class="title">PING: Valve, LibreOffice, Shumway, Arduino, Zentyal, WPS Office&#8230;</i><i class="meta">5 de octubre de 2013</i></span></a></li><li class="format- wpb-thumb-enabled fix"><a title="Benchmark: Ubuntu 13.04 vs Windows 8 en Unigine Heaven (NVIDIA)" href="http://www.muylinux.com/2013/10/04/ubuntu-13-04-vs-windows-8-unigine-heaven-benchmark/"><span class="wpb-thumb"><script pagespeed_no_defer="">(function(){var d=window,e=document,f="documentElement",g="scrollTop",k="prototype",l="body",m="getAttribute",n="",p="1",q="data",r="img",s="load",t="number",u="on",v="onload",w="pagespeed_lazy_position",x="pagespeed_lazy_replaced_functions",y="pagespeed_lazy_src",z="position",A="relative",B="resize",C="scroll",D="src",E=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,!1);else if(a.attachEvent)a.attachEvent(u+b,c);else{var h=a[u+b];a[u+b]=function(){c.call(this);h&&h.call(this)}}};d.pagespeed=d.pagespeed||{};var F=d.pagespeed,G=function(a){this.d=[];this.a=0;this.b=!1;this.n=a;this.e=null;this.i=0;this.j=200;this.c=!1};G[k].r=function(){var a=0;typeof d.pageYOffset==t?a=d.pageYOffset:e[l]&&e[l][g]?a=e[l][g]:e[f]&&e[f][g]&&(a=e[f][g]);var b=d.innerHeight||e[f].clientHeight||e[l].clientHeight;return{top:a,bottom:a+b,height:b}};G[k].m=function(a){var b=a[m](w);if(b)return parseInt(b,0);var b=a.offsetTop,c=a.offsetParent;c&&(b+=this.m(c));b=Math.max(b,0);a.setAttribute(w,b);return b};
+G[k].q=function(a){var b=this.m(a);return{top:b,bottom:b+a.offsetHeight}};G[k].p=function(a,b){if(a.currentStyle)return a.currentStyle[b];if(e.defaultView&&e.defaultView.getComputedStyle){var c=e.defaultView.getComputedStyle(a,null);if(c)return c.getPropertyValue(b)}return a.style&&a.style[b]?a.style[b]:n};
+G[k].o=function(a){if(!this.c&&(0==a.offsetHeight||0==a.offsetWidth))return!1;if(this.p(a,z)==A)return!0;var b=this.r(),c=a.getBoundingClientRect();c?(a=c.top-b.height,b=c.bottom):(c=this.q(a),a=c.top-b.bottom,b=c.bottom-b.top);return a<=this.a&&0<=b+this.a};
+G[k].l=function(a){this.k(a);var b=this;d.setTimeout(function(){var c=a[m](y);if(null!=c)if((b.b||b.o(a))&&-1!=a.src.indexOf(b.n)){var h=a.parentNode,H=a.nextSibling;h&&h.removeChild(a);a.g&&(a.getAttribute=a.g);a.removeAttribute(v);a.removeAttribute(y);a.removeAttribute(x);h&&h.insertBefore(a,H);a.src=c}else b.d.push(a)},0)};G[k].loadIfVisible=G[k].l;G[k].t=function(){this.b=!0;this.f()};G[k].loadAllImages=G[k].t;G[k].f=function(){var a=this.d,b=a.length;this.d=[];for(var c=0;c<b;++c)this.l(a[c])};
+G[k].h=function(a,b){return a.a?null!=a.a(b):null!=a[m](b)};G[k].u=function(){for(var a=e.getElementsByTagName(r),b=0;b<a.length;++b){var c=a[b];this.h(c,y)&&this.k(c)}};G[k].overrideAttributeFunctions=G[k].u;G[k].k=function(a){var b=this;this.h(a,x)||(a.g=a[m],a.getAttribute=function(a){a.toLowerCase()==D&&b.h(this,y)&&(a=y);return this.g(a)},a.setAttribute(x,p))};
+F.s=function(a,b){var c=new G(b);F.lazyLoadImages=c;E(d,s,function(){c.c=!0;c.b=a;c.a=200;c.f()});0!=b.indexOf(q)&&((new Image).src=b);var h=function(){if(!(c.c&&a||c.e)){var b=c.j;(new Date).getTime()-c.i>c.j&&(b=0);c.e=d.setTimeout(function(){c.i=(new Date).getTime();c.f();c.e=null},b)}};E(d,C,h);E(d,B,h)};F.lazyLoadInit=F.s;})();
+
+pagespeed.lazyLoadInit(false, "//1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif");
+</script><img width="150" height="100" pagespeed_lazy_src="http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/uploads/2013/10/150x100xunigine-heaven-150x100.jpg.pagespeed.ic.CVeZb_C1IY.jpg" class="attachment-size-thumbnail wp-post-image" alt="unigine-heaven" src="//1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisible(this);"/></span><span class="wpb-text"><i class="title">Benchmark: Ubuntu 13.04 vs Windows 8 en Unigine Heaven (NVIDIA)</i><i class="meta">4 de octubre de 2013</i></span></a></li><li class="format- wpb-thumb-enabled fix"><a title="Estas son las aplicaciones ganadoras del Ubuntu App Showdown 2013" href="http://www.muylinux.com/2013/10/04/ganadoras-ubuntu-app-showdown-2013/"><span class="wpb-thumb"><img width="150" height="100" pagespeed_lazy_src="http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/uploads/2013/10/150x100xubuntu1-150x100.jpg.pagespeed.ic.JbBzQvnCgq.jpg" class="attachment-size-thumbnail wp-post-image" alt="ubuntu" src="//1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisible(this);"/></span><span class="wpb-text"><i class="title">Estas son las aplicaciones ganadoras del Ubuntu App Showdown 2013</i><i class="meta">4 de octubre de 2013</i></span></a></li><li class="format- wpb-thumb-enabled fix"><a title="¿Qué versión de GNOME utilizará Ubuntu 14.04?" href="http://www.muylinux.com/2013/10/04/gnome-ubuntu-14-04/"><span class="wpb-thumb"><img width="150" height="100" pagespeed_lazy_src="http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/uploads/2013/10/150x100xubuntu-gnome-150x100.png.pagespeed.ic.xO7HV23lL0.jpg" class="attachment-size-thumbnail wp-post-image" alt="ubuntu-gnome" src="//1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisible(this);"/></span><span class="wpb-text"><i class="title">¿Qué versión de GNOME utilizará Ubuntu 14.04?</i><i class="meta">4 de octubre de 2013</i></span></a></li><li class="format- wpb-thumb-enabled fix"><a title="Encuesta: Lo de GNU/Linux es&#8230; ¿diversidad o fragmentación?" href="http://www.muylinux.com/2013/10/03/encuesta-gnulinux-diversidad-fragmentacion/"><span class="wpb-thumb"><img width="150" height="100" pagespeed_lazy_src="http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/uploads/2013/10/150x100xpenguinsvspenguins-150x100.jpg.pagespeed.ic.QNr-13vnfw.jpg" class="attachment-size-thumbnail wp-post-image" alt="penguinsvspenguins" src="//1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisible(this);"/></span><span class="wpb-text"><i class="title">Encuesta: Lo de GNU/Linux es&#8230; ¿diversidad o fragmentación?</i><i class="meta">3 de octubre de 2013</i></span></a></li><li class="format- wpb-thumb-enabled fix"><a title="Hay más de un problema con XMir" href="http://www.muylinux.com/2013/10/03/mas-de-un-problema-con-xmir/"><span class="wpb-thumb"><img width="150" height="100" pagespeed_lazy_src="http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/uploads/2013/10/150x100xxmir-150x100.jpg.pagespeed.ic.dxCdHkMCr5.jpg" class="attachment-size-thumbnail wp-post-image" alt="xmir" src="//1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisible(this);"/></span><span class="wpb-text"><i class="title">Hay más de un problema con XMir</i><i class="meta">3 de octubre de 2013</i></span></a></li></ul><ul id="wpb-tab-comments-2" class="list-comments wpb-tab"><li class="fix wpb-thumb-enabled"><a title="Benchmark: Ubuntu 13.04 vs Windows 8 en Unigine Heaven (NVIDIA)" href="http://www.muylinux.com/2013/10/04/ubuntu-13-04-vs-windows-8-unigine-heaven-benchmark/#comment-176612"><span class="wpb-thumb"><img alt='' pagespeed_lazy_src='http://1.gravatar.com/avatar/7d16552ab89fa1e44f5dcec37dbb7aab?s=64&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' src="//1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisible(this);"/></span><span class="wpb-text"><i class="meta">Nasher_87(ARG) on:</i><i class="title">Benchmark: Ubuntu 13.04 vs Windows 8 en Unigine Heaven (NVIDIA)</i></span></a></li><li class="fix wpb-thumb-enabled"><a title="PING: Valve, LibreOffice, Shumway, Arduino, Zentyal, WPS Office&#8230;" href="http://www.muylinux.com/2013/10/05/ping-15/#comment-176611"><span class="wpb-thumb"><img alt='' pagespeed_lazy_src='http://1.gravatar.com/avatar/7e514dc8d12171f83bb7bcc632481e40?s=64&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' src="//1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisible(this);"/></span><span class="wpb-text"><i class="meta">Navarone on:</i><i class="title">PING: Valve, LibreOffice, Shumway, Arduino, Zentyal, WPS Office&#8230;</i></span></a></li><li class="fix wpb-thumb-enabled"><a title="Benchmark: Ubuntu 13.04 vs Windows 8 en Unigine Heaven (NVIDIA)" href="http://www.muylinux.com/2013/10/04/ubuntu-13-04-vs-windows-8-unigine-heaven-benchmark/#comment-176610"><span class="wpb-thumb"><img alt='' pagespeed_lazy_src='http://1-ps.googleusercontent.com/x/www.muylinux.com/1.gravatar.com/avatar/64x64xfc939e777b13abf1113844e99b552528,qs=64,ad=http,P3A,P2F,P2F1.gravatar.com,P2Favatar,P2Fad516503a11cd5ca435acc9bb6523536,P3Fs,P3D64,ar=G.pagespeed.ic.5goom1w6-i.jpg' class='avatar avatar-64 photo' height='64' width='64' src="//1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisible(this);"/></span><span class="wpb-text"><i class="meta">Hector Macias Ayala on:</i><i class="title">Benchmark: Ubuntu 13.04 vs Windows 8 en Unigine Heaven (NVIDIA)</i></span></a></li><li class="fix wpb-thumb-enabled"><a title="PING: Valve, LibreOffice, Shumway, Arduino, Zentyal, WPS Office&#8230;" href="http://www.muylinux.com/2013/10/05/ping-15/#comment-176609"><span class="wpb-thumb"><img alt='' pagespeed_lazy_src='http://1-ps.googleusercontent.com/x/www.muylinux.com/0.gravatar.com/avatar/64x64xad516503a11cd5ca435acc9bb6523536,qs=64.pagespeed.ic.FqzpC47CIT.png' class='avatar avatar-64 photo avatar-default' height='64' width='64' src="//1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisible(this);"/></span><span class="wpb-text"><i class="meta">PING: Valve, LibreOffice, Shumway, Arduino, Zentyal, WPS Office… - MuyLinux &raquo; Empresas de traducción en Madrid on:</i><i class="title">PING: Valve, LibreOffice, Shumway, Arduino, Zentyal, WPS Office&#8230;</i></span></a></li><li class="fix wpb-thumb-enabled"><a title="PING: Valve, LibreOffice, Shumway, Arduino, Zentyal, WPS Office&#8230;" href="http://www.muylinux.com/2013/10/05/ping-15/#comment-176608"><span class="wpb-thumb"><img alt='' pagespeed_lazy_src='http://0.gravatar.com/avatar/cc7feefe2e4d9383411b6bf4e34ab1f5?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' src="//1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisible(this);"/></span><span class="wpb-text"><i class="meta">Ds23yTube on:</i><i class="title">PING: Valve, LibreOffice, Shumway, Arduino, Zentyal, WPS Office&#8230;</i></span></a></li><li class="fix wpb-thumb-enabled"><a title="Benchmark: Ubuntu 13.04 vs Windows 8 en Unigine Heaven (NVIDIA)" href="http://www.muylinux.com/2013/10/04/ubuntu-13-04-vs-windows-8-unigine-heaven-benchmark/#comment-176607"><span class="wpb-thumb"><img alt='' pagespeed_lazy_src='http://0.gravatar.com/avatar/cc7feefe2e4d9383411b6bf4e34ab1f5?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' src="//1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisible(this);"/></span><span class="wpb-text"><i class="meta">Ds23yTube on:</i><i class="title">Benchmark: Ubuntu 13.04 vs Windows 8 en Unigine Heaven (NVIDIA)</i></span></a></li></ul><ul id="wpb-tab-popular-2" class="list-popular wpb-tab"><li class="format- wpb-thumb-enabled fix"><a title="Intel se pone de parte de Wayland y rechaza dar soporte a Mir / XMir" href="http://www.muylinux.com/2013/09/09/intel-rechaza-soporte-mir/"><span class="wpb-thumb"><img width="150" height="100" pagespeed_lazy_src="http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/uploads/2013/09/150x100xubuntu-150x100.jpg.pagespeed.ic.vxu_CXtM0H.jpg" class="attachment-size-thumbnail wp-post-image" alt="ubuntu" src="//1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisible(this);"/></span><span class="wpb-text"><i class="title">Intel se pone de parte de Wayland y rechaza dar soporte a Mir / XMir</i><i class="meta">9 de septiembre de 2013</i></span></a></li><li class="format- wpb-thumb-enabled fix"><a title="GNOME 3.10 disponible con muchas novedades" href="http://www.muylinux.com/2013/09/26/gnome-3-10/"><span class="wpb-thumb"><img width="150" height="100" pagespeed_lazy_src="http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/uploads/2013/09/150x100xgnome-naranja-150x100.jpg.pagespeed.ic.-rLsOCm-HQ.jpg" class="attachment-size-thumbnail wp-post-image" alt="gnome-naranja" src="//1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisible(this);"/></span><span class="wpb-text"><i class="title">GNOME 3.10 disponible con muchas novedades</i><i class="meta">26 de septiembre de 2013</i></span></a></li><li class="format- wpb-thumb-enabled fix"><a title="Cuantos más seamos, mejor" href="http://www.muylinux.com/2013/10/02/cuantos-mas-seamos-mejor/"><span class="wpb-thumb"><img width="150" height="100" pagespeed_lazy_src="http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/uploads/2013/10/150x100xiron-maiden-show-brasil-2013-rock-in-rio-150x100.jpg.pagespeed.ic.E2Eb1Glc7m.jpg" class="attachment-size-thumbnail wp-post-image" alt="san bernardino LA" src="//1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisible(this);"/></span><span class="wpb-text"><i class="title">Cuantos más seamos, mejor</i><i class="meta">2 de octubre de 2013</i></span></a></li><li class="format- wpb-thumb-enabled fix"><a title="Llega SteamOS, el sistema operativo de Valve basado en Linux" href="http://www.muylinux.com/2013/09/23/steamos-steam-linux/"><span class="wpb-thumb"><img width="150" height="100" pagespeed_lazy_src="http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/uploads/2013/09/150x100xsteamos-150x100.jpg.pagespeed.ic.LnHkpL7Vmy.jpg" class="attachment-size-thumbnail wp-post-image" alt="steamos" src="//1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisible(this);"/></span><span class="wpb-text"><i class="title">Llega SteamOS, el sistema operativo de Valve basado en Linux</i><i class="meta">23 de septiembre de 2013</i></span></a></li><li class="format- wpb-thumb-enabled fix"><a title="Firefox 24 estrenó soporte nativo para H.264, AAC y MP3. ¡Actívalo!" href="http://www.muylinux.com/2013/09/25/firefox-24-h264-aac-mp3/"><span class="wpb-thumb"><img width="150" height="100" pagespeed_lazy_src="http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/uploads/2013/09/150x100xfirefox-150x100.jpeg.pagespeed.ic.IQ38McKoT7.jpg" class="attachment-size-thumbnail wp-post-image" alt="firefox" src="//1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisible(this);"/></span><span class="wpb-text"><i class="title">Firefox 24 estrenó soporte nativo para H.264, AAC y MP3. ¡Actívalo!</i><i class="meta">25 de septiembre de 2013</i></span></a></li><li class="format- wpb-thumb-enabled fix"><a title="Valve tiene claro que Linux es el futuro del videojuego" href="http://www.muylinux.com/2013/09/17/valve-linux-futuro-videojuego/"><span class="wpb-thumb"><img width="150" height="100" pagespeed_lazy_src="http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/uploads/2013/09/150x100xgabe-newell-linuxcon-150x100.jpg.pagespeed.ic.kCrCpwt3Ql.jpg" class="attachment-size-thumbnail wp-post-image" alt="Valve tiene claro que Linux es el futuro del videojuego" src="//1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisible(this);"/></span><span class="wpb-text"><i class="title">Valve tiene claro que Linux es el futuro del videojuego</i><i class="meta">17 de septiembre de 2013</i></span></a></li></ul></li><li id="execphp-3" class="widget widget_execphp">			
+			<div class="execphpwidget"><!-- 300x250_MPU_Inferior_MuyLinux -->
+<script type="text/javascript" pagespeed_no_defer="">pagespeed.lazyLoadImages.overrideAttributeFunctions();</script><script type='text/javascript'>GA_googleFillSlot("300x250_MPU_Inferior_MuyLinux");</script></div>
+		</li><li id="youtubechannelgallery_widget-2" class="widget youtubechannelgallery ytccf"><h3 class="widget-title fix"><span>MuyTV</span></h3><div class="ytcplayer-fixwidthwrapper"><div class="ytcplayer-wrapper ytc-player4x3"><iframe id="ytcplayer1" class="ytcplayer" allowfullscreen src="http://www.youtube.com/embed/osjHTOVo33o?version=3&theme=dark&color=red&modestbranding=&rel=0&showinfo=0&enablejsapi=1&wmode=transparent" frameborder="0"></iframe></div></div><ul class="ytchagallery ytccf ytc-thumb4x3">
+
+	<li class="ytccell-1"><div class="ytcliinner"><div class="ytcthumb-cont" style="width: 90px; "><a class="ytcthumb ytclink" href="http://youtu.be/osjHTOVo33o" data-playerid="ytcplayer1" data-quality="default" title="Entrevista a Enrique Martín, Director de Preventa de Tecnología de Oracle Ibérica" style="background-image:url(http://1-ps.googleusercontent.com/x/www.muylinux.com/i1.ytimg.com/vi/osjHTOVo33o/xdefault.jpg.pagespeed.ic.jNqtgdQB_H.jpg)"><div class="ytcplay"></div></a></div></div></li>
+
+
+
+	<li class="ytccell-2"><div class="ytcliinner"><div class="ytcthumb-cont" style="width: 90px; "><a class="ytcthumb ytclink" href="http://youtu.be/CEudX-XNvKU" data-playerid="ytcplayer1" data-quality="default" title="Samsung Galaxy Note 3 + Gear" style="background-image:url(http://1-ps.googleusercontent.com/x/www.muylinux.com/i1.ytimg.com/vi/CEudX-XNvKU/xdefault.jpg.pagespeed.ic.keW4yHkLb8.jpg)"><div class="ytcplay"></div></a></div></div></li>
+
+
+
+	<li class="ytccell-3"><div class="ytcliinner"><div class="ytcthumb-cont" style="width: 90px; "><a class="ytcthumb ytclink" href="http://youtu.be/ylG98DenX34" data-playerid="ytcplayer1" data-quality="default" title="Sneak peek de la película Jobs en español" style="background-image:url(http://1-ps.googleusercontent.com/x/www.muylinux.com/i1.ytimg.com/vi/ylG98DenX34/default.jpg.pagespeed.ce.uMFhJ-iWLZ.jpg)"><div class="ytcplay"></div></a></div></div></li>
+
+</ul></li></ul>				</div><!--/sidebar-->
+				
+			</div><!--/main-->
+			
+		</div><!--/page-inner-->
+	</div><!--/container-->
+</div><!--/page-->
+
+		
+	
+		
+	
+	<div class="clear"></div>
+	<footer id="footer">
+		<div class="container">
+			<div id="footer-inner" class="fix">
+				
+				<nav id="nav-footer" class="menu-menu-principal-container"><ul id="nav-alt" class="pad fix"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-27984"><a href="http://www.muylinux.com/">Inicio</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27985"><a href="http://www.muylinux.com/distribuciones/">Distribuciones</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27986"><a href="http://www.muylinux.com/empresas/">Empresas</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27987"><a href="http://www.muylinux.com/gnome/">GNOME</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27988"><a href="http://www.muylinux.com/gnulinux/">GNU/Linux</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27990"><a href="http://www.muylinux.com/kde/">KDE</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27991"><a href="http://www.muylinux.com/kernel/">Kernel</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-27992"><a href="http://www.muylinux.com/open-source/">Open Source</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27993"><a href="http://www.muylinux.com/seguridad/">Seguridad</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27994"><a href="http://www.muylinux.com/trucos/">Trucos</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27995"><a href="http://www.muylinux.com/ubuntu/">Ubuntu</a></li>
+</ul></nav>				
+				<div id="footer-bottom">
+					<div class="pad fix">
+						<div class="grid">
+														
+													</div>
+						<div class="grid">
+							<p id="copy"><div id="pie" align="center">
+
+			<table>
+			<tr>
+			<td style="vertical-align:bottom;">
+				<a href="http://www.tpnet.es" title="TPNet" target="_blank"><img pagespeed_lazy_src="http://1-ps.googleusercontent.com/x/www.muylinux.com/www.muymovil.com/wp-content/uploads/2013/07/167x49xlogo.png.pagespeed.ic.R76nP5lPza.png" width="167" height="49" border="0" alt="tpnet" src="//1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisible(this);"></a>
+			<td>
+
+            <td>
+            <span style="font-size:10px;">
+            <p style="margin-left:15px;">
+				<a href="http://www.tpnet.es/quienes-somos/" target="_blank">Quiénes somos </a><span class="sep_lk_pie_ext"> | </span>
+				<a href="http://www.tpnet.es/publicidad/" target="_blank">Publicidad </a><span class="sep_lk_pie_ext"> | </span>
+				<a href="http://www.tpnet.es/condiciones-de-uso/" target="_blank">Condiciones de uso </a><span class="sep_lk_pie_ext"> | </span>
+				<a href="http://www.tpnet.es/aviso-legal/" target="_blank">Aviso legal </a><span class="sep_lk_pie_ext"> | </span>
+				<a href="http://www.tpnet.es/contacto/" target="_blank">Contacto</a>
+				</p>
+                <p style="margin-left:15px;">
+				Copyright <a class="tpnet" href="http://www.tpnet.es" target="_blank">Total Publishing Network S.A.</a> 2008. Todos los derechos reservados. Auditado por <a href="http://www.ojdinteractiva.es/muy-computer-evolucion-audiencia/totales/anual/1051/trafico-global/" title="ojd" target="_blank"><img class="ojd" pagespeed_lazy_src="http://1-ps.googleusercontent.com/x/www.muylinux.com/www.muymovil.com/wp-content/uploads/2013/07/36x23xpie_ojd.jpg.pagespeed.ic.0HdLpP24Vt.jpg" width="36px" height="23px" border="0" alt="ojd" src="//1-ps.googleusercontent.com/h/www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisible(this);"></a>
+                </p>
+                </span>
+			</td>
+			</tr>
+			</table>
+			
+	</div> </p>
+						</div>
+					</div>
+					<div class="clear"></div>
+					<a id="to-top" href="#"><i class="icon-top"></i></a>
+				</div>
+			</div><!--/footer-inner-->
+		</div>
+	</footer><!--/footer-->
+	
+</div><!--/wrap-->
+		
+		<script type="text/javascript" pagespeed_no_defer="">pagespeed.lazyLoadImages.overrideAttributeFunctions();</script><script type="text/javascript">jQuery(document).ready(function(){var a='<div id="cookie-law-info-bar"><span>Usamos cookies propias y de terceros para mejorar tu experiencia y realizar tareas de analítica. Al continuar navegando entendemos que aceptas nuestra <a href=\"http://www.tpnet.es/politica-de-cookies\" target=\"_blank\">política de cookies</a>.<a href=\"#\" id=\"cookie_action_close_header\"  class=\"medium cli-plugin-button cli-plugin-main-button\" >Aceptar</a> </span></div>';var b='{"animate_speed_hide":"500","animate_speed_show":"500","background":"#fff","border":"#ff7900","border_on":true,"button_1_button_colour":"#ff7900","button_1_button_hover":"#cc6100","button_1_link_colour":"#fff","button_1_as_button":true,"button_2_button_colour":"#ff7900","button_2_button_hover":"#cc6100","button_2_link_colour":"#444","button_2_as_button":false,"font_family":"inherit","notify_animate_hide":true,"notify_animate_show":false,"notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"top","showagain_tab":false,"showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#000","show_once_yn":false,"show_once":"10000"}';cli_show_cookiebar(a,b);});</script>
+		
+		<!-- Lightbox Plus ColorBox v2.6/1.3.32 - 2013.01.24 - Message: -->
+<script type="text/javascript">jQuery(document).ready(function($){$("a[rel*=lightbox]").colorbox({speed:350,initialWidth:"300",initialHeight:"100",opacity:0.8,loop:false,scrolling:false,escKey:false,arrowKey:false,top:false,right:false,bottom:false,left:false});});</script>
+<style media="all">.youtubechannelgallery,.youtubechannelgallery *,.ytcplayer-fixwidthwrapper,.ytcplayer-fixwidthwrapper *,.ytchagallery,.ytchagallery *{box-sizing:border-box!important}.ytccf::before,.ytccf::after{content:' '!important;display:table!important}.ytccf::after{clear:both!important}.ytccf{}.ytcplayer-wrapper{margin-bottom:10px;position:relative!important;padding:0px 0px 56.25%!important;height:0px!important;width:100%!important}.ytcplayer-wrapper.ytc-player4x3{padding-bottom:75%!important}iframe.ytcplayer{position:absolute!important;top:0px!important;left:0px!important;width:100%!important;height:100%!important;padding:0px!important;border:0px!important}ul.ytchagallery{margin:0px!important;padding:0px!important;list-style:none!important;width:100%!important;overflow:hidden!important}ul.ytchagallery li{float:left!important;margin:0px!important;list-style:none!important;padding:0px 10px 10px 0px!important;clear:none!important}ul.ytchagallery li .ytcliinner{overflow:hidden!important}ul.ytchagallery a.ytcthumb{border:1px solid #999;display:block!important;position:relative!important;line-height:0!important;width:100%!important;padding:0px!important;margin:0px!important;height:0px!important;overflow:hidden!important;background-size:cover!important;background-position:50% 50%!important}ul.ytchagallery a.ytcthumb .ytcplay{background-image:url(http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/plugins/youtube-channel-gallery/img/xplay.png.pagespeed.ic.3BcesjYzZF.png)!important;position:absolute!important;width:100%!important;height:100%!important;background-position:-9999px -9999px!important;background-repeat:no-repeat no-repeat!important}ul.ytchagallery a.ytcthumb:hover{opacity:.75}ul.ytchagallery a.ytcthumb:hover .ytcplay{background-position:50% 50%!important}ul.ytc-thumb4x3 a.ytcthumb{padding-bottom:75%!important}</style>
+<script type='text/javascript' src='http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/js/jquery.jplayer.min.js,qver=2.1.0.pagespeed.jm.Hg2LqCcYMm.js'></script>
+<script type='text/javascript' src='http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/js/jquery.flexslider.min.js,qver=2.1.pagespeed.jm.72liCs2b3o.js'></script>
+<script type='text/javascript' src='http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/js/jquery.fancybox.pack.js,qver=2.0.6.pagespeed.jm.0EhbRFKfZa.js'></script>
+<script type='text/javascript' src='http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/js/jquery.fancybox-media.js,qver=1.0.3.pagespeed.jm.hX05lzXiZC.js'></script>
+<script type='text/javascript' src='http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/js/jquery.mousewheel-3.0.6.pack.js,qver=3.0.6.pagespeed.jm.QqC5qmT7ik.js'></script>
+<script type='text/javascript'>var objectL10n={"navigate":"Navigate to..."};</script>
+<script type='text/javascript' src='http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/js/jquery.theme.js,qver=1.0.pagespeed.jm.aDNYKj-gsI.js'></script>
+<script type='text/javascript' src='http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/plugins/lightbox-plus/js/jquery.colorbox.1.3.32.js,qver=1.3.32.pagespeed.jm.Ox1uT8JPHC.js'></script>
+<script type='text/javascript' src='http://www.youtube.com/player_api?ver=3.6.1'></script>
+<script type='text/javascript' src='http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/plugins/youtube-channel-gallery/scripts.js,qver=3.6.1.pagespeed.jm.oL3yDLzPRG.js'></script>
+<!--[if lt IE 9]><script src="http://www.muylinux.com/wp-content/themes/newsroom14/js/ie/respond.min.js"></script> <![endif]-->
+<script pagespeed_no_defer="">(function(){var e=window,f=Math,g="round",h="performance",k="&rit_script=",r="&rit_link=",y="&rit_img=",z="&rit_css=",A="&nttfb=",B="&nfd=",C="&ndt=",D="&nct=",E="&nbt=",F="&mfd=",G="&attfb=",H="&afd=",I="&adt=",J="&act=",K="&abt=",L="";e.pagespeed=e.pagespeed||{};var M=e.pagespeed;
+M.getResourceTimingData=function(){if(e[h]&&(e[h].getEntries||e[h].webkitGetEntries)){for(var s=0,t=0,l=0,u=0,m=0,v=0,n=0,w=0,p=0,x=0,q=0,c={},d=e[h].getEntries?e[h].getEntries():e[h].webkitGetEntries(),b=0;b<d.length;b++){var a=d[b].duration;0<a&&(s+=a,++l,t=f.max(t,a));a=d[b].connectEnd-d[b].connectStart;0<a&&(v+=a,++n);a=d[b].domainLookupEnd-d[b].domainLookupStart;0<a&&(u+=a,++m);a=d[b].initiatorType;c[a]?++c[a]:c[a]=1;a=d[b].requestStart-d[b].fetchStart;0<a&&(x+=a,++q);a=d[b].responseStart-d[b].requestStart;
+0<a&&(w+=a,++p)}return H+(l?f[g](s/l):0)+B+l+F+f[g](t)+J+(n?f[g](v/n):0)+D+n+I+(m?f[g](u/m):0)+C+m+K+(q?f[g](x/q):0)+E+q+G+(p?f[g](w/p):0)+A+p+(c.css?z+c.css:L)+(c.link?r+c.link:L)+(c.script?k+c.script:L)+(c.img?y+c.img:L)}return L};M.getResourceTimingData=M.getResourceTimingData;})();
+(function(){var c=encodeURIComponent,f=window,h="performance",k="unload:",l="on",m="load:",n="load",p="ets=",q="beforeunload",r="EventStart",s="?",t="=",u="&url=",v="&ttfb=",w="&req_start=",x="&ref=",y="&r",z="&nt=",A="&nrp=",B="&nav=",C="&ifr=1",D="&ifr=0",E="&htmlAt=",F="&fp=",G="&dwld=",H="&dom_c=",I="&dns=",J="&connect=",K="&ccul=",L="&ccrl=",M="&ccos=",N="&ccis=",O="&cces=",P="&b_csi=",Q="&",R="";f.pagespeed=f.pagespeed||{};var S=f.pagespeed,T=function(a,d,b,e){this.d=a;this.a=d;this.b=b;this.e=e};S.beaconUrl=R;
+T.prototype.c=function(){var a=this.d,d=f.mod_pagespeed_start,b=Number(new Date)-d,a=a+(-1==a.indexOf(s)?s:Q),a=a+p+(this.a==n?m:k),a=a+b;if(this.a!=q||!f.mod_pagespeed_loaded){a+=y+this.a+t;if(f[h]){var b=f[h].timing,e=b.navigationStart,g=b.requestStart,a=a+(b[this.a+r]-e),a=a+(B+(b.fetchStart-e)),a=a+(I+(b.domainLookupEnd-b.domainLookupStart)),a=a+(J+(b.connectEnd-b.connectStart)),a=a+(w+(g-e)),a=a+(v+(b.responseStart-g)),a=a+(G+(b.responseEnd-b.responseStart)),a=a+(H+(b.domContentLoadedEventStart-
+e));f[h].navigation&&(a+=z+f[h].navigation.type);e=-1;b.msFirstPaint?e=b.msFirstPaint:f.chrome&&f.chrome.loadTimes&&(e=Math.floor(1E3*f.chrome.loadTimes().firstPaintTime));e-=g;0<=e&&(a+=F+e)}else a+=b;S.getResourceTimingData&&f.parent==f&&(a+=S.getResourceTimingData());a+=f.parent!=f?C:D;this.a==n&&(f.mod_pagespeed_loaded=!0,(b=f.mod_pagespeed_num_resources_prefetched)&&(a+=A+b),(b=f.mod_pagespeed_prefetch_start)&&(a+=E+(d-b)));S.panelLoader&&(d=S.panelLoader.getCsiTimingsString(),d!=R&&(a+=P+d));
+S.criticalCss&&(d=S.criticalCss,a+=N+d.total_critical_inlined_size+O+d.total_original_external_size+M+d.total_overhead_size+L+d.num_replaced_links+K+d.num_unreplaced_links);this.b!=R&&(a+=this.b);document.referrer&&(a+=x+c(document.referrer));a+=u+c(this.e);S.beaconUrl=a;(new Image).src=a}};S.f=function(a,d,b,e){var g=new T(a,d,b,e);f.addEventListener?f.addEventListener(d,function(){g.c()},!1):f.attachEvent(l+d,function(){g.c()})};S.addInstrumentationInit=S.f;})();
+
+pagespeed.addInstrumentationInit('http://1-ps.googleusercontent.com/beacon?org=110_1_dp', 'load', '&s_ttfb=136&id=1381013155022850', 'http://www.muylinux.com/2013/09/24/nvidia-liberara-documentacion-gpus/');</script></body>
+</html><!-- hyper cache: e11b20633faaabcfc0d1f9363596b001 13-10-05 08:55:44 --><noscript class="psa_add_styles"><link rel="stylesheet" href="http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/A.style.css.pagespeed.cf.2yonk-c-cO.css"><link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'><link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'><link rel='stylesheet' id='cookielawinfo-style-css' href='http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/plugins/cookie-law-info/css/A.cli-style.css,qver=3.6.1.pagespeed.cf.MTlNBHINsx.css' media='all'/><link rel='stylesheet' id='social-widget-css' href='http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/plugins/social-media-widget/A.social_widget.css,qver=3.6.1.pagespeed.cf.rjFAF-T7uy.css' media='all'/><link rel='stylesheet' id='wp-syntax-css-css' href='http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/plugins/wp-syntax/css/A.wp-syntax.css,qver=1.0.pagespeed.cf.QzQSSUB_wT.css' media='all'/><link rel='stylesheet' id='style-responsive-css' href='http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/A.style-responsive.css,qver=1.0.pagespeed.cf.M0qBsXGpzo.css' media='all'/><link rel='stylesheet' id='wpbandit-style-css' href='http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/themes/newsroom14/styles/A.boxed-1120.css,qver=3.6.1.pagespeed.cf.JzAzAbDrza.css' media='all'/><link rel='stylesheet' id='wp-pagenavi-css' href='http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/plugins/wp-pagenavi/A.pagenavi-css.css,qver=2.70.pagespeed.cf.mdUsNC8oxV.css' media='all'/><link rel='stylesheet' id='lightboxStyle-css' href='http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/plugins/lightbox-plus/css/black/A.colorbox.css,qver=2.6.pagespeed.cf.pfCyTIsSPC.css' media='screen'/><link rel="stylesheet" type="text/css" href="http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/plugins/Viva-ThumbZoom/lib/v-zoom/A.viva-zoom.css.pagespeed.cf.qH9o5phHMH.css"/><link rel='stylesheet' id='youtube-channel-gallery-css' href='http://1-ps.googleusercontent.com/h/www.muylinux.com/wp-content/plugins/youtube-channel-gallery/A.styles.css,qver=3.6.1.pagespeed.cf.Mi7vXRRCP9.css' media='all'/></noscript><script pagespeed_no_defer="">var stylesAdded=false;var addAllStyles=function(){if(stylesAdded)return;stylesAdded=true;var div=document.createElement("div");var styleText="";var styleElements=document.getElementsByClassName("psa_add_styles");for(var i=0;i<styleElements.length;++i){styleText+=styleElements[i].textContent||styleElements[i].innerHTML||styleElements[i].data||"";}div.innerHTML=styleText;document.body.appendChild(div);};if(window.addEventListener){document.addEventListener("DOMContentLoaded",addAllStyles,false);window.addEventListener("load",addAllStyles,false);}else if(window.attachEvent){window.attachEvent("onload",addAllStyles);}else{window.onload=addAllStyles;}window['pagespeed']=window['pagespeed']||{};window['pagespeed']['criticalCss']={'total_critical_inlined_size':48751,'total_original_external_size':105338,'total_overhead_size':48751,'num_replaced_links':10,'num_unreplaced_links':2};</script>

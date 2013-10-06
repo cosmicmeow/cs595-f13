@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+	
+
+	<meta name="description" content="An international team of zoologists discovered a new genus of rat on Halmahera island, North Maluku.A unique set of characteristics — a prominent ..."/>
+			<meta name="keywords" content="thejakartapost, the jakarta post, indonesia, newspaper, paper, online, online paper"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>New rat discovered in Indonesia   | The Jakarta Post</title>
+
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8"/> --> 
+<meta http-equiv="Copyright" content="The Jakarta Post"/> 
+<!-- <meta http-equiv="refresh" content="900" /> -->
+<link rel="shortcut icon" href="http://www.thejakartapost.com/favicon.ico"/>
+<link href="http://www.thejakartapost.com/assets/persia-2012/css/A.reset.css+style.css,Mcc.k-y-Nym4Iv.css.pagespeed.cf.IFLUO43XP-.css" rel="stylesheet" type="text/css"/>
+
+
+<script type="text/javascript" src="http://www.thejakartapost.com/assets/persia-2012/js/jquery-1.7.2.min.js.pagespeed.jm.TiC1blcYSb.js"></script>
+<script type="text/javascript" src="http://www.thejakartapost.com/assets/persia-2012/js/jquery-ui.min.js.pagespeed.jm.e2PmfTYsjA.js"></script>
+<script type="text/javascript" src="http://www.thejakartapost.com/assets/persia-2012/js/jquery.accessible-news-slider.js.pagespeed.jm._2YAsH3CIF.js"></script>
+<script type="text/javascript" src="http://www.thejakartapost.com/assets/persia-2012/js/superfish.js.pagespeed.ce.XxnTyYMjVg.js"></script>
+<script type="text/javascript" src="http://www.thejakartapost.com/assets/persia-2012/js/scrolltopcontrol.js.pagespeed.ce._35WA7Snml.js"></script>
+<script type="text/javascript">//<![CDATA[
+(function($){$.fn.hoverIntent=function(f,g){var cfg={sensitivity:7,interval:100,timeout:0};cfg=$.extend(cfg,g?{over:f,out:g}:f);var cX,cY,pX,pY;var track=function(ev){cX=ev.pageX;cY=ev.pageY;};var compare=function(ev,ob){ob.hoverIntent_t=clearTimeout(ob.hoverIntent_t);if((Math.abs(pX-cX)+Math.abs(pY-cY))<cfg.sensitivity){$(ob).unbind("mousemove",track);ob.hoverIntent_s=1;return cfg.over.apply(ob,[ev]);}else{pX=cX;pY=cY;ob.hoverIntent_t=setTimeout(function(){compare(ev,ob);},cfg.interval);}};var delay=function(ev,ob){ob.hoverIntent_t=clearTimeout(ob.hoverIntent_t);ob.hoverIntent_s=0;return cfg.out.apply(ob,[ev]);};var handleHover=function(e){var p=(e.type=="mouseover"?e.fromElement:e.toElement)||e.relatedTarget;while(p&&p!=this){try{p=p.parentNode;}catch(e){p=this;}}
+if(p==this){return false;}
+var ev=jQuery.extend({},e);var ob=this;if(ob.hoverIntent_t){ob.hoverIntent_t=clearTimeout(ob.hoverIntent_t);}
+if(e.type=="mouseover"){pX=ev.pageX;pY=ev.pageY;$(ob).bind("mousemove",track);if(ob.hoverIntent_s!=1){ob.hoverIntent_t=setTimeout(function(){compare(ev,ob);},cfg.interval);}}else{$(ob).unbind("mousemove",track);if(ob.hoverIntent_s==1){ob.hoverIntent_t=setTimeout(function(){delay(ev,ob);},cfg.timeout);}}};return this.mouseover(handleHover).mouseout(handleHover);};})(jQuery);
+//]]></script>
+<script type="text/javascript" src="http://www.thejakartapost.com/assets/persia-2012/js/jquery.carouFredSel.js.pagespeed.jm.RE3VGi0W7b.js"></script>
+<script type="text/javascript">//<![CDATA[
+(function($){$.fn.colorTip=function(settings){var defaultSettings={color:'black',timeout:100}
+var supportedColors=['red','green','blue','white','yellow',''];settings=$.extend(defaultSettings,settings);return this.each(function(){var elem=$(this);if(!elem.attr('title'))return true;var scheduleEvent=new eventScheduler();var tip=new Tip(elem.attr('title'));elem.append(tip.generate()).addClass('colorTipContainer');var hasClass=false;for(var i=0;i<supportedColors.length;i++)
+{if(elem.hasClass(supportedColors[i])){hasClass=true;break;}}
+if(!hasClass){elem.addClass(settings.color);}
+elem.hover(function(){tip.show();scheduleEvent.clear();},function(){scheduleEvent.set(function(){tip.hide();},settings.timeout);});elem.removeAttr('title');});}
+function eventScheduler(){}
+eventScheduler.prototype={set:function(func,timeout){this.timer=setTimeout(func,timeout);},clear:function(){clearTimeout(this.timer);}}
+function Tip(txt){this.content=txt;this.shown=false;}
+Tip.prototype={generate:function(){return this.tip||(this.tip=$('<div class="colorTip">'+this.content+'<span class="pointyTipShadow"></span><span class="pointyTip"></span></div>'));},show:function(){if(this.shown)return;this.tip.css('margin-left',-this.tip.outerWidth()/2.5).fadeIn('fast');this.shown=true;},hide:function(){this.tip.fadeOut();this.shown=false;}}})(jQuery);
+//]]></script>
+<script type="text/javascript">//<![CDATA[
+jQuery.noConflict()(function($){$(document).ready(function(){$("ul.sf-menu").superfish({pathClass:'active'});if($.browser.msie&&$.browser.version.substr(0,1)<7){$('li').has('ul').mouseover(function(){$(this).children('ul').css('visibility','visible');}).mouseout(function(){$(this).children('ul').css('visibility','hidden');})}
+$('#newsslider').accessNews({title:"",subtitle:"",speed:"slow",slideBy:3,slideShowInterval:100000,slideShowDelay:100000});$('#carl1, #carl2, #carl3').carouFredSel({prev:'#prev2, #2prev2, #3prev2',next:'#next2, #2next2, #3next2',pagination:'#pager1, #pager2, #pager3',width:625,height:170,auto:false});$('#carl4').carouFredSel({prev:'#prev4',next:'#next4',width:310,height:300,auto:true,scroll:{duration:1200,pauseOnHover:true}});$('#carPartner').carouFredSel({prev:'#prev5',next:'#next5',width:150,height:57,auto:true});$('#login-trigger').click(function(){$(this).next('#login-content').slideToggle();$(this).toggleClass('active');if($(this).hasClass('active'))
+$(this).find('span').html('&#x25B2;')
+else
+$(this).find('span').html('&#x25BC;')});if($(".toggle_content").length!=0){$(".toggle_content").hide();$(".toggle_block h4").click(function(){$(this).toggleClass("tgg_close").next().slideToggle("medium");});}
+if($("#tabs").length!=0){$("#tabs").tabs({event:"click"});}
+if($("#tabs_photo").length!=0){$("#tabs_photo").tabs({event:"click"});}});});
+//]]></script>
+<script type="text/javascript" src="http://www.thejakartapost.com/assets/persia-2012/js/jquery.jfontsize-1.0.js.pagespeed.jm._6kVsZzT8g.js"></script> 
+<meta charset="UTF-8"/>
+
+
+<script type='text/javascript'>var googletag=googletag||{};googletag.cmd=googletag.cmd||[];(function(){var gads=document.createElement('script');gads.async=true;gads.type='text/javascript';var useSSL='https:'==document.location.protocol;gads.src=(useSSL?'https:':'http:')+'//www.googletagservices.com/tag/js/gpt.js';var node=document.getElementsByTagName('script')[0];node.parentNode.insertBefore(gads,node);})();</script>
+
+<script type='text/javascript'>googletag.cmd.push(function(){googletag.defineSlot('/16876269/News-Right-Banner',[300,250],'div-gpt-ad-1357364633726-0').addService(googletag.pubads());googletag.defineSlot('/16876269/News_Entertainment_Top',[728,90],'div-gpt-ad-1375355478090-0').addService(googletag.pubads());googletag.defineSlot('/16876269/News_Entertainment_Right',[300,250],'div-gpt-ad-1375356076329-0').addService(googletag.pubads());googletag.defineSlot('/16876269/News_Business_Top',[728,90],'div-gpt-ad-1378305827432-0').addService(googletag.pubads());googletag.defineSlot('/16876269/News_Business_Right',[300,250],'div-gpt-ad-1378305876441-0').addService(googletag.pubads());googletag.defineSlot('/16876269/News_Big_Vertical',[300,600],'div-gpt-ad-1379116008790-0').addService(googletag.pubads());googletag.defineSlot('/16876269/News-Top-Banner',[728,90],'div-gpt-ad-1380531044922-0').addService(googletag.pubads());googletag.pubads().enableSingleRequest();googletag.enableServices();});</script>
+
+<link rel="canonical" href="http://www.thejakartapost.com/news/2013/09/22/new-rat-discovered-indonesia.html"/>
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@jakpost">
+<meta name="twitter:title" content="New rat discovered in Indonesia  ">
+<meta name="twitter:description" content="An international team of zoologists discovered a new genus of rat on Halmahera island, North Maluku.A unique set of characteristics — a prominent tuft of spiny hair on its back, a white tip on ...">
+<meta property="fb:app_id" content="1397864763759629"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://www.thejakartapost.com/news/2013/09/22/new-rat-discovered-indonesia.html"/>
+<meta property="og:title" content="New rat discovered in Indonesia  "/>
+
+</head>
+<body>
+
+
+<!-- search bar -->
+<div style="width:100%;height:40px;background-color:#000;color:#fff;position:fixed;top:0;left:0;z-index:99999;
+		border-bottom:2px solid #ffffff;">
+	<div class="container">
+		<div style="float:left;margin-top:3px;margin-right:20px;">
+			<a href="/"><img src="http://www.thejakartapost.com/assets/persia-2012/images/Nx35xlogo40.png.pagespeed.ic.1TIshZecRZ.png" height="35" border="0"></a>
+		</div>
+		
+		<style>.gsc-control-cse{background-color:#000;border:0;height:40px;padding:0;margin-top:-5px}.gsc-clear-button{display:none}</style>
+		
+		<div style="width:600px;float:left;">	
+			<script>(function(){var cx='011621830727534589077:pszmv_xfv60';var gcse=document.createElement('script');gcse.type='text/javascript';gcse.async=true;gcse.src=(document.location.protocol=='https:'?'https:':'http:')+'//www.google.com/cse/cse.js?cx='+cx;var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(gcse,s);})();</script>
+			<gcse:search></gcse:search>
+		</div>
+	</div>
+</div>
+<!-- //search bar -->
+	
+	
+	
+	<div class="container" style="z-index:1;">
+	<div class="span-24 last" style="z-index:1;"> 
+	
+	</div>
+	
+	
+	<div style="height:40px;">
+		
+	</div>
+
+	
+	<div class="span-24 separatorgray"></div>
+		<div class="span-24 notopmargin tmenus last">
+			<div class="span-18 notopmargin">
+				<ul class="sf-menu sf-navbar">
+					<li><a href="/">Home</a></li>
+					<li class="active"><!-- this this -->
+						<a href="/">News</a>
+						<ul class="current">
+							<li><a href="/editors_choice">Editor's Choice</a></li>
+							<li><a href="/channel/business">Business</a></li>
+							<li><a href="/channel/national">National</a></li>
+							<li><a href="/channel/archipelago">Archipelago</a></li>
+							<li><a href="/channel/jakarta">Jakarta</a></li>
+							<li><a href="/channel/world">World</a></li>
+							<li><a href="/channel/sports">Sports</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="/views">Views</a>
+						<ul class="views">
+							<li><a href="/channel/opinion">Opinion</a></li>
+							<li><a href="/channel/readers%20forum">Reader's Forum</a></li>
+							<li><a href="/channel/yourvoice">Your Voice</a></li>
+						</ul>			
+					</li>
+					<li>
+						<a href="/life_style">Life</a>
+						<ul>
+							<li><a href="/channel/sci-tech">Sci-Tech</a></li>
+							<li><a href="/channel/environment">Environment</a></li>
+							<li><a href="/channel/body%20and%20soul">Body &amp; Soul</a></li>
+							<li><a href="/channel/art%20and%20design">Art &amp; Design</a></li>
+							<li><a href="/channel/culture">Culture</a></li>
+							<li><a href="/channel/lifestyle">Lifestyle</a></li>
+							<li><a href="/channel/entertainment">Entertainment</a></li>
+							<li><a href="/channel/feature">Features</a></li>
+							<li><a href="http://www.jakpost.travel">Travel</a></li>
+						</ul>
+					</li>
+					<!--
+					<li>
+						<a href="#">Multimedia</a>
+						<ul class="multimedia">
+							<li><a href="/photo">Photos</a></li>
+							<li><a href="/multimedianews">Multimedia and Audio Slideshow</a></li>
+							
+						</ul>				
+					</li>	
+					-->
+					<li>
+						<a href="http://www.jakpost.travel">Jakpost.Travel</a>			
+					</li>	
+					<li>
+						<a href="http://jobs.jakpost.com">Jobs</a>			
+					</li>	
+				</ul>		
+			</div>
+			<div class="span-6 notopmargin last">
+				<ul class="sf-menu sf-navbar" style="float:right;">	
+					<li><a href="/paper">Print Edition</a></li>	
+					<li>
+						<a href="#" class="OtherPub">Other Publications</a>
+						<ul class="ChildOtherPub"><div class="arrow-down"></div>
+							<!-- <li><a target="_blank" href="#">Sunday Post</a></li> -->
+							<li><a target="_blank" href="/weekender">Weekender</a></li>
+							<li><a target="_blank" href="http://www.youthspeak.com">Speak</a></li>
+							<li><a target="_blank" href="/bali-daily">Bali Daily</a></li>
+							<li><a target="_blank" href="http://imo.thejakartapost.com">Public Blog IMO</a></li>
+							<li><a target="_blank" href="/files/nie/index.html">NIE</a></li>
+						</ul>				
+					</li>	
+				</ul>				
+			</div>
+		</div>
+    </div>
+	<!-- END Header-->
+	<div class="clear"></div>
+<div class="container">
+	<div class="span-24 separatorgray notopmargin"></div>
+	<!-- news ticker -->
+	<div class="span-24 subpage_title">
+		<a href="/" class="home_icon"> <img width="17px" height="16px" src="http://www.thejakartapost.com/assets/persia-2012/images/17x16x1px.png.pagespeed.ic.KZZplq6wrg.png" alt=""></a>
+		<img width="17px" height="16px" class="sep" src="http://www.thejakartapost.com/assets/persia-2012/images/17x16xdv.png.pagespeed.ic.82InaSOARI.png" alt=""/>
+	
+		<p class="colored" style="margin-top:0;font-weight:bold;font-size:16px;">National</p>
+	</div>	
+	<!-- /news ticker -->
+	<div class="span-24 separator notopmargin"></div>
+	<div class="span-24 rv"><!-- wrapper -->
+		<div class="span-16 notopmargin"><!-- content -->
+			
+
+
+<div class="span-15 notopmargin last" style="width:620px; border-right:1px solid #ccc;padding-right:10px;"><div class="headline" style="border-left:0px;font-size:15px;">
+	<div class="story">
+				<h1 style="padding:5p;font-size:40px; line-height:40px;margin-bottom:20px;margin-top:20px;
+			font-weight:bold;">New rat discovered in Indonesia <br/>  </h1>
+				<div class="byline" style="font-size:12px;;">
+			The Jakarta Post, Jakarta | National | Sun, September 22 2013, 8:42 PM		</div>
+		<script type="text/javascript">jQuery(document).ready(function($){$('.teaser').jfontsize({btnMinusClasseId:'#jfontsize-m2',btnDefaultClasseId:'#jfontsize-d2',btnPlusClasseId:'#jfontsize-p2',btnMinusMaxHits:1,btnPlusMaxHits:3,sizeChange:2});});</script>
+		<!--
+		<div class="tright">
+			<a title="decrease text size" class="jfontsize-button" id="jfontsize-m2" href="#">A-</a>
+			<a title="reset text size" class="jfontsize-button" id="jfontsize-d2" href="#">A</a>
+			<a title="increase text size" class="jfontsize-button" id="jfontsize-p2" href="#">A+</a>
+		</div>
+		-->
+<style>.box-profile{font-size:12px;font-face:verdana;background-color:#000;color:#fff;padding:1px 5px;float:left;margin:2px}.box-profile:hover{background-color:red}</style>
+		
+		<div style="padding:5px;border-bottom:1px solid #ccc;border-top:1px solid #ccc;">
+				
+			<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+		
+		<div class="teaser">
+
+						<div style="width:110px;float:left;margin-right:20px;"><div class="sidebar">
+	<div style="border-top:3px solid #000;line-height:14px;font-size:12px;font-weight:bold;padding:10px 2px;margin-top:28px;">National News</div>
+	<div>
+		<ul>
+						<li style="padding:10px 2px;line-height:14px;font-size:12px;background-color:#fff;border-top:1px solid #ccc;"><a href="http://www.thejakartapost.com/news/2013/10/05/sby-temporarily-dismisses-akil-mochtar-chief-justice-post.html">SBY temporarily dismisses Akil Mochtar from chief justice post</a></li>
+						<li style="padding:10px 2px;line-height:14px;font-size:12px;background-color:#fff;border-top:1px solid #ccc;"><a href="http://www.thejakartapost.com/news/2013/10/05/fighting-freedom.html">Fighting for freedom</a></li>
+						<li style="padding:10px 2px;line-height:14px;font-size:12px;background-color:#fff;border-top:1px solid #ccc;"><a href="http://www.thejakartapost.com/news/2013/10/05/the-guardians.html">The guardians</a></li>
+			
+		</ul>
+			</div>
+</div>
+ </div><div class="span-12"><p>An international team of zoologists discovered a new genus of rat on Halmahera island, North Maluku.</p><p>A unique set of characteristics — a prominent tuft of spiny hair on its back, a white tip on its tail and three pairs of teats — were found on the new genus of mammal, which was discovered in Wallacea, a biogeographical region named after British naturalist Alfred Russel Wallace.</p><p>“The team was surprised to find the new endemic rodent close to Boki Mekot, a mountainous area under severe ecological threat due to mining and deforestation. The species is only known in this area, and is named Halmaheramys bokimekot,” a report recently published on the University of Copenhagen’s official website said.</p><p>The team was led by the Museum Zoologicum Bogoriense in Indonesia and the Center for Macroecology, Evolution and Climate at the University of Copenhagen.</p><p>Project leader Pierre-Henri Fabre from the Center for Macroecology, Evolution and Climate stated that the new rodent highlighted the large amount of unknown biodiversity in the Wallacean biogeographical region and the importance of its conservation.</p><p>“Zoologists must continue to explore this area in order to discover and describe new species in this highly diverse, but also threatened region,” said Fabre.</p><p>The new rat, whose unique set of features has never been reported before in the Moluccas, reveals a rare migration event. “The Halmaheramys discovery supports Wallace’s idea of an important faunal breakup in this region,” said Fabre.</p><p>He said most of the species on Halmahera were of eastern origin.</p><p>“Our genetic analysis revealed a western origin of this new genus. That reflects the unique transition zone found in the Indo-Pacific, and warrants much greater scientific investigation,” Fabre said. (ebf) </p><div style="border-top:1px solid #ccc;border-bottom:1px solid #ccc;width:100%;padding-top:10px;padding-bottom:5px;"><span style="margin-left:40px;"><fb:like href="http://www.thejakartapost.com/news/2013/09/22/new-rat-discovered-indonesia.html" send="false" layout="button_count" width="50" show_faces="false" action="recommend"></fb:like></span><span style="margin-left:40px;"><a href="https://twitter.com/share" class="twitter-share-button" data-via="jakpost" data-lang="en">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></span><span><div style="float:left;" class="g-plus" data-action="share" data-annotation="bubble"></div>
+
+<!-- Place this tag after the last share tag. -->
+<script type="text/javascript">(function(){var po=document.createElement('script');po.type='text/javascript';po.async=true;po.src='https://apis.google.com/js/plusone.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,s);})();</script></span></div></div><div style="clear:both;height:20px;"></div><div style="width:500px;margin-left:130px;margin-bottom:60px;">
+								Read also:<ul><li><span style="color:#ff0000;font-weight:bold;">&middot;</span> <a style=";font-size:12px;" href="http://www.thejakartapost.com/news/2013/10/05/sby-temporarily-dismisses-akil-mochtar-chief-justice-post.html">SBY temporarily dismisses Akil Mochtar from chief justice post</a><li><li><span style="color:#ff0000;font-weight:bold;">&middot;</span> <a style=";font-size:12px;" href="http://www.thejakartapost.com/news/2013/10/05/fighting-freedom.html">Fighting for freedom</a><li><li><span style="color:#ff0000;font-weight:bold;">&middot;</span> <a style=";font-size:12px;" href="http://www.thejakartapost.com/news/2013/10/05/the-guardians.html">The guardians</a><li></ul></div>			
+		</div>
+			</div>
+	
+	<!--
+	<div class="addthis_toolbox addthis_default_style right">
+		<a class="addcomments left" style="visibility: hidden;"></a>
+		<a class="addthis_button_preferred_1"></a>
+		<a class="addthis_button_preferred_2"></a>
+		<a class="addthis_button_preferred_3"></a>
+		<a class="addthis_button_compact"></a>
+	</div>
+	<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e3b6a1c5a630fae"></script>
+	-->
+	<!-- AddThis Button END -->	
+	<div class=" separator last"></div>
+	
+
+<div class="clear"></div>
+
+<!-- outbrain -->
+<!--
+<style>
+.ob-text-content{font-size:12px;}
+</style>
+<div style="margin-top:30px;">
+	<div data-src="http://www.thejakartapost.com/news/2013/09/22/new-rat-discovered-indonesia.html" class="OUTBRAIN" ></div>
+<script type="text/javascript">(function(){window.OB_platformType=8;window.OB_langJS="http://widgets.outbrain.com/lang_en.js";window.OBITm="1374305296102";window.OB_recMode="brn_box";var ob=document.createElement("script");ob.type="text/javascript";ob.async=true;ob.src="http"+("https:"===document.location.protocol?"s":"")+"://widgets.outbrain.com/outbrainLT.js";var h=document.getElementsByTagName("script")[0];h.parentNode.insertBefore(ob,h);})();</script>
+</div>
+-->
+
+
+
+<div class="clear"></div>
+
+<!-- START: Livefyre Embed -->
+<div style="text-align: left; padding-top:20px;"><h2>Post Your Say</h2></div>
+<div style="text-align: left;font-size:12px;color:#000;margin-bottom:20px;">Selected comments will be published in the Readers’ Forum page of our print newspaper.
+</div>
+<style>.fyre-comment-count{color:#000}.fyre-stream-livecount{display:none}.fyre-listener-avatars img{display:none}.fyre-widget .fyre-logo-drop,.fyre-widget .fyre-logo-help,.fyre-widget .fyre-help{display:none!important}.fyre-comment-media{display:none!important}.fyre-comment a{display:none!important}#powered_by_livefyre_new a{background:url(http://zor.livefyre.com/wjs/v1.0/images/icons/poweredbylivefyre.png) no-repeat right top;display:block;height:24px;font:13px "Helvetica Neue",Helvetica,Arial,Geneva,sans-serif;text-decoration:none;color:#404040;padding-right:28px;padding-top:4px;text-align:right;margin-bottom:20px;width:140px;float:right}#powered_by_livefyre_new a:hover{text-decoration:underline}</style>	
+
+
+<div id="livefyre-comments"></div>
+<script type="text/javascript" src="http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js"></script>
+<script type="text/javascript">(function(){var articleId=fyre.conv.load.makeArticleId(null);fyre.conv.load({},[{el:'livefyre-comments',network:"livefyre.com",siteId:"335079",articleId:articleId,signed:false,collectionMeta:{articleId:articleId,url:fyre.conv.load.makeCollectionUrl(),}}],function(){});}());</script>
+<div id="powered_by_livefyre_new" style="margin-top:30px;margin-bottom:30px;"><a href="http://livefyre.com" target="_blank" rel="nofollow">Powered by Livefyre</a></div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script>$(document).bind('DOMSubtreeModified',function(e){var element=e.target;if($(element).attr('class')=='fyre-comment-count'){if($('.fyre-comment-count').text()!=''){var dataString='comment='+encodeURIComponent($('.fyre-comment-count').text())+'&url='+encodeURIComponent($(location).attr('href'));$.ajax({type:"POST",url:"/livefyre/notify_comment",data:dataString,success:function(data){}});}}});</script>
+<!-- END: Livefyre Embed -->
+	
+	
+	
+</div></div>
+			<!--
+			<div class="span-17 big-separator last" style="width:620px"></div>
+			-->
+			<div class="span-17 last">
+				 
+				<!--
+				<div class="clear"></div>
+				<div class="span-17 big-separator last"  style="width:620px"></div>
+				
+				<script type="text/javascript" src="http://comments2.thejakartapost.com/comment/display/533636"></script>
+				-->
+			</div>
+		</div><!-- /content -->
+		<div id="sidebar" class="span-8 notopmargin sidebar last">
+
+
+<style>.jpslide{width:140px;float:left}.jpslide_container{width:140px;height:400px;overflow:hidden;position:relative}.jpslide_content{position:absolute;font-size:10px}.jpslide_ul{padding:0;margin:0}.jpslide_up{cursor:hand;cursor:pointer;height:8px;width:18px;margin:0 auto;background:url(http://www.thejakartapost.com/assets/persia-2012/images/xjpslide_arrow.png.pagespeed.ic.4uibrvA932.png) -60px -20px no-repeat transparent}.jpslide_down{cursor:hand;cursor:pointer;height:8px;width:18px;margin:0 auto;background:url(http://www.thejakartapost.com/assets/persia-2012/images/xjpslide_arrow.png.pagespeed.ic.4uibrvA932.png) -60px 0px no-repeat transparent}.jpslide_line{padding:0;margin:2px 0;height:1px;background-color:#999;border:0}</style>
+
+<div class="jpslide">
+<div style="text-align:center;border-top:3px solid #000;padding:6px 0;border-bottom:1px solid #ccc;margin-bottom:5px;">Most Viewed</div>
+	<div style="height:7px;">
+		<div id="jpslide_up1" class="jpslide_up"></div>
+	</div>
+	<div class="jpslide_line"></div>
+	<div id="jpslide_container1" class="jpslide_container">
+		<div id="jpslide_content1" class="jpslide_content">
+				<div id="most-viewed"></div>
+		</div>
+	</div>
+	<div class="jpslide_line"></div>
+	<div style="height:7px;">
+		<div id="jpslide_down1" class="jpslide_down"></div>
+	</div>
+</div>
+
+
+<div class="jpslide" style="border-left:1px solid #ccc;padding-left:10px;margin-left:10px;">
+<div style="text-align:center;border-top:3px solid #000;padding:6px 0;border-bottom:1px solid #ccc;margin-bottom:5px;">Most Commented</div>
+	<div style="height:7px;">
+		<div id="jpslide_up2" class="jpslide_up"></div>
+	</div>
+	<div class="jpslide_line"></div>
+	<div id="jpslide_container2" class="jpslide_container">
+		<div id="jpslide_content2" class="jpslide_content">
+				<div id="most-commented"></div>
+		</div>
+	</div>
+	<div class="jpslide_line"></div>
+	<div style="height:7px;">
+		<div id="jpslide_down2" class="jpslide_down"></div>
+	</div>
+</div>
+
+
+
+
+<script type="text/javascript" src="http://www.thejakartapost.com/livefyre/jquery_most_viewed">"></script>
+<script type="text/javascript" src="http://www.thejakartapost.com/livefyre/jquery_most_commented">"></script>
+
+<script language="javascript">jQuery(document).ready(function($){$jpslide_range=350;$("#jpslide_up"+1).hide();$("#jpslide_up"+1).click(function(){var pos=$("#jpslide_content"+1).position();if(pos.top>=0){$("#jpslide_up"+1).hide();return;}
+$("#jpslide_up"+1).show();$("#jpslide_content"+1).animate({"top":"+="+$jpslide_range+"px"},"slow");$("#jpslide_down"+1).show();if(-pos.top-$jpslide_range<=0)
+$("#jpslide_up"+1).hide();});$("#jpslide_down"+1).click(function(){var pos=$("#jpslide_content"+1).position();if(-pos.top>$("#jpslide_content"+1).height()-$("#jpslide_container"+1).height()){return;}
+$("#jpslide_up"+1).show();$("#jpslide_content"+1).animate({"top":"-="+$jpslide_range+"px"},"slow");$("#jpslide_up"+1).show();if(-pos.top+$jpslide_range>$("#jpslide_content"+1).height()-$("#jpslide_container"+1).height())
+$("#jpslide_down"+1).hide();});$("#jpslide_up"+2).hide();$("#jpslide_up"+2).click(function(){var pos=$("#jpslide_content"+2).position();if(pos.top>=0){$("#jpslide_up"+2).hide();return;}
+$("#jpslide_up"+2).show();$("#jpslide_content"+2).animate({"top":"+="+$jpslide_range+"px"},"slow");$("#jpslide_down"+2).show();if(-pos.top-$jpslide_range<=0)
+$("#jpslide_up"+2).hide();});$("#jpslide_down"+2).click(function(){var pos=$("#jpslide_content"+2).position();if(-pos.top>$("#jpslide_content"+2).height()-$("#jpslide_container"+2).height()){return;}
+$("#jpslide_up"+2).show();$("#jpslide_content"+2).animate({"top":"-="+$jpslide_range+"px"},"slow");$("#jpslide_up"+2).show();if(-pos.top+$jpslide_range>$("#jpslide_content"+2).height()-$("#jpslide_container"+2).height())
+$("#jpslide_down"+2).hide();});});</script>
+					
+
+<div style="clear:both;height:30px;"></div>
+
+
+<div style="padding-left:0px;">
+<script src="http://jobs.jakpost.com/jswidget/jakpost-jobs.widget.min.js"></script>
+</div>
+<!-- News_Big_Vertical -->
+<div id='div-gpt-ad-1379116008790-0' style='width:300px; height:600px;'>
+<script type='text/javascript'>googletag.cmd.push(function(){googletag.display('div-gpt-ad-1379116008790-0');});</script>
+</div>
+
+
+<div style="margin-left:24px;margin-top:20px;margin-bottom:20px;">
+<iframe src="http://www.jakpost.travel/widgets/storiesiframe" width="280" height="700" frameborder="0" scrolling="auto"></iframe>
+</div> 
+
+</div>
+	</div><!-- wrapper -->
+</div> <!-- /container -->
+
+<div class="clear"></div>
+<div style="width:730px;margin:0 auto;">
+	<!-- Single-Article-Bottom-Banner -->
+	<div id='div-gpt-ad-1357364633726-1' style='width:728px; height:90px;'>
+	<script type='text/javascript'>googletag.cmd.push(function(){googletag.display('div-gpt-ad-1357364633726-1');});</script>
+	</div>
+
+</div>
+ 
+<div class="clear"></div>
+    <!--Footer-->
+    <div class="footer" style="margin-top:100px;padding-bottom: 0;">
+    	<div class="container">
+        	<div class="span-6 posts">
+                <h5 class="footer_welcome">Profile</h5>
+                <div class="span-6 separator"></div>		
+				<ul>
+					<li><a href="http://www.thejakartapost.com/about#779">Online Edition</a></li>
+					<li><a href="http://www.thejakartapost.com/about#780">History</a></li>
+					<li><a href="http://www.thejakartapost.com/about#781">Editorial Staff</a></li>
+					<li><a href="http://www.thejakartapost.com/about#782">Progress &amp; Development</a></li>
+					<li><a href="http://www.thejakartapost.com/about#783">Sunday Edition</a></li>
+					<li><a href="http://www.thejakartapost.com/about#784">Book Publishing</a></li>
+					<li><a href="http://www.thejakartapost.com/about#785">Promoting Art &amp; Culture</a></li>
+					<li><a href="http://www.thejakartapost.com/about#786">Book &amp; Publishing</a></li>
+				</ul>		
+            </div>				
+        	<div class="span-6 posts">
+                <h5 class="footer_welcome">Resources &amp; Directories</h5>
+                <div class="span-6 separator"></div>
+					<ul>
+						<li><a href="http://www.thejakartapost.com/resources/indonesian_history">Indonesian History</a></li>
+						<li><a href="http://www.thejakartapost.com/resources/indonesian_cabinet">Indonesian Cabinets</a></li>
+						<li><a href="http://www.thejakartapost.com/directory/acronyms">Acronyms</a></li>
+						<li><a href="http://www.thejakartapost.com/directory/important_addresses">Important Addresses</a></li>
+						<li><a href="http://www.thejakartapost.com/directory/universities">Universities</a></li>
+						<li><a href="http://www.thejakartapost.com/directory/whos_who">Who's Who</a></li>
+						<li><a style="color:#ffffff;" href="http://www.thejakartapost.com/topic">Topic</a></li> 
+						<li><a style="color:#ffffff;" href="http://www.ttwigo.com">Entertainment Partner</a></li> 
+						<!-- <li><a href="http://www.thejakartapost.com/directory/acronyms">Links</a></li> -->
+					</ul>
+            </div>
+            <div class="span-6 posts" style="display:none;">
+                <h5 class="footer_welcome">More Online Stuff</h5>
+                <div class="span-6 separator"></div>
+					<ul>
+						<li><a href="http://www.thejakartapost.com/breaking/feed">RSS Feeds</a></li>
+						<li><a href="http://www.thejakartapost.com/apps">iPhone / iPad App</a></li>
+						<li><a href="http://www.thejakartapost.com/apps">Android App</a></li>
+						<li><a href="http://www.thejakartapost.com/apps">Blackberry App</a></li>
+						<li><a href="http://www.thejakartapost.com/apps">Nokia S40 App</a></li>
+						<li><a href="http://m2.thejakartapost.com/">Mobile version</a></li>
+					</ul>
+            </div>
+            <div class="span-5 posts last">
+                <h5 class="footer_welcome">Advertise With Us</h5>
+                <div class="span-5 separator"></div>
+					<ul>
+						<li><a title="Media Kit" target="_blank" href="http://www.thejakartapost.com/files/media_kit-2012-IDR.pdf">Media Kit (IDR)</a></li>
+						<li><a title="Media Kit" target="_blank" href="http://www.thejakartapost.com/files/media_kit-2012-USD.pdf">Media Kit (USD)</a></li>
+						<li><a href="http://www.thejakartapost.com/contact">Online Ads</a></li>
+						<li><a href="http://www.thejakartapost.com/contact">Paper Ads</a></li>
+						<li><a href="http://www.thejakartapost.com/contact">Weekender Ads</a></li>
+						<li><a href="http://www.thejakartapost.com/contact">Direct Contact</a></li>
+					</ul>
+            </div>
+        </div>
+			<div class="nail boxn">
+				<div class="container" style="margin-bottom: 60px;">
+					<div style="display:block;float:left; width:250px;">PT. Niskala Media Tenggara &copy; 2013 
+						<!--<a href="http://www.thejakartapost.com/privacy">Privacy Policies</a> | 
+						<a href="http://www.thejakartapost.com/haki">Intellectual Property Rights Policy</a> | 
+						<a href="http://www.thejakartapost.com/terms">Terms of Service</a> | --> 
+						<!--<a href="http://www.thejakartapost.com/sitemap">Sitemap</a>  -->
+					</div>
+					<div style="float:left;">
+						<img width="130" src="http://www.thejakartapost.com/assets/persia-2012/images/130xNxjakpost_logo_small.png.pagespeed.ic.PwqUj5JqOR.png">
+					</div>
+				</div>
+			</div>	
+    	<div class="clear"></div>
+    </div>
+    <!--End Footer-->
+        
+<script type="text/javascript">var gaJsHost=(("https:"==document.location.protocol)?"https://ssl.":"http://www.");document.write(unescape("%3Cscript src='"+gaJsHost+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script>
+<script type="text/javascript">try{var pageTracker=_gat._getTracker("UA-8353993-1");pageTracker._trackPageview();}catch(err){}</script>
+
+<!-- jakpost tracker -->
+<script>//<![CDATA[
+document.write('<img src="http://www.thejakartapost.com/livefyre/notify_pageview" width="0" height="0" />');
+//]]></script>
+
+<script>setTimeout(function(){var a=document.createElement("script");var b=document.getElementsByTagName("script")[0];a.src=document.location.protocol+"//api.jakpost.net/jptracker/news.sc?"+Math.floor(new Date().getTime()/3600000);a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)},1);</script>
+
+<!-- facebook -->
+<div id="fb-root"></div>
+<script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/en_US/all.js#xfbml=1&appId=376052092480686";fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));</script>
+
+
+<!-- crazyegg -->
+<script type="text/javascript">setTimeout(function(){var a=document.createElement("script");var b=document.getElementsByTagName("script")[0];a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0013/0039.js?"+Math.floor(new Date().getTime()/3600000);a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)},1);</script>
+
+<!-- Begin comScore Tag -->
+<script>var _comscore=_comscore||[];_comscore.push({c1:"2",c2:"17155413"});(function(){var s=document.createElement("script"),el=document.getElementsByTagName("script")[0];s.async=true;s.src=(document.location.protocol=="https:"?"https://sb":"http://b")+".scorecardresearch.com/beacon.js";el.parentNode.insertBefore(s,el);})();</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=17155413&cv=2.0&cj=1"/>
+</noscript>
+<!-- End comScore Tag -->
+
+
+
+</body>
+</html>

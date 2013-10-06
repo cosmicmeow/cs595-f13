@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Merrick Christensen - JavaScript Dependency Injection</title>
+  <link rel="stylesheet" href="/assets/stylesheets/screen.css" type="text/css">
+  <link href="http://www.merrickchristensen.com/atom.xml" type="application/atom+xml" rel="alternate" title="Merrick Christensen" />
+  <meta name="description" content="A quick explanation of how the AngularJS dependency injector works, and how you could write your own simplified JavaScript dependency injection library.">
+</head>
+<body>
+  <div class="menu stand-out">
+    <div class="inside">
+      <nav>
+        <a href="/"><span class="icon home"></span>Blog</a>
+        <a href="/about.html"><span class="icon about"></span>About</a>
+        <a href="/work.html"><span class="icon work"></span>Work</a>
+      </nav>
+      <span class="rule"></span>
+      <nav>
+        <a href="http://github.com/iammerrick" target="_blank"><span class="icon github"></span>Github</a>
+        <a href="http://twitter.com/iammerrick" target="_blank"><span class="icon twitter"></span>Twitter</a>
+        <a href="https://plus.google.com/102634018893739996532?rel=author" style="display:none;">Google Plus</a>
+      </nav>
+      <span class="rule"></span>
+      <nav>
+        <a href="mailto:merrick.christensen@gmail.com"><span class="icon email"></span>Email</a>
+      </nav>
+    </div>
+  </div>
+  <div class="container inside">
+    <div class="header keyline-bottom">
+      <h1 class="logo">iammerrick</h1>
+      <p>Hi, I'm Merrick and I love code so much I married it. Can provide proof upon request.</p>
+    </div>
+    <article class="full">
+  <div class="ribbon"></div>
+  <div class="subtle-padding">
+    <div class="top-of-article keyline-bottom clear">
+      <div class="date left">Oct 3rd 2012 - 7 min read</div>
+      <div class="share right">
+        <a href="http://www.facebook.com/sharer.php?u=http://www.merrickchristensen.com/articles/javascript-dependency-injection.html" class="icon like"></a>
+        <a href="https://twitter.com/share?url=http://www.merrickchristensen.com/articles/javascript-dependency-injection.html" class="icon tweet"></a>
+      </div>
+    </div>
+    <div class="typography content">
+      <h1>JavaScript Dependency Injection</h1>
+      <section>
+        <p><a href="http://en.wikipedia.org/wiki/Inversion_of_control">Inversion of control</a> and more specifically <a href="http://en.wikipedia.org/wiki/Dependency_injection">dependency injection</a> have been growing in popularity in the JavaScript landscape thanks to projects like <a href="http://requirejs.org/">Require.js</a> and <a href="http://angularjs.org/">AngularJS</a>. This article is a brief introduction to dependency injection and how it fits into JavaScript. It will also demystify the elegant way AngularJS implements dependency injection.</p>
+<h2>Dependency Injection In JavaScript</h2>
+<p>Dependency injection facilitates better testing by allowing us to mock dependencies in testing environments so that we only test one thing at a time. It also enables us to write more maintainable code by decoupling our objects from their implementations. </p>
+<p>With dependency injection, your dependencies are given to your object instead of your object creating or explicitly referencing them. This means the dependency injector can provide a different dependency based on the context of the situation. For example, in your tests it might pass a fake version of your services API that doesn&#39;t make requests but returns static objects instead, while in production it provides the actual services API.</p>
+<p>Another example could be to pass <a href="http://zeptojs.com/">ZeptoJS</a> to your view objects when the device is running <a href="http://www.webkit.org/">Webkit</a> instead of <a href="http://jquery.com/">jQuery</a> to improve performance.</p>
+<p>The main benefits experienced by adopting dependency injection are as follows:</p>
+<ol>
+<li>Code tends to be more maintainable.</li>
+<li>APIs are more elegant and abstract.</li>
+<li>Code is easier to test.</li>
+<li>Code is more modular and reuseable.</li>
+<li>Cures cancer. (Not entirely true.)</li>
+</ol>
+<p>Holding dependencies to an API based contract becomes a natural process. Coding to interfaces is nothing new, the server side world has been battle testing this idea for a long time to the extent that the languages themselves implement the concept of interfaces. In JavaScript we have to force ourselves to do this. Fortunately dependency injection and module systems are a welcome friend.</p>
+<p>Now that you have some idea of what dependency injection is, lets take a look at how to build a simple implementation of a dependency injector using <a href="http://docs.angularjs.org/guide/di">AngularJS style dependency injection</a> as a reference implementation. This implementation is purely for didactic purposes.</p>
+<h2>AngularJS Style Injection</h2>
+<p>AngularJS is one of the only front end JavaScript frameworks that fully adopts dependency injection right down to the core of the framework. To a lot of developers the way dependency injection is implemented in AngularJS looks completely magic.</p>
+<p>When creating controllers in AngularJS, the arguments are dependency names that will be injected into your controller. The argument names are the key here, they are leveraged to map a dependency name to an actual dependency. Yeah, the word &quot;key&quot; was used on purpose, you will see why.</p>
+<pre class="highlighted"><code class="javascript">                              <span class="comment">/* Injected */</span>
+<span class="keyword">var</span> WelcomeController = <span class="function"><span class="keyword">function</span> <span class="params">(Greeter)</span> {</span>
+  <span class="comment">/** I want a different Greeter injected dynamically. **/</span>
+    Greeter.greet();
+};</code></pre>
+<h2>Basic Requirements</h2>
+<p>Lets explore some of the requirements to make this function work as expected.</p>
+<ol>
+<li><p>The dependency container needs to know that this function wants to be processed. In the AngularJS world that is done through the Application object and the declarative HTML bindings. In our world we will explicitly ask our injector to process a function.</p>
+</li>
+<li><p>It needs to know what a Greeter before it can inject it.</p>
+</li>
+</ol>
+<h3>Requirement 1:  Making the injector aware.</h3>
+<p>To make our dependency injector aware of our WelcomeController we will simply tell our injector we want a function processed. Its important to know AngularJS ultimately does this same thing just using less obvious mechanisms whether that be the Application object or the HTML declarations.</p>
+<pre class="highlighted"><code class="javascript"><span class="keyword">var</span> Injector = {
+    process: <span class="keyword">function</span>(target) {
+        <span class="comment">// Time to process</span>
+    }
+};
+
+Injector.process(WelcomeController);</code></pre>
+<p>Ok, now that the Injector has the opportunity to process the WelcomeController we can figure out what dependencies the function wants, and execute it with the proper dependencies. This process is called dependency resolution. Before we can do that we need a way to register dependencies with our Injector object...</p>
+<h3>Requirement 2: Registering dependencies</h3>
+<p>We need to be able to tell the dependency injector what a <code>Greeter</code> is before it can provide one. Any dependency injector worth it&#39;s bits will allow you to describe <em>how</em> it is provided. Whether that means being instantiated as a new object or returning a singleton. Most injection frameworks even have mechanisms to provide a constructor some configuration and register multiple dependencies by the same name. Since our dependency injector is just a simplified way to show how AngularJS does dependency mapping using parameter names, we won&#39;t worry about any of that.</p>
+<p>Without further excuses, our simple register function:</p>
+<pre class="highlighted"><code class="javascript">
+Injector.dependencies = {};
+
+Injector.register = <span class="keyword">function</span>(name, dependency) {
+    <span class="keyword">this</span>.dependencies[name] = dependency;
+};</code></pre>
+<p>All we do is store our dependency by name so the injector knows what to provide when certain dependencies are requested. Lets go ahead and register an implementation of Greeter.</p>
+<pre class="highlighted"><code class="javascript"><span class="keyword">var</span> RobotGreeter = {
+  greet: <span class="keyword">function</span>() {
+    <span class="keyword">return</span> <span class="string">'Domo Arigato'</span>;
+  }
+};
+
+Injector.register(<span class="string">'Greeter'</span>, RobotGreeter);</code></pre>
+<p>Now our injector knows what to provide when <code>Greeter</code> is specified as a dependency.</p>
+<h2>Moving Forward</h2>
+<p>The building blocks are in place it&#39;s time for the sweet part of this article. The reason I wanted to post this article in the first place, the nutrients, the punch line, the hook, the call toString() with some sweet reflection. This is where the magic is, in JavaScript we don&#39;t have to execute a function immediately. The trick is to call toString on your function which returns the function as a string, this gives a chance to preprocess our functions as strings and turn them back into functions using the Function constructor, or just execute them with the proper parameters after doing some reflection. The latter is exactly what we will do here.</p>
+<h3>toString Returns Winning</h3>
+<pre class="highlighted"><code class="javascript"><span class="keyword">var</span> WelcomeController = <span class="function"><span class="keyword">function</span> <span class="params">(Greeter)</span> {</span>
+    Greeter.greet();
+};
+
+<span class="comment">// Returns the function as a string.</span>
+<span class="keyword">var</span> processable = WelcomeController.toString();</code></pre>
+<p>You can try it in your console!</p>
+<p><img src="/assets/images/articles/javascript-dependency-injection/processable.png" alt="Function toString Example" title="Function toString Example"></p>
+<p>Now that we have the WelcomeController as a string we can do some reflection to figure out which dependencies to inject.</p>
+<h3>Dependency Checking</h3>
+<p>It&#39;s time to implement the process method of our Injector. First lets take a look at <a href="https://github.com/angular/angular.js/blob/master/src/auto/injector.js">injector.js</a> from Angular. You&#39;ll notice the reflection starts on <a href="https://github.com/angular/angular.js/blob/master/src/auto/injector.js#L54">line 54</a> and leverages a few regular expressions to parse the function. Let&#39;s take a look at the regular expression, shall we?</p>
+<pre class="highlighted"><code class="javascript"><span class="keyword">var</span> FN_ARGS = <span class="regexp">/^function\s*[^\(]*\(\s*([^\)]*)\)/m</span>;</code></pre>
+<p>The <code>FN_ARGS</code> regular expression is used to select everything inside the parentheses of a function defintion. In other words the parameters of a function. In our case, the dependency list.</p>
+<pre class="highlighted"><code class="javascript"><span class="keyword">var</span> args = WelcomeController.toString().match(FN_ARGS)[<span class="number">1</span>];
+console.log(args); <span class="comment">// Returns Greeter</span></code></pre>
+<p>Pretty neat, right? We have now parsed out the WelcomeController&#39;s dependency list in our Injector <em>prior</em> to executing the WelcomeController function! Suppose the WelcomeController had multiple dependencies, this isn&#39;t terribly problematic since we can just split the arguments with a comma!</p>
+<pre class="highlighted"><code class="javascript"><span class="keyword">var</span> MultipleDependenciesController = <span class="keyword">function</span>(Greeter, OtherDependency) {
+  <span class="comment">// Implementation of MultipleDependenciesController</span>
+};
+
+<span class="keyword">var</span> args = MultipleDependenciesController
+  .toString()
+  .match(FN_ARGS)[<span class="number">1</span>]
+  .split(<span class="string">','</span>);
+
+console.log(args); <span class="comment">// Returns ['Greeter', 'OtherDependency']</span></code></pre>
+<p>The rest is pretty straight forward, we just grab the requested dependency by name from our <code>dependencies</code> cache and call the target function passing the requested dependencies as arguments. Lets implement the function that maps our array of dependency names to their dependencies:</p>
+<pre class="highlighted"><code class="javascript">Injector.getDependencies = <span class="keyword">function</span>(arr) {
+  <span class="keyword">var</span> self = <span class="keyword">this</span>;
+  <span class="keyword">return</span> arr.map(<span class="keyword">function</span>(dependencyName) {
+    <span class="keyword">return</span> self.dependencies[dependencyName];
+  });
+};</code></pre>
+<p>The <code>getDependencies</code> method takes the array of dependency names and maps it to a corresponding array of actual dependencies. If this map function is foreign to you check out the <a href="https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/map">Array.prototype.map documentation</a>.</p>
+<p>Now that we have implemented our dependency resolver we can head back over to our <code>process</code> method and execute the target function with it&#39;s proper dependencies.</p>
+<pre class="highlighted"><code class="javascript">target.apply(target, <span class="keyword">this</span>.getDependencies(args));</code></pre>
+<p>Pretty awesome, right?</p>
+<h3>Injector.js</h3>
+<pre class="highlighted"><code class="javascript"><span class="keyword">var</span> Injector = {
+
+    dependencies: {},
+
+    process: <span class="keyword">function</span>(target) {
+        <span class="keyword">var</span> FN_ARGS = <span class="regexp">/^function\s*[^\(]*\(\s*([^\)]*)\)/m</span>;
+        <span class="keyword">var</span> text = target.toString();
+        <span class="keyword">var</span> args = text.match(FN_ARGS)[<span class="number">1</span>].split(<span class="string">','</span>);
+
+        target.apply(target, <span class="keyword">this</span>.getDependencies(args));
+    },
+
+    getDependencies: <span class="keyword">function</span>(arr) {
+        <span class="keyword">var</span> self = <span class="keyword">this</span>;
+        <span class="keyword">return</span> arr.map(<span class="keyword">function</span>(value) {
+            <span class="keyword">return</span> self.dependencies[value];
+        });            
+    },
+
+    register: <span class="keyword">function</span>(name, dependency) {
+        <span class="keyword">this</span>.dependencies[name] = dependency;
+    }
+
+};</code></pre>
+<h3>Example &amp; Excuses</h3>
+<p>You can see the functioning injector we created in this <a href="http://jsfiddle.net/nMK6j/">example</a> on jsFiddle.</p>
+<iframe style="width: 578px; height: 500px" src="http://jsfiddle.net/nMK6j/1/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+<p>This contrived example is not something you would use in an actual codebase it was simply created to demonstrate the rich functionality JavaScript provides and to explain how AngularJS provides dependency injection. If this interests you I highly recommend reviewing their code further. It&#39;s important to note this approach is not novel. Other projects use toString to preprocess code, for example <a href="http://requirejs.org">Require.js</a> uses a similar approach to parse and transpile CommonJS style modules to AMD style modules.</p>
+<p>I hope you found this article enlightening and continue to explore dependency injection and how it applies to the client side world. </p>
+<p>I really think there is something special brewing here.</p>
+
+      </section>
+    </div>
+  </div>
+</article>
+  </div>
+  <div class="inside">
+    <div class="footer keyline-top">
+      &copy; 2013 Merrick Christensen
+    </div>
+  </div>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-789051-12']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+</body>
+</html>

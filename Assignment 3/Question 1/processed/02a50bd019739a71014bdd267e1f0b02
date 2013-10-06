@@ -1,0 +1,1312 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+
+<title>Safari on iOS 7 and HTML5: problems, changes and new APIs | Breaking the Mobile Web</title>
+
+<script type="text/javascript" src="http://www.mobilexweb.com/wp-content/themes/fusion/js/jquery-1.2.6.pack.js"></script>
+<script type="text/javascript" src="http://www.mobilexweb.com/wp-content/themes/fusion/js/fusion.js"></script>
+
+<link rel="stylesheet" href="http://www.mobilexweb.com/wp-content/themes/fusion/style.css" type="text/css" media="screen" />
+
+<link rel="icon" href="/favicon.png">
+<link rel="shortcut icon" href="/favicon.ico">
+
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="http://www.mobilexweb.com/wp-content/themes/fusion/ie6.css"" type="text/css" media="screen" />
+<![endif]-->
+
+<!--[if IE 7]>
+<link rel="stylesheet" href="http://www.mobilexweb.com/wp-content/themes/fusion/ie7.css"" type="text/css" media="screen" />
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="Breaking the Mobile Web RSS Feed" href="http://www.mobilexweb.com/feed" />
+<link rel="alternate" type="application/atom+xml" title="Breaking the Mobile Web Atom Feed" href="http://www.mobilexweb.com/feed/atom" />
+<link rel="pingback" href="http://www.mobilexweb.com/xmlrpc.php" />
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Breaking the Mobile Web &raquo; Safari on iOS 7 and HTML5: problems, changes and new APIs Comments Feed" href="http://www.mobilexweb.com/blog/safari-ios7-html5-problems-apis-review/feed" />
+<link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='http://www.mobilexweb.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.4' type='text/css' media='all' />
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script><script type='text/javascript' src='http://www.mobilexweb.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://www.mobilexweb.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.mobilexweb.com/wp-includes/js/comment-reply.min.js?ver=3.6.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.mobilexweb.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.mobilexweb.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Android and the eternal dying mobile browser' href='http://www.mobilexweb.com/blog/android-browser-eternal-dying' />
+<meta name="generator" content="WordPress 3.6.1" />
+<link rel='shortlink' href='http://www.mobilexweb.com/?p=263' />
+
+<script type="text/javascript"><!--
+var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:false,script_load:function(){var a=document.createElement('script'),s=document.getElementsByTagName('script')[0];a.type='text/javascript';a.async=true;a.src='http://static.addtoany.com/menu/page.js';s.parentNode.insertBefore(a,s);wpa2a.script_load=function(){};},script_onready:function(){if(a2a.type=='page'){wpa2a.script_ready=true;if(wpa2a.html_done)wpa2a.init();}},init:function(){for(var i=0,el,target,targets=wpa2a.targets,length=targets.length;i<length;i++){el=document.getElementById('wpa2a_'+(i+1));target=targets[i];a2a_config.linkname=target.title;a2a_config.linkurl=target.url;if(el)a2a.init('page',{target:el});wpa2a.done=true;}}};a2a_config.tracking_callback=['ready',wpa2a.script_onready];
+//--></script>
+
+<!-- All in One SEO Pack 2.0.2 by Michael Torbert of Semper Fi Web Design[414,511] -->
+<meta name="keywords" content="ios,ios7,safari" />
+
+<link rel="canonical" href="http://www.mobilexweb.com/blog/safari-ios7-html5-problems-apis-review" />
+<!-- /all in one seo pack -->
+<!--[if IE]>
+<style type="text/css">
+.addtoany_list a img{filter:alpha(opacity=70)}
+.addtoany_list a:hover img,.addtoany_list a.addtoany_share_save img{filter:alpha(opacity=100)}
+</style>
+<![endif]-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-100317-15']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+  <!-- page wrappers (100% width) -->
+  <div id="page-wrap1">
+    <div id="page-wrap2">
+      <!-- page (actual site content, custom width) -->
+      <div id="page">
+
+        <!-- main wrapper (big left column) -->
+        <div id="main-wrap">
+          <!-- main (container) -->
+          <div id="main" class="with-sidebar">
+            <!-- header -->
+            <div id="header">
+
+              <div id="topnav" class="description"> Techniques and best practices for delivering the best experience for each mobile device using HTML5</div>
+              <h1 id="title"><a href="http://www.mobilexweb.com/">Breaking the Mobile Web</a></h1>
+
+
+              <!-- top tab navigation -->
+              <div id="tabs">
+              <ul>
+              <li class=""><a href="http://www.mobilexweb.com"><span><span>Blog</span></span></a></li>
+              <li class="page_item page-item-49"><a href="http://www.mobilexweb.com/emulators"><span><span>Mobile Emulators</span></span></a></li>
+<li class="page_item page-item-120"><a href="http://www.mobilexweb.com/mobile-html5"><span><span>Mobile HTML5</span></span></a></li>
+<li class="page_item page-item-3"><a href="http://www.mobilexweb.com/book"><span><span>My Books</span></span></a></li>
+<li class="page_item page-item-41"><a href="http://www.mobilexweb.com/contact-me"><span><span>Contact me</span></span></a></li>
+               </ul>
+              </div>
+              <!-- /top tabs -->
+
+            </div><!-- /header -->
+
+<style media="only screen and (max-device-width: 480px)">
+ 
+   #sidebar {
+       xdisplay: none;
+       position: relative;
+   }
+
+</style>
+
+<style media="only screen and (max-device-width: 768px)">
+ 
+   #sidebar {
+       xdisplay: none;
+       position: relative;
+   }
+
+</style>
+
+<!-- main content -->
+<div id="main-content">
+
+	
+		<div class="navigation">
+			<div class="alignleft">&laquo; <a href="http://www.mobilexweb.com/blog/android-browser-eternal-dying" rel="prev">Android and the eternal dying mobile browser</a></div>
+			<div class="alignright"></div>
+            <br clear="all" />
+		</div>
+
+		<div class="post-263 post type-post status-publish format-standard hentry category-general category-new-devices tag-ios tag-ios7 tag-safari" id="post-263">
+			<h2>Safari on iOS 7 and HTML5: problems, changes and new APIs</h2>
+
+			<div class="entry">
+				
+	<div style="float: right; margin: 10px">
+		<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-text="Safari on iOS 7 and HTML5: problems, changes and new APIs - Breaking the Mobile Web" data-url="http://www.mobilexweb.com/blog/safari-ios7-html5-problems-apis-review"  data-via="mobilexweb @firt" data-related="firt:Blog\\\\\\\\\\\\\\\'s author">Tweet</a>
+	</div>
+	<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script><div class='wdgpo wdgpo_standard_count'><g:plusone size='standard' count='true' href='http://www.mobilexweb.com/blog/safari-ios7-html5-problems-apis-review' ></g:plusone></div> <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.mobilexweb.com%2Fblog%2Fsafari-ios7-html5-problems-apis-review&amp;layout=standard&amp;show_faces=true&amp;width=450&amp;height=25&amp;action=like&amp;font=lucida grande&amp;colorscheme=light"  id="fbLikeIframe" name="fbLikeIframe"  scrolling="no" frameborder="0" allowTransparency="true"  class="fbLikeContainer"  style="border:none; overflow:hidden; width:450px; height:25px; display:inline;"  ></iframe><p><img class="alignleft  wp-image-235" style="margin-right: 10px;" alt="Safari on iOS 7" src="http://www.mobilexweb.com/wp-content/uploads/2013/06/safari.png" width="106" height="127" />Apple has rolled out iOS 7 and in a few days the new devices iPhone 5S and iPhone 5C . As expected Apple has publish just 10% of the necessary information for web developers and I can say without fear of mistake that this is <strong>the buggiest Safari version </strong>since 1.0. In this post I&#8217;ll show you the new APIs and abilities and most of the  problems that you will need to deal with right now if you have a website or a webapp.<span id="more-263"></span></p>
+<h3>In a nutshell</h3>
+<p>Don&#8217;t have time for reading the long post?</p>
+<ul>
+<li><strong>UI Changes</strong>: toolbar tint, problems with new full-screen navigation, new home screen icon sizes; no &lt;title&gt; usage on iPhone; possible conflicts with new gestures.</li>
+<li><strong>New devices:</strong> nothing new about them for web developers, same as iPhone 5.</li>
+<li><strong>HTML5 markup</strong>: video tracks, &lt;progress&gt;, REMOVED support for <em>input type=datetime  </em></li>
+<li><strong>HTML5 APIs</strong>: Page Visibility, AirPlay API, canvas enhancements, REMOVED support for Shared Workers, Web Speech Synthesis API, unprefixed Web Audio and Animation Timing, Mutation Observer and other minor additions. BIG PROBLEM with WebSQL using more than 5Mb.</li>
+<li><strong>CSS</strong>: Regions, Sticky position, FlexBox, ClipPath, unprefixed Transitions and other enhancements</li>
+<li><strong>Home Screen webapps:</strong> SEVERAL SEVERE PROBLEMS (for example, no <em>alert</em> support!)</li>
+<li><strong>Native webapps</strong>: Web View Pagination, JavaScript runtime for native apps and video playing new abilities</li>
+</ul>
+<p>&nbsp;</p>
+<h3>The new browser</h3>
+<p>Safari, as well as other native apps, has received the biggest update in the user interface and experience since version 1.0. These changes will affect how users interact with websites and how your webapp will react.</p>
+<p id="tint">
+<h4>Toolbars&#8217; tint</h4>
+<p>Safari will now tint the toolbars (URL bar and bottom toolbar on iPhone) based on: a) the background color when loading the page and b) the current main color behind the bars while scrolling.</p>
+<p>If you want to &#8220;hack&#8221; the initial tint and have different backgrounds for the body and the tint without adding noise to the HTML (such as new containers) just use the following CSS hack:</p>
+<p><code>body {<br />
+background-color: blue; /* for the tint */<br />
+background-image: linear-gradient(to bottom, green 0%, green 100%); /* for the body */<br />
+}</code></p>
+<p>In this hack we define both background color and image; the content will use the image, in this case a gradient (it can also be a data URI 1px image). In the next examples, you can see the first two samples with the same color (just a background) and the last examples with one tint color and other background color for the body.</p>
+<p><a href="http://www.mobilexweb.com/wp-content/uploads/2013/09/tint.png"><img class="alignnone  wp-image-286" alt="tint" src="http://www.mobilexweb.com/wp-content/uploads/2013/09/tint.png" width="100%" /></a></p>
+<p>&nbsp;</p>
+<h4>Full screen and big problems for HTML5 apps and games</h4>
+<p>Web browsing is now always in full screen on iPhone and iPod touch. When the user scrolls the page in portrait orientation, the bottom toolbar will disappear and the URL bar is transformed to a small semi- transparent bar at the top. On landscape, after the user scrolls the page the bottom toolbar and the Host domain bar will both disappear, leaving it in complete full-mode.</p>
+<p>The toolbar and full URL bar will appear again when: 1) the user taps on the domain host at the top or 2) the user starts to scroll back to the top.</p>
+<p>The next picture shows how the UI changes before and after scrolling in landscape and portrait mode:</p>
+<p><img class="alignnone  wp-image-269" alt="fullscreen2" src="http://www.mobilexweb.com/wp-content/uploads/2013/09/fullscreen2.png" width="100%" /></p>
+<p>&nbsp;</p>
+<p>The problems are:</p>
+<ul>
+<li>The resize event is not firing anymore when the toolbar is appearing/disappearing</li>
+<li>We can&#8217;t detect changes with JavaScript or media queries</li>
+<li>The old hack of using <em>window.scrollTo</em> to hide the URL bar doesn&#8217;t work anymore; therefore there is no way to hide the URL bar or toolbar without user&#8217;s intervention scrolling the page.</li>
+<li>If you are not using a natural scroll, you will have problems (detailed below).</li>
+<li>UPDATE 19/9: The bottom part of the canvas is not interactive anymore (details later)</li>
+</ul>
+<p>If you are using a &#8220;non natural&#8221; scrolling layout, such as iframes, sections with <em>overflow:scroll</em> or a JavaScript-based scrolling mechanism, <strong>toolbars will never hide</strong>. And even more problematic, if somehow the user gets into fullscreen mode he will not be able to go back again to normal mode. As an example, see the Twitter website (using <em>overflow: scroll</em>) on landscape mode where your scrolling area is less than 50% of the screen and toolbars never go away.</p>
+<p><a href="http://www.mobilexweb.com/wp-content/uploads/2013/09/twitter.png"><img class="alignnone  wp-image-270" alt="twitter" src="http://www.mobilexweb.com/wp-content/uploads/2013/09/twitter-300x171.png" width="60%" /></a></p>
+<p>To be honest, if you go portrait and then landscape again, sometimes, you will get full-screen without scrolling, but you can&#8217;t get out of it. You need to test it to get the idea of the problem.</p>
+<p>Scrolling back to restore toolbars are making things complicate to HTML5 games also. Because this post has started in the Apple Forum while in Beta 1, lot of people were complaining about this problem, such as:</p>
+<ul>
+<li><strong>Richard Davey</strong>: &#8220;This is actually a real issue for us. It has broken the display of all of our games on the BBC site (try anything on <a href="http://www.bbc.co.uk/cbeebies/">http://www.bbc.co.uk/cbeebies/</a> for example). With the removal of the full-screen button and the removal of this &#8216;hack&#8217; we&#8217;ve no way to make our games go full screen. So they are crammed into a tiny window in the middle of the browser on iPhones. (&#8230;) When you enter a page in landscape mode, only 2/3rd&#8217;s of the screen area is available. Controls cover a full 1/3rd of the screen.(&#8230;)</li>
+<li><strong>TheFlashGuy</strong>: &#8220;We need more control over the appearance / disappearance of the browser bars when in landscape mode. It&#8217;s far too easy for a user to break out of this mode just by touching the top or bottom of the screen. This breaks a lot of websites and web apps whose major ui nav elements tend to sit in the top or bottom of the content area&#8221;</li>
+</ul>
+<blockquote><p>There is no way to have a truly fullscreen experience on your website. This was one of the wonderful aspects of iOS 6, and losing it is a major step backwards. Richard Davey.</p></blockquote>
+<p>&nbsp;</p>
+<p><img class=" wp-image-267" alt="" src="http://www.mobilexweb.com/wp-content/uploads/2013/09/catchme.png" width="100%" /></p>
+<p>&nbsp;</p>
+<h3>Bottom toolbars and interactive elements (update 19/9)</h3>
+<p>When in fullscreen mode, the bottom portion of the page is not interactive anymore. This problem affects any toolbar, link or form item that is in the bottom part of the viewport while in fullscreen mode (after scroll). For example, fixed toolbars at the bottom are one example.</p>
+<p>When you click on that portion of the viewport, it doesn&#8217;t matter where do you click, it will just fire the full-screen dismiss action. Therefore, Safari toolbars will appear and you will need to tap again on the interactive item to activate it. Therefore, two taps for action a button for example. To test it <a href="http://view.jquerymobile.com/master/demos/widgets/fixed-toolbars/footer-persist-a.php" target="_blank">go here</a>, scroll and try to click on the bottom toolbar.</p>
+<p>For example, if you try to click Albums in the next image, it will just open the Safari toolbar and you need to click Albums again to go there.</p>
+<p><img class="alignnone  wp-image-285" style="border: 1px solid black;" alt="bottom-toolbar" src="http://www.mobilexweb.com/wp-content/uploads/2013/09/bottom-toolbar.png" width="269" height="477" /></p>
+<h4>Title</h4>
+<p>The next big change in Safari&#8217;s UI on iPhone is the title&#8217;s area. The page&#8217;s title on iPhone was replaced by the current host (the domain) as you can see in next image. The page&#8217;s title is only available when browsing tabs on iPhone.</p>
+<p><img class=" wp-image-264 " alt="" src="http://www.mobilexweb.com/wp-content/uploads/2013/09/page-title.png" width="100%" /></p>
+<blockquote><p>On iPhone with iOS 7 your page&#8217;s &lt;title&gt; will be ignored while the user is browsing the document</p></blockquote>
+<p>On iPad there is no fullscreen mode; the toolbar and title&#8217;s bar is always visible.</p>
+<h4>New Add to Home button</h4>
+<p><img alt="iOS 7 has changed the Share icon and it has a new Add to Home Screen button." src="http://www.mobilexweb.com/wp-content/uploads/2013/06/share.png" width="507" height="124" /><br />
+The whole UI has changed, including new icons replacing the<strong> Share icon</strong> with a new style, so every website that is inviting the user to add it to bookmarks or to the Home Screen need to update the icon.</p>
+<h4>Gestures</h4>
+<p>The operating system and Safari itself now offer new gestures that might impact your website, mostly if you are detecting gestures yourself.</p>
+<p>A) <strong>Control Center:</strong> it appears when you swipe up from the bottom of the screen. In this version, because of the full screen, the bottom of the screen might be part of your website and not the Safari toolbar. Therefore, <strong>be careful when suggesting the user to do a swipe up from the bottom of the canvas.</strong></p>
+<p>B) <strong>History Gesture:</strong> The second and probably more problematic gesture is the swipe right and left from the borders; Safari will trigger the back and forward action in the browsing history à la Internet Explorer on Windows 8 mode. This gesture might have some conflicts with your website if you are inviting users to swipe left or right without some nice margins around (but to be honest, you have the same problem right now with Chrome too).</p>
+<p>The problem is even weirder on single page webapps (inside Safari) when using the History API or using a hash hack to manage app states. When the user starts a back gesture, he will see two images of the same app, but the user will be on the same app. And when you have side-by-side scroll gestures, such as Yahoo! homepage you might have usability issues if the user starts the gesture from the border (it even trigger touch events for just a while):</p>
+<p><img class=" wp-image-271 " alt="The swipe right and left gesture from the borders will trigger a back or forward action in browser's history." src="http://www.mobilexweb.com/wp-content/uploads/2013/09/gestures.png" width="70%" /></p>
+<p>This gesture and the back animation (slide to the right) is also making conflict with some UI frameworks, such as jQuery Mobile or Sencha Touch as when the user gestures to go back, two animations will be rendered (by the browser and after that by the framework). Also, when the previous page was left at one specific scroll position, the snapshot during the slide animation is ok but then the page loads from the top, not keeping the scroll position.</p>
+<p>There is no way to prevent these gestures as they are managed by the OS or the browser itself.</p>
+<p>Hopefully, the History gestures are not available on home screen webapps or UIWebViews (such as PhoneGap apps)</p>
+<h4>Icon sizes<span style="font-size: 13px;"> </span></h4>
+<p>The new OS icons are 5% bigger in 7.0 then in previous version, for example 120×120 on Retina iPhone devices instead of the previous 114×114. System icons are also flat now and they don’t have the shiny effect anymore, so we might want to update our icons to match the new design. To do that we can use the same <em>apple-touch-icon</em> link with the new sizes values.</p>
+<p>The <em>apple-touch-icon precomposed</em> version is still supported but it will make same results as the apple-touch-icon as now there are no shiny effects anymore on icons. If we define both, the precomposed version will take precedence.</p>
+<p>Available icon sizes for iOS 7 are:</p>
+<ul>
+<li>iPhone / iPod Touch retina: <strong>120&#215;120</strong></li>
+<li>iPad non-retina (iPad 2 and iPad mini): <strong>76&#215;76</strong></li>
+<li>iPad retina: <strong>152&#215;152 </strong></li>
+</ul>
+<p>We need to remember that iOS 7 is not available for any non-retina iPhone-factor device. If we don&#8217;t provide the new sizes, the device will pick the iOS 6 related one. If you want to cover all the possible icons for iOS, the code will look like:<br />
+<code>&lt;!-- non-retina iPhone pre iOS 7 --&gt;<br />
+&lt;link rel="apple-touch-icon" href="icon57.png" sizes="57x57"&gt;<br />
+&lt;!-- non-retina iPad pre iOS 7 --&gt;<br />
+&lt;link rel="apple-touch-icon" href="icon72.png" sizes="72x72"&gt;<br />
+&lt;!-- non-retina iPad iOS 7 --&gt;<br />
+&lt;link rel="apple-touch-icon" href="icon76.png" sizes="76x76"&gt;<br />
+&lt;!-- retina iPhone pre iOS 7 --&gt;<br />
+&lt;link rel="apple-touch-icon" href="icon114.png" sizes="114x114"&gt;<br />
+&lt;!-- retina iPhone iOS 7 --&gt;<br />
+&lt;link rel="apple-touch-icon" href="icon120.png" sizes="120x120"&gt;<br />
+&lt;!-- retina iPad pre iOS 7 --&gt;<br />
+&lt;link rel="apple-touch-icon" href="icon144.png" sizes="144x144"&gt;<br />
+&lt;!-- retina iPad iOS 7 --&gt;<br />
+&lt;link rel="apple-touch-icon" href="icon152.png" sizes="152x152"&gt;</code></p>
+<h4>Bookmarks and Favorites</h4>
+<p>While on bookmarks there are new icons available (see left image below), it seems there is no way to define those icons specifically yet, as well as the text.</p>
+<p>For the favorites (see right image below) that appear when you click on the URL bar, it seems to use the apple-touch-icon link but it doesn&#8217;t follow any sizes rule and I&#8217;ve found weird situations, such as some websites with a proper link element that is not taking the icon for favorites. XXXX</p>
+<p><img class="alignnone size-full wp-image-277" alt="favorites2" src="http://www.mobilexweb.com/wp-content/uploads/2013/09/favorites2.png" width="449" height="398" /></p>
+<h3>The new devices</h3>
+<p>In a few days, the iPhone 5S and the iPhone 5C will be available on the market and the good news is that from a web development perspective they are exactly the same as the iPhone 5. Same screen size, same pixel density, same abilities. They may be faster, but nothing to worry about from a coding perspective.</p>
+<p>The new Touch ID feature (fingerprint scanner) is not available to web sites yet and the 64-bit CPU will not change anything from a JavaScript developer&#8217;s perspective. Having said that, on the iOS Simulator now you have the ability to emulate a 64-bit CPU.</p>
+<h3>HTML5 markup support</h3>
+<h4>Video tracks</h4>
+<p>The video HTML5 element now supports the <strong>track</strong> child for subtitles and/or closed captions. We can support multiple languages and they will appear in a picker inside the video player. The user can change the language and/or disable the captions from the track picker.</p>
+<p><img class="alignnone size-full wp-image-272" alt="cc1" src="http://www.mobilexweb.com/wp-content/uploads/2013/09/cc1.png" width="450" height="300" /></p>
+<p>For all the possible track types (<em>kind</em> attribute), it supports only <em>captions</em> and <em>subtitles</em> and we have to define the language in the <em>srclang</em> attribute in <a href="http://en.wikipedia.org/wiki/ISO_639-1" target="_blank">ISO format</a> (such as en for English). Subtitles are useful when the user can hear the audio but she/he doesn&#8217;t understand the language and captions are for when the user can&#8217;t hear the audio, so it includes additional information about what is happening (such as &#8216;background musing playing&#8217;).</p>
+<p><img class="size-full wp-image-273 alignnone" style="margin-top: 10px; margin-bottom: 10px;" alt="cc2ch" src="http://www.mobilexweb.com/wp-content/uploads/2013/09/cc2ch.png" width="300" height="450" /></p>
+<p>Defining the <em>label</em> attribute for track is worthless because on iOS it will be ignored and the language name will be used instead for the menu with an optional CC suffix if we are using captions instead of subtitles as the kind value.</p>
+<p><code> &lt;video&gt;<br />
+&lt;source src="myvideo.mp4"&gt;<br />
+&lt;track kind="captions" src="my-captions-en.vtt" srclang="en"&gt;<br />
+&lt;track kind="subtitles" src="my-captions-fr.vtt" srclang="fr"&gt;<br />
+&lt;/video&gt;<br />
+</code></p>
+<p>Tracks can be accessed through a JavaScript API and we can use it to loop through all the cues on the track file. That might be useful only on iPad where we can truly embed the video in the web canvas instead of a always fullscreen mode on iPhone.</p>
+<p>Track elements should follow cross-domain policies, as by default, the video and track origins must be the same. Using JavaScript we can detect if tracks are available using webkitHasClosedCaptions as in</p>
+<p><code>var hasCC = document.querySelector("video").webkitHasClosedCaptions;</code></p>
+<p>We can also change captions visibility using <em>webkitClosedCaptionsVisible</em> boolean property of every video element.</p>
+<h5>Styling captions</h5>
+<p>From a CSS perspective, iOS 7 supports the new <em>::cue</em> pseudo-element but we can only change <em>text-shadow</em>, <em>opacity</em> and <em>outline</em>. All other properties, such as color and font styles are ignored.</p>
+<p><code>::cue { opacity: 0.8 }</code></p>
+<p>More about the <a href="http://www.html5rocks.com/en/tutorials/track/basics/" target="_blank">Track element and API</a> (have in mind that not all the API might work on Safari).</p>
+<h4>Progress and output elements</h4>
+<p>The &lt;<strong>progress&gt;</strong> element is now supported, creating a progress bar on the screen based on max and value. There is no indeterminate progress support as in other browsers, so it&#8217;s only suitable when we know the determinate value of the activity&#8217;s progression.</p>
+<p><code>&lt;progress max="100" value="40"&gt;</code></p>
+<p>The <strong>&lt;output&gt;</strong> element is now supported but I don&#8217;t think you will be so excited about it :).</p>
+<p>About<strong> &lt;meter&gt;</strong> it seems to be supported, all the content is ignored but nothing is rendered on the screen, so I think it&#8217;s a bug.</p>
+<h4>REMOVED: Datetime input type</h4>
+<p>Following Google Chrome, now Safari on iOS <b>doesn&#8217;t support the datetime input type anymore</b> and it will fallback to text. This type was deprecated in the standard in favor of using two inputs, date and time for the same purpose. The problem is that datetime was compatible with iOS from version 5.0 to 6.1; if you are using it, be careful!</p>
+<p>The week input type is still not available, but now instead of falling back to a text input type, it&#8217;s rendered a non-interactive control</p>
+<p><img class="alignnone  wp-image-274" alt="datetime" src="http://www.mobilexweb.com/wp-content/uploads/2013/09/datetime.png" width="70%" /></p>
+<blockquote><p> If you are using a input type=&#8221;datetime&#8221; you should act immediately as it is now rendered as a text input type.</p></blockquote>
+<h4>Seamless iframe</h4>
+<p>The new boolean <em>seamless</em> attribute for iframes is now available on iOS 7 that will create a borderless iframe in your website. The iframe will not have scrollbars and, by default, it will get the height of the inner content appearing in the website as using the space of any other block element in the DOM.</p>
+<p><code>&lt;iframe seamless src="mypage.html"&gt;&lt;/iframe&gt;</code></p>
+<h3>HTML5 JavaScript APIs</h3>
+<p>Let&#8217;s start with bad news: <strong>no WebGL, FullScreen, WebRTC, getUserMedia or IndexedDB support yet</strong>.</p>
+<p>In terms of new APIs available we have:</p>
+<ul>
+<li>Page Visibility API</li>
+<li>XHR 2.0 full implementation</li>
+<li>Video tracks API (already covered)</li>
+<li>AirPlay API</li>
+<li>CSS Regions API</li>
+<li>Canvas enhancements</li>
+<li>Removed support for Shared Workers</li>
+<li>WebSpeech Synthesis API</li>
+</ul>
+<p>Page Visibility is the API -webkit-prefixed on iOS 7- to detect when our tab goes foreground and background. You can try a <a href="http://mobilexweb.com/ts/api/page.html" target="_blank">live demo here</a>. XMLHttpRequest 2.0 spec fully compatible means that now we can request &#8216;blob&#8217; as a response. The Video tracks API was already covered quickly and it allow us to query and navigate through all the tracks and contents on any media element.</p>
+<p>The CSS regions API appears as part of the CSS Regions spec (covered later) and is basically the prefixed <em>webkitGetFlowByName</em> function available on every DOM element.</p>
+<p>About the Canvas 2D Drawing API, we have now the <em>globalCompositeOperation</em> attribute on the canvas context that allows us to define the blending mode (such as multiply) when drawing different a layer on top of other. We also have a new <em>Path</em> constructor that we can then draw on the canvas&#8217; context allowing us to store these paths for later usage instead of drawing them directly on the canvas.</p>
+<h4>AirPlay API</h4>
+<p>The AirPlay API needs some explanation. AirPlay is the wireless streaming solution from Apple that allows some devices to stream content to different other devices, for now usually an Apple TV. While Safari already supported<em> x-webkit-airplay</em> HTML attribute to define if we want AirPlay or not, we couldn&#8217;t customize the experience from HTML5 before.</p>
+<p>The API allows us to customize the player and get information and events about streaming through AirPlay. Every video element has the <em>eventswebkitplaybacktargetavailabilitychanged</em> and <em>webkitcurrentplaybacktargetiswirelesschanged</em>. They remind us how terrible is the idea of not using underscores, camel case or other technique for event names convention in JavaScript :S. The first event will fire when there is a new AirPlay target -such as an Apple TV- available or it&#8217;s not available anymore; and the second when the playback status on one target has changed.</p>
+<blockquote><p>I think <em><strong>webkitcurrentplaybacktargetiswirelesschanged</strong></em> has won the record: the longest JavaScript event name ever.</p></blockquote>
+<p>If there is a streaming target available, we can then offer the user a button to pick the target calling the video <em>webkitShowPlaybackTargetPicker</em> function.</p>
+<p>While there is no official documentation on this API yet, you can check the video  <a href="https://developer.apple.com/wwdc/videos/index.php?id=600" target="_blank">&#8216;What’s New in Safari and WebKit for Web Developers&#8217;</a>  from the WWDC session where they covered this topic.</p>
+<h4>Background execution</h4>
+<p>Now we have several use cases for background execution:</p>
+<ul>
+<li>If the user is changing tab (Tab selection screen), your code is still executing but the image is frozen</li>
+<li>If the user is changing apps (multitasking mode), your code is still executing and the image is updated</li>
+<li>If Safari is in foreground but your website is in a background tab, your code is frozen and Safari has a snapshot of your last execution for UI purposes</li>
+<li>If Safari is in background your code is frozen</li>
+</ul>
+<h4>WebSpeech Synthesis API</h4>
+<p><em>UPDATE 19/9: I could make this API work, so it is officially supported and working.</em></p>
+<p>The WebSpeech API allow the website to record and transcript audio, as well as synthesize text to voice using internal voices in the operating system.</p>
+<p>Safari on iOS 7 includes just the Synthesis API (text to speech) but not the APIs for listening for audio from the microphone. You can query on all the available voices to speak in different languages and on a real device it is returning 36 voices (sometimes you refresh the page and you get 0, a bug I think) using <em>speechSynthesis.getVoices(). </em>In terms of English, you have female voice using <em>en-US</em> and male voice using <em>en-GB</em>. I&#8217;m not an expert in voice recognition but I feel that the voices in this API are not the same as Siri that sounds much natural in iOS 7.</p>
+<p>To make JavaScript to speak from your website you can use a shortcut version in the default language or you can define different properties as the following examples:</p>
+<p><code>speechSynthesis.speak(new SpeechSynthesisUtterance("Hello, this is my voice on a webpage"));</code></p>
+<p><code>var speech = new SpeechSynthesisUtterance();<br />
+speech.text = "Hello";<br />
+speech.volume = 1; // 0 to 1<br />
+speech.rate = 1; // 0.1 to 9<br />
+speech.pitch = 1; // 0 to 2, 1=normal<br />
+speech.lang = "en-US";<br />
+speechSynthesis.speak(speech);<br />
+</code></p>
+<p>From the <i>SpeechSynthesisUtterance</i> object we can also bind to some events, such as <i>start</i> and <i>end </i>but please don&#8217;t use alert inside those events or your whole Safari will freeze (don&#8217;t ask me why).</p>
+<p>The speakable string can be just plain text. While the standard supports also an XML document in <a href="http://www.w3.org/TR/speech-synthesis/" target="_blank">SSML format (Speech Synthesis Markup Language)</a> for input, Safari on iOS is just reading the XML :).</p>
+<p>It&#8217;s important to keep in mind that<strong> the Speech Synthesis API works only after a user&#8217;s explicit action</strong>, such as clicking on a button so you can&#8217;t initiate a speech on the onload or on a time-base. Try this <a href="ad.ag/jmawam" target="_blank">online demo browsing to ad.ag/jmawam on your iOS7 device</a></p>
+<h4>Other changes</h4>
+<ul>
+<li>MutationObserver</li>
+<li>Unprefixed Animation Timing API (also known as requestAnimationFrame)</li>
+<li>Unprefixed <em>transitionend</em> event name</li>
+<li>Unprefixed URL</li>
+<li>Unprefixed WebAudio API and new advanced abilities</li>
+<li>New DOM properties <em>hidden</em> and <em>visibilityState</em></li>
+<li>window.doNotTrack support</li>
+</ul>
+<h4>WebSQL bug</h4>
+<ul>
+<li>Using <strong>WebSQL API</strong> will have big issues (DOMException) while trying to create a database bigger than 5Mb. On previous versions, the limit was 50Mb with user&#8217;s permission. Because of a bug, when you try to store more than 5Mb the user will get a permission dialog but just for 5Mb only. Even if the user grants you permission because it&#8217;s for 5Mb only, you will get an exception trying to get more. <span style="color: #ff0000;">It&#8217;s a BIG BUG</span>.</li>
+</ul>
+<p><b>Update 19/9:</b> According to tarobomb from New York Times, if you request less than 5Mb when you first create the database and then you try to store more data (up to 50Mb) the proper confirmation dialog will appear (first 10Mb, then 25Mb and finally 50Mb) and you will finally be able to store more than 5Mb.</p>
+<h3>CSS Support</h3>
+<p>In terms of new specs supported (mostly webkit prefixed) we have:</p>
+<ul>
+<li>Sticky Position</li>
+<li>CSS Regions</li>
+<li>CSS Grid Layout (not working)</li>
+<li>CSS FlexBox</li>
+<li>Dynamic Font types</li>
+</ul>
+<h4>Sticky position</h4>
+<p>Sticky position is a new experimental feature that allow us to fix an element to the viewport but only when it&#8217;s off the visible area (usually after a scrolling action). It&#8217;s like mixing position: static with position: fixed when the static position moves the element outside of the visible viewport. If you have more than one sticky element, they will all accumulate in the same area -defining same position properties- creating a nice effect while scrolling similar to native UITableView sections.</p>
+<p>UPDATE 19/9: Some <a href="https://twitter.com/zachleat/status/362588551847755776" target="_blank">reports</a> indicate that this feature was available on 6.1 as well (but the community didn&#8217;t get it so I&#8217;ll keep it here).</p>
+<p><code>h1 { position: -webkit-sticky;   top: 10px; }</code></p>
+<p>You can<a href="http://html5-demos.appspot.com/static/css/sticky.html" target="_blank"> try a demo</a>.</p>
+<p><img alt="sticky" src="http://www.mobilexweb.com/wp-content/uploads/2013/09/sticky1.png" width="100%" /></p>
+<h4>CSS Regions</h4>
+<p>With <a href="http://dev.w3.org/csswg/css-regions/" target="_blank">CSS Regions</a> -spec proposed by Adobe- we can create magazine-like designs to flow content through different containers. Because of the nature of the screen size we&#8217;ll use this new flow mechanism more on iPad websites and webapps.</p>
+<p>Selecting content flowing into different regions is not allowed on iOS. CSS Exclusions, a way to define shapes for regions, usually coming as a Regions companion, is not available yet.</p>
+<p>You can try some <a href="http://codepen.io/collection/jabto" target="_blank">online demos</a></p>
+<h4>CSS Grid Layout</h4>
+<p><a href="http://dev.w3.org/csswg/css-grid/" target="_blank">CSS Grid Layout</a> is other layout new spec from the W3C (proposed by Microsoft and already available in IE10). All the new CSS properties (-webkit-grid-X) are there available but I couldn&#8217;t enable using display: grid or display: -webkit-grid. I&#8217;m not sure if there is a different way to enable it or is it that it&#8217;s not ready yet.</p>
+<h4>CSS FlexBox</h4>
+<p>The final spec for CSS FlexBox is finally here and it allow us to stop insulting floats and clear everywhere to layout elements horizontally and/or vertically. To use it we should use <em>display: -webkit-flex</em> to a container and apply different properties available</p>
+<h4>Dynamic Fonts</h4>
+<p>Dynamic fonts are a new font type available in iOS 7 that adjusts weight, letter-spacing and leading based on current font size to improve legibility. We can take advantage of this new feature from HTML, using new -apple- prefixed constants (maybe because webkit is not going to use prefixes in the future?). We have a big list of constant, such as <em>-apple-system-headline1</em>, <em>-apple-system-body</em> and <em>-apple-system-caption1</em>.</p>
+<p><code>h1 { font: -apple-system-headline1 }<br />
+p { font: -apple-system-body }</code></p>
+<h4>Other CSS improvements</h4>
+<p>There is no good news for media queries as <em>resolution</em> attribute is still not supported. Well, there is something new, such as the ability to query on <em>min-color-index</em> and <em>max-color-index</em> that is completely useless :)</p>
+<p>We also have some minor updates, including:</p>
+<ul>
+<li>Unprefixed CSS Transitions (and the <em>transitionend</em> event).</li>
+<li>CSS Clip Path to clip contents based on shapes, including circle, rectangles and polygons</li>
+<li>Kerning and Ligatures on fonts are enabled by default</li>
+<li>Background properties now gets more compatibility with different values</li>
+<li><em>box-decoration-break: slice/clone</em></li>
+<li><em>tab-size</em> style</li>
+<li>overflow-wrap: normal/hypernate/break-word</li>
+<li>support for the units <em>ch</em> and <em>vmax</em></li>
+<li><em>mask-type: alpha</em></li>
+<li>new <em>::cue</em> pseudo-element already covered in the video track section</li>
+<li>New <em>-webkit-background-composite</em> property (but I couldn&#8217;t make it work)</li>
+</ul>
+<h3>Home-screen webapps</h3>
+<blockquote><p>If you are using Home Screen webapps, I have bad news for you: too many bugs are around this platform in this version.</p></blockquote>
+<p>The only good news is now it seems we don&#8217;t have any limits for WebSQL Storage when in full screen; we don&#8217;t need user&#8217;s permission.</p>
+<h5>Big issues</h5>
+<p>There are some big issues on home-screen webapps:</p>
+<ul>
+<li><strong>Standard dialogs are not working at all</strong>, such as <em>alert</em>, <em>confirm</em> or <em>prompt</em>.</li>
+<li><strong>Webapps can&#8217;t open an external URI</strong>, such as a website in Safari, make a call, open AppStore, etc. Any URI is just ignored.</li>
+<li><strong>If you install more than 4 apps, the home screen will do strange things</strong>, such as replacing one webapp with another one. You will start seeing clones of the same webapp. The same happens when you open different webapps at the same time. Just try it on your device: go to <em>app.ft.com</em>, install the webapp; go to <em>pattern.dk/sun</em>, install the webapp; repeat the operation several times and you will see the mess on your home screen. Restarting the device seems to solve the problem.</li>
+<li>When in portrait mode and a text input, a select or a date picker is in focus, media queries will honor <em>orientation: landscape</em> and the resize event will fire. This behavior (bug?) happens on home screen webapps and Web Views, but not on Safari.</li>
+<li><b>UPDATE 19/9</b>: If you are using Application Cache and also managing states through hash or other technique, the history object will not keep your navigation history, therefore <em>history.back()</em> will never work and <em>history.length</em> stays in 1 forever. <em>(Thanks to 10+ people who reported this problem!)</em></li>
+<li><strong>UPDATE 19/9</strong>: Cookies are not transferred between your website and your webapp when installing the icon on the home screen (for authentication purposes for example). It was working until 6.1 and now it&#8217;s not working anymore. <em>(Thanks Joseph Pearson for reporting this; a <a href="http://test.monoclejs.com/test/bugs/ios-cookies/" target="_blank">test suite </a>here.)</em></li>
+</ul>
+<h4>Status bar</h4>
+<p>If you don&#8217;t provide any <i>apple-mobile-web-app-status-bar-style</i> meta tag or if you provide one with the <i>default</i> value, the status bar will become black over black, so&#8230; just a black area on the screen (on some devices you will see just the battery icon). The user will not see the clock and all the other icons on the status bar.</p>
+<p>The black value works ok but it&#8217;s not in full mode as in iOS 7 new style. Lastly, If you are defining the <i>apple-mobile-web-app-status-bar-style</i> as <i>black-translucent</i> it&#8217;s not black-based anymore, it&#8217;s just fully transparent following the new iOS full-screen mode for apps (previous image, at the right). Unfortunately it seems there is no way to define if our background is clear or dark so we need to test how the icons and clock look like over our background. UPDATE: The text seems to be always white.</p>
+<p>In the next picture you can see the default status bar, the <i>black</i> value and the <i>black-translucent</i> value in action on iOS7. <img class="alignnone  wp-image-278" alt="statusbar2" src="http://www.mobilexweb.com/wp-content/uploads/2013/09/statusbar2.png" width="100%" /></p>
+<p>&nbsp;</p>
+<h4>Launch image and multitasking</h4>
+<p>For the new multitasking system, when having a home screen webapp, the system is using a white image, not the launch image and not the current status of the app for the preview. The only exception is when the webapp is still the active app where you see the right snapshot. In the next example, we can see the Financial Times webapp with a white snapshot even with a correct Launch image and an active execution.</p>
+<p><img class="alignnone  wp-image-280" alt="multitask" src="http://www.mobilexweb.com/wp-content/uploads/2013/09/multitask.png" width="215" height="383" /></p>
+<p>Luckily we don&#8217;t have the iPhone 5 bug for home screen webapps anymore that was letterboxing the app (a year after it was found). We don&#8217;t need the viewport hack solution anymore.</p>
+<h3>Native webapp development</h3>
+<p>If you are developing hybrid (native webapps), such as Apache Cordova (PhoneGap) apps, there are some news for you. First, <b>no Nitro engine yet</b>.</p>
+<h4>Paginate mode</h4>
+<p>When using UIWebView for rich content in native apps or for native webapps (hybrids), we can now use a <strong>Paginate</strong> feature for an ebook reading experience without vertical scrolling (a la Windows 8 app experience). This feature is perfect if on the app we are showing dynamic content, so we can&#8217;t pre-optimize it for pagination. We have different Objective-C properties to configure the pagination process. To enable it, we need to use something like:</p>
+<p><code> myWebView.paginationMode = UIWebPaginationModeLeftToRight;<br />
+myWebView.paginationBreakingMode = UIWebPaginationBreakingModePage;<br />
+myWebView.gapBetweenPages = 50;<br />
+</code></p>
+<p>These properties will convert any HTML document in the web view in pagination mode (divided horizontally in pages).</p>
+<h4>Other improvements</h4>
+<ul>
+<li>For native development -not necessarily using Web View- the iOS SDK now includes a JavaScript runtime: JavaScript Core framework providing wrapper Objective-C for standard JavaScript objects. We can use this framework to evaluate JavaScript code and also parse JSON</li>
+<li>With a new property of the Web View, we can now have inline playback mode for HTML5 video instead of the default full screen mode</li>
+<li>With a new property of the Web View, we can enable autoplay for video when in a native webapp.</li>
+<li>There is also a SafariServices Framework that on iOS 7 is useful to programmatically add URL&#8217;s to Safari reading list.</li>
+</ul>
+<h3>Remote debugging</h3>
+<p>If you have a MacOS and you are used to remote debugging with your iOS, you must update Safari to version 6.1 and iTunes to version 11.1 to have the ability to communicate with an iOS 7.0 device. At the time of this writing, Safari 6.1 is only available as a <a href="https://developer.apple.com/downloads/index.action?name=Safari%206.1" target="_blank">Preview</a>.</p>
+<p>While the abilites inside the debugger are the same as in the previous version the user interface has changed a lot with a much cleaner design.</p>
+<p><img class="alignnone  wp-image-279" alt="Screen Shot 2013-09-18 at 4.02.56 PM" src="http://www.mobilexweb.com/wp-content/uploads/2013/09/Screen-Shot-2013-09-18-at-4.02.56-PM.png" width="100%" /></p>
+<h3>Not there yet</h3>
+<p>While the list is big, in this case I will list features that were announced for Safari 7 for Mac but are not there on Safari on iOS:</p>
+<ul>
+<li>Web Speech API (it&#8217;s there but it&#8217;s not working on iOS)</li>
+<li>Push Notifications from websites. This will be a great addition to iOS but it will only be on Mac OS.</li>
+<li>Background Blend mode</li>
+<li>Grid Layout (it&#8217;s there but it&#8217;s not working on iOS)</li>
+</ul>
+<h3>Anything else?<span style="font-size: 13px;"><br />
+</span></h3>
+<p>Most of the bugs and problems in this post were posted a few months ago in the private forum and lot of people have sent bug reports and ask desperately on the forum for a solution. I can&#8217;t believe that Apple can&#8217;t give answers to web developers and they are not event executing some basic test suites to detect some API bugs.</p>
+<p>Did you found any other API or support? Any other bug? Feel free to add your comments below using any of the options available.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class="addtoany_share_save_container"><div class="a2a_kit a2a_target addtoany_list" id="wpa2a_1"><a class="a2a_dd addtoany_share_save" href="http://www.addtoany.com/share_save"><img src="http://www.mobilexweb.com/wp-content/plugins/add-to-any/share_save_171_16.png" width="171" height="16" alt="Share"/></a></div>
+<script type="text/javascript"><!--
+wpa2a.script_load();
+//--></script>
+</div>
+								<p>Tags: <a href="http://www.mobilexweb.com/blog/tag/ios" rel="tag">ios</a>, <a href="http://www.mobilexweb.com/blog/tag/ios7" rel="tag">ios7</a>, <a href="http://www.mobilexweb.com/blog/tag/safari" rel="tag">safari</a></p>
+				<p class="postmetadata alt">
+					<small>
+						This entry was written by <a href='/contact-me' rel='author'>Max Firtman</a> and posted
+												on Wednesday, September 18th, 2013 at 8:03 pm						and is filed under <a href="http://www.mobilexweb.com/blog/category/general" title="View all posts in General" rel="category tag">General</a>, <a href="http://www.mobilexweb.com/blog/category/new-devices" title="View all posts in New devices and browsers" rel="category tag">New devices and browsers</a>.
+						You can follow any responses to this entry through the <a href='http://www.mobilexweb.com/blog/safari-ios7-html5-problems-apis-review/feed'>RSS 2.0</a> feed.
+
+													You can <a href="#respond">leave a response</a>, or <a href="http://www.mobilexweb.com/blog/safari-ios7-html5-problems-apis-review/trackback" rel="trackback">trackback</a> from your own site.
+
+						
+					</small>
+				</p>
+
+			</div>
+		</div>
+
+	
+
+<!-- *******************************************************************************************************************-->
+<!-- Google+ Comments for Wordpress v1.4.17 ( http://wordpress.org/extend/plugins/gplus-comments/ ) -->
+<!-- *******************************************************************************************************************-->
+
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+  window.comment_tab_width = $('#comment-tabs').innerWidth();
+});
+</script>
+
+<div id="comment-tabs">
+  <h4>Comments, ideas, questions? </h4>  <ul class="controls inline clearfix">
+    <li  class="active"><a href='#gplus-tab'><img src='http://www.mobilexweb.com/wp-content/plugins/gplus-comments/assets/images/icons/default/gplus.png'>Google+</a></li>
+<li ><a href='#facebook-tab'><img src='http://www.mobilexweb.com/wp-content/plugins/gplus-comments/assets/images/icons/default/facebook.png'>Facebook</a></li>
+<li ><a href='#wordpress-tab'><img src='http://www.mobilexweb.com/wp-content/plugins/gplus-comments/assets/images/icons/default/wordpress.png'>This blog</a></li>
+  </ul>
+
+
+  
+<div id="gplus-tab" class="clearfix">
+  <script type="text/javascript" src="//apis.google.com/js/plusone.js?callback=?"></script>
+  <script type="text/javascript">
+  jQuery(document).ready(function($)
+  {
+    $('#gplus-tab').html('<div class="g-comments" data-href="http://www.mobilexweb.com/blog/safari-ios7-html5-problems-apis-review" style="height: 300px;" data-width="'+window.comment_tab_width+'" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD">Loading Google+ Comments ...</div>');
+    $("#g-comments").css
+    ({
+      'height': ''
+      //'width' : '98%'
+    });
+    $("#g-comments iframe").css
+    ({
+      'height': '',
+      'min-height': '300px'
+      //'width': '98%'
+    });
+  });
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://plus.google.com/">comments powered by Google+.</a></noscript>
+</div> <!--//gplus-tab -->
+
+<div id="facebook-tab" class="clearfix">
+  <div id="fb-root"></div>
+  <div id="fb-comments">Loading Facebook Comments ...</div>
+  <script type="text/javascript">
+    jQuery(document).ready(function($)
+    {
+      $('#fb-comments').html('<div class="fb-comments" data-width="'+window.comment_tab_width+'" data-href="http://www.mobilexweb.com/blog/safari-ios7-html5-problems-apis-review" data-num-posts="20" data-colorscheme="light" data-mobile="auto"></div>');
+    });
+  </script>
+  <script type="text/javascript" src="//connect.facebook.net/en_US/all.js#xfbml=1"></script>
+  <noscript>Please enable JavaScript to view the <a href="https://www.facebook.com/">comments powered by Facebook.</a></noscript>
+</div> <!--//fb-tab -->
+
+
+
+<div id="wordpress-tab" class="clearfix">
+<script type="text/javascript" src="http://www.mobilexweb.com/wp-content/themes/fusion/js/comment.js"></script>
+
+
+
+
+<div id="comments">
+
+<div id="commentlist">
+
+	<ol id="thecomments">
+		<li class="comment regularcomment" id="comment-40347">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://0.gravatar.com/avatar/edfb79b6a9dc9970f4857f17421b386e?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-40347">#1</a> written by
+
+                        <b  id="commentauthor-40347">Marek</b>
+		   September 18th, 2013 at 22:31</span></p>
+               <div class="text">
+								<div id="commentbody-40347"> <p>BUG: Full height web apps have some extra height in Safari on iPad in landscape mode.<br />
+Anyone knows a workaround?</p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-40347', 'comment-40347', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-40347', 'comment-40347', 'commentbody-40347', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	<li class="comment admincomment" id="comment-40354">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://0.gravatar.com/avatar/868aa64e3911e387b8703aea57c3b26d?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-40354">#2</a> written by
+
+           		   <a  id="commentauthor-40354" href="http://www.firt.mobi"> firt</a>
+		   September 19th, 2013 at 00:05</span></p>
+               <div class="text">
+								<div id="commentbody-40354"> <p>What do you mean with extra height? I didn&#8217;t see that.</p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-40354', 'comment-40354', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-40354', 'comment-40354', 'commentbody-40354', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	<li class="comment regularcomment" id="comment-40423">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://0.gravatar.com/avatar/09a3649059df2a913d010d8a567d44e2?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-40423">#3</a> written by
+
+                        <b  id="commentauthor-40423">Markus</b>
+		   September 19th, 2013 at 10:23</span></p>
+               <div class="text">
+								<div id="commentbody-40423"> <p>Hey,<br />
+thank you so much for this article. I am also dealing with problems with my homescreen webapp.<br />
+When i go to multitasking and tap on the app-icon, the hole stupid ios7 crashes and my iphone5 reboots! This also happened with app.ft.com.<br />
+Does someone else have the same problem?</p>
+<p>Greeting from Germany,<br />
+Markus</p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-40423', 'comment-40423', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-40423', 'comment-40423', 'commentbody-40423', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	<li class="comment regularcomment" id="comment-40435">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://0.gravatar.com/avatar/a3f7b3f26f4339b5358980b7f79c197f?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-40435">#4</a> written by
+
+                        <b  id="commentauthor-40435">Oz</b>
+		   September 19th, 2013 at 11:14</span></p>
+               <div class="text">
+								<div id="commentbody-40435"> <p>I believe the biggest changing behavior is the lack of interactivity of the bottom screen when in fulk screen. When in full screen touching anywhere on the page&#8217;s bottom area (where the tab bar usually is) triggers only leaving full screen and not touching the element at that position.. Which means fixed to bottom elements or just casual links which happen to be on the screen&#8217;s bottom require 2 taps to activate.</p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-40435', 'comment-40435', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-40435', 'comment-40435', 'commentbody-40435', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	<li class="comment regularcomment" id="comment-40448">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://1.gravatar.com/avatar/f4596eff172e0f64aceb4c6fa26e0cfe?s=64&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-40448">#5</a> written by
+
+                        <b  id="commentauthor-40448">Pelot</b>
+		   September 19th, 2013 at 12:23</span></p>
+               <div class="text">
+								<div id="commentbody-40448"> <p>&#8220;the 64-bit CPU will not change anything from a JavaScript perspective&#8221;. That&#8217;s not quite accurate, given that JavaScriptCore stores JavaScript values (every variable, parameter, etc.) in 64 bits. That&#8217;s kind of a hassle on 32-bit architectures but great for 64-bit architectures because it means the value references can fit into a register.</p>
+<p>I suggest to correct that in your article.</p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-40448', 'comment-40448', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-40448', 'comment-40448', 'commentbody-40448', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	<li class="comment admincomment" id="comment-40450">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://0.gravatar.com/avatar/868aa64e3911e387b8703aea57c3b26d?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-40450">#6</a> written by
+
+           		   <a  id="commentauthor-40450" href="http://www.firt.mobi"> firt</a>
+		   September 19th, 2013 at 13:05</span></p>
+               <div class="text">
+								<div id="commentbody-40450"> <p>@Markus, that problem was reported on the beta versions but it seems to be ok now. Did you update your device to the GM or the final version?</p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-40450', 'comment-40450', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-40450', 'comment-40450', 'commentbody-40450', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	<li class="comment admincomment" id="comment-40451">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://0.gravatar.com/avatar/868aa64e3911e387b8703aea57c3b26d?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-40451">#7</a> written by
+
+           		   <a  id="commentauthor-40451" href="http://www.firt.mobi"> firt</a>
+		   September 19th, 2013 at 13:08</span></p>
+               <div class="text">
+								<div id="commentbody-40451"> <p>@Joe, thanks for the clarification. I understand those differences on the architecture, but I don&#8217;t think it changes the fact that from a developers&#8217; perspective it&#8217;s the same thing. I&#8217;ll clarify that I&#8217;m talking about a developers&#8217; perspective. You don&#8217;t program in JavaScript for 32 bits and 64 bits or do things differently. Also floating number precision will be different but I don&#8217;t think 99.99% of web dev will need to to something about it. Thanks!</p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-40451', 'comment-40451', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-40451', 'comment-40451', 'commentbody-40451', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	<li class="comment regularcomment" id="comment-40455">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://0.gravatar.com/avatar/09a3649059df2a913d010d8a567d44e2?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-40455">#8</a> written by
+
+                        <b  id="commentauthor-40455">Markus</b>
+		   September 19th, 2013 at 13:22</span></p>
+               <div class="text">
+								<div id="commentbody-40455"> <p>Thanks for your response, firt. I have never had any beta version installed. This is the official release. The problem i mentioned only occurs if you tap on the small icon in multitasking, if you tap on the bigger white screen above it, it works, though. Did you try this with app.ft.com?</p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-40455', 'comment-40455', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-40455', 'comment-40455', 'commentbody-40455', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	<li class="comment regularcomment" id="comment-40484">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://0.gravatar.com/avatar/e1899004c71c7043343196103e210be3?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-40484">#9</a> written by
+
+           		   <a  id="commentauthor-40484" href="http://www.zachleat.com/"> Zach Leatherman</a>
+		   September 19th, 2013 at 16:52</span></p>
+               <div class="text">
+								<div id="commentbody-40484"> <p>As I attempted to mention on Twitter, position: sticky is not new in iOS 7. It was available on iOS 6.</p>
+<p><a href="https://twitter.com/zachleat/status/362588551847755776" rel="nofollow">https://twitter.com/zachleat/status/362588551847755776</a></p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-40484', 'comment-40484', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-40484', 'comment-40484', 'commentbody-40484', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	<li class="comment admincomment" id="comment-40485">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://0.gravatar.com/avatar/868aa64e3911e387b8703aea57c3b26d?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-40485">#10</a> written by
+
+           		   <a  id="commentauthor-40485" href="http://www.firt.mobi"> firt</a>
+		   September 19th, 2013 at 16:56</span></p>
+               <div class="text">
+								<div id="commentbody-40485"> <p>@Zach, thanks for the update</p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-40485', 'comment-40485', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-40485', 'comment-40485', 'commentbody-40485', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	<li class="comment regularcomment" id="comment-40512">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://0.gravatar.com/avatar/caaf3e1247a0e016435061cfc49ba6ab?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-40512">#11</a> written by
+
+           		   <a  id="commentauthor-40512" href="http://www.nytimes.com/"> tarobomb</a>
+		   September 19th, 2013 at 20:18</span></p>
+               <div class="text">
+								<div id="commentbody-40512"> <p>From a bit of trial and error, it looks like the WebSQL limit is actually still 50 MB. You can’t request 50 MB in your initial call to openDatabase—that throws an error—but if you ask for 5 MB or less, you’ll get your database, and it’ll still grow up to 50 MB through a series of user prompts (5, 10, 25 MB) as you insert data.</p>
+<p>I have no idea whether this is the intended behavior.</p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-40512', 'comment-40512', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-40512', 'comment-40512', 'commentbody-40512', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	<li class="comment admincomment" id="comment-40513">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://0.gravatar.com/avatar/868aa64e3911e387b8703aea57c3b26d?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-40513">#12</a> written by
+
+           		   <a  id="commentauthor-40513" href="http://www.firt.mobi"> firt</a>
+		   September 19th, 2013 at 20:21</span></p>
+               <div class="text">
+								<div id="commentbody-40513"> <p>Thanks for the update; I&#8217;ll definitely check that. I&#8217;m pretty sure it&#8217;s a bug, I don&#8217;t see a reason for this to be intended.</p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-40513', 'comment-40513', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-40513', 'comment-40513', 'commentbody-40513', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	<li class="comment regularcomment" id="comment-40528">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://1.gravatar.com/avatar/73661422e73bb0155a9d48befe5ff078?s=64&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-40528">#13</a> written by
+
+                        <b  id="commentauthor-40528">John P.</b>
+		   September 19th, 2013 at 21:14</span></p>
+               <div class="text">
+								<div id="commentbody-40528"> <p>Regarding Marek&#8217;s comment about height… if you go here:</p>
+<p><a href="http://responsejs.com/labs/dimensions/" rel="nofollow">http://responsejs.com/labs/dimensions/</a></p>
+<p>on an iOS 7 iPad, if you look at any of the height methods &#8211; only innerHeight returns the correct height of the browser when the iPad is in landscape mode. Portrait mode works as expected. What is worse, from what I can tell with a &#8220;fullscreen&#8221; web app I have, is that a height=&#8221;100%&#8221; on html, body produces a container 20px too high in landscape mode.</p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-40528', 'comment-40528', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-40528', 'comment-40528', 'commentbody-40528', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	<li class="comment regularcomment" id="comment-40635">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://0.gravatar.com/avatar/ca29ec095705d9c529eb39acf51d12b3?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-40635">#14</a> written by
+
+                        <b  id="commentauthor-40635">Johannes K.</b>
+		   September 20th, 2013 at 07:55</span></p>
+               <div class="text">
+								<div id="commentbody-40635"> <p><q><br />
+Following Google Chrome, now Safari on iOS doesn’t support the datetime input type anymore and it will fallback to text. This type was deprecated in the standard in favor of using two inputs, date and time for the same purpose.<br />
+</q><br />
+According to which standard is datetime deprecated? I still find it in the current HTML5 spec by W3C and the WhatWG document. Strange: datetime-local is still supported by both Chrome and Safari 7.</p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-40635', 'comment-40635', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-40635', 'comment-40635', 'commentbody-40635', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	<li class="comment regularcomment" id="comment-40698">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://0.gravatar.com/avatar/c2cd74f805968abe4502ee95c72fe13f?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-40698">#15</a> written by
+
+                        <b  id="commentauthor-40698">Venkat</b>
+		   September 20th, 2013 at 15:28</span></p>
+               <div class="text">
+								<div id="commentbody-40698"> <p>href=&#8221;tel:******&#8221; does not work in full screen mode for safari in iOS 7.0</p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-40698', 'comment-40698', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-40698', 'comment-40698', 'commentbody-40698', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	<li class="comment regularcomment" id="comment-41006">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://0.gravatar.com/avatar/2eacec38995663670f3cbdeb40539a93?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-41006">#16</a> written by
+
+                        <b  id="commentauthor-41006">chriscai</b>
+		   September 22nd, 2013 at 05:18</span></p>
+               <div class="text">
+								<div id="commentbody-41006"> <p>Hardware acceleration in safari not worked css3 transiton3d. ios6&#8242;s resolution -webkit-perspective: 1000; dosen&#8217;t work.</p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-41006', 'comment-41006', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-41006', 'comment-41006', 'commentbody-41006', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	<li class="comment regularcomment" id="comment-41025">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://1.gravatar.com/avatar/d8fe3a4a0458aef55fe10124a3ecd71a?s=64&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-41025">#17</a> written by
+
+                        <b  id="commentauthor-41025">Paolo</b>
+		   September 22nd, 2013 at 08:29</span></p>
+               <div class="text">
+								<div id="commentbody-41025"> <p>One additional issue: in my standalone web app, often the &#8220;touchend&#8221; event is fired with several seconds delay: I swipe the page and the corresponding &#8220;touchend&#8221; event handler is fired several seconds after the end of the swipe; sometimes touching the screen again after the end of the swipe triggers the &#8220;touchend&#8221; event handler immediately.<br />
+The web app was working properly in iOS 6.</p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-41025', 'comment-41025', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-41025', 'comment-41025', 'commentbody-41025', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	<li class="comment regularcomment" id="comment-41083">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://0.gravatar.com/avatar/2790c116dd177de7db13f219d04d872a?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-41083">#18</a> written by
+
+           		   <a  id="commentauthor-41083" href="http://www.pixelcellar.com"> Tim Marshall</a>
+		   September 22nd, 2013 at 17:26</span></p>
+               <div class="text">
+								<div id="commentbody-41083"> <p>Good blog round up of some of the (hopefully temporary) issues with iOS 7&#8242;s Safari. I saw an inaccurate statement under Icon Sizes where you say &#8220;We need to remember that iOS 7 is not available for any non-retina iPhone-factor device.&#8221; This isn&#8217;t the case, you can get iOS 7 on iPhone 4&#8242;s and 4S&#8217;s, although on the 4 it runs painfully slowly!!</p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-41083', 'comment-41083', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-41083', 'comment-41083', 'commentbody-41083', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	<li class="comment admincomment" id="comment-41116">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://0.gravatar.com/avatar/868aa64e3911e387b8703aea57c3b26d?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-41116">#19</a> written by
+
+           		   <a  id="commentauthor-41116" href="http://www.firt.mobi"> firt</a>
+		   September 22nd, 2013 at 21:21</span></p>
+               <div class="text">
+								<div id="commentbody-41116"> <p>Hi! Be careful, because Apple was suggesting everyone using these hacks to stop using them a year ago in WWDC 2012</p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-41116', 'comment-41116', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-41116', 'comment-41116', 'commentbody-41116', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	<li class="comment admincomment" id="comment-41118">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://0.gravatar.com/avatar/868aa64e3911e387b8703aea57c3b26d?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-41118">#20</a> written by
+
+           		   <a  id="commentauthor-41118" href="http://www.firt.mobi"> firt</a>
+		   September 22nd, 2013 at 21:24</span></p>
+               <div class="text">
+								<div id="commentbody-41118"> <p>Hi @Tim; iOS 7 is available for both iPhone 4 and iPhone 4S but both are retina devices ;) iPhone 3GS and iPod Touch 3rd generation -latest non-retina phone-factor devices- are out of the equation on iOS 7. Maybe you are confusing Retina with 4 inches screen. Thanks</p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-41118', 'comment-41118', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-41118', 'comment-41118', 'commentbody-41118', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	<li class="comment regularcomment" id="comment-41237">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://0.gravatar.com/avatar/2790c116dd177de7db13f219d04d872a?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-41237">#21</a> written by
+
+           		   <a  id="commentauthor-41237" href="http://www.pixelcellar.com"> Tim Marshall</a>
+		   September 23rd, 2013 at 15:06</span></p>
+               <div class="text">
+								<div id="commentbody-41237"> <p><a href="#comment-41118" rel="nofollow">@ firt</a><br />
+Good call, that was indeed an error on my part, I place the blame on commenting late in the day!!</p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-41237', 'comment-41237', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-41237', 'comment-41237', 'commentbody-41237', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	<li class="comment regularcomment" id="comment-41537">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://1.gravatar.com/avatar/7e74b4585226e6345554811978a8656e?s=64&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-41537">#22</a> written by
+
+                        <b  id="commentauthor-41537">y_ich</b>
+		   September 25th, 2013 at 09:34</span></p>
+               <div class="text">
+								<div id="commentbody-41537"> <p>Thank you for your valuable information.<br />
+About home-screen apps, I found 3 things below.<br />
+1. watchPosition bug in iOS 6 seems to be solved.<br />
+    In iOS 6, there was a bug that callback of navigator.geolocation.watchPosition calls just once, no following consecutive calls.<br />
+2, The bug of Web Audio is still in iOS 7.<br />
+   There is a bug that outputting a sound by Web Audio cause both home button and power button to be no response in high possibility. iOS 7 has this bug, too.<br />
+3. Nitro is now available.<br />
+   Home-screen apps&#8217; performance is almost same as Safari&#8217;s.</p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-41537', 'comment-41537', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-41537', 'comment-41537', 'commentbody-41537', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	<li class="comment admincomment" id="comment-41544">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://0.gravatar.com/avatar/868aa64e3911e387b8703aea57c3b26d?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-41544">#23</a> written by
+
+           		   <a  id="commentauthor-41544" href="http://www.firt.mobi"> firt</a>
+		   September 25th, 2013 at 10:19</span></p>
+               <div class="text">
+								<div id="commentbody-41544"> <p>Thanks for the report; just a comment about (3), Nitro was already available for Home screen webapps before. UIWebViews don&#8217;t have it.</p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-41544', 'comment-41544', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-41544', 'comment-41544', 'commentbody-41544', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	<li class="comment regularcomment" id="comment-42193">
+      <div class="wrap">
+       <div class="avatar">
+
+        <a class="gravatar">
+			<img alt='' src='http://0.gravatar.com/avatar/e0c827e0b94765fc34f7c40a00722881?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />        </a>
+
+       </div>
+       <div class="details">
+        <p class="head"><span class="info"><a href="#comment-42193">#24</a> written by
+
+           		   <a  id="commentauthor-42193" href="http://philipp-kuehn.com"> Philipp Kühn</a>
+		   September 30th, 2013 at 00:41</span></p>
+               <div class="text">
+								<div id="commentbody-42193"> <p>There is a huge memory bug in the ios7 safari. the browser crashes now on large javascript loops. see here: <a href="http://stackoverflow.com/a/18871779/1159384" rel="nofollow">http://stackoverflow.com/a/18871779/1159384</a></p>
+ </div>
+               </div>
+       </div>
+   	   <div class="act">
+	     <span class="reply"><a title="Reply" class="" href="javascript:void(0);" onclick="MGJS_CMT.reply('commentauthor-42193', 'comment-42193', 'comment');">RE</a></span> <span class="quote"><a title="Quote" href="javascript:void(0);" onclick="MGJS_CMT.quote('commentauthor-42193', 'comment-42193', 'commentbody-42193', 'comment');">Q</a></span>
+         <span class="advedit"> </span>
+	   </div>
+
+      </div>
+	</li>
+</li><!-- #comment-## -->
+	</ol>
+  </div>
+</div>
+
+
+	<form action="http://www.mobilexweb.com/wp-comments-post.php" method="post" id="commentform">
+	<div id="respond">
+
+					
+			<div id="author_info">
+				<div class="row">
+					<input type="text" name="author" id="author" class="textfield" value="" size="24" tabindex="1" />
+					<label for="author" class="small">Name (required)</label>
+				</div>
+				<div class="row">
+					<input type="text" name="email" id="email" class="textfield" value="" size="24" tabindex="2" />
+					<label for="email" class="small">E-Mail (will not be published) (required)</label>
+				</div>
+				<div class="row">
+					<input type="text" name="url" id="url" class="textfield" value="" size="24" tabindex="3" />
+					<label for="url" class="small">Website</label>
+				</div>
+			</div>
+
+			
+		
+		<!-- comment input -->
+		<div class="row">
+			<textarea name="comment" id="comment" tabindex="4" rows="8" cols="50"></textarea>
+		</div>
+
+		<!-- comment submit and rss -->
+		<div id="submitbox">
+            <input name="submit" type="submit" id="submit" class="button" tabindex="5" value="Submit Comment" />
+            <a class="feed" href="http://www.mobilexweb.com/comments/feed">Subscribe to comments feed</a>
+						<input type="hidden" name="comment_post_ID" value="263" />
+
+		</div>
+
+	</div>
+	</form>
+
+</div><!--//wp-tab -->
+</div> <!--//comment tabs -->
+
+	
+</div>
+<!-- /main content -->
+
+</div>
+<!-- /main -->
+</div>
+<!-- /main wrapper -->
+
+
+ <!-- sidebar (container) -->
+<div id="sidebar">
+  <!-- sidebar wrap -->
+  <div class="wrap">
+     <ul>
+     <li>
+          		</li>
+
+
+			
+
+           <li id="text-3" class="widget widget_text"><div class="box">			<div class="textwidget">Thoughts, researchs and samples about mobile web by <a href="http://firt.mobi" target="_blank">Maximiliano Firtman</a>, speaker, trainer and author of O'Reilly books <a href="book/">Programming the Mobile Web</a> and <a href="book/">jQuery Mobile</a>.
+<br /><br />
+<a href="http://www.twitter.com/firt" target="_blank"><img src="http://www.mobilexweb.com/wp-content/uploads/2010/10/followme.png" width="135" height="26" alt="Follow me @firt" vspace="5" style="margin-right: 10px"/></a>
+<a href="http://www.twitter.com/mobilexweb" target="_blank"><img src="http://www.mobilexweb.com/wp-content/uploads/2010/10/followblog.png"  width="135" height="26" alt="Follow this blog updates & news" vspace="5"/></a>
+<div style="height: 10px"></div></div>
+		</div></li><li id="text-5" class="widget widget_text"><div class="box"><h2 class="widgettitle">My books</h2>			<div class="textwidget"><div style="margin-top: 15px; margin-bottom: -30px;">
+<a href="/book"><img src="http://covers.oreilly.com/images/0636920026259/cat.gif" width="125" border="0" style="margin-right: 15px" /><img src="http://covers.oreilly.com/images/0636920014607/cat.gif" width="125" border="0"  /></a></div>
+
+
+
+</div>
+		</div></li><li id="text-7" class="widget widget_text"><div class="box">			<div class="textwidget"><div style="margin: 15px 0 -20px -10px"><!-- BuySellAds.com Ad Code -->
+<script type="text/javascript">
+(function(){
+  var bsa = document.createElement('script');
+     bsa.type = 'text/javascript';
+     bsa.async = true;
+     bsa.src = 'http://s3.buysellads.com/ac/bsa.js';
+  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+})();
+</script>
+<!-- End BuySellAds.com Ad Code -->
+<div id="bsap_1272855" class="bsarocks bsap_4709948f66d65168ec770c6ce588d807"></div>
+</div>
+<div style="margin: 10px 0 0 -10px; display: none">
+<a href="http://mobilehtml5.org" target="_blank"><img src="/mobilehtml5.png" width="300"></a></div></div>
+		</div></li>     </ul>
+  </div><!-- /sidebar wrap -->
+</div><!-- /sidebar -->
+  
+
+<!-- clear main & sidebar sections -->
+<br clear="left" />
+<!-- /clear main & sidebar sections -->
+
+
+<!-- footer -->
+ <div id="footer">
+   <!-- please do not remove this. respect the authors :) -->
+   <p>Fusion theme by <a href="http://www.digitalnature.ro/projects/fusion">digitalnature</a> | powered by	<a href="http://wordpress.org/">WordPress</a><br />
+   <a class="rss" href="http://www.mobilexweb.com/feed">Entries (RSS)</a> and <a href="http://www.mobilexweb.com/comments/feed">Comments (RSS)</a>
+   <!-- 24 queries. 0.418 seconds. -->
+   </p>
+ </div>
+ <!-- /footer -->
+<a href="javascript:void(0);" class="setLiquid"><span>SetPageWidth</span></a>
+</div>
+<!-- /page -->
+
+</div>
+</div>
+<!-- /page wrappers -->
+
+
+
+<script type="text/javascript"><!--
+wpa2a.targets=[
+{title:'Safari on iOS 7 and HTML5: problems, changes and new APIs',url:'http://www.mobilexweb.com/blog/safari-ios7-html5-problems-apis-review'}];
+wpa2a.html_done=true;if(wpa2a.script_ready&&!wpa2a.done)wpa2a.init();wpa2a.script_load();
+//--></script>
+<link rel='stylesheet' id='gplus_comments_tabs_css-css'  href='http://www.mobilexweb.com/wp-content/plugins/gplus-comments/assets/styles/plugin.css?ver=1.4.17' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.mobilexweb.com/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://www.mobilexweb.com/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://www.mobilexweb.com/wp-includes/js/jquery/ui/jquery.ui.tabs.min.js?ver=1.10.3'></script>
+
+<script>jQuery('#comment-tabs').tabs();</script>
+</body>
+</html>

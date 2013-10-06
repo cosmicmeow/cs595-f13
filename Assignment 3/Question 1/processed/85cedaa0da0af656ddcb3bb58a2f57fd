@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head><script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'></script><script type='text/javascript'>GS_googleAddAdSenseService("ca-pub-2468178897216830");GS_googleEnableAllServices();</script><script type='text/javascript'>GA_googleAddSlot("ca-pub-2468178897216830", "sen_top5");</script><script type='text/javascript'>GA_googleAddSlot("ca-pub-2468178897216830", "sen_top4");</script><script type='text/javascript'>GA_googleAddSlot("ca-pub-2468178897216830", "sen_top6");</script><script type='text/javascript'>GA_googleAddSlot("ca-pub-2468178897216830", "sen_top7");</script><script type='text/javascript'>GA_googleAddSlot("ca-pub-2468178897216830", "sen_top8");</script><script type='text/javascript'>GA_googleAddSlot("ca-pub-2468178897216830", "sen_720*90");</script><script type='text/javascript'>GA_googleAddSlot("ca-pub-2468178897216830", "sen_300*250");</script><script type='text/javascript'>GA_googleAddSlot("ca-pub-2468178897216830", "sen_300*250_2");</script><script type='text/javascript'>GA_googleAddSlot("ca-pub-2468178897216830", "160*600");</script><script type='text/javascript'>GA_googleAddSlot("ca-pub-2468178897216830", "120*600");</script><script type='text/javascript'>GA_googleFetchAds();</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22797761-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+
+<meta name="keywords" content="日本最小級,ポータルサイト,広島ガイド">
+<meta name="description" content="日本最小級のポータル総合Newsサイト - 広島ガイド">
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+<title>千年のおかげ - 広島ガイド</title>
+
+</head>
+<body oncontextmenu="return false;">
+
+<!-- コンテナ開始 -->
+<div id="container">
+
+<!-- ページ開始 -->
+<div id="page">
+
+
+<!-- ヘッダ開始 -->
+<div id="header">
+
+<!-- ++Begin Blog Bar Wizard Generated Code++ -->
+  <!--
+  // Created with a Google AJAX Search Wizard
+  // http://code.google.com/apis/ajaxsearch/wizards.html
+  -->
+
+  <!--
+  // The Following div element will end up holding the actual blogbar.
+  // You can place this anywhere on your page.
+  -->
+  <div id="blogBar-bar">
+    <span style="color:#676767;font-size:11px;margin:10px;padding:4px;">Loading...</span>
+  </div>
+
+  <!-- Ajax Search Api and Stylesheet
+  // Note: If you are already using the AJAX Search API, then do not include it
+  //       or its stylesheet again
+  //
+  // The Key Embedded in the following script tag is designed to work with
+  // the following site:
+  // http://ictmax.jpn.ph/news/
+  -->
+  <script src="http://www.google.com/uds/api?file=uds.js&v=1.0&source=uds-blbw&key=ABQIAAAAA5DXXOH5XlvVTUxkSo04thQlz5e8g12CGWa30lE2LKerPUPWxBSh4kpuowRHGcFS0lT9kPce_zpriw"
+    type="text/javascript"></script>
+  <style type="text/css">
+    @import url("http://www.google.com/uds/css/gsearch.css");
+  </style>
+
+  <!-- Blog Bar Code and Stylesheet -->
+  <script src="http://www.google.com/uds/solutions/blogbar/gsblogbar.js?mode=new"
+    type="text/javascript"></script>
+  <style type="text/css">
+    @import url("http://www.google.com/uds/solutions/blogbar/gsblogbar.css");
+  </style>
+
+  <script type="text/javascript">
+    function LoadBlogBar() {
+      var blogBar;
+      var options = {
+        largeResultSet : false,
+        title : "The blogsphere",
+        horizontal : true,
+        orderBy : GSearch.ORDER_BY_DATE,
+        autoExecuteList : {
+          executeList : ["広島"]
+        }
+      }
+
+      blogBar = new GSblogBar(document.getElementById("blogBar-bar"), options);
+    }
+    // arrange for this function to be called during body.onload
+    // event processing
+    GSearch.setOnLoadCallback(LoadBlogBar);
+  </script>
+<!-- ++End Blog Bar Wizard Generated Code++ -->
+
+<table width="100%">
+<td align="left">
+<h1 class="siteTitle"><a href=http://ictmax.jpn.ph/news/><img src="./sennen.jpg" alt="千年のおかげ"></a></h1>
+
+<p class="catch" align="center"><strong>日本最小級のポータルNewsサイト</strong></p>
+</td>
+
+<td align="right">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-2468178897216830";
+/* 728x15, 作成済み 11/06/21 */
+google_ad_slot = "4009263915";
+google_ad_width = 728;
+google_ad_height = 15;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<script type="text/javascript"><!--
+google_ad_client = "pub-2468178897216830";
+/* 728x90, 作成済み 11/04/12 */
+google_ad_slot = "2608402591";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</td>
+</table>
+
+
+<div class="opening">
+
+</div>
+
+
+<ul class="spotlight">
+
+
+
+<form action="http://ictmax.jpn.ph/" id="cse-search-box">
+  <div>
+    <input type="hidden" name="cx" value="partner-pub-2468178897216830:k2nu8bdqkce" />
+    <input type="hidden" name="cof" value="FORID:10" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" size="52" />
+    <input type="submit" name="sa" value="&#x691c;&#x7d22;" />
+  </div>
+</form>
+<script type="text/javascript" src="http://www.google.co.jp/cse/brand?form=cse-search-box&amp;lang=ja"></script> 
+
+
+</ul>
+
+<table width="100%">
+<td align="left">
+<ol class="topicPath">
+<li><a href=http://ictmax.jpn.ph/news/>ホーム</a></li>
+<li>広島ガイド</li>
+</ol>
+</td>
+</table>
+
+</div>
+
+<!-- ヘッダ終了 -->
+
+<!-- サイドバー(B)開始 -->
+<div id="aside">
+
+<div class="section strong">
+
+<iframe frameborder=0 marginwidth=0 marginheight=0 border=0 style="border:0;margin:0;width:300px;height:250px;" src="http://www.google.com/uds/modules/elements/newsshow/iframe.html?rsz=large&format=300x250&q=%E5%BA%83%E5%B3%B6&element=true" scrolling="no" allowtransparency="true"></iframe>
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-2468178897216830";
+/* 300x250, 作成済み 11/04/09 */
+google_ad_slot = "3104561639";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+</div>
+
+<div class="section pickup">
+
+<h2>[ Sponsored Links ]</h2>
+
+<ul>
+
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-2468178897216830";
+/* 300x250, 作成済み 11/04/26 */
+google_ad_slot = "1028135055";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+</ul>
+
+<!-- ↑最後の項目（li要素）にクラス名（last）を設定してください -->
+
+</div>
+
+
+<div class="section pickup"><h2>[ The following advertisement are<br><div align="right">Wild Card Choices. ]</div></h2>
+<!-- sen_top4 --><script type='text/javascript'>GA_googleFillSlot("sen_top4");</script>
+
+
+
+
+
+
+
+
+<!-- sen_top5 --><script type='text/javascript'>GA_googleFillSlot("sen_top5");</script>
+
+<center><table><tr>
+<td><!-- 160*600 --><script type='text/javascript'>GA_googleFillSlot("160*600");</script></td>&nbsp;
+<td><!-- 120*600 --><script type='text/javascript'>GA_googleFillSlot("120*600");</script></td>
+</tr></table></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- sen_top8 --><script type='text/javascript'>GA_googleFillSlot("sen_top8");</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- sen_top6 --><script type='text/javascript'>GA_googleFillSlot("sen_top6");</script>
+
+
+<!-- sen_top7 --><script type='text/javascript'>GA_googleFillSlot("sen_top7");</script></div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="section normal">
+
+<h2>Banner & Contact</h2>
+<p>
+<table width="100%">
+<td align=left>
+<a href="bannnnnnnnnnnner.html"><img src="sennen.png"alt="メールアドレスの画像"></a>
+</td>
+<td align=left>
+Mail to:<br>
+<img src="mail.png"alt="メールアドレスの画像">
+</td>
+</table>
+</p>
+</div>
+
+
+</div>
+
+
+<hr class="none">
+
+</div>
+<!-- サイドバー(B)終了 -->
+
+
+<!-- メインカラム開始 -->
+<div id="main">
+
+<div class="pageTitle">
+<table width="100%">
+<td align="left">
+<h1>広島ガイド</h1>
+</td>
+<td align="right">
+<a href=./index.shtml><font color="white">＜トップナンバー</font></a>
+<font color="white">｜</font><a href=http://ictmax.jpn.ph/~Hiroshima_Guide/b/svb5albwrp6ROvlg.html><font color="white">バックナンバー＞</font></a>
+</td>
+</table>
+
+</div>
+
+<div class="section normal">
+
+<HTML>
+    <HEAD>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="style_light.css">
+
+        <TITLE>
+            SenNen's Okage
+        </TITLE>
+    </HEAD>
+<BODY>
+
+<div id="rss_feed">
+  <p id="feed_description"></p>
+  <ul class="items_record">
+    <li class="items_area">
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://feedproxy.google.com/~r/Hiroshima_Guide/~3/VtMhr0fGPSE/url" title="広島が首位再浮上 横浜Ｍと勝ち点５３で並ぶ - MSN産経ニュース"><strong>広島が首位再浮上 横浜Ｍと勝ち点５３で並ぶ - MSN産経ニュース</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNFOCmMQduAQuco_lfL0Q7oYdzwt1Q&amp;url=http://www.asahi.com/sports/articles/SEB201310050037.html"><img src="//t1.gstatic.com/images?q=tbn:ANd9GcSxxe2AXICFtUZA95tk2wFQCM0HfiC0c5HjwJV5zxyKZMwIH_-NdmGOyzC1PHvX5Gt2CtX7U_Yx" alt="" border="1" width="80" height="80" /><br /><font size="-2">朝日新聞</font></a></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNGGF9zsroPYTqM8tz1WAesoU3S1Jw&amp;url=http://sankei.jp.msn.com/sports/news/131005/scr13100521250007-n1.htm"><b><b>広島</b>が首位再浮上 横浜Ｍと勝ち点５３で並ぶ</b></a><br /><font size="-1"><b><font color="#6f6f6f">MSN産経ニュース</font></b></font><br /><font size="-1">Ｊ１第２８節第１日（５日・大分銀行ドームほか＝８試合）最下位の大分はＣ大阪に０－２で敗れ、勝ち点１０のままで６試合を残して１６位以下が決定、Ｊ１在籍１シーズンでＪ２降格が決まった。 <b>広島</b>は野津田の２点で清水に３－１で逆転勝ちし、３連勝。甲府と０－０で引き分けた&nbsp;<b>...</b></font><br /><font size="-1"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNFIqzDEhbRM8oYVs621BNAzy0LKjQ&amp;url=http://www.nikkei.com/article/DGXNSSXKG0578_V01C13A0000000/"><b>広島</b>が首位再浮上 大分のＪ２降格決定</a><font size="-1" color="#6f6f6f"><nobr>日本経済新聞</nobr></font></font><br /><font size="-1"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNExSQ2Py5_qvglq2qrO3aN3c7gk4w&amp;url=http://www.jiji.com/jc/c?g%3Dspo_30%26k%3D2013100500246"><b>広島</b>が首位浮上＝大分の降格決まる－Ｊ１</a><font size="-1" color="#6f6f6f"><nobr>時事通信</nobr></font></font><br /><font size="-1"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNGbDZmR1vXTD7paILuGP0Tx2c3NDw&amp;url=http://www.nagasaki-np.co.jp/f24/CO20131005/sp2013100501002267.shtml">大分のＪ２降格決定</a><font size="-1" color="#6f6f6f"><nobr>長崎新聞</nobr></font></font><br /><font size="-1" class="p"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNEj8oKgmPxNB1EqkR92tQzbuCHnmQ&amp;url=http://hochi.yomiuri.co.jp/soccer/jleague/news/20131006-OHT1T00014.htm"><nobr>スポーツ報知</nobr></a>&nbsp;-<a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNFJe9hTYP8Wrf7IPiZ76x-8RSBvcQ&amp;url=http://www.yomiuri.co.jp/sports/soccer/news/20131005-OYT1T00727.htm"><nobr>読売新聞</nobr></a></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=d5jIFMcm4oPSKzMV_bDCZz8TuNGYM&amp;ned=us&amp;hl=ja"><nobr><b>all 32 news articles&nbsp;&raquo;</b></nobr></a></font></div></font></td></tr></table><img src="http://feeds.feedburner.com/~r/Hiroshima_Guide/~4/VtMhr0fGPSE" height="1" width="1"/></p>
+      <p class="feed_date_time">10/05/2013 09:27 PM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://feedproxy.google.com/~r/Hiroshima_Guide/~3/45Egzyc8LfQ/url" title="【広島】ラッキーボーイ１９歳・野津田で奪首！ - スポーツ報知"><strong>【広島】ラッキーボーイ１９歳・野津田で奪首！ - スポーツ報知</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNHueY-XyQDa-nOAiQpYEDVcPqfHlA&amp;url=http://hochi.yomiuri.co.jp/soccer/jleague/news/20131006-OHT1T00008.htm"><b>【<b>広島</b>】ラッキーボーイ１９歳・野津田で奪首！</b></a><br /><font size="-1"><b><font color="#6f6f6f">スポーツ報知</font></b></font><br /><font size="-1">◇Ｊ１第２８節 <b>広島</b>３―１清水（５日・エディオンスタジアム<b>広島</b>） 浦和が「さいたまダービー」史上最多得点差となる４―０で大宮に圧勝した。ダービーのホーム戦では７年ぶりの勝利となり、清水を３―１で下して首位に立った<b>広島</b>とは勝ち点２差。前節まで首位の横浜Ｍは甲府&nbsp;<b>...</b></font><br /><font size="-1"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNH8ZDLYFkE7-IRzCta7wML2br7tiA&amp;url=http://sankei.jp.msn.com/sports/news/131005/scr13100520420006-n1.htm">【Ｊリーグ】 <b>広島</b>、ルーキー野津田２ゴールで逆転 首位攻防戦へ弾み</a><font size="-1" color="#6f6f6f"><nobr>MSN産経ニュース</nobr></font></font><br /><font size="-1"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNGchX_xAKqKthhkFuhDkLoXfY0RZg&amp;url=http://www.nikkansports.com/soccer/news/f-sc-tp1-20131005-1199694.html"><b>広島</b>３連勝 野津田が２発／第28節</a><font size="-1" color="#6f6f6f"><nobr>日刊スポーツ</nobr></font></font><br /><font size="-1"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNHjsglivKzfVDge8YD4Vw5CFXJJlA&amp;url=http://web.gekisaka.jp/404422_126258_fl">2位<b>広島</b>が3連勝!!野津田の2ゴールなどで清水に逆転勝ち</a><font size="-1" color="#6f6f6f"><nobr>ゲキサカ</nobr></font></font><br /><font size="-1" class="p"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNGhvLFlL-By1FYnjDmoVAMk4ZgNmA&amp;url=http://www.sponichi.co.jp/soccer/news/2013/10/06/kiji/K20131006006757870.html"><nobr>スポーツニッポン</nobr></a>&nbsp;-<a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNE9yAm65dP8XQflO1wWD6FodIY9Nw&amp;url=http://number.bunshun.jp/articles/-/708124"><nobr>Number Web</nobr></a>&nbsp;-<a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNFLsZFZoPqS-0wyRzLO7TUXW8KBPA&amp;url=http://www.jiji.com/jc/c?g%3Dspo_30%26k%3D2013100500328"><nobr>時事通信</nobr></a></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=dh9xmBBTJKljfyMGLoPBgBd8LTn1M&amp;ned=us&amp;hl=ja"><nobr><b>all 12 news articles&nbsp;&raquo;</b></nobr></a></font></div></font></td></tr></table><img src="http://feeds.feedburner.com/~r/Hiroshima_Guide/~4/45Egzyc8LfQ" height="1" width="1"/></p>
+      <p class="feed_date_time">10/06/2013 06:20 AM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://feedproxy.google.com/~r/Hiroshima_Guide/~3/CH1E1nOIhoc/url" title="Ｊ１ 広島が得失点差で首位に - NHK"><strong>Ｊ１ 広島が得失点差で首位に - NHK</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNFtoOCnIWWZhCVcdDB5_ApEKSUSWA&amp;url=http://www3.nhk.or.jp/news/html/20131005/k10015062011000.html"><b>Ｊ１ <b>広島</b>が得失点差で首位に</b></a><br /><font size="-1"><b><font color="#6f6f6f">NHK</font></b></font><br /><font size="-1">首位を争う横浜Ｆ・マリノスは引き分け、サンフレッチェ<b>広島</b>は勝ったため、勝ち点で並び、得失点差でサンフレッチェが首位に浮上しました。 ▽大分トリニータはホームでセレッソ大阪と対戦し、０対２で敗れ、６連敗。 この結果トリニータは６試合を残して１６位以下が確定し、来&nbsp;<b>...</b></font><br /><font size="-1" class="p"></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=dcZOBtdvKkMe7qM&amp;ned=us&amp;hl=ja"><nobr><b></b></nobr></a></font></div></font></td></tr></table><img src="http://feeds.feedburner.com/~r/Hiroshima_Guide/~4/CH1E1nOIhoc" height="1" width="1"/></p>
+      <p class="feed_date_time">10/05/2013 10:25 PM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://feedproxy.google.com/~r/Hiroshima_Guide/~3/R6ew7NwGcFE/url" title="蔵出しみそ 香り最高 府中市の製造元で催し - 読売新聞"><strong>蔵出しみそ 香り最高 府中市の製造元で催し - 読売新聞</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNFz-PhJmEiNsqRHx_Tf_3w185ZfwA&amp;url=http://www.yomiuri.co.jp/e-japan/hiroshima/news/20131005-OYT8T00983.htm"><b>蔵出しみそ 香り最高 <b>府中市</b>の製造元で催し</b></a><br /><font size="-1"><b><font color="#6f6f6f">読売新聞</font></b></font><br /><font size="-1">蔵出しみそ 香り最高 <b>府中市</b>の製造元で催し. <b>府中市</b>特産の「府中味噌(みそ)」を知ってもらおうと製造元の一つ「浅野味噌」が５日、同市<b>府中町</b>の同社特設会場で恒例の「蔵祭り」を開き、家族連れらでにぎわった。６日まで。 同市周辺は、良質の大豆や米、水が手に入ることから、&nbsp;<b>...</b></font><br /><font size="-1" class="p"></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=dOFpCCuoZ4kdyjM&amp;ned=us&amp;hl=ja"><nobr><b></b></nobr></a></font></div></font></td></tr></table><img src="http://feeds.feedburner.com/~r/Hiroshima_Guide/~4/R6ew7NwGcFE" height="1" width="1"/></p>
+      <p class="feed_date_time">10/06/2013 05:13 AM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://feedproxy.google.com/~r/Hiroshima_Guide/~3/Sb-p0DQWAfc/url" title="広島市職員１７６９人「飲酒運転経験ある」 - 読売新聞"><strong>広島市職員１７６９人「飲酒運転経験ある」 - 読売新聞</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNHrWZXtfDOKxR8HwJha-HHVpQ3EOg&amp;url=http://www.chugoku-np.co.jp/News/Tn201310060016.html"><img src="//t1.gstatic.com/images?q=tbn:ANd9GcRSffVbp1HGFt9TgScldG6oOHK6iqC3ckoCiHezLTCxhgGuBdc14xsgS_xN-UOI_XmyYhwxN4Qb" alt="" border="1" width="80" height="80" /><br /><font size="-2">中国新聞</font></a></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNENRoTtHv8uhTP_Qhm1Vf2BOchbkw&amp;url=http://www.yomiuri.co.jp/e-japan/hiroshima/news/20131005-OYT8T00989.htm"><b><b>広島</b>市職員１７６９人「飲酒運転経験ある」</b></a><br /><font size="-1"><b><font color="#6f6f6f">読売新聞</font></b></font><br /><font size="-1"><b>広島</b>市職員１７６９人「飲酒運転経験ある」. <b>広島</b>市の職員や教職員２万１８１７人中１７６９人（８・１％）が飲酒運転をしていたことが、市の調査でわかった。このうち１２６人は過去５年内。市は「個別に約束させた防止策を徹底し、注意喚起を強める」としている。 同市によると、職員の&nbsp;<b>...</b></font><br /><font size="-1"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNGzB_1T9WcsfTtaeM0z-fKOcRUwAg&amp;url=http://www.asahi.com/national/update/1005/OSK201310050004.html?ref%3Dcom_top6_2nd"><b>広島</b>市職員、１７６９人が飲酒運転経験 全職員を調査</a><font size="-1" color="#6f6f6f"><nobr>朝日新聞</nobr></font></font><br /><font size="-1"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNFUwbLAcCmNJxTlci3f9dzBCCVyIA&amp;url=http://www.sponichi.co.jp/society/news/2013/10/06/kiji/K20131006006757430.html"><b>広島</b>市 全職員の８％が酒気帯び運転したと回答</a><font size="-1" color="#6f6f6f"><nobr>スポーツニッポン</nobr></font></font><br /><font size="-1"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNHrWZXtfDOKxR8HwJha-HHVpQ3EOg&amp;url=http://www.chugoku-np.co.jp/News/Tn201310060016.html"><b>広島</b>市職員８％飲酒運転経験</a><font size="-1" color="#6f6f6f"><nobr>中国新聞</nobr></font></font><br /><font size="-1" class="p"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNEmrx5SkQJwjErgjHYY-2P5P8VO8A&amp;url=http://news.livedoor.com/article/detail/8130814/"><nobr>livedoor</nobr></a></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=diUnPFuXAY4nAlMeibLV1h3cnib_M&amp;ned=us&amp;hl=ja"><nobr><b>all 9 news articles&nbsp;&raquo;</b></nobr></a></font></div></font></td></tr></table><img src="http://feeds.feedburner.com/~r/Hiroshima_Guide/~4/Sb-p0DQWAfc" height="1" width="1"/></p>
+      <p class="feed_date_time">10/06/2013 05:13 AM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://feedproxy.google.com/~r/Hiroshima_Guide/~3/QWYyf37SKaI/url" title="ＪＣ全国大会16年は広島で - 中国新聞"><strong>ＪＣ全国大会16年は広島で - 中国新聞</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNG7pUheS1HDsxuULKZLPoCCwHRYyQ&amp;url=http://www.chugoku-np.co.jp/News/Tn201310050163.html"><b>ＪＣ全国大会16年は<b>広島</b>で</b></a><br /><font size="-1"><b><font color="#6f6f6f">中国新聞</font></b></font><br /><font size="-1">日本青年会議所（ＪＣ）が２０１６年に予定する全国大会の開催地が４日、<b>広島</b>市に決まった。奈良市であった理事会で決定した。<b>広島</b>での開催は１９８５年以来、３１年ぶり４回目となる。 <b>広島</b>ＪＣが１２年から誘致活動を展開してきた。東日本大震災からの復興などが課題となる中、&nbsp;<b>...</b></font><br /><font size="-1" class="p"></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=dTYCPaHRdwsN09M&amp;ned=us&amp;hl=ja"><nobr><b></b></nobr></a></font></div></font></td></tr></table><img src="http://feeds.feedburner.com/~r/Hiroshima_Guide/~4/QWYyf37SKaI" height="1" width="1"/></p>
+      <p class="feed_date_time">10/05/2013 04:26 PM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://feedproxy.google.com/~r/Hiroshima_Guide/~3/T40-SF6STCA/url" title="「江の川大図鑑」展:自然や暮らしを紹介−−三次 ／広島 - 毎日新聞"><strong>「江の川大図鑑」展:自然や暮らしを紹介−−三次 ／広島 - 毎日新聞</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNEPXq5F26yeHXdBihOkEq7CiXP4qw&amp;url=http://mainichi.jp/feature/news/20131005ddlk34040517000c.html"><b>「江の川大図鑑」展:自然や暮らしを紹介−−三次 ／<b>広島</b></b></a><br /><font size="-1"><b><font color="#6f6f6f">毎日新聞</font></b></font><br /><font size="-1">江の川大図鑑」展:自然や暮らしを紹介−−三次 ／<b>広島</b>. 毎日新聞 2013年10月05日 地方版. 県立歴史民俗資料館（<b>三次市</b>小田幸町）で４日、秋の特別企画展「江の川大図鑑」が始まった。１１月２４日まで、月曜休館（祝日は開館）。 県内から島根県江津市まで、中国山地を貫い&nbsp;<b>...</b></font><br /><font size="-1" class="p"></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=doZLHz8Eost8VKM&amp;ned=us&amp;hl=ja"><nobr><b></b></nobr></a></font></div></font></td></tr></table><img src="http://feeds.feedburner.com/~r/Hiroshima_Guide/~4/T40-SF6STCA" height="1" width="1"/></p>
+      <p class="feed_date_time">10/05/2013 04:35 PM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://feedproxy.google.com/~r/Hiroshima_Guide/~3/tfzx8IXE_Y0/url" title="広島県議３人メキシコと米へ - 中国新聞"><strong>広島県議３人メキシコと米へ - 中国新聞</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNHRUs20rMLwBZLf3CxbGuDbfTFDdw&amp;url=http://www.chugoku-np.co.jp/News/Tn201310050166.html"><b><b>広島</b>県議３人メキシコと米へ</b></a><br /><font size="-1"><b><font color="#6f6f6f">中国新聞</font></b></font><br /><font size="-1"><b>広島</b>県議会は４日の本会議で、県議３人を１１月８～１５日の８日間、メキシコと米国に派遣すると決めた。任期中 <b>...</b> 共産党の辻恒雄氏（<b>福山市</b>）は「県財政が厳しい中、公費で海外に行く必要性が分からない」、つばさの佐藤一直氏（中区）は「費用対効果が分かりにくい」と指摘。</font><br /><font size="-1" class="p"></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=d6DkRrOBaXOhFpM&amp;ned=us&amp;hl=ja"><nobr><b></b></nobr></a></font></div></font></td></tr></table><img src="http://feeds.feedburner.com/~r/Hiroshima_Guide/~4/tfzx8IXE_Y0" height="1" width="1"/></p>
+      <p class="feed_date_time">10/05/2013 04:26 PM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://feedproxy.google.com/~r/Hiroshima_Guide/~3/fPsMA99qkvc/url" title="江戸の広島をめぐる 県立美術館 浅野家ゆかりの「名品展」開幕 - MSN産経ニュース"><strong>江戸の広島をめぐる 県立美術館 浅野家ゆかりの「名品展」開幕 - MSN産経ニュース</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNFfNpbLOk0gV_wHsum6KPIcyaNOGA&amp;url=http://sankei.jp.msn.com/region/news/131006/hrs13100602390000-n1.htm"><b>江戸の<b>広島</b>をめぐる 県立美術館 浅野家ゆかりの「名品展」開幕</b></a><br /><font size="-1"><b><font color="#6f6f6f">MSN産経ニュース</font></b></font><br /><font size="-1"><b>広島</b>藩主だった浅野家ゆかりの古文書などを紹介する「江戸の<b>広島</b>をめぐる名品展」が５日、<b>広島</b>市中区上幟町の<b>広島</b>県立美術館で開幕した。浅野家が大正１２年１０月に開設した日本初の私立美術館「観古館」の誕生１００年を記念し、跡地に建つ同美術館が、やはり藩主家&nbsp;<b>...</b></font><br /><font size="-1" class="p"></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=dlaOlyBT7J5MDgM&amp;ned=us&amp;hl=ja"><nobr><b></b></nobr></a></font></div></font></td></tr></table><img src="http://feeds.feedburner.com/~r/Hiroshima_Guide/~4/fPsMA99qkvc" height="1" width="1"/></p>
+      <p class="feed_date_time">10/06/2013 02:42 AM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://feedproxy.google.com/~r/Hiroshima_Guide/~3/GK6m5CLEObs/url" title="広島７神楽団が無料公演 - 中国新聞"><strong>広島７神楽団が無料公演 - 中国新聞</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNGwhg7tQWMRMVoGQNJLYhAZt0gSjQ&amp;url=http://www.chugoku-np.co.jp/News/Tn201310050079.html"><img src="//t1.gstatic.com/images?q=tbn:ANd9GcR2SoToAPj36acqmHPUy9Yt_amoI3bSvxywWdsOceR_q91VOzpfJinK5WSTyrhrIFfwDaxrJ98" alt="" border="1" width="80" height="80" /><br /><font size="-2">中国新聞</font></a></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNGwhg7tQWMRMVoGQNJLYhAZt0gSjQ&amp;url=http://www.chugoku-np.co.jp/News/Tn201310050079.html"><b><b>広島</b>７神楽団が無料公演</b></a><br /><font size="-1"><b><font color="#6f6f6f">中国新聞</font></b></font><br /><font size="-1"><b>広島</b>県内の７神楽団が６日、<b>広島</b>市南区のエールエール地下広場と、中区の紙屋町地下街シャレオ中央広場で無料公演をする。<b>広島</b>、<b>安芸高田市</b>、北<b>広島</b>町など７市町でつくる<b>広島</b>広域都市圏協議会の神楽まち起こし協議会が主催。「ひろしま神楽の日」と題し、郷土芸能をＰＲ&nbsp;<b>...</b></font><br /><font size="-1" class="p"></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=dkWiwtErgKt1BYM&amp;ned=us&amp;hl=ja"><nobr><b></b></nobr></a></font></div></font></td></tr></table><img src="http://feeds.feedburner.com/~r/Hiroshima_Guide/~4/GK6m5CLEObs" height="1" width="1"/></p>
+      <p class="feed_date_time">10/05/2013 01:49 PM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://feedproxy.google.com/~r/Hiroshima_Guide/~3/1QRQQqrJWW0/url" title="【広島】マエケン、スライド先発 中５日でＣＳへ - スポーツ報知"><strong>【広島】マエケン、スライド先発 中５日でＣＳへ - スポーツ報知</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNG8oIlkk1Z9xYbZEAbf3PmZQr8Apw&amp;url=http://hochi.yomiuri.co.jp/baseball/npb/news/20131005-OHT1T00182.htm"><b>【<b>広島</b>】マエケン、スライド先発 中５日でＣＳへ</b></a><br /><font size="-1"><b><font color="#6f6f6f">スポーツ報知</font></b></font><br /><font size="-1"><b>広島</b>―ヤクルト＝雨天中止＝（４日・マツダスタジアム） <b>広島</b>は当初の計算が狂った。前田健が６日にスライド登板することになり、１２日のクライマックスシリーズ（ＣＳ）ファーストステージ初戦には予定より１日短い登板間隔で臨むことになった。 エースは「中５日でしょ。大丈夫。</font><br /><font size="-1"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNHh9f86WaHplnfeLwnNiMZGsoJxnA&amp;url=http://www.nikkansports.com/baseball/news/f-bb-tp0-20131005-1200276.html">【<b>広島</b>】マエケン雨天中止でスライド登板</a><font size="-1" color="#6f6f6f"><nobr>日刊スポーツ</nobr></font></font><br /><font size="-1"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNELmUEo1K7pmAK3Vyjdd0R6zIPhBA&amp;url=http://www.sponichi.co.jp/baseball/news/2013/10/06/kiji/K20131006006755250.html">マエケン ヤクルト戦スライド登板へ ＣＳ調整に誤算</a><font size="-1" color="#6f6f6f"><nobr>スポーツニッポン</nobr></font></font><br /><font size="-1" class="p"></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=dpydnFN0UnYaAIMcroaxDUClcLIPM&amp;ned=us&amp;hl=ja"><nobr><b>all 4 news articles&nbsp;&raquo;</b></nobr></a></font></div></font></td></tr></table><img src="http://feeds.feedburner.com/~r/Hiroshima_Guide/~4/1QRQQqrJWW0" height="1" width="1"/></p>
+      <p class="feed_date_time">10/05/2013 08:58 PM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://feedproxy.google.com/~r/Hiroshima_Guide/~3/tDN_XO6m6v4/url" title="「景観づくり大賞」写真を募集 広島県景観会議 - MSN産経ニュース"><strong>「景観づくり大賞」写真を募集 広島県景観会議 - MSN産経ニュース</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNEbFXyYCj2OAdfktwQyn9yaLRQ0LA&amp;url=http://sankei.jp.msn.com/region/news/131006/hrs13100602390001-n1.htm"><b>「景観づくり大賞」写真を募集 <b>広島</b>県景観会議</b></a><br /><font size="-1"><b><font color="#6f6f6f">MSN産経ニュース</font></b></font><br /><font size="-1">景観づくり大賞」写真を募集 <b>広島</b>県景観会議. 2013.10.6 02:40. <b>広島</b>県内の優れた景観を伝える「景観づくり大賞」にエントリーする写真の募集を、<b>広島</b>県景観会議が始めた。募集する作品には、四季の移り変わりや歴史の重みなどが感じられる「風景・まちなみ」と、周辺の景観と&nbsp;<b>...</b></font><br /><font size="-1" class="p"></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=d7kmfa3V8vF-4gM&amp;ned=us&amp;hl=ja"><nobr><b></b></nobr></a></font></div></font></td></tr></table><img src="http://feeds.feedburner.com/~r/Hiroshima_Guide/~4/tDN_XO6m6v4" height="1" width="1"/></p>
+      <p class="feed_date_time">10/06/2013 02:42 AM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://feedproxy.google.com/~r/Hiroshima_Guide/~3/e-Z9oBkNIrI/url" title="道央道・輪厚スマートＩＣ 北広島市、２４時間化を検討 - 北海道新聞"><strong>道央道・輪厚スマートＩＣ 北広島市、２４時間化を検討 - 北海道新聞</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNGn5fd1ibtGebaCQuQvHwoJ9RUsvA&amp;url=http://www.hokkaido-np.co.jp/news/sapporo/496185.html"><b>道央道・輪厚スマートＩＣ 北<b>広島</b>市、２４時間化を検討</b></a><br /><font size="-1"><b><font color="#6f6f6f">北海道新聞</font></b></font><br /><font size="-1">【北<b>広島</b>】道央自動車道の輪厚スマートインターチェンジ（ＩＣ）が開業５年目を迎え、利用台数が増えている。当初の１日の計画交通量１１００台に対し、昨年７月～今年６月の平均は１７２６台。利用者からの「２４時間使いたい」との要望を受け、市は交通量を調査し、２４時間化できる&nbsp;<b>...</b></font><br /><font size="-1" class="p"></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=dyfUc0NY6e4V4GM&amp;ned=us&amp;hl=ja"><nobr><b></b></nobr></a></font></div></font></td></tr></table><img src="http://feeds.feedburner.com/~r/Hiroshima_Guide/~4/e-Z9oBkNIrI" height="1" width="1"/></p>
+      <p class="feed_date_time">10/06/2013 12:03 AM</p>
+      
+<br id="cb">
+    </li>
+  </ul>
+</div>
+
+
+    </BODY>
+</HTML>
+
+
+</div>
+
+
+</div>
+<!-- メインカラム終了 -->
+
+
+
+
+<!-- フッタ開始 -->
+<div id="footer">
+
+<address>
+Copyright (C) <script language="javascript">document.write(new Date().getFullYear())</script>  <a href="http://ictmax.info">レンタルサーバ[ICTmax]</a>. All Rights Reserved.
+</address>
+
+</div>
+<!-- フッタ終了 -->
+
+
+</div>
+<!-- ページ終了 -->
+
+</div>
+<!-- コンテナ終了 -->
+
+</body>
+</html>

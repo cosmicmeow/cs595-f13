@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang=en>
+    <head> 
+        <meta charset=utf-8>
+        <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+        <title>Error 404 (Not Found)</title>
+        <style>
+        * {margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:auto;width:700px;padding:30px 0 15px}h1{font-size:24px;font-weight:bold;margin-bottom:30px;}h2{font-weight:normal;font-size:18px;color:#666666;margin-bottom:20px;}div.job {margin: 0;padding-bottom: 14px;}div.job p {line-height: 16px;margin-bottom: 0;margin-top: 0;padding: 0;}div.job .company_compact {color: #666666;padding: 0;}div.job .locations_compact {color: #666666;line-height: 16px;text-decoration: none;}div.job .site, div.job .source {color: #099E2D;padding: 0;}a img{border:0}\@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}a.title_compact {font-size: 14px;font-weight: bold;}a {color: #2366B6;outline: medium none;text-decoration: underline;}
+#search_button {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #E5E5E5;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #F1;
+  color: #2366B6;
+}
+
+        </style>
+    </head>
+    <body>
+        <h1>Sorry, this job is no longer available</h1>
+        <h2>Please find similar job offers:</h2>
+        
+            <div class="job">
+                <p style="padding-bottom:4px;">
+                    <a class="title_compact" rel="nofollow" itemprop="title" 
+                       onclick="document.cookie='so=0;path=/'; document.cookie='as=1; path=/' ; return true ;" 
+                       href="http://jobviewtrack.com/en-us/job-1f1f412c1a575b5c254516545052/63f4f57a9d920d63544df624d950af6c.html">Junior Online business operators</a>
+                </p>
+                <p style="padding-bottom:4px;">
+                    
+                        <span class="company_compact">Proprofit Worldwide Ltd.</span>&nbsp;-&nbsp;
+                    
+                    <span class="locations_compact">
+                        <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation">
+                            <span class="location" itemtype="http://schema.org/Postaladdress" itemscope="" itemprop="address">
+                                <span itemprop="addressLocality">Los Angeles, CA - New York City, NY</span>
+                            </span>
+                        </span>
+                    </span>
+                    
+                </p>
+                <p class="advertise_compact" itemprop="description">SFI (Strong Future International) Marketing Group was launched in 1998. Starting with just one product, sold only in the United States, SFI has now grown to more than 79000 products and services (and growing daily) sold in more than 190 cou...</p>
+                <p style="padding-top:3px;">
+                    <span class="source">
+                        www.proprofit.info
+                    </span>
+                    
+                        &nbsp;-&nbsp;<span class="date_compact">
+                            October 06
+                        </span>
+                    
+                 </p>
+            </div>
+        
+            <div class="job">
+                <p style="padding-bottom:4px;">
+                    <a class="title_compact" rel="nofollow" itemprop="title" 
+                       onclick="document.cookie='so=0;path=/'; document.cookie='as=1; path=/' ; return true ;" 
+                       href="http://jobviewtrack.com/en-us/job-4b4a412c1c52585614/26651710b304a2d5c489cc0928668866.html">Need Good Miles and More Money?</a>
+                </p>
+                <p style="padding-bottom:4px;">
+                    
+                        <span class="company_compact">Driver Recruiting</span>&nbsp;-&nbsp;
+                    
+                    <span class="locations_compact">
+                        <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation">
+                            <span class="location" itemtype="http://schema.org/Postaladdress" itemscope="" itemprop="address">
+                                <span itemprop="addressLocality">New York City, NY</span>
+                            </span>
+                        </span>
+                    </span>
+                    
+                </p>
+                <p class="advertise_compact" itemprop="description"> Need Good Miles and More Money? Over The Road Jobs Starting AT 37 Cents Per Mile14 days on 2 Days OffEast of I-35 No New York Or CanadaFull Benefits 401k matching 7%Work For Something and Stop Working for NothingHave Clean Driving Record!...</p>
+                <p style="padding-top:3px;">
+                    <span class="source">
+                        www.getit.me
+                    </span>
+                    
+                        &nbsp;-&nbsp;<span class="date_compact">
+                            October 06
+                        </span>
+                    
+                 </p>
+            </div>
+        
+            <div class="job">
+                <p style="padding-bottom:4px;">
+                    <a class="title_compact" rel="nofollow" itemprop="title" 
+                       onclick="document.cookie='so=0;path=/'; document.cookie='as=1; path=/' ; return true ;" 
+                       href="http://jobviewtrack.com/en-us/job-4b4a412c1c52585614/f821046a111e63960e10e9cd04dcee3f.html">Senior Caregivers needed. Big plus for licensed drivers</a>
+                </p>
+                <p style="padding-bottom:4px;">
+                    
+                        <span class="company_compact">Senior Helpers</span>&nbsp;-&nbsp;
+                    
+                    <span class="locations_compact">
+                        <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation">
+                            <span class="location" itemtype="http://schema.org/Postaladdress" itemscope="" itemprop="address">
+                                <span itemprop="addressLocality">New York City, NY</span>
+                            </span>
+                        </span>
+                    </span>
+                    
+                </p>
+                <p class="advertise_compact" itemprop="description"> Senior Caregivers needed. Big plus for licensed drivers! Are you looking for a fulfilling and flexible job as a caregiver in one of the five boroughs or southern Westchester? Senior Helpers provides non-medical, in-home care to the elderly...</p>
+                <p style="padding-top:3px;">
+                    <span class="source">
+                        www.getit.me
+                    </span>
+                    
+                        &nbsp;-&nbsp;<span class="date_compact">
+                            October 06
+                        </span>
+                    
+                 </p>
+            </div>
+        
+            <div class="job">
+                <p style="padding-bottom:4px;">
+                    <a class="title_compact" rel="nofollow" itemprop="title" 
+                       onclick="document.cookie='so=0;path=/'; document.cookie='as=1; path=/' ; return true ;" 
+                       href="http://jobviewtrack.com/en-us/job-4b4a412c1c52585614/246c809e8767f270954bd96742aae08e.html">Top Flight Owner Operators Needed</a>
+                </p>
+                <p style="padding-bottom:4px;">
+                    
+                        <span class="company_compact">National Trucker Services</span>&nbsp;-&nbsp;
+                    
+                    <span class="locations_compact">
+                        <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation">
+                            <span class="location" itemtype="http://schema.org/Postaladdress" itemscope="" itemprop="address">
+                                <span itemprop="addressLocality">New York City, NY</span>
+                            </span>
+                        </span>
+                    </span>
+                    
+                </p>
+                <p class="advertise_compact" itemprop="description"> Top Flight Owner Operators Needed Owner Operator with own authority Tractor-Trailer Owner Operators with their own authority needed in your area to run in our Power Only Program. You run your truck and pull our trailers and freight. You ke...</p>
+                <p style="padding-top:3px;">
+                    <span class="source">
+                        www.getit.me
+                    </span>
+                    
+                        &nbsp;-&nbsp;<span class="date_compact">
+                            October 06
+                        </span>
+                    
+                 </p>
+            </div>
+        
+            <div class="job">
+                <p style="padding-bottom:4px;">
+                    <a class="title_compact" rel="nofollow" itemprop="title" 
+                       onclick="document.cookie='so=0;path=/'; document.cookie='as=1; path=/' ; return true ;" 
+                       href="http://jobviewtrack.com/en-us/job-1c1e412c1f565d5a134122525b/d88903c85d8385d311f391495098d85d.html">Pharmaceutical Sales Specialist - Diabetes D1 - Brooklyn SE, NY</a>
+                </p>
+                <p style="padding-bottom:4px;">
+                    
+                        <span class="company_compact">AstraZeneca US</span>&nbsp;-&nbsp;
+                    
+                    <span class="locations_compact">
+                        <span itemtype="http://schema.org/Place" itemscope="" itemprop="jobLocation">
+                            <span class="location" itemtype="http://schema.org/Postaladdress" itemscope="" itemprop="address">
+                                <span itemprop="addressLocality">Brooklyn, NY - Central America</span>
+                            </span>
+                        </span>
+                    </span>
+                    
+                </p>
+                <p class="advertise_compact" itemprop="description">- Develop superior product and disease state knowledge and effectively educate and engage healthcare professionals in dialogue about clinical evidence, approved indications, and product efficacy/safety profiles to support on-label prescribi...</p>
+                <p style="padding-top:3px;">
+                    <span class="source">
+                        www.newscientist.com
+                    </span>
+                    
+                        &nbsp;-&nbsp;<span class="date_compact">
+                            October 06
+                        </span>
+                    
+                 </p>
+            </div>
+        
+        
+    </body>
+</html>

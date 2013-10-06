@@ -1,0 +1,421 @@
+<!doctype html>
+
+<!--[if lt IE 8]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if IE 9]><!--><html class="no-js ie9" lang="en"><!--<![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+	<head>
+		<meta charset="utf-8" />
+
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+		
+		<link rel="dns-prefetch" href="/static/c-0602c0c/" />
+
+		
+		<link rel="static-url" href="/static/c-0602c0c/" />
+
+		<title>The Hunger Games Explorer </title>
+
+		<meta name="description" content="See the new #CatchingFireTrailer &amp; #CelebrateYourVictors at the #HungerGamesExplorer to earn rewards! - www.theHungerGamesExplorer.com" />
+		<meta name="author" content="Lionsgate" />
+
+		
+		<meta name="viewport" content="width=320, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+
+		
+		<meta name="application-name" content="The Hunger Games Explorer " />
+		<meta name="msapplication-tooltip" content="The official website for all things Hunger Games" />
+		<meta name="msapplication-TileImage" content="/static/c-0602c0c/img/share/144x144.png"/>
+		<meta name="msapplication-square70x70logo" content="/static/c-0602c0c/img/share/70x70.jpg" />
+		<meta name="msapplication-square150x150logo" content="/static/c-0602c0c/img/share/150x150.jpg" />
+		<meta name="msapplication-wide310x150logo" content="/static/c-0602c0c/img/share/310x150.jpg" />
+		<meta name="msapplication-square310x310logo" content="/static/c-0602c0c/img/share/310x310.jpg" />
+		<meta name="msapplication-TileColor" content="#222222"/>
+		<link rel="shortcut icon" href="/static/c-0602c0c/local/favicon.ico"/>
+
+		
+
+		
+		<link rel="stylesheet" id="caboose" href="/static/c-0602c0c/css/style.css" />
+		<link rel="stylesheet" id="svg" href="/static/c-0602c0c/css/svg/svg.css" />
+
+		<!--[if IE]><link rel="stylesheet" href="/static/c-0602c0c/css/ie.css" /><![endif]-->
+
+		
+		<meta property="fb:app_id" content="556290061081829" />
+		<meta property="og:title" content="The Hunger Games Explorer | #TickTock9 - Official ‘The Hunger Games: Catching Fire’ soundtrack list announced!" />
+		<meta property="og:image" content="http://0707c778e0f1481535fe-36b693bb9065cd15445b260c56542cbf.r55.cf2.rackcdn.com//assets/0af281dc-2644-11e3-964f-bc764e10b8f4.jpg" />
+		<meta property="og:site_name" content="The Hunger Games Explorer" />
+		<meta property="og:description" content="I can&#39;t wait to hear The Hunger Games: #CatchingFire Soundtrack! See the full tracklist at http://hungrgam.es/TT9 - #TickTock9" />
+		<meta property="og:url" content="http://www.thehungergamesexplorer.com/competitions/hashtag/TickTock9/" />
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="en_us" />
+
+		
+		<meta name="google-site-verification" content="RLgp04mzUkx_RKRkjtBnzphL5227cE3jfLNT8TsYd48" />
+
+		
+		
+		<script src="/static/c-0602c0c/js/libs/modernizr.min.js?ver=2"></script>
+		<script type="text/javascript" src="//use.typekit.net/opg5blg.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script></head>
+	<body class="competitions">
+		<div id="container">
+			<header class="logged-out " data-flex-height="fixed">
+				<a href="/us/" class="hge-logo">
+					<h1>The Hunger Games <span>Explorer</span></h1>
+				</a>
+				<div class="user">
+					<div class="account">
+						
+							<a class="login-button icon-facebook" href="/login/facebook?next=/profile/"></a>
+							<a class="login-button icon-twitter" href="/login/twitter?next=/profile/"></a>
+							<a class="login-mobile" href="#/login">Login</a>
+						
+					</div>
+					
+					<a class="header-help" href="#/help"><span>?</span></a>
+				</div>
+				<div class="nav-main" role="navigation">
+					
+					<a href="/competitions/overview/" data-event-category="Competitions" data-event-action="Global Nav Link" data-event-label="Clicks" class="nav-item icon-blue-ribbon" title="Earn Rewards">
+						<span>Earn Rewards</span>
+					</a><a href="/competitions/leaderboard" class="nav-item icon-users" title="Top Fans">
+						<span>Top Fans</span>
+					</a><div class="nav-item icon-tickets nav-ticketing" title="Buy Tickets" data-dropdown="open">
+						<span>Buy Tickets</span>
+						<div class="close" data-dropdown="close">&times;</div>
+						<div class="ticketing-dropdown">
+							<input type="text" class="zip" placeholder="Enter ZIP" />
+							
+							<a class="btn btn-alt tickets-fandango"
+								data-event-category="Ticketing"
+								data-event-action="Ticketing Chrome Header"
+								data-event-label="Fandango"
+									 href="http://www.fandango.com/thehungergames:catchingfire2013_155962/movietimes"
+								data-href="http://www.fandango.com/thehungergames:catchingfire2013_155962/movietimes?location=[[ZIP]]" target="_blank"/>
+							</a>
+							<a class="btn btn-alt tickets-movietickets"
+								data-event-category="Ticketing"
+								data-event-action="Ticketing Chrome Header"
+								data-event-label="Movie Tickets"
+									 href="http://www.movietickets.com/movie?mid=120906"
+								data-href="http://www.movietickets.com/movie?mid=120906&SearchZip=[[ZIP]]&SearchRadius=15&tstate=0" target="_blank"/>
+							</a>
+							<a class="btn btn-alt tickets-fandango-imax"
+								data-event-category="Ticketing"
+								data-event-action="Ticketing Chrome Header"
+								data-event-label="Fandango IMAX"
+									 href="http://www.fandango.com/thehungergames:catchingfiretheimaxexperience2013_167744/movietimes"
+								data-href="http://www.fandango.com/thehungergames:catchingfiretheimaxexperience2013_167744/movietimes?location=[[ZIP]]" target="_blank"/>
+							</a>
+							<a class="btn btn-alt tickets-movietickets-imax"
+								data-event-category="Ticketing"
+								data-event-action="Ticketing Chrome Header"
+								data-event-label="Movie Tickets IMAX"
+									 href="http://www.movietickets.com/movie?mid=138570"
+								data-href="http://www.movietickets.com/movie?mid=138570&SearchZip=[[ZIP]]&SearchRadius=15&tstate=0" target="_blank"/>
+							</a>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div id="main" class="main" role="main">
+				
+				
+				
+<div class="competition-info" data-needs-update="">
+	<div class="left-col">
+		<div class="thumbnail">
+			<div class="frame-tr"></div>
+			<div class="frame-tl"></div>
+			<div class="frame-br"></div>
+			<div class="frame-bl"></div>
+			<div class="image" style="background-image:url(http://0707c778e0f1481535fe-36b693bb9065cd15445b260c56542cbf.r55.cf2.rackcdn.com//assets/0af281dc-2644-11e3-964f-bc764e10b8f4.jpg)"></div>
+		</div>
+	</div>
+	<div class="right-col">
+		<div class="title-and-description">
+			<h1>#TickTock9 - Official ‘The Hunger Games: Catching Fire’ soundtrack list announced!</h1>
+			<p>With 9 weeks until #CatchingFire, the full tracklist for The Hunger Games: Catching Fire Soundtrack has been revealed!
+Pre-order the soundtrack, in stores November 19th, at <a rel="nofollow" target="_blank" href="http://hungrgam.es/CFSoundtrack">
+<b>http://hungrgam.es/CFSoundtrack</b></a><b>:</b><br>
+<br><b>The Hunger Games: Catching Fire</b><br><b>Original Motion Picture Soundtrack</b><br>
+
+1. “Atlas” – Coldplay – <a rel="nofollow" target="_blank" href="http://youtu.be/Lh3TokLzzmw"><b>Watch</b></a> the lyric video!<br>
+2. “Silhouettes” – Of Monsters and Men<br>
+3. “Elastic Heart” – Sia (ft. The Weeknd &amp; Diplo)<br>
+4. “Lean” – The National<br>
+5. “We Remain” – Christina Aguilera&nbsp;–&nbsp;<a rel="nofollow" target="_blank" href="http://music.yahoo.com/news/christina-aguilera-emotes-grandly-on--we-remain--144315017.html"><b>Listen</b></a> to a 90-second preview on Yahoo! Music!<br>
+6. “Devil May Cry” – The Weeknd<br>
+7. “Who We Are” – Imagine Dragons<br>
+8. “Everybody Wants To Rule The World” – Lorde<br>
+9. “Gale Song” – The Lumineers<br>
+10. “Mirror” – Ellie Goulding<br>
+11. “Capital Letter” – Patti Smith<br>
+12. “Shooting Arrows At The Sky” – Santigold<br>
+13. “Place For Us” – Mikky Ekko<br>
+14. “Lights” – Phantogram<br>
+15. “Angel On Fire” – Antony &amp; The Johnsons<br>
+<br>
+Purchase advance <b>#CatchingFireTickets</b> at Fandango and MovieTickets.com starting October 1st<span>, and you’ll receive an exclusive FREE track download! Tweet
+<b>#TickTock9</b> &amp; your favorite artist from the soundtrack to win a new #TickTock badge and bonus sparks!</span><br></p>
+			<div class="expires">Expires:</div>
+			<time data-date="2013-10-01 16:00:00+0000"></time>
+		</div>
+		<div class="submission is-before">
+			<div class="before-submitting">
+				
+			</div>
+			<div class="submitting">
+				<div class="loader form-loader">
+					<div class="progress">
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="after-submitting">
+				<h2>We appreciate your participation!</h2>
+				<p>Submissions must be processed, and not all will appear on the site.</p>
+				<span class="btn btn-alt" data-popup="true" href="http://twitter.com/intent/tweet?text=I%20can%27t%20wait%20to%20hear%20The%20Hunger%20Games%3A%20%23CatchingFire%20Soundtrack%21%20See%20the%20full%20tracklist%20at%20http%3A//hungrgam.es/TT9%20-%20%23TickTock9" data-event-category="Competitions" data-event-action="Tweet Another Entry" data-event-label="#TickTock9">Tweet another entry</span>
+			</div>
+		</div>
+	</div>
+	<div class="under-left-col">
+		<a href="/competitions/rules/" class="rules">Competition Rules</a>
+		<div class="share">
+			<span class="btn share-title">Share</span>
+			<a class="btn btn-icon btn-first" data-popup="true"
+				data-event-category="Sharing" data-event-action="From Competition Page" data-event-label="Twitter"
+				href="http://twitter.com/intent/tweet?text=I%20can%27t%20wait%20to%20hear%20The%20Hunger%20Games%3A%20%23CatchingFire%20Soundtrack%21%20See%20the%20full%20tracklist%20at%20http%3A//hungrgam.es/TT9%20-%20%23TickTock9"><span class="share-button icon-twitter"></span></a>
+			<a class="btn btn-icon" data-popup="true"
+				data-event-category="Sharing" data-event-action="From Competition Page" data-event-label="Facebook"
+				href="http://facebook.com/sharer.php?u=http%3A//www.thehungergamesexplorer.com/competitions/hashtag/TickTock9"><span class="share-button icon-facebook"></span></a>
+			<a class="btn btn-icon" data-popup="true"
+				data-event-category="Sharing" data-event-action="From Competition Page" data-event-label="Pinterest"
+				href="http://pinterest.com/pin/create/bookmarklet/?media=http%3A//0707c778e0f1481535fe-36b693bb9065cd15445b260c56542cbf.r55.cf2.rackcdn.com//assets/0af281dc-2644-11e3-964f-bc764e10b8f4.jpg&is_video=false&description=I%20can%27t%20wait%20to%20hear%20The%20Hunger%20Games%3A%20%23CatchingFire%20Soundtrack%21%20See%20the%20full%20tracklist%20at%20http%3A//hungrgam.es/TT9%20-%20%23TickTock9&url=http%3A//www.thehungergamesexplorer.com/competitions/hashtag/TickTock9"><span class="share-button icon-pinterest"></span></a>
+			<a class="btn btn-icon" data-popup="true"
+				data-event-category="Sharing" data-event-action="From Competition Page" data-event-label="Tumblr"
+				href="http://www.tumblr.com/share/photo?source=http%3A//0707c778e0f1481535fe-36b693bb9065cd15445b260c56542cbf.r55.cf2.rackcdn.com//assets/0af281dc-2644-11e3-964f-bc764e10b8f4.jpg&caption=I%20can%27t%20wait%20to%20hear%20The%20Hunger%20Games%3A%20%23CatchingFire%20Soundtrack%21%20See%20the%20full%20tracklist%20at%20http%3A//hungrgam.es/TT9%20-%20%23TickTock9&click_thru=http%3A//www.thehungergamesexplorer.com/competitions/hashtag/TickTock9&tags=Catching%20Fire%2C%20Hunger%20Games%20Explorer%2C%20The%20Hunger%20Games"><span class="share-button icon-tumblr"></span></a>
+			<a class="btn btn-icon btn-last" data-popup="true"
+				data-event-category="Sharing" data-event-action="From Competition Page" data-event-label="Google Plus"
+				href="https://plus.google.com/share?url=http%3A//www.thehungergamesexplorer.com/competitions/hashtag/TickTock9"><span class="share-button icon-google-plus"></span></a>
+		</div>
+	</div>
+</div>
+<div class="competition-callout">
+	<h3>Submissions</h3>
+	<div class="spark-info">to support your favorite posts and earn sparks!</div>
+</div>
+<div data-spark-tracking-value="1">
+	<div class="grid"></div>
+</div>
+
+			</div>
+			<footer data-flex-height="fixed">
+				
+				<div id="thgn-nav"></div>
+				<div id="thgn-nav-trigger" class="movies-nav">
+					<div class="button">Hunger Games Movies</div>
+				</div>
+				
+				
+				<a href="/behind-the-scenes" title="Behind the Scenes" class="ie-logo">
+					<span class="collab"><span>a collaboration with</span></span>
+					<span class="name"><span>Internet Explorer</span></span>
+					<b>
+						<div class="flare">
+							<span><i></i></span>
+						</div>
+					</b>
+				</a>
+				
+
+				
+
+				<a  class="film-ad">
+					<strong>The Hunger Games: Catching Fire</strong>
+					<small>In Theatres November 22, 2013</small>
+					<img src="/static/c-0602c0c/img/regions/us/en/footer-promo.png" title="The Hunger Games: Catching Fire"/>
+				</a>
+				<div class="legal">
+					<div class="dropup legal-dropup">
+						<span>Legal</span>
+						<div class="dropup-items">
+							<img src="/static/c-0602c0c/img/legal.png" />
+							<a href="http://www.lionsgate.com/corporate/privacy/" target="_blank">Privacy Policy</a>
+							<a href="http://www.lionsgate.com/corporate/terms/" target="_blank">Terms of Service</a>
+							<a href="/competitions/rules/" target="_blank">Rules and Regulations</a>
+							<a href="http://filmratings.com/" target="_blank">Filmratings.com</a>
+							<a href="http://parentalguide.org/" target="_blank">ParentalGuide.org</a>
+							<a href="http://mpaa.org/" target="_blank">MPAA.org</a>
+							<small>This product uses the Instagram API but is not endorsed or certified by Instagram.</small>
+						</div>
+					</div>
+					<div class="dropup share-dropup">
+						<span>Share</span>
+						<div class="dropup-items">
+							<a class="twitter-share" href="#" data-track-social="Twitter" data-event-action="Footer Share">Twitter</a>
+							<a class="facebook-share" href="#" data-track-social="Facebook" data-event-action="Footer Share">Facebook</a>
+							<a class="pinterest-share" href="#" data-track-social="Pinterest" data-event-action="Footer Share">Pinterest</a>
+							<a class="tumblr-share" href="#" data-track-social="Tumblr" data-event-action="Footer Share">Tumblr</a>
+							<a class="gplus-share" href="#" data-track-social="Google +" data-event-action="Footer Share">Google+</a>
+						</div>
+					</div>
+					<div class="dropup region-dropup">
+						<span>Region</span>
+						<div class="dropup-items">
+							
+								
+									<a class=" region" href="/au" title="Australia / New Zealand">Australia / New Zealand</a>
+								
+							
+								
+									<a class=" region" href="/be" title="Benelux - Belgium">Benelux - Belgium</a>
+								
+							
+								
+									<a class=" region" href="/nl" title="Benelux - Netherlands">Benelux - Netherlands</a>
+								
+							
+								
+									<a class=" region" href="/br" title="Brazil">Brazil</a>
+								
+							
+								
+									<a class=" region" href="/ca" title="Canada">Canada</a>
+								
+							
+								
+									<a class=" region" href="/dk" title="Denmark">Denmark</a>
+								
+							
+								
+									<a class=" region" href="/fi" title="Finland">Finland</a>
+								
+							
+								
+									<a class=" region" href="/fr" title="France">France</a>
+								
+							
+								
+									<a class=" region" href="/de" title="Germany">Germany</a>
+								
+							
+								
+									<a class=" region" href="/it" title="Italy">Italy</a>
+								
+							
+								
+									<a class=" region" href="/kp" title="Korea">Korea</a>
+								
+							
+								
+							
+								
+									<a class=" region" href="/mx" title="Mexico">Mexico</a>
+								
+							
+								
+									<a class=" region" href="/no" title="Norway">Norway</a>
+								
+							
+								
+									<a class=" region" href="/ru" title="Russia">Russia</a>
+								
+							
+								
+									<a class=" region" href="/es" title="Spain">Spain</a>
+								
+							
+								
+									<a class=" region" href="/se" title="Sweden">Sweden</a>
+								
+							
+								
+									<a class=" region" href="/gb" title="United Kingdom">United Kingdom</a>
+								
+							
+								
+									<a class="active region" href="/us" title="United States">United States</a>
+								
+							
+						</div>
+					</div>
+					<a class="dropup" href="mailto:help@thehungergamesexplorer.com">Help</a>
+				</div>
+			</footer>
+			<div class="blackout"></div>
+			<div class="modal"><!-- content goes here !--></div>
+		</div>
+		<div class="landscape-warning">
+			<div class="landscape-wrap">
+				<div class="landscape-inner"></div>
+				<div class="frame-tr"></div>
+				<div class="frame-tl"></div>
+				<div class="frame-br"></div>
+				<div class="frame-bl"></div>
+			</div>
+		</div>
+
+		
+		<script type="text/javascript">
+			var features = ["opacity", "csstransforms", "canvas"];
+			for (var i = 0, l = features.length; i < l; i++) {
+				var feature = features[i];
+				if (!Modernizr[feature] && window.location.toString().indexOf("/upgrade") < 0) {
+					window.location.pathname = "us/upgrade";
+				}
+			}
+		</script>
+		
+
+		<script src="/static/c-0602c0c/js/libs/require.js"></script>
+
+		
+		<script>
+			require.config({
+				baseUrl : "/static/c-0602c0c/js",
+				paths : {
+					"hungergames/Site" : "site.min"
+				}
+			});
+		
+			
+
+			
+				window.USER_JSON_DATA = {
+					user : {
+						loggedIn : false
+					}
+				}
+				var loggedIn = false;
+			
+
+			
+
+			require(["hungergames/Site"], function (Site) {
+
+				window.hge = new Site({
+					STATIC_URL : "/static/c-0602c0c/",
+					REGION : "us",
+					LANGUAGE : "en",
+					IS_TEASER : false,
+					IS_LOGGED_IN : false,
+					PCN : ""
+				});
+			});
+
+		</script>
+		
+	<script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-3.newrelic.com","d9db84934c","2517784","ZwdUNUVXXhZYBkUMVl5NcBRZVUQMVgseBlZdElMVXkJZClcWHxNQVRVFW3RZXhFcC0UpUEMWYAhSQQ==",0,90,new Date().getTime(),"","","","",""]);</script></body>
+</html>

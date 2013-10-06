@@ -1,0 +1,1036 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>spring-projects/rest-shell · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+    <link rel="logo" type="image/svg" href="https://github-media-downloads.s3.amazonaws.com/github-logo.svg" />
+    <meta property="og:image" content="https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png">
+    <meta name="hostname" content="github-fe111-cp1-prd.iad.github.net">
+    <meta name="ruby" content="ruby 1.9.3p194-tcs-github-tcmalloc (2012-05-25, TCS patched 2012-05-27, GitHub v1.0.36) [x86_64-linux]">
+    <link rel="assets" href="https://github.global.ssl.fastly.net/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035/">
+    <link rel="xhr-socket" href="/_sockets" />
+    
+
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="selected-link" value="repo_source" data-pjax-transient />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="805204B6:1FA7:740D158:52509844" name="octolytics-dimension-request_id" />
+    
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="ENP25p/t+ueOZhiqC9s85OtYj46eHU6eUdxwHmpkfVk=" name="csrf-token" />
+
+    <link href="https://github.global.ssl.fastly.net/assets/github-05a75a572a86cfef8425f698ed0e5b891f24118e.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://github.global.ssl.fastly.net/assets/github2-5270ba98127dece0c192c0a6c0aa3d40b92efaf0.css" media="all" rel="stylesheet" type="text/css" />
+    
+
+    
+
+      <script src="https://github.global.ssl.fastly.net/assets/frameworks-c4f8e49c5f967e72dd0ab79195971321e5adb6cc.js" type="text/javascript"></script>
+      <script src="https://github.global.ssl.fastly.net/assets/github-21bf8455822c013e37748552e4a1bbd19bcb4c3b.js" type="text/javascript"></script>
+      
+      <meta http-equiv="x-pjax-version" content="8689b59389e7e38906fa435431068773">
+
+        <meta property="og:title" content="rest-shell"/>
+  <meta property="og:type" content="githubog:gitrepository"/>
+  <meta property="og:url" content="https://github.com/spring-projects/rest-shell"/>
+  <meta property="og:image" content="https://github.global.ssl.fastly.net/images/gravatars/gravatar-user-420.png"/>
+  <meta property="og:site_name" content="GitHub"/>
+  <meta property="og:description" content="rest-shell - Command-line shell for interacting with Spring HATEOAS-compliant REST resources"/>
+
+  <meta name="description" content="rest-shell - Command-line shell for interacting with Spring HATEOAS-compliant REST resources" />
+
+  <meta content="317776" name="octolytics-dimension-user_id" /><meta content="spring-projects" name="octolytics-dimension-user_login" /><meta content="5956464" name="octolytics-dimension-repository_id" /><meta content="spring-projects/rest-shell" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="5956464" name="octolytics-dimension-repository_network_root_id" /><meta content="spring-projects/rest-shell" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/spring-projects/rest-shell/commits/master.atom" rel="alternate" title="Recent Commits to rest-shell:master" type="application/atom+xml" />
+
+  </head>
+
+
+  <body class="logged_out  env-production  vis-public">
+    <div class="wrapper">
+      
+      
+      
+
+
+      
+      <div class="header header-logged-out">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions">
+        <a class="button primary" href="/signup">Sign up</a>
+      <a class="button signin" href="/login?return_to=%2Fspring-projects%2Frest-shell">Sign in</a>
+    </div>
+
+    <div class="command-bar js-command-bar  in-repository">
+
+      <ul class="top-nav">
+          <li class="explore"><a href="/explore">Explore</a></li>
+        <li class="features"><a href="/features">Features</a></li>
+          <li class="enterprise"><a href="https://enterprise.github.com/">Enterprise</a></li>
+          <li class="blog"><a href="/blog">Blog</a></li>
+      </ul>
+        <form accept-charset="UTF-8" action="/search" class="command-bar-form" id="top_search_form" method="get">
+
+<input type="text" data-hotkey="/ s" name="q" id="js-command-bar-field" placeholder="Search or type a command" tabindex="1" autocapitalize="off"
+    
+    
+      data-repo="spring-projects/rest-shell"
+      data-branch="master"
+      data-sha="e9ee81c892c66f7723916d20d0cb7f3b4ce24ce5"
+  >
+
+    <input type="hidden" name="nwo" value="spring-projects/rest-shell" />
+
+    <div class="select-menu js-menu-container js-select-menu search-context-select-menu">
+      <span class="minibutton select-menu-button js-menu-target">
+        <span class="js-select-button">This repository</span>
+      </span>
+
+      <div class="select-menu-modal-holder js-menu-content js-navigation-container">
+        <div class="select-menu-modal">
+
+          <div class="select-menu-item js-navigation-item js-this-repository-navigation-item selected">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" class="js-search-this-repository" name="search_target" value="repository" checked="checked" />
+            <div class="select-menu-item-text js-select-button-text">This repository</div>
+          </div> <!-- /.select-menu-item -->
+
+          <div class="select-menu-item js-navigation-item js-all-repositories-navigation-item">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" name="search_target" value="global" />
+            <div class="select-menu-item-text js-select-button-text">All repositories</div>
+          </div> <!-- /.select-menu-item -->
+
+        </div>
+      </div>
+    </div>
+
+  <span class="octicon help tooltipped downwards" title="Show command bar help">
+    <span class="octicon octicon-question"></span>
+  </span>
+
+
+  <input type="hidden" name="ref" value="cmdform">
+
+</form>
+    </div>
+
+  </div>
+</div>
+
+
+      
+
+
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+
+<ul class="pagehead-actions">
+
+
+  <li>
+  <a href="/login?return_to=%2Fspring-projects%2Frest-shell"
+  class="minibutton with-count js-toggler-target star-button entice tooltipped upwards"
+  title="You must be signed in to use this feature" rel="nofollow">
+  <span class="octicon octicon-star"></span>Star
+</a>
+<a class="social-count js-social-count" href="/spring-projects/rest-shell/stargazers">
+  177
+</a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2Fspring-projects%2Frest-shell"
+        class="minibutton with-count js-toggler-target fork-button entice tooltipped upwards"
+        title="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-git-branch"></span>Fork
+      </a>
+      <a href="/spring-projects/rest-shell/network" class="social-count">
+        35
+      </a>
+    </li>
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="repo-label"><span>public</span></span>
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author">
+            <a href="/spring-projects" class="url fn" itemprop="url" rel="author"><span itemprop="title">spring-projects</span></a></span
+          ><span class="repohead-name-divider">/</span><strong
+          ><a href="/spring-projects/rest-shell" class="js-current-repository js-repo-home-link">rest-shell</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="Octocat-spinner-32" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+
+      <div class="repository-with-sidebar repo-container with-full-navigation">
+
+        <div class="repository-sidebar">
+            
+
+<div class="repo-nav repo-nav-full js-repository-container-pjax js-octicon-loaders">
+  <div class="repo-nav-contents">
+    <ul class="repo-menu">
+      <li class="tooltipped leftwards" title="Code">
+        <a href="/spring-projects/rest-shell" aria-label="Code" class="js-selected-navigation-item selected" data-gotokey="c" data-pjax="true" data-selected-links="repo_source repo_downloads repo_commits repo_tags repo_branches /spring-projects/rest-shell">
+          <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+        <li class="tooltipped leftwards" title="Issues">
+          <a href="/spring-projects/rest-shell/issues" aria-label="Issues" class="js-selected-navigation-item js-disable-pjax" data-gotokey="i" data-selected-links="repo_issues /spring-projects/rest-shell/issues">
+            <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+            <span class='counter'>20</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+
+      <li class="tooltipped leftwards" title="Pull Requests"><a href="/spring-projects/rest-shell/pulls" aria-label="Pull Requests" class="js-selected-navigation-item js-disable-pjax" data-gotokey="p" data-selected-links="repo_pulls /spring-projects/rest-shell/pulls">
+            <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+            <span class='counter'>5</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+
+        <li class="tooltipped leftwards" title="Wiki">
+          <a href="/spring-projects/rest-shell/wiki" aria-label="Wiki" class="js-selected-navigation-item " data-pjax="true" data-selected-links="repo_wiki /spring-projects/rest-shell/wiki">
+            <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+    </ul>
+    <div class="repo-menu-separator"></div>
+    <ul class="repo-menu">
+
+      <li class="tooltipped leftwards" title="Pulse">
+        <a href="/spring-projects/rest-shell/pulse" aria-label="Pulse" class="js-selected-navigation-item " data-pjax="true" data-selected-links="pulse /spring-projects/rest-shell/pulse">
+          <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped leftwards" title="Graphs">
+        <a href="/spring-projects/rest-shell/graphs" aria-label="Graphs" class="js-selected-navigation-item " data-pjax="true" data-selected-links="repo_graphs repo_contributors /spring-projects/rest-shell/graphs">
+          <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped leftwards" title="Network">
+        <a href="/spring-projects/rest-shell/network" aria-label="Network" class="js-selected-navigation-item js-disable-pjax" data-selected-links="repo_network /spring-projects/rest-shell/network">
+          <span class="octicon octicon-git-branch"></span> <span class="full-word">Network</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+    </ul>
+
+
+  </div>
+</div>
+
+            <div class="only-with-full-nav">
+              
+
+  
+
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><strong>HTTPS</strong> clone URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/spring-projects/rest-shell.git" readonly="readonly">
+
+    <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/spring-projects/rest-shell.git" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+  
+
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><strong>Subversion</strong> checkout URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/spring-projects/rest-shell" readonly="readonly">
+
+    <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/spring-projects/rest-shell" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+
+<p class="clone-options">You can clone with
+      <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>,
+      or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <span class="octicon help tooltipped upwards" title="Get help on which URL is right for you.">
+    <a href="https://help.github.com/articles/which-remote-url-should-i-use">
+    <span class="octicon octicon-question"></span>
+    </a>
+  </span>
+</p>
+
+
+
+              <a href="/spring-projects/rest-shell/archive/master.zip"
+                 class="minibutton sidebar-button"
+                 title="Download this repository as a zip file"
+                 rel="nofollow">
+                <span class="octicon octicon-cloud-download"></span>
+                Download ZIP
+              </a>
+            </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+<div class="js-info-carrier" data-show-full-navigation="yes"></div>
+
+<div class="repository-meta js-details-container ">
+    <div class="repository-description js-details-show">
+      <p>Command-line shell for interacting with Spring HATEOAS-compliant REST resources</p>
+    </div>
+
+
+
+</div>
+
+<div class="capped-box overall-summary ">
+
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/spring-projects/rest-shell/commits/master">
+          <span class="num">
+            <span class="octicon octicon-history"></span>
+            75
+          </span>
+          commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/spring-projects/rest-shell/branches">
+          <span class="num">
+            <span class="octicon octicon-git-branch"></span>
+            2
+          </span>
+          branches
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax href="/spring-projects/rest-shell/releases">
+          <span class="num">
+            <span class="octicon octicon-tag"></span>
+            1
+          </span>
+          release
+        </a>
+      </li>
+
+      <li>
+
+  <a href="/spring-projects/rest-shell/graphs/contributors">
+    <span class="num">
+      <span class="octicon octicon-organization"></span>
+      5
+    </span>
+    contributors
+  </a>
+      </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/spring-projects/rest-shell/search?l=java">
+                <span class="color-block language-color" style="background-color:#b07219;"></span>
+                <span class="lang">Java</span>
+                <span class="percent">86.9%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/spring-projects/rest-shell/search?l=shell">
+                <span class="color-block language-color" style="background-color:#5861ce;"></span>
+                <span class="lang">Shell</span>
+                <span class="percent">8.8%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/spring-projects/rest-shell/search?l=groovy">
+                <span class="color-block language-color" style="background-color:#e69f56;"></span>
+                <span class="lang">Groovy</span>
+                <span class="percent">4.3%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+  </div>
+
+</div>
+
+  <a href="#"
+     class="repository-lang-stats-graph js-toggle-lang-stats tooltipped downwards"
+     title="Show language statistics"
+     style="background-color:#e69f56">
+  <span class="language-color" style="width:86.9%; background-color:#b07219;" itemprop="keywords">Java</span><span class="language-color" style="width:8.8%; background-color:#5861ce;" itemprop="keywords">Shell</span><span class="language-color" style="width:4.3%; background-color:#e69f56;" itemprop="keywords">Groovy</span>
+  </a>
+
+
+
+<div class="file-navigation in-mid-page">
+    <a href="/spring-projects/rest-shell/compare" aria-label="Compare, review, create a pull request" class="minibutton compact primary tooltipped downwards" title="Compare &amp; review" data-pjax>
+      <span class="octicon octicon-git-compare"></span>
+    </a>
+
+  
+
+
+<div class="select-menu js-menu-container js-select-menu" >
+  <span class="minibutton select-menu-button js-menu-target" data-hotkey="w"
+    data-master-branch="master"
+    data-ref="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-remove-close js-menu-close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spring-projects/rest-shell/tree/master"
+                 data-name="master"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spring-projects/rest-shell/tree/spring-shell-2.0"
+                 data-name="spring-shell-2.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="spring-shell-2.0">spring-shell-2.0</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spring-projects/rest-shell/tree/1.2.1.RELEASE"
+                 data-name="1.2.1.RELEASE"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.2.1.RELEASE">1.2.1.RELEASE</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+
+  <div class="breadcrumb"><span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/spring-projects/rest-shell" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">rest-shell</span></a></span></span><span class="separator"> / </span><form action="/login?return_to=%2Fspring-projects%2Frest-shell" class="js-new-blob-form tooltipped rightwards new-file-link" method="post" title="Sign in to make or propose changes"><span aria-label="Sign in to make or propose changes" class="js-new-blob-submit octicon octicon-file-add" data-test-id="create-new-git-file" role="button"></span></form></div>
+</div>
+
+  
+
+<a href="/spring-projects/rest-shell/find/master"
+  data-hotkey="t" class="js-show-file-finder" style="display:none" data-pjax>Show File Finder</a>
+<div class="bubble files-bubble">
+  <table class="files" data-pjax>
+    <thead>
+
+
+  <div class="commit commit-tease js-details-container" >
+    <p class="commit-title ">
+        <a href="/spring-projects/rest-shell/commit/967dc6a9ef93ece12aa338ce4d5e04d8b6c5da84" class="message" data-pjax="true" title="Merge pull request #34 from andypiper/rename-org
+
+SpringSource -&gt; spring-projects">Merge pull request</a> <a href="https://github.com/spring-projects/rest-shell/pull/34" class="issue-link" title="SpringSource -&gt; spring-projects">#34</a> <a href="/spring-projects/rest-shell/commit/967dc6a9ef93ece12aa338ce4d5e04d8b6c5da84" class="message" data-pjax="true" title="Merge pull request #34 from andypiper/rename-org
+
+SpringSource -&gt; spring-projects">from andypiper/rename-org</a>
+        <span class="hidden-text-expander inline"><a href="#" class="js-details-target">…</a></span>
+    </p>
+      <div class="commit-desc"><pre>SpringSource -&gt; spring-projects</pre></div>
+    <div class="commit-meta">
+      <span class="js-zeroclipboard zeroclipboard-link" data-clipboard-text="967dc6a9ef93ece12aa338ce4d5e04d8b6c5da84" data-copied-hint="copied!" title="Copy SHA"><span class="octicon octicon-clippy"></span></span>
+      <a href="/spring-projects/rest-shell/commit/967dc6a9ef93ece12aa338ce4d5e04d8b6c5da84" class="sha-block" data-pjax>latest commit <span class="sha">967dc6a9ef</span></a>
+
+      <div class="authorship">
+        <img class="gravatar" height="20" src="https://0.gravatar.com/avatar/cfbfeec37cc1513e1fc68120ebf46b90?d=https%3A%2F%2Fidenticons.github.com%2F16828a666dd002577ee7d839ac413134.png&amp;s=140" width="20" />
+        <span class="author-name"><a href="/jbrisbin" data-skip-pjax="true" rel="contributor">jbrisbin</a></span>
+        authored <time class="js-relative-date updated" datetime="2013-09-13T12:09:15-07:00" title="2013-09-13 12:09:15">September 13, 2013</time>
+
+      </div>
+    </div>
+  </div>
+    </thead>
+
+    
+<tbody class=""
+  data-url="/spring-projects/rest-shell/file-list/master">
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/spring-projects/rest-shell/tree/master/gradle" class="js-directory-link" id="8ed1a771bc236c287ad93c699bfdd2d7-e6f700b06fe28c8c254b8505f14157394b03dd98" title="gradle">gradle</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/spring-projects/rest-shell/commit/6c2385b3549403ff26898103557ed86988af1c1e" class="message" data-pjax="true" title="Bumped versions.">Bumped versions.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2012-12-05T11:28:02-08:00" title="2012-12-05 11:28:02">December 05, 2012</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/spring-projects/rest-shell/tree/master/src" class="js-directory-link" id="25d902c24283ab8cfbac54dfa101ad31-941cc2fd7f510528dc6baea116a58162e345ad48" title="src">src</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/spring-projects/rest-shell/commit/b2ed1c69052c5341fa921c019bba7f7e8e79a8b9" class="message" data-pjax="true" title="Changed follow to a String.">Changed follow to a String.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-06-21T09:11:52-07:00" title="2013-06-21 09:11:52">June 21, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/spring-projects/rest-shell/blob/master/.gitignore" class="js-directory-link" id="a084b794bc0759e7a6b77810e01874f2-ccc881ff069c513048ca226b862d60fe0a036f8d" title=".gitignore">.gitignore</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/spring-projects/rest-shell/commit/e63e01c3e3fed5c191cfc8369006e0677d32a164" class="message" data-pjax="true" title="Initial commit">Initial commit</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2012-09-25T13:58:30-07:00" title="2012-09-25 13:58:30">September 25, 2012</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/spring-projects/rest-shell/blob/master/LICENSE.txt" class="js-directory-link" id="61e0bdf7e1b43c5c93d9488b22e04170-d645695673349e3947e8e5ae42332d0ac3164cd7" title="LICENSE.txt">LICENSE.txt</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/spring-projects/rest-shell/commit/bb5f8537361d7d74440addb543bd957cf9cb2bdc" class="message" data-pjax="true" title="Added license file">Added license file</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-02-21T07:34:21-08:00" title="2013-02-21 07:34:21">February 21, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/spring-projects/rest-shell/blob/master/README.md" class="js-directory-link" id="04c6e90faac2675aa89e2176d2eec7d8-09279e2fa18f03687d6ebd809070ccfb2df5eca0" title="README.md">README.md</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/spring-projects/rest-shell/commit/ae2167459cba3087fbd24496c3310344e4e91d32" class="message" data-pjax="true" title="SpringSource -&gt; spring-projects
+
+Renameed Github org">SpringSource -&gt; spring-projects</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-09-13T09:50:52-07:00" title="2013-09-13 09:50:52">September 13, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/spring-projects/rest-shell/blob/master/build.gradle" class="js-directory-link" id="c197962302397baf3a4cc36463dce5ea-d4ace0db541f22831eb2c45931f8f5d8de645c9c" title="build.gradle">build.gradle</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/spring-projects/rest-shell/commit/a0f43b24cb123390b7b81e972b37a9dab0ae5805" class="message" data-pjax="true" title="Change dotrc reading to be done from the prompt provider to ensure that ...
+
+...it is run as late in the initialization process as is possible. The prompt is the last call made by the system before turning over control to the user so is a logical place to do any dotrc reading. Also added parameter support to put/post/delete.">Change dotrc reading to be done from the prompt provider to ensure th…</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-03-26T08:19:40-07:00" title="2013-03-26 08:19:40">March 26, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/spring-projects/rest-shell/blob/master/gradle.properties" class="js-directory-link" id="503f218d646c10f484fdc9d6315bf2e3-aec8f5185f0f05599dbe19f089b14dea068fe06e" title="gradle.properties">gradle.properties</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/spring-projects/rest-shell/commit/75357b042e5994b2d8afc44be5d1b58b2a472b7d" class="message" data-pjax="true" title="Fix bug in listing vars">Fix bug in listing vars</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-04-03T00:17:55-07:00" title="2013-04-03 00:17:55">April 03, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/spring-projects/rest-shell/blob/master/gradlew" class="js-directory-link" id="36ffbd2ea7085cf19547193a7faf30c8-3851082a8bbc7beacd9c0815e886de8ddbff14c1" title="gradlew">gradlew</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/spring-projects/rest-shell/commit/fe3cf31b230fe279bd07324753d4c8ee15a8202f" class="message" data-pjax="true" title="Update to Gradle wrapper 1.2">Update to Gradle wrapper 1.2</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2012-10-25T08:17:29-07:00" title="2012-10-25 08:17:29">October 25, 2012</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/spring-projects/rest-shell/blob/master/gradlew.bat" class="js-directory-link" id="c9b677a57d25a366595a35b2230d0502-aec99730b4e8fcd90b57a0e8e01544fea7c31a89" title="gradlew.bat">gradlew.bat</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/spring-projects/rest-shell/commit/e63e01c3e3fed5c191cfc8369006e0677d32a164" class="message" data-pjax="true" title="Initial commit">Initial commit</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2012-09-25T13:58:30-07:00" title="2012-09-25 13:58:30">September 25, 2012</time></span></td>
+    </tr>
+</tbody>
+
+  </table>
+</div>
+
+  <div id="readme" class="clearfix announce instapaper_body md">
+    <span class="name"><span class="octicon octicon-book"></span> README.md</span><article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1>
+<a name="spring-hateoas-compliant-rest-shell" class="anchor" href="#spring-hateoas-compliant-rest-shell"><span class="octicon octicon-link"></span></a>Spring HATEOAS-compliant REST shell</h1>
+
+<h1>
+<a name="installing-the-binaries" class="anchor" href="#installing-the-binaries"><span class="octicon octicon-link"></span></a>Installing the binaries</h1>
+
+<p>Using Homebrew:</p>
+
+<pre><code>    brew install rest-shell
+</code></pre>
+
+<p>Download the binary .tar.gz package:</p>
+
+<p><a href="https://github.com/spring-projects/rest-shell/downloads">https://github.com/spring-projects/rest-shell/downloads</a></p>
+
+<pre><code>    tar -zxvf rest-shell-1.2.0.RELEASE.tar.gz
+    cd rest-shell-1.2.0.RELEASE
+    bin/rest-shell
+</code></pre>
+
+<h1>
+<a name="building-and-running" class="anchor" href="#building-and-running"><span class="octicon octicon-link"></span></a>Building and Running</h1>
+
+<pre><code>    git clone git://github.com/spring-projects/rest-shell.git
+    cd rest-shell
+    ./gradlew installApp
+    cd build/install/rest-shell-1.2.0.RELEASE
+    bin/rest-shell
+</code></pre>
+
+<h1>
+<a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h1>
+
+<p>This project is a command-line shell that aims to make writing REST-based applications easier. It is based on <a href="http://github.com/springsource/spring-shell">spring-shell</a> and integrated with <a href="https://github.com/springsource/spring-hateoas">Spring HATEOAS</a> in such a way that REST resources that output JSON compliant with Spring HATEOAS can be discovered by the shell and interactions with the REST resources become much easier than by manipulating the URLs in bash using a tool like <code>curl</code>.</p>
+
+<p>The rest-shell provides a number of useful commands for discovering and interacting with REST resources. For example <code>discover</code> will discover what resources are available and print out an easily-readable table of rels and URIs that relate to those resources. Once these resources have been discovered, the <code>rel</code> of those URIs can be used in place of the URI itself in most operations, thus cutting down on the amount of typing needed to issue HTTP requests to your REST resources.</p>
+
+<h3>
+<a name="discovering-resources" class="anchor" href="#discovering-resources"><span class="octicon octicon-link"></span></a>Discovering resources</h3>
+
+<p>The rest-shell is aimed at making it easier to interact with REST resources by managing the session <code>baseUri</code> much like a directory in a filesystem. Whenever resources are <code>discover</code>ed, you can then <code>follow</code> to a new baseUri, which means you can then use relative URIs. Here's an example of discovering resources, then following a link by referencing its <code>rel</code> value, and then using a relative URI to access resources under that new baseUri:</p>
+
+<pre><code>    http://localhost:8080:&gt; discover
+    rel                href
+    ========================================================
+    address            http://localhost:8080/address
+    family             http://localhost:8080/family
+    people             http://localhost:8080/person
+    profile            http://localhost:8080/profile
+
+    http://localhost:8080:&gt; follow people
+    http://localhost:8080/person:&gt; list
+    rel             href
+    ===================================================
+    people.Person    http://localhost:8080/person/1
+    people.Person    http://localhost:8080/person/2
+    people.search    http://localhost:8080/person/search
+
+    http://localhost:8080/person:&gt; get 1
+    &gt; GET http://localhost:8080/person/1
+
+    &lt; 200 OK
+    &lt; ETag: "2"
+    &lt; Content-Type: application/json
+    &lt;
+    {
+        "links" : [ {
+            "rel" : "self",
+            "href" : "http://localhost:8080/person/1"
+        }, {
+            "rel" : "peeps.Person.profiles",
+            "href" : "http://localhost:8080/person/1/profiles"
+        }, {
+            "rel" : "peeps.Person.addresses",
+            "href" : "http://localhost:8080/person/1/addresses"
+        } ],
+        "name" : "John Doe"
+    }
+</code></pre>
+
+<p><em>NOTE: If you want tab completion of discovered rels, just use the <code>--rel</code> flag.</em></p>
+
+<h3>
+<a name="creating-new-resources" class="anchor" href="#creating-new-resources"><span class="octicon octicon-link"></span></a>Creating new resources</h3>
+
+<p>The rest-shell can do basic parsing of JSON data within the shell (though there are some limitations due to the nature of the command line parsing being sensitive to whitespace). This makes it easy to create new resources by including JSON data directly in the shell:</p>
+
+<pre><code>    http://localhost:8080/person:&gt; post --data "{name: 'John Doe'}"
+    &gt; POST http://localhost:8080/person/
+
+    &lt; 201 CREATED
+    &lt; Location: http://localhost:8080/person/8
+    &lt; Content-Length: 0
+    &lt;
+
+    http://localhost:8080/person:&gt; get 8
+    &gt; GET http://localhost:8080/person/8
+
+    &lt; 200 OK
+    &lt; ETag: "0"
+    &lt; Content-Type: application/json
+    &lt;
+    {
+        "links" : [ {
+            "rel" : "self",
+            "href" : "http://localhost:8080/person/8"
+        }, {
+            "rel" : "people.Person.addresses",
+            "href" : "http://localhost:8080/person/8/addresses"
+        }, {
+            "rel" : "people.Person.profiles",
+            "href" : "http://localhost:8080/person/8/profiles"
+        } ],
+        "name" : "John Doe"
+    }
+</code></pre>
+
+<p>If your needs of representing JSON get more complicated than what the spring-shell interface can handle, you can create a directory somewhere with <code>.json</code> files in it, one file per entitiy, and use the <code>--from</code> option to the <code>post</code> command. This will walk the directory and make a <code>POST</code> request for each <code>.json</code> file found.</p>
+
+<pre><code>http://localhost:8080/person:&gt; post --from work/people_to_load
+128 items uploaded to the server using POST.
+http://localhost:8080/person:&gt;
+</code></pre>
+
+<p>You can also reference a specific file rather than an entire directory.</p>
+
+<pre><code>http://localhost:8080/person:&gt; post --from work/people_to_load/someone.json
+1 items uploaded to the server using POST.
+http://localhost:8080/person:&gt;
+</code></pre>
+
+<h3>
+<a name="passing-query-parameters" class="anchor" href="#passing-query-parameters"><span class="octicon octicon-link"></span></a>Passing query parameters</h3>
+
+<p>If you're calling URLs that require query parameters, you'll need to pass those as a JSON-like fragment in the <code>--params</code> parameter to the <code>get</code> and <code>list</code> commands. Here's an example of calling a URL that expects parameter input:</p>
+
+<pre><code>    http://localhost:8080/person:&gt; get search/byName --params "{name: 'John Doe'}"
+</code></pre>
+
+<h3>
+<a name="outputing-results-to-a-file" class="anchor" href="#outputing-results-to-a-file"><span class="octicon octicon-link"></span></a>Outputing results to a file</h3>
+
+<p>It's not always desirable to output the results of an HTTP request to the screen. It's handy for debugging but sometimes you want to save the results of a request because they're not easily reproducible or any number of other equally valid reasons. All the HTTP commands take an <code>--output</code> parameter that writes the results of an HTTP operation to the given file. For example, to output the above search to a file:</p>
+
+<pre><code>    http://localhost:8080/person:&gt; get search/byName --params "{name: 'John Doe'}" --output by_name.txt
+    &gt;&gt; by_name.txt
+    http://localhost:8080/person:&gt;
+</code></pre>
+
+<h3>
+<a name="sending-complex-json" class="anchor" href="#sending-complex-json"><span class="octicon octicon-link"></span></a>Sending complex JSON</h3>
+
+<p>Because the <code>rest-shell</code> uses the <a href="http://github.com/springsource/spring-shell">spring-shell</a> underneath, there are limitations on the format of the JSON data you can enter directly into the command line. If your JSON is too complex for the simplistic limitations of the shell <code>--data</code> parameter, you can simply load the JSON from a file or from all the files in a directory.</p>
+
+<p>When doing a <code>post</code> or <code>put</code>, you can optionally pass the <code>--from</code> parameter. The value of this parameter should either be a file or a directory. If the value is a directory, the shell will read each file that ends with <code>.json</code> and make a POST or PUT with the contents of that file. If the parameter is a file, then the <code>rest-shell</code> will simpy load that file and POST/PUT that data in that individual file.</p>
+
+<h3>
+<a name="shelling-out-to-bash" class="anchor" href="#shelling-out-to-bash"><span class="octicon octicon-link"></span></a>Shelling out to bash</h3>
+
+<p>One of the nice things about spring-shell is that you can directly shell out commands to the underlying terminal shell. This is useful for doing things like load a JSON file in an editor. For instance, assume I have the Sublime Text 2 command <code>subl</code> in my path. I can then load a JSON file for editing from the rest-shell like this:</p>
+
+<pre><code>    http://localhost:8080/person:&gt; ! subl test.json
+    http://localhost:8080/person:&gt;
+</code></pre>
+
+<p>I then edit the file as I wish. When I'm ready to POST that data to the server, I can do so using the <code>--from</code> parameter:</p>
+
+<pre><code>    http://localhost:8080/person:&gt; post --from test.json
+    1 items uploaded to the server using POST.
+    http://localhost:8080/person:&gt;
+</code></pre>
+
+<h3>
+<a name="setting-context-variables" class="anchor" href="#setting-context-variables"><span class="octicon octicon-link"></span></a>Setting context variables</h3>
+
+<p>Starting with rest-shell version 1.1, you can also work with context variables during your shell session. This is useful for saving settings you might reference often. The rest-shell now integrates Spring Expression Language support, so these context variables are usable in expressions within the shell.</p>
+
+<h5>
+<a name="working-with-variables" class="anchor" href="#working-with-variables"><span class="octicon octicon-link"></span></a>Working with variables</h5>
+
+<pre><code>    http://localhost:8080/person:&gt; var set --name specialUri --value http://longdomainname.com/api
+    http://localhost:8080/person:&gt; var get --name specialUri
+    http://longdomainname.com/api
+    http://localhost:8080/person:&gt; var list
+    {
+        "responseHeaders" : {
+            ... HTTP headers from last request
+        },
+        "responseBody" : {
+            ... Body from the last request
+        },
+        "specialUri" : "http://longdomainname.com/api",
+        "requestUrl" : ... URL from the last request,
+        "env" : {
+            ... System properties and environment variables
+        }
+    }
+</code></pre>
+
+<p>The variables are accessible from SpEL expressions which are valid in a number of different contexts, most importantly in the <code>path</code> argument to the HTTP and discover commands, and in the <code>data</code> argument to the <code>put</code> and <code>post</code> commands.</p>
+
+<p>Since the rest-shell is aware of environment variables and system properties, you can incorporate external parameters into your interaction with the shell. For example, to externally define a baseUri, you could set a system property before invoking the shell. The shell will incorporate anything defined in the <code>JAVA_OPTS</code> environment variable, so you could parameterize your interaction with a REST service.</p>
+
+<pre><code>    JAVA_OPTS="-DbaseUri=http://mylongdomain.com/api" rest-shell
+
+    http://localhost:8080:&gt; discover #{env.baseUri}
+    rel                href
+    =================================================================
+    ... resources for this URL
+    http://mylongdomain.com/api:&gt;
+</code></pre>
+
+<h3>
+<a name="per-user-shell-initialization" class="anchor" href="#per-user-shell-initialization"><span class="octicon octicon-link"></span></a>Per-user shell initialization</h3>
+
+<p>The rest-shell supports a "dotrc" type of initialization by reading in all files found in the <code>$HOME/.rest-shell/</code> directory and assuming they have shell commands in them. The rest-shell will execute these commands on startup. This makes it easy to set variables for commonly-used URIs or possibly set a <code>baseUri</code>.</p>
+
+<pre><code>    echo "var set --name svcuri --value http://api.myservice.com/v1" &gt; ~/.rest-shell/00-vars
+    echo "discover #{svcuri}" &gt; ~/.rest-shell/01-baseUri
+
+    &gt; rest-shell
+
+    INFO: No resources found...
+    INFO: Base URI set to 'http://api.myservice.com/v1'
+
+     ___ ___  __ _____  __  _  _     _ _  __
+    | _ \ __/' _/_   _/' _/| || |   / / | \ \
+    | v / _|`._`. | | `._`.| &gt;&lt; |  / / /   &gt; &gt;
+    |_|_\___|___/ |_| |___/|_||_| |_/_/   /_/
+    1.2.0.RELEASE
+
+    Welcome to the REST shell. For assistance hit TAB or type "help".
+    http://api.myservice.com/v1:&gt;
+</code></pre>
+
+<h3>
+<a name="ssl-certificate-validation" class="anchor" href="#ssl-certificate-validation"><span class="octicon octicon-link"></span></a>SSL Certificate Validation</h3>
+
+<p>If you generate a self-signed certificate for your server, by default the rest-shell will complain and refuse to connect. This is the default behavior of RestTemplate. To turn off certificate and hostname checking, use the <code>ssl validate --enabled false</code> command.</p>
+
+<h3>
+<a name="http-basic-authentication" class="anchor" href="#http-basic-authentication"><span class="octicon octicon-link"></span></a>HTTP Basic authentication</h3>
+
+<p>There is also a convenience command for setting an HTTP Basic authentication header. Use <code>auth basic --username user --pasword passwd</code> to set a username and password to base64 encode and place into the Authorization header that will be part of the current session's headers.</p>
+
+<p>You can clear the authentication by using the <code>auth clear</code> command or by removing the Authorization header using the <code>headers clear</code> command.</p>
+
+<h3>
+<a name="commands" class="anchor" href="#commands"><span class="octicon octicon-link"></span></a>Commands</h3>
+
+<p>The rest-shell provides the following commands:</p>
+
+<ul>
+<li>
+<code>discover</code> - Find out what resources are available at the given URI. If no URI is given, use the baseUri.</li>
+<li>
+<code>follow</code> - Set the baseUri to the URI assigned to this given <code>rel</code> but do not discover resources.</li>
+<li>
+<code>list</code> - Discover the resources available at the current baseUri.</li>
+<li>
+<code>baseUri</code> - Set the base URI used for this point forward in the session. Relative URIs will be calculated relative to this setting.</li>
+<li>
+<code>headers set</code> - Set an HTTP header by passing this command a <code>--name</code> and <code>--value</code> parameter.</li>
+<li>
+<code>headers clear</code> - Clear all HTTP headers set in this session.</li>
+<li>
+<code>headers list</code> - Print out the currently-set HTTP headers for this session.</li>
+<li>
+<code>history list</code> - List the URIs previously set as baseUris during this session.</li>
+<li>
+<code>history go</code> - Jump to a URI by pulling one from the history.</li>
+<li>
+<code>var clear</code> - Clear this shell's variable context.</li>
+<li>
+<code>var get</code> - Get a variable in this shell's context.</li>
+<li>
+<code>var list</code> - List variables currently set in this shell's context.</li>
+<li>
+<code>var set</code> - Set a variable in this shell's context.</li>
+<li>
+<code>up</code> - Traverse one level up in the URL hierarchy.</li>
+<li>
+<code>get</code> - HTTP GET from the given path.</li>
+<li>
+<code>post</code> - HTTP POST to the given path, passing JSON given in the <code>--data</code> parameter.</li>
+<li>
+<code>put</code> - HTTP PUT to the given path, passing JSON given in the <code>--data</code> parameter.</li>
+<li>
+<code>delete</code> - HTTP DELETE to the given path.</li>
+<li>
+<code>auth basic</code> - Set an HTTP Basic authentication token for use in this session.</li>
+<li>
+<code>auth clear</code> - Clear the Authorization header currently in use.</li>
+<li>
+<code>ssl validate</code> - Disable certificate checking to work with self-signed certificates.</li>
+</ul></article>
+  </div>
+
+
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="http://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/">
+      <span class="mega-octicon octicon-mark-github"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2013 <span title="0.02910s from github-fe111-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-fullscreen-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
+          <div class="suggester-container">
+              <div class="suggester fullscreen-suggester js-navigation-container" id="fullscreen_suggester"
+                 data-url="/spring-projects/rest-shell/suggestions/commit">
+              </div>
+          </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped leftwards" title="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped leftwards"
+      title="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-remove-close close ajax-error-dismiss"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+  </body>
+</html>
+

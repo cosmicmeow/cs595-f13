@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub:Help" />
+  <title>How to transfer a repository &middot; GitHub Help</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link href="/assets/help/application-34a1ce28e3463e78ae5c4ef89ceeca94.css" media="screen" rel="stylesheet" />
+  <!--[if lt IE 8]>
+    <link href="/assets/help/ie-hacks-217cb48076da6b28188e4552942ee212.css" media="screen" rel="stylesheet" />
+  <![endif]-->
+
+  <script src="/assets/help/application-c07d6b92fe26261347ecd379ac760c3b.js"></script>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="w0qooJrCXwIz66n2WWGw2UcT3PFyiCpEF+v4qwWrpt8=" name="csrf-token" />
+</head>
+
+<body class=" platform-mac platform-windows platform-linux platform-all" id="com">
+<div id="not-footer">
+  <div id="header">
+    <div class="clearfix">
+        <h1 class="site-logo"><a href="/">GitHub Help</a></h1>
+
+      <ul class="top-nav">
+        <li><a href="https://github.com/contact">Contact Support</a></li>
+        <li><a href="http://www.github.com/">Return to GitHub</a></li>
+
+      </ul>
+    </div>
+  </div>
+
+
+
+  <div id="content-wrapper">
+    <div class="site">
+
+      <div class="content-header small">
+  <h6 class="breadcrumbs">
+    <a href="/categories/24/articles">Repositories</a>
+    /
+    How to transfer a repository
+  </h6>
+
+  <div class="search-form small">
+    <form accept-charset="UTF-8" action="/articles/search" id="articles-search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <div class="outer">
+    <div class="inner fade-label">
+      <input type="text" name="q" id="q" class="js-articles-quicksearch"
+        placeholder="How can we help?" data-url="/articles/quicksearch" />
+      <button><span class="mini-icon search-input"></span>Search</button>
+      <div class="autocomplete-results" style="display: none"></div>
+    </div>
+  </div>
+</form>
+  </div>
+
+  <span class="last-updated-at">Article last updated on 21-Aug-13</span>
+</div>
+
+<div class="article">
+  <h2>How to transfer a repository</h2>
+
+  <div id="article-platform-nav">
+    <ul>
+        <li class="platform-mac">
+          <a href="#platform-mac" data-platform=mac>
+            mac
+          </a>
+        </li>
+        <li class="platform-windows">
+          <a href="#platform-windows" data-platform=windows>
+            windows
+          </a>
+        </li>
+        <li class="platform-linux">
+          <a href="#platform-linux" data-platform=linux>
+            linux
+          </a>
+        </li>
+        <li class="platform-all">
+          <a href="#platform-all" data-platform=all>
+            all
+          </a>
+        </li>
+    </ul>
+  </div>
+
+  <div class="article-body content-body wikistyle markdown-format">
+      <h3>
+<a name="transferring-between-user-accounts" class="anchor" href="#transferring-between-user-accounts"><span class="mini-icon mini-icon-link"></span></a>Transferring between user accounts</h3>
+
+<ol>
+<li>Open the repository's page on GitHub</li>
+<li>Select "Settings" from the repository action bar
+<img src="https://github-images.s3.amazonaws.com/help/repo-actions-settings.png" alt="Settings tab">
+</li>
+<li>Click "Transfer"
+<img src="https://github-images.s3.amazonaws.com/help/repo-transfer.png" alt="Transfer button">
+</li>
+<li>Read the warnings and heed them well. Enter the repository name to confirm that you've done this.</li>
+<li>Enter the name of the new owner and click "I understand, transfer this repo"
+<img src="https://github-images.s3.amazonaws.com/help/repo-transfer-complete.png" alt="Transfer button">
+</li>
+</ol><p>However, there are a few caveats to transferring repositories:</p>
+
+<ul>
+<li>The target account must not have a repository with the same name, or a fork in the same network.</li>
+<li>If the repository is private, the target account must have a paid account with at least one unused private repository available.</li>
+<li>Private forks can't be transferred, only root private repositories.</li>
+</ul><div class="alert tip">
+
+<p><strong>Tip</strong>: Transfer requests may require approval from GitHub staff.  If this is the case, the admin page for the repository will show a pending transfer until it has been approved.</p>
+
+</div>
+
+<h3>
+<a name="transferring-between-organization-accounts" class="anchor" href="#transferring-between-organization-accounts"><span class="mini-icon mini-icon-link"></span></a>Transferring between organization accounts</h3>
+
+<p>Only users with admin or owner access to an organization's repository can transfer the repository out of the organization. On the other end, the person transferring the repository also needs to have admin rights in the receiving organization.</p>
+
+<p>You can arrange this by asking the receiving organization to create a team with admin privileges with no repositories in it.</p>
+
+<h3>
+<a name="transferring-from-an-organization-to-a-user" class="anchor" href="#transferring-from-an-organization-to-a-user"><span class="mini-icon mini-icon-link"></span></a>Transferring from an organization to a user</h3>
+
+<p>Users must have admin or owner access to a repository before they can transfer it out of the organization.  If the user does not have this access, a temporary admin team can be created with only the user and repository in it.  The user receiving the repository is the only one who can perform the transfer.</p>
+
+<h3>
+<a name="transferring-from-a-user-to-an-organization" class="anchor" href="#transferring-from-a-user-to-an-organization"><span class="mini-icon mini-icon-link"></span></a>Transferring from a user to an organization</h3>
+
+<p>Users must have admin or owner access to a repository before they can transfer it into an organization. The user sending the repository is the only one who can perform the transfer.</p>
+
+<h3>
+<a name="redirects-and-git-remotes" class="anchor" href="#redirects-and-git-remotes"><span class="mini-icon mini-icon-link"></span></a>Redirects and git remotes</h3>
+
+<p>When a repository is transferred, all requests to the previous location are automatically redirected to the new location. External links should continue to function.</p>
+
+<p>In addition to redirecting web traffic, all <code>git clone</code>, <code>git fetch</code>, or <code>git push</code> operations targeting the previous location will continue to function as if made on the new location. However, this can be somewhat confusing, so we strongly recommend updating any existing local clones to point to the new repository URL:</p>
+
+<pre class="command-line">
+<span class="command">git remote set-url remote_name new_url</span>
+</pre>
+
+<p>Typically, your <code>remote_name</code> will be <code>origin</code>. For more information, see "<a href="https://help.github.com/articles/changing-a-remote-s-url">Changing a Remote's URL</a>".</p>
+  </div>
+
+
+  <div class="support-footer">
+    <hr />
+    <ul class="article-footer button-nav">
+      <li>
+        <a class="minibutton mini-icon discussion" href="https://github.com/contact">contact a human</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+  <div id="footer">
+    <div class="inner">
+      <a href="https://github.com" class="invertocat">
+        <img src="/assets/help/invertocat-31415ef94d6f2b601fe718a9363a7b9a.png" width="24" height="24" />
+      </a>
+      <p class="left">
+        &copy; <span id="year">year</span> GitHub Inc. All rights reserved.
+      </p>
+        <ul class="links right">
+            <li><a href="/terms-of-service">Terms of Service</a></li>
+            <li><a href="/privacy-policy">Privacy</a></li>
+            <li><a href="/security">Security</a></li>
+          </ul>
+    </div>
+  </div> <!-- /#footer -->
+
+    <script type="text/javascript">
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '4f4d4164f5a1f5651500026c');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-3769691-27']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+<script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "js-agent.newrelic.com/nr-100.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-1.newrelic.com","5d46706dc7","1956352","TEINDQ8KRQgb",0,82771980,new Date().getTime(),"","","","",""]);</script></body>
+</html>

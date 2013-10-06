@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Coffee Surfing illy  designed by Dolcestilnuovo</title>
+<meta name="description" content="Discover and be part of the coffee surfer project!" />
+<meta name="author" content="CSS Design Awards" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel='stylesheet' type='text/css' media='all' href='main.css' />
+<style type='text/css' media='screen'>@import "main.css";</style>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+$(function() {
+
+$(".vote").click(function() 
+{
+
+var id = $(this).attr("rel");
+var name = $(this).attr("name");
+var dataString = 'id='+ id ;
+var parent = $(this);
+
+if(name=='up')
+{
+$.ajax({
+   type: "POST",
+   url: "vote_likes.php",
+   data: dataString,
+   cache: false,
+
+   success: function(html)
+   {
+    parent.html(html);
+  
+  }  });
+  
+}
+return false;
+	});
+
+});
+</script>
+<script language="javascript">
+function limitChars(textarea, limit, infodiv)
+{
+	var text = textarea.value;	
+	var textlength = text.length;
+	var info = document.getElementById(infodiv);
+
+	if(textlength > limit)
+	{
+		info.innerHTML = '0/'+limit;
+		textarea.value = text.substr(0,limit);
+		return false;
+	}
+	else
+	{
+		info.innerHTML = (limit - textlength) +'/'+ limit;
+		return true;
+	}
+}
+</script>
+
+</head>
+<body>
+<!-- BuySellAds.com Ad Code -->
+<script type="text/javascript">
+(function(){
+  var bsa = document.createElement('script');
+     bsa.type = 'text/javascript';
+     bsa.async = true;
+     bsa.src = '//s3.buysellads.com/ac/bsa.js';
+  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+})();
+</script>
+<!-- End BuySellAds.com Ad Code -->
+<div id="wrapper">
+	<div id="header">    	
+    	<h1 class="heading">CSS Web Design Award Winner -  designed by </h1>
+    	<div id="twitter"><a href="http://twitter.com/cssdesignawards" title="Follow CSS Design Awards on Twitter" target="_blank"><img src="images/twitter.png" alt="twitter" /></a></div>
+        <div id="menu">
+        	<ul>            <li class="menu-item-about" ><a href="about.php">about</a></li>            <li class="menu-item-winners"><a href="css-web-design-award-winners.php">winners</a></li>            <li class="menu-item-nominees"><a href="css-web-design-award-nominees.php">nominees</a></li>            <li class="menu-item-css-gallery"><a href="css-gallery.php">css gallery</a></li>                        </ul>            <a class="submit-website" href="css-web-design-award-submission.php">submit website</a>            <div class="clear"></div>            
+        </div>        
+        <div class="clear"></div>
+        <div id="logo"><a href="/"><img src="images/logo.png" alt="CSS Design Awards logo" /></a></div>
+    </div>
+    <div class="latest-winner">
+        <div class="latest-winner-heading"><img src="images/winner-title.jpg" alt="" /></div>  
+        <div class="latest-winner-image">        
+            <a href="http://coffeesurfing.illy.com/" target="_blank"><img src="cdasites/2013/201302/20130220075729.jpg" alt="Coffee Surfing illy " width="647" height="391" /></a>        </div>
+        <div class="latest-winner-details">
+            <div class="winner-date">
+                <div class="winner-date-day">21</div>
+                <div class="winner-date-month">Winner<br /><span class="textPurple">Feb 2013</span></div>
+                <div class="clear"></div>
+            </div>
+            <div class="winner-site-name"><h3><a href="css-web-design-award-winner.php?id=17318">Coffee Surfing illy </a></h3></div>
+            <div class="winner-stats">
+                <div class="winner-stats-box">
+                    <div class="winner-stats-img"><a href="http://www.dolcestilnuovo.com" target="_blank">                        	<img src="cdasites/2013/201302/20130220080013.jpg" alt="Dolcestilnuovo" width="50" height="50" />
+                    	</a></div>
+                    <div class="winner-stats-txt"><h4><span class="winner-stats-item">designed by:</span><br /><a href="http://www.dolcestilnuovo.com" target="_blank">Dolcestilnuovo</a></h4></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="winner-stats-box">
+                    <div class="winner-stats-img"><img src="countries/italy.jpg" alt="Italy" /></div>
+                    <div class="winner-stats-txt"><h4><span class="winner-stats-item">location:</span><br />Modena<br />Italy</h4></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="winner-voting">
+                    <div class="winner-up">                        
+                        <div class="winner-up-likes">
+                            <a href="" class="vote" rel="17318" name="up">86</a>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="winner-stats-desc">
+                    <p><span class="winner-stats-item">description:</span><br />Discover and be part of the coffee surfer project!</p>
+                </div>                      
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div> <!-- end latest-winner -->
+    <div id="content-main">
+    	<div id="content-social-media">
+        	<a href="http://twitter.com/home?status=Coffee Surfing illy  :: CSS Design Awards ::  http://www.cssdesignawards.com/css-web-design-award-winner.php?id=17318" title="Share  http://www.cssdesignawards.com/css-web-design-award-winner.php?id=17318 on Twitter" target="_blank"><img src="images/share-twitter.jpg" alt="Twitter" /></a>
+            <a href="http://www.facebook.com/share.php?u=http://coffeesurfing.illy.com/" title="Share http://www.cssdesignawards.com/css-web-design-award-winner.php?id=17318 on Facebook" target="_blank"><img src="images/share-facebook.jpg" alt="Facebook" /></a>
+            <a href="http://www.stumbleupon.com/submit?url=http://www.cssdesignawards.com/css-web-design-award-winner.php?id=17318&amp;title=Coffee Surfing illy  :: CSS Design Awards ::  http://www.cssdesignawards.com/css-web-design-award-winner.php?id=17318" title="Share   http://www.cssdesignawards.com/css-web-design-award-winner.php?id=17318 by Dolcestilnuovo on Stumbleupon" target="_blank"><img src="images/share-stumble.jpg" alt="StumbleUpon" /></a>
+            <a href="http://digg.com/submit?phase=2&url=http://www.cssdesignawards.com/css-web-design-award-winner.php?id=17318" title="Share http://www.cssdesignawards.com/css-web-design-award-winner.php?id=17318 on Digg" target="_blank"><img src="images/share-digg.jpg" alt="Digg" /></a>
+            <a href="http://del.icio.us/post?url=http://www.cssdesignawards.com/css-web-design-award-winner.php?id=17318" title="Share http://www.cssdesignawards.com/css-web-design-award-winner.php?id=17318 by Dolcestilnuovo on Delicious" target="_blank"><img src="images/share-delicious.jpg" alt="Delicious" /></a>
+        </div>
+        <div id="display-comment">
+        	<h4>Comments:</h4>
+            <p>No comments yet...</p>        </div>
+         <div id="post-comment">
+            <h4>Post a comment:</h4>
+                        
+			<form name="formComment" id="formComment" method="post" action="/css-web-design-award-winner.php?id=17318" />
+            <label for="com_name">Your Name</label>
+            <input name="com_name" type="text" id="com_name" maxlength="50"  /> 
+            <br />
+            <label for="com_email">Your Email</label>
+            <input name="com_email" type="text" id="com_email" maxlength="100"  /> 
+            <br />
+            <label for="com_url">Your Website URL</label>
+            <input name="com_url" type="text" id="com_url" maxlength="100"  />&nbsp;<span class="notice">(include http:// prefix)</span>
+            <br />	
+            <p class="formNotice">Anti Spam Test</p>
+            <label class="quiz-label" for="question_one">Is milk HARD or SOFT?</label>
+            <input class="quiz-input" type="text"  name="question_one" id="question_one" maxlength="20"  />
+            <br />
+            <label class="quiz-label" for="question_two">Which is bigger, ANT or GORILLA?</label>
+            <input class="quiz-input" type="text"  name="question_two" id="question_two" maxlength="20"  />							 
+            <br />
+            <label for="com_comment">Your Comment <span id="charlimitinfo">0/255</span> </label>
+			<textarea class="largeInput" name="com_comment" cols="40" rows="3" id="com_comment" onkeyup="limitChars(this, 255, 'charlimitinfo')"  ></textarea>
+            <br />
+            <label></label>
+			<input name="submit" type="submit" class="submitButton" value="post comment" />        
+            <input class="hidden" name="quiz_one" type="hidden" value="171" />
+			<input class="hidden" name="quiz_two" type="hidden" value="178" /> 
+			</form>
+        </div>        
+    </div> <!-- end content-main -->
+    <div id="content-side">
+    	        	<form id="formSearch"  name="formSearch" method="get" action="search.php">	
+				<input class="searchInput" name="search_term" type="text" id="search_term"  />
+				<input class="submitButton" name="search" type="submit" id="search" value="search" />
+                <br />
+			</form>
+            <div id="adverts">                
+            	<div class="large-ad">
+                	<a href="http://thecssgallerylist.com" title="Submit to The Best CSS Galleries" target="_blank" rel="nofollow"><img src="http://thecssgallerylist.com/banners-external/269x220.png" alt="CSS Gallery List" /></a><a href="https://www.sketcha.com" title="Sketcha - Animated Sketch Videos" target="_blank" rel="nofollow"><img src="sponsors/01_269x220_01.png" alt="Sketcha" /></a><a href="http://www.wix.com/eteamhtml/pro-designers?utm_campaign=ma_cssdesignawards.com&experiment_id=cssdesi" title="Wix" target="_blank" rel="nofollow"><img src="sponsors/wix.jpg" alt="wix" /></a>					
+<a href="http://www.websitelaunchpad.com" title="Website Launchpad" target="_blank"><img src="sponsors/website-launch-269x220.jpg" alt="Website Launchpad" /></a>
+                    <a href="advertising.php"><img src="sponsors/l-banner-ad-generic.jpg" /></a>
+                </div>
+            </div> <!-- end adverts -->    </div> <!-- end content-side -->
+    <div class="clear"></div>
+    
+    <div id="facebook-wrapper">    	<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FCSS-Design-Awards%2F204317026253195&amp;width=1000&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=false&amp;height=178" scrolling="no" frameborder="0" allowTransparency="true" style="border:none;"></iframe>           </div>    
+    <div id="content-sub">
+    	<div class="content-sub-box" id="nominees">
+        	<div class="content-sub-heading" id="nominees-heading">
+            	<h2><span class="invisible">Website Design Award</span> Nominees <a href="css-web-design-award-nominees.php">[see all]</a></h2>
+            </div>
+            <div class="nominees-pending-details">
+            	                <h3>diegob - AD + photographer</h3>
+                <p><a href="http://diegob.me" target="_blank">http://diegob.me</a></p>
+                                <h3>Byob</h3>
+                <p><a href="http://www.byob.com.pt" target="_blank">http://www.byob.com.pt</a></p>
+                                <h3>Jan Finnesand</h3>
+                <p><a href="http://janfinnesand.com/" target="_blank">http://janfinnesand.com/</a></p>
+                                <h3>Silver Sixpence in her Shoe</h3>
+                <p><a href="http://silversixpenceinhershoe.co.uk" target="_blank">http://silversixpenceinhershoe.co.uk</a></p>
+                                <h3>randomreality</h3>
+                <p><a href="http://www.randomreality.ch" target="_blank">http://www.randomreality.ch</a></p>
+                            </div>
+        </div>
+        <div class="content-sub-box" id="pending">
+        	<div class="content-sub-heading" id="pending-heading">
+            	<h2><span class="invisible">Website</span> Pending <a href="css-web-design-award-pending.php">[see all]</a></h2>
+            </div>
+            <div class="nominees-pending-details">
+            	                <h3>B-Orbit</h3>
+                <p><a href="http://b-orbit.com/" target="_blank">http://b-orbit.com/</a></p>
+                                <h3>Wrist</h3>
+                <p><a href="http://www.wrist.im" target="_blank">http://www.wrist.im</a></p>
+                                <h3>MasBooth</h3>
+                <p><a href="http://masbooth.com/" target="_blank">http://masbooth.com/</a></p>
+                                <h3>The Domain Hotels</h3>
+                <p><a href="http://www.thedomainhotels.com" target="_blank">http://www.thedomainhotels.com</a></p>
+                                <h3>Daniel Majár </h3>
+                <p><a href="http://www.danielmajar.cz" target="_blank">http://www.danielmajar.cz</a></p>
+                            </div>
+        </div>
+        <div class="content-sub-box" id="sponsors">
+        	<div class="content-sub-heading" id="sponsors-heading">
+            	<h2>Sponsors</h2>
+            </div>            
+            <ul>                    <li><a href="http://www.2creative.com.au" title="Web Design Gold Coast" target="_blank">Web Design Gold Coast</a></li>
+				                    <li><a href="http://www.sitesdownunder.com.au" title="Small Business Website Design" target="_blank">Small Business Website Design</a></li>
+				                    <li><a href="http://www.divinxi.com" title="Turnkey Websites" target="_blank">Turnkey Websites</a></li>
+				                    <li><a href="http://www.123rf.com" title="Stock Photography" rel="nofollow" target="_blank">Stock Photography</a></li>
+				                    <li><a href="http://fastdot.com" title="Cloud Hosting" target="_blank">Cloud Hosting</a></li>
+				                    <li><a href="http://www.ausweb.com.au" title="Australian Web Hosting" target="_blank">Australian Web Hosting</a></li>
+				</ul>            	
+        </div>
+        <div class="content-sub-box" id="stuff">
+        	<div class="content-sub-heading" id="stuff-heading">
+            	<h2>Stuff</h2>
+            </div>
+            <ul>
+            <li><a href="advertising.php">Advertising</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="privacy.php">Privacy</a></li>
+            <li><a href="terms.php">Terms</a></li>
+            <li><a href="rss.php">RSS (award winners)</a></li>            
+            </ul>            
+            <div id="social-links">
+                <div id="google">
+                    <g:plusone size="medium"></g:plusone>
+                </div>
+                <script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+        	</div>
+            
+            <div id="footer-social">
+            	<a class="social-icon-link social-icon-link-f" href="http://www.facebook.com/CSSDesignAwards" target="_blank"><span class="link-title">css design awards facebook</span></a>
+                <a class="social-icon-link social-icon-link-t" href="http://twitter.com/cssdesignawards" target="_blank"><span class="link-title">css design awards twitter</span></a>
+                <a class="social-icon-link social-icon-link-g" href="https://plus.google.com/116403826613603327434" rel="publisher" target="_blank"><span class="link-title">css design awards google plus</span></a>
+                <a class="social-icon-link social-icon-link-p" href="http://pinterest.com/cssdesignawards/" target="_blank"><span class="link-title">css design awards pinterest</span></a>
+                <a class="social-icon-link social-icon-link-r" href="rss.php" target="_blank"><span class="link-title">css design awards rss</span></a>
+            </div>
+        </div>
+        <div class="clear"></div>    </div> <!-- end content-sub -->
+    <div id="footer">
+    	<p><a href="http://www.cssdesignawards.com/" title="CSS Gallery">CSS Gallery</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.cssdesignawards.com/" title="Website Awards">Website Awards</a>&nbsp;&nbsp;|&nbsp;&nbsp;Showcasing and awarding the best web sites from the world&nbsp;&nbsp;|&nbsp;&nbsp;&copy; 2010 - 2013 CSS Design Awards</p>   
+    </div>	
+</div> <!-- end wrapper -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31161569-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,2998 @@
+<!DOCTYPE html >
+
+	<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+		<title>Livro - Arte de Fazer Macarons, A - Submarino.com.br</title>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Livro - Arte de Fazer Macarons, A" />
+		<meta name="keywords" content="Livro - Arte de Fazer Macarons, A, , Livros, Submarino.com" />
+	<meta name="Last-Modified" content="Thu Oct 03 01:38:01 BRT 2013" />	
+	<link href="http://www.submarino.com.br/produto/110639737/livro-arte-de-fazer-macarons-a" rel="canonical" />	
+	<link href="http://img.submarino.com.br/novosuba/catalog/css/catalog.css" rel="stylesheet" type="text/css" media="all" />
+	
+	<link rel="stylesheet" type="text/css" href="http://img.submarino.com.br/novosuba/catalog/js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+	<!--[if lte IE 7]><link href="http://img.submarino.com.br/novosuba/catalog/css/catalog_IE.css" rel="stylesheet" type="text/css" media="all" /><![endif]-->
+			<link href="http://img.submarino.com.br/novosuba/catalog/skins/dept_livros/css/skinDept.css" rel="stylesheet" type="text/css" media="all" />
+	
+	<script type="text/javascript" src="http://img.submarino.com.br/novosuba/catalog//js/apicatalog.js"></script>
+	<script type="text/javascript"> // <![CDATA[
+		var readyEvents=[]    
+		function onReady(d,f)  { readyEvents.push(new sniffer(d,f))  }
+		
+		document.getElementsByTagName("html")[0].className = 
+			"js" + ((window.location.hash.indexOf("redir") > 0) ? ' redir' : '');
+
+		// ]]>
+	</script>
+	<script type="text/javascript" src="//submarino.ugc.bazaarvoice.com/static/2061-pt_br/bvapi.js"></script>
+	<link rel="shortcut icon" type="image/png" href="http://img.submarino.com.br/favicon.png" />
+<!-- Google Analytics -->
+<script type="text/javascript">
+	var subarequesturi = document.location.pathname+document.location.search;
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-8704579-1']);
+	_gaq.push(['_setDomainName', '.submarino.com.br']);
+	_gaq.push(['_setAllowLinker', true]);
+	_gaq.push(['_setCampaignCookieTimeout', 172800000]);
+	_gaq.push(['_trackPageview', 'HomeProduto##'+subarequesturi]);
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+	<style>
+.icon-information{
+display: block;
+background: transparent url('http://fb.submarino.com.br/estatica/detalhe_produto/icone_sub.png') no-repeat 0 center scroll;
+padding: 10px 0 10px 24px;
+}
+</style>
+
+<script>
+onReady('jQuery', function(){
+try{
+	if($('.bCrumb').find('.category').eq(0).attr('href').indexOf('260598') >= 0){
+		var css = "#area2{padding-left: 0;}"
+			+ "#area2-2{display: none;}"
+			+ "#area2-1{}"
+			+ ".prodInfo{padding: 20px 0 30px 320px}"
+			+ ".prodInfoSec_2{"
+				+ "margin-left: -310px;"
+				+ "width: 300px;"
+			+ "}"
+			+ ".fullProduct .mainImg .photo{"
+				+ "width: 300px;"
+				+ "height: 300px;"
+			+ "}";
+		var tag = $('<style>').html(css);
+		$('head').eq(0).append(tag);
+	}
+}catch(e){}
+})
+</script>
+	<script type="text/javascript" src="http://img.submarino.com.br/docs/selo/upcload/js/selo.js?1"></script>
+<script type="text/javascript">
+	setTimeout(function(){
+		//if($('.bCrumb a.category').attr('href').indexOf('342768')!=-1){
+			seloUp.init();
+			var _s = '';
+			$('.list-sku-tamanho li').each(function(){  
+				_s += $('button',this).attr('data-size')+',';
+			});
+			var uEst = 'http://www.submarino.com.br/estaticapop/upcload/';
+			var param = uEst+'?s='+_s.slice(0,-1)+'&id='+$('input[name=\'soldout.itemId\']').val()+'&t=';
+			$('.seloUp span').attr('class','popIframeUpCload').data('href',param+$('#imgProduto').attr('src'));
+			$('.list-sku-cor .sku-img').click(function(){
+				$('.popIframeUpCload').data('href',param+$('#imgProduto').attr('src'));
+			});
+			$('.popIframeUpCload').click(function(){
+				var fbUrl = $(this).data('href'),nw=$(this).data('width')||750,nh=$(this).data("height")||600;
+				$.fancybox({width:nw,height:nh,autoDimensions:false,autoScale:false,type:'iframe',href:fbUrl,onComplete:function(){$.fancybox.resize();}});
+				return false;  
+			});
+		//}
+	},6000);
+</script>
+
+<script type="text/javascript"> 
+try {
+	 
+	OAS_url = 'http://oas.submarino.com.br/RealMedia/ads/';
+	OAS_listpos = 'Top1,x94,x95,x96,x24';
+	OAS_query = 'produto/110639737/livro-arte-de-fazer-macarons-a'; 
+	OAS_sitepage = 'submarino/produto';	
+
+	OAS_version = 10;
+	OAS_rn = '001234567890'; OAS_rns = '1234567890';
+	OAS_rn = new String (Math.random()); OAS_rns = OAS_rn.substring (2, 11); 
+
+} catch(exception) {
+	handleException(exception);	
+}
+
+function OAS_NORMAL(pos) {
+	document.write('<A HREF="' + OAS_url + 'click_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + OAS_query + '" TARGET=_top>');
+ 	document.write('<IMG SRC="' + OAS_url + 'adstream_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + OAS_query + '" BORDER=0></A>');
+}  
+</script>
+
+<script type="text/javascript">
+try {
+	OAS_version = 11;
+	if (navigator.userAgent.indexOf('Mozilla/3') != -1)
+		OAS_version = 10;
+	if (OAS_version >= 11)
+		document.write('<SCR'+ 'IPT LANGUAGE=JavaScript1.1 SRC="' + OAS_url + 'adstream_mjx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '?' + OAS_query + '"></SC'+'RIPT>');
+} catch(exception) {
+	handleException(exception);	
+}
+
+</script>
+
+<script type="text/javascript">
+try {
+	function OAS_AD(pos) {
+		if (OAS_version >= 11)
+			OAS_RICH(pos);
+		else
+			OAS_NORMAL(pos);
+	}
+} catch(exception) {
+	handleException(exception);	
+}
+
+</script>
+	
+</head>
+	
+		<body>
+		
+			<div id="page" class="pgProd">
+				<a class="skip" href="#content" rel="nofollow">Ir para o conteúdo</a>
+					<div id="header">
+	<!-- Início script blacknight -->
+
+<script type="text/javascript">
+ var redir_url = 'http://www.blacknightbr.com.br/scripts/r.js';
+ var redir_query = ((new Date).getTime() + '' + (Math.random()*10)).replace(/\./, '');
+</script>
+
+<script type="text/javascript">
+document.write('<SCR'+ 'IPT SRC="' + redir_url + '?' + redir_query + '"></SC'+'RIPT>');
+</script>
+
+<!-- Fim script blacknight -->
+
+
+<script type="text/javascript">
+    function getAjax(strURL, callback) {
+        var xmlHttpReq = false;
+        if (window.XMLHttpRequest) {
+            xmlHttpReq = new XMLHttpRequest();
+        }
+        else if (window.ActiveXObject) {
+            xmlHttpReq = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlHttpReq.open('GET', strURL, true);
+        xmlHttpReq.setRequestHeader('Content-Type', 'text/html');
+        xmlHttpReq.setRequestHeader('charset', 'utf-8');
+        xmlHttpReq.onreadystatechange = function () {
+            if (xmlHttpReq.readyState == 4) {
+                callback.call(this, xmlHttpReq);
+            }
+        }
+        xmlHttpReq.send('');
+    }
+</script>
+
+<!-- script para carregar o footer via ajax
+<script type="text/javascript">
+try{
+    setTimeout(function () {
+        getAjax('/HomeIncludeEstatico/footer-suba2011',function(data2){
+            document.getElementById('footer-inner').innerHTML = data2.responseText;
+        });
+    }, 300);
+}catch(e){}
+</script>
+-->
+
+<style type="text/css">
+    .header .departments .thirdLevel a:hover {
+        text-decoration: underline !important;
+    }
+
+    .header .mainNav .secondLevelInside {
+        background-position: left -66px;
+    }
+
+    .header .secondLevelInside .item > .menumain-label a[href="#"] {
+        cursor: default;
+    }
+</style>
+<script type="text/javascript">
+    onReady('jQuery',function(e) {
+        $('.header .secondLevelInside .item > .menumain-label a').click(function (a) {
+            if ($(this).attr('href') == '#') {
+                a.preventDefault();
+                return false;
+            }
+            return true;
+        })
+    })
+</script>
+<header>
+
+
+<div class="header home">
+
+
+<a title="Voltar para a Home." href="/" class="logo"><span class="ir"></span>Submarino</a>
+
+<!--div class="card">
+    <embed width="160" height="55" allowscriptaccess="always" salign="t" wmode="transparent" quality="high"
+           bgcolor="#0082d6" name="cartao" id="cartao" style=""
+           src="http://img.submarino.com.br/header/card_block2012.swf" type="application/x-shockwave-flash">
+</div-->
+<div class="card"><a
+        href="http://www.submarino.com.br/loja/342768/moda-calcados-e-acessorios?WT.mc_id=sub_header_moda&WT.mc_ev=click&chave=sub_header_moda"><img
+        width="160" height="55" src="http://img.submarino.com.br/imagens/header/moda/topo-moda-branco.gif"></a></div>
+<div class="userArea">
+    <ul id="help" class="helpMenu">
+        <li><a class="popAjax" href="/HomeIncludeEstatico/pop-compre-pelo-telefone" rel="nofollow"><span
+                class="ico icHeaderPhone">.</span>Compre pelo Telefone: <strong class="phone">4003-2000 / 02111
+            4003-2000</strong></a></li>
+        <li><a href="/hotsite/Atendimento" rel="nofollow"><span
+                class="ico icHeaderAtendimento">.</span>Atendimento<span> (saiba mais)</span></a></li>
+    </ul>
+</div>
+<div class="mainNavigationBar">
+<div class="cart empty">
+    <a class="myCartBox" href="http://carrinho.submarino.com.br/checkout/" rel="nofollow">
+        <strong>Meu Carrinho</strong>
+        <span class="cartItems">0 Produtos</span>
+    </a>
+    <!--Layer-->
+    <div class="layerCart">
+        <div class="layerCartCont">
+            <div class="hasProducts">
+                <table class="modeltr">
+                    <tr>
+                        <td><a rel="prodLink"><img rel="prodImage"></a></td>
+                        <td><a rel="prodLink"><span rel="prodName"></span></a> <span class="qtde" rel="prodQtd"></span>
+                        </td>
+                        <td class="price" rel="prodPrice"></td>
+                    </tr>
+                </table>
+                <div class="prodCartBox">
+                    <table class="prodCart">
+                        <caption>Produtos no Meu Carrinho</caption>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+                <table class="prodCart">
+                    <tfoot>
+                    <tr>
+                        <td colspan="2">Subtotal:</td>
+                        <td class="price">R$ 0,00</td>
+                    </tr>
+                    </tfoot>
+                </table>
+                <a href="http://carrinho.submarino.com.br/checkout/" rel="nofollow" class="btn viewCart">Visualizar Meu
+                    Carrinho</a>
+            </div>
+            <div class="emptyCart"></div>
+        </div>
+    </div>
+    <!--Fim Layer-->
+</div>
+<div class="userMenu">
+    <nav id="userNav">
+        <ul class="usernav-list">
+            <li><a href="https://carrinho.submarino.com.br/CustomerWeb/pages/LoginMeusPedidos" rel="nofollow">Meus
+                Pedidos</a></li>
+
+            <li><a href="https://carrinho.submarino.com.br/CustomerWeb/pages/Login" rel="nofollow">Cadastro</a></li>
+        </ul>
+        <div id="userInfo" class="userInfo unlogged">
+            <div class="unlogged-box">
+                <p class="hello">Faça <a href="https://carrinho.submarino.com.br/CustomerWeb/pages/Login"
+                                         rel="nofollow">login</a> ou <a
+                        href="https://carrinho.submarino.com.br/CustomerWeb/pages/Login" rel="nofollow">cadastre-se</a>
+                </p>
+            </div>
+            <div class="logged-box">
+                <p class="userName"><span class="usernamejs">Visitante</span></p>
+
+                <div class="menu-user-box">
+                    <span class="ico icmenu-user">.</span>
+
+                    <div class="menu-user-box-content">
+                        <div class="menu-user-box-content-a">
+                            <p class="userName">Olá <span class="usernamejs">Visitante</span> <a
+                                    href="http://carrinho.submarino.com.br/CustomerWeb/pages/Login/" rel="nofollow">(não
+                                é você?)</a></p>
+                            <ul class="usermenu-list-links">
+                                <li class="link-pedidos"><a
+                                        href="https://carrinho.submarino.com.br/CustomerWeb/pages/LoginMeusPedidos"
+                                        rel="nofollow">Meus Pedidos</a></li>
+                                <li class="link-cadastro"><a
+                                        href="https://carrinho.submarino.com.br/CustomerWeb/pages/Login" rel="nofollow">Cadastro</a>
+                                </li>
+                                <li class="link-logout"><a
+                                        href="http://carrinho.submarino.com.br/CustomerWeb/pages/Login/" rel="nofollow">Efetuar
+                                    logoff (sair)</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+<nav id="mainNav">
+<div class="mainNav">
+<a class="showAll" href="/hotsite/Departamentos"><span class="ico"></span>Navegue pelas lojas</a>
+
+<div class="secondLevel">
+<div class="secondLevelInside">
+
+<ul class="departments">
+
+<li class="item">
+    <h2 class="menumain-label"><a href="#" class="itemLink">Livros e Galeria de Arte <span class="icArrow">.</span></a>
+    </h2>
+
+    <div class="thirdLevel">
+        <div class="thirdLevel2">
+            <h2 class="thirdLevel-title">Livros e Galeria de Arte</h2>
+            <ul class="ul">
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/309573/livros">Livros</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/260144/livros-importados">Livros
+                    Importados</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/hotsite/digital-club">Livros Digitais
+                    (e-books)</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/260598/artes">Galeria de Arte</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/309891/papelaria">Papelaria</a></li>
+            </ul>
+        </div>
+    </div>
+</li>
+<li class="item">
+    <h2 class="menumain-label"><a href="#" class="itemLink">Música, Filmes e Games <span class="icArrow">.</span></a>
+    </h2>
+
+    <div class="thirdLevel">
+        <div class="thirdLevel2">
+            <h2 class="thirdLevel-title">Música, Filmes e Games</h2>
+            <ul class="ul">
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/309289/cds">Música</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/309465/dvds">Filmes e Seriados</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/filmesonline">Filmes e Seriados Digitais</a>
+                </li>
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/260572/blu-ray">Blu-ray</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/259294/games">Games</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/260257/instrumentos-musicais">Instrumentos
+                    Musicais</a></li>
+            </ul>
+        </div>
+    </div>
+</li>
+<li class="item">
+    <h2 class="menumain-label"><a href="#" class="itemLink">Celular, Telefone e Tablets <span
+            class="icArrow">.</span></a></h2>
+
+    <div class="thirdLevel">
+        <div class="thirdLevel2">
+            <h2 class="thirdLevel-title">Celular, Telefone e Tablets</h2>
+            <ul class="ul">
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/258676/celulares-e-telefonia-fixa">Smartphones</a>
+                </li>
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/258676/celulares-e-telefonia-fixa">Celulares</a>
+                </li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/264430/celulares-e-telefonia-fixa/nextel">Nextel</a>
+                </li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/264493/celulares-e-telefonia-fixa/telefones-sem-fio">Telefones
+                    fixos</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/264470/celulares-e-telefonia-fixa/acessorios-para-celular">Acessórios
+                    de celular</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/271308/informatica/tablets-e-ipad">Tablets</a>
+                </li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/271328/automotivo/gps">GPS</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/265387/audio/dock-station-caixas-bluetooth">Dock
+                    Stations</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/265748/audio/ipod-e-acessorios">Ipod e
+                    Acessórios</a></li>
+            </ul>
+        </div>
+    </div>
+</li>
+<li class="item">
+    <h2 class="menumain-label"><a href="#" class="itemLink">Notebooks e Computadores <span class="icArrow">.</span></a>
+    </h2>
+
+    <div class="thirdLevel">
+        <div class="thirdLevel2">
+            <h2 class="thirdLevel-title">Notebooks e Computadores</h2>
+            <ul class="ul">
+                <li class="subitem">
+                    <a href="http://www.submarino.com.br/loja/259172/informatica">Informática</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/271288/informatica/notebook">Notebooks</a>
+                </li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/348570/informatica/ultrabook">Ultrabooks</a>
+                </li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/271308/informatica/tablets-e-ipad">Tablets</a>
+                </li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/271270/informatica/apple">Apple</a></li>
+                <li class="subitem"><a href="/sublinha/271470/informatica/computadores-e-all-in-one/computador-desktop">Computadores</a>
+                </li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/sublinha/271340/informatica/computadores-e-all-in-one/computador-all-in-one">All
+                    in One</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/271251/informatica/multifuncionais">Multifuncionais
+                    e Impressoras</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/sublinha/271472/informatica/monitores/monitor-led-e-lcd">Monitores
+                    LCD</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/sublinha/271584/informatica/armazenamento/hd-portatil">HDs
+                    externos</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/260463/acessorios-de-informatica">Acessórios
+                    de Informática</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/sublinha/299208/malas-e-acessorios/mochilas/mochila-para-notebook">Mochilas
+                    para Notebooks</a></li>
+            </ul>
+        </div>
+    </div>
+</li>
+<li class="item">
+    <h2 class="menumain-label"><a href="#" class="itemLink">TVs, Audio e Eletrônicos <span class="icArrow">.</span></a>
+    </h2>
+
+    <div class="thirdLevel">
+        <div class="thirdLevel2">
+            <h2 class="thirdLevel-title">TVs, Audio e Eletrônicos</h2>
+            <ul class="ul">
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/258463/tv-e-home-theater">TVs</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/265108/tv-e-home-theater/home-theater">Home
+                    Theater</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/265031/tv-e-home-theater/blu-ray-e-dvd-players">Blu-ray
+                    player</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/265469/audio">Audio</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/265587/audio/fones-de-ouvido">Fones de
+                    Ouvido</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/260634/automotivo">Automotivo</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/271328/automotivo/gps">GPS</a></li>
+
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/265387/audio/dock-station-caixas-bluetooth">Dock
+                    Station</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/265748/audio/ipod-e-acessorios"> iPod e
+                    Acessórios</a></li>
+            </ul>
+        </div>
+    </div>
+</li>
+<li class="item">
+    <h2 class="menumain-label"><a href="#" class="itemLink">Câmeras e Filmadoras <span class="icArrow">.</span></a></h2>
+
+    <div class="thirdLevel">
+        <div class="thirdLevel2">
+            <h2 class="thirdLevel-title">Câmeras e Filmadoras</h2>
+            <ul class="ul">
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/258629/cameras-digitais-e-filmadoras">Câmeras
+                    Digitais</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/271049/cameras-digitais-e-filmadoras/cartao-de-memoria">Cartões
+                    de Memória</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/271055/cameras-digitais-e-filmadoras/acessorios-para-cameras-e-filmadoras">Acessórios
+                    para Câmeras</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/271050/cameras-digitais-e-filmadoras/porta-retrato-digital">Porta
+                    retrato Digital</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/271013/cameras-digitais-e-filmadoras/filmadora-digital">Filmadoras</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</li>
+<li class="item">
+    <h2 class="menumain-label"><a href="#" class="itemLink">Eletrodomésticos <span class="icArrow">.</span></a></h2>
+
+    <div class="thirdLevel">
+        <div class="thirdLevel2">
+            <h2 class="thirdLevel-title">Eletrodomésticos</h2>
+            <ul class="ul">
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/loja/258551/eletrodomesticos">Eletrodomésticos</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/299248/ar-condicionado-e-aquecedores">Ar
+                    condicionado e Aquecedores</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/sublinha/300568/eletrodomesticos/lavadoras-de-roupas-e-tanquinhos/lavadora-de-roupas">Lavadora
+                    de Roupas</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/300202/eletrodomesticos/secadoras-de-roupas-e-centrifugas">Secadora
+                    de Roupas</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/300191/eletrodomesticos/geladeira-refrigerador">Geladeiras</a>
+                </li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/300198/eletrodomesticos/fogoes">Fogões</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/300200/eletrodomesticos/coifas-e-depuradores">Coifas</a>
+                </li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/300186/eletrodomesticos/micro-ondas">Micro-ondas</a>
+                </li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/300489/eletrodomesticos/lava-loucas">Lava-louça</a>
+                </li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/300448/eletrodomesticos/adegas-de-vinhos">Adega de Vinho</a>
+                </li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/289069/ferramentas/lavadoras-de-alta-pressao-e-acessorios">Lavadoras
+                    de Pressão</a></li>
+            </ul>
+        </div>
+    </div>
+</li>
+<li class="item">
+    <h2 class="menumain-label"><a href="#" class="itemLink">Casa <span class="icArrow">.</span></a></h2>
+
+    <div class="thirdLevel">
+        <div class="thirdLevel2">
+            <h2 class="thirdLevel-title">Casa</h2>
+            <ul class="ul">
+			<li class="subitem item-menu-enfeites-natal"><a href="http://www.submarino.com.br/loja/335237/enfeites-de-natal">Enfeites de Natal</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/loja/259388/eletroportateis">Eletroportáteis</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/284288/eletroportateis/cafeteira-e-chaleira">Cafeteiras</a>
+                </li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/284268/eletroportateis/bebedouros-e-purificadores">Bebedouros</a>
+                </li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/284229/eletroportateis/aspiradores-de-po-vassouras-e-acessorios">Aspiradores
+                    de Pó</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/258244/cama-mesa-e-banho">Cama, Mesa e
+                    Banho</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/260036/utilidades-domesticas">Utilidades
+                    Domésticas</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/257910/ferramentas">Ferramentas e
+                    Jardim</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/289069/ferramentas/lavadoras-de-alta-pressao-e-acessorios">Lavadoras
+                    de Pressão</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/285808/moveis-e-decoracao">Móveis e
+                    Decoração</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/298611/malas-e-acessorios">Malas e Acessórios</a></li>
+                <li class="subitem item-menu-pet-shop"><a href="http://www.submarino.com.br/loja/346668/pet-shop">Pet
+                    Shop</a></li>
+            </ul>
+        </div>
+    </div>
+</li>
+<li class="item">
+    <h2 class="menumain-label"><a href="#" class="itemLink">Esporte e Lazer <span class="icArrow">.</span></a></h2>
+
+    <div class="thirdLevel">
+        <div class="thirdLevel2">
+            <h2 class="thirdLevel-title">Esporte e Lazer</h2>
+            <ul class="ul">
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/259547/esporte-e-lazer">Esporte e
+                    Lazer</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/341608/esporte-e-lazer/aparelho-de-musculacao-e-fitness">Fitness</a>
+                </li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/292299/esporte-e-lazer/bicicleta">Bicicletas</a>
+                </li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/292632/esporte-e-lazer/praia-e-piscina">Piscinas</a>
+                </li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/341610/esporte-e-lazer/monitor-cardiaco">Monitores
+                    Cardíacos</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/292599/esporte-e-lazer/camping">Camping</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/292324/esporte-e-lazer/mochilas-esportivas">Mochilas Esportivas</a>
+                </li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/298849/malas-e-acessorios/malas-e-acessorios">Malas e Acessórios</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/259775/relogios">Relógios</a></li>
+            </ul>
+        </div>
+    </div>
+</li>
+<li class="item">
+    <h2 class="menumain-label"><a href="#" class="itemLink">Vinhos, Cervejas e Chocolates <span class="icArrow">.</span></a>
+    </h2>
+
+    <div class="thirdLevel">
+        <div class="thirdLevel2">
+            <h2 class="thirdLevel-title">Vinhos, Cervejas e Chocolates</h2>
+            <ul class="ul">
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/259466/vinhos-e-bebidas">Vinhos e
+                    Bebidas</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/299755/vinhos-e-bebidas/vinhos">Vinhos</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/300448/eletrodomesticos/adegas-de-vinhos">Adegas</a>
+                </li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/sublinha/299978/vinhos-e-bebidas/bebidas-alcoolicas/vodka">Vodka</a>
+                </li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/sublinha/300088/vinhos-e-bebidas/bebidas-alcoolicas/cervejas-especiais">Cervejas</a>
+                </li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/342130/vinhos-e-bebidas/azeites-e-vinagres">Azeites</a>
+                </li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/299779/vinhos-e-bebidas/chocolates-importados">Chocolates
+                    Importados</a></li>
+            </ul>
+        </div>
+    </div>
+</li>
+<li class="item">
+    <h2 class="menumain-label"><a href="#" class="itemLink">Brinquedos e Bebês <span class="icArrow">.</span></a></h2>
+
+    <div class="thirdLevel">
+        <div class="thirdLevel2">
+            <h2 class="thirdLevel-title">Brinquedos e Bebês</h2>
+            <ul class="ul">
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/257668/brinquedos">Brinquedos</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/281288/brinquedos/mini-veiculos">Miniveículos</a>
+                </li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/280788/brinquedos/bicicleta-infantil">Bicicletas
+                    infantis</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/259294/games">Games</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/257389/bebes">Bebês</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/sublinha/274232/bebes/passeio/carrinhos-de-passeio">Carrinhos
+                    para Bebês</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/sublinha/274230/bebes/passeio/cadeiras-para-auto">Assentos de
+                    Bebês para Autos</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/273828/bebes/seguranca">Artigos de
+                    Segurança</a></li>
+            </ul>
+        </div>
+    </div>
+</li>
+<li class="item">
+    <h2 class="menumain-label"><a href="#" class="itemLink">Perfumes, Beleza e Saúde <span class="icArrow">.</span></a>
+    </h2>
+
+    <div class="thirdLevel">
+        <div class="thirdLevel2">
+            <h2 class="thirdLevel-title">Perfumes, Beleza e Saúde</h2>
+            <ul class="ul">
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/259977/perfumaria">Perfumaria</a></li>
+                <!--<li class="subitem"><a href="http://www.submarino.com.br/menu/293608/maquiagem">Maquiagem</a></li>-->
+                <li class="subitem"><a href="http://www.submarino.com.br/loja/257854/beleza-e-saude">Beleza e Saúde</a>
+                </li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/290621/beleza-e-saude/chapinhas-pranchas-">Chapinhas</a>
+                </li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/290560/beleza-e-saude/barbeadores">Barbeadores</a>
+                </li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/290762/beleza-e-saude/medidores-de-pressao">Medidores de
+                    Pressão</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/linha/290815/beleza-e-saude/balancas">Balanças</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/linha/290839/beleza-e-saude/umidificadores-de-ar">Umidificadores</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</li>
+
+<li class="item coolstuff-item-menu">
+    <style type="text/css">
+        .coolstuff-item-menu a.itemLink {
+            background-image: url('http://img.submarino.com.br/frontend/flag_moda.png') !important;
+            background-position: 140px center !important;
+            background-repeat: no-repeat !important;
+        }
+
+        .coolstuff-item-menu a.itemLink:hover {
+            background-image: url('http://img.submarino.com.br/frontend/flag_moda.png') !important;
+            background-position: 140px center !important;
+            background-repeat: no-repeat !important;
+        }
+    </style>
+    <h2 class="menumain-label"><a href="#" class="itemLink">CoolStuff <span class="icArrow">.</span></a></h2>
+
+    <div class="thirdLevel">
+        <div class="thirdLevel2">
+            <div class="thirdLevel-title">Loja inspiração do Submarino</div>
+            <ul class="ul">
+                <li class="subitem"><a href="http://www.submarino.com.br/coolstuff/?WT.mc_id=menuIconeOver-coolstuff&WT.mc_ev=click">Novidades</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/coolstuff/casa?WT.mc_id=menuIconeOver-coolstuff-casa&WT.mc_ev=click">Casa</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/coolstuff/tecnologia?WT.mc_id=menuIconeOver-coolstuff-tecnologia&WT.mc_ev=click">Tecnologia</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/coolstuff/esportes?WT.mc_id=menuIconeOver-coolstuff-esportes&WT.mc_ev=click">Esportes</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/coolstuff/brinquedos?WT.mc_id=menuIconeOver-coolstuff-brinquedos&WT.mc_ev=click">Kids</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/coolstuff/moda?WT.mc_id=menuIconeOver-coolstuff-moda&WT.mc_ev=click">Moda</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/coolstuff/galeriadearte?WT.mc_id=menuIconeOver-coolstuff-galeriadearte&WT.mc_ev=click">Artes</a></li>
+                <li class="subitem"><a href="http://www.submarino.com.br/coolstuff/etc?WT.mc_id=menuIconeOver-coolstuff-etc&WT.mc_ev=click">Etc & Tal</a></li>
+            </ul>
+        </div>
+    </div>
+</li>
+
+<!-- INÍCIO ALTERAÇÃO -->
+<li class="item moda-item-menu">
+    <style type="text/css">
+        .moda-item-menu a.itemLink {
+            background-image: url('http://img.submarino.com.br/frontend/flag_moda.png') !important;
+            background-position: 140px center !important;
+            background-repeat: no-repeat !important;
+        }
+
+        .moda-item-menu a.itemLink:hover {
+            background-image: url('http://img.submarino.com.br/frontend/flag_moda.png') !important;
+            background-position: 140px center !important;
+            background-repeat: no-repeat !important;
+        }
+
+        .moda-item-menu .thirdLevel-title {
+            line-height: 29px;
+        }
+
+        .subitem.item-menu-pet-shop,
+		.subitem.item-menu-enfeites-natal{
+            background-image: url('http://img.submarino.com.br/frontend/flag_pet.png') !important;
+            background-position: 196px 1px !important;
+            background-repeat: no-repeat !important;
+        }
+    </style>
+    <h2 class="menumain-label"><a href="#" class="itemLink">Moda, Calçados <br/> e Acessórios <span
+            class="icArrow">.</span></a></h2>
+
+    <div class="thirdLevel">
+        <div class="thirdLevel2">
+            <div class="thirdLevel-title">Moda, Calçados e Acessórios</div>
+            <ul class="ul">
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/loja/342768/moda-calcados-e-acessorios?WT.mc_id=menuIconeOver-Moda&WT.mc_ev=click">Moda</a>
+                </li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/subloja/342769/moda-calcados-e-acessorios/roupas?WT.mc_id=menuIconeOver-Roupas&WT.mc_ev=click">Roupas</a>
+                </li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/subloja/343468/moda-calcados-e-acessorios/calcados?WT.mc_id=menuIconeOver-Calcados&WT.mc_ev=click">Calçados</a>
+                </li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/subloja/343504/moda-calcados-e-acessorios/bolsas-e-acessorios?WT.mc_id=menuIconeOver-Bolsas&WT.mc_ev=click">Bolsas
+                    e Acessórios</a></li>
+                <li class="subitem"><a
+                        href="http://www.submarino.com.br/hotsite/hotsite-moda-dicas-e-inspiracoes?WT.mc_id=menuIconeOver-Dicas&WT.mc_ev=click">Dicas
+                    e Inspirações</a></li>
+            </ul>
+        </div>
+    </div>
+</li>
+
+<!-- FIM ALTERAÇÃO -->
+</ul>
+<div class="checkAlso">
+    <strong class="title">Confira também</strong>
+    <ul class="checkAlsoList">
+
+        <li class="item"><a
+                href="http://www.submarinoviagens.com.br/default.aspx?utm_source=submarino&utm_medium=menuprincipal&utm_campaign=instit&CPId=menuprincipal_inst&1=1"
+                rel="nofollow">Submarino Viagens</a></li>
+        <li class="item"><a
+                href="http://www.ingresso.com.br/br/home/default.asp?parceria=submarino&T_PARCERIA=submarino&Busca=1&ParceriaBusca=submarino"
+                rel="nofollow">Ingressos</a></li>
+        <li class="item"><a href="/hotsite/Home-Cartao-Submarino" rel="nofollow">Cartão Submarino</a></li>
+        <li class="item"><a href="http://www.soubarato.com.br/?epar=sitesub&opn=SBSUB3&WT.mc_id=bannersub3">Outlet - Sou Barato</a></li>
+
+    </ul>
+</div>
+
+</div>
+</div>
+</div>
+
+</nav>
+
+
+<style type="text/css">
+.header .mainSearch {
+    margin: 0 400px 0 320px;
+}
+
+#oferta24hHead {
+    float: left;
+    margin: 0 12px 0 5px;
+    position: relative;
+}
+
+#oferta24hHead .oferta24h-lk {
+    display: inline-block;
+    font-size: 0;
+    height: 0;
+    background: url(http://i.s8.com.br/images/oferta-24h/img/sprite-24h-header.png) no-repeat 0 0;
+    padding: 35px 0 0;
+    width: 97px;
+    overflow: hidden;
+    zoom: 1;
+}
+
+#oferta24hHead .over24h .oferta24h-lk {
+    background: url(http://i.s8.com.br/images/oferta-24h/img/sprite-24h-header.png) no-repeat 0 -45px;
+}
+
+#oferta24hHead .oferta24h-prod {
+    position: absolute;
+    background: url(http://i.s8.com.br/images/oferta-24h/img/bg-box-24h.png) no-repeat 0 0;
+    top: 35px;
+    width: 375px;
+    padding: 10px 25px;
+    height: 270px;
+    left: 0;
+}
+
+#oferta24hHead .oferta-prod-lk {
+    display: block;
+    text-decoration: none;
+}
+
+#oferta24hHead .oferta-prod-lk:hover {
+    text-decoration: none;
+}
+
+#oferta24hHead .oferta24h-prod .tit-24h {
+    display: block;
+    font-size: 20px;
+    text-align: right;
+    margin: 0 0 5px;
+    color: #666;
+}
+
+#oferta24hHead .oferta24h-prod .photo-24h {
+    position: absolute;
+    left: -15px;
+}
+
+#oferta24hHead .inf-24h {
+    display: block;
+    height: 230px;
+    padding: 30px 0 0 190px;
+    width: 185px;
+}
+
+#oferta24hHead .desc {
+    display: block;
+    font-size: 18px;
+    color: #aaa1a2;
+    margin: 0 0 30px;
+}
+
+#oferta24hHead .conf-box {
+    display: block;
+    text-align: center;
+}
+
+#oferta24hHead .quant {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+#oferta24hHead .confira {
+    background: url(http://i.s8.com.br/images/oferta-24h/img/sprite-24h-header.png) no-repeat 0 -105px;
+    display: inline-block;
+    font-size: 0;
+    height: 0;
+    overflow: hidden;
+    padding: 22px 0 0;
+    width: 136px;
+    zoom: 1;
+}
+
+#oferta24hHead .oferta24h-prod {
+    display: none;
+}
+
+#oferta24hHead .over24h .oferta24h-prod {
+    display: block;
+}
+
+    /* ######################## SKIN HEADER WITHE  ####################### */
+.header, .header a,
+.header .helpMenu a,
+.header .mainNavigationBar .userMenu .usernav-list a,
+.header .mainNavigationBar .userMenu a,
+.header .mainNavigationBar,
+.header .departments .item .itemLink,
+.header .mainNav .checkAlso .item a {
+    color: #999;
+}
+
+.header {
+    background: #fff;
+}
+
+.header .userMenu .usernav-list li,
+.header .departments .item,
+.header .mainNav .checkAlso .item {
+    border-color: #999;
+}
+
+    /* IMAGENS */
+.header .mainNav .showAll,
+.header .mainNav .secondLevel,
+.header .mainNav .secondLevelInside {
+    background-image: url(http://img.submarino.com.br/header/bgMainMenu03.png);
+}
+
+.header .departments .thirdLevel,
+.header .departments .thirdLevel2 {
+    background-image: url(http://img.submarino.com.br/header/thirdLevelBg03.gif);
+}
+
+.header .mainNav .secondLevel {
+    padding-bottom: 14px;
+}
+
+    /*.header span.ico,*/
+.header .logo, .header .cart {
+    background-image: url(http://img.submarino.com.br/header/spriteHeader02.png);
+}
+
+.layerCart,
+.layerCartCont {
+    background-image: url(http://img.submarino.com.br/header/bgLayerCart.gif);
+}
+
+.header .searchSubmit {
+    background-color: #fff;
+}
+
+.header .searchSubmit,
+.header .mainSearch .MSInner,
+.autocomplete,
+.autocomplete .autocomplete-a {
+    background-image: url(http://img.submarino.com.br/header/busca_autocomplete03.gif);
+}
+
+#oferta24hHead .oferta24h-lk {
+    background: url(http://img.submarino.com.br/header/sprite-24h-header.png) no-repeat 0 0 !important;
+    width: 110px !important;
+}
+
+#oferta24hHead .over24h .oferta24h-lk {
+    background: url(http://img.submarino.com.br/header/sprite-24h-header.png) no-repeat 0 -44px !important;
+}
+
+#oferta24hHead .oferta24h-prod {
+    background-image: url(http://img.submarino.com.br/header/bg-box-24h.png);
+}
+
+.header .mainSearch .MSInner {
+    padding-left: 20px;
+}
+
+#oferta24hHead .oferta24h-lk {
+    background: url(http://img.submarino.com.br/header/sprite-24h-header.png) no-repeat 0 0 !important;
+    width: 110px !important;
+}
+
+#oferta24hHead .over24h .oferta24h-lk {
+    background: url(http://img.submarino.com.br/header/sprite-24h-header.png) no-repeat 0 -44px !important;
+}
+
+#oferta24hHead .oferta24h-prod {
+    background-image: url(http://img.submarino.com.br/header/bg-box-24h.png);
+}
+
+.header .searchSubmit {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: -20px;
+}
+
+.header .mainSearch .MSInner {
+    margin-right: 0;
+    position: relative;
+    height: 36px;
+}
+
+.header input.searchString {
+    margin-top: 8px;
+    outline: none;
+}
+
+.header {
+    border-top: 3px solid #00ADEF;
+    padding-top: 5px;
+    border-bottom: 5px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.header .departments .item:hover .itemLink, .header .departments .item .thirdLevel-title {
+    padding: 5px 3px 5px 10px;
+    font-weight: normal;
+    color: #fff;
+    background: #1dadeb;
+    border-radius: 0;
+}
+
+.header .departments .item .thirdLevel-title {
+    margin-bottom: 0;
+    position: relative;
+    top: -7px;
+    border-radius: 0 7px 0 0;
+    padding-left: 15px;
+}
+
+.header .departments .thirdLevel a:hover, .header .mainNav .checkAlsoList .item a:hover {
+    color: #1dadeb;
+}
+
+.header .departments .thirdLevel2 {
+    padding-left: 0;
+}
+
+.header .departments .thirdLevel2 .subitem {
+    border-bottom: 1px dotted #999;
+}
+
+.header .departments .thirdLevel {
+    top: 0;
+    left: 192px;
+}
+
+.header .departments .thirdLevel2 .subitem {
+    padding: 2px 0 2px 15px;
+}
+
+.header .departments .thirdLevel2 .ul {
+    top: -5px;
+}
+
+    /* ######################## FIM SKIN HEADER WITHE  ####################### */
+.header .helpMenu {
+    margin: 35px 0 0 0;
+    float: none;
+}
+
+.header .helpMenu li {
+    margin-left: 15px;
+}
+
+.header .helpMenu li .phone {
+    font-size: 12px;
+    font-weight: normal;
+}
+.header .helpMenu li{
+    font-size: 15px;
+}
+.header .helpMenu li span {
+    font-size: 10px;
+}
+
+.header .helpMenu li a:hover span {
+    text-decoration: none;
+}
+
+.header .userArea {
+    text-align: center;
+}
+
+ </style>
+
+
+<!-- componente de oferta 24h -->
+<div id="oferta24hHead">
+    <div class="24hHead" onmouseover="this.className+=' over24h';"
+         onmouseout="this.className=this.className.replace(new RegExp(' over24h\\b'), '');">
+        <a href="http://www.submarino.com.br/oferta24horas" class="oferta24h-lk">oferta 24h</a>
+
+
+        <div class="oferta24h-prod">
+            <script type="text/javascript">
+                try {
+                    OAS_AD('x24')
+                } catch (exp) {
+                    handleException(exp)
+                }
+            </script>
+        </div>
+
+
+    </div>
+</div>
+
+
+<!-- final componente de oferta 24h -->
+
+
+<form class="mainSearch" action="http://busca.submarino.com.br/busca" method="get">
+    <div class="MSInner">
+        <label class="label1">
+            <span class="lbl">Buscar</span>
+            <input type="search" name="term" class="searchString">
+        </label>
+
+        <button type="submit" class="searchSubmit">ok</button>
+    </div>
+</form>
+</div>
+</div>
+</header>
+
+<!-- Sugestão de Cliente -->
+<style type="text/css">
+    #footer-open-sugestao {
+        text-align: center;
+        font-size: 14px;
+        position: absolute;
+        right: 20px;
+        width: 19%;
+        color: #4f4d4d;
+        cursor: pointer;
+        font-weight: normal;
+    }
+
+    form.searchFooter-a {
+        width: 81%;
+    }
+</style>
+<script>
+    sugestao = {
+        init: function () {
+           var userAgent = navigator.userAgent.toLowerCase();
+           if(userAgent.indexOf('iphone')!=-1){
+               document.getElementById('help').setAttribute('id','helpMenuIOS');
+            }
+            if (typeof(jQuery) != "undefined") {
+                if ($('.footer').html() != null) {
+                    $('<a id="footer-open-sugestao" href="http://fb.submarino.com.br/portal/sugestao/" class="popIframe" data-height="460" data-width="520">Qual produto você gostaria de ver no Submarino?</a>').appendTo('form.searchFooter-a');
+                } else {
+                    setTimeout("sugestao.init();", 1000);
+                }
+            } else {
+                setTimeout("sugestao.init();", 1000);
+            }
+        }
+    }
+    sugestao.init();
+
+    function _GET(name) {
+        var url = window.location.search.replace("?", "");
+        var itens = url.split("&");
+
+        for (n in itens) {
+            if (itens[n].match(name)) {
+                return decodeURIComponent(itens[n].replace(name + "=", ""));
+            }
+        }
+        return null;
+    }
+    function setCookie(cookie_name, cookie_value, expire_in_days) {
+        if (cookie_value == null)return;
+
+        var cookie_expire = "";
+
+        if (expire_in_days != null) {
+            var expire = new Date();
+            expire.setTime(expire.getTime() + 1000 * 60 * 60 * 24 * parseInt(expire_in_days));
+            cookie_expire = "; expires=" + expire.toGMTString();
+        }
+
+        document.cookie = escape(cookie_name) + "=" + escape(cookie_value) + cookie_expire + ";domain=.submarino.com.br;path=/";
+    }
+    setCookie("b2wChave", _GET('chave'), 1);
+</script>
+<!-- End Sugestão de Cliente -->
+
+<!-- Selo -->
+<script type="text/javascript" src="http://img.submarino.com.br/docs/selo/js/selo.js"></script>
+<!-- End -->
+
+<script type="text/javascript" src="http://img.submarino.com.br/imagens/apps/cr.js"></script>
+
+		<div class="boxSotreNav">
+				<div class="titleStore">
+					<a href="http://www.submarino.com.br/loja/309573/livros">
+							<span class="hTitleStore">Livros</span>	
+						
+						<span class="ico icoAr">&gt;</span>
+					</a>
+				</div>
+			
+				<ul class="storeNav iList">
+						<li class="li"><a href="/loja/260144/livros-importados" class="lvl1">Livros importados</a></li>
+						<li class="li"><a href="/linha/309886/livros/mais-vendidos" class="lvl1">Mais Vendidos</a></li>
+						<li class="li"><a href="/linha/309796/livros/literatura-estrangeira" class="lvl1">Literatura Estrangeira</a></li>
+						<li class="li"><a href="/linha/309807/livros/literatura-nacional" class="lvl1">Literatura Nacional</a></li>
+						<li class="li"><a href="/linha/309575/livros/administracao-e-negocios" class="lvl1">Administração e Negócios</a></li>
+						<li class="li"><a href="/linha/309818/livros/medicina-e-saude" class="lvl1">Medicina e Saúde</a></li>
+						<li class="li"><a href="/linha/309654/livros/culinaria-e-gastronomia" class="lvl1">Culinária e Gastronomia</a></li>
+						<li class="li"><a href="/avancada-busca-livros" class="lvl1">Busca Avançada</a></li>
+				</ul>
+			
+		</div>
+	
+	<div class="bannerrm null">
+			<script type="text/javascript">	
+				try { 
+					OAS_AD('Top1')
+				} catch(exp) {
+					handleException(exp)
+				}	
+			</script>
+		
+	</div>
+					</div>
+	
+				<p class="skip"><a href="#header" rel="nofollow">Voltar para o topo</a> |	<a href="#footer" rel="nofollow">Ir para o Rodapé</a></p>
+		<div id="content">
+			<div id="mainContent"><div id="mainContent-inner">
+	
+	<div id="area2">
+		<div id="area2-1"><div id="area2-1-outer">
+				<div id="area2-1-inner" itemscope="itemscope" itemtype="http://schema.org/Product">
+					<div id="area2-1-1">
+
+	<ul class="bCrumb">
+			<li>
+					<a class="category" rel="" href="http://www.submarino.com.br/loja/309573/livros">Livros</a> &gt;
+			</li>
+			<li>
+					<a class="category" rel="" href="http://www.submarino.com.br/linha/309654/livros/culinaria-e-gastronomia">Culinária e Gastronomia</a> &gt;
+			</li>
+				<li>
+						<span class="category last">Doces e Sobremesas </span>
+				</li>
+	</ul><p class="safeShop">
+	<span class="ico"></span>
+	<a class="popIframe" href="http://img.submarino.com.br/skins/popup/htm/popup_ambienteseguro.htm">Compra segura Submarino</a>
+</p>      
+     
+    <div class="hproduct fullProduct ">
+		<META NAME="WT.si_n" CONTENT="ShoppingCart;SCV2 " />
+		<META NAME="WT.si_x" CONTENT="1;1" />
+		<META NAME="WT.pn_sku" CONTENT="110639737" />
+		<META NAME="WT.tx_u" CONTENT="1" />
+
+	<META NAME="WT.tx_e" CONTENT="v" />
+
+	<div class="prodInfo">
+		<div class="prodInfoSec_1">
+
+			<div class="productHeader">
+					<h1 class="n name fn" itemprop="name">Livro - Arte de Fazer Macarons, A</h1>
+				
+				<p class="sku" itemprop="productID">Cod. do Produto: 110639737</p>
+
+				<div id="mainBoxReadRatings" class="boxReadRatings"></div>
+		<span class="stamps">
+			<span class="stpImage">
+					<span class="stopperInfo" data-href="/estaticapop/regulamento-frete-gratis" title="clique e saiba mais">
+						<img alt="entrega_atomica" src="http://img.submarino.com.br/novosuba/img/entrega_atomica.gif" width="92" height="24" />
+					</span>
+			</span>
+		</span>
+
+
+			</div>
+
+				<div class="prodInfoSec_1_1">
+
+        <div class="buyBox">
+				<div class="buy">
+					<form action="http://carrinho.submarino.com.br/checkout/" name="form1" class="checkout">
+      
+    <input type="hidden" name="codProdFusion" value="110639737" />
+		<input type="hidden" id="sku-hidden" name="codItemFusion" value="110639745" />
+						<input type="submit" name="buy" class="btn btBuy" value="Comprar" />
+					</form>
+				</div>
+				<div class="oneClick"></div>
+			
+				<div class="addToList">
+                       <span class="btn btAddList">Adicionar à lista</span>
+                       <div class="addToList-content">
+                               <form action="#" method="get" class="formAddToList">
+                                       <ul class="addToList-list">
+                                               <li class="addToList-item"><label><input type="radio" name="redirectTo" value="/lista-de-desejos/wishlist/showAddProduct.do?productId=110639737" /> Lista de Desejos</label></li>
+                                       </ul>
+                                       <input type="submit" class="btn btOk3" value="OK" />
+                               </form>
+                       </div>
+               </div>
+		</div>
+
+				</div>
+
+				<div class="prodInfoSec_1_2">
+						<div id="skuSelectJS"></div>
+	
+
+	<div class="priceBox">
+		<ul class="priceList">
+				<li class="li regular">
+					<label class="label">De: </label> 
+					<del>
+						<abbr class="currency" title="BRL">R$</abbr> <span class="amount">34,80</span>
+					</del>
+				</li>
+
+			<li class="li sale" itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer">
+				<label class="label">Por:  </label> 
+				<strong>
+					<abbr class="currency" title="BRL">R$</abbr> <span class="amount" itemprop="price">12,90</span>
+				</strong>
+					<span class="discount">(desconto de R$ 21,90)</span>
+				<link itemprop="itemCondition" href="http://schema.org/NewCondition" />
+			</li>
+
+				<li class="li"><label class="label">Ou em até: </label>
+					<div class="parcelBox">
+
+						<span class="bankprice"><strong>2x
+								de R$ 6,45</strong>
+								<span class="parcelDiscount"> sem juros</span>
+								<span class="ico icoSeta"> </span> </span>
+	
+	<div class="listCartaoParcelamento">
+	    <div class="scrollbar">
+				<ul class="cartaoParcelamento">
+				
+					<li class="titleCredito">Cartão de crédito</li>
+						<li class="li">2x de R$ 6,45 sem juros </li>
+				</ul>				
+					<ul class="cartaoParcelamento">
+						<li class="titleSubmarino"> Cartão Submarino</li>
+							<li class="li">2x de R$ 6,45 sem juros</li>
+					</ul>
+		</div>
+	</div>
+
+					</div></li>
+		</ul>
+	
+	<div class="cartaoSubmarino">
+		<span class="csTitle"><strong>Cartão Submarino </strong>(ganhe até 38 Léguas)</span>
+			<div class="priceCS">
+				<span class="ico icoCartaoSubmarino"></span>
+					<div class="priceSubmarino">
+							<p class="price"><strong>R$ 12,90</strong></p>
+							<div class="parcels parcelBox">
+								<span class="parcel">Ou em até <strong>2x de R$ 6,45</strong> sem juros <span class="ico icoSeta"> </span></span>
+	
+	<div class="listCartaoParcelamento">
+	    <div class="scrollbar">
+				<ul class="cartaoParcelamento">
+				
+					<li class="titleCredito">Cartão de crédito</li>
+						<li class="li">2x de R$ 6,45 sem juros </li>
+				</ul>				
+					<ul class="cartaoParcelamento">
+						<li class="titleSubmarino"> Cartão Submarino</li>
+							<li class="li">2x de R$ 6,45 sem juros</li>
+					</ul>
+		</div>
+	</div>
+								
+							</div>
+					</div>
+				</div>
+			</div>
+	</div>
+					
+					<div class="payments">
+
+						<span class="border-dotted"></span>
+
+	<fieldset class="round shBox">
+		<div class="calcBox">
+			<p class="shTx">
+				<span class="ico icFreight">-</span> Consulte o prazo de entrega do seu pedido
+			</p>
+			<div class="calc">
+				<span class="cep">Digite seu CEP:</span> 
+				<input type="text" class="textInput" id="postalCodeID1" maxlength="5" /> 
+				<input type="text" class="textInput" id="postalCodeID2" maxlength="3" />
+				<a href="#" class="btn btOk2" id="calculateFreight">Calcular frete</a> 
+				<a href="/checkout/address/searchCep.xhtml" class="fnCepPop">Procurar CEP</a>
+			</div>
+		</div>
+		<div class="resultCep" style="display: none;">
+			<p class="shTx"><span class="ico icFreight">-</span> Consulte o prazo de entrega do seu pedido</p>
+			<p class="shpTime">
+				Prazo de entrega <span class="txShp" id="prazoJS"></span>
+			</p>
+			<a class="duInfo" href="/estaticapop/entenda-prazo">(Entenda o prazo)</a>
+			<a href="#" class="fnCep">pesquisar outro CEP</a>							
+				<div class="boxAvailability">
+					<p>
+						<strong>Produto em estoque</strong> 
+						<a href="/estaticapop/Saiba%20mais%20sobre%20entrega" class="popAjax">Saiba mais</a>
+					</p>
+				</div>
+			<p class="shpTime2">
+				Valor do frete para o CEP <strong id="cepJs"></strong> 
+				<span class="txShp"> Frete grátis</span>
+			</p>
+		</div>
+		<div class="serviceUnavaible" style="display: none;">
+			<a href="#" class="fnCep">pesquisar outro CEP</a>
+			<p class="shpTime">
+				<span class="txShp">Serviço indisponível no momento.</span>
+			</p>
+			<p class="shpTime2">Tente novamente mais tarde</p>
+		</div>
+		<div class="resultUnavaible" style="display: none;">
+			<p class="shTx"><span class="ico icFreight">-</span> Consulte o prazo de entrega do seu pedido</p>			
+			<div class="formResultUnavaible">
+				<a href="#" class="fnCep">pesquisar outro CEP</a>
+				<p class="shpTime">
+					<span class="txShp">Produto indisponível no momento.</span>
+				</p>
+				<p class="shpTime2">Gostaria de ser avisado quando o produto retornar em estoque?</p>
+				<div>
+					<input type="hidden" value="110639737" name="soldout.itemId" /> 
+					<input type="hidden" name="soldout.skus" /> 
+					
+					<label><span>Nome:</span> <input type="text" name="soldout.name" class="textInput" title="Nome" />
+					</label> <label><span>Email:</span> <input type="text" name="soldout.email" class="textInput" title="Email" />
+					</label> <input type="submit" class="btn btOk2" value="Enviar" />
+				</div>
+
+			</div>
+		</div>
+	</fieldset>
+	
+	<p class="moreButtons">
+		<a href="/pop/enviar/amigo/produto/110639737/livro-arte-de-fazer-macarons-a" class="btn btRecomende popAjax">Recomende</a>
+	</p>
+						
+
+					</div>
+
+				</div>
+
+		</div>
+
+		<div class="prodInfoSec_2">
+			<div class="imgGallery">
+	  
+	<div class="mainImg" id="prodImg">
+		<a href="http://img.submarino.com.br/produtos/01/00/item/110639/7/110639737SZ.jpg" rel="sz prod_thumb" rev="GG/produto/110639737/livro-arte-de-fazer-macarons-a">
+			<img width="250" height="250" id="imgProduto" itemprop="image" alt="Livro - Arte de Fazer Macarons, A" src="http://img.submarino.com.br/produtos/01/00/item/110639/7/110639737G1.jpg" class="photo" />
+				<span class="ico iczoom">.</span>
+		</a>
+	</div>
+		<ul class="thumbs">
+			<li class="thumb">
+				<a href="http://img.submarino.com.br/produtos/01/00/item/110639/7/110639737GG.jpg" rel="prod_thumb" rev="0/produto/110639737/livro-arte-de-fazer-macarons-a">
+					<img itemprop="image" width="40" height="40" src="http://img.submarino.com.br/produtos/01/00/item/110639/7/110639737GG.jpg" class="photo" alt="Livro - Arte de Fazer Macarons, A" />
+				</a>
+			</li>
+		</ul>
+			</div>
+
+			<div class="productStamps">
+				<ul class="stamps-list">
+					<li class="stamp-item">
+							<a class="stp stDetails2" href="#productDescription">Saiba
+								mais sobre esse produto</a></li>
+						
+					<li class="stamp-item"></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+	</div>
+	<!-- Open Social -->
+	<div id="open_social_share_like" style="margin: -20px 0 10px 270px; position: relative;">
+		<style type="text/css">.social-element-share{float: left;}</style>
+		<span id="product_share_googleplus" class="social-element-share" onclick="pageTracker._trackEvent('googlePlusOne', 'click', 'compartilhar_googlePlusOne');"></span>
+		<span id="product_share_twitter" class="social-element-share" onclick="pageTracker._trackEvent('twitter', 'click', 'compartilhar_twitter');"></span>
+		<span id="product_share_facebook" class="social-element-share" onclick="pageTracker._trackEvent('facebook', 'click', 'curtir_facebook');"></span>
+		<script type="text/javascript">
+			function addSocialBar(){
+				if(!$('.prodIndisponivel').length){
+					var facebook				= $('#product_share_facebook').html('<iframe src="http://www.facebook.com/plugins/like.php?app_id=224894680882697&amp;href=' + encodeURIComponent('http://www.submarino.com.br/produto/110639737/livro-arte-de-fazer-macarons-a') + '&amp;send=false&amp;layout=button_count&amp;width=250&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=arial&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:98px; height:21px;" allowTransparency="true"></iframe>');
+					var twitter					= $('#product_share_twitter').html('<iframe src="http://platform.twitter.com/widgets/tweet_button.html?url=' + encodeURIComponent('http://www.submarino.com.br/produto/110639737/livro-arte-de-fazer-macarons-a') + '&via=submarino" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:115px; height:21px;" allowTransparency="true"></iframe>');
+					var googlePlus				= $('#product_share_googleplus').html('<iframe src="https://plusone.google.com/u/0/_/+1/fastbutton?url=' + encodeURIComponent('http://www.submarino.com.br/produto/110639737/livro-arte-de-fazer-macarons-a') + '&size=medium&count=true&annotation=&hl=pt-BR&jsh=r%3Bgc%2F23217085-590ae8cc#id=I1_1314274026639&parent=http%3A%2F%2Fwww.submarino.com.br&rpctoken=653621751&_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe>');
+				}else{
+					$('#area2-1-1 > .ATG.box').remove();
+				}
+			}
+			onReady('jQuery', addSocialBar);
+		</script>
+		<div style="clear:both;"></div>
+	</div>
+<!-- End -->
+	<div id="neemu-viu-viu" class="neemu-box-horizontal"></div>
+
+	<div class="productDescription" id="productDescription">
+	
+		<div class="box">
+			<div class="box-top">
+				<div class="box-top-a">
+					<div class="box-title">
+						Informações sobre o produto
+					</div>
+				</div>		
+			</div>
+			<div class="box-content">
+				<div class="box-content">
+						<p>
+							<strong>
+								Livro - Arte de Fazer Macarons, A				
+							</strong>
+						</p>
+									<p><p align="justify"> Em sua origem, os Macarons eram apenas biscoitos de amêndoas, sem recheio; entretanto no século XX o docinho ganhou o recheio cremoso, sendo utilizado em pares, como é conhecido hoje em dia. Acredita-se que sua receita tenha surgido há séculos em algum monastério italiano e que foi levada à França por Catarina de Médici por ocasião de seu casamento com o Duque de Orleans, durante o período da Renascença; porém os franceses têm outra versão para o seu surgimento - o monastério de Cormery, na França. <br><br>    Com nome que deriva do termo maccherone, em italiano; este delicioso e elegante doce ganha cada vez mais destaque em confeitarias pelo mundo afora. Uma arte sem dúvida, que aqui você aprenderá como fazer a receita básica e também tingi-la; além das deliciosas ganaches, geléias e cremes para o recheio e ainda como dar formatos diferenciados aos macarons e decorar a massa.<BR><BR>
+									</p>
+						
+						<div class="description-table-box">
+							<table class="des-tb">
+								<caption class="hidden">Descrição do Produto</caption>
+								<thead>
+									<tr>
+										<th class="des-tb-head" colspan="2">Principais Características</th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+												<th class="des-tb-body ds-tb-bd-01">Título</th>
+													<td class="des-tb-body ds-tb-bd-02">A Arte de Fazer Macarons</td>
+											</tr>
+											<tr>
+												<th class="des-tb-body ds-tb-bd-01">Autor</th>
+													<td class="des-tb-body ds-tb-bd-02">Lafonte (Ed.)</td>
+											</tr>
+											<tr>
+												<th class="des-tb-body ds-tb-bd-01">Editora</th>
+													<td class="des-tb-body ds-tb-bd-02">Lafonte</td>
+											</tr>
+											<tr>
+												<th class="des-tb-body ds-tb-bd-01">ISBN</th>
+													<td class="des-tb-body ds-tb-bd-02" itemprop="isbn">9788564264557</td>
+											</tr>
+											<tr>
+												<th class="des-tb-body ds-tb-bd-01">Páginas</th>
+													<td class="des-tb-body ds-tb-bd-02">144</td>
+											</tr>
+											<tr>
+												<th class="des-tb-body ds-tb-bd-01">Edição</th>
+													<td class="des-tb-body ds-tb-bd-02">1</td>
+											</tr>
+											<tr>
+												<th class="des-tb-body ds-tb-bd-01">Tipo de capa</th>
+													<td class="des-tb-body ds-tb-bd-02">BROCHURA</td>
+											</tr>
+											<tr>
+												<th class="des-tb-body ds-tb-bd-01">Ano</th>
+													<td class="des-tb-body ds-tb-bd-02">2011</td>
+											</tr>
+											<tr>
+												<th class="des-tb-body ds-tb-bd-01">Assunto</th>
+													<td class="des-tb-body ds-tb-bd-02">Culinaria</td>
+											</tr>
+											<tr>
+												<th class="des-tb-body ds-tb-bd-01">Idioma</th>
+													<td class="des-tb-body ds-tb-bd-02">Português</td>
+											</tr>
+											<tr>
+												<th class="des-tb-body ds-tb-bd-01 ds-tb-last-01">Código de Barras</th>
+													<td class="des-tb-body ds-tb-bd-02 ds-tb-last-02">9788564264557</td>
+											</tr>
+								</tbody>
+									
+							</table>
+						</div>
+					
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	<div class="seeMoreProducts">
+		<div class="box">
+		<div class="box-top">
+			<div class="box-top-a">
+				<div class="box-title">
+					Confira mais Doces e Sobremesas
+				</div>
+			</div>		
+		</div>
+				
+		<div class="box-content">
+			<div class="box-content">
+				
+				<div class="carousel">
+				
+					<div class="carousel-inner">
+						<ul id="gridWS" class="grid">
+							<li class="li">
+		<div class="hproduct " itemprop="isSimilarTo" itemscope="itemscope" itemtype="http://schema.org/Product">
+			<input class="productId" type="hidden" value="7354141" />
+			<a itemprop="url" href="http://www.submarino.com.br/produto/7354141/livro-cupcakes" title="Livro - Cupcakes" class="url">
+					<img itemprop="image" width="150" height="150" alt="Livro - Cupcakes" src="http://img.submarino.com.br/produtos/01/00/item/7354/1/7354141P1.jpg" data-longdesc="http://img.submarino.com.br/produtos/01/00/item/7354/1/7354141G1.jpg" class="photo" />
+			</a>
+		<span class="stamps">
+			<span class="stpImage">
+					<span class="stopperInfo" data-href="/estaticapop/regulamento-frete-gratis" title="clique e saiba mais">
+						<img alt="entrega_atomica" src="http://img.submarino.com.br/novosuba/img/entrega_atomica.gif" width="92" height="24" />
+					</span>
+			</span>
+		</span>
+	<span class="btn mDet ">Mais detalhes</span>
+			
+			<a href="http://www.submarino.com.br/produto/7354141/livro-cupcakes" title="Livro - Cupcakes" class="url">	
+				<span class="info">
+					<strong itemprop="name" class="n name fn">Livro - Cupcakes
+					</strong>
+						<strong class="brand">Larousse Editorial</strong>
+						<span class="description" itemprop="description">    Com dicas práticas e essenciais você vai aprender a preparar as massas, rechear e cobrir lindos e deliciosos cupcakes para servir em diversas ocas...</span>
+					
+					<span class="more"><span class="stp stDetails">Saiba mais sobre esse produto</span></span>
+				</span>
+			</a>
+		<span class="stamps2">
+			<span class="stpImage">
+					<span class="stopperInfo" data-href="/estaticapop/regulamento-frete-gratis" title="clique e saiba mais">
+						<img alt="entrega_atomica" src="http://img.submarino.com.br/novosuba/img/entrega_atomica.gif" width="92" height="24" />
+					</span>
+			</span>
+		</span>
+			
+				<span class="priceBox" itemscope="itemscope" itemtype="http://schema.org/PriceSpecification">
+
+	<span class="sale price money">
+		<strong class="amount"><abbr title="BRL">R$</abbr> <span itemprop="price">34,90</span> </strong>
+	</span>
+		<span class="p-v interest" itemscope="itemscope" itemtype="http://schema.org/Offer"> 
+			<span class="parcel" itemprop="itemCondition">6x</span> de <span class="amount" itemprop="price">R$ 5,82</span>	
+		</span>
+				</span>
+					<div class="buyBox">
+						<div class="buy">
+							<form method="get" class="checkout" action="http://carrinho.submarino.com.br/checkout/">			 			
+					 			<input type="hidden" name="quantity" value="1" />
+					 			<input type="hidden" name="codProdFusion" value="7354141" />
+								<input type="hidden" name="codItemFusion" value="7354142" />
+								<button type="submit" class="btn btBuy" value="comprar">Comprar</button>
+							</form>
+							
+						</div>
+						<div class="oneClick"></div>
+						<div class="addToList">
+		                       <span class="btn btAddList">Adicionar à lista</span>
+		                       <div class="addToList-content">
+		                               <form action="#" method="get" class="formAddToList">
+		                                       <ul class="addToList-list">
+		                                               <li class="addToList-item"><input type="radio" name="redirectTo" value="/lista-de-desejos/wishlist/showAddProduct.do?productId=7354141" /> Lista de Desejos</li>
+		                                       </ul>
+		                                       <input type="submit" class="btn btOk3" value="OK" />
+		                               </form>
+		                       </div>
+		               </div>			
+					</div>
+			<ul class="related">
+					<li><a href="http://www.submarino.com.br/artista/18340/Larousse%20Editorial">+ <span itemprop="brand">Larousse Editorial</span></a></li>
+			</ul>
+
+	<div class="box_bv" itemprop="aggregateRating" itemscope="itemscope" itemtype="http://schema.org/AggregateRating">
+        <span class="review_bv">
+            <div class="review_points" style="width:101.2%">
+            	<img src="http://img.submarino.com.br/novosuba/catalog/img/estrelas_bazzarinline.png" alt="stars" />
+            </div>
+        </span>
+        <span itemprop="ratingValue" class="ratingValue">5.0</span>
+        <span>(<span itemprop="reviewCount">4</span>)</span>
+    </div>
+     	</div>
+							</li>
+							<li class="li">
+		<div class="hproduct " itemprop="isSimilarTo" itemscope="itemscope" itemtype="http://schema.org/Product">
+			<input class="productId" type="hidden" value="228926" />
+			<a itemprop="url" href="http://www.submarino.com.br/produto/228926/livro-le-cordon-bleu-sobremesas-e-suas-tecnicas-" title="Livro - Le Cordon Bleu - Sobremesas E Suas Tecnicas       " class="url">
+					<img itemprop="image" width="150" height="150" alt="Livro - Le Cordon Bleu - Sobremesas E Suas Tecnicas       " src="http://img.submarino.com.br/produtos/01/00/item/228/9/228926P1.jpg" data-longdesc="http://img.submarino.com.br/produtos/01/00/item/228/9/228926g1.jpg" class="photo" />
+			</a>
+		<span class="stamps">
+			<span class="stpImage">
+					<span class="stopperInfo" data-href="/estaticapop/regulamento-frete-gratis" title="clique e saiba mais">
+						<img alt="entrega_atomica_frete_rj_sp" src="http://img.submarino.com.br/novosuba/img/entrega_atomica_frete_rj_sp.gif" width="92" height="24" />
+					</span>
+			</span>
+		</span>
+	<span class="btn mDet ">Mais detalhes</span>
+			
+			<a href="http://www.submarino.com.br/produto/228926/livro-le-cordon-bleu-sobremesas-e-suas-tecnicas-" title="Livro - Le Cordon Bleu - Sobremesas E Suas Tecnicas       " class="url">	
+				<span class="info">
+					<strong itemprop="name" class="n name fn">Livro - Le Cordon Bleu - Sobremesas E Suas Tecnicas       
+					</strong>
+						<strong class="brand">Le Cordon Bleu </strong>
+						<span class="description" itemprop="description">Fotografias e mais de 150 receitas para todos os paladares. Este guia para cozinheiros de todos os gêneros traz técnicas e explicações detalhadas que ...</span>
+					
+					<span class="more"><span class="stp stDetails">Saiba mais sobre esse produto</span></span>
+				</span>
+			</a>
+		<span class="stamps2">
+			<span class="stpImage">
+					<span class="stopperInfo" data-href="/estaticapop/regulamento-frete-gratis" title="clique e saiba mais">
+						<img alt="entrega_atomica_frete_rj_sp" src="http://img.submarino.com.br/novosuba/img/entrega_atomica_frete_rj_sp.gif" width="92" height="24" />
+					</span>
+			</span>
+		</span>
+			
+				<span class="priceBox" itemscope="itemscope" itemtype="http://schema.org/PriceSpecification">
+
+	<span class="sale price money">
+		<strong class="amount"><abbr title="BRL">R$</abbr> <span itemprop="price">219,90</span> </strong>
+	</span>
+		<span class="p-v interest" itemscope="itemscope" itemtype="http://schema.org/Offer"> 
+			<span class="parcel" itemprop="itemCondition">12x</span> de <span class="amount" itemprop="price">R$ 18,32</span>	
+		</span>
+				</span>
+					<div class="buyBox">
+						<div class="buy">
+							<form method="get" class="checkout" action="http://carrinho.submarino.com.br/checkout/">			 			
+					 			<input type="hidden" name="quantity" value="1" />
+					 			<input type="hidden" name="codProdFusion" value="228926" />
+								<input type="hidden" name="codItemFusion" value="228927" />
+								<button type="submit" class="btn btBuy" value="comprar">Comprar</button>
+							</form>
+							
+						</div>
+						<div class="oneClick"></div>
+						<div class="addToList">
+		                       <span class="btn btAddList">Adicionar à lista</span>
+		                       <div class="addToList-content">
+		                               <form action="#" method="get" class="formAddToList">
+		                                       <ul class="addToList-list">
+		                                               <li class="addToList-item"><input type="radio" name="redirectTo" value="/lista-de-desejos/wishlist/showAddProduct.do?productId=228926" /> Lista de Desejos</li>
+		                                       </ul>
+		                                       <input type="submit" class="btn btOk3" value="OK" />
+		                               </form>
+		                       </div>
+		               </div>			
+					</div>
+			<ul class="related">
+					<li><a href="http://www.submarino.com.br/artista/18976/Le%20Cordon%20Bleu%20">+ <span itemprop="brand">Le Cordon Bleu </span></a></li>
+			</ul>
+     	</div>
+							</li>
+							<li class="li">
+		<div class="hproduct " itemprop="isSimilarTo" itemscope="itemscope" itemtype="http://schema.org/Product">
+			<input class="productId" type="hidden" value="7297680" />
+			<a itemprop="url" href="http://www.submarino.com.br/produto/7297680/mil-folhas-historia-ilustrada-do-doce" title="Mil-Folhas -  História Ilustrada do Doce" class="url">
+					<img itemprop="image" width="150" height="150" alt="Mil-Folhas -  História Ilustrada do Doce" src="http://img.submarino.com.br/produtos/01/00/item/7297/6/7297680P1.jpg" data-longdesc="http://img.submarino.com.br/produtos/01/00/item/7297/6/7297680G1.jpg" class="photo" />
+			</a>
+	<span class="btn mDet ">Mais detalhes</span>
+			
+			<a href="http://www.submarino.com.br/produto/7297680/mil-folhas-historia-ilustrada-do-doce" title="Mil-Folhas -  História Ilustrada do Doce" class="url">	
+				<span class="info">
+					<strong itemprop="name" class="n name fn">Mil-Folhas -  História Ilustrada do Doce
+					</strong>
+						<span class="description" itemprop="description">    A obra  Mil-folhas é um passeio geográfico, histórico e literário pela história dos doces. Nos quatro cantos do mundo, a gastronomia influenciou d...</span>
+					
+					<span class="more"><span class="stp stDetails">Saiba mais sobre esse produto</span></span>
+				</span>
+			</a>
+			
+				<span class="priceBox" itemscope="itemscope" itemtype="http://schema.org/PriceSpecification">
+		 	<span class="finance price money">
+				<span class="discount">desconto de <abbr title="BRL">R$</abbr> 11,90</span>
+			</span>
+
+		<span class="regular money"> 
+			<span class="amount">
+				<del><abbr title="BRL">R$</abbr> 49,90</del>
+			</span>
+		</span>
+
+	<span class="sale price money">
+		<strong class="amount"><abbr title="BRL">R$</abbr> <span itemprop="price">38,00</span> </strong>
+	</span>
+		<span class="p-v interest" itemscope="itemscope" itemtype="http://schema.org/Offer"> 
+			<span class="parcel" itemprop="itemCondition">7x</span> de <span class="amount" itemprop="price">R$ 5,43</span>	
+		</span>
+				</span>
+					<div class="buyBox">
+						<div class="buy">
+							<form method="get" class="checkout" action="http://carrinho.submarino.com.br/checkout/">			 			
+					 			<input type="hidden" name="quantity" value="1" />
+					 			<input type="hidden" name="codProdFusion" value="7297680" />
+								<input type="hidden" name="codItemFusion" value="7297681" />
+								<button type="submit" class="btn btBuy" value="comprar">Comprar</button>
+							</form>
+							
+						</div>
+						<div class="oneClick"></div>
+						<div class="addToList">
+		                       <span class="btn btAddList">Adicionar à lista</span>
+		                       <div class="addToList-content">
+		                               <form action="#" method="get" class="formAddToList">
+		                                       <ul class="addToList-list">
+		                                               <li class="addToList-item"><input type="radio" name="redirectTo" value="/lista-de-desejos/wishlist/showAddProduct.do?productId=7297680" /> Lista de Desejos</li>
+		                                       </ul>
+		                                       <input type="submit" class="btn btOk3" value="OK" />
+		                               </form>
+		                       </div>
+		               </div>			
+					</div>
+     	</div>
+							</li>
+							<li class="li">
+		<div class="hproduct " itemprop="isSimilarTo" itemscope="itemscope" itemtype="http://schema.org/Product">
+			<input class="productId" type="hidden" value="5396882" />
+			<a itemprop="url" href="http://www.submarino.com.br/produto/5396882/maria-melado-sobremesas-geladas-e-quentes" title="Maria Melado: Sobremesas Geladas e Quentes" class="url">
+					<img itemprop="image" width="150" height="150" alt="Maria Melado: Sobremesas Geladas e Quentes" src="http://img.submarino.com.br/produtos/01/00/item/5396/8/5396882P1.jpg" data-longdesc="http://img.submarino.com.br/produtos/01/00/item/5396/8/5396882g1.jpg" class="photo" />
+			</a>
+	<span class="btn mDet ">Mais detalhes</span>
+			
+			<a href="http://www.submarino.com.br/produto/5396882/maria-melado-sobremesas-geladas-e-quentes" title="Maria Melado: Sobremesas Geladas e Quentes" class="url">	
+				<span class="info">
+					<strong itemprop="name" class="n name fn">Maria Melado: Sobremesas Geladas e Quentes
+					</strong>
+						<strong class="brand">Nenzinha Machado Salles</strong>
+						<span class="description" itemprop="description">
+
+
+Maria Melado não é apenas &quot;mais um livro de receitas&quot;. Além de reunir centenas delas, testadas, aprovadas e assinadas, oferece ainda dicas oportuna...</span>
+					
+					<span class="more"><span class="stp stDetails">Saiba mais sobre esse produto</span></span>
+				</span>
+			</a>
+			
+				<span class="priceBox" itemscope="itemscope" itemtype="http://schema.org/PriceSpecification">
+
+	<span class="sale price money">
+		<strong class="amount"><abbr title="BRL">R$</abbr> <span itemprop="price">37,90</span> </strong>
+	</span>
+		<span class="p-v interest" itemscope="itemscope" itemtype="http://schema.org/Offer"> 
+			<span class="parcel" itemprop="itemCondition">7x</span> de <span class="amount" itemprop="price">R$ 5,41</span>	
+		</span>
+				</span>
+					<div class="buyBox">
+						<div class="buy">
+							<form method="get" class="checkout" action="http://carrinho.submarino.com.br/checkout/">			 			
+					 			<input type="hidden" name="quantity" value="1" />
+					 			<input type="hidden" name="codProdFusion" value="5396882" />
+								<input type="hidden" name="codItemFusion" value="5396883" />
+								<button type="submit" class="btn btBuy" value="comprar">Comprar</button>
+							</form>
+							
+						</div>
+						<div class="oneClick"></div>
+						<div class="addToList">
+		                       <span class="btn btAddList">Adicionar à lista</span>
+		                       <div class="addToList-content">
+		                               <form action="#" method="get" class="formAddToList">
+		                                       <ul class="addToList-list">
+		                                               <li class="addToList-item"><input type="radio" name="redirectTo" value="/lista-de-desejos/wishlist/showAddProduct.do?productId=5396882" /> Lista de Desejos</li>
+		                                       </ul>
+		                                       <input type="submit" class="btn btOk3" value="OK" />
+		                               </form>
+		                       </div>
+		               </div>			
+					</div>
+			<ul class="related">
+					<li><a href="http://www.submarino.com.br/artista/20942/Nenzinha%20Machado%20Salles">+ <span itemprop="brand">Nenzinha Machado Salles</span></a></li>
+			</ul>
+     	</div>
+							</li>
+							<li class="li">
+		<div class="hproduct " itemprop="isSimilarTo" itemscope="itemscope" itemtype="http://schema.org/Product">
+			<input class="productId" type="hidden" value="5838200" />
+			<a itemprop="url" href="http://www.submarino.com.br/produto/5838200/livro-receitas-especiais-de-sobremesas" title="Livro - Receitas Especiais de Sobremesas" class="url">
+					<img itemprop="image" width="150" height="150" alt="Livro - Receitas Especiais de Sobremesas" src="http://img.submarino.com.br/novosuba/catalog/../img/notFound.gif" data-longdesc="http://img.submarino.com.br/novosuba/catalog/../img/notFound.gif" class="photo" />
+			</a>
+	<span class="btn mDet ">Mais detalhes</span>
+			
+			<a href="http://www.submarino.com.br/produto/5838200/livro-receitas-especiais-de-sobremesas" title="Livro - Receitas Especiais de Sobremesas" class="url">	
+				<span class="info">
+					<strong itemprop="name" class="n name fn">Livro - Receitas Especiais de Sobremesas
+					</strong>
+						<strong class="brand">Sandra Garcia Cortes</strong>
+						<span class="description" itemprop="description"> Seleção variada de receitas, ilustradas, de pudins, gelatinados, doces para festas, bombons, pavês, musses, cremes e doces de frutas. Traz explicaçõe...</span>
+					
+					<span class="more"><span class="stp stDetails">Saiba mais sobre esse produto</span></span>
+				</span>
+			</a>
+			
+				<span class="priceBox" itemscope="itemscope" itemtype="http://schema.org/PriceSpecification">
+
+	<span class="sale price money">
+		<strong class="amount"><abbr title="BRL">R$</abbr> <span itemprop="price">16,00</span> </strong>
+	</span>
+		<span class="p-v interest" itemscope="itemscope" itemtype="http://schema.org/Offer"> 
+			<span class="parcel" itemprop="itemCondition">3x</span> de <span class="amount" itemprop="price">R$ 5,33</span>	
+		</span>
+				</span>
+					<div class="buyBox">
+						<div class="buy">
+							<form method="get" class="checkout" action="http://carrinho.submarino.com.br/checkout/">			 			
+					 			<input type="hidden" name="quantity" value="1" />
+					 			<input type="hidden" name="codProdFusion" value="5838200" />
+								<input type="hidden" name="codItemFusion" value="5838201" />
+								<button type="submit" class="btn btBuy" value="comprar">Comprar</button>
+							</form>
+							
+						</div>
+						<div class="oneClick"></div>
+						<div class="addToList">
+		                       <span class="btn btAddList">Adicionar à lista</span>
+		                       <div class="addToList-content">
+		                               <form action="#" method="get" class="formAddToList">
+		                                       <ul class="addToList-list">
+		                                               <li class="addToList-item"><input type="radio" name="redirectTo" value="/lista-de-desejos/wishlist/showAddProduct.do?productId=5838200" /> Lista de Desejos</li>
+		                                       </ul>
+		                                       <input type="submit" class="btn btOk3" value="OK" />
+		                               </form>
+		                       </div>
+		               </div>			
+					</div>
+			<ul class="related">
+					<li><a href="http://www.submarino.com.br/artista/156216/Sandra%20Garcia%20Cortes">+ <span itemprop="brand">Sandra Garcia Cortes</span></a></li>
+			</ul>
+     	</div>
+							</li>
+							<li class="li">
+		<div class="hproduct " itemprop="isSimilarTo" itemscope="itemscope" itemtype="http://schema.org/Product">
+			<input class="productId" type="hidden" value="5934536" />
+			<a itemprop="url" href="http://www.submarino.com.br/produto/5934536/livro-doceiras-as" title="Livro - Doceiras, As" class="url">
+					<img itemprop="image" width="150" height="150" alt="Livro - Doceiras, As" src="http://img.submarino.com.br/produtos/01/00/item/5934/5/5934536P1.jpg" data-longdesc="http://img.submarino.com.br/produtos/01/00/item/5934/5/5934536g1.jpg" class="photo" />
+			</a>
+		<span class="stamps">
+			<span class="stpImage">
+					<span class="stopperInfo" data-href="/estaticapop/regulamento-frete-gratis" title="clique e saiba mais">
+						<img alt="frete_rj_sp" src="http://img.submarino.com.br/novosuba/img/frete_rj_sp.gif" width="92" height="24" />
+					</span>
+			</span>
+		</span>
+	<span class="btn mDet ">Mais detalhes</span>
+			
+			<a href="http://www.submarino.com.br/produto/5934536/livro-doceiras-as" title="Livro - Doceiras, As" class="url">	
+				<span class="info">
+					<strong itemprop="name" class="n name fn">Livro - Doceiras, As
+					</strong>
+						<strong class="brand">Carolina Brandão</strong>
+						<span class="description" itemprop="description"> A dupla criativa surge com novas e inspiradas receitas de sobremesas que se juntam às já favoritas do restaurante Carlota Um livro recheado de delíci...</span>
+					
+					<span class="more"><span class="stp stDetails">Saiba mais sobre esse produto</span></span>
+				</span>
+			</a>
+		<span class="stamps2">
+			<span class="stpImage">
+					<span class="stopperInfo" data-href="/estaticapop/regulamento-frete-gratis" title="clique e saiba mais">
+						<img alt="frete_rj_sp" src="http://img.submarino.com.br/novosuba/img/frete_rj_sp.gif" width="92" height="24" />
+					</span>
+			</span>
+		</span>
+			
+				<span class="priceBox" itemscope="itemscope" itemtype="http://schema.org/PriceSpecification">
+
+	<span class="sale price money">
+		<strong class="amount"><abbr title="BRL">R$</abbr> <span itemprop="price">81,00</span> </strong>
+	</span>
+		<span class="p-v interest" itemscope="itemscope" itemtype="http://schema.org/Offer"> 
+			<span class="parcel" itemprop="itemCondition">12x</span> de <span class="amount" itemprop="price">R$ 6,75</span>	
+		</span>
+				</span>
+					<div class="buyBox">
+						<div class="buy">
+							<form method="get" class="checkout" action="http://carrinho.submarino.com.br/checkout/">			 			
+					 			<input type="hidden" name="quantity" value="1" />
+					 			<input type="hidden" name="codProdFusion" value="5934536" />
+								<input type="hidden" name="codItemFusion" value="5934537" />
+								<button type="submit" class="btn btBuy" value="comprar">Comprar</button>
+							</form>
+							
+						</div>
+						<div class="oneClick"></div>
+						<div class="addToList">
+		                       <span class="btn btAddList">Adicionar à lista</span>
+		                       <div class="addToList-content">
+		                               <form action="#" method="get" class="formAddToList">
+		                                       <ul class="addToList-list">
+		                                               <li class="addToList-item"><input type="radio" name="redirectTo" value="/lista-de-desejos/wishlist/showAddProduct.do?productId=5934536" /> Lista de Desejos</li>
+		                                       </ul>
+		                                       <input type="submit" class="btn btOk3" value="OK" />
+		                               </form>
+		                       </div>
+		               </div>			
+					</div>
+			<ul class="related">
+					<li><a href="http://www.submarino.com.br/artista/73901/Carolina%20Brandão">+ <span itemprop="brand">Carolina Brandão</span></a></li>
+			</ul>
+     	</div>
+							</li>
+							<li class="li">
+		<div class="hproduct " itemprop="isSimilarTo" itemscope="itemscope" itemtype="http://schema.org/Product">
+			<input class="productId" type="hidden" value="262534" />
+			<a itemprop="url" href="http://www.submarino.com.br/produto/262534/cozinha-vegetariana-doces" title="Cozinha Vegetariana: Doces" class="url">
+					<img itemprop="image" width="150" height="150" alt="Cozinha Vegetariana: Doces" src="http://img.submarino.com.br/produtos/01/00/item/262/5/262534P1.jpg" data-longdesc="http://img.submarino.com.br/produtos/01/00/item/262/5/262534P1.jpg" class="photo" />
+			</a>
+	<span class="btn mDet ">Mais detalhes</span>
+			
+			<a href="http://www.submarino.com.br/produto/262534/cozinha-vegetariana-doces" title="Cozinha Vegetariana: Doces" class="url">	
+				<span class="info">
+					<strong itemprop="name" class="n name fn">Cozinha Vegetariana: Doces
+					</strong>
+						<strong class="brand">Caroline Bergerot</strong>
+						<span class="description" itemprop="description"> Caroline Bergerot, autora do best-seller Cozinha Vegetariana, preparou uma serie de livros, abordando em cada um deles um tema específico, com grande...</span>
+					
+					<span class="more"><span class="stp stDetails">Saiba mais sobre esse produto</span></span>
+				</span>
+			</a>
+			
+				<span class="priceBox" itemscope="itemscope" itemtype="http://schema.org/PriceSpecification">
+
+	<span class="sale price money">
+		<strong class="amount"><abbr title="BRL">R$</abbr> <span itemprop="price">11,50</span> </strong>
+	</span>
+		<span class="p-v interest" itemscope="itemscope" itemtype="http://schema.org/Offer"> 
+			<span class="parcel" itemprop="itemCondition">2x</span> de <span class="amount" itemprop="price">R$ 5,75</span>	
+		</span>
+				</span>
+					<div class="buyBox">
+						<div class="buy">
+							<form method="get" class="checkout" action="http://carrinho.submarino.com.br/checkout/">			 			
+					 			<input type="hidden" name="quantity" value="1" />
+					 			<input type="hidden" name="codProdFusion" value="262534" />
+								<input type="hidden" name="codItemFusion" value="262535" />
+								<button type="submit" class="btn btBuy" value="comprar">Comprar</button>
+							</form>
+							
+						</div>
+						<div class="oneClick"></div>
+						<div class="addToList">
+		                       <span class="btn btAddList">Adicionar à lista</span>
+		                       <div class="addToList-content">
+		                               <form action="#" method="get" class="formAddToList">
+		                                       <ul class="addToList-list">
+		                                               <li class="addToList-item"><input type="radio" name="redirectTo" value="/lista-de-desejos/wishlist/showAddProduct.do?productId=262534" /> Lista de Desejos</li>
+		                                       </ul>
+		                                       <input type="submit" class="btn btOk3" value="OK" />
+		                               </form>
+		                       </div>
+		               </div>			
+					</div>
+			<ul class="related">
+					<li><a href="http://www.submarino.com.br/artista/8751/Caroline%20Bergerot">+ <span itemprop="brand">Caroline Bergerot</span></a></li>
+			</ul>
+     	</div>
+							</li>
+							<li class="li">
+		<div class="hproduct " itemprop="isSimilarTo" itemscope="itemscope" itemtype="http://schema.org/Product">
+			<input class="productId" type="hidden" value="172536" />
+			<a itemprop="url" href="http://www.submarino.com.br/produto/172536/livro-sobremesas-e-doces" title="Livro - Sobremesas E Doces" class="url">
+					<img itemprop="image" width="150" height="150" alt="Livro - Sobremesas E Doces" src="http://img.submarino.com.br/produtos/01/00/item/172/5/172536P1.jpg" data-longdesc="http://img.submarino.com.br/produtos/01/00/item/172/5/172536G1.jpg" class="photo" />
+			</a>
+	<span class="btn mDet ">Mais detalhes</span>
+			
+			<a href="http://www.submarino.com.br/produto/172536/livro-sobremesas-e-doces" title="Livro - Sobremesas E Doces" class="url">	
+				<span class="info">
+					<strong itemprop="name" class="n name fn">Livro - Sobremesas E Doces
+					</strong>
+					
+					<span class="more"><span class="stp stDetails">Saiba mais sobre esse produto</span></span>
+				</span>
+			</a>
+			
+				<span class="priceBox" itemscope="itemscope" itemtype="http://schema.org/PriceSpecification">
+
+	<span class="sale price money">
+		<strong class="amount"><abbr title="BRL">R$</abbr> <span itemprop="price">22,91</span> </strong>
+	</span>
+		<span class="p-v interest" itemscope="itemscope" itemtype="http://schema.org/Offer"> 
+			<span class="parcel" itemprop="itemCondition">4x</span> de <span class="amount" itemprop="price">R$ 5,73</span>	
+		</span>
+				</span>
+					<div class="buyBox">
+						<div class="buy">
+							<form method="get" class="checkout" action="http://carrinho.submarino.com.br/checkout/">			 			
+					 			<input type="hidden" name="quantity" value="1" />
+					 			<input type="hidden" name="codProdFusion" value="172536" />
+								<input type="hidden" name="codItemFusion" value="172537" />
+								<button type="submit" class="btn btBuy" value="comprar">Comprar</button>
+							</form>
+							
+						</div>
+						<div class="oneClick"></div>
+						<div class="addToList">
+		                       <span class="btn btAddList">Adicionar à lista</span>
+		                       <div class="addToList-content">
+		                               <form action="#" method="get" class="formAddToList">
+		                                       <ul class="addToList-list">
+		                                               <li class="addToList-item"><input type="radio" name="redirectTo" value="/lista-de-desejos/wishlist/showAddProduct.do?productId=172536" /> Lista de Desejos</li>
+		                                       </ul>
+		                                       <input type="submit" class="btn btOk3" value="OK" />
+		                               </form>
+		                       </div>
+		               </div>			
+					</div>
+     	</div>
+							</li>						
+				
+						</ul>
+					</div>
+					
+				</div>
+				<hr />
+					<p class="seeMore">
+						<a href="http://www.submarino.com.br/sublinha/309658/livros/culinaria-e-gastronomia/doces-e-sobremesas">+ Veja mais produtos similares em 
+						<strong>Doces e Sobremesas</strong>
+						</a>
+					</p>			
+					
+			</div>
+		</div>
+		</div>
+	</div>
+
+	<div class="readRatings" id="readRatings"></div>
+		<script>
+			onReady("$",function(){
+				$("#readRatings").load("/HomeBazaarVoice?bvproductId=110639737&customerId=");
+			});
+		</script>
+		<div id="BVRRContainer"><div id="BVRRSourceID"> <div id="BVRRContentValidationID_110639737"><div class="review hreview-aggregate"><span class="item"><span class="fn"> Livro - Arte de Fazer Macarons, A</span></span><span class="rating"><span class="average"> 5</span><span class="best"> 5</span></span><span class="count"> 1</span> <span class="votes">1</span></div><div id='16133933'><span class="summary"> Excelente!!!</span><span class="description"> Ótimo livro, muito explicativo, com ótimas receitas e imagens. RECOMENDO MUITO!!</span><span class="dtreviewed"> 20/03/2013<span title="2013-03-20" class="value-title"></span></span></div> <script type="text/javascript">document.getElementById('BVRRContentValidationID_110639737').style.display = 'none';</script></div><div id="BVRRSimplePagerID" class="BVRRPager BVRRSimplePager"><div class="BVRRPagerColumn BVRRSimplePagerColumn BVRRCurrentPage"><span class="BVRRNumber BVRRFirstRowNumber">1</span>-<span class="BVRRNumber BVRRLastRowNumber">1</span> <span class="BVRRSeparatorText">de</span> <span class="BVRRNumber BVRRTotalNumber">1</span></div><div class="BVRRPagerColumn BVRRSimplePagerColumn BVRRPreviousPage"></div><div class="BVRRPagerColumn BVRRSimplePagerColumn BVRRNextPage"> </div></div></div>
+		</div>
+					</div>
+			</div>
+		</div></div>
+		<div id="area2-2">
+	
+	<div class="box-side">
+	
+	<div class="box">
+		<div class="box-top">
+			<div class="box-top-a">
+				<div class="box-title">Categorias</div>
+			</div>
+		</div>
+	
+		<div class="box-content">
+			<div class="box-content-a">
+				<ul class="localNav">
+					<li class="lnli">
+							<a href="http://www.submarino.com.br/loja/309573/livros" class="lnli-label" rel="">
+								<strong>Livros
+								</strong>
+							</a>
+			<ul class="ln">	
+				<li class="lnli">
+						<a href="http://www.submarino.com.br/linha/309654/livros/culinaria-e-gastronomia" class="lnli selected" rel="">
+							<span class="ico icLvlArrow">.</span>Culinária e Gastronomia
+						</a>
+					
+					<ul class="ln">
+								<li class="lnli">
+									<h2 class="lnli-label">
+										<a class="lnli-label" href="http://www.submarino.com.br/sublinha/309655/livros/culinaria-e-gastronomia/bebidas" rel="">Bebidas
+										</a>
+									</h2>												
+								</li>
+								<li class="lnli">
+									<h2 class="lnli-label">
+										<a class="lnli-label" href="http://www.submarino.com.br/sublinha/309656/livros/culinaria-e-gastronomia/culinaria" rel="">Culinária
+										</a>
+									</h2>												
+								</li>
+								<li class="lnli">
+									<h2 class="lnli-label">
+										<a class="lnli-label" href="http://www.submarino.com.br/sublinha/324544/livros/culinaria-e-gastronomia/culinaria-brasileira" rel="">Culinária Brasileira
+										</a>
+									</h2>												
+								</li>
+								<li class="lnli">
+									<h2 class="lnli-label">
+										<a class="lnli-label" href="http://www.submarino.com.br/sublinha/324526/livros/culinaria-e-gastronomia/culinaria-internacional" rel="">Culinária Internacional
+										</a>
+									</h2>												
+								</li>
+								<li class="lnli">
+									<h2 class="lnli-label">
+										<a class="lnli-label" href="http://www.submarino.com.br/sublinha/309657/livros/culinaria-e-gastronomia/diet-e-light" rel="">Diet e Light
+										</a>
+									</h2>												
+								</li>
+								<li class="lnli">
+									<h2 class="lnli-label selected">
+										<a class="lnli-label selected" href="http://www.submarino.com.br/sublinha/309658/livros/culinaria-e-gastronomia/doces-e-sobremesas" rel="">Doces e Sobremesas
+										</a>
+									</h2>												
+								</li>
+								<li class="lnli">
+									<h2 class="lnli-label">
+										<a class="lnli-label" href="http://www.submarino.com.br/sublinha/309659/livros/culinaria-e-gastronomia/etiqueta" rel="">Etiqueta
+										</a>
+									</h2>												
+								</li>
+								<li class="lnli">
+									<h2 class="lnli-label">
+										<a class="lnli-label" href="http://www.submarino.com.br/sublinha/309660/livros/culinaria-e-gastronomia/natural-e-vegetariana" rel="">Natural e Vegetariana
+										</a>
+									</h2>												
+								</li>							
+					</ul>
+				</li>
+			</ul>
+					</li>				
+				</ul>			
+			</div>
+		</div>
+	</div>
+		
+	</div>
+	<!-- Banner Regra 
+<div>
+   <a class="popAjax" href="/estaticapop/regulamento-frete-gratis-3">
+
+<img alt="Banner Regra" src="http://img.submarino.com.br/homesub/banner/condicao-subday-lat-esq.png" />
+
+   </a>
+</div>
+
+
+ fim Banner Regra -->
+
+<!-- banner escalacao 
+
+<div>
+   <a href="http://www.submarino.com.br/portal/hotsite-sl/hotsite-subsesporteclube-escalacao/sl-subsporte11/0?WT.mc_id=copa11boleto&WT.mc_ev=click&chave=homeint_latesq_copa11boleto">
+
+<img alt="Escalação"
+width="175" 
+height="292"
+src="http://i.s8.com.br/images/skins/pecas/homes2012/homesub/subs-esporte-clube/home1/subs-esporteclube-escalacao-esq.jpg" />
+   </a>
+</div>-->
+
+<!-- banner escalacao -->
+
+
+<!-- Banner Finance -->
+
+<div>
+   <a href="http://www.submarino.com.br/hotsite/hotsite-detalheprod-anuidade/?WT.mc_id=cardsub_detalheproduto_pecaja&WT.mc_ev=click&epar=sfpaginaproduto">
+
+<img alt="Cartão Finance" src="http://img.submarino.com.br/imagens/finance/laterais/banner-pecaja.jpg" />
+
+   </a>
+</div>
+
+<!-- fim Banner Finance -->
+
+
+
+
+
+
+
+
+
+<div class="meetToo">
+	<div class="box">
+		<div class="box-top">
+			<div class="box-top-a">
+				<h2 class="box-title">Conheça Também</h2>
+			</div>
+		</div>
+		<div class="box-content">
+			<div class="box-content-a">
+				<ul class="vList dotted">
+					<li class="li">
+						<ul>
+							<li>
+								<a href="/HomeBuscaMarca">Busca por Marcas</a>
+							</li>
+							<li>
+								<a href="/HomeBuscaArtista">Busca por Artistas</a>
+							</li>
+						</ul>
+					</li>
+					<li class="li">
+						<ul>
+							<li>
+								<a href="/hotsite/valepresente">Vale-Presente</a>
+							</li>
+							<li>
+								<a rel="external" href="http://www.submarinoviagens.com.br/default.aspx?utm_source=submarino&utm_medium=lojas&utm_campaign=inst&CPId=lojas_inst">Submarino Viagens</a>
+							</li>
+							<li>
+								<a rel="external" href="http://www.ingresso.com.br/br/home/default.asp?parceria=submarino&T_PARCERIA=submarino&T_IDCIDADE=00000001&Busca=1&ParceriaBusca=submarino">Ingressos</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+		<div class="box seeMoreMenu">
+			<div class="box-content">
+				<div class="box-content-a">
+					<div class="localNav closedFilter">
+						<div class="lnli">
+							<span class="lnli-title">Veja Mais Livros</span>
+							<span class="btn btShowHideFilter">::Abre/Fecha::</span>
+						</div>
+							<ul class="ulSeeMoreMenu" style="display: none;">
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309884/livros/lancamentos" rel="">Lançamentos
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309886/livros/mais-vendidos" rel="">Mais Vendidos
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309885/livros/pre-vendas" rel="">Pré-Vendas
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309887/livros/colecoes-de-livros" rel="nofollow">Coleções de Livros
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309888/livros/saiu-na-midia" rel="nofollow">Saiu na Mídia
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/312052/livros/grandes-autores" rel="nofollow">Grandes Autores
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309575/livros/administracao-e-negocios" rel="">Administração e Negócios
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309592/livros/agropecuaria" rel="">Agropecuária
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309595/livros/animais-de-estimacao" rel="">Animais de Estimação
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309599/livros/arquitetura-e-decoracao" rel="">Arquitetura e Decoração
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309603/livros/artes" rel="">Artes
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309616/livros/audio-livros" rel="">Áudio Livros
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309617/livros/auto-ajuda" rel="">Auto-Ajuda
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/324531/livros/bem-estar-e-lazer" rel="">Bem Estar e Lazer
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309806/livros/biografia-e-memorias" rel="">Biografia e Memórias
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309623/livros/ciencias-biologicas-e-naturais" rel="">Ciências Biológicas e Naturais
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309632/livros/ciencias-exatas" rel="">Ciências Exatas
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309639/livros/ciencias-humanas-e-sociais" rel="">Ciências Humanas e Sociais
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309646/livros/comunicacao-e-linguistica" rel="">Comunicação e Linguística
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309689/livros/concursos" rel="">Concursos
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309654/livros/culinaria-e-gastronomia" rel="">Culinária e Gastronomia
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309661/livros/dicionarios" rel="">Dicionários
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309666/livros/didaticos" rel="">Didáticos
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309690/livros/direito" rel="">Direito
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309709/livros/economia" rel="">Economia
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309715/livros/engenharia" rel="">Engenharia
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309725/livros/ensino-de-linguas-estrangeiras" rel="">Ensino de Línguas Estrangeiras
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309738/livros/esoterismo" rel="">Esoterismo
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309750/livros/esportes" rel="">Esportes
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309761/livros/historia-e-geografia" rel="">História e Geografia
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309767/livros/historia-em-quadrinhos-rpg-e-cards" rel="">História em Quadrinhos, RPG e Cards
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/324619/livros/infantil" rel="">Infantil
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309781/livros/informatica" rel="">Informática
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309771/livros/juvenil" rel="">Juvenil
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309796/livros/literatura-estrangeira" rel="">Literatura Estrangeira
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309807/livros/literatura-nacional" rel="">Literatura Nacional
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309818/livros/medicina-e-saude" rel="">Medicina e Saúde
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309849/livros/moda-e-beleza" rel="">Moda e Beleza
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309852/livros/psicologia" rel="">Psicologia
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309858/livros/religiao" rel="">Religião
+												</a>
+											</h2>
+										</li>
+										<li class="lnli">
+											<h2 class="lnli-title">
+												<a href="http://www.submarino.com.br/linha/309872/livros/turismo" rel="">Turismo
+												</a>
+											</h2>
+										</li>
+							</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	<div class="bannerrm null">
+			<script type="text/javascript">	
+				try { 
+					OAS_AD('x94')
+				} catch(exp) {
+					handleException(exp)
+				}	
+			</script>
+		
+	</div>
+	
+	<div class="bannerrm null">
+			<script type="text/javascript">	
+				try { 
+					OAS_AD('x95')
+				} catch(exp) {
+					handleException(exp)
+				}	
+			</script>
+		
+	</div>
+	
+	<div class="bannerrm null">
+			<script type="text/javascript">	
+				try { 
+					OAS_AD('x96')
+				} catch(exp) {
+					handleException(exp)
+				}	
+			</script>
+		
+	</div>
+		</div>
+	</div>
+					<div id="area3">
+	<div class="toolbar" id="toolbar">
+    <div class="toolBarContent">
+        <a href="#" class="controler">&bull;</a>    
+        <a href="#" class="ico logo">Submarino.com</a>
+        <div class="searchBox">    
+            <form class="search" action="http://busca.submarino.com.br/busca">
+                <div class="searchContent">
+                    <label>
+
+                        <span class="lbl">Buscar</span>
+                        <input type="text" class="inpSearch" name="term"/>
+                    </label>
+                    <input type="submit" class="btn submit" value="Ok" />
+                </div>
+            </form>
+        </div>
+        <div class="doubt">
+            <span class="ico icoDoubt">?</span>
+            <div class="doubtbox">
+                <div class="doubtboxTop">.</div>
+                <div class="doubtboxInside">
+                    <h2>Arraste e compre</h2>
+                    <p>Agora você pode arrastar quantos produtos quiser para o Meu Carrinho e comprar todas as ofertas de uma vez só.Não precisa ficar indo e voltando pelas páginas para aproveitar todas as ofertas do site. <a href="/hotsite/arraste-e-compre">Saiba Mais</a></p>
+                </div>
+            </div>
+        </div>    
+        <div class="boxCart">
+            <a href="http://carrinho.submarino.com.br/checkout/" class="myCartBox">
+                <span class="myCar">Meu Carrinho</span>
+                <strong class="cartItems">0 Produtos</strong>
+            </a>
+
+            <div class="layerCart">
+            <div class="layerCartCont">
+            <div class="hasProducts">
+            <table class="modeltr">
+                <tbody>
+
+                <tr> 
+                    <td><a rel="prodLink"><img rel="prodImage"></a></td>
+                    <td><a rel="prodLink"><span rel="prodName"></span></a> <span class="qtde" rel="prodQtd"></span></td> 
+                    <td class="price" rel="prodPrice"></td>
+                </tr>
+                </tbody>
+
+            </table>
+            <div class="prodCartBox">
+            <table class="prodCart"> 
+                <caption>Produtos no Meu Carrinho</caption>
+                <tbody>
+                </tbody>
+            </table>
+            </div>
+            <table class="prodCart"> 
+                 <tfoot> 
+                    <tr>
+                         <td colspan="2">Subtotal:</td> 
+                         <td class="price">R$ 0,00</td> 
+                    </tr> 
+                </tfoot> 
+            </table>
+            <a href="http://carrinho.submarino.com.br/checkout/" class="btn viewCart">Visualizar Meu Carrinho</a>
+            </div>
+            <div class="emptyCart"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+					</div>
+			</div></div>
+		</div>
+	
+				<p class="skip"><a href="#header" rel="nofollow">Voltar para o topo</a> |	<a href="#content" rel="nofollow">Voltar para o conteúdo</a></p>
+
+		<div id="footer">
+			<div id="footer-inner">
+	      <div class="footer">
+	<div class="searchFooter">
+	<form method="GET" action="http://busca.submarino.com.br/busca" class="searchFooter-a">
+		<div class="searchFooter-a1">
+			<label class="type1">
+				<span class="lbl">Buscar</span>
+				<input type="search" class="inputTxt" name="term">
+			</label>
+			<input type="submit" value="Ok" class="submit">
+		</div>
+	</form>
+</div>
+	<script type="text/javascript">
+	onReady('jQuery',function(){
+		if(window.location.search.replace('?','') == 'teste'){
+			var img = $('#imgProduto').attr('src');
+			$('#imgProduto').attr('src',img.replace('G1','_1GG'));
+			/*CSS*/
+			$('.fullProduct .mainImg .photo').css({'width':'400px','height':'400px'});
+			$('.prodInfoSec_1').css('width','80%');
+			$('.prodInfoSec_2').css('width','400px');
+			/**/
+		}
+	})
+</script>
+<script type="text/javascript">
+	function abreLightBox(ob, type){
+		/*
+			Can be set type to 'image', 'ajax', 'iframe', 'swf' or 'inline';
+			Optional: 
+				- data-width
+				- data-height
+			example:
+				<a href="http://www.submarino.com.br" onclick="return abreFancyBox(this, 'iframe');" data-width="680" data-height="400" >Abre lightbox</a>
+		*/
+		var fbUrl 	= $(ob).attr('href');
+		var nw		= $(ob).data('width') || 680;
+		var nh		= $(ob).data("height") || 400;
+		$.fancybox({
+			width			: nw,
+			height			: nh,
+			type			: type || 'ajax',
+			autoDimensions	: false,
+			href			: fbUrl,
+			onComplete		: function(){
+				$.fancybox.resize();
+			}
+		});
+		return false;
+	}
+</script>
+<iframe width="100%" scrolling="no" height="520" frameborder="0" src="/estaticapop/footer-content"></iframe>
+
+<script type="text/javascript" src="http://busca.submarino.com.br/js/neemu_plugin.js"></script>
+<script type="text/javascript" src="http://laas-suba.neemu.com/suba/neemu.js" async="true"></script>
+	      	
+	      </div>
+	<script type="text/javascript"> 
+    onReady('UnearUWeb', function() { 
+        uweb = new UnearUWeb();
+        uweb.EventoPageView( "8"  //cliente
+             , "309573" //departamento
+             , "309654" //setor
+             ,"309658" //familia 
+             ,""  //subfamilia
+             ,"110639737" //codigo do item
+             ,"110639745" //codigo do sku
+             ,"12.90" //valor do produto
+             );
+    });
+    </script>
+	<!-- Google Code for Smart Pixel tag Remarketing List  v2 -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1066760250;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "666666";
+var google_conversion_label = "THQ3COK9ugIQuvDV_AM";
+var google_conversion_value = 0;
+var google_custom_params = {
+ProdId : ['110639737'],
+Pname : ['livro_arte_de_fazer_macarons_a'],
+Pcat : ['20000366'],
+Pvalues : ['12.90'],
+ET : 'product' 
+};
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1066760250/?value=0&amp;label=THQ3COK9ugIQuvDV_AM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+	<!-- Digital Club -->
+<script type="text/javascript">
+	setTimeout(function(){
+		if('309573' == '309573'){
+			$('<div id="digital-club" style="margin-bottom:10px;margin-top:-5px;"><a href="http://submarino.thecopia.com/about/community.html" target="_blank"><img src="http://i.s8.com.br/images/bt-dc.jpg" /></a></div>').appendTo('.prodInfoSec_1 .priceBox');
+		}
+	},3000);
+</script>
+<!-- End Digital Club -->
+	<META name="neemu_product_id" content="110639737"/>
+	<script type="text/javascript">
+onReady('jQuery', function(){
+	var loaded			= false;
+	$(document).ready(function(){
+		loaded		= true;
+	})
+	var getEl		= function(){
+		return $('#readRatings');
+	};
+	var getURLParameter = function (name) {
+		return decodeURI(
+			(RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]
+		);
+	}
+	var moveScroll		= function(mili){
+		try{
+			var hash        = getURLParameter('scroll');
+			if(hash == 'avaliacao'){
+				$('html, body').animate({
+					scrollTop: getEl().offset().top - 30
+				}, (mili || 2000));
+			}
+		}catch(e){}
+	};
+	var timer = setInterval(function(){
+		if(getEl().text().replace(/\n/g,"").replace(/\r/g,"").replace(/\t/g,"").replace(/ /g,"").length && loaded){
+			clearInterval(timer);
+			getEl().removeClass('loading');
+			moveScroll(500);
+		}
+	}, 100);
+	getEl().addClass('loading');
+	moveScroll();
+});
+</script>
+<style>
+
+#readRatings.loading {
+    background: url("http://i.s8.com.br/images/inovacao/acom/carousel/images/loader.gif") no-repeat scroll center center transparent;
+    display: block;
+    height: 30px;
+}
+</style>
+	<a class="intermission_b popAjax" href="/estaticapop/pop-cadastro-news" data-width="480" data-height="320" style="display: none;"></a>
+	<script type="text/javascript">
+	if(document.referrer.indexOf("compare.buscape") >=0){
+		if(location.pathname.toLowerCase().indexOf("produto") >=0 || location.pathname.toLowerCase().indexOf("ofertas") >=0){
+			document.write(unescape("%3Cscript type='text/javascript'%3E var google_conversion_id = 1066760250; var google_conversion_label = 'KhPaCIrZxAQQuvDV_AM';	var google_custom_params = window.google_tag_params; var google_remarketing_only = true; %3C/script%3E %3Cscript type='text/javascript' src='//www.googleadservices.com/pagead/conversion.js'%3E%3C/script%3E %3Cnoscript%3E %3Cdiv style='display:inline;'%3E %3Cimg height='1' width='1' style='border-style:none;' alt='' src='//googleads.g.doubleclick.net/pagead/viewthroughconversion/1066760250/?value=0&amp;label=KhPaCIrZxAQQuvDV_AM&amp;guid=ON&amp;script=0'/%3E %3C/div%3E  %3C/noscript%3E"));
+		}
+	}
+</script>
+	<!-- Remarketing Afiliados -->
+<img src="http://img.afiliados.com.br/1x1.gif?pit_sub=110639737" width="1" height="1" border="0" />
+	<script type="text/javascript">		
+			var crmWA_dataLayer = crmWA_dataLayer || [];
+			crmWA_dataLayer.push({				
+				'objDiponibilidadeProd': 'true',
+				'objNomeDepartamento': '',
+				'objDepartamento': '309573',
+				'objNomeLinha': '',
+				'objLinha': '309654',
+				'objFamilia': '309658', 				
+				'objNomeSublinha': '',
+				'objSublinha': '',
+				'objNomeProd': 'livro-arte-de-fazer-macarons-a', 
+				'objIdProd': '110639737', 
+				'objPrecoProd': '12.90' 
+			});
+			
+		</script>
+	<script>
+setTimeout(function(){
+if(!cookie("popup-cadastro-prod-busc") && window.location.href.indexOf('WT.mc_id=Buscape')!=-1){
+$.fancybox({href:"/estaticapop/cr_vindo_buscape"});
+}
+},3000);
+</script>
+			</div><div class="sitemap-link">
+	Tem novidades. Tem o melhor serviço da internet.
+	<a href="http://www.submarino.com.br/mapa-do-site/309573">Mapa do site</a>
+</div>
+		</div>
+			</div>
+			
+			<META NAME="WT.cg_n" CONTENT="livros" />
+
+	<script type="text/javascript">
+		onReady(function() { 
+			uweb = new UnearUWeb();
+			uweb.EventoPageView( "8"  //cliente 
+			     , "309573" //departamento 
+			     , "309654" //setor 
+			     ,"309658" //familia 
+			     ,""  //subfamilia 
+			     ,"110639737" //codigo do item 
+			     ,"110639745" //codigo do sku 
+			     ,"12.90" //valor do produto 
+			     );
+		});
+	</script>
+	<script type="text/javascript" src="http://img.submarino.com.br/novosuba/catalog/js/jquery-1.5.min.js"></script>
+	<script type="text/javascript" src="http://img.submarino.com.br/novosuba/catalog/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>	
+	<script type="text/javascript" src="http://img.submarino.com.br/novosuba/catalog/js/jquery-p.js"></script>
+	<script type="text/javascript" src="http://img.submarino.com.br/novosuba/catalog/js/catalog.js"></script>
+	<!-- 262190 general static content suba -->
+
+
+<!-- Noscript do webtrends -->
+<noscript>
+<img alt="?" name="DCSIMG" width="1" height="1" src="http://wtb.submarino.com.br/dcspmddsak9tdz53y8jllegkj_1p6g/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=8.0.2" />
+</noscript>
+
+
+<script type="text/javascript">
+(function() {
+    try {
+        var viz = document.createElement('script');
+        viz.type = 'text/javascript';
+        viz.async = true;
+        viz.src = ('https:' == document.location.protocol ?'https://ssl.vizury.com' : 'http://www.vizury.com')+ '/analyze/pixel.php?account_id=VIZVRM755';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(viz, s);
+        viz.onload = function() {
+            pixel.parse();
+        };
+        viz.onreadystatechange = function() {
+            if (viz.readyState == "complete" || viz.readyState == "loaded") {
+                pixel.parse();
+            }
+        };
+    } catch (i) {
+    }
+})();
+</script>
+
+
+
+<!--Maxymiser script start -->
+
+<script type="text/javascript" src="//service.maxymiser.net/cdn/pakua/demopakua/js/mmcore.js"></script>
+
+<!--Maxymiser script end -->
+
+
+
+<!-- ClickTale Bottom part -->
+
+<script type='text/javascript'>
+// The ClickTale Balkan Tracking Code may be programmatically customized using hooks:
+// 
+//   function ClickTalePreRecordingHook() { /* place your customized code here */  }
+//
+// For details about ClickTale hooks, please consult the wiki page http://wiki.clicktale.com/Article/Customizing_code_version_2
+
+document.write(unescape("%3Cscript%20src='"+
+(document.location.protocol=='https:'?
+"https://clicktalecdn.sslcs.cdngc.net/www14/ptc/02acdc05-eaab-45cd-9c65-f2b8ac043744.js":
+"http://cdn.clicktale.net/www14/ptc/02acdc05-eaab-45cd-9c65-f2b8ac043744.js")+"'%20type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<!-- ClickTale end of Bottom part -->
+
+
+<!-- Adobe Marketing Cloud Tag Loader Code -->
+
+<script type="text/javascript">
+var container = "ZDMtYjJ3LTYwMC0yNDct"
+if(location.pathname.indexOf("/blacknight") >=0){
+    container = "ZDMtYjJ3LTYwMC0zNzgt"
+}
+//<![CDATA[
+var amc=amc||{};if(!amc.on){amc.on=amc.call=function(){}};
+document.write("<scr"+"ipt type=\"text/javascript\" src=\"//www.adobetag.com/d3/v2/" + container + "/amc.js\"></sc"+"ript>");
+//]]></script>
+
+<!-- End Adobe Marketing Cloud Tag Loader Code -->
+
+	<script type="text/javascript" src="http://img.submarino.com.br/novosuba/catalog/js/criteo_ld.js" async="true"></script>
+    	<script type="text/javascript">
+	    	var CRITEO_CONF = [[{
+
+		    pageType: 'product',
+		    'Product ID': '110639737'
+		
+		}], [8414,'psu','us.','110',[[7725626, 7725627]],{'Product ID':['i',0]}]];
+		if (typeof (CRITEO) != "undefined") { CRITEO.Load(false); }
+		</script>
+			
+		</body>
+	</html>

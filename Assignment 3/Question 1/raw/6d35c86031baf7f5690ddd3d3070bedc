@@ -1,0 +1,2295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+     "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es_ES">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- 
+	Segre.com
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2011 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.com/ and http://typo3.org/
+-->
+
+<base href="http://www.segre.com/" />
+<link rel="shortcut icon" href="http://www.segre.com/fileadmin/favicon.ico" type="image/x-ico; charset=binary" />
+<link rel="icon" href="http://www.segre.com/fileadmin/favicon.ico" type="image/x-ico; charset=binary" />
+<title>Segre.com: Segre.com</title>
+<meta name="generator" content="TYPO3 4.5 CMS" />
+<meta name="title" content="Portada" />
+<meta name="author" content="Segre.com" />
+<meta name="description" content="Web de Noticies del Grup Segre" />
+<meta name="keywords" content="Segre, Noticias, Prensa, Radio, TV, Televisión, Cercle, Lleida, Lérida, comarcas, Noguera, Segrià, Garrigues, Segarra, Urgell, Pallars, Ribagorza, Franja, Solsona, Andorra, periódico, epaper, esegre, news, hemeroteca, jocs, juegos" />
+<meta name="abstract" content="El portal Segre.com mostra totes les noticies i la informació que es deriven del &quot;Grup Segre&quot; i de tots els diversos mitjans que l'integren: Diari Segre, Segre Radio i Lleida Televisió." />
+<meta http-equiv="refresh" content="330" />
+<meta name="copyright" content="2013? Segre" />
+
+<script src="fileadmin/templates/js/jquery141.js" type="text/javascript"></script>
+<script src="fileadmin/templates/js/entourage.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+<!-- 
+/*TS_inlineJS*/
+var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-5658234-1']);_gaq.push(['_setDomainName','segre.com']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();
+// -->
+/*]]>*/
+</script>
+
+<meta http-equiv="Cache-Control" content="no-cache" />
+
+<!-- Anajs SETUP begin -->
+<script src="http://est.segre.com/js/publicidad/portada.js" type="text/javascript"></script>
+<!-- Anajs SETUP end -->
+<meta name="verify-v1" content="zIf3/ZnrZQiMzmepmfYNrcc5V9qPPMLwrQn/N4r6VbA=" />
+<script type="text/javascript" src="typo3conf/ext/imagecycle/res/jquery/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="typo3conf/ext/imagecycle/res/jquery/js/jquery.cycle.all-2.9999.81.min.js"></script>
+<script type="text/javascript" src="typo3conf/ext/imagecycle/res/jquery/js/jquery.easing-1.3.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(window).load(function() {
+	
+	
+	jQuery('#imagecycle_c9385').show().cycle({
+		fx: 'curtainX,zoom,toss,fade',
+		easing: 'swing',
+		speed: '2000',
+		timeout: '6000',
+		sync: true,
+		random: false,
+		cleartypeNoBg: false
+		
+	});
+	
+	
+	if (jQuery('#imagecycle_c9385').width() > 0) {
+		jQuery('#imagecycle_c9385').parent().css('width', jQuery('#imagecycle_c9385').width());
+	}
+	
+	
+	
+	
+});
+/*]]>*/
+</script>
+<script src="typo3conf/ext/jfmulticontent/res/jquery/js/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="typo3conf/ext/jfmulticontent/res/jquery/js/jquery-ui-1.8.custom.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery.noConflict();
+jQuery(document).ready(function() { 
+	jQuery('#jfmulticontent_c9258 ul li a').each(function(id, item) {
+		var temp = item.href.split('#');
+		var temp_last = temp[temp.length-1];
+		var search = /^jfmulticontent_c9258/;
+		if (search.test(temp[temp.length-1])) {
+			item.href = '#'+temp_last;
+		}
+	});
+	jQuery('#jfmulticontent_c9258').tabs({
+		fx:{opacity: 'toggle'},
+		collapsible:true,
+		selected:Math.floor(Math.random()*3)
+	});
+});
+/*]]>*/
+</script>
+<script type="text/javascript" src="typo3conf/ext/reea_teasermenu/res/js.js"></script>
+
+
+	<link rel="stylesheet" type="text/css" media="all" href="typo3temp/scriptmerger/uncompressed/head-d79ae564b05fbb9b398b26b96e0255a6.merged.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="http://fonts.googleapis.com/css?family=Special+Elite" />
+<!--[if lte IE 6]>
+<link href="fileadmin/templates/css/base_ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+</head>
+<body>
+
+
+<div class="intersitial">
+<script type="text/javascript">
+if(navigator.userAgent.indexOf( "AdobeAIR" ) >= 0 ) {
+document.write('');
+}else{
+ANAJS_Publicidad('int');  
+}
+</script>
+</div>  
+<div id="banner_gran">
+	<div class="banner_dret"><script type="text/javascript">
+<!--
+ANAJS_Publicidad('234');
+-->
+</script>  
+</div>
+	<div class="banner_esq"><script type="text/javascript">
+<!--
+ANAJS_Publicidad('728');
+-->
+</script>  
+</div>
+</div>
+<div id="pagina">
+
+	<div id="branDay"><div class="bran_esq"><div id="sky1280"><script type="text/javascript">
+<!--
+if (screen.width >= 1280){ANAJS_Publicidad('skyizda');}
+-->
+</script></div></div><div class="bran_dre"><div id="sky1280"><script type="text/javascript">
+<!--
+if (screen.width >= 1280){ANAJS_Publicidad('skydcha');}
+-->
+</script></div></div></div>
+
+		<div id="cabecera">
+        	<div id="accesosRapidos">
+            	<div id="idiomas"><img src="typo3temp/menu/a2947ae840.png" width="49" height="15" alt="Portada" /><a href="http://www.segre.com/index_es.html" onfocus="blurLink(this);"><img src="typo3temp/menu/e68b178def.png" width="44" height="15" alt="Portada" /></a></div>
+            	<div id="enlacesRapidos"><ul>
+<li><a href="index.html">inici</a></li>
+<li><a href="quisom.html">contacte</a></li>
+<li><a href="mapaweb.html">mapa web</a></li>
+<script type="text/javascript">
+if(navigator.platform == 'iPad'){
+document.write('<li><a href="http://www.segre.com/mobil/">versió mòbil</a></li>');
+}
+</script>
+</ul></div>
+              <!--  <div id="tamanyosTextos">
+                	<ul>
+                      <li><a href="index.php?id=199#">a</a></li>
+                      <li><a href="index.php?id=199#">A</a></li>
+                      <li><a href="index.php?id=199#">A+</a></li>
+                  </ul>
+              	</div>-->
+                <div id="buscador">
+	<div id="buscadorPortada">
+		<div class="formularioBuscadorPortada">
+			<form method="post" action="http://www.segre.com/resultats/">
+				<input class="inputBuscadorPortada" size="20" maxlength="100" type="text" name="tx_ttnews[swords]" value="" />
+        <input id="botonBuscadorPortada" type="submit" name="search" value="Cercar notícies" />
+			</form>
+		</div>
+	</div>
+
+</div><!-- end #buscador-->
+            </div><!-- end #accesosRapidos-->
+            <div id="logoLogin">
+            <div id="iframe_login"><div class="tx-ffiframe-pi1">
+		<iframe src="http://www.segre.com/registre/login-registre/?&amp;L=0&amp;rd=71891&amp;ses=&amp;sesi=&amp;pass=" width="275" height="104" frameborder="0" scrolling="no">LLL:EXT:ffiframe/locallang.xml:defaultnoiframemessage</iframe>
+	</div>
+	</div>
+                <div id="logoMenuServicios">
+                    <div id="logo">
+                        <h1><a href="http://www.segre.com/index.html">Segre.com</a></h1>
+                        <p><b>diumenge, 06 de octubre del 2013</b></p>
+                    </div>
+                    <div id="menuServicios"><ul class="csc-menu csc-menu-1">
+<li>
+<a href="index.php?id=283" onfocus="blurLink(this);">Cercle</a></li>
+<li><a href="radio.html" onfocus="blurLink(this);" target="_blank">Segre Ràdio</a></li>
+<li><a href="http://www.segre.com/serveis/esegre" onfocus="blurLink(this);">e-segre</a></li>
+<li><a href="http://www.segre.com/serveis/hemeroteca/" onfocus="blurLink(this);">Hemeroteca</a></li>
+<li><a href="lltv_inici.html" onfocus="blurLink(this);" target="_blank">Lleida TV</a></li>
+<li><a href="http://www.segre.com/serveis/e-classificats/" onfocus="blurLink(this);" target="_blank">eClassificats</a></li>
+<li><a href="http://www.segre.com/eBotiga/SEGRE/home.php" onfocus="blurLink(this);">eBotiga</a></li>
+<li><a href="http://www.segre.com/informacio-web/tarifes-de-subscripcions/" onfocus="blurLink(this);">Subscripcions</a></li>
+</ul>
+
+
+	
+
+
+					</div><!-- end #menuServicios-->
+					<div id="menuPrincipal"><ul>
+<li><a href="index.html">Portada</a></li>
+<li><a href="index_lleida.html">Lleida</a></li>
+<li><a href="index_comarques.html">Comarques</a></li>
+<li><a href="index_panorama.html">Panorama</a></li>
+<li><a href="index_economia.html">Economia</a></li>
+<li><a href="index_agricultura.html">Agricultura</a></li>
+<li><a href="index_esports.html">Esports</a></li>
+<li><a href="index_guia.html">Guia</a></li>
+<li><a href="index_cultura.html">Cultura</a></li>
+<li><a href="index_tvradio.html">TV</a></li>
+<li><a href="index_opinio.html">Opinió</a></li>
+<li><a href="http://www.segre.com/especials/e-promocions/">Club</a></li>
+</ul></div><!-- end #menuPrincipal -->
+				</div><!-- end #logoMenuServicios -->
+			</div><!-- end #logoLogin -->
+      	</div><!-- end #cabecera -->
+        <div id="aviso"></div><!-- end #aviso -->
+        <div id="notaInformativa"></div><!-- end #aviso -->
+        <div id="noticiasUrgentes"></div><!-- end #noticiasUrgentes-->
+        <div id="zonas">
+          <div class="bannerContenido_top2">
+<script type="text/javascript"><!--
+ANAJS_Publicidad('980');
+--></script>
+</div>
+            <div id="lateral">
+<div class="bannerContenido_Lateral1"><script type="text/javascript"><!--
+ANAJS_Publicidad('234b');
+--></script></div>
+
+
+    
+
+          <div class="bannerM">
+          <script src="fileadmin/templates/js/swfobject2/swfobject.js" type="text/javascript"><!-- //--></script>
+          <script type="text/javascript">
+          	var flashvars = {};
+          	var params = {menu: "false", quality: "autohigh", allowScriptAccess: "sameDomain", wmode: "transparent"};
+          	var attributes = {};
+          	attributes.id = "flashContent"; 
+          	swfobject.embedSWF("uploads/tx_macinabanners/BANNER_OFERTA_octubre_CAT.swf?clickTAG=http%3A%2F%2Fwww.segre.com%2Fnc%2Fbanner%2F268%2F&amp;target=", "alternativeContent_268", "240", "330", "9.0.28", "expressInstall.swf", flashvars, params, attributes);
+          </script>
+          </div>
+          <div id="alternativeContent_268" class="bannerM">
+          	<a href="http://www.segre.com/nc/banner/268/"><img src="uploads/tx_macinabannerssegre/Imatge_cat.jpg"></a>
+          </div>
+          
+    
+
+<div class="bannerContenido_Lateral1"><script type="text/javascript"><!--
+ANAJS_Publicidad('234c');
+--></script></div>
+		    		<div class="servicioCercle">
+	                  	<div class="tituloServicioCercle"><div class="csc-header csc-header-n1"><h3 class="csc-firstHeader">Enquesta de la Setmana</h3></div></div>
+                    		<div class="contenidoServicioCercle"><div class="tx-jkpoll-pi1">
+		  
+<div>
+<h4>LA GROSSA</h4>
+</div>
+<!-- <div style="float:left; padding-right:10px;"> 
+
+</div>
+-->
+<div class="pregunta"> 
+<p><p class="bodytext">Comprarà participacions de La Grossa?</p></p>
+</div>
+
+<!--INFOLINKS_OFF-->
+<div class="resultatsEnquesta">
+  <img src="http://chart.apis.google.com/chart?cht=p3&amp;chf=bg,s,65432100&amp;chd=t:100,0,0&amp;chs=240x80&amp;chl=SI|NO|NS&amp;chco=blue|blue|blue" alt="" />
+
+  <p class="resul2">SI: &nbsp;&nbsp;<b>100 %</b></p>
+
+  <p class="resul2">NO: &nbsp;&nbsp;<b>0 %</b></p>
+
+  <p class="resul2">NS: &nbsp;&nbsp;<b>0 %</b></p>
+
+  <p class="resul3">vots:&nbsp;<b>1</b></p>
+  <div class="participa"><a href="http://www.segre.com/ca/serveis/lenquesta-de-la-setmana/">participa i comenta</a></div>
+  
+</div>
+<!--INFOLINKS_ON-->
+
+	</div>
+	</div>
+				</div>
+                <div id="link_int">
+<a href="http://www.segre.com/index.php?id=1247" target="_top" alt="LLTV-A Peu de Carrer"><img src="fileadmin/banners/imatges_link/Preg_A_PEU_DE_CARRER240X60.jpg" width="240" height="60" alt="" /></a>
+</div>
+<div id="link_int">
+<a href="http://imprimir.segre.com" target="_top" alt="SEGRE"><img src="fileadmin/banners/Promocions/imprimir245x45.jpg" width="240" height="40" alt="" /></a>
+</div><div class="tx-galeriessegrelink-pi1">
+		<div class="lot_extra_lat">
+  <div class="capextra">
+    <img src="fileadmin/templates/css/img/loteries/galeries_fot.jpg">
+  </div>
+  <div class="cosextra">
+    <h5>FESTES DE LA TARDOR</h5>
+    <a href="http://www.segre.com/especials/galeries-dimatges/galeries-de-fotografia?galeria=RkVTVEVTX0RFX0xBX1RBUkRPUnwjfDIwMTN8I3xzZWdyZXwjfDdGN0kyNjc1LkpQRw==" target="_top"> 
+      <img src="fileadmin/Galeries/YAG/2013/segre/FESTES_DE_LA_TARDOR/7F7I2675.JPG">
+    </a>
+  </div>
+  <div class="cosextra">
+    <h5>CURSA DE SANT MIQUEL</h5>
+    <a href="http://www.segre.com/especials/galeries-dimatges/galeries-de-fotografia?galeria=Q1VSU0FfREVfU0FOVF9NSVFVRUx8I3wyMDEzfCN8c2VncmV8I3w3RjdJMTg5MC5KUEc=" target="_top"> 
+      <img src="fileadmin/Galeries/YAG/2013/segre/CURSA_DE_SANT_MIQUEL/7F7I1890.JPG">
+    </a>
+  </div>
+  <div class="cosextra">
+    <h5>EL MEU MONUMENT PREFERIT</h5>
+    <a href="http://www.segre.com/especials/galeries-dimatges/galeries-de-fotografia?galeria=RUwgTUVVIE1PTlVNRU5UIFBSRUZFUklUfCN8MjAxM3wjfGNlcmNsZXwjfElNR18xNDY4LmpwZw==" target="_top"> 
+      <img src="fileadmin/Galeries/YAG/2013/cercle/EL MEU MONUMENT PREFERIT/IMG_1468.jpg">
+    </a>
+  </div>
+  <div class="cosextra">
+    <h5>TEMPS DE TARDOR-2013</h5>
+    <a href="http://www.segre.com/especials/galeries-dimatges/galeries-de-fotografia?galeria=VEVNUFMgREUgVEFSRE9SLTIwMTN8I3wyMDEzfCN8Y2VyY2xlfCN8cXVpbSAoMikuanBn" target="_top"> 
+      <img src="fileadmin/Galeries/YAG/2013/cercle/TEMPS DE TARDOR-2013/quim (2).jpg">
+    </a>
+  </div>
+  <div class="cosextra">
+    <h5>LA MITJANA PEDALADA</h5>
+    <a href="http://www.segre.com/especials/galeries-dimatges/galeries-de-fotografia?galeria=TEFfTUlUSkFOQV9QRURBTEFEQXwjfDIwMTN8I3xzZWdyZXwjfElNR18zMzE3LkpQRw==" target="_top"> 
+      <img src="fileadmin/Galeries/YAG/2013/segre/LA_MITJANA_PEDALADA/IMG_3317.JPG">
+    </a>
+  </div>
+  <div class="cosextra">
+    <h5>TOCATS DEL BOLET</h5>
+    <a href="http://www.segre.com/especials/galeries-dimatges/galeries-de-fotografia?galeria=VE9DQVRTIERFTCBCT0xFVHwjfDIwMTN8I3xjZXJjbGV8I3xqb2FxdWluYS5qcGc=" target="_top"> 
+      <img src="fileadmin/Galeries/YAG/2013/cercle/TOCATS DEL BOLET/joaquina.jpg">
+    </a>
+  </div>
+  <div class="peuextra"></div>
+</div>
+
+	</div>
+	
+		    		<div class="servicio">
+	                  	<div class="tituloServicio"><div class="csc-header csc-header-n1"><h3 class="csc-firstHeader">esqueles</h3></div></div>
+                    		<div class="contenidoServicio"><div style="margin:-10px 0 0 -10px;padding:0 0 0 0;">
+<a href="http://www.segre.com/index.php?id=120" target="_blank">
+<img src="fileadmin/templates/css/img/img_esqueles.png" alt="" width="238" height="51" />
+</a>
+</div>
+<!--INFOLINKS_OFF-->
+<div class="rss_pubbox">
+	
+  <div class="rss_summary">				
+	<a href="index.php?id=174&amp;tx_ttnews[tt_news]=206264&amp;cHash=794e26503606dbe5416338725a892d4f" title="Josep Mas i Gomà">Josep Mas i Gomà</a>
+	</div>
+  <div class="rss_date">				
+    05/10/2013
+	</div>
+<hr class="clearer" />
+		
+  <div class="rss_summary">				
+	<a href="index.php?id=174&amp;tx_ttnews[tt_news]=206262&amp;cHash=43f961dcbbcd75c9c43853a14e987a75" title="Ramon Bernadó Estruch">Ramon Bernadó Estruch</a>
+	</div>
+  <div class="rss_date">				
+    05/10/2013
+	</div>
+<hr class="clearer" />
+		
+  <div class="rss_summary">				
+	<a href="index.php?id=174&amp;tx_ttnews[tt_news]=206260&amp;cHash=b56cacd053b09bc57c93199628d7ea54" title="Carmencita Rio Pueyo">Carmencita Rio Pueyo</a>
+	</div>
+  <div class="rss_date">				
+    05/10/2013
+	</div>
+<hr class="clearer" />
+		
+  <div class="rss_summary">				
+	<a href="index.php?id=174&amp;tx_ttnews[tt_news]=206133&amp;cHash=9c7260b562f1e39b45d9e8202aaa4092" title="Pepita Bosch Font">Pepita Bosch Font</a>
+	</div>
+  <div class="rss_date">				
+    04/10/2013
+	</div>
+<hr class="clearer" />
+		
+  <div class="rss_summary">				
+	<a href="index.php?id=174&amp;tx_ttnews[tt_news]=206131&amp;cHash=de738d9c8621c5bacfd312cf8d88c63c" title="Anna Maria Gené Duch">Anna Maria Gené Duch</a>
+	</div>
+  <div class="rss_date">				
+    04/10/2013
+	</div>
+<hr class="clearer" />
+		
+  <div class="rss_summary">				
+	<a href="index.php?id=174&amp;tx_ttnews[tt_news]=206129&amp;cHash=225cb894a819255f8ff959003c7c95dc" title="Anna Victòria Bertran i Solé">Anna Victòria Bertran i Solé</a>
+	</div>
+  <div class="rss_date">				
+    04/10/2013
+	</div>
+<hr class="clearer" />
+		
+<div class="rss_busca"><a href="http://www.segre.com/index.php?id=120" target="_top">busca esqueles</a></div>	
+</div>
+<!--INFOLINKS_ON-->
+</div>
+				</div>
+                
+		    		<div class="servicio">
+	                  	<div class="tituloServicio"><div class="csc-header csc-header-n1"><h3 class="csc-firstHeader">Cercador d'ofertes laborals</h3></div></div>
+                    		<div class="contenidoServicio"><div style="margin:-10px 0 0 -10px;padding:0 0 0 0;">
+<a href="http://www.segre.com/especials/ofertes-de-feina/" target="_blank">
+<img src="fileadmin/banners/imatges_link/Feina_Activa.GIF" alt="" width="238" height="51" />
+</a>
+</div><div class="tx-gkhrssimport-pi1">
+		<div class="rss_box"><div class="rss_pubbox"><div class="rss_summary"><a href="http://feinaactiva.gencat.cat/web/guest/home?p_p_id=jobsLocator_WAR_psocwebjobslocator&amp;p_p_lifecycle=1&amp;p_p_state=maximized&amp;p_p_mode=view&amp;_jobsLocator_WAR_psocwebjobslocator_struts_action=%2Fjobslocator%2FjobsLocator&amp;saveLastPath=0&amp;_jobsLocator_WAR_psocwebjobslocator_forwardPath=search&amp;idProcess=1661584" target="_blank">COMERCIAL - AUXILIAR ASESOR CORREDURÍA SEGUROS , LLEIDA</a></div><div class="rss_date">05. octubre 2013</div></div><div class="rss_pubbox"><div class="rss_summary"><a href="http://feinaactiva.gencat.cat/web/guest/home?p_p_id=jobsLocator_WAR_psocwebjobslocator&amp;p_p_lifecycle=1&amp;p_p_state=maximized&amp;p_p_mode=view&amp;_jobsLocator_WAR_psocwebjobslocator_struts_action=%2Fjobslocator%2FjobsLocator&amp;saveLastPath=0&amp;_jobsLocator_WAR_psocwebjobslocator_forwardPath=search&amp;idProcess=1660492" target="_blank">DEPENDENTA DE PASTISSERIA , LLEIDA</a></div><div class="rss_date">04. octubre 2013</div></div><div class="rss_pubbox"><div class="rss_summary"><a href="http://feinaactiva.gencat.cat/web/guest/home?p_p_id=jobsLocator_WAR_psocwebjobslocator&amp;p_p_lifecycle=1&amp;p_p_state=maximized&amp;p_p_mode=view&amp;_jobsLocator_WAR_psocwebjobslocator_struts_action=%2Fjobslocator%2FjobsLocator&amp;saveLastPath=0&amp;_jobsLocator_WAR_psocwebjobslocator_forwardPath=search&amp;idProcess=1660489" target="_blank">Planificador econòmic , TÀRREGA</a></div><div class="rss_date">04. octubre 2013</div></div><div class="rss_pubbox"><div class="rss_summary"><a href="http://feinaactiva.gencat.cat/web/guest/home?p_p_id=jobsLocator_WAR_psocwebjobslocator&amp;p_p_lifecycle=1&amp;p_p_state=maximized&amp;p_p_mode=view&amp;_jobsLocator_WAR_psocwebjobslocator_struts_action=%2Fjobslocator%2FjobsLocator&amp;saveLastPath=0&amp;_jobsLocator_WAR_psocwebjobslocator_forwardPath=search&amp;idProcess=1660482" target="_blank">Gestor de Formació , LLEIDA</a></div><div class="rss_date">04. octubre 2013</div></div><div class="rss_pubbox"><div class="rss_summary"><a href="http://feinaactiva.gencat.cat/web/guest/home?p_p_id=jobsLocator_WAR_psocwebjobslocator&amp;p_p_lifecycle=1&amp;p_p_state=maximized&amp;p_p_mode=view&amp;_jobsLocator_WAR_psocwebjobslocator_struts_action=%2Fjobslocator%2FjobsLocator&amp;saveLastPath=0&amp;_jobsLocator_WAR_psocwebjobslocator_forwardPath=search&amp;idProcess=1659149" target="_blank">METGE FORENSE , BALAGUER</a></div><div class="rss_date">04. octubre 2013</div></div><div class="rss_pubbox"><div class="rss_summary"><a href="http://feinaactiva.gencat.cat/web/guest/home?p_p_id=jobsLocator_WAR_psocwebjobslocator&amp;p_p_lifecycle=1&amp;p_p_state=maximized&amp;p_p_mode=view&amp;_jobsLocator_WAR_psocwebjobslocator_struts_action=%2Fjobslocator%2FjobsLocator&amp;saveLastPath=0&amp;_jobsLocator_WAR_psocwebjobslocator_forwardPath=search&amp;idProcess=1660459" target="_blank">7488 -MECÀNIC DE MANTENIMENT INDUSTRIAL i SOLDADOR , GUISSONA</a></div><div class="rss_date">04. octubre 2013</div></div><div class="rss_pubbox"><div class="rss_summary"><a href="http://feinaactiva.gencat.cat/web/guest/home?p_p_id=jobsLocator_WAR_psocwebjobslocator&amp;p_p_lifecycle=1&amp;p_p_state=maximized&amp;p_p_mode=view&amp;_jobsLocator_WAR_psocwebjobslocator_struts_action=%2Fjobslocator%2FjobsLocator&amp;saveLastPath=0&amp;_jobsLocator_WAR_psocwebjobslocator_forwardPath=search&amp;idProcess=1659164" target="_blank">METGES ESPECIALISTES EN MEDICINA FAMILIAR I COMUN , LLEIDA</a></div><div class="rss_date">04. octubre 2013</div></div><div class="rss_pubbox"><div class="rss_summary"><a href="http://feinaactiva.gencat.cat/web/guest/home?p_p_id=jobsLocator_WAR_psocwebjobslocator&amp;p_p_lifecycle=1&amp;p_p_state=maximized&amp;p_p_mode=view&amp;_jobsLocator_WAR_psocwebjobslocator_struts_action=%2Fjobslocator%2FjobsLocator&amp;saveLastPath=0&amp;_jobsLocator_WAR_psocwebjobslocator_forwardPath=search&amp;idProcess=1660453" target="_blank">7502 CONDUCTOR/A DE TRAILER  , TÀRREGA</a></div><div class="rss_date">04. octubre 2013</div></div><div class="rss_pubbox"><div class="rss_summary"><a href="http://feinaactiva.gencat.cat/web/guest/home?p_p_id=jobsLocator_WAR_psocwebjobslocator&amp;p_p_lifecycle=1&amp;p_p_state=maximized&amp;p_p_mode=view&amp;_jobsLocator_WAR_psocwebjobslocator_struts_action=%2Fjobslocator%2FjobsLocator&amp;saveLastPath=0&amp;_jobsLocator_WAR_psocwebjobslocator_forwardPath=search&amp;idProcess=1460216" target="_blank">Delegat de Vendes Catalunya (brioxeria industrial) , LLEIDA</a></div><div class="rss_date">04. octubre 2013</div></div><div class="rss_pubbox"><div class="rss_summary"><a href="http://feinaactiva.gencat.cat/web/guest/home?p_p_id=jobsLocator_WAR_psocwebjobslocator&amp;p_p_lifecycle=1&amp;p_p_state=maximized&amp;p_p_mode=view&amp;_jobsLocator_WAR_psocwebjobslocator_struts_action=%2Fjobslocator%2FjobsLocator&amp;saveLastPath=0&amp;_jobsLocator_WAR_psocwebjobslocator_forwardPath=search&amp;idProcess=1436104" target="_blank">Frigorista de Refrigeració Industrial amb AMONIAC  , LLEIDA</a></div><div class="rss_date">04. octubre 2013</div></div><div class="rss_busca"><a href="http://www.segre.com/especials/ofertes-de-feina/" target="_top">busca més ofertes</a></div></div>
+	</div>
+	</div>
+				</div>
+                <div id="link_int">
+<a href="http://www.segre.com/musiquem" target="_top"><img src="fileadmin/banners/imatges_link/musiquem2013_240.jpg" alt="musiquem" width="240" height="60" /></a>
+</div>
+<div id="link_int">
+<a href="http://www.segre.com/especials/loteries" target="_top" alt="Loteries"><img src="fileadmin/templates/css/img/loteries/adm1240x40.jpg" width="240" height="40" alt="" /></a>
+</div>
+<div id="link_int">
+<a href="http://www.segre.com/uploads/triptic_2013.pdf" target="_blank" alt="Xarxa busos"><img src="fileadmin/banners/imatges_link/xarxa_bus.png" width="240" height="40" alt="" /></a>
+</div>
+<div id="link_int">
+<a href="http://www.segre.com/eleccions25N.php" target="_top"><img src="fileadmin/banners/imatges_link/eleccions25N240x40.jpg" alt="25N" width="240" height="40" /></a>
+</div>
+<!--
+<div id="link_int">
+<a href="http://www.segre.com/serveis/suplements-de-publicitat/" target="_blank" alt="Especials"><img src="fileadmin/banners/imatges_link/BANNER-SUPLEMENTS.jpg" width="240" height="60"></a>
+</div>
+-->
+<div id="link_int">
+<a href="Lerigraf/index.html" target="_blank"><img src="fileadmin/banners/imatges_link/Lerigraf.jpg" alt="Lerigraf -Grup Segre-" width="240" height="40" /></a>
+</div>
+<!--
+<div id="link_int">
+<a href="http://www.segre.com/especials/wednesdaylips/" target="_top"><img src="fileadmin/banners/imatges_link/wednesdaylips_link.jpg" alt="wednesdaylips" width="240" height="60"></a>
+</div>
+-->
+
+
+    
+<a href="nc/banner/238/" target="_blank" class="bannerS" ><img src="uploads/tx_macinabanners/bannerLleidaCom_01.gif" width="240" height="40" alt="LleidaCom" /></a>
+    
+
+<div class="bannerContenido_Lateral1">
+<script type="text/javascript">
+<!--
+google_ad_client = "ca-pub-1773058633944392";
+/* Columna lateral 160x600 */
+google_ad_slot = "9364270112";
+google_ad_width = 160;
+google_ad_height = 600;
+GA_googleAddAdSensePageAttr("google_page_url", "URL");
+//-->
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+</div><!-- end #lateral -->
+            <div id="contenido">
+              <div class="cintell"><!--TYPO3SEARCH_begin--><!--TYPO3SEARCH_end--></div>
+            	<div id="modificacion">
+          			<p><p>Ultima modificaci&oacute;: <strong></strong><span style="margin-left:1.0125em;"><a href="http://twitter.com/#!/segrecom" target="_blank"><img src="fileadmin/templates/css/img/twitt.jpg" width="12" alt="segueix-nos al twitter" /></a></span><span style="margin-left:0.3125em;"><a href="http://www.facebook.com/diarisegre" target="_blank"><img src="fileadmin/templates/css/img/facebook.jpg" width="12" alt="Espai Cercle a Facebook" /></a></span><span style="margin-left:0.3125em;"><a href="http://www.segre.com/serveis/rss" target="_top"><img src="fileadmin/templates/css/img/rss5.jpg" width="12" alt="sindicació de continguts" /></a></span></p></p>
+      			</div><!-- en #modificacion-->
+                <div id="migas"><span>Portada</span></div>
+                <div id="tituloPaginaSeccion"></div>
+                <div id="zonaNivel1">
+<div class="noticiaNivel1">
+  <!---->
+  
+  <div class="epigraf">Comarques <span> </span></div>
+  <div class="imagen floatDerecha">
+    <a href="detall-de-la-noticia/article/mig-centenar-dexpositors-en-la-fira-del-pressec-de-alfarras/" title="Mig centenar d’expositors en la Fira del Préssec de Alfarràs"><img alt="L’estand principal de la Fira del Préssec de Alfarràs." title="" src="fileadmin/multimedia/fotos/Segre/1380999493.JPG" /></a><br /><p class="multimediaImagenes">L’estand principal de la Fira del Préssec de Alfarràs.</p></a>
+  </div>
+  <h2><a href="detall-de-la-noticia/article/mig-centenar-dexpositors-en-la-fira-del-pressec-de-alfarras/" title="Mig centenar d’expositors en la Fira del Préssec de Alfarràs">Mig centenar d’expositors en la Fira del Préssec de Alfarràs</a> </h2>
+  <h3>L’ajuntament negocia canviar la marca 'ribagorçana' per 'pinyana' i noves fórmules de promoció</h3>
+  <p><p>Mig centenar d’expositors participen des d’ahir en la XXI FIra del Préssec de Ribargorçana d'Alfarràs que va ser inaugurada pel responsable de l’Empresa i Ocupació a Lleida, Octavi Miarnau. 
+Durant...<span class="news-list-morelink"><a href="detall-de-la-noticia/article/mig-centenar-dexpositors-en-la-fira-del-pressec-de-alfarras/" title="Mig centenar d’expositors en la Fira del Préssec de Alfarràs"><img src="fileadmin/templates/css/img/ampliar.gif" height="10" alt="" /></a></span></p></p>
+  <div class="multimedia">
+    <ul>
+  	  <li><span class="multimediaImagenes">1</span></li>
+  	  
+  	  
+  	  
+  	  
+  	  
+    </ul>
+  </div>
+  <div class="otraInfoNoticiaNivel1">
+     
+  	 
+  	 
+  	 
+  </div>
+  
+  				
+</div>
+</div><!-- end #zonaNivel1 -->
+                <div id="subContenido">
+                    <div id="zonaNivel3"><div class="bannerContenido_Position1">
+<script type="text/javascript">
+<!-- 
+ANAJS_Publicidad('300dcha'); 
+-->
+</script>
+</div>
+
+
+<!---->
+	
+		<div class="noticiaNivel3">
+			<div class="epigraf">Lleida <span> </span></div>
+			<!--	<span class="news-list-date">05/10/2013</span>-->
+			<div class="imagen">
+				<!---->
+                        <a href="detall-de-la-noticia/article/detinguts-dos-joves-per-un-robar-material-electronic-en-una-botiga-de-leix/" title="Detinguts dos joves per un robar material electrònic en una botiga de l’Eix"><img alt="Un dels robatoris es va cometre en una botiga del carrer Sant Antoni." title="" src="fileadmin/multimedia/fotos/Segre/1380969194.jpg" /></a><br /></a>
+			</div>
+			<h2><a href="detall-de-la-noticia/article/detinguts-dos-joves-per-un-robar-material-electronic-en-una-botiga-de-leix/" title="Detinguts dos joves per un robar material electrònic en una botiga de l’Eix">Detinguts dos joves per un robar material electrònic en una botiga de l’Eix</a> </h2>
+		
+			<!-- <h3>Valorat en 18.000 euros i els Mossos els imputen tres assalts mes</h3> -->
+			
+				<div class="multimedia">
+					<ul>
+						<li><span class="multimediaImagenes">1</span></li>
+						
+						
+						
+						
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+					</ul>
+				</div>
+
+		</div>
+		
+		<div class="noticiaNivel3">
+			<div class="epigraf">Comarques <span></span></div>
+			<!--	<span class="news-list-date">05/10/2013</span>-->
+			<div class="imagen">
+				<!---->
+                        <a href="detall-de-la-noticia/article/una-tromba-daigua-inunda-carrers-i-cases-al-pla-lurgell-i-la-segarra/" title="Una tromba d'aigua inunda carrers i cases al Pla, l'Urgell i la Segarra"><img alt="Personal d'emergències..." title="" src="fileadmin/multimedia/fotos/esegre/18270112.jpg" /></a><br /></a>
+			</div>
+			<h2><a href="detall-de-la-noticia/article/una-tromba-daigua-inunda-carrers-i-cases-al-pla-lurgell-i-la-segarra/" title="Una tromba d'aigua inunda carrers i cases al Pla, l'Urgell i la Segarra">Una tromba d'aigua inunda carrers i cases al Pla, l'Urgell i la Segarra</a> </h2>
+		
+			<!-- <h3>Talls de llum, gran quantitat de llampecs a la Noguera i 14 sortides de bombers</h3> -->
+			
+				<div class="multimedia">
+					<ul>
+						<li><span class="multimediaImagenes">1</span></li>
+						
+						
+						
+						
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+					</ul>
+				</div>
+
+		</div>
+		
+		<div class="noticiaNivel3">
+			<div class="epigraf">Guia <span></span></div>
+			<!--	<span class="news-list-date">05/10/2013</span>-->
+			<div class="imagen">
+				<!---->
+                        <a href="detall-de-la-noticia/article/musiquem-lleida-sota-la-pluja/" title="Musiquem Lleida! sota la pluja"><img alt="La 'brass band' catalana..." title="" src="fileadmin/multimedia/fotos/esegre/18268002.jpg" /></a><br /></a>
+			</div>
+			<h2><a href="detall-de-la-noticia/article/musiquem-lleida-sota-la-pluja/" title="Musiquem Lleida! sota la pluja">Musiquem Lleida! sota la pluja</a> </h2>
+		
+			<!-- <h3>Les inclemències meteorològiques desllueixen la primera jornada del festival, amb trasllats de concerts a espais interiors |</h3> -->
+			
+				<div class="multimedia">
+					<ul>
+						<li><span class="multimediaImagenes">2</span></li>
+						
+						
+						
+						
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+					</ul>
+				</div>
+
+		</div>
+		
+		<div class="noticiaNivel3">
+			<div class="epigraf">Esports <span></span></div>
+			<!--	<span class="news-list-date">05/10/2013</span>-->
+			<div class="imagen">
+				<!---->
+                        <a href="detall-de-la-noticia/article/sense-complexos/" title="Sense complexos"><img alt="Enric Garrido intenta doblar..." title="" src="fileadmin/multimedia/fotos/esegre/18270208.jpg" /></a><br /></a>
+			</div>
+			<h2><a href="detall-de-la-noticia/article/sense-complexos/" title="Sense complexos">Sense complexos</a> </h2>
+		
+			<!-- <h3>El Força Lleida obre la Lliga amb una ajustada derrota a Palència i va estar a punt de donar la campanada malgrat un mal partit |</h3> -->
+			
+				<div class="multimedia">
+					<ul>
+						<li><span class="multimediaImagenes">3</span></li>
+						
+						
+						
+						
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+					</ul>
+				</div>
+
+		</div>
+		
+		<div class="noticiaNivel3">
+			<div class="epigraf">Esports <span></span></div>
+			<!--	<span class="news-list-date">05/10/2013</span>-->
+			<div class="imagen">
+				<!---->
+                        <a href="detall-de-la-noticia/article/lhora-de-lassociacio/" title="L'hora de l'Associació"><img alt="L'equip de l'Associació..." title="" src="fileadmin/multimedia/fotos/esegre/18269330.jpg" /></a><br /></a>
+			</div>
+			<h2><a href="detall-de-la-noticia/article/lhora-de-lassociacio/" title="L'hora de l'Associació">L'hora de l'Associació</a> </h2>
+		
+			<!-- <h3>L'equip lleidatà, que ha recuperat la categoria perduda, debuta demà a Getafe</h3> -->
+			
+				<div class="multimedia">
+					<ul>
+						<li><span class="multimediaImagenes">1</span></li>
+						
+						
+						
+						
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+					</ul>
+				</div>
+
+		</div>
+		
+		<div class="noticiaNivel3">
+			<div class="epigraf">Guia <span></span></div>
+			<!--	<span class="news-list-date">05/10/2013</span>-->
+			<div class="imagen">
+				<!---->
+                        <a href="detall-de-la-noticia/article/nova-campanya-de-lots-de-shalom-amb-mes-varietat/" title="Nova campanya de lots de Shalom, amb més varietat"><img alt="La Llotja va acollir ahir a..." title="" src="fileadmin/multimedia/fotos/esegre/18270146.jpg" /></a><br /></a>
+			</div>
+			<h2><a href="detall-de-la-noticia/article/nova-campanya-de-lots-de-shalom-amb-mes-varietat/" title="Nova campanya de lots de Shalom, amb més varietat">Nova campanya de lots de Shalom, amb més varietat</a> </h2>
+		
+			<!-- <h3>Per Nadal i compta amb un 15% més de proveïdors</h3> -->
+			
+				<div class="multimedia">
+					<ul>
+						<li><span class="multimediaImagenes">1</span></li>
+						
+						
+						
+						
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+					</ul>
+				</div>
+
+		</div>
+		
+		<div class="noticiaNivel3">
+			<div class="epigraf">Comarques <span></span></div>
+			<!--	<span class="news-list-date">05/10/2013</span>-->
+			<div class="imagen">
+				<!---->
+                        <a href="detall-de-la-noticia/article/la-fira-de-la-magia-acull-200-discapacitats-en-lestrena/" title="La Fira de la Màgia acull 200 discapacitats en l'estrena"><img alt="Els assistents al taller..." title="" src="fileadmin/multimedia/fotos/esegre/18268274.jpg" /></a><br /></a>
+			</div>
+			<h2><a href="detall-de-la-noticia/article/la-fira-de-la-magia-acull-200-discapacitats-en-lestrena/" title="La Fira de la Màgia acull 200 discapacitats en l'estrena">La Fira de la Màgia acull 200 discapacitats en l'estrena</a> </h2>
+		
+			<!-- <h3>El certamen se celebra tot el cap de setmana i reuneix 50 mags</h3> -->
+			
+				<div class="multimedia">
+					<ul>
+						<li><span class="multimediaImagenes">1</span></li>
+						
+						
+						
+						
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+					</ul>
+				</div>
+
+		</div>
+		
+		<div class="noticiaNivel3">
+			<div class="epigraf">TV i Radio <span></span></div>
+			<!--	<span class="news-list-date">05/10/2013</span>-->
+			<div class="imagen">
+				<!---->
+                        <a href="detall-de-la-noticia/article/aliments-i-territori-arriba-a-la-graella-de-lleida-televisio/" title="'Aliments i territori' arriba a la graella de Lleida Televisió"><img alt="La caràtula del nou programa..." title="" src="fileadmin/multimedia/fotos/esegre/18269129.jpg" /></a><br /></a>
+			</div>
+			<h2><a href="detall-de-la-noticia/article/aliments-i-territori-arriba-a-la-graella-de-lleida-televisio/" title="'Aliments i territori' arriba a la graella de Lleida Televisió">'Aliments i territori' arriba a la graella de Lleida Televisió</a> </h2>
+		
+			<!-- <h3>Avui, els vins de la vall del Corb i els torrons de la vall del Sió</h3> -->
+			
+				<div class="multimedia">
+					<ul>
+						<li><span class="multimediaImagenes">1</span></li>
+						
+						
+						
+						
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+					</ul>
+				</div>
+
+		</div>
+		
+		<div class="noticiaNivel3">
+			<div class="epigraf">Comarques <span></span></div>
+			<!--	<span class="news-list-date">05/10/2013</span>-->
+			<div class="imagen">
+				<!---->
+                        <a href="detall-de-la-noticia/article/els-alcaldes-demanen-que-els-furts-agricoles-siguin-tipificats-com-a-delicte/" title="Els alcaldes demanen que els furts agrícoles siguin tipificats com a delicte"><img alt="L'informe es va presentar..." title="" src="fileadmin/multimedia/fotos/esegre/18268766.jpg" /></a><br /></a>
+			</div>
+			<h2><a href="detall-de-la-noticia/article/els-alcaldes-demanen-que-els-furts-agricoles-siguin-tipificats-com-a-delicte/" title="Els alcaldes demanen que els furts agrícoles siguin tipificats com a delicte">Els alcaldes demanen que els furts agrícoles siguin tipificats com a delicte</a> </h2>
+		
+			<!-- <h3> </h3> -->
+			
+				<div class="multimedia">
+					<ul>
+						<li><span class="multimediaImagenes">1</span></li>
+						
+						
+						
+						
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+					</ul>
+				</div>
+
+		</div>
+		
+		<div class="noticiaNivel3">
+			<div class="epigraf">Lleida <span></span></div>
+			<!--	<span class="news-list-date">05/10/2013</span>-->
+			<div class="imagen">
+				<!---->
+                        <a href="detall-de-la-noticia/article/el-pp-rebutja-disculpar-se-pel-regidor-que-va-equiparar-la-via-catalana-amb-eta/" title="El PP rebutja disculpar-se pel regidor que va equiparar la Via Catalana amb ETA"><img alt="Els regidors del grup..." title="" src="fileadmin/multimedia/fotos/esegre/18268299.jpg" /></a><br /></a>
+			</div>
+			<h2><a href="detall-de-la-noticia/article/el-pp-rebutja-disculpar-se-pel-regidor-que-va-equiparar-la-via-catalana-amb-eta/" title="El PP rebutja disculpar-se pel regidor que va equiparar la Via Catalana amb ETA">El PP rebutja disculpar-se pel regidor que va equiparar la Via Catalana amb ETA</a> </h2>
+		
+			<!-- <h3>El ple de la Paeria, amb els vots del PSC i CiU, va reprovar ahir Pau Pintó</h3> -->
+			
+				<div class="multimedia">
+					<ul>
+						<li><span class="multimediaImagenes">1</span></li>
+						<li><span class="multimediaVideos">1</span></li>
+						
+						
+						
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+					</ul>
+				</div>
+
+		</div>
+		
+
+<div class="bannerContenido_Position1">
+<script type="text/javascript">
+<!-- 
+ANAJS_Publicidad('300dchab'); 
+-->
+</script>
+</div>
+
+		    		<div class="servicio">
+	                  	<div class="tituloServicio"><div class="csc-header csc-header-n1"><h3 class="csc-firstHeader">Les notícies més llegides en...</h3></div></div>
+                    		<div class="contenidoServicio"><div class="tx-jfmulticontent-pi1">
+		
+<div id="jfmulticontent_c9258">
+	<ul>
+		
+		<li><a href="index.php?id=199#jfmulticontent_c9258-1">24h</a></li>
+		
+		<li><a href="index.php?id=199#jfmulticontent_c9258-2">7 dies</a></li>
+		
+		<li><a href="index.php?id=199#jfmulticontent_c9258-3">1 mes</a></li>
+		
+	</ul>
+	
+	<div id="jfmulticontent_c9258-1">
+		
+
+	
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						05/10/2013 - 
+llegida  354 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Comarques - </span><a href="arxiu-detall-de-la-noticia/article/una-tromba-daigua-inunda-carrers-i-cases-al-pla-lurgell-i-la-segarra/" title="Una tromba d'aigua inunda carrers i cases al Pla, l'Urgell i la Segarra">Una tromba d'aigua inunda carrers i cases al Pla, l'Urgell i la Segarra</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						05/10/2013 - 
+llegida  315 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Comarques - </span><a href="arxiu-detall-de-la-noticia/article/suspenen-un-bomber-de-reus-per-homenatjar-els-graf-dhorta/" title="Suspenen un bomber de Reus per homenatjar els GRAF d'Horta">Suspenen un bomber de Reus per homenatjar els GRAF d'Horta</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						05/10/2013 - 
+llegida  265 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Lleida - </span><a href="arxiu-detall-de-la-noticia/article/lantic-simago-reobrira-al-mes-de-novembre-amb-parquing-al-soterrani/" title="L'antic Simago reobrirà al mes de novembre amb pàrquing al soterrani">L'antic Simago reobrirà al mes de novembre amb pàrquing al soterrani</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						05/10/2013 - 
+llegida  262 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Comarques - </span><a href="arxiu-detall-de-la-noticia/article/centenars-de-persones-en-el-primer-festival-aeri-de-laeroport-del-lleida-que-repetira-el-2014/" title="Centenars de persones en el primer festival aeri de l’aeroport del Lleida que repetirà el 2014">Centenars de persones en el primer festival aeri de l’aeroport del Lleida que repetirà el 2014</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						05/10/2013 - 
+llegida  250 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Lleida - </span><a href="arxiu-detall-de-la-noticia/article/el-pp-rebutja-disculpar-se-pel-regidor-que-va-equiparar-la-via-catalana-amb-eta/" title="El PP rebutja disculpar-se pel regidor que va equiparar la Via Catalana amb ETA">El PP rebutja disculpar-se pel regidor que va equiparar la Via Catalana amb ETA</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						05/10/2013 - 
+llegida  207 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Lleida - </span><a href="arxiu-detall-de-la-noticia/article/detinguts-dos-joves-per-un-robar-material-electronic-en-una-botiga-de-leix/" title="Detinguts dos joves per un robar material electrònic en una botiga de l’Eix">Detinguts dos joves per un robar material electrònic en una botiga de l’Eix</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						05/10/2013 - 
+llegida  207 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Cultura - </span><a href="arxiu-detall-de-la-noticia/article/el-cant-gregoria-sera-protagonista-a-la-seu-vella/" title="El cant gregorià serà protagonista a la Seu Vella">El cant gregorià serà protagonista a la Seu Vella</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						05/10/2013 - 
+llegida  207 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Lleida - </span><a href="arxiu-detall-de-la-noticia/article/vam-comprar-el-pis-fa-10-anys-i-no-tenim-cap-altre-lloc-on-anar/" title="&quot;Vam comprar el pis fa 10 anys i no tenim cap altre lloc on anar&quot;">"Vam comprar el pis fa 10 anys i no tenim cap altre lloc on anar"</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						05/10/2013 - 
+llegida  199 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Comarques - </span><a href="arxiu-detall-de-la-noticia/article/els-alcaldes-demanen-que-els-furts-agricoles-siguin-tipificats-com-a-delicte/" title="Els alcaldes demanen que els furts agrícoles siguin tipificats com a delicte">Els alcaldes demanen que els furts agrícoles siguin tipificats com a delicte</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						05/10/2013 - 
+llegida  189 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Esports - </span><a href="arxiu-detall-de-la-noticia/article/sense-complexos/" title="Sense complexos">Sense complexos</a></h3>
+					</div>
+				</div>
+		
+	<div class="news-list-browse"></div>
+
+
+	</div>
+	
+	<div id="jfmulticontent_c9258-2">
+		
+
+	
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						02/10/2013 - 
+llegida  1484 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Lleida - </span><a href="arxiu-detall-de-la-noticia/article/salven-la-vida-a-una-jove-apunyalada-en-ple-carrer-pel-seu-exnovio-a-balafia/" title="Salven la vida a una jove apunyalada en ple carrer pel seu exnòvio a Balàfia">Salven la vida a una jove apunyalada en ple carrer pel seu exnòvio a Balàfia</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						01/10/2013 - 
+llegida  1076 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Lleida - </span><a href="arxiu-detall-de-la-noticia/article/detingut-per-apunyalar-al-coll-una-jove-de-18-anys-en-ple-carrer-a-balafia/" title="Detingut per apunyalar al coll una jove de 18 anys en ple carrer a Balàfia">Detingut per apunyalar al coll una jove de 18 anys en ple carrer a Balàfia</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						04/10/2013 - 
+llegida  970 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Comarques - </span><a href="arxiu-detall-de-la-noticia/article/sancionats-3-informatics-de-la-diputacio-per-unflar-a-traves-del-sistema-les-seues-nomines/" title="Sancionats 3 informàtics de la Diputació per unflar a través del sistema les seues nòmines">Sancionats 3 informàtics de la Diputació per unflar a través del sistema les seues nòmines</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						30/09/2013 - 
+llegida  802 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Comarques - </span><a href="arxiu-detall-de-la-noticia/article/troben-mort-a-lalt-urgell-un-motorista-que-feia-mes-de-12-hores-que-havia-desaparegut/" title="Troben mort a l'Alt Urgell un motorista que feia més de 12 hores que havia desaparegut">Troben mort a l'Alt Urgell un motorista que feia més de 12 hores que havia desaparegut</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						01/10/2013 - 
+llegida  677 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Lleida - </span><a href="arxiu-detall-de-la-noticia/article/quatre-ferits-i-collapse-al-pont-vell-despres-duna-espectacular-collisio/" title="Quatre ferits i col·lapse al Pont Vell després d'una espectacular col·lisió">Quatre ferits i col·lapse al Pont Vell després d'una espectacular col·lisió</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						29/09/2013 - 
+llegida  625 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Esports - </span><a href="arxiu-detall-de-la-noticia/article/nova-exhibicio-de-marc-marquez-que-aconsegueix-la-sisesa-victoria-i-dona-un-cop-dautoritat-al/" title="Nova exhibició de Marc Márquez, que aconsegueix la sisesa victòria i dóna un cop d'autoritat al Mundial">Nova exhibició de Marc Márquez, que aconsegueix la sisesa victòria i dóna un cop d'autoritat al Mundial</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						01/10/2013 - 
+llegida  575 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Lleida - </span><a href="arxiu-detall-de-la-noticia/article/prioritat-a-alumnes-de-fora-per-aparcar-gratis-a-la-udl/" title="Prioritat a alumnes de fora per aparcar gratis a la UdL">Prioritat a alumnes de fora per aparcar gratis a la UdL</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						30/09/2013 - 
+llegida  528 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Esports - </span><a href="arxiu-detall-de-la-noticia/article/amb-tot-en-contra/" title="Lleida Esportiu: Amb tot en contra">Lleida Esportiu: Amb tot en contra</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						29/09/2013 - 
+llegida  511 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Lleida - </span><a href="arxiu-detall-de-la-noticia/article/la-paeria-injecta-395000-EUR-a-la-llotja/" title="La Paeria 'injecta' 395.000 € a la Llotja">La Paeria 'injecta' 395.000 € a la Llotja</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						29/09/2013 - 
+llegida  510 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Comarques - </span><a href="arxiu-detall-de-la-noticia/article/els-mossos-intervenen-35-plantes-de-marihuana-als-detinguts-a-la-noguera/" title="Els Mossos intervenen 35 plantes de marihuana als detinguts a la Noguera">Els Mossos intervenen 35 plantes de marihuana als detinguts a la Noguera</a></h3>
+					</div>
+				</div>
+		
+	<div class="news-list-browse"></div>
+
+
+	</div>
+	
+	<div id="jfmulticontent_c9258-3">
+		
+
+	
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						07/09/2013 - 
+llegida  9344 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Lleida - </span><a href="arxiu-detall-de-la-noticia/article/un-mort-i-quatre-ferits-a-lencastar-se-un-cotxe-sense-control-en-una-botiga-de-leix/" title="Un mort i quatre ferits a l'encastar-se un cotxe sense control en una botiga de l'Eix">Un mort i quatre ferits a l'encastar-se un cotxe sense control en una botiga de l'Eix</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						06/09/2013 - 
+llegida  5731 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Lleida - </span><a href="arxiu-detall-de-la-noticia/article/al-menys-cinc-ferits-a-lencastar-se-un-cotxe-en-una-botiga-al-costat-de-lestatua-dindibil-i-man/" title="Cinc ferits a l'encastar-se un cotxe en una botiga al costat de l'estàtua d'Indíbil i Mandoni">Cinc ferits a l'encastar-se un cotxe en una botiga al costat de l'estàtua d'Indíbil i Mandoni </a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						19/09/2013 - 
+llegida  3357 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Comarques - </span><a href="arxiu-detall-de-la-noticia/article/moren-dos-veins-de-lleida-al-xocar-dos-camions-a-la-n-240-a-les-borges-blanques/" title="Moren dos veïns de Lleida al xocar dos camions a la N-240 a les Borges Blanques">Moren dos veïns de Lleida al xocar dos camions a la N-240 a les Borges Blanques</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						08/09/2013 - 
+llegida  2828 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Lleida - </span><a href="arxiu-detall-de-la-noticia/article/vaig-veure-la-botiga-caient-me-a-sobre/" title="&quot;Vaig veure la botiga caient-me a sobre&quot;">"Vaig veure la botiga caient-me a sobre"</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						18/09/2013 - 
+llegida  2050 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Comarques - </span><a href="arxiu-detall-de-la-noticia/article/dos-morts-i-un-ferit-en-un-accident-entre-dos-camions-a-les-borges-blanques/" title="Dos morts i un ferit en un accident entre dos camions a Les Borges Blanques">Dos morts i un ferit en un accident entre dos camions a Les Borges Blanques</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						15/09/2013 - 
+llegida  1956 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Lleida - </span><a href="arxiu-detall-de-la-noticia/article/un-regidor-del-pp-equipara-la-via-catalana-amb-eta-al-seu-facebook/" title="Un regidor del PP equipara la Via Catalana amb ETA al seu Facebook">Un regidor del PP equipara la Via Catalana amb ETA al seu Facebook</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						09/09/2013 - 
+llegida  1507 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Comarques - </span><a href="arxiu-detall-de-la-noticia/article/xiulada-al-bisbe-a-solsona-per-oposar-se-a-les-campanades-independentistes-de-la-diada/" title="Xiulada al bisbe a Solsona per oposar-se a les campanades independentistes de la Diada">Xiulada al bisbe a Solsona per oposar-se a les campanades independentistes de la Diada</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						02/10/2013 - 
+llegida  1484 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Lleida - </span><a href="arxiu-detall-de-la-noticia/article/salven-la-vida-a-una-jove-apunyalada-en-ple-carrer-pel-seu-exnovio-a-balafia/" title="Salven la vida a una jove apunyalada en ple carrer pel seu exnòvio a Balàfia">Salven la vida a una jove apunyalada en ple carrer pel seu exnòvio a Balàfia</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						07/09/2013 - 
+llegida  1482 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Lleida - </span><a href="arxiu-detall-de-la-noticia/article/camats-deixa-de-militar-a-icv-per-discrepancies-sobre-la-via-catalana/" title="Ramon Camats deixa de militar a ICV per discrepàncies sobre la Via Catalana">Ramon Camats deixa de militar a ICV per discrepàncies sobre la Via Catalana</a></h3>
+					</div>
+				</div>
+		
+				<div class="noticiaMostLateral">
+					<div class="fechaNoticiaMostLateral">
+						25/09/2013 - 
+llegida  1454 cops
+
+					</div>
+					<div class="infoNoticiaMostLateral">
+  					<h3><span>Lleida - </span><a href="arxiu-detall-de-la-noticia/article/mercadona-estrena-el-sise-super-a-lleida/" title="Mercadona estrena el sisè súper a Lleida">Mercadona estrena el sisè súper a Lleida</a></h3>
+					</div>
+				</div>
+		
+	<div class="news-list-browse"></div>
+
+
+	</div>
+	
+</div>
+
+	</div>
+	</div>
+				</div>
+                <div class="bannerContenido_Position1"><script type="text/javascript"><!--
+ANAJS_Publicidad('300dchac');
+--></script></div></div><!-- end #zonaNivel3 -->
+                    <div id="zonaNivel2">
+
+	<!---->
+	
+		<div class="noticiaNivel2">
+			<div class="epigraf">Comarques <span> </span></div>
+			<div class="imagen floatDerecha">
+			 	<!---->
+                        <a href="detall-de-la-noticia/article/exit-rotund-de-la-fira-dalimentacio-i-salut-de-balaguer/" title="Èxit rotund de la fira d’Alimentació i Salut de Balaguer"><img alt="Els visitants poden degustar i comprar productes ecològics, entre d'altres." title="" src="fileadmin/multimedia/fotos/Segre/1380990340.JPG" /></a><br /></a>
+			</div>
+			<!--<span class="news-list-date">05/10/2013</span>-->
+			<h2><a href="detall-de-la-noticia/article/exit-rotund-de-la-fira-dalimentacio-i-salut-de-balaguer/" title="Èxit rotund de la fira d’Alimentació i Salut de Balaguer">Èxit rotund de la fira d’Alimentació i Salut de Balaguer</a></h2>
+			<h3>Cues per entrar a la sisena edició que esgota tots els tiquets del seu primer dia</h3>
+			
+			<!--<div class="news-list-category"> Category: Comarques Nivell 1, Portada Nivell 2  </div>-->
+			<p>El número sis ha portat sort a la sisena edició de la Fira d’Alimentació i Salut que acull el pavelló de Balaguer aquest cap de setmana. L’organització ha vist superats tots els seus espectativas en...<span class="news-list-morelink"><a href="detall-de-la-noticia/article/exit-rotund-de-la-fira-dalimentacio-i-salut-de-balaguer/" title="Èxit rotund de la fira d’Alimentació i Salut de Balaguer"><img src="fileadmin/templates/css/img/ampliar.gif" height="10" alt="" /></a></span></p>
+				<div class="multimedia">
+					<ul>
+						<li><span class="multimediaImagenes">1</span></li>
+						
+						
+						
+						
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+					</ul>
+				</div>
+		</div>
+		
+		<div class="noticiaNivel2">
+			<div class="epigraf">Esports <span> </span></div>
+			<div class="imagen floatDerecha">
+			 	<!---->
+                        <a href="detall-de-la-noticia/article/el-lleida-esportiu-encadena-la-seua-tercera-derrota/" title="El Lleida Esportiu encadena la seua tercera derrota"><img alt="L’equip titular que va alinear el Lleida avui a Manises davant de l’Huracà." title="" src="fileadmin/multimedia/fotos/Segre/1380993657.jpg" /></a><br /></a>
+			</div>
+			<!--<span class="news-list-date">05/10/2013</span>-->
+			<h2><a href="detall-de-la-noticia/article/el-lleida-esportiu-encadena-la-seua-tercera-derrota/" title="El Lleida Esportiu encadena la seua tercera derrota">El Lleida Esportiu encadena la seua tercera derrota</a></h2>
+			<h3>Els de Toni Seligrat cauen per 2-0 en el camp de l’Huracà València i fa dos anys que l’equip no perdia tres partits seguits en la Lliga</h3>
+			
+			<!--<div class="news-list-category"> Category: Esports Nivell 1, Portada Nivell 2  </div>-->
+			<p>El Lleida Esportiu va encadenar avui la tercera derrota en la Lliga en perdre a Manises davant de l’Huracà València per 2-0. Els dos gols valencians van arribar en la primera meitat i els homes de...<span class="news-list-morelink"><a href="detall-de-la-noticia/article/el-lleida-esportiu-encadena-la-seua-tercera-derrota/" title="El Lleida Esportiu encadena la seua tercera derrota"><img src="fileadmin/templates/css/img/ampliar.gif" height="10" alt="" /></a></span></p>
+				<div class="multimedia">
+					<ul>
+						<li><span class="multimediaImagenes">1</span></li>
+						
+						
+						
+						
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+					</ul>
+				</div>
+		</div>
+		
+	
+
+<div class="bannerContenido_Position4">
+<script type="text/javascript"><!-- 
+ANAJS_Publicidad('300izda'); 
+--></script>
+</div>
+
+
+
+    
+
+          <div class="bannerL">
+          <script src="fileadmin/templates/js/swfobject2/swfobject.js" type="text/javascript"><!-- //--></script>
+          <script type="text/javascript">
+          	var flashvars = {};
+          	var params = {menu: "false", quality: "autohigh", allowScriptAccess: "sameDomain", wmode: "transparent"};
+          	var attributes = {};
+          	attributes.id = "flashContent"; 
+          	swfobject.embedSWF("uploads/tx_macinabanners/Banner_bolets_2013.swf?clickTAG=http%3A%2F%2Fwww.segre.com%2Fnc%2Fbanner%2F259%2F&amp;target=", "alternativeContent_259", "420", "60", "9.0.28", "expressInstall.swf", flashvars, params, attributes);
+          </script>
+          </div>
+          <div id="alternativeContent_259" class="bannerL">
+          	<a href="http://www.segre.com/nc/banner/259/"><img src="uploads/tx_macinabannerssegre/Banner_bolets_fix__cat2013.jpg"></a>
+          </div>
+          
+    
+
+
+
+	<!---->
+	
+		<div class="noticiaNivel2">
+			<div class="epigraf">Cultura <span></span></div>
+			<div class="imagen floatDerecha">
+			 	<!---->
+                        <a href="detall-de-la-noticia/article/el-cant-gregoria-sera-protagonista-a-la-seu-vella/" title="El cant gregorià serà protagonista a la Seu Vella"><img alt="La Schola Cantorum de..." title="" src="fileadmin/multimedia/fotos/esegre/18268158.jpg" /></a><br /></a>
+			</div>
+			<!--<span class="news-list-date">05/10/2013</span>-->
+			<h2><a href="detall-de-la-noticia/article/el-cant-gregoria-sera-protagonista-a-la-seu-vella/" title="El cant gregorià serà protagonista a la Seu Vella">El cant gregorià serà protagonista a la Seu Vella</a></h2>
+			<h3>Trobada demà a Lleida d'una dotzena de corals de tot Catalunya</h3>
+			
+			<!--<div class="news-list-category"> Category: Cultura Nivell 1, Portada Nivell 2  </div>-->
+			<p> La nau central de la Seu Vella de Lleida acollirà demà (18.00 hores) la cinquena trobada general de grups de cant gregorià de Catalunya, amb la participació d'una dotzena de formacions corals...<span class="news-list-morelink"><a href="detall-de-la-noticia/article/el-cant-gregoria-sera-protagonista-a-la-seu-vella/" title="El cant gregorià serà protagonista a la Seu Vella"><img src="fileadmin/templates/css/img/ampliar.gif" height="10" alt="" /></a></span></p>
+				<div class="multimedia">
+					<ul>
+						<li><span class="multimediaImagenes">1</span></li>
+						
+						
+						
+						
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+					</ul>
+				</div>
+		</div>
+		
+		<div class="noticiaNivel2">
+			<div class="epigraf">Comarques <span> </span></div>
+			<div class="imagen floatDerecha">
+			 	<!---->
+                        <a href="detall-de-la-noticia/article/centenars-de-persones-en-el-primer-festival-aeri-de-laeroport-del-lleida-que-repetira-el-2014/" title="Centenars de persones en el primer festival aeri de l’aeroport del Lleida que repetirà el 2014"><img alt="Un moment de la demostració dels bombers per a l’extinció de foc amb avions." title="" src="fileadmin/multimedia/fotos/Segre/1380976090.JPG" /></a><br /></a>
+			</div>
+			<!--<span class="news-list-date">05/10/2013</span>-->
+			<h2><a href="detall-de-la-noticia/article/centenars-de-persones-en-el-primer-festival-aeri-de-laeroport-del-lleida-que-repetira-el-2014/" title="Centenars de persones en el primer festival aeri de l’aeroport del Lleida que repetirà el 2014">Centenars de persones en el primer festival aeri de l’aeroport del Lleida que repetirà el 2014</a></h2>
+			<h3>Organitzat per la Taula Estratègica de l’aeroport de Lleida-Alguaire</h3>
+			
+			<!--<div class="news-list-category"> Category: Comarques Nivell 1, Portada Nivell 2  </div>-->
+			<p>Cents de persona van anar ahir a l’aeroport de Lleida-Alguaire per participar en el primer festival aeri del complex dins del recinte. Segons el responsable del Govern a Lleida, Ramon Farré, l'èxit...<span class="news-list-morelink"><a href="detall-de-la-noticia/article/centenars-de-persones-en-el-primer-festival-aeri-de-laeroport-del-lleida-que-repetira-el-2014/" title="Centenars de persones en el primer festival aeri de l’aeroport del Lleida que repetirà el 2014"><img src="fileadmin/templates/css/img/ampliar.gif" height="10" alt="" /></a></span></p>
+				<div class="multimedia">
+					<ul>
+						<li><span class="multimediaImagenes">1</span></li>
+						
+						
+						
+						
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+					</ul>
+				</div>
+		</div>
+		
+	
+
+<div class="bannerContenido_Position4">
+<script type="text/javascript"><!-- 
+ANAJS_Publicidad('300izdab'); 
+--></script>
+</div>
+
+	<!---->
+	
+		<div class="noticiaNivel2">
+			<div class="epigraf">Comarques <span></span></div>
+			<div class="imagen floatDerecha">
+			 	<!---->
+                        <a href="detall-de-la-noticia/article/suspenen-un-bomber-de-reus-per-homenatjar-els-graf-dhorta/" title="Suspenen un bomber de Reus per homenatjar els GRAF d'Horta"><img alt="Imatge de l'acte..." title="" src="fileadmin/multimedia/fotos/esegre/18268756.jpg" /></a><br /></a>
+			</div>
+			<!--<span class="news-list-date">05/10/2013</span>-->
+			<h2><a href="detall-de-la-noticia/article/suspenen-un-bomber-de-reus-per-homenatjar-els-graf-dhorta/" title="Suspenen un bomber de Reus per homenatjar els GRAF d'Horta">Suspenen un bomber de Reus per homenatjar els GRAF d'Horta</a></h2>
+			<h3>Un caporal, perquè va treure els camions fins al centre de la capital del Baix Camp</h3>
+			
+			<!--<div class="news-list-category"> Category: Comarques Nivell 2, Portada Nivell 2  </div>-->
+			<p> El departament d'Interior ha sancionat amb tres mesos de suspensió d'ocupació i sou un caporal dels Bombers de Reus perquè el passat 21 de juliol va treure tres camions pel centre de la capital del...<span class="news-list-morelink"><a href="detall-de-la-noticia/article/suspenen-un-bomber-de-reus-per-homenatjar-els-graf-dhorta/" title="Suspenen un bomber de Reus per homenatjar els GRAF d'Horta"><img src="fileadmin/templates/css/img/ampliar.gif" height="10" alt="" /></a></span></p>
+				<div class="multimedia">
+					<ul>
+						<li><span class="multimediaImagenes">1</span></li>
+						
+						
+						
+						
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+					</ul>
+				</div>
+		</div>
+		
+		<div class="noticiaNivel2">
+			<div class="epigraf">Lleida <span></span></div>
+			<div class="imagen floatDerecha">
+			 	<!---->
+                        <a href="detall-de-la-noticia/article/vam-comprar-el-pis-fa-10-anys-i-no-tenim-cap-altre-lloc-on-anar/" title="&quot;Vam comprar el pis fa 10 anys i no tenim cap altre lloc on anar&quot;"><img alt="Activistes de la PAH..." title="" src="fileadmin/multimedia/fotos/esegre/18268870.jpg" /></a><br /></a>
+			</div>
+			<!--<span class="news-list-date">05/10/2013</span>-->
+			<h2><a href="detall-de-la-noticia/article/vam-comprar-el-pis-fa-10-anys-i-no-tenim-cap-altre-lloc-on-anar/" title="&quot;Vam comprar el pis fa 10 anys i no tenim cap altre lloc on anar&quot;">"Vam comprar el pis fa 10 anys i no tenim cap altre lloc on anar"</a></h2>
+			<h3>La PAH frena un altre desnonament i obté un mes de termini per negociar amb el banc</h3>
+			
+			<!--<div class="news-list-category"> Category: Lleida Nivell 2, Portada Nivell 2  </div>-->
+			<p> George Omakaro, a qui els seus amics coneixen com a Lovesong, viu amb la dona i la seua filla de 6 anys en un pis al número 46 del carrer Sant Antoni des del 2003 i ahir va estar a punt de quedar-se...<span class="news-list-morelink"><a href="detall-de-la-noticia/article/vam-comprar-el-pis-fa-10-anys-i-no-tenim-cap-altre-lloc-on-anar/" title="&quot;Vam comprar el pis fa 10 anys i no tenim cap altre lloc on anar&quot;"><img src="fileadmin/templates/css/img/ampliar.gif" height="10" alt="" /></a></span></p>
+				<div class="multimedia">
+					<ul>
+						<li><span class="multimediaImagenes">1</span></li>
+						<li><span class="multimediaVideos">1</span></li>
+						
+						
+						
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+					</ul>
+				</div>
+		</div>
+		
+	
+
+
+
+
+    
+
+          <div class="bannerL">
+          <script src="fileadmin/templates/js/swfobject2/swfobject.js" type="text/javascript"><!-- //--></script>
+          <script type="text/javascript">
+          	var flashvars = {};
+          	var params = {menu: "false", quality: "autohigh", allowScriptAccess: "sameDomain", wmode: "transparent"};
+          	var attributes = {};
+          	attributes.id = "flashContent"; 
+          	swfobject.embedSWF("uploads/tx_macinabanners/Banner_Monument_Preferit2013.swf?clickTAG=http%3A%2F%2Fwww.segre.com%2Fnc%2Fbanner%2F264%2F&amp;target=", "alternativeContent_264", "420", "60", "9.0.28", "expressInstall.swf", flashvars, params, attributes);
+          </script>
+          </div>
+          <div id="alternativeContent_264" class="bannerL">
+          	<a href="http://www.segre.com/nc/banner/264/"><img src="uploads/tx_macinabannerssegre/Banner_monuments_fix_cat2013.jpg"></a>
+          </div>
+          
+    
+
+
+<div class="bannerContenido_Position4">
+<script type="text/javascript"><!-- 
+ANAJS_Publicidad('300izdac'); 
+--></script>
+</div>
+		    		<div class="servicio">
+	                  	<div class="tituloServicio"><div class="csc-header csc-header-n1"><h3 class="csc-firstHeader">Els darrers vídeos de Lleida Televisió</h3></div></div>
+                    		<div class="contenidoServicio"><script type="text/javascript" src="http://www.segre.com/eBotiga/js/portada/jquery.cycle.all.latest.js"></script>
+<script type="text/javascript"> 
+jQuery.noConflict();
+jQuery(document).ready(function() {
+jQuery('.slideshow').cycle({
+fx: 'fade',
+cleartype:  true,
+cleartypeNoBg: true,
+timeout: 6000,
+speed:1000
+});
+});
+</script>	
+    <!---->
+<!-- include Cycle plugin -->
+<div class="slideshow">
+      
+  <div class="unidad">
+    <div id="videoPlayer">		  
+      <img alt="arbres arrencats foc bacteria ivars noguera" title="" src="fileadmin/multimedia/fotos/Segre/arbres_arrencats_foc_bacteria_ivars_noguera.jpg" /></a><br /> 		
+    </div> 
+    <div class="picto">		
+      <img src="fileadmin/templates/css/img/LOG_LLTV.gif" alt="LLTV" width="30" />
+    </div>		 		
+    <div class="r_text">	
+      <h3>Economia</h3>		 			
+      <h4>Agricultura ha detectat 13 focus de foc bacterià a Lleida des de la primavera</h4>		
+    </div>
+    <div class="play_img"> 	   
+      <a href="detall-de-la-noticia/article/agricultura-ha-detectat-13-focus-de-foc-bacteria-a-lleida-des-de-la-primavera/" title="Agricultura ha detectat 13 focus de foc bacterià a Lleida des de la primavera"><img src="fileadmin/templates/css/img/play.png" alt="" /></a> 	  
+    </div>
+  </div>  		
+      <!--<img alt="arbres arrencats foc bacteria ivars noguera" title="" src="fileadmin/multimedia/fotos/Segre/arbres_arrencats_foc_bacteria_ivars_noguera.jpg" /></a><br /><p class="multimediaImagenes">Arbres afectats per foc bacterià arrencats a Ivars de Noguera.</p>-->		
+      
+  <div class="unidad">
+    <div id="videoPlayer">		  
+      <img alt="pau pinto" title="" src="fileadmin/multimedia/fotos/Segre/pau_pinto.jpg" /></a><br /> 		
+    </div> 
+    <div class="picto">		
+      <img src="fileadmin/templates/css/img/LOG_LLTV.gif" alt="LLTV" width="30" />
+    </div>		 		
+    <div class="r_text">	
+      <h3>Lleida</h3>		 			
+      <h4>PSC i CiU reproven el regidor del PP Pau Pintó per equiparar els participants a la via catalana amb assassins</h4>		
+    </div>
+    <div class="play_img"> 	   
+      <a href="detall-de-la-noticia/article/psc-i-ciu-reproven-el-regidor-del-pp-pau-pinto-per-equiparar-els-participants-a-la-via-catalana-amb/" title="PSC i CiU reproven el regidor del PP Pau Pintó per equiparar els participants a la via catalana amb assassins"><img src="fileadmin/templates/css/img/play.png" alt="" /></a> 	  
+    </div>
+  </div>  		
+      <!--<img alt="pau pinto" title="" src="fileadmin/multimedia/fotos/Segre/pau_pinto.jpg" /></a><br /><p class="multimediaImagenes">El regidor del PP Pau Pintó, en primer terme, durant el ple d'aquest divendres.</p>-->		
+      
+  <div class="unidad">
+    <div id="videoPlayer">		  
+      <img alt="pah arxiu" title="" src="fileadmin/multimedia/fotos/Segre/pah_arxiu.jpg" /></a><br /> 		
+    </div> 
+    <div class="picto">		
+      <img src="fileadmin/templates/css/img/LOG_LLTV.gif" alt="LLTV" width="30" />
+    </div>		 		
+    <div class="r_text">	
+      <h3>Lleida</h3>		 			
+      <h4>Membres de la PAH aconsegueixen aturar el desnonament d'una família a l'Eix Comercial</h4>		
+    </div>
+    <div class="play_img"> 	   
+      <a href="detall-de-la-noticia/article/membres-de-la-pah-aconsegueixen-aturar-el-desnonament-duna-familia-a-leix-comercial/" title="Membres de la PAH aconsegueixen aturar el desnonament d'una família a l'Eix Comercial"><img src="fileadmin/templates/css/img/play.png" alt="" /></a> 	  
+    </div>
+  </div>  		
+      <!--<img alt="pah arxiu" title="" src="fileadmin/multimedia/fotos/Segre/pah_arxiu.jpg" /></a><br /><p class="multimediaImagenes">Imatge d'arxiu d'una protesta de la PAH de Lleida.</p>-->		
+      
+  <div class="unidad">
+    <div id="videoPlayer">		  
+      <img alt="Alguns jugadors del Força..." title="" src="fileadmin/multimedia/fotos/esegre/18263369.jpg" /></a><br /> 		
+    </div> 
+    <div class="picto">		
+      <img src="fileadmin/templates/css/img/LOG_LLTV.gif" alt="LLTV" width="30" />
+    </div>		 		
+    <div class="r_text">	
+      <h3>Esports</h3>		 			
+      <h4>Estrena en precari</h4>		
+    </div>
+    <div class="play_img"> 	   
+      <a href="detall-de-la-noticia/article/estrena-en-precari/" title="Estrena en precari"><img src="fileadmin/templates/css/img/play.png" alt="" /></a> 	  
+    </div>
+  </div>  		
+      <!--<img alt="Alguns jugadors del Força..." title="" src="fileadmin/multimedia/fotos/esegre/18263369.jpg" /></a><br /><p class="multimediaImagenes">Alguns jugadors del Força Lleida, ahir, abans de sortir amb autocar cap a Palència.</p>-->		
+      
+  <div class="unidad">
+    <div id="videoPlayer">		  
+      <img alt="El rector de la UdL, Roberto..." title="" src="fileadmin/multimedia/fotos/esegre/18263738.jpg" /></a><br /> 		
+    </div> 
+    <div class="picto">		
+      <img src="fileadmin/templates/css/img/LOG_LLTV.gif" alt="LLTV" width="30" />
+    </div>		 		
+    <div class="r_text">	
+      <h3>Esports</h3>		 			
+      <h4>Entre la pista i l'aula</h4>		
+    </div>
+    <div class="play_img"> 	   
+      <a href="detall-de-la-noticia/article/entre-la-pista-i-laula/" title="Entre la pista i l'aula"><img src="fileadmin/templates/css/img/play.png" alt="" /></a> 	  
+    </div>
+  </div>  		
+      <!--<img alt="El rector de la UdL, Roberto..." title="" src="fileadmin/multimedia/fotos/esegre/18263738.jpg" /></a><br /><p class="multimediaImagenes">El rector de la UdL, Roberto Fernández, va presidir l'acte de reconeixement als esportistes que han guanyat alguna medalla.</p>-->		
+      
+  <div class="unidad">
+    <div id="videoPlayer">		  
+      <img alt="Seligrat, durant una visita..." title="" src="fileadmin/multimedia/fotos/esegre/18264480.jpg" /></a><br /> 		
+    </div> 
+    <div class="picto">		
+      <img src="fileadmin/templates/css/img/LOG_LLTV.gif" alt="LLTV" width="30" />
+    </div>		 		
+    <div class="r_text">	
+      <h3>Esports</h3>		 			
+      <h4>El Lleida inicia una nova campanya als col·legis</h4>		
+    </div>
+    <div class="play_img"> 	   
+      <a href="detall-de-la-noticia/article/el-lleida-inicia-una-nova-campanya-als-collegis/" title="El Lleida inicia una nova campanya als col·legis"><img src="fileadmin/templates/css/img/play.png" alt="" /></a> 	  
+    </div>
+  </div>  		
+      <!--<img alt="Seligrat, durant una visita..." title="" src="fileadmin/multimedia/fotos/esegre/18264480.jpg" /></a><br /><p class="multimediaImagenes">Seligrat, durant una visita del curs passat al col·legi Claver.</p>-->		
+      
+  <div class="unidad">
+    <div id="videoPlayer">		  
+      <img alt="El Lluís, un dels cinc..." title="" src="fileadmin/multimedia/fotos/esegre/18263612.jpg" /></a><br /> 		
+    </div> 
+    <div class="picto">		
+      <img src="fileadmin/templates/css/img/LOG_LLTV.gif" alt="LLTV" width="30" />
+    </div>		 		
+    <div class="r_text">	
+      <h3>Guia</h3>		 			
+      <h4>Aspros amplia horitzons</h4>		
+    </div>
+    <div class="play_img"> 	   
+      <a href="detall-de-la-noticia/article/aspros-amplia-horitzons/" title="Aspros amplia horitzons"><img src="fileadmin/templates/css/img/play.png" alt="" /></a> 	  
+    </div>
+  </div>  		
+      <!--<img alt="El Lluís, un dels cinc..." title="" src="fileadmin/multimedia/fotos/esegre/18263612.jpg" /></a><br /><p class="multimediaImagenes">El Lluís, un dels cinc treballadors d'Aspros Art, ahir, amb Carme Villafranca, responsable d'aquesta nova activitat empresarial.</p>-->		
+      
+  <div class="unidad">
+    <div id="videoPlayer">		  
+      <img alt="L'acusat, al centre de la..." title="" src="fileadmin/multimedia/fotos/esegre/18262625.jpg" /></a><br /> 		
+    </div> 
+    <div class="picto">		
+      <img src="fileadmin/templates/css/img/LOG_LLTV.gif" alt="LLTV" width="30" />
+    </div>		 		
+    <div class="r_text">	
+      <h3>Lleida</h3>		 			
+      <h4>Presó per intent d'assassinat a l'apunyalar la seua exnòvia a Balàfia</h4>		
+    </div>
+    <div class="play_img"> 	   
+      <a href="detall-de-la-noticia/article/preso-per-intent-dassassinat-a-lapunyalar-la-seua-exnovia-a-balafia/" title="Presó per intent d'assassinat a l'apunyalar la seua exnòvia a Balàfia"><img src="fileadmin/templates/css/img/play.png" alt="" /></a> 	  
+    </div>
+  </div>  		
+      <!--<img alt="L'acusat, al centre de la..." title="" src="fileadmin/multimedia/fotos/esegre/18262625.jpg" /></a><br /><p class="multimediaImagenes">L'acusat, al centre de la imatge, quan es dirigia al jutjat de violència domèstica. </p>-->		
+      
+  <div class="unidad">
+    <div id="videoPlayer">		  
+      <img alt="El moment en què les..." title="" src="fileadmin/multimedia/fotos/esegre/18262582.jpg" /></a><br /> 		
+    </div> 
+    <div class="picto">		
+      <img src="fileadmin/templates/css/img/LOG_LLTV.gif" alt="LLTV" width="30" />
+    </div>		 		
+    <div class="r_text">	
+      <h3>Lleida</h3>		 			
+      <h4>Estrena del nou accés al turó de Gardeny des del passeig de Ronda</h4>		
+    </div>
+    <div class="play_img"> 	   
+      <a href="detall-de-la-noticia/article/estrena-del-nou-acces-al-turo-de-gardeny-des-del-passeig-de-ronda/" title="Estrena del nou accés al turó de Gardeny des del passeig de Ronda"><img src="fileadmin/templates/css/img/play.png" alt="" /></a> 	  
+    </div>
+  </div>  		
+      <!--<img alt="El moment en què les..." title="" src="fileadmin/multimedia/fotos/esegre/18262582.jpg" /></a><br /><p class="multimediaImagenes">El moment en què les autoritats van posar en marxa el semàfor del nou encreuament.</p>-->		
+      
+  <div class="unidad">
+    <div id="videoPlayer">		  
+      <img alt="18255237" title="" src="fileadmin/multimedia/fotos/esegre/18255237.jpg" /></a><br /> 		
+    </div> 
+    <div class="picto">		
+      <img src="fileadmin/templates/css/img/LOG_LLTV.gif" alt="LLTV" width="30" />
+    </div>		 		
+    <div class="r_text">	
+      <h3>Lleida</h3>		 			
+      <h4>Salven la vida a una jove apunyalada en ple carrer pel seu exnòvio a Balàfia</h4>		
+    </div>
+    <div class="play_img"> 	   
+      <a href="detall-de-la-noticia/article/salven-la-vida-a-una-jove-apunyalada-en-ple-carrer-pel-seu-exnovio-a-balafia/" title="Salven la vida a una jove apunyalada en ple carrer pel seu exnòvio a Balàfia"><img src="fileadmin/templates/css/img/play.png" alt="" /></a> 	  
+    </div>
+  </div>  		
+      <!--<img alt="18255237" title="" src="fileadmin/multimedia/fotos/esegre/18255237.jpg" /></a><br /><p class="multimediaImagenes"></p>-->		
+      
+</div>
+    </div>
+				</div>
+                <div class="tx-opinioportada-pi1">
+		
+		
+			<!-- INFOLINKS_OFF -->
+			<div class="noticiaOpinioBlog">
+        <div class="cabeceraOpinion">
+			    <div class="imagenAutorOpinion"><img src="fileadmin/templates/css/img/caresOpinio/ramon-camats.gif"/></div>
+			    <div class="contenidoCabeceraOpinion">
+				    <div class="epigrafOpinion"><p>RAMÓN CAMATS</p></div>
+				    <div class="autorOpinion">
+  					 <h2>Cave Canem</h2>
+			     </div>	
+		      </div>
+			  </div>
+			  <h3><span>05/10/2013</span> <a href="cave-canem/article/capital-huma-i-educacio" alt="Capital humà i educació">Capital humà i educació</a><br /></h3>
+			  <div class="count">121 lectures</div>
+			</div>
+			<!-- INFOLINKS_ON -->
+			
+			<!-- INFOLINKS_OFF -->
+			<div class="noticiaOpinioBlog">
+        <div class="cabeceraOpinion">
+			    <div class="imagenAutorOpinion"><img src="fileadmin/templates/css/img/caresOpinio/editorial_01.jpg"/></div>
+			    <div class="contenidoCabeceraOpinion">
+				    <div class="epigrafOpinion"><p>DIARI SEGRE</p></div>
+				    <div class="autorOpinion">
+  					 <h2>Editorial</h2>
+			     </div>	
+		      </div>
+			  </div>
+			  <h3><span>05/10/2013</span> <a href="la-editorial/article/mals-temps-per-a-la-investigacio" alt="Mals temps per a la investigació">Mals temps per a la investigació</a><br /></h3>
+			  <div class="count">40 lectures</div>
+			</div>
+			<!-- INFOLINKS_ON -->
+			
+			<!-- INFOLINKS_OFF -->
+			<div class="noticiaOpinioBlog">
+        <div class="cabeceraOpinion">
+			    <div class="imagenAutorOpinion"><img src="fileadmin/templates/css/img/caresOpinio/florenci_petit.gif"/></div>
+			    <div class="contenidoCabeceraOpinion">
+				    <div class="epigrafOpinion"><p>FLORENCI REY</p></div>
+				    <div class="autorOpinion">
+  					 <h2>El Consultemps</h2>
+			     </div>	
+		      </div>
+			  </div>
+			  <h3><span>05/10/2013</span> <a href="el-consultemps/article/la-composicio-de-latmosfera-canvia-amb-laltura" alt="La composició de l'atmosfera canvia amb l'altura? ">La composició de l'atmosfera canvia amb l'altura? </a><br /></h3>
+			  <div class="count">22 lectures</div>
+			</div>
+			<!-- INFOLINKS_ON -->
+			
+	
+	</div>
+	<div class="tx-imagecycle-pi1"><ul id="imagecycle_c9385" class="tx-imagecycle-pi1-images"><li><a href="http://imprimir.segre.com" title="imprimir.segre.com" target="_blank"><img src="typo3temp/pics/a1e98efd60.jpg" width="420" height="150" alt="imprimir.segre.com" title="imprimir.segre.com" /></a></li><li><a href="http://imprimir.segre.com" title="imprimir.segre.com" target="_blank"><img src="uploads/tx_imagecycle/ibergest_posters_01.jpg" width="420" height="150" alt="imprimir.segre.com" title="imprimir.segre.com" /></a></li><li><a href="http://imprimir.segre.com" title="imprimir.segre.com" target="_blank"><img src="uploads/tx_imagecycle/ibergest_facsimil_01.jpg" width="420" height="150" alt="imprimir.segre.com" title="imprimir.segre.com" /></a></li><li><a href="http://imprimir.segre.com" title="imprimir.segre.com" target="_blank"><img src="uploads/tx_imagecycle/ibergest_agendes_01.jpg" width="420" height="150" alt="imprimir.segre.com" title="imprimir.segre.com" /></a></li></ul></div><noscript><ul class="tx-imagecycle-pi1-images"><li><a href="http://imprimir.segre.com" title="imprimir.segre.com" target="_blank"><img src="typo3temp/pics/a1e98efd60.jpg" width="420" height="150" alt="imprimir.segre.com" title="imprimir.segre.com" /></a></li></ul></noscript><div class="bannerContenido_Position4">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-1773058633944392";
+/* Portada Nivell 2 Inferior 336x280, creado 8/06/09 */
+google_ad_slot = "3945820897";
+google_ad_width = 336;
+google_ad_height = 280;
+GA_googleAddAdSensePageAttr("google_page_url", "URL");
+//-->
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+</div><!-- end #zonaNivel2 -->           
+                </div><!-- end #subContenido -->
+            </div><!-- end #contenido -->
+        </div><!-- end #zonas-->
+        <div id="contenido2">
+          <div id="zona2"><!--
+<div class="bannerZona2">
+<OBJECT classid="clasid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0"
+WIDTH="980" HEIGHT="45" id="Bottom" >
+<PARAM NAME="movie" VALUE="http://www.segre.com/uploads/tx_rbflashobject/BANNERCAFE_980x45.swf" />
+<PARAM NAME="quality" VALUE="high" />
+<PARAM NAME=bgcolor VALUE=#FFFFFF>
+<param name="loop" value="true" />
+<param name="menu" value="false" />
+<EMBED src="http://www.segre.com/uploads/tx_rbflashobject/BANNERCAFE_980x45.swf" quality="high" wmode="transparent" WIDTH="980" HEIGHT="45" NAME="Bottom" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer">
+</EMBED>
+</OBJECT>
+</div>
+-->
+<div class="bannerZona2">
+<!------ 'bottom980' begin ------>  
+<script language="JavaScript" type="text/javascript"> <!--  
+ANAJS_Publicidad('bottom980');
+ //-->  </script>  
+<!------ 'bottom980' end ------>
+</div>
+
+		    		<div class="servicio">
+	                  	<div class="tituloServicio"><div class="csc-header csc-header-n1"><h3 class="csc-firstHeader">Serveis</h3></div></div>
+                    		<div class="contenidoServicio"><div id="lateral_images"><div id="images_link">
+	<div class="icona"><a href="especials/la-portada-de-segre/"><img src="uploads/tx_reeateasermenu/portadaON.jpg" width="50" height="50" name="tx_reeateasermenu_pi1_menuImage_752" onmouseout="tx_reeateasermenu_pi1_swapImgRestore();" onmouseover="tx_reeateasermenu_pi1_swapImage('tx_reeateasermenu_pi1_menuImage_752', '', 'uploads/tx_reeateasermenu/portadaOFF.jpg')" alt="Portades" title="Portades" /></a></div>
+	<h5><a href="especials/la-portada-de-segre/">Portades</a></h5>
+</div><div id="images_link">
+	<div class="icona"><a href="especials/el-temps/"><img src="uploads/tx_reeateasermenu/tempsON.jpg" width="50" height="50" name="tx_reeateasermenu_pi1_menuImage_753" onmouseout="tx_reeateasermenu_pi1_swapImgRestore();" onmouseover="tx_reeateasermenu_pi1_swapImage('tx_reeateasermenu_pi1_menuImage_753', '', 'uploads/tx_reeateasermenu/tempsOFF.jpg')" alt="Temps" title="Temps" /></a></div>
+	<h5><a href="especials/el-temps/">Temps</a></h5>
+</div><div id="images_link">
+	<div class="icona"><a href="especials/e-promocions/"><img src="uploads/tx_reeateasermenu/ClubSEGRE_ON.png" width="50" height="50" name="tx_reeateasermenu_pi1_menuImage_764" onmouseout="tx_reeateasermenu_pi1_swapImgRestore();" onmouseover="tx_reeateasermenu_pi1_swapImage('tx_reeateasermenu_pi1_menuImage_764', '', 'uploads/tx_reeateasermenu/ClubSEGRE_OFF.png')" alt="Subscriptors" title="Subscriptors" /></a></div>
+	<h5><a href="especials/e-promocions/">Subscriptors</a></h5>
+</div><div id="images_link">
+	<div class="icona"><a href="especials/jocs/"><img src="uploads/tx_reeateasermenu/jocsON.jpg" width="50" height="50" name="tx_reeateasermenu_pi1_menuImage_754" onmouseout="tx_reeateasermenu_pi1_swapImgRestore();" onmouseover="tx_reeateasermenu_pi1_swapImage('tx_reeateasermenu_pi1_menuImage_754', '', 'uploads/tx_reeateasermenu/jocsOFF.jpg')" alt="Jocs" title="Jocs" /></a></div>
+	<h5><a href="especials/jocs/">Jocs</a></h5>
+</div><div id="images_link">
+	<div class="icona"><a href="especials/serveis-i-urgencies/"><img src="uploads/tx_reeateasermenu/serveisON.jpg" width="50" height="50" name="tx_reeateasermenu_pi1_menuImage_755" onmouseout="tx_reeateasermenu_pi1_swapImgRestore();" onmouseover="tx_reeateasermenu_pi1_swapImage('tx_reeateasermenu_pi1_menuImage_755', '', 'uploads/tx_reeateasermenu/serveisOFF.jpg')" alt="Urgències" title="Urgències" /></a></div>
+	<h5><a href="especials/serveis-i-urgencies/">Urgències</a></h5>
+</div><div id="images_link">
+	<div class="icona"><a href="tv/guia-de-programacio-13/"><img src="uploads/tx_reeateasermenu/tvON.jpg" width="50" height="50" name="tx_reeateasermenu_pi1_menuImage_756" onmouseout="tx_reeateasermenu_pi1_swapImgRestore();" onmouseover="tx_reeateasermenu_pi1_swapImage('tx_reeateasermenu_pi1_menuImage_756', '', 'uploads/tx_reeateasermenu/tvOFF.jpg')" alt="TV" title="TV" /></a></div>
+	<h5><a href="tv/guia-de-programacio-13/">TV</a></h5>
+</div><div id="images_link">
+	<div class="icona"><a href="especials/el-transit/"><img src="uploads/tx_reeateasermenu/transitON.jpg" width="50" height="50" name="tx_reeateasermenu_pi1_menuImage_757" onmouseout="tx_reeateasermenu_pi1_swapImgRestore();" onmouseover="tx_reeateasermenu_pi1_swapImage('tx_reeateasermenu_pi1_menuImage_757', '', 'uploads/tx_reeateasermenu/transitOFF.jpg')" alt="Trànsit" title="Trànsit" /></a></div>
+	<h5><a href="especials/el-transit/">Trànsit</a></h5>
+</div><div id="images_link">
+	<div class="icona"><a href="especials/galeries-dimatges/galeries-de-fotografia/"><img src="uploads/tx_reeateasermenu/imatgesON.jpg" width="50" height="50" name="tx_reeateasermenu_pi1_menuImage_759" onmouseout="tx_reeateasermenu_pi1_swapImgRestore();" onmouseover="tx_reeateasermenu_pi1_swapImage('tx_reeateasermenu_pi1_menuImage_759', '', 'uploads/tx_reeateasermenu/imatgesOFF.jpg')" alt="Imatges" title="Imatges" /></a></div>
+	<h5><a href="especials/galeries-dimatges/galeries-de-fotografia/">Imatges</a></h5>
+</div><div id="images_link">
+	<div class="icona"><a href="especials/horoscop-davui/"><img src="uploads/tx_reeateasermenu/horoscopON.jpg" width="50" height="50" name="tx_reeateasermenu_pi1_menuImage_760" onmouseout="tx_reeateasermenu_pi1_swapImgRestore();" onmouseover="tx_reeateasermenu_pi1_swapImage('tx_reeateasermenu_pi1_menuImage_760', '', 'uploads/tx_reeateasermenu/horoscopOFF.jpg')" alt="Horòscop" title="Horòscop" /></a></div>
+	<h5><a href="especials/horoscop-davui/">Horòscop</a></h5>
+</div><div id="images_link">
+	<div class="icona"><a href="especials/humor/campi-qui-pugui/"><img src="uploads/tx_reeateasermenu/humorON_05.jpg" width="50" height="50" name="tx_reeateasermenu_pi1_menuImage_1550" onmouseout="tx_reeateasermenu_pi1_swapImgRestore();" onmouseover="tx_reeateasermenu_pi1_swapImage('tx_reeateasermenu_pi1_menuImage_1550', '', 'uploads/tx_reeateasermenu/humorOFF_05.jpg')" alt="Campi..." title="Campi..." /></a></div>
+	<h5><a href="especials/humor/campi-qui-pugui/">Campi...</a></h5>
+</div><div id="images_link">
+	<div class="icona"><a href="especials/transports-ave/"><img src="uploads/tx_reeateasermenu/transportsON.jpg" width="50" height="50" name="tx_reeateasermenu_pi1_menuImage_765" onmouseout="tx_reeateasermenu_pi1_swapImgRestore();" onmouseover="tx_reeateasermenu_pi1_swapImage('tx_reeateasermenu_pi1_menuImage_765', '', 'uploads/tx_reeateasermenu/transportsOFF.jpg')" alt="Transports" title="Transports" /></a></div>
+	<h5><a href="especials/transports-ave/">Transports</a></h5>
+</div><div id="images_link">
+	<div class="icona"><a href="informacio-web/tarifes-de-subscripcions/"><img src="uploads/tx_reeateasermenu/susON.jpg" width="50" height="50" name="tx_reeateasermenu_pi1_menuImage_818" onmouseout="tx_reeateasermenu_pi1_swapImgRestore();" onmouseover="tx_reeateasermenu_pi1_swapImage('tx_reeateasermenu_pi1_menuImage_818', '', 'uploads/tx_reeateasermenu/susOFF.jpg')" alt="Subscripcions" title="Subscripcions" /></a></div>
+	<h5><a href="informacio-web/tarifes-de-subscripcions/">Subscripcions</a></h5>
+</div><div id="images_link">
+	<div class="icona"><a href="index.php?id=1420"><img src="uploads/tx_reeateasermenu/lltvON.jpg" width="50" height="50" name="tx_reeateasermenu_pi1_menuImage_1420" onmouseout="tx_reeateasermenu_pi1_swapImgRestore();" onmouseover="tx_reeateasermenu_pi1_swapImage('tx_reeateasermenu_pi1_menuImage_1420', '', 'uploads/tx_reeateasermenu/lltvOFF.jpg')" alt="Lleida TV" title="Lleida TV" /></a></div>
+	<h5><a href="index.php?id=1420">Lleida TV</a></h5>
+</div><div id="images_link">
+	<div class="icona"><a href="index.php?id=1423"><img src="uploads/tx_reeateasermenu/cercleON.jpg" width="50" height="50" name="tx_reeateasermenu_pi1_menuImage_1423" onmouseout="tx_reeateasermenu_pi1_swapImgRestore();" onmouseover="tx_reeateasermenu_pi1_swapImage('tx_reeateasermenu_pi1_menuImage_1423', '', 'uploads/tx_reeateasermenu/cercleOFF.jpg')" alt="Cercle" title="Cercle" /></a></div>
+	<h5><a href="index.php?id=1423">Cercle</a></h5>
+</div><div id="images_link">
+	<div class="icona"><a href="serveis/e-classificats/"><img src="uploads/tx_reeateasermenu/classificatsON.jpg" width="50" height="50" name="tx_reeateasermenu_pi1_menuImage_1436" onmouseout="tx_reeateasermenu_pi1_swapImgRestore();" onmouseover="tx_reeateasermenu_pi1_swapImage('tx_reeateasermenu_pi1_menuImage_1436', '', 'uploads/tx_reeateasermenu/classificatsOFF.jpg')" alt="Classificats" title="Classificats" /></a></div>
+	<h5><a href="serveis/e-classificats/">Classificats</a></h5>
+</div><div id="images_link">
+	<div class="icona"><a href="icones/segre-rd/"><img src="uploads/tx_reeateasermenu/sradioON.jpg" width="50" height="50" name="tx_reeateasermenu_pi1_menuImage_777" onmouseout="tx_reeateasermenu_pi1_swapImgRestore();" onmouseover="tx_reeateasermenu_pi1_swapImage('tx_reeateasermenu_pi1_menuImage_777', '', 'uploads/tx_reeateasermenu/sradioOFF.jpg')" alt="Segre Rd" title="Segre Rd" /></a></div>
+	<h5><a href="icones/segre-rd/">Segre Rd</a></h5>
+</div></div></div>
+				</div>
+                
+<div id="contenidorZona2">
+<div id="lateral">        <div class="lot_sorteig_Port">
+          <div class="caploteries"><img src="http://www.segre.com/fileadmin/templates/css/img/loteries/primitiva.jpg"></div>
+          <div class="cosloteries">
+            <div class="data">sorteig del dia: <span>05/10/13</span></div>
+            <div class="resultats">
+              <h4>boles premiades</h4>
+                <div class="bola">49</div>
+                <div class="bola">37</div>
+                <div class="bola">23</div>
+                <div class="bola">12</div>
+                <div class="bola">07</div>
+                <div class="bola">06</div>
+            </div>
+            <div class="resultats">
+              <div class="bola">40</div>
+              <div class="text">complementari</div>
+            </div>
+            <div class="resultats">
+              <div class="bola">04</div>
+              <div class="text">reintegrament</div>
+            </div>
+            <div class="link">
+              <div class="administracio"><a href="https://www.loteriaslleida.com/register.php?nIdioma=cat&partnerID=7" target="_blank"><img src="http://www.segre.com/fileadmin/templates/css/img/loteries/admin1.png" width="139"></a></div>
+              <div class="pot">
+                <h4>Pot proper sorteig (03/10/13)</h4>
+                <h5 style="background-color:#f6d600;padding:0.3125em 0 0.3125em 0;margin:0 0 0 0;text-align:center;">18.000.000 €</h5>
+              </div>
+            </div>
+            <div class="tots"><a href="http://www.segre.com/especials/loteries" target="_top">tots els resultats i els premis</a></div>
+          </div>
+          <div class="peuloteries"></div>
+        </div>
+
+<!--
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ca_ES/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-activity" style="margin-top: 0.6125em" data-site="segre.com" data-width="300" data-height="450" data-header="true" data-font="segoe ui" data-recommendations="true"></div>
+-->
+<!--
+<div class="fb-facepile" data-href="http://www.facebook.com/diarisegre" data-max-rows="1" data-width="300"></div>
+-->
+<div class="lot_sorteig_Port">
+<!-- Giny de Diades internacionals -->
+<script type="text/javascript" src="http://www.idescat.cat/diades.js"></script><noscript><a href="http://www.idescat.cat/diades/">Diades internacionals</a></noscript>
+<!-- /Giny de Diades internacionals -->
+</div></div>
+<div id="contenido">            
+<div id="zonaResum">
+            <div id="capcaleraResum"><div class="csc-header csc-header-n1"><h4 class="csc-firstHeader">Altres notícies de Lleida</h4></div></div>
+            <div id="subContenido">
+              <div id="dretaResum">
+<div class="zonaResum_dreta">				
+	
+  <h3><a href="lleida/detall-lleida/article/en-marxa-la-nova-l4-que-dona-servei-a-pardinyes-i-la-mariola/" title="En marxa la nova L4, que dóna servei a Pardinyes i la Mariola">En marxa la nova L4, que dóna servei a Pardinyes i la Mariola</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="lleida/detall-lleida/article/la-universitat-daqui-no-te-res-a-envejar-a-les-de-fora/" title="&quot;La universitat d'aquí no té res a envejar a les de fora&quot;">"La universitat d'aquí no té res a envejar a les de fora"</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="lleida/detall-lleida/article/arriba-al-congres-la-llei-que-apujara-la-velocitat-maxima-i-la-multa-per-alcohol/" title="Arriba al Congrés la llei que apujarà la velocitat màxima i la multa per alcohol">Arriba al Congrés la llei que apujarà la velocitat màxima i la multa per alcohol
+</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="lleida/detall-lleida/article/el-jurat-declara-no-culpable-lacusat-del-crim-de-lavinguda-catalunya/" title="El jurat declara no culpable l'acusat del crim de l'avinguda Catalunya">El jurat declara no culpable l'acusat del crim de l'avinguda Catalunya</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="lleida/detall-lleida/article/els-alumnes-que-elegeixen-religio-a-lescola-publica-ja-son-menys-del-50/" title="Els alumnes que elegeixen religió a l'escola pública ja són menys del 50%">Els alumnes que elegeixen religió a l'escola pública ja són menys del 50%</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="lleida/detall-lleida/article/un-total-de-27-investigacions-de-la-udl-en-perill-per-la-falta-de-financament/" title="Un total de 27 investigacions de la UdL, en perill per la falta de finançament">Un total de 27 investigacions de la UdL, en perill per la falta de finançament</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="lleida/detall-lleida/article/els-candidats-dicv-demanen-mes-bicis-i-cohesio-social/" title="Els candidats d'ICV demanen més bicis i cohesió social">Els candidats d'ICV demanen més bicis i cohesió social</a></h3>
+  <hr class="clearer" />
+		
+</div>
+</div>
+              <div id="esquerraResum">
+
+	<!---->
+	
+		<div class="noticiaNivel2">
+			<div class="imagen floatIzquierda">
+			<!---->
+      <a href="lleida/detall-lleida/article/globalleida-capta-un-milio-per-a-capital-risc-i-avala-la-seua-continuitat/" title="GlobaLleida capta un milió per a capital risc i avala la seua continuïtat"><img alt="GlobaLleida va celebrar ahir..." title="" src="fileadmin/multimedia/fotos/esegre/18268068.jpg" /></a><br /></a>
+			</div>
+			<h2><a href="lleida/detall-lleida/article/globalleida-capta-un-milio-per-a-capital-risc-i-avala-la-seua-continuitat/" title="GlobaLleida capta un milió per a capital risc i avala la seua continuïtat">GlobaLleida capta un milió per a capital risc i avala la seua continuïtat</a></h2>
+			<h3>Les institucions mantenen la seua aposta i implicació en l'ens, assegura Ros |</h3>
+			<div class="multimedia">
+			 <ul>
+						<li><span class="multimediaImagenes">1</span></li>
+						
+						
+						
+            
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+			 </ul>
+  		</div>
+		</div>
+		
+		<div class="noticiaNivel2">
+			<div class="imagen floatIzquierda">
+			<!---->
+      <a href="lleida/detall-lleida/article/segona-edicio-del-mercadillo-del-carrer-del-carme/" title="Segona edició del 'mercadillo' del carrer del Carme"><img alt="18268862" title="" src="fileadmin/multimedia/fotos/esegre/18268862.jpg" /></a><br /></a>
+			</div>
+			<h2><a href="lleida/detall-lleida/article/segona-edicio-del-mercadillo-del-carrer-del-carme/" title="Segona edició del 'mercadillo' del carrer del Carme">Segona edició del 'mercadillo' del carrer del Carme</a></h2>
+			<h3></h3>
+			<div class="multimedia">
+			 <ul>
+						<li><span class="multimediaImagenes">1</span></li>
+						
+						
+						
+            
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+			 </ul>
+  		</div>
+		</div>
+		
+</div>
+            </div>  
+            <div id="peuResum"><div class="csc-header csc-header-n1"><h5 class="csc-firstHeader"><a href="index_lleida.html">altres notícies de Lleida</a></h5></div></div>
+            
+            <script type="text/javascript">
+var infolinks_pid = 1758727;
+var infolinks_wsid = 0;
+</script>
+<script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>
+
+
+            <div id="capcaleraResum"><div class="csc-header csc-header-n1"><h4 class="csc-firstHeader">Altres notícies de Comarques</h4></div></div>
+            <div id="subContenido">
+              <div id="dretaResum">
+<div class="zonaResum_dreta">				
+	
+  <h3><a href="comarques/detall-comarques/article/bossost-obre-avui-el-cicle-de-fires-ramaderes-amb-300-animals/" title="Bossòst obre avui el cicle de fires ramaderes amb 300 animals">Bossòst obre avui el cicle de fires ramaderes amb 300 animals</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="comarques/detall-comarques/article/endesa-reforma-una-linia-electrica-de-mitjana-tensio-que-proveeix-sort/" title="Endesa reforma una línia elèctrica de mitjana tensió que proveeix Sort">Endesa reforma una línia elèctrica de mitjana tensió que proveeix Sort</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="comarques/detall-comarques/article/el-govern-negocia-abaratir-el-peatge-de-lap-2-entre-lleida-i-montblanc-a-finals-dany/" title="El Govern negocia alliberar o abaratir el peatge de l'AP-2 entre Lleida i Montblanc">El Govern negocia alliberar o abaratir el peatge de l'AP-2 entre Lleida i Montblanc</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="comarques/detall-comarques/article/enllestida-la-gigafoto-del-quilometre-targari-de-la-via-catalana/" title="Enllestida la gigafoto del quilòmetre targarí de la via catalana">Enllestida la gigafoto del quilòmetre targarí de la via catalana</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="comarques/detall-comarques/article/troben-en-bon-estat-de-salut-lancia-perdut-a-montferrer-i-castellbo/" title="Troben en bon estat de salut l'ancià perdut a Montferrer i Castellbò">Troben en bon estat de salut l'ancià perdut a Montferrer i Castellbò</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="comarques/detall-comarques/article/cervera-veta-per-tercera-vegada-el-trasllat-del-super-esclat-bon-preu/" title="Cervera veta per tercera vegada el trasllat del súper Esclat-Bon Preu">Cervera veta per tercera vegada el trasllat del súper Esclat-Bon Preu</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="comarques/detall-comarques/article/guissona-cedeix-part-de-lantic-edifici-de-la-fassina-a-lateneu/" title="Guissona cedeix part de l'antic edifici de la Fassina a l'Ateneu">Guissona cedeix part de l'antic edifici de la Fassina a l'Ateneu</a></h3>
+  <hr class="clearer" />
+		
+</div>
+</div>
+              <div id="esquerraResum">
+
+	<!---->
+	
+		<div class="noticiaNivel2">
+			<div class="imagen floatIzquierda">
+			<!---->
+      <a href="comarques/detall-comarques/article/el-govern-negocia-un-acord-per-anullar-o-reduir-peatges-de-lleida-a-tarragona-per-lap-2/" title="El Govern negocia un acord per anul·lar o reduir peatges de Lleida a Tarragona per l'AP-2"><img alt="El conseller Santi Vila, amb..." title="" src="fileadmin/multimedia/fotos/esegre/18267996.jpg" /></a><br /></a>
+			</div>
+			<h2><a href="comarques/detall-comarques/article/el-govern-negocia-un-acord-per-anullar-o-reduir-peatges-de-lleida-a-tarragona-per-lap-2/" title="El Govern negocia un acord per anul·lar o reduir peatges de Lleida a Tarragona per l'AP-2">El Govern negocia un acord per anul·lar o reduir peatges de Lleida a Tarragona per l'AP-2</a></h2>
+			<h3>El conseller Vila afirma que la Generalitat "està forçant una negociació" amb Foment i Abertis per tancar-lo aquest 2013 |</h3>
+			<div class="multimedia">
+			 <ul>
+						<li><span class="multimediaImagenes">1</span></li>
+						
+						
+						
+            
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+			 </ul>
+  		</div>
+		</div>
+		
+		<div class="noticiaNivel2">
+			<div class="imagen floatIzquierda">
+			<!---->
+      <a href="comarques/detall-comarques/article/un-coronel-que-va-dirigir-tropes-a-lafganistan-nou-director-de-talarn/" title="Un coronel que va dirigir tropes a l'Afganistan, nou director de Talarn"><img alt="18268174" title="" src="fileadmin/multimedia/fotos/esegre/18268174.jpg" /></a><br /></a>
+			</div>
+			<h2><a href="comarques/detall-comarques/article/un-coronel-que-va-dirigir-tropes-a-lafganistan-nou-director-de-talarn/" title="Un coronel que va dirigir tropes a l'Afganistan, nou director de Talarn">Un coronel que va dirigir tropes a l'Afganistan, nou director de Talarn</a></h2>
+			<h3></h3>
+			<div class="multimedia">
+			 <ul>
+						<li><span class="multimediaImagenes">1</span></li>
+						
+						
+						
+            
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+			 </ul>
+  		</div>
+		</div>
+		
+</div>
+            </div>  
+            <div id="peuResum"><div class="csc-header csc-header-n1"><h5 class="csc-firstHeader"><a href="index_comarques.html">altres notícies de Comarques</a></h5></div></div>
+            
+            <script type="text/javascript">
+var infolinks_pid = 1758727;
+var infolinks_wsid = 0;
+</script>
+<script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>
+
+</div>
+</div>
+</div>  
+<script type="text/javascript">
+var infolinks_pid = 1758727;
+var infolinks_wsid = 0;
+</script>
+<script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>
+<div class="bannerZona2">
+<!------ OAS AD 'Bottom2' begin ------>  
+<script language="JavaScript" type="text/javascript">  
+<!--  
+ANAJS_Publicidad('bottom980b'); 
+//-->  
+</script>  
+<!------ OAS AD 'Bottom2' end ------>
+</div>
+
+		    		<div class="servicio">
+	                  	<div class="tituloServicio"><div class="csc-header csc-header-n1"><h3 class="csc-firstHeader"><a href="http://www.segre.com/eBotiga" target="_top">Els productes de la eBotiga a un sol &quot;clik&quot;</a></h3></div></div>
+                    		<div class="contenidoServicio"><script type="text/javascript">
+jQuery.noConflict();
+  jQuery(document).ready(function() {
+        //move he last list item before the first item. The purpose of this is if the user clicks to slide left he will be able to see the last item.
+        jQuery('#carousel_ul li:first').before(jQuery('#carousel_ul li:last')); 
+        
+        
+        //when user clicks the image for sliding right        
+        jQuery('#right_scroll img').click(function(){
+        
+            //get the width of the items ( i like making the jquery part dynamic, so if you change the width in the css you won't have o change it here too ) '
+            var item_width = jQuery('#carousel_ul li').outerWidth() + 10;
+            
+            //calculae the new left indent of the unordered list
+            var left_indent = parseInt(jQuery('#carousel_ul').css('left')) - item_width;
+            
+            //make the sliding effect using jquery's anumate function '
+            jQuery('#carousel_ul:not(:animated)').animate({'left' : left_indent},500,function(){    
+                
+                //get the first list item and put it after the last list item (that's how the infinite effects is made) '
+                jQuery('#carousel_ul li:last').after(jQuery('#carousel_ul li:first')); 
+                
+                //and get the left indent to the default -210px
+                jQuery('#carousel_ul').css({'left' : '-210px'});
+            }); 
+        });
+        
+        //when user clicks the image for sliding left
+        jQuery('#left_scroll img').click(function(){
+            
+            var item_width = jQuery('#carousel_ul li').outerWidth() + 10;
+            
+            /* same as for sliding right except that it's current left indent + the item width (for the sliding right it's - item_width) */
+            var left_indent = parseInt(jQuery('#carousel_ul').css('left')) + item_width;
+            
+            jQuery('#carousel_ul:not(:animated)').animate({'left' : left_indent},500,function(){    
+            
+            /* when sliding to left we are moving the last item before the first list item */            
+            jQuery('#carousel_ul li:first').before(jQuery('#carousel_ul li:last')); 
+            
+            /* and again, when we make that change we are setting the left indent of our unordered list to the default -210px */
+            jQuery('#carousel_ul').css({'left' : '-210px'});
+            });
+            
+            
+        });
+  });</script>
+<div id='carousel_container'>
+<div id='left_scroll'><img src='fileadmin/templates/forms/carousel/left.png' /></div>
+  <div id='carousel_inner'>
+      <ul id='carousel_ul'>
+  
+    <li><a href='http://www.segre.com/eBotiga/lot-shalom-1.html' target="_blank"><img src='http://www.segre.com/eBotiga/media/catalog/product/l/o/lot_1_2.jpg' /><div class="preu"><div class="nom">LOT SHALOM 1</div><div class="pvp">preu: <b>16,49 €</b> + iva</div></div></a></li>    
+  
+    <li><a href='http://www.segre.com/eBotiga/lot-shalom-3.html' target="_blank"><img src='http://www.segre.com/eBotiga/media/catalog/product/l/o/lot_3_2.jpg' /><div class="preu"><div class="nom">LOT SHALOM 3</div><div class="pvp">preu: <b>18,18 €</b> + iva</div></div></a></li>    
+  
+    <li><a href='http://www.segre.com/eBotiga/oli-camins-de-verdor-3l.html' target="_blank"><img src='http://www.segre.com/eBotiga/media/catalog/product/l/l/llaunagran_1.jpg' /><div class="preu"><div class="nom">Oli Llauna 3l</div><div class="pvp">preu: <b>16,53 €</b> + iva</div></div></a></li>    
+  
+    <li><a href='http://www.segre.com/eBotiga/el-complot.html' target="_blank"><img src='http://www.segre.com/eBotiga/media/catalog/product/e/l/el_complot_2_2.jpg' /><div class="preu"><div class="nom">COMPLOT</div><div class="pvp">preu: <b>16,53 €</b> + iva</div></div></a></li>    
+  
+    <li><a href='http://www.segre.com/eBotiga/la-mirora-mata-el-dimarts.html' target="_blank"><img src='http://www.segre.com/eBotiga/media/catalog/product/l/a/la_mirora_mata_els_dimarts_2.jpg' /><div class="preu"><div class="nom">LA MIRORA MATA ELS DIMARTS</div><div class="pvp">preu: <b>12,40 €</b> + iva</div></div></a></li>    
+  
+    <li><a href='http://www.segre.com/eBotiga/historia-grafica-de-lleida.html' target="_blank"><img src='http://www.segre.com/eBotiga/media/catalog/product/h/i/historia_grafica_lleida.jpg' /><div class="preu"><div class="nom">HISTÒRIA  GRÀFICA DE LLEIDA</div><div class="pvp">preu: <b>49,59 €</b> + iva</div></div></a></li>    
+  
+    <li><a href='http://www.segre.com/eBotiga/subs-segrecom-1semestre.html' target="_blank"><img src='http://www.segre.com/eBotiga/media/catalog/product/i/p/iplus6mesos_2.png' /><div class="preu"><div class="nom">Subscripció a SEGREcom per un semestre</div><div class="pvp">preu: <b>45,45 €</b> + iva</div></div></a></li>    
+  
+    <li><a href='http://www.segre.com/eBotiga/subs-segre-1mes-cat.html' target="_blank"><img src='http://www.segre.com/eBotiga/media/catalog/product/s/e/segrecat_1mes_1_1.png' /><div class="preu"><div class="nom">Subscripció a SEGRE en català per un mes</div><div class="pvp">preu: <b>38,46 €</b> + iva</div></div></a></li>    
+  
+    <li><a href='http://www.segre.com/eBotiga/subs-segre-1trim-cat.html' target="_blank"><img src='http://www.segre.com/eBotiga/media/catalog/product/s/e/segrecat_3mesos_2_1.png' /><div class="preu"><div class="nom">Subscripció a SEGRE en català per un trimestre</div><div class="pvp">preu: <b>110,58 €</b> + iva</div></div></a></li>    
+  
+    <li><a href='http://www.segre.com/eBotiga/subs-segre-1trim-cas.html' target="_blank"><img src='http://www.segre.com/eBotiga/media/catalog/product/s/e/segre_cast3mesos_1.png' /><div class="preu"><div class="nom">Subscripció a SEGRE en castellà per un trimestre</div><div class="pvp">preu: <b>110,58 €</b> + iva</div></div></a></li>    
+  
+    <li><a href='http://www.segre.com/eBotiga/subs-castella-1sem-combi.html' target="_blank"><img src='http://www.segre.com/eBotiga/media/catalog/product/c/o/combinada_cast6mesos_4.png' /><div class="preu"><div class="nom">Subscripció a SEGRE en castellà i SEGREcom per un semestre</div><div class="pvp">preu: <b>222,54 €</b> + iva</div></div></a></li>    
+subscripcions  
+    <li><a href='http://www.segre.com/eBotiga/subs-segre-1any-cat-agrp-1.html' target="_blank"><img src='http://www.segre.com/eBotiga/media/catalog/product/c/o/combinada12mesos_1_1.png' /><div class="preu"><div class="nom">SUBSC_SEGRE_1ANY_CAT_AGRP_EMPRESA</div><div class="pvp">preu: <b>400,96 €</b> + iva</div></div></a></li>    
+      </ul>
+  </div>
+<div id='right_scroll'><img src='fileadmin/templates/forms/carousel/right.png' /></div>
+</div></div>
+				</div>
+                
+<div id="contenidorZona2">
+<div id="lateral"><script type="text/javascript" src="http://scd.sportyou.es/js/DoWidget2010.js"></script><script type="text/javascript">getWidget2010();</script></div>
+<div id="contenido">            
+<div id="zonaResum">
+            <div id="capcaleraResum"><div class="csc-header csc-header-n1"><h4 class="csc-firstHeader">Altres notícies d'Esports</h4></div></div>
+            <div id="subContenido">
+              <div id="dretaResum">
+<div class="zonaResum_dreta">				
+	
+  <h3><a href="esports/detall-esports/article/el-barca-finalista-amb-autoritat/" title="El Barça, finalista amb autoritat">El Barça, finalista amb autoritat</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="esports/detall-esports/article/mes-talent-per-al-forca-lleida/" title="Més talent per al Força Lleida">Més talent per al Força Lleida</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="esports/detall-esports/article/la-copa-del-rei-2014-cada-cop-mes-a-prop-de-lleida/" title="La Copa del Rei 2014, cada cop més a prop de Lleida">La Copa del Rei 2014, cada cop més a prop de Lleida</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="esports/detall-esports/article/marquez-les-critiques-no-minfluiran/" title="Màrquez: &quot;Les crítiques no m'influiran&quot;">Màrquez: "Les crítiques no m'influiran"</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="esports/detall-esports/article/la-rotacio-es-bona/" title="&quot;La rotació és bona&quot;">"La rotació és bona"</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="esports/detall-esports/article/estrena-multitudinaria/" title="Estrena multitudinària">Estrena multitudinària</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="esports/detall-esports/article/rebutgen-el-recurs-per-mata-i-el-castiguen-amb-un-partit/" title="Rebutgen el recurs per Mata i el castiguen amb un partit">Rebutgen el recurs per Mata i el castiguen amb un partit</a></h3>
+  <hr class="clearer" />
+		
+</div>
+</div>
+              <div id="esquerraResum">
+
+	<!---->
+	
+		<div class="noticiaNivel2">
+			<div class="imagen floatIzquierda">
+			<!---->
+      <a href="esports/detall-esports/article/visita-a-lescenari-mes-dificil/" title="El Lleida Esportiu visita l'escenari més difícil"><img alt="Els alumnes del col·legi Riu..." title="" src="fileadmin/multimedia/fotos/esegre/18269235.jpg" /></a><br /></a>
+			</div>
+			<h2><a href="esports/detall-esports/article/visita-a-lescenari-mes-dificil/" title="El Lleida Esportiu visita l'escenari més difícil">El Lleida Esportiu visita l'escenari més difícil</a></h2>
+			<h3>El Lleida intentarà frenar la ratxa de dos derrotes consecutives avui al camp de l'Huracà València, que no perd a casa des del març del 2012 |</h3>
+			<div class="multimedia">
+			 <ul>
+						<li><span class="multimediaImagenes">1</span></li>
+						<li><span class="multimediaVideos">1</span></li>
+						
+						
+            
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+			 </ul>
+  		</div>
+		</div>
+		
+		<div class="noticiaNivel2">
+			<div class="imagen floatIzquierda">
+			<!---->
+      <a href="esports/detall-esports/article/el-cadi-icg-busca-base-a-una-setmana-de-linici-de-la-lliga/" title="El Cadí ICG busca base a una setmana de l'inici de la Lliga"><img alt="Patricia Cabrera va deixar..." title="" src="fileadmin/multimedia/fotos/esegre/18269362.jpg" /></a><br /></a>
+			</div>
+			<h2><a href="esports/detall-esports/article/el-cadi-icg-busca-base-a-una-setmana-de-linici-de-la-lliga/" title="El Cadí ICG busca base a una setmana de l'inici de la Lliga">El Cadí ICG busca base a una setmana de l'inici de la Lliga</a></h2>
+			<h3>Patricia Cabrera va demanar rescindir el contracte per falta d'adaptació a l'equip</h3>
+			<div class="multimedia">
+			 <ul>
+						<li><span class="multimediaImagenes">1</span></li>
+						
+						
+						
+            
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+			 </ul>
+  		</div>
+		</div>
+		
+</div>
+            </div>  
+            <div id="peuResum"><div class="csc-header csc-header-n1"><h5 class="csc-firstHeader"><a href="index_esports.html">altres notícies d'Esports</a></h5></div></div>
+            
+            <script type="text/javascript">
+var infolinks_pid = 1758727;
+var infolinks_wsid = 0;
+</script>
+<script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>
+
+
+            <div id="capcaleraResum"><div class="csc-header csc-header-n1"><h4 class="csc-firstHeader">Altres notícies de Societat i Cultura</h4></div></div>
+            <div id="subContenido">
+              <div id="dretaResum">
+<div class="zonaResum_dreta">				
+	
+  <h3><a href="detall-de-la-noticia/article/andrea-motis-i-joan-pera-amb-lloll-bertran-a-la-lira-de-tremp/" title="Andrea Motis i Joan Pera amb Lloll Bertran, a La Lira de Tremp">Andrea Motis i Joan Pera amb Lloll Bertran, a La Lira de Tremp</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="detall-de-la-noticia/article/tricicle-presenta-el-seu-ultim-espectacle-a-la-llotja/" title="Tricicle presenta el seu últim espectacle a la Llotja">Tricicle presenta el seu últim espectacle a la Llotja</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="detall-de-la-noticia/article/operacio-quilo-a-lleida-del-banc-daliments-i-carrefour/" title="Operació Quilo a Lleida del Banc d'Aliments i Carrefour">Operació Quilo a Lleida del Banc d'Aliments i Carrefour</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="detall-de-la-noticia/article/tercera-jornada-a-lleida-sobre-voluntariat-social/" title="Tercera jornada a Lleida sobre voluntariat social">Tercera jornada a Lleida sobre voluntariat social</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="detall-de-la-noticia/article/larnau-fara-criobiopsies-per-detectar-cancer-de-bronquis/" title="L'Arnau farà criobiòpsies per detectar càncer de bronquis">L'Arnau farà criobiòpsies per detectar càncer de bronquis</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="detall-de-la-noticia/article/els-naixements-sinscriuran-a-lhospital-sense-anar-al-registre-civil/" title="Els naixements s’inscriuran a l’hospital sense anar al Registre Civil">Els naixements s’inscriuran a l’hospital sense anar al Registre Civil</a></h3>
+  <hr class="clearer" />
+		
+  <h3><a href="detall-de-la-noticia/article/onze-grups-i-23-concerts-en-la-nova-edicio-del-musiquem-lleida/" title="Onze grups i 23 concerts en la nova edició del Musiquem Lleida!">Onze grups i 23 concerts en la nova edició del Musiquem Lleida!</a></h3>
+  <hr class="clearer" />
+		
+</div>
+</div>
+              <div id="esquerraResum">
+
+	<!---->
+	
+		<div class="noticiaNivel2">
+			<div class="imagen floatIzquierda">
+			<!---->
+      <a href="detall-de-la-noticia/article/una-escriptora-dalguaire-triomfa-amb-un-thriller-ambientat-a-la-cerdanya/" title="Una escriptora d'Alguaire triomfa amb un 'thriller' ambientat a la Cerdanya"><img alt="L'escriptora Carolina Solé,..." title="" src="fileadmin/multimedia/fotos/esegre/18268169.jpg" /></a><br /></a>
+			</div>
+			<h2><a href="detall-de-la-noticia/article/una-escriptora-dalguaire-triomfa-amb-un-thriller-ambientat-a-la-cerdanya/" title="Una escriptora d'Alguaire triomfa amb un 'thriller' ambientat a la Cerdanya">Una escriptora d'Alguaire triomfa amb un 'thriller' ambientat a la Cerdanya</a></h2>
+			<h3></h3>
+			<div class="multimedia">
+			 <ul>
+						<li><span class="multimediaImagenes">1</span></li>
+						
+						
+						
+            
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+			 </ul>
+  		</div>
+		</div>
+		
+		<div class="noticiaNivel2">
+			<div class="imagen floatIzquierda">
+			<!---->
+      <a href="detall-de-la-noticia/article/paul-mccartney-ressorgeix-del-passat-amb-un-nou-album-destudi-new/" title="Paul McCartney ressorgeix del passat amb un nou àlbum d'estudi, 'New'"><img alt="Imatge promocional del nou..." title="" src="fileadmin/multimedia/fotos/esegre/18268222.jpg" /></a><br /></a>
+			</div>
+			<h2><a href="detall-de-la-noticia/article/paul-mccartney-ressorgeix-del-passat-amb-un-nou-album-destudi-new/" title="Paul McCartney ressorgeix del passat amb un nou àlbum d'estudi, 'New'">Paul McCartney ressorgeix del passat amb un nou àlbum d'estudi, 'New'</a></h2>
+			<h3></h3>
+			<div class="multimedia">
+			 <ul>
+						<li><span class="multimediaImagenes">1</span></li>
+						
+						
+						
+            
+						
+						<!--<span class="num_comment"><img src="fileadmin/templates/images/ico-comment.gif"/>0 comentaris</span>-->
+			 </ul>
+  		</div>
+		</div>
+		
+</div>
+            </div>  
+            <div id="peuResum"><div class="csc-header csc-header-n1"><h5 class="csc-firstHeader"><a href="index_guia.html">altres notícies de Guia</a></h5></div></div>
+            
+            <script type="text/javascript">
+var infolinks_pid = 1758727;
+var infolinks_wsid = 0;
+</script>
+<script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>
+
+</div>
+</div>
+</div>  
+<script type="text/javascript">
+var infolinks_pid = 1758727;
+var infolinks_wsid = 0;
+</script>
+<script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>
+<div class="bannerZona2">
+<!------ 'bottom980c' begin ------>  
+<script language="JavaScript" type="text/javascript">  
+<!--  
+ANAJS_Publicidad('bottom980c'); 
+//-->  
+</script>  
+<!------ 'bottom980c' end ------>
+</div>
+
+<div class="bannerZona2">
+<div class="bannerContenid"> 
+<div class="banner_inf_727">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-1773058633944392";
+/* Temps Inferior 728x90, creado 8/06/09 */
+google_ad_slot = "8632189188";
+google_ad_width = 728;
+google_ad_height = 90;
+GA_googleAddAdSensePageAttr("google_page_url", "URL");
+//-->
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+<div class="banner_inf_200">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-1773058633944392";
+/* Inferior Vincles 200x90, creado 9/06/09 */
+google_ad_slot = "6166354859";
+google_ad_width = 200;
+google_ad_height = 90;
+GA_googleAddAdSensePageAttr("google_page_url", "URL");
+//-->
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+</div>
+</div>
+</div>
+        </div>
+	<div id="pie">
+	  <div id="infoPie">      <div id="grupSegre">
+      	<ul>
+      		<li class="esq"><a href="quisom.html" alt="Grup Segre" target="_blank"><img src="fileadmin/templates/css/img/gris_grupSegre.jpg" alt="Grup Segre" height="37" /></img></a></li>
+                <li class="esq1"><a href="avis.html" target="_blank">[ Avis Legal ]</a></li>
+                <li class="esq1"><a href="publicitat.html" target="_blank">[ Tarifes ]</a></li>
+                <li class="esq1"><a href="quisom.html" alt="contacte - qui som" target="_blank">[ contacte - Qui som ]</a></li>
+      		
+                <li><a href="quisom.html" alt="Segre" target="_blank"><img src="fileadmin/templates/css/img/gris_segre.jpg" alt="Segre" height="37" /></img></a></li>
+      		<li><img src="fileadmin/templates/css/img/gris_lleidaTV.jpg" alt="Segre.com" height="37" /></li>
+     		<li><a href="http://www.segre.com/radio.html" alt="Segre Ràdio" target="_blank"><img src="fileadmin/templates/css/img/gris_segreRadio.jpg" alt="Segre Ràdio" height="37" /></img></a></li>
+      		<li><a href="index.php?id=283" alt="Cercle" target="_blank"><img src="fileadmin/templates/css/img/gris_cercle.jpg" alt="Segre.com" height="37" /></img></a></li>
+      		<li><a href="http://www.segre.com/Lerigraf/index.html" alt="Lerigraf SL" target="_blank"><img src="fileadmin/templates/css/img/gris_lerigraf.jpg" alt="Lerigraf SL" height="37" /></a></li>
+      	</ul>
+      </div><div id="footer2">
+<a href="http://www.segre.com/musiquem/" target="_blank">
+<img src="http://www.segre.com/fileadmin/especials/musiquem2013/images/musiquem_footer.jpg" width="714" height="45" alt="" />
+</a>
+</div></div>
+	  <div id="copyright"><div class="copy"><p>2013&copy; Grup Segre </p></div><div id="logo_cult"><a href="http://www20.gencat.cat/portal/site/Departament-de-la-Presidencia/" target="_blank"><img src="fileadmin/templates/css/img/presidencia_h3.gif" width="141" alt="" /></a></div><div id="logo_cult"><a href="http://www.acpg.cat/" target="_blank"><img src="fileadmin/templates/css/img/ACPG_DIGITAl.png" width="141" alt="" /></a></div></div>
+    	</div><!-- end #footer -->
+    </div><!-- end #container -->
+
+<script type="text/javascript">
+var infolinks_pid = 1758727;
+var infolinks_wsid = 0;
+</script>
+<script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>
+
+
+
+
+</body>
+</html>

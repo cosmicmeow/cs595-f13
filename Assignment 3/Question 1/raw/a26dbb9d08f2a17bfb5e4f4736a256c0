@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<!--
+         ZZZZZZZZZZZZZZZZZZZZ
+         ZZZZZZZZZZZZZZZZZZZZ
+         ZZZZZZZZZZZZZZZZZZZZ
+         ZZZZZZZZZZZZZZZZZZZZ
+         ZZZZZZZZZZZZZZZZZZZZ
+         ZZZZZZZZZZZZZZZZZZZZ
+      ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+    ZZ  ZZZZZZZZZZZZZZZZZZZZZZ  ZZ
+    ZZ  ZZZZZZZZZZZZZZZZZZZZZZ  ZZ
+    ZZ  ZZZZZZZZZZZZZZZZZZZZZZ  ZZ
+    ZZ  ZZZZZZZZZZZZZZZZZZZZZZ  ZZ
+    ZZ ZZZZZZZZZZZZZZZZZZZZZZZZ ZZ
+      ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+          ZZZZZZZZZZZZZZZZZZ
+              ZZZZZZZZZZ
+        ZZZZZZZZZZZZZZZZZZZZZZ
+                ZZZZZZ
+                  ZZ
+                  ZZ
+           ZZZZZZZZZZZZZZZZ
+        ZZZZZZZZZZZZZZZZZZZZZZ
+     ZZZZ        ZZZZ        ZZZZ
+    ZZZZ          ZZ          ZZZZ
+                 ZZZZ
+-->
+<html lang="en">
+<head>
+  <script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+  try {
+  var pageTracker = _gat._getTracker("UA-149150-2");
+  pageTracker._trackPageview();
+  pageTracker.push(['_trackPageLoadTime']);
+  pageTracker._setDomainName(".ziprecruiter.com");
+  } catch(err) {}
+  </script>  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>SENIOR PROGRAMMER ANALYST (Java / Python) | Tuscany Enterprises Job Opening | ZipRecruiter</title>
+  <meta name="keywords" content="SENIOR PROGRAMMER ANALYST (Java , Python) | Tuscany Enterprises,active,job,openings,new,browse,free,alerts,listings,openings" />
+  <meta property="og:title" content="SENIOR PROGRAMMER ANALYST (Java / Python) | Tuscany Enterprises Job Opening | ZipRecruiter"/>
+  
+  <meta property="og:url" content="http://jobs.ziprecruiter.com/job/SENIOR-PROGRAMMER-ANALYST-Java-Python/bff2b1e9/"/>
+  
+  <meta property="og:site_name" content="ZipRecruiter"/>
+  <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://www.ziprecruiter.com/img/ziprecruiter-app-icon-text-512.png"/>
+
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://d2jutb8bry7gi8.cloudfront.net/zrs/b936f378/img/mobile/chair-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://d2jutb8bry7gi8.cloudfront.net/zrs/b936f378/img/mobile/chair-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="https://d2jutb8bry7gi8.cloudfront.net/zrs/b936f378/img/mobile/chair-icon-57x57-precomposed.png">
+  <link rel="apple-touch-startup-image" href="https://d2jutb8bry7gi8.cloudfront.net/zrs/b936f378/img/mobile/splash.png">
+  <link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://d2jutb8bry7gi8.cloudfront.net/zrs/e2cad3c5/css/bootstrap/bootstrap.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://d2jutb8bry7gi8.cloudfront.net/zrs/e2cad3c5/css/bootstrap/bootstrap-responsive.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://d2jutb8bry7gi8.cloudfront.net/zrs/e2cad3c5/css/font-awesome/font-awesome.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://d2jutb8bry7gi8.cloudfront.net/zrs/e2cad3c5/css/jquery-ui-1.10.2.custom.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://d2jutb8bry7gi8.cloudfront.net/zrs/e2cad3c5/css/style.css" type="text/css" media="all" />
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="https://d2jutb8bry7gi8.cloudfront.net/zrs/e2cad3c5/css/font-awesome/font-awesome-ie7.min.css">
+  <![endif]-->
+  <link rel="stylesheet" href="https://d2jutb8bry7gi8.cloudfront.net/zrs/e2cad3c5/css/print.css" type="text/css" media="print" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://d2jutb8bry7gi8.cloudfront.net/zrs/087e15e8/favicon.ico" />
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://d2jutb8bry7gi8.cloudfront.net/zrs/b936f378/js/jquery-migrate-1.1.1.js"></script>
+<link rel="canonical" href="http://jobs.ziprecruiter.com/job/SENIOR-PROGRAMMER-ANALYST-Java-Python/bff2b1e9/" />  <!--[if IE 9]>
+    <link rel="stylesheet" type="text/css" href="https://d2jutb8bry7gi8.cloudfront.net/zrs/e2cad3c5/css/style-ie9.css" />
+  <![endif]-->
+  <!--[if lte IE 8]>
+  	<link rel="stylesheet" type="text/css" href="https://d2jutb8bry7gi8.cloudfront.net/zrs/e2cad3c5/css/style-ie8-and-down.css" />
+  <![endif]-->
+
+
+
+
+<script type="text/javascript">
+$(function() {
+  //Show diabled and checked checkbox if alert already created for this search
+  function hideCheckbox(){
+    $('.createAlertCheckboxWrap input').attr('checked','checked').attr('disabled','disabled');
+    $('.createAlertCheckboxWrap .checkboxText').html('Job alert already created');
+  }
+  function showCheckbox(){
+    $('.createAlertCheckboxWrap input').removeAttr('checked').removeAttr('disabled');
+    $('.createAlertCheckboxWrap .checkboxText').html('Create job alert');
+  }
+  
+  $('#shareWidget').sharrre({
+  share: {
+    facebook: true,
+    linkedin: true,
+    twitter: true,
+    googlePlus: true,
+    stumbleupon: false,
+    digg: false,
+    delicious: false,
+    pinterest: true
+  },
+  buttons: {
+    googlePlus : {  //http://www.google.com/webmasters/+1/button/
+      url: 'http://www.ziprecruiter.com',  //if you need to personnalize button url
+      size: 'tall',
+      lang: 'en-US',
+      annotation: ''
+    },
+    facebook: { //http://developers.facebook.com/docs/reference/plugins/like/
+      url: 'http://www.ziprecruiter.com/',  //if you need to personalize url button
+      action: 'like',
+      layout: 'box_count',
+      width: '',
+      send: 'false',
+      faces: 'false',
+      colorscheme: '',
+      font: '',
+      lang: 'en_US'
+    },
+    twitter: {  //http://twitter.com/about/resources/tweetbutton
+      url: 'http://www.ziprecruiter.com',  //if you need to personalize url button
+      count: 'vertical',
+      via: 'ZipRecruiter',
+      hashtags: '',
+      related: '',
+      text: 'Testing',
+      lang: 'en'
+    },
+    linkedin: {  //http://developer.linkedin.com/plugins/share-button
+      url: 'http://www.ziprecruiter.com',  //if you need to personalize url button
+      counter: 'top'
+    },
+    stumbleupon: {  //http://www.stumbleupon.com/badges/
+      url: 'http://www.ziprecruiter.com',  //if you need to personalize url button
+      layout: '5'
+    },
+    pinterest: { //http://pinterest.com/about/goodies/
+      url: 'http://www.ziprecruiter.com',  //if you need to personalize url button
+      media: 'https://www.ziprecruiter.com/img/ziprecruiter-app-icon-text-512.png',
+      description: 'Want a Job? ZipRecruiter sends the newest jobs from across the web to your inbox!',
+      layout: 'vertical'
+    }
+  },
+  hover: function(api, options){
+    $(api.element).find('.buttons').show();
+  },
+  hide: function(api, options){
+    $(api.element).find('.buttons').hide();
+  },
+  template: '<div class="box clearfix"><a href="javascript:void(0);" class="p4 pb2 btn btn-small"><i class="icon-facebook-sign facebookBlueText"></i> <i class="icon-linkedin-sign linkedinBlueText"></i> <i class="icon-twitter-sign twitterBlueText"></i> <i class="icon-google-plus-sign redText"></i></a></div>',
+  url: 'http://jobs.ziprecruiter.com',
+  urlCurl: '',
+  text: "Want a Job? ZipRecruiter sends the newest jobs from across the web to your inbox!",
+  enableCounter: true,
+  shorterTotal: true,
+  enableTracking: true
+});
+
+  window.condition_queue.register(
+  function() { return $('.linkedinApply').find('a').length > 0; },
+  function() {
+    //adjust padding of button slighlty
+    $('.linkedinApply a').find('span[style]:first').css('cssText', 'padding-top: 6px !important;padding-bottom: 6px !important');
+    //show button if it exists
+    $('.linkedinApply').show();
+  }
+);
+
+  window.condition_queue.register(
+  function() { return $('.applyMenu').find('li:visible').length > 2; },
+  function() { $('.orBar').show(); }
+);
+
+  window.condition_queue.register(
+  function() { return $('.linkedinApply').find('a').length > 0; },
+  function() {
+    //adjust padding of button slighlty
+    $('.linkedinApply a').find('span[style]:first').css('cssText', 'padding-top: 6px !important;padding-bottom: 6px !important');
+    //show button if it exists
+    $('.linkedinApply').show();
+  }
+);
+
+  window.condition_queue.register(
+  function() { return $('.applyMenu').find('li:visible').length > 2; },
+  function() { $('.orBar').show(); }
+);
+
+    
+    /* Trigger tooltip */
+  $('[rel=tooltip]').tooltip({placement:"bottom",delay: { show: 300, hide: 100 }});
+
+});
+</script><link rel="search" href="/opensearchdescription.xml" type="application/opensearchdescription+xml" title="ZipRecruiter Jobs" />
+</head>
+
+<body class="jobPage">
+<script type="text/javascript">
+document.write(unescape('%3Cscript src="' + document.location.protocol + '//d1ivexoxmp59q7.cloudfront.net/ziprecruiter/live.js" type="text/javascript"%3E%3C/script%3E'));
+</script><span class="hidden">
+	<!-- Compete XL Code for ziprecruiter.com -->
+	<script type="text/javascript">
+	__compete_code = 'b53a2eda255fff0ed18a2a4b7a816725';
+	/* Set control variables below this line. */ 
+	</script>
+	<script type="text/javascript" src="//c.compete.com/bootstrap/s/b53a2eda255fff0ed18a2a4b7a816725/ziprecruiter-com/bootstrap.js"></script>
+	<noscript>
+	    <img width="1" height="1" src="https://ssl-ziprecruiter-com-b53a2e.c-col.com"/>
+	</noscript>
+</span><a id="top"></a>
+
+  <div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner min-h50">
+    <div class="container">
+      <a class="btn btn-navbar lato mt6 p8" data-toggle="collapse" data-target=".nav-collapse">
+        Menu <i class="icon-chevron-down grayText"></i>
+      </a>
+      <a class="brand mt1" href="http://www.ziprecruiter.com">
+        <img src="https://d2jutb8bry7gi8.cloudfront.net/zrs/087e15e8/img/logos/logo-sm-white2x.png" class="logo ml10Phone" width="152" alt="ZipRecruiter" />
+      </a>
+      <ul class="nav nav-collapse">
+                <li class="bw0 pr15 pl5">
+          <a href="http://www.ziprecruiter.com/post-a-job" class="btn btn-primary textShadow round pr20 pl20 pt3 pb3 mt10 bw2 font14 m10Phone" title="Post your job to 40+ job boards with just one submission">Post a Job</a>
+        </li>
+        <li id="tabEmployers" class="dropdown">
+          <a href="http://www.ziprecruiter.com" class="dropdown-toggle" data-delay="200" data-hover="dropdown" title="Post jobs to multiple job boards">Employers <i class="icon-chevron-down fn ml4 mr0"></i></a>
+          <ul class="dropdown-menu dBlockPhone dBlockTablet">
+            <li><a href="http://www.ziprecruiter.com/post-a-job">Post a Job</a></li>
+            <li><a href="http://www.ziprecruiter.com/features">Features</a></li>
+            <li><a href="http://www.ziprecruiter.com/job-boards">Job Boards</a></li>
+            <li><a href="http://www.ziprecruiter.com/resume-database/search">Search Resumes</a></li>
+            <li><a href="http://www.ziprecruiter.com/pricing">Pricing</a></li>
+            <li><a href="http://www.ziprecruiter.com/testimonials">Testimonials</a></li>
+            <li><a href="http://www.ziprecruiter.com/guarantee">100% Guarantee</a></li>
+            <li><a href="http://blog.ziprecruiter.com/" target="_blank">Our Blog <sup><i class="fn icon-external-link font10 grayText ml2"></i></sup></a></li>
+            <li><a href="http://www.ziprecruiter.com/faq">Employer FAQs</a></li>
+            <li><a href="http://career.ziprecruiter.com/employer" target="_blank">Employer Resources <sup><i class="fn icon-external-link font10 grayText ml2"></i></sup></a></li>
+            <li class="divider"></li>
+            <li><a href="http://www.ziprecruiter.com/user/create">Create Free Account</a></li>
+          </ul>
+        </li>
+        <li id="tabCandidates" class="dropdown">
+          <a href="/candidate" class="dropdown-toggle" data-delay="200" data-hover="dropdown" title="Create job alerts and search millions of jobs in one place.">Job Seekers <i class="icon-chevron-down fn ml4 mr0"></i></a>
+          <ul class="dropdown-menu dBlockPhone dBlockTablet">
+            <li><a href="http://jobs.ziprecruiter.com">Create Job Alerts</a></li>
+            <li><a href="/candidate/search">Search Jobs</a></li>
+            <li><a href="http://blog.ziprecruiter.com/category/job-search-strategy/" target="_blank">Job Seeker Advice <sup><i class="fn icon-external-link font10 grayText ml2"></i></sup></a></li>
+            <li><a href="http://jobs.ziprecruiter.com/candidate/faq">Job Seeker FAQs</a></li>
+            <li><a href="http://career.ziprecruiter.com/job-seeker" target="_blank">Job Seeker Resources <sup><i class="fn icon-external-link font10 grayText ml2"></i></sup></a></li>
+            <li class="divider"></li>
+            <li><a href="http://jobs.ziprecruiter.com/contact/create">Create Free Account</a></li>
+          </ul>
+        </li>
+        <li id="tabSearch" class="">
+          <a href="/candidate/search" title="Create job alerts and search millions of jobs in one place."><i class="icon-search"></i> Search Jobs</a>
+        </li>
+        <li class="dropdown visible-phone">
+          <a href="http://www.ziprecruiter.com/team" class="dropdown-toggle" data-delay="200" data-hover="dropdown">About Us <i class="icon-chevron-down fn ml4 mr0"></i></a>
+          <ul class="dropdown-menu dBlockPhone dBlockTablet">
+            <li><a href="http://www.ziprecruiter.com/team">Our Team</a></li>
+            <li><a href="http://blog.ziprecruiter.com/" target="_blank">Our Blog <sup><i class="icon-external-link font10 grayText"></i></sup></a></li>
+            <li><a href="http://www.ziprecruiter.com/hiring">Work at ZipRecruiter</a></li>
+            <li><a href="http://www.ziprecruiter.com/press">Press Center</a></li>
+            <li><a href="http://www.ziprecruiter.com/contact?from_url=http%3A%2F%2Fjobs.ziprecruiter.com%2Fjob%2FSENIOR-PROGRAMMER-ANALYST-Java-Python%2Fbff2b1e9%2F%3Fsource%3Dtwitter" class="br8 brBottom">Contact Us</a></li>
+          </ul>
+        </li>
+              </ul>
+            <ul class="nav pull-right nav-collapse">
+                        <li id="loginTab"><a href="http://www.ziprecruiter.com/login" rel="nofollow" class="pr15 pl15"> Sign In</a></li>
+              </ul>
+          </div>
+  </div>
+</div>
+<div class="container bodyContainer">
+  <div class="row">
+    <div class="span3 hidden-print">
+      <div class="p15 whitePanel br6 mb15 hidden-phone">
+  <label class="blackText font15 mb10 fBold"><i class="icon-search greenText"></i> Search Jobs:</label>
+  <form class="main_search_form mb0 form hiddenLabels" action="/candidate/search" method="get">
+  <div class="alert alert-error font11 hide redText p4 mb6">Please enter a search or location.</div>
+    <div class="text label">
+      <label>Job title or keyword:</label>
+      <input type="text" name="search" class="titleField mb15 font14 title_autocomplete" placeholder="Job title, skills or keywords" autocomplete="off" value="" />
+    </div>
+    <div class="text label">
+      <label>City, state or zip:</label>
+      <input type="text" name="location" class="locationField mb15 font14" placeholder="City, state or zip" value="Norfolk, VA" />
+    </div>
+    <select name="radius" class="radiusField mb0 font12 w98p">
+      <option value="100" >Within 100 miles</option>
+      <option value="50" >Within 50 miles</option>
+      <option value="25" >Within 25 miles</option>
+      <option value="10" >Within 10 miles</option>
+      <option value="5" >Within 5 miles</option>
+    </select>
+     
+    <select name="days" class="daysField mt10 font12 w98p mb0">
+      <option value=""   selected="selected">Posted anytime</option>
+      <option value="90" >Within 90 days</option>
+      <option value="30" >Within 30 days</option>
+      <option value="10" >Within 10 days</option>
+      <option value="5" >Within 5 days</option>
+      <option value="1" >Within 1 day</option>
+    </select>
+        
+  <input type="submit" class="btn btn-primary round min-w150 w100pPhone mt13 m0Phone" value="Search Jobs">
+</form></div>
+      
+      
+      <div id="related_jobs" class="whitePanel shadowBox br5 p15 mb15 hidden-phone">
+        <p class="mb10 font14 mb2"><i class="icon-pushpin font18 greenText"></i> <strong>Similar jobs (10):</strong></p>
+        <ul class="grayText">
+          
+          <li class="mb10 lh16">
+          	<p class="font12 mb0"><a href="http://track.zipalerts.com/click/?url=http%3A%2F%2Fjobs.ziprecruiter.com%2Fjob%2FSENIOR-PROGRAMMER-ANALYST-MES-SCADA-ERP%2Fc5c408271%2F%3Fsource%3Demail-candidate-job-alert&board=ziprecruiter&job_search_id=&sent_date=20131005&job_id=ziprecruiter-c5c408271&sb=ziprecruiter-jobs-site&sent_time=154437" class="block">SENIOR PROGRAMMER ANALYST (MES / SCADA / ERP) </a></p>
+          	<p class="mb0 font11 grayText">Tuscany Enterprises</p>
+          </li>
+          
+          <li class="mb10 lh16">
+          	<p class="font12 mb0"><a href="http://track.zipalerts.com/click/?url=http%3A%2F%2Fjobs.ziprecruiter.com%2Fjob%2FSENIOR-PROGRAMMER-ANALYST-RPG-ILE-CL-JDE-World-AS-400%2Fc37b5d201%2F%3Fsource%3Demail-candidate-job-alert&board=ziprecruiter&job_search_id=&sent_date=20131005&job_id=ziprecruiter-c37b5d201&sb=ziprecruiter-jobs-site&sent_time=154437" class="block">SENIOR PROGRAMMER / ANALYST - (RPG, ILE, CL, JDE World, AS/400) </a></p>
+          	<p class="mb0 font11 grayText">Tuscany Enterprises</p>
+          </li>
+          
+          <li class="mb10 lh16">
+          	<p class="font12 mb0"><a href="http://track.zipalerts.com/click/?url=http%3A%2F%2Fjobs.ziprecruiter.com%2Fjob%2FSenior-Programmer-Analyst%2Fd7b8f8f4%2F%3Fsource%3Demail-candidate-job-alert&board=ziprecruiter&job_search_id=&sent_date=20131005&job_id=ziprecruiter-d7b8f8f4&sb=ziprecruiter-jobs-site&sent_time=154437" class="block">Senior Programmer Analyst </a></p>
+          	<p class="mb0 font11 grayText">KCO Resource Management</p>
+          </li>
+          
+          <li class="mb10 lh16">
+          	<p class="font12 mb0"><a href="http://track.zipalerts.com/click/?url=http%3A%2F%2Fwww.simplyhired.com%2Fa%2Fjob-details%2Fview%2Fcparm-Y291bnQ9MSZjX2lkPTE5NDM4JnB1Ymxpc2hlcl9jaGFubmVsX2lkcz0xJmhhc2g9YTdiMWMxODc1MmZiZGFlZjI2MmVlOTE3ZGM4MjkxMmMma2V5d29yZD0mem9uZT02JnN0YW1wPTIwMTMtMTAtMDUgMDA6MDY6MjgmaXA9JmNwYz0wLjM3NSZwX2lkPTMwNjQ3JnBvcz0xJnVybD0mYV9pZD00OTI0NyZiX2lkPTM3MQ%253D%253D%253B8ce1277a8faec26ffe97c2354805621e%2Fimp-1%2Fjobkey-25070.4330709%2Fpub_id-30647%2Fhits-1%2F&board=simplyhired&job_search_id=&sent_date=20131005&job_id=simplyhired-25070_4330709&sb=ziprecruiter-jobs-site&sent_time=154437" class="block" target="_blank" title="Opens in new browser tab">Programmer Analyst, Marketing <sup><i class="icon-external-link font10 grayText"></i></sup></a></p>
+          	<p class="mb0 font11 grayText">PM Talent Global</p>
+          </li>
+          
+          <li class="mb10 lh16">
+          	<p class="font12 mb0"><a href="http://track.zipalerts.com/click/?url=http%3A%2F%2Fwww.bright.com%2Fjobs%2Fjob%2F2550_6634062%2F%3Fbfid%3D31%26job_title%3DProgrammer%2BAnalyst%26ref%3Dziprecruiter%26utm_source%3Dziprecruiter%26utm_medium%3Dfeed%26utm_campaign%3Dmasterfeed%26subid%3D5gzf5mddmexwa&board=bright&job_search_id=&sent_date=20131005&job_id=bright-2550_6634062&sb=ziprecruiter-jobs-site&sent_time=154437" class="block" target="_blank" title="Opens in new browser tab">Programmer Analyst <sup><i class="icon-external-link font10 grayText"></i></sup></a></p>
+          	<p class="mb0 font11 grayText">CompuCom</p>
+          </li>
+          
+          <li class="mb10 lh16">
+          	<p class="font12 mb0"><a href="http://track.zipalerts.com/click/?url=http%3A%2F%2Fwww.bright.com%2Fjobs%2Fjob%2F93617_hellertech-3349899%2F%3Fbfid%3D31%26job_title%3DJava%2BProgrammer%2BAnalyst%2B-%2BFinancial%2BSystems%26ref%3Dziprecruiter%26utm_source%3Dziprecruiter%26utm_medium%3Dfeed%26utm_campaign%3Dmasterfeed%26subid%3D5gzf5mddmexwa&board=bright&job_search_id=&sent_date=20131005&job_id=bright-93617_hellertech-3349899&sb=ziprecruiter-jobs-site&sent_time=154437" class="block" target="_blank" title="Opens in new browser tab">Java Programmer Analyst - Financial Systems <sup><i class="icon-external-link font10 grayText"></i></sup></a></p>
+          	<p class="mb0 font11 grayText">Heller Technologies, Inc.</p>
+          </li>
+          
+          <li class="mb10 lh16">
+          	<p class="font12 mb0"><a href="http://track.zipalerts.com/click/?url=http%3A%2F%2Fclk.atdmt.com%2FMON%2Fgo%2F408294915%2Fdirect%2F01%2F%3Fhref%3Dhttp%3A%2F%2Fjobview.monster.com%2Fgetjob.aspx%3FJobId%3D126027416%26WT.mc_n%3Dolm_sk_feed_ziprecruiter_premium&board=monster-high-priority&job_search_id=&sent_date=20131005&job_id=monster-high-priority-126027416&sb=ziprecruiter-jobs-site&sent_time=154437" class="block" target="_blank" title="Opens in new browser tab">SENIOR PROGRAMMING ANALYST <sup><i class="icon-external-link font10 grayText"></i></sup></a></p>
+          	<p class="mb0 font11 grayText">JUDGE GROUP</p>
+          </li>
+          
+          <li class="mb10 lh16">
+          	<p class="font12 mb0"><a href="http://track.zipalerts.com/click/?url=http%3A%2F%2Fclk.atdmt.com%2FMON%2Fgo%2F408294915%2Fdirect%2F01%2F%3Fhref%3Dhttp%3A%2F%2Fjobview.monster.com%2Fgetjob.aspx%3FJobId%3D125961837%26WT.mc_n%3Dolm_sk_feed_ziprecruiter_premium&board=monster-high-priority&job_search_id=&sent_date=20131005&job_id=monster-high-priority-125961837&sb=ziprecruiter-jobs-site&sent_time=154437" class="block" target="_blank" title="Opens in new browser tab">Senior Programming Analyst <sup><i class="icon-external-link font10 grayText"></i></sup></a></p>
+          	<p class="mb0 font11 grayText">The Judge Group</p>
+          </li>
+          
+          <li class="mb10 lh16">
+          	<p class="font12 mb0"><a href="http://track.zipalerts.com/click/?url=http%3A%2F%2Fwww.bright.com%2Fjobs%2Fjob%2F93429_emanuelmc-839681%2F%3Fbfid%3D31%26job_title%3DSenior%2BApplications%2BAnalyst%26soc_id%3D31-1013%26ref%3Dziprecruiter%26utm_source%3Dziprecruiter%26utm_medium%3Dfeed%26utm_campaign%3Dmasterfeed%26subid%3D5gzf5mddmexwa&board=bright&job_search_id=&sent_date=20131005&job_id=bright-93429_emanuelmc-839681&sb=ziprecruiter-jobs-site&sent_time=154437" class="block" target="_blank" title="Opens in new browser tab">Senior Applications Analyst <sup><i class="icon-external-link font10 grayText"></i></sup></a></p>
+          	<p class="mb0 font11 grayText">Emanuel Medical Center</p>
+          </li>
+          
+          <li class="mb10 lh16">
+          	<p class="font12 mb0"><a href="http://track.zipalerts.com/click/?url=http%3A%2F%2Fwww.linkup.com%2Fjob-listings%2F%3Fjob%3D6c28b029c765121cbb0d6856dcb6a241&board=linkup&job_search_id=&sent_date=20131005&job_id=linkup-6c28b029c765121cbb0d6856dcb6a241&sb=ziprecruiter-jobs-site&sent_time=154437" class="block" target="_blank" title="Opens in new browser tab">Intelligence Analyst <sup><i class="icon-external-link font10 grayText"></i></sup></a></p>
+          	<p class="mb0 font11 grayText">National Guard</p>
+          </li>
+          
+      </ul>
+      </div>
+      
+      
+      <div class="p15 whitePanel br6 mb15 clearfix hidden-phone">
+    <p class="font14 mb2"><i class="icon-lightbulb font18 greenText"></i> <strong>Job seeker advice</strong></p>
+    <p class="mb5">Articles, tips and other resources to help you find a job faster!</p>
+    <a href="http://blog.ziprecruiter.com/category/job-search-strategy/" class="btn btn-small">Get Advice</a>
+</div>
+
+<div class="p15 whitePanel br6 mb15 clearfix hidden-phone">
+    <p class="font14 mb2"><i class="icon-check font16 greenText"></i> <strong>Found a job?</strong></p>
+    <p class="mb5">Share your ZipRecruiter experience with other job seekers!</p>
+    <a href="/candidate/contactus?topic=I%20got%20hired!" class="btn btn-small">I Got Hired!</a>
+</div>
+
+<div class="p15 whitePanel br6 mb15 clearfix hidden-phone">
+  <div class="fr mrl4 clearfix">
+      <div id="shareWidget" class="clearfix" data-url="http://sharrre.com" data-text="Want a Job? ZipRecruiter sends the newest jobs from across the web to your inbox!" data-title="share"></div>
+    </div>
+    <p class="font14 mb2"><i class="icon-comment-alt font16 greenText"></i> <strong>Spread the word</strong></p>
+    <p class="mb8 lh18 visible-desktop">Tell your friends about ZipRecruiter!</p>
+    <a href="http://www.linkedin.com/company/ziprecruiter/job-alert-emails-for-job-seekers-1208965/product?trk=biz_product" target="_blank">Recommend on LinkedIn</a>
+</div>
+    </div><!--end span -->
+    <div class="span9">
+            <ul class="breadcrumb mb10 hidden-phone">
+        <li class=""><i class="icon-chevron-left blueText"></i><a href="javascript: history.go(-1);" class="exitPop">Go back</a></li>
+      </ul>
+            
+      <div class="jobListing whitePanel shadowBox br6" itemscope itemtype="http://schema.org/JobPosting">
+        <div class="brandedHeader pl20 pr20 br6 brTop" style="background-color:#323232;">
+  <table class="headerInner">
+    <tr>
+      
+      <td class="vaMiddle h90">
+        <h2 class="fNormal font28 font23Phone font24Tablet lh30 pt5Phone pb5Phone"><a href="/jobs/Tuscany-Enterprises/bafb7de3" title="View all job openings at Tuscany Enterprises" style="color:white">Tuscany Enterprises</a></h2>
+      </td>
+    </tr>
+  </table>
+</div>
+        <div class="p20 pt25 pb0">
+	 
+	    <div class="fr flPhone ml10 ml0Phone mb10 btnWrapper">
+    <div class="saveBtn fl">
+      <a id="bff2b1e9_save_link" 
+  data-is_ajax="1" 
+  href="http://jobs.ziprecruiter.com/candidate/save_job/?quiz_id=bff2b1e9" 
+  class="save_job_link ajax_modal_link btn btn-small" 
+  rel="tooltip" 
+  title="Save job for later" 
+  data-placement="bottom" 
+  >
+<i class="icon-star font15 grayText"></i> Save</a>  </div><!-- end save btn -->
+    <div class="fr ml5 mb10 btn-group">
+      <a class="btn btn-small dropdown-toggle fr" data-delay="200" data-hover="dropdown" data-toggle="dropdown" href="#">
+        Share
+        <i class="icon-chevron-down grayText"></i>
+      </a>
+      <ul class="dropdown-menu tLeft">
+        <li><a title="Email job to a friend" class="font13" href="mailto:?subject=SENIOR%20PROGRAMMER%20ANALYST%20(Java%20%2F%20Python)+job+you+might+be+interested+in&amp;body=I+thought+you+might+be+interested+in+this+SENIOR%20PROGRAMMER%20ANALYST%20(Java%20%2F%20Python)+job+opening+at:%0A%0A+http%3A%2F%2Fwww.ziprecruiter.com%2Fjob%2FSENIOR-PROGRAMMER-ANALYST-Java-Python%2Fbff2b1e9%2F" target="_blank"><img src="https://d2jutb8bry7gi8.cloudfront.net/zrs/a24e14a5/img/social/email_16.png" alt="Email" class="mt-2"/> Email Job</a></li>
+        <li><a href="http://www.facebook.com/sharer.php?u=http://www.ziprecruiter.com%2Fjob%2FSENIOR-PROGRAMMER-ANALYST-Java-Python%2Fbff2b1e9%2F" class="font13" title="Share job on Facebook" target="_blank"><img src="https://d2jutb8bry7gi8.cloudfront.net/zrs/a24e14a5/img/social/facebook_16.png" alt="Facebook" class="mt-2"/> Post to Facebook</a></li>
+        <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwww.ziprecruiter.com%2Fjob%2FSENIOR-PROGRAMMER-ANALYST-Java-Python%2Fbff2b1e9%2F&amp;title=SENIOR%20PROGRAMMER%20ANALYST%20(Java%20%2F%20Python)&amp;summary=Check%20out%20this%20job%20on%20ZipRecruiter!&amp;source=ZipRecruiter%3Fsource%3Dshare-linkedin" class="font13" title="Share job on LinkedIn" target="_blank"><img src="https://d2jutb8bry7gi8.cloudfront.net/zrs/a24e14a5/img/social/linkedin_16.png" alt="LinkedIn" class="mt-2"/> Post to LinkedIn</a></li>
+        <li><a href="http://twitter.com/home?status=Check%20out%20this%20job%20on%20ZipRecruiter!%20http://www.ziprecruiter.com/job/SENIOR-PROGRAMMER-ANALYST-Java-Python/bff2b1e9/" class="font13" title="Tweet this job" target="_blank"><img src="https://d2jutb8bry7gi8.cloudfront.net/zrs/a24e14a5/img/social/twitter_16.png" alt="Twitter" class="mt-2"/> Post to Twitter</a></li>
+        <li>
+          <a class="font13" href="https://plus.google.com/share?url=http://www.ziprecruiter.com%2Fjob%2FSENIOR-PROGRAMMER-ANALYST-Java-Python%2Fbff2b1e9%2F" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="Share job on Google+" target="_blank"><img src="https://d2jutb8bry7gi8.cloudfront.net/zrs/a24e14a5/img/social/google_plus_16.png" alt="Google+" class="mt-2"/> Share on Google+</a></li>
+      </ul>
+    </div><!-- end share btn -->
+    </div><!-- end btn wrapper -->
+  
+  <h1 class="blackText clearLeft pr10 font28 font23Phone mb12 lh28" itemprop="title">SENIOR PROGRAMMER ANALYST (Java / Python)</h1>
+  <div class="clearfix clearLeft">
+    <a href="http://maps.google.com/?q=Stanislaus,+CA,+US&amp;z=9" target="_blank" class="p2 pt4 lightGrayText mr5 tdNone fl" rel="tooltip" title="View in Google maps"><i class="icon-map-marker lightGrayText textShadow font20 lh17"></i></a>
+    <h3 class="lh22 fl font17 fNormal"><a href="/candidate/search?search=&location=Stanislaus,%20CA&radius=50" class="blackText" title="View other jobs in this location">Stanislaus, CA</a></h3>
+  </div><!-- end location -->
+  <p class="grayText mb0"><span class="">Posted 9 days ago</span> in <a href="http://jobs.ziprecruiter.com/cat-information-technology" class="grayText">Information Technology</a></p>
+</div>
+        <div class="p20 p10Phone">
+        <script type="text/javascript" src="http://platform.linkedin.com/in.js">
+    api_key: r1kywu66j0d9
+  </script>
+
+<hr class="m0"/>
+<div class="jobContentWrap clearfix">
+    <div class="hide topApplyButtons">
+	  <div class="applyButtons clearfix pt15 p0Phone">
+  <ul class="applyMenu p0">
+    <li class="br5 pb10 zrApply">
+      <a href="/apply/bff2b1e9/" rel="nofollow" class="mainBtns btn round btn-primary max-w200 w100 centerBlock track_apply_click">Apply Now</span></a>
+    </li>
+                      <li class="orBar lato fw3 font17 grayText" style="display:none;">&mdash;OR&mdash;</li>
+            <li class="br5 linkedinApply clearfix" style="display:none;">
+  <script type="text/javascript">
+    function doZipRecruiterLogin(r) {
+      $.get('/contact/get-post-apply-url',{ quiz_id: "bff2b1e9" },function(data) {
+        location.href = data;
+      });
+    }
+    function trackApplyClick() { // TBD: combine with job-pageview.html?
+      $.ajax({
+        url: '/job/track-apply-click/?quiz_id=bff2b1e9&with_linkedin=1',
+        async: false
+      });
+      return true;
+    }
+  </script>
+
+  <script type="IN/Apply"
+    data-companyId="967124"
+    data-companyName="Tuscany Enterprises"
+    data-jobTitle="SENIOR PROGRAMMER ANALYST (Java / Python)"
+    data-jobLocation="Stanislaus, CA"
+    data-phone="required"
+    data-coverLetter="optional"
+    data-jobId="bff2b1e9"
+    data-onclick="trackApplyClick"
+    data-onsuccess="doZipRecruiterLogin"
+    data-meta="source=twitter&browser_cookie=128.82.4.182_1381013077_068974718&ip_address=128.82.4.182"
+    data-size="medium"
+    data-url="http://jobs.ziprecruiter.com/apply/linkedin-receive-json">
+  </script>
+  </li>            </ul>
+</div>
+<script>
+window.condition_queue = {
+  queue: [],
+  timeout: 250,
+  limit: 100,
+  register: function(condition, callback, limit) {
+    limit = limit ? limit : this.limit;
+    if (typeof(condition) === 'function' && typeof(callback) === 'function') {
+      this.queue.push([condition, callback, limit, 0]);
+      clearInterval(this.interval_id);
+      var queue = this.queue;
+      var interval_id = setInterval(function() {
+        _queue = [];
+        _.each(queue, function(condition_array) {
+          condition_array[3]++;
+          if (condition_array[0]()) {
+            condition_array[1]();
+          } else {
+            if (condition_array[2] > condition_array[3]) {
+              _queue.push(condition_array);
+            }
+          }
+        });
+        queue = _queue;
+        if (!queue.length) {
+          clearInterval(interval_id);
+        }
+      }, this.timeout);
+      this.interval_id = interval_id;
+    }
+  }
+}
+</script>	  <hr class="m0"/>
+  </div>
+  
+  <div class="p25 p15Phone">
+  <div class="jobDescription mb20">
+    <div itemprop="description"><p><strong>ARE YOU LOOKING FOR A NEW CAREER OPPORTUNITY WHERE YOU CAN BE PART OF A SMALL IT TEAM AND HELP DEVELOP A CUTTING EDGE SYSTEM THAT CAN MAKE A MEANINGFUL CONTRIBUTION TO THE BUSINESS? &nbsp;ARE YOU INTERESTED IN BEING PART OF A GROUND FLOOR OPPORTUNITY WHERE YOUR CAREER CAN REALLY SOAR? &nbsp;</strong><p><strong>Here&#39;s your chance to be part of a financially stable small to medium-sized company with a small, cohesive IT team that can provide you with a friendly and professional working environment in an organization that is growing consistently, and part of a very successful industry!</strong><p>&nbsp;<p>This could be the job you&#39;ve dreamed about if you have programming proficiency in Java / Python and solid manufacturing IT skills... or a solid Java / Python skill set with a strong interest in learning new technologies that can propel your career to the next level in a fun industry. &nbsp;<p>&nbsp;<p>One of the company&rsquo;s key focus areas for the next few years is going to be manufacturing process automation and improved manufacturing data collection. Because of this focus, the hiring manager is looking for someone with either strong manufacturing IT skills or the attitude and aptitude to learn it.&nbsp; This Senior Programmer Analyst will be (mostly) developing on Inductive Automation&rsquo;s Ignition platform.&nbsp; Ignition runs on Windows / SQL Server 2012 and uses Java/Python as the primary programming language.&nbsp; Therefore, solid experience with Java/Python is required to qualify for this position.<p>&nbsp;<p>The employer is looking for someone to play a&nbsp;key role&nbsp;in developing a Manufacturing Execution System (MES) on the Ignition platform (Windows/SQL Server) and while it would be extremely helpful to find someone with a solid background in manufacturing technologies (MES, ERP to Shop-floor integration), good expertise programming in Java will be critical to success in this role and you must have a deep understanding and knowledge of this modern object-oriented programming language, with strong day-to-day involvement in Java development for serious consideration. &nbsp;<p>&nbsp;<p><strong>This is a challenging new career opportunity for a SENIOR PROGRAMMER ANALYST focused on your expertise with Java / Python with an opportunity to work with Enterprise Resource Planning Systems (ERP), Manufacturing Execution Systems (MES), and SCADA Systems that allows you to make a difference in multiple areas of the business. &nbsp;Wonderful opportunities await you with this employer! &nbsp;Great compensation, solid employee benefits, a good career path, and the chance to grow professionally!!</strong><br><br> &nbsp;<p>&nbsp;<p><em><strong>SUMMARY OF POSITION</strong></em><p>In this key Senior Programmer Analyst role on the IT team, you will solve organizational information problems by gathering requirements and designing, developing, testing and documenting software solutions. &nbsp;You will work independently and also as a member of a team to develop software and systems tailored to support business needs in Manufacturing, Logistics, Finance, and Supply Chain.&nbsp;<p>&nbsp;<p><em><strong>MINIMUM QUALIFICATIONS&nbsp;</strong></em><ul><li>High school diploma or GED.&nbsp;<li>Bachelor&#39;s degree in Business, Computer Science, Information Systems, Math, or Engineering plus three (3) years of programming analysis experience reflecting increasing levels of responsibility; or Master&rsquo;s Degree plus one (1) year of programming analysis experience; or seven (7) years of experience as a programmer analyst reflecting increasing levels of responsibility.&nbsp;<li>Computer skill requirements include: basic MS Word, Excel, and PowerPoint, intermediate MS Excel and Structured Query Language (SQL).&nbsp;<li>Experience in at least one modern programming language (Java, .NET, etc...) with Java/Python preferred.</ul><p>&nbsp;<br><em><strong>PREFERRED QUALIFICATIONS (all of the above plus these skills make you an IDEAL candidate)&nbsp;</strong></em><ul><li>Bachelor&#39;s degree in Business, Computer Science, Information Systems, Math, or Engineering plus five (5) years of experience in programming analysis, software engineering or software development reflecting increasing levels of responsibility.&nbsp;<li>Master&rsquo;s degree in Computer Science, Information Systems or Business Administration is a plus!!<li>Excellent written and verbal communication skills&nbsp;<li>Demonstrated programming proficiency in one or more of the following areas: Object Oriented Programming (Java, .NET), SQL (MSSQL, Oracle, DB2 AS400), Stored Procedures (T-SQL, PL-SQL)&nbsp;<li>Experience with a variety of systems architectures including, Client-Server, Web-based, Service Oriented.&nbsp;<li>Knowledge of relational database design fundamentals.&nbsp;<li>Experience with Enterprise Resource Planning Systems (ERP), Manufacturing Execution Systems (MES), SCADA Systems.&nbsp;<li>Experience with Programmable Logic Controllers (PLCs), OPC Servers and other Manufacturing Information Technologies.&nbsp;<li>Experience with TCP/IP networks.&nbsp;<li>Strong initiative, self-motivation, and commitment to the job.&nbsp;</ul><p>&nbsp;<p>&nbsp;<p><em><strong>NOTE</strong>:</em><br><strong>Please send your resume in a WORD doc format, and please reply to the attached (brief) qualifying questionnaire, for serious consideration and expedient processing of your application for this position... thank you!!!</strong></div>
+  </div>
+  
+  <div class="jobDescription mb20">
+    <h3 class="mb15">About Tuscany Enterprises:</h3>
+    <p>Tuscany Enterprises is partnering with the employer to help them identify a suitable candidate for this open position.  The hiring company is a small to medium-sized company with corporate headquarters located in Northern Central California providing great opportunities for career advancement and recognition.  Stable and friendly work environment with a very positive family feel to the work atmosphere!  Well-respected brand, and a leader in their industry... and a great team of people to work with... offering excellent opportunities for career growth!</p>
+  </div>
+  
+  
+  <p class="mb10"><i class="icon-pushpin lightGrayText icon-large"></i> <a href="http://www.ziprecruiter.com/jobs/Tuscany-Enterprises/bafb7de3"> View all jobs at this company</a></p>
+  
+</div>
+    	<hr class="m0 mb10Phone"/>
+  	<div class="applyButtons clearfix pt15 p0Phone">
+  <ul class="applyMenu p0">
+    <li class="br5 pb10 zrApply">
+      <a href="/apply/bff2b1e9/" rel="nofollow" class="mainBtns btn round btn-primary max-w200 w100 centerBlock track_apply_click">Apply Now</span></a>
+    </li>
+                      <li class="orBar lato fw3 font17 grayText" style="display:none;">&mdash;OR&mdash;</li>
+            <li class="br5 linkedinApply clearfix" style="display:none;">
+  <script type="text/javascript">
+    function doZipRecruiterLogin(r) {
+      $.get('/contact/get-post-apply-url',{ quiz_id: "bff2b1e9" },function(data) {
+        location.href = data;
+      });
+    }
+    function trackApplyClick() { // TBD: combine with job-pageview.html?
+      $.ajax({
+        url: '/job/track-apply-click/?quiz_id=bff2b1e9&with_linkedin=1',
+        async: false
+      });
+      return true;
+    }
+  </script>
+
+  <script type="IN/Apply"
+    data-companyId="967124"
+    data-companyName="Tuscany Enterprises"
+    data-jobTitle="SENIOR PROGRAMMER ANALYST (Java / Python)"
+    data-jobLocation="Stanislaus, CA"
+    data-phone="required"
+    data-coverLetter="optional"
+    data-jobId="bff2b1e9"
+    data-onclick="trackApplyClick"
+    data-onsuccess="doZipRecruiterLogin"
+    data-meta="source=twitter&browser_cookie=128.82.4.182_1381013077_068974718&ip_address=128.82.4.182"
+    data-size="medium"
+    data-url="http://jobs.ziprecruiter.com/apply/linkedin-receive-json">
+  </script>
+  </li>            </ul>
+</div>
+<script>
+window.condition_queue = {
+  queue: [],
+  timeout: 250,
+  limit: 100,
+  register: function(condition, callback, limit) {
+    limit = limit ? limit : this.limit;
+    if (typeof(condition) === 'function' && typeof(callback) === 'function') {
+      this.queue.push([condition, callback, limit, 0]);
+      clearInterval(this.interval_id);
+      var queue = this.queue;
+      var interval_id = setInterval(function() {
+        _queue = [];
+        _.each(queue, function(condition_array) {
+          condition_array[3]++;
+          if (condition_array[0]()) {
+            condition_array[1]();
+          } else {
+            if (condition_array[2] > condition_array[3]) {
+              _queue.push(condition_array);
+            }
+          }
+        });
+        queue = _queue;
+        if (!queue.length) {
+          clearInterval(interval_id);
+        }
+      }, this.timeout);
+      this.interval_id = interval_id;
+    }
+  }
+}
+</script>  
+</div>
+<script type="text/javascript">//<![CDATA[
+$(document).ready(function () {
+  jQuery.get('/job/track-pageview/?quiz_id=bff2b1e9');
+
+  $('.track_apply_click').click(function (e) {
+    $.ajax({
+      url: '/job/track-apply-click/?quiz_id=bff2b1e9',
+      async: false
+    });
+    return true;
+  });
+});
+//]]></script>
+<style>
+.ui-widget-content { height:auto !important; }
+.ui-icon { text-indent:0 !important; width: 40px !important; }
+.ui-dialog-titlebar-close { right: 1em !important; width: 40px !important; color:white !important; }
+</style>
+        </div>
+      </div>
+    </div><!--end span -->
+  </div><!--end row -->
+</div>
+
+<script>
+  $("#tabSearch").addClass("active");
+</script>
+<div class="p20 mb15">
+    <div class="pt20 pb20 mt20 tCenterPhone clearfix container bodyContainer" id="footer">
+  <div class="row-fluid">
+      <div class="span12 tCenter">
+      <div id="blogFeed" class="blackText">
+         <script type="text/html" id="blog_entry_template">
+           <p class="mb0"><i class="icon-rss orangeText"></i> <strong>Latest from the Blog:</strong> <a href="{{link}}" class="blueText fBold" target="_blank">{{ title }}</a> <span class="pubDate fItalic grayText"> - {{ publishedDate }}</span></p>
+         </script>
+      </div>
+
+      <hr/>
+      <p class="mb8 font12Phone mb0Phone">
+        <a href="http://jobs.ziprecruiter.com" class="grayText">Free Job Alerts</a><span class="sep">|</span><a href="/candidate/search" class="grayText">Search Jobs</a><span class="sep">|</span><a href="http://jobs.ziprecruiter.com/contact/create" class="grayText">Create Account</a><span class="sep">|</span><a href="http://blog.ziprecruiter.com/category/job-search-strategy/" class="grayText">ZipRecruiter Blog</a><span class="sep">|</span><a href="http://career.ziprecruiter.com/job-seeker" target="_blank" class="grayText">Job Seeker Resources</a><span class="sep">|</span><a href="http://www.ziprecruiter.com" class="grayText">Job Posting</a><span class="sep">|</span><a href="/privacy" target="_blank" rel="nofollow" class="grayText">Privacy Policy</a><span class="sep">|</span><a href="/terms" target="_blank" rel="nofollow" class="grayText">Terms of Use</a><span class="sep">|</span><a href="/candidate/faq" class="grayText">FAQs</a><span class="sep">|</span><a href="/candidate/contactus?from_url=http%3A%2F%2Fjobs.ziprecruiter.com%2Fjob%2FSENIOR-PROGRAMMER-ANALYST-Java-Python%2Fbff2b1e9%2F%3Fsource%3Dtwitter" rel="nofollow" class="grayText">Contact Us</a>
+      </p>
+      <p class="mb5 font12Phone mb0Phone">
+        <a href="https://www.facebook.com/ZipRecruiter" target="_blank">Like us on Facebook</a><span class="sep">|</span><a href="http://www.linkedin.com/company/ziprecruiter/job-alert-emails-for-job-seekers-1208965/product?trk=biz_product" target="_blank">Recommend us on LinkedIn</a>
+      </p>
+      <hr/>
+      <!-- .Copyright / Links -->
+    </div><!-- end span -->
+    <script>
+    $(function() {
+      parseRSS('http://blog.ziprecruiter.com/feed/?cat=11516189', function(feed) {
+        var $container = $('#blogFeed');
+        $container.html('');
+        var entryLength = 1;
+        if (feed.entries.length < entryLength) {
+          entryLength = feed.entries.length;
+        }
+        for (var i =0; i < entryLength; i++) {
+          var entry = feed.entries[i];
+          entry.publishedDate = entry.publishedDate.substr(0, entry.publishedDate.length-15);
+          $container.append(ich.blog_entry_template(entry));
+        }
+      });
+    });
+    </script>
+  </div><!-- end row -->
+  <!-- .SEO -->
+    <div class="hidden-phone">
+    <div class="mb20 mt10 grayText">
+      <h4 class="grayText tCenter p10">Browse Jobs By Location:</h4>
+      <p class="seoList lh22">
+                <a href="http://jobs.ziprecruiter.com/AL-jobs">Alabama Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/AK-jobs">Alaska Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/AZ-jobs">Arizona Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/AR-jobs">Arkansas Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/CA-jobs">California Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/CO-jobs">Colorado Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/CT-jobs">Connecticut Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/DE-jobs">Delaware Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/DC-jobs">District of Columbia Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/FL-jobs">Florida Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/GA-jobs">Georgia Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/HI-jobs">Hawaii Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/ID-jobs">Idaho Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/IL-jobs">Illinois Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/IN-jobs">Indiana Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/IA-jobs">Iowa Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/KS-jobs">Kansas Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/KY-jobs">Kentucky Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/LA-jobs">Louisiana Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/ME-jobs">Maine Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/MD-jobs">Maryland Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/MA-jobs">Massachusetts Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/MI-jobs">Michigan Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/MN-jobs">Minnesota Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/MS-jobs">Mississippi Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/MO-jobs">Missouri Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/MT-jobs">Montana Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/NE-jobs">Nebraska Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/NV-jobs">Nevada Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/NH-jobs">New Hampshire Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/NJ-jobs">New Jersey Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/NM-jobs">New Mexico Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/NY-jobs">New York Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/NC-jobs">North Carolina Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/ND-jobs">North Dakota Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/OH-jobs">Ohio Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/OK-jobs">Oklahoma Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/OR-jobs">Oregon Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/PA-jobs">Pennsylvania Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/PR-jobs">Puerto Rico Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/RI-jobs">Rhode Island Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/SC-jobs">South Carolina Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/SD-jobs">South Dakota Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/TN-jobs">Tennessee Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/TX-jobs">Texas Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/UT-jobs">Utah Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/VT-jobs">Vermont Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/VA-jobs">Virginia Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/WA-jobs">Washington Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/WV-jobs">West Virginia Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/WI-jobs">Wisconsin Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/WY-jobs">Wyoming Jobs</a>
+              </p>
+    </div>
+    <div class="mb30 mt10 grayText">
+      <h4 class="gray tCenter p10">Browse Jobs By Category:</h4>
+      <p class="seoList lh22">
+                <a href="http://jobs.ziprecruiter.com/cat-accounting-finance/">Accounting/Finance Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-admin-secretarial/">Admin/Secretarial Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-advertising/">Advertising Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-architect-design/">Architect/Design Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-art-media-writers/">Art/Media/Writers Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-automotive/">Automotive Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-biotech-pharmaceutical/">Biotech/Pharmaceutical Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-computer-software/">Computer/Software Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-construction-skilled-trade/">Construction/Skilled Trade Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-customer-service/">Customer Service Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-domestic-help-care/">Domestic Help/Care Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-education/">Education Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-engineering/">Engineering Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-events/">Events Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-everything-else/">Everything Else Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-facilities-maintenance/">Facilities/Maintenance Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-general-labor-warehouse/">General Labor/Warehouse Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-government-military/">Gov/Military Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-hr-and-recruiting/">HR &amp; Recruiting Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-healthcare/">Healthcare Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-hospitality-restaurant/">Hospitality/Restaurant Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-information-technology/">Information Technology Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-insurance/">Insurance Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-internet/">Internet Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-law-enforce-and-security/">Law Enforcement/Security Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-legal/">Legal Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-management-and-exec/">Management &amp; Exec Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-manufacturing-operations/">Manufacturing/Operations Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-marketing-pr/">Marketing/PR Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-nonprofit-and-fund/">Nonprofit &amp; Fund Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-oil-energy-power/">Oil/Energy/Power Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-quality-assurance/">Quality Assurance Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-real-estate/">Real Estate Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-research-and-dev/">Research &amp; Dev Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-retail/">Retail Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-sales-and-biz-dev/">Sales &amp; Biz Dev Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-salon-beauty-fitness/">Salon/Beauty/Fitness Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-social-services/">Social Services Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-supply-chain-logistics/">Supply Chain/Logistics Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-telecom/">Telecommunications Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-travel/">Travel Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-trucking-transport/">Trucking/Transport Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-tv-film-musicians/">TV/Film/Musicians Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-vet-and-animal-care/">Vet &amp; Animal Care Jobs</a>
+                <a href="http://jobs.ziprecruiter.com/cat-work-from-home/">Work from Home Jobs</a>
+              </p>
+    </div>
+  </div><!-- end hidden-phone -->
+
+
+<div class="hidden-phone">
+    </div>
+    <p class="mb15 tCenter"><span class="grayText">&copy; 2010 - 2013 ZipRecruiter, Inc. All rights reserved</span></p>
+  <!-- .Trustee -->
+  <div id="5774217e-ae52-4c5f-86c9-96fbdea1db07" class="centerContent">
+    <script type="text/javascript" src="//privacy-policy.truste.com/privacy-seal/ZipRecruiter,-Inc-/asc?rid=5774217e-ae52-4c5f-86c9-96fbdea1db07"></script>
+    <a href="//privacy.truste.com/privacy-seal/ZipRecruiter,-Inc-/validation?rid=ea55b827-615a-4d5a-8edd-1c47f0d53d24" title="TRUSTe online privacy certification" target="_blank">
+      <img style="" src="//privacy-policy.truste.com/privacy-seal/ZipRecruiter,-Inc-/seal?rid=ea55b827-615a-4d5a-8edd-1c47f0d53d24" alt="TRUSTe online privacy certification"/>
+    </a>
+    <script src="https://consent.truste.com/notice?domain=ziprecruiter.com&amp;c=5774217e-ae52-4c5f-86c9-96fbdea1db07"></script>
+  </div><!-- end truste -->
+  <div id="teconsent"></div>
+  <div class="centerBlock w95 pt10 mb10 clearfix">
+  <div class="fl w53 overflowHide mr10" id="facebookHolder"></div>
+  <div class="fl w30 mt2">
+    <div class="g-plusone fl" data-size="medium" data-annotation="none" data-width="60" data-href="http://www.ziprecruiter.com"></div>
+  </div>
+</div><!-- .Chair -->
+  <a href="http://www.ziprecruiter.com" class="dBlock w80 tCenter centerBlock mt10" title="Powered by ZipRecruiter" rel="tooltip" data-placement="top">
+    <img src="https://d2jutb8bry7gi8.cloudfront.net/zrs/087e15e8/img/zr-chair-gray.png" alt="" class="centerBlock"/>
+  </a>
+</div><!-- end bodycontainer -->  </div>
+
+<div class="modal hide w500" id="searchFormPop" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-body p30">
+  <button type="button" id="closeSearchModal" class="close closeModal mt-20 mr-15" data-dismiss="modal" aria-hidden="true">&times;</button>
+  <label class="blackText font15 mb10 fBold"><i class="icon-search greenText"></i> Search Jobs:</label>
+  <form class="main_search_form mb0 form hiddenLabels" action="/candidate/search" method="get">
+  <div class="alert alert-error font11 hide redText p4 mb6">Please enter a search or location.</div>
+    <div class="text label">
+      <label>Job title or keyword:</label>
+      <input type="text" name="search" class="titleField mb15 font14 title_autocomplete" placeholder="Job title, skills or keywords" autocomplete="off" value="" />
+    </div>
+    <div class="text label">
+      <label>City, state or zip:</label>
+      <input type="text" name="location" class="locationField mb15 font14" placeholder="City, state or zip" value="Norfolk, VA" />
+    </div>
+    <select name="radius" class="radiusField mb0 font12 w98p">
+      <option value="100" >Within 100 miles</option>
+      <option value="50" >Within 50 miles</option>
+      <option value="25" >Within 25 miles</option>
+      <option value="10" >Within 10 miles</option>
+      <option value="5" >Within 5 miles</option>
+    </select>
+     
+    <select name="days" class="daysField mt10 font12 w98p mb0">
+      <option value=""   selected="selected">Posted anytime</option>
+      <option value="90" >Within 90 days</option>
+      <option value="30" >Within 30 days</option>
+      <option value="10" >Within 10 days</option>
+      <option value="5" >Within 5 days</option>
+      <option value="1" >Within 1 day</option>
+    </select>
+        
+  <input type="submit" class="btn btn-primary round min-w150 w100pPhone mt13 m0Phone" value="Search Jobs">
+</form>  </div>
+</div>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="https://d2jutb8bry7gi8.cloudfront.net/zrs/d9cfef65/js/bundle-candidate-bootstrap.js"></script>
+<!-- Place this tag after the last Google +1 button tag. -->
+  <script type="text/javascript">
+    (function() {
+      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+      po.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+  </script></body>
+</html>

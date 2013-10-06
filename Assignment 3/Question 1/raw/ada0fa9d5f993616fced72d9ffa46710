@@ -1,0 +1,3640 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<link rel="shortcut icon" href="http://jin115.com/favicon.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="description" content="【超朗報】 『エンジェルビーツ』、ＴＶ未放送エピソードが放送決定！の詳細情報 : オレ的ゲーム速報＠刃のブログ記事ページ" />
+<meta name="keywords" content="オレ的,ゲーム速報,ブログ,ニュース,記事
+,エンジェルビーツ
+,未放送エピソード
+,TBS
+,BS" />
+<link rel="alternate" media="handheld" type="application/xhtml+xml" href="http://blog.m.livedoor.jp/jin115/article/51976347" />
+
+<title>【超朗報】 『エンジェルビーツ』、ＴＶ未放送エピソードが放送決定！ : オレ的ゲーム速報＠刃</title>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://jin115.com/js/fixed20.js"></script>
+
+<script type="text/javascript" src="http://parts.blog.livedoor.jp/js/emoji.js"></script>
+<script type="text/javascript" src="http://parts.blog.livedoor.jp/js/misc.js"></script>
+<script type="text/javascript">
+function ReplaceAnchor() {
+    var anchor = new RegExp("(&gt;&gt;|>>|＞＞|※)([0-9]{1,4})","g");
+    var cmntDiv = document.getElementById("comment_list");
+    var aryDd = cmntDiv.getElementsByTagName("dd");
+    var sHTML;
+    
+    for(var i = 0; i < aryDd.length; i++) {
+        var cmntNum = aryDd[i].getAttribute('id');
+        cmntNum = cmntNum.replace(/commenttext_/, '');
+        sHTML = aryDd[i].innerHTML;
+        sHTML = sHTML.replace(anchor, '<a href="#commentttl_$2" onMouseOver="CommentShow($2, ' + cmntNum + ')" onMouseOut="CommentHide(' + cmntNum + ')">$1$2</a><div class="tooltip" id="commentpopup_' + cmntNum + '"></div>');
+        aryDd[i].innerHTML = sHTML;
+    }
+}
+
+function CommentShow(PopupNumber, CommentNumber) {
+    var cmntTTL = document.getElementById("commentttl_" + PopupNumber);
+    var cmntTXT = document.getElementById("commenttext_" + PopupNumber);
+    var cmntPOP = document.getElementById("commentpopup_" + CommentNumber);
+    cmntPOP.innerHTML = cmntTTL.innerHTML + "<br />" + cmntTXT.innerHTML;
+    cmntPOP.style.display = "inline";
+}
+
+function CommentHide(CommentNumber) {
+    var cmntPOP = document.getElementById("commentpopup_" + CommentNumber);
+    cmntPOP.style.display = "none";
+}
+
+function CommentAnchor(CommentNumber) {
+    document.getElementById('text2').value = ">>" + CommentNumber + "\n";
+}
+</script>
+<script type="text/javascript">
+function tabSwitch(new_tab, new_content, new_content2) {
+	document.getElementById('tab_content_1').style.display = 'none';
+	document.getElementById('tab_content_2').style.display = 'none';
+	document.getElementById('tab_contentB_1').style.display = 'none';
+	document.getElementById('tab_contentB_2').style.display = 'none';
+	document.getElementById(new_content).style.display = 'block';
+	document.getElementById(new_content2).style.display = 'block';
+
+	document.getElementById('rt-controller-next').style.display = 'none';
+	document.getElementById('rt-controller-prev').style.display = 'none';
+	document.getElementById(new_tab).style.display = 'block';
+}
+</script>
+<!-- start Google -->
+<script type="text/javascript"><!--
+google_ad_client = 'ca-livedoor-blogmedia_js';
+google_ad_channel = 'blog041';
+google_ad_section = 'default';
+// -->
+</script>
+<!-- end Google -->
+<meta http-equiv="Content-Type" content="text/html; charset=euc-jp" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link rel="stylesheet" href="http://parts.blog.livedoor.jp/css/template.css?v=20130404" type="text/css" />
+<link rel="stylesheet" href="http://jin115.com/site.css?_=20131005204453" type="text/css" /><link rel="alternate" type="application/rss+xml" title="RSS" href="http://jin115.com/index.rdf" />
+<link rel="alternate" type="application/atom+xml" title="Atom" href="http://jin115.com/atom.xml" /><link rel="canonical" href="http://jin115.com/archives/51976347.html" /><link rel="openid.server" href="http://auth.livedoor.com/openid/server" /><link rel="openid.delegate" href="http://profile.livedoor.com/jin115/" />
+<link rel="mixi-check-alternate" media="mixi-device-mobile" type="text/html" href="http://blog.m.livedoor.jp/jin115/article/51976347" />
+<link rel="mixi-check-alternate" media="mixi-device-smartphone" type="text/html" href="http://jin115.com/archives/51976347.html" />
+
+
+<script type="text/javascript">
+jQuery(function(){
+$('#ads_box').exFlexFixed({
+container : '#contents_left'
+});
+});
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3052588-4', 'jin115.com');
+  ga('send', 'pageview');
+
+</script>
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/83555300/pc_jin115_footer_728x90', [728, 90], 'div-gpt-ad-1380530402230-0').addService(googletag.pubads());
+googletag.defineSlot('/83555300/pc_jin115_mainleft_300x250', [300, 250], 'div-gpt-ad-1380530402230-1').addService(googletag.pubads());
+googletag.defineSlot('/83555300/pc_jin115_mainright_300x250', [300, 250], 'div-gpt-ad-1380530402230-2').addService(googletag.pubads());
+googletag.defineSlot('/83555300/pc_jin115_newsleft_300x250', [300, 250], 'div-gpt-ad-1380530402230-3').addService(googletag.pubads());
+googletag.defineSlot('/83555300/pc_jin115_right2_160x600', [160, 600], 'div-gpt-ad-1380530402230-4').addService(googletag.pubads());
+googletag.defineSlot('/83555300/pc_jin115_right4_160x600', [160, 600], 'div-gpt-ad-1380530402230-5').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-3052588-5']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<!-- Add Header Tag // -->
+<script type="text/javascript">
+(function($){$(document).ready(function(){
+if(typeof(ldb_user_ads_side)!='undefined'){
+$("div.sidetitle:contains('おすすめ')").parents("div.plugin-memo").css({display:'none'});
+$("div.sidetitle:contains('人気アイテム')").parents("div.plugin-memo").css({display:'none'});
+$("div.sidetitle:contains('スポンサードリンク')").parents("div.plugin-memo").css({display:'none'});
+$("#header-top-banner").css({display:'none'});
+$("iframe[src*='microad.jp']").css({display:'none'});
+$("a[href*='www.amazon.co.jp']").css({display:'none'});
+$("div.rakuten").css({display:'none'});
+$("div.ent_ad_f").css({display:'none'});
+//汎用
+$(".jin-ads").css({display:'none'});
+}
+});})(jQuery);
+</script>
+<!-- // Add Header Tag -->
+
+<!-- Add Google Analytics Tag // -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-3052588-2']);
+_gaq.push(['_trackPageview']);
+_gaq.push(['_setCookiePath', '/']);
+
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<!-- // Add Google Analytics Tag -->
+
+</head>
+<body id="article_template"><script type="text/javascript"><!--
+var ld_blog_vars = {
+  provider_id : '1',
+  provider_name : 'livedoor',
+  id : '18480',
+  name : 'jin115',
+  charset : 'euc-jp',
+  url : 'http://jin115.com/',
+  title : 'オレ的ゲーム速報＠刃',
+  blog_design: {
+      version: 1
+  },
+  blog_category: {
+    id: '59',
+    permalink: 'http://blog.livedoor.com/category/59/',
+    name: 'ゲーム(総合) > ゲーム全般',
+    is_adult : 0,
+    is_gambling : 0,
+    hierarchy: [{ id: '58', name: 'ゲーム(総合)', permalink: 'http://blog.livedoor.com/category/58/' },{ id: '59', name: 'ゲーム全般', permalink: 'http://blog.livedoor.com/category/59/' }]
+  },
+  current_page : {
+    type : 'article',    page : ''
+  },
+  articles : [ {
+       id : '51976347',
+       permalink : 'http://jin115.com/archives/51976347.html',
+       title : '【超朗報】 『エンジェルビーツ』、ＴＶ未放送エピソードが放送決定！',
+       categories : [ { id:'50027321', name:'漫画・アニメ・ラノベ', permalink:'http://jin115.com/archives/cat_50027321.html' }, { id:'', name:'', permalink:'' } ],
+       date : '2013-09-26 23:33:13'
+}   ]
+};
+//-->
+</script><div id="analyzer_tags" style="display:none">
+<script type="text/javascript" src="http://parts.blog.livedoor.jp/js/c2.js"></script>
+<script type="text/javascript">blog_counter('jin115', 18480, 'http://jin115.com/')</script>
+</div><script type="text/javascript" src="http://parts.blog.livedoor.jp/js/smartphone.js"></script>
+<script type="text/javascript" src="http://jin115.com/settings/header.js"></script><script type="text/javascript" src="http://jin115.com/settings/ad.js"></script>
+<script type="text/javascript">
+var palette_src = 'http://parts.blog.livedoor.jp/img/emoji/1/palette.gif';
+if (typeof IMAGE_CACHE == 'object' && IMAGE_CACHE['emoji_palette']) IMAGE_CACHE['emoji_palette'].src = palette_src;
+</script>
+
+<div id="top-container">
+
+<!----------------------------------------header---------------------------------------->
+
+<div id="top-header">
+
+<!-- サイトジャック案件 -->
+<!-- div id=dummy_left>
+<a href=http://ccrt.biz/aWYNQj3J target=_blank>
+<img src=http://jin115.com/image/dummy.gif border=0></a>
+</div -->
+
+<!-- div id=dummy_right>
+<a href=http://ccrt.biz/aWYNQj3J target=_blank>
+<img src=http://jin115.com/image/dummy.gif border=0></a>
+</div -->
+
+<script type="text/javascript" src="http://jin115.com/js/ads/JS_BgJack.js" charset="utf-8"></script>
+
+<ul class="submenu">
+	<li><a href="http://jin115.com/archives/51675327.html">連絡先（ネタ投稿）</a>｜</li>
+	<li><a href="http://jin115.com/archives/51329644.html">広告掲載</a>｜</li>
+	<li><a href="http://jin115.com/index.rdf" target="_blank">RSS</a> ｜</li>
+	<li>ブログ内記事検索：
+<form action="http://jin115.com/search" method="GET">
+ <input type="TEXT" name="q" class="text">
+<INPUT type="hidden" name="ie" value="Shift-jis">
+<input name="" type="submit" class="button" value="検索" />
+ </form>｜</li>
+	<li>Google検索：
+
+<FORM method="GET" action="http://www.google.co.jp/search">
+<INPUT type="text" name="q" class="text" value="">
+<INPUT type="submit" name="btnG" class="button" value="検索">
+<INPUT type="hidden" name="hl" value="ja">
+<INPUT type="hidden" name="as_sitesearch" value="jin115.com">
+<INPUT type="hidden" name="ie" value="UTF">
+<input type="hidden" name="oe" value="UTF">
+</FORM><li>
+</ul>
+
+<ul class="submenu2">
+<li>
+<a href="https://twitter.com/#!/jin115" target="_blank"><img src="http://jin115.com/common_images/follow_twitter.png" alt="@jin115 twitter" border="0" /></a>
+</li>
+<li>
+<a href="https://twitter.com/jin115" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" lang="en">Follow @jin115</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>
+</ul>
+
+</div>
+
+
+<div id="header">
+
+<!-- サイトジャック案件、透明ダミー画像 -->
+<!-- div id=dummy_left>
+<a href=http://ccrt.biz/aWYNQj3J target=_blank>
+<img src=http://jin115.com/image/dummy.gif border=0></a>
+</div -->
+
+<!-- div id=dummy_right>
+<a href=http://ccrt.biz/aWYNQj3J target=_blank>
+<img src=http://jin115.com/image/dummy.gif border=0></a>
+</div -->
+
+
+
+<div id="logo"><a href="http://jin115.com/" title="オレ的ゲーム速報＠刃"><img src="http://jin115.com/common_images/oreteki_logo.jpg" alt="オレ的ゲーム速報@刃" width="443"height="90" /></a></div>
+
+<div id="header-top-banner">
+<!--ヘッダー広告バナー【サイズ：728 x 90】-->
+</div>
+
+<div id="header-top-banner-rss">
+<!--ヘッダー広告バナー【サイズ：728 x 90】-->
+<iframe width="728" scrolling="yes" height="89" frameborder="0" title="rsslist" name="rsslist" style="margin:0 0 5px 4px;overflow:hidden;" id="rsslist" src="http://jin115.com/rss20130617.htm">RSS 最新記事</iframe>
+</div>
+
+</div>
+
+<!----------------------------------------/header----------------------------------------> 
+<!-- header_ad -->
+
+<!--IncludeArchives "header_ad.inc"-->
+
+<!-- /header_ad -->
+<div id="container">
+
+<!-- 2012ニコ生バナーここから -->
+
+
+
+
+<!-- 2012ニコ生バナーここまで -->
+
+
+<div id="container_index">
+
+
+<!-- TOP横バナーココから -->
+
+
+<!-- <div id="jin115_ad_b">
+
+<script type="text/javascript" src="http://jin115.com/js/ads/JS_MainTop1190x125.js" charset="utf-8"></script>
+
+</div> -->
+
+
+<!-- TOP横バナーココまで -->
+
+
+<!-- Lefttop広告ココから -->
+
+<div id="sponsered">
+<div id="sponsered_title">スポンサードリンク</div>
+<div id="sponsered_contents">
+<div id="sponsered_contents_fix" class="jin-ads">
+<!-- Google AdSense -->
+<div class="google-user-ad">
+<script type="text/javascript">ldb_user_ads.display('300x250','blog041 blog041_top');</script>
+</div>
+<!-- /Google AdSense -->
+</div>
+</div>
+
+</div>
+
+<!-- Lefttop広告ココまで -->
+
+
+
+<div id="headline">
+
+<!-- RTランキング部分に表示する項目 -->
+<div id="tab_content_1">
+<ul><li><div class="tweet"><a href="https://twitter.com/intent/tweet?text=%E5%A3%B0%E5%84%AA%E3%80%8C%E9%88%B4%E6%9D%91%E5%81%A5%E4%B8%80%E3%80%8D%E3%81%95%E3%82%93%E3%81%A8%E3%80%8C%E5%9D%82%E6%9C%AC%E7%9C%9F%E7%B6%BE%E3%80%8D%E3%81%95%E3%82%93%E3%81%8C%E5%A4%AB%E5%A9%A6%E3%81%9D%E3%82%8D%E3%81%A3%E3%81%A6%E3%80%8E%E7%A9%BA%E3%81%AE%E5%A2%83%E7%95%8C+%E6%9C%AA%E6%9D%A5%E7%A6%8F%E9%9F%B3%E3%80%8F%E8%88%9E%E5%8F%B0%E6%8C%A8%E6%8B%B6%E3%81%A7%E3%82%A4%E3%83%81%E3%83%A3%E3%82%A4%E3%83%81%E3%83%A3%E3%81%97%E3%81%A6%E3%81%84%E3%81%9F%E6%A8%A1%E6%A7%98&url=http%3A%2F%2Fjin115.com%2Farchives%2F51978019.html">4322RT</a></div><dl><dt><a href="http://jin115.com/archives/51978019.html" target="_blank"><img src="http://livedoor.blogimg.jp/jin115/imgs/8/3/83e89759.jpg" width="140" height="70" alt="声優「鈴村健一」さんと「坂本真綾」さんが夫婦そろって『空の境界 未来福音』舞台挨拶でイチャイチャしていた模様" /></a></dt><dd><a href="http://jin115.com/archives/51978019.html" title="声優「鈴村健一」さんと「坂本真綾」さんが夫婦そろって『空の境界 未来福音』舞台挨拶でイチャイチャしていた模様" target="_blank">声優「鈴村健一」さんと「坂本真綾」さんが夫婦そろって『空の境界 ..</a></dd></dl></li><li><div class="tweet"><a href="https://twitter.com/intent/tweet?text=%E3%80%90%E5%A4%A9%E6%89%8D%E6%BC%AB%E7%94%BB%E5%AE%B6%E8%AA%95%E7%94%9F%E3%80%9115%E6%AD%B3%E3%81%AE%E5%B0%91%E5%B9%B4%E3%81%8C%E6%9B%B8%E3%81%84%E3%81%9F%E3%82%B5%E3%83%B3%E3%83%87%E3%83%BC%E3%81%AE%E6%BC%AB%E7%94%BB%E3%81%8C%E3%81%99%E3%81%94%E3%81%99%E3%81%8E%E3%82%8B%E3%81%A8%E8%A9%B1%E9%A1%8C%E3%81%AB%EF%BC%81%E7%94%BB%E5%8A%9B%E3%82%82%E5%90%88%E3%81%A3%E3%81%A6%E8%A9%B1%E3%82%82%E6%B3%A3%E3%81%91%E3%81%A6%E3%82%84%E3%81%B9%E3%81%88%EF%BC%81&url=http%3A%2F%2Fjin115.com%2Farchives%2F51978015.html">3726RT</a></div><dl><dt><a href="http://jin115.com/archives/51978015.html" target="_blank"><img src="http://livedoor.blogimg.jp/jin115/imgs/f/9/f9a6fc84.jpg" width="140" height="70" alt="【天才漫画家誕生】15歳の少年が書いたサンデーの漫画がすごすぎると話題に！画力も合って話も泣けてやべえ！" /></a></dt><dd><a href="http://jin115.com/archives/51978015.html" title="【天才漫画家誕生】15歳の少年が書いたサンデーの漫画がすごすぎると話題に！画力も合って話も泣けてやべえ！" target="_blank">【天才漫画家誕生】15歳の少年が書いたサンデーの漫画がすごすぎる..</a></dd></dl></li><li><div class="tweet"><a href="https://twitter.com/intent/tweet?text=%E3%80%90%E3%81%A9%E3%81%86%E3%81%84%E3%81%86%E3%81%93%E3%81%A8%EF%BC%9F%E3%80%912%E6%AD%B3%E5%85%90%E3%81%AE%E7%94%B7%E3%81%AE%E5%AD%90%E3%81%8C%E3%81%BE%E3%81%95%E3%81%8B%E3%81%AE%E5%A6%8A%E5%A8%A0%EF%BC%81%E3%81%9D%E3%81%97%E3%81%A6%E5%87%BA%E7%94%A3%EF%BD%97%EF%BD%97%EF%BD%97%EF%BD%97%EF%BD%97%EF%BD%97&url=http%3A%2F%2Fjin115.com%2Farchives%2F51978008.html">2588RT</a></div><dl><dt><a href="http://jin115.com/archives/51978008.html" target="_blank"><img src="http://livedoor.blogimg.jp/jin115/imgs/9/e/9eedeebf.jpg" width="140" height="70" alt="【どういうこと？】2歳児の男の子がまさかの妊娠！そして出産ｗｗｗｗｗｗ" /></a></dt><dd><a href="http://jin115.com/archives/51978008.html" title="【どういうこと？】2歳児の男の子がまさかの妊娠！そして出産ｗｗｗｗｗｗ" target="_blank">【どういうこと？】2歳児の男の子がまさかの妊娠！そして出産ｗｗｗ..</a></dd></dl></li><li><div class="tweet"><a href="https://twitter.com/intent/tweet?text=%E3%80%90%E3%81%84%E3%81%84%E3%81%8B%E3%82%89%E4%BB%95%E4%BA%8B%E3%81%97%E3%82%8D%E3%80%91+%E3%80%8E%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC%E3%80%8F%E3%81%AE%E5%86%A8%E6%A8%AB%E7%BE%A9%E5%8D%9A%E5%85%88%E7%94%9F%E3%81%8C%E3%80%8E%E9%BB%92%E5%AD%90%E3%81%AE%E3%83%90%E3%82%B9%E3%82%B1%E3%80%8F%E3%81%AB%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88+%E3%80%8C%E7%A7%81%E3%81%8C%E5%A5%BD%E3%81%8D%E3%81%AA%E3%81%AE%E3%81%AF%E7%B4%AB%E5%8E%9F%E3%81%8F%E3%82%93%E3%81%A7%E3%81%82%E3%82%8B%E3%80%8D&url=http%3A%2F%2Fjin115.com%2Farchives%2F51977981.html">2540RT</a></div><dl><dt><a href="http://jin115.com/archives/51977981.html" target="_blank"><img src="http://livedoor.blogimg.jp/jin115/imgs/f/b/fb21c057.jpg" width="140" height="70" alt="【いいから仕事しろ】 『ハンターハンター』の冨樫義博先生が『黒子のバスケ』にコメント 「私が好きなのは紫原くんである」" /></a></dt><dd><a href="http://jin115.com/archives/51977981.html" title="【いいから仕事しろ】 『ハンターハンター』の冨樫義博先生が『黒子のバスケ』にコメント 「私が好きなのは紫原くんである」" target="_blank">【いいから仕事しろ】 『ハンターハンター』の冨樫義博先生が『黒子..</a></dd></dl></li><li><div class="tweet"><a href="https://twitter.com/intent/tweet?text=%E3%80%90%E8%A8%83%E5%A0%B1%E3%80%91%E3%81%8A%E7%AC%91%E3%81%84%E8%8A%B8%E4%BA%BA%E3%81%AE%E6%A1%9C%E5%A1%9A%E3%82%84%E3%81%A3%E3%81%8F%E3%82%93%E3%80%81%E4%BA%A4%E9%80%9A%E4%BA%8B%E6%95%85%E3%81%A7%E6%AD%BB%E4%BA%A1&url=http%3A%2F%2Fjin115.com%2Farchives%2F51978065.html">2532RT</a></div><dl><dt><a href="http://jin115.com/archives/51978065.html" target="_blank"><img src="http://livedoor.blogimg.jp/jin115/imgs/5/b/5b48aac0.jpg" width="140" height="70" alt="【訃報】お笑い芸人の桜塚やっくん、交通事故で死亡" /></a></dt><dd><a href="http://jin115.com/archives/51978065.html" title="【訃報】お笑い芸人の桜塚やっくん、交通事故で死亡" target="_blank">【訃報】お笑い芸人の桜塚やっくん、交通事故で死亡</a></dd></dl></li></ul>
+</div>
+<div id="tab_content_2">
+<ul><li><div class="tweet"><a href="https://twitter.com/intent/tweet?text=%E3%81%A4%E3%81%84%E3%81%AB%E8%85%90%E5%A5%B3%E5%AD%90%E3%81%8C%E4%B8%BB%E4%BA%BA%E5%85%AC%E3%81%A7%E6%99%AE%E9%80%9A%E3%81%AB3%E6%AC%A1%E5%85%83%E3%81%AE%E7%94%B7%E3%81%A8%E6%81%8B%E3%81%99%E3%82%8B%E5%B0%91%E5%A5%B3%E6%BC%AB%E7%94%BB%E3%81%8C%E7%99%BB%E5%A0%B4%EF%BD%97%EF%BD%97%EF%BD%97%EF%BD%97%EF%BD%97&url=http%3A%2F%2Fjin115.com%2Farchives%2F51978050.html">2429RT</a></div><dl><dt><a href="http://jin115.com/archives/51978050.html" target="_blank"><img src="http://livedoor.blogimg.jp/jin115/imgs/4/0/40b18b04.jpg" width="140" height="70" alt="ついに腐女子が主人公で普通に3次元の男と恋する少女漫画が登場ｗｗｗｗｗ" /></a></dt><dd><a href="http://jin115.com/archives/51978050.html" title="ついに腐女子が主人公で普通に3次元の男と恋する少女漫画が登場ｗｗｗｗｗ" target="_blank">ついに腐女子が主人公で普通に3次元の男と恋する少女漫画が登場ｗｗ..</a></dd></dl></li><li><div class="tweet"><a href="https://twitter.com/intent/tweet?text=%E3%80%8ELINE%E3%80%8F%E3%80%8118%E6%AD%B3%E6%9C%AA%E6%BA%80%E3%81%AE%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BCID%E6%A4%9C%E7%B4%A2%E4%B8%8D%E5%8F%AF%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E6%9C%AA%E6%88%90%E5%B9%B4%E3%81%A8%E5%87%BA%E4%BC%9A%E3%81%84%E5%8E%A8%E3%81%8C%E7%99%BA%E7%8B%82%EF%BD%97%EF%BD%97%EF%BD%97%EF%BD%97%EF%BD%97%EF%BD%97%EF%BD%97%EF%BD%97%EF%BD%97%EF%BD%97%EF%BD%97&url=http%3A%2F%2Fjin115.com%2Farchives%2F51978012.html">2249RT</a></div><dl><dt><a href="http://jin115.com/archives/51978012.html" target="_blank"><img src="http://livedoor.blogimg.jp/jin115/imgs/d/a/daa269fe.jpg" width="140" height="70" alt="『LINE』、18歳未満のユーザーID検索不可になって未成年と出会い厨が発狂ｗｗｗｗｗｗｗｗｗｗｗ" /></a></dt><dd><a href="http://jin115.com/archives/51978012.html" title="『LINE』、18歳未満のユーザーID検索不可になって未成年と出会い厨が発狂ｗｗｗｗｗｗｗｗｗｗｗ" target="_blank">『LINE』、18歳未満のユーザーID検索不可になって未成年と出..</a></dd></dl></li><li><div class="tweet"><a href="https://twitter.com/intent/tweet?text=%E3%80%8EYouTube%E3%80%8F%E3%81%A7%E9%9A%A0%E3%81%97%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E7%99%BA%E8%A6%8B%EF%BC%81%E5%8B%95%E7%94%BB%E5%86%8D%E7%94%9F%E4%B8%AD%E3%81%AB%E3%80%8C1980%E3%80%8D%E3%81%A8%E6%89%93%E3%81%A4%E3%81%A8%E3%83%9F%E3%82%B5%E3%82%A4%E3%83%AB%E3%81%8C%EF%BD%97%EF%BD%97%EF%BD%97%EF%BD%97%EF%BD%97&url=http%3A%2F%2Fjin115.com%2Farchives%2F51978003.html">1584RT</a></div><dl><dt><a href="http://jin115.com/archives/51978003.html" target="_blank"><img src="http://livedoor.blogimg.jp/jin115/imgs/6/4/64e0a3a5.jpg" width="140" height="70" alt="『YouTube』で隠しコマンド発見！動画再生中に「1980」と打つとミサイルがｗｗｗｗｗ" /></a></dt><dd><a href="http://jin115.com/archives/51978003.html" title="『YouTube』で隠しコマンド発見！動画再生中に「1980」と打つとミサイルがｗｗｗｗｗ" target="_blank">『YouTube』で隠しコマンド発見！動画再生中に「1980」と..</a></dd></dl></li><li><div class="tweet"><a href="https://twitter.com/intent/tweet?text=%E3%80%90%E9%96%B2%E8%A6%A7%E6%B3%A8%E6%84%8F%E3%80%91%E3%81%A8%E3%81%82%E3%82%8B%E7%94%B0%E3%82%93%E3%81%BC%E3%81%AB%E7%AB%8B%E3%81%A3%E3%81%A6%E3%81%9F%E3%80%8C%E3%81%B5%E3%81%AA%E3%81%A3%E3%81%97%E3%83%BC%E3%80%8D%E3%81%AE%E3%82%AB%E3%82%AB%E3%82%B7%E3%81%8C%E7%8B%82%E6%B0%97%E3%81%98%E3%81%BF%E3%81%A6%E3%81%A6%E6%80%96%E3%81%99%E3%81%8E%E3%82%8B%EF%BD%97%EF%BD%97%EF%BD%97%EF%BD%97%EF%BD%97%EF%BD%97%EF%BD%97%EF%BD%97%EF%BD%97%EF%BD%97%EF%BD%97&url=http%3A%2F%2Fjin115.com%2Farchives%2F51978004.html">966RT</a></div><dl><dt><a href="http://jin115.com/archives/51978004.html" target="_blank"><img src="http://livedoor.blogimg.jp/jin115/imgs/9/e/9e638150.jpg" width="140" height="70" alt="【閲覧注意】とある田んぼに立ってた「ふなっしー」のカカシが狂気じみてて怖すぎるｗｗｗｗｗｗｗｗｗｗｗ" /></a></dt><dd><a href="http://jin115.com/archives/51978004.html" title="【閲覧注意】とある田んぼに立ってた「ふなっしー」のカカシが狂気じみてて怖すぎるｗｗｗｗｗｗｗｗｗｗｗ" target="_blank">【閲覧注意】とある田んぼに立ってた「ふなっしー」のカカシが狂気じ..</a></dd></dl></li><li><div class="tweet"><a href="https://twitter.com/intent/tweet?text=%E3%80%8E%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BCXY%E3%80%8F+%E3%80%8C%E3%83%A1%E3%82%AC%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%89%E3%82%B9%E3%80%8D%E3%81%8C%E5%88%A4%E6%98%8E%EF%BC%81+%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E4%B8%80%E8%A6%A7%E7%94%BB%E5%83%8F%E3%82%82%E7%99%BB%E5%A0%B4%EF%BC%81&url=http%3A%2F%2Fjin115.com%2Farchives%2F51977975.html">915RT</a></div><dl><dt><a href="http://jin115.com/archives/51977975.html" target="_blank"><img src="http://livedoor.blogimg.jp/jin115/imgs/3/e/3ec31b45.jpg" width="140" height="70" alt="『ポケットモンスターXY』 「メガギャラドス」が判明！ ポケモン一覧画像も登場！" /></a></dt><dd><a href="http://jin115.com/archives/51977975.html" title="『ポケットモンスターXY』 「メガギャラドス」が判明！ ポケモン一覧画像も登場！" target="_blank">『ポケットモンスターXY』 「メガギャラドス」が判明！ ポケモン..</a></dd></dl></li></ul>
+</div>
+
+<link rel="stylesheet" href="http://jin115.com/archives/materials/article_comment_ranking4.css" type="text/css" />
+
+<div>
+	<div id="tab_contentB_1">
+	<ul>
+	
+
+			<li>
+			<div class="c_rank">
+				<a href="http://jin115.com/archives/51977954.html">624<span style="">コメ</span></a>
+			</div>
+
+			<dl>
+				<dt>
+				<a target="_blank" href="http://jin115.com/archives/51977954.html">
+				<img width="140" height="70" alt="【炎上】 PS4予約瞬殺で公式ブログが大荒れ！ 「売る気がないならもう日本から撤退しちゃえば？」" src="http://livedoor.blogimg.jp/jin115/imgs/d/f/dfcdcbf6.jpg" />
+				</a>
+				</dt>
+				<dd>
+				<a target="_blank" style="display: block;height: 42px;overflow: hidden;" title="【炎上】 PS4予約瞬殺で公式ブログが大荒れ！ 「売る気がないならもう日本から撤退しちゃえば？」" href="http://jin115.com/archives/51977954.html">【炎上】 PS4予約瞬殺で公式ブログが大荒れ！ 「売る気がないならもう日本から撤退しちゃえば？」.</a>
+				</dd>
+			</dl>
+			</li>
+
+	        
+
+			<li>
+			<div class="c_rank">
+				<a href="http://jin115.com/archives/51977883.html">411<span style="">コメ</span></a>
+			</div>
+
+			<dl>
+				<dt>
+				<a target="_blank" href="http://jin115.com/archives/51977883.html">
+				<img width="140" height="70" alt="【！？】嵐のライブに当選した人へ批判ツイートが殺到！「落選した人のこと考えないのは犯罪です」「まず犯罪。人としてありえん。」" src="http://livedoor.blogimg.jp/jin115/imgs/8/2/826bed11.jpg" />
+				</a>
+				</dt>
+				<dd>
+				<a target="_blank" style="display: block;height: 42px;overflow: hidden;" title="【！？】嵐のライブに当選した人へ批判ツイートが殺到！「落選した人のこと考えないのは犯罪です」「まず犯罪。人としてありえん。」" href="http://jin115.com/archives/51977883.html">【！？】嵐のライブに当選した人へ批判ツイートが殺到！「落選した人のこと考えないのは犯罪です」「まず犯罪。人としてありえん。」.</a>
+				</dd>
+			</dl>
+			</li>
+
+	        
+
+			<li>
+			<div class="c_rank">
+				<a href="http://jin115.com/archives/51977829.html">403<span style="">コメ</span></a>
+			</div>
+
+			<dl>
+				<dt>
+				<a target="_blank" href="http://jin115.com/archives/51977829.html">
+				<img width="140" height="70" alt="【悲報】『モンスターハンター4』をプレイしていた声優「竹達彩奈」さん、見知らぬ人に「ちゃんと働いてください」と言われ蹴られる" src="http://livedoor.blogimg.jp/jin115/imgs/e/e/eeec5910.jpg" />
+				</a>
+				</dt>
+				<dd>
+				<a target="_blank" style="display: block;height: 42px;overflow: hidden;" title="【悲報】『モンスターハンター4』をプレイしていた声優「竹達彩奈」さん、見知らぬ人に「ちゃんと働いてください」と言われ蹴られる" href="http://jin115.com/archives/51977829.html">【悲報】『モンスターハンター4』をプレイしていた声優「竹達彩奈」さん、見知らぬ人に「ちゃんと働いてください」と言われ蹴られる.</a>
+				</dd>
+			</dl>
+			</li>
+
+	        
+
+			<li>
+			<div class="c_rank">
+				<a href="http://jin115.com/archives/51977744.html">397<span style="">コメ</span></a>
+			</div>
+
+			<dl>
+				<dt>
+				<a target="_blank" href="http://jin115.com/archives/51977744.html">
+				<img width="140" height="70" alt="アキバのオタクが嫌韓デモにブチギレ！ 「ヲタ=ネトウヨって印象操作されたらたまんねぇ」" src="http://livedoor.blogimg.jp/jin115/imgs/d/7/d7a354ad.jpg" />
+				</a>
+				</dt>
+				<dd>
+				<a target="_blank" style="display: block;height: 42px;overflow: hidden;" title="アキバのオタクが嫌韓デモにブチギレ！ 「ヲタ=ネトウヨって印象操作されたらたまんねぇ」" href="http://jin115.com/archives/51977744.html">アキバのオタクが嫌韓デモにブチギレ！ 「ヲタ=ネトウヨって印象操作されたらたまんねぇ」.</a>
+				</dd>
+			</dl>
+			</li>
+
+	        
+
+			<li>
+			<div class="c_rank">
+				<a href="http://jin115.com/archives/51978015.html">393<span style="">コメ</span></a>
+			</div>
+
+			<dl>
+				<dt>
+				<a target="_blank" href="http://jin115.com/archives/51978015.html">
+				<img width="140" height="70" alt="【天才漫画家誕生】15歳の少年が書いたサンデーの漫画がすごすぎると話題に！画力も合って話も泣けてやべえ！" src="http://livedoor.blogimg.jp/jin115/imgs/f/9/f9a6fc84.jpg" />
+				</a>
+				</dt>
+				<dd>
+				<a target="_blank" style="display: block;height: 42px;overflow: hidden;" title="【天才漫画家誕生】15歳の少年が書いたサンデーの漫画がすごすぎると話題に！画力も合って話も泣けてやべえ！" href="http://jin115.com/archives/51978015.html">【天才漫画家誕生】15歳の少年が書いたサンデーの漫画がすごすぎると話題に！画力も合って話も泣けてやべえ！.</a>
+				</dd>
+			</dl>
+			</li>
+
+	        
+	</ul>
+	</div>
+
+
+	<div id="tab_contentB_2" style="display:none;">
+	<ul>
+	
+
+			<li>
+			<div class="c_rank">
+				<a href="http://jin115.com/archives/51978065.html">348<span style="">コメ</span></a>
+			</div>
+
+			<dl>
+				<dt>
+				<a target="_blank" href="http://jin115.com/archives/51978065.html">
+				<img width="140" height="70" alt="【訃報】お笑い芸人の桜塚やっくん、交通事故で死亡" src="http://livedoor.blogimg.jp/jin115/imgs/5/b/5b48aac0.jpg" />
+				</a>
+				</dt>
+				<dd>
+				<a target="_blank" style="display: block;height: 42px;overflow: hidden;" title="【訃報】お笑い芸人の桜塚やっくん、交通事故で死亡" href="http://jin115.com/archives/51978065.html">【訃報】お笑い芸人の桜塚やっくん、交通事故で死亡.</a>
+				</dd>
+			</dl>
+			</li>
+
+	        
+
+			<li>
+			<div class="c_rank">
+				<a href="http://jin115.com/archives/51977731.html">334<span style="">コメ</span></a>
+			</div>
+
+			<dl>
+				<dt>
+				<a target="_blank" href="http://jin115.com/archives/51977731.html">
+				<img width="140" height="70" alt="関西人「東京の人間はコミュ障かサイコパス」ｗｗｗｗｗｗｗｗｗｗｗｗｗ" src="http://livedoor.blogimg.jp/jin115/imgs/d/3/d37043db.jpg" />
+				</a>
+				</dt>
+				<dd>
+				<a target="_blank" style="display: block;height: 42px;overflow: hidden;" title="関西人「東京の人間はコミュ障かサイコパス」ｗｗｗｗｗｗｗｗｗｗｗｗｗ" href="http://jin115.com/archives/51977731.html">関西人「東京の人間はコミュ障かサイコパス」ｗｗｗｗｗｗｗｗｗｗｗｗｗ.</a>
+				</dd>
+			</dl>
+			</li>
+
+	        
+
+			<li>
+			<div class="c_rank">
+				<a href="http://jin115.com/archives/51977911.html">317<span style="">コメ</span></a>
+			</div>
+
+			<dl>
+				<dt>
+				<a target="_blank" href="http://jin115.com/archives/51977911.html">
+				<img width="140" height="70" alt="【ヤベェ】ツイッターで殺害予告！「秋原葉にサリン撒きます。僕は本気です。秋原葉にサリン撒いて多くの人と一緒に死にます。  」" src="http://livedoor.blogimg.jp/jin115/imgs/6/4/645a63f5.jpg" />
+				</a>
+				</dt>
+				<dd>
+				<a target="_blank" style="display: block;height: 42px;overflow: hidden;" title="【ヤベェ】ツイッターで殺害予告！「秋原葉にサリン撒きます。僕は本気です。秋原葉にサリン撒いて多くの人と一緒に死にます。  」" href="http://jin115.com/archives/51977911.html">【ヤベェ】ツイッターで殺害予告！「秋原葉にサリン撒きます。僕は本気です。秋原葉にサリン撒いて多くの人と一緒に死にます。  」.</a>
+				</dd>
+			</dl>
+			</li>
+
+	        
+
+			<li>
+			<div class="c_rank">
+				<a href="http://jin115.com/archives/51977831.html">298<span style="">コメ</span></a>
+			</div>
+
+			<dl>
+				<dt>
+				<a target="_blank" href="http://jin115.com/archives/51977831.html">
+				<img width="140" height="70" alt="【閲覧注意】このメンヘラブログやべぇわｗｗｗｗｗｗｗドキッとしたわｗｗｗｗｗｗ" src="http://livedoor.blogimg.jp/jin115/imgs/a/4/a435b34d.jpg" />
+				</a>
+				</dt>
+				<dd>
+				<a target="_blank" style="display: block;height: 42px;overflow: hidden;" title="【閲覧注意】このメンヘラブログやべぇわｗｗｗｗｗｗｗドキッとしたわｗｗｗｗｗｗ" href="http://jin115.com/archives/51977831.html">【閲覧注意】このメンヘラブログやべぇわｗｗｗｗｗｗｗドキッとしたわｗｗｗｗｗｗ.</a>
+				</dd>
+			</dl>
+			</li>
+
+	        
+
+			<li>
+			<div class="c_rank">
+				<a href="http://jin115.com/archives/51977605.html">296<span style="">コメ</span></a>
+			</div>
+
+			<dl>
+				<dt>
+				<a target="_blank" href="http://jin115.com/archives/51977605.html">
+				<img width="140" height="70" alt="次世代機売るなら日本より中国！ 日本とか比べ物にならないレベルｗｗｗｗｗ" src="http://livedoor.blogimg.jp/jin115/imgs/b/e/be1c40be.jpg" />
+				</a>
+				</dt>
+				<dd>
+				<a target="_blank" style="display: block;height: 42px;overflow: hidden;" title="次世代機売るなら日本より中国！ 日本とか比べ物にならないレベルｗｗｗｗｗ" href="http://jin115.com/archives/51977605.html">次世代機売るなら日本より中国！ 日本とか比べ物にならないレベルｗｗｗｗｗ.</a>
+				</dd>
+			</dl>
+			</li>
+
+	        
+	</ul>
+	</div>
+</div>
+        
+
+<div id=oshirase>
+	<div id=oshirase-box><div class="message-board-outer"><div class="message-board-outer-2"><div class="message-board-outer-3"><div class="message-board"><b><a href="http://jin115.com/archives/51976776.html">今週発売のゲーム『SPEC〜干〜』、『Halo4： Game of the Year Edition』、『ギアーズオブウォー3（プラチナコレクション）』など</a></b></div></div></div></div>
+
+</div>
+</div>
+
+    <!-- RTランキング コントローラ（矢印ボタン）-->
+    <div id="rt-controller-next">
+        <!--右向きの矢印 -->
+        <a href="javascript:tabSwitch('rt-controller-prev', 'tab_content_2', 'tab_contentB_2');"><img border="0" height="27" width="52" src="http://jin115.com/common_images/new_rt_arrow_right.jpg"></a>
+    </div>
+
+    <div id="rt-controller-prev">
+        <!--左向きの矢印 -->
+        <a href="javascript:tabSwitch('rt-controller-next', 'tab_content_1', 'tab_contentB_1');"><img border="0" height="27" width="52" src="http://jin115.com/common_images/new_rt_arrow_left.jpg"></a>
+    </div>
+    <!-- RTランキング コントローラここまで-->
+
+<!-- div class=banner_f -->
+<!-- IncludeArchives "top_ad_D.inc" -->
+<!-- /div -->
+
+</div></div>
+
+<!--------------------------------------index/-------------------------------------->
+
+<div id="contents_left"><div id="contents">
+
+<div class="jin-ads">
+<!--
+<script type="text/javascript" src="http://jin115.com/js/ads/JS_MainTop728x90.js" charset="utf-8"></script>
+-->
+</div>
+
+<!-- 旧RSS -->
+<!-- IncludeArchives "blogroll.inc" -->
+
+
+<div id="new-tab">
+<ul class="navi">
+<li><a href="http://jin115.com/">HOME</a></li>
+<li>|<a href="http://jin115.com/archives/cat_50028631.html">PS4</a></li>
+<li>|<a href="http://jin115.com/archives/cat_50009480.html">PS3</a></li>
+<li>|<a href="http://jin115.com/archives/cat_50009434.html">PSP</a></li>
+<li>|<a href="http://jin115.com/archives/cat_50027518.html">PSVita</a></li>
+<li>|<a href="http://jin115.com/archives/cat_50027521.html">WiiU</a></li>
+<li>|<a href="http://jin115.com/archives/cat_50011816.html">Wii</a></li>
+<li>|<a href="http://jin115.com/archives/cat_50009465.html">DS</a></li>
+<li>|<a href="http://jin115.com/archives/cat_50027516.html">3DS</a></li>
+<li>|<a href="http://jin115.com/archives/cat_50028723.html">XBONE</a></li>
+<li>|<a href="http://jin115.com/archives/cat_50012046.html">XB360</a></li>
+<li>|<a href="http://jin115.com/archives/cat_50027984.html">PC</a></li>
+<li>|<a href="http://jin115.com/archives/cat_50026783.html">ゲーム売上</a></li>
+<br>
+<li><a href="http://jin115.com/archives/cat_50011986.html">ゲーム業界</a></li>
+<li>|<a href="http://jin115.com/archives/cat_50027321.html">漫画・アニメ</a></li>
+<li>|<a href="http://jin115.com/archives/cat_50028407.html">映画</a></li>
+<li>|<a href="http://jin115.com/archives/cat_50028183.html">芸能</a></li>
+<li>|<a href="http://jin115.com/archives/cat_50028182.html">政治</a></li>
+<li>|<a href="http://jin115.com/archives/cat_50009743.html">酷い話・事件</a></li>
+<li>|<a href="http://jin115.com/archives/cat_50028184.html">中国・韓国</a></li>
+<li>|<a href="http://jin115.com/archives/cat_50028294.html">飲食</a></li>
+<li>|<a href="http://jin115.com/archives/cat_46898.html">雑談</a></li>
+<li>|<a href="http://jin115.com/archives/cat_50028422.html">感想・レビュー</a></li>
+<br>
+<li><a href="http://jin115.com/archives/cat_50027394.html">ちょっといい話</a>
+<li>|<a href="http://jin115.com/archives/cat_50025114.html">声優</a>
+<li>|<a href="http://jin115.com/archives/cat_50028467.html">恋愛ネタ</a>
+<li>|<a href="http://jin115.com/archives/cat_50027479.html">ニコニコ動画</a>
+<li>|<a href="http://jin115.com/archives/cat_50027839.html">周辺機器</a>
+<li>|<li><a href="http://jin115.com/archives/cat_50027272.html">モバイル系</a></li>
+<li>|<li><a href="http://jin115.com/archives/cat_50026357.html">ら列</a></li>
+<li>|<a href="http://jin115.com/archives/cat_50028423.html">お知らせ</a></li>
+<li>|<li><a href="http://jin115.com/archives/cat_50028044.html">新作ゲーム</a></li></ul>
+</div>
+
+
+<!----------------------------------------article---------------------------------------->
+<div class="article"> 
+
+
+
+
+<!--article_header-->
+<div class="article_header">
+
+<h1><a href="http://jin115.com/archives/51976347.html" title="【超朗報】 『エンジェルビーツ』、ＴＶ未放送エピソードが放送決定！" rel="bookmark">
+【超朗報】 『エンジェルビーツ』、ＴＶ未放送エピソードが放送決定！
+</a></h1>
+
+<ul id="out_button">
+<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="Jin115" data-lang="ja">ツイート</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+</ul>
+
+<!--feedly button-->
+<ul id="out_button">
+<li><a href='http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fjin115.com%2Findex.rdf'  target='blank'><img id='feedlyFollow' src='http://s3.feedly.com/img/follows/feedly-follow-rectangle-volume-small_2x.png' alt='follow us in feedly' width='66' height='20'></a></li>
+</ul>
+
+<ul>
+<li><abbr title="2013-09-26T23:33:13+0900">
+2013年09月26日
+23:33
+</abbr>｜</li>
+
+<li><a href="http://jin115.com/archives/51976347.html#comment_list" title="Comment">コメント（
+98
+）</a>｜</li>
+
+
+<li><a href="http://jin115.com/archives/cat_50027321.html" title="漫画・アニメ・ラノベ">
+漫画・アニメ・ラノベ
+</a>｜</li>
+
+
+
+
+</ul>
+
+
+
+
+</div>
+<!--/article_header--> 
+<!--article_body-->
+<div class="article_body">
+
+
+
+<div id="ad_rs" class="ad_rs_c"></div><p class="center"><img src="http://livedoor.blogimg.jp/jin115/imgs/4/8/485dae97-s.jpg" alt="img_934182_12776838_2" width="450" border="1" hspace="5" class="pict" /></p>
+
+
+
+</div>
+<!--/article_body-->
+<div class="ent_ad_md">
+<!-- Google AdSense -->
+<div class="google-user-ad-728">
+<script type="text/javascript">ldb_user_ads.display('728x90','blog041 blog041_middle');</script>
+</div>
+<!-- /Google AdSense -->
+</div>
+
+<div class="article_bodymore"> <a name="more"></a>
+
+<blockquote><font color="#3300FF"><b>BS-TBS Angel Beats！特別篇</b></font><br>
+<br>
+<img src="http://livedoor.blogimg.jp/jin115/imgs/4/1/4137f030.jpg" alt="game_00075" width="400" border="1" hspace="5" class="pict" /><br>
+<br>
+<b>2013/10/5(土)　深夜0:00〜0:30</b><br>
+<br>
+「Angel Beats！」は、2010年4月〜6月に放送されていたテレビシリーズ。<br>
+今回はDVDにのみ収録され、<font color="#CC0000"><b>テレビシリーズでは未放送だったエキストラエピソードを特別放送</b></font>します。 <br>
+<br>
+【キャスト】<br>
+<br>
+音無：神谷浩史<br>
+ゆり：櫻井浩美<br>
+天使：花澤香菜 他<br>
+<br>
+＜中略＞<br>
+<br>
+<b>【特別篇あらすじ】(※今回放送分) </b><br>
+<br>
+ある日の作戦本部。ゆりが「オペレーション・ハイテンションシンドローム」という新たな作戦を打ち出した。 <br>
+しかし、聞いたことのない作戦名に戦線メンバーは戸惑ってしまう。 <br>
+ゆりが説明するには、とにかく楽しくハイテンションに学園生活を送っているふりをして、それを見た天使を混乱させて、神に報告させる作戦だという。 <br>
+そして、その後をついて行けば神の元に辿り着けるはずだと、ゆりは熱弁する。 <br>
+しかし、そのためには、メンバー全員がずっとハイテンションを保ち続けなければいけない。しかも、失敗した場合は一週間の断食という悪魔のような罰ゲームがゆりから科せられてしまう。そして、遂にオペレーションは始まったのだが･･････。<br>
+<br>
+<a href="http://www.bs-tbs.co.jp/anime/INT1301200/" target="_blank"><font size="+1"><b>以下、全文を読む</b></font></a></blockquote><br>
+<br>
+<br>
+<br>
+うわああああああああああああ<br>
+超感動大作エンジェルビーツの未放送エキストラエピソードきたああああああああ<br>
+涙腺やばい、涙腺やばいおーーーーーっ<br>
+<img src="http://livedoor.blogimg.jp/jin115/imgs/7/9/79fb1447.gif" alt="ruioiuytr" width="428" border="0" hspace="5" class="pict" /><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+エンジェルビーツが超感動大作？<br>
+あれで泣けるのってお前だけじゃね？<br>
+<img src="http://livedoor.blogimg.jp/jin115/imgs/9/4/9467b835.gif" alt="AA1" width="268" border="0" hspace="5" class="pict" /><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<img src="http://livedoor.blogimg.jp/jin115/imgs/7/3/730e7151.gif" alt="AA3" width="284" border="0" hspace="5" class="pict" /><br>
+<br>
+<br>
+<br>
+<br>
+<iframe width="420" height="315" src="//www.youtube.com/embed/7mTtNozxOKY" frameborder="0" allowfullscreen></iframe><br>
+<br>
+<table style="text-align:left;margin-left:0;margin-right:0;"><tbody><tr><td><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00791E8HY/netgameyaiba-22/ref=nosim/" target="_blank"><img border="0" src="http://ecx.images-amazon.com/images/I/514I7bQtGTL._SL200_.jpg" hspace="5"></a></td><td valign="top"><div align="left"><span><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00791E8HY/netgameyaiba-22/ref=nosim/" target="_blank">Angel Beats! / エンジェルビーツ! コンプリート DVD-BOX (13話+OVA, 344分) アニメ [DVD] [Import]</a><br /><br />発売日：<br />メーカー：<br />カテゴリ：DVD<br />セールスランク：11883<br /><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00791E8HY/netgameyaiba-22/ref=nosim/" target="_blank">Amazon.co.jp で詳細を見る</a></span></div></td></tr></table><br>
+<table style="text-align:left;margin-left:0;margin-right:0;"><tbody><tr><td><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B003LNTDDS/netgameyaiba-22/ref=nosim/" target="_blank"><img border="0" src="http://ecx.images-amazon.com/images/I/419CHrYgYvL._SL202_.jpg" hspace="5"></a></td><td valign="top"><div align="left"><span><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B003LNTDDS/netgameyaiba-22/ref=nosim/" target="_blank">TVアニメ「Angel Beats!」オリジナルサウンドトラック</a><br /><br />発売日：2010-07-28<br />メーカー：アニプレックス<br />カテゴリ：Music<br />セールスランク：1216<br /><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B003LNTDDS/netgameyaiba-22/ref=nosim/" target="_blank">Amazon.co.jp で詳細を見る</a></span></div></td></tr></table>
+
+
+</div>
+
+<div class="footer_social_ad">
+<!--記事下広告はここに-->
+<div class=ent_ad_f>
+
+<script type="text/javascript" src="http://jin115.com/js/ads/JS_MainMiddle300x250-1.js" charset="utf-8"></script>
+
+</div>
+<ul class="social_links">
+  <li><a href="javascript:(function(){f='http://twitter.com/home?status='+encodeURIComponent('【超朗報】 『エンジェルビーツ』、ＴＶ未放送エピソードが放送決定！ http://jin115.com/archives/51976347.html');a=function(){if(!window.open(f,'_blank'))location.href=f};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})()"><img src="http://jin115.com/common_images/footer_tweetbtn.png" border="0"></a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script><li>
+  <li><a  href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 'facebook-share-dialog', 'width=626,height=436'); return false;"><img src="http://jin115.com/common_images/footer_facebookbtn.png" border="0"></a><li>
+  <li><a href="https://plus.google.com/share?url=http://jin115.com/archives/51976347.html" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=550');return false;" target="_blank"><img src="http://jin115.com/common_images/footer_googlebtn.png" border="0"></a><li>
+  <li><a href="http://b.hatena.ne.jp/entry/http://jin115.com/archives/51976347.html" title="このエントリーをはてなブックマークに追加" target="_blank"><img src="http://jin115.com/common_images/footer_hateb.png" border="0"></a><li>
+</ul>
+</div>
+<br/>
+
+<div id="ad2"></div>
+
+
+<!--
+<ul class="outward_plugins">
+<li><a href="javascript:(function(){f='http://twitter.com/home?status='+encodeURIComponent('【超朗報】 『エンジェルビーツ』、ＴＶ未放送エピソードが放送決定！ http://jin115.com/archives/51976347.html');a=function(){if(!window.open(f,'_blank'))location.href=f};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})()"><img src="http://jin115.com/common_images/footer_btn_twitter.png" width="720" height="45" /></a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></li>
+</ul>
+-->
+
+<ul id="tags">
+<li>タグ：　<li>
+
+
+
+<li><a href="http://jin115.com/tag/%E3%82%A8%E3%83%B3%E3%82%B8%E3%82%A7%E3%83%AB%E3%83%93%E3%83%BC%E3%83%84" rel="tag">エンジェルビーツ</a>　</li>
+
+
+<li><a href="http://jin115.com/tag/%E6%9C%AA%E6%94%BE%E9%80%81%E3%82%A8%E3%83%94%E3%82%BD%E3%83%BC%E3%83%89" rel="tag">未放送エピソード</a>　</li>
+
+
+<li><a href="http://jin115.com/tag/TBS" rel="tag">TBS</a>　</li>
+
+
+<li><a href="http://jin115.com/tag/BS" rel="tag">BS</a>　</li>
+
+
+</ul>
+
+<!--/article_bodymore--> 
+<!--article_ad--> 
+
+<!--article_ad-->
+<div class="related-articles">
+<h3>「漫画・アニメ・ラノベ」カテゴリの最新記事</h3>
+<ul>
+<li><a href="http://jin115.com/archives/51978068.html">【無理ゲー】実際に「殺せんせー」の暗殺に挑戦できる『暗殺教室』のイベントが開催されるぞー！！</a></li>
+<li><a href="http://jin115.com/archives/51978083.html">漫画編集者が選ぶ『漫画家が主人公の漫画』ランキング！1位『ブラック・ジャック創作秘話』、2位『まんが道』、9位『バクマン』</a></li>
+<li><a href="http://jin115.com/archives/51978050.html">ついに腐女子が主人公で普通に3次元の男と恋する少女漫画が登場ｗｗｗｗｗ</a></li>
+<li><a href="http://jin115.com/archives/51978019.html">声優「鈴村健一」さんと「坂本真綾」さんが夫婦そろって『空の境界 未来福音』舞台挨拶でイチャイチャしていた模様</a></li>
+<li><a href="http://jin115.com/archives/51978015.html">【天才漫画家誕生】15歳の少年が書いたサンデーの漫画がすごすぎると話題に！画力も合って話も泣けてやべえ！</a></li></ul>
+</div>
+
+<div id="category-link">
+
+[&nbsp;<a href="http://jin115.com/archives/cat_50027321.html" title="漫画・アニメ・ラノベ">漫画・アニメ・ラノベの記事一覧</a>&nbsp;]
+
+
+
+</div>
+<br/>
+<div id="hot_tweet">
+<h2>今週の人気記事</h2>
+<script type="text/javascript" src="http://jin115.com/js/hot_tweet_16.js" charset="UTF-8"></script>
+</div>
+
+
+
+<div>
+	<div id="popular_articles_comment">
+		<div>
+			<ul>
+			
+
+			<li>
+			<div class="c_rank">
+				<a href="http://jin115.com/archives/51977954.html">624<span style="">コメ</span></a>
+			</div>
+
+			<dl>
+				<dt>
+				<a target="_blank" href="http://jin115.com/archives/51977954.html">
+				<img width="151" height="81" alt="【炎上】 PS4予約瞬殺で公式ブログが大荒れ！ 「売る気がないならもう日本から撤退しちゃえば？」" src="http://livedoor.blogimg.jp/jin115/imgs/d/f/dfcdcbf6.jpg" />
+				</a>
+				</dt>
+				<dd>
+				<a target="_blank" title="【炎上】 PS4予約瞬殺で公式ブログが大荒れ！ 「売る気がないならもう日本から撤退しちゃえば？」" href="http://jin115.com/archives/51977954.html">【炎上】 PS4予約瞬殺で公式ブログが大荒れ！ 「売る気がないならもう日本から撤退しちゃえば？」.</a>
+				</dd>
+			</dl>
+			</li>
+
+	        
+
+			<li>
+			<div class="c_rank">
+				<a href="http://jin115.com/archives/51977883.html">411<span style="">コメ</span></a>
+			</div>
+
+			<dl>
+				<dt>
+				<a target="_blank" href="http://jin115.com/archives/51977883.html">
+				<img width="151" height="81" alt="【！？】嵐のライブに当選した人へ批判ツイートが殺到！「落選した人のこと考えないのは犯罪です」「まず犯罪。人としてありえん。」" src="http://livedoor.blogimg.jp/jin115/imgs/8/2/826bed11.jpg" />
+				</a>
+				</dt>
+				<dd>
+				<a target="_blank" title="【！？】嵐のライブに当選した人へ批判ツイートが殺到！「落選した人のこと考えないのは犯罪です」「まず犯罪。人としてありえん。」" href="http://jin115.com/archives/51977883.html">【！？】嵐のライブに当選した人へ批判ツイートが殺到！「落選した人のこと考えないのは犯罪です」「まず犯罪。人としてありえん。」.</a>
+				</dd>
+			</dl>
+			</li>
+
+	        
+
+			<li>
+			<div class="c_rank">
+				<a href="http://jin115.com/archives/51977829.html">403<span style="">コメ</span></a>
+			</div>
+
+			<dl>
+				<dt>
+				<a target="_blank" href="http://jin115.com/archives/51977829.html">
+				<img width="151" height="81" alt="【悲報】『モンスターハンター4』をプレイしていた声優「竹達彩奈」さん、見知らぬ人に「ちゃんと働いてください」と言われ蹴られる" src="http://livedoor.blogimg.jp/jin115/imgs/e/e/eeec5910.jpg" />
+				</a>
+				</dt>
+				<dd>
+				<a target="_blank" title="【悲報】『モンスターハンター4』をプレイしていた声優「竹達彩奈」さん、見知らぬ人に「ちゃんと働いてください」と言われ蹴られる" href="http://jin115.com/archives/51977829.html">【悲報】『モンスターハンター4』をプレイしていた声優「竹達彩奈」さん、見知らぬ人に「ちゃんと働いてください」と言われ蹴られる.</a>
+				</dd>
+			</dl>
+			</li>
+
+	        
+
+			<li>
+			<div class="c_rank">
+				<a href="http://jin115.com/archives/51977744.html">397<span style="">コメ</span></a>
+			</div>
+
+			<dl>
+				<dt>
+				<a target="_blank" href="http://jin115.com/archives/51977744.html">
+				<img width="151" height="81" alt="アキバのオタクが嫌韓デモにブチギレ！ 「ヲタ=ネトウヨって印象操作されたらたまんねぇ」" src="http://livedoor.blogimg.jp/jin115/imgs/d/7/d7a354ad.jpg" />
+				</a>
+				</dt>
+				<dd>
+				<a target="_blank" title="アキバのオタクが嫌韓デモにブチギレ！ 「ヲタ=ネトウヨって印象操作されたらたまんねぇ」" href="http://jin115.com/archives/51977744.html">アキバのオタクが嫌韓デモにブチギレ！ 「ヲタ=ネトウヨって印象操作されたらたまんねぇ」.</a>
+				</dd>
+			</dl>
+			</li>
+
+	        
+			</ul>
+		</div>
+	</div>
+</div>
+
+        
+
+<div id="other_news_website">
+<h2>その他おすすめサイト</h2>
+<iframe width="710" scrolling="yes" height="335" frameborder="0" title="rsslist" name="rsslist" style="margin:0 0 5px 4px;overflow:hidden;" id="rsslist" src="http://jin115.com/rss20130823.htm">RSS 最新記事</iframe>
+</div>
+
+<div class="jin-ads">
+<div class=ent_ad_md>
+<script type="text/javascript" src="http://jin115.com/js/ads/JS_MainBottom300x250-1.js" charset="utf-8"></script>
+</div>
+
+
+<!--ad_amazon-->
+<div class="ad_amazon">
+<h2>Amazonお買い得品ランキング</h2>
+
+<!--------記事下Amazon Ranking------------>
+<table class="ad_amazon_rank"><tbody><tr><td>
+
+
+<!------------＜＜左から1列目＞＞------------>
+<!--ゲーム/バーゲンコーナー の ベストセラー-->
+<!--http://www.amazon.co.jp/gp/rss/bestsellers/videogames/3245011/ref=zg_bs_3245011_rsslink&tag=gamescalendar-22-->
+<script type="text/javascript" src="http://jin115.com/js/amazon_videogames4.js" charset="UTF-8"></script>
+<!------------------------------------------->
+</td><td>
+<!------------＜＜左から2列目＞＞------------>
+<!--ゲーム/廉価版 - トップセラー-->
+<!--http://www.amazon.co.jp/gp/rss/bestsellers/videogames/700976/ref=zg_bs_700976_rsslink&tag=gamescalendar-22-->
+<script type="text/javascript" src="http://jin115.com/js/amazon_videogames3.js" charset="UTF-8"></script>
+<!------------------------------------------->
+</td><td>
+<!------------＜＜左から3列目＞＞------------>
+<!--ゲーム/廉価版 - トップセラー-->
+<!--http://www.amazon.co.jp/gp/rss/bestsellers/videogames/700976/ref=zg_bs_700976_rsslink&tag=gamescalendar-22-->
+<script type="text/javascript" src="http://jin115.com/js/amazon_dvd1.js" charset="UTF-8"></script>
+<!------------------------------------------->
+</td><td>
+<!------------＜＜左から4列目＞＞------------>
+<!--------ライトノベルの ベストセラー-------->
+<!--http://www.amazon.co.jp/gp/rss/bestsellers/books/2189052051/ref=zg_bs_2189052051_rsslink&tag=gamescalendar-22-->
+<script type="text/javascript" src="http://jin115.com/js/amazon_books2.js" charset="UTF-8"></script>
+<!------------------------------------------->
+</td></tr></table>
+
+</div>
+<!--/ad_amazon-->
+
+</div>
+
+<!--article_footer-->
+<div class="article_footer">
+
+<div class="paging">
+<!-- Article Pager // -->
+  <div class="pager article-pager-type2">
+    <div class="pager-inner">
+    <div class="article-pager-outer">
+    <ul class="article-pager"><li class="prev"><a rel="prev" href="http://jin115.com/archives/51976243.html" title="『GTA』のような成人向けゲームを子供に買いあたえる親ってどうなの？ 売っちゃダメだろ"> 『GTA』のような成人向けゲームを子供に買いあたえる親ってどうなの？ 売っちゃダメだろ</a></li><li class="next both"><a rel="next" href="http://jin115.com/archives/51976346.html" title="『プロ野球』東北楽天ゴールデンイーグルスが初のパ・リーグ制覇！！">『プロ野球』東北楽天ゴールデンイーグルスが初のパ・リーグ制覇！！ </a></li>    </ul>
+    </div>
+    </div>
+  </div>
+<!-- // Article Pager -->
+
+</div>
+<div class="button_top"><a href="#header"><img src="http://jin115.com/common_images/button_top.png" alt="ページトップに戻る" width="56" height="24" /></a></div>
+</div>
+<!--/article_footer-->
+</div>
+<!----------------------------------------/article----------------------------------------> 
+<!----------------------------------------comment---------------------------------------->
+<div id="comment">
+<h2><img src="http://jin115.com/common_images/title_comment_l.png" alt="COMMENT" width="769" height="34" /></h2>
+<!--comment_form-->
+<div class="comment_form">
+<h3>コメントする</h3>
+<form onsubmit="setCommentAuthor(this); return submitOnce(this.button);" id="comment-form" name="comment_form" method="post" action="http://app.blog.livedoor.jp/jin115/comment.cgi/51976347/post">
+<dl>
+<dt>名前</dt>
+<dd>
+
+<input id="author" name="author" value="名無しゲーマーさん" onfocus="this.select()">
+
+</dd>
+<dt>コメント</dt>
+<dd>
+<textarea name="body" rows="6" id="text"></textarea>
+</dd>
+</dl>
+<div class="submit">
+<input type="submit" name="button" class="button" value=" 投稿する ">
+</div>
+</form>
+</div>
+<!--/comment_form-->
+<!--comment_list-->
+
+<div id="comment_list">
+<h3>この記事へのコメント</h3>
+<ul>
+
+
+<li>
+<dl>
+<dt id="commentttl_1">
+1
+&nbsp;名前：<strong><font color="green">
+うんこマン</font></strong>
+2013年09月26日 23:34
+<a href="#comtitle" onClick="CommentAnchor(1)">返信する</a> </dt>
+<dd id="commenttext_1">
+&gt;&gt;1<br>
+ほんとそれじゃない
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_2">
+2
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:34
+<a href="#comtitle" onClick="CommentAnchor(2)">返信する</a> </dt>
+<dd id="commenttext_2">
+1 ゲット
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_3">
+3
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:34
+<a href="#comtitle" onClick="CommentAnchor(3)">返信する</a> </dt>
+<dd id="commenttext_3">
+え？破滅ENDのあれか？
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_4">
+4
+&nbsp;名前：<strong><font color="green">
+だって</font></strong>
+2013年09月26日 23:34
+<a href="#comtitle" onClick="CommentAnchor(4)">返信する</a> </dt>
+<dd id="commenttext_4">
+まじ楽しみ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_5">
+5
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:34
+<a href="#comtitle" onClick="CommentAnchor(5)">返信する</a> </dt>
+<dd id="commenttext_5">
+いやそもそも未放映話ってギャグ回なんだけど・・・
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_6">
+6
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:35
+<a href="#comtitle" onClick="CommentAnchor(6)">返信する</a> </dt>
+<dd id="commenttext_6">
+BSTBSか
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_7">
+7
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:35
+<a href="#comtitle" onClick="CommentAnchor(7)">返信する</a> </dt>
+<dd id="commenttext_7">
+ハイテンションシンドロームｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_8">
+8
+&nbsp;名前：<strong><font color="green">
+みかげ</font></strong>
+2013年09月26日 23:35
+<a href="#comtitle" onClick="CommentAnchor(8)">返信する</a> </dt>
+<dd id="commenttext_8">
+もう見たわこれ…
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_9">
+9
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:36
+<a href="#comtitle" onClick="CommentAnchor(9)">返信する</a> </dt>
+<dd id="commenttext_9">
+オワコン
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_10">
+10
+&nbsp;名前：<strong><font color="green">
+名無し</font></strong>
+2013年09月26日 23:36
+<a href="#comtitle" onClick="CommentAnchor(10)">返信する</a> </dt>
+<dd id="commenttext_10">
+未放送回ってオペレーションシンドロームだろ？<br>
+ギャク回じゃん
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_11">
+11
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:37
+<a href="#comtitle" onClick="CommentAnchor(11)">返信する</a> </dt>
+<dd id="commenttext_11">
+これは何かの発表くるかもね
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_12">
+12
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:37
+<a href="#comtitle" onClick="CommentAnchor(12)">返信する</a> </dt>
+<dd id="commenttext_12">
+円盤収録してあったヤツ？ギャグ回なんだけど
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_13">
+13
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:37
+<a href="#comtitle" onClick="CommentAnchor(13)">返信する</a> </dt>
+<dd id="commenttext_13">
+未放送回は涙腺に触れるシーンなんて皆無のギャグ回だぞｗ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_14">
+14
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:38
+<a href="#comtitle" onClick="CommentAnchor(14)">返信する</a> </dt>
+<dd id="commenttext_14">
+円盤でみたし...
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_15">
+15
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:38
+<a href="#comtitle" onClick="CommentAnchor(15)">返信する</a> </dt>
+<dd id="commenttext_15">
+この回だけは良い<br>
+本編はクソ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_16">
+16
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:38
+<a href="#comtitle" onClick="CommentAnchor(16)">返信する</a> </dt>
+<dd id="commenttext_16">
+そういえばゲーム化とかどうなったんだ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_17">
+17
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:39
+<a href="#comtitle" onClick="CommentAnchor(17)">返信する</a> </dt>
+<dd id="commenttext_17">
+まずね、このゲームは動きがカクカクするんですよFPSが３０になったりして突如カクカクしますよ、はっきりいって醜いです今時のゲームで動きがカクカクなんて醜くてかなしいです。アクションで魅せるゲームで動きがカクカクはねーだろｗって気分ですね。しかしそれは置いておきますがこのゲームは根っこの部分から腐　食しているのでどんな修正当てようと直りようがありません。歴代最　低の真・三国無双６ベースとあってこのゲームは最低です、真・三国無双５の画質で私は無双がやりたいのですよ、今の新規プレイヤーさん達にはわからないだろうが無　双で一番面白いのは真・三国無双５です、私は当時、真・三国無双５を始めてプレイした時に感動しました＾＾ｐｓ３のゲームってこんなにも美しい画質なのかとね。ところが真・三国無双６は最低なんです、動きがカクカクするしアクションもつまらない・・・画面が異様にテカテカと光っててリアリティーに欠けるんですよ。真・三国無双５は敵も味方も兵士がたくさんといてワラワラとしていました！６でなぜ退化してるんですか？私はね、進化をしようとしないモノが嫌いなんです任天堂さんみたくサードのタイトルで売り上げを確保をして進化を怠るそんな任天堂が大　嫌いなんです同じです、無双オロチ２も進化を怠った不出来なゲームをベースとしているので面白い訳がありません！<br>
+ 特にほしいゲームソフトがないのでGTA５までの繋ぎとしてこのオロチ２アルティメットを買いましたが最悪です<br>
+四日前に公式から直に購入したが未だに発送されていません、アマゾン様なら定価よりも安く買えるところだったが・・公式からクソゲーを定価で買う私の身になってください、まったく期待していない期待出来ないクソゲーを定価で買う愚　行を皆さんにも知って欲しいですね。
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_18">
+18
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:39
+<a href="#comtitle" onClick="CommentAnchor(18)">返信する</a> </dt>
+<dd id="commenttext_18">
+今更感満載
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_19">
+19
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:40
+<a href="#comtitle" onClick="CommentAnchor(19)">返信する</a> </dt>
+<dd id="commenttext_19">
+ひま堂で見たし。
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_20">
+20
+&nbsp;名前：<strong><font color="green">
+名無し</font></strong>
+2013年09月26日 23:42
+<a href="#comtitle" onClick="CommentAnchor(20)">返信する</a> </dt>
+<dd id="commenttext_20">
+天使ちゃん萌え
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_21">
+21
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:43
+<a href="#comtitle" onClick="CommentAnchor(21)">返信する</a> </dt>
+<dd id="commenttext_21">
+　【超誤報】<br>
+<br>
+　　　か<br>
+<br>
+　【超遅報】<br>
+<br>
+　　　の<br>
+<br>
+　　　　　　間違いかな？<br>
+<br>
+
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_22">
+22
+&nbsp;名前：<strong><font color="green">
+あ</font></strong>
+2013年09月26日 23:44
+<a href="#comtitle" onClick="CommentAnchor(22)">返信する</a> </dt>
+<dd id="commenttext_22">
+涙腺崩壊？思いっきり最初から最後までギャグ回だぞ？
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_23">
+23
+&nbsp;名前：<strong><font color="green">
+名無し</font></strong>
+2013年09月26日 23:45
+<a href="#comtitle" onClick="CommentAnchor(23)">返信する</a> </dt>
+<dd id="commenttext_23">
+ギャグは中々面白いアニメだった<br>
+ギャグは
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_24">
+24
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:46
+<a href="#comtitle" onClick="CommentAnchor(24)">返信する</a> </dt>
+<dd id="commenttext_24">
+DVDレンタルして見たけど、腹筋痛かったことしか覚えてない
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_25">
+25
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:47
+<a href="#comtitle" onClick="CommentAnchor(25)">返信する</a> </dt>
+<dd id="commenttext_25">
+&gt;&gt;34<br>
+そんなアホな
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_26">
+26
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:47
+<a href="#comtitle" onClick="CommentAnchor(26)">返信する</a> </dt>
+<dd id="commenttext_26">
+酷過ぎて泣けてくるのかな？
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_27">
+27
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:49
+<a href="#comtitle" onClick="CommentAnchor(27)">返信する</a> </dt>
+<dd id="commenttext_27">
+*jinはこのアニメを知りません
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_28">
+28
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:50
+<a href="#comtitle" onClick="CommentAnchor(28)">返信する</a> </dt>
+<dd id="commenttext_28">
+俺が結婚してやんよ、は泣ける<br>
+歌と所々のギャグもいい<br>
+ストーリーは急ぎすぎ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_29">
+29
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:50
+<a href="#comtitle" onClick="CommentAnchor(29)">返信する</a> </dt>
+<dd id="commenttext_29">
+未視聴のやつがあの回だけ見たら意味不明でドン引きするだろうな
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_30">
+30
+&nbsp;名前：<strong><font color="green">
+あ</font></strong>
+2013年09月26日 23:52
+<a href="#comtitle" onClick="CommentAnchor(30)">返信する</a> </dt>
+<dd id="commenttext_30">
+話題性だけはあったね<br>
+信者対アンチの争いが一番盛り上がったっていう
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_31">
+31
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:54
+<a href="#comtitle" onClick="CommentAnchor(31)">返信する</a> </dt>
+<dd id="commenttext_31">
+え、この回ネットうpされてなかった？見たことあるんだが
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_32">
+32
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:54
+<a href="#comtitle" onClick="CommentAnchor(32)">返信する</a> </dt>
+<dd id="commenttext_32">
+円盤で見た俺的にはあんまり有り難みがないなぁ…
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_33">
+33
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:55
+<a href="#comtitle" onClick="CommentAnchor(33)">返信する</a> </dt>
+<dd id="commenttext_33">
+いい感じで終わったのに...あれのせいでぶち壊しだよ！！
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_34">
+34
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:55
+<a href="#comtitle" onClick="CommentAnchor(34)">返信する</a> </dt>
+<dd id="commenttext_34">
+一回見たから何だし<br>
+何回見てもいいじゃない<br>
+
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_35">
+35
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:56
+<a href="#comtitle" onClick="CommentAnchor(35)">返信する</a> </dt>
+<dd id="commenttext_35">
+このために円盤買った<br>
+最高のギャグ回だったわ。。
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_36">
+36
+&nbsp;名前：<strong><font color="green">
+まとめブログリーダー</font></strong>
+2013年09月26日 23:56
+<a href="#comtitle" onClick="CommentAnchor(36)">返信する</a> </dt>
+<dd id="commenttext_36">
+あれ泣けなくないか？
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_37">
+37
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:58
+<a href="#comtitle" onClick="CommentAnchor(37)">返信する</a> </dt>
+<dd id="commenttext_37">
+まじ、未放送って聞いてテンション上がった俺がバカだったわ…<br>
+もう見たし…(苦笑)
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_38">
+38
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月26日 23:59
+<a href="#comtitle" onClick="CommentAnchor(38)">返信する</a> </dt>
+<dd id="commenttext_38">
+流石に古い
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_39">
+39
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 00:00
+<a href="#comtitle" onClick="CommentAnchor(39)">返信する</a> </dt>
+<dd id="commenttext_39">
+これ全く中身なんてない糞アニメだったな<br>
+
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_40">
+40
+&nbsp;名前：<strong><font color="green">
+深夜タロウ</font></strong>
+2013年09月27日 00:00
+<a href="#comtitle" onClick="CommentAnchor(40)">返信する</a> </dt>
+<dd id="commenttext_40">
+０：００を過ぎると華麗に登場！！！！！
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_41">
+41
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 00:01
+<a href="#comtitle" onClick="CommentAnchor(41)">返信する</a> </dt>
+<dd id="commenttext_41">
+無茶振り回か。
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_42">
+42
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 00:04
+<a href="#comtitle" onClick="CommentAnchor(42)">返信する</a> </dt>
+<dd id="commenttext_42">
+TKが可愛かった話か<br>
+マジで２クールであんな感じで他の生徒も掘り下げてほしかった
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_43">
+43
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 00:05
+<a href="#comtitle" onClick="CommentAnchor(43)">返信する</a> </dt>
+<dd id="commenttext_43">
+泣く奴はギャグだろ　
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_44">
+44
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 00:09
+<a href="#comtitle" onClick="CommentAnchor(44)">返信する</a> </dt>
+<dd id="commenttext_44">
+ABはOP曲史上最強　中身はCG濃淡クソアニメ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_45">
+45
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 00:11
+<a href="#comtitle" onClick="CommentAnchor(45)">返信する</a> </dt>
+<dd id="commenttext_45">
+ハイテンションはひさ子さんのオッパイ回じゃないか<br>
+叩かれてるけど俺はAB大好きです
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_46">
+46
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 00:13
+<a href="#comtitle" onClick="CommentAnchor(46)">返信する</a> </dt>
+<dd id="commenttext_46">
+ゆり役の人ってあんまりメインやってないんだな<br>
+放送中はハルヒ呼ばわりされてたのに
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_47">
+47
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 00:16
+<a href="#comtitle" onClick="CommentAnchor(47)">返信する</a> </dt>
+<dd id="commenttext_47">
+見てるこっちが恥ずかしくなってくるあの話ね・・・<br>
+本当に茶番だった<br>
+<br>
+あの花とかそういうレベルじゃないぞ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_48">
+48
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 00:22
+<a href="#comtitle" onClick="CommentAnchor(48)">返信する</a> </dt>
+<dd id="commenttext_48">
+謎だらけだった気が<br>
+印象が薄くていまいち覚えて無いが
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_49">
+49
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 00:28
+<a href="#comtitle" onClick="CommentAnchor(49)">返信する</a> </dt>
+<dd id="commenttext_49">
+生まれてこのかたこれ以上クソなアニメを見たことない<br>
+これで泣いたという奴は内容をちゃんと見れない馬鹿<br>
+事故やら病気やら誰かが死んだらとりあえず泣くんだろって感じやっすい涙だな<br>
+24時間テレビの障害者の見世物見て感動して泣いてそう
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_50">
+50
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 00:30
+<a href="#comtitle" onClick="CommentAnchor(50)">返信する</a> </dt>
+<dd id="commenttext_50">
+&gt;&gt;46<br>
+風音さまぁ・・・
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_51">
+51
+&nbsp;名前：<strong><font color="green">
+ななし</font></strong>
+2013年09月27日 00:33
+<a href="#comtitle" onClick="CommentAnchor(51)">返信する</a> </dt>
+<dd id="commenttext_51">
+10話に次ぐAB!の神回。<br>
+違う意味で涙腺崩壊したわ。<br>
+このタイミングでの放送ってことは、なにか発表あるな。<br>
+ゲーム化発表から音沙汰なしで3年も経ってるし、ゲームの具体的な内容の発表だろうけど。
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_52">
+52
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 00:34
+<a href="#comtitle" onClick="CommentAnchor(52)">返信する</a> </dt>
+<dd id="commenttext_52">
+ユイだったか、キタエリの声のキャラのエピソードだけは感動した<br>
+最終回はダメすぎる<br>
+他の登場人物も掘り下げろよ<br>
+2クールで放送してもらいたかった
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_53">
+53
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 00:34
+<a href="#comtitle" onClick="CommentAnchor(53)">返信する</a> </dt>
+<dd id="commenttext_53">
+これカゲプロのパクリだよねｗｗｗｗ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_54">
+54
+&nbsp;名前：<strong><font color="green">
+ななし</font></strong>
+2013年09月27日 00:35
+<a href="#comtitle" onClick="CommentAnchor(54)">返信する</a> </dt>
+<dd id="commenttext_54">
+クソアニメとか言ってる奴いるけどあの作品はまだ完結してないから
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_55">
+55
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 00:36
+<a href="#comtitle" onClick="CommentAnchor(55)">返信する</a> </dt>
+<dd id="commenttext_55">
+&gt;&gt;46<br>
+エロゲー業界じゃかなりの大御所なんだけどなｗ<br>
+俺はゆりっぺの声聞いた時にマジでびびったぞｗｗ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_56">
+56
+&nbsp;名前：<strong><font color="green">
+</font></strong>
+2013年09月27日 00:45
+<a href="#comtitle" onClick="CommentAnchor(56)">返信する</a> </dt>
+<dd id="commenttext_56">
+ハルヒっぽいから見たけど<br>
+ただのブヒアニメだった
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_57">
+57
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 00:47
+<a href="#comtitle" onClick="CommentAnchor(57)">返信する</a> </dt>
+<dd id="commenttext_57">
+ほう・・・楽しみ☆
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_58">
+58
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 00:51
+<a href="#comtitle" onClick="CommentAnchor(58)">返信する</a> </dt>
+<dd id="commenttext_58">
+エロゲ声優なら恋姫無双でいっぱいでてただろ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_59">
+59
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 00:59
+<a href="#comtitle" onClick="CommentAnchor(59)">返信する</a> </dt>
+<dd id="commenttext_59">
+もう秋田<br>
+すっげー今更感
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_60">
+60
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 01:03
+<a href="#comtitle" onClick="CommentAnchor(60)">返信する</a> </dt>
+<dd id="commenttext_60">
+萌えアニメ版ジェイコブス・ラダー
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_61">
+61
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 01:10
+<a href="#comtitle" onClick="CommentAnchor(61)">返信する</a> </dt>
+<dd id="commenttext_61">
+エンジェルビーツは本当にしょうもないアニメだったけど、この番外編は面白かった
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_62">
+62
+&nbsp;名前：<strong><font color="green">
+まとめブログリーダー</font></strong>
+2013年09月27日 01:22
+<a href="#comtitle" onClick="CommentAnchor(62)">返信する</a> </dt>
+<dd id="commenttext_62">
+&gt;&gt;49<br>
+じゃあ、あんたが感動したアニメを教えてくれよw
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_63">
+63
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 01:22
+<a href="#comtitle" onClick="CommentAnchor(63)">返信する</a> </dt>
+<dd id="commenttext_63">
+これが面白いってネタなのかマジなのか判断に困る
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_64">
+64
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 01:24
+<a href="#comtitle" onClick="CommentAnchor(64)">返信する</a> </dt>
+<dd id="commenttext_64">
+色々なアニメがヒットしたきっかけを切り取って一つに凝縮してみました<br>
+みたいなアニメだった印象があるわ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_65">
+65
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 01:32
+<a href="#comtitle" onClick="CommentAnchor(65)">返信する</a> </dt>
+<dd id="commenttext_65">
+jin性格変わりすぎだろｗ<br>
+バイトもうちょい似せろよｗ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_66">
+66
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 01:36
+<a href="#comtitle" onClick="CommentAnchor(66)">返信する</a> </dt>
+<dd id="commenttext_66">
+&gt;&gt;58<br>
+俺友人数人と恋姫シリーズにドップリはまってたんだけどさｗ<br>
+エロゲ関係の声優の話で、友人内の誰かしらが知らない声優名出した時に<br>
+『恋姫の○○だよ』『あぁｗｗ』<br>
+って流れになるパターンが異様に多いんだよなｗｗｗ<br>
+マジ恋姫最高ｗｗｗｗｗｗｗ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_67">
+67
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 01:51
+<a href="#comtitle" onClick="CommentAnchor(67)">返信する</a> </dt>
+<dd id="commenttext_67">
+ハイテンションシンドロームって見たヤツじゃん<br>
+<br>
+JINのコメントってニワカすぎるよね
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_68">
+68
+&nbsp;名前：<strong><font color="green">
+名無し</font></strong>
+2013年09月27日 02:11
+<a href="#comtitle" onClick="CommentAnchor(68)">返信する</a> </dt>
+<dd id="commenttext_68">
+誰がなんと言おうと俺はこのアニメが大好きだ<br>
+<br>
+異論は認める
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_69">
+69
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 02:22
+<a href="#comtitle" onClick="CommentAnchor(69)">返信する</a> </dt>
+<dd id="commenttext_69">
+キモ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_70">
+70
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 03:09
+<a href="#comtitle" onClick="CommentAnchor(70)">返信する</a> </dt>
+<dd id="commenttext_70">
+あの回で泣けるの？
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_71">
+71
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 03:37
+<a href="#comtitle" onClick="CommentAnchor(71)">返信する</a> </dt>
+<dd id="commenttext_71">
+とりあえず感動、いろいろな意味で泣けたのは第1話のオペレーショントルネード中の射撃戦で湾曲した弾丸が綺麗だった点<br>
+第5話のテスト中にクラス中の注意を惹く作戦でミスって突然キリモミしながら天井にロケットエンジンで突っ込んだ回<br>
+第10話のユイが消える話<br>
+最終話の音無の意味不明な裏切りで (;ﾟдﾟ)ﾎﾟｶｰﾝ ってなった話
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_72">
+72
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 05:03
+<a href="#comtitle" onClick="CommentAnchor(72)">返信する</a> </dt>
+<dd id="commenttext_72">
+よく分らんアニメだったな。
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_73">
+73
+&nbsp;名前：<strong><font color="green">
+名無し</font></strong>
+2013年09月27日 05:44
+<a href="#comtitle" onClick="CommentAnchor(73)">返信する</a> </dt>
+<dd id="commenttext_73">
+良く知らんが。不能女に結婚してやんよ！てプロポーズする奴か？
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_74">
+74
+&nbsp;名前：<strong><font color="green">
+名無し</font></strong>
+2013年09月27日 06:32
+<a href="#comtitle" onClick="CommentAnchor(74)">返信する</a> </dt>
+<dd id="commenttext_74">
+あの話は感動はしないだろうw
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_75">
+75
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 07:26
+<a href="#comtitle" onClick="CommentAnchor(75)">返信する</a> </dt>
+<dd id="commenttext_75">
+何年前の記事だよｗｗって思って見たら昨日だったでござるｗｗｗ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_76">
+76
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 08:07
+<a href="#comtitle" onClick="CommentAnchor(76)">返信する</a> </dt>
+<dd id="commenttext_76">
+あれは２クール必要だったな<br>
+展開急ぎすぎて何がなにやらわからなかった<br>
+ゲームにはしないのかな？ゲームなら尺の問題なくなるから面白いと思う<br>
+
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_77">
+77
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 08:30
+<a href="#comtitle" onClick="CommentAnchor(77)">返信する</a> </dt>
+<dd id="commenttext_77">
+何年前の話だこれ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_78">
+78
+&nbsp;名前：<strong><font color="green">
+まとめブログリーダー</font></strong>
+2013年09月27日 09:15
+<a href="#comtitle" onClick="CommentAnchor(78)">返信する</a> </dt>
+<dd id="commenttext_78">
+opが最高だった！！！liaさん神！
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_79">
+79
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 09:17
+<a href="#comtitle" onClick="CommentAnchor(79)">返信する</a> </dt>
+<dd id="commenttext_79">
+どうせまたクッソ寒いギャグのオンパレードなんだろ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_80">
+80
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 10:28
+<a href="#comtitle" onClick="CommentAnchor(80)">返信する</a> </dt>
+<dd id="commenttext_80">
+これ、テレビでやったよね？思い過ごしじゃないといいけれど。。。
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_81">
+81
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 10:41
+<a href="#comtitle" onClick="CommentAnchor(81)">返信する</a> </dt>
+<dd id="commenttext_81">
+クソアニメｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_82">
+82
+&nbsp;名前：<strong><font color="green">
+名無し</font></strong>
+2013年09月27日 11:00
+<a href="#comtitle" onClick="CommentAnchor(82)">返信する</a> </dt>
+<dd id="commenttext_82">
+少なくとも未放送話はギャグ回だからまったく泣けないぞ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_83">
+83
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 11:14
+<a href="#comtitle" onClick="CommentAnchor(83)">返信する</a> </dt>
+<dd id="commenttext_83">
+神アニメ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_84">
+84
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 11:51
+<a href="#comtitle" onClick="CommentAnchor(84)">返信する</a> </dt>
+<dd id="commenttext_84">
+風音様ってこれとか全年齢アニメに出演するようになってエロゲ出てもあんまり攻略できるキャラはやらなくなったな<br>
+結構好きな声だからお世話になってたんだけど残念だわ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_85">
+85
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 13:11
+<a href="#comtitle" onClick="CommentAnchor(85)">返信する</a> </dt>
+<dd id="commenttext_85">
+後付けストーリー丸出しｗｗｗｗｗｗｗ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_86">
+86
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 16:18
+<a href="#comtitle" onClick="CommentAnchor(86)">返信する</a> </dt>
+<dd id="commenttext_86">
+結局あの最終回に繋がるのかと思うと、何をされても泣けない笑えない
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_87">
+87
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 16:42
+<a href="#comtitle" onClick="CommentAnchor(87)">返信する</a> </dt>
+<dd id="commenttext_87">
+&gt;&gt;78<br>
+ニコニコのコメントをそのまま持ってきたみたいな文だなｗ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_88">
+88
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 17:30
+<a href="#comtitle" onClick="CommentAnchor(88)">返信する</a> </dt>
+<dd id="commenttext_88">
+円盤で見たってやつそこそこ居るな<br>
+あんなの買っちゃったのかよ・・・
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_89">
+89
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月27日 20:29
+<a href="#comtitle" onClick="CommentAnchor(89)">返信する</a> </dt>
+<dd id="commenttext_89">
+糞みたいなアンチしかいないのかよ、アンチはじゃあどんなアニメなら満足できるんだかwwww注文の多いやつらだなwwwwwAngelBeats!のどこがそんなにダメなんだし
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_90">
+90
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月28日 03:49
+<a href="#comtitle" onClick="CommentAnchor(90)">返信する</a> </dt>
+<dd id="commenttext_90">
+円盤で見たけど面白かった
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_91">
+91
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月28日 09:30
+<a href="#comtitle" onClick="CommentAnchor(91)">返信する</a> </dt>
+<dd id="commenttext_91">
+もうみた<br>
+
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_92">
+92
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月28日 21:54
+<a href="#comtitle" onClick="CommentAnchor(92)">返信する</a> </dt>
+<dd id="commenttext_92">
+キタコレクッソ楽しみwwwww
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_93">
+93
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月29日 21:04
+<a href="#comtitle" onClick="CommentAnchor(93)">返信する</a> </dt>
+<dd id="commenttext_93">
+このアニメギャグも寒いし感動（）もクソもないよな
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_94">
+94
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月30日 00:58
+<a href="#comtitle" onClick="CommentAnchor(94)">返信する</a> </dt>
+<dd id="commenttext_94">
+今更感が半端ない<br>
+あれはkeyにとっても黒歴史にしたいんだろうからもうそっとしとけよ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_95">
+95
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年09月30日 18:17
+<a href="#comtitle" onClick="CommentAnchor(95)">返信する</a> </dt>
+<dd id="commenttext_95">
+ＳＳＳ特有のアホらしさが全開に出た良い回だったと思うけどなぁ。
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_96">
+96
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年10月03日 13:33
+<a href="#comtitle" onClick="CommentAnchor(96)">返信する</a> </dt>
+<dd id="commenttext_96">
+オワコンすぎるわ
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_97">
+97
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年10月03日 17:17
+<a href="#comtitle" onClick="CommentAnchor(97)">返信する</a> </dt>
+<dd id="commenttext_97">
+OVAはネタ回だから泣けないと思うぞ・・・
+</dd>
+</dl>
+</li>
+
+
+
+
+<li>
+<dl>
+<dt id="commentttl_98">
+98
+&nbsp;名前：<strong><font color="green">
+名無しゲーマーさん</font></strong>
+2013年10月03日 23:03
+<a href="#comtitle" onClick="CommentAnchor(98)">返信する</a> </dt>
+<dd id="commenttext_98">
+え？ハイテンションシンドロームかよ、見るけど
+</dd>
+</dl>
+</li>
+
+
+</ul>
+</div>
+
+<!--/comment_list-->
+<!--comment_form-->
+<div class="comment_form" id="write_comment02">
+<h3 id="comtitle">コメントする</h3>
+<form onsubmit="setCommentAuthor(this); return submitOnce(this.button);" id="comment-form" name="comment_form" method="post" action="http://app.blog.livedoor.jp/jin115/comment.cgi/51976347/post">
+<dl>
+<dt>名前</dt>
+<dd>
+
+<input id="author" name="author" value="名無しゲーマーさん" onfocus="this.select()">
+
+</dd>
+<dt>コメント</dt>
+<dd>
+<textarea name="body" rows="6" id="text2"></textarea>
+</dd>
+</dl>
+<div class="submit">
+<input type="submit" name="button" class="button" value=" 投稿する ">
+</div>
+</form>
+</div>
+<!--/comment_form-->
+
+<div class="button_top"><a href="#header"><img src="http://jin115.com/common_images/button_top.png" alt="ページトップに戻る" width="56" height="24" /></a></div>
+</div>
+<!----------------------------------------/comment---------------------------------------->
+<script type="text/javascript">ReplaceAnchor();</script>
+
+
+<div id="footer_navi"> 
+<!-- Article Pager // -->
+  <div class="pager article-pager-type2">
+    <div class="pager-inner">
+    <div class="article-pager-outer">
+    <ul class="article-pager"><li class="prev"><a rel="prev" href="http://jin115.com/archives/51976243.html" title="『GTA』のような成人向けゲームを子供に買いあたえる親ってどうなの？ 売っちゃダメだろ"> 『GTA』のような成人向けゲームを子供に買いあたえる親ってどうなの？ 売っちゃダメだろ</a></li><li class="next both"><a rel="next" href="http://jin115.com/archives/51976346.html" title="『プロ野球』東北楽天ゴールデンイーグルスが初のパ・リーグ制覇！！">『プロ野球』東北楽天ゴールデンイーグルスが初のパ・リーグ制覇！！ </a></li>    </ul>
+    </div>
+    </div>
+  </div>
+<!-- // Article Pager -->
+
+</div>
+
+<div align="center">
+<script type="text/javascript" src="http://jin115.com/js/ads/JS_MainBottom728x90.js" charset="utf-8"></script>
+</div>
+
+<!--ブログロールRSS記事フレームここから
+<iframe style="border:1px solid #aaaaaa;margin:0 0 10px 0;" src="http://jin115.com/rss.htm" width="768" height="129" frameborder="0" scrolling="auto" id="rsslist" name="rsslist" title="rsslist">RSS 最新記事</iframe>
+ブログロールRSS記事フレームここまで-->
+
+
+
+</div>
+<!----------------------------------------/contents----------------------------------------> 
+<!--------------------------------------side_left-------------------------------------->
+<div id="side_left">
+
+
+
+
+<div class="plugin-memo sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle">スポンサードリンク</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+<!-- Google AdSense -->
+<div class="ad-center">
+<script type="text/javascript">ldb_user_ads.display('160x600','blog041 blog041_side');</script>
+</div>
+<!-- /Google AdSense -->
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-memo -->
+
+<div class="plugin-memo sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle">人気アイテム</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+<div class="clearfix">
+<div align="center">
+
+
+<!--ゲーム１-->
+<!--http://www.amazon.co.jp/gp/rss/bestsellers/videogames/ref=zg_bs_videogames_rsslink&tag=gamescalendar-22-->
+<script type="text/javascript" src="http://jin115.com/js/amazon_videogames1.js" charset="UTF-8"></script>
+<a target="_blank" href="http://www.amazon.co.jp/gp/bestsellers/videogames/?ie=UTF8&camp=247&creative=7399&linkCode=ur2&pf_rd_i=home&pf_rd_m=AN1VRQENFRJN5&pf_rd_p=99274349&pf_rd_r=1QMC1A5SZXQTB4EARJEY&pf_rd_s=center-1&pf_rd_t=2101&tag=gamescalendar-22">ゲーム の ベストセラー</a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=gamescalendar-22&l=ur2&o=9" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />を見る
+<br/><br/><br/>
+
+<!--ゲーム２-->
+<!--http://www.amazon.co.jp/gp/rss/movers-and-shakers/videogames/ref=zg_bsms_videogames_rsslink&tag=gamescalendar-22-->
+<script type="text/javascript" src="http://jin115.com/js/amazon_videogames2.js" charset="UTF-8"></script>
+<a target="_blank" href="http://www.amazon.co.jp/gp/movers-and-shakers/videogames/?ie=UTF8&camp=247&creative=7399&linkCode=ur2&tag=gamescalendar-22">ゲーム の ヒット商品</a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=gamescalendar-22&l=ur2&o=9" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />を見る
+<br/><br/><br/>
+</div></div>
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-memo -->
+
+<div class="plugin-memo sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle">スポンサードリンク</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+<!-- Google AdSense -->
+<div id="gad-fixed" class="ad-center">
+<script type="text/javascript">ldb_user_ads.display('160x600','blog041 blog041_bottom');</script>
+</div>
+<!-- /Google AdSense -->
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-memo -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>
+(function($){$(document).ready(function(){af();});
+function af(){
+var a,ah,b,bh,c,cb,ch,l,p,t,w,wt,wl,wh,pa,pt,pl,nf,s,r;
+a=$('#gad-fixed');b=$('#side_left');c=$('#contents');p='static';
+ah=600+30+45;t=a.offset().top-40;w=$(window);l=b.offset().left+0;
+pa=b.offsetParent();pt=pa.offset().top;pl=pa.offset().left;
+s=function(){
+bh=b.height();ch=c.height();cb=c.offset().top+ch;
+wt=w.scrollTop();wl=w.scrollLeft();wh=w.height();
+nf=(wt>t)&&(ch>bh)?true:false;p=!nf?'static':(wt+ah)>cb?'absolute':'fixed';
+if(p==='fixed'){b.css({position:p,top:'',bottom:wh-ah,left:l-wl});}
+else if(p==='absolute'){b.css({position:p,top:cb-bh-pt,bottom:'',left:l-pl});}
+else{b.css({position:p});}
+};
+r=function(){
+b.css({position:'static'});wl=w.scrollLeft();l=b.offset().left+0;pl=pa.offset().left;
+if(p==='fixed'){b.css({position:p,left:l-wl});}
+else if(p==='absolute'){b.css({position:p,left:l-pl});}
+};
+w.on('load',s);w.on('scroll',s);w.on('resize',r);}})(jQuery);
+</script>
+
+
+
+
+
+</div></div>
+<!--------------------------------/side_left-----------------------------> 
+
+<!--------------------------------/container/side_right-----------------------------> 
+
+<div id="side_right">
+
+
+
+
+<div class="plugin-popular_articles_with_image sidewrapper">
+  <div class="sidetitlebody">
+    <div class="sidetitle">人気記事</div>
+  </div>
+  <div class="sidetop"></div>
+  <div class="side">
+
+<div class="popularArticlesWithImage plugin A"
+     id="popularArticlesWithImagePlugin-148863">
+<ul></ul>
+<script type="text/javascript" src="http://parts.blog.livedoor.jp/plugin/popular_articles_with_image_plugin.js?v=20130911"></script>
+<script type="text/html" id="tmpl-popularArticlesWithImagePlugin-148863">
+<li class="popularArticleWithImage">
+<div>
+<a href="<%= article.url %>" title="<%= article.title %>">
+<div class="image <%= article.image.thumbnail ? '' : 'noimage' %>">
+<% if (article.image.thumbnail) { %>
+<img id="image-popularArticlesWithImagePlugin-148863-<%= article.id%>"
+     src="<%= article.image.thumbnail %>"
+     alt="" />
+<% } %>
+</div>
+<% if (comment) { %>
+<div class="comment" id="comment-popularArticlesWithImagePlugin-148863-<%= article.id%>"></div>
+<% } else if (retweet) { %>
+<div class="retweet" id="retweet-popularArticlesWithImagePlugin-148863-<%= article.id%>"></div>
+<% } else if (pv) { %>
+<div class="pv"><%= article.count %>PV</div>
+<% } %>
+<div class="title" id="title-popularArticlesWithImagePlugin-148863-<%= article.id%>"><%= article.title %></div>
+</a>
+</div>
+</li>
+</script>
+
+<script type="text/javascript">
+(function(){
+var opts = {
+id:      'popularArticlesWithImagePlugin-148863',
+asPlugin: true,
+type:    'A',
+offset:  Number('0'),
+count:   Number('10'),
+
+rangeType:'custom',
+
+
+range: Number('3'),
+
+
+width: null,
+retweet: true,
+comment: false,
+pv: false,
+color: {
+ foreground:'' || null,
+ background:'' || null
+},
+imageWidth:  Number('165' || 0) || null,
+imageHeight: Number('125' || 0) || null,
+lastProperty: null
+};
+(new LDBlogPopularArticlesWithImagePlugin(opts)).init();
+})();
+</script>
+</div>
+
+</div>
+<div class="sidebottom"></div>
+</div>
+
+<div class="plugin-memo sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle">おすすめ</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+<div id="ads_box">
+<center>
+
+<script type="text/javascript" src="http://jin115.com/js/ads/JS_RightMiddle160x600.js" charset="UTF-8"></script>
+
+</center>
+</div>
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-memo -->
+
+<div class="plugin-categorize sidewrapper" id="plugin-categorize-4937">
+    <div class="sidetitlebody">
+        <div class="sidetitle">カテゴリー別過去ログ</div>
+    </div>
+    <div class="sidetop"></div>
+    <div class="side">
+
+      
+
+        <div align="center"><form style="margin:0px;padding:0px;">
+            <select name="u" onChange="JavaScript:location.href=this.value;return false;">
+                <option value="" selected>カテゴリを選択</option>
+            
+        
+                <option value="http://jin115.com/archives/cat_57243.html" onChange="JavaScript:location.href=this.value;return false;">速報 (611)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50028631.html" onChange="JavaScript:location.href=this.value;return false;">PS4 (644)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50009480.html" onChange="JavaScript:location.href=this.value;return false;">PS3 (4890)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50027518.html" onChange="JavaScript:location.href=this.value;return false;">PS Vita (2744)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50009434.html" onChange="JavaScript:location.href=this.value;return false;">PSP (1203)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50027521.html" onChange="JavaScript:location.href=this.value;return false;">Wii U (1406)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50011816.html" onChange="JavaScript:location.href=this.value;return false;">任天堂Wii (842)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50027516.html" onChange="JavaScript:location.href=this.value;return false;">3DS (2550)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50009465.html" onChange="JavaScript:location.href=this.value;return false;">ニンテンドーDS (403)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50028723.html" onChange="JavaScript:location.href=this.value;return false;">XBOX ONE (401)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50012046.html" onChange="JavaScript:location.href=this.value;return false;">XBOX360 (2579)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50027984.html" onChange="JavaScript:location.href=this.value;return false;">PCゲーム (580)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50026783.html" onChange="JavaScript:location.href=this.value;return false;">ゲーム売上 (640)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50011986.html" onChange="JavaScript:location.href=this.value;return false;">ゲーム業界 (2601)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50028467.html" onChange="JavaScript:location.href=this.value;return false;">恋愛ネタ (234)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50028294.html" onChange="JavaScript:location.href=this.value;return false;">食べ物・飲み物 (890)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50028407.html" onChange="JavaScript:location.href=this.value;return false;">映画 (616)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50028044.html" onChange="JavaScript:location.href=this.value;return false;">新作タイトル (118)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50027837.html" onChange="JavaScript:location.href=this.value;return false;">アンケート (144)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50027839.html" onChange="JavaScript:location.href=this.value;return false;">周辺機器 (454)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50009743.html" onChange="JavaScript:location.href=this.value;return false;">酷い話・事件 (5570)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_46898.html" onChange="JavaScript:location.href=this.value;return false;">雑談・その他の話題 (4438)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50025114.html" onChange="JavaScript:location.href=this.value;return false;">声優 (727)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50026357.html" onChange="JavaScript:location.href=this.value;return false;">ら列 (115)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50027272.html" onChange="JavaScript:location.href=this.value;return false;">モバイル系 (1522)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50027321.html" onChange="JavaScript:location.href=this.value;return false;">漫画・アニメ・ラノベ (3453)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50027394.html" onChange="JavaScript:location.href=this.value;return false;">ちょっといい話 (354)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50027479.html" onChange="JavaScript:location.href=this.value;return false;">ニコニコ動画・生放送 (334)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50028182.html" onChange="JavaScript:location.href=this.value;return false;">政治 (856)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50028183.html" onChange="JavaScript:location.href=this.value;return false;">芸能・スポーツ (1562)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50028184.html" onChange="JavaScript:location.href=this.value;return false;">韓国・中国 (1149)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50028422.html" onChange="JavaScript:location.href=this.value;return false;">感想・レビュー (43)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50028423.html" onChange="JavaScript:location.href=this.value;return false;">お知らせ (38)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50028667.html" onChange="JavaScript:location.href=this.value;return false;">旧カテゴリ (5229)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50026475.html" onChange="JavaScript:location.href=this.value;return false;"> - 取材シリーズ (36)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50026364.html" onChange="JavaScript:location.href=this.value;return false;"> - 格闘ゲーム (420)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50009831.html" onChange="JavaScript:location.href=this.value;return false;"> - オークション (89)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50027920.html" onChange="JavaScript:location.href=this.value;return false;"> - アーケード (83)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50023314.html" onChange="JavaScript:location.href=this.value;return false;"> - ゲーム脳 (23)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50021851.html" onChange="JavaScript:location.href=this.value;return false;"> - ワゴンセール (204)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50009687.html" onChange="JavaScript:location.href=this.value;return false;"> - オレ日記 (122)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_47146.html" onChange="JavaScript:location.href=this.value;return false;"> - 便利ツールとか (83)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50027659.html" onChange="JavaScript:location.href=this.value;return false;"> - ランキング (279)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50014060.html" onChange="JavaScript:location.href=this.value;return false;"> - クソゲー (67)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50027034.html" onChange="JavaScript:location.href=this.value;return false;"> - 海外ネタ (1701)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50024223.html" onChange="JavaScript:location.href=this.value;return false;"> - FPS・TPS (408)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50009604.html" onChange="JavaScript:location.href=this.value;return false;"> - 動画 (660)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50028195.html" onChange="JavaScript:location.href=this.value;return false;"> - コラム (4)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_46891.html" onChange="JavaScript:location.href=this.value;return false;"> - マジオススメ！ (450)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50009428.html" onChange="JavaScript:location.href=this.value;return false;"> - プロゲーマー (127)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50024659.html" onChange="JavaScript:location.href=this.value;return false;"> - コレクション (135)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50027415.html" onChange="JavaScript:location.href=this.value;return false;"> - 割れ・ハック (350)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50023633.html" onChange="JavaScript:location.href=this.value;return false;"> - シューティング (62)</option>
+        
+            
+        
+                <option value="http://jin115.com/archives/cat_50009975.html" onChange="JavaScript:location.href=this.value;return false;"> - MMORPG (296)</option>
+        
+    </select>
+        </form></div>
+
+    </div>    
+    <div class="sidebottom"></div>
+</div><!-- // plugin-categorize -->
+
+<!-- plugin-search -->
+
+<div class="plugin-search sidewrapper">
+    <div class="sidetitlebody">
+        <div class="sidetitle">記事検索</div>
+    </div>
+    <div class="sidetop"></div>
+    <div class="side">
+        <form name="blog_search_form-148449" id="blogSearchForm-148449" action="http://livedoor-search.naver.jp/blog" method="GET" style="padding:0;margin:0px;" onsubmit="return ldblog_sitesearch_submit.call(this)">
+            <script type="text/javascript"><!--
+                document.write('<input type="text" class="sf" id="blogSearch148449" /><input type="hidden" name="q" />');
+            // --></script>
+            <noscript><input type="text" value="" name="q"><input type="hidden" name="q" value="site:blog.livedoor.jp/blog_name/"></noscript>
+            <input type="hidden" name="ie" value="euc-jp">
+            <input type="hidden" name="c" value="ld_blog_sb">
+            <input type="hidden" name="sm" value="lbp_blg">
+            <input type="submit" id="blog_search_button-148449"  value="検索" class="sfbtn">
+        </form>
+    </div>
+    <div class="sidebottom"></div>
+</div>
+
+<script>
+function ldblog_sitesearch_submit(){
+        var q = this.elements[0].value;
+        q += " site:http://jin115.com/";
+        this.q.value = q;
+        this.submit();
+}
+</script>
+
+<!-- // plugin-search -->
+
+<div class="plugin-monthly sidewrapper" id="plugin-monthly-4938">
+<div class="sidetitlebody">
+<div class="sidetitle">月別アーカイブ</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+
+<div align="center"><form style="margin:0px;padding:0px;">
+<select name="u" onChange="JavaScript:location.href=this.value;return false;">
+
+<option value="" selected>月を選択</option>
+<option value="http://jin115.com/archives/2013-10.html">2013年10月</option>
+
+<option value="http://jin115.com/archives/2013-09.html">2013年09月</option>
+
+<option value="http://jin115.com/archives/2013-08.html">2013年08月</option>
+
+<option value="http://jin115.com/archives/2013-07.html">2013年07月</option>
+
+<option value="http://jin115.com/archives/2013-06.html">2013年06月</option>
+
+<option value="http://jin115.com/archives/2013-05.html">2013年05月</option>
+
+<option value="http://jin115.com/archives/2013-04.html">2013年04月</option>
+
+<option value="http://jin115.com/archives/2013-03.html">2013年03月</option>
+
+<option value="http://jin115.com/archives/2013-02.html">2013年02月</option>
+
+<option value="http://jin115.com/archives/2013-01.html">2013年01月</option>
+
+<option value="http://jin115.com/archives/2012-12.html">2012年12月</option>
+
+<option value="http://jin115.com/archives/2012-11.html">2012年11月</option>
+
+<option value="http://jin115.com/archives/2012-10.html">2012年10月</option>
+
+<option value="http://jin115.com/archives/2012-09.html">2012年09月</option>
+
+<option value="http://jin115.com/archives/2012-08.html">2012年08月</option>
+
+<option value="http://jin115.com/archives/2012-07.html">2012年07月</option>
+
+<option value="http://jin115.com/archives/2012-06.html">2012年06月</option>
+
+<option value="http://jin115.com/archives/2012-05.html">2012年05月</option>
+
+<option value="http://jin115.com/archives/2012-04.html">2012年04月</option>
+
+<option value="http://jin115.com/archives/2012-03.html">2012年03月</option>
+
+<option value="http://jin115.com/archives/2012-02.html">2012年02月</option>
+
+<option value="http://jin115.com/archives/2012-01.html">2012年01月</option>
+
+<option value="http://jin115.com/archives/2011-12.html">2011年12月</option>
+
+<option value="http://jin115.com/archives/2011-11.html">2011年11月</option>
+
+<option value="http://jin115.com/archives/2011-10.html">2011年10月</option>
+
+<option value="http://jin115.com/archives/2011-09.html">2011年09月</option>
+
+<option value="http://jin115.com/archives/2011-08.html">2011年08月</option>
+
+<option value="http://jin115.com/archives/2011-07.html">2011年07月</option>
+
+<option value="http://jin115.com/archives/2011-06.html">2011年06月</option>
+
+<option value="http://jin115.com/archives/2011-05.html">2011年05月</option>
+
+<option value="http://jin115.com/archives/2011-04.html">2011年04月</option>
+
+<option value="http://jin115.com/archives/2011-03.html">2011年03月</option>
+
+<option value="http://jin115.com/archives/2011-02.html">2011年02月</option>
+
+<option value="http://jin115.com/archives/2011-01.html">2011年01月</option>
+
+<option value="http://jin115.com/archives/2010-12.html">2010年12月</option>
+
+<option value="http://jin115.com/archives/2010-11.html">2010年11月</option>
+
+<option value="http://jin115.com/archives/2010-10.html">2010年10月</option>
+
+<option value="http://jin115.com/archives/2010-09.html">2010年09月</option>
+
+<option value="http://jin115.com/archives/2010-08.html">2010年08月</option>
+
+<option value="http://jin115.com/archives/2010-07.html">2010年07月</option>
+
+<option value="http://jin115.com/archives/2010-06.html">2010年06月</option>
+
+<option value="http://jin115.com/archives/2010-05.html">2010年05月</option>
+
+<option value="http://jin115.com/archives/2010-04.html">2010年04月</option>
+
+<option value="http://jin115.com/archives/2010-03.html">2010年03月</option>
+
+<option value="http://jin115.com/archives/2010-02.html">2010年02月</option>
+
+<option value="http://jin115.com/archives/2010-01.html">2010年01月</option>
+
+<option value="http://jin115.com/archives/2009-12.html">2009年12月</option>
+
+<option value="http://jin115.com/archives/2009-11.html">2009年11月</option>
+
+<option value="http://jin115.com/archives/2009-10.html">2009年10月</option>
+
+<option value="http://jin115.com/archives/2009-09.html">2009年09月</option>
+
+<option value="http://jin115.com/archives/2009-08.html">2009年08月</option>
+
+<option value="http://jin115.com/archives/2009-07.html">2009年07月</option>
+
+<option value="http://jin115.com/archives/2009-06.html">2009年06月</option>
+
+<option value="http://jin115.com/archives/2009-05.html">2009年05月</option>
+
+<option value="http://jin115.com/archives/2009-04.html">2009年04月</option>
+
+<option value="http://jin115.com/archives/2009-03.html">2009年03月</option>
+
+<option value="http://jin115.com/archives/2009-02.html">2009年02月</option>
+
+<option value="http://jin115.com/archives/2009-01.html">2009年01月</option>
+
+<option value="http://jin115.com/archives/2008-12.html">2008年12月</option>
+
+<option value="http://jin115.com/archives/2008-11.html">2008年11月</option>
+
+<option value="http://jin115.com/archives/2008-10.html">2008年10月</option>
+
+<option value="http://jin115.com/archives/2008-09.html">2008年09月</option>
+
+<option value="http://jin115.com/archives/2008-08.html">2008年08月</option>
+
+<option value="http://jin115.com/archives/2008-07.html">2008年07月</option>
+
+<option value="http://jin115.com/archives/2008-06.html">2008年06月</option>
+
+<option value="http://jin115.com/archives/2008-05.html">2008年05月</option>
+
+<option value="http://jin115.com/archives/2008-04.html">2008年04月</option>
+
+<option value="http://jin115.com/archives/2008-03.html">2008年03月</option>
+
+<option value="http://jin115.com/archives/2008-02.html">2008年02月</option>
+
+<option value="http://jin115.com/archives/2008-01.html">2008年01月</option>
+
+<option value="http://jin115.com/archives/2007-12.html">2007年12月</option>
+
+<option value="http://jin115.com/archives/2007-11.html">2007年11月</option>
+
+<option value="http://jin115.com/archives/2007-10.html">2007年10月</option>
+
+<option value="http://jin115.com/archives/2007-09.html">2007年09月</option>
+
+<option value="http://jin115.com/archives/2007-08.html">2007年08月</option>
+
+<option value="http://jin115.com/archives/2007-07.html">2007年07月</option>
+
+<option value="http://jin115.com/archives/2007-06.html">2007年06月</option>
+
+<option value="http://jin115.com/archives/2007-05.html">2007年05月</option>
+
+<option value="http://jin115.com/archives/2007-04.html">2007年04月</option>
+
+<option value="http://jin115.com/archives/2007-03.html">2007年03月</option>
+
+<option value="http://jin115.com/archives/2007-02.html">2007年02月</option>
+
+<option value="http://jin115.com/archives/2007-01.html">2007年01月</option>
+
+<option value="http://jin115.com/archives/2006-12.html">2006年12月</option>
+
+<option value="http://jin115.com/archives/2006-11.html">2006年11月</option>
+
+<option value="http://jin115.com/archives/2006-10.html">2006年10月</option>
+
+<option value="http://jin115.com/archives/2006-09.html">2006年09月</option>
+
+<option value="http://jin115.com/archives/2006-08.html">2006年08月</option>
+
+<option value="http://jin115.com/archives/2006-07.html">2006年07月</option>
+
+<option value="http://jin115.com/archives/2006-06.html">2006年06月</option>
+
+<option value="http://jin115.com/archives/2006-05.html">2006年05月</option>
+
+<option value="http://jin115.com/archives/2006-03.html">2006年03月</option>
+
+<option value="http://jin115.com/archives/2006-02.html">2006年02月</option>
+
+<option value="http://jin115.com/archives/2006-01.html">2006年01月</option>
+
+<option value="http://jin115.com/archives/2005-12.html">2005年12月</option>
+
+<option value="http://jin115.com/archives/1970-12.html">1970年12月</option>
+
+<option value="http://jin115.com/archives/1970-01.html">1970年01月</option>
+</select>
+</form></div>
+
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-monthly -->
+
+<div class="plugin-qr_code sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle">QRコード</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+<div align="center">
+<img src="http://chart.apis.google.com/chart?cht=qr&amp;chs=123x123&amp;chl=http%3A%2F%2Fjin115.com%2F%3F_f%3Dblogjpqr&amp;chld=M"
+     width="123"
+     height="123"
+     border="0"
+     alt="QRコード" />
+</div>
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-qr_code -->
+<div class="plugin-memo sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle">逆アクセスランキング</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+<SCRIPT TYPE="text/javascript" SRC="http://rranking4.ziyu.net/js/jin115.js" charset=shift_jis></SCRIPT>
+<br/>
+<div class="center">
+<SCRIPT TYPE="text/javascript" SRC="http://rranking4.ziyu.net/rank.php?jin115"></SCRIPT><A href="http://www.ziyu.net/" target=_blank><IMG SRC="http://rranking4.ziyu.net/rranking.gif" alt="アクセスランキング" border=0 width=35 height=11></A><NOSCRIPT><A href="http://www.ziyu.net/" target=_blank>アクセスランキング</A></NOSCRIPT></div>
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-memo -->
+
+<div class="plugin-memo sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle"></div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+
+<!--漫画・ラノベ・BL の ベストセラー-->
+<!--http://www.amazon.co.jp/gp/rss/bestsellers/books/466280/ref=zg_bs_466280_rsslink&tag=gamescalendar-22-->
+<script type="text/javascript" src="http://jin115.com/js/amazon_books1.js" charset="UTF-8"></script>
+<a target="_blank" href="http://www.amazon.co.jp/gp/bestsellers/books/466280/?ie=UTF8&camp=247&creative=7399&linkCode=ur2&pf_rd_i=466280&pf_rd_m=AN1VRQENFRJN5&pf_rd_p=115048869&pf_rd_r=1X9MFTXW07EXCTCQR1XK&pf_rd_s=right-5&pf_rd_t=101&tag=gamescalendar-22">コミック・ラノベ・BL の ベストセラー</a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=gamescalendar-22&l=ur2&o=9" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />を見る
+<br/><br/>
+
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-memo -->
+
+<div class="plugin-memo sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle">RSS関連</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+<ul id="side_rss">
+<li><a href="javascript:window.external.AddFavorite('http://jin115.com/','オレ的ゲーム速報＠刃')" onClick="_gaq.push(['_trackEvent','ReaderAdd','NormalBookMark',location.href,1,true]);">お気に入りに追加</a></li>
+<li><a href="http://a.hatena.ne.jp/append?http://jin115.com/" target="_blank" onClick="_gaq.push(['_trackEvent','ReaderAdd','hatena',location.href,1,true]);">はてなアンテナに追加</a></li>
+<li><a href="http://b.hatena.ne.jp/add?mode=confirm&amp;url=http://jin115.com/" target="_blank"  onClick="_gaq.push(['_trackEvent','ReaderAdd','hatebu',location.href,1,true]);">はてなブックマークに追加</a></li>
+<li><a href="http://add.my.yahoo.co.jp/rss?url=http%3A//jin115.com/index.rdf" onClick="_gaq.push(['_trackEvent','ReaderAdd','myYahoo',location.href,1,true]);">MyYahooに追加</a></li>
+<li><a href="http://fusion.google.com/add?feedurl=http%3A//jin115.com/" onClick="_gaq.push(['_trackEvent','ReaderAdd','google',location.href,1,true]);">Add to Google</a></li>
+<li><a href="http://reader.livedoor.com/subscribe/http://jin115.com/" target="_blank" onClick="_gaq.push(['_trackEvent','ReaderAdd','LDreader',location.href,1,true]);">ライブドアリーダーに登録</a></li>
+</ul>
+<a href="http://feedmeter.net/detail.php?r=http%3A%2F%2Fjin115.com%2Findex.rdf" target="feedmeter"><img src="http://feedmeter.net/image.php?r=http%3A%2F%2Fjin115.com%2Findex.rdf" border="0" width="60" height="36" alt="フィードメーター - オレ的ゲーム速報＠刃" /></a>
+
+
+
+
+
+
+
+
+<script src='http://static.adlantis.jp/javascripts/AdLantisLoader.js' type='text/javascript' charset='utf-8'></script>
+<!-- Begin: Adlantis, Zone: [おれげー] -->
+<div class='adlantiss_frame zid_tqeZp3A%2FStmEL8%2BnXKa7Lw%3D%3D color_#0000FF-#000000-#F9F9F9-#999999-#008000 container_iframe'></div>
+<!-- End: Adlantis -->
+
+
+<br/>
+
+<a href="https://play.google.com/store/apps/details?id=com.livedoor.android.matome_blog.jin115" target="_blank"><img src="http://livedoor.blogimg.jp/jin115/imgs/7/3/7339204d.jpg" alt="オレ的ゲーム速報＠刃 2ch(2ちゃんねる)まとめビューワー - Google Play の Android アプリ" width="160" border="1" hspace="5" class="pict" /></a>
+
+
+<div class="rakuten">
+<div class="clearfix"><div align="center">
+<!-- Rakuten Widget FROM HERE --><script type="text/javascript">rakuten_design="slide";rakuten_affiliateId="001df29a.ec935869.0c2f9644.7cd7371a";rakuten_items="ctsmatch";rakuten_genreId=0;rakuten_size="148x600";rakuten_target="_blank";rakuten_theme="gray";rakuten_border="off";rakuten_auto_mode="off";rakuten_genre_title="off";rakuten_recommend="on";rakuten_ver="20100708";</script><script type="text/javascript" src="http://xml.affiliate.rakuten.co.jp/widget/js/rakuten_widget.js"></script><!-- Rakuten Widget TO HERE --></div></div></div>
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-memo -->
+
+
+
+
+
+</div></div>
+<!----------------------------------------footlink---------------------------------------->
+<div style="width:1190px;height;400px;margin:0px auto;padding:0;border:1px solid #aaaaaa;">
+<!--ブログロールRSS記事フレームここから-->
+<iframe src="http://jin115.com/rss20121110.htm" width="1190" height="400" frameborder="0" scrolling="auto" id="rsslist" style="margin:0;padding:0" name="rsslist" title="rsslist">RSS 最新記事</iframe>
+<!--ブログロールRSS記事フレームここまで-->
+</div>
+
+<div id="foot_tw"><ul></ul></div>
+
+<!----------------------------------------footer---------------------------------------->
+<div id="footer">
+<div id="footer_inner">
+<ul>
+<li><a href="http://checkers.livedoor.com/regist/?name=%A5%AA%A5%EC%C5%AA%A5%B2%A1%BC%A5%E0%C2%AE%CA%F3%A1%F7%BF%CF&amp;parent_id=0&amp;type=0&amp;url=http%3A%2F%2Fjin115.com%2F"><img src="http://parts.blog.livedoor.jp/img/cmn/icon_cks.gif" border="0" alt="チェッカーズに登録" title="チェッカーズに登録" /></a></li>
+<li><a href="http://reader.livedoor.com/subscribe/http://jin115.com/" target="_blank" title="livedoor Readerに登録"><img src="http://parts.blog.livedoor.jp/img/cmn/icon_lr.gif" border="0" width="117" height="20" alt="livedoor Readerに登録" title="livedoor Readerに登録" /></a></li>
+<li><a href="http://blog.livedoor.com/"><img src="http://img.blog.livedoor.com/img/usr/cmn/blog_premium.gif
+" width="117" height="28" border="0" alt="livedoor Blog（ブログ）" title="livedoor Blog（ブログ）" /></a></li>
+<li><a href="http://www.livedoor.com/"><img src="http://parts.blog.livedoor.jp/img/cmn/icon_ld.gif" border="0" alt="livedoor （ライブドア）" title="livedoor （ライブドア）" /></a></li>
+<li><a href="http://jin115.com/index.rdf"><img src="http://parts.blog.livedoor.jp/img/cmn/icon_xml.gif" border="0" alt="Syndicate this site" title="Syndicate this site" /></a></li>
+
+<li><a href="http://livedoor.blogcms.jp/blog/jin115/article/edit?id=51976347" target="_blank" title="edit">Edit</a></li>
+
+
+</ul>
+
+
+</div>
+</div>
+
+
+
+<!----------------------------------------/footer---------------------------------------->
+<div id="fixfooter">
+<ul>
+<li><a href="#comment_list" onClick="_gaq.push(['_trackEvent','SideNaviMini','view',location.href,1,true]);"><img src="http://jin115.com/common_images/fixfooter_bt_look_cmnt.gif" alt="コメントを見る" width="40" height="35" /></a></li>
+<li><a href="#write_comment02" onClick="_gaq.push(['_trackEvent','SideNaviMini','write',location.href,1,true]);"><img src="http://jin115.com/common_images/fixfooter_bt_write_cmnt.gif" alt="コメントを書く" width="40" height="35" /></a></li>
+<li><a href="http://jin115.com/archives/51976243.html" onClick="_gaq.push(['_trackEvent','SideNaviMini','toPre',location.href,1,true]);"><img src="http://jin115.com/common_images/fixfooter_bt_preview.gif" alt="前の記事へ" width="40" height="35" /></a></li>
+<li><a href="http://jin115.com/archives/51976346.html" onClick="_gaq.push(['_trackEvent','SideNaviMini','toNext',location.href,1,true]);"><img src="http://jin115.com/common_images/fixfooter_bt_next.gif" alt="次の記事へ" width="40" height="35" /></a></li>
+<li><a href="#header" onClick="_gaq.push(['_trackEvent','SideNaviMini','toTop',location.href,1,true]);"><img src="http://jin115.com/common_images/fixfooter_bt_top.gif" alt="トップへ" width="40" height="35" /></a></li>
+</ul>
+</div>
+
+</div>
+
+
+<!-- Add Body Tag // --><!-- // Add Body Tag -->
+
+</body>
+</html>

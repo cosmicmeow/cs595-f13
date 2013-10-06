@@ -1,0 +1,186 @@
+<!DOCTYPE html><html
+dir="ltr" lang="en-US"><head><link
+rel='stylesheet' href='http://www.digitalartistmanagement.com/wp-content/plugins/wp-minify/min/?f=wp-content/themes/dam/style.css&amp;m=1302854721' type='text/css' media='screen' /> <script type='text/javascript' src='http://www.digitalartistmanagement.com/wp-content/plugins/wp-minify/min/?f=wp-includes/js/l10n.js,wp-content/plugins/pods/ui/js/pods.ui.js,wp-content/themes/dam/js/platform-detect.js,wp-content/themes/dam/js/lib.js&amp;m=1302326590'></script> <meta
+charset="UTF-8" /><title>Digital Artist Management - The Leading Interactive Entertainment Recruiting Agency</title><link
+rel="alternate" type="application/rss+xml" title="Digital Artist Management &raquo; Feed" href="http://www.digitalartistmanagement.com/feed/" /><link
+rel="alternate" type="application/rss+xml" title="Digital Artist Management &raquo; Comments Feed" href="http://www.digitalartistmanagement.com/comments/feed/" /><link
+rel="alternate" type="application/rss+xml" title="Digital Artist Management &raquo; Home Comments Feed" href="http://www.digitalartistmanagement.com/home/feed/" /> <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=1.4.2'></script> <link
+rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.digitalartistmanagement.com/xmlrpc.php?rsd" /><link
+rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.digitalartistmanagement.com/wp-includes/wlwmanifest.xml" /><link
+rel='index' title='Digital Artist Management' href='http://www.digitalartistmanagement.com/' /><link
+rel='prev' title='About' href='http://www.digitalartistmanagement.com/about/' /><link
+rel='next' title='DAM Affiliates' href='http://www.digitalartistmanagement.com/dam-affiliates/' /><meta
+name="generator" content="WordPress 3.1.1" /><meta
+name="description" content="Digital Artist Management is a leading recruiting agency, specializing in creative, technical, and executive recruiting for the interactive entertainment software industry." /><meta
+name="keywords" content="games,film,special effects,digital,management,recruiters,jobs,job search,entertainment" /><link
+rel="canonical" href="http://www.digitalartistmanagement.com/" /><link
+rel="profile" href="http://gmpg.org/xfn/11" /><link
+rel="pingback" href="http://www.digitalartistmanagement.com/xmlrpc.php" /> <script type="text/javascript">var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-571474-4']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();</script> 
+ <script type="text/javascript">//
+		function equalHeight(group) {
+			var tallest = 0;
+			group.each(function() {
+				var thisHeight = $(this).height();
+				if(thisHeight > tallest) {
+					tallest = thisHeight;
+				}
+			});
+			group.height(tallest+30);
+		}
+		$(document).ready(function() {
+			equalHeight($("#altrow > div"));
+			$('#altrow').supersleight();
+			$('#keybiz').supersleight();
+			// generateSprites arguments:
+			// 1st - parent class (the main class on the parent ul), with preceding period
+			// 2nd - selected prefix (eg. for a selected class of "selected-about", use "selected-" as the value)
+			// 3rd - :active state toggle, set to true if you've defined :active states (and the jQuery equivalent) in your CSS
+			// 4th - animation speed, in milliseconds (eg. 300 = 0.3 seconds)
+			// 5th - animation style, as a string. Set to "slide" or "fade" (defaults to "fade")
+			// example usage:
+			// generateSprites(".navigation", "selected-", true, 300, "fade");
+			// generateSprites(".top-nav", "position-", true, 200, "slide");
+			// generateSprites(".sidebar-nav", "current-", false, 150, "fade");
+			generateSprites(".nav", "current-", true, 150, "slide");
+			var navDuration = 150; //time in miliseconds
+			var navJumpHeight = "140px";
+			$('#keybiz li').hover(function() {
+				$('#state').html("Mouse on LI");
+				$(this).children("div").animate({ top : "-="+navJumpHeight }, navDuration);
+			}, function() {
+				$(this).children("div").animate({ top : "+="+navJumpHeight }, navDuration);
+				$('#state').html("Mouse clear");
+			});
+		});
+		//</script> </head><body
+class="page-home"><div
+id="bg-body"><div
+id="content-wrapper"><div
+id="header"><div
+id="masthead"></div><ul
+class="nav"><li
+class="grid-m"></li><li
+class="home"><a
+href="/" onfocus="if(this.blur)this.blur()">Home</a></li><li
+class="about"><a
+href="http://www.digitalartistmanagement.com/about/" onfocus="if(this.blur)this.blur()">About</a></li><li
+class="client"><a
+href="http://www.digitalartistmanagement.com/client-services/" onfocus="if(this.blur)this.blur()">Client Services</a></li><li
+class="jobseek"><a
+href="http://www.digitalartistmanagement.com/job-seekers/" onfocus="if(this.blur)this.blur()">Job Seekers</a></li><li
+class="hotjobs"><a
+href="http://www.digitalartistmanagement.com/hot-jobs/" onfocus="if(this.blur)this.blur()">Hot Jobs</a></li><li
+class="affiliates"><a
+href="http://www.digitalartistmanagement.com/dam-affiliates/" onfocus="if(this.blur)this.blur()">Dam Affiiates</a></li><li
+class="contact"><a
+href="http://www.digitalartistmanagement.com/contact-us/" onfocus="if(this.blur)this.blur()">Contact</a></li><li
+class="grid-g"></li><li
+class="resume"><script type="text/javascript">navMailto('info','Help with my DAM job search!');</script>Submit Resume</a></li></ul></div><div
+id="main-col"><div
+class="grid"><div
+class="grid-m">&nbsp;</div><div
+class="g8"><div
+class="about-dam pad-vert"> Digital Artist Management (DAM) is the premier recruiting and staffing firm dedicated exclusively to advancing the careers of electronic entertainment industry professionals and building the core teams responsible for creating the most compelling interactive entertainment content and technology across the globe.<p>DAM's primary clientele includes bleeding edge console, social, casual, mobile and PC online games developers / publishers, tools & technology developers, interactive & multimedia content developers and film/VFX studios. <a
+href="./about/" class="moreinfo">More >></a></p></div></div><div
+class="grid-g">&nbsp;</div><div
+class="g4"><div
+class="calltoaction"><div
+class="showmethejobs"><a
+onfocus="if(this.blur)this.blur()" href="http://www.digitalartistmanagement.com/hot-jobs/">Hot Jobs</a></div><div
+class="lookingfortalent"><a
+onfocus="if(this.blur)this.blur()" href="http://www.digitalartistmanagement.com/client-services/">Client Services</a></div></div></div><div
+class="grid-m">&nbsp;</div><div
+class="clearfix"></div></div> <br
+clear="all" /><div
+class="grid altrow" id="altrow"><div
+class="grid-m">&nbsp;</div><div
+class="g6 pad-vert"> <img
+src="http://www.digitalartistmanagement.com/wp-content/themes/dam/img/hdr-alt-clientsrv.png" border="0" alt="Client Services" /><div
+class="altrow-list">Permanent Placements on Contingency</div><div
+class="altrow-list">Contract/Temporary Staffing on Contingency</div><div
+class="altrow-list">Retained Staffing (Onsite & Offsite)</div><div
+class="altrow-list">Executive Search</div><div
+class="altrow-list altrow-last">Outplacement Support</div> <a
+href="http://www.digitalartistmanagement.com/client-services/" class="moreinfo">More >></a></div><div
+class="grid-g altrow-vrule">&nbsp;</div><div
+class="g6 pad-vert"> <img
+src="http://www.digitalartistmanagement.com/wp-content/themes/dam/img/hdr-alt-jobseeker.png" alt="Job Seeker Servieces" /><div
+class="altrow-list">Direct access to industry-leading clientele</div><div
+class="altrow-list">Strategic & personalized career consulting and guidance</div><div
+class="altrow-list">Dedicated recruiter & account manager support</div><div
+class="altrow-list">End-to-End job search support from resume to start date</div><div
+class="altrow-list altrow-last">Insightful feedback after resume submissions and interviews</div> <a
+href="http://www.digitalartistmanagement.com/job-seekers/" class="moreinfo">More >></a></div><div
+class="grid-m">&nbsp;</div> <span
+class="clearfix"></span></div> <br
+clear="all" /><div
+class="grid"><ul
+id="keybiz"><li
+class="games"><div
+class="keybiz-games">&nbsp;</div><a
+href="#games" onfocus="if(this.blur)this.blur()">Games</a></li><li
+class="social"><div
+class="keybiz-social">&nbsp;</div><a
+href="#social" onfocus="if(this.blur)this.blur()">Social Networks</a></li><li
+class="virtworld"><div
+class="keybiz-virtworld">&nbsp;</div><a
+href="#virtworld" onfocus="if(this.blur)this.blur()">Virtual Worlds</a></li><li
+class="tools"><div
+class="keybiz-tools">&nbsp;</div><a
+href="#tools" onfocus="if(this.blur)this.blur()">Tools &amp; Technology</a></li><li
+class="visfx"><div
+class="keybiz-visfx">&nbsp;</div><a
+href="#visfx" onfocus="if(this.blur)this.blur()">Visual Effects</a></li></ul></div><div
+class="grid" id="footer"><div
+class="grid-m">&nbsp;</div><div
+class="g8 footer-top"> <a
+href="/">Home</a> - <a
+href="http://www.digitalartistmanagement.com/about/">About</a> - <a
+href="http://www.digitalartistmanagement.com/client-services/">Client Services</a> - <a
+href="http://www.digitalartistmanagement.com/job-seekers/">Job Seekers</a> - <a
+href="http://www.digitalartistmanagement.com/hot-jobs/">Hot Jobs</a> - <a
+href="http://www.digitalartistmanagement.com/dam-affiliates/">DAM Affiliates</a> - <a
+href="http://www.digitalartistmanagement.com/contact-us/">Contact</a></div><div
+class="grid-g">&nbsp;</div><div
+class="g2 footer-top"> Visit our partner sites</div><div
+class="grid-g">&nbsp;</div><div
+class="g1"><a
+href="http://www.productionroad.com/" target="_blank"><img
+src="http://www.digitalartistmanagement.com/wp-content/themes/dam/img/footer-logo-prd.jpg" alt="Production Road | www.productionroad.com" border="0" /></a></div><div
+class="grid-g">&nbsp;</div><div
+class="g1"><a
+href="http://www.digitalartistmanagement.com/dam-affiliates/"><img
+src="http://www.digitalartistmanagement.com/wp-content/themes/dam/img/footer-logo-damc.jpg" alt="DAM Consultants" border="0" /></a></div><div
+class="grid-m">&nbsp;</div> <br
+clear="all" /><div
+class="grid-m">&nbsp;</div><div
+class="g12 hrule"></div><div
+class="grid-m">&nbsp;</div> <br
+clear="all" /></div><div
+class="grid" id="footer"><div
+class="grid-m">&nbsp;</div><div
+class="g7"> <img
+src="http://www.digitalartistmanagement.com/wp-content/themes/dam/img/footer-platforms.jpg" border="0" alt="" /></div><div
+class="grid-g">&nbsp;</div><div
+class="g5 txt-right pad-vert"> &copy 2013 - Digital Artist Mangement | Website by <a
+href="http://www.fakeco.net" target="_blank">Fake Co., LLC</a>.</div><div
+class="grid-m">&nbsp;</div> <br
+clear="all" /></div><div
+class="spacer">			<script type="text/javascript" src="http://www.digitalartistmanagement.com/wp-content/themes/dam/js/supersleight.plugin.js"></script>
+			<script type="text/javascript" src="http://www.digitalartistmanagement.com/wp-content/themes/dam/js/sprites2.js"></script>
+			</div>
+		</div><!-- #main-col -->
+	</div><!-- #content-wrapper -->
+</div><!-- #bg-body -->
+	</body>
+</html>
+<!-- Dynamic page generated in 1.382 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2013-10-05 21:44:55 -->
+<!-- super cache -->

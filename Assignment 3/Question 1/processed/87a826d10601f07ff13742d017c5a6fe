@@ -1,0 +1,1172 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="no-js ie ie6" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:v="http://rdf.data-vocabulary.org/#"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie ie7" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:v="http://rdf.data-vocabulary.org/#"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:v="http://rdf.data-vocabulary.org/#"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:v="http://rdf.data-vocabulary.org/#">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:image" content="http://cdn-static.zdnet.com/i/story/70/00/021241/twitter-rebuilds-on-java.png">
+<meta property="news_keywords" content="">
+<meta name="application-name" content="Twitter rebuilds on Java | ZDNet">
+<meta name="msapplication-TileColor" content="#24486B">
+<meta name="msapplication-TileImage" content="/images/base/logo-144x144.png">
+<meta property="og:title" content="Twitter rebuilds on Java | ZDNet">
+<meta property="og:url" content="http://www.zdnet.com/twitter-rebuilds-on-java-7000021241/">
+<meta name="description" content="The web is experiencing a &#039;Java renaissance&#039;. But did Java really go anywhere?">
+<meta property="og:description" content="The web is experiencing a &#039;Java renaissance&#039;. But did Java really go anywhere?">
+<meta property="og:site_name" content="ZDNet">
+<title>Twitter rebuilds on Java | ZDNet</title>
+<link rel="stylesheet" href="/css/scaffolding.css?1380807189">
+<!--[if (lt IE 9)&(!IEMobile)]>
+<link rel="stylesheet" href="/css/scaffolding.768.css?1380807189" media="screen">
+<link rel="stylesheet" href="/css/scaffolding.1024.css?1380807189" media="screen">
+<![endif]-->
+<link rel="stylesheet" href="/css/scaffolding.768.css?1380807189" media="screen and (min-width:768px)">
+<link rel="stylesheet" href="/css/scaffolding.1024.css?1380807189" media="screen and (min-width:1024px)">
+<link rel="stylesheet" href="/css/print.css?1380807189" media="print">
+<script src="/frontend/js/external/modernizr-custom.2.5.3.js?1380807289"></script>
+<script src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+<script src="/js/s_code.js?1380807201" type="text/javascript"></script>
+<script src="/js/omniture.js?1380807201" type="text/javascript"></script>
+<script src="/js/history.js?1380807201" type="text/javascript"></script>
+
+
+
+    <script type="text/javascript">
+	(function() {
+		var useSSL = 'https:' == document.location.protocol;
+		var src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+		document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+	})();
+</script>
+
+<script type="text/javascript">
+	googletag.defineSlot("/8264/aw-zdnet/enterprise-software", [88,31], "feature-sponsor")
+		.addService(googletag.pubads());
+	googletag.defineSlot("/8264/aw-zdnet/enterprise-software", [380,50], "header-promo")
+		.addService(googletag.pubads());
+	googletag.defineSlot("/8264/aw-zdnet/enterprise-software", [165,421], "hotspot")
+		.addService(googletag.pubads());
+	googletag.defineSlot("/8264/aw-zdnet/enterprise-software", [[728,90],[970,66],[970,250],[980,150]], "leaderboard-top")
+		.addService(googletag.pubads())
+		.setTargeting("pos", "top");
+	googletag.defineSlot("/8264/aw-zdnet/enterprise-software", [[728,90],[970,66],[970,250],[980,150]], "leaderboard-bottom")
+		.addService(googletag.pubads())
+		.setTargeting("pos", "bottom");
+	googletag.defineSlot("/8264/aw-zdnet/enterprise-software", [300,60], "marquee")
+		.addService(googletag.pubads());
+	googletag.defineSlot("/8264/aw-zdnet/enterprise-software", [[300,250],[300,600],[300,1050]], "mpu-top")
+		.addService(googletag.pubads())
+		.setTargeting("pos", "top");
+	googletag.defineSlot("/8264/aw-zdnet/enterprise-software", [[300,250],[300,600],[300,1050]], "mpu-bottom")
+		.addService(googletag.pubads())
+		.setTargeting("pos", "bottom");
+	googletag.defineSlot("/8264/aw-zdnet/enterprise-software", [300,261], "resource-center")
+		.addService(googletag.pubads());
+	googletag.defineSlot("/8264/aw-zdnet/enterprise-software", [1600,1000], "skin")
+		.addService(googletag.pubads());
+	googletag.defineSlot("/8264/aw-zdnet/enterprise-software", [120,60], "sponsor-logo")
+		.addService(googletag.pubads());
+	googletag.defineSlot("/8264/aw-zdnet/enterprise-software", [300,450], "vendor-text-link")
+		.addService(googletag.pubads());
+	googletag.defineOutOfPageSlot("/8264/aw-zdnet/enterprise-software",   "interstitial")
+		.addService(googletag.pubads());
+
+	googletag.pubads().setTargeting("buyingcycle", "investigate");
+	googletag.pubads().setTargeting("cid", "7000021241");
+	googletag.pubads().setTargeting("device", "desktop");
+	googletag.pubads().setTargeting("ptype", "story");
+	googletag.pubads().setTargeting("session", "b");
+	googletag.pubads().setTargeting("vguid", "a5398b3882aa27557d5");
+
+	googletag.pubads().enableSyncRendering();
+	googletag.pubads().enableSingleRequest();
+	googletag.enableServices();
+</script>
+
+<script type="text/javascript" src="http://i.i.cbsi.com/cnwk.1d/Ads/common/manta/adFunctionsD-zdnet.js"></script>
+<script type="text/javascript" src="http://cn.cbsimg.net/cnwk.1d/Aud/javascript/zdnet/apex.js"></script>
+<script type="text/javascript">
+	var cbsiAdGlobal = {
+		"SITE" : "2",
+		"NCAT" : "800023",
+		"PTYPE" : "8301",
+		"CID" : "7000021241",
+		"NODE" : "800023",
+		"BRAND" : "2",
+		"STAGING" : "0",
+		"CNET-PAGE-GUID" : "a5398b3882aa27557d5",
+		"TAG" : "Enterprise Software, Software Development, Web development",
+		"regSys" : "1",
+		"regId" : "",
+		"buyingcycle" : "investigate",
+		"lgnSts" : "0",
+		"BK_REGION" : "us"
+	},
+	cbsiAds = [];
+	cbsiRegisterAdGlobals(cbsiAdGlobal);
+	cbsiSetDeferredLocalPage("/MantaRay_LocalPage.html");
+</script>
+
+
+<script type="text/javascript" src="http://dw.cbsimg.net/js/cbsi/dw.js"></script>
+<script type="text/javascript">
+DW.pageParams = {
+	asid: '700021241',
+	astid: '136',
+	ctype: 'asset',
+	cval: '7000021241',
+	onid: '800023',
+	pgnbr: '1',
+	ptid: '8301',
+	siteid: '2',
+        pguid: 'a5398b3882aa27557d5'
+};
+DW.regSilo = 3;
+DW.pageParams.x_breadcrumb = 800023;
+</script>
+<!--
+<PageMap>
+<DataObject type="content">
+<Attribute name="type" value="text"/>
+<Attribute name="id" value="7000021241"/>
+<Attribute name="title" value="Twitter rebuilds on Java"/>
+<Attribute name="author" value="Joe McKendrick"/>
+<Attribute name="author_ids" value="10002362"/>
+<Attribute name="summary" value="The web is experiencing a 'Java renaissance'. But did Java really go anywhere?"/>
+<Attribute name="published" value="2013-09-26T23:07:05-0700"/>
+<Attribute name="published_timestamp" value="1380236825"/>
+<Attribute name="country" value="us"/>
+<Attribute name="page_count" value="1"/>
+<Attribute name="asia_last_7_days" value="210"/>
+<Attribute name="au_last_30_days" value="0"/>
+<Attribute name="au_last_7_days" value="197"/>
+<Attribute name="eu_last_7_days" value="369"/>
+<Attribute name="uk_last_7_days" value="121"/>
+<Attribute name="us_last_7_days" value="787"/>
+</DataObject>
+</PageMap>
+-->
+
+</head>
+<body id="story" data-is-logged-in="false">
+
+	<!-- ClickTale Top part -->
+	<script type='text/javascript'>
+	    document.write(unescape("%3Cscript%20src='" +
+	                            (document.location.protocol == 'https:' ?
+	                             'https://clicktalecdn.sslcs.cdngc.net/' :
+	                             'http://cdn.clicktale.net/') +
+	                            "www09/phc/5a999966-75a6-4b89-a92c-23702f4d9c94.js'%20type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<!-- ClickTale end of Top part -->
+
+
+<script>
+	var cacheBustingId = 40125,
+        userRegion = 'us';
+</script>
+<div id="fb-root"></div>
+<header role="banner">
+	<div class="header container">
+		<a href="http://www.zdnet.com/" class="siteLogo">ZDNet</a>
+		<div class="lvl-search">
+			
+            <div id="header-promo">
+	<script type="text/javascript">
+		googletag.display("header-promo");
+	</script>
+</div>
+
+    
+			
+			<form id="search" class="siteSearch" action="http://www.zdnet.com/search" onsubmit="Omniture.trackSearchSubmit(this, $(this).find('[name=q]').val());">
+	<fieldset class="box">
+		<input type="text" placeholder="Search ZDNet" tabindex="1" name="q" value="" />
+		<input type="submit" value="Search" />
+	</fieldset>
+</form>
+
+		</div>
+		<div class="lvl-nav">
+			<nav class="secondaryNav">
+									<div class="siteUtils loggedOut">
+						<a href="http://www.zdnet.com/membership/log-in/?app_id=1101&amp;path=http%3A%2F%2Fwww.zdnet.com%2Ftwitter-rebuilds-on-java-7000021241%2F" rel="nofollow" data-member="showLogIn">Log In</a> | <a href="http://www.zdnet.com/membership/register/?app_id=1101&amp;path=http%3A%2F%2Fwww.zdnet.com%2Ftwitter-rebuilds-on-java-7000021241%2F" rel="nofollow" data-omniture='{"channel":"enterprise software", "reg_form_type":"short", "registration_driver":"header"}' data-member="showRegister">Join ZDNet</a> <span class="avatar"><img src="/images/base/avatar-20x20.jpg" alt="" width="20" height="20" /></span>
+					</div>
+								<ul class="bar">
+					<li>
+						<a href="http://www.zdnet.com/"><span class="icon home">Home</span></a>
+					</li>
+																		<li><a href="http://www.techrepublic.com/whitepapers">White Papers</a></li>
+													<li><a href="http://www.zdnet.com/topic/">Hot Topics</a></li>
+													<li><a href="http://downloads.zdnet.com/">Downloads</a></li>
+													<li><a href="http://www.zdnet.com/topic-reviews/">Reviews</a></li>
+													<li><a href="http://www.zdnet.com/newsletters/">Newsletters</a></li>
+															</ul>
+			</nav>
+		</div>
+	</div>
+	<nav class="primaryNav container">
+		<ul class="bar editions">
+			<li class="expandable"><a href="javascript:void(0);">US Edition<span class="icon arrow"></span></a>
+				<nav class="menu">
+					<ul>
+						<li><span class="label">ZDNet.com is available in the following editions:</span></li>
+																				<li><a href="" data-edition="asia" class='editionSwitch'>Asia</a></li>
+																											<li><a href="" data-edition="au" class='editionSwitch'>Australia</a></li>
+																											<li><a href="" data-edition="eu" class='editionSwitch'>Europe</a></li>
+																											<li><a href="" data-edition="in" class='editionSwitch'>India</a></li>
+																											<li><a href="" data-edition="uk" class='editionSwitch'>United Kingdom</a></li>
+																											<li><a href="" data-edition="us" class='editionSwitch'>United States</a></li>
+																			<li><span class="label">ZDNet around the globe:</span></li>
+													<li><a href="http://www.zdnet.be/" target="_blank">ZDNet Benelux</a></li>
+													<li><a href="http://www.zdnet.com.cn/" target="_blank">ZDNet China</a></li>
+													<li><a href="http://www.zdnet.fr/" target="_blank">ZDNet France</a></li>
+													<li><a href="http://www.zdnet.de/" target="_blank">ZDNet Germany</a></li>
+													<li><a href="http://www.zdnet.co.kr/ " target="_blank">ZDNet Korea</a></li>
+													<li><a href="http://japan.zdnet.com/" target="_blank">ZDNet Japan</a></li>
+													<li><a href="http://www.zdnet.nl/ " target="_blank">ZDNet Netherlands</a></li>
+											</ul>
+				</nav>
+			</li>
+		</ul>
+
+		<ul class="bar mobile">
+							<li class="nav expandable"><a class="title">Topics<span class="icon arrow"></span></a>
+					<nav class="menu">
+						<ul>
+															<li><a href="http://www.zdnet.com/topic-cloud-computing-moving-to-iaas/">IaaS</a></li>
+															<li><a href="http://www.zdnet.com/topic-byod-and-the-consumerization-of-it/">BYOD</a></li>
+															<li><a href="http://www.zdnet.com/topic-it-innovation-for-small-businesses/">SMB</a></li>
+															<li><a href="http://www.zdnet.com/topic-virtualization/">Virtualization</a></li>
+															<li><a href="http://www.zdnet.com/topic-going-deep-on-big-data/">Big Data</a></li>
+															<li><a href="http://www.zdnet.com/topic-apple/">Apple</a></li>
+															<li><a href="http://www.zdnet.com/topic-cxo/">CXO</a></li>
+															<li><a href="http://www.zdnet.com/topic-windows/">Windows 8</a></li>
+															<li><a href="http://www.zdnet.com/topic-tablets/">Tablets</a></li>
+															<li><a href="http://www.zdnet.com/blog/">All Writers</a></li>
+															<li><a href=""></a></li>
+															<li><a href=""></a></li>
+															<li><a href=""></a></li>
+															<li><a href=""></a></li>
+															<li><a href=""></a></li>
+													</ul>
+					</nav>
+				</li>
+						<li class="nav expandable siteUtils"><a>Log In<span class="icon arrow"></span></a>
+				<nav class="menu">
+					<ul>
+													<li><a href="http://www.zdnet.com/membership/log-in/?app_id=1101&amp;path=http%3A%2F%2Fwww.zdnet.com%2Ftwitter-rebuilds-on-java-7000021241%2F" data-member="showLogIn">Log In</a></li>
+							<li><a href="http://www.zdnet.com/membership/register/?app_id=1101&amp;path=http%3A%2F%2Fwww.zdnet.com%2Ftwitter-rebuilds-on-java-7000021241%2F" data-omniture='{"channel":"enterprise software", "reg_form_type":"short", "registration_driver":"header"}' data-member="showRegister">Join ZDNet</a></li> 
+											</ul>
+				</nav>
+			</li>
+		</ul>
+	</nav>
+</header>
+
+<div id="mantle_skin">
+
+            <div id="skin">
+	<script type="text/javascript">
+		googletag.display("skin");
+	</script>
+</div>
+
+    
+			<div id="page" >
+							
+    
+	<div id="leaderTop" class="leader">
+    <div class="container">
+            <div id="leaderboard-top">
+	<script type="text/javascript">
+		googletag.display("leaderboard-top");
+	</script>
+</div>
+
+    		</div>
+	</div>
+
+						<div id="content" class="container">
+						<div class="breakingNews"><span>MUST READ:</span> <a href="http://www.zdnet.com/everything-you-need-to-know-about-your-windows-8-1-upgrade-options-7000021554/">Everything you need to know about your Windows 8.1 upgrade options</a></div>
+
+
+
+<script type="text/javascript">
+  function showRecaptcha(element) {
+    Recaptcha.create("6LczBtgSAAAAAEfZMKzfcE9k3F4WBiurn-feXRgJ", element, {
+        theme: "red",
+        callback: Recaptcha.focus_response_field
+    });
+  }
+</script>
+
+
+
+	
+	    	<div id="main">
+
+		
+	    
+		
+					<div class="navSupplement">
+				
+					<p class="relatedTopics">
+									Topic: <a href="/topic-enterprise-software/">Enterprise Software</a>	
+						</p>
+
+						<div class="relatedBuyingCycle buyingCycleIcon buyingCycleIconInvestigate">
+			<div class="buyingCycleTitle buyingCycleTitleInvestigate">
+				<a href="/buying-cycle/">Investigate</a>
+			</div>
+		</div>
+
+				<ul class="followOptions">
+	<li>Follow via: </li>
+	<li><a href="http://www.zdnet.com/topic-enterprise-software/rss.xml" title="RSS Feed" rel="nofollow"><span class="icon rss">RSS</span></a></li>
+	<li><a href="http://www.zdnet.com/membership/create-alert/?url=http%3A%2F%2Fwww.zdnet.com%2Ftopic-enterprise-software%2Frss.xml&amp;subject=Enterprise+Software&amp;frequency=weekly&amp;source=http%3A%2F%2Fwww.zdnet.com%2Ftwitter-rebuilds-on-java-7000021241%2F" title="Create an Email Alert" rel="nofollow" data-member="gated" data-app_id="1101"><span class="icon alerts">Email Alert</span></a></li> 
+</ul>
+
+			</div>
+				<article id="siu-container" class="post">
+							<header class="storyHeader">
+			<h1>Twitter rebuilds on Java</h1>
+			<p class="summary"><span>Summary:</span> The web is experiencing a 'Java renaissance'. But did Java really go anywhere?</p>
+			<div class="byline">
+													<div><a href="" class="thumb"><img src="http://cdn-static.zdnet.com/i/r/author/joe-mckendrick-60x45.jpg?hash=AQExAJV5BQ&upscale=1" alt="Joe McKendrick" width="60" height="45" /></a></div>
+											<p class="meta">By <a href="/meet-the-team/us/joe.mckendrick/" rel='author'>Joe McKendrick</a> for <a href="/blog/service-oriented/">Service Oriented</a> |			<time datetime="2013-09-26">September 26, 2013 -- 23:07 GMT (16:07 PDT)</time>
+		</p>
+														<a href="https://twitter.com/joemckendrick" class="twitter-follow-button" data-show-count="false">Follow @joemckendrick</a>
+										</div>
+			<div id="siu-horizontal" data-module="sharebar" data-title="Twitter rebuilds on Java" data-summary="The web is experiencing a &#039;Java renaissance&#039;. But did Java really go anywhere?" data-url="http://www.zdnet.com/twitter-rebuilds-on-java-7000021241/" data-short-url="" data-action="text" data-content-id="" data-story-id="zdgl_7000021241" data-cmnt-count="8"></div>
+
+</header>
+										<div class="storyBody">
+		
+		
+		
+		
+					<p>Blame it on the Russians. Wired's Cade Metz has an <a href="http://www.wired.com/wiredenterprise/2013/09/the-second-coming-of-java/">interesting account</a> of how a visit to Twitter headquarters by Russian President Dmitry Medvedev three years ago led to a series of events that recently culminated in the social network's relaunch — written in Java.</p>
+<figure class="alignRight"><img title="twitter-bird-white-on-blue- image courtesy of Twitter" alt="twitter-bird-white-on-blue- image courtesy of Twitter" src="http://cdn-static.zdnet.com/i/r/story/70/00/021241/twitter-bird-white-on-blue-image-courtesy-of-twitter-200x200.png?hash=ZmMvMQSuZQ&upscale=1" height="200" width="200"><figcaption>(Image: Twitter)</figcaption></figure>
+<p>When the Russian president came calling in 2010, uptime was a real concern, and Twitter's management was worried that the system may not stay up during this big moment. So Twitter's engineers built a separate staging server, just for the occasion — to keep the fail whale away from Medvedev. It was one of those "a-ha" moments that sent Twitter's engineers looking for a language with more industrial strength than the current system, written in Ruby:</p>
+<blockquote>
+<p>Twitter's engineers came to realize that Ruby wasn't the best way to juggle tweets from millions of people across the globe — and make sure the site could stay up during its headline moment with the president of Russia. The best way was a brand new architecture based on Java, a programming tool that has grown more powerful than many expected.</p>
+</blockquote>
+<p>Indeed, while many development shops moved away from Java in favor of more lightweight, faster-to-deploy open-source and scripting languages, there appears to be a growing recognition that more resiliency is needed. "Like Twitter, many other companies have realized that Java is particularly well suited to building web services that can stand up to the massive amounts of traffic streaming across the modern internet," Metz observed.</p>
+<p>The story here is that many of the hot social web properties have determined that Java — and, by extension, Java Virtual Machine — may have what it takes to support millions upon millions of daily transactions.</p>
+<p>However, in the everyday enterprise, Java has been a part of applications and systems for years, and never really went anywhere. While many developers found open-source and scripting languages easier to work with and faster to deploy for many apps, Java has just kept chugging away at the core. Java's ultimate advantage is that the JVM container will run anywhere.</p>
+<p>In a survey of 376 employers I helped conduct two years ago in cooperation with the SHARE user group, IBM and Northern Illinois University (as part of my work with Unisphere Research/Information Today Inc), we found the number one programming language skill sought was Java. (The <a href="http://www.share.org/d/do/308" target="_blank">executive is summary available</a> from the SHARE website.) The chart below shows the languages in demand among enterprises:</p>
+<p>For the most part, Java has remained a presence in enterprises. And now the hot companies of the 2000s and '10s are discovering it as well.</p>
+<table class="reference" border="0">
+<tbody>
+<tr>
+<td>
+<h3><strong>Language/platform </strong></h3>
+</td>
+<td>
+<h3><strong>Percent hiring </strong></h3>
+</td>
+</tr>
+<tr>
+<td>Database languages (SQL, PL/SQL)</td>
+<td>56%</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Java</td>
+<td>56%</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>C/C++</td>
+<td>42%</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Java platforms (eg, Java Enterprise Edition, Java SE)</td>
+<td>41%</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Markup languages (eg, XML, HTML)</td>
+<td>38%</td>
+</tr>
+<tr>
+<td>COBOL</td>
+<td>35%</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Scripting languages (eg, JavaScript)</td>
+<td>35%</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Perl</td>
+<td>20%</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>C#</td>
+<td>18%</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>PHP</td>
+<td>11%</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Ruby</td>
+<td>&nbsp;5%</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p><em>Source: Closing the IT Skills Gap: 2011 SHARE Survey for Guiding University &amp; College IT Agendas</em></p>
+		
+	
+	
+</div>
+	
+
+							<p class="relatedTopics">
+									Topics: <a href="/topic-enterprise-software/">Enterprise Software</a>, <a href="/topic-software-development/">Software Development</a>, <a href="/topic-web-development/">Web development</a>						</p>
+
+										<footer class="authorBio">
+														<a href="/meet-the-team/us/joe.mckendrick/" class='thumb' rel='author'>
+							<img data-src="http://cdn-static.zdnet.com/i/r/author/joe-mckendrick-60x45.jpg?hash=AQExAJV5BQ&upscale=1" data-src-768="http://cdn-static.zdnet.com/i/r/author/joe-mckendrick-120x90.jpg?hash=BGL0AmR3MQ&upscale=1" alt="Joe McKendrick" class="lazyload" width="" height="" />
+						</a>
+											<div class="bio">
+							 <h3>About <a href="/meet-the-team/us/joe.mckendrick/" rel='author'>Joe McKendrick</a></h3>	
+							<p>Joe McKendrick is an author, consultant and speaker specializing in trends and developments shaping the technology industry.</p>
+				<div class="socialFollow">
+											<a href="https://plus.google.com/u/0/112828340385156471300?rel=author" class="icon google" target="_blank">Google+</a>
+																<a href="https://twitter.com/joemckendrick" class="twitter-follow-button" data-show-count="false">Follow @joemckendrick</a>
+																<a href="/contact-author/10002362/7000021241/" class="" data-action="contactAuthor">Contact</a>
+																<a href="/show-disclosure/10002362/" class="" data-action="showDisclosure">Disclosure</a>
+									</div>
+			</div>
+		</footer>
+	
+						<p class="fancy">Kick off your day with ZDNet's <a href="/newsletters/">daily email newsletter</a>. It's the freshest tech news and opinion, served hot. <a href="/newsletters/">Get it.</a></p>
+
+		</article>
+
+                        
+<div id="nrelate_related_placeholder" data-nrelate="103" data-url="http://www.zdnet.comhttp://www.zdnet.com/twitter-rebuilds-on-java-7000021241/" data-region="us"></div>
+
+
+                
+        
+		
+		<section id="comments" class="module">
+	<h2 class="heading"><span class="int">Talkback</span></h2>
+	<div class="head">
+		<div class="commentsCount"><span>8</span> comments</div>
+					<div class="fancy"><a href="http://www.zdnet.com/membership/log-in/?app_id=1101&amp;path=http%3A%2F%2Fwww.zdnet.com%2Ftwitter-rebuilds-on-java-7000021241%2F" rel="nofollow" data-member="showLogIn"><strong>Log in</strong></a> or <a href="http://www.zdnet.com/membership/register/?app_id=1101&amp;path=http%3A%2F%2Fwww.zdnet.com%2Ftwitter-rebuilds-on-java-7000021241%2F" rel="nofollow" data-omniture='{"channel":"enterprise software", "reg_form_type":"short", "registration_driver":"comments"}' data-member="showRegister"><strong>register</strong></a> to join the discussion</div>
+			</div>
+	<ul class="commentsList">
+																				 
+	 
+
+<li id="comment-12200423" class="comment">
+	<div class="commentWrapper">
+		
+		
+					<h3 class="commentSubject">It is almost 2014... </h3>
+						<div class="commentBody">...and that survey was published in 2011...and probably conducted in 2010.  Is it really still relevant?</div>
+		<div class="commentMeta">
+			<div><img src="http://www.gravatar.com/avatar/26b7bc1f4144cd6fc7e678ecfd353d6e?size=30&default=http://i1.zdnetstatic.com/gallery/6343316-40-40.jpg" alt="" class="avatar" height="40" width="40"></div>
+																<div class="author">gomigomijunk</div>
+										<time>26 September, 2013 23:51</time>
+		</div>
+		<div class="commentActions">
+							<a href="http://www.zdnet.com/membership/log-in/?app_id=1101&amp;path=http%3A%2F%2Fwww.zdnet.com%2Ftwitter-rebuilds-on-java-7000021241%2F" rel="nofollow" data-member="showLogIn"><span class="icon reply"></span> Reply</a> 
+						<a href="http://www.zdnet.com/vote/" rel="nofollow" data-action="vote" data-asset-id="12200423" data-asset-content-type="comment" data-content-type="up"><span class="icon vote"></span> <span class="count">2</span> <span class="suffix">Votes</span></a>
+								</div>
+	</div>
+			
+					<ul class="level">
+									
+<li id="comment-12200424" class="comment">
+	<div class="commentWrapper">
+		
+		
+					<h3 class="commentSubject">I don&#039;t have anything against Java.. </h3>
+						<div class="commentBody">...But it has become stagnant the last several years and other technologies like C# and even JavaScript (nodejs, etc.) have been whizzing by.  Java is still pretty solid, but like Cobol is starting to show its age and security problems.</div>
+		<div class="commentMeta">
+			<div><img src="http://www.gravatar.com/avatar/26b7bc1f4144cd6fc7e678ecfd353d6e?size=30&default=http://i1.zdnetstatic.com/gallery/6343316-40-40.jpg" alt="" class="avatar" height="40" width="40"></div>
+																<div class="author">gomigomijunk</div>
+										<time>26 September, 2013 23:54</time>
+		</div>
+		<div class="commentActions">
+							<a href="http://www.zdnet.com/membership/log-in/?app_id=1101&amp;path=http%3A%2F%2Fwww.zdnet.com%2Ftwitter-rebuilds-on-java-7000021241%2F" rel="nofollow" data-member="showLogIn"><span class="icon reply"></span> Reply</a> 
+						<a href="http://www.zdnet.com/vote/" rel="nofollow" data-action="vote" data-asset-id="12200424" data-asset-content-type="comment" data-content-type="up"><span class="icon vote"></span> <span class="count">1</span> <span class="suffix">Vote</span></a>
+								</div>
+	</div>
+	</li>
+
+							</ul>
+			</li>
+
+																					 
+	 
+
+<li id="comment-12200453" class="comment">
+	<div class="commentWrapper">
+		
+		
+					<h3 class="commentSubject">misleading? </h3>
+						<div class="commentBody">As far as I know Twitter moved to Scala not Java. It is true that Scala runs on JVM but it&#039;s very different from Java. In fact, somebody from Twitter noted that it&#039;s very hard to go back using Java after working with Ruby for a few years.</div>
+		<div class="commentMeta">
+			<div><img src="http://www.gravatar.com/avatar/3c9a2b7a224f6329cadb4ba8fb4c5936?size=30&default=http://i1.zdnetstatic.com/gallery/6343316-40-40.jpg" alt="" class="avatar" height="40" width="40"></div>
+																<div class="author">mikeonaft</div>
+										<time>27 September, 2013 01:38</time>
+		</div>
+		<div class="commentActions">
+							<a href="http://www.zdnet.com/membership/log-in/?app_id=1101&amp;path=http%3A%2F%2Fwww.zdnet.com%2Ftwitter-rebuilds-on-java-7000021241%2F" rel="nofollow" data-member="showLogIn"><span class="icon reply"></span> Reply</a> 
+						<a href="http://www.zdnet.com/vote/" rel="nofollow" data-action="vote" data-asset-id="12200453" data-asset-content-type="comment" data-content-type="up"><span class="icon vote"></span> <span class="count"></span> <span class="suffix">Vote</span></a>
+								</div>
+	</div>
+	</li>
+
+																 
+	 
+
+<li id="comment-12200504" class="comment">
+	<div class="commentWrapper">
+		
+		
+					<h3 class="commentSubject">Of course Java is still huge.... </h3>
+						<div class="commentBody">Of course Java is still huge, is this really news?  It runs great for making web applications.</div>
+		<div class="commentMeta">
+			<div><img src="http://www.gravatar.com/avatar/fb580eb662f2b805cc2514c3f54b611a?size=30&default=http://i1.zdnetstatic.com/gallery/6343316-40-40.jpg" alt="" class="avatar" height="40" width="40"></div>
+																<div class="author">doh123</div>
+										<time>27 September, 2013 05:08</time>
+		</div>
+		<div class="commentActions">
+							<a href="http://www.zdnet.com/membership/log-in/?app_id=1101&amp;path=http%3A%2F%2Fwww.zdnet.com%2Ftwitter-rebuilds-on-java-7000021241%2F" rel="nofollow" data-member="showLogIn"><span class="icon reply"></span> Reply</a> 
+						<a href="http://www.zdnet.com/vote/" rel="nofollow" data-action="vote" data-asset-id="12200504" data-asset-content-type="comment" data-content-type="up"><span class="icon vote"></span> <span class="count">2</span> <span class="suffix">Votes</span></a>
+								</div>
+	</div>
+	</li>
+
+																 
+	 
+
+<li id="comment-12200597" class="comment">
+	<div class="commentWrapper">
+		
+		
+					<h3 class="commentSubject">Java is awesome </h3>
+						<div class="commentBody">My day job is C# developer, however, in a bid to develop some Android applications on the side, I&#039;ve been playing around with Java. The transition is pretty simple as the two languages are very similar. The great thing about Java is that it&#039;s truly cross platform, unlike C# - Mono doesn&#039;t count as it misses a lot of the new .NET features.</div>
+		<div class="commentMeta">
+			<div><img src="http://www.gravatar.com/avatar/0f992c135536620b45a93c9ad2857cd0?size=30&default=http://i1.zdnetstatic.com/gallery/6343316-40-40.jpg" alt="" class="avatar" height="40" width="40"></div>
+																<div class="author">NitzMan</div>
+										<time>27 September, 2013 12:42</time>
+		</div>
+		<div class="commentActions">
+							<a href="http://www.zdnet.com/membership/log-in/?app_id=1101&amp;path=http%3A%2F%2Fwww.zdnet.com%2Ftwitter-rebuilds-on-java-7000021241%2F" rel="nofollow" data-member="showLogIn"><span class="icon reply"></span> Reply</a> 
+						<a href="http://www.zdnet.com/vote/" rel="nofollow" data-action="vote" data-asset-id="12200597" data-asset-content-type="comment" data-content-type="up"><span class="icon vote"></span> <span class="count"></span> <span class="suffix">Vote</span></a>
+								</div>
+	</div>
+	</li>
+
+																 
+	 
+
+<li id="comment-12200663" class="comment">
+	<div class="commentWrapper">
+		
+		
+					<h3 class="commentSubject">Survey says 35% hiring for COBOL? </h3>
+						<div class="commentBody">The survey credibility drops when I see COBOL at 35%. I think the survey is of a small industry segment.</div>
+		<div class="commentMeta">
+			<div><img src="http://www.gravatar.com/avatar/36dfa4a97559d9754ef0799f2cd912ac?size=30&default=http://i1.zdnetstatic.com/gallery/6343316-40-40.jpg" alt="" class="avatar" height="40" width="40"></div>
+																<div class="author">Reality-based</div>
+										<time>27 September, 2013 14:18</time>
+		</div>
+		<div class="commentActions">
+							<a href="http://www.zdnet.com/membership/log-in/?app_id=1101&amp;path=http%3A%2F%2Fwww.zdnet.com%2Ftwitter-rebuilds-on-java-7000021241%2F" rel="nofollow" data-member="showLogIn"><span class="icon reply"></span> Reply</a> 
+						<a href="http://www.zdnet.com/vote/" rel="nofollow" data-action="vote" data-asset-id="12200663" data-asset-content-type="comment" data-content-type="up"><span class="icon vote"></span> <span class="count"></span> <span class="suffix">Vote</span></a>
+								</div>
+	</div>
+			
+					<ul class="level">
+									
+<li id="comment-12200810" class="comment">
+	<div class="commentWrapper">
+		
+		
+					<h3 class="commentSubject">The survey is of large enterprises... </h3>
+						<div class="commentBody">Half of which have workforces greater than 10,000 employees. Hence, the inclination toward mainframes.</div>
+		<div class="commentMeta">
+			<div><img src="http://www.gravatar.com/avatar/1d130c810bdf8cd679a62bbfa0ad85de?size=30&default=http://i1.zdnetstatic.com/gallery/6343316-40-40.jpg" alt="" class="avatar" height="40" width="40"></div>
+																<div class="author">Joe McKendrick</div>
+										<time>27 September, 2013 16:01</time>
+		</div>
+		<div class="commentActions">
+							<a href="http://www.zdnet.com/membership/log-in/?app_id=1101&amp;path=http%3A%2F%2Fwww.zdnet.com%2Ftwitter-rebuilds-on-java-7000021241%2F" rel="nofollow" data-member="showLogIn"><span class="icon reply"></span> Reply</a> 
+						<a href="http://www.zdnet.com/vote/" rel="nofollow" data-action="vote" data-asset-id="12200810" data-asset-content-type="comment" data-content-type="up"><span class="icon vote"></span> <span class="count">1</span> <span class="suffix">Vote</span></a>
+								</div>
+	</div>
+	</li>
+
+							</ul>
+			</li>
+
+																 
+	 
+
+<li id="comment-12201892" class="comment">
+	<div class="commentWrapper">
+		
+		
+					<h3 class="commentSubject">Java is crap.... </h3>
+						<div class="commentBody">Too buggy.<br />
+It has been off all of my systems and everything runs well without it.</div>
+		<div class="commentMeta">
+			<div><img src="http://www.gravatar.com/avatar/642be9b7b2df6b453c913a68ced250bf?size=30&default=http://i1.zdnetstatic.com/gallery/6343316-40-40.jpg" alt="" class="avatar" height="40" width="40"></div>
+																<div class="author">Gisabun</div>
+										<time>30 September, 2013 01:03</time>
+		</div>
+		<div class="commentActions">
+							<a href="http://www.zdnet.com/membership/log-in/?app_id=1101&amp;path=http%3A%2F%2Fwww.zdnet.com%2Ftwitter-rebuilds-on-java-7000021241%2F" rel="nofollow" data-member="showLogIn"><span class="icon reply"></span> Reply</a> 
+						<a href="http://www.zdnet.com/vote/" rel="nofollow" data-action="vote" data-asset-id="12201892" data-asset-content-type="comment" data-content-type="up"><span class="icon vote"></span> <span class="count"></span> <span class="suffix">Vote</span></a>
+								</div>
+	</div>
+	</li>
+
+										</ul>
+			
+	</section>
+		
+	</div>
+	<!-- //main -->
+	<aside id="secondary">
+		
+
+		
+            <div id="marquee">
+	<script type="text/javascript">
+		googletag.display("marquee");
+	</script>
+</div>
+
+    
+		
+            <div id="vendor-text-link">
+	<script type="text/javascript">
+		googletag.display("vendor-text-link");
+	</script>
+</div>
+
+    
+					
+            <div id="text-link">
+	<script type="text/javascript">
+		googletag.display("text-link");
+	</script>
+</div>
+
+    
+					
+            <div id="mpu-top" class="mpu">
+	<script type="text/javascript">
+		googletag.display("mpu-top");
+	</script>
+</div>
+
+    
+
+        
+            <div id="hotspot">
+	<script type="text/javascript">
+		googletag.display("hotspot");
+	</script>
+</div>
+
+    
+        
+            <div id="resource-center">
+	<script type="text/javascript">
+		googletag.display("resource-center");
+	</script>
+</div>
+
+    
+						<section class="module">
+					<h2 class="heading"><span class="int">Related Stories</span></h2>
+				<div class="box">
+			<ul>
+															<li>
+															<div>
+									<a href="http://www.zdnet.com/tax-office-embarks-on-1-5-billion-it-transformation-7000021507/" class="thumb">
+										<img src="http://cdn-static.zdnet.com/i/r/story/70/00/021507/tax-office-embarks-on-1-5-billion-it-transformation-60x45.jpg?hash=AQyxATAxZw&amp;upscale=1" alt="Tax office embarks on NZ$1.5 billion IT transformation" width="60" height="45" />
+									</a>
+								</div>
+														<div class="content">
+								<p><a href="http://www.zdnet.com/tax-office-embarks-on-1-5-billion-it-transformation-7000021507/">Tax office embarks on NZ$1.5 billion IT transformation</a></p>
+								
+							</div>
+						</li>
+																				<li>
+															<div>
+									<a href="http://www.zdnet.com/bluekai-expands-to-london-taps-microsoft-exec-to-lead-7000020414/" class="thumb">
+										<img src="http://cdn-static.zdnet.com/i/r/story/70/00/020414/bluekai-expands-to-london-taps-microsoft-exec-to-lead-60x45.jpg?hash=ZQqzMGN4AT&amp;upscale=1" alt="BlueKai expands to London, taps Microsoft exec to lead" width="60" height="45" />
+									</a>
+								</div>
+														<div class="content">
+								<p><a href="http://www.zdnet.com/bluekai-expands-to-london-taps-microsoft-exec-to-lead-7000020414/">BlueKai expands to London, taps Microsoft exec to lead</a></p>
+								
+							</div>
+						</li>
+																				<li>
+															<div>
+									<a href="http://www.zdnet.com/box-spins-embed-onecloud-for-educational-use-at-k-12-schools-universities-7000019163/" class="thumb">
+										<img src="http://cdn-static.zdnet.com/i/r/story/70/00/019163/box-builds-ecosystem-to-modernize-collaboration-in-education-60x45.png?hash=BQV4MwWwZT&amp;upscale=1" alt="Box spins Embed, OneCloud for educational use at K-12 schools, universities" width="60" height="45" />
+									</a>
+								</div>
+														<div class="content">
+								<p><a href="http://www.zdnet.com/box-spins-embed-onecloud-for-educational-use-at-k-12-schools-universities-7000019163/">Box spins Embed, OneCloud for educational use at K-12 schools, universities</a></p>
+								
+							</div>
+						</li>
+																				<li>
+															<div>
+									<a href="http://www.zdnet.com/coles-supply-chain-revamp-means-stockouts-are-down-down-down-7000019419/" class="thumb">
+										<img src="http://cdn-static.zdnet.com/i/r/story/70/00/019419/coles-procurement-revamp-means-stockouts-are-down-down-down-60x45.jpg?hash=MQWyBGLjLw&amp;upscale=1" alt="Coles supply-chain revamp means stockouts are down (down, down)" width="60" height="45" />
+									</a>
+								</div>
+														<div class="content">
+								<p><a href="http://www.zdnet.com/coles-supply-chain-revamp-means-stockouts-are-down-down-down-7000019419/">Coles supply-chain revamp means stockouts are down (down, down)</a></p>
+								
+							</div>
+						</li>
+																</ul>
+		</div>
+	</section>
+
+				<section class="keepUp">
+	<h2 class="heading"><span class="int">The best of ZDNet, delivered</span></h2>
+	<div class="box">
+		<div class="newsletters">
+					
+				<form action="" data-member="submitNewsletterLoggedOut" data-url="/membership/newsletters-widget/" data-omniture='{"channel":"enterprise software", "reg_form_type":"short", "registration_driver":"paint newsletter reg box"}' >
+					<fieldset>
+					<h3>ZDNet Newsletters</h3>
+					<p>Get the best of ZDNet delivered straight to your inbox</p>
+                    <p class="mmode-msg">We're temporarily in maintenance mode, which means you won't be able to sign up for a newsletter. Please check back shortly to resume the subscription process. Thanks for your patience.</p>
+					<div class="mmode mmode-nls">
+						<input name="email" placeholder="Enter your email address" type="text" value="" required />
+													<label class="checkbox"><input name="subscribes[]" type="checkbox" checked="checked" value="e589:INTERNAL_NEWSLETTER"><b>ZDNet Must Read News Alerts - US:</b> Major news is breaking. Are you ready? This newsletter has only the most important tech news nothing else. </label>
+												<input class="button" type="submit" value="Subscribe Now" />
+					</div>
+					</fieldset>
+				</form>
+					
+		</div>
+		<div class="social">
+			<ul>
+				<li><a href="https://www.facebook.com/pages/ZDNet/5953112932" target="_blank" class="iconSocial facebook">Facebook</a></li>
+				<li><a href="http://twitter.com/#!/zdnet" target="_blank" class="iconSocial twitter">Twitter</a></li>
+				<li><a href="http://www.linkedin.com/today/zdnet.com" target="_blank" class="iconSocial linkedIn">LinkedIn</a></li>
+				<li><a href="https://plus.google.com/105074359186426139750" target="_blank" class="iconSocial google">Google+</a></li>
+				<li><a href="/rssfeeds/" target="_blank" class="iconSocial rss">RSS</a></li>
+				
+				<li><a href="https://play.google.com/store/apps/details?id=com.cbsinteractive.zdnet" target="_blank" class="iconSocial android">Android</a></li>
+				<li><a href="http://itunes.apple.com/au/app/zdnet/id425580940?mt=8#" target="_blank" class="iconSocial iphone">iPhone</a></li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+		
+        
+            <div id="power-center">
+	<script type="text/javascript">
+		googletag.display("power-center");
+	</script>
+</div>
+
+    
+
+        			
+							<section class="module">
+    <iframe class="bidwar" width="100%" scrolling="no" height="270" frameborder="0" align="top" target="_top" marginwidth="0" marginheight="0" src="http://bwp.zdnet.com/search?dw-siteid=2&amp;dw-ptid=8301&amp;dw-edid=2&amp;dw-ontid=800023"></iframe>
+</section>
+				    
+		
+        		<section class="module">
+	<h2 class="heading"><span class="int">Facebook Activity</span></h2>
+	<div class="fb-activity" data-site="zdnet.com" data-width="300" data-height="300" data-header="false" data-recommendations="true"></div>
+</section>
+
+		<section class="module">
+	<h2 class="heading"><span class="int">Events Calendar</span></h2>
+	<div class="box">
+		<a href="/eventscalendar/"><img src="/images/base/promo-events-calendar.jpg" alt="" /></a>
+	</div>
+</section>
+
+			<section class="module medusa">
+		<h2 class="heading"><span class="int">White Papers, Webcasts, &amp; Resources</span></h2>
+		<div class="box">
+			<ul>
+									<li>
+						<h3><a href="http://dw.cbsi.com/redir?tag=medccnbwp&siteId=2&ptid=8301&onid=800023&q=&ctype=docids&cval=32875837&destUrl=http%3A%2F%2Fwww.techrepublic.com%2Fresource-library%2Fwhitepapers%2Ftop-reasons-customers-virtualize-desktop-infrastructures-with-emc-vspex%2F%3Fpromo%3D999516%26cval%3Dwhitepapers">Top Reasons Customers Virtualize Desktop Infrastructures With EMC VSPEX</a></h3>
+						<p><a href="http://dw.cbsi.com/redir?tag=medccnbwp&siteId=2&ptid=8301&onid=800023&q=&ctype=docids&cval=32875837&destUrl=http%3A%2F%2Fwww.techrepublic.com%2Fresource-library%2Fwhitepapers%2Ftop-reasons-customers-virtualize-desktop-infrastructures-with-emc-vspex%2F%3Fpromo%3D999516%26cval%3Dwhitepapers">EMC VSPEX Private Cloud</a> solutions improve <a href="http://dw.cbsi.com/redir?tag=medccnbwp&siteId=2&ptid=8301&onid=800023&q=&ctype=docids&cval=32875837&destUrl=http%3A%2F%2Fwww.techrepublic.com%2Fresource-library%2Fwhitepapers%2Ftop-reasons-customers-virtualize-desktop-infrastructures-with-emc-vspex%2F%3Fpromo%3D999516%26cval%3Dwhitepapers">accessibility</a>, centralize <a href="http://dw.cbsi.com/redir?tag=medccnbwp&siteId=2&ptid=8301&onid=800023&q=&ctype=docids&cval=32875837&destUrl=http%3A%2F%2Fwww.techrepublic.com%2Fresource-library%2Fwhitepapers%2Ftop-reasons-customers-virtualize-desktop-infrastructures-with-emc-vspex%2F%3Fpromo%3D999516%26cval%3Dwhitepapers">management</a>, and increase performance for mission critical applications. Learn how in this <a href="http://dw.cbsi.com/redir?tag=medccnbwp&siteId=2&ptid=8301&onid=800023&q=&ctype=docids&cval=32875837&destUrl=http%3A%2F%2Fwww.techrepublic.com%2Fresource-library%2Fwhitepapers%2Ftop-reasons-customers-virtualize-desktop-infrastructures-with-emc-vspex%2F%3Fpromo%3D999516%26cval%3Dwhitepapers">white paper</a> today.</p>
+					</li>
+									<li>
+						<h3><a href="http://dw.cbsi.com/redir?tag=medccnbwp&siteId=2&ptid=8301&onid=800023&q=&ctype=docids&cval=32913453&destUrl=http%3A%2F%2Fwww.techrepublic.com%2Fresource-library%2Fwhitepapers%2Ften-smart-things-to-know-about-storage%2F%3Fpromo%3D999516%26cval%3Dwhitepapers">Ten Smart Things to Know About Storage</a></h3>
+						<p>Check out this <a href="http://dw.cbsi.com/redir?tag=medccnbwp&siteId=2&ptid=8301&onid=800023&q=&ctype=docids&cval=32913453&destUrl=http%3A%2F%2Fwww.techrepublic.com%2Fresource-library%2Fwhitepapers%2Ften-smart-things-to-know-about-storage%2F%3Fpromo%3D999516%26cval%3Dwhitepapers">white paper</a> to learn about trends, developments and tips to make your <a href="http://dw.cbsi.com/redir?tag=medccnbwp&siteId=2&ptid=8301&onid=800023&q=&ctype=docids&cval=32913453&destUrl=http%3A%2F%2Fwww.techrepublic.com%2Fresource-library%2Fwhitepapers%2Ften-smart-things-to-know-about-storage%2F%3Fpromo%3D999516%26cval%3Dwhitepapers">storage environment</a> more efficient.</p>
+					</li>
+									<li>
+						<h3><a href="http://dw.cbsi.com/redir?tag=medccnbwp&siteId=2&ptid=8301&onid=800023&q=&ctype=docids&cval=32914719&destUrl=http%3A%2F%2Fwww.techrepublic.com%2Fresource-library%2Fwhitepapers%2Fa-cio-guide-building-business-trust-with-application-performance-monitoring%2F%3Fpromo%3D999516%26cval%3Dwhitepapers">A CIO Guide - Building Business Trust with Application Performance Monitoring</a></h3>
+						<p>This white paper, "A CIO's Guide: Building Business Trust with Application Performance Monitoring" highlights the benefits of an APM solution in delivering quality services and helping IT organizations build track records of operational excellence. <a href="http://dw.cbsi.com/redir?tag=medccnbwp&siteId=2&ptid=8301&onid=800023&q=&ctype=docids&cval=32914719&destUrl=http%3A%2F%2Fwww.techrepublic.com%2Fresource-library%2Fwhitepapers%2Fa-cio-guide-building-business-trust-with-application-performance-monitoring%2F%3Fpromo%3D999516%26cval%3Dwhitepapers">Download it today</a>.</p>
+					</li>
+							</ul>
+							<span style="display:none;">
+    <img src="http://dw.cbsi.com/redir?tag=medicnbwp&siteId=2&ptid=8301&onid=800023&q=&ctype=docids&cval=32875837,32913453,32914719&destUrl=http%3A%2F%2Fb2b.cbsimg.net%2Fb.gif" width="1" height="1">
+  </span>
+					</div>
+	</section>
+
+			
+            <div id="mpu-bottom" class="mpu">
+	<script type="text/javascript">
+		googletag.display("mpu-bottom");
+	</script>
+</div>
+
+    
+
+					
+            <div id="shared-resource-center">
+	<script type="text/javascript">
+		googletag.display("shared-resource-center");
+	</script>
+</div>
+
+    
+		
+					
+	    
+	</aside>
+	<!-- //secondary -->
+
+			</div>
+							
+    
+	<div id="leaderBottom" class="leader">
+    <div class="container">
+            <div id="leaderboard-bottom">
+	<script type="text/javascript">
+		googletag.display("leaderboard-bottom");
+	</script>
+</div>
+
+    		</div>
+	</div>
+
+					</div>
+	</div>
+<!-- //mantle skin -->
+	<div id="catfish" data-toggle="fixate" data-window-edge="bottom">
+		<div class="container">
+			<div class="catfishBar">
+				<span class="branding">CNET</span>
+				<span class="social twitter"><a href="https://twitter.com/zdnet" class="twitter-follow-button pre-render" data-show-count="false" data-show-screen-name="true"></a></span>
+				<span class="social facebook">
+					<fb:like class="facebook-like-button" send="false" layout="button_count" width="83" show_faces="false" font="arial" href="http://www.facebook.com/pages/ZDNet/5953112932"></fb:like>
+				</span>
+				<span class="services">
+											<a data-member="showRegister" href="http://www.zdnet.com/membership/register/?app_id=1101&amp;path=http%3A%2F%2Fwww.zdnet.com%2Ftwitter-rebuilds-on-java-7000021241%2F" data-omniture='{"channel":"enterprise software", "reg_form_type":"short", "registration_driver":"catfish-bar"}'>Join</a> | <a data-member="showLogIn" href="http://www.zdnet.com/membership/log-in/?app_id=1101&amp;path=http%3A%2F%2Fwww.zdnet.com%2Ftwitter-rebuilds-on-java-7000021241%2F">Log In</a> 
+										| <a href="http://legalterms.cbsinteractive.com/privacy" target="_blank">Privacy</a> | <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/Managing-Cookies-PP?template=template_privacyzd&referer=privacyzd.com" target="_blank">Cookies</a>
+				</span>
+				<a class="close" data-action="close">Close</a>
+			</div>
+		</div>
+	</div>
+
+<footer role="contentinfo">
+	<div class="container">
+		
+					<div class="row">
+				<div class="column-8 siteHighlights">
+					<h2>Featured Articles</h2>
+					<div class="row">
+													<article class="column-2">
+																	<div>
+										<a href="http://www.zdnet.com/silicon-valley-a-history-worth-preserving-7000021601/" class="thumb">
+											<img src="http://cdn-static.zdnet.com/i/r/story/70/00/021601/silicon-valley-a-history-worth-preserving-60x45.jpg?hash=LGIzMwt4MQ&amp;upscale=1" data-src="http://cdn-static.zdnet.com/i/r/story/70/00/021601/silicon-valley-a-history-worth-preserving-60x45.jpg?hash=LGIzMwt4MQ&amp;upscale=1" data-src-768="http://cdn-static.zdnet.com/i/r/story/70/00/021601/silicon-valley-a-history-worth-preserving-140x105.jpg?hash=LGyvZGZ0BG&amp;upscale=1" alt="Silicon Valley: A history worth preserving" class="lazyload" width="" height="" />
+										</a>
+									</div>
+																<h3><a href="http://www.zdnet.com/silicon-valley-a-history-worth-preserving-7000021601/">Silicon Valley: A history worth preserving</a></h3>
+								
+							</article>
+																			<article class="column-2">
+																	<div>
+										<a href="http://www.zdnet.com/silicon-valley-a-history-worth-preserving-7000021601/" class="thumb">
+											<img src="http://cdn-static.zdnet.com/i/r/story/70/00/021601/silicon-valley-a-history-worth-preserving-60x45.jpg?hash=LGIzMwt4MQ&amp;upscale=1" data-src="http://cdn-static.zdnet.com/i/r/story/70/00/021601/silicon-valley-a-history-worth-preserving-60x45.jpg?hash=LGIzMwt4MQ&amp;upscale=1" data-src-768="http://cdn-static.zdnet.com/i/r/story/70/00/021601/silicon-valley-a-history-worth-preserving-140x105.jpg?hash=LGyvZGZ0BG&amp;upscale=1" alt="Silicon Valley: A history worth preserving" class="lazyload" width="" height="" />
+										</a>
+									</div>
+																<h3><a href="http://www.zdnet.com/silicon-valley-a-history-worth-preserving-7000021601/">Silicon Valley: A history worth preserving</a></h3>
+								
+							</article>
+																			<article class="column-2">
+																	<div>
+										<a href="http://www.zdnet.com/nokia-lumia-1020-review-a-photographers-smartphone-7000021446/" class="thumb">
+											<img src="http://cdn-static.zdnet.com/i/r/story/70/00/021446/nokia-lumia-1020-review-a-photographers-smartphone-60x45.jpg?hash=LGuuLmVmLm&amp;upscale=1" data-src="http://cdn-static.zdnet.com/i/r/story/70/00/021446/nokia-lumia-1020-review-a-photographers-smartphone-60x45.jpg?hash=LGuuLmVmLm&amp;upscale=1" data-src-768="http://cdn-static.zdnet.com/i/r/story/70/00/021446/nokia-lumia-1020-review-a-photographers-smartphone-140x105.jpg?hash=BQZkLmN2Aw&amp;upscale=1" alt="Nokia Lumia 1020 review: A photographer&#039;s smartphone" class="lazyload" width="" height="" />
+										</a>
+									</div>
+																<h3><a href="http://www.zdnet.com/nokia-lumia-1020-review-a-photographers-smartphone-7000021446/">Nokia Lumia 1020 review: A photographer&#039;s smartphone</a></h3>
+								
+							</article>
+																			<article class="column-2">
+																																									<div>
+									<a href="http://www.zdnet.com/debate/microsofts-next-ceo-is-an-insider-redmonds-best-bet/10128533/" class="thumb">
+										<img src="http://cdn-static.zdnet.com/i/r/library/us-authors/larry-dignan-640x465-60x45.jpg?hash=AwOvLJAyA2&amp;upscale=1" data-src="http://cdn-static.zdnet.com/i/r/library/us-authors/larry-dignan-640x465-60x45.jpg?hash=AwOvLJAyA2&amp;upscale=1" data-src-768="http://cdn-static.zdnet.com/i/r/library/us-authors/larry-dignan-640x465-140x105.jpg?hash=BQL5LmxmMT&amp;upscale=1" alt="Microsoft&#039;s next CEO: Is an insider Redmond&#039;s best bet?" class="lazyload" width="" height="" />
+									</a>
+								</div>
+								<h3><a href="http://www.zdnet.com/debate/microsofts-next-ceo-is-an-insider-redmonds-best-bet/10128533/">Microsoft&#039;s next CEO: Is an insider Redmond&#039;s best bet?</a></h3>
+							</article>
+											</div>
+				</div>
+				<nav class="column-2 footerMap">
+					<h2>Around ZDNet</h2>
+					<ul>
+						<li><a href="http://www.zdnet.com/topic/">Topics</a></li>
+						<li><a href="http://www.zdnet.com/broadband-speedtest/">Broadband Speed Test</a></li>
+						<li><a href="http://www.zdnet.com/eventscalendar/">Events Calendar</a></li>
+						<li><a href="http://www.zdnet.com/meet-the-team/">Meet the Team</a></li>
+						<li><a href="http://www.zdnet.com/about/">About ZDNet</a></li>
+						<li><a href="http://www.zdnet.com/sitemap/">Site Map</a></li>
+					</ul>
+				</nav>
+				<nav class="column-2 footerMap">
+					<h2>Services</h2>
+					<ul>
+													<li><a href="http://www.zdnet.com/membership/log-in/?app_id=1101&amp;path=http%3A%2F%2Fwww.zdnet.com%2Ftwitter-rebuilds-on-java-7000021241%2F" rel="nofollow" data-member="showLogIn">Log In</a> | <a href="http://www.zdnet.com/membership/register/?app_id=1101&amp;path=http%3A%2F%2Fwww.zdnet.com%2Ftwitter-rebuilds-on-java-7000021241%2F" rel="nofollow" data-omniture='{"channel":"enterprise software", "reg_form_type":"short", "registration_driver":"footer"}' data-member="showRegister">Join ZDNet</a></li>
+												<li><a href="http://www.zdnet.com/membership/" rel="nofollow">Membership</a></li>
+						<li><a href="http://www.zdnet.com/newsletters/">Newsletters</a></li>
+						<li><a href="http://www.zdnet.com/rssfeeds/">RSS Feeds</a></li>
+						<li><a href="http://www.zdnet.com/mobile-apps/">ZDNet Mobile</a></li>
+						<li><a href="https://cbsi.secure.force.com/CBSi/knowledgehome">Site Assistance</a></li>
+					</ul>
+				</nav>
+			</div>
+		
+				<p class="copyright">&copy; 2013 CBS Interactive. All rights reserved. <a href="http://legalterms.cbsinteractive.com/privacy" rel="nofollow" target="_blank">Privacy Policy</a> | <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/Managing-Cookies-PP?template=template_privacyzd&referer=privacyzd.com" rel="nofollow" target="_blank">Cookies</a> | <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/Third-Party-Online-Advertising?template=template_privacyzd&referer=privacyzd.com&cfs=default" rel="nofollow" target="_blank">Ad Choice</a> |  <a href="http://www.zdnet.com/advertise/?tag=boilerplate%3bz" rel="nofollow" target="_blank">Advertise</a> | <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBS-Interactive-Terms-of-Use?template=template_touzd&referer=touzd.com" rel="nofollow" target="_blank">Terms of Use</a></p>
+					<div class="networkSites">
+				<form>
+					<label for="siteTarget">Visit other CBS Interactive sites</label>
+					<select id="siteTarget" name="target" onchange="window.location=document.getElementById('siteTarget').options[document.getElementById('siteTarget').selectedIndex].value; return false">
+						<option selected="selected" value="">Select Site</option>
+						<option value="http://www.cbscares.com">CBS Cares</option>
+						<option value="http://www.cbsfilms.com">CBS Films</option>
+						<option value="http://www.cbsradio.com/streaming/index.html">CBS Radio</option>
+						<option value="http://www.cbs.com">CBS.com</option>
+						<option value="http://www.cbsinteractive.com">CBSInteractive</option>
+						<option value="http://www.cbsnews.com">CBSNews.com</option>
+						<option value="http://www.cbssports.com">CBSSports.com</option>
+						<option value="http://www.chow.com">CHOW</option>
+						<option value="http://www.clicker.com">Clicker</option>
+						<option value="http://www.cnet.com">CNET</option>
+						<option value="http://collegenetwork.cbssports.com">College Network</option>
+						<option value="http://www.gamespot.com">GameSpot</option>
+						<option value="http://www.help.com">Help.com</option>
+						<option value="http://www.last.fm">Last.fm</option>
+						<option value="http://www.maxpreps.com">MaxPreps</option>
+						<option value="http://www.metacritic.com">Metacritic.com</option>
+						<option value="http://www.cbsnews.com/moneywatch/">Moneywatch</option>
+						<option value="http://www.mysimon.com">mySimon</option>
+						<option value="http://www.radio.com">Radio.com</option>
+						<option value="http://www.search.com">Search.com</option>
+						<option value="http://www.shopper.com">Shopper.com</option>
+						<option value="http://www.sho.com">Showtime</option>
+						<option value="http://www.smartplanet.com">SmartPlanet</option>
+						<option value="http://www.techrepublic.com">TechRepublic</option>
+						<option value="http://www.theinsider.com">The Insider</option>
+						<option value="http://www.tv.com">TV.com</option>
+						<option value="http://www.urbanbaby.com">UrbanBaby.com</option>
+						<option value="http://www.zdnet.com">ZDNet</option>
+					</select>
+				</form>
+			</div>
+			</div>
+</footer>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/frontend/js/external/jquery-1.7.1.min.js?1380807289"><\/script>')</script>
+<script src="/js/iau-min.js?1380807201"></script>
+
+<script src="/js/build-core.js?1380807201"></script>
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+  js.async = true;
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<script>
+ window.twttr = (function (d,s,id) {
+    var t, js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+    js.src="//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+    return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+  }(document, "script", "twitter-wjs"));
+
+twttr.ready(function (twttr)
+{
+	var opts   = {event  : 'share',
+		      eventt : 'socialsite',
+		      wdloc  : 'unknown'};
+	var params = {ssite: 'twitter'};
+
+	twttr.events.bind('follow', function(event)
+	{
+		var dom_element = event.target;
+		console.log(dom_element);
+		//CBSI.EventTracking.trackEvent({
+	        //	ssite  : params.ssite,
+	        //        event  : 'follow',
+        	//        eventt : params.eventt || opts.eventt,
+                //	wdloc  : params.wdloc || opts.wdloc,
+	        //        wd     : params.wd || 'sharedropdown',
+        	//        tasid  : DW.pageParams.asid || 0,
+                //	tastid : DW.pageParams.astid || 0,
+	        //        turl   : this.url,
+        	//        tname  : this.title
+		//});
+	});
+});
+</script>
+
+<script type="text/javascript">
+	cbsiRunApexTargets(cbsiAdGlobal, 1000);
+</script>
+
+
+            <div id="interstitial">
+	<script type="text/javascript">
+		googletag.display("interstitial");
+	</script>
+</div>
+
+    
+<div id="omnitureTracking" style="display: none; height: 1px; width: 1px; top: 0px; left: 0px;">
+<!-- SiteCatalyst code version: H.1.
+Copyright 1997-2005 Omniture, Inc. More info available at
+http://www.omniture.com -->
+<script type="text/javascript">
+if (s)
+{
+	s.pageName = 'zdgl:Twitter rebuilds on Java:p1:text:Enterprise Software';
+	s.channel = 'enterprise software';
+	s.server = 'zdnet.com';
+	s.pageType = '';
+	
+	s.hier1 = 'zdgl:enterprise software,text';
+
+	s.prop1 = 'zdnet';
+	s.prop2 = 'us';
+	s.prop3 = 'responsive web';
+	s.prop7 = 'D=g';
+	s.prop8 = 'Twitter rebuilds on Java | ZDNet';
+	s.prop9 = 'D=User-Agent';
+	s.prop10 = 'story';
+	s.prop11 = 'D=ch+\":\"+c10';
+	s.prop12 = '8301';
+	s.prop20 = 'Twitter rebuilds on Java';
+	s.prop21 = 'Twitter rebuilds on Java';
+	s.prop22 = 'text';
+	s.prop23 = 'Enterprise Software';
+	s.prop24 = 'a5398b3882aa27557d5';
+	s.prop26 = 'zdgl_10084877';
+	s.prop30 = 'zdgl_7000021241';
+	s.prop65 = '[buying cycle]';
+
+	s.eVar1 = 'D=c1';
+	s.eVar2 = 'D=c2';
+	s.eVar3 = 'D=c3';
+	s.eVar7 = 'D=g';
+	s.eVar8 = 'D=c8';
+	s.eVar10 = 'D=c10';
+	s.eVar11 = 'D=ch+\":\"+c10';
+	s.eVar12 = 'D=c12';
+	s.eVar15 = '';
+	s.eVar20 = 'D=c20';
+	s.eVar21 = 'D=c21';
+	s.eVar22 = 'D=c22';
+	s.eVar23 = 'D=c23';
+	s.eVar24 = 'D=c24';
+	s.eVar26 = 'D=c26';
+	s.eVar30 = 'D=c30';
+	s.eVar32 = 'D=c32';
+	s.eVar63 = 'D=c63';
+	s.eVar65 = 'D=c65';
+	s.eVar69 = 'D=c69';
+
+	s.list3 = '10002362';
+
+	s.events = 'event30';
+
+}
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.1. -->
+</div>
+
+<div id="DWClickTracking" style="display: none; height: 1px; width: 1px; top: 0px; left: 0px;">
+	<script type="text/javascript">
+				DW.clear();
+        DW.trackClicks(DW.noTagClickHandler);
+	</script>
+</div>
+
+
+<!-- CrowdScience -->
+<script type="text/javascript">
+    (function() {
+        var cs = document.createElement('script'); cs.type = 'text/javascript'; cs.async = true;      
+        cs.src = ('https:' == document.location.protocol?'https://':'http://')+'static.crowdscience.com/start-c2e7cdddce.js?cp1=['+encodeURIComponent((DW.pageParams.pguid || ""))+']';
+        var s = document.getElementsByTagName('script')[0];      
+        s.parentNode.insertBefore(cs,s);
+    })();      
+</script>
+<!-- /CrowdScience -->
+
+
+<!-- Ad Behaviour -->
+<script type="text/javascript">
+    cbsiAdBehavioralSetup();
+    cbsiAdBehavioral();
+</script>
+<!-- END Ad Behaviour -->
+
+<!-- CBSi Content Checker -->
+	<!-- ClickTale Bottom part -->
+	<script type='text/javascript'>
+	    document.write(unescape("%3Cscript%20src='" +
+	                            (document.location.protocol == 'https:' ?
+	                             'https://clicktalecdn.sslcs.cdngc.net/' :
+	                             'http://cdn.clicktale.net/') +
+	                            "www09/ptc/5a999966-75a6-4b89-a92c-23702f4d9c94.js'%20type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<!-- ClickTale end of Bottom part -->
+
+</body>
+</html>

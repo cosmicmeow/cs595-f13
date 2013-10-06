@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="http://michaeldouglassmith.com/xmlrpc.php" />
+    		<link rel="icon" type="image/vnd.microsoft.icon" href="http://michaeldouglassmith.com/wp-content/uploads/2013/07/favicon.ico" />
+    	<!--[if lt IE 9]>
+		<script src="http://michaeldouglassmith.com/wp-content/themes/cv/js/html5.js" type="text/javascript"></script>
+	<![endif]-->
+	
+		
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.4.18 - http://yoast.com/wordpress/seo/ -->
+<title>Mutations be gone: Microsoft .NET releases immutable collections by michael douglas smith</title>
+<meta name="description" content="Michael Douglas Smith posted Mutations be gone: Microsoft .NET releases immutable collections, Nine months after preview, the Microsoft .NET team has released a ready-for-primetime package of immutable collections on the NuGet Gallery. I know what you&rsquo;re thinking, &ldquo;The .NET Framework already includes many highly tuned generic collections, so what&rsquo;s the fuss?&rdquo; Those familiar with collections know that read-only collection types are in essence facades over collections that can change at any time. ..."/>
+<link rel="canonical" href="http://michaeldouglassmith.com/mutations-be-gone-microsoft-net-releases-immutable-collections/" />
+<meta property="og:locale" content="en_US"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Mutations be gone: Microsoft .NET releases immutable collections by michael douglas smith"/>
+<meta property="og:description" content="Michael Douglas Smith posted Mutations be gone: Microsoft .NET releases immutable collections, Nine months after preview, the Microsoft .NET team has released a ready-for-primetime package of immutable collections on the NuGet Gallery. I know what you&rsquo;re thinking, &ldquo;The .NET Framework already includes many highly tuned generic collections, so what&rsquo;s the fuss?&rdquo; Those familiar with collections know that read-only collection types are in essence facades over collections that can change at any time. ..."/>
+<meta property="og:url" content="http://michaeldouglassmith.com/mutations-be-gone-microsoft-net-releases-immutable-collections/"/>
+<meta property="og:site_name" content="michael douglas smith"/>
+<meta property="og:image" content="http://michaeldouglassmith.com/wp-content/uploads/2013/09/dde3aggbug.aspx_.gif"/>
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="michael douglas smith &raquo; Feed" href="http://michaeldouglassmith.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="michael douglas smith &raquo; Comments Feed" href="http://michaeldouglassmith.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="michael douglas smith &raquo; Mutations be gone: Microsoft .NET releases immutable collections Comments Feed" href="http://michaeldouglassmith.com/mutations-be-gone-microsoft-net-releases-immutable-collections/feed/" />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://michaeldouglassmith.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-widgets-css'  href='http://michaeldouglassmith.com/wp-content/plugins/jetpack/modules/widgets/widgets.css?ver=20121003' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyphoto-style-css'  href='http://michaeldouglassmith.com/wp-content/themes/cv/js/prettyphoto/css/prettyPhoto.css?ver=3.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaplayer-style-css'  href='http://michaeldouglassmith.com/wp-content/themes/cv/js/mediaplayer/mediaelementplayer.css?ver=3.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery_reject-style-css'  href='http://michaeldouglassmith.com/wp-content/themes/cv/js/jreject/css/jquery.reject.css?ver=3.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='shift_cv-style-css'  href='http://michaeldouglassmith.com/wp-content/themes/cv/style.css?ver=3.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='theme_dark-css'  href='http://michaeldouglassmith.com/wp-content/themes/cv/css/dark-theme.css?ver=3.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='shortcodes-css'  href='http://michaeldouglassmith.com/wp-content/themes/cv/css/shortcodes.css?ver=3.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css'  href='http://michaeldouglassmith.com/wp-content/themes/cv/css/responsive.css?ver=3.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font_awesome-css'  href='http://michaeldouglassmith.com/wp-content/themes/cv/includes/font-awesome/css/font-awesome.min.css?ver=1.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='lato-css'  href='http://fonts.googleapis.com/css?family=Lato%3A400%2C700&#038;ver=3.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-style-css'  href='http://michaeldouglassmith.com/wp-content/themes/cv/css/custom.css?ver=3.6.1' type='text/css' media='all' />
+<style type='text/css'>
+
+	#blog_page_link,
+	#blog_page_link .icon,
+	#blog_page_link span.label,
+	.colored td.cl1 { 
+		background-color: #ffde0a;
+	}
+	#profile_page_link,
+	#profile_page_link .icon,
+	#profile_page_link span.label,
+	.colored td.cl2 {
+		background-color: #980101;
+	}
+	.section_header.profile_section_header .section_title .section_name,
+	.section_header.profile_section_header .section_title a span.icon {
+		background-color: #980101;
+	}
+	.section_header .section_title.portfolio_section_title a span.icon,
+	.colored td.cl4 {
+		background-color: #019875;
+	}    
+	#mainpage_accordion_area .section_header.contact_section_header a span.icon,
+	.colored td.cl5,
+	.sc_contact_form .title:after {
+		background-color: #009c10;
+	}
+	.section_header .section_title.resume_section_title a span.icon,
+	.colored td.cl3,
+	#resume_link,
+	#resume_link span.label,
+	#resume_link span.icon {
+		background-color: #2579c7;
+	}
+	.section_header .section_title a span.icon, 
+	.section_header .section_title strong span.icon {
+		background-color: #2579c7;
+	}
+	.blog_section .section_header .section_title .section_name {
+		background-color: #2579c7;
+	}
+	.section_header.gallery .section_title strong span.section_name, 
+	.section_header.gallery .section_title strong span.icon {
+		background-color: #019875;
+	}
+	.section_header.audio .section_title strong span.section_name,
+	.section_header.audio .section_title strong span.icon {
+		background-color: #cb8d44;
+	}
+	.section_header.video .section_title strong span.section_name,
+	.section_header.video .section_title strong span.icon {
+		background-color: #980101;
+	}
+	.section_header.link .section_title strong span.section_name,
+	.section_header.link .section_title strong span.icon {
+		background-color: #815b97;
+	}
+	.section_header.quote .section_title strong span.section_name,
+	.section_header.quote .section_title strong span.icon {
+		background-color: ;
+	}
+
+</style>
+<script type='text/javascript' src='http://michaeldouglassmith.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://michaeldouglassmith.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://michaeldouglassmith.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://michaeldouglassmith.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.6.1" />
+<link rel='shortlink' href='http://wp.me/p1M5a5-cFa' />
+</head>
+
+<body class="single single-post postid-48680 single-format-standard dark">
+	<!--[if lt IE 8]>
+	
+		<div class="sc_infobox sc_infobox_style_error">
+			It looks like you're using an old version of Internet Explorer. For the best WordPress experience, please <a href="http://microsoft.com">update your browser</a> or learn how to <a href="http://browsehappy.com">browse happy</a>!
+		</div>
+			<![endif]-->
+	<table class="colored">
+		<tr>
+			<td class="cl1"></td>
+			<td class="cl2"></td>
+			<td class="cl3"></td>
+			<td class="cl4"></td>
+			<td class="cl5"></td>
+		</tr>
+	</table>
+	    <div id="page" class="hfeed site">
+                <header id="header" class="site_header" role="banner">
+							<div class="social_links">
+					<ul>
+						<li class="rss"><a href="http://michaeldouglassmith.com/feed/">RSS</a></li>						<li class="fb"><a href="https://www.facebook.com/pages/Michael-Douglas-Smith/557029784352016">Facebook</a></li>						<li class="tw"><a href="https://twitter.com/micdousmi">Twitter</a></li>												<li class="lnkd"><a href="http://www.linkedin.com/in/michaeldouglassmith">Linkedin</a></li>												<li class="vim"><a href="https://www.vizify.com/michael-douglas-smith" class="vim">Vimeo</a></li>					</ul>
+				</div>
+			        </header>
+	
+		        
+	    <div id="main"  class="right_sidebar">
+	<section id="profile" class="section profile_section odd first blog_page">
+		<a href="http://michaeldouglassmith.com?cv=1" id="profile_page_link"><span class="icon-user icon"></span><span class="label">Profile</span></a>
+		<div class="section_header profile_section_header">
+						<div id="profile_header">
+				<div id="profile_user">
+					<div id="profile_photo"><img src="http://michaeldouglassmith.com/wp-content/uploads/2013/07/mds-117x117.png" alt="Smith Michael" border="0" /></div>
+					<div id="profile_name_area">
+						<div id="profile_name">
+							<h1 id="profile_title"><span class="firstname">Michael</span> <span class="lastname">Smith</span></h1>
+							<h4 id="profile_position">Entrepreneur</h4>
+						</div>								
+					</div>
+				</div>	
+			</div>	
+		</div>
+	</section>	
+	<section id="breadcrumbs" class="section breadcrumbs_section even">
+		<div class="section_header breadcrumbs_section_header">
+			<ul class="breadcrumbs"><li class="all"><a href="http://michaeldouglassmith.com/blog/">All Posts</a></li><li class="cat_post"><a href="http://michaeldouglassmith.com/category/technology/">Technology</a></li><li class="current">Mutations be gone: Microsoft .NET releases...</li></ul>        </div>
+    </section>
+	<div id="primary" class="content_area">
+		<div id="content" class="site_content post_content" role="main">
+
+                            
+                
+				<section class="section post_section blog_section">
+					<div class="section_header post_section_header ">
+											<h2 class="section_title post_section_title"><strong><span class="icon icon-pencil"></span><span class="section_name">Sep.26</span></strong></h2>
+											<div class="post-info">
+							<a href="http://michaeldouglassmith.com/author/admin/" class="post_author"><span class="icon icon-user"></span>Michael Douglas Smith</a>
+							<span class="post_categories"><span class="icon-align-left"></span><a href="http://michaeldouglassmith.com/category/technology/" class="post_categories even first last">Technology</a></span>							<a href="http://michaeldouglassmith.com/mutations-be-gone-microsoft-net-releases-immutable-collections/" class="comments_count"><span class="icon icon-comment"></span>0</a>
+						</div>
+															</div>
+					<div class="section_body post_section_body">
+						<article id="post_48680" class="post-48680 post type-post status-publish format-standard hentry category-technology tag-net format-standard">
+							<h3 class="post_title">Mutations be gone: Microsoft .NET releases immutable collections</h3>
+										<div class="post_thumb">
+							<img class="wp-post-image" width="1" height="1" alt="Mutations be gone: Microsoft .NET releases immutable collections" src="http://michaeldouglassmith.com/wp-content/uploads/2013/09/dde3aggbug.aspx_.gif">						</div>
+					
+                <div class="content_text">
+                    </p>
+<p>Nine months after preview, the Microsoft .NET team has released a ready-for-primetime package of immutable collections on the NuGet Gallery. I know what you&rsquo;re thinking, &ldquo;The .NET Framework already includes many highly tuned generic collections, so what&rsquo;s the fuss?&rdquo; Those familiar with collections know that read-only collection types are in essence facades over collections that can change at any time. &#8230;</p>
+<p></p>
+<p><a class="mainbutton fr" href="http://blogs.technet.com/b/firehose/archive/2013/09/26/mutations-be-gone-microsoft-net-releases-immutable-collections.aspx" title="Mutations be gone: Microsoft .NET releases immutable collections">Read More <i class="icon-circle-arrow-right"></i></a></p>
+					                </div>
+
+                
+													<div class="tags_section">
+									<div class="tags_label">Tags:</div>
+	                                <ul id="post_tags">
+	                                    	                                    <li><a href="http://michaeldouglassmith.com/tag/net/">.net</a></li>
+	                                    									</ul>
+								</div>
+							                            <div class="block-social">
+                                <div class="soc_label">Share this Story:</div>
+                                <ul id="post_social_share" class="post_social_share"><li><a href="http://www.facebook.com/share.php?u=http://michaeldouglassmith.com/mutations-be-gone-microsoft-net-releases-immutable-collections/" class="link-facebook"><img src="http://michaeldouglassmith.com/wp-content/themes/cv/images/icon-facebook.png" class="icon_facebook" alt="facebook" /></a></li><li><a href="https://twitter.com/share?text=Mutations be gone: Microsoft .NET releases immutable collections" class="link-twitter"><img src="http://michaeldouglassmith.com/wp-content/themes/cv/images/icon-twitter.png" class="icon_twitter" alt="twitter" /></a></li><li><a href="https://plusone.google.com/_/+1/confirm?url=http://michaeldouglassmith.com/mutations-be-gone-microsoft-net-releases-immutable-collections/" class="link-gplus"><img src="http://michaeldouglassmith.com/wp-content/themes/cv/images/icon-gplus.png" class="icon_gplus" alt="gplus" /></a></li></ul>                            </div>
+						    	        </article>
+    			
+                					   
+						                            <div id="post_author">
+                                <div class="photo"><a href="http://michaeldouglassmith.com/author/admin/"></a></div>
+                                <h3><a href="http://michaeldouglassmith.com/author/admin/"><span>About</span> Michael Douglas Smith</a></h3>
+                                <div class="extra_wrap">
+                                    <div class="description">I have worked most of my life as an advocate and evangelist of business, technology and sport with some of the top global brands and executives from around the world.</div>
+                                </div>	
+                            </div>
+                                                
+                        							<div id="related_posts">
+								<h3 class="section_title"><span class="icon"></span>Related posts</h3>
+																	<article id="post_52534" class="related_posts odd first">
+										<h3><a href="http://michaeldouglassmith.com/alt-week-10-05-13-status-update-science-hands-on-search-and-real-piano-hero/">Alt-week 10.05.13: status update science,...</a></h3>
+										<div class="post-info">
+											<a href="http://michaeldouglassmith.com/alt-week-10-05-13-status-update-science-hands-on-search-and-real-piano-hero/" class="post_date"><span class="icon-time"></span>Oct.05</a>
+											<a href="http://michaeldouglassmith.com/alt-week-10-05-13-status-update-science-hands-on-search-and-real-piano-hero/"><span class="icon-user"></span>Michael Douglas Smith</a>
+										</div>
+									</article>
+																		<article id="post_52536" class="related_posts even">
+										<h3><a href="http://michaeldouglassmith.com/volkswagen-xl1-gets-an-augmented-reality-service-app/">Volkswagen XL1 Gets an Augmented Reality...</a></h3>
+										<div class="post-info">
+											<a href="http://michaeldouglassmith.com/volkswagen-xl1-gets-an-augmented-reality-service-app/" class="post_date"><span class="icon-time"></span>Oct.05</a>
+											<a href="http://michaeldouglassmith.com/volkswagen-xl1-gets-an-augmented-reality-service-app/"><span class="icon-user"></span>Michael Douglas Smith</a>
+										</div>
+									</article>
+																</div>
+							    
+                
+		</div><!-- #post_content -->
+	</div><!-- #primary -->
+</div>	
+
+        <aside id="secondary" class="widget_area sidebar_blog right_sidebar sidebar-blog" role="complementary">
+                        <aside id="text-5" class="widget widget_text"><h3 class="widget_title">about the author</h3>			<div class="textwidget">michael douglas smith has worked most of my life as an advocate and evangelist of business, technology and sport with some of the top global brands and executives globally.</div>
+		</aside><aside id="wpspace-twitter-widget-2" class="widget wpspace_twitter"><h3 class="widget_title">Recent Tweets</h3>			
+		<div class="tweet widget_iframe_outer">
+			<a class="twitter-timeline"  href="https://twitter.com/micdousmi"  data-widget-id="343744594284003329">Tweets by @micdousmi</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>			<script type="text/jscript">
+				formatTwitter();
+				function formatTwitter() {
+					var theme_style = jQuery('body').hasClass('dark') ? 'dark' : 'light';
+					var iframe_outer = jQuery('.widget.wpspace_twitter .widget_iframe_outer');
+					var alink = iframe_outer.find('>a');
+					if (alink.length > 0) {
+						alink.attr( {
+														'data-tweet-limit': '5',
+							'data-link-color': theme_style=='light' ? '#019875' : '#019875',
+							'data-border-color': theme_style=='light' ? '#ffffff' : '#282828',
+							'data-chrome': 'noavatars noheader nofooter noborders noscrollbar transparent'
+						} );
+						alink.html('@micdousmi');					}
+					var iframe = iframe_outer.find('iframe');
+					var twitter = iframe.length > 0 ? jQuery(iframe.get(0).contentDocument).find('div.stream') : [];
+					if (twitter.length > 0) {
+						twitter.find('.h-feed > li').each(function(idx) {
+							var author = jQuery(this).find('.header .p-nickname').text();
+							var author_link = jQuery(this).find('.header a.u-url').attr('href');
+							var dt = jQuery(this).find('a[data-datetime]').attr('data-datetime');
+							var diff = dateDifference(dt) + ' ago';
+							jQuery(this)
+								.css({
+									'paddingLeft': 0,
+									'paddingTop': 0,
+									'paddingBottom': 0,
+									'marginTop': (idx==0 ? '3px' : '24px'),
+									'borderTop': 'none',
+									})
+								.find('a[data-datetime]').hide().end()
+								.find('.header').hide().end()
+								.find('.footer').hide().end()
+								.find('.e-entry-title').css({
+									'color': theme_style=='light' ? '#646464' : '#878787'
+									}).prepend('<a href="' + author_link + '" target="_blank">' + author + '</a> ').end()
+								.find('.e-entry-content').append('<p style="color:' + (theme_style=='light' ? '#b1b1b1' : '#646464') + '">' + diff + '</p> ').end()
+								.find('a').css({'color': theme_style=='light' ? '#4ca5d0' : '#4ca5d0'}).end()
+								.find('.inline-media img').css({'height':'auto'});
+						});
+						iframe_outer.show();
+					} else {
+						iframe_outer.hide();
+						setTimeout("formatTwitter();", 200);
+					}
+				}
+			</script>
+		</div>
+		
+</aside><aside id="categories-2" class="widget widget_categories"><h3 class="widget_title">Categories</h3>		<ul>
+	<li class="cat-item cat-item-2"><a href="http://michaeldouglassmith.com/category/business/" title="View all posts filed under Business">Business</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://michaeldouglassmith.com/category/entertainment/" title="View all posts filed under Entertainment">Entertainment</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://michaeldouglassmith.com/category/service/" title="View all posts filed under Service">Service</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://michaeldouglassmith.com/category/sport/" title="View all posts filed under Sport">Sport</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://michaeldouglassmith.com/category/technology/" title="View all posts filed under Technology">Technology</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://michaeldouglassmith.com/category/travel/" title="View all posts filed under Travel">Travel</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://michaeldouglassmith.com/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+		</ul>
+</aside><aside id="archives-2" class="widget widget_archive"><h3 class="widget_title">Archives</h3>		<ul>
+			<li><a href='http://michaeldouglassmith.com/2013/10/' title='October 2013'>October 2013</a></li>
+	<li><a href='http://michaeldouglassmith.com/2013/09/' title='September 2013'>September 2013</a></li>
+	<li><a href='http://michaeldouglassmith.com/2013/08/' title='August 2013'>August 2013</a></li>
+	<li><a href='http://michaeldouglassmith.com/2013/07/' title='July 2013'>July 2013</a></li>
+	<li><a href='http://michaeldouglassmith.com/2013/06/' title='June 2013'>June 2013</a></li>
+	<li><a href='http://michaeldouglassmith.com/2013/05/' title='May 2013'>May 2013</a></li>
+	<li><a href='http://michaeldouglassmith.com/2013/04/' title='April 2013'>April 2013</a></li>
+	<li><a href='http://michaeldouglassmith.com/2013/03/' title='March 2013'>March 2013</a></li>
+	<li><a href='http://michaeldouglassmith.com/2013/02/' title='February 2013'>February 2013</a></li>
+	<li><a href='http://michaeldouglassmith.com/2013/01/' title='January 2013'>January 2013</a></li>
+	<li><a href='http://michaeldouglassmith.com/2012/12/' title='December 2012'>December 2012</a></li>
+	<li><a href='http://michaeldouglassmith.com/2012/11/' title='November 2012'>November 2012</a></li>
+	<li><a href='http://michaeldouglassmith.com/2012/10/' title='October 2012'>October 2012</a></li>
+	<li><a href='http://michaeldouglassmith.com/2012/09/' title='September 2012'>September 2012</a></li>
+	<li><a href='http://michaeldouglassmith.com/2012/08/' title='August 2012'>August 2012</a></li>
+	<li><a href='http://michaeldouglassmith.com/2012/07/' title='July 2012'>July 2012</a></li>
+	<li><a href='http://michaeldouglassmith.com/2012/06/' title='June 2012'>June 2012</a></li>
+	<li><a href='http://michaeldouglassmith.com/2012/05/' title='May 2012'>May 2012</a></li>
+	<li><a href='http://michaeldouglassmith.com/2012/04/' title='April 2012'>April 2012</a></li>
+	<li><a href='http://michaeldouglassmith.com/2012/03/' title='March 2012'>March 2012</a></li>
+	<li><a href='http://michaeldouglassmith.com/2012/02/' title='February 2012'>February 2012</a></li>
+	<li><a href='http://michaeldouglassmith.com/2012/01/' title='January 2012'>January 2012</a></li>
+	<li><a href='http://michaeldouglassmith.com/2011/12/' title='December 2011'>December 2011</a></li>
+	<li><a href='http://michaeldouglassmith.com/2011/11/' title='November 2011'>November 2011</a></li>
+	<li><a href='http://michaeldouglassmith.com/2011/10/' title='October 2011'>October 2011</a></li>
+	<li><a href='http://michaeldouglassmith.com/2011/09/' title='September 2011'>September 2011</a></li>
+	<li><a href='http://michaeldouglassmith.com/2011/08/' title='August 2011'>August 2011</a></li>
+	<li><a href='http://michaeldouglassmith.com/2011/07/' title='July 2011'>July 2011</a></li>
+	<li><a href='http://michaeldouglassmith.com/2011/06/' title='June 2011'>June 2011</a></li>
+	<li><a href='http://michaeldouglassmith.com/2011/05/' title='May 2011'>May 2011</a></li>
+	<li><a href='http://michaeldouglassmith.com/2011/04/' title='April 2011'>April 2011</a></li>
+	<li><a href='http://michaeldouglassmith.com/2011/01/' title='January 2011'>January 2011</a></li>
+	<li><a href='http://michaeldouglassmith.com/2010/11/' title='November 2010'>November 2010</a></li>
+	<li><a href='http://michaeldouglassmith.com/2010/09/' title='September 2010'>September 2010</a></li>
+	<li><a href='http://michaeldouglassmith.com/2010/08/' title='August 2010'>August 2010</a></li>
+	<li><a href='http://michaeldouglassmith.com/2010/06/' title='June 2010'>June 2010</a></li>
+	<li><a href='http://michaeldouglassmith.com/2010/05/' title='May 2010'>May 2010</a></li>
+	<li><a href='http://michaeldouglassmith.com/2009/11/' title='November 2009'>November 2009</a></li>
+	<li><a href='http://michaeldouglassmith.com/2009/10/' title='October 2009'>October 2009</a></li>
+		</ul>
+</aside><aside id="text-3" class="widget widget_text"><h3 class="widget_title">Disclaimer</h3>			<div class="textwidget">This is my personal blog. The opinions expressed here represent my own and not those of my employer.</div>
+		</aside>        </aside>
+    </div><!-- #main -->
+	
+	<footer id="footer" class="site_footer" role="contentinfo">
+		<div class="footer_copyright">
+			&copy; 2009 - 2013 Michael Douglas Smith. All Rights Reserved		</div>
+	</footer>
+
+</div><!-- #page -->
+
+	<div style="display:none">
+	</div>
+<script type='text/javascript' src='http://michaeldouglassmith.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.40.0-2013.08.13'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/michaeldouglassmith.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://michaeldouglassmith.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.5.2'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201340'></script>
+<script type='text/javascript' src='http://michaeldouglassmith.com/wp-content/themes/cv/js/jquery.tools.min.js?ver=1.2.6'></script>
+<script type='text/javascript' src='http://michaeldouglassmith.com/wp-content/themes/cv/js/jquery.cookie.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://michaeldouglassmith.com/wp-content/themes/cv/js/skip-link-focus-fix.js?ver=20130115'></script>
+<script type='text/javascript' src='http://michaeldouglassmith.com/wp-content/themes/cv/js/jquery.flexslider.min.js?ver=2.1'></script>
+<script type='text/javascript' src='http://michaeldouglassmith.com/wp-content/themes/cv/js/prettyphoto/jquery.prettyPhoto.js?ver=3.1.5'></script>
+<script type='text/javascript' src='http://michaeldouglassmith.com/wp-content/themes/cv/js/mediaplayer/mediaelement-and-player.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://michaeldouglassmith.com/wp-content/themes/cv/js/jreject/jquery.reject.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://michaeldouglassmith.com/wp-content/themes/cv/js/jquery.mobilemenu.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://michaeldouglassmith.com/wp-content/themes/cv/js/jquery.easing.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://michaeldouglassmith.com/wp-content/themes/cv/js/_utils.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://michaeldouglassmith.com/wp-content/themes/cv/js/_front.js?ver=1.0.0'></script>
+
+	<script src="http://stats.wordpress.com/e-201340.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:2.5',blog:'26235925',post:'48680',tz:'-4'});
+	var load_cmc = function(){linktracker_init(26235925,48680,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script><a href="#" id="toTop"></a>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        jQuery.reject({
+			reject : {
+				all: false, // Nothing blocked
+				msie5: true, msie6: true, msie7: true // Covers MSIE 5-7
+				/*
+				 * Possibilities are endless...
+				 *
+				 * // MSIE Flags (Global, 5-8)
+				 * msie, msie5, msie6, msie7, msie8,
+				 * // Firefox Flags (Global, 1-3)
+				 * firefox, firefox1, firefox2, firefox3,
+				 * // Konqueror Flags (Global, 1-3)
+				 * konqueror, konqueror1, konqueror2, konqueror3,
+				 * // Chrome Flags (Global, 1-4)
+				 * chrome, chrome1, chrome2, chrome3, chrome4,
+				 * // Safari Flags (Global, 1-4)
+				 * safari, safari2, safari3, safari4,
+				 * // Opera Flags (Global, 7-10)
+				 * opera, opera7, opera8, opera9, opera10,
+				 * // Rendering Engines (Gecko, Webkit, Trident, KHTML, Presto)
+				 * gecko, webkit, trident, khtml, presto,
+				 * // Operating Systems (Win, Mac, Linux, Solaris, iPhone)
+				 * win, mac, linux, solaris, iphone,
+				 * unknown // Unknown covers everything else
+				 */
+			},
+            imagePath: 'http://michaeldouglassmith.com/wp-content/themes/cv/js/jreject/images/',
+            header: 'Your browser is out of date', // Header Text
+            paragraph1: 'You are currently using an unsupported browser', // Paragraph 1
+            paragraph2: 'Please install one of the many optional browsers below to proceed',
+            closeMessage: 'Close this window at your own demise!' // Message below close window link
+        });
+    });
+</script>
+</body>
+</html>

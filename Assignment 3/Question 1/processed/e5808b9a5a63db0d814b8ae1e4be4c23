@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Webix JavaScript UI Library Helps to Build Cross Platform HTML5 and CSS5 &#8230; &#8211; InfoQ.comWeb Design, Development and Tech News | Web Design, Development and Tech News</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://cooldotz.com/blog/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="http://cooldotz.com/blog/wp-content/themes/expound/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="Web Design, Development and Tech News &raquo; Feed" href="http://cooldotz.com/blog/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Web Design, Development and Tech News &raquo; Comments Feed" href="http://cooldotz.com/blog/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Web Design, Development and Tech News &raquo; Webix JavaScript UI Library Helps to Build Cross Platform HTML5 and CSS5 &#8230; &#8211; InfoQ.com Comments Feed" href="http://cooldotz.com/blog/webix-javascript-ui-library-helps-to-build-cross-platform-html5-and-css5-infoq-com/feed/" />
+<link rel='stylesheet' id='wprssmi_template_styles-css'  href='http://cooldotz.com/blog/wp-content/plugins/wp-rss-multi-importer/templates/templates.css?ver=3.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='expound-style-css'  href='http://cooldotz.com/blog/wp-content/themes/expound/style.css?ver=3' type='text/css' media='all' />
+<script type='text/javascript' src='http://cooldotz.com/blog/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://cooldotz.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cooldotz.com/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cooldotz.com/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Boehner Weighs GOP Options on Spending Bill as Shutdown Looms &#8211; Wall Street Journal' href='http://cooldotz.com/blog/boehner-weighs-gop-options-on-spending-bill-as-shutdown-looms-wall-street-journal/' />
+<link rel='next' title='2015 Chevrolet Silverado HD, 2015 GMC Sierra HD &#8211; MotorTrend Magazine' href='http://cooldotz.com/blog/2015-chevrolet-silverado-hd-2015-gmc-sierra-hd-motortrend-magazine/' />
+<meta name="generator" content="WordPress 3.6.1" />
+<link rel='shortlink' href='http://cooldotz.com/blog/?p=58868' />
+
+<!--Plugin WP Missed Schedule 2013.0730.7777 Active - Tag d76ca983e4e0b1146b8511f40cd66015-->
+
+
+<!-- All in One SEO Pack 2.0.3.1 by Michael Torbert of Semper Fi Web Design[139,284] -->
+<meta name="description" content="Webix JavaScript UI Library Helps to Build Cross Platform HTML5 and CSS5 ...InfoQ.comWebix JavaScript UI library recently released by XB Software includes 45+" />
+
+<meta name="keywords" content="general posts,news,programming,web services" />
+
+<link rel="canonical" href="http://cooldotz.com/blog/webix-javascript-ui-library-helps-to-build-cross-platform-html5-and-css5-infoq-com/" />
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-29553454-1']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+<!-- /all in one seo pack -->
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #333333; }
+</style>
+</head>
+
+<body class="single single-post postid-58868 single-format-standard custom-background">
+<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header" role="banner">
+		<div class="site-branding">
+			<div class="site-title-group">
+				<h1 class="site-title"><a href="http://cooldotz.com/blog/" title="Web Design, Development and Tech News" rel="home">Web Design, Development and Tech News</a></h1>
+				<h2 class="site-description"></h2>
+			</div>
+		</div>
+
+		<nav id="site-navigation" class="navigation-main" role="navigation">
+			<h1 class="menu-toggle">Menu</h1>
+			<div class="screen-reader-text skip-link"><a href="#content" title="Skip to content">Skip to content</a></div>
+
+			<div class="menu-main-container"><ul id="menu-main" class="menu"><li id="menu-item-521" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-521"><a href="http://cooldotz.com/blog/">Home</a></li>
+<li id="menu-item-58571" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58571"><a href="http://cooldotz.com/blog/technology-news/">Technology News</a></li>
+<li id="menu-item-58572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58572"><a href="http://cooldotz.com/blog/responsive-design-news/">Mobile &#038; Responsive Design News</a></li>
+<li id="menu-item-58695" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58695"><a href="http://cooldotz.com/blog/headline-news/">Headline News</a></li>
+<li id="menu-item-522" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-522"><a href="http://cooldotz.com/specials.html">Design Specials</a></li>
+</ul></div>					</nav><!-- #site-navigation -->
+	</header><!-- #masthead -->
+
+	<div id="main" class="site-main">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+		
+			
+<article id="post-58868" class="post-58868 post type-post status-publish format-standard hentry category-general-posts category-news category-programming category-web-services has-post-thumbnail">
+	<header class="entry-header">
+		<h1 class="entry-title">Webix JavaScript UI Library Helps to Build Cross Platform HTML5 and CSS5 &#8230; &#8211; InfoQ.com</h1>
+
+		<div class="entry-meta">
+			<a class="author" rel="author" href="http://cooldotz.com/blog/author/cdotz/">cdotz</a> / <a class="entry-date" href="http://cooldotz.com/blog/webix-javascript-ui-library-helps-to-build-cross-platform-html5-and-css5-infoq-com/">1 week ago <span style="display:none;">September 26, 2013</span></a>		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<div class="ftpimagefix" style="float:none"><a target="_self" href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNFgpPNsnLDkjoZJYXhDIbjhQfjszA&amp;url=http://www.infoq.com/news/2013/09/webix-javascript-ui-library"><img src="http://cooldotz.com/rotate/specials.jpg"/></a></div>
+<table border="0" cellpadding="2" cellspacing="7">
+<tr>
+<td width="80" align="center" valign="top"></td>
+<td valign="top">
+<div></div>
+<div><a target="_self" href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNFgpPNsnLDkjoZJYXhDIbjhQfjszA&amp;url=http://www.infoq.com/news/2013/09/webix-javascript-ui-library"><b>Webix JavaScript UI Library Helps to Build Cross Platform </b><b>HTML5</b> and CSS5 <b>&#8230;</b></a><br /><b>InfoQ.com</b><br />Webix JavaScript UI library recently released by XB Software includes 45+ components to enable you to build <b>HTML5</b> and CSS3 compatible applications which work with not only with personal computer but also with iOS, Android and Blackberry devices.</p>
+<p><a target="_self" href="http://news.google.com/news/more?ncl=d0SaaJGPrHZo18M&amp;ned=us"><b></b></a></div>
+</td>
+</tr>
+</table>
+<p>Read more here: <a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNFgpPNsnLDkjoZJYXhDIbjhQfjszA&amp;url=http://www.infoq.com/news/2013/09/webix-javascript-ui-library" target="_self" title="Webix JavaScript UI Library Helps to Build Cross Platform HTML5 and CSS5 ... - InfoQ.com">HMTL5</a></p>
+<div class='yarpp-related'>
+<h3>Related posts:</h3><ol>
+<li><a href='http://cooldotz.com/blog/leverage-your-html5-savvy-to-build-commercial-cross-platform-apps-and-html-goodies/' rel='bookmark' title='Leverage Your HTML5 Savvy to Build Commercial, Cross-Platform Apps and &#8230; &#8211; HTML Goodies'>Leverage Your HTML5 Savvy to Build Commercial, Cross-Platform Apps and &#8230; &#8211; HTML Goodies</a> <small>Leverage Your HTML5 Savvy to Build Commercial, Cross-Platform Apps and &#8230;HTML GoodiesThe software development industry has always provided hope for...</small></li>
+<li><a href='http://cooldotz.com/blog/google-open-sources-gumbo-an-html5-parsing-library-infoq-com/' rel='bookmark' title='Google Open Sources Gumbo, An HTML5 Parsing Library &#8211; InfoQ.com'>Google Open Sources Gumbo, An HTML5 Parsing Library &#8211; InfoQ.com</a> <small>Google Open Sources Gumbo, An HTML5 Parsing LibraryInfoQ.comGoogle has open sourced Gumbo, an HTML parsing library written in C. Gumbo...</small></li>
+<li><a href='http://cooldotz.com/blog/a-5-minute-overview-of-all-new-javascript-apis-in-html5/' rel='bookmark' title='A 5 minute overview of all new JavaScript APIs in HTML5'>A 5 minute overview of all new JavaScript APIs in HTML5</a> <small>A lot has changed over the years in the HTML space in terms of supported markups. This article walks readers...</small></li>
+<li><a href='http://cooldotz.com/blog/windows-developers-can-use-html5javascript-app-model-with-windows-1-8-app-developer-magazine/' rel='bookmark' title='Windows Developers Can Use HTML5/JavaScript App Model With Windows 1.8 &#8230; &#8211; App Developer Magazine'>Windows Developers Can Use HTML5/JavaScript App Model With Windows 1.8 &#8230; &#8211; App Developer Magazine</a> <small>Windows Developers Can Use HTML5/JavaScript App Model With Windows 1.8 &#8230;App Developer MagazineThis sample demonstrates implementing Kinect-enabled buttons, simple user...</small></li>
+</ol>
+</div>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		<a class="entry-date" href="http://cooldotz.com/blog/webix-javascript-ui-library-helps-to-build-cross-platform-html5-and-css5-infoq-com/">September 26, 2013</a> in <a href="http://cooldotz.com/blog/category/general-posts/" title="View all posts in General Posts" rel="category tag">General Posts</a>, <a href="http://cooldotz.com/blog/category/news/" title="View all posts in News" rel="category tag">News</a>, <a href="http://cooldotz.com/blog/category/programming/" title="View all posts in Programming" rel="category tag">Programming</a>, <a href="http://cooldotz.com/blog/category/web-services/" title="View all posts in Web Services" rel="category tag">Web Services</a>. 	</footer><!-- .entry-meta -->
+</article><!-- #post-## -->
+			<div class="related-content">
+	<h3 class="related-content-title">Related posts</h3>
+	
+		<article id="post-57787" class="post-57787 post type-post status-publish format-standard hentry category-general-posts category-news category-programming category-web-services has-post-thumbnail">
+
+						<div class="entry-thumbnail">
+				<a href="http://cooldotz.com/blog/windows-developers-can-use-html5javascript-app-model-with-windows-1-8-app-developer-magazine/"><img width="50" height="50" src="http://cooldotz.com/blog/wp-content/uploads/2013/09/57787-thumb-50x50.jpg" class="attachment-expound-mini wp-post-image" alt="Thumbnail for 57787" /></a>
+			</div>
+			
+			<header class="entry-header">
+				<h3 class="entry-title"><a href="http://cooldotz.com/blog/windows-developers-can-use-html5javascript-app-model-with-windows-1-8-app-developer-magazine/" title="Permalink to Windows Developers Can Use HTML5/JavaScript App Model With Windows 1.8 &#8230; &#8211; App Developer Magazine" rel="bookmark">Windows Developers Can Use HTML5/JavaScript App Model With Windows 1.8 &#8230; &#8211; App Developer Magazine</a></h3>
+			</header><!-- .entry-header -->
+
+		</article>
+
+	
+		<article id="post-27563" class="post-27563 post type-post status-publish format-standard hentry category-html category-news category-programming category-web-services has-post-thumbnail">
+
+						<div class="entry-thumbnail">
+				<a href="http://cooldotz.com/blog/google-open-sources-gumbo-an-html5-parsing-library-infoq-com/"><img width="50" height="23" src="http://cooldotz.com/blog/wp-content/uploads/2013/08/27563-thumb.jpg" class="attachment-expound-mini wp-post-image" alt="Thumbnail for 27563" /></a>
+			</div>
+			
+			<header class="entry-header">
+				<h3 class="entry-title"><a href="http://cooldotz.com/blog/google-open-sources-gumbo-an-html5-parsing-library-infoq-com/" title="Permalink to Google Open Sources Gumbo, An HTML5 Parsing Library &#8211; InfoQ.com" rel="bookmark">Google Open Sources Gumbo, An HTML5 Parsing Library &#8211; InfoQ.com</a></h3>
+			</header><!-- .entry-header -->
+
+		</article>
+
+	
+		<article id="post-22502" class="post-22502 post type-post status-publish format-standard hentry category-html category-news category-programming category-web-services has-post-thumbnail">
+
+						<div class="entry-thumbnail">
+				<a href="http://cooldotz.com/blog/a-5-minute-overview-of-all-new-javascript-apis-in-html5/"><img width="50" height="23" src="http://cooldotz.com/blog/wp-content/uploads/2013/07/22502-thumb.jpg" class="attachment-expound-mini wp-post-image" alt="Thumbnail for 22502" /></a>
+			</div>
+			
+			<header class="entry-header">
+				<h3 class="entry-title"><a href="http://cooldotz.com/blog/a-5-minute-overview-of-all-new-javascript-apis-in-html5/" title="Permalink to A 5 minute overview of all new JavaScript APIs in HTML5" rel="bookmark">A 5 minute overview of all new JavaScript APIs in HTML5</a></h3>
+			</header><!-- .entry-header -->
+
+		</article>
+
+	</div>
+
+				<nav role="navigation" id="nav-below" class="navigation-post">
+		<h1 class="screen-reader-text">Post navigation</h1>
+
+	
+		<div class="nav-previous"><a href="http://cooldotz.com/blog/boehner-weighs-gop-options-on-spending-bill-as-shutdown-looms-wall-street-journal/" rel="prev"><span class="meta-nav">&larr;</span> Boehner Weighs GOP Options on Spending Bill as Shutdown Looms &#8211; Wall Street Journal</a></div>		<div class="nav-next"><a href="http://cooldotz.com/blog/2015-chevrolet-silverado-hd-2015-gmc-sierra-hd-motortrend-magazine/" rel="next">2015 Chevrolet Silverado HD, 2015 GMC Sierra HD &#8211; MotorTrend Magazine <span class="meta-nav">&rarr;</span></a></div>
+	
+	</nav><!-- #nav-below -->
+	
+			
+		
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+	<div id="secondary" class="widget-area" role="complementary">
+				<aside id="search-4" class="widget widget_search"><h1 class="widget-title">Search</h1>	<form method="get" id="searchform" class="searchform" action="http://cooldotz.com/blog/" role="search">
+		<label for="s" class="screen-reader-text">Search</label>
+		<input type="search" class="field" name="s" value="" id="s" placeholder="Search &hellip;" />
+		<input type="submit" class="submit" id="searchsubmit" value="Search" />
+	</form>
+</aside><aside id="categories-2" class="widget widget_categories"><h1 class="widget-title">Categories</h1><select name='cat' id='cat' class='postform' >
+	<option value='-1'>Select Category</option>
+	<option class="level-0" value="13">Freeware Software</option>
+	<option class="level-0" value="3">Galleries</option>
+	<option class="level-0" value="9">General Posts</option>
+	<option class="level-0" value="2">Graphics</option>
+	<option class="level-0" value="51">Headline News</option>
+	<option class="level-0" value="4">HTML</option>
+	<option class="level-0" value="6">Mobile</option>
+	<option class="level-0" value="45">News</option>
+	<option class="level-0" value="15">Programming</option>
+	<option class="level-0" value="16">Responsive Web Design</option>
+	<option class="level-0" value="8">Scripts</option>
+	<option class="level-0" value="7">Web Services</option>
+	<option class="level-0" value="5">Wordpress</option>
+</select>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+	var dropdown = document.getElementById("cat");
+	function onCatChange() {
+		if ( dropdown.options[dropdown.selectedIndex].value > 0 ) {
+			location.href = "http://cooldotz.com/blog/?cat="+dropdown.options[dropdown.selectedIndex].value;
+		}
+	}
+	dropdown.onchange = onCatChange;
+/* ]]> */
+</script>
+
+</aside><aside id="text-7" class="widget widget_text"><h1 class="widget-title">Cooldotz Guaranteed Web Design</h1>			<div class="textwidget"><p>Cooldotz provides <a href="http://cooldotz.com/webdesign.html" title="Guaranteed Web Design for all types of websites."> guaranteed web design</a> solutions for nearly every need.<br />
+Business, ecommerce, content management, landing pages and mobile. We specialize in responsive design for any device access to your content.<br />
+Don't forget to check our <a href="http://cooldotz.com/specials.html" title="Web Design Specials and Discounts">specials</a> then contact us for a free , no obligation assesment on how we can take your website to the next level. </p>
+</div>
+		</aside><aside id="text-8" class="widget widget_text"><h1 class="widget-title">Cooldotz Guaranteed Web Hosting</h1>			<div class="textwidget"><p>Cooldotz provides <a href="http://cooldotz.com/webhosting.html" title="Low Cost Guaranteed Web Hosting"> guaranteed web hosting</a> services on our own servers, managed and supported in house.<br />
+Shared web hosting, reseller multi-domain hosting, dedicated and cloud hosting. With our fully loaded cPanel systems, you get all the bells and whistles, 99.9% uptime and we offer a no hassle 90 day money back guarantee!<br />
+Don't forget to check our <a href="http://cooldotz.com/termsofservice.html" title="Web Hosting Guarantees">guarantees.</a></p>
+</div>
+		</aside><aside id="text-9" class="widget widget_text"><h1 class="widget-title">Cooldotz Web Design Specials</h1>			<div class="textwidget"><p>Cooldotz supplies <a href="http://cooldotz.com/specials.html" title="Get more for less. "> specials</a> a couple times a year that are amazing.<br />
+We specialize in <a href="http://cooldotz.com/webdesign.html" title="Convert and migrate your website today.">existing web site migrations</a> for an easy transition to your new online powerhouse. Get responsive and adaptive to all device access for less!</p>
+</div>
+		</aside>	</div><!-- #secondary -->
+	</div><!-- #main -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+			<a href="http://wordpress.org/" rel="generator">Proudly powered by WordPress</a>		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+<!--Plugin WP Missed Schedule 2013.0730.7777 Active - Tag d76ca983e4e0b1146b8511f40cd66015-->
+
+<script type='text/javascript' src='http://cooldotz.com/blog/wp-content/plugins/fitvids-for-wordpress/jquery.fitvids.js?ver=1.0'></script>
+<script type='text/javascript' src='http://cooldotz.com/blog/wp-content/themes/expound/js/navigation.js?ver=20120206'></script>
+<script type='text/javascript' src='http://cooldotz.com/blog/wp-content/themes/expound/js/skip-link-focus-fix.js?ver=20130115'></script>
+    	<script type="text/javascript">
+    	jQuery(document).ready(function() {
+    		jQuery('').fitVids({ customSelector: ""});
+    	});
+    	</script>
+<div style="display:none"><b></b>
+</div>
+</body>
+</html>

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Patch Notes: September 26 | Sorted Gaming</title>
+    	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<!-- End Stylesheets -->
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" href="css/style_ie.css" type="text/css" media="all"  />
+	<![endif]-->
+	<link rel="alternate" type="application/rss+xml" title="Sorted Gaming &raquo; Feed" href="http://sortedgaming.com/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="Sorted Gaming &raquo; Comments Feed" href="http://sortedgaming.com/?feed=comments-rss2" />
+<link rel="alternate" type="application/rss+xml" title="Sorted Gaming &raquo; Patch Notes: September 26 Comments Feed" href="http://sortedgaming.com/?feed=rss2&#038;p=1546" />
+<link rel='stylesheet' id='default_stylesheet-css'  href='http://sortedgaming.com/wp-content/themes/gamepress/style.css?ver=3.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dark_stylesheet-css'  href='http://sortedgaming.com/wp-content/themes/gamepress/css/dark.css?ver=3.6.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://sortedgaming.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://sortedgaming.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://sortedgaming.com/wp-content/plugins/anti-spam/js/anti-spam.js?ver=1.8'></script>
+<script type='text/javascript' src='http://sortedgaming.com/wp-content/plugins/nucaptcha/res/js/wp-nucaptcha-form.js?ver=3.6.1'></script>
+<script type='text/javascript' src='http://sortedgaming.com/wp-content/themes/gamepress/js/gamepress.js?ver=3.6.1'></script>
+<script type='text/javascript' src='http://sortedgaming.com/wp-content/themes/gamepress/js/jquery.tools.min.js?ver=3.6.1'></script>
+<script type='text/javascript' src='http://sortedgaming.com/wp-content/themes/gamepress/js/jquery.easing.1.3.js?ver=3.6.1'></script>
+<script type='text/javascript' src='http://sortedgaming.com/wp-content/themes/gamepress/js/modernizr-custom.min.js?ver=3.6.1'></script>
+<script type='text/javascript' src='http://sortedgaming.com/wp-content/themes/gamepress/js/jquery.placeholder.min.js?ver=3.6.1'></script>
+<script type='text/javascript' src='http://sortedgaming.com/wp-includes/js/comment-reply.min.js?ver=3.6.1'></script>
+<link rel='prev' title='Patch Notes: September 25' href='http://sortedgaming.com/?p=1540' />
+<link rel='next' title='Patch Notes: September 27' href='http://sortedgaming.com/?p=1550' />
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-37967164-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<script type="text/javascript">//<![CDATA[
+var wpuLang ={'wpu_more_smilies': 'More smilies','wpu_less_smilies': 'Less smilies','wpu_smiley_error': 'Your smiley could not be inserted. You can add it manually by typing this code: %s'} // ]]>
+</script>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+<!-- All in One SEO Pack 2.0.3.1 by Michael Torbert of Semper Fi Web Design[155,209] -->
+<meta name="description" content="Valve details the Steam Machine Valve second announcement last night that the official Steam hardware now exists and goes by the name of Steam Machines" />
+
+<meta name="keywords" content="gta v online,south park: the stick of truth,star wars 1313.,steam machine,valve" />
+
+<link rel="canonical" href="http://sortedgaming.com/?p=1546" />
+<!-- /all in one seo pack -->
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #121212; background-image: url('http://sortedgaming.com/wp-content/themes/gamepress/images/body-bg1.png'); background-repeat: no-repeat; background-position: top left; background-attachment: fixed; }
+</style>
+</head>
+
+<body class="single single-post postid-1546 single-format-standard custom-background">
+
+<!-- PAGE -->
+<div id="page">
+	<!-- HEADER -->
+	<header id="header">
+        <div id="header-inner">
+		<div id="logo">
+							<h1><a href="http://sortedgaming.com"><img src="http://sortedgaming.com/wp-content/uploads/2013/01/Wordpress-banner1.png" alt="Sorted Gaming" /></a></h1>
+					
+		</div>
+        		<div class="clear"></div>
+		<nav>
+			<ul id="primary-nav" class="nav"><li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="http://sortedgaming.com/">Home</a></li>
+<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="http://sortedgaming.com/?page_id=2">Guild Rules</a></li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="http://sortedgaming.com/forums/">Forums</a></li>
+</ul>            			<div id="search">
+				<form action="http://sortedgaming.com/" id="searchform" method="get">
+	<input type="text" name="s" id="s" placeholder="search here..." />
+</form>			</div>
+            		</nav>
+		</div>
+		<!-- END HEADER-INNER -->
+	</header>
+	<div id="content-wrapper">
+	<div id="content-inner">
+	<!-- CONTENT -->
+	<div id="content">
+		<section id="main-content" role="main" class="full-height">
+			
+						
+				<article id="post-1546" class="post-1546 post type-post status-publish format-standard hentry category-gaming-news tag-gta-v-online tag-south-park-the-stick-of-truth tag-star-wars-1313 tag-steam-machine tag-valve single">
+	<header>
+		<h2>Patch Notes: September 26</h2>
+		<div class="entry-meta">
+			26/09/2013 | 
+			Posted in  <a href="http://sortedgaming.com/?cat=6" title="View all posts in Gaming News" rel="category">Gaming News</a> | 
+			<a href="http://sortedgaming.com/?p=1546#comments" title="Comment on Patch Notes: September 26">Comments: 3</a>		</div>
+	</header>
+	<div class="entry-content">
+	
+        <p><a href=" http://sortedgaming.com/?p=1546 ">Valve details the Steam Machine</a></p>
+<p><img class="aligncenter" alt="" src="http://www.nag.co.za/wp-content/uploads/2013/09/steam_machines_ann.jpg" width="600" height="311" /></p>
+<p>Valve second announcement last night that the official Steam hardware now exists and goes by the name of Steam Machines all of which are going to run on Steam OS. The Steam Machine will have various models ranging from a powerhouse of a machine to cheaper models for games with lower requirements. They will all be open pieces of hardware, meaning your free to hack and upgrade them to your heart&#8217;s content.</p>
+<p>Valve plans to ship multiple variants of Steam Machines in 2014. They’re partnering with numerous hardware manufacturers to get this done.There will also be a beta testing period starting this year which you can participate in along with 300 other of the lucky chosen. Sign up over <a href="http://store.steampowered.com/livingroom/SteamMachines/">here</a>.</p>
+<p><a href=" http://sortedgaming.com/?p=1546 ">GTA V Online has micro transactions</a></p>
+<p><img class="aligncenter" alt="" src="http://www.gamer-uk.co.uk/wp-content/uploads/2013/09/gta-v-money.jpg" width="530" height="298" /></p>
+<p>Rockstar confirmed today that players will be able to buy money pack for their character and crew to use in GTA online. The official statement from the studio reads. &#8221;The game and its economy have been designed and balanced for the vast majority of players who will not buy extra cash. There is no in-game paywall and nothing that should disrupt the balance of the game. You don’t have to spend real money to attain the cars, guns, clothes, flash and style of a high-roller in Los Santos, but can if you wish to get them a little quicker. The economy is balanced differently from the single player economy, and cash earned in one cannot be taken over to the other. Most players will earn cash much faster Online than in Story Mode.&#8221;</p>
+<p>On the one hand I&#8217;m okay with this, because some people don&#8217;y have enough time to spend on the game to grind the cash they need of stuff they want, but this must not become some way to buy power in game, because that will lead to some serious problems over in Los Santos.</p>
+<p><a href=" http://sortedgaming.com/?p=1546 ">South Park: The Stick of Truth out in December.</a></p>
+<p><iframe width="598" height="449" src="http://www.youtube.com/embed/IaaV29_Gq-g?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p>The new, seemingly wonderfully demented South Park game will be released on the 10th of December for Xbox 360, PC and PS3. Ubisoft has also released info regarding the collectors edition of the game. The Grand Wizard edition is $79.99 and includes a six-inch Cartman figure from Kidrobot, a South Park map, and the Ultimate Fellowship Pack which contains four exclusive costumes: the Necromancer, Sorcerer, Rogue Assassin, and Ranger Elf. You can see the contents <a href="http://i.neoseeker.com/n/6/sprk_ce_render_thumb.jpg">here</a>.</p>
+<p><a href=" http://sortedgaming.com/?p=1546 ">Some more details revealed on what could have been Star Wars 1313.</a></p>
+<p><img class="alignnone" alt="" src="http://cdn.destructoid.com//ul/262488-header.jpg" width="620" height="315" /></p>
+<p>It hurts knowing that 1313 is never coming out. Even more so with details getting released from now ex-Lucasarts employees.</p>
+<p>The game was to begin with a prologue set on Tattooine, taking place between the prequels and the original trilogy. Fett had yet to get his iconic Mandalorion armor, but the pieces would come together as you advanced the story.As for the story, it would have involved Fett searching for bounties while working for Jabba , going through 1313 and the unknown depts 1314. The main plot point revolved around the crime families of 1313 and Fett&#8217;s involvement with their smuggling activites. You can see more of the details over <a href="http://api.viglink.com/api/click?format=go&amp;key=81402585e1f0ce49fa592d48b4175886&amp;loc=http%3A%2F%2Fwww.destructoid.com%2Fnew-story-details-and-art-revealed-for-star-wars-1313-262488.phtml&amp;v=1&amp;libId=747b7b8e-9b9b-496c-b262-86ae60aa5535&amp;out=http%3A%2F%2Fwww.ign.com%2Farticles%2F2013%2F09%2F25%2Fstar-wars-1313-boba-fett-concept-art-and-story-details&amp;ref=http%3A%2F%2Fwww.destructoid.com%2F&amp;title=New%20story%20details%20and%20art%20revealed%20for%20Star%20Wars%201313%20-%20Destructoid&amp;txt=Star%20Wars%201313%3A%20Boba%20Fett%20Concept%20Art%20and%20Story%20Details&amp;jsonp=vglnk_jsonp_13801820762906">here </a>on <a href="http://api.viglink.com/api/click?format=go&amp;key=81402585e1f0ce49fa592d48b4175886&amp;loc=http%3A%2F%2Fwww.destructoid.com%2Fnew-story-details-and-art-revealed-for-star-wars-1313-262488.phtml&amp;v=1&amp;libId=747b7b8e-9b9b-496c-b262-86ae60aa5535&amp;out=http%3A%2F%2Fwww.ign.com%2Farticles%2F2013%2F09%2F25%2Fstar-wars-1313-boba-fett-concept-art-and-story-details&amp;ref=http%3A%2F%2Fwww.destructoid.com%2F&amp;title=New%20story%20details%20and%20art%20revealed%20for%20Star%20Wars%201313%20-%20Destructoid&amp;txt=Star%20Wars%201313%3A%20Boba%20Fett%20Concept%20Art%20and%20Story%20Details&amp;jsonp=vglnk_jsonp_13801820762906">IGN</a>.</p>
+		<div class="clear"></div>
+
+					<hr class="divider-dotted" />
+				
+		<div class="alignleft tags">Tagged: <a href="http://sortedgaming.com/?tag=gta-v-online" rel="tag">GTA V Online</a>, <a href="http://sortedgaming.com/?tag=south-park-the-stick-of-truth" rel="tag">South Park: The Stick of Truth</a>, <a href="http://sortedgaming.com/?tag=star-wars-1313" rel="tag">Star Wars 1313.</a>, <a href="http://sortedgaming.com/?tag=steam-machine" rel="tag">Steam machine</a>, <a href="http://sortedgaming.com/?tag=valve" rel="tag">Valve</a></div>
+    		</div>
+</article>
+	
+			
+						
+			
+	<div class="divider-solid"></div>
+	
+			<div class="comments-header">
+		<h3>
+			3 Comments		</h3>
+	</div>
+	<div class="divider-solid"></div>
+	<div id="comments">
+
+		
+		<ol class="commentlist">
+				<li class="comment byuser comment-author-Munch even thread-even depth-1" id="li-comment-100075079">
+		<article id="comment-100075079" class="the-comment">
+
+				<img src="http://sortedgaming.com/wp-content/uploads/2013/01/Sorted-Avatar-Large128x128-80x80.png" width="60" height="60" alt="Munch" class="avatar avatar-60 wp-user-avatar wp-user-avatar-60 alignnone photo" />
+								<div class="comment-meta">
+					<a href='http://www.sortedgaming.com/forums/memberlist.php?mode=viewprofile&#038;u=32785' rel='external nofollow' class='url'>Munch</a>					<span class="comment-time">
+						<small>
+							September 26, 2013 10:30 am</small>&nbsp;<small>
+							<a rel="nofollow" class="comment-reply-login" href="http://sortedgaming.com/wp-login.php?redirect_to=http%3A%2F%2Fsortedgaming.com%2F%3Fp%3D1546">Log in to Reply</a>						</small>
+					</span>
+					<div class="comment-text"><p><p>Steam Os and Steam Machines hmmmm wonder how it will take off</p>
+</p></div>
+				</div>				
+
+		</article>
+
+	</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-Duhblinn odd alt thread-odd thread-alt depth-1" id="li-comment-100075080">
+		<article id="comment-100075080" class="the-comment">
+
+				<img class="avatar avatar-60 wp-user-avatar wp-user-avatar-60 alignnone photo" src="http://www.sortedgaming.com/forums/download/file.php?avatar=32888_1375774365.png" width="60" height="60" alt="" />
+								<div class="comment-meta">
+					<a href='http://www.sortedgaming.com/forums/memberlist.php?mode=viewprofile&#038;u=32888' rel='external nofollow' class='url'>Duhblinn</a>					<span class="comment-time">
+						<small>
+							September 26, 2013 10:55 am</small>&nbsp;<small>
+							<a rel="nofollow" class="comment-reply-login" href="http://sortedgaming.com/wp-login.php?redirect_to=http%3A%2F%2Fsortedgaming.com%2F%3Fp%3D1546">Log in to Reply</a>						</small>
+					</span>
+					<div class="comment-text"><p><p>I quite like the concept behind it. Really like Big Picture mode, and with so many PC games having native XBOX controller support already, and next-gen console tech being similar to PC hardware making ports easier, I think this is a good direction to be heading.</p>
+</p></div>
+				</div>				
+
+		</article>
+
+	</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-marz even thread-even depth-1" id="li-comment-100075082">
+		<article id="comment-100075082" class="the-comment">
+
+				<img src="http://sortedgaming.com/wp-content/uploads/2013/01/Marz_HoN-80x80.png" width="60" height="60" alt="Marz" class="avatar avatar-60 wp-user-avatar wp-user-avatar-60 alignnone photo" />
+								<div class="comment-meta">
+					<a href='http://www.sortedgaming.com/forums/memberlist.php?mode=viewprofile&#038;u=4888' rel='external nofollow' class='url'>Marz</a>					<span class="comment-time">
+						<small>
+							September 26, 2013 12:44 pm</small>&nbsp;<small>
+							<a rel="nofollow" class="comment-reply-login" href="http://sortedgaming.com/wp-login.php?redirect_to=http%3A%2F%2Fsortedgaming.com%2F%3Fp%3D1546">Log in to Reply</a>						</small>
+					</span>
+					<div class="comment-text"><p><p>That&#8217;s actually a good point. I never realised this but it would have been an easy step to progress from Big Picture Mode to an OS.</p>
+</p></div>
+				</div>				
+
+		</article>
+
+	</li><!-- #comment-## -->
+		</ol>
+
+			</div><!-- #comments -->
+		<div class="comment-form">
+	
+									<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">Leave a comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="/?p=1546#respond" style="display:none;">Cancel reply</a></small></h3>
+									<p class="must-log-in">You must be <a href="http://sortedgaming.com/wp-login.php?redirect_to=http%3A%2F%2Fsortedgaming.com%2F%3Fp%3D1546">logged in</a> to post a comment.</p>												</div><!-- #respond -->
+							</div>
+
+		</section>
+	</div>
+	<!-- END CONTENT -->
+		
+		<!-- SIDEBAR -->
+	<aside id="sidebar" role="complementary">
+	
+				<div class="widget"><form action="http://sortedgaming.com/" id="searchform" method="get">
+	<input type="text" name="s" id="s" placeholder="search here..." />
+</form></div><div class="widget"><h3 class="widget-title">Sorted Related Links</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://sortedgaming.com/forums/viewtopic.php?f=2&#038;t=6614">Sorted Gaming Applications</a></li>
+<li><a href="http://sortedgaming.com/forums/viewtopic.php?f=59&#038;t=9988&#038;p=71202">Sorted Gaming Dota 2 Match Requests</a></li>
+<li><a href="http://www.facebook.com/SortedGaming">Sorted Gaming Facebook</a></li>
+<li><a href="https://plus.google.com/116523202288326336814">Sorted Gaming Google+</a></li>
+<li><a href="http://steamcommunity.com/groups/SortedZA">Sorted Gaming Steam Group</a></li>
+<li><a href="http://www.twitch.tv/munchza/videos">Sorted Gaming Twitch.TV</a></li>
+<li><a href="https://twitter.com/SortedGaming">Sorted Gaming Twitter</a></li>
+<li><a href="http://www.youtube.com/sortedgamingza">Sorted Gaming Youtube</a></li>
+
+	</ul>
+</div>
+<div class="widget"><h3 class="widget-title">Useful Links</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.guildwars2sa.co.za/" title="South African Guild Wars 2 Community">Guild Wars 2 SA</a></li>
+
+	</ul>
+</div>
+		<div class="widget">		<h3 class="widget-title">Recent Posts</h3>		<ul>
+					<li>
+				<a href="http://sortedgaming.com/?p=1566" title="rAge 2013: A prelude of things to come.">rAge 2013: A prelude of things to come.</a>
+						</li>
+					<li>
+				<a href="http://sortedgaming.com/?p=1562" title="Patch Notes: October 2">Patch Notes: October 2</a>
+						</li>
+					<li>
+				<a href="http://sortedgaming.com/?p=1556" title="Patch Notes: October 1">Patch Notes: October 1</a>
+						</li>
+					<li>
+				<a href="http://sortedgaming.com/?p=1554" title="Patch Notes: September 30">Patch Notes: September 30</a>
+						</li>
+					<li>
+				<a href="http://sortedgaming.com/?p=1550" title="Patch Notes: September 27">Patch Notes: September 27</a>
+						</li>
+				</ul>
+		</div><div class="widget"><h3 class="widget-title">Recent Comments</h3><ul id="recentcomments"><li class="recentcomments"><a href='http://www.sortedgaming.com/forums/memberlist.php?mode=viewprofile&#038;u=32866' rel='external nofollow' class='url'>Corvinus89</a> on <a href="http://sortedgaming.com/?p=1566#comment-100075220">rAge 2013: A prelude of things to come.</a></li><li class="recentcomments"><a href='http://www.sortedgaming.com/forums/memberlist.php?mode=viewprofile&#038;u=4888' rel='external nofollow' class='url'>Marz</a> on <a href="http://sortedgaming.com/?p=1566#comment-100075197">rAge 2013: A prelude of things to come.</a></li><li class="recentcomments"><a href='http://www.sortedgaming.com/forums/memberlist.php?mode=viewprofile&#038;u=32866' rel='external nofollow' class='url'>Corvinus89</a> on <a href="http://sortedgaming.com/?p=1554#comment-100075180">Patch Notes: September 30</a></li><li class="recentcomments"><a href='http://www.sortedgaming.com/forums/memberlist.php?mode=viewprofile&#038;u=32866' rel='external nofollow' class='url'>Corvinus89</a> on <a href="http://sortedgaming.com/?p=1562#comment-100075177">Patch Notes: October 2</a></li><li class="recentcomments"><a href='http://www.sortedgaming.com/forums/memberlist.php?mode=viewprofile&#038;u=8678' rel='external nofollow' class='url'>JackPackage</a> on <a href="http://sortedgaming.com/?p=1562#comment-100075167">Patch Notes: October 2</a></li></ul></div><div class="widget"><h3 class="widget-title">Categories</h3>		<ul>
+	<li class="cat-item cat-item-5"><a href="http://sortedgaming.com/?cat=5" title="View all posts filed under Community Leadership">Community Leadership</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://sortedgaming.com/?cat=9" title="View all posts filed under Dota 2">Dota 2</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://sortedgaming.com/?cat=6" title="View all posts filed under Gaming News">Gaming News</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://sortedgaming.com/?cat=4" title="View all posts filed under Guild Wars 2">Guild Wars 2</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://sortedgaming.com/?cat=1" title="View all posts filed under Miscellaneous">Miscellaneous</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://sortedgaming.com/?cat=8" title="View all posts filed under Opinion">Opinion</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://sortedgaming.com/?cat=7" title="View all posts filed under Review">Review</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://sortedgaming.com/?cat=12" title="View all posts filed under WoW">WoW</a>
+</li>
+		</ul>
+</div><div class="widget"><h3 class="widget-title">Meta</h3>			<ul>
+			<li><a href="http://sortedgaming.com/wp-login.php?action=register">Register</a></li>			<li><a href="http://sortedgaming.com/wp-login.php">Log in</a></li>
+			<li><a href="http://sortedgaming.com/?feed=rss2" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://sortedgaming.com/?feed=comments-rss2" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>						</ul>
+</div>		
+	</aside>
+	<!-- END SIDEBAR -->
+	<div class="clear"></div>
+	</div>
+	<!-- END #CONTENT-INNER -->
+	</div>
+	<!-- END #CONTENT-WRAPPER -->	
+    	<!-- PREFOOTER -->
+	<aside id="prefooter">
+		<div id="prefooter-inner">
+			<div class="grid">
+				<div class="one-third">
+									</div>
+				<div class="one-third">
+									</div>
+				<div class="one-third">				
+									</div>
+			</div>
+		</div>
+		<!-- END #PREFOOTER-INNER -->
+		<!-- END HEADER -->
+	</aside>
+	<!-- END #PREFOOTER -->	<!-- FOOTER -->
+	<footer>
+		<div id="footer-border"></div>
+		<div id="footer-inner">
+			<span class="alignleft">
+			Copyright &copy; 2013 <strong><a href="http://sortedgaming.com/">Sorted Gaming</a></strong>
+			<div id="site-generator">
+			
+				<small>Proudly powered by <a href="http://wordpress.org" target="_blank">WordPress</a>. <a href="http://webtuts.pl/themes/" title="GamePress" target="_blank">GamePress</a></small>
+
+			</div><!-- #site-generator -->
+			</span>
+			<span class="alignright"><a href="#" class="scrollup">BACK TO TOP &uarr;</a></span>
+		</div>
+		<!-- END #FOOTER-INNER -->
+	</footer>
+	<!-- END FOOTER -->
+</div>
+<!-- END #PAGE -->
+<script type='text/javascript' src='http://sortedgaming.com/wp-content/plugins/wp-united/js/smilies.js?ver=3.6.1'></script>
+</body>
+</html>

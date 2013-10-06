@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en-US" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+	<meta charset="UTF-8" />
+	<title>Raspberri Pi Gains Support for Oracle&#039;s Java</title>
+	
+	<meta name="language" content="en_US">
+	<meta http-equiv="content-language" content="en_US">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="readability-verification" content="gg98CaM5YewFSAnFdCqrXVhu7AvvbXqSaC8QJtt90">
+	<meta property="twitter:account_id" content="10876852" />
+	<link rel="alternate" type="application/rss+xml" title="TNW Network All Stories RSS Feed" href="http://feeds2.feedburner.com/thenextweb" />
+	<link rel="alternate" type="application/rss+xml" title="TNW Network Top Stories RSS Feed" href="http://feeds2.feedburner.com/thenextwebtopstories" />	
+	
+  <link rel="alternate" type="application/rss+xml" title="TNW Insider RSS Feed" href="http://feeds.feedburner.com/tnwindustry" />
+ 
+	<link href="/opensearch.xml" rel="search" title="The Next Web" type="application/opensearchdescription+xml">
+	<link rel="shortcut icon" href="http://thenextweb.com/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="http://thenextweb.com/wp-content/themes/icetea/static/images/apple-touch-icon.png"/>
+	<link rel="apple-touch-startup-image" href="http://thenextweb.com/wp-content/themes/icetea/static/images/apple-startup-screen.png">
+	<link rel="pingback" href="http://thenextweb.com/xmlrpc.php"/>
+	<link href="https://plus.google.com/115081025762845243709/" rel="publisher"/>
+			<meta property="vr:content_id" content="687995">
+	
+			<meta property="fb:admins" content="883840390"/>
+		<meta property="fb:app_id" content="378011798897423"/>
+		<meta property="article:publisher" content="https://www.facebook.com/thenextweb" />
+		<meta property="og:site_name" content="The Next Web"/>
+					<meta property="og:description" content="
+
+Raspberries don't really go well with coffee, but somehow we think the Raspberry Pi gaining support for Oracle's Java is a bit different. The company has added the official hard-float ..."/>
+			<meta property="og:title" content="Raspberri Pi gains support for Oracle’s Java"/>
+			<meta property="og:type" content="article"/>
+			<meta property="og:url" content="http://thenextweb.com/insider/2013/09/26/raspberri-pi-gains-support-for-oracles-java/"/>
+			<meta property="og:image" content="http://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2013/01/1353629_43251501.jpg"/>
+			<meta itemprop="image" content="http://cdn3.tnwcdn.com/wp-content/blogs.dir/1/files/2013/01/1353629_43251501-300x250.jpg"/>
+			<meta property="article:published_time" content="2013-09-26T22:52:55+02:00">
+			<meta property="article:tag" content="Insider">
+			<meta name="author" content="Emil Protalinski">
+			<script src="//cdn.optimizely.com/js/173969137.js"></script>
+	<script type="text/javascript">
+		window.optimizely = window.optimizely || []; 
+		var SITE_URL = 'http://thenextweb.com/';
+		var THEME_URL = 'http://thenextweb.com/wp-content/themes/icetea/';
+		var POST_ID = '687995';
+		var CURRENT_POST = {"post_id":687995,"thumbnail":"<img width=\"79\" height=\"66\" src=\"http:\/\/cdn2.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2013\/01\/1353629_43251501-79x66.jpg\" class=\"attachment-posts_loop wp-post-image\" alt=\"1353629_43251501\" title=\"Raspberri Pi gains support for Oracle&#039;s Java\" \/>","permalink":"http:\/\/thenextweb.com\/insider\/2013\/09\/26\/raspberri-pi-gains-support-for-oracles-java\/","title":"Raspberri Pi gains support for Oracle\u2019s Java","short_title":"Raspberri Pi Gains Support for Oracle's Java","date":"September 26, 2013","timestamp":1380228775,"sponsored":false,"sponsor_name":"","sensitive":false,"isColumn":false,"isFYI":true};
+		var CATEGORY = 'insider';
+	</script>
+			  <link rel="stylesheet" href="http://thenextweb.com/wp-content/themes/icetea/assets/stylesheets/styles.css?1380890452" type="text/css" />
+<link rel="stylesheet" href="http://cdn1.tnwcdn.com/plus/css/ss-pika.css" type="text/css" />
+<link rel="stylesheet" href="http://cdn2.tnwcdn.com/plus/css/tnw-icons.css" type="text/css" />
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="http://thenextweb.com/wp-content/themes/icetea/assets/stylesheets/ie.css?1379585941" type="text/css" />
+<![endif]-->
+<!--[if lte IE 9]>
+<style>.loop-post { width: 47%; float: left; margin-right: 3%; }</style>
+<![endif]-->
+<script src="http://thenextweb.com/wp-content/themes/icetea/assets/js/libraries.js?1380547070" type="text/javascript"></script>
+<script src="http://thenextweb.com/wp-content/themes/icetea/assets/js/tnw.js?1380887623" type="text/javascript"></script>
+
+			  
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.4.13 - http://yoast.com/wordpress/seo/ -->
+<link rel="original-source" href="" />
+<meta name="description" content="Raspberries don&#039;t really go well with coffee, but somehow we think the Raspberry Pi gaining support for Oracle&#039;s Java is a bit different. The company has a"/>
+<link rel="canonical" href="http://thenextweb.com/insider/2013/09/26/raspberri-pi-gains-support-for-oracles-java/" />
+<link rel="author" href="https://plus.google.com/103897375441006577816/posts"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="@thenextweb"/>
+<meta name="twitter:domain" content="The Next Web"/>
+<meta name="twitter:creator" content="@epro"/>
+<meta name="twitter:image:src" content="http://thenextweb.com/wp-content/blogs.dir/1/files/2013/01/1353629_43251501-220x146.jpg"/>
+<meta name="twitter:image:src" content="http://thenextweb.com/wp-content/blogs.dir/1/files/2013/01/1353629_43251501-730x486.jpg"/>
+<meta name="twitter:description" content="Raspberries don’t really go well with coffee, but somehow we think the Raspberry Pi gaining support for Oracle’s Java is a bit different. The company has added the official hard-float... Keep reading &rarr;"/>
+<meta name="twitter:title" content="Raspberri Pi Gains Support for Oracle&#039;s Java"/>
+<meta name="twitter:url" content="http://thenextweb.com/insider/2013/09/26/raspberri-pi-gains-support-for-oracles-java/"/>
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="The Next Web &raquo; Raspberri Pi gains support for Oracle&#8217;s Java Comments Feed" href="http://thenextweb.com/insider/2013/09/26/raspberri-pi-gains-support-for-oracles-java/feed/" />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://thenextweb.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.4.2' type='text/css' media='all' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://thenextweb.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://thenextweb.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='http://thenextweb.com/?p=687995' />
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-729494-4']);
+		_gaq.push(['_setDomainName', 'thenextweb.com']);
+		_gaq.push(['_setAllowLinker', true]);
+			_gaq.push(['_setCustomVar', 1, 'Author', 'Emil Protalinski', 3]);
+				_gaq.push(['_setCustomVar', 2, 'Article', '2013-09-26', 3]);
+						_gaq.push(['_setCustomVar', 3, 'PostType', 'FYI', 3]);
+			_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = 'http://www.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+	<script type="text/javascript">
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId: '378011798897423', status: false, cookie: false, oauth: false, xfbml: true,
+				channelUrl: 'http://thenextweb.com/wp-content/themes/icetea/includes/fb-channel-url.php'
+			});
+		};
+	</script>
+	<script type='text/javascript'>
+		var googletag = googletag || {};
+		googletag.cmd = googletag.cmd || [];
+		(function() {
+			var gads = document.createElement('script');
+			gads.async = true;
+			gads.type = 'text/javascript';
+			var useSSL = 'https:' == document.location.protocol;
+			gads.src = (useSSL ? 'https:' : 'http:') +
+			'//www.googletagservices.com/tag/js/gpt.js';
+			var node = document.getElementsByTagName('script')[0];
+			node.parentNode.insertBefore(gads, node);
+		})();
+	</script>
+	</head>
+
+<body class="single single-post postid-687995 single-format-link">
+	<div id="mobile_top">
+		<div id='div-gpt-ad-1375193418137-0'></div>
+	</div>
+
+	<div id="top">
+		<nav class="wrapper clearfix" role="navigation">
+			<div class="platforms">
+				<a class="toggle-stream"><i class="ss-pika ss-rows"></i></a>
+				<a class="logo" href="http://thenextweb.com/" title="The Next Web">The Next Web</a>
+				<ul>
+					<li><a class="active" href="/">News</a></li>
+					<li><a href="/conference/">Conference</a></li>
+					<li><a href="/shift/">Magazine</a></li>
+					<li><a href="/academy/">Academy</a></li>
+					<li><a href="/market/">Market</a></li>
+				</ul>
+			</div>
+			<ul class="clearfix platform">
+				<li class="follow">
+					<div class="clearfix" id="follow">
+						<div class="desktop">
+							<ul class="clearfix">
+								<li class="facebook"><div class="fb-like" data-font="lucida grande" data-href="http://facebook.com/thenextweb" data-layout="button_count" data-send="false" data-show-faces="false" data-width="48"></div></li>
+								<li class="twitter"><a class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" href="https://twitter.com/thenextweb"></a></li>
+								<li class="google-plus"><div class="g-follow" data-annotation="none" data-height="20" data-href="https://plus.google.com/115081025762845243709" data-rel="publisher"></div></li>
+								<li class="rss"><a href="http://thenextweb.com/feed" id="rss" class="ss-pika ss-rss"></a></li>
+							</ul>
+							<a class="caret toggle-follow" href="#"></a>
+						</div>
+						<a class="mobile trigger toggle-follow" href="#">Follow</a>
+					</div>
+					<div id="follow-menu">
+						<ul class="clearfix">
+							<li><a href="https://twitter.com/thenextweb"><i class="ss-social ss-twitter"></i> Twitter</a></li>
+							<li><a href="https://plus.google.com/+TheNextWeb/"><i class="ss-social ss-googleplus"></i> Google</a></li>
+							<li><a href="https://www.facebook.com/thenextweb"><i class="ss-social ss-facebook"></i> Facebook</a></li>
+							<li><a href="https://www.linkedin.com/company/the-next-web"><i class="ss-social ss-linkedin"></i> LinkedIn</a></li>
+							<li><a href="https://www.flickr.com/photos/thenextweb"><i class="ss-social ss-flickr"></i> Flickr</a></li>
+							<li><a href="http://thenextweb.tumblr.com"><i class="ss-social ss-tumblr"></i> Tumblr</a></li>
+							<li><a href="http://pinterest.com/thenextweb/"><i class="ss-social ss-pinterest"></i> Pinterest</a></li>
+							<li><a href="http://feeds2.feedburner.com/thenextweb"><i class="ss-social ss-rss"></i> RSS</a></li>
+						</ul>
+						<form action="http://thenextweb.us1.list-manage1.com/subscribe/post?u=22ec88eb9b9d8bc3bcf660787&amp;id=32f70ba9aa" method="post" target="_blank" novalidate>
+							<h3>The latest news in your inbox</h3>
+							<div class="clearfix">
+								<input class="left" id="nm" name="EMAIL" placeholder="Your email address" type="text">
+								<input class="right" name="subscribe" type="submit" value="OK" onclick="_gaq.push(['_trackPageview', '/newsletter/subscribe/']);">
+								<input type="hidden" value="TheNextWeb" name="uri">
+								<input type="hidden" name="loc" value="en_US">
+							</div>
+								<div class="subs_options">
+								<div>
+									<input type="checkbox" value="1" name="group[6][1]" checked="" id="newsl_breaking_news">
+									<label for="newsl_breaking_news">Breaking News</label>
+								</div>
+								<div>
+									<input type="checkbox" value="4" name="group[6][4]" checked="" id="newsl_weeklytop">
+									<label for="newsl_weeklytop">Weekly Top stories</label>
+								</div>
+								<div>
+									<input type="checkbox" value="2" name="group[6][2]" id="newsl_topstories">
+									<label for="newsl_topstories">Daily Top stories</label>
+								</div>
+								<div>
+									<input type="checkbox" id="newsl_tnwnews" name="group[69][32]" value="1" checked="checked">
+									<label for="newsl_tnwnews">Info about future TNW products</label>
+								</div>
+							</div>
+						</form>
+					</div>
+				</li>
+				<li class="account">
+					<a class="toggle-account" id="user-account"><i class="ss-pika ss-login"></i></a>
+					<div id="account-menu">
+						<div id="auth-popup"></div>
+					</div>
+				</li>
+				<li class="more">
+					<a class="toggle"><i class="ss-pika ss-info"></i></a>
+					<ul>
+						<li><a href="/about">About</a></li>
+						<li><a href="/about/contact">Contact</a></li>
+						<li><a href="http://goodies.thenextweb.com/" target="_blank">Goodies</a></li>
+						<li><a href="/about/team">Team</a></li>
+						<li><a href="/jobs">Jobs</a></li>
+						<li><a href="/advertise">Advertise</a></li>
+					</ul>
+				</li>
+				<li class="clearfix search">
+					<a class="toggle"><i class="ss-pika ss-search"></i></a>
+					<form action="/" method="get">
+						<input id="s" name="s" placeholder="Search&hellip;" type="text">
+						<input type="submit">
+					</form>
+				</li>
+			</ul>
+		</nav>
+	</div>
+
+	
+	
+		<div id="stream">
+			
+			<div id="stream-switcher" class="clearfix">
+
+				<div class="cat-select-ghost tnwselect"><span>&nbsp;</span></div>
+					
+					<select id="channel-select" name="channel">
+		
+		<option value="all">All channels</option>
+          
+				<optgroup label="Channels">
+				 <option value="apps">Apps</option>
+				 <option value="dd">Design &amp; Dev</option>
+				 <option value="entrepreneur">Entrepreneur</option>
+				 <option value="gadgets">Gadgets</option>
+				 <option value="insider">Insider</option>
+				 <option value="lifehacks">LifeHacks</option>
+				 <option value="media">Media</option>
+				 <option value="shareables">Shareables</option>
+				 <option value="socialmedia">Social Media</option>
+      
+	        </optgroup>
+          
+				<optgroup label="Editions">
+				 <option value="africa">Africa</option>
+				 <option value="asia">Asia</option>
+				 <option value="au">Australia</option>
+				 <option value="ca">Canada</option>
+				 <option value="eu">Europe</option>
+				 <option value="in">India</option>
+				 <option value="la">Latin America</option>
+				 <option value="me">Middle East</option>
+				 <option value="uk">UK</option>
+      
+	        </optgroup>
+          
+				<optgroup label="Companies">
+				 <option value="apple">Apple</option>
+				 <option value="facebook">Facebook</option>
+				 <option value="google">Google</option>
+				 <option value="microsoft">Microsoft</option>
+				 <option value="twitter">Twitter</option>
+      
+	        </optgroup>
+	</select>
+					
+				<ul id="filter-toggle-buttons">
+					<li class="active filter-button"><a href="/" id="latest-stream" title="Latest" onclick="_gaq.push(['_trackEvent', 'Sidebar', 'Click', 'Latest', 0, true]);"><i class="ss-pika ss-clock"></i>&nbsp;Latest</a></li>
+					<li class="filter-button"><a href="/popular" id="popular-stream" title="Popular" onclick="_gaq.push(['_trackEvent', 'Sidebar', 'Click', 'Popular', 0, true]);"><i class="ss-pika ss-flame"></i>&nbsp;Popular</a></li>
+				</ul>
+			</div>
+			
+			<div id="stream-list" data-vr-zone="Stream"></div>
+			
+			<div class="stream-footer">
+				<ul>
+					<li><a href="/about/" title="About">About</a></li>
+					<li><a href="http://goodies.thenextweb.com" title"Goodies">Goodies</a></li>
+					<li><a href="/advertise/" title="Advertise">Advertise</a></li>
+					<li><a href="/privacy-policy/" title="Privacy Policy">Privacy</a></li>
+					<li><a href="/tos/" title="Terms of Service">ToS</a></li>
+				</ul>
+			</div>
+		</div>	
+	<div id="content" class="wrapper clearfix">
+	
+		<div id="main">
+			
+			<div class="content-head">
+			
+							  	<div id="announcement" class="announcement">
+		<a href="http://georiot.co/SOo" onclick="_gaq.push(['_trackEvent', 'all', 'announcement', 'click', 0, true]);">
+							<div class="meta"><i class="icon-news"></i><span>Announcement</span></div>
+						<p class="headline">Download our new iPad magazine now!</p>
+		</a>
+	</div>
+
+			  		
+				<div id="fmpub_2621" >
+											<!-- TNW_topleaderboard_728x90 -->
+						<div id='div-gpt-ad-1368717423425-2' style='width:728px; height:90px; display:none;'></div>
+									</div>
+				
+				<div id="sponsored-post-header" style="display: none;">
+					<div><strong>Look mom, no ads</strong> - This article is <a href="javascript:void(0)" onclick="$('.article-partnership').css({'opacity': 0}); $('html, body').animate({ scrollTop: ($('.article-partnership').offset().top - 140) }, function() { $('.article-partnership').fadeTo(1000, 1); }); return false;">
+						#AdFree</a> thanks to <span id="sponsor-name"></span>
+					</div>
+				</div>
+			
+			</div>
+			
+
+	<div id="article-wrapper" class="fyi">
+		<div class="article">
+			<div class="article-head clearfix">
+				<h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="article-title">
+					Raspberri Pi gains support for Oracle&#8217;s Java				</h1>
+				<div class="article-author">
+					<span class="article-author-name">By <a href="http://thenextweb.com/author/emilprotalinski/" title="Posts by Emil Protalinski" rel="author">Emil Protalinski</a>, </span><span class="article-date">Thursday, 26 Sep '13</span><span class="article-time">, 10:52pm</span> <span id="post-edit"></span>
+				</div>
+								
+				<div class="article-meta clearfix featured-image-hidden">
+							
+		<div class="nav-buttons clearfix">
+							<span class="navigation-description">Use your < > (arrow) keys to browse more stories</span>
+				<a href="http://thenextweb.com/google/2013/09/26/google-announces-road-show-that-lets-you-try-glass-in-a-us-city-near-you-starting-with-durham-on-october-5/" class="prev-article " onclick="_gaq.push(['_trackEvent', 'Article', 'Previous', 'Click']);" title="Google announces road show to try on Glass in a US city near you, starting with Durham, NC on October 5">
+					<span class="prev-arrow"></span>
+				</a>
+				<a href="http://thenextweb.com/insider/2013/09/26/save-for-later-service-pocket-passes-10-million-users-says-its-just-getting-started/" class="next-article " onclick="_gaq.push(['_trackEvent', 'Article', 'Next', 'Click']);" title="Save-for-Later service Pocket passes 10 million users, says it&#8217;s &#8216;just getting started&#8217;">
+					<span class="next-arrow"></span>
+				</a>
+					</div>
+		
+							<div class="article-social">
+						<div id="facebook" class="social-button">
+							<fb:like href="http://thenextweb.com/insider/2013/09/26/raspberri-pi-gains-support-for-oracles-java/" send="false"  show_faces="false"></fb:like>
+						</div>
+						<div id="twitter" class="social-button">
+							<a href="https://twitter.com/share" class="twitter-share-button" data-text="Raspberri Pi gains support for Oracle’s Java" data-count="none" data-url="http://thenextweb.com/insider/2013/09/26/raspberri-pi-gains-support-for-oracles-java/" data-via="thenextweb" data-related="thenextweb" data-dnt="true"></a>
+						</div>
+						<div id="google" class="social-button">
+							<div class="g-plus" data-action="share" data-annotation="none" data-height="20" data-href="http://thenextweb.com/insider/2013/09/26/raspberri-pi-gains-support-for-oracles-java/"></div>
+						</div>
+						<div id="linkedin" class="social-button">
+							<script type="IN/Share"  data-url="http://thenextweb.com/insider/2013/09/26/raspberri-pi-gains-support-for-oracles-java/"></script>
+						</div>
+					</div>
+				</div>
+			</div><!-- Article head -->
+			
+						
+			<div class="article-body-wrapper">
+				<div class="article-body clearfix">
+										<p><a href="http://cdn3.tnwcdn.com/wp-content/blogs.dir/1/files/2013/01/1353629_43251501.jpg"><img src="http://cdn3.tnwcdn.com/wp-content/blogs.dir/1/files/2013/01/1353629_43251501-730x486.jpg" alt="1353629 43251501 730x486 Raspberri Pi gains support for Oracles Java" width="730" height="486" class="aligncenter size-fullwidth_post wp-image-544659" title="1353629 43251501 730x486 photo" /></a></p>
+<p>Raspberries don’t really go well with coffee, but somehow we think the Raspberry Pi <a href=" http://www.raspberrypi.org/archives/4920">gaining support</a> for Oracle’s Java is a bit different. The company has added the official hard-float Oracle Java 7 JDK to its repository.</p>
+<p>All future “Raspbian” images will ship with Oracle Java out of the box. Existing users can install it by typing in the following command:</p>
+<blockquote><p>
+sudo apt-get update && sudo apt-get install oracle-java7-jdk
+</p></blockquote>
+<p>The company says one of its longstanding goals has been for Raspberry Pi to ship with “a complete set of common programming languages” and Java was always a glaring omission from the list. Well, that’s fixed. Next!</p>
+<p><em>Top Image Credit: <a href=" http://www.sxc.hu/photo/1353629">Sander Klaver</a></em></p>
+				</div><!-- article-body -->
+				<div class="nav-buttons-wrapper">
+									</div>
+			</div>
+			
+						
+						
+			<div class="article-more clearfix">
+				<h4>More like this article</h4>
+					<div class="loop-post" data-vr-contentbox="" >
+		<div class="loop-post-content clearfix">
+			<div class="loop-post-image">
+				<a class="post-link" data-postid="687935" href="http://thenextweb.com/insider/2013/09/26/save-for-later-service-pocket-passes-10-million-users-says-its-just-getting-started/" title="Save-for-Later Service Pocket Passes 10 Million Users" onclick="_gaq.push(['_trackEvent', 'homepage', 'image', 'loop-post', 0, true]);">
+					<img width="520" height="245" src="http://cdn3.tnwcdn.com/wp-content/blogs.dir/1/files/2013/09/923406_36768006-520x245.jpg" class="attachment-top_story_post wp-post-image" alt="923406_36768006" title="Save-for-Later service Pocket passes 10 million users, says it&#039;s &#039;just getting started&#039;" />				</a>
+			</div>
+			<div class="loop-post-byline">
+								<span class="date">26 Sep, 09:30pm</span>
+			</div>
+			<h2>
+				<a class="post-link" data-postid="687935" href="http://thenextweb.com/insider/2013/09/26/save-for-later-service-pocket-passes-10-million-users-says-its-just-getting-started/" title="Save-for-Later Service Pocket Passes 10 Million Users" onclick="_gaq.push(['_trackEvent', 'homepage', 'headline', 'loop-post', 0, true]);">
+					Save-for-Later Service Pocket Passes 10 Million Users				</a>
+			</h2>
+		</div>
+	</div>	
+		<div class="loop-post" data-vr-contentbox="" >
+		<div class="loop-post-content clearfix">
+			<div class="loop-post-image">
+				<a class="post-link" data-postid="688021" href="http://thenextweb.com/google/2013/09/26/google-announces-road-show-that-lets-you-try-glass-in-a-us-city-near-you-starting-with-durham-on-october-5/" title="Google Announces Road Show That Lets You Try Glass in US Cities" onclick="_gaq.push(['_trackEvent', 'homepage', 'image', 'loop-post', 0, true]);">
+					<img width="520" height="245" src="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2013/02/sergey-520x245.jpg" class="attachment-top_story_post wp-post-image" alt="Sergey Brin, co-founder of Google appear" title="Google announces road show to try on Glass in a US city near you, starting with Durham, NC on October 5" />				</a>
+			</div>
+			<div class="loop-post-byline">
+								<span class="date">26 Sep, 11:04pm</span>
+			</div>
+			<h2>
+				<a class="post-link" data-postid="688021" href="http://thenextweb.com/google/2013/09/26/google-announces-road-show-that-lets-you-try-glass-in-a-us-city-near-you-starting-with-durham-on-october-5/" title="Google Announces Road Show That Lets You Try Glass in US Cities" onclick="_gaq.push(['_trackEvent', 'homepage', 'headline', 'loop-post', 0, true]);">
+					Google Announces Road Show That Lets You Try Glass in US Cities				</a>
+			</h2>
+		</div>
+	</div>	
+		<div class="loop-post" data-vr-contentbox="" >
+		<div class="loop-post-content clearfix">
+			<div class="loop-post-image">
+				<a class="post-link" data-postid="691311" href="http://thenextweb.com/apple/2013/10/04/apple-wants-to-boost-sales-in-india-by-targeting-consumers-in-smaller-cities-and-towns/" title="Apple Aims For Indian Consumers In Smaller Cities" onclick="_gaq.push(['_trackEvent', 'homepage', 'image', 'loop-post', 0, true]);">
+					<img width="520" height="245" src="http://cdn3.tnwcdn.com/wp-content/blogs.dir/1/files/2013/07/167788451-520x245.jpg" class="attachment-top_story_post wp-post-image" alt="Indian man on phone" title="Apple wants to boost sales in India by targeting consumers in smaller cities and towns" />				</a>
+			</div>
+			<div class="loop-post-byline">
+								<span class="date">4 Oct, 11:31am</span>
+			</div>
+			<h2>
+				<a class="post-link" data-postid="691311" href="http://thenextweb.com/apple/2013/10/04/apple-wants-to-boost-sales-in-india-by-targeting-consumers-in-smaller-cities-and-towns/" title="Apple Aims For Indian Consumers In Smaller Cities" onclick="_gaq.push(['_trackEvent', 'homepage', 'headline', 'loop-post', 0, true]);">
+					Apple Aims For Indian Consumers In Smaller Cities				</a>
+			</h2>
+		</div>
+	</div>	
+				</div>
+			
+							<div class="article-ad">
+											
+<!DOCTYPE html> 
+<html lang="en-us" xmlns:og="http://ogp.me/ns#"> 
+<head> 
+	<meta charset="utf-8" /> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<link rel="stylesheet" href="http://static.tnw.s3.amazonaws.com/maintenance.css" type="text/css" media="screen" />
+	<title>The Next Web</title> 
+</head>
+
+<body>
+	<div id="wrapper">
+		<div class="content">
+			<h1>The Next Web</h1>
+			<p>Oops! We're having some technical issues. Our engineers are already on the case and we will be back online real soon, promise!</p>
+			<hr />
+			<p style="font-size: 16px;">In the meanwhile, you should check out the <strong>TNW Magazine</strong>. <br />It's free, Get it now in the <a href="http://itunes.apple.com/gb/app/tnw-magazine/id481037450?mt=8">App Store</a>!</p>
+	</div>
+</body>
+<html> 	
+									</div>
+						
+		</div><!-- article -->
+		
+		<!-- Comments section -->
+		<div id="comments" class="article-comments">
+			<h4>Discussion</h4>
+			
+<div id="disqus_thread">
+    </div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://thenextweb.com/insider/2013/09/26/raspberri-pi-gains-support-for-oracles-java/';
+    var disqus_identifier = '687995 http://thenextweb.com/?p=687995';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'thenextweb';
+    var disqus_title = "Raspberri Pi gains support for Oracle&#8217;s Java";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+        config.language = '';
+
+        /*
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+         this.page.author_s3 = 'eyJ1c2VybmFtZSI6ImtheWxlbmUifQ== effae3ee501ca60dc5b9d594ed7f78d062d80653 1380952976';
+         this.page.api_key = '';
+         
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = '?cf_action=sync_comments&post_id=687995';
+
+            var firstScript = document.getElementsByTagName( "script" )[0];
+            firstScript.parentNode.insertBefore(script, firstScript);
+        });
+                    };
+/* ]]> */
+</script>
+
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.' + 'disqus.com' + '/embed.js?pname=wordpress&pver=2.74';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+		</div>
+
+	</div><!-- /article-wrapper -->
+		
+	<div id="article-loading"></div>
+	
+	<script type='text/javascript'>
+		var optimizelyPostTemplate = true;
+	</script>
+	
+	
+			<div id="footer">
+				<div class="footer-menu">
+					<p>
+						<a href="/about/" title="About">About</a>
+						<a href="/team/" title="Team">Team</a>
+						<a href="/contact/" title="Contact">Contact</a>
+						<a href="/advertise/" title="Advertise">Advertise</a>
+						<a href="/tos/" title="Terms of Service">Terms of Service</a>
+						<a href="/privacy-policy/" title="Privacy Policy">Privacy Policy</a>
+						<a href="/jobs/" title="Jobs">Jobs</a>
+						<a href="http://goodies.thenextweb.com" title"Goodies">Goodies</a>
+					</p>
+				</div>
+				<div class="clearfix" id="partners" style="overflow: hidden; ">
+					<p>
+						<a id="partner-dyn" href="http://dyn.com/" target="_blank" rel="nofollow" title="DYN">DYN</a>
+						<a id="partner-netdna" href="http://www.netdna.com/" target="_blank" rel="nofollow" title="NetDNA">NetDNA</a>
+						<a id="partner-webtype" href="http://webtype.com/" target="_blank" rel="nofollow" title="WebType">WebType</a>
+					</p>
+				</div>
+				<div class="footer-colophon">
+					<p><i class="icon-tnw"></i>&nbsp;&middot;&nbsp;Copyright 2001 - 2013 The Next Web, Inc. All Rights Reserved.</p>
+				</div>
+			</div>
+		</div><!-- main -->
+		<div id="img-preload" style="display: none;"></div>
+	</div><!-- #content -->
+	
+	<script type='text/javascript' src='http://thenextweb.com/wp-content/plugins/wp-retina-2x/js/retina.js?ver=2013.02.06'></script>
+	
+	<div id="mq_desktop"></div>
+	<div id="mq_tablet"></div>
+	<div id="mq_phone"></div>
+	
+	<div class="stream-ghost"></div>
+	
+	<!-- Parse.ly Include: Standard -->
+	<div id="parsely-root" style="display: none">
+    	<a id="parsely-cfg" data-parsely-site="thenextweb.com" href="http://parsely.com" rel="nofollow">.</a>
+	</div>
+	<div id="fb-root"></div>
+	<script>
+		(function(w, d, s) {
+			function go(){
+				var js, fjs = d.getElementsByTagName(s)[0];
+				var load = function(url, id) {
+					if (d.getElementById(id)) {return;}
+					js = d.createElement(s); js.src = url; js.id = id;
+					fjs.parentNode.insertBefore(js, fjs);
+				};
+				load('http://static.parsely.com/p.js', 'js-parsely');
+				load('http://platform.twitter.com/widgets.js', 'js-twitter');
+				load('http://platform.linkedin.com/in.js', 'js-linkedin');
+				load('https://apis.google.com/js/plusone.js', 'js-google+');
+				load('http://connect.facebook.net/en_US/all.js#xfbml=1&appId=378011798897423', 'js-facebook');
+			}
+			if (w.addEventListener) { w.addEventListener("load", go, false); }
+			else if (w.attachEvent) { w.attachEvent("onload",go); }
+		}(window, document, 'script'));
+	</script>
+	<!--Visual Revenue Reader Response Tracking Script (v6) -->
+	
+	<script type="text/javascript" src="http://cdn0.tnwcdn.com/plus/js/plus.js"></script>
+	
+	<script type="text/javascript">
+		var _vrq = _vrq || [];
+		_vrq.push(['id', 184]);
+				_vrq.push(['automate', false]);
+				_vrq.push(['track', function(){}]);
+		(function(d, a){
+			var s = d.createElement(a),
+			x = d.getElementsByTagName(a)[0];
+			s.async = true;
+			s.src = 'http://a.visualrevenue.com/vrs.js';
+			x.parentNode.insertBefore(s, x);
+		})(document, 'script');
+	</script>
+	<!-- Netcommunities Site Skin -->
+	<script src="http://ad.netcommunities.com/ttj?id=789074&size=1x1&cb=9307403536190932"></script>
+	<!-- FM Site Skin-->
+	<script type="text/javascript" src="http://static.fmpub.net/zone/4032"></script>
+			<!-- Linksmart -->
+		<script type="text/javascript">
+			// <![CDATA[
+			var _ls_pub_id = "232";
+			(function(d, t){
+				var mb = d.createElement(t), s = d.getElementsByTagName(t)[0];
+				mb.async = mb.src = '//cdn.linksmart.com/linksmart_2.3.0.min.js';
+				s.parentNode.insertBefore(mb, s);
+			}(document, 'script'));
+			// ]]>
+		</script>
+		<!-- Stream item template -->
+	<script type="text/template" id="stream-item-template">
+		<div class="thumb"><a data-post-id="<%= post.post_id %>" href="<%= post.permalink %>" title="<%= post.title%>" onclick="_gaq.push(['_trackEvent', 'Stream', 'Click', 'Image', 0, true]);"><%= post.thumbnail %></a></div>
+		<div class="body">
+			<a class="title" href="<%= post.permalink %>" title="<%= post.title%>" onclick="_gaq.push(['_trackEvent', 'Stream', 'Click', 'Title', 0, true]);window.optimizely.push(['trackEvent', 'ClickSiteStream']);"><%= post.short_title %></a>
+			<div class="date" data-timestamp="<%= post.timestamp %>"><%= post.date %></div>
+		</div>
+	</script>
+	</body>
+</html>

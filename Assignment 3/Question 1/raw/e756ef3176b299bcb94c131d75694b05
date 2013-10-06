@@ -1,0 +1,548 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta property="http://ogp.me/ns#image" content="http://coliss.com/wp-content/uploads-201302/2013092602.png" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="コリス - サイト制作に関するアウトプットとクリップした情報を紹介するブログです。" />
+<meta property="fb:admins" content="1827558062" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="[JS]リアルさが想像以上！ブラウザのウインドウを窓に喩えて、雨を楽しむ癒やし系スクリプト -rainyday.js"/>
+<meta property="og:url" content="http://coliss.com/articles/build-websites/operation/javascript/rainyday-js.html" />
+<meta property="og:image" content="http://coliss.com/wp-content/uploads-201302/2013092602.png" />
+<meta property="og:description" content="ひと昔前に、小さいドットを上からアニメーションで落として雪とか桜とかありましたが、これはそれらとは異なり、かなりリアルに雨を堪能できるスクリプトを紹介します。   ぼっーと見てると、音まで聞こえてきそうです。         rainyday.js   rainyday.js -GitHub ..." />
+<meta property="og:title" content="[JS]リアルさが想像以上！ブラウザのウインドウを窓に喩えて、雨を楽しむ癒やし系スクリプト -rainyday.js" />
+<meta property="og:description" content="ひと昔前に、小さいドットを上からアニメーションで落として雪とか桜とかありましたが、これはそれらとは異なり、かなりリアルに雨を堪能できるスクリプトを紹介します。 ぼっーと見てると、音まで聞こえてきそうです。 rainyda [&hellip;]" />
+<meta name="description" content="ひと昔前に、小さいドットを上からアニメーションで落として雪とか桜とかありましたが、これはそれらとは異なり、かなりリアルに雨を堪能できるスクリプトを紹介します。   ぼっーと見てると、音まで聞こえてきそうです。         rainyday.js   rainyday.js -GitHub ..." />
+<meta name="generator" content="WordPress" />
+<meta name="robots" content="all,noodp,noydir" />
+<meta name="y_key" content="8c859f21d1cc1996" />
+<title>[JS]リアルさが想像以上！ブラウザのウインドウを窓に喩えて、雨を楽しむ癒やし系スクリプト -rainyday.js | コリス</title>
+<link rel="dns-prefetch" href="//code.jquery.com" />
+<link rel="dns-prefetch" href="//connect.facebook.net" />
+<link rel="alternate" type="application/rss+xml" title="コリス RSS Feed" href="http://coliss.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="コリス &raquo; [JS]リアルさが想像以上！ブラウザのウインドウを窓に喩えて、雨を楽しむ癒やし系スクリプト -rainyday.js のコメントのフィード" href="http://coliss.com/articles/build-websites/operation/javascript/rainyday-js.html/feed/" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="pingback" href="http://coliss.com/xmlrpc.php" />
+<link rel="prev" title="iOS7のブラーエフェクトを学ぶPhotoshopのチュートリアル（PSD素材付き）" href="http://coliss.com/articles/build-websites/operation/design/ios7-blur-effect-with-photoshop.html" />
+<link rel="next" title="[JS]普通のタブから便利な機能を備えたタブまで簡単に実装できるスクリプト -Tabslet" href="http://coliss.com/articles/build-websites/operation/javascript/jquery-plugin-tabslet.html" />
+<link rel="canonical" href="http://coliss.com/articles/build-websites/operation/javascript/rainyday-js.html" />
+<link rel="stylesheet" id="contact-form-7-css" href="http://coliss.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.3.3" type="text/css" media="all" />
+<link rel="stylesheet" id="jetpack-widgets-css" href="http://coliss.com/wp-content/plugins/jetpack/modules/widgets/widgets.css?ver=20121003" type="text/css" media="all" />
+<link rel="stylesheet" id="shCore-css" href="http://coliss.com/wp-content/plugins/syntax-highlighter/3.0.83/css/shCore.css?ver=3.0.83" type="text/css" media="all" />
+<link rel="stylesheet" id="shCoreEclipse-css" href="http://coliss.com/wp-content/plugins/syntax-highlighter/3.0.83/css/shCoreEclipse.css?ver=3.0.83" type="text/css" media="all" />
+<link rel="stylesheet" id="shThemeEclipse-css" href="http://coliss.com/wp-content/plugins/syntax-highlighter/3.0.83/css/shThemeEclipse.css?ver=3.0.83" type="text/css" media="all" />
+<style type="text/css" media="screen">/*<![CDATA[ */
+#searchword { background-color:#fedad5;text-decoration:inherit; }
+/* ]]>*/</style>
+<style type="text/css" media="">/*<![CDATA[ */
+.wp_social_bookmarking_light{
+border: 0 !important;
+padding: 0 !important;
+margin: 0 !important;
+}
+.wp_social_bookmarking_light div{
+float: left !important;
+border: 0 !important;
+padding: 0 !important;
+margin: 0 5px 0px 0 !important;
+height: 23px !important;
+text-indent: 0 !important;
+}
+.wp_social_bookmarking_light img{
+border: 0 !important;
+padding: 0;
+margin: 0;
+vertical-align: top !important;
+}
+.wp_social_bookmarking_light_clear{
+clear: both !important;
+}
+.wsbl_twitter{
+width: 100px;
+}
+/* ]]>*/</style>
+<script type="text/javascript" src="http://connect.facebook.net/ja_JP/all.js#xfbml=1"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js?ver=1.7.2"></script>
+
+<!--[if IE]><![endif]-->
+	<link rel="stylesheet" href="/wp-content/themes/coliss-ver5/style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/wp-content/plugins/syntax-highlighter/3.0.83/css/shThemeEclipse.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/wp-content/themes/coliss-ver5/css-normal.css" type="text/css" media="screen" id="contrastChange" />
+	<link rel="stylesheet" href="/wp-content/themes/coliss-ver5/css-print.css" type="text/css" media="print" />
+<!--[if lt ie 8]>
+	<link rel="stylesheet" href="/wp-content/themes/coliss-ver5/css-ie.css" type="text/css" media="screen" />
+<![endif]-->
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+	$('#container3, #sidebar').equalHeightColumns();
+	$('#sponsors li, #sponsorsTop li, .more, #recentEntry li, #pickupEntry li, #archiveByMonth li').biggerlink({hoverclass:'roll'});
+	$("#contrastChange").attr({href:$.cookie('style')});
+	$('.pageTopBar, .more').jrumble({
+		rangeX: 2,
+		rangeY: 2,
+		rangeRot: 1
+	});
+});
+function changeStyle(cssurl){
+	$('#contrastChange').attr({href:cssurl});
+	$.cookie('style',cssurl,{expires:30,path:'/'});
+}
+//]]>
+</script>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<rdf:Description rdf:about="http://coliss.com/">
+<foaf:maker rdf:parseType="Resource">
+<foaf:holdsAccount>
+<foaf:OnlineAccount foaf:accountName="coliss">
+<foaf:accountServiceHomepage rdf:resource="http://www.hatena.ne.jp/" />
+</foaf:OnlineAccount>
+</foaf:holdsAccount>
+</foaf:maker>
+</rdf:Description>
+</rdf:RDF>
+
+</head>
+<body class="pageSingle">
+
+<!-- start Facebook Like Button -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1&appId=326755230752577";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- end Facebook Like Button -->
+
+
+<div id="container">
+
+<!-- start container1 -->
+<div class="container1 clrFix">
+
+<!-- start container3 -->
+<div id="container3">
+
+<!-- start header -->
+<div id="header" class="clrFix">
+<p id="logo"><a href="/"><img src="/wp-content/themes/coliss-ver5/images/logo.png" width="133" height="82" alt="コリス" /></a></p>
+<div id="navG">
+<ul class="clrFix"><!--
+--><li id="navCategory"><a href="#category">category</a></li><!--
+--><li id="navContact"><a href="/contact/">contact</a></li><!--
+--><li id="navAbout"><a href="/about/">about</a></li><!--
+--></ul>
+<form action="http://www.google.co.jp/cse" id="cse-search-box">
+<div class="clrFix" id="searchform">
+<input type="hidden" name="cx" value="partner-pub-4773689615661105:jls1yzjcjol" />
+<input type="hidden" name="ie" value="UTF-8" />
+<p id="formSearchInput1"><input type="text" name="q" size="18" /></p>
+<div id="formSearchSubmit"><button type="submit" name="sa" value="&#x691c;&#x7d22;">search</button></div>
+</div>
+</form>
+<script type="text/javascript" src="http://www.google.co.jp/cse/brand?form=cse-search-box&amp;lang=ja"></script> </div>
+</div>
+<!-- end header -->
+<!-- start content -->
+<div id="content">
+
+<h1 id="post-16132">[JS]リアルさが想像以上！ブラウザのウインドウを窓に喩えて、雨を楽しむ癒やし系スクリプト -rainyday.js</h1>
+<script type="text/javascript">
+//<![CDATA[
+document.write('<div class="clrFix"><p class="styleMode"><span id="modeNormal">[mode: <a href="javascript:changeStyle(\'/wp-content/themes/coliss-ver5/css-normal.css\');">normal</a>]</span><span id="modeContrast">[mode: <a href="javascript:changeStyle(\'/wp-content/themes/coliss-ver5/css-contrast.css\');">contrast</a>]</span></p></div>');
+//]]>
+</script>
+<div id="articleInfo1" class="articleInfo clrFix">
+<p><a href="http://coliss.com/articles/category/build-websites/operation/javascript/" title="サイト構築 -JavaScript の投稿をすべて表示" rel="category tag">サイト構築 -JavaScript</a></p>
+<ul class="clrFix"><!--
+--><li class="bkmkTwt">  <div class='wp_social_bookmarking_light'><div class="wsbl_twitter"><iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/tweet_button.html?url=http%3A%2F%2Fcoliss.com%2Farticles%2Fbuild-websites%2Foperation%2Fjavascript%2Frainyday-js.html&amp;text=%5BJS%5D%E3%83%AA%E3%82%A2%E3%83%AB%E3%81%95%E3%81%8C%E6%83%B3%E5%83%8F%E4%BB%A5%E4%B8%8A%EF%BC%81%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%81%AE%E3%82%A6%E3%82%A4%E3%83%B3%E3%83%89%E3%82%A6%E3%82%92%E7%AA%93%E3%81%AB%E5%96%A9%E3%81%88%E3%81%A6%E3%80%81%E9%9B%A8%E3%82%92%E6%A5%BD%E3%81%97%E3%82%80%E7%99%92%E3%82%84%E3%81%97%E7%B3%BB%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%20-rainyday.js&amp;via=colisscom&amp;lang=ja&amp;count=horizontal" style="width:130px; height:20px;"></iframe></div><div class="wsbl_facebook_like"><fb:like href="http://coliss.com/articles/build-websites/operation/javascript/rainyday-js.html" send="false" layout="button_count" width="100" show_faces="false" action="like" colorscheme="light" font=""></fb:like></div><div class="wsbl_pocket"><a href="https://getpocket.com/save" class="pocket-btn" data-lang="en" data-save-url="http://coliss.com/articles/build-websites/operation/javascript/rainyday-js.html" data-pocket-count="none" data-pocket-align="left" >Pocket</a><script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script></div></div><br class='wp_social_bookmarking_light_clear' /></li><!--
+-->
+</ul>
+</div>
+<!-- start articleContent -->
+
+<!-- start Google Ad 5 and 3or9-->
+<div class="googleAd"><p class="txtBodyA1">sponsors</p><script type="text/javascript"><!--
+google_ad_client = "pub-4773689615661105";
+google_ad_slot = "2184108123";
+google_ad_width = 468;
+google_ad_height = 60;
+//--></script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script></div><!-- end Google Ad -->
+
+<div class="articleContent">
+<p>ひと昔前に、小さいドットを上からアニメーションで落として雪とか桜とかありましたが、これはそれらとは異なり、かなりリアルに雨を堪能できるスクリプトを紹介します。</p>
+<p class="mT1em">ぼっーと見てると、音まで聞こえてきそうです。</p>
+<div class="mT2em"><img class="imgFix" src="/wp-content/uploads-201302/2013092602.png" width="500" height="300" alt="デモのキャプチャ" /></div>
+<p><a href="http://maroslaw.github.io/rainyday.js/">rainyday.js</a><br />
+<a href="https://github.com/maroslaw/rainyday.js">rainyday.js -GitHub</a></p>
+<p><span id="more-16132"></span></p>
+<p class="mT3em">デモは2つあります。</p>
+<div class="mT2em"><img class="imgFix" src="/wp-content/uploads-201302/2013092601-01.png" width="500" height="375" alt="デモのキャプチャ" /></div>
+<p><a href="http://maroslaw.github.io/rainyday.js/demo1.html">Demo 1</a></p>
+<p class="mT3em">そのままにしておくと、雨の滴がどんどん増えてきます。</p>
+<div class="mT2em"><img class="imgFix" src="/wp-content/uploads-201302/2013092601-02.png" width="500" height="375" alt="デモのキャプチャ" /></div>
+<p><a href="http://maroslaw.github.io/rainyday.js/demo1.html">Demo 1</a></p>
+<p class="mT3em">2つ目のデモは、雨の降り方が異なります。</p>
+<div class="mT2em"><img class="imgFix" src="/wp-content/uploads-201302/2013092601-03.png" width="500" height="375" alt="デモのキャプチャ" /></div>
+<p><a href="http://maroslaw.github.io/rainyday.js/demo2.html">Demo 2</a></p>
+<p class="mT3em">雨はCanvasを使って再現しており、実装は下記のようになります。</p>
+<pre class="brush: html; auto-links: false;">
+&lt;head&gt;
+ ...
+ &lt;script src=&quot;rainyday.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+ &lt;script type=&quot;text/javascript&quot;&gt;
+ function demo() {
+   var engine = new RainyDay(&#039;canvas&#039;,&#039;demo1&#039;, window.innerWidth, window.innerHeight);
+       engine.gravity = engine.GRAVITY_NON_LINEAR;
+       engine.trail = engine.TRAIL_DROPS;
+
+       engine.rain([
+         engine.preset(0, 2, 500)
+       ]);
+
+       engine.rain([
+         engine.preset(3, 3, 0.88),
+         engine.preset(5, 5, 0.9),
+         engine.preset(6, 2, 1),
+       ], 100);
+   }
+ &lt;/script&gt;
+&lt;/head&gt;
+</pre>
+</div>
+<!-- end articleContent -->
+
+<!-- start Google Ad -->
+<div class="mT3em googleAd"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-4773689615661105";
+/* リンクユニット */
+google_ad_slot = "9651030890";
+google_ad_width = 468;
+google_ad_height = 15;
+//--></script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script></div><div class="googleAd"><p class="txtBodyA1">sponsors</p><script type="text/javascript"><!--
+google_ad_client = "pub-4773689615661105";
+google_ad_slot = "7434731498";
+google_ad_width = 336;
+google_ad_height = 280;
+//--></script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</div><!-- end Google Ad -->
+
+<div id="relatedPosts">
+<h4>Related Posts</h4>
+<div class='yarpp-related'>
+<ul>
+<li><a href='http://coliss.com/articles/build-websites/operation/javascript/js-ie-css3.html' rel='bookmark' title='IE5～8をCCS3の疑似セレクタ対応にするスクリプト - ie-css3.js'>IE5～8をCCS3の疑似セレクタ対応にするスクリプト - ie-css3.js</a></li>
+<li><a href='http://coliss.com/articles/build-websites/operation/javascript/js-tinyscroller.html' rel='bookmark' title='[JS]簡単に設置できる超軽量のコンテンツスクローラーのスクリプト -TinyScroller'>[JS]簡単に設置できる超軽量のコンテンツスクローラーのスクリプト -TinyScroller</a></li>
+<li><a href='http://coliss.com/articles/build-websites/operation/javascript/jquery-plugin-livingfade.html' rel='bookmark' title='[JS]あらゆる要素をランダムにフェードアウト・インさせるスクリプト -LivingFade'>[JS]あらゆる要素をランダムにフェードアウト・インさせるスクリプト -LivingFade</a></li>
+<li><a href='http://coliss.com/articles/build-websites/operation/javascript/jquery-plugin-waveanimate.html' rel='bookmark' title='[JS]ウェーブ状のアニメーションでフェードイン・アウトさせる超軽量スクリプト -WaveAnimate'>[JS]ウェーブ状のアニメーションでフェードイン・アウトさせる超軽量スクリプト -WaveAnimate</a></li>
+<li><a href='http://coliss.com/articles/build-websites/operation/javascript/js-cssrefresh.html' rel='bookmark' title='[JS]CSSファイルに変更を加えてもリフレッシュ無しで反映させるスクリプト -CSSrefresh'>[JS]CSSファイルに変更を加えてもリフレッシュ無しで反映させるスクリプト -CSSrefresh</a></li>
+</ul>
+</div>
+</div>
+
+<div id="articleInfo2" class="articleInfo clrFix">
+<p>Post on:2013年9月26日</p>
+<ul class="clrFix"><!--
+--><li class="bkmkTwt">  <div class='wp_social_bookmarking_light'><div class="wsbl_twitter"><iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/tweet_button.html?url=http%3A%2F%2Fcoliss.com%2Farticles%2Fbuild-websites%2Foperation%2Fjavascript%2Frainyday-js.html&amp;text=%5BJS%5D%E3%83%AA%E3%82%A2%E3%83%AB%E3%81%95%E3%81%8C%E6%83%B3%E5%83%8F%E4%BB%A5%E4%B8%8A%EF%BC%81%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%81%AE%E3%82%A6%E3%82%A4%E3%83%B3%E3%83%89%E3%82%A6%E3%82%92%E7%AA%93%E3%81%AB%E5%96%A9%E3%81%88%E3%81%A6%E3%80%81%E9%9B%A8%E3%82%92%E6%A5%BD%E3%81%97%E3%82%80%E7%99%92%E3%82%84%E3%81%97%E7%B3%BB%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%20-rainyday.js&amp;via=colisscom&amp;lang=ja&amp;count=horizontal" style="width:130px; height:20px;"></iframe></div><div class="wsbl_facebook_like"><fb:like href="http://coliss.com/articles/build-websites/operation/javascript/rainyday-js.html" send="false" layout="button_count" width="100" show_faces="false" action="like" colorscheme="light" font=""></fb:like></div><div class="wsbl_pocket"><a href="https://getpocket.com/save" class="pocket-btn" data-lang="en" data-save-url="http://coliss.com/articles/build-websites/operation/javascript/rainyday-js.html" data-pocket-count="none" data-pocket-align="left" >Pocket</a><script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script></div></div><br class='wp_social_bookmarking_light_clear' /></li><!--
+-->
+</ul>
+</div>
+
+<p class="pageTopBar"><a href="#top">top of page</a></p>
+
+<div id="trackback">
+<h4>Trackback</h4>
+<form>
+<dl>
+<dt id="trackback1"><label for="permanentlink">permanent link</label></dt>
+<dd><input type="text" name="permanentlink" id="permanentlink" value="http://coliss.com/articles/build-websites/operation/javascript/rainyday-js.html/trackback/" size="80" readonly="readonly" /></dd>
+</dl>
+</form>
+</div>
+
+
+
+<div id="leaveYourComments">
+<h4>leave your Comments</h4>
+
+
+<form action="http://coliss.com/wp-comments-post.php" method="post" id="commentform">
+<dt id="formComment1"><label for="author">name</label></dt>
+<dd><input type="text" name="author" id="author" value="" size="60" tabindex="1" /></dd>
+<dt id="formComment2"><label for="email">email:</label></dt>
+<dd><input type="text" name="email" id="email" value="" size="60" tabindex="2" /></dd>
+<!--
+<dt id="formComment3"><label for="url">website:</label></dt>
+<dd><input type="text" name="url" id="url" value="" size="60" tabindex="3" /></dd>
+-->
+<dt id="formComment4"><label for="comment">comment:</label></dt>
+<dd><textarea class="resizable" name="comment" id="comment" cols="60" rows="6" tabindex="4"></textarea></dd>
+</dl>
+<p>※承認制のため、即時には反映されません。<br />
+※匿名、通りすがりさんなどへの回答は控えさせていただきます。</p>
+<div id="formCommentSubmit"><button type="submit" value="submit" tabindex="5">submit</button><input type="hidden" name="comment_post_ID" value="16132" /></div>
+<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="83dc6f5d0b" /></p></form>
+</div>
+
+
+
+
+<!-- You can start editing here. -->
+
+<div id="comments">
+<h4>Comments</h4>
+
+<div class="unitComment" id="comment-508484">
+<p class="name">ok.2nd</p>
+<p class="edit"></p>
+<p class="date">on 2013年9月29日</p>
+<div class="comment"><p>MyHome Portalで、rainyday.js使わせていただきました。<br />
+ありがとうございました。<br />
+<a href="http://ok2nd.blog87.fc2.com/blog-entry-383.html" rel="nofollow">http://ok2nd.blog87.fc2.com/blog-entry-383.html</a></p>
+</div>
+</div>
+
+
+
+<div class="unitComment" id="comment-508490">
+<p class="name"><a href='http://coliss.com/' rel='external nofollow' class='url'>コリス</a></p>
+<p class="edit"></p>
+<p class="date">on 2013年9月29日</p>
+<div class="comment"><p>キャプチャでしか見てないですが、新緑もなかなかいいですね。</p>
+</div>
+</div>
+
+
+</div>
+<p class="pageTopBar"><a href="#top">top of page</a></p>
+
+</div>
+<!--end content -->
+
+</div>
+<!-- end container3 -->
+
+<!-- start sidebar -->
+<div id="sidebar">
+
+<div id="sponsorsTop">
+<ul class="clrFix"><!--
+--><li><a href="https://textape.jp/campaign/"><img src="/shared/img/ad-primestyle-01.gif" alt="TexTape　Illustrator HTML変換プラグイン" width="291" height="125" /></a></li><!--
+--></ul>
+</div>
+
+<div id="sponsors">
+<h4>Sponsors</h4>
+<ul class="clrFix"><!--
+--><li><a href="http://www.ablenet.jp/"><img src="http://www.ablenet.jp/company/img/banner/125_125.gif" alt="格安レンタルサーバーABLENET" width="125" height="125" /></a></li><!--
+--><li><a href="http://www.a-blogcms.jp/lite/?ad=colis"><img src="/shared/img/ad-appleple-02.png" alt="Web製作者のためのCMS a-blog cms" width="125" height="125" /></a></li><!--
+--><li><a href="http://c-tpl.com/"><img src="/shared/img/ad-c9-02.gif" alt="Web制作会社も使えるホームページテンプレートならクラウドテンプレート" width="125" height="125" /></a></li><!--
+--><li><a href="http://ac.ebis.ne.jp/tr_set.php?argument=sRrG93Nh&ai=a51a0c665c02a9"><img src="/shared/img/ad-ig-01.png" alt="IT/WEB業界への転職なら 求人サイトGreen" width="125" height="125" /></a></li><!--
+--><li><a href="http://www.sikaku.gr.jp/web/wc_new.html"><img src="/shared/img/ad-certify-04.gif" alt="Webクリエイター能力認定試験" width="125" height="125" /></a>
+<p class="align1"><a href="http://www.sikaku.gr.jp/web/index_wc.html">Webデザイナーの検定「Webクリエイター能力認定試験」</a></p></li><!--
+--><li><a href="http://inspire-design.net/lp/wp/"><img src="/shared/img/ad-inspire-design-02.gif" alt="29,800円のWordPress CMS構築代行サービス" width="125" height="125" /></a></li><!--
+--><li><a href="http://theme.o2gp.com/responsive.php"><img src="/shared/img/ad-c9-03.gif" alt="レスポンシブWordPressテーマ" width="125" height="125" /></a></li><!--
+--><li><a href="https://www.vivivit.com/"><img src="/shared/img/ad-septeni-01.png" alt="学生×デザイン就活ならViViViT-ビビビット-" width="125" height="125" /></a></li><!--
+--><li><a href="http://www.photo-ac.com/"><img src="/shared/img/ad-a-ac-02.gif" alt="写真素材「写真AC」" width="125" height="125" /></a></li><!--
+--></ul>
+</div>
+
+<div id="sponsorsTop">
+<ul class="clrFix"><!--
+--><li><a href="http://www.giftsupport.com/"><img src="/shared/img/ad-bellevie-01.jpg" alt="カタログギフト、内祝いならソムリエアットギフト" width="291" height="125" /></a></li><!--
+--></ul>
+<p class="txtCaptionA2 mT2em"><a href="/ad/">当サイトの広告掲載について</a></p>
+</div>
+
+<div id="fb-box-1">
+<div class="fb-like-box" data-href="http://www.facebook.com/coliss3" data-width="315" data-show-faces="true" data-border-color="bdbebd" data-stream="false" data-header="true"></div>
+</div>
+
+<div id="recentEntry">
+<h4>Recnet Entry</h4>
+<ul><!--
+-->	<li><a href='http://coliss.com/articles/build-websites/operation/css/framework-grid-forms.html' title='[CSS]スマフォでも印刷してもレイアウトが紙のように美しいフォームを実装できる -Grid forms'>[CSS]スマフォでも印刷してもレイアウトが紙のように美しいフォームを実装できる -Grid forms</a></li>
+	<li><a href='http://coliss.com/articles/freebies/freebies-patterns-and-textures-by-idondeposit.html' title='落ち着いたデザインにぴったりなテクスチャ・パターン素材のまとめ'>落ち着いたデザインにぴったりなテクスチャ・パターン素材のまとめ</a></li>
+	<li><a href='http://coliss.com/articles/freebies/freebies-elegant-icon-font.html' title='全310種、美しいソリッドなラインで描かれたかわいいアイコン素材 -Elegant Icon Font'>全310種、美しいソリッドなラインで描かれたかわいいアイコン素材 -Elegant Icon Font</a></li>
+	<li><a href='http://coliss.com/articles/build-websites/operation/javascript/jquery-plugin-end-page-box.html' title='[JS]ページをスクロールし、コンテンツを読み終えたくらいにメッセージやFacebookのパネルを表示するスクリプト -End Page Box'>[JS]ページをスクロールし、コンテンツを読み終えたくらいにメッセージやFacebookのパネルを表示するスクリプト -End Page Box</a></li>
+	<li><a href='http://coliss.com/articles/build-websites/operation/javascript/jquery-plugins-best-2013-sep.html' title='[JS]最近のウェブサイトで見かける面白い仕掛けを実装するスクリプトのまとめ'>[JS]最近のウェブサイトで見かける面白い仕掛けを実装するスクリプトのまとめ</a></li>
+	<li><a href='http://coliss.com/articles/freebies/freebies-20-grid-patterns-for-photoshop.html' title='ワイヤーフレーム・ブループリント用の方眼紙のような20種類のグリッドを描くPhotoshopのパターン素材'>ワイヤーフレーム・ブループリント用の方眼紙のような20種類のグリッドを描くPhotoshopのパターン素材</a></li>
+	<li><a href='http://coliss.com/articles/life/how-to-make-towel-animals.html' title='子供も大人も喜ぶ！バスタオルやハンドタオルを折り畳んでかわいい動物をつくる方法'>子供も大人も喜ぶ！バスタオルやハンドタオルを折り畳んでかわいい動物をつくる方法</a></li>
+	<li><a href='http://coliss.com/articles/freebies/freebies-for-ios-7-ui-and-icons.html' title='【保存版】iOS 7のインターフェイスやアイコンを作成するのに役立つデザイン用の素材・チートシートのまとめ'>【保存版】iOS 7のインターフェイスやアイコンを作成するのに役立つデザイン用の素材・チートシートのまとめ</a></li>
+<!--
+--></ul>
+</div>
+
+<div id="pickupEntry">
+<h4>Pickup Entry</h4>
+<ul><!--
+--><li><a href="http://coliss.com/articles/build-websites/operation/design/showcase-ui-design-last-half-of-2012-by-dribble.html">ウェブデザインのセンスを学ぼう、2012年下半期洗練されたディテールのUIデザインのまとめ</a></li><!--
+--><li><a href="http://coliss.com/articles/build-websites/operation/design/showcase-ui-design-first-half-of-2012-by-dribble.html">ウェブデザインのセンスを学ぼう、2012年上半期洗練されたディテールのUIデザインのまとめ</a></li><!--
+--><li><a href="http://coliss.com/articles/build-websites/operation/design/10-evergreen-website-layouts-by-speckyboy.html">ウェブデザイナーは知っておきたい、ページレイアウトの代表的な10のパターン</a></li><!--
+--><li><a href="/articles/build-websites/operation/javascript/296.html">[JS]簡単に設置できるページ内をスムーズにスクロールできるスクリプト -Page Scroller ver.3</a></li><!--
+--><li><a href="http://coliss.com/articles/build-websites/operation/javascript/100-jquery-plugins-2012-best.html">[JS]jQueryのプラグイン100選 -2012年総集編</a></li><!--
+--><li><a href="/articles/build-websites/operation/javascript/jquery-for-japanese.html">jQueryの日本語の解説サイトと国産のプラグイン集</a></li><!--
+--><li><a href="/articles/build-websites/operation/work/20-methods-for-upping-your-current-web-design-skills.html">ウェブデザイナーとしてスキルアップするための20のメソッド</a></li><!--
+--><li><a href="/articles/build-websites/operation/design/10-tips-to-boost-creativity-for-web-design.html">ワンパターンなウェブデザインから抜け出すための10のヒント</a></li><!--
+--><li><a href="/articles/build-websites/architectonics/usability/9-common-usability-blunders.html">ウェブサイトでやってしまいがちなユーザビリティのミス</a></li><!--
+--><li><a href="/articles/build-websites/operation/design/206.html">黄金比をサイトのデザインに取り入れる簡単な３つの方法</a></li><!--
+--><li><a href="/articles/build-websites/operation/design/applying-mathematics-to-web-design.html">ウェブデザインに黄金比やフィボナッチ数列など数学的な要素を取り入れる方法</a></li><!--
+--><li><a href="/articles/build-websites/operation/design/1514.html">印象に残る写真を撮るための10のポイント</a></li><!--
+--><li><a href="/articles/build-websites/operation/design/1498.html">イメージアップに効果的なロイヤリティフリーの写真素材30選</a></li><!--
+--><li><a href="/articles/build-websites/operation/design/freebies-photostocks-for-commercial-site.html">商用サイトでも制限無しで利用できる無料の写真素材サイト集</a></li><!--
+
+--><li><a href="http://coliss.com/articles/freebies/2012-best-of-free-fonts-for-japanese.html">2012年版、漢字も揃っている日本語のフリーフォントのまとめ</a></li><!--
+--><li><a href="http://coliss.com/articles/freebies/freebies-pixel-perfect-icons-2012.html">2012年、ピクトグラムのアイコン素材のまとめ</a></li><!--
+--><li><a href="/articles/software/899.html">エクセルのデータを見やすくする5つの簡単なテクニック</a></li><!--
+--><li><a href="/articles/software/1588.html">見栄えがよく、分かりやすいエクセルのグラフを作成する5つの簡単なテクニック</a></li><!--
+--><li><a href="/articles/life/2758.html">フェルメールやゴッホ、北斎など西洋・日本の名画を楽しめるサイト集</a></li><!--
+--><li><a href="http://coliss.com/articles/life/hand-pikking-stationery-shops.html">ステキな文房具屋さんのリンク集</a></li><!--
+--><li><a href="/articles/life/learn-english-with-twitter.html">英語が無料で学べる、フォローしたいTwitterのアカウント集</a></li><!--
+--><li><a href="/articles/life/how-to-naturally-reset-your-sleep-cycle-overnight.html">たった一晩で睡眠の周期を変える方法</a></li><!--
+--><li><a href="/articles/life/environmental-sounds-collection.html">オンラインで無料で聴ける、心と体を癒すサウンド集</a></li><!--
+--><li><a href="http://coliss.com/articles/life/the-manners-of-business-mail.html"> 美しい日本語を使いたい、ワンランク上のビジネスメールの作法</a></li><!--
+--><li><a href="http://coliss.com/articles/freebies/freebies-vector-for-infographic-and-presentation.html">インフォグラフィックやプレゼン用のベクター素材のまとめ</a></li><!--
+--></ul>
+</div>
+
+<div id="recommend">
+<h4>Recommend</h4>
+
+</div>
+
+<p class="pageTopBar"><a href="#top">top of page</a></p>
+
+</div>
+<!-- end sidebar -->
+</div>
+<!-- end container1 -->
+
+<!-- start container2 -->
+<div class="container2">
+
+<!-- start footer -->
+<div id="footer" class="clrFix">
+
+<div id="category" class="clrFix">
+<h4>Category</h4>
+<ul id="listCate1"><!--
+--><li><a href="/articles/category/build-websites/" title="サイト構築">サイト構築</a><!--
+--><ul><!--
+--><li><a href="/articles/category/build-websites/preparation/" title="サイト構築 -調査・分析">サイト構築 -調査・分析</a></li><!--
+--><li><a href="/articles/category/build-websites/operation/architectonics/" title="サイト構築 -設計">サイト構築 -設計</a></li><!--
+--><li><a href="/articles/category/build-websites/operation/work/" title="サイト構築 -制作">サイト構築 -制作</a></li><!--
+--><li><a href="/articles/category/build-websites/operation/usability/" title="サイト構築 -ユーザビリティ">サイト構築 -ユーザビリティ</a></li><!--
+--><li><a href="/articles/category/build-websites/operation/writing/" title="文章術、ライティング">サイト構築 -ライティング</a></li><!--
+--><li><a href="/articles/category/build-websites/operation/design/" title="デザイン、素材">サイト構築 -デザイン</a></li><!--
+--><li><a href="/articles/category/build-websites/operation/css/" title="CSS、スタイルシート">サイト構築 -CSS</a></li><!--
+--><li><a href="/articles/category/build-websites/operation/javascript/" title="Java Script、スクリプト">サイト構築 -JavaScript</a></li><!--
+--><li><a href="/articles/category/build-websites/operation/style-guide/" title="サイトのスタイル ガイド、ガイドライン">サイト構築 -スタイル ガイド</a></li><!--
+--><li><a href="/articles/category/build-websites/verification/" title="ウェブサイトの確認・検証・チェック">サイト構築 -検証</a></li><!--
+--><li><a href="/articles/category/build-websites/operations/" title="サイト構築 -運用・更新">サイト構築 -運用・更新</a></li><!--
+--></ul><!--
+--></li><!--
+--><li><a href="/articles/category/seo/" title="SEO対策・検索エンジン">SEO対策・検索エンジン</a></li><!--
+--><li><a href="/articles/category/blog/wordpress/" title="WordPress">WordPress</a><!--
+--><ul><!--
+--><li><a href="/articles/category/blog/wordpress/plugin/" title="WordPress の便利なプラグイン">WordPressのプラグイン</a></li><!--
+--></ul><!--
+--></li><!--
+--></ul>
+
+<ul id="listCate2"><!--
+--><li><a href="/articles/category/freebies/" title="Freebies（無料素材">Freebies（無料素材）</a></li><!--
+--><li><a href="/articles/category/web-services/" title="ウェブ サービス、Web 2.0">ウェブ サービス</a></li><!--
+--><li><a href="/articles/category/hardware/" title="ハードウェア">ハードウェア</a></li><!--
+--><li><a href="/articles/category/software/" title="ソフトウェア・アプリケーション">ソフトウェア・アプリケーション</a></li><!--
+--><li><a href="/articles/category/browser/" title="ブラウザ">ブラウザ</a><!--
+--><ul><!--
+--><li><a href="/articles/category/browser/ie/" title="ブラウザ「Internet Explorer」">ブラウザ -Internet Explorer</a></li><!--
+--><li><a href="/articles/category/browser/firefox/" title="ブラウザ「Firefox」">ブラウザ -Firefox</a></li><!--
+--><li><a href="/articles/category/browser/opera/" title="ブラウザ「Opera」">ブラウザ -Opera</a></li><!--
+--><li><a href="/articles/category/browser/safari/" title="ブラウザ「Safari」">ブラウザ -Safari</a></li><!--
+--><li><a href="/articles/category/browser/chrome/" title="ブラウザ「Chrome」">ブラウザ -Chrome</a></li><!--
+--></ul><!--
+--></li><!--
+--><li><a href="/articles/category/book-review/" title="書籍紹介、書評">書籍紹介、書評</a></li><!--
+--><li><a href="/articles/category/life/" title="Life（ライフハック）">Life（ライフハック）</a></li><!--
+--><li><a href="/articles/category/digress/" title="Digress（雑記・お知らせ）">Digress（雑記・お知らせ）</a></li><!--
+--><li><a href="/sitemap/" title="Sitemap（記事一覧）">Sitemap（記事一覧）</a></li><!--
+--></ul>
+</div>
+
+<div id="blogInfo">
+<h4>Blog Info</h4>
+<ul id="listBlogInfo"><!--
+--><li id="footerTwitter"><a href="https://twitter.com/colisscom">follow me on Twitter</a></li><!--
+--><li id="footerRss"><a href="http://coliss.com/feed/">subscribe to my RSS</a></li><!--
+--><li id="footerPowered"><a href="http://wordpress.org/">Powered by WordPress</a></li><!--
+--><li id="footerHosted"><a href="http://www.ablenet.jp/">Hosted by Ablenet</a></li><!--
+--></ul>
+</div>
+
+<!-- Wordbooker code revision : 2.1.36 R00 - Line and Length -->
+<!-- AdSense Manager v4.0.3 (0.596 seconds.) --><!-- BEGIN: WP Social Bookmarking Light -->
+<!-- END: WP Social Bookmarking Light -->
+<script type="text/javascript" src="http://coliss.com/wp-content/plugins/syntax-highlighter/3.0.83/js/shCore.js?ver=3.0.83"></script>
+<script type="text/javascript" src="http://coliss.com/wp-content/plugins/syntax-highlighter/3.0.83/js/shBrushXml.js?ver=3.0.83"></script>
+<script type="text/javascript">//<![CDATA[
+SyntaxHighlighter.all();
+//]]></script>
+<script type='text/javascript' src='http://coliss.com/wp-content/plugins/jetpack/modules/photon/photon.js?ver=20130122'></script>
+<script type='text/javascript' src='http://coliss.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.25.0-2013.01.18'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/coliss.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"\u9001\u4fe1\u4e2d ...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://coliss.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.3.3'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201340'></script>
+<!-- Google Analytics tracking code -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1009443-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+	<script src="http://stats.wordpress.com/e-201340.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:2.5',blog:'1404412',post:'16132',tz:'9'});
+	var load_cmc = function(){linktracker_init(1404412,16132,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script>	<script type="text/javascript" src="/wp-content/themes/coliss-ver5/jquery.plugins.min.js" charset="utf-8"></script>
+</div>
+<!-- end footer -->
+
+<div id="end">
+<address>&copy;2013 coliss</address>
+</div>
+
+</div>
+<!-- end container2 -->
+
+</div>
+</body>
+</html>
+<!-- Dynamic page generated in 0.597 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2013-10-06 07:45:49 -->
+
+<!-- super cache -->

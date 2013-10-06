@@ -1,0 +1,657 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta name="author" content="グレープシティ株式会社,GrapeCity inc." xml:lang="ja" lang="ja" />
+<meta name="copyright" content="Copyright (C) GrapeCity inc. All rights reserved." />
+<title>イベント - サポート＆サービス ｜ GrapeCity Developer Tools</title>
+<meta name="description" content="グレープシティ 開発支援ツールの「イベント情報」 - 技術セッションや最新テクノロジーを実際に体感して学べるイベント情報をご覧いただけます。" lang="ja" xml:lang="ja" />
+<link href="/tools/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/tools/support/css/support.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/tools/jscript/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="/tools/common/js/jquery/tools_main.js"></script>
+<!--[if lte IE 7]>
+<script type="text/javascript" src="/tools/common/js/stuHover.js"></script>
+<![endif]--><!--[if lt IE 7]>
+<script type="text/javascript" src="/tools/common/js/iepngfix.js" charset="utf-8"></script>
+<![endif]-->
+<script type="text/javascript"><!--
+$(document).ready(function() {
+	// Toggle Panel
+	$('.toggle').bind('click', function(){
+		if( $(this).parents('div.collapsiblebox').hasClass('close') )
+			$(this).parents('div.collapsiblebox').removeClass('close');
+		else
+			$(this).parents('div.collapsiblebox').addClass('close');
+		if( $('div.collapsiblebox').hasClass('close') )
+			$('#expand').removeAttr('checked');
+		else
+			$('#expand').attr('checked', 'checked');
+		return false;
+	});
+	$('#expand').bind('click', function(){
+		if( $('#expand').attr('checked') )
+			$('div.collapsiblebox').removeClass('close');
+		else
+			$('div.collapsiblebox').addClass('close');
+	});
+});
+//--></script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20295802-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<body>
+<div id="container">
+  <!-- header -->
+  <noscript><span class="noscript">※ このサイトは、JavaScriptを有効にしてご覧ください。一部の機能がご利用いただけません。</span></noscript>
+  <div id="header">
+    <!-- header - title -->
+    <h1><a href="http://www.grapecity.com/tools/"><img src="/tools/img/common/logo.jpg" width="308" height="71" alt="GrapeCity Developer Tools" /></a></h1>
+    <div id="box">
+      <p class="headlinks"><a href="http://www.grapecity.com/jp/"><img src="/tools/img/common/toportal.jpg" width="142" height="12" alt="GrapeCity Portal Home" /></a></p>
+      <form action=""><p class="search">
+        <input type="text" class="search_txt" />
+        <input type="image" class="search_btn" src="/tools/img/common/bt_search.jpg" />
+      </p></form>
+    </div>
+    <!-- /header - title -->
+    <!-- header - globalmenu -->
+<div id="divMenu" class="Navigation_box">
+  <ul id="nav" class="MenuBarHorizontal MenuBarActive" style="display:block;">
+    <!--Start Product Menu-->
+    <li id="products" class="top">
+      <a class="MenuBarItemSubmenu" href="http://www.grapecity.com/tools/categories"><div id="product"><span class="down1"></span></div></a>
+      <ul class="sub">
+        <li class="sc-top"><a href="http://www.grapecity.com/tools/categories/dotnet" tabindex="-1"><span><img class="blt-redbox" height="5" width="5" src="/tools/img/navi/bult-red.gif" alt="" />.NET 製品</span></a></li>
+        <li class="sc-mid"><a href="http://www.grapecity.com/tools/categories/dotnet/windows" class="second-child bordertop-line second-child1" tabindex="-1"><span>Windows Forms</span></a></li>
+        <li class="sc-mid"><a href="http://www.grapecity.com/tools/categories/dotnet/asp" class="second-child" tabindex="-1"><span>ASP.NET</span></a></li>
+        <li class="sc-mid"><a href="http://www.grapecity.com/tools/categories/dotnet/silverlight" class="second-child" tabindex="-1"><span>Silverlight</span></a></li>
+        <li class="sc-mid"><a href="http://www.grapecity.com/tools/categories/dotnet/wpf" class="second-child" tabindex="-1"><span>WPF</span></a></li>
+        <li class="sc-mid"><a href="http://www.grapecity.com/tools/categories/dotnet/componentone" class="second-child" tabindex="-1"><span>ComponentOne Studio</span></a></li>
+        <li class="sc-mid"><a href="http://www.grapecity.com/tools/categories/java" class="bordertop-line" tabindex="-1"><span><img class="blt-redbox" height="5" width="5" src="/tools/img/navi/bult-red.gif" alt="" />Java 製品</span></a></li>
+        <li class="sc-mid"><a href="http://www.grapecity.com/tools/categories/activex" class="bordertop-line" tabindex="-1"><span><img class="blt-redbox" height="5" width="5" src="/tools/img/navi/bult-red.gif" alt="" />ActiveX 製品</span></a></li>
+        <li class="sc-mid"><a href="http://www.grapecity.com/tools/categories/visualwebgui" class="bordertop-line" tabindex="-1"><span><img class="blt-redbox" height="5" width="5" src="/tools/img/navi/bult-red.gif" alt="" />Visual WebGui 製品</span></a></li>
+        <li class="sc-bot"><a href="http://www.grapecity.com/tools/categories/utility" class="bordertop-line" tabindex="-1"><span><img class="blt-redbox" height="5" width="5" src="/tools/img/navi/bult-red.gif" alt="" />ユーティリティ</span></a></li>
+      </ul>
+    </li>
+    <!--Start Services Menu-->
+    <li class="top" id="services">
+      <a class="top_link" href="http://www.grapecity.com/tools/support/"><span class="down"></span></a>
+      <ul class="sub" style="margin-left:-1px;">
+        <li class="sc-top"><a href="http://www.grapecity.com/tools/support/technical/knowledge.asp" tabindex="-1"><span>テクニカルサポート</span></a></li>
+        <li class="sc-mid"><a href="http://www.grapecity.com/tools/support/user/" tabindex="-1"><span class="arw-line">ユーザー登録</span></a></li>
+        <li class="sc-mid"><a href="http://www.grapecity.com/tools/support/license/" tabindex="-1"><span class="arw-line">ライセンス</span></a></li>
+        <li class="sc-mid"><a href="https://www.grapecity.com/tools/support/powernews/" tabindex="-1"><span class="arw-line">メールマガジン</span></a></li>
+        <li class="sc-mid"><a href="http://www.grapecity.com/tools/support/events/" tabindex="-1"><span class="arw-line">イベント</span></a></li>
+        <li class="sc-mid"><a href="http://www.grapecity.com/tools/support/migration/" tabindex="-1"><span class="arw-line">.NET移行情報</span></a></li>
+        <li class="sc-bot"><a href="http://www.grapecity.com/tools/support/salesend.htm" tabindex="-1"><span class="arw-line">各種情報</span></a></li>
+      </ul>
+    </li>
+    <!--Start store Menu-->
+    <li class="top" id="store">
+      <a class="top_link" href="http://www.grapecity.com/tools/purchase/"><span class="down"></span></a>
+      <ul class="sub" style="margin-left:-1px;">
+        <li class="sc-top"><a href="http://www.grapecity.com/tools/purchase/directsales.htm" tabindex="-1"><span>ご購入方法</span></a></li>
+        <li class="sc-mid"><a href="http://www.grapecity.com/tools/purchase/oldversion.htm" tabindex="-1"><span class="arw-line">旧バージョン</span></a></li>
+        <li class="sc-mid"><a href="http://www.grapecity.com/tools/purchase/versionup.htm" tabindex="-1"><span class="arw-line">バージョンアップ</span></a></li>
+        <li class="sc-mid"><a href="http://www.grapecity.com/tools/purchase/campaign.htm" tabindex="-1"><span class="arw-line">キャンペーン情報</span></a></li>
+        <li class="sc-mid"><a href="https://www.grapecity.com/tools/purchase/form.htm" tabindex="-1"><span class="arw-line">購入のご相談</span></a></li>
+        <li class="sc-mid"><a href="http://www.grapecity.com/tools/purchase/export/" tabindex="-1"><span class="arw-line">製品の輸出</span></a></li>
+        <li class="sc-bot"><a href="http://www.grapecity.com/tools/purchase/antipiracy.htm" tabindex="-1"><span class="arw-line">著作権保護</span></a></li>
+      </ul>
+    </li>
+    <!--Start Download Menu-->
+    <li class="top" id="download">
+      <a class="top_link" href="http://www.grapecity.com/tools/downloads"><span class="down"></span></a>
+      <ul class="sub" style="margin-left:-1px;">
+        <li class="sc-top"><a href="http://www.grapecity.com/tools/downloads/trial" tabindex="-1"><span>トライアル版</span></a></li>
+        <li class="sc-mid"><a href="http://www.grapecity.com/tools/downloads/update" tabindex="-1"><span class="arw-line">アップデート</span></a></li>
+        <li class="sc-mid"><a href="http://www.grapecity.com/tools/downloads/catalog" tabindex="-1"><span class="arw-line">カタログ / 資料</span></a></li>
+        <li class="sc-bot"><a href="http://www.grapecity.com/tools/downloads/application" tabindex="-1"><span class="arw-line">各種申込書</span></a></li>
+      </ul>
+    </li>
+    <!--Start Company Menu-->
+    <li class="top" id="company">
+      <a class="top_link" href="http://www.grapecity.com/tools/aboutus"><span class="down"></span></a>
+      <ul class="sub" style="margin-left:-1px;">
+        <li class="sc-top"><a href="http://www.grapecity.com/tools/aboutus/company" tabindex="-1"><span>概要</span></a></li>
+        <li class="sc-mid"><a href="http://www.grapecity.com/tools/aboutus/newsrelease" tabindex="-1"><span class="arw-line">ニュースリリース</span></a></li>
+        <li class="sc-bot"><a href="http://www.grapecity.com/tools/aboutus/contact" tabindex="-1"><span class="arw-line">お問合せ</span></a></li>
+      </ul>
+    </li>
+  </ul>
+</div> 	
+    <!-- /header - globalmenu -->
+  </div>
+  <!-- /header -->
+  <hr class="hidden" />
+  <h2><img src="/tools/support/images/h2_support.png" width="922" height="59" alt="サポート＆サービス" class="iepngfix" /></h2>
+  <div id="bread"><a href="http://www.grapecity.com/tools/">Home</a> &gt; <a href="http://www.grapecity.com/tools/support/technical/knowledge.asp">サポート＆サービス</a> &gt; イベント</div>
+  <!-- submenu -->
+  <ul id="submenu">
+    <li><a href="http://www.grapecity.com/tools/support/technical/knowledge.asp">テクニカルサポート</a></li>
+    <li><a href="http://www.grapecity.com/tools/support/user/">ユーザー登録</a></li>
+    <li><a href="http://www.grapecity.com/tools/support/license/">ライセンス</a></li>
+    <li><a href="http://www.grapecity.com/tools/support/powernews/">メールマガジン</a></li>
+    <li>イベント</li>
+    <li><a href="http://www.grapecity.com/tools/support/migration/">.NET移行情報</a></li>
+    <li><a href="http://www.grapecity.com/tools/support/salesend.htm">各種情報</a></li>
+    <li id="print"><a href="#" class="printbutton"><img src="/tools/img/common/icon_print.jpg" alt="印刷" /></a></li>
+  </ul>
+  <!-- /submenu -->
+  <hr class="hidden" />
+  <div id="content">
+    <!-- main contents -->
+    <div class="main">
+      <h3>イベント</h3>
+      <p>ソフトウェア開発技術に関するセミナーや、最新テクノロジーを実際に体感して学べるイベントの情報です。</p>
+      <div class="check"><input type="checkbox" id="expand" /><label for="expand">すべて展開する</label></div>
+      <div class="collapsiblegroup event">
+        <!-- events contents -->
+        <div class="collapsiblebox" id="hellowijmo">
+          <h6 class="co_title"><a href="#" class="toggle">こんにちはWijmo[ウィジモ]です。<br />
+          ～ 業務アプリケーション開発で使うHTML5／JavaScriptソリューション ～</a></h6>
+          <div class="co_body">
+            <div class="outline clearfix">
+              <img src="images/logo/wijmo.png" width="200" height="222" alt="ロゴ画像「Wijmo[ウィジモ]」" class="logo" />
+              <div class="info">
+                <strong class="h7">開催概要</strong>
+                <dl>
+                  <dt>会期 :</dt>
+                  <dd>2013年10月25日（金）<br />
+                  13:00～16:30（受付開始：12:30）</dd>
+                  <dt>主催 :</dt>
+                  <dd>グレープシティ株式会社</dd>
+                  <dt>会場 :</dt>
+                  <dd><a href="http://www.essam.co.jp/hall/access/index.html" target="_blank"><span class="neww">エッサム 神田ホール</span></a><br />
+                  （東京・神田）</dd>
+                  <dd class="subsequent">＜アクセス＞<br />
+                  　JR神田駅「東口」より徒歩1分<br />
+                  　東京メトロ銀座線「神田駅」3番出口前</dd>
+                  <dt>定員 :</dt>
+                  <dd>50名（申込先着順）</dd>
+                  <dt>参加 :</dt>
+                  <dd>無料（事前登録制）</dd>
+                </dl>
+              </div>
+            </div>
+            <p>HTML5技術を業務アプリケーション開発に活用する方法を、製品の紹介を交えて解説するセミナーを開催します。<br />
+            特別講演として、ひらいさだあき 様にHTML5の可能性やアプリケーション開発する場合のポイントなどをお話しいただきます。ひらい様は大手企業のエンジニアで、HTML5関連のコミュニティスタッフとしてもご活躍中です。<br />
+            また、グレープシティからはWebアプリケーション構築する業務システムの歴史や現状、そしてHTML5対応のWebアプリケーションにリッチなUIを提供するJavaScriptライブラリ製品「Wijmo[ウィジモ]」を紹介するセッションを提供します。</p>
+            <p>会場にはWijmoを実際に操作できる体験用PCをご用意します。当日は開発に関するご質問の時間も設けております。セミナーの内容に限らず、現在ご利用の弊社他製品に関するご相談も大歓迎ですので、東京近郊の開発者の皆さまはぜひご参加ください。</p>
+            <table class="tline">
+              <caption>＜スケジュール＞</caption>
+              <thead>
+                <tr>
+                  <th>時間</th>
+                  <th>内容</th>
+                  <th>説明</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>13：00～</td>
+                  <td class="nowrap">オープニング</td>
+                  <td>ごあいさつ</td>
+                </tr>
+                <tr>
+                  <td>13：10～</td>
+                  <td>特別講演</td>
+                  <td><div class="txt-left">『いま使われているHTML5と、これからのHTML5』</div>
+                  <div class="txt-right">ひらいさだあき 様</div>
+                  <div class="txt-right">株式会社カカクコム　食べログ本部勤務</div>
+                  <div class="txt-right">html5j、HTML5とか勉強会 スタッフ</div><br />
+                  <div class="txt-left">「以前はSIerでJavaやLinuxを、今はRubyとRailsで開発しています。HTML5やJavaScriptは趣味で調べ始めましたが、とても楽しいです」</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="2">14：00～</td>
+                  <td rowspan="2">技術解説と<br />
+                  製品紹介</td>
+                  <td><div class="txt-left">『業務アプリケーションとHTML5』</div>
+                  <div class="txt-right">営業部 テクニカルセールス：森谷 勝</div></td>
+                </tr>
+                <tr>
+                  <td><div class="txt-left">『こんにちはWijmo[ウィジモ]です。</div>
+                  <div class="txt-center">～フロントエンド開発におけるライブラリの活用～』</div>
+                  <div class="txt-right">Wijmoプロダクトマネージャ：山崎 顕由</div></td>
+                </tr>
+                <tr>
+                  <td class="nowrap">16：00～16：30</td>
+                  <td>質疑応答</td>
+                  <td>お問い合わせのほか、セミナー会場内の展示コーナーで実際に製品を操作できます</td>
+                </tr>
+              </tbody>
+            </table>
+            <p><a href="https://tools.grapecity.com/events/seminar131025/selectentry.aspx" target="_blank" class="linkmark_w"><span class="neww">お申し込みはこちらから</span></a></p>
+          </div>
+        </div>
+        <div class="collapsiblebox" id="expo2013">
+          <h6 class="co_title"><a href="#" class="toggle">ITpro EXPO 2013<br />
+          Windows XPサポート終了対策パビリオン</a></h6>
+          <div class="co_body">
+            <div class="outline clearfix">
+              <img src="images/logo/expo2013.png" width="200" height="99" alt="ロゴ画像「ITpro EXPO 2013」" class="logo" />
+              <div class="info">
+                <strong class="h7">開催概要</strong>
+                <dl>
+                  <dt>会期 :</dt>
+                  <dd>2013年10月9日（水）～11日（金）<br />
+                  10:00～17:30</dd>
+                  <dt>主催 :</dt>
+                  <dd>日経BP社</dd>
+                  <dt>会場 :</dt>
+                  <dd><a href="http://www.bigsight.jp/general/access/" target="_blank"><span class="neww">東京ビッグサイト</span></a><br />
+                  （東4-6ホール、会議棟）</dd>
+                  <dt>参加 :</dt>
+                  <dd>2,000円（事前登録で無料）</dd>
+                </dl>
+              </div>
+            </div>
+            <p>日本最大級のICTの祭典「ITpro EXPO」が今年も開催されます。<br />
+            日本経済も少しずつ浮上し、企業のIT投資も増加傾向にある中、ITユーザーはもちろん業界を支えていくエンジニアの皆さんにもさらなる生産性の向上が求められます。またグローバル化により世界中を相手に競争していかなくてはなりません。多くの課題解決を求めさらに挑戦を続ける皆さまに向け、ITpro EXPO 2013ではマネジメント、グローバル、イノベーションをキーワードに各種講演、セミナー、展示を通じ出展各社がビジネスのヒントを提供していきます。</p>
+            <p>グレープシティは、ITpro EXPO内の特設会場「Windows XPサポート終了対策パビリオン」にブース出展します2014年問題と言われるWindows XPのサポート終了に向けた対策として、システムの移行先となるWindows 8.1やWeb上にアプリケーションを構築する各種ソリューションを皆さまにご案内します。</p>
+            <p>おもな出品製品</p>
+            <p><a href="http://www.grapecity.com/tools/info/multitouch/" target="_blank"><span class="neww">MultiTouch [マルチタッチ]</span></a><br />
+            業務アプリケーションをWindows 8マルチタッチ対応アプリにリメイクする方法</p>
+            <p><a href="http://www.grapecity.com/tools/info/visualwebgui/" target="_blank"><span class="neww">Visual WebGui [ビジュアルウェブグイ]</span></a><br />
+            Windowsフォームを開発するのと同じ手法でWebアプリを開発できるフレームワーク</p>
+            <p><a href="http://wijmo.c1.grapecity.com/" target="_blank"><span class="neww">Wijmo [ウィジモ]</span></a><br />
+            HTML5対応のWebアプリケーションにリッチなUIを提供するJavaScriptライブラリ</p>
+            <p><a href="http://special.nikkeibp.co.jp/as/201307/expo2013/" target="_blank" class="linkmark_w"><span class="neww">ITpro EXPO 2013 イベントページはこちら</span></a></p>
+          </div>
+        </div>
+        <div class="collapsiblebox close" id="kansumi">
+          <h6 class="co_title"><a href="#" class="toggle">Developers Summit 2013 Kansai Action!（デブサミ関西2013）<br />
+          ～ あのデブサミを関西で！ ～</a><span class="end">[終了]</span></h6>
+          <div class="co_body">
+            <div class="outline clearfix">
+              <img src="images/logo/devsumi.jpg" width="200" height="78" alt="ロゴ画像「Developers Summit」" class="logo" />
+              <div class="info">
+                <strong class="h7">開催概要</strong>
+                <dl>
+                  <dt>会期 :</dt>
+                  <dd>2013年9月20日（金）<br />
+                  10:15～17:20（受付開始：9:45）</dd>
+                  <dt>主催 :</dt>
+                  <dd>株式会社翔泳社</dd>
+                  <dt>会場 :</dt>
+                  <dd><a href="http://kobe-cc.jp/access/index.html" target="_blank"><span class="neww">神戸コンベンション・センター［神戸国際会議場］</span></a><br />
+                  （兵庫・神戸）</dd>
+                  <dt>参加 :</dt>
+                  <dd>無料（事前登録制）</dd>
+                </dl>
+              </div>
+            </div>
+            <p>今年の2月、目黒雅叙園で2日間にわたり開催された開発者のためのカンファレンス、通称「デブサミ2013」が再び関西の地で開催されます。テーマはもちろん前回と同じく「Action!」。<br />
+            開発の現場をよりよく変えていきたいと思っている開発者のために「一歩踏み出すきっかけ」を提供したいという想いがテーマになっています。</p>
+            <p>ITにまつわるたくさんの基調講演やセッションが準備されていますので、専門的な知識や仲間を増やすのもよし、講演者と交流するもよし。デブサミならではの楽しみ方をご堪能ください。開発ジャンルを問わないセッションは今回もご満足いただけること間違いありません。</p>
+            <p>もちろんグレープシティもデブサミ関西に参加します。テクニカルエバンジェリストを卒業し、開発者のためのより良いツールづくりに専念することになった八巻が「 .NET系エンジニアのための技術戦略マップ」をテーマに登壇します。本セッションでは、多岐にわたる.NET技術の普及が加速する中で、これからも開発現場で活躍するためには技術者がどのような選択肢を持ってビジネスの変化に対応していかなくてはいけないかを一緒に考えます。</p>
+            <p>イベントの終了後は、おもてなし班が主催する希望者だけの懇親会も予定されています。<br />
+            遠方からのご参加の方はもちろんお近くから参加の方も、お時間の許すかぎり会場で出会う開発者との会話をお楽しみください。</p>
+            <p><a href="http://event.shoeisha.jp/devsumi/20130920/" target="_blank" class="linkmark_w"><span class="neww">公式イベントページへ</span></a></p>
+          </div>
+        </div>
+        <div class="collapsiblebox close" id="mijs">
+          <h6 class="co_title"><a href="#" class="toggle">MIJS 仙台ワークショップ2013<br />
+          杜の都からオンリーワン・ソリューションを目指して！<br />
+          ～日本発のソフトウェアで世界を席巻する～</a><span class="end">[終了]</span></h6>
+          <div class="co_body">
+            <div class="outline clearfix">
+              <img src="images/logo/mijs_sendai2013.gif" width="200" height="200" alt="ロゴ画像「MIJS仙台ワークショップ2013」" class="logo" />
+              <div class="info">
+                <strong class="h7">開催概要</strong>
+                <dl>
+                  <dt>会期 :</dt>
+                  <dd>2013年9月19日（木）<br />
+                  第一部 ワークショップ 13:00～18:00（受付開始：12:00）<br />
+                  第二部 懇親会 18:15～20:30</dd>
+                  <dt>主催 :</dt>
+                  <dd>メイド・イン・ジャパン・ソフトウェア・コンソーシアム（略称：MIJSコンソーシアム）</dd>
+                  <dt>後援 :</dt>
+                  <dd>宮城県、仙台市、東北大学IIS研究センター、一般社団法人宮城県情報サービス産業協会</dd>
+                  <dt>会場 :</dt>
+                  <dd><a href="http://www.sira.or.jp/icenter/access_transportation.html" target="_blank"><span class="neww">仙台国際センター</span></a> （宮城・仙台）</dd>
+                  <dd class="subsequent">＜アクセス＞<br />
+                  　「仙台駅（西口バスプール9番乗り場）」より仙台市営バス 約10分<br />
+                  　博物館・国際センター前下車 徒歩1分</dd>
+                  <dt>参加 :</dt>
+                  <dd>第一部 ワークショップ［無料（事前登録制）］<br />
+                  第二部 懇親会［5,000円（事前登録制）]</dd>
+                  <dt>定員 :</dt>
+                  <dd>第一部 400名<br />
+                  第二部 200名</dd>
+                </dl>
+              </div>
+            </div>
+            <p>「メイド・イン・ジャパン・ソフトウェア・コンソーシアム（MIJS）」が主催するイベントは、パッケージ製品を中心に事業展開している国内の有力ソフトウェアベンダーが集結して、海外のマーケティングや流通のノウハウを伝授したり、エンジニアが共同で調査、検証、学習などの成果を出したりすることで、ビジネス基盤の強化や海外展開を推進することを目的としています。<br />
+            今回、仙台で開催する本イベントのテーマは「杜の都からオンリーワン・ソリューションを目指して！」。<br />
+            国内の地域活性化に貢献することで、日本や東北のソフトウェア企業を元気にしていきたいという強いメッセージが込められています。</p>
+            <p>終了後の懇親会では、仙台すずめ踊りが披露されるほか、地元ITベンダーのライトニングトークも予定されています。当日会場に集結した開発者の皆さんとの楽しいお食事を楽しみながら歓談に花を咲かせてはいかがでしょうか。</p>
+            <p>弊社はグローバルに活動する地元IT企業の1社として、翌日9月20日（金）の企業訪問ツアーにお立ち寄りいただくことになりました。緑あふれる弊社オフィス（仙台市泉区）にてお待ちしております。</p>
+            <p><a href="http://www.mijs.jp/events/sendai/" target="_blank" class="linkmark_w"><span class="neww">公式イベントページへ</span></a></p>
+          </div>
+        </div>
+        <div class="collapsiblebox close" id="vwg_seminar">
+          <h6 class="co_title"><a href="#" class="toggle">Winアプリ開発のスキルを生かすVisual WebGui無料講座</a><span class="end">[終了]</span></h6>
+          <div class="co_body">
+            <div class="outline clearfix">
+              <img src="images/logo/gcseminar_visualwebgui.jpg" width="200" height="200" alt="ロゴ画像「Visual WebGui無料講座」" class="logo" />
+              <div class="info">
+                <strong class="h7">開催概要</strong>
+                <dl>
+                  <dt>会期 :</dt>
+                  <dd>2013年8月23日（金）～全5回<br />
+                  各日程とも 13:00～17:00（受付開始：12:30）</dd>
+                  <dt>主催 :</dt>
+                  <dd>グレープシティ株式会社</dd>
+                  <dt>会場 :</dt>
+                  <dd style="padding-bottom:4.5em;">福岡 大阪 埼玉（川口）<br />
+                  開催日時および会場の詳細はVisual WebGuiサイトにてご確認ください。</dd>
+                </dl>
+              </div>
+            </div>
+            <p>VB6や .NETのC/S型アプリケーションの開発経験は多いけれど、Webアプリケーションはハードルが高いと感じている開発者のためにWindowsフォームの開発スキルでASP.NETアプリケーションを作成できるフレームワーク「Visual WebGui」を体感する無料ハンズオンセミナーを福岡、大阪、川口にて5回にわたって開催します。</p>
+            <p>このハンズオンでは、一般的なWindowsフォームのC/S型アプリケーションと同様のモデルをVisual WebGuiで作成します。画面UI設計からデータベース接続、帳票機能の実装、Webサーバーにデプロイするまでの一連の開発作業を実際に行うことで、Windowsフォームの開発手法をそのままASP.NET開発に生かせることが確認できます。</p>
+            <p><a href="http://www.grapecity.com/tools/info/visualwebgui/topics/20130719_1.htm" target="_blank" class="linkmark_w"><span class="neww">Visual WebGui無料講座の詳細へ</span></a></p>
+          </div>
+        </div>
+        <div class="collapsiblebox close" id="gctraining">
+          <h6 class="co_title"><a href="#" class="toggle">SPREAD for Windows Forms 7.0Jトレーニング（初級・中級編）</a><span class="end">[終了]</span></h6>
+          <div class="co_body">
+            <div class="outline clearfix">
+              <img src="images/logo/gc-seminar.jpg" width="200" height="100" alt="ロゴ画像「グレープシティ製品トレーニング／セミナー」" class="logo" />
+              <div class="info">
+                <strong class="h7">開催概要</strong>
+                <dl>
+                  <dt>会期 :</dt>
+                  <dd>2013年7月25日（木）<br />
+                  13:30～17:30（受付開始：13:00）<br />
+                  途中10分～15分間の休憩、質疑応答の時間などを含みます。</dd>
+                  <dt>主催 :</dt>
+                  <dd>グレープシティ株式会社</dd>
+                  <dt>会場 :</dt>
+                  <dd><a href="http://www.grapecity.com/jp/about/locations_kanto.htm" target="_blank"><span class="neww">グレープシティ株式会社 関東支社セミナールーム</span></a><br />
+                  （埼玉・川口）</dd>
+                  <dd class="subsequent">＜アクセス＞<br />
+                  　JR京浜東北線「川口駅」下車<br />
+                  　東口エスカレーターを降りて徒歩3分</dd>
+                  <dt>定員 :</dt>
+                  <dd>7名</dd>
+                  <dt>参加 :</dt>
+                  <dd>21,000円（税込）</dd>
+                </dl>
+              </div>
+            </div>
+            <p>グレープシティ製品の使い方を、パソコン上で実際に使用して学べるハンズオン形式のトレーニングです。今回は、人気の表計算データグリッドコンポーネント「SPREAD for Windows Forms 7.0J」の初級・中級編のトレーニングです。<br />
+            本トレーニングではSPREADの構造やオブジェクトを理解し、その基本的なプログラミング方法やアプリケーション開発で欠かすことのできないデータベースとの連結方法を学びます。<br />
+            さらに、高機能なSPREADの性能をお客様のアプリケーションでより引き出していただくために重要なパフォーマンスチューニング方法を学習できるメニューも用意しています。</p>
+            <strong class="h7">本トレーニングで習得できること</strong>
+            <ul class="normal_1line">
+              <li>SPREADの構造、オブジェクトの理解</li>
+              <li>データベースの連結方法</li>
+              <li>パフォーマンス向上のためのプログラミング方法とチューニングポイント</li>
+              <li>7.0Jで新たに導入された新機能</li>
+            </ul>
+            <strong class="h7">受講対象者</strong>
+            <ul class="normal_1line">
+              <li>これから初めてSPREAD for Windows Formsをご利用になる開発者</li>
+              <li>すでにSPREAD for Windows Forms 7.0Jをご利用になっている開発者で、あらためて基本的な部分を見返したい開発者、あるいは、パフォーマンスチューニングなど、製品をさらに使いこなしたい開発者</li>
+              <li>SPREAD for Windows Forms 6.0J以前のバージョンをご利用で、7.0Jをこれからご利用するにあたり、パフォーマンスチューニングなど製品をさらに使いこなしたい開発者</li>
+            </ul>
+            <table class="tline">
+              <caption>＜プログラム＞</caption>
+              <thead>
+                <tr>
+                  <th>学習項目</th>
+                  <th>内容</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="nowrap">ごあいさつ・各種ご案内など</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>構造とオブジェクト</td>
+                  <td>SPREADはExcelライクな操作性や機能を開発アプリケーションに簡単に付与でき、カスタマイズも柔軟です。<br />
+                  SPREADをより使いこなすために重要な構造とオブジェクトについてご説明します。</td>
+                </tr>
+                <tr>
+                  <td>データベース接続</td>
+                  <td>アプリケーションに必要不可欠な、SPREADとデータベースとの接続方法についてご説明いたします。</td>
+                </tr>
+                <tr>
+                  <td>パフォーマンス</td>
+                  <td>SPREADのモデルを再認識し、高パフォーマンスなアプリケーションを開発できるように、目的に応じた設定方法やプログラミング方法をご説明します。</td>
+                </tr>
+                <tr>
+                  <td>新機能</td>
+                  <td>7.0Jで新たに追加された新機能などをご説明します。</td>
+                </tr>
+                <tr>
+                  <td>・受講完了書のサイン<br />
+                  ・QA<br />
+                  ・講習修了証明証のお渡し<br />
+                  （終了）
+                  </td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="size11">※ プログラムの内容は多少の変更あるいは前後する場合があります。</p>
+            <p class="size11">※ ハンズオン形式のため、受講日にはお客様がお使いのノートPCなどのご持参をお願いしております。<br />
+            　 詳細は下記お申し込みページにてご確認ください。</p>
+            <p>※ 定員に達したため、申し込み受付を終了いたしました。</p>
+            <!--p><a href="https://www.grapecity.com/tools/specific/entry/seminar130725.htm" target="_blank" class="linkmark_w"><span class="neww">申し込みページへ</span></a></p-->
+          </div>
+        </div>
+        <div class="collapsiblebox close" id="gctraining_ar">
+          <h6 class="co_title"><a href="#" class="toggle">ActiveReports for .NET 7.0J トレーニング（中級編）</a><span class="end">[終了]</span></h6>
+          <div class="co_body">
+            <div class="outline clearfix">
+              <img src="images/logo/gc-seminar.jpg" width="200" height="100" alt="ロゴ画像「グレープシティ製品トレーニング／セミナー」" class="logo" />
+              <div class="info">
+                <strong class="h7">開催概要</strong>
+                <dl>
+                  <dt>会期 :</dt>
+                  <dd>2013年5月24日（金）<br />
+                  13:30～17:30（受付開始：13:00）<br />
+                  途中10分～15分間の休憩、質疑応答の時間などを含みます。</dd>
+                  <dt>主催 :</dt>
+                  <dd>グレープシティ株式会社</dd>
+                  <dt>会場 :</dt>
+                  <dd><a href="http://www.grapecity.com/jp/about/locations_kanto.htm" target="_blank"><span class="neww">グレープシティ株式会社 関東支社セミナールーム</span></a><br />
+                  （埼玉・川口）</dd>
+                  <dd class="subsequent">＜アクセス＞<br />
+                  　JR京浜東北線「川口駅」下車<br />
+                  　東口エスカレーターを降りて徒歩3分</dd>
+                  <dt>定員 :</dt>
+                  <dd>7名</dd>
+                  <dt>参加 :</dt>
+                  <dd>初めて受講される方 21,000円（税込）／1名<br />
+                  過去にActiveReportsシリーズのトレーニングで基本編を受講された方 15,750円（税込）／1名<br />
+                  ※ 前回の受講票に記載された「お客様番号」が必要です。</dd>
+                </dl>
+              </div>
+            </div>
+            <p>グレープシティ製品の使い方を、パソコン上で実際に使用して学べるハンズオン形式のトレーニングを開講します。今回は、人気の帳票開発ツール「ActiveReports for .NET 7.0J」の中級編<span class="red size11">※</span>のトレーニングです。複雑な帳票レイアウトの実現方法や、新バージョンで追加された新機能「ページレポート」の開発手法、さらには旧バージョンからの移行方法など、より実践的なメニューで開催させていただきます。<br />
+            <span class="size11"><span class="red">※</span> 2013年2月に開催したセミナー番号：GCTS-OFFP-HS-20130222と同じ内容です。</span></p>
+            <strong class="h7">本トレーニングで習得できること</strong>
+            <ul class="normal_1line">
+              <li>従来の「セクションレポート」でのイベント発生順と注意点</li>
+              <li>「セクションレポート」で複雑なレイアウトの帳票を実現するための各種機能と利用方法</li>
+              <li>7.0Jで新たに導入された「ページレポート」などの新機能</li>
+              <li>旧バージョンからの移行方法</li>
+            </ul>
+            <strong class="h7">受講対象者</strong>
+            <ul class="normal_1line">
+              <li>すでにActiveReports for .NETの基本的な利用方法をご存じで、より複雑な帳票アプリケーションの開発を行いたい開発者</li>
+              <li>6.0J以前のActiveReports for .NETをご利用いただき、7.0Jへの移行をご検討中の開発者</li>
+            </ul>
+            <table class="tline">
+              <caption>＜プログラム＞</caption>
+              <thead>
+                <tr>
+                  <th>学習項目</th>
+                  <th>内容</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="nowrap">ごあいさつ・各種ご案内など</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>レポートイベント</td>
+                  <td>セクション描画時のイベントの詳細やプロパティによるイベント発生順のイレギュラーな変化などをご説明します。</td>
+                </tr>
+                <tr>
+                  <td>複雑なレイアウト</td>
+                  <td>異なるレイアウトのマージ、複数列の表、空白行の設定方法など複雑なレイアウトの実現方法をご説明します。</td>
+                </tr>
+                <tr>
+                  <td>サブレポート</td>
+                  <td>サブレポート使用時の使用方法、注意点などをご説明します。</td>
+                </tr>
+                <tr>
+                  <td>ページレポート</td>
+                  <td>ページレポートの作成方法、セクションレポートとの使い分けのポイント、マトリクスコントロール、エンドユーザーデザイナなどをご紹介します。</td>
+                </tr>
+                <tr>
+                  <td>新機能の紹介</td>
+                  <td>更新されたビューワーやExcelエクスポート、印刷オプションの追加など、「ページレポート」以外の新機能をご紹介します。</td>
+                </tr>
+                <tr>
+                  <td>その他</td>
+                  <td>旧バージョンからの移行</td>
+                </tr>
+                <tr>
+                  <td>・受講完了書のサイン<br />
+                  ・QA<br />
+                  ・講習修了証明証のお渡し<br />
+                  （終了）
+                  </td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="size11">※ ハンズオン形式のため、受講日にはお客様がお使いのノートPCなどのご持参をお願いしております。<br />
+            　 詳細は下記お申し込みページにてご確認ください。</p>
+            <p>※ 定員に達したため、申し込み受付を終了いたしました。</p>
+            <!--p><a href="https://www.grapecity.com/tools/specific/entry/seminar130524.htm" target="_blank" class="linkmark_w"><span class="neww">申し込みページへ</span></a></p-->
+          </div>
+        </div>
+        <div class="collapsiblebox close" id="cod">
+          <h6 class="co_title"><a href="#" class="toggle">Community Open Day 2013</a><span class="end">[終了]</span></h6>
+          <div class="co_body">
+            <div class="outline clearfix">
+              <img src="images/logo/cod2013.png" width="200" height="54" alt="ロゴ画像「Community OpenDay」" class="logo" />
+              <div class="info">
+                <strong class="h7">開催概要</strong>
+                <dl>
+                  <dt>会期 :</dt>
+                  <dd>2013年5月11日（土）<br />
+                  開催時間は会場によって異なります。公式ページにて各会場のスケジュールをご確認ください。</dd>
+                  <dt>主催 :</dt>
+                  <dd>全国のIT系コミュニティ</dd>
+                  <dt>後援 :</dt>
+                  <dd>日本マイクロソフト（株）</dd>
+                  <dt>会場 :</dt>
+                  <dd>北海道、東北、東京、名古屋、北陸、大阪、広島、沖縄<br />
+                  会場情報は公式ページにてご確認ください。</dd>
+                  <dt>参加 :<dt>
+                  <dd>会場によって異なります。詳細は各会場のお申し込みサイトでご確認下さい。</dd>
+                </dl>
+              </div>
+            </div>
+            <p>全国のIT系コミュニティが同時開催する合同勉強会「Community Open Day 2013」が昨年に引き続き開催されます。日本マイクロソフト社の後援により、全国8都市に会場を設け先進的なIT情報の紹介や技術セッションを多数実施します。今年のテーマは「学校の授業では学べない実践的なITスキルを身に付けよう！」。各会場とも就活準備に入る学生から、さらに深い知識を身につけたいというIT開発者まで楽しみながらITに触れられるセッションを用意しています。基調講演は、リリースから爆発的にユーザー数を伸ばしたLINEの開発企業NHN Japan株式会社の村上久仁朗氏が登壇。エンジニアとしてのマインドとキャリアを考える上でのナレッジを共有し、コミュニティを活用して、いかにキャリアとスキルをアップするかについてお話しいたします。<br />
+            グレープシティももちろん、このイベントを応援しています。当日は仕事にもお勉強にも役立つノベルティを提供いたしますのでお楽しみに。</p>
+            <p><a href="http://cod.ms/Pages/default.aspx" target="_blank" class="linkmark_w"><span class="neww">公式イベントページへ</span></a></p>
+          </div>
+        </div>
+        <!-- /events contents -->
+      </div>
+    </div>
+    <!-- /main contents -->
+    <hr class="hidden" />
+    <!-- sidemenu -->
+    <div id="sidebar">
+      <div class="sidebox">
+        <ul class="sidemenu_line">
+          <li class="last"><a class="arrow_b bold" href="http://www.grapecity.com/tools/aboutus/contact">お問合せ</a></li>
+        </ul>
+      </div>
+      <div class="sidebox">
+        <p class="topicshead ctitle">トピックス</p>
+        <div class="topicsbody">
+          <div class="topicsbox">
+            <div class="topics_title"><a href="http://www.grapecity.com/tools/jp/?D157672795E0.clk">ComponentOne Studio</a></div>
+            <p class="topics_txt">
+              <a href="http://www.grapecity.com/tools/jp/?D157672795E0.clk"><img src="/tools/common/images/topics/subpage/c1-logo.png" width="45" height="45" alt="" />
+              <span>幅広い分野のコンポーネントを多数収録。サブスクリプション方式の新バージョン情報は専用サイトへ。</span></a></p>
+          </div>
+          <div class="topicsbox">
+            <div class="topics_title"><a href="http://www.grapecity.com/tools/jp/?2137EC2D1F79.clk">LEADTOOLSで<br />HTML5対応Webアプリ開発</a></div>
+            <p class="topics_txt">
+              <a href="http://www.grapecity.com/tools/jp/?2137EC2D1F79.clk"><img src="/tools/common/images/topics/subpage/html5-logo.png" width="45" height="51" alt="" />
+              <span>クロスブラウザ＆クロスプラットフォームなHTML5で画像を扱うアプリを開発したい方向けのJavaScriptライブラリ。</span></a></p>
+          </div>
+          <!--div class="topicsbox">
+            <div class="topics_title"><a href="http://www.grapecity.com/tools/jp/?8DB0A5095EBA.clk">FlexGrid</a></div>
+            <p class="topics_txt">
+              <a href="http://www.grapecity.com/tools/jp/?8DB0A5095EBA.clk"><img src="/tools/common/images/topics/subpage/flexgrid-cube.png" width="45" height="50" alt="" />
+              <span>単体としての販売を終了しComponentOne Studio 2013Jに収録されました。</span></a></p>
+          </div>
+          <div class="topicsbox">
+            <div class="topics_title"><a href="http://www.grapecity.com/tools/jp/?E9DA7B025E6C.clk">PowerNews</a></div>
+            <p class="topics_txt">
+              <a href="http://www.grapecity.com/tools/jp/?E9DA7B025E6C.clk"><img src="/tools/common/images/topics/subpage/twitter.png" width="45" height="45" alt="" />
+              <span>製品の使い方や新製品リリース情報をいち早くお知らせするメールマガジン。</span></a></p>
+          </div-->
+          <div class="topicsbox">
+            <div class="topics_title"><a href="http://www.grapecity.com/tools/jp/?17F47937FB89.clk">PlusPak for Windows Forms</a></div>
+            <p class="topics_txt">
+              <a href="http://www.grapecity.com/tools/jp/?17F47937FB89.clk"><img src="/tools/common/images/topics/subpage/pluspack-cube.png" width="45" height="50" alt="" />
+              <span>画面設計を自由自在。限られた領域を有効活用できる柔軟なレイアウトを実現。</span></a></p>
+          </div>
+        </div>
+      </div>
+      <div class="sidebox">
+        <ul class="sidemenu_line">
+          <li><span class="s-pdf"><a target="_blank" href="http://download.grapecity.com/PDF/other/grapecity_development_tools.pdf" class="arrow_b" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PDF', 'other/grapecity_development_tools.pdf']);">これで開発がラクになる</a></span></li>
+          <li><span class="s-pdf"><a target="_blank" href="http://download.grapecity.com/PDF/other/powertools_guide.pdf" class="arrow_b" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PDF', 'other/powertools_guide.pdf']);">Visual Studioをもっと便利に</a></span></li>
+          <li class="last"><span class="s-pdf"><a target="_blank" href="http://download.grapecity.com/PDF/article/itpro200807_grapecity_xian_jp.pdf" class="arrow_b" onclick="_gaq.push(['_trackEvent', 'Downloads', 'PDF', 'article/itpro200807_grapecity_xian_jp.pdf']);">日本品質を実現できる理由</a></span></li>
+        </ul>
+      </div>
+    </div>
+    <!-- /sidemenu -->
+  </div>
+  <hr class="hidden" />
+  <!-- footer -->
+  <div id="footer" class="footermin">
+    <ul id="pagelink">
+	  <li><a href="http://www.grapecity.com/jp/about/privacy/default.htm">プライバシーポリシー</a></li>
+      <li><a href="http://www.grapecity.com/tools/aboutus/contact">お問合せ</a></li>
+      <li><a href="http://www.grapecity.com/tools/siteinfo/sitemap">サイトマップ</a></li>
+      <li><a href="http://www.grapecity.com/tools/siteinfo/news">新着情報一覧</a></li>
+      <li id="rss"><a href="http://feeds.feedburner.com/grapecity/tools">RSS</a></li>
+      <li id="copy">Copyright &copy; 2013 GrapeCity inc.</li>
+    </ul>
+  </div>
+  <div id="fixmetoo"><a href="#"><img src="/tools/img/common/go_top.gif" alt="このページの先頭へ" /></a></div>
+  <!-- /footer -->
+</div>
+</body>
+</html>

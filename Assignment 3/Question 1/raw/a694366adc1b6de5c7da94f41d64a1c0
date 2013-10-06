@@ -1,0 +1,1386 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:fb="http://www.facebook.com/2008/fbml"
+    xml:lang="en"
+    lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <title>Senior JavaScript Web Developer - Atlanta, GA, 30339 @ GetWebDeveloperJobs.com</title>
+
+
+
+    <meta name="description" content="Senior JavaScript Web Developer Want to work with the latest and greatest open source web technologies? Our client is a financial services company wi" />
+  <meta name="keywords" content="Senior JavaScript Web Developer, Senior JavaScript Web Developer job, Senior JavaScript Web Developer job , Senior JavaScript Web Developer " />
+
+
+<link href="/css/transitional_wide_main.css" rel="stylesheet" type="text/css" />
+<link href="/css/transitional_wide_tabbed_menu.css" rel="stylesheet" type="text/css" />
+<link href="/css/humanity/jquery-ui-1.8.5.custom.css" rel="stylesheet" type="text/css" />
+<link href="/css/11/template.css" rel="stylesheet" type="text/css" />
+<link href="/css/popup.css" rel="stylesheet" type="text/css" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+<script src="http://ajax.microsoft.com/ajax/jquery.validate/1.7/jquery.validate.min.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js" type="text/javascript"></script>
+<script src="/js/jquery.cookie.js" type="text/javascript"></script>
+<script src="/js/formMessages.js" type="text/javascript"></script>
+<script src="/js/main.js" type="text/javascript"></script>
+
+<!--Start Indeed Code-->
+<script type="text/javascript" src="http://www.indeed.com/ads/apiresults.js"></script>
+<!--End Indeed Code-->
+
+<script src="http://www.google.com/jsapi"></script>
+<script type="text/javascript" charset="utf-8">
+google.load('ads.search', '2');
+</script>
+
+<script src="/js/job-details.js" type="text/javascript"></script><style>#newslettersignup{margin-top: 0;}</style>
+<!--[if IE]>
+<link href="/css/transitional_wide/ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 6]>
+<link href="/css/transitional_wide/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(
+    ['_setAccount', 'UA-1408252-24'],
+    ['_trackPageview']
+  );
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body >
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({appId: '157591244265755', status: true, cookie: true, xfbml: true});
+
+    // this will fire when any of the like widgets are "liked" by the user
+    FB.Event.subscribe('edge.create', function(href, widget) {
+        // Do something, e.g. track the click on the "Like" button here
+        $('#popup').dialog('close');
+    });
+
+
+  };
+  (function() {
+    var e = document.createElement('script'); e.async = true;
+    e.src = document.location.protocol +
+      '//connect.facebook.net/en_US/all.js';
+    document.getElementById('fb-root').appendChild(e);
+  }());
+</script>
+
+
+
+<!-- Begin Header -->
+
+<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+<style>
+
+#socialTop {
+    margin-top: 3px;
+    margin-bottom: 0;
+    display: inline;
+}
+
+#socialTop li {
+    list-style: none;
+    display: inline;
+}
+
+#socialTop #headerGlobal {
+    line-height: 20px;
+    vertical-align: top;
+}
+#socialTop .twitter-share-button {
+    width: 98px;
+}
+
+</style>
+
+
+<div id="globalMessage" style="max-height:23px;">
+
+    <ul id="socialTop">
+        <li id="headerGlobal">Help other Web Developer professionals in Atlanta, GA find work - share this site!&nbsp;</li>
+        <li id="twitterLike"><a href="http://twitter.com/share" class="twitter-share-button" data-text="Your Web Developer Jobs Site @ GetWebDeveloperJobs.com" data-count="horizontal" data-url="http://www.getwebdeveloperjobs.com" data-via="GetWebDevpeJobs">Tweet</a></li>
+        <li id="googleLike"><g:plusone size="medium" href="http://www.getwebdeveloperjobs.com"></g:plusone></li>
+        <li id="facebookLike"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.getwebdeveloperjobs.com&amp;layout=button_count&amp;show_faces=false&amp;width=80&amp;action=like&amp;font&amp;colorscheme=light&amp;height=20" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:20px;" allowTransparency="true"></iframe></li>
+    </ul>
+
+</div>
+  <div id="pageheader" style="margin-bottom: 27px;">
+    <div id="title">
+      <a href="/" class="title">
+      			<span class="contrast">Get</span> Web Developer Jobs      		</a>
+    </div>
+    <div id="topbar">
+      Employers&nbsp;<span class="divcolor">&raquo;</span>&nbsp;<a href="/employers/post-job.php" rel="nofollow">Post Jobs</a> <img src="/images/topheader-free.gif" alt="Free!" class="superimg" width="27" height="9" />&nbsp;<span class="divcolor">|</span>&nbsp;Job Seekers&nbsp;<span class="divcolor">&raquo;</span>&nbsp;<a href="/job-seekers/job-search.php" rel="nofollow">Search Jobs</a>
+    </div>
+    <div id="topnav">
+  <div class="leftside">
+
+<!--[if IE]>
+<style>
+.navset .bd div {
+	vertical-align: middle;
+	padding-top: .4em;
+	padding-bottom: .8em;
+}
+
+.navset .hd ul {
+    margin-bottom:-1px;
+}
+#googleRightNav {
+    margin-top: 52px;
+}
+</style>
+<![endif]-->
+
+<!--[if IE 7]>
+<style>
+#googleRightNav {margin-top:17px;}
+</style>
+<![endif]-->
+
+<!--[if IE 6]>
+<style>
+.navset .hd ul {
+	margin-bottom:-1px;
+}
+</style>
+<![endif]-->
+
+<div class="navset" id="nav">
+	<div class="hd">
+		<ul>
+			<li class=""><a href="/"><em>Home</em></a></li><li class=""><a href="/employers/post-job.php" rel="nofollow"><em>Employers</em></a></li><li class="on " title="selected"><a href="/job-seekers/job-search.php"><strong><em>Job Seekers</em></strong></a></li><li class="gethired"><a href="/guide.php" rel="nofollow"><em>Get Hired!</em></a></li><li class=""><a href="/education-corner.php" rel="nofollow"><em>Education Corner</em></a></li><li class=""><a href="/resources/"><em>Resources</em></a></li>		</ul>
+	</div>
+ 
+    <div class="bd">
+		<div id="seekerSubNav">
+<a href="/job-seekers/login.php"rel="nofollow">Sign In</a> <span class="divcolor">|</span> <a href="/job-seekers/job-seeker-registration.php"rel="nofollow">Register</a>
+		</div>
+	</div>
+
+
+</div>
+
+
+    </div>
+
+
+    </div>
+  </div>
+
+<!-- End Header -->
+
+<!-- Begin Page Body -->
+<table id="pagebody" cellpadding="0" cellspacing="0">
+    <tbody>
+        <tr>
+            <td colspan="2" id="jobDetailsTopSearch">
+
+
+
+
+            </td>
+            <!-- Begin Right Column -->
+            <td id="pageright" rowspan="2">
+                
+<!-- Begin Critical Jobs -->
+  <div id="criticaljobs" class="module1 rightNavMenu"><b class="module1-bt"><b></b></b>
+    <h2>These Jobs Need You Now</h2>
+
+	<p class="menuItem"><a class="accent-link" href="/critical-need-web-developer-jobs.php" rel="nofollow">Critical Need Web Developer Jobs</a></p>
+
+    <b class="module1-bb"><b></b></b>
+  </div>
+<!-- End Critical Jobs -->
+
+
+<div id="socialbox">
+    <a href="http://www.twitter.com/GetWebDevpeJobs" target="_blank">
+        <img src="http://twitter-badges.s3.amazonaws.com/follow_us-a.png"  width="160" height="27" alt="Follow GetWebDevpeJobs on Twitter"/>
+    </a>
+</div>
+
+<div id="bookmarkbutton">
+    <!-- ADDTHIS BUTTON BEGIN -->
+    <script type="text/javascript">
+    addthis_pub = 'getit';
+    var addthis_config = {
+        data_track_clickback: true
+    }
+    </script><a  rel="nofollow" href="http://www.addthis.com/bookmark.php" onmouseOver="return addthis_open(this, '', location.href, location.title)" onmouseOut="addthis_close()" onclick="return addthis_sendto()"><img src="/images/custom_bookmark.png" width="160" height="24" border="0" alt="Bookmark" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+    <!-- ADDTHIS BUTTON END -->
+    <br />
+    <a href="/resources/submission.php"><img src="/images/add_resource.png" width="160" height="24" alt="" /></a>
+</div>
+
+<!-- Begin Guide Blurb -->
+<div id="guideNavBlurb" class="module1">
+    <h2>Get Hired Today</h2>
+    <p class="menuItem"><a class="accent-link" href="/guide.php" rel="nofollow">How do you contact 44 pages full of Web Developer employers?</a></p>
+</div>
+<!-- End Guide Blurb -->
+
+<!-- Begin High Paid Postings Jobs -->
+  <div id="highpaid" class="module1 rightNavMenu"><b class="module1-bt"><b></b></b>
+    <h2>High Paid Postings</h2>
+
+	<p class="menuItem"><a class="accent-link" href="/high-paid-postings.php" rel="nofollow">100k+ Openings</a></p>
+
+    <b class="module1-bb"><b></b></b>
+  </div>
+<!-- End High Paid Postings Jobs -->
+
+
+
+
+
+      <!-- Begin Resources -->
+        <div id="resources" class="module1 rightNavMenu"><b class="module1-bt"><b></b></b>
+          <h2>Helpful Tools</h2>
+
+
+<p class="menuItem"><a href="/free-web-developer-magazines.html" rel="nofollow" class="accent-link">Free Web Developer Magazines</a></p>
+
+
+          <b class="module1-bb"><b></b></b>
+        </div>
+      <!-- End Resources -->
+
+<!-- Begin Facebook Block -->
+<iframe src="http://www.facebook.com/plugins/likebox.php?id=387251430004&amp;width=200&amp;connections=6&amp;stream=false&amp;header=false&amp;height=300" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:300px;" allowTransparency="true"></iframe>
+
+
+<!-- End Facebook Block -->
+
+      <!-- Begin Free Weekly Jobs -->
+        <script src="/js/rightOptin.js" type="text/javascript"></script>
+        <div id="weekjobs" class="module2"><b class="module2-bt"><b></b></b>
+          <h2>FREE Weekly Web Developer Jobs</h2>
+
+          <p><strong>Hot New Jobs</strong> direct to your inbox. Join <strong>555</strong> Web Developer professionals today!</p>
+          <form id="rightOptinForm" method="post" action="http://www.mcssl.com/app/contactsave.asp">
+          <div id="rightOptinError" class="formnote" style="display:none;"></div>
+            <fieldset>
+              <input name="merchantid" type="hidden" id="merchantid" value="45162" />
+              <input name="ARThankyouURL" type="hidden" id="ARThankyouURL" value="http://www.getwebdeveloperjobs.com/opt-in/thank-you.php" />
+              <input name="copyarresponse" type="hidden" id="copyarresponse" value="1" />
+              <input name="custom" type="hidden" id="custom" value="0" />
+              <input name="defaultar" type="hidden" id="defaultar" value="300614" />
+              <input name="allowmulti" type="hidden" id="allowmulti" value="0" />
+              <input name="visiblefields" type="hidden" id="visiblefields" value="Email1" />
+              <input name="requiredfields" type="hidden" id="requiredfields" value="Email1" />
+              <input name="Email1" id="Email1" type="text" size="15" value="Enter Your Email" onfocus="if (this.value == 'Enter Your Email') this.value = '';" onblur="if (this.value == '') this.value = 'Enter Your Email';" />
+
+              <input type="submit" name="cmdSubmit" value="Send Me Jobs!" class="searchbutton" />
+            </fieldset>
+            <div class="formnote"><a href="/privacy.php" rel="nofollow" class="padlock"><strong>We value your privacy.</strong></a> We will not rent your email to anyone.</div>
+          </form>
+          <b class="module2-bb"><b></b></b>
+        </div>
+      <!-- End Free Weekly Jobs -->
+
+      <div style="text-align: center;margin-bottom: 4px;">
+          <a href="http://www.tdisecurity.com/tdi-labs/webseal.htm" target="_blank" rel="nofollow">
+              <img src="/images/TDI_webseal_pos.gif" width="75" height="75" />
+          </a>
+      </div>
+
+      <div id="weddles">
+        <a href="http://www.employmentwebsites.org/" target="_blank"><img src="/images/IAEW_memberlogoswtype_120.gif" width="125" height="38" alt="International Association of Employment Web Sites" /></a>
+      </div>
+
+      <!-- Begin Right Google Ad -->
+        <div id="googleright">
+        </div>
+      <!-- End Right Google Ad -->
+
+<div id="lcRight">
+</div>
+            </td>
+            <!-- End Right Column -->
+        </tr>
+
+        <tr>
+                        <!-- Begin Left Column -->
+                        <td id="pageleft">
+                        </td>
+                        <!-- End Left Column -->
+
+                        <!-- Begin Center Column -->
+                        <td id="pagecenter">
+
+<style>
+#jobdescription {
+    min-height: 50px;
+    margin-top: 0;
+}
+
+</style>
+
+<style>
+#pagecenter { width: 100%; }
+#pageright { width: 135px; }
+#jobsearch { width: 100%; }
+#pageleft { width: 0; }
+#jobDetailsTopSearch #jobSearchResultPages #kw { width: 240px; }
+#jobDetailsTopSearch #jobSearchResultPages #country { width: 220px; }
+#pageJobDetails #jobSearchResultPages #kw { width: 240px; }
+#pageJobDetails #jobSearchResultPages #country { width: 220px; }
+.facebook_like_label_details {
+    width:132px;
+}
+.facebook_like_controls_details {
+    width:335px;
+}
+</style>
+<div id="pageJobDetails">
+
+<!-- Begin Message -->
+<div id="pagemsg" style="margin: 0;">
+
+    <h1 class="headh1">Senior JavaScript Web Developer - Atlanta, GA</h1>
+
+    <br clear="all" />
+</div>
+<!-- End Message -->
+
+<!-- Begin Detail Job -->
+    <div id="detailjob">
+
+<div id="topcontentadunit_asa">
+<script>
+/* Content Test - v1 - 3 ads - page top */
+google_ad_client = "ca-pub-5983886506349732";
+//google_ad_slot = "9337120602";
+google_ad_width = 718;
+google_ad_height = 60;
+google_ui_version = 1;
+google_ad_type = "text";
+google_color_link = "#1111CC";
+google_color_text = "#000";
+google_color_url = "#1111CC";
+//google_override_format = true;
+google_tl = 1;
+google_tfs = 15;
+google_ad_channel ="5746901688+5971582151+6468839272+3844707252+5184093650";
+</script>
+<script src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</div>
+
+<div id="jobdescription">
+    Senior JavaScript Web Developer  Want to work with the latest and greatest open source web technologies? Our client is a financial services company with a heavy dedication to technology. Their widely-distributed electronic trading tools, high-speed connectivity and mobility options provide unparalleled speed and flexibility for customizing and executing financial and risk management strategies across multiple markets and geographies. This job pays an excellent salary plus up to a 20% annual bonus AND stock options for this NYSE listed company. We are looking for a Senior Web Developers who<span class="eclipse">... <a href="#" onclick="javascript:$('.eclipse').hide();$('.more').show();return false;">View Full Description</a></span> <span class="more" style="display:none;">will be building HTML5-oriented, responsive designs for desktop and mobile platforms. These applications will need to integrate with disparate systems using RESTful services, Javascript APIs, and various other Back End systems. The candidate should have in depth knowledge of Javascript, CSS, and HTML. We need someone that has a solid understanding of the Javascript language and modern Javascript frameworks. They should know how to use CSS selectors and be prepared to answer questions around fundamentals and layout design, including media queries. Below is a list of skills which are actively used on a number of our projects to varying degrees. Required Recent Experience: &nbsp;&nbsp;&nbsp;&nbsp; 4 years - Javascript &nbsp;&nbsp;&nbsp;&nbsp; 4 years - CSS &nbsp;&nbsp;&nbsp;&nbsp; 4 years - HTML &nbsp;&nbsp;&nbsp;&nbsp; 3 years - jQuery &nbsp;&nbsp;&nbsp;&nbsp; 1 year - jQuery Mobile &nbsp;&nbsp;&nbsp;&nbsp; Experience with Server Side web technologies, such as Java, PHP, Ruby on Rails, Groovy+Grails, Node.js &nbsp;&nbsp;&nbsp;&nbsp; Experience with a Javascript MVC framework such as Backbone.js, Spine.js, Ember.js, etc. &nbsp;&nbsp;&nbsp;&nbsp; Experience with client side testing tools like Jasmine, Sinon.js, QUnit, etc. &nbsp;&nbsp;&nbsp;&nbsp; Experience with client side templating like Handlebars.js, Mustache.js, Jade, etc. &nbsp;&nbsp;&nbsp;&nbsp; Experience with SQL Preferred Skills: &nbsp;&nbsp;&nbsp;&nbsp; CoffeeScript &nbsp;&nbsp;&nbsp;&nbsp; LESS/SCSS/Stylus &nbsp;&nbsp;&nbsp;&nbsp; ORM frameworks such as Hibernate/Active Record/GORM &nbsp;&nbsp;&nbsp;&nbsp; REST design concepts Javascript, CSS, HTML, HTML5, jQuery, jQuery Mobile, Ruby, Rails, Groovy, Grails, Node.js, Javascript MVC, Backbone.js, Spine.js, Ember.js, Jasmine, Sinon.js, QUnit, Handlebars.js, Mustache.js, Jade, SQL, CoffeeScript, LESS, hibernate, GORM, REST, SCSS, Javascript, HTML 5, HTML5, jQuery, CSS, Web Developer, Front End Developer, Senior Web Developer, Presentation Layer Developer, User Interface Developer, UI Developer.</span></div>
+
+<div id="bottomcontentadunit_asa">
+<script>
+/* Content Test - v1 - 4 ads - description */
+google_ad_client = "ca-pub-5983886506349732";
+//google_ad_slot = "0127357854";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ui_version = 1;
+google_ad_type = "text_image_html";
+google_color_link = "#1111CC";
+google_color_text = "#000";
+google_color_url = "#1111CC";
+google_override_format = true;
+google_tl = 3;
+google_tfs = 13;
+google_ad_channel ="5746901688+5971582151+6847729878+5321440459+5184093650";
+</script>
+<script src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</div>
+
+
+
+        </div>
+      <!-- End Detail Job -->
+
+<!-- Begin Application -->
+<div id="application" class="module2">
+    <b class="module2-bt"><b></b></b>
+    <div id="applicationBlock"></div>
+
+                <h2>Job Closed</h2>
+            <p>This position is currently filled/closed/expired, please <a href="/job-seekers/job-search.php" class="accent-link">CLICK HERE</a> to search for similar positions.</p>
+    <b class="module2-bb"><b></b></b>
+</div>
+<!-- End Application -->
+
+<div id="jobDetailsTopSearchBelowFold">
+<!-- Begin Job Search -->
+<script>
+$(function() {
+    $('#jobSearchResultPages form').submit(function() {
+        $.cookie('fs_modal', '1', { path: '/', expires: 14 });
+    });
+});
+</script>
+<div id="jobSearchResultPages" class="module2">
+    <form action="/job-seekers/job-search2.php" method="get">
+        <input type="hidden" name="JobCategory" value="Other" />
+        <input type="hidden" name="sm" value="and" />
+        <table>
+            <tr>
+                <td><span class="formlabel">Keyword:</span></td>
+                <td><span class="formlabel">State:</span></td>
+                <td><span class="formlabel">Country:</span></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="kw" id="kw" value="" />&nbsp;&nbsp;<br />
+                </td>
+                <td><select name="state">
+                        <option value="">Select</option>
+          <option value="Alabama">Alabama</option>
+          <option value="Alaska">Alaska</option>
+          <option value="Arizona">Arizona</option>
+          <option value="Arkansas">Arkansas</option>
+          <option value="California">California</option>
+          <option value="Colorado">Colorado</option>
+          <option value="Connecticut">Connecticut</option>
+          <option value="Delaware">Delaware</option>
+          <option value="DC">DC</option>
+          <option value="Florida">Florida</option>
+          <option value="Georgia" selected>Georgia</option>
+          <option value="Hawaii">Hawaii</option>
+          <option value="Idaho">Idaho</option>
+          <option value="Illinois">Illinois</option>
+          <option value="Indiana">Indiana</option>
+          <option value="Iowa">Iowa</option>
+          <option value="Kansas">Kansas</option>
+          <option value="Kentucky">Kentucky</option>
+          <option value="Louisiana">Louisiana</option>
+          <option value="Maine">Maine</option>
+          <option value="Maryland">Maryland</option>
+          <option value="Massachusetts">Massachusetts</option>
+          <option value="Michigan">Michigan</option>
+          <option value="Minnesota">Minnesota</option>
+          <option value="Mississippi">Mississippi</option>
+          <option value="Missouri">Missouri</option>
+          <option value="Montana">Montana</option>
+          <option value="Nebraska">Nebraska</option>
+          <option value="Nevada">Nevada</option>
+          <option value="New Hampshire">New Hampshire</option>
+          <option value="New Jersey">New Jersey</option>
+          <option value="New Mexico">New Mexico</option>
+          <option value="New York">New York</option>
+          <option value="North Carolina">North Carolina</option>
+          <option value="North Dakota">North Dakota</option>
+          <option value="Ohio">Ohio</option>
+          <option value="Oklahoma">Oklahoma</option>
+          <option value="Oregon">Oregon</option>
+          <option value="Pennsylvania">Pennsylvania</option>
+          <option value="Rhode Island">Rhode Island</option>
+          <option value="South Carolina">South Carolina</option>
+          <option value="South Dakota">South Dakota</option>
+          <option value="Tennessee">Tennessee</option>
+          <option value="Texas">Texas</option>
+          <option value="Utah">Utah</option>
+          <option value="Vermont">Vermont</option>
+          <option value="Virginia">Virginia</option>
+          <option value="Washington">Washington</option>
+          <option value="West Virginia">West Virginia</option>
+          <option value="Wisconsin">Wisconsin</option>
+          <option value="Wyoming">Wyoming</option>
+                    </select>&nbsp;&nbsp;</td>
+                <td><select name="country" id="country">
+<option value="1">Afghanistan</option>
+<option value="252">Aland Islands</option>
+<option value="2">Albania</option>
+<option value="3">Algeria</option>
+<option value="4">American Samoa</option>
+<option value="5">Andorra</option>
+<option value="6">Angola</option>
+<option value="7">Anguilla</option>
+<option value="8">Antarctica</option>
+<option value="9">Antigua and Barbuda</option>
+<option value="10">Argentina</option>
+<option value="11">Armenia</option>
+<option value="12">Aruba</option>
+<option value="13">Australia</option>
+<option value="14">Austria</option>
+<option value="15">Azerbaijan</option>
+<option value="16">Bahamas</option>
+<option value="17">Bahrain</option>
+<option value="18">Bangladesh</option>
+<option value="19">Barbados</option>
+<option value="20">Belarus</option>
+<option value="21">Belgium</option>
+<option value="22">Belize</option>
+<option value="23">Benin</option>
+<option value="24">Bermuda</option>
+<option value="25">Bhutan</option>
+<option value="26">Bolivia</option>
+<option value="27">Bosnia and Herzegovina</option>
+<option value="28">Botswana</option>
+<option value="29">Bouvet Island</option>
+<option value="30">Brazil</option>
+<option value="31">British Indian Ocean Territory</option>
+<option value="227">British Virgin Islands</option>
+<option value="32">Brunei</option>
+<option value="33">Bulgaria</option>
+<option value="34">Burkina Faso</option>
+<option value="35">Burundi</option>
+<option value="36">Cambodia</option>
+<option value="37">Cameroon</option>
+<option value="38">Canada</option>
+<option value="39">Cape Verde</option>
+<option value="40">Cayman Islands</option>
+<option value="41">Central African Republic</option>
+<option value="42">Chad</option>
+<option value="43">Chile</option>
+<option value="44">China</option>
+<option value="45">Christmas Island</option>
+<option value="46">Cocos (Keeling) Islands</option>
+<option value="47">Colombia</option>
+<option value="48">Comoros</option>
+<option value="49">Congo</option>
+<option value="50">Cook Islands</option>
+<option value="51">Costa Rica</option>
+<option value="52">Croatia</option>
+<option value="254">Cuba</option>
+<option value="53">Cyprus</option>
+<option value="54">Czech Republic</option>
+<option value="55">Denmark</option>
+<option value="255">Disputed Territory</option>
+<option value="56">Djibouti</option>
+<option value="57">Dominica</option>
+<option value="58">Dominican Republic</option>
+<option value="251">East Timor</option>
+<option value="60">Ecuador</option>
+<option value="61">Egypt</option>
+<option value="62">El Salvador</option>
+<option value="63">Equatorial Guinea</option>
+<option value="64">Eritrea</option>
+<option value="65">Estonia</option>
+<option value="66">Ethiopia</option>
+<option value="67">Falkland Islands</option>
+<option value="68">Faroe Islands</option>
+<option value="69">Fiji</option>
+<option value="70">Finland</option>
+<option value="72">France</option>
+<option value="74">French Guyana</option>
+<option value="167">French Polynesia</option>
+<option value="75">French Southern Territories</option>
+<option value="76">Gabon</option>
+<option value="77">Gambia</option>
+<option value="78">Georgia</option>
+<option value="79">Germany</option>
+<option value="80">Ghana</option>
+<option value="81">Gibraltar</option>
+<option value="82">Greece</option>
+<option value="83">Greenland</option>
+<option value="84">Grenada</option>
+<option value="85">Guadeloupe</option>
+<option value="86">Guam</option>
+<option value="87">Guatemala</option>
+<option value="236">Guernsey</option>
+<option value="88">Guinea</option>
+<option value="89">Guinea-Bissau</option>
+<option value="90">Guyana</option>
+<option value="91">Haiti</option>
+<option value="92">Heard and Mcdonald Islands</option>
+<option value="93">Honduras</option>
+<option value="94">Hong Kong</option>
+<option value="95">Hungary</option>
+<option value="96">Iceland</option>
+<option value="97">India</option>
+<option value="98">Indonesia</option>
+<option value="237">Iran</option>
+<option value="99">Iraq</option>
+<option value="100">Ireland</option>
+<option value="238">Isle Of Man</option>
+<option value="101">Israel</option>
+<option value="102">Italy</option>
+<option value="103">Ivory Coast</option>
+<option value="104">Jamaica</option>
+<option value="105">Japan</option>
+<option value="106">Jordan</option>
+<option value="107">Kazakhstan</option>
+<option value="108">Kenya</option>
+<option value="109">Kiribati</option>
+<option value="110">Kuwait</option>
+<option value="111">Kyrgyzstan</option>
+<option value="112">Laos</option>
+<option value="113">Latvia</option>
+<option value="114">Lebanon</option>
+<option value="115">Lesotho</option>
+<option value="116">Liberia</option>
+<option value="117">Libya</option>
+<option value="118">Liechtenstein</option>
+<option value="119">Lithuania</option>
+<option value="120">Luxembourg</option>
+<option value="121">Macau</option>
+<option value="122">Macedonia</option>
+<option value="123">Madagascar</option>
+<option value="124">Malawi</option>
+<option value="125">Malaysia</option>
+<option value="126">Maldives</option>
+<option value="127">Mali</option>
+<option value="128">Malta</option>
+<option value="129">Marshall Islands</option>
+<option value="130">Martinique</option>
+<option value="131">Mauritania</option>
+<option value="132">Mauritius</option>
+<option value="133">Mayotte</option>
+<option value="134">Mexico</option>
+<option value="135">Micronesia</option>
+<option value="136">Moldova</option>
+<option value="137">Monaco</option>
+<option value="138">Mongolia</option>
+<option value="241">Montenegro</option>
+<option value="139">Montserrat</option>
+<option value="140">Morocco</option>
+<option value="141">Mozambique</option>
+<option value="242">Myanmar</option>
+<option value="142">Namibia</option>
+<option value="143">Nauru</option>
+<option value="144">Nepal</option>
+<option value="145">Netherlands</option>
+<option value="146">Netherlands Antilles</option>
+<option value="148">New Caledonia</option>
+<option value="149">New Zealand</option>
+<option value="150">Nicaragua</option>
+<option value="151">Niger</option>
+<option value="152">Nigeria</option>
+<option value="153">Niue</option>
+<option value="154">Norfolk Island</option>
+<option value="256">North Korea</option>
+<option value="155">Northern Mariana Islands</option>
+<option value="156">Norway</option>
+<option value="157">Oman</option>
+<option value="158">Pakistan</option>
+<option value="159">Palau</option>
+<option value="243">Palestinian Occupied Territory</option>
+<option value="160">Panama</option>
+<option value="161">Papua New Guinea</option>
+<option value="162">Paraguay</option>
+<option value="163">Peru</option>
+<option value="164">Philippines</option>
+<option value="165">Pitcairn Islands</option>
+<option value="166">Poland</option>
+<option value="168">Portugal</option>
+<option value="244">Puerto Rico</option>
+<option value="169">Qatar</option>
+<option value="170">Reunion</option>
+<option value="171">Romania</option>
+<option value="172">Russia</option>
+<option value="173">Rwanda</option>
+<option value="175">Saint Helena</option>
+<option value="176">Saint Kitts and Nevis</option>
+<option value="177">Saint Lucia</option>
+<option value="178">Saint Pierre and Miquelon</option>
+<option value="180">Saint Vincent &amp; Grenadines</option>
+<option value="181">Samoa</option>
+<option value="182">San Marino</option>
+<option value="179">Sao Tome and Principe</option>
+<option value="183">Saudi Arabia</option>
+<option value="184">Senegal</option>
+<option value="247">Serbia</option>
+<option value="185">Seychelles</option>
+<option value="174">SGASSI</option>
+<option value="186">Sierra Leone</option>
+<option value="187">Singapore</option>
+<option value="188">Slovakia</option>
+<option value="189">Slovenia</option>
+<option value="190">Solomon Islands</option>
+<option value="191">Somalia</option>
+<option value="192">South Africa</option>
+<option value="193">South Korea</option>
+<option value="194">Spain</option>
+<option value="257">Spratly Islands</option>
+<option value="195">Sri Lanka</option>
+<option value="248">Sudan</option>
+<option value="196">Suriname</option>
+<option value="249">Svalbard and Jan Mayen</option>
+<option value="198">Swaziland</option>
+<option value="199">Sweden</option>
+<option value="200">Switzerland</option>
+<option value="250">Syria</option>
+<option value="202">Taiwan</option>
+<option value="201">Tajikistan</option>
+<option value="203">Tanzania</option>
+<option value="204">Thailand</option>
+<option value="205">Togo</option>
+<option value="206">Tokelau</option>
+<option value="207">Tonga</option>
+<option value="208">Trinidad and Tobago</option>
+<option value="209">Tunisia</option>
+<option value="210">Turkey</option>
+<option value="211">Turkmenistan</option>
+<option value="212">Turks And Caicos Islands</option>
+<option value="213">Tuvalu</option>
+<option value="214">Uganda</option>
+<option value="216">Ukraine</option>
+<option value="217">United Arab Emirates</option>
+<option value="215">United Kingdom</option>
+<option value="258">United Nations Neutral Zone</option>
+<option value="218">Uruguay</option>
+<option value="219" selected="selected">US</option>
+<option value="221">US Minor Outlying Islands</option>
+<option value="228">US Virgin Islands</option>
+<option value="222">Uzbekistan</option>
+<option value="223">Vanuatu</option>
+<option value="224">Vatican City</option>
+<option value="225">Venezuela</option>
+<option value="226">Vietnam</option>
+<option value="229">Wallis and Futuna</option>
+<option value="230">Western Sahara</option>
+<option value="231">Yemen</option>
+<option value="234">Zambia</option>
+<option value="235">Zimbabwe</option>
+                    </select>&nbsp;&nbsp;
+                </td>
+                <td><input class="Button" type="submit" name="submit" value="Search" style="margin: -2px 0 0 0;" /></td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <div style="margin:0;margin-top: 5px;">
+                        Search:
+                        <i>The Web</i> <input type="radio" name="in" value="web" checked="checked" />
+                        <i>Get Web Developer Jobs</i> <input type="radio" name="in" value="site" />
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+
+    </form>
+</div>
+<!-- End Job Search -->
+</div>
+
+
+<style type='text/css'>
+
+#indJobContent .company_location {
+  overflow: hidden;
+  display: block;
+}
+
+#indJobContent.wide .job {
+  display: block;
+  float: left;
+  margin-right: 5px;
+  width: 140px;
+}
+
+#indeed_widget_wrapper {
+  position: relative;
+  line-height: 18px;
+  height: auto;
+  margin-top: 3px;
+  margin-bottom: 6px;
+}
+
+#indeed_widget_header {
+  font-size: 12px;
+  color: #222;
+  padding-bottom: 2px;
+  font-weight: bold;
+}
+
+#indeed_search_wrapper {
+  clear: both;
+  font-size: 12px;
+  margin-top: 5px;
+  padding-top: 2px;
+}
+
+#indeed_search_wrapper label {
+  font-size: 12px;
+  line-height: inherit;
+  text-align: left;
+}
+
+#indeed_search_wrapper.stacked label {
+  display: block;
+  padding-bottom: 5px;
+}
+
+#indeed_search_wrapper.stacked label span {
+  display: block;
+}
+
+#indeed_search_footer {
+  width: 295px;
+  padding-top: 5px;
+  height: 15px;
+}
+
+#indeed_link {
+  position: absolute;
+  bottom: 1px;
+  right: 5px;
+  clear: both;
+  font-size: 11px;
+}
+
+#indeed_link a {
+  text-decoration: none;
+  color: #000000;
+}
+
+#results .job {
+  width: 220px;
+  float: left;
+  text-align: left;
+  padding: 5px 8px 5px 10px;
+}
+
+#indeed_widget_wrapper {
+  width: 728px;
+  height: 156px;
+}
+
+#job_3,#job_4,#job_5 {
+  background: #F7F7F7;
+}
+
+</style>
+<script type='text/javascript'>
+var ind_pub = '8891639240985000';
+var ind_el = 'indJobContent';
+var ind_pf = null;
+var ind_q = 'Web Developer';
+var ind_l = 'Georgia';
+var ind_chnl = 'jrollwidget';
+var ind_n = 9;
+var ind_d = 'http://www.indeed.com';
+var ind_t = 30;
+var ind_c = 15;
+</script>
+<script type='text/javascript' src='http://www.indeed.com/ads/jobroll-widget-v2.js'></script>
+
+
+<div id="joblist" style="margin-bottom:0">
+    <h2>Critical Need Jobs</h2>
+</div>
+
+
+<div id='indeed_widget_wrapper'>
+    <div id='indJobContent'></div>
+
+
+  <div id='indeed_link'>
+    <a href='http://www.indeed.com' target="_blank">jobs</a> by <a title='Job Search' href='http://www.indeed.com/' target="_blank"><img alt='job search' style='border: 0;vertical-align: bottom;' src='http://www.indeed.com/p/jobsearch.gif'></a>
+  </div>
+
+</div>
+
+
+<div id="bookmarkjob-and-spamalert">
+
+    <!-- ADDTHIS BUTTON BEGIN -->
+    <script type="text/javascript">
+        addthis_pub = 'getit';
+        var addthis_config = {
+            data_track_clickback: true
+        }
+    </script>
+    <a  rel="nofollow" href="http://www.addthis.com/bookmark.php" onmouseOver="return addthis_open(this, '', location.href, location.title)" onmouseOut="addthis_close()" onclick="return addthis_sendto()">
+        <img src="http://s5.addthis.com/button2-bm.png" border="0" alt="Bookmark" /></a>
+    <script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+    <!-- ADDTHIS BUTTON END -->
+
+    <!-- Begin Spam Alert -->
+<div id="spamalert">
+    <div id="spamconfirm" style="display: none;">Thanks for notifying us about this posting!</div>
+
+    <div id="spamform" style="display: none;">
+        <p>Please help us monitor our job postings by providing us feedback on this job. If you feel this job is miscategorized or some type of spam please let us know. Once a job has been reported to us, we will investigate it further and make the appropriate adjustments. If you require a response please submit your question or concern to our <a href="/contact-us.php">Customer Service Department</a></p>
+
+        <form id="FeedBack" action="/job_comment.php" method="post">
+            <p>
+                <input type="radio" value="0" name="cmtType" id="cmtType" />Spam&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" value="1" name="cmtType" id="cmtType" />Miscategorized&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" value="2" name="cmtType" id="cmtType" checked="checked" />Other</p>
+
+            <p id="spamError" class="formError"></p>
+            <p><span class="formlabel">Comments<a class="required">*</a></span><br />
+                <textarea rows="3" cols="30" name="txtComment" id="txtComment"></textarea>
+                <textarea style="display: none;" rows="3" cols="30" name="comment" id="comment"></textarea>
+            </p>
+
+            <input type="hidden" name="t" value="43422188" />
+
+            <fieldset><input type="submit" value="Submit" class="Button" /></fieldset>
+            <div class="closelink"><a id="CloseLink">Close</a></div>
+        </form>
+    </div>
+</div>
+<div id="protect-box">
+    <span class="accent-text"><span class="baseFontFamily">&raquo;</span></span> <a href="/safe-internet-job-search.php" rel="nofollow" target="_blank">Protect your Privacy Online</a>
+    <br />
+    <span class="accent-text"><span class="baseFontFamily">&raquo;</span></span> <a href="#bookmarkjob-and-spamalert" id="ReportLink" rel="nofollow">Flag this posting</a>
+</div>
+<!-- End Spam Alert -->
+</div>
+
+    <script>
+        /* Content Test - v1 - 3 ads - page bottom */
+        google_ad_client = "ca-pub-5983886506349732";
+        //google_ad_slot = "5524404598";
+        google_ad_width = 728;
+        google_ad_height = 90;
+        google_ui_version = 1;
+        google_ad_type = "text_image_html";
+        google_color_link = "#1111CC";
+        google_color_text = "#000";
+        google_color_url = "#1111CC";
+        google_override_format = true;
+        google_tl = 2;
+        google_tfs = 15;
+        google_ad_channel ="5746901688+5971582151+6541105639+9751640054+5184093650";
+    </script>
+    <script src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+
+<!-- Top Nav -->
+
+<table id="toppagenav" width="99%" style="margin-bottom: 10px;">
+    <tr>
+        <td align="left"><a href="#" onclick="history.go(-1)"  rel="nofollow"><span class="baseFontFamily">&laquo;</span> Back to Previous Page</a></td>
+        <td align="right"><a href="/job-seekers/job-search.php"  rel="nofollow">New Job Search <span class="baseFontFamily">&raquo;</span></a></td>
+    </tr>
+</table>
+
+<!-- End Top Nav -->
+
+<!-- Newsletter optin -->
+
+<!-- Begin Johnson Box -->
+<!-- Begin Newsletter Box -->
+<script src="/js/johnson.js" type="text/javascript"></script>
+<div id="newslettersignup" class="module3"><b class="module3-bt"><b></b></b>
+       <p id="johnsonNewsletterTitle">Join 555 other Web Developer professionals receiving free weekly job listings to their inbox every week.</p>
+
+	<div id="johnsonError" class="formnote"></div>
+          <form action="http://www.mcssl.com/app/contactsave.asp" method="post" id="johnsonNewsletterOptin">
+            <fieldset>
+              <input name="merchantid" type="hidden" value="45162" />
+              <input name="ARThankyouURL" type="hidden" value="http://www.getwebdeveloperjobs.com/opt-in/thank-you.php" />
+              <input name="copyarresponse" type="hidden" value="1" />
+              <input name="custom" type="hidden" value="0" />
+              <input name="defaultar" type="hidden" value="300614" />
+              <input name="allowmulti" type="hidden" value="0" />
+              <input name="visiblefields" type="hidden" value="Email1" />
+              <input name="requiredfields" type="hidden" value="Email1" />
+              <input name="Email1" id="Email1" type="text" size="25" value="Enter Your Email" onfocus="if (this.value == 'Enter Your Email') this.value = '';" onblur="if (this.value == '') this.value = 'Enter Your Email';" />
+              <input type="submit" name="cmdSubmit" value="Sign Me Up!" class="Button" />
+            </fieldset>
+
+                            
+
+            <div class="formnote"><a href="/privacy.php"  rel="nofollow" class="padlock"><strong>We value your privacy</strong></a>. We will not rent your email to anyone.</div>
+
+</form>
+<b class="module3-bb"><b></b></b></div>
+<!-- End Newsletter Box -->
+<!-- End Johnson Box -->
+<!-- End Newsletter optin -->
+
+
+<!-- Begin Related Job List -->
+
+    <div id="joblist">
+        <h2>Browse other Web Developer Jobs in Georgia</h2>
+          <table width="100%" cellpadding="0" cellspacing="0">
+               <tr>
+                   <td class="tableheader">Job Title</td>
+                   <td class="tableheader" width="100">Location</td>
+                   <td class="tableheader" width="75">Date</td>
+               </tr>
+
+            <tr class="jobpostrow">
+              <td>
+              	<a href="http://www.indeed.com/pagead/clk?mo=r&ad=-6NYlbfkN0CJmmbH3192s8zxHSIIHC4oWRcg6esOTpYPzGVTYYcrdh0EIyVUFh-8Hg6o0jGq-vFsVSfryxvLOX7_1bJePhhgGYuQC2zCYsWh0R4_V-1qa6rvlVJV5IFnaTwIk8zGx-62DA3pwO7pu_AhxQi127HeM1bArvw0NHkGe17rH8AdtNARw1TrD0ZPRgrb-4K83m9OWzSpa4fI7PWIWvjnu7c6y82RwO15-KkdqVlV0jBcQekcRJiC7MQV1yRuWCoxBsOZ21VVAowgLg_Wo9O5aEqvPQeWlmsA2JnGgCDKAqaNdHMYW6DUWfW-wiG11c_bfKaxmYvtTcapRVDDQ-3EbDzrHScdLJxoc1K2Ah8znE01lbQ9IyISYuTJofoT_STax_3v5w9VIIGzDc3O8vA13q-O6Rlq9P0CdD9eMsJM5fYTAjLwC5k6BDZlFAhX_0M0G_808iXYk4-9gzFAGuPsiz72z8AiIWPDecD5SPUywo8Mahz6lKwbmxDcGCK3UKVrpTePhOG2A9rblwJeKfBZf97fJhQRlWRzhRw=&p=0&rjs=1&atk=1865covg50mq23sj" onmousedown="_gaq.push(['_trackEvent', 'Result', 'ExternalClick', 'Indeed']);_gaq.push(['b._trackEvent', 'Result', 'ExternalClick', 'Indeed']);indeed_clk(this, '9380');" rel="nofollow" class="affPopup" target="_blank"><span class="jobtitle">Lead iOS developer</span></a>                <br />
+              	accessibility of mobile/web products Accountable for... and developing web and/o...              </td>
+              <td><a href="/location/web-developer-jobs-Atlanta-Georgia.html" rel="nofollow">Atlanta, GA</a></td>
+              <td>08.08.13</td>
+            </tr>
+            <tr class="jobpostrow-alternate">
+              <td>
+              	<a href="http://www.indeed.com/pagead/clk?mo=r&ad=-6NYlbfkN0Dn7umCKJWw6RmWKBljaAWUdTnj6Z9kJU_Y6M6jaDXgIx5D-eHeCShNT2nm2i2eVMBlWT8xPzcXdx5t4vlXKfmdVVoCAmrO1I_3jFHqf4zZitu6WL-CPFnylu-ImS6wIX68iYmNNS-7upXQLbotPwlUVOFEOct5h_v3ijp4x6CHU2kqaZxtm8D6TKu_zWPi1V0wdedJkAAqSyqd7C3fu5LacdWmBwDuZjQGgt2aZoJZZOqd44R32KVf5qMDP4G-AFZzAxEHHj-c-P4npT2BTFSnHQ_sp4sr5SgizR_Cs5Fq9j0nepiG-s1wBzOxKxkes5UoeT-jqv5BNeLijUa1Ut8cHtKG6F7waax6OfJryLbHh9qrF5uz7P1lD9x5MjRgVc78fj22oeZfR6G3yhhoLWVlAhE51hAygNML1kL6DlZ_Iwg8N3B4cR5tu5py9luWg9obA_XOzVK-A0WjuvqkSAlr3Bl-xxSrg3EhE7nJD_J2R3UNJnyDk8E_n3J6murpGueD6ziMTaggW_CDCQCOFJ3T803beNwJTVUynegYlXPOITFZQ45gE7rr47t-JV8ZA1G6dYN8-jN-YqOSuQ4lwtyQ&p=1&rjs=1&atk=1865covg50mq23sj" onmousedown="_gaq.push(['_trackEvent', 'Result', 'ExternalClick', 'Indeed']);_gaq.push(['b._trackEvent', 'Result', 'ExternalClick', 'Indeed']);indeed_clk(this, '9380');" rel="nofollow" class="affPopup" target="_blank"><span class="jobtitle">Application Java Developer</span></a>                <br />
+              	with Service-oriented architecture. Experience with deploying and consuming web...              </td>
+              <td><a href="/location/web-developer-jobs-Atlanta-Georgia.html" rel="nofollow">Atlanta, GA</a></td>
+              <td>06.27.13</td>
+            </tr>
+            <tr class="jobpostrow">
+              <td>
+              	<a href="http://www.getwebdeveloperjobs.com/dot-net-web-developer-alpharetta-georgia-44300260.htm" ><span class="jobtitle">Dot Net Web Developer</span></a>                <br />
+              	Dot Net Web Developer 
+
+Microsoft Certified Solutions Developer (MSCD) is a plus...              </td>
+              <td><a href="/location/web-developer-jobs-Alpharetta-Georgia.html">Alpharetta, GA</a></td>
+              <td>10.05.13</td>
+            </tr>
+            <tr class="jobpostrow-alternate">
+              <td>
+              	<a href="http://www.getwebdeveloperjobs.com/senior-web-developer-atlanta-georgia-44257769.htm" ><span class="jobtitle">Senior Web Developer</span></a>                <br />
+              	Senior Web Developer  Position Description:  Work with a large group of passiona...              </td>
+              <td><a href="/location/web-developer-jobs-Atlanta-Georgia.html">Atlanta, GA</a></td>
+              <td>10.04.13</td>
+            </tr>
+            <tr class="jobpostrow">
+              <td>
+              	<a href="http://www.getwebdeveloperjobs.com/net-web-developer-alpharetta-georgia-44257775.htm" ><span class="jobtitle">.NET Web Developer</span></a>                <br />
+              	.NET Web Developer 
+
+Want to work with the latest Microsoft Web Technologies?&nbsp;...              </td>
+              <td><a href="/location/web-developer-jobs-Alpharetta-Georgia.html">Alpharetta , GA</a></td>
+              <td>10.04.13</td>
+            </tr>
+            <tr class="jobpostrow-alternate">
+              <td>
+              	<a href="http://www.getwebdeveloperjobs.com/senior-web-developer-atlanta-georgia-44257766.htm" ><span class="jobtitle">Senior Web Developer</span></a>                <br />
+              	Senior Web&nbsp;Developer Want to work in a fast paced, mission critical development...              </td>
+              <td><a href="/location/web-developer-jobs-Atlanta-Georgia.html">Atlanta, GA</a></td>
+              <td>10.04.13</td>
+            </tr>
+            <tr class="jobpostrow">
+              <td>
+              	<a href="http://www.getwebdeveloperjobs.com/front-end-web-developer-galleria-area-atlanta-georgia-44209899.htm" ><span class="jobtitle">Front End Web Developer/Galleria area</span></a>                <br />
+              	Front End Web Developer/Galleria area 
+
+Rapidly growing design firm in the Galle...              </td>
+              <td><a href="/location/web-developer-jobs-Atlanta-Georgia.html">Atlanta, GA</a></td>
+              <td>10.03.13</td>
+            </tr>
+            <tr class="jobpostrow-alternate">
+              <td>
+              	<a href="http://www.indeed.com/pagead/clk?mo=r&ad=-6NYlbfkN0AHMKBvsFZcYB6QZKuwN-ylHYHeG44YvnM_w6K9IqRVlklroDP78JZW2HigTX3AiYSjwTLz4s9cSWjb1qo2t1skJGGqmduZnhpd_UMx2xwnvdduJ0ZVGbQ6L4fofWvzbbcDQKJLw47tDmiVaT_D3VRXuoAkFUJR2L13xrgWG_9iF1zcc7Q4cgn6gVbr8PC5EUjlymAqaJbCJZZZydgumkN2hHMV7DExwSKE-WetSEtLI5U9AnXWDzNOb_5Ji6_jdHBEI9BmJ3wrjf3W_6_LU4ZOu57CJoj5Voj-b430Uu6u9fiy3eqmg4MQzMV9KOYf80XRI_7nrGF7zSC0lLSSq6EkDWyHG7wxlDtn3vVpbR38tF8S3Gsit_Yr5vgSInr03jK8BkbPxS8T-lPfgzwBD0E81u_E-ozj4lHMAyBRuDrEpTpZV_sXHGm1CBmM7AkvGEIsRiMWEliuNslhcGqM_0pZg9m5p1GxgqEONGaHPJ5V-nk9crpGSINTQ-OH3LLYW69dQh-oebcS4E7663-vdAFXh8E-B-JxkPiaPuP75z_e6RCYhZoR5fQYb_LmX2h4Bbx2b4DwhM6zGQmTPbxfPFnxaDg7H88I4cjZmFpYkDOIDDg-sR_A1UJEAqkGpccw1isAAXvmlLTNfZCdbIeYyWZbMKLEBcoa_Uu_Sw2B-DldpukucBfDwWR_0mFoy7WaPGBz_byRqOedBw==&p=2&rjs=1&atk=1865covg50mq23sj" onmousedown="_gaq.push(['_trackEvent', 'Result', 'ExternalClick', 'Indeed']);_gaq.push(['b._trackEvent', 'Result', 'ExternalClick', 'Indeed']);indeed_clk(this, '9380');" rel="nofollow" class="affPopup" target="_blank"><span class="jobtitle">Developer - Atlanta GA - HD Supply Waterworks Job</span></a>                <br />
+              	Developer - Atlanta GA - HD Supply Waterworks... a modern language/framework &bull;...              </td>
+              <td><a href="/location/web-developer-jobs-Atlanta-Georgia.html" rel="nofollow">Atlanta, GA</a></td>
+              <td>09.05.13</td>
+            </tr>
+            <tr class="jobpostrow">
+              <td>
+              	<a href="http://www.indeed.com/pagead/clk?mo=r&ad=-6NYlbfkN0AHMKBvsFZcYB6QZKuwN-ylHYHeG44YvnM_w6K9IqRVlklroDP78JZW2HigTX3AiYSIeM4kJ_HwtT16bOEFCkX6Svy_zmgEKU-lxHr_0euy03hS_Ct1lnGc2-uzoXRXNECMeFndFCvNKHiu3eG1H5GkoWsCDHWmipa7OK5sSDKjVT4xnC1tI5hNttLrtD1F16pkHDGjybzRySTUk9KTp8m6pTTU07c94bV-Z9U-KGk2m5V2C9wqXSUduM7yl1YY55vTU2a0BPq0XTzqdZxB9QVxIDx6bCJhODQNd-X6UtlUBca_OMOhARk9P1C83jHjNONRvaU1WiOohhnwkKHJk5JG5E77to4-R0QNIFFhmVaq0vVPWezulGIcXsVDrXXrk2CUdLcsWI1_L4kjOaXqBCX4RoEc56lNp9KS2ff5Vxc8DTeMLTwRAr3n99UZtt93K3RA3PK_IoRgaYlkh9VJ_TkYD3HeZ8ziMslFVSRQ1b1CTm-8ZEdlm23s3SANyMyYp1kFBDSRcPFrQIFAsEkdylfOM5AKNT3ofFy7lOaYY15pKChwPByJUaoIR9ZMeXDWmss5rcit3e-bZeC8EOzk3y6iKRdvY7wjb_xR1WrhlkPRQIp7KXhXKXcimB3zzojXR-wajvh2oQpqx2qSKA3W6D5969Csg0LZ_3hsjfNgIcHLcWsfNvLqd6XLFkHfCTNxC8NX6gaIpOstg4Xn9lSgSCzO&p=3&rjs=1&atk=1865covg50mq23sj" onmousedown="_gaq.push(['_trackEvent', 'Result', 'ExternalClick', 'Indeed']);_gaq.push(['b._trackEvent', 'Result', 'ExternalClick', 'Indeed']);indeed_clk(this, '9380');" rel="nofollow" class="affPopup" target="_blank"><span class="jobtitle">Senior Developer - Atlanta GA - HD Supply...</span></a>                <br />
+              	Senior Developer - Atlanta GA - HD Supply Waterworks... a modern language/framew...              </td>
+              <td><a href="/location/web-developer-jobs-Atlanta-Georgia.html" rel="nofollow">Atlanta, GA</a></td>
+              <td>09.27.13</td>
+            </tr>
+            <tr class="jobpostrow-alternate">
+              <td>
+              	<a href="http://www.indeed.com/pagead/clk?mo=r&ad=-6NYlbfkN0Ad5j2K67hledkHMMu3KNgxGuLEvTOPAwQaxm2w-GdbL2FFFA8GAf7H4eSXIdhrCBQIsLbTh8LacYFP8wymNAei6BO_OmDXksNKbFsFQYkIg5fDK22tIce_9bLcq790Mu0uhGTqowgUtNdZVuY2ZmakMQI4QW3tgg27gPh1aRRwlTUxhydNwKSy9sTTzA5VR1LB1dEkHFGhPnQychM0zbxrKP2hpaDs-cP56IZm5BifaiFfrKXENVrOddYjFhk6fZvv8bn48keCVwDnGVehs50xwhImKTUbxBSKPle2TX-ZtU5jkVl7R3TH8YcivpOGPIkbRMn049HDIrD8TbdgQvQMuOZ_2s-g3oiEKIfbDpmqjGizs2Jx9-vKodBoNeRfIV5oUa3ehPHWex7cq1zcgtEOJuhmJgZe5fdgYlxI23PDtxoJLxetMrd0xGFHSo6FEny7lamX_SgXZLWuDjq2L5M1Xely_RhL9N4RijIhzlBqBzLUZOnalNQad76vY1odq_ZnFCnh1aCi8sOvVv3IU8Vh&p=4&rjs=1&atk=1865covg50mq23sj" onmousedown="_gaq.push(['_trackEvent', 'Result', 'ExternalClick', 'Indeed']);_gaq.push(['b._trackEvent', 'Result', 'ExternalClick', 'Indeed']);indeed_clk(this, '9380');" rel="nofollow" class="affPopup" target="_blank"><span class="jobtitle">.Net Developer</span></a>                <br />
+              	Position title: .NET Developer Department... hiring a .NET Developer to be invol...              </td>
+              <td><a href="/location/web-developer-jobs-Atlanta-Georgia.html" rel="nofollow">Atlanta, GA</a></td>
+              <td>10.03.13</td>
+            </tr>
+
+          </table>
+        </div>
+
+
+      <!-- End Related Job List -->
+
+      <!-- Begin Bottom Page Nav -->
+
+
+<style>
+
+.employerJohnsonContainer {
+    border-top: 1px solid #A5C3CB;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.employerJohnsonContainer .list {
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.employerJohnsonContainer table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-top: 5px;
+    width: 100%;
+}
+
+</style>
+
+<div class="employerJohnsonContainer">
+
+    <div>
+
+Browse all <a href="/state/web-developer-jobs-Georgia.html" >Web Developer Jobs in Georgia</a>
+    </div>
+
+
+</div>
+
+
+<table id="bottompagenav" width="100%">
+    <tr>
+        <td align="left"><a href="#" onclick="history.go(-1)"  rel="nofollow"><span class="baseFontFamily">&laquo;</span> Back to Previous Page</a></td>
+        <td align="right"><a href="/job-seekers/job-search.php"  rel="nofollow">New Job Search <span class="baseFontFamily">&raquo;</span></a></td>
+    </tr>
+</table>
+      <!-- End Bottom Page Nav -->
+</div>
+
+
+
+
+
+
+
+
+<script language="JavaScript">
+
+function google_ad_request_done(google_ads) {
+    google_render_ads(google_ads, 'topcontent');
+}
+
+/* Content Test - v1 - 2 ads - page top */
+google_ad_client = "ca-pub-5983886506349732";
+google_ad_output = 'js';
+google_max_num_ads = '2';
+google_image_size = '728x90';
+google_feedback = 'on';
+google_skip = google_adnum;
+google_ad_type = 'text';
+google_ad_channel ="5746901688+5971582151+6468839272+5184093650";
+// -->
+</script>
+<script language="JavaScript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+
+
+<script language="JavaScript">
+
+function google_ad_request_done(google_ads) {
+    google_render_ads(google_ads, 'bottomcontent');
+}
+
+/* Content Test - v1 - 2 ads - description */
+google_ad_client = "ca-pub-5983886506349732";
+google_ad_output = 'js';
+google_max_num_ads = '2';
+google_image_size = '728x90';
+google_feedback = 'on';
+google_skip = google_adnum;
+google_ad_type = 'text';
+google_ad_channel ="5746901688+5971582151+6847729878+5184093650";
+// -->
+</script>
+<script language="JavaScript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+
+
+
+<script language="JavaScript">
+
+function google_ad_request_done(google_ads) {
+    google_render_ads(google_ads, 'bottom');
+}
+
+/* Content Test - v1 - 3 ads - page bottom */
+google_ad_client = "ca-pub-5983886506349732";
+google_ad_output = 'js';
+google_max_num_ads = '3';
+google_image_size = '728x90';
+google_feedback = 'on';
+google_skip = google_adnum;
+google_ad_type = 'text+image+flash+html';
+google_ad_channel ="5746901688+5971582151+6541105639+5184093650";
+// -->
+</script>
+<script language="JavaScript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+
+
+                        </td>
+                        <!-- End Center Column -->
+
+        </tr>
+
+    </tbody>
+</table>
+<!-- End Page Body -->
+
+<!-- Begin Footer -->
+<div id="pagefooter">
+
+
+
+    <!-- Begin Copyright -->
+    <div id="copyright">
+        &copy; 2013 GetWebDeveloperJobs.com    </div>
+    <!-- End Copyright -->
+
+    <!-- Begin Bottom Navigation -->
+    <div id="bottomnav">
+        <a href="/story.php">Feedback</a>&nbsp;|
+        <a href="/newsletter.php">Web Developer Jobs Newsletter</a>&nbsp;|
+        <a href="/about.php">About us</a>&nbsp;|
+        <a href="/contact-us.php">Contact us</a>&nbsp;|
+        <a href="/privacy.php">Privacy Policy</a>&nbsp;|
+        <a href="/terms.php" >Terms of Use</a>
+
+    </div>
+    <!-- End Bottom Navigation -->
+    <br />
+</div>
+<!-- End Footer -->
+
+
+
+<!-- Tracking and Analytics -->
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+    var sc_project=2325569;
+    var sc_invisible=1;
+    var sc_partition=21;
+    var sc_security="28970409";
+</script>
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript>
+    <p><a href="http://www.statcounter.com/"><img src="http://c22.statcounter.com/counter.php?sc_project=2325569&amp;java=0&amp;security=28970409&amp;invisible=1" alt="hit counter html code" /></a></p>
+</noscript>
+<!-- End of StatCounter Code -->
+
+<!-- Start Quantcast tag -->
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<script type="text/javascript">
+    _qacct="p-faZT2XreJgXJM";quantserve();</script>
+<noscript>
+    <a href="http://www.quantcast.com/p-faZT2XreJgXJM" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-faZT2XreJgXJM.gif" style="display: none" border="0" height="1" width="1" alt="Quantcast"/></a></noscript>
+<!-- End Quantcast tag -->
+
+<!-- End Tracking and Analytics -->
+
+
+
+<script type="text/javascript">
+<!--
+$(document).ready(function() {
+    // If they want the subscription, lets open the job up afterwards in the
+    // same window.
+    $(".affPopup").click(function(e) {
+        // Initialize the modal
+        $('#newsletterPopup').dialog({
+            height: 'auto',
+            width: 700,
+            modal: true,
+            draggable: false,
+            resizable: false
+        });
+        $.cookie('passthruLink', this.href, { path: '/', expires: 1 });
+        $('#tyUrl').val(this.href);
+        setpopcookie();
+        e.preventDefault();
+    });
+
+    // If they opt out, lets keep with the new tab functionality
+    $(".noTy").click(function(e) {
+        $('#newsletterPopup').dialog("close");
+        window.open($('#tyUrl').val());
+        setpopcookie();
+        e.preventDefault();
+    });
+
+    function setpopcookie() {
+        $.cookie('subscribePopup', '1', { path: '/', expires: 365 });
+    }
+
+    $('#externalPopupOptin').submit(function () {
+
+        $('#newsletterPopup').dialog('close');
+
+        $.post(
+            '/opt-in/popout.php',
+            {
+                email : $(this).find('#Email1').val(),
+                search : $('#pagemsg h1').html()
+            }
+        );
+    });
+
+});
+//-->
+</script>
+<style type="text/css">
+
+.ui-widget-overlay {
+    background: #000000 url(/css/humanity/images/ui-bg_flat_75_000000_40x100.png) 50% 50% repeat-x;
+    opacity: .85;
+    filter:Alpha(Opacity=85);
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    display: none;
+}
+#newsletterPopup {
+    display: none;
+    text-align: center;
+}
+
+a.noTy {
+    text-decoration: underline;
+}
+</style>
+<div id="newsletterPopup" title="Network with 1548 other Web Developer Professionals">
+
+    <h2>Before we take you to your job why don't you...</h2>
+
+<div class="module3" id="newslettersignup" style="margin-top:0"><b class="module3-bt"><b></b></b>
+       <p id="johnsonNewsletterTitle">Join 555 other Web Developer professionals receiving free weekly job listings to their inbox every week.</p>
+
+	<div class="formnote" id="johnsonError"></div>
+            <form id="externalPopupOptin" name="externalPopupOptin" method="post" action="http://www.mcssl.com/app/contactsave.asp" target="_blank">
+            <fieldset>
+              <input name="merchantid" type="hidden" value="45162" />
+              <input type="hidden" name="tyUrl" id="tyUrl">
+              <input type="hidden" name="ARThankyouURL" value="http://www.getwebdeveloperjobs.com/job-seekers/passthru.php">
+              <input type="hidden" value="1" name="copyarresponse">
+              <input type="hidden" value="0" name="custom">
+              <input name="defaultar" type="hidden" value="300614" />
+              <input type="hidden" value="0" name="allowmulti">
+              <input type="hidden" value="Email1" name="visiblefields">
+              <input type="hidden" value="Email1" name="requiredfields">
+              <input type="text" onblur="if (this.value == '') this.value = 'Enter Your Email';" onfocus="if (this.value == 'Enter Your Email') this.value = '';" value="Enter Your Email" size="25" id="Email1" name="Email1">
+              <input type="submit" class="Button" value="Sign Me Up!" name="cmdSubmit">
+            </fieldset>
+
+        
+            
+                    
+
+            <div class="formnote"><a class="padlock" rel="nofollow" href="/privacy.php"><strong>We value your privacy</strong></a>. We will not rent your email to anyone.</div>
+
+</form>
+<b class="module3-bb"><b></b></b></div>
+
+    <a href="#" class="noTy">No thanks, take me to my job!</a>
+
+</div>
+
+
+
+</body>
+</html>

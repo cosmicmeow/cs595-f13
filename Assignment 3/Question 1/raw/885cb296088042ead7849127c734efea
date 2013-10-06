@@ -1,0 +1,991 @@
+ <!DOCTYPE html>
+
+<!-- BEGIN html -->
+<!--[if lt IE 7 ]><html class="no-js ie ie6" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:v="http://rdf.data-vocabulary.org/#"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie ie7" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:v="http://rdf.data-vocabulary.org/#"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:v="http://rdf.data-vocabulary.org/#"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:v="http://rdf.data-vocabulary.org/#">
+<!--<![endif]-->
+
+<!-- BEGIN head-->
+<head>
+<title>SteamOS : Valve présente une distribution GNU/Linux dédiée au jeu</title>
+
+	<meta name="apple-itunes-app" content="app-id=425580940" />
+	<meta name="description" content="Tout à sa volonté de faire de Linux le système d&#039;exploitation pour les joueurs, Valve publie sa propre distribution, SteamOS." />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-Language" content="fr" />
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
+	<meta property="og:site_name" content="ZDNet" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="SteamOS : Valve pr&eacute;sente une distribution GNU/Linux d&eacute;di&eacute;e au jeu" />
+	<meta property="og:image" content="http://www.zdnet.fr/i/edit/ne/2012/11/linux-tux-140x105.jpg" />
+	<meta property="og:url" content="http://www.zdnet.fr/actualites/steamos-valve-presente-une-distribution-gnu-linux-dediee-au-jeu-39794249.htm" />
+	<meta property="og:description" content="Tout &agrave; sa volont&eacute; de faire de Linux le syst&egrave;me d&#039;exploitation pour les joueurs, Valve publie sa propre distribution, SteamOS." />
+
+<!--[if lt IE 8]>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+<script>
+window.attachEvent('onload', function() {
+    CFInstall.check({
+        mode: 'overlay',
+        node: 'prompt'
+    });
+});
+</script>
+<![endif]-->
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="/css/scaffolding.css?v=201310031552">
+<link rel="stylesheet" href="/css/fr.css?v=201310031552">
+<!--[if (lt IE 9)&(!IEMobile)]>
+<link rel="stylesheet" href="/css/scaffolding.768.css?v=201310031552" media="screen">
+<link rel="stylesheet" href="/css/scaffolding.1024.css?v=201310031552" media="screen">
+<![endif]-->
+<link rel="stylesheet" href="/css/scaffolding.768.css?v=201310031552" media="screen and (min-width:768px)">
+<link rel="stylesheet" href="/css/scaffolding.1024.css?v=201310031552" media="screen and (min-width:1024px)">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Scripts -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+<script type="text/javascript" src="/js/modernizr-custom.2.5.3.js?v=201310031552"></script> 
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js" code="{lang: 'fr'}"></script> 
+<!-- Icons -->
+<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../images/apple-touch-icon-114x114.png?v=201310031552">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../images/apple-touch-icon-72x72.png?v=201310031552">
+<link rel="apple-touch-icon-precomposed" href="../images/apple-touch-icon.png?v=201310031552">
+<!-- RSS -->
+<link rel="alternate" type="application/rss+xml" title="RSS ZDNet.fr" href="http://www.zdnet.fr/feeds/rss/">
+<!-- start of zdnet.fr gpt head tag -->
+<script type="text/javascript">
+    (function() {
+            var useSSL = 'https:' == document.location.protocol;
+            var src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+            document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+    })();
+</script>
+<script type="text/javascript">
+    googletag.defineSlot('/6975/FR/zdnet.fr/actualites/informatique', [[380, 50]], 'header-promo-1073209813-0').addService(googletag.pubads());
+    googletag.defineSlot('/6975/FR/zdnet.fr/actualites/informatique', [[728, 90], [728, 210], [970, 66], [980, 170], [980, 210], [980, 300]], 'leaderboard-1073209813-1').addService(googletag.pubads()).setTargeting('pos', 'top');
+    googletag.defineSlot('/6975/FR/zdnet.fr/actualites/informatique', [[728, 90], [728, 210], [970, 66]], 'leaderboard-bottom-1073209813-2').addService(googletag.pubads()).setTargeting('pos', 'bottom');
+    googletag.defineSlot('/6975/FR/zdnet.fr/actualites/informatique', [[980, 30]], 'toplink-1073209813-3').addService(googletag.pubads());
+    googletag.defineSlot('/6975/FR/zdnet.fr/actualites/informatique', [[300, 60]], 'ticker-1073209813-4').addService(googletag.pubads());
+    googletag.defineSlot('/6975/FR/zdnet.fr/actualites/informatique', [[300, 250], [600, 250], [300, 600], [600, 600]], 'mpu-1073209813-5').addService(googletag.pubads()).setTargeting('pos', 'top');
+    googletag.defineSlot('/6975/FR/zdnet.fr/actualites/informatique', [[300, 250], [600, 250], [300, 600], [600, 600]], 'mpu-bottom-1073209813-6').addService(googletag.pubads()).setTargeting('pos', 'bottom');
+    googletag.defineOutOfPageSlot('/6975/FR/zdnet.fr/actualites/informatique', 'elu-1073209813-7-oop').addService(googletag.pubads());
+    googletag.defineSlot('/6975/FR/zdnet.fr/actualites/informatique', [[1600, 1200]], 'skin-1073209813-8').addService(googletag.pubads());
+    googletag.defineSlot('/6975/FR/zdnet.fr/actualites/informatique', [[460, 240]], 'maincolsponsor-1073209813-9').addService(googletag.pubads());
+    googletag.pubads().setTargeting('platform', 'desktop');
+    googletag.pubads().setTargeting('rub', 'actualites');
+    googletag.pubads().setTargeting('srub', 'informatique');
+    googletag.pubads().setTargeting('type', 'Article');
+    googletag.pubads().setTargeting('author', 'la-redaction-de-zdnetfr');
+    googletag.pubads().setTargeting('date', '24-09-2013');
+    googletag.pubads().setTargeting('sid', '39794249');
+    googletag.pubads().setTargeting('kw', 'jeu,linux,open-source');
+    googletag.pubads().setTargeting('membership', 'NO');
+    googletag.pubads().setTargeting('mtfInline', 'true');
+    googletag.pubads().enableSyncRendering();
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+</script>
+<!-- end of zdnet.fr gpt head tag -->
+
+
+
+<script type="text/javascript">
+   (function() {
+       function async_load(){
+           var protocol = ('https:' == document.location.protocol ? 'https://' : 'http://');
+           var s = document.createElement('script');
+           s.src = protocol + 'blockmetrics.com/static/adblock_detection/js/d.min.js';
+           var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+       }
+       bm_website_code = '16999958A2B911E2';
+       jQuery(document).ready(async_load);
+   })();
+</script>
+<!-- END head -->
+</head>
+<!-- BEGIN body -->
+<body id="record">
+	<div id="skin" style="width:100%; height:1px;position: absolute; top: 0; left: 0;">
+	<!-- start of zdnet.fr gpt ad tag -->
+<div id="skin-1073209813-8">
+    <div>
+        <script type="text/javascript">
+            googletag.display('skin-1073209813-8');
+        </script>
+        <noscript>
+            <a href="http://pubads.g.doubleclick.net/gampad/jump?iu=/6975/FR/zdnet.fr/actualites/informatique&sz=1600x1200&t=platform%3Ddesktop%26rub%3Dactualites%26srub%3Dinformatique%26type%3DArticle%26author%3Dla-redaction-de-zdnetfr%26date%3D24-09-2013%26sid%3D39794249%26kw%3Djeu,linux,open-source%26membership%3DNO%26&c=1073209813">
+                    <img src="http://pubads.g.doubleclick.net/gampad/ad?iu=/6975/FR/zdnet.fr/actualites/informatique&sz=1600x1200&t=platform%3Ddesktop%26rub%3Dactualites%26srub%3Dinformatique%26type%3DArticle%26author%3Dla-redaction-de-zdnetfr%26date%3D24-09-2013%26sid%3D39794249%26kw%3Djeu,linux,open-source%26membership%3DNO%26&c=1073209813">
+            </a>
+        </noscript>
+    </div>
+</div>
+<!-- end of zdnet.fr gpt tag -->
+
+	</div>
+	<div id="elu" style="width:100%; height:1px;overflow:visible;position: absolute; top: 0; left: 0;">
+	<!-- start of zdnet.fr gpt out-of-page ad tag -->
+<div id="elu-1073209813-7-oop">
+    <script type="text/javascript">
+            googletag.cmd.push(function() { googletag.display('elu-1073209813-7-oop'); });
+    </script>
+</div>
+<!-- end of zdnet.fr gpt out-of-page ad tag -->
+
+	</div>
+<!-- BEGIN header -->
+<header role="banner">
+	<div class="wrapper">
+		<div class="header container">
+			<a href="/" class="siteLogo">ZDNet</a>
+			<div class="lvl-search">
+				<form id="search" class="siteSearch" action="/rechercher/" onsubmit="Omniture.trackSearchSubmit(this, $(this).find('[name=query]').val());">
+	<fieldset class="box">
+		<input type="text" placeholder="Recherchez sur ZDNet" tabindex="1" name="query" value="" />
+		<input type="submit" value="Search" />
+	</fieldset>
+</form>
+			</div>
+			<div class="lvl-nav">
+				<nav class="secondaryNav">
+										<div class="siteUtils loggedOut"><a href="/membres/connexion.htm" data-modal-ajax="/membres/popup/connexion.htm" data-modal-title="Se connecter sur ZDNet">Se connecter</a> | <a href="/membres/creer/" data-modal-ajax="/membres/popup/inscription.htm" data-modal-title="Devenir membre de ZDNet">Devenir membre</a> <span class="avatar"><img src="/images/base/avatar-20x20.jpg" alt="" width="20" height="20" /></span>
+					</div>
+										<ul class="bar">
+						<li ><a href="/" class=""><span class="icon home">Accueil</span></a></li>
+						<li class="selected" id="news" class="selected"><a href="/actualites/">News</a></li>
+						<li id="blogs"><a href="/blogs/">Blogs</a></li>
+						<li id="livresblancs"><a href="/livre-blanc/">Livres blancs</a></li>
+						<li class="expandable">
+							<a class="textDrop" href="#">Plus<span class="icon arrow"></span></a>
+							<nav class="menu">
+								<ul>
+									<li id="monitor4g-hlink"><a href="/services/4g-monitor/">4G Monitor</a></li>
+									<li id="cloudmonitor"><a href="/services/web-performance/">Cloud Monitor</a></li>
+									<li id="telecharger"><a href="/telecharger/">Télécharger</a></li>
+								</ul>
+							</nav>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<nav class="primaryNav container">
+                <ul class="bar editions">
+					<li class="expandable"><a href="javascript:void(0);">Edition FR<span class="icon arrow"></span></a>
+						<nav class="menu">
+							<ul>
+								<li>ZDNet est disponible dans différentes éditions :</li>
+								<li><a href="http://www.zdnet.com/">Australie</a></li>
+								<li><a href="http://www.zdnet.com/">Asie</a></li>
+								<li><a href="http://www.zdnet.com.cn/">Chine</a></li>
+								<li><a href="http://www.zdnet.fr/">France</a></li>
+								<li><a href="http://www.zdnet.de/">Allemagne</a></li>
+								<li><a href="http://japan.zdnet.com/">Japon</a></li>
+								<li><a href="http://www.zdnet.com/">UK</a></li>
+								<li><a href="http://www.zdnet.com/">USA</a></li>
+							</ul>
+						</nav>
+					</li>
+				</ul>
+                
+                <ul class="bar mobile ret">
+
+                	 <li id="menuRetract" class="nav expandable"><a class="title">Sujets<span class="icon arrow"></span></a>
+                        <nav class="menu">
+                            <ul id="addMoreMenu">
+	                            																				<li><a href="/actualites/iphone-5s-4000237283q.htm">iPhone 5s/5c</a></li>
+											<li><a href="/chiffres-cles.htm">Chiffres clés IT</a></li>
+											<li><a href="/actualites/telecoms/">Télécoms</a></li>
+											<li><a href="/actualites/4g-4000085539q.htm">4G</a></li>
+											<li><a href="/dossier/priorites-it.htm">Priorités DSI</a></li>
+											<li><a href="/actualites/big-data-4000237198q.htm">Big Data</a></li>
+											<li><a href="/actualites/test-4000002984q.htm">Smartphones</a></li>
+											<li><a href="/actualites/byod-4000207829q.htm">BYOD</a></li>
+											<li><a href="/actualites/cloud-computing-4000086220q.htm">Cloud</a></li>
+											                                            </ul>
+                        </nav>
+                    </li>
+                    <li class="nav expandable siteUtils"><a>Se connecter<span class="icon arrow"></span></a>
+                        <nav class="menu">
+                            <ul>
+                            									<li><a href="/membres/connexion.htm" data-modal-ajax="/membres/popup/connexion.htm" data-modal-title="Se connecter sur ZDNet">Se connecter</a></li>
+								<li><a href="/membres/creer/" data-modal-ajax="/membres/popup/inscription.htm" data-modal-title="Devenir membre de ZDNet">Devenir membre</a></li>
+															</ul>
+						</nav>
+					</li>
+                </ul>
+        </nav>
+	</div>
+</header>
+
+<!-- END header --><div id="mantle_skin">
+<!-- BEGIN #page -->
+	<div id="page" > 		
+		<!-- BEGIN .wrapper -->
+		<div id="leaderTop" class="leader">
+	<div class="container">
+    	<img src="/images/base/addv.gif?v=201310031552" alt="publicite" width="0" height="0" class="add" />
+		<!-- start of zdnet.fr gpt ad tag -->
+<div id="leaderboard-1073209813-1" class="lbwrap">
+    <div>
+<div class="prepend"><b class="caret"></b> publicité <b class="caret"></b></div>        <script type="text/javascript">
+            googletag.display('leaderboard-1073209813-1');
+        </script>
+        <noscript>
+            <a href="http://pubads.g.doubleclick.net/gampad/jump?iu=/6975/FR/zdnet.fr/actualites/informatique&sz=728x90|728x210|970x66|980x170|980x210|980x300&t=pos%3Dtop%26platform%3Ddesktop%26rub%3Dactualites%26srub%3Dinformatique%26type%3DArticle%26author%3Dla-redaction-de-zdnetfr%26date%3D24-09-2013%26sid%3D39794249%26kw%3Djeu,linux,open-source%26membership%3DNO%26&c=1073209813">
+                    <img src="http://pubads.g.doubleclick.net/gampad/ad?iu=/6975/FR/zdnet.fr/actualites/informatique&sz=728x90|728x210|970x66|980x170|980x210|980x300&t=pos%3Dtop%26platform%3Ddesktop%26rub%3Dactualites%26srub%3Dinformatique%26type%3DArticle%26author%3Dla-redaction-de-zdnetfr%26date%3D24-09-2013%26sid%3D39794249%26kw%3Djeu,linux,open-source%26membership%3DNO%26&c=1073209813">
+            </a>
+        </noscript>
+    </div>
+</div>
+<!-- end of zdnet.fr gpt tag -->
+
+	</div>
+</div>
+				<div id="content" class="container">
+			<div class="breakingNews">
+			<span>Sur le blog partenaire Décideurs IT:</span> <a href="http://pubads.g.doubleclick.net/gampad/clk?id=68944175&iu=/6975/FR/zdnet.fr">Smartphones, tablettes : la prolif&eacute;ration de l'information loin de la DSI</a>
+	</div>
+							<div id="main">
+					<div class="navSupplement">
+							<p class="relatedTopics">
+													    
+					Sujet: <a href="/actualites/jeu-3900046225q.htm">Jeu</a>
+															</p>
+						<ul class="followOptions">
+	<li>Suivre via: </li>
+	<li><a href="/feeds/rss/actualites/informatique/" title="RSS Feed" rel="nofollow"><span class="icon rss">RSS</span></a></li>
+</ul>
+			</div>
+		<article id="siu-container" class="post">
+
+						<header class="storyHeader">
+			<h1>
+	SteamOS : Valve présente une distribution GNU/Linux dédiée au jeu</h1>
+			<p class="summary"><span>Open Source :</span> Tout à sa volonté de faire de Linux le système d'exploitation pour les joueurs, Valve publie sa propre distribution, SteamOS.</p>
+		<div class="byline">
+													<div><span class="thumb"><img src="http://www.zdnet.fr/i/authors/la-redaction-de-zdnet_60x45.png" alt="La r&eacute;daction de ZDNet.fr" width="60" height="45" /></span></div>
+											<p class="meta">Par 
+			 
+									
+								La rédaction de ZDNet.fr
+							 |
+						<time datetime="mardi 24 septembre 2013">Mardi 24 Septembre 2013</time>
+		</p>
+														<a href="https://twitter.com/zdnetfr" class="twitter-follow-button" data-show-count="false" data-lang="fr">Suivre @zdnetfr</a>
+										</div>
+		        <div id="siu-horizontal" data-module="sharebar" data-title="SteamOS : Valve présente une distribution GNU/Linux dédiée au jeu" data-summary="Tout à sa volonté de faire de Linux le système d&#039;exploitation pour les joueurs, Valve publie sa propre distribution, SteamOS." data-url="http://www.zdnet.fr/actualites/steamos-valve-presente-une-distribution-gnu-linux-dediee-au-jeu-39794249.htm" data-short-url="http://zdnet.fr/39794249" data-action="article" data-content-id="39794249" data-story-id="zdfr_39794249" data-cmnt-count="5"></div>
+	</header>
+									
+						
+			<div class="storyBody">
+				
+		
+
+
+
+
+
+
+
+<p>A la dernière LinuxCon, Gabe Newell, le PDG de Valve, avait dit vouloir faire de <b><a title="" target="" href="http://www.zdnet.fr/actualites/linux-3900046213q.htm">Linux</a></b> le système majeur pour le jeu vidéo. Une bonne blague, alors que Windows est ultra-dominant sur ce marché ? Apparemment non : l'éditeur vient de distribuer de manière confidentielle SteamOS, une distribution GNU/Linux entièrement dédiée aux gamers, <a href="http://www.zdnet.com/steamos-the-linux-for-games-is-coming-7000021059/">selon notre confrère ZDNet.com</a>.</p><p><img src="http://www.zdnet.fr/i/edit/ne/2012/11/linux-tux-140x105.jpg" align="left" hspace="5" vspace="5">Pour l'heure, seuls quelques développeurs y ont eu accès. Valve décrit SteamOS comme la combinaison de "l'architecture en béton armé de Linux et une expérience de jeu créée pour le cinéma. Il sera disponible bientôt comme un système d'exploitation autonome et gratuit pour les appareils de salon".</p><p><b>Pour les appareils "de salon"</b><br></p><p>Valve semble ainsi indiquer qu'il entrevoit "l'appareil de salon" comme un PC connecté à une TV HD en HDMI. Valve aurait travaillé en partenariat avec des spécialistes des cartes graphiques pour améliorer les performances de sa distribution sur ce point, et devrait offrir un système ouvert prochainement.</p><p>Pour l'éditeur, il s'agit de se délier un peu plus de Windows, plateforme de choix - c'est la tradition - pour le jeu vidéo sur PC, mais qui l'énerve visiblement. A la dernière LinuxCon, le PDG de Valve avait estimé qu'avec Windows 8, les appareils devenaient complètement fermés, ce qui révélait une "tension dans le monde du logiciel propriétaire".</p><p>Ce qui ne veut pas dire que Valve abandonne les utilisateurs sur Mac OS et Windows. Mais le choix d'un système ouvert pour cet OS, destiné à faire tourner des appareils dédiés au jeu vidéo et aux loisirs numériques en général, semble une bonne idée pour Valve. Même si on en sait peu aujourd'hui sur SteamOS et sa stratégie, l'éditeur a beaucoup d'indépendance à gagner, et pas tant que ça à perdre.<br></p>
+
+
+
+
+
+
+
+
+</div>
+	<nav class="infoPagination">
+					</nav>
+				<p class="relatedTopics">
+								Sujet: 
+									<a href="/actualites/jeu-3900046225q.htm">Jeu</a> 
+									<a href="/actualites/linux-3900046213q.htm">Linux</a> 
+									<a href="/actualites/open-source-4000001902q.htm">Open source</a> 
+										
+							</p>
+											</article>
+					<section class="module featuredStories">
+					
+<h2 class="heading"><span class="int">Articles relatifs</span></h2>																<div class="row">
+										<article class="column-2">
+							<div>
+								<a href="/actualites/steam-devient-un-magasin-d-applications-39775016.htm" class="thumb" >
+																		<img src="" data-src="http://www.zdnet.fr/i/edit/ne/2008/10/cinema-portable-97x72.jpg" data-src-768="http://www.zdnet.fr/i/edit/ne/2008/10/cinema-portable-97x72.jpg" alt="Steam devient un magasin d&rsquo;applications" class="lazyload" width="140" height="105" />
+								</a>
+							</div>
+							<p><a href="/actualites/steam-devient-un-magasin-d-applications-39775016.htm" >Steam devient un magasin d’applications</a></p>
+						</article>
+																	<article class="column-2">
+							<div>
+								<a href="/actualites/jeux-steam-debarque-sur-android-et-ios-39767976.htm" class="thumb" >
+																		<img src="" data-src="http://www.zdnet.fr/i/edit/ne/2010/05/jeuvideo_97x72.gif" data-src-768="http://www.zdnet.fr/i/edit/ne/2010/05/jeuvideo_97x72.gif" alt="Jeux : Steam d&eacute;barque sur Android et iOS" class="lazyload" width="140" height="105" />
+								</a>
+							</div>
+							<p><a href="/actualites/jeux-steam-debarque-sur-android-et-ios-39767976.htm" >Jeux : Steam débarque sur Android et iOS</a></p>
+						</article>
+																	<article class="column-2">
+							<div>
+								<a href="/actualites/jeu-video-steam-debarque-sur-mac-os-x-39751599.htm" class="thumb" >
+																		<img src="" data-src="http://www.zdnet.fr/i/edit/ne/2010/05/jeuvideo_97x72.gif" data-src-768="http://www.zdnet.fr/i/edit/ne/2010/05/jeuvideo_97x72.gif" alt="Jeu vid&eacute;o : Steam d&eacute;barque sur Mac OS X" class="lazyload" width="140" height="105" />
+								</a>
+							</div>
+							<p><a href="/actualites/jeu-video-steam-debarque-sur-mac-os-x-39751599.htm" >Jeu vidéo : Steam débarque sur Mac OS X</a></p>
+						</article>
+									</div>
+										</section>
+					<section class="module featuredStories">
+					
+<h2 class="heading"><span class="int">Télécharger nos livres blancs</span></h2>																<div class="row">
+										<article class="column-2">
+							<div>
+								<a href="/livre-blanc/5-bonnes-raisons-de-deployer-une-strategie-flash-1st-sur-le-stockage-emc-vnx-26742921.htm" class="thumb" onclick="Omniture.trackClick({'item':'WP_traffic_driver|1|5 bonnes raisons de déployer une stratégie Flash 1st sur le stockage EMC VNX'});">
+																		<img src="//cdn.slidesharecdn.com/ss_thumbnails/5bonnesraisonsdedployerunestratgieflash1stsurlestockageemcvnx-131001085848-phpapp02-thumbnail.jpg?1380636110" data-src="" data-src-768="" alt="5 bonnes raisons de d&eacute;ployer une strat&eacute;gie Flash 1st sur le stockage EMC VNX" class="lazyload" width="140" height="105" />
+								</a>
+							</div>
+							<p><a href="/livre-blanc/5-bonnes-raisons-de-deployer-une-strategie-flash-1st-sur-le-stockage-emc-vnx-26742921.htm" onclick="Omniture.trackClick({'item':'WP_traffic_driver|1|5 bonnes raisons de déployer une stratégie Flash 1st sur le stockage EMC VNX'});">5 bonnes raisons de déployer une stratégie Flash 1st sur le stockage EMC VNX</a></p>
+						</article>
+																	<article class="column-2">
+							<div>
+								<a href="/livre-blanc/idc-a-interviewe-des-utilisateurs-de-systemes-integres-ibm-puresystems-ce-livre-blanc-revele-les-gains-obtenus-en-matiere-de-productivite-couts-et-delais-de-deploiement-26451142.htm" class="thumb" onclick="Omniture.trackClick({'item':'WP_traffic_driver|2|IDC a interviewé des utilisateurs de systèmes intégrés IBM PureSystems. Ce livre blanc révèle les gains obtenus en matière de productivité, coûts et délais de déploiement.'});">
+																		<img src="//cdn.slidesharecdn.com/ss_thumbnails/332111stgrte8pagespap2-130923045113-phpapp02-thumbnail.jpg?1380096456" data-src="" data-src-768="" alt="IDC a interview&eacute; des utilisateurs de syst&egrave;mes int&eacute;gr&eacute;s IBM PureSystems. Ce livre blanc r&eacute;v&egrave;le les gains obtenus en mati&egrave;re de productivit&eacute;, co&ucirc;ts et d&eacute;lais de d&eacute;ploiement." class="lazyload" width="140" height="105" />
+								</a>
+							</div>
+							<p><a href="/livre-blanc/idc-a-interviewe-des-utilisateurs-de-systemes-integres-ibm-puresystems-ce-livre-blanc-revele-les-gains-obtenus-en-matiere-de-productivite-couts-et-delais-de-deploiement-26451142.htm" onclick="Omniture.trackClick({'item':'WP_traffic_driver|2|IDC a interviewé des utilisateurs de systèmes intégrés IBM PureSystems. Ce livre blanc révèle les gains obtenus en matière de productivité, coûts et délais de déploiement.'});">IDC a interviewé des utilisateurs de systèmes intégrés IBM PureSystems. Ce livre blanc révèle les gains obtenus en matière de productivité, coûts et délais de déploiement.</a></p>
+						</article>
+																	<article class="column-2">
+							<div>
+								<a href="/livre-blanc/mobile-device-management-bienvenue-dans-votre-strategie-de-mobilite-26350608.htm" class="thumb" onclick="Omniture.trackClick({'item':'WP_traffic_driver|3|Mobile Device Management, Bienvenue dans votre stratégie de MOBILITE'});">
+																		<img src="//cdn.slidesharecdn.com/ss_thumbnails/novaliancelibreblancmobilite160913-130919100133-phpapp02-thumbnail.jpg?1379951153" data-src="" data-src-768="" alt="Mobile Device Management, Bienvenue dans votre strat&eacute;gie de MOBILITE" class="lazyload" width="140" height="105" />
+								</a>
+							</div>
+							<p><a href="/livre-blanc/mobile-device-management-bienvenue-dans-votre-strategie-de-mobilite-26350608.htm" onclick="Omniture.trackClick({'item':'WP_traffic_driver|3|Mobile Device Management, Bienvenue dans votre stratégie de MOBILITE'});">Mobile Device Management, Bienvenue dans votre stratégie de MOBILITE</a></p>
+						</article>
+																	<article class="column-2">
+							<div>
+								<a href="/livre-blanc/optimisation-de-la-puissance-flash-grace-au-systeme-vnx-avec-mcx-nouvelle-generation-26743105.htm" class="thumb" onclick="Omniture.trackClick({'item':'WP_traffic_driver|4|Optimisation de la puissance Flash grâce au système VNX avec MCx nouvelle génération'});">
+																		<img src="//cdn.slidesharecdn.com/ss_thumbnails/optimisationdelapuissanceflashgrceausystmevnxavecmcxnouvellegnration-131001090328-phpapp01-thumbnail.jpg?1380636329" data-src="" data-src-768="" alt="Optimisation de la puissance Flash gr&acirc;ce au syst&egrave;me VNX avec MCx nouvelle g&eacute;n&eacute;ration" class="lazyload" width="140" height="105" />
+								</a>
+							</div>
+							<p><a href="/livre-blanc/optimisation-de-la-puissance-flash-grace-au-systeme-vnx-avec-mcx-nouvelle-generation-26743105.htm" onclick="Omniture.trackClick({'item':'WP_traffic_driver|4|Optimisation de la puissance Flash grâce au système VNX avec MCx nouvelle génération'});">Optimisation de la puissance Flash grâce au système VNX avec MCx nouvelle génération</a></p>
+						</article>
+									</div>
+										</section>
+		<section id="comments" class="module">
+	
+<h2 class="heading"><span class="int">Réagissez à l'article</span></h2>	<div class="head">
+				<div class="commentsCount"><span>5</span> réponses</div>
+											<div class="fancy"><a data-modal-title="Se connecter sur ZDNet" data-modal-ajax="/membres/popup/connexion.htm" href="/membres/connexion.htm"><strong>Connectez vous</strong></a> ou <a data-modal-title="Devenir membre de ZDNet" data-modal-ajax="/membres/popup/inscription.htm" href="/membres/creer/"><strong>Enregistrez-vous</strong></a> pour rejoindre la discussion</div>
+					
+	</div>
+	<ul class="commentsList">
+																				﻿ 
+	 
+
+<li id="comment-30280907" class="comment">
+	<div class="commentWrapper">
+						<div class="commentBody">Enfin un Linux qui m'attire</div>
+		<div class="commentMeta">
+																<div class="author"><a href="/membres/profile/commentaires/wen84-615144.htm">wen84</a></div>
+										<time>24 septembre, 2013 09:18</time>
+		</div>
+		<div class="commentActions">
+			                        				<a href="/membres/connexion.htm" data-modal-ajax="/membres/popup/connexion.htm" data-modal-title="Se connecter sur ZDNet"><span class="icon reply"></span> Répondre</a> 
+																	</div>
+	</div>
+	</li>
+																					﻿ 
+	 
+
+<li id="comment-30280921" class="comment">
+	<div class="commentWrapper">
+						<div class="commentBody">je me souviens encore de l'époque à laquelle steam répondait aux linuxiens que GNU/Linux c'était de la daube pour jouer... les temps changent. je l'avais dit y a dix ans, les éditeurs vont en avoir ras le bol de Microsoft car il est de plus en plus tyranique.</div>
+		<div class="commentMeta">
+																<div class="author"><a href="/membres/profile/commentaires/dyp-636867.htm">d.y.p</a></div>
+										<time>24 septembre, 2013 11:40</time>
+		</div>
+		<div class="commentActions">
+			                        				<a href="/membres/connexion.htm" data-modal-ajax="/membres/popup/connexion.htm" data-modal-title="Se connecter sur ZDNet"><span class="icon reply"></span> Répondre</a> 
+																	</div>
+	</div>
+						<ul class="level">
+									﻿
+<li id="comment-30280937" class="comment">
+	<div class="commentWrapper">
+						<div class="commentBody">tu l'avais dit il y a 10 ans? Ouah!!!!</div>
+		<div class="commentMeta">
+																<div class="author"><a href="/membres/profile/commentaires/poilo-582001.htm">poilo</a></div>
+										<time>24 septembre, 2013 15:56</time>
+		</div>
+		<div class="commentActions">
+			                        				<a href="/membres/connexion.htm" data-modal-ajax="/membres/popup/connexion.htm" data-modal-title="Se connecter sur ZDNet"><span class="icon reply"></span> Répondre</a> 
+																	</div>
+	</div>
+	</li>
+									﻿
+<li id="comment-30281018" class="comment">
+	<div class="commentWrapper">
+						<div class="commentBody">Je pense surtout que tu n'as pas compris le pourquoi du le pdg de steam n'aime pas windows 8.<br />La réponse c'est : le Windows Store.<br />Pour Valve, hors de question d'être cloisonné dans un environnement fermé.  Ils veulent profiter de la puissance de la machine à 100% - et c'est justifié.<br />Mais surtout, pour publier dessus, y a une commission de 30% que microsoft suce sur le prix de l'app, et c'est surtout ça que refuse Valve.<br /><br />Si les gens ne vénéraient pas Apple aveuglément, le système AppleStore n'aurait jamais marché, Google ne l'aurait pas copié, et MS non plus...<br />Mais les gens paient sans s'occuper de savoir qui empoche le fric donc :/</div>
+		<div class="commentMeta">
+																<div class="author"><a href="/membres/profile/commentaires/rockinpenguin-1111879.htm">rockinpenguin</a></div>
+										<time>25 septembre, 2013 22:19</time>
+		</div>
+		<div class="commentActions">
+			                        				<a href="/membres/connexion.htm" data-modal-ajax="/membres/popup/connexion.htm" data-modal-title="Se connecter sur ZDNet"><span class="icon reply"></span> Répondre</a> 
+																	</div>
+	</div>
+	</li>
+							</ul>
+			</li>
+																﻿ 
+	 
+
+<li id="comment-30280948" class="comment">
+	<div class="commentWrapper">
+						<div class="commentBody">Moi, il y a 10 ans j'ai dit que je ne dirai pas que dans dix je dirai ce que je n'ai pas dit. Donc acte.</div>
+		<div class="commentMeta">
+																<div class="author"><a href="/membres/profile/commentaires/decepticon-1141625.htm">décepticon</a></div>
+										<time>24 septembre, 2013 18:34</time>
+		</div>
+		<div class="commentActions">
+			                        				<a href="/membres/connexion.htm" data-modal-ajax="/membres/popup/connexion.htm" data-modal-title="Se connecter sur ZDNet"><span class="icon reply"></span> Répondre</a> 
+																	</div>
+	</div>
+	</li>
+										</ul>
+	    	
+
+	</section>			</div>
+	<!-- //main -->
+	<aside id="secondary">
+													<section class="module">
+<!-- start of zdnet.fr gpt ad tag -->
+<div id="ticker-1073209813-4" class="tickerwrap">
+    <div class="ticker">
+        <script type="text/javascript">
+            googletag.display('ticker-1073209813-4');
+        </script>
+        <noscript>
+            <a href="http://pubads.g.doubleclick.net/gampad/jump?iu=/6975/FR/zdnet.fr/actualites/informatique&sz=300x60&t=platform%3Ddesktop%26rub%3Dactualites%26srub%3Dinformatique%26type%3DArticle%26author%3Dla-redaction-de-zdnetfr%26date%3D24-09-2013%26sid%3D39794249%26kw%3Djeu,linux,open-source%26membership%3DNO%26&c=1073209813">
+                    <img src="http://pubads.g.doubleclick.net/gampad/ad?iu=/6975/FR/zdnet.fr/actualites/informatique&sz=300x60&t=platform%3Ddesktop%26rub%3Dactualites%26srub%3Dinformatique%26type%3DArticle%26author%3Dla-redaction-de-zdnetfr%26date%3D24-09-2013%26sid%3D39794249%26kw%3Djeu,linux,open-source%26membership%3DNO%26&c=1073209813">
+            </a>
+        </noscript>
+    </div>
+</div>
+<!-- end of zdnet.fr gpt tag -->
+
+</section>											<section class="module">
+	<div id="mpuTop">
+		<!-- start of zdnet.fr gpt ad tag -->
+<div id="mpu-1073209813-5" class="mpuwrap">
+    <div class="mpu">
+<div class="prepend"><b class="caret"></b> publicité <b class="caret"></b></div>        <script type="text/javascript">
+            googletag.display('mpu-1073209813-5');
+        </script>
+        <noscript>
+            <a href="http://pubads.g.doubleclick.net/gampad/jump?iu=/6975/FR/zdnet.fr/actualites/informatique&sz=300x250|600x250|300x600|600x600&t=pos%3Dtop%26platform%3Ddesktop%26rub%3Dactualites%26srub%3Dinformatique%26type%3DArticle%26author%3Dla-redaction-de-zdnetfr%26date%3D24-09-2013%26sid%3D39794249%26kw%3Djeu,linux,open-source%26membership%3DNO%26&c=1073209813">
+                    <img src="http://pubads.g.doubleclick.net/gampad/ad?iu=/6975/FR/zdnet.fr/actualites/informatique&sz=300x250|600x250|300x600|600x600&t=pos%3Dtop%26platform%3Ddesktop%26rub%3Dactualites%26srub%3Dinformatique%26type%3DArticle%26author%3Dla-redaction-de-zdnetfr%26date%3D24-09-2013%26sid%3D39794249%26kw%3Djeu,linux,open-source%26membership%3DNO%26&c=1073209813">
+            </a>
+        </noscript>
+    </div>
+</div>
+<!-- end of zdnet.fr gpt tag -->
+
+	</div>
+</section>
+											<section class="keepUp">
+	
+<h3 class="heading"><span class="int">Sondage</span></h3>	<section class="module keepUp">
+	<div class="box">
+		<form action="/poll-submit.htm" method="post">
+			<fieldset>
+				<h3>Pensez-vous souscrire à une offre 4G...</h3>
+				<div class="mmode mmode-nls">
+																	<label class="checkbox"><input name="OPTION_ID" type="radio" value="0" />
+							&nbsp;Oui, c'est une vraie rupture
+						</label>
+																							<label class="checkbox"><input name="OPTION_ID" type="radio" value="1" />
+							&nbsp;Oui mais je vais attendre
+						</label>
+																							<label class="checkbox"><input name="OPTION_ID" type="radio" value="2" />
+							&nbsp;Non, mon débit me satisfait
+						</label>
+																							<label class="checkbox"><input name="OPTION_ID" type="radio" value="3" />
+							&nbsp;Non, c'est trop cher
+						</label>
+																																																																																		<input type="hidden" name="POLL_ID" value="20914496">
+										<input type="hidden" name="ELEMENT_ID" value="39794329">
+										<input class="button" type="submit" value="Votez" />
+				</div>
+			</fieldset>
+		</form>
+		<p class="meta">Nombre de participants : 6306</p>
+				<p>Pour en savoir plus : <a href="/actualites/4g-bouyguestel-raille-les-promesses-de-ses-concurrents-et-se-dit-optimiste-39794329.htm">4G : BouyguesTel raille "les promesses" de ses concurrents et se dit optimiste</a></p>
+				<p class="moreLink"><a href="/actualites/sondages/">Plus de sondages</a></p>
+	</div>
+</section>
+
+</section>
+											<section class="module">
+	
+<h3 class="heading"><span class="int">A la une de ZDNet</span></h3>	<ul class="tabs nav nav-tabs">
+		<li><a href="#latestNews" class="selected">Dernières news</a></li>
+		<li><a href="#mostDiscussed">Les plus lues</a></li>
+	</ul>
+	<div class="tabsContent">
+		<div id="latestNews" class="box"  >
+	<ul>
+					<li>
+									<div>
+						<a href="http://www.zdnet.fr/actualites/mipcom-rendez-vous-avec-la-tele-du-futur-39794592.htm" class="thumb">
+							<img src="http://www.zdnet.fr/i/authors/pascal-lechevallier.png" alt="MIPCOM : rendez-vous avec la t&eacute;l&eacute; du futur" width="60" height="45" />
+						</a>
+					</div>
+								<div class="content">
+											<p><a href="http://www.zdnet.fr/actualites/mipcom-rendez-vous-avec-la-tele-du-futur-39794592.htm">MIPCOM : rendez-vous avec la télé du futur</a></p>
+													<p class="meta">05/10/2013 </p>
+															</div>
+			</li>
+					<li>
+									<div>
+						<a href="http://www.zdnet.fr/actualites/julien-codorniou-facebook-le-but-de-facebook-n-est-pas-d-etre-cool-39794582.htm" class="thumb">
+							<img src="http://www.zdnet.fr/i/edit/ne/2013/10/Julien-Codorniou-Facebook-140x105.jpg" alt="Julien Codorniou, Facebook : &quot;Le but de Facebook n&#039;est pas d&#039;&ecirc;tre cool&quot;" width="60" height="45" />
+						</a>
+					</div>
+								<div class="content">
+											<p><a href="http://www.zdnet.fr/actualites/julien-codorniou-facebook-le-but-de-facebook-n-est-pas-d-etre-cool-39794582.htm">Julien Codorniou, Facebook : &quot;Le but de Facebook n&#039;est pas d&#039;être cool&quot;</a></p>
+													<p class="meta">04/10/2013 </p>
+															</div>
+			</li>
+					<li>
+									<div>
+						<a href="http://www.zdnet.fr/actualites/twitter-contre-facebook-le-match-en-chiffres-39794584.htm" class="thumb">
+							<img src="http://www.zdnet.fr/i/edit/ne/2013/10/facebook-twitter-140x105.jpg" alt="Twitter contre Facebook : le match en chiffres" width="60" height="45" />
+						</a>
+					</div>
+								<div class="content">
+											<p><a href="http://www.zdnet.fr/actualites/twitter-contre-facebook-le-match-en-chiffres-39794584.htm">Twitter contre Facebook : le match en chiffres</a></p>
+													<p class="meta">04/10/2013 </p>
+															</div>
+			</li>
+					<li>
+									<div>
+						<a href="http://www.zdnet.fr/actualites/chiffres-cles-les-clients-de-la-telephonie-mobile-en-france-39789987.htm" class="thumb">
+							<img src="http://www.zdnet.fr/i/edit/ne/2013/05/mobile-phones-140x105.jpg" alt="Chiffres cl&eacute;s : les clients de la t&eacute;l&eacute;phonie mobile en France" width="60" height="45" />
+						</a>
+					</div>
+								<div class="content">
+											<p><a href="http://www.zdnet.fr/actualites/chiffres-cles-les-clients-de-la-telephonie-mobile-en-france-39789987.htm">Chiffres clés : les clients de la téléphonie mobile en France</a></p>
+													<p class="meta">04/10/2013 </p>
+															</div>
+			</li>
+					<li>
+									<div>
+						<a href="http://www.zdnet.fr/actualites/sfr-vivendi-changerait-finalement-d-avis-39794577.htm" class="thumb">
+							<img src="http://www.zdnet.fr/i/edit/ne/2012/11/sfr-orange-bouygues-140x105.jpg" alt="SFR : Vivendi changerait finalement d&#039;avis" width="60" height="45" />
+						</a>
+					</div>
+								<div class="content">
+											<p><a href="http://www.zdnet.fr/actualites/sfr-vivendi-changerait-finalement-d-avis-39794577.htm">SFR : Vivendi changerait finalement d&#039;avis</a></p>
+													<p class="meta">04/10/2013 </p>
+															</div>
+			</li>
+					</ul>
+</div>
+			<div id="mostDiscussed" class="box"  style="display:none">
+		<ul class="countdownList">
+							<li><span class="count">1</span> <a href="/actualites/nouveaux-iphone-les-bonnes-surprises-et-les-deceptions-39793919.htm">Nouveaux iPhone : les bonnes surprises et les déceptions</a></li>
+							<li><span class="count">2</span> <a href="/actualites/vente-liee-le-ministre-deforme-la-promesse-de-hollande-pour-rejeter-les-amendements-39793935.htm">Vente liée: le ministre déforme la promesse de Hollande pour rejeter les amendements</a></li>
+							<li><span class="count">3</span> <a href="/actualites/fibre-free-annonce-1-gb-s-l-arcep-n-y-croit-pas-39794464.htm">Fibre : Free annonce 1 Gb/s, l&#039;Arcep n&#039;y croit pas</a></li>
+							<li><span class="count">4</span> <a href="/actualites/microsoft-steve-ballmer-regrette-son-echec-dans-les-mobiles-39794185.htm">Microsoft : Steve Ballmer regrette son échec dans les mobiles</a></li>
+							<li><span class="count">5</span> <a href="/actualites/iphone-5s-iphone-5c-apple-decline-mais-sans-brader-39793892.htm">iPhone 5s, iPhone 5c : Apple décline mais sans brader</a></li>
+					</ul>
+	</div>
+
+	</div>
+</section>											<section class="facebook">
+	<iframe src="http://www.facebook.com/plugins/likebox.php?id=6512744217&amp;width=300&amp;connections=5&amp;locale=fr_FR&amp;stream=false&amp;header=true&amp;height=220" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:220px;" allowtransparency="true"></iframe>
+</section>
+											<section class="keepUp">
+	
+<h3 class="heading"><span class="int">Le meilleur de ZDNet, chez vous</span></h3>	<div class="box">
+		<div class="newsletters">
+				<form name="create_member" id="newsletter" method="post" action="/membres/creer/">
+					<fieldset>
+					<h3>Newsletters ZDNet</h3>
+					<p>Recevez le meilleur de l'actualité IT Pro chaque jour dans votre boîte mail</p>
+                    <p class="mmode-msg">Nous sommes temporairement en mode de maintenance, ce qui signifie que vous ne serez pas en mesure de s'inscrire à une newsletter. S'il vous plaît vérifier à nouveau peu de temps pour reprendre le processus d'abonnement. Merci pour votre patience.</p>
+					<div class="mmode mmode-nls">
+													<input class="prettytextarea" type="text" name="iWantToJoinWithThisEmail" value="E-Mail" onfocus="this.value=''" id="nl_email" />
+							<button class="button" type="submit">S'abonner</button>
+											</div>
+					</fieldset>
+				</form>
+		</div>
+		
+		<div class="social">
+			<ul>
+				<li><a href="http://www.facebook.com/zdnet.fr" target="_blank" class="iconSocial facebook">Facebook</a></li>
+				<li><a href="http://twitter.com/#!/zdnetfr" target="_blank" class="iconSocial twitter">Twitter</a></li>
+				<li><a href="http://www.linkedin.com/groups/ZDNetfr-3676272/about" target="_blank" class="iconSocial linkedIn">LinkedIn</a></li>
+				<li><a href="https://plus.google.com/115846763067034648273" target="_blank" class="iconSocial google">Google+</a></li>
+				<li><a href="/services/rss/" class="iconSocial rss">RSS</a></li>
+				<li><a href="/membres/modifier/newsletters/" class="iconSocial newsletter">Newsletters</a></li>
+				<li><a href="https://play.google.com/store/apps/details?id=com.cbsinteractive.zdnet" target="_blank" class="iconSocial android">Android</a></li>
+				<li><a href="http://itunes.apple.com/fr/app/zdnet/id425580940?mt=8" target="_blank" class="iconSocial iphone">iPhone</a></li>
+			</ul>
+		</div>
+		
+	</div>
+</section>											<section id="powercenter" class="module">
+	
+<h3 class="heading"><span class="int">Powercenter</span></h3>	<div class="carousel">
+	<div class="sliderWrapper" style="height:250px">
+					<article>
+				<figure style="padding-bottom:130px;">
+											<a href="http://pubads.g.doubleclick.net/gampad/clk?id=67413455&amp;iu=/6975/FR/zdnet.fr" target="_blank">
+							<img src="http://cdn.cbsinteractive.fr/ads/2013/keyyo/zd-sept13/powerCenter_smallx120.jpg" alt="" width="300" height="120"/>
+							<img class="large" style="display:none;" src="http://cdn.cbsinteractive.fr/ads/2013/keyyo/zd-sept13/powerCenter_fullx125.jpg" alt="" width="768" height="125"/>						</a>
+									</figure>
+
+				<div class="overlay" style="top:120px;">
+					<div class="content">
+						<h4><a href="http://pubads.g.doubleclick.net/gampad/clk?id=67413455&amp;iu=/6975/FR/zdnet.fr" target="_blank">Accédez à la puissance pour vos télécoms à partir de 99.90€/mois !</a></h4>
+						<p>Box Entreprise  : la solution clé en main conçue pour les entreprises ambitieuses.
+							<a href="http://pubads.g.doubleclick.net/gampad/clk?id=67413455&amp;iu=/6975/FR/zdnet.fr" target="_blank"><br><br>Profitez de l’offre !</a>
+						</p>
+					</div>
+				</div>
+			</article>
+					<article>
+				<figure style="padding-bottom:130px;">
+											<a href="http://pubads.g.doubleclick.net/gampad/clk?id=68572895&amp;iu=/6975/FR/zdnet.fr" target="_blank">
+							<img src="http://cdn.cbsinteractive.fr/ads/2013/hp/ojpx-avr13/power_center_small_1.jpg" alt="" width="300" height="120"/>
+							<img class="large" style="display:none;" src="http://cdn.cbsinteractive.fr/ads/2013/hp/ojpx-avr13/power_center_big_1.jpg" alt="" width="768" height="125"/>						</a>
+									</figure>
+
+				<div class="overlay" style="top:120px;">
+					<div class="content">
+						<h4><a href="http://pubads.g.doubleclick.net/gampad/clk?id=68572895&amp;iu=/6975/FR/zdnet.fr" target="_blank">HP OJPro X</a></h4>
+						<p>Découvrez l&#039;imprimante la plus rapide au monde. Ofrez à votre entreprise un niveau de productivité encore jamais atteint.
+							<a href="http://pubads.g.doubleclick.net/gampad/clk?id=68572895&amp;iu=/6975/FR/zdnet.fr" target="_blank">Par ici !</a>
+						</p>
+					</div>
+				</div>
+			</article>
+			</div>
+</div>
+</section>											<section class="module">
+	<div id="mpuBottom">
+		<!-- start of zdnet.fr gpt ad tag -->
+<div id="mpu-bottom-1073209813-6" class="mpuwrap">
+    <div class="mpu">
+<div class="prepend"><b class="caret"></b> publicité <b class="caret"></b></div>        <script type="text/javascript">
+            googletag.display('mpu-bottom-1073209813-6');
+        </script>
+        <noscript>
+            <a href="http://pubads.g.doubleclick.net/gampad/jump?iu=/6975/FR/zdnet.fr/actualites/informatique&sz=300x250|600x250|300x600|600x600&t=pos%3Dbottom%26platform%3Ddesktop%26rub%3Dactualites%26srub%3Dinformatique%26type%3DArticle%26author%3Dla-redaction-de-zdnetfr%26date%3D24-09-2013%26sid%3D39794249%26kw%3Djeu,linux,open-source%26membership%3DNO%26&c=1073209813">
+                    <img src="http://pubads.g.doubleclick.net/gampad/ad?iu=/6975/FR/zdnet.fr/actualites/informatique&sz=300x250|600x250|300x600|600x600&t=pos%3Dbottom%26platform%3Ddesktop%26rub%3Dactualites%26srub%3Dinformatique%26type%3DArticle%26author%3Dla-redaction-de-zdnetfr%26date%3D24-09-2013%26sid%3D39794249%26kw%3Djeu,linux,open-source%26membership%3DNO%26&c=1073209813">
+            </a>
+        </noscript>
+    </div>
+</div>
+<!-- end of zdnet.fr gpt tag -->
+
+	</div>
+</section>											<section class="module">
+	
+<h3 class="heading"><span class="int">Actu des sociétés</span></h3>	<div class="row">
+	<div class="box column-2">
+		<ul>
+												<li><a href="/actualites/amd-4000081507q.htm">AMD</a></li>
+								<li><a href="/actualites/acer-4000085377q.htm">Acer</a></li>
+								<li><a href="/actualites/apple-4000000168q.htm">Apple</a></li>
+								<li><a href="/actualites/asus-4000084012q.htm">Asus</a></li>
+								<li><a href="/actualites/bouygues-telecom-4000085389q.htm">Bouygues Telecoms</a></li>
+								<li><a href="/actualites/cisco-4000085395q.htm">Cisco</a></li>
+								<li><a href="/actualites/dell-4000085227q.htm">Dell</a></li>
+								<li><a href="/actualites/facebook-4000085268q.htm">Facebook</a></li>
+								<li><a href="/actualites/free-4000085390q.htm">Free - Iliad</a></li>
+								<li><a href="/actualites/google-4000078309q.htm">Google</a></li>
+								<li><a href="/actualites/hp-4000078481q.htm">HP</a></li>
+								<li><a href="/actualites/htc-4000078469q.htm">HTC</a></li>
+								<li><a href="/actualites/ibm-4000085379q.htm">IBM</a></li>
+									</ul>
+			</div>
+			<div class="box column-2">
+				<ul>
+						<li><a href="/actualites/intel-4000080865q.htm">Intel</a></li>
+								<li><a href="/actualites/microsoft-4000078466q.htm">Microsoft</a></li>
+								<li><a href="/actualites/nokia-4000078467q.htm">Nokia</a></li>
+								<li><a href="/actualites/oracle-4000000140q.htm">Oracle</a></li>
+								<li><a href="/actualites/orange-4000078480q.htm">Orange</a></li>
+								<li><a href="/actualites/rim-4000085380q.htm">RIM - BlackBerry</a></li>
+								<li><a href="/actualites/sap-4000085382q.htm">SAP</a></li>
+								<li><a href="/actualites/sfr-4000083607q.htm">SFR</a></li>
+								<li><a href="/actualites/samsung-4000084687q.htm">Samsung</a></li>
+								<li><a href="/actualites/sony-4000078369q.htm">Sony</a></li>
+								<li><a href="/actualites/twitter-4000092137q.htm">Twitter</a></li>
+								<li><a href="/actualites/vmware-4000085388q.htm">VMware</a></li>
+								<li><a href="/actualites/yahoo-4000081476q.htm">Yahoo!</a></li>
+				</ul>
+	</div>
+</div>
+
+</section>
+						</aside>
+	<!-- //secondary -->
+					</div>
+				<!-- END .wrapper -->
+		
+		<div id="leaderBottom" class="leader">
+	<div class="container">
+    	<img src="/images/base/addv.gif?v=201310031552" alt="publicite" width="0" height="0" class="add" />
+		<!-- start of zdnet.fr gpt ad tag -->
+<div id="leaderboard-bottom-1073209813-2" class="lbwrap">
+    <div>
+<div class="prepend"><b class="caret"></b> publicité <b class="caret"></b></div>        <script type="text/javascript">
+            googletag.display('leaderboard-bottom-1073209813-2');
+        </script>
+        <noscript>
+            <a href="http://pubads.g.doubleclick.net/gampad/jump?iu=/6975/FR/zdnet.fr/actualites/informatique&sz=728x90|728x210|970x66&t=pos%3Dbottom%26platform%3Ddesktop%26rub%3Dactualites%26srub%3Dinformatique%26type%3DArticle%26author%3Dla-redaction-de-zdnetfr%26date%3D24-09-2013%26sid%3D39794249%26kw%3Djeu,linux,open-source%26membership%3DNO%26&c=1073209813">
+                    <img src="http://pubads.g.doubleclick.net/gampad/ad?iu=/6975/FR/zdnet.fr/actualites/informatique&sz=728x90|728x210|970x66&t=pos%3Dbottom%26platform%3Ddesktop%26rub%3Dactualites%26srub%3Dinformatique%26type%3DArticle%26author%3Dla-redaction-de-zdnetfr%26date%3D24-09-2013%26sid%3D39794249%26kw%3Djeu,linux,open-source%26membership%3DNO%26&c=1073209813">
+            </a>
+        </noscript>
+    </div>
+</div>
+<!-- end of zdnet.fr gpt tag -->
+
+	</div>
+</div>
+	</div>
+</div>
+<!-- END #page -->
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <div id="catfish" data-toggle="fixate" data-window-edge="bottom">
+                <div class="container">
+                        <div class="catfishBar">
+                                <span class="branding">ZDNET</span>
+                                <span class="social twitter"><a href="https://twitter.com/zdnetfr" class="twitter-follow-button pre-render" data-show-count="false" data-show-screen-name="true" data-lang="fr"></a></span>
+                                <span class="social facebook">
+                                        <fb:like class="facebook-like-button" send="false" layout="button_count" width="83" show_faces="false" font="arial" href="http://www.facebook.com/zdnet.fr"></fb:like>
+                                </span>
+                                <span class="services">
+                                                                                        <a href="/membres/connexion.htm" data-modal-ajax="/membres/popup/connexion.htm" data-modal-title="Se connecter sur ZDNet">Se connecter</a> | <a href="/membres/creer/" data-modal-ajax="/membres/popup/inscription.htm" data-modal-title="Devenir membre de ZDNet">Devenir membre</a>
+                                                                        </span>
+                                <a class="close" data-action="close">Close</a>
+                        </div>
+                </div>
+        </div>
+<!-- BEGIN footer -->
+<footer role="contentinfo">
+        <div class="container">
+                                        <div class="row">
+                                <div class="column-6 siteHighlights">
+                                        <div class="row">	<h2>Derniers articles</h2>				<div class="row">				<article class="column-2">											<div>				<a href="http://www.zdnet.fr/actualites/test-iphone-5s-de-nombreuses-ameliorations-pour-les-pros-39794570.htm" class="thumb">								<img src="http://www.zdnet.fr/i/edit/ne/2013/06/iOS_7_on_iPhone_angled-140x105.jpg" data-src="http://www.zdnet.fr/i/edit/ne/2013/06/iOS_7_on_iPhone_angled-140x105.jpg" data-src-768="http://www.zdnet.fr/i/edit/ne/2013/06/iOS_7_on_iPhone_angled-140x105.jpg" alt="Test iPhone 5s : de nombreuses am&eacute;liorations pour les pros" class="lazyload" width="140" height="105" />				</a>			</div>					<p><a href="http://www.zdnet.fr/actualites/test-iphone-5s-de-nombreuses-ameliorations-pour-les-pros-39794570.htm">Test iPhone 5s : de nombreuses améliorations pour les pros</a></p>		</article>							<article class="column-2">											<div>				<a href="http://www.zdnet.fr/actualites/twitter-les-cinq-surprises-de-son-introduction-en-bourse-39794565.htm" class="thumb">								<img src="http://www.zdnet.fr/i/edit/ne/2013/10/Twitter_IPO_140x105.jpg" data-src="http://www.zdnet.fr/i/edit/ne/2013/10/Twitter_IPO_140x105.jpg" data-src-768="http://www.zdnet.fr/i/edit/ne/2013/10/Twitter_IPO_140x105.jpg" alt="Twitter : les cinq surprises de son introduction en bourse" class="lazyload" width="140" height="105" />				</a>			</div>					<p><a href="http://www.zdnet.fr/actualites/twitter-les-cinq-surprises-de-son-introduction-en-bourse-39794565.htm">Twitter : les cinq surprises de son introduction en bourse</a></p>		</article>							<article class="column-2">							<div>				<a href="http://www.zdnet.fr/actualites/mooc-cours-en-ligne-applications-l-enseignement-en-ligne-decolle-en-france-39794346.htm" class="thumb">								<img src="http://www.zdnet.fr/i/authors/jean-pierre-govekar.png" data-src="http://www.zdnet.fr/i/authors/jean-pierre-govekar.png" data-src-768="http://www.zdnet.fr/i/authors/jean-pierre-govekar.png" alt="MOOC, cours en ligne, applications : l&#039;enseignement en ligne d&eacute;colle en France" class="lazyload" width="140" height="105" />				</a>			</div>					<p><a href="http://www.zdnet.fr/actualites/mooc-cours-en-ligne-applications-l-enseignement-en-ligne-decolle-en-france-39794346.htm">MOOC, cours en ligne, applications : l&#039;enseignement en ligne décolle en France</a></p>		</article>			</div>			</div>
+                                </div>
+                                <nav class="column-2 footerMap">
+                                    <h2>Autour de ZDNet</h2>
+                                    <ul>
+                                                                                    <li><a href="/membres/connexion.htm" data-modal-ajax="/membres/popup/connexion.htm" data-modal-title="Se connecter sur ZDNet">Connexion</a> | <a href="/membres/creer/" data-modal-ajax="/membres/popup/inscription.htm" data-modal-title="Devenir membre de ZDNet">Devenir membre</a></li>                                   
+                                                                                <li><a href="/membres/">Newsletters</a></li>
+                                        <li><a href="/services/rss/">Flux RSS</a></li>
+                                        <li><a href="/services/applications/">Applis ZDNet Mobile</a></li>
+                                        <li><a href="https://twitter.com/zdnetfr" target="_blank">Twitter</a></li>
+                                        <li><a href="http://fr-fr.facebook.com/zdnet.fr" target="_blank">Facebook</a></li>
+                                        <li><a href="http://www.linkedin.com/groups/ZDNetfr-3676272/about" target="_blank">LinkedIn</a></li>
+										<li><a href="/equipe/">L'équipe</a></li>
+                                    </ul>
+                                </nav>
+                                <nav class="column-2 footerMap">
+                                    <h2>Services</h2>
+                                    <ul>
+										<li><a href="/actualites/mobile-world-congress-4000002160q.htm">Mobile World Congress 2013</a></li>
+                                        <li><a href="http://emploi.zdnet.fr/">Carrières IT</a></li>
+                                        <li><a href="http://www.zdnet.fr/services/test-bande-passante/">Test bande passante</a></li>
+                                        <li><a href="/services/web-performance/">Cloud Monitor</a></li>
+                                        <li><a href="/livre-blanc/">Livres Blancs</a></li>
+                                        <li><a href="http://www.cbsinteractive.fr/legal_documents/10001097-10000217/">A propos de ZDNet</a></li>
+                                    </ul>
+                                </nav>
+                                <nav class="column-2 footerMap">
+                                    <h2>CBS Interactive</h2>
+                                    <ul>
+                                        <li><a href="http://www.gamekult.com/" target="_blank">Gamekult.com</a></li>
+                                        <li><a href="http://www.gamekult.com/e3-expo.html" target="_blank">E3 : le salon du jeu vidéo</a></li>
+										<li><a href="http://www.gamekult.com/jeux/grand-theft-auto-v-SU3010010088.html" target="_blank">GTA 5</a>
+                                        <li><a href="http://www.cnetfrance.fr/" target="_blank">CNETFrance.fr</a></li>
+                                        <li><a href="http://www.cnetfrance.fr/produits/samsung-galaxy-s4-le-test-39788277.htm" target="_blank">Samsung Galaxy S4</a></li>
+                                        <li><a href="http://www.cnetfrance.fr/special/ipad-mini-4000237236.htm" target="_blank">Ipad Mini</a></li>
+                                        <li><a href="http://www.cnetfrance.fr/special/voiture-electrique-4000078373.htm" target="_blank">Voiture électrique</a></li>
+                                        <li><a href="http://forums.cnetfrance.fr/forum/85-iphone/" target="_blank">Forum iPhone</a></li>
+                                        <li><a href="http://forums.cnetfrance.fr/forum/86-android/" target="_blank">Forum Android</a></li>
+                                        <li><a href="http://www.smartplanet.fr/" target="_blank">SmartPlanet.fr</a></li>
+                                        <li><a href="http://cloud-experience.fr/" target="_blank">Cloud</a></li>
+                                    </ul>
+                                </nav>
+                        </div>
+                                <p class="copyright">&copy; 2013 CBS Interactive. Tous droits réservés. <a href="http://cbsinteractive.fr/legal_documents/10000884-10000217/" rel="nofollow" target="_blank">Confidentialité</a> | <a href="http://cbsinteractive.fr/legal_documents/10001267-10000217/" rel="nofollow" target="_blank">Cookies</a> </p>
+                <div class="networkSites">
+                    <form>
+                        <label for="siteTarget">Visitez les sites CBS Interactive</label>
+                        <ul class="selectdropdown">
+                            <li><a target="_blank" href="#">Select Site</a></li>
+                            <li><a target="_blank" href="http://www.zdnet.com/">ZDNet US</a></li>
+                            <li><a target="_blank" href="http://www.zdnet.com.cn/">ZDNet DE</a></li>
+                            <li><a target="_blank" href="http://www.cnet.com/">CNET.com</a></li>
+                            <li><a target="_blank" href="http://www.gamespot.com/">Gamespot.com</a></li>
+                            <li><a target="_blank" href="http://www.goosto.fr/">Goosto.fr</a></li>
+                            <li><a target="_blank" href="http://www.techrepublic.com/">Techrepublic.com</a></li>
+                            <li><a target="_blank" href="http://www.activetechpros.com/fr/">Activetechpros</a></li>
+                        </ul>
+                    </form>
+                </div>
+        </div>
+</footer>
+<!-- END footer --> 
+
+<!-- Scripts -->
+<script src="/js/build-core.js?v=201310031552"></script>
+<script defer src="http://apis.google.com/js/plusone.js" type="text/javascript"></script> 
+<script>
+
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+</script>
+<div id="fb-root"></div>
+<script>
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "http://connect.facebook.net/fr_FR/all.js#appId=243265768935&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+</script>
+
+<!-- Omniture -->
+<script type="text/javascript">
+	
+	var _eStat_Whap_loaded=0;
+	
+	</script>
+	<script type="text/javascript" src="http://w.estat.com/js/whap.js"></script>
+	<script type="text/javascript">
+	if(_eStat_Whap_loaded){
+	  eStatWhap.serial("800000207020");
+	  eStatWhap.send();
+	}
+	
+</script>
+<script type="text/javascript">
+	
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-4863517-3']);
+	_gaq.push(['_trackPageview']);
+	_gaq.push(['_trackPageLoadTime']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	
+</script>
+<script src="/js/boomer/boomerang-0.9.1280532889.js?v=201310031552" type="text/javascript"></script>
+<script type="text/javascript">
+    
+	BOOMR.init({
+		user_ip: '128.82.4.182',
+		beacon_url: 'http://www.zdnet.fr/js/boomer/image-l.gif',
+		BW: { enabled: false  }
+	});
+    
+</script>
+<div id="hidden-content" style="display: none; height: 1px; width: 1px; top: 0px; left: 0px;">
+<!-- SiteCatalyst code version: H.1. Copyright 1997-2005 Omniture, Inc. More info available at http://www.omniture.com -->
+<script type="text/javascript" src="/js/omniture/s_code_tm.js?v=201310031552"></script>
+<script type="text/javascript">
+if (s)
+	{
+	s.pageName = 'zdfr:SteamOS - Valve présente une distribution GNU/Linux dédiée au jeu:p1:news:informatique:news';
+	s.channel = 'news';
+	s.server = 'zdnet.fr';	
+	s.hier1 = 'zdfr:news,informatique,news';
+	s.prop1 = 'zdnetfr';
+	s.prop2 = 'fr';
+	s.prop7 = 'D=g';
+	s.prop8 = 'SteamOS : Valve présente une distribution GNU/Linux dédiée au jeu';
+	s.prop9 = 'D=User-Agent';
+	s.prop10 = 'news';
+	s.prop11 = 'D=ch+\":\"+c10';
+	s.prop20 = 'SteamOS : Valve présente une distribution GNU/Linux dédiée au jeu';
+	s.prop21 = 'SteamOS : Valve présente une distribution GNU/Linux dédiée au jeu';
+	s.prop22 = 'article';
+	s.prop23 = 'Open source';
+	s.prop30 = 'zdfr_39794249';
+	s.prop32 = 'La rédaction de ZDNet.fr';
+	s.eVar1 = 'D=c1';
+	s.eVar2 = 'D=c2';
+	s.eVar3 = 'D=c3';
+	s.eVar7 = 'D=g';
+	s.eVar8 = 'D=c8';
+	s.eVar10 = 'D=c10';
+	s.eVar11 = 'D=ch+\":\"+c10';
+	s.eVar20 = 'D=c20';
+	s.eVar21 = 'D=c21';
+	s.eVar22 = 'D=c22';
+	s.eVar23 = 'D=c23';
+	s.eVar30 = 'D=c30';
+	s.eVar32 = 'D=c32';
+	s.eVar63 = 'D=c63';
+}
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.1. -->
+</div>
+<script type="text/javascript" src="/js/omniture.js?v=201310031552"></script>
+<!-- Begin BlueKai Tag -->
+<iframe name="__bkframe" height="0" width="0" frameborder="0" src="javascript:void(0)"></iframe>
+<script type="text/javascript" src="https://tags.bkrtx.com/js/bk-coretag.js"></script>
+<script type="text/javascript">
+
+if(typeof(s) != ''){
+
+	bk_addPageCtx("channel", (typeof(s.channel)!='undefined')?s.channel:'');
+	bk_addPageCtx("hier1", (typeof(s.hier1)!='undefined')?s.hier1:'');
+	bk_addPageCtx("pageName", (typeof(s.pageName)!='undefined')?s.pageName:'');
+	bk_addPageCtx("server", (typeof(s.server)!='undefined')?s.server:'');	
+	bk_addPageCtx("pageType", (typeof(s.pageType)!='undefined')?s.pageType:'');
+	bk_addPageCtx("products", (typeof(s.products)!='undefined')?s.products:'');
+	
+	bk_addPageCtx("prop1", (typeof(s.prop2)!='undefined')?s.prop1:'');
+	bk_addPageCtx("prop2", (typeof(s.prop2)!='undefined')?s.prop2:'');
+	bk_addPageCtx("prop3", (typeof(s.prop3)!='undefined')?s.prop3:'');
+	bk_addPageCtx("prop7", (typeof(s.prop7)!='undefined')?s.prop7:'');
+	bk_addPageCtx("prop9", (typeof(s.prop9)!='undefined')?s.prop9:'');
+	bk_addPageCtx("prop10", (typeof(s.prop10)!='undefined')?s.prop10:'');
+	bk_addPageCtx("prop13", (typeof(s.prop13)!='undefined')?s.prop13:'');
+	
+}
+
+bk_doJSTag(14123, 6);
+</script>
+<!-- End BlueKai Tag --><!-- ZDNetFR Content Checker -->
+</body>
+</html>

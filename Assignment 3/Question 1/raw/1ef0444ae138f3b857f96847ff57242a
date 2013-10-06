@@ -1,0 +1,330 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+	<head>
+		<title>News PS3 : The Last of Us - Des détails sur le DLC dès demain ? - Actualité PlayStation 3 - UltimatePS3</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<meta name="description" content="News PS3 The Last of Us - Des détails sur le DLC dès demain ? - Neil Druckmann, directeur créatif chez Naughty Dog, a teasé une annonce pour le contenu additionnel destiné à la campagne solo de The Last of Us sur Twitter. Parmi ses tweets, Druckmann partage une im..." />
+		<meta name="keywords" content="ps3, playstation 3, playstation3, news ps3, news playstation 3, jeux ps3, jeu ps3, test ps3, tests ps3, preview ps3, previews ps3, review ps3, reviews ps3, image ps3, images ps3, screen ps3, screens ps3, video ps3, videos ps3, psn, playstation network, ps3 footage, ps3 reviews, ps3 news, actu ps3, ps3 games, console ps3, sony ps3, gagner ps3, sortie ps3, prix ps3, achat ps3, vente ps3, pub ps3, forum ps3, forum playstation 3, playstation, next-gen, jeux video, blu-ray, blu-ray disc" />
+		<link rel="stylesheet" type="text/css" href="css/ups3.css" media="all" />
+		<!--[if IE]>
+			<link href="css/ups3_ie7.css" type="text/css" rel="stylesheet" media="all"/>
+		<![endif]-->
+		<!--[if lt IE 8]>
+		 <link href="css/ie/corrie7.css" type="text/css" rel="stylesheet" media="all"/>
+		<![endif]-->
+		<!--[if lt IE 7]>
+		 <link href="css/ie/corrie6.css" type="text/css" rel="stylesheet" media="all"/>
+		<![endif]-->
+
+		<link rel="shorcut icon" href="/favicon.ico" type="image/x-icon" />
+		<link rel="alternate" type="application/rss+xml" href="rss.xml" title="UltimatePS3.fr - News PS3 - News PlayStation 3" />
+		<script type="text/javascript" src="media/js/jquery-1.3.2.js"></script>
+		<script type="text/javascript" src="media/js/fonction_js.js"></script>
+		<script src="js/jquery-1.3.2.min.js" type="text/javascript"></script>
+		<script src="js/jquery.pngFix.pack.js" type="text/javascript"></script>	  
+		<script src="js/cufon-yui.js" type="text/javascript"></script>
+		<script src="js/delicious_500-delicious_700-delicious_italic_500-delicious_italic_700.font.js" type="text/javascript"></script>
+		<script src="js/scripts.js" type="text/javascript"></script> 
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+		<script type="text/javascript" src="/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+		<link rel="stylesheet" href="/fancybox/jquery.fancybox-1.3.1.css" type="text/css" media="screen" />
+		<script type="text/javascript">
+		//<![CDATA[		
+			$(document).ready(function() {
+				$("a[rel=images_content]").fancybox({
+					'transitionIn'		: 'none',
+					'transitionOut'		: 'none',
+					'titlePosition' 	: 'over',
+					'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' - ' + title : '') + '</span>';
+					}
+				});
+			});
+		//]]>
+</script>
+	</head>
+<body>
+
+<div id="mosahic">
+	<div id="grasfic">
+		<div class="conteneur">
+			<div id="header">
+				<h1><a href="/" title="PS3, PlayStation 3 : Actualité, News, Jeux, Tests - UltimatePS3"><img src="/img/global/logo.png" class="rollover" alt="PS3, PlayStation 3 : Actualité, News, Jeux, Tests - UltimatePS3" />UltimatePS3</a></h1>
+				<div class="clear"></div>
+				<ul id="menu">
+					<li><a class="actif" href="/"><strong>ACCUEIL</strong><br /><span>Toute l'actualité de<br />la PlayStation 3</span></a></li>
+					<li><a href="/forums/"><strong>FORUM</strong><br/><span>Venez discuter avec<br />la communauté</span></a></li>
+					<li><a href="/jeux-ps3.html"><strong>JEUX</strong><br /><span>Toutes les fiches<br />des jeux PS3</span></a></li>
+					<li><a href="/tests-jeux-ps3.html"><strong>TESTS</strong><br/><span>Nous testons les jeux<br />et donnons notre avis</span></a></li>
+					<li><a href="/sorties-jeux-ps3.html"><strong>SORTIES</strong><br /><span>Le calendrier<br />des jeux à venir</span></a></li>
+				</ul>
+				<div id="share">
+					<a href="http://www.facebook.com/pages/UltimatePS3/48626988333" id="facebook" title="Devenir fan d'UltimatePS3 sur Facebook"><img src="/img/menu/facebook.jpg" class="rollover" alt="Devenir fan d'UltimatePS3 sur Facebook" /></a>
+					<a href="http://twitter.com/ultimateps3fr" id="twitter" title="S'abonner au twitter d'UltimatePS3"><img src="/img/menu/twitter.jpg" class="rollover" alt="S'abonner au twitter d'UltimatePS3" /></a>
+				</div>
+				<div class="clear"></div>
+			</div>			<div id="contenu">
+				<div id="adroite">
+					<form id="recherche" action="/recherche-ps3.html" method="post">
+						<p><input type="text" name="recherche" /></p>
+					</form>
+					<div id="pannel">
+						<div id="topPannel">
+							<h2 class="delicious">ZONE MEMBRE</h2>
+							<form action="/forums/login.php?action=in" method="post" id="connection">
+								<p class="center">
+									<input type="hidden" name="form_sent" value="1" />
+									<input type="hidden" name="redirect_url" value="/news-ps3-11645-the-last-of-us-des-details-sur-le-dlc-des-demain.html" />
+									<input class="txt round5" type="text" name="req_username" id="log" value="Nom d'utilisateur" />
+									<input class="txt round5" type="password" name="req_password" id="pass" value="password" />
+								</p>
+								<p class="center margin-top5">
+									<a href="/forums/inscription.html" title="S'inscrire sur UPS3"><img src="/img/pannel/inscrire.gif" alt="S'inscrire sur UltimatePS3" class="rollover" /></a>
+									<input type="image" src="/img/pannel/login.gif" value="Me connecter" />
+								</p>
+								<p class="center margin-top10">
+									<a class="zegris" href="/forums/mot-de-passe-oublie.html" title="J'ai perdu mon mot de passe">Mot de passe oublié ?</a>
+								</p>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div id="agauche">
+					<div id="pub">
+						<script type='text/javascript'>
+						<!--//<![CDATA[
+							var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php':'http://cas.criteo.com/delivery/ajs.php');
+							var m3_r = Math.floor(Math.random()*99999999999);
+							if (!document.MAX_used) document.MAX_used = ',';
+							document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+							document.write ("?nodis=1&amp;zoneid=9064");
+							document.write ('&amp;cb=' + m3_r);
+							if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+							document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+							if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+							if (document.context) document.write ("&context=" + escape(document.context));
+							if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+							document.write ("'><\/scr"+"ipt>");
+						//]]>-->
+						</script>
+						<noscript><p><img src="http://www.donguiste.org/ups3/v3/img/pub/img.gif" alt="Activez JavaScript !" /></p></noscript>
+					</div>
+					<div id="zetitre_actu">
+					<h3 class="delicious">The Last of Us - Des détails sur le DLC dès demain ?</h3>
+						<div id="subMenu">
+							<div id="basSubMenu">
+								<p class="margin-bottom10">Le 25.09.2013 à 14:37<br/>par <a href="/profil-13280-get-crazy.html">Tom V</a></p>
+								<p><img class="icosub" src="img/actus/sub_vu.gif" alt="vu"/>688 Lectures</p>
+								<p><img class="icosub" src="img/actus/sub_comment.gif" alt="commentaires"/><a href="#commentaires">5 Commentaires</a></p>
+								<div style="text-align:center;" class="margin-top20">
+									<object style="border:none; overflow:hidden; width:95px; height:20px;" data="http://www.facebook.com/plugins/like.php?locale=fr_FR&amp;href=http://www.ultimateps3.fr/news-ps3-11645-the-last-of-us-des-details-sur-le-dlc-des-demain.html&amp;layout=button_count&amp;show_faces=false&amp;width=450&amp;action=like&amp;font=trebuchet+ms&amp;colorscheme=light&amp;height=35" type="text/html"></object>
+								</div>
+								<div style="text-align:center;margin-left:20px;" class="margin-bottom10">
+									<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+										<div><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.ultimateps3.fr/news-ps3-11645-the-last-of-us-des-details-sur-le-dlc-des-demain.html" data-via="UltimatePS3fr" data-text="The Last of Us - Des détails sur le DLC dès demain ?" data-count="horizontal">Tweet</a></div>
+								</div>
+															</div>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div id="corpsDroite">
+					<div id="autres_news">
+						<div id="bas_autres">
+							<h3 class="delicious">THE LAST OF US</h3>
+							<div class="box_autres_d">
+								<p class="center"><a href="jeux-ps3-1012-the-last-of-us.html"><img class="visu3" src="images/jeux/the-last-of-us/the-last-of-us_miniature_big.png" width="220" height="250" alt="Jaquette du jeu The Last of Us" /></a></p>
+								<p style="position:relative;">
+									<img id="loader_ajout" src="img/loader/loader.gif" style="position:absolute;margin-left:330px;display:none;" alt="Loading..."/>
+									<strong class="bleu">Paru</strong> | 14 Juin 2013									<br /><br />
+									<span class="bleu">Genre</span> : Survival Horror/Action<br />
+									<span class="bleu">Éditeur</span> : Sony Computer Entertainment<br />
+									<span class="bleu">Développeur</span> : Naughty Dog<br />
+									<span class="bleu">Multijoueurs hors ligne</span> : Non<br />
+									<span class="bleu">Multijoueurs en ligne</span> : Oui, de 1 à 8
+									<br /><br />
+									<span class="bleu">Compatible PlayStation Move</span> : Non
+<br />
+									<span class="bleu">Compatible 3D</span> : Non
+									<br /><br />
+									<a rel="nofollow" href="http://track.effiliation.com/servlet/effi.click?id_compteur=12327846&url=http://www.priceminister.com/nav/Jeux-Video-et-Consoles_Jeux-Video/kw/the-last-of-us" title="Acheter le jeu The Last of Us"><img src="img/jeu/buy.png" alt="Acheter le jeu The Last of Us" /> <span class="buy">Acheter le jeu The Last of Us au meilleur prix</span></a>
+																	</p>
+								<p class="pointe bhb margin-top15">
+									<span class="bleu"><strong>9 membres possèdent ce jeu</strong><a href="#" onclick="return liste(1012, 1);" id="lienCollec" class="voir">Voir la liste</a>
+								</span></p><div id="listeCollec" class="listeCollec margin-top15 margin-bottom15"></div>
+								
+								<p class="pointe bb margin-bottom15">
+									<span class="bleu"><strong>43 membres souhaitent avoir ce jeu</strong><a href="#" onclick="return liste(1012, 2);" id="lienSouhait" class="voir">Voir la liste</a>
+								</span></p><div id="listeSouhait" class="listeSouhait margin-top15 margin-bottom15"></div>
+								
+								<div id="ajouts" style="margin:0;padding:0;text-align:center">
+									<a href="forums/inscription.html" title="Ajouter The Last of Us à ma collection"><img src="img/jeu/btn_ajout.gif" class="rollover margin-left10" alt="Ajouter The Last of Us à ma collection" /></a>
+									<a href="forums/inscription.html" title="Ajouter The Last of Us aux jeux que je souhaite avoir"><img src="img/jeu/btn_souhait.gif" class="rollover" alt="Ajouter The Last of Us aux jeux que je souhaite avoir" /></a>
+								</div>
+							</div>
+							<a href="jeux-ps3-360-the-last-guy-psn.html" class="delicious pce_gauche">The Last Guy (PSN)</a>
+							<a href="jeux-ps3-509-the-last-rebellion.html" class="delicious pce_droite">The Last Rebellion</a>
+						</div>
+					</div>
+					<div class="center bg_grisfonce padding-top20 padding-bottom20 margin-top10">
+						<a href="http://www.amazon.fr/gp/product/B00BIWZU22/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00BIWZU22&linkCode=as2&tag=ult03-21"><img src="http://www.ultimateps3.fr/inc/ps42.jpg"></a><img src="http://ir-fr.amazon-adsystem.com/e/ir?t=ult03-21&l=as2&o=8&a=B00BIWZU22" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+					</div>				</div>
+				<div id="corpsGauche">
+					<div id="contentGaucheSite">
+
+						<p>
+						
+													<a href="#ajouts" title="Ajouter ce jeu à ma collection/liste de souhaits"><img src="img/actus/add_collec.gif" class="right margin-left5 rollover" alt="Ajouter ce jeu à ma collection/liste de souhaits" /></a>
+							<a href="jeux-ps3-1012-the-last-of-us.html" title="Voir la fiche du jeu The Last of Us"><img src="img/actus/add_jeu.gif" class="right margin-left10 rollover" alt="Voir la fiche du jeu The Last of Us"/></a>
+							
+						
+						<img class="visu" src="images/jeux/the-last-of-us/the-last-of-us_miniature_small.png" width="65" height="65" alt="Miniature du jeu The Last of Us" />Neil Druckmann, directeur créatif chez Naughty Dog, a teasé une annonce pour le contenu additionnel destiné à la campagne solo de <strong><a href="http://www.ultimateps3.fr/jeux-ps3-1012-the-last-of-us.html">The Last of Us</a></strong> sur Twitter. Parmi ses tweets, Druckmann partage une image du jeu arborant un journal avec la date du <ins>26 Septembre 2013</ins> et avec le hashtag <strong>#OutbreakDay</strong>.<br /><br /></p><p style="text-align: center"><img src="http://www.ultimateps3.fr/upload/big/TLoU-journal-26-Septembre-2013-OutbreakDay.jpg" width="400"></p><p><br />Un peu plus tôt cette semaine, Bruce Straley, directeur de <strong>The Last of Us</strong>, avait déclaré sur Twitter que des informations à propos du DLC du jeu seraient dévoilées cette semaine. Bruce Straley et Neil Druckmann ont ensuite partagé quelques tweets avec le hashtag <strong>#OutbreakDay</strong> (que l'on pourrait traduire par "<em>Jour de l'épidémie</em>") dont un avec l'image d'un journal daté du <ins>26 Septembre 2013</ins>, qui est le jour où l'épidémie a démarré.<br /><br /><blockquote class="twitter-tweet" align="center"><p>It's almost here. What are you doing to prepare? <a href="https://twitter.com/search?q=%23OutbreakDay&src=hash">#OutbreakDay</a> <a href="http://t.co/zm7bqt85al">pic.twitter.com/zm7bqt85al</a></p>— Neil Druckmann (@Neil_Druckmann) <a href="https://twitter.com/Neil_Druckmann/statuses/382698217558638592">September 25, 2013</a></blockquote><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br /></p><p style="text-align: justify">Il est donc plus que probable que <em>Naughty Dog</em> dévoile enfin le contenu additionnel pour la campagne solo de <strong>The Last of Us</strong>. Par ailleurs, à en croire le teasing des développeurs, on peut suggérer que ce DLC se déroulera lors du début de l'épidémie.<br /><br /></p><p style="text-align: right"><em>Source : Gearnuke.com</em></p>
+					</div>
+					<div class="clear"></div>
+						<div id="commentaires">
+							<div class="titreCommentaire">
+								<a href="forums/sujet-44180-the-last-of-us-des-details-sur-le-dlc-des-demain.html" rel="nofollow" title="Lire les commentaires sur le forum"><img class="rollover margin-left5 margin-bottom10" src="img/comment/btn_forum.gif" alt="Lire les commentaires sur le forum" /></a>
+								<a href="forums/inscription.html" title="Vous devez vous inscrire pour ajouter un commentaire à la news"><img class="rollover margin-bottom10" src="img/comment/btn_com.gif" alt="Ajouter un commentaire" /></a>
+							</div>
+							<input type="hidden" name="cur_news" id="cur_news_input" value="11645"/>
+							<div id="listeCom">
+								<script type="text/javascript">
+									changerPage(1);
+								</script>
+								<noscript>
+									<p style="text-align: center">JavaScript est désactivé sur votre navigateur.<br />Veuillez activer JavaScript dans votre navigateur ou installer un navigateur avec JavaScript pour visualiser les commentaires de la news.</p>
+ 								</noscript>
+							</div>
+						</div>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+				<div id="footer">
+			<div class="contenu conteneur padding-top15 centrageie">
+				<div id="topListings"></div>
+			  <div id="listings">
+					<div class="col1 margin-right15 margin-left10">
+						<h2>NAVIGATION</h2>
+						<ul>
+							<li><a href="/">Accueil du site</a></li>
+							<li><a href="/forums/">Forum</a></li>
+							<li><a href="/jeux-ps3.html">Jeux</a></li>
+							<li><a href="/tests-jeux-ps3.html">Tests</a></li>
+							<li><a href="/sorties-jeux-ps3.html">Sorties</a></li>
+							<li><a href="/rss.xml">Flux RSS</a></li>
+							<li><a href="mailto:contact@ultimateps3.fr">Contact</a></li>
+							<li><a href="mailto:contact@ultimateps3.fr">Publicite</a></li>
+							<li><a href="/mentions-legales.html">Mentions legales</a></li>
+						</ul>
+					</div>
+					<div class="col2 margin-right15">
+						<h2>DERNIERS JEUX AJOUTES</h2>
+						<ul>
+							<li><a href="/jeux-ps3-1252-assassin-s-creed-heritage-collection.html" class="derJeu">Assassin's Creed Heritage Collection</a></li>
+							<li><a href="/jeux-ps3-1251-soulcalibur-lost-swords.html" class="derJeu">Soulcalibur: Lost Swords</a></li>
+							<li><a href="/jeux-ps3-1250-soldats-inconnus-memoires-de-la-grande-guerre.html" class="derJeu">Soldats Inconnus : Mémoires de la Grande Guerre</a></li>
+							<li><a href="/jeux-ps3-1249-child-of-light.html" class="derJeu">Child of Light</a></li>
+							<li><a href="/jeux-ps3-1248-assassin-s-creed-liberation-hd.html" class="derJeu">Assassin's Creed Liberation HD</a></li>
+							<li><a href="/jeux-ps3-1247-natural-doctrine.html" class="derJeu">Natural Doctrine</a></li>
+							<li><a href="/jeux-ps3-1246-yakuza-ishin.html" class="derJeu">Yakuza Ishin</a></li>
+							<li><a href="/jeux-ps3-1245-bound-by-flame.html" class="derJeu">Bound by Flame</a></li>
+							<li><a href="/jeux-ps3-1244-spelunky-psn.html" class="derJeu">Spelunky (PSN)</a></li>
+						</ul>
+					</div>
+					<div class="col2 margin-right15">
+						<h2>DERNIERS TESTS RÉALISÉS</h2>
+						<ul>
+							<li><a href="/test-jeu-ps3-1221-vita-soul-sacrifice.html" class="derJeu"> | Vita | Soul Sacrifice</a></li>
+							<li><a href="/test-jeu-ps3-906-sly-cooper-thieves-in-time.html" class="derJeu">Sly Cooper : Thieves in Time</a></li>
+							<li><a href="/test-jeu-ps3-825-tomb-raider.html" class="derJeu">Tomb Raider</a></li>
+							<li><a href="/test-jeu-ps3-1084-playstation-all-stars-battle-royale.html" class="derJeu">PlayStation All-Stars Battle Royale </a></li>
+							<li><a href="/test-jeu-ps3-1041-littlebigplanet-karting.html" class="derJeu">LittleBigPlanet Karting</a></li>
+							<li><a href="/test-jeu-ps3-1176-vita-smart-as.html" class="derJeu"> | Vita | Smart As...</a></li>
+							<li><a href="/test-jeu-ps3-910-dishonored.html" class="derJeu">Dishonored</a></li>
+							<li><a href="/test-jeu-ps3-1066-hell-yeah-wrath-of-the-dead-rabbit-psn.html" class="derJeu">Hell Yeah! Wrath of the Dead Rabbit (PSN)</a></li>
+							<li><a href="/test-jeu-ps3-1157-vita-littlebigplanet.html" class="derJeu"> | Vita | LittleBigPlanet</a></li>
+						</ul>
+					</div>
+					<div class="col1">
+						<h2>DERNIERES SORTIES</h2>
+						<ul>
+							<li><a href="/jeux-ps3-1228-nba-2k14.html" class="derJeu">NBA 2K14</a></li>
+							<li><a href="/jeux-ps3-1233-f1-2013.html" class="derJeu">F1 2013</a></li>
+							<li><a href="/jeux-ps3-1137-rain-psn.html" class="derJeu">Rain (PSN)</a></li>
+							<li><a href="/jeux-ps3-1237-wrc-4.html" class="derJeu">WRC 4</a></li>
+							<li><a href="/jeux-ps3-1206-fifa-14.html" class="derJeu">FIFA 14</a></li>
+							<li><a href="/jeux-ps3-1234-ace-combat-infinity-psn.html" class="derJeu">Ace Combat Infinity (PSN)</a></li>
+							<li><a href="/jeux-ps3-1219-pro-evolution-soccer-2014.html" class="derJeu">Pro Evolution Soccer 2014</a></li>
+							<li><a href="/jeux-ps3-604-grand-theft-auto-v.html" class="derJeu">Grand Theft Auto V</a></li>
+							<li><a href="/jeux-ps3-1162-kingdom-hearts-hd-1-5-remix.html" class="derJeu">Kingdom Hearts HD 1.5 ReMIX</a></li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+				<div id="bulle">
+						<div id="topBulle"></div>
+						<p class="center">
+							<script type="text/javascript"><!--
+								google_ad_client = "pub-4062992547022161";
+								/* 2 :728x90, date de creation 28/02/10 */
+								google_ad_slot = "7102805325";
+								google_ad_width = 728;
+								google_ad_height = 90;
+								//-->
+								</script>
+								<script type="text/javascript"
+								src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+							</script>
+						</p>
+
+
+
+						
+	
+						<div id="xiti-logo">
+
+                            
+					<script type="text/javascript">
+					//<![CDATA[
+						var bub_url='http://in.bubblestat.com/bs2.bub?cs=cu7fczvg9jy2&amp;cp=&amp;js&amp;jm=';
+						bub_url+= ((new Date()).getTime());
+						document.write('<scr'+'ipt type="text/javascript" src="'+bub_url+'"><'+'/script>');
+					//]]>
+					</script>
+					<noscript>
+						<div><img src="http://in.bubblestat.com/bs2.bub?cs=cu7fczvg9jy2&amp;cp=" alt="" /></div>
+					</noscript>
+
+					<script type="text/javascript">bpxt_ig="trans.gif";bpxt_ib=17195;</script><script src="http://stats.buzzparadise.com/MarkerBlg/998eb725-9d11-4cbb-b4de-aca590182bbf/17195/BpJsUser.js" type="text/javascript"></script>
+
+					<script>
+					(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+					(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+					})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+					ga('create', 'UA-41881548-1', 'ultimateps3.fr');
+					ga('send', 'pageview');
+					</script>
+					</div>
+						<div class="clear"></div>
+				  </div>
+	
+				</div>
+			</div>
+
+
+
+			<div id="copyright" class="conteneur">
+				<p class="right margin-right20">Conception : Romain Gardereau - Thomas Germain - <a href="http://www.donguiste.org/" title="isis" rel="nofollow">Florent Dechiron</a></p>
+				<p class="left margin-left20"><a href="/" title="UltimatePS3">UltimatePS3</a> &copy; 2007 - 2013 | <a rel="nofollow" href="http://creativecommons.org/licenses/by-nc/3.0/fr/">Tous droits reserves</a> | <a href="/sitemap.xml">Plan du site</a> |</p> <p class="left margin-left5"><a href="http://validator.w3.org/check?uri=referer" rel="nofollow"><img src="http://cdn1.iconfinder.com/data/icons/fatcow/32x32/xhtml_valid.png" width="22px" alt="Valid xHTML" /></a></p>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

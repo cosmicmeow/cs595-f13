@@ -1,0 +1,1588 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7]> <html class="ie lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="ie ie7 lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="ie ie8 lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><html class="ie" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-ie"> <!--<![endif]-->
+<head>
+	<!--  htmlHEadElement is News/FDN/Web/Render/htmlHead -->
+	<!-- Page: Technology (1225937034693) -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+			<title>Valve to release Linux based gaming console and operating system, SteamOS | Online Video Games Reviews &amp; News |
+			News.com.au</title>
+			<meta name="description" content="ONLINE gaming company Valve has announced it will be releasing its own console and operating system." />
+			<!-- Keywords found on the story: [6] -->
+			<meta name="keywords" content=" own console, Steam OS, valve, game, Linux, free stand-alone operating system" />
+			<!-- setting thumbnail for facebook -->
+			<!-- primary >>> [{id=1226728359439, type=News_Image_File}]-->
+				<!--  primary is not empty-->
+							<meta property="og:image" content="http://resources3.news.com.au/images/2013/09/27/1226728/359439-valve.jpg" />
+			<!-- PC related summary IDs: 1226728353594 -->
+			<link rel="canonical" href="http://www.news.com.au/technology/gaming/steam-to-release-linux-based-gaming-console/story-e6frfrt9-1226728353594" />
+			<meta name="twitter:card" content="summary">
+            <meta name="twitter:site" content="NewsComAu">
+			<meta name="twitter:site:id" content="@newscomauHQ">
+			<meta property="og:title"
+				content="Valve to release Linux based gaming console and operating system, SteamOS" />
+			<meta property="og:type" content="article" />
+			<meta property="og:url"
+				content="http://www.news.com.au/technology/gaming/steam-to-release-linux-based-gaming-console/story-e6frfrt9-1226728353594" />
+			<meta property="og:site_name" content="NewsComAu" />
+			<meta property="fb:app_id" content="113758722003364" />
+			<meta property="og:description" content="ONLINE gaming company Valve has announced it will be releasing its own console and operating system." />
+<meta property="fb:admins" content="100002324295212,100000875899514" />
+	<script type="text/javascript">
+		//<![CDATA[
+			window.ndm = window.ndm || {};
+			var overrideNdmPageSite, overrideNdmPageUs, overridePageType, overrideNdmPageCustom, overrideNdmPageAdsenseGoogleAdClient, overrideNdmPageAdsenseGoogleAdChannel;
+			ndm.cam = ndm.cam || {};
+		//]]>
+	</script>
+<!-- Fragment for [] on [fwprodcontent01.ni.news.com.au] @ [October 06, 2013 9:47AM] [cb:null] -->
+	<!-- Page includes [1225937034693:null] last generated at Sun Oct 06 09:47:04 EST 2013 -->
+<!-- page include -->
+<!-- Resource Included [{id=1226560157298, type=News_Stylesheet}, {id=1226264939565, type=News_Stylesheet}, {id=1225750486786, type=News_Stylesheet}, {id=1226452537507, type=News_Stylesheet}, {id=1226706218351, type=News_Stylesheet}, {id=1226617584019, type=News_Stylesheet}, {id=1226312672200, type=News_Stylesheet}, {id=1226560251887, type=News_Javascript}, {id=1226560170439, type=News_Javascript}, {id=1226538541538, type=News_Javascript}, {id=1225796192321, type=News_Javascript}, {id=1226706218456, type=News_Javascript}, {id=1225901532549, type=News_Feed}, {id=1226112824389, type=News_Javascript}, {id=1226524868538, type=News_Javascript}, {id=1225799404917, type=News_Javascript}]-->
+				<link rel="alternate" type="application/rss+xml"
+					title="Technology Top Stories" href="http://feeds.news.com.au/public/rss/2.0/news_tech_506.xml" />
+<!-- //page include -->
+	<link rel='stylesheet' media='screen' type='text/css' href='http://resources2.news.com.au/cs/newscomau/v2/tech/base/css/base-concat-min.css' />
+	<link rel='stylesheet' media='screen' type='text/css' href='http://resources2.news.com.au/cs/newscomau/v2/tech/base/css/story-interim-concat-min.css' />
+	<!--[if lte IE 6]><link rel='stylesheet' media='screen' type='text/css' href='http://resources2.news.com.au/cs/tech/css/ie6.css' /><![endif]-->
+	<link rel='stylesheet' media='print' type='text/css' href='http://resources2.news.com.au/cs/newscomau/v2/_shared/base/css/print.css' />
+	<link rel='stylesheet' media='screen' type='text/css' href='http://w.news-static.com/latest/vms/facade.min.css' />
+	<link rel='stylesheet' media='screen' type='text/css' href='http://resources2.news.com.au/cs/newscomau/v2/tech/p/2013/04-apr/telstra.css' />
+	<link rel='stylesheet' media='screen' type='text/css' href='http://media.news.com.au/cs/newscomau/v2/_shared/base/css/footer-v2.css' />
+	<script  type='text/javascript' src='http://resources1.news.com.au/cs/newscomau/v2/tech/base/js/base-top-concat-min.js'></script>
+	<script  type='text/javascript' src='http://resources1.news.com.au/cs/newscomau/v2/_shared/base/js/story-top-concat-min.js'></script>
+	<script  type='text/javascript' src='http://w.news-static.com/latest/vms/facade.min.js'></script>
+		<script type='text/javascript'>
+	                 //<![CDATA[
+					var overrideNdmPageSite = "TECH";
+var overridePageType = "homepage";
+	                 //]]>
+		</script>
+		<script type='text/javascript'>
+	                 //<![CDATA[
+					//]]>
+</script>
+<meta name="viewport" content="width=device-width" />
+<link rel="shortcut icon" href="http://resources.news.com.au/cs/newscomau/images/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="http://resources.news.com.au/cs/newscomau/images/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://resources.news.com.au/cs/newscomau/mobile/images/icon-retina.png">
+<link rel="apple-touch-icon-precomposed" href="http://resources.news.com.au/cs/newscomau/mobile/images/icon.png">
+<script>
+//<![CDATA[
+	                 //]]>
+		</script>
+		<script type='text/javascript'>
+	                 //<![CDATA[
+					</script>
+<style>
+/* temp fixes - permanent fixes in next release */
+</style>
+<script>
+	                 //]]>
+		</script>
+		<script type='text/javascript'>
+	                 //<![CDATA[
+					var overridePageType = "story";
+	                 //]]>
+		</script>
+			<script type="text/javascript" src="http://sops.news.com.au/adkit/js/kit.js"></script>
+			<script type="text/javascript">
+				//<![CDATA[
+				ndm.page.section = "TECHNOLOGY.GAMING";
+				//]]>
+			</script>
+		<script type="text/javascript">
+				//<![CDATA[
+					ndm.page.custom = overrideNdmPageCustom || "";
+					ndm.page.vignstoryid = "-1";
+					ndm.page.site 		= overrideNdmPageSite 	|| "NEWS";
+					ndm.page.us  		= overrideNdmPageUs		|| "ndmnews";
+					ndm.page.runads 	= true;
+					ndm.page.adstyles 	= "auto";
+					ndm.page.type 		= overridePageType		|| "story";
+					//ndm.page.pcvideosite	= "PROD_NEWS";
+					ndm.page.shareid = "7d411865c977e8bff8becd5140af86a1";
+					ndm.page.storyid = "1226728353594";
+					ndm.page.adsense.google_ad_client 	= overrideNdmPageAdsenseGoogleAdClient || "ca-nd-news_js";
+					ndm.page.adsense.google_ad_channel 	= overrideNdmPageAdsenseGoogleAdChannel || "technology";
+					ndm.page.adsense.google_ad_section  = "story_headline story_introduction story_body story_related";
+					ndm.page.adsense.google_ad_client_intl = "ca-nd-news-st-intl_js";
+					ndm.page.nielsen = "manual";
+					ndm.page.setup();
+					ndm.page.searchApi = "http://search.news.com.au/embeddedjson?";
+				//]]>
+		</script>
+	<meta name="robots" content="noarchive" />
+    <script type="text/javascript">
+        //<![CDATA[
+            ndm.page.msrelatedlinks = false;
+            ndm.page.premiumstate = 'NON_PREMIUM';
+        //]]>
+    </script>
+</head>
+<body class="newscomau story story-1226728353594 no-js  technology technology-gaming technology-gaming-story  technology-gaming-story-index   no-cam  source-ign">
+<div id="page">
+	<div class="ad ad-header">
+                <div class="ndmadkit ndmadkit-header"><script type="text/javascript">ndm.kit.header();</script></div><!-- // .ndmadkit -->
+                <div class="ndmadkit ndmadkit-header"><script type="text/javascript">ndm.kit.header();</script></div><!-- // .ndmadkit -->
+                <div class="ndmadkit ndmadkit-header"><script type="text/javascript">ndm.kit.header();</script></div><!-- // .ndmadkit -->
+	</div>
+<div id="skip-links">
+	<dl class="skip">
+		<dt>Skip to:</dt>
+			<dd class="first"><a href="#content">Main Content</a></dd>
+			<dd><a href="#nav">Site Navigation</a></dd>
+			<dd><a href="#footer">Site Footer</a></dd>
+			<dd><a href="#site-search">Site Search</a></dd>
+			<dd><a href="/help/sitemap/">Site Map</a></dd>
+			<dd><a href="#network-bar">Network Navigation (other sites)</a></dd>
+	</dl><!-- .skip -->
+</div><!-- // #skip-links -->
+<div id="network-bar">
+				
+<dl class="network-bar-links nin-level-1  ">
+			<dt class="  first last "></dt>
+					<dd class="first    "><a href="http://www.news.com.au/?from=ninbar" rel="track-nin-news">news.com.au</a></dd>
+					<dd class="    "><a href="http://www.foxsports.com.au/" rel="track-nin-news">Fox Sports</a></dd>
+					<dd class="    "><a href="http://www.careerone.com.au/?from=ninbar" rel="track-nin-news">CareerOne</a></dd>
+					<dd class="    "><a href="http://www.carsguide.com.au/?from=ninbar" rel="track-nin-news">Carsguide</a></dd>
+					<dd class="    "><a href="http://www.realestate.com.au/buy?from=ninbar" rel="track-nin-news">RealEstate</a></dd>
+					<dd class=" last news-network   "><a href="http://www.news.com.au/help/network-links" rel="track-nin-news">News Network</a></dd>
+</dl><!-- // .network-bar-links nin-level-1   -->
+
+</div><!-- // #network-bar -->
+<div id="header" >
+	<div id="header-logo">
+				<strong><a href="http://www.news.com.au">News.com.au</a></strong>
+	</div> <!-- // #header-logo -->
+	<div id="header-ads">
+		<div class="ad ad-leaderboard">
+					<div class="ndmadkit ndmadkit-leaderboard"><script type="text/javascript">ndm.kit.leaderboard();</script></div><!-- // .ndmadkit -->
+					<div class="ndmadkit ndmadkit-leaderboard"><script type="text/javascript">ndm.kit.leaderboard();</script></div><!-- // .ndmadkit -->
+					<div class="ndmadkit ndmadkit-leaderboard"><script type="text/javascript">ndm.kit.leaderboard();</script></div><!-- // .ndmadkit -->
+		</div><!-- // .ad .ad-leaderboard -->
+	</div><!-- // #header-ads -->
+</div><!-- // #header -->
+	<div id="nav">
+			<ul id="nav-wrap">
+					<li id="nav-level1">
+										
+		<ul class="nav-list tier-1">
+			<li class="nav-news linkto-group-1226680149307 nav-footer-header    first">
+						<a href="/" class="homepage" >News</a>
+		<ul class="nav-list tier-2">
+			<li class="first">
+						<a href="/breaking-news" class="breaking-news-v2 lj-enable" >Breaking news</a>
+			</li>
+			<li>
+						<a href="/national-news" class="national national-index" >National news</a>
+			</li>
+			<li>
+						<a href="/world-news" class="world world-index" >World news</a>
+			</li>
+			<li>
+						<a href="/weird-true-freaky" class="layout-v2" >Weird</a>
+			</li>
+			<li>
+						<a  href="http://weather.news.com.au">Weather</a>
+			</li>
+			<li>
+						<a href="/multimedia" class="layout-v2" >Multimedia</a>
+			</li>
+			<li>
+						<a href="/national-news/federal-election" class="national-news-federal-election national-news-federal-election-index" >Federal Election</a>
+			</li>
+			<li>
+						<a href="/meet-the-press" class="layout-v2" >Meet the Press</a>
+			</li>
+			<li>
+						<a href="/opinion" class="layout-v2" >Opinion</a>
+			</li>
+			<li class="last">
+						<a href="/photos" class="layout-v2" >Photos</a>
+			</li>
+		</ul>
+		<!-- // .tier-2 -->
+			</li>
+			<li class="nav-business linkto-group-1226680125988">
+						<a href="/business" >Business</a>
+		<ul class="nav-list tier-2">
+			<li class="first">
+						<a href="/business/breaking-news" class="breaking-news-v2" >Breaking news</a>
+			</li>
+			<li class="business-header">
+						<a href="/business/markets" >Markets</a>
+			</li>
+			<li>
+						<a href="/business/australian-dollar" >Dollar</a>
+			</li>
+			<li>
+						<a href="/business/your-business" >Your business</a>
+			</li>
+			<li>
+						<a href="/business/worklife" >Worklife</a>
+			</li>
+			<li>
+						<a href="/business/companies" >Companies</a>
+			</li>
+			<li>
+						<a href="/business/executive-lounge" >Executive lounge</a>
+			</li>
+			<li class="last">
+						<a href="/business/archive" >Archive</a>
+			</li>
+		</ul>
+		<!-- // .tier-2 -->
+			</li>
+			<li class="nav-sport linkto-group-1226678557351">
+						<a href="/sport" class="sport sport-index interactive" >Sport </a>
+		<ul class="nav-list tier-2">
+			<li class="first">
+						<a href="/sport/afl" class="afl-index move-m-e lj-enable" >AFL</a>
+			</li>
+			<li>
+						<a href="/sport/nrl" class="nrl-home" >NRL</a>
+			</li>
+			<li>
+						<a href="/sport/rugby-gold" >Rugby union</a>
+			</li>
+			<li>
+						<a href="/sport/cricket" >Cricket</a>
+			</li>
+			<li>
+						<a href="/sport/superracing" >Horse racing</a>
+			</li>
+			<li>
+						<a href="/sport/basketball" >Basketball</a>
+			</li>
+			<li>
+						<a href="/sport/netball" >Netball</a>
+			</li>
+			<li>
+						<a href="/sport/football" >Football</a>
+			</li>
+			<li>
+						<a href="/sport/motor-sport" >Motorsport</a>
+			</li>
+			<li>
+						<a href="/sport/tennis" >Tennis</a>
+			</li>
+			<li>
+						<a href="/sport/boxing-mma" >Boxing/MMA</a>
+			</li>
+			<li class="last">
+						<a href="/sport/golf" >Golf</a>
+			</li>
+		</ul>
+		<!-- // .tier-2 -->
+			</li>
+			<li class="nav-entertainment linkto-group-1226679525833">
+						<a href="/entertainment" >Entertainment</a>
+		<ul class="nav-list tier-2">
+			<li class="nav-celebrity    first">
+						<a href="/entertainment/celebrity" >Celebrity</a>
+			</li>
+			<li>
+						<a href="/entertainment/movies" >Movies</a>
+			</li>
+			<li>
+						<a href="/entertainment/television" >TV</a>
+			</li>
+			<li>
+						<a href="/entertainment/music" >Music</a>
+			</li>
+			<li class="nav-entertainment">
+						<a href="/entertainment/books" >Books</a>
+			</li>
+			<li class="nav-horoscopes     last">
+						<a href="/old-pages/lifestyle2/horoscopes" >Horoscopes</a>
+			</li>
+		</ul>
+		<!-- // .tier-2 -->
+			</li>
+			<li class="nav-lifestyle linkto-group-1226666121854">
+						<a href="/lifestyle" >Lifestyle</a>
+		<ul class="nav-list tier-2">
+			<li class="first">
+						<a href="/lifestyle/health" >Health</a>
+			</li>
+			<li>
+						<a href="/lifestyle/parenting" class="lj-enable" >Parenting</a>
+			</li>
+			<li class="&#034; id=&#034;nav-food">
+						<a href="/lifestyle/food" >Food</a>
+			</li>
+			<li>
+						<a href="/lifestyle/relationships" >Relationships</a>
+			</li>
+			<li>
+						<a href="/lifestyle/fashion" class="lj-enable" >Fashion</a>
+			</li>
+			<li>
+						<a href="/lifestyle/beauty" class="lj-enable" >Beauty</a>
+			</li>
+			<li>
+						<a href="/lifestyle/home" >Home</a>
+			</li>
+			<li>
+						<a href="/lifestyle/real-life" >Real Life</a>
+			</li>
+			<li class="last">
+						<a href="/lifestyle/horoscopes" >Horoscopes</a>
+			</li>
+		</ul>
+		<!-- // .tier-2 -->
+			</li>
+			<li class="nav-travel linkto-group-1226679525474">
+						<a href="/travel" class="travel travel-index lj-enable" >Travel</a>
+		<ul class="nav-list tier-2">
+			<li class="first">
+						<a href="/travel/travel-updates" >Travel Updates</a>
+			</li>
+			<li>
+						<a href="/travel/travel-advice" >Travel Advice</a>
+			</li>
+			<li>
+						<a href="/travel/travel-ideas" >Travel Ideas</a>
+			</li>
+			<li>
+						<a href="/travel/australian-holidays" >Australian Holidays</a>
+			</li>
+			<li class="last">
+						<a href="/travel/world-travel" >World Travel</a>
+			</li>
+		</ul>
+		<!-- // .tier-2 -->
+			</li>
+			<li class="nav-realestate linkto-group-1226680136457">
+						<a href="/realestate" class="realestate realestate-index" >Realestate</a>
+		<ul class="nav-list tier-2">
+			<li class="first">
+						<a href="/realestate/news" class="realestate-news realestate" >Realestate news</a>
+			</li>
+			<li>
+						<a href="/realestate/buying" class="realestate-buy" >Buying</a>
+			</li>
+			<li>
+						<a href="/realestate/renting" class="realestate-rent" >Renting</a>
+			</li>
+			<li>
+						<a href="/realestate/selling" class="realestate-sell" >Selling</a>
+			</li>
+			<li>
+						<a href="/realestate/investing" class="realestate-invest realestate" >Investing</a>
+			</li>
+			<li class="last">
+						<a href="/realestate/experts" class="realestate-experts realestate" >Experts</a>
+			</li>
+		</ul>
+		<!-- // .tier-2 -->
+			</li>
+			<li class="nav-money linkto-group-1226680133497">
+						<a href="/money" >Money</a>
+		<ul class="nav-list tier-2">
+			<li class="first">
+						<a href="/money/banking" >Banking</a>
+			</li>
+			<li>
+						<a href="/money/cost-of-living" >Cost of living</a>
+			</li>
+			<li>
+						<a href="/money/money-matters" >Money matters</a>
+			</li>
+			<li>
+						<a href="/money/superannuation" >Superannuation</a>
+			</li>
+			<li>
+						<a href="/money/investing" >Investing</a>
+			</li>
+			<li>
+						<a href="/money/david-and-libby-koch" >David &amp; Libby Koch</a>
+			</li>
+			<li class="nav-money-guides-tools">
+						<a href="/money/guides-tools" >Guides &amp; tools</a>
+			</li>
+			<li class="nav-money-blogs">
+						<a  href="http://blogs.news.com.au/moneystuff/index.php/news/blogs_overview">Blogs</a>
+			</li>
+			<li class="last">
+						<a href="/money/federal-budget" >Budget</a>
+			</li>
+		</ul>
+		<!-- // .tier-2 -->
+			</li>
+			<li class="nav-technology linkto-group-1226680140916   active">
+						<a href="/technology" >Tech</a>
+			</li>
+			<li class="nav-video linkto-group-1226679513026     last">
+						<a  href="http://player.video.news.com.au/news/">Video </a>
+		<ul class="nav-list tier-2">
+			<li class="first">
+						<a  href="http://video.news.com.au/News">News </a>
+			</li>
+			<li>
+						<a  href="http://video.news.com.au/Entertainment">Entertainment</a>
+			</li>
+			<li>
+						<a  href="http://video.news.com.au/Lifestyle">Lifestyle</a>
+			</li>
+			<li>
+						<a  href="http://video.news.com.au/Lifestyle/Travel">Travel</a>
+			</li>
+			<li>
+						<a  href="http://video.news.com.au/Business%20and%20Money">Business and Money</a>
+			</li>
+			<li class="last">
+						<a  href="http://video.news.com.au/Technology">Technology</a>
+			</li>
+		</ul>
+		<!-- // .tier-2 -->
+			</li>
+		</ul>
+		<!-- // .tier-1 -->
+
+					</li> <!-- // #nav-level1 -->
+					<li id="nav-level2">
+										
+		<ul class="nav-list tier-1">
+			<li class="first">
+						<a href="/technology/news" >News</a>
+			</li>
+			<li>
+						<a href="/technology/sci-tech" >Sci-Tech</a>
+			</li>
+			<li>
+						<a href="/technology/tablets" >Tablets</a>
+			</li>
+			<li>
+						<a href="/technology/smartphones" >Smartphones</a>
+			</li>
+			<li class="active">
+						<a href="/technology/gaming" >Gaming</a>
+			</li>
+			<li>
+						<a href="/technology/techknow" class="superskin interactive" >TechKnow</a>
+			</li>
+			<li>
+						<a href="/technology/biztech" class="microsoft-office-365-index" >BizTech</a>
+			</li>
+			<li>
+						<a href="/technology/photos" >Photos</a>
+			</li>
+			<li>
+						<a  href="http://getprice.news.com.au/">Product finder</a>
+			</li>
+			<li class="last">
+						<a href="/technology/archive" >Archive</a>
+			</li>
+		</ul>
+		<!-- // .tier-1 -->
+
+					</li> <!-- // #nav-level2 -->
+			</ul><!-- // #nav-wrap -->
+	</div><!-- // # nav -->
+<div id="info-bar">
+		<div class="info-bar-datestamp"><span
+			class="info-bar-datestamp-label">Last updated:
+		</span>
+				<strong class="info-bar-datestamp-date">
+						October 06, 2013
+				  </strong>
+		</div>
+		<!-- // .info-bar-datestamp -->
+		<div class="info-bar-search">
+<div id="site-search">
+</div>
+		</div><!-- // .info-bar-search -->
+			<!-- NMData/summary.jsp - noModule =  -->
+<!-- Generated at Sun Oct 06 09:08:19 EST 2013 -->
+<!-- NMData/summary.jsp - noModule =  -->
+		<div class="info-bar-weather">
+			<div class="slimline-weather">
+				<p>
+					<span class="assistive">Weather: </span>
+					<a href="http://weather.news.com.au/" class="slimline-weather-link">
+						<span class="slimline-weather-icon mostly-sunny"></span>
+						Sydney 15<abbr title="Degrees Celsius">&deg;C</abbr>
+						-
+						31<abbr title="Degree Celsius">&deg;C</abbr>
+					</a>.
+					 Mostly sunny.
+				</p>
+			</div> <!-- // .info-bar-weather -->
+		</div>
+
+</div><!-- // #info-bar -->
+    <div id="content">
+		<!-- IMPACT -231 JIRA Fix start -->
+			
+			
+		<!-- IMPACT -231 JIRA Fix end -->
+		<div id="story">
+		<div id="section-header">
+			<div id="section-header-logo">
+						<h2>Technology</h2>
+			</div><!-- // #section-header-logo -->
+		</div><!-- // #section-header -->
+		<!-- PC related summary IDs: 1226728353594 -->
+	<div class="story-header">
+		<div class="story-section">
+			<h2 class="heading">
+				<a href="/technology/gaming" >Gaming</a>
+			</h2>
+		</div>
+		<div class="story-headline">
+			<h1 class="heading">
+				<!-- google_ad_section_start(name=story_headline, weight=high) -->
+						Valve to release Linux based gaming console and operating system, SteamOS
+				<!-- google_ad_section_end(name=story_headline) -->
+			</h1>
+		</div><!-- // .story-headline -->
+		<div class="story-info">
+			<ul>
+						<li class="byline first ">
+							<span class="source-prefix">by:</span>
+									<cite class="author  author-by-andrew-goldfarb ">By Andrew Goldfarb</cite>
+						</li>
+						<li class="source  ">
+							<span class="source-prefix">From:</span>
+							<cite>
+	        <a class="source-ign" href="http://www.ign.com">IGN</a>
+							</cite>
+						</li>
+					 	<li class="date-and-time  last">
+								<span class="datestamp">September 27, 2013</span>
+								<span class="timestamp">9:49AM</span>
+						</li>
+			</ul>
+		</div><!-- // .story-info -->
+		<div class="story-comments-link"></div>
+			<div class="story-header-tools">
+				<ul class="story-tools">
+					<li class="button-font-inc" title="Increase Text Size"><a href="/help/textsize/" class="js-font-inc">Increase Text Size</a></li>
+					<li class="button-font-dec" title="Decrease Text Size"><a href="/help/textsize/" class="js-font-dec">Decrease Text Size</a></li>
+					<li class="button-print" title="Print Article"><a href="/help/print/" class="js-print">Print</a></li>
+					<li class="button-email" title="Email Article">
+	<a href="mailto:?subject=Valve%20to%20release%20Linux%20gaming%20console(NewsComAu)&body=NewsComAu%0A%0AValve%20to%20release%20Linux%20gaming%20console%0A%0AFrom:NewsComAu%0AFri%20Sep%2027%2009%3A49%3A03%20EST%202013%0AONLINE%20gaming%20company%20Valve%20has%20announced%20it%20will%20be%20releasing%20its%20own%20console%20and%20operating%20system%2E%0AAlternatively, you can copy and paste this link into your browser:%0Ahttp%3A%2F%2Fwww%2Enews%2Ecom%2Eau%2Ftechnology%2Fgaming%2Fsteam%2Dto%2Drelease%2Dlinux%2Dbased%2Dgaming%2Dconsole%2Fstory%2De6frfrt9%2D1226728353594">Email</a>
+					</li>
+					<li class="button-share js-popmenu-parent" title="Share Article">
+			      		<a href="/help/share" class="button-share-link">Share</a>
+	<ul class="share-links">
+		<li class="share-digg lipos-1 lirpos-7"><a target="_blank" href="http://digg.com/submit?phase=2&amp;url=http://www.news.com.au/technology/gaming/steam-to-release-linux-based-gaming-console/story-e6frfrt9-1226728353594?sv=7d411865c977e8bff8becd5140af86a1&amp;title=Valve+to+release+Linux+gaming+console">Add to Digg</a></li>
+		<li class="share-delicious lipos-2 lirpos-6"><a target="_blank" href="http://del.icio.us/post?url=http://www.news.com.au/technology/gaming/steam-to-release-linux-based-gaming-console/story-e6frfrt9-1226728353594?sv=7d411865c977e8bff8becd5140af86a1&amp;title=Valve+to+release+Linux+gaming+console">Add to del.icio.us</a></li>
+		<li class="share-facebook lipos-3 lirpos-5"><a target="_blank" href="http://www.facebook.com/share.php?u=http://www.news.com.au/technology/gaming/steam-to-release-linux-based-gaming-console/story-e6frfrt9-1226728353594?sv=7d411865c977e8bff8becd5140af86a1">Add to Facebook</a></li>
+		<li class="share-kwoff lipos-4 lirpos-4"><a target="_blank" href="http://www.kwoff.com/submit.php?url=http://www.news.com.au/technology/gaming/steam-to-release-linux-based-gaming-console/story-e6frfrt9-1226728353594?sv=7d411865c977e8bff8becd5140af86a1">Add to Kwoff</a></li>
+		<li class="share-myspace lipos-5 lirpos-3"><a target="_blank" href="http://www.myspace.com/index.cfm?fuseaction=postto&amp;t=Valve+to+release+Linux+gaming+console&amp;c=ONLINE+gaming+company+Valve+has+announced+it+will+be+releasing+its+own+console+and+operating+system+called+SteamOS.&amp;u=http://www.news.com.au/technology/gaming/steam-to-release-linux-based-gaming-console/story-e6frfrt9-1226728353594?sv=7d411865c977e8bff8becd5140af86a1">Add to Myspace</a></li>
+		<li class="share-newsvine lipos-6 lirpos-2"><a target="_blank" href="http://www.newsvine.com/_wine/save?popoff=0&amp;u=http://www.news.com.au/technology/gaming/steam-to-release-linux-based-gaming-console/story-e6frfrt9-1226728353594?sv=7d411865c977e8bff8becd5140af86a1&amp;h=Valve+to+release+Linux+gaming+console">Add to Newsvine</a></li>
+		<li class="share-help lipos-7 lirpos-1"><a target="_blank" href="/help/share/">What are these?</a></li>
+	</ul>
+					</li>
+				</ul>
+			</div> <!-- // .story-header-tools -->
+	</div><!-- .story-header -->
+	<div class="story-body  lead-media-large">
+	<div class="article-media article-media-large media-count-1 first-image-650w366h">
+		<div class="">
+								<div class="image ">
+									<div class="image-frame image-650w366h">
+										<img src="http://resources3.news.com.au/images/2013/09/27/1226728/359439-valve.jpg" alt="Valve"  width="650"  height="366"  />
+									</div> <!-- // .image-frame -->
+										<p class="caption">
+												<span class="caption-text">Valve has announced it will be releasing a gaming system for the living room. Picture: IGN </span>
+												<span class="image-source"><em>Source:</em> Supplied</span>
+										</p> <!-- // .caption -->
+								</div>
+		</div> <!-- // .tabs .js-tabbed -->
+	</div> <!-- // .article-media -->
+			<div class="story-intro">
+				<p><strong>
+				<!-- google_ad_section_start(name=story_introduction, weight=high) -->
+				ONLINE gaming company Valve has announced it will be releasing its own console and operating system.
+				<!-- google_ad_section_end(name=story_introduction) -->
+				</strong></p>
+			</div><!-- // .story-intro -->
+		<!-- google_ad_section_start(name=story_body, weight=high) -->
+		<p>The company behind the SSteam gaming platform has revealed SteamOS, the operating system that will power its upcoming living room initiative.</p> <p><a target="_blank" href="http://au.ign.com/"><strong>Read more at IGN.</strong></a></p> <p>According to Valve's site, &quot;SteamOS combines the rock-solid architecture of Linux with a gaming experience built for the big screen. It will be available soon as a free stand-alone operating system for living room machines.&quot;</p> <p>&quot;We&rsquo;ve come to the conclusion that the environment best suited to delivering value to customers is an operating system built around Steam itself,&quot; the site continues.</p> <p>SteamOS will tie in with Steam, and &quot;you don&rsquo;t have to give up your favorite games, your online friends, and all the Steam features you love just to play on the big screen. SteamOS, running on any living room machine, will provide access to the best games and user-generated content available.&quot;</p>
+	<div class="story-related story-sidebar block-style">
+			<div class="assistive sidebar-jump" id="sidebar-start"><p>Start of sidebar. <a href="#sidebar-end">Skip to end of sidebar.</a></p></div>
+			<div class="group item-count-1">
+				<div class="group-content sidebar-related-content">
+					<div class="item ipos-1 irpos-1">
+<!-- promo-image-01 -->
+<div class="module module-promo-image-01   id1226620708189 text-m-news-technology-promo-related-links">
+    <div class="module-content">
+<!-- promo-image-a -->
+<div class="promo-block promo-image-01  ">
+</div><!-- // .promo-block.promo-image-01 -->
+    </div><!-- // .module-content -->
+</div><!-- // .module.module-promo-image-01 -->
+					<!-- google_ad_section_end(name=story_related) -->
+ 					</div><!-- item ipos-1 irpos-1 -->
+				</div><!-- group-content -->
+			</div><!-- group item-count-1 -->
+    	<div class="assistive sidebar-jump" id="sidebar-end"><p>End of sidebar. <a href="#sidebar-start">Return to start of sidebar.</a></p></div>
+	</div><!-- story-related story-sidebar -->
+	 <p>Valve says Steam OS has &quot;achieved significant performance increases in graphics processing, and we&rsquo;re now targeting audio performance and reductions in input latency at the operating system level. Game developers are already taking advantage of these gains as they target SteamOS for their new releases.&quot;</p> <p>&nbsp;</p> <p><iframe width="640" scrolling="no" height="366" frameborder="0" src="http://widgets.ign.com/video/embed/content.html?url=http://www.ign.com/videos/2013/09/23/valve-reveals-linux-based-steamos" allowfullscreen=""></iframe></p> <p>&quot;Steam is not a one-way content broadcast channel, it&rsquo;s a collaborative many-to-many entertainment platform, in which each participant is a multiplier of the experience for everyone else,&quot; Valve writes. &quot;With SteamOS, 'openness' means that the hardware industry can iterate in the living room at a much faster pace than they&rsquo;ve been able to. Content creators can connect directly to their customers. Users can alter or replace any part of the software or hardware they want. Gamers are empowered to join in the creation of the games they love. SteamOS will continue to evolve, but will remain an environment designed to foster these kinds of innovation.&quot;</p> <p>Valve notes four new features that will be integrated into SteamOS:</p> <p>In-Home Streaming: A machine running SteamOS will be able to stream games running on your existing computer to your TV:<br /> <br /> <strong>- Family Sharing:</strong> <a href="http://au.ign.com/articles/2013/09/20/valve-teases-three-announcements-next-week">As Valve previously teased</a>, multiple people will be able to take turns playing games within a single Steam account while earning their own achievements and saving their own progress to the cloud<br /> <strong>- Media Services:</strong> Valve says it's working with &quot;many of the media services you know and love,&quot; to allow &quot;access your favorite music and video with Steam and SteamOS.&quot;<br /> <strong>- Family Options: </strong>Families will &quot;have more control over what titles get seen by whom,&quot; likely implying some sort of parental control system.</p> <p><br /> <iframe width="640" scrolling="no" height="366" frameborder="0" allowfullscreen="" src="http://widgets.ign.com/video/embed/content.html?url=http://www.ign.com/videos/2013/09/20/valve-announcement-speculation"></iframe>  According to Valve, &quot;hundreds of great games are already running natively on SteamOS,&quot; and announcements &quot;in the coming weeks&quot; will show off &quot;all the AAA titles coming natively to SteamOS in 2014.&quot; The full Steam catalog will be accessible for in-home streaming, as well as access to the Steam Cloud, Steam Workshop and all of the Friends features in Steam. SteamOS will also be &quot;constantly evolving&quot; and will &quot;continue to deliver not only valuable game updates directly from content makers, but also regular additions and new features to the OS itself.&quot;</p> <p>Valve says SteamOS &quot;will be available soon as a free download for users and as a freely licensable operating system for manufacturers&quot; and is teasing two more announcements this week, with the second to follow on Wednesday, September 25th at 10:00 a.m. Pacific.</p> <p><a href="http://au.ign.com/articles/2013/09/23/valve-reveals-linux-based-steamos"><br /></a> <a href="http://au.ign.com/articles/2013/09/23/valve-reveals-linux-based-steamos"><em>This story was originally published on IGN.</em></a></p>
+	<!-- google_ad_section_end(name=story_body) -->
+	</div><!-- // .story-body -->
+	<div class="story-comments-link"></div>
+	<div class="story-footer">
+	    <div class="story-footer-tools">
+	        <ul class="story-tools">
+	            <li class="button-font-inc" title="Increase Text Size"><a href="/help/textsize/" class="js-font-inc">Increase Text Size</a></li>
+	            <li class="button-font-dec" title="Decrease Text Size"><a href="/help/textsize/" class="js-font-dec">Decrease Text Size</a></li>
+	            <li class="button-print" title="Print Article"><a href="/help/print/" class="js-print">Print</a></li>
+	            <li class="button-email" title="Email Article">
+	<a href="mailto:?subject=Valve%20to%20release%20Linux%20gaming%20console(NewsComAu)&body=NewsComAu%0A%0AValve%20to%20release%20Linux%20gaming%20console%0A%0AFrom:NewsComAu%0AFri%20Sep%2027%2009%3A49%3A03%20EST%202013%0AONLINE%20gaming%20company%20Valve%20has%20announced%20it%20will%20be%20releasing%20its%20own%20console%20and%20operating%20system%2E%0AAlternatively, you can copy and paste this link into your browser:%0Ahttp%3A%2F%2Fwww%2Enews%2Ecom%2Eau%2Ftechnology%2Fgaming%2Fsteam%2Dto%2Drelease%2Dlinux%2Dbased%2Dgaming%2Dconsole%2Fstory%2De6frfrt9%2D1226728353594">Email</a>
+				</li>
+				<li class="button-share js-popmenu-parent" title="Share Article">
+		      		<a href="/help/share" class="button-share-link">Share</a>
+	<ul class="share-links">
+		<li class="share-digg lipos-1 lirpos-7"><a target="_blank" href="http://digg.com/submit?phase=2&amp;url=http://www.news.com.au/technology/gaming/steam-to-release-linux-based-gaming-console/story-e6frfrt9-1226728353594?sv=7d411865c977e8bff8becd5140af86a1&amp;title=Valve+to+release+Linux+gaming+console">Add to Digg</a></li>
+		<li class="share-delicious lipos-2 lirpos-6"><a target="_blank" href="http://del.icio.us/post?url=http://www.news.com.au/technology/gaming/steam-to-release-linux-based-gaming-console/story-e6frfrt9-1226728353594?sv=7d411865c977e8bff8becd5140af86a1&amp;title=Valve+to+release+Linux+gaming+console">Add to del.icio.us</a></li>
+		<li class="share-facebook lipos-3 lirpos-5"><a target="_blank" href="http://www.facebook.com/share.php?u=http://www.news.com.au/technology/gaming/steam-to-release-linux-based-gaming-console/story-e6frfrt9-1226728353594?sv=7d411865c977e8bff8becd5140af86a1">Add to Facebook</a></li>
+		<li class="share-kwoff lipos-4 lirpos-4"><a target="_blank" href="http://www.kwoff.com/submit.php?url=http://www.news.com.au/technology/gaming/steam-to-release-linux-based-gaming-console/story-e6frfrt9-1226728353594?sv=7d411865c977e8bff8becd5140af86a1">Add to Kwoff</a></li>
+		<li class="share-myspace lipos-5 lirpos-3"><a target="_blank" href="http://www.myspace.com/index.cfm?fuseaction=postto&amp;t=Valve+to+release+Linux+gaming+console&amp;c=ONLINE+gaming+company+Valve+has+announced+it+will+be+releasing+its+own+console+and+operating+system+called+SteamOS.&amp;u=http://www.news.com.au/technology/gaming/steam-to-release-linux-based-gaming-console/story-e6frfrt9-1226728353594?sv=7d411865c977e8bff8becd5140af86a1">Add to Myspace</a></li>
+		<li class="share-newsvine lipos-6 lirpos-2"><a target="_blank" href="http://www.newsvine.com/_wine/save?popoff=0&amp;u=http://www.news.com.au/technology/gaming/steam-to-release-linux-based-gaming-console/story-e6frfrt9-1226728353594?sv=7d411865c977e8bff8becd5140af86a1&amp;h=Valve+to+release+Linux+gaming+console">Add to Newsvine</a></li>
+		<li class="share-help lipos-7 lirpos-1"><a target="_blank" href="/help/share/">What are these?</a></li>
+	</ul>
+				</li>
+	        </ul>
+	    </div><!-- // .story-footer-tools -->
+	    <div class="story-footer-more">
+	        <p class="story-footer-top-link"><a href="#page">Back to top of page</a></p>
+	    </div><!-- // .story-footer-more -->
+	</div><!-- // .story-footer -->
+        <div class="google-ads-group group-story-footer   group gpos-1 grpos-1 item-count-0">
+				
+<!-- [Group:1226121872836] on [fwprodcontent05.ni.news.com.au] @ [October 06, 2013 9:39AM] -->
+<div class="group google-ads-group group-story-footer   text-g-news-grp-google-ads-technology-article-page item-count-3  group-id-1226121872836">
+		<div class="group-content">
+			<div class="item ipos-1 irpos-3">
+		<div class="ad ad-adsensemedium mpos-1 mrpos-1" id="ad-adsensemedium" >
+		    <div class="ndmadkit ndmadkit-adsensemedium"><script type="text/javascript">ndm.kit.adsensemedium();</script></div><!-- // .ndmadkit -->
+		    <div class="ndmadkit ndmadkit-adsensemedium"><script type="text/javascript">ndm.kit.adsensemedium();</script></div><!-- // .ndmadkit -->
+		    <div class="ndmadkit ndmadkit-adsensemedium"><script type="text/javascript">ndm.kit.adsensemedium();</script></div><!-- // .ndmadkit -->
+		</div><!-- // .ad .ad-adsensemedium -->
+			</div><!-- // .item ipos-1 irpos-3 -->
+			<div class="item ipos-2 irpos-2">
+	<div class="custom-html   ">
+		<div id="follow-us-basic" class="module module-head-basic module-follow-us module-follow-us-basic">
+	<div class="module-header"><h3 class="heading">Follow us</h3></div>
+	<div class="module-content">
+		<div class="follow-facebook">
+			<strong><a id="follow-button" title="Find news.com.au on Facebook" href="https://www.facebook.com/news.com.au" target="_blank">Find news.com.au</a></strong> on Facebook
+		</div>
+<div class="follow-twitter">
+			<strong><a id="follow-button" title="Follow @newscomauHQ on twitter" href="#" target="_blank">@newscomauHQ</a></strong> on Twitter
+		</div>
+	</div>
+</div>
+	</div><!-- // .custom-html -->
+	<div class="custom-html   ">
+		<![if !IE]>
+    <div id="story-social" class="module module-story-social"><div class="module-content"></div></div>
+<![endif]>
+<!--[if gt IE 7]>
+    <div id="story-social" class="module module-story-social"><div class="module-content"></div></div>
+<![endif]-->
+<div class="story-header-container"></div>
+<script>
+/*global jQuery, ndm */
+/*jslint white: true, browser: true */
+(function ($, NCA) {
+    "use strict";
+    NCA.page = NCA.page || {};
+    NCA.page.story = function () {
+        var $storyheader = $('#story div.story-header'),
+            $storytools = $('#story div.story-header .story-header-tools'),
+            $storyintro = $('#story div.story-intro');
+        if ($('#story').length) {
+            // add breadcrumbs to story header
+            $storyheader.breadcrumbs();
+            // add story summary bullets and comments link before story tools in header
+            $storytools.before($('#story div.story-summary-list'));
+            $storytools.before($('#story .story-comments-link'));
+            // add social buttons within story header tools
+            $storytools.prepend($('#story-social'));
+            // add story intro after story promo and story sidebar
+            $storyintro.before($('#story div.story-promo-middle'));
+            $storyintro.before($('#story div.story-sidebar'));
+            // wrap story headline, story info, story summary and story comments in container for styling
+            $('#story .story-headline, #story .story-info, #story .story-summary-list, #story .story-comments-link').wrapAll('.story-header-container');
+            $storytools.before($('.story-header-container'));
+        }
+    };
+    if (ndm && ndm.newscomau && ndm.newscomau.page && ndm.newscomau.page.story) {
+        ndm.newscomau.page.story();
+        var $sidebarpoll = $('#story div.story-sidebar .poll-module');
+        // add poll class to sidebar module
+        if ($('body.entertainment').length) {
+            $sidebarpoll.addClass('ent-text-poll-basic');
+        } else {
+            $sidebarpoll.addClass('news-text-poll-basic');
+        }
+    }
+}(ndm.jQuery, ndm.newscomau));
+</script>
+	</div><!-- // .custom-html -->
+			</div><!-- // .item ipos-2 irpos-2 -->
+			<div class="item ipos-3 irpos-1">
+	<div class="custom-html news-outbrain-custom   ">
+		<div id="news-outbrain-widget" class="news-outbrain-widget">
+	<div class="OUTBRAIN outbrain-ar-1" data-widget-id="AR_1" data-ob-template="Newsltd" async="async"></div>
+	<div class="OUTBRAIN outbrain-ar-2" data-widget-id="AR_2" data-ob-template="Newsltd" async="async"></div>
+	<div class="OUTBRAIN outbrain-ar-3" data-widget-id="AR_3" data-ob-template="Newsltd" async="async"></div>
+        <div class="OUTBRAIN outbrain-sb-1" data-widget-id="SB_1" data-ob-template="Newsltd" async="async"></div>
+</div><!-- // #news-outbrain-widget.news-outbrain-widget -->
+<script type="text/javascript">
+/*global jQuery, ndm */
+(function ($) {
+    "use strict";
+    var metaog = $('meta[property="og:url"]').attr('content');
+    // add the article meta og:url link to the outbrain widget data-src as the permalink
+    $('#news-outbrain-widget .OUTBRAIN').each(function () {
+		$(this).data("src", metaog);
+	});
+}(ndm.jQuery));
+</script>
+<script type="text/javascript" src="http://widgets.outbrain.com/outbrain.js"></script>
+	</div><!-- // .custom-html -->
+			</div><!-- // .item ipos-3 irpos-1 -->
+		</div><!-- // .group-content.item-count-3 -->
+</div><!-- // .group -->
+
+        </div><!-- // .group gpos-1 grpos-1 -->
+	<div class="story-extras story-extras-2">
+			<div class="group-head-basic group-layout-3   group gpos-1 grpos-1 item-count-2">
+				
+<!-- [Group:1225867874448] on [fwprodcontent08.ni.news.com.au] @ [October 06, 2013 9:38AM] -->
+<div class="group group-head-basic group-layout-3   text-g-more-technology-news item-count-2  group-id-1225867874448">
+		<div class="group-header">
+					<h2 class="heading">More technology news</h2>
+		</div><!-- // .group-header -->
+		<div class="group-content">
+			<div class="item ipos-1 irpos-2">
+		<div class="module default      first-image-100w75h  collection mpos-1 mrpos-1 text-m-news-tech-plmt-more-sci-tech-stories id1225869679976" id="id1225869679976">
+			<div class="module-content ">
+			<div class="story-block    sectionref-sci-tech sbpos-1 sbrpos-1 id1226732320634">
+			<!-- PC related summary IDs: 1226732320634 -->
+			<!-- PC related summary IDs: 1226732320634 -->
+	<!-- PC related summary IDs: 1226732320634 -->
+		<h4 class="heading">
+			<a href="/technology/sci-tech/calcified-photographer-nick-brandts-stunning-representation-of-life-in-death/story-fn5fsgyc-1226732320634" >The lake of the living dead</a>
+		</h4>
+					<a href="/technology/sci-tech/calcified-photographer-nick-brandts-stunning-representation-of-life-in-death/story-fn5fsgyc-1226732320634" class="thumb-link" ><img src="http://resources0.news.com.au/images/2013/10/04/1226732/364656-flamingo.jpg" alt="Flamingo"  class="thumbnail"  width="100"  height="75"  /></a>
+	<p class="standfirst">
+			<strong class="standfirst-kicker "></strong>
+		A LAKE so poisonous that almost nothing can live there has become a canvas for an artist who has captured the essence of life in death.
+	</p> <!-- // .standfirst11 -->
+	<!-- PC related summary IDs: 1226732320634 -->
+			</div> <!-- // .story-block   pos-1 rpos-1 id1226732320634 -->
+			<!-- PC related IDs: 1226732842544 -->
+			<!-- PC related IDs: 1226732637015 -->
+			<!-- PC related IDs: 1226732609306 -->
+			<!-- PC related IDs: 1226732236619 -->
+				<ul class="related related-content ">
+								<li class="story   first  lipos-1   "><a href="/technology/sci-tech/this-is-scary-evil-irish-devil-cat-meows-8216go-awaaaay8217-terror-ensues/story-fn5fsgyc-1226732842544" > The world's most evil 'talking' cat </a></li>
+								<li class="story     lipos-2   "><a href="/technology/sci-tech/radical-ookp-surgery-implants-tooth-with-lens-into-blind-man-ian-tibbets-eye-and-restores-sight-he-sees-twin-sons-faces-for-first-time/story-fn5fsgyc-1226732637015" > Tooth implant helps blind man see <span class="video" title="This story contains video."></span> </a></li>
+								<li class="story     lipos-3   "><a href="/technology/sci-tech/superbugs-tipped-to-outlast-antibotics/story-fn5fsgyc-1226732609306" > Brace for a world without antibiotics </a></li>
+								<li class="story    last lipos-4   "><a href="/technology/sci-tech/the-tiny-chandelier-with-a-huge-price-tag/story-fn5fsgyc-1226732236619" > The tiny chandelier with a huge price tag </a></li>
+				</ul>
+			</div> <!-- // .module-content -->
+			<div class="module-footer">
+		<ul class="more-links mpos-1 mrpos-1 tier-1">
+			<li>
+						<a href="/technology/sci-tech" >More Sci-Tech</a>
+			</li>
+		</ul>
+		<!-- // .tier-1 -->
+			</div> <!-- // .module-footer -->
+		</div> <!-- // .module .collection -->
+			</div><!-- // .item ipos-1 irpos-2 -->
+			<div class="item ipos-2 irpos-1">
+		<div class="module default      first-image-100w75h  collection mpos-1 mrpos-1 text-m-tech-pmnt-more-technology-news-2 id1226132422967" id="id1226132422967">
+			<div class="module-content ">
+			<div class="story-block    has-comment sectionref-news sbpos-1 sbrpos-1 id1226733359769">
+			<!-- PC related summary IDs: 1226733359769 -->
+			<!-- PC related summary IDs: 1226733359769 -->
+	<!-- PC related summary IDs: 1226733359769 -->
+		<h4 class="heading">
+			<a href="/technology/the-seven-worst-types-of-facebook-statuses-and-how-you-can-avoid-them/story-e6frfro0-1226733359769" >What your Facebook status says about you</a>
+		</h4>
+					<a href="/technology/the-seven-worst-types-of-facebook-statuses-and-how-you-can-avoid-them/story-e6frfro0-1226733359769" class="thumb-link" ><img src="http://resources3.news.com.au/images/2013/10/05/1226733/373579-5da2a0ce-2bdf-11e3-8568-6d90cd61124d.jpg" alt="What your Facebook status says about you"  class="thumbnail"  width="100"  height="75"  /></a>
+	<p class="standfirst">
+		ANNOYING Facebook status updates - we're all guilty of them. Here is a guide on how to avoid the blunders and hold onto your Facebook friends.
+	</p> <!-- // .standfirst11 -->
+		<p class="comments comment-count-gte-20-lt-50">
+			<a href="/technology/the-seven-worst-types-of-facebook-statuses-and-how-you-can-avoid-them/comments-e6frfro0-1226733359769">28 comments on this story</a>
+		</p>
+	<!-- PC related summary IDs: 1226733359769 -->
+			</div> <!-- // .story-block   pos-1 rpos-1 id1226733359769 -->
+			<!-- PC related IDs: 1226733317958 -->
+			<!-- PC related IDs: 1226733312478 -->
+			<!-- PC related IDs: 1226733101844 -->
+			<!-- PC related IDs: 1226732862848 -->
+				<ul class="related related-content ">
+								<li class="story   first  lipos-1   "><a href="/technology/moroccan-teens-arrested-for-facebook-kiss/story-e6frfro0-1226733317958" > Teens arrested for Facebook kiss <span class="video" title="This story contains video."></span> </a></li>
+								<li class="story     lipos-2   "><a href="/technology/china-employs-two-million-people-to-monitor-online-activity-and-report-on-public-opinion/story-e6frfro0-1226733312478" > China employs 2 million web monitors </a></li>
+								<li class="story     lipos-3   "><a href="/technology/twitter8217s-future-plans-revealed-as-ipo-document-becomes-public/story-e6frfro0-1226733101844" > Twitter's secrets revealed in document </a></li>
+								<li class="story    last lipos-4   "><a href="/technology/talkback-host-queen-latifah-offers-youtube-quitter-marina-shifrin-a-job/story-e6frfro0-1226732862848" > Talkback Queen offers quitter a job <span class="video" title="This story contains video."></span> </a></li>
+				</ul>
+			</div> <!-- // .module-content -->
+			<div class="module-footer">
+		<ul class="more-links mpos-1 mrpos-1 tier-1">
+			<li>
+						<a href="/technology/news" >More Technology News</a>
+			</li>
+		</ul>
+		<!-- // .tier-1 -->
+			</div> <!-- // .module-footer -->
+		</div> <!-- // .module .collection -->
+			</div><!-- // .item ipos-2 irpos-1 -->
+		</div><!-- // .group-content.item-count-2 -->
+</div><!-- // .group -->
+
+			</div><!-- // .group gpos-1 grpos-1 -->
+	</div><!-- // .story-extras-2 -->
+			<div class="story-promo story-promo-bottom">
+			</div>
+        </div><!-- // #story -->
+			<div id="content-3">
+				
+<!-- [Group:1226106711146] on [fwprodcontent06.ni.news.com.au] @ [October 06, 2013 9:41AM] -->
+<div class="group   text-g-tech-group-story-page-rhc item-count-1  group-id-1226106711146">
+		<div class="group-content">
+			<div class="item ipos-1 irpos-1">
+		<div class="ad ad-halfpage mpos-1 mrpos-8" id="ad-halfpage" >
+		    <div class="ndmadkit ndmadkit-halfpage"><script type="text/javascript">ndm.kit.halfpage();</script></div><!-- // .ndmadkit -->
+		    <div class="ndmadkit ndmadkit-halfpage"><script type="text/javascript">ndm.kit.halfpage();</script></div><!-- // .ndmadkit -->
+		    <div class="ndmadkit ndmadkit-halfpage"><script type="text/javascript">ndm.kit.halfpage();</script></div><!-- // .ndmadkit -->
+		</div><!-- // .ad .ad-halfpage -->
+		<div class="module default    module-head-basic news-plmnt-basic   first-image-100w75h  collection mpos-2 mrpos-7 text-m-todays-top-stories id1226218393499" id="id1226218393499">
+			<div class="module-header">
+								<h3 class="heading ">Today's Top Stories</h3>
+			</div>
+			<!-- // .module-header -->
+			<div class="module-content ">
+			<div class="content-item   sbpos-1 sbrpos-3 id1226731965731">
+<!-- promo-block-b -->
+        <div class="promo-block promo-block-07  ">
+				<div class="promo-image"><a href="/national-news/wife-of-matthew-joyce-tells-of-dubai-torment/story-fncynjr2-1226733483805" ><img src="http://resources0.news.com.au/images/2013/10/06/1226733/604628-dubai.jpg" alt="Dubai"  width="316"  height="237"  /></a></div><!-- // .promo-image -->
+            <div class="promo-inner">
+					<div class="promo-heading"><h4 class="heading">
+			             <a href="/national-news/wife-of-matthew-joyce-tells-of-dubai-torment/story-fncynjr2-1226733483805" >DUBAI JAIL HELL: Aussie family stuck in desert prison</a>
+					</h4></div><!-- // .promo-heading -->
+                    <div class="promo-text"><p>THE wife of Australian property developer Matthew Joyce, jailed in Dubai, says she may be forced to break up her family and fears her husband may never be able to return home.</p></div><!-- // .promo-text -->
+            </div><!-- // .promo-inner -->
+        </div><!-- // .promo-block.promo-block-07 -->
+			</div> <!-- // .content-item pos-1 rpos-3 id1226731965731 -->
+			<div class="story-block    sectionref-techknow sbpos-2 sbrpos-2 id1226733572123">
+			<!-- PC related summary IDs: 1226733572123 -->
+			<!-- PC related summary IDs: 1226733572123 -->
+	<!-- PC related summary IDs: 1226733572123 -->
+		<h4 class="heading">
+			<a href="/technology/techknow/the-most-ridiculous-youtube-howto-videos/story-fnda1lbo-1226733572123" >Ridiculous YouTube How-To videos</a>
+		</h4>
+					<a href="/technology/techknow/the-most-ridiculous-youtube-howto-videos/story-fnda1lbo-1226733572123" class="thumb-link" ><img src="http://resources2.news.com.au/images/2013/10/06/1226733/609486-4b0a2bb2-2cac-11e3-8800-e6347622c0aa.jpg" alt="Ridiculous YouTube How-To videos"  class="thumbnail"  width="100"  height="75"  /></a>
+	<p class="standfirst">
+		WE'VE all been there. You have a very specific problem that you don't know how to solve. Don't worry, there's ALWAYS YouTube.
+	</p> <!-- // .standfirst11 -->
+	<!-- PC related summary IDs: 1226733572123 -->
+			</div> <!-- // .story-block   pos-2 rpos-2 id1226733572123 -->
+			<div class="story-block    sectionref-celebrity sbpos-3 sbrpos-1 id1226733584030">
+			<!-- PC related summary IDs: 1226733584030 -->
+			<!-- PC related summary IDs: 1226733584030 -->
+	<!-- PC related summary IDs: 1226733584030 -->
+		<h4 class="heading">
+			<a href="/entertainment/celebrity/chris-brown-lost-his-virginity-aged-eight-calls-rihanna-assault-a-wake-up-call/story-e6frfmqi-1226733584030" >Brown 'lost his virginity aged eight'</a>
+		</h4>
+					<a href="/entertainment/celebrity/chris-brown-lost-his-virginity-aged-eight-calls-rihanna-assault-a-wake-up-call/story-e6frfmqi-1226733584030" class="thumb-link" ><img src="http://resources2.news.com.au/images/2013/10/06/1226733/584178-brown-lost-his-virginity-aged-eight-.jpg" alt="Brown 'lost his virginity aged eight'"  class="thumbnail"  width="100"  height="75"  /></a>
+	<p class="standfirst">
+			<strong class="standfirst-kicker "></strong>
+		CHRIS Brown has revealed how he lost his virginity at eight, in an interview in which he called the assault on ex Rihanna the &quot;biggest wake-up call&quot;.
+	</p> <!-- // .standfirst11 -->
+	<!-- PC related summary IDs: 1226733584030 -->
+			</div> <!-- // .story-block   pos-3 rpos-1 id1226733584030 -->
+			</div> <!-- // .module-content -->
+		</div> <!-- // .module .collection -->
+<!-- promo-splash-01 -->
+<div class="module module-promo-splash-01 promo-class-marketing-feature  mpos-3 mrpos-6 id1226104307749 text-m-news-promo-marketing">
+    <div class="module-content">
+<!-- promo-splash-a -->
+<div class="promo-block promo-splash-01 marketing-feature  ">
+</div><!-- // .promo-splash.promo-splash-01 -->
+    </div><!-- // .module-content -->
+</div><!-- // .module.module-promo-splash-01 -->
+		<div class="module default    module-head-basic news-plmnt-basic   first-image-100w75h  collection mpos-4 mrpos-5 text-m-technology-top-stories id1226106718025" id="id1226106718025">
+			<div class="module-header">
+								<h3 class="heading ">Technology Top Stories</h3>
+			</div>
+			<!-- // .module-header -->
+			<div class="module-content ">
+			<div class="story-block    sectionref-gaming sbpos-1 sbrpos-8 id1226733421710">
+			<!-- PC related summary IDs: 1226733421710 -->
+			<!-- PC related summary IDs: 1226733421710 -->
+	<!-- PC related summary IDs: 1226733421710 -->
+		<h4 class="heading">
+			<a href="/technology/gaming/violent-gaming-apps-among-thousands-unclassified-as-authorities-struggle-to-keep-up/story-e6frfrt9-1226733421710" >Dangerous games slip through net</a>
+		</h4>
+					<a href="/technology/gaming/violent-gaming-apps-among-thousands-unclassified-as-authorities-struggle-to-keep-up/story-e6frfrt9-1226733421710" class="thumb-link" ><img src="http://resources3.news.com.au/images/2013/10/05/1226733/421571-ccd5177a-2d78-11e3-8568-6d90cd61124d.jpg" alt="Dangerous games slip through net "  class="thumbnail"  width="100"  height="75"  /></a>
+	<p class="standfirst">
+		TENS of thousands of video games, some featuring violence and drug use, are escaping classification laws because authorities don't have time to examine them.
+	</p> <!-- // .standfirst11 -->
+	<!-- PC related summary IDs: 1226733421710 -->
+			</div> <!-- // .story-block   pos-1 rpos-8 id1226733421710 -->
+			<div class="story-block    has-comment sectionref-news sbpos-2 sbrpos-7 id1226733359769">
+			<!-- PC related summary IDs: 1226733359769 -->
+			<!-- PC related summary IDs: 1226733359769 -->
+	<!-- PC related summary IDs: 1226733359769 -->
+		<h4 class="heading">
+			<a href="/technology/the-seven-worst-types-of-facebook-statuses-and-how-you-can-avoid-them/story-e6frfro0-1226733359769" >What your Facebook status says about you</a>
+		</h4>
+					<a href="/technology/the-seven-worst-types-of-facebook-statuses-and-how-you-can-avoid-them/story-e6frfro0-1226733359769" class="thumb-link" ><img src="http://resources3.news.com.au/images/2013/10/05/1226733/373579-5da2a0ce-2bdf-11e3-8568-6d90cd61124d.jpg" alt="What your Facebook status says about you"  class="thumbnail"  width="100"  height="75"  /></a>
+	<p class="standfirst">
+		ANNOYING Facebook status updates - we're all guilty of them. Here is a guide on how to avoid the blunders and hold onto your Facebook friends.
+	</p> <!-- // .standfirst11 -->
+		<p class="comments comment-count-gte-20-lt-50">
+			<a href="/technology/the-seven-worst-types-of-facebook-statuses-and-how-you-can-avoid-them/comments-e6frfro0-1226733359769">28 comments on this story</a>
+		</p>
+	<!-- PC related summary IDs: 1226733359769 -->
+			</div> <!-- // .story-block   pos-2 rpos-7 id1226733359769 -->
+			<div class="story-block   has-video sectionref-news sbpos-3 sbrpos-6 id1226733317958">
+			<!-- PC related summary IDs: 1226733317958 -->
+			<!-- PC related summary IDs: 1226733317958 -->
+	<!-- PC related summary IDs: 1226733317958 -->
+		<h4 class="heading">
+			<a href="/technology/moroccan-teens-arrested-for-facebook-kiss/story-e6frfro0-1226733317958" >Teens arrested for Facebook kiss</a>
+		</h4>
+					<a href="/technology/moroccan-teens-arrested-for-facebook-kiss/story-e6frfro0-1226733317958" class="thumb-link" ><img src="http://resources3.news.com.au/images/2013/10/05/1226733/320595-teen-kiss.jpg" alt="teen kiss"  class="thumbnail"  width="100"  height="75"  /></a>
+	<p class="standfirst">
+			<strong class="standfirst-kicker "></strong>
+		MOROCCAN police have arrested a teenage boy and girl for posting a photo on Facebook of themselves kissing, with the incident provoking a slew of copycats.
+			<span class="video" title="This story contains video."></span>
+	</p> <!-- // .standfirst11 -->
+	<!-- PC related summary IDs: 1226733317958 -->
+			</div> <!-- // .story-block   pos-3 rpos-6 id1226733317958 -->
+			<div class="story-block    sectionref-news sbpos-4 sbrpos-5 id1226733312478">
+			<!-- PC related summary IDs: 1226733312478 -->
+			<!-- PC related summary IDs: 1226733312478 -->
+	<!-- PC related summary IDs: 1226733312478 -->
+		<h4 class="heading">
+			<a href="/technology/china-employs-two-million-people-to-monitor-online-activity-and-report-on-public-opinion/story-e6frfro0-1226733312478" >China employs 2 million web monitors</a>
+		</h4>
+					<a href="/technology/china-employs-two-million-people-to-monitor-online-activity-and-report-on-public-opinion/story-e6frfro0-1226733312478" class="thumb-link" ><img src="http://resources0.news.com.au/images/2013/10/05/1226733/312544-china-online-computers.jpg" alt="China online computers"  class="thumbnail"  width="100"  height="75"  /></a>
+	<p class="standfirst">
+			<strong class="standfirst-kicker "></strong>
+		CHINA employs more than 2 million people to secretly monitor online activity and flag negative posts, state media reports.
+	</p> <!-- // .standfirst11 -->
+	<!-- PC related summary IDs: 1226733312478 -->
+			</div> <!-- // .story-block   pos-4 rpos-5 id1226733312478 -->
+			<div class="story-block    sectionref-companies sbpos-5 sbrpos-4 id1226733272446">
+			<!-- PC related summary IDs: 1226733272446 -->
+			<!-- PC related summary IDs: 1226733272446 -->
+	<!-- PC related summary IDs: 1226733272446 -->
+		<h4 class="heading">
+			<a href="/business/companies/twitter-bares-all-ahead-of-us1-billion-float/story-fnda1bsz-1226733272446" >Twitter bares all in IPO filing</a>
+		</h4>
+					<a href="/business/companies/twitter-bares-all-ahead-of-us1-billion-float/story-fnda1bsz-1226733272446" class="thumb-link" ><img src="http://resources1.news.com.au/images/2013/10/04/1226733/274625-us-internet-company-twitter.jpg" alt="US-INTERNET-COMPANY-TWITTER"  class="thumbnail"  width="100"  height="75"  /></a>
+	<p class="standfirst">
+			<strong class="standfirst-kicker "></strong>
+		TWITTER'S IPO documents are full of tantalising tidbits about its growth and its attempts to make money from its influential short messaging service.
+	</p> <!-- // .standfirst11 -->
+	<!-- PC related summary IDs: 1226733272446 -->
+			</div> <!-- // .story-block   pos-5 rpos-4 id1226733272446 -->
+			<div class="story-block    sectionref-news sbpos-6 sbrpos-3 id1226733101844">
+			<!-- PC related summary IDs: 1226733101844 -->
+			<!-- PC related summary IDs: 1226733101844 -->
+	<!-- PC related summary IDs: 1226733101844 -->
+		<h4 class="heading">
+			<a href="/technology/twitter8217s-future-plans-revealed-as-ipo-document-becomes-public/story-e6frfro0-1226733101844" >Twitter's secrets revealed in document</a>
+		</h4>
+					<a href="/technology/twitter8217s-future-plans-revealed-as-ipo-document-becomes-public/story-e6frfro0-1226733101844" class="thumb-link" ><img src="http://resources2.news.com.au/images/2013/10/04/1226733/101598-283bfcf2-2cb4-11e3-9e23-6fef8332cdf9.jpg" alt="Twitter's secrets revealed in document"  class="thumbnail"  width="100"  height="75"  /></a>
+	<p class="standfirst">
+		TWITTER is preparing to be publicly floated on the stock market forcing the company to lay bare juicy insider details in a briefing document to potential investors.
+	</p> <!-- // .standfirst11 -->
+	<!-- PC related summary IDs: 1226733101844 -->
+			</div> <!-- // .story-block   pos-6 rpos-3 id1226733101844 -->
+			<div class="story-block   has-video sectionref-news sbpos-7 sbrpos-2 id1226732862848">
+			<!-- PC related summary IDs: 1226732862848 -->
+			<!-- PC related summary IDs: 1226732862848 -->
+	<!-- PC related summary IDs: 1226732862848 -->
+		<h4 class="heading">
+			<a href="/technology/talkback-host-queen-latifah-offers-youtube-quitter-marina-shifrin-a-job/story-e6frfro0-1226732862848" >Talkback Queen offers quitter a job</a>
+		</h4>
+					<a href="/technology/talkback-host-queen-latifah-offers-youtube-quitter-marina-shifrin-a-job/story-e6frfro0-1226732862848" class="thumb-link" ><img src="http://resources1.news.com.au/images/2013/10/04/1226732/859113-5aa382fc-2b18-11e3-9e23-6fef8332cdf9.jpg" alt="Marina Shifrin dancing in her resignation video. Source: YouTube Screengrab"  class="thumbnail"  width="100"  height="75"  /></a>
+	<p class="standfirst">
+			<strong class="standfirst-kicker "></strong>
+		A UNI student who used a dance video to quit her job has been offered work on the website of a daytime talk show.
+			<span class="video" title="This story contains video."></span>
+	</p> <!-- // .standfirst11 -->
+	<!-- PC related summary IDs: 1226732862848 -->
+			</div> <!-- // .story-block   pos-7 rpos-2 id1226732862848 -->
+			<div class="story-block    sectionref-news sbpos-8 sbrpos-1 id1226732972245">
+			<!-- PC related summary IDs: 1226732972245 -->
+			<!-- PC related summary IDs: 1226732972245 -->
+	<!-- PC related summary IDs: 1226732972245 -->
+		<h4 class="heading">
+			<a href="/technology/facebook-picks-an-unexpected-winner-for-nrl-final/story-e6frfro0-1226732972245" >Facebook picks an NRL winner</a>
+		</h4>
+					<a href="/technology/facebook-picks-an-unexpected-winner-for-nrl-final/story-e6frfro0-1226732972245" class="thumb-link" ><img src="http://resources2.news.com.au/images/2013/10/04/1226732/972090-de96700c-2c93-11e3-9e23-6fef8332cdf9.jpg" alt="Facebook picks an NRL winner"  class="thumbnail"  width="100"  height="75"  /></a>
+	<p class="standfirst">
+		AUSTRALIA'S 12 million Facebook users have picked an NRL season winner, but it's not a team you'd expect.
+	</p> <!-- // .standfirst11 -->
+	<!-- PC related summary IDs: 1226732972245 -->
+			</div> <!-- // .story-block   pos-8 rpos-1 id1226732972245 -->
+			</div> <!-- // .module-content -->
+		</div> <!-- // .module .collection -->
+<!-- iFrameDetail -->
+<div class="module iframe   mpos-5 mrpos-4 iframe-316x620 text-m-news-tech-iframe-getprice-widget-mc id1225856517662">
+    <div class="module-content">
+	            <iframe src="http://origin.getprice.com.au/WidgetNews.aspx?color=yellow" width="316" height="620" frameborder="0" scrolling="no"><div class="iframe-alt">(Frame content direct link: <a href="http://origin.getprice.com.au/WidgetNews.aspx?color=yellow">http://origin.getprice.com.au/WidgetNews.aspx?color=yellow</a>.)</div></iframe>
+    </div><!-- // .module-content -->
+</div><!-- .module.iframe.  -->
+<!-- promo-image-01 -->
+<div class="module module-promo-image-01  mpos-6 mrpos-3 id1226082731689 text-m-tech-blogs-gadget-girl-rhc-promo">
+    <div class="module-content">
+<!-- promo-image-a -->
+<div class="promo-block promo-image-01  ">
+		<div class="promo-image">
+			<a href="http://blogs.news.com.au/technology/blog/" ><img src="http://resources1.news.com.au/images/2011/08/30/1226125/640465-gadget-girl.jpg" alt="Gadget Girl"  width="316"  height="110"  /></a>
+		</div><!-- // .promo-image -->
+</div><!-- // .promo-block.promo-image-01 -->
+    </div><!-- // .module-content -->
+</div><!-- // .module.module-promo-image-01 -->
+		<div class="ad ad-text mpos-7 mrpos-2">
+		    <div class="ndmadkit ndmadkit-text"><script type="text/javascript">ndm.kit.text({tn:3,to:"v"});</script></div><!-- // .ndmadkit -->
+		</div><!-- // .ad .ad-text -->
+		<div class="ad ad-island mpos-8 mrpos-1" id="ad-island-2" >
+		    <div class="ndmadkit ndmadkit-island"><script type="text/javascript">ndm.kit.island(2);</script></div><!-- // .ndmadkit -->
+		    <div class="ndmadkit ndmadkit-island"><script type="text/javascript">ndm.kit.island(2);</script></div><!-- // .ndmadkit -->
+		    <div class="ndmadkit ndmadkit-island"><script type="text/javascript">ndm.kit.island(2);</script></div><!-- // .ndmadkit -->
+		</div><!-- // .ad .ad-island-2 -->
+			</div><!-- // .item ipos-1 irpos-1 -->
+		</div><!-- // .group-content.item-count-1 -->
+</div><!-- // .group -->
+
+			</div><!-- // #content-3 -->
+			<div id="content-5">
+				
+<!-- [Group:1225749314378] on [fwprodcontent05.ni.news.com.au] @ [October 06, 2013 9:38AM] -->
+<div class="group group-layout-news-6 group-head-basic group-inside-news   text-g-inside-newscomau item-count-1  group-id-1225749314378">
+		<div class="group-header">
+					<h2 class="heading">Inside news.com.au</h2>
+		</div><!-- // .group-header -->
+		<div class="group-content">
+			<div class="item ipos-1 irpos-1">
+		<div class="module default    news-plmnt-inside-news section-latest   first-image-100w75h  collection mpos-1 mrpos-6 text-m-national id1225749321102" id="id1225749321102">
+			<div class="module-header">
+								<h3 class="heading "><a href="/">National</a></h3>
+			</div>
+			<!-- // .module-header -->
+			<div class="module-content ">
+			<div class="story-block    sectionref-national-news-syndicated sbpos-1 sbrpos-1 id1226733483805">
+			<!-- PC related summary IDs: 1226733483805 -->
+			<!-- PC related summary IDs: 1226733483805 -->
+	<!-- PC related summary IDs: 1226733483805 -->
+		<h4 class="heading">
+			<a href="/national-news/wife-of-matthew-joyce-tells-of-dubai-torment/story-fncynjr2-1226733483805" >Aussie family stuck in desert jail</a>
+		</h4>
+					<a href="/national-news/wife-of-matthew-joyce-tells-of-dubai-torment/story-fncynjr2-1226733483805" class="thumb-link" ><img src="http://resources0.news.com.au/images/2013/10/05/1226733/483612-4746b864-2bd6-11e3-8568-6d90cd61124d.jpg" alt="Aussie family stuck in desert jail"  class="thumbnail"  width="100"  height="75"  /></a>
+	<p class="standfirst">
+		THE wife of Australian property developer Matthew Joyce, jailed in Dubai, says she may be forced to break up her family.
+	</p> <!-- // .standfirst11 -->
+	<!-- PC related summary IDs: 1226733483805 -->
+			</div> <!-- // .story-block   pos-1 rpos-1 id1226733483805 -->
+			<!-- PC related IDs: 1226733628149 -->
+			<!-- PC related IDs: 1226733262499 -->
+				<ul class="related related-content ">
+								<li class="story   first  lipos-1   "><a href="/national-news/west-papuan-trio-seek-sanctuary-in-australian-consulate-in-bali/story-fncynjr2-1226733628149" > West Papuans climb into our consulate </a></li>
+								<li class="story    last lipos-2   "><a href="/national-news/nsw-act/prince-harry-charms-sydney-fireworks-light-up-international-fleet-review/story-fnii5s3x-1226733262499" > Fireworks light up Fleet Review <span class="video" title="This story contains video."></span> </a></li>
+				</ul>
+			</div> <!-- // .module-content -->
+			<div class="module-footer">
+		<ul class="more-links mpos-1 mrpos-6 tier-1">
+			<li>
+						<a href="/old-pages/national" class="wn-national" >More national news</a>
+			</li>
+		</ul>
+		<!-- // .tier-1 -->
+			</div> <!-- // .module-footer -->
+		</div> <!-- // .module .collection -->
+		<div class="module default    news-plmnt-inside-news section-business   first-image-100w75h  collection mpos-2 mrpos-5 text-m-business id1225749321174" id="id1225749321174">
+			<div class="module-header">
+								<h3 class="heading "><a href="/business">Business</a></h3>
+			</div>
+			<!-- // .module-header -->
+			<div class="module-content ">
+			<div class="story-block   has-video sectionref-newscomau-top-stories sbpos-1 sbrpos-1 id1226733577987">
+			<!-- PC related summary IDs: 1226733577987 -->
+			<!-- PC related summary IDs: 1226733577987 -->
+	<!-- PC related summary IDs: 1226733577987 -->
+		<h4 class="heading">
+			<a href="/breaking-news/us-government-doors-closed-but-workers-may-get-paid/story-e6frfkp9-1226733577987" >Obama to Republicans: 'Stop this farce'</a>
+		</h4>
+					<a href="/breaking-news/us-government-doors-closed-but-workers-may-get-paid/story-e6frfkp9-1226733577987" class="thumb-link" ><img src="http://resources1.news.com.au/images/2013/10/06/1226733/603533-barack-obama.jpg" alt="Barack Obama"  class="thumbnail"  width="100"  height="75"  /></a>
+	<p class="standfirst">
+			<strong class="standfirst-kicker "></strong>
+		US PRESIDENT Barack Obama called on Republicans to reopen negotiations as the government shutdown entered a fifth day with no signs of an end.
+			<span class="video" title="This story contains video."></span>
+	</p> <!-- // .standfirst11 -->
+	<!-- PC related summary IDs: 1226733577987 -->
+			</div> <!-- // .story-block   pos-1 rpos-1 id1226733577987 -->
+			<!-- PC related IDs: 1226732897193 -->
+			<!-- PC related IDs: 1226732546450 -->
+				<ul class="related related-content ">
+								<li class="story   first  lipos-1   "><a href="/business/worklife/failure-to-launch-are-you-starting-your-life-too-late/story-e6frfm9r-1226732897193" > Are you starting your life too late? </a></li>
+								<li class="story    last lipos-2   "><a href="/business/companies/adelaide-wheel-manufacturer-roh-calls-on-holden-to-use-more-local-parts/story-fnda1bsz-1226732546450" > Holden urged: keep wheels turning <span class="video" title="This story contains video."></span> </a></li>
+				</ul>
+			</div> <!-- // .module-content -->
+			<div class="module-footer">
+		<ul class="more-links mpos-2 mrpos-5 tier-1">
+			<li>
+						<a href="/business" >More business</a>
+			</li>
+		</ul>
+		<!-- // .tier-1 -->
+			</div> <!-- // .module-footer -->
+		</div> <!-- // .module .collection -->
+		<div class="module default    news-plmnt-inside-news section-money   first-image-100w75h  collection mpos-3 mrpos-4 text-m-money id1225749321210" id="id1225749321210">
+			<div class="module-header">
+								<h3 class="heading "><a href="/money">Money</a></h3>
+			</div>
+			<!-- // .module-header -->
+			<div class="module-content ">
+			<div class="story-block    sectionref-syd-amp-nsw sbpos-1 sbrpos-1 id1226732743789">
+			<!-- PC related summary IDs: 1226732743789 -->
+			<!-- PC related summary IDs: 1226732743789 -->
+	<!-- PC related summary IDs: 1226732743789 -->
+		<h4 class="heading">
+			<a href="/realestate/news/study-finds-men-worse-to-live-with-but-women-unreliable-with-bills/story-fnd91nhy-1226732743789" >Male flatmates on the nose</a>
+		</h4>
+					<a href="/realestate/news/study-finds-men-worse-to-live-with-but-women-unreliable-with-bills/story-fnd91nhy-1226732743789" class="thumb-link" ><img src="http://resources1.news.com.au/images/2013/10/04/1226733/086745-c5d7926e-2cb9-11e3-9e23-6fef8332cdf9.jpg" alt="Male flatmates on the nose"  class="thumbnail"  width="100"  height="75"  /></a>
+	<p class="standfirst">
+		WOMEN make better housemates than men, but are less likely to pay rent on time, according to new research.
+	</p> <!-- // .standfirst11 -->
+	<!-- PC related summary IDs: 1226732743789 -->
+			</div> <!-- // .story-block   pos-1 rpos-1 id1226732743789 -->
+			<!-- PC related IDs: 1226732159032 -->
+			<!-- PC related IDs: 1226732708844 -->
+				<ul class="related related-content ">
+								<li class="story   first  lipos-1   "><a href="/realestate/fashion-family-to-sell-sydney-mansion/story-fncq3era-1226732159032" > Fashion family lists clifftop mansion </a></li>
+								<li class="story    last lipos-2   "><a href="/money/investing/savvy-kids-learn-how-to-budget/story-e6frfmdr-1226732708844" > Savvy kids learn how to budget </a></li>
+				</ul>
+			</div> <!-- // .module-content -->
+			<div class="module-footer">
+		<ul class="more-links mpos-3 mrpos-4 tier-1">
+			<li>
+						<a href="/money" >More money </a>
+			</li>
+		</ul>
+		<!-- // .tier-1 -->
+			</div> <!-- // .module-footer -->
+		</div> <!-- // .module .collection -->
+		<div class="module default    news-plmnt-inside-news section-ents   first-image-100w75h  collection mpos-4 mrpos-3 text-m-entertainment id1225749321404" id="id1225749321404">
+			<div class="module-header">
+								<h3 class="heading "><a href="/entertainment">Entertainment</a></h3>
+			</div>
+			<!-- // .module-header -->
+			<div class="module-content ">
+			<div class="story-block   has-video sectionref-television sbpos-1 sbrpos-1 id1226733614957">
+			<!-- PC related summary IDs: 1226733614957 -->
+			<!-- PC related summary IDs: 1226733614957 -->
+	<!-- PC related summary IDs: 1226733614957 -->
+		<h4 class="heading">
+			<a href="/entertainment/television/stunners-judged-harshly-says-new-host-of-reality-show-beauty-and-the-geek/story-e6frfmyi-1226733614957" >Exotic babes meet forgiving geeks</a>
+		</h4>
+					<a href="/entertainment/television/stunners-judged-harshly-says-new-host-of-reality-show-beauty-and-the-geek/story-e6frfmyi-1226733614957" class="thumb-link" ><img src="http://resources1.news.com.au/images/2013/10/06/1226733/616149-6c53c260-2dfb-11e3-b380-dae9c0e09a35.jpg" alt="Exotic babes meet forgiving geeks"  class="thumbnail"  width="100"  height="75"  /></a>
+	<p class="standfirst">
+		NEW host James Tobin talks beauties, breakfast television, and channelling his inner geek ahead of the return of the hit reality show.
+			<span class="video" title="This story contains video."></span>
+	</p> <!-- // .standfirst11 -->
+	<!-- PC related summary IDs: 1226733614957 -->
+			</div> <!-- // .story-block   pos-1 rpos-1 id1226733614957 -->
+			<!-- PC related IDs: 1226733596374 -->
+			<!-- PC related IDs: 1226733585870 -->
+				<ul class="related related-content ">
+								<li class="story   first  lipos-1   "><a href="/entertainment/music/sydney-ups-the-volume-for-one-direction/story-e6frfn09-1226733596374" > Sydney ups the volume for One Direction </a></li>
+								<li class="story    last lipos-2   "><a href="/entertainment/movies/actors-and-director-fight-over-filming-of-graphic-sex-scenes-in-cannes-winner-blue-if-the-warmest-colour/story-e6frfmvr-1226733585870" > Lesbian love film's sex scene row </a></li>
+				</ul>
+			</div> <!-- // .module-content -->
+			<div class="module-footer">
+		<ul class="more-links mpos-4 mrpos-3 tier-1">
+			<li>
+						<a href="/entertainment" >More entertainment </a>
+			</li>
+		</ul>
+		<!-- // .tier-1 -->
+			</div> <!-- // .module-footer -->
+		</div> <!-- // .module .collection -->
+		<div class="module default    news-plmnt-inside-news section-travel   first-image-100w75h  collection mpos-5 mrpos-2 text-m-travel id1225749321423" id="id1225749321423">
+			<div class="module-header">
+								<h3 class="heading "><a href="/travel2">Travel</a></h3>
+			</div>
+			<!-- // .module-header -->
+			<div class="module-content ">
+			<div class="story-block    sectionref-flights sbpos-1 sbrpos-1 id1226729897382">
+			<!-- PC related summary IDs: 1226729897382 -->
+			<!-- PC related summary IDs: 1226729897382 -->
+	<!-- PC related summary IDs: 1226729897382 -->
+		<h4 class="heading">
+			<a href="/travel/travel-advice/nine-surprising-facts-about-flying/story-fn6yjmoc-1226729897382" >Nine surprising facts about flying</a>
+		</h4>
+					<a href="/travel/travel-advice/nine-surprising-facts-about-flying/story-fn6yjmoc-1226729897382" class="thumb-link" ><img src="http://resources0.news.com.au/images/2013/09/30/1226729/921064-26d117b6-2968-11e3-8b19-50b18379ccf2.jpg" alt="Nine surprising facts about flying"  class="thumbnail"  width="100"  height="75"  /></a>
+	<p class="standfirst">
+		FROM why you shouldn&#8217;t sit more than five rows away from an exit, to just how much pilots actually get paid, here are nine things you need to know about air travel.
+	</p> <!-- // .standfirst11 -->
+	<!-- PC related summary IDs: 1226729897382 -->
+			</div> <!-- // .story-block   pos-1 rpos-1 id1226729897382 -->
+			<!-- PC related IDs: 1226729912025 -->
+			<!-- PC related IDs: 1226729717538 -->
+				<ul class="related related-content ">
+								<li class="story   first  lipos-1   "><a href="/travel/travel-advice/how-to-beat-the-top-five-holiday-ripoffs/story-e6frfqfr-1226729912025" > How to beat the worst holiday rip-offs </a></li>
+								<li class="story    last lipos-2   "><a href="/travel/travel-updates/how-mobile-phones-could-soon-be-allowed-during-flights/story-e6frfq80-1226729717538" > Mobile phones could soon be allowed during flights </a></li>
+				</ul>
+			</div> <!-- // .module-content -->
+			<div class="module-footer">
+		<ul class="more-links mpos-5 mrpos-2 tier-1">
+			<li>
+						<a href="/travel" class="travel travel-index lj-enable" >More travel</a>
+			</li>
+		</ul>
+		<!-- // .tier-1 -->
+			</div> <!-- // .module-footer -->
+		</div> <!-- // .module .collection -->
+		<div class="module default    news-plmnt-inside-news section-tech   first-image-100w75h  collection mpos-6 mrpos-1 text-m-technology id1225749331465" id="id1225749331465">
+			<div class="module-header">
+								<h3 class="heading "><a href="/technology">Technology</a></h3>
+			</div>
+			<!-- // .module-header -->
+			<div class="module-content ">
+			<div class="story-block    sectionref-gaming sbpos-1 sbrpos-1 id1226733421710">
+			<!-- PC related summary IDs: 1226733421710 -->
+			<!-- PC related summary IDs: 1226733421710 -->
+	<!-- PC related summary IDs: 1226733421710 -->
+		<h4 class="heading">
+			<a href="/technology/gaming/violent-gaming-apps-among-thousands-unclassified-as-authorities-struggle-to-keep-up/story-e6frfrt9-1226733421710" >Dangerous games slip through net</a>
+		</h4>
+					<a href="/technology/gaming/violent-gaming-apps-among-thousands-unclassified-as-authorities-struggle-to-keep-up/story-e6frfrt9-1226733421710" class="thumb-link" ><img src="http://resources3.news.com.au/images/2013/10/05/1226733/421571-ccd5177a-2d78-11e3-8568-6d90cd61124d.jpg" alt="Dangerous games slip through net "  class="thumbnail"  width="100"  height="75"  /></a>
+	<p class="standfirst">
+		TENS of thousands of video games, some featuring violence and drug use, are escaping classification laws because authorities don't have time to examine them.
+	</p> <!-- // .standfirst11 -->
+	<!-- PC related summary IDs: 1226733421710 -->
+			</div> <!-- // .story-block   pos-1 rpos-1 id1226733421710 -->
+			<!-- PC related IDs: 1226733359769 -->
+			<!-- PC related IDs: 1226733317958 -->
+				<ul class="related related-content ">
+								<li class="story   first  lipos-1   "><a href="/technology/the-seven-worst-types-of-facebook-statuses-and-how-you-can-avoid-them/story-e6frfro0-1226733359769" > What your Facebook status says about you </a></li>
+								<li class="story    last lipos-2   "><a href="/technology/moroccan-teens-arrested-for-facebook-kiss/story-e6frfro0-1226733317958" > Teens arrested for Facebook kiss <span class="video" title="This story contains video."></span> </a></li>
+				</ul>
+			</div> <!-- // .module-content -->
+			<div class="module-footer">
+		<ul class="more-links mpos-6 mrpos-1 tier-1">
+			<li>
+						<a href="/technology" >More technology</a>
+			</li>
+		</ul>
+		<!-- // .tier-1 -->
+			</div> <!-- // .module-footer -->
+		</div> <!-- // .module .collection -->
+			</div><!-- // .item ipos-1 irpos-1 -->
+		</div><!-- // .group-content.item-count-1 -->
+</div><!-- // .group -->
+
+				
+<!-- [Group:1226687959183] on [fwprodcontent04.ni.news.com.au] @ [October 06, 2013 9:35AM] -->
+<div class="group group-affiliates group-affiliates-footer   text-g-nc-group-affiliates-footer item-count-1  group-id-1226687959183">
+		<div class="group-content">
+			<div class="item ipos-1 irpos-1">
+<!-- NMData/summary.jsp - noModule =  -->
+						<!-- NMData/summary.jsp - noModule =  -->
+	<div class="module affiliate-module affiliate-footer">
+			<div class="module-header">
+				<h3 class="heading">Daily Deals</h3>
+			</div>
+			<div class="module-content">
+						<div class="content-item cipos-1 cirpos-5">
+							<div class="affiliate-thumbnail">
+								<a href="http://mozo.com.au/home-loans?utm_source=news&amp;utm_medium=Footer&amp;utm_campaign=HL_trim&amp;mz_source=news__footer" class="external-link" target="_blank" title="Opens new tab"><img src="http://media.news.com.au/quickeze/prod/mozo/news-footer-generic-home-cut.png" class="thumbnail-image"></a>
+							</div>
+							<div class="affiliate-inner">
+								<div class="affiliate-heading">
+									<h4 class="heading"><a href="http://mozo.com.au/home-loans?utm_source=news&amp;utm_medium=Footer&amp;utm_campaign=HL_trim&amp;mz_source=news__footer" class="external-link" target="_blank" title="Opens new tab">Loans From 4.51% p.a.<span class="external-link-icon"></span></a></h4>
+								</div>
+								<div class="affiliate-text">
+									<p>Trim $1000&#039;s off your mortgage. Compare home loans &amp; save</p>
+								</div>
+							</div>
+						</div>
+						<div class="content-item cipos-2 cirpos-4">
+							<div class="affiliate-thumbnail">
+								<a href="http://mozo.com.au/redirect-amex-discovery?utm_source=news&amp;utm_medium=Footer&amp;utm_campaign=CC_amexdisc&amp;mz_source=news__footer" class="external-link" target="_blank" title="Opens new tab"><img src="http://media.news.com.au/quickeze/prod/mozo/news-footer-cc-amex-disc.png" class="thumbnail-image"></a>
+							</div>
+							<div class="affiliate-inner">
+								<div class="affiliate-heading">
+									<h4 class="heading"><a href="http://mozo.com.au/redirect-amex-discovery?utm_source=news&amp;utm_medium=Footer&amp;utm_campaign=CC_amexdisc&amp;mz_source=news__footer" class="external-link" target="_blank" title="Opens new tab">Amex Qantas Discovery<span class="external-link-icon"></span></a></h4>
+								</div>
+								<div class="affiliate-text">
+									<p>Earn 7,500 bonus Frequent Flyer points + pay $0 annual fee</p>
+								</div>
+							</div>
+						</div>
+						<div class="content-item cipos-3 cirpos-3">
+							<div class="affiliate-thumbnail">
+								<a href="http://mozo.com.au/credit-cards?utm_source=news&amp;utm_medium=Footer&amp;utm_campaign=CC_0afgreen&amp;mpp_tab=5&amp;mz_source=news__footer" class="external-link" target="_blank" title="Opens new tab"><img src="http://media.news.com.au/quickeze/prod/mozo/news-footer-0-annual-fee-green.png" class="thumbnail-image"></a>
+							</div>
+							<div class="affiliate-inner">
+								<div class="affiliate-heading">
+									<h4 class="heading"><a href="http://mozo.com.au/credit-cards?utm_source=news&amp;utm_medium=Footer&amp;utm_campaign=CC_0afgreen&amp;mpp_tab=5&amp;mz_source=news__footer" class="external-link" target="_blank" title="Opens new tab">$0 Fee Credit Cards<span class="external-link-icon"></span></a></h4>
+								</div>
+								<div class="affiliate-text">
+									<p>Stop paying annual fees! Compare $0 annual fee cards now</p>
+								</div>
+							</div>
+						</div>
+						<div class="content-item cipos-4 cirpos-2">
+							<div class="affiliate-thumbnail">
+								<a href="http://mozo.com.au/car-loans?utm_source=news&amp;utm_medium=Footer&amp;utm_campaign=CL_generic&amp;mz_source=news__footer" class="external-link" target="_blank" title="Opens new tab"><img src="http://media.news.com.au/quickeze/prod/mozo/news-footer-car.png" class="thumbnail-image"></a>
+							</div>
+							<div class="affiliate-inner">
+								<div class="affiliate-heading">
+									<h4 class="heading"><a href="http://mozo.com.au/car-loans?utm_source=news&amp;utm_medium=Footer&amp;utm_campaign=CL_generic&amp;mz_source=news__footer" class="external-link" target="_blank" title="Opens new tab">Cheap Car Loans<span class="external-link-icon"></span></a></h4>
+								</div>
+								<div class="affiliate-text">
+									<p>Drive a bargain with car loans from just 7.63% p.a.</p>
+								</div>
+							</div>
+						</div>
+						<div class="content-item cipos-5 cirpos-1">
+							<div class="affiliate-thumbnail">
+								<a href="http://mozo.com.au/savings-accounts?utm_source=news&amp;utm_medium=Footer&amp;utm_campaign=SA_piggyrocket&amp;mz_source=news__footer" class="external-link" target="_blank" title="Opens new tab"><img src="http://media.news.com.au/quickeze/prod/mozo/news-footer-rocket.png" class="thumbnail-image"></a>
+							</div>
+							<div class="affiliate-inner">
+								<div class="affiliate-heading">
+									<h4 class="heading"><a href="http://mozo.com.au/savings-accounts?utm_source=news&amp;utm_medium=Footer&amp;utm_campaign=SA_piggyrocket&amp;mz_source=news__footer" class="external-link" target="_blank" title="Opens new tab">Top Savings Rates<span class="external-link-icon"></span></a></h4>
+								</div>
+								<div class="affiliate-text">
+									<p>Send your savings sky high with a lofty 4.77% p.a.</p>
+								</div>
+							</div>
+						</div>
+			</div>
+	</div>
+
+			</div><!-- // .item ipos-1 irpos-1 -->
+		</div><!-- // .group-content.item-count-1 -->
+</div><!-- // .group -->
+
+			</div><!-- // #content-5 -->
+    </div><!-- // #content -->
+<!-- footer2 -->
+<div id="footer">
+    <div class="footer-content">
+	        <div class="content-item content-item-ad-top cipos-1 cirpos-5">
+	            <div id="footer-ads">
+	                <div class="ad ad-leaderboard">
+                			 	<div class="ndmadkit ndmadkit-leaderboard"><script type="text/javascript">ndm.kit.leaderboard();</script></div><!-- // .ndmadkit -->
+			                    <div class="ndmadkit ndmadkit-leaderboard"><script type="text/javascript">ndm.kit.leaderboard();</script></div><!-- // .ndmadkit -->
+			                    <div class="ndmadkit ndmadkit-leaderboard"><script type="text/javascript">ndm.kit.leaderboard();</script></div><!-- // .ndmadkit -->
+	                </div><!-- // .ad .ad-leaderboard -->
+	            </div><!-- // #footer-ads -->
+	        </div>
+        <div class="content-item content-item-ntl cipos-2 cirpos-4">
+	            <div class="footer-nav">
+		<ul class=" tier-1">
+			<li class="nav-footer-links    first">
+						</a>
+		<ul class=" tier-2">
+			<li class="nav-news linkto-group-1226680149307 nav-footer-header    first">
+						<a href="/" class="homepage" >News</a>
+			</li>
+			<li class="nav-business linkto-group-1226680125988">
+						<a href="/business" >Business</a>
+			</li>
+			<li class="nav-sport linkto-group-1226678557351">
+						<a href="/sport" class="sport sport-index interactive" >Sport </a>
+			</li>
+			<li class="nav-entertainment linkto-group-1226679525833">
+						<a href="/entertainment" >Entertainment</a>
+			</li>
+			<li class="nav-lifestyle linkto-group-1226666121854">
+						<a href="/lifestyle" >Lifestyle</a>
+			</li>
+			<li class="nav-travel linkto-group-1226679525474">
+						<a href="/travel" class="travel travel-index lj-enable" >Travel</a>
+			</li>
+			<li class="nav-realestate linkto-group-1226680136457">
+						<a href="/realestate" class="realestate realestate-index" >Realestate</a>
+			</li>
+			<li class="nav-money linkto-group-1226680133497">
+						<a href="/money" >Money</a>
+			</li>
+			<li class="nav-technology linkto-group-1226680140916">
+						<a href="/technology" >Tech</a>
+			</li>
+			<li class="nav-video linkto-group-1226679513026     last">
+						<a  href="http://player.video.news.com.au/news/">Video </a>
+			</li>
+		</ul>
+		<!-- // .tier-2 -->
+			</li>
+			<li class="nav-holder-tools">
+						</a>
+		<ul class=" tier-2">
+			<li class="nav-mobile    first">
+						<a  href="http://mobile.news.com.au/">Mobile</a>
+			</li>
+			<li class="nav-ipad">
+						<a href="/help/ipad" >IPAD</a>
+			</li>
+			<li class="nav-newsletters">
+						<a  href="http://pages.e.newsdigitalmedia.com.au/GPC?a=News">Newsletters</a>
+			</li>
+			<li class="nav-rss">
+						<a href="/help/rss" >RSS</a>
+			</li>
+			<li class="nav-tips     last">
+						<a href="/help/storytips" >Send stories</a>
+			</li>
+		</ul>
+		<!-- // .tier-2 -->
+			</li>
+			<li class="nav-resources">
+						RESOURCES</a>
+		<ul class=" tier-2">
+			<li class="nav-sitemap    first">
+						<a href="/help/sitemap" >Sitemap</a>
+			</li>
+			<li class="nav-photo-sales">
+						<a  href="http://www.newsphotos.com.au/">Photo sales</a>
+			</li>
+			<li class="nav-buy-article     last">
+						<a  href="http://www.newstext.com.au">Buy an article</a>
+			</li>
+		</ul>
+		<!-- // .tier-2 -->
+			</li>
+			<li class="nav-advertising">
+						ADVERTISING</a>
+		<ul class=" tier-2">
+			<li class="nav-specifications    first">
+						<a  href="http://sops.news.com.au/adspecs/NewsAustralia_DigitalAdSpecs.pdf">Specifications</a>
+			</li>
+			<li class="nav-advertise-with-us">
+						<a  href="http://www.newscorpaustralia.com/brand/newscomau">Advertise with us</a>
+			</li>
+			<li class="nav-company-info     last">
+						<a  href="http://www.newsspace.com.au/news.com.au">Company information</a>
+			</li>
+		</ul>
+		<!-- // .tier-2 -->
+			</li>
+			<li class="nav-policies">
+						POLICIES</a>
+		<ul class=" tier-2">
+			<li class="nav-privacy    first">
+						<a href="/help/privacypolicy" >Privacy</a>
+			</li>
+			<li class="nav-terms-of-use     last">
+						<a href="/help/termsconditions" >Terms of use</a>
+			</li>
+		</ul>
+		<!-- // .tier-2 -->
+			</li>
+			<li class="nav-information">
+						INFORMATION</a>
+		<ul class=" tier-2">
+			<li class="nav-contact-us    first">
+						<a href="/help/contactus" >Contact us</a>
+			</li>
+			<li class="nav-careers     last">
+						<a  href="http://jobsearch.careerone.com.au/jobs/?q=News-Limited&amp;cy=au">Careers</a>
+			</li>
+		</ul>
+		<!-- // .tier-2 -->
+			</li>
+			<li class="nav-legal-notices">
+						</a>
+		<ul class=" tier-2">
+			<li class="nav-legal-notices    first">
+						<a href="/help/termsconditions" >Terms &amp; Conditions</a>
+			</li>
+			<li class="nav-privacy">
+						<a href="/help/privacypolicy" >Privacy</a>
+			</li>
+			<li class="nav-accessibility     last">
+						<a href="/help/accessibility" >Accessibility</a>
+			</li>
+		</ul>
+		<!-- // .tier-2 -->
+			</li>
+			<li class="nav-newscorp-copyright     last">
+						News Corp Copyright © 2013</a>
+			</li>
+		</ul>
+		<!-- // .tier-1 -->
+	            </div><!-- // .footer-nav -->
+        </div>
+        <div class="content-item content-item-llsp cipos-3 cirpos-3">
+            <div id="footer-logo">
+                <span class="heading">News.com.au</span>
+            </div><!-- // #footer-logo -->
+            	<div id="footer-search">
+	                <div class="site-search">
+	                </div>
+                </div><!-- // #footer-search -->
+        </div>
+        <div class="content-item content-item-legals cipos-4 cirpos-2">
+        </div>
+	        <div class="content-item content-item-ad-bot cipos-4 cirpos-1">
+	            <div class="ad ad-footer">
+		                <div class="ndmadkit ndmadkit-footer"><script type="text/javascript">ndm.kit.footer();</script></div><!-- // .ndmadkit -->
+		                <div class="ndmadkit ndmadkit-footer"><script type="text/javascript">ndm.kit.footer();</script></div><!-- // .ndmadkit -->
+		                <div class="ndmadkit ndmadkit-footer"><script type="text/javascript">ndm.kit.footer();</script></div><!-- // .ndmadkit -->
+	            </div>
+	        </div>
+    </div><!-- //.footer-content -->
+</div>
+    <div id="resources">
+	<!-- Page includes [1225937034693:null] last generated at Sun Oct 06 09:47:04 EST 2013 -->
+<!-- page include -->
+<!-- Resource Included [{id=1226560157298, type=News_Stylesheet}, {id=1226264939565, type=News_Stylesheet}, {id=1225750486786, type=News_Stylesheet}, {id=1226452537507, type=News_Stylesheet}, {id=1226706218351, type=News_Stylesheet}, {id=1226617584019, type=News_Stylesheet}, {id=1226312672200, type=News_Stylesheet}, {id=1226560251887, type=News_Javascript}, {id=1226560170439, type=News_Javascript}, {id=1226538541538, type=News_Javascript}, {id=1225796192321, type=News_Javascript}, {id=1226706218456, type=News_Javascript}, {id=1225901532549, type=News_Feed}, {id=1226112824389, type=News_Javascript}, {id=1226524868538, type=News_Javascript}, {id=1225799404917, type=News_Javascript}]-->
+<!-- //page include -->
+	<script  type='text/javascript' src='http://resources1.news.com.au/cs/newscomau/v2/tech/base/js/base-bottom-concat-min.js'></script>
+    </div><!-- // # resources -->
+    <div id="stats">
+        <!-- Start Tealium -->
+        <script type="text/javascript">
+            var utagSections = [];
+            if (window.ndm && window.ndm.page && window.ndm.page.section) {
+                utagSections = ndm.page.section.toLowerCase().split(".");
+            }
+            utag_data = window.utag_data || {};
+            utag_data.pn = "newscomau | technology | story | valve to release linux based gaming console and operating system steamos";
+        	utag_data.net_section = utagSections[0];
+        	utag_data.net_subsec = utagSections[1];
+        	utag_data.net_subsubsec = utagSections[2];
+        	utag_data.net_subsubsubsec = utagSections[3];
+        	utag_data.net_content_type = (utag_data.net_content_type ? utag_data.net_content_type + "+" : "") + "story";
+        		utag_data.mp_story_id = "1226728353594";
+        		utag_data.mp_section_id  = "1111112069517";
+        		utag_data.mp_mlc_path  = "/technology/gaming/story/story";
+        		utag_data.net_article_id = "1226728353594";
+        		utag_data.net_article_byline = "By Andrew Goldfarb";
+        		utag_data.net_article_headline = "Valve to release Linux gaming console";
+        		utag_data.net_platform = "web";
+        		utag_data.net_article_source = "IGN";
+        </script>
+        <script type="text/javascript" src="//tealium.hs.llnwd.net/o43/utag/newsltd/news.fw/prod/utag.js"></script>
+        <!-- End Tealium -->
+    </div><!-- // # stats -->
+</div><!-- // #page -->
+</body>
+</html>

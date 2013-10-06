@@ -1,0 +1,1747 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8" />
+	<title>Netflix opens the floodgates on Super HD streaming support | TechHive</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="canonical" href="http://www.techhive.com/article/2049921/netflix-opens-the-floodgates-on-super-hd-streaming-support.html" /><meta name="description" content="Getting the best quality stream on Netflix is no longer determined by your ISP, just by your bandwidth." /><meta name="news_keywords" content="Streaming media,Streaming, media, netflix, hulu, iTunes, rental, MLB.tv, ESPN3,,Netflix,streaming video,HDTV,net neutrality" /><meta itemprop="image" content="http://images.techhive.com/images/article/2013/01/netflix_superhd_screenshot-100020600-medium.png"><meta name="DC.date.issued" content="2013-09-26" />
+		<meta name="date" content="2013-09-26" />
+	<script type="text/javascript" src="http://fonts.staticworld.net/azu1qsr.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<meta property="twitter:account_id" content="499275959" />
+		
+		
+	<meta property="og:type" content="article"><meta property="og:url" content="http://www.techhive.com/article/2049921/netflix-opens-the-floodgates-on-super-hd-streaming-support.html"><meta property="og:site_name" content="TechHive">   
+    
+    <meta property="og:image" content="http://images.techhive.com/images/article/2013/01/netflix_superhd_screenshot-100020600-large.png"><meta property="og:title" content="Netflix opens the floodgates on Super HD streaming support | TechHive">
+    <meta property="og:description" content="Getting the best quality stream on Netflix is no longer determined by your ISP, just by your bandwidth."><!-- this must be first -->
+	<link href="/www.idgcsmb/css/colorbox.css" rel="stylesheet" />
+	<link href="/www.idgcsmb/css/equalizer.css" rel="stylesheet" />
+	<link href="/www.idgcsmb/css/global-layout.css?v=20131003110141" rel="stylesheet" />
+	<link href="/www.idgcsmb/css/global-colors.css?v=20131003110141" rel="stylesheet" />
+	<link href="/www.idgcsmb/css/global-typography.css?v=20131003110141" rel="stylesheet" />
+	<link href="/www.idgcsmb/css/video.player.css?v=20131003110141" rel="stylesheet" media="all" />
+	<link href="/www.idgcsmb/css/search-style.css?v=20131003110141" rel="stylesheet" >		
+	<link href="http://origin-images.techhive.com/css/now.css" rel="stylesheet" /> 
+	  
+	<!-- this must be last -->
+	<link href="/www.idgcsmb/css/helpers.css?v=20131003110141" rel="stylesheet" />
+	
+	<!--  fav and touch icons -->
+	<link rel="shortcut icon" href="/www.idgcsmb.th/favicon.ico"/><link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://zapt5.staticworld.net/images/furniture/techhive/th-apple-touch-icon-precomposed-144.png" /><link rel="apple-touch-icon-precomposed" sizes="129x129" href="http://zapt5.staticworld.net/images/furniture/techhive/th-apple-touch-icon-precomposed-129.png" /><link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://zapt5.staticworld.net/images/furniture/techhive/th-apple-touch-icon-precomposed-114.png" /><link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://zapt5.staticworld.net/images/furniture/techhive/th-apple-touch-icon-precomposed-72.png" /><link rel="apple-touch-icon" href="http://zapt5.staticworld.net/images/furniture/techhive/th-apple-touch-icon-precomposed.png" /><script type='text/javascript'>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') + 
+    '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+    })();
+    </script>
+    
+    <script type="text/javascript">
+    function getQsVal (name) {
+    	if (window.location.search != "") {
+    		var qs = window.location.search.substring(1);
+    		var pairs = qs.split("&");
+    		for (var i=0;i<pairs.length;i++) {
+    			var pair = pairs[i].split("=");
+    			if (pair[0] == name) {
+    				return pair[1];
+    				break;
+    			}
+    		}
+    	}
+    	return "";
+    }
+	//XFP global targeting
+	if (null != getQsVal("IDGRicochet").match(/^1zh[0-9A-Z]{1}$/)) {
+		googletag.cmd.push(function() {
+			googletag.pubads().setTargeting('env',getQsVal("IDGRicochet"));
+		});
+	}
+	googletag.cmd.push(function() {
+		googletag.pubads().setTargeting("URL", encodeURIComponent(window.location));
+	//
+		//
+		googletag.pubads().setTargeting('site','idg.techhive.us');
+		//
+		//
+		googletag.pubads().setTargeting('zone','article/streaming-media');
+		//
+		//
+		googletag.pubads().setTargeting('dart.site.video','IDG.TechHive_CSMB');
+		//
+		googletag.pubads().setTargeting('articleId','2049921');
+		//
+		googletag.pubads().setTargeting('type','news');
+		//
+		googletag.pubads().setTargeting('typeId','2');
+		//
+		googletag.pubads().setTargeting('templateType','article-default');
+		//
+		//
+			googletag.pubads().setTargeting('categoryIds',[2124]);
+		//
+	//
+	});
+    </script>
+    
+	<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+	<script src="/www.idgcsmb/js/modernizr/modernizr-2.0.6.js"></script>
+	
+	<script type="text/javascript">
+	var global_AdUnitId = "/8456/IDG.TechHive_CSMB";
+	
+	var global_ShowSuper = true;
+	var global_ShowHero = false;
+	</script>
+	<script src="/www.idgcsmb/js/thm_pre.js?v=20131003110141"></script>
+	<script type="text/javascript">
+		$thm.premiumAdOptStatus = $thm.setPremiumAdOptStatus() && false;
+	</script>
+	<script src="/www.idgcsmb/js/swfobject.js"></script>
+
+	<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-30870572-1']);
+_gaq.push(['_setDomainName', 'techhive.com']);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script><script class="kxct" data-id="IKHgZMDE" data-timing="async" data-version="1.9" type="text/javascript">
+			<!-- BEGIN Krux Control Tag for "TechHive" -->
+<!-- Source: /controltag?confid=IKHgZMDE&site=TechHive&edit=1 -->
+
+  window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+  (function(){
+    var k=document.createElement('script');k.type='text/javascript';k.async=true;
+    var m,src=(m=location.href.match(/\bkxsrc=([^&]+)/))&&decodeURIComponent(m[1]);
+    k.src = /^https?:\/\/([^\/]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" :
+      (location.protocol==="https:"?"https:":"http:")+"//cdn.krxd.net/controltag?confid=IKHgZMDE";
+    var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+  }());
+<!-- END Krux Controltag --></script>
+	<!-- START Nielsen Online SiteCensus? V6.0 -->
+<!-- COPYRIGHT 2010 Nielsen Online -->
+<script type="text/javascript">
+
+    (function () {
+
+        var d = new Image(1, 1);
+        d.onerror = d.onload = function () {
+
+            d.onerror = d.onload = null;
+
+        };
+        d.src = ["http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-203426h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join();
+
+    })();
+</script>
+<noscript>
+
+    <div>
+
+        <img src="http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-203426h&amp;cg=0&amp;cc=1&amp;ts=noscript"
+        width="1" height="1" alt="" />
+
+    </div>
+
+</noscript>
+<!-- END Nielsen Online SiteCensus? V6.0 --><script type="text/javascript">
+		g_arrModules = new Array();
+		g_arrAds = new Array();
+	</script>
+	
+	<script type="text/javascript">
+	var _sf_async_config={};
+	_sf_async_config.uid = 42214;
+	
+	
+		_sf_async_config.useCanonical = true;
+				
+	_sf_async_config.authors="Jonathan Seff";
+				
+	_sf_async_config.sections="streaming-media";	
+		
+		
+	
+	_sf_async_config.domain = "techhive.com";
+	(function(){
+	  function loadChartbeat() {
+	    window._sf_endpt=(new Date()).getTime();
+	    var e = document.createElement("script");
+	    e.setAttribute("language", "javascript");
+	    e.setAttribute("type", "text/javascript");
+	    e.setAttribute("src",
+	       (("https:" == document.location.protocol) ?
+	         "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" :
+	         "http://static.chartbeat.com/") +
+	       "js/chartbeat.js");
+	    document.body.appendChild(e);
+	  }
+	  var oldonload = window.onload;
+	  window.onload = (typeof window.onload != "function") ?
+	     loadChartbeat : function() { oldonload(); loadChartbeat(); };
+	})();
+	</script>	
+	
+	<link href="/www.idgcsmb/webfonts/ss-social.css" rel="stylesheet" />
+	<link href="/www.idgcsmb/webfonts/ss-standard.css" rel="stylesheet" />
+	<!--[if lte IE 8]>  
+		<link href="/www.idgcsmb/webfonts/ss-ie8.css" rel="stylesheet" />
+	<![endif]--> 
+	<script type="text/javascript" src="/www.idgcsmb/js/jquery/jquery-1.7.2.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+</head>
+<body id="article2049921" class="article techhive">
+		<div id="fb-root"></div>
+<script>
+$(document).ready(function() {
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=2452591947";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+});
+</script>
+<div id="superadunit" class="hidden">
+			    <div class="topbar">
+			        <div class="brand"><a href="javascript:unhide('superadunit');"><img src="http://images.techhive.com/images/article/2012/09/superstitial_th_logo_125x4-100004110-orig.gif"></a></div>
+			        <div class="skip"><a href="javascript:unhide('superadunit');"><img src="http://images.techhive.com/images/article/2012/09/superstitial_th_goto_152x4-100004109-orig.gif"></a></div>
+			    </div><!-- / topbar -->
+			    <div class="ad">
+					<div id="gpt-superstitial" class="">
+    <script type="text/javascript">
+    	g_arrAds.push("gpt-superstitial");
+    	googletag.cmd.push(function() { googletag.display('gpt-superstitial'); });
+    </script>
+    </div>
+ </div><!-- / ad -->
+			</div><!-- / super -->		
+		<div class="network-header">
+			<div class="network-header-inner">
+				<div id="network-sites">
+				<a href="http://www.pcworld.com/" id="network-pcworld">PCWorld</a>
+				<a href="http://www.macworld.com/" id="network-macworld">Macworld</a>
+				<a href="http://www.techhive.com/" id="network-techhive">TechHive</a>
+				</div>
+
+				<div id="network-tools">
+					<form id="search-form" action="/search">
+ 						<input type="search" name="query" id="banner-search-term" class="inactive" value="">
+						<input type="submit" name="submit" id="banner-search-submit" value="Search" />
+						<button id="magGlassClick" type="submit"></button>
+					</form>
+					<ul class="hmenu" id="heroLogin">
+						<li><a href="javascript://" onclick="NarfUser.showLogin()">Sign In</a></li>
+						<li><a href="javascript://" onclick="NarfUser.showReg()">Join</a></li>
+					</ul>
+				</div>
+
+				<div id="network-social">
+					<div class="social-hover" style="display:none;">
+                        <div class="pointer">&#9650;</div>
+                        <ul>
+                        <li class="firstSocialButton"><div class="fb-like" data-href="http://www.facebook.com/techhivemedia" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-font="arial"></div></li>                        
+                        <li><a href="https://twitter.com/TechHive" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @TechHive</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>
+                        </ul>
+                  </div>
+                  
+					<a href="http://www.facebook.com/techhivemedia" class="network-fb ss-icon ss-social banner-social banner-fb" onclick="socialTrack('Home','Facebook','Follow')">
+						Facebook
+					</a>
+					<a href="https://twitter.com/TechHive" class="network-tw ss-icon ss-social banner-social banner-tw" onclick="socialTrack('Home','Twitter','Follow')">
+						Twitter
+					</a>
+				</div>
+				
+			<div id="saved-comparisons"></div>
+
+			</div><!-- /network-header-inner -->
+						
+		</div><!-- /network-header -->
+
+		
+		<div id="page-top">
+			<header id="banner" class="clearfix">
+				<a id="mobile-offscreen-toggle" class="ss-standard ss-rows" href="javascript://"></a>
+				<div id="logo">
+					<a href="/" class="ir banner-logo">Home</a>
+				</div>
+<!-- /logo -->
+				<div id="mobile-search-toggle" class="ss-standard ss-search"></div>
+				<a href="javascript://" onclick="NarfUser.showLogin()"><div id="mobile-user-link" class="ss-standard ss-user"></div></a>
+				<div id="header-leaderboard" class="dart onload">
+					
+				<div id="gpt-leaderboard" class="">
+    <script type="text/javascript">
+    	g_arrAds.push("gpt-leaderboard");
+    	googletag.cmd.push(function() { googletag.display('gpt-leaderboard'); });
+    </script>
+    </div>
+ </div>
+			</header>
+		</div>
+<!-- Events Header -->	
+		<div id="page-wrapper">
+
+			<div id="main-nav">
+	<div class="container clearfix">
+		<ul class="fmenu" id="panel-nav">
+			<li class="newsNav"><a href="/news/" id="whatsHotNav">News</a></li>
+			<li class="reviewsNav"><a href="/reviews/" id="reviewsNav">Reviews</a></li>
+			<li class="howtoNav"><a href="/howto/" id="howtoNav">How-To</a></li>
+			<li class="videoNav"><a href="/video/" id="videoNav">Video</a></li>
+		</ul>
+
+		<ul class="fmenu" id="site-nav">
+			<li><a href="/category/phones/">Phones</a>
+				</li>
+			<li><a href="/category/tablets/">Tablets</a>
+				</li>
+			<li><a href="/category/cameras/">Cameras</a>
+				</li>
+			<li><a href="/category/apps/">Apps</a>
+				</li>
+			<li><a href="/category/web-social/">Web &amp; social</a>
+				</li>
+			<li class="selected"><a href="/category/entertainment/" class="active">Entertainment</a>
+				<ul>
+						<li><a href="/category/home-theater/">Home theater</a></li>
+									<li><a href="/category/tv/">HDTVs</a></li>
+									<li><a href="/category/video-players/">Video players</a></li>
+									<li><a href="/category/mp3-players/">MP3 players</a></li>
+									<li><a href="/category/speakers/">Speakers</a></li>
+									<li><a href="/category/headphones/">Headphones</a></li>
+									<li class="sub-selected"><a href="/category/streaming-media/">Streaming media</a></li>
+									</ul>
+				</li>
+			<li><a href="/category/gadgets/">Gadgets</a>
+				</li>
+			</ul>
+		<div id="extra-nav-toggle"><a href="#extra-nav" class="ir">More</a></div>
+		<div id="extra-nav">
+			<ul>
+				<li><a href="/category/camcorders">Camcorders</a></li>
+				<li><a href="/category/displays">Displays</a></li>
+				<li><a href="/category/dslr-cameras">DSLR cameras</a></li>
+				<li><a href="/category/home-theater">Home theater</a></li>
+				<li><a href="/category/streaming-media">Streaming media</a></li>
+				</ul>
+			<ul>
+				<li><a href="/category/android-apps">Android apps</a></li>
+				<li><a href="/category/camera-accessories">Camera accessories</a></li>
+				<li><a href="/category/car-tech">Car tech</a></li>
+				<li><a href="/category/components">Components</a></li>
+				<li><a href="/category/computers-all">Computers</a></li>
+				<li><a href="/category/e-readers">E-Readers</a></li>
+				<li><a href="/category/gaming">Gaming</a></li>
+				<li><a href="/category/tv">HDTVs</a></li>
+				</ul>
+			<ul>
+				<li><a href="/category/headphones">Headphones</a></li>
+				<li><a href="/category/home-audio">Home audio</a></li>
+				<li><a href="/category/home-tech">Home tech</a></li>
+				<li><a href="/category/input-devices">Input devices</a></li>
+				<li><a href="/category/ios-apps">iOS apps</a></li>
+				<li><a href="/category/laptop-computers">Laptops</a></li>
+				<li><a href="/category/memes">Memes</a></li>
+				<li><a href="/category/mp3-players">MP3 players</a></li>
+				</ul>
+			<ul>
+				<li><a href="/category/home-players">Networked players</a></li>
+				<li><a href="/category/networking-hardware">Networking</a></li>
+				<li><a href="/category/phone-accessories">Phone accessories</a></li>
+				<li><a href="/category/point-and-shoot-cameras">Point &amp; shoot cameras</a></li>
+				<li><a href="/category/printers">Printers</a></li>
+				<li><a href="/category/speakers">Speakers</a></li>
+				<li><a href="/category/weird">Weird stuff</a></li>
+				</ul>
+		</div>
+	</div>
+</div>	<!--/#main-nav-->
+<div id="section-nav">
+	<div class="container clearfix">
+			<ul class="fmenu">
+				<li >
+						<a href="/category/home-theater/">Home theater</a>
+							</li>
+
+				<li >
+						<a href="/category/tv/">HDTVs</a>
+							</li>
+
+				<li >
+						<a href="/category/video-players/">Video players</a>
+							</li>
+
+				<li >
+						<a href="/category/mp3-players/">MP3 players</a>
+							</li>
+
+				<li >
+						<a href="/category/speakers/">Speakers</a>
+							</li>
+
+				<li >
+						<a href="/category/headphones/">Headphones</a>
+							</li>
+
+				<li >
+						<a href="/category/streaming-media/" class="active">Streaming media</a>
+							</li>
+
+				</ul>
+		</div>
+	</div><!--/#section-nav-->
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+		  	<div class="container" id="main-content">
+
+				<div id="gpt-leaderboardmobile" class="">
+    <script type="text/javascript">
+    	g_arrAds.push("gpt-leaderboardmobile");
+    	googletag.cmd.push(function() { googletag.display('gpt-leaderboardmobile'); });
+    </script>
+    </div>
+ <div class="main" id="main" role="main" itemscope itemtype="http://schema.org/Article">
+
+	
+	<meta itemprop="url" content="http://www.techhive.com/article/2049921/netflix-opens-the-floodgates-on-super-hd-streaming-support.html" />
+	<div class="imageContainer580xX"><figure id="page-lede" class="oneUp"><img  class="largeImage  imgId100020600 " src="http://zapt1.staticworld.net/images/article/2013/01/netflix_superhd_screenshot-100020600-large.png" itemprop="image" /></figure></div>
+			<article>
+    
+    
+    	
+
+		
+    	<div class="department">		 
+
+		    	<a class="topCatLink" href="/category/streaming-media">Streaming media</a>
+		        <ul class="tags">
+		        		<li><a href="/tag/netflix/">Netflix</a>, </li>
+		        		<li><a href="/tag/streamingvideo/">streaming video</a>, </li>
+		        		<li><a href="/tag/hdtv/">HDTV</a>, </li>
+		        		<li><a href="/tag/netneutrality/">net neutrality</a></li>
+		        		</ul>
+		        </div>
+	    <h1 itemprop="name">Netflix opens the floodgates on Super HD streaming support</h1>
+               
+        <div id="article-meta-target"></div>
+
+        <span itemprop="articleBody description text"><section class="page">
+<p>
+As consumers we’ve been offered lots of “super” things over the years: Super men, super sizes, Super Bowls. But with Netflix’s Super HD, that promise was reserved for the elite—or those who get their Internet service via select ISPs, at any rate.
+</p>
+<p>
+On Thursday, Netflix <a href="http://blog.netflix.com/2013/09/highest-quality-hd-now-available-to-all.html">opened the bit-filled floodgates to one and all</a>, rolling out its highest-quality HD video streaming to anyone with the bandwidth to handle it. As Netflix describes it, Super HD applies less compression to its 1080p video streams, giving you a higher bitrate and better image quality.
+</p>
+<p>
+When Super HD <a href="http://www.techhive.com/article/2024447/netflix-offers-super-hd-streaming-to-cablevision-gogle-fiber-users.html">first launched in January</a>, it was limited to ISPs that adopted Netflix Open Connect, the company’s video delivery network. The initiative <a href="http://www.techhive.com/article/2025488/netflix-draws-fire-for-open-content-campaign.html">drew criticism</a> from some ISPs and net neutrality advocates for its seemingly preferential treatment of Netflix content. At the same time, Netflix wrote that “we continue to encourage ISPs to adopt Netflix Open Connect” and that subscribers to those ISPs will “get the best experience” in its blog post on Thursday.
+</p>
+<p>
+Super HD requires bandwidth between 5 mbps and 7 mbps. Thursday’s change also impacts Netflix’s small catalog of 3D content, although that will run you between 6 mbps and 12 mbps on bandwidth, and is <a href="https://help.netflix.com/article/en/node/8739?ba=GSButtonClick&amp;q=superhd">much more limited in its device support</a> right now.
+</p>
+	</section></span>
+		<ul class="sharing-tools">
+    <li class="facebookShare"><a href="http://www.facebook.com/sharer.php?u=http://www.techhive.com/article/2049921/netflix-opens-the-floodgates-on-super-hd-streaming-support.html&amp;t=Netflix opens the floodgates on Super HD streaming support | TechHive" class="socialite facebook-like" data-href="http://www.techhive.com/article/2049921/netflix-opens-the-floodgates-on-super-hd-streaming-support.html" data-send="false" data-layout="box_count" data-width="60" data-show-faces="false" rel="nofollow" target="_blank"><span class="vhidden">Share on Facebook</span></a></li>
+    <li class="twitterShare"><a href="http://twitter.com/share" class="socialite twitter-share" data-text="Netflix opens the floodgates on Super HD streaming support | TechHive" data-url="http://www.techhive.com/article/2049921/netflix-opens-the-floodgates-on-super-hd-streaming-support.html" data-count="vertical" data-via="TechHive" rel="nofollow" target="_blank"><span class="vhidden">Share on Twitter</span></a></li>
+    <li class="googleplusShare"><a href="https://plus.google.com/share?url=http://www.techhive.com/article/2049921/netflix-opens-the-floodgates-on-super-hd-streaming-support.html" class="socialite googleplus-one" data-size="tall" data-href="http://www.techhive.com/article/2049921/netflix-opens-the-floodgates-on-super-hd-streaming-support.html" rel="nofollow" target="_blank"><span class="vhidden">Share on Google+</span></a></li>
+	<li class="linkedinShare"><a href="http://www.linkedin.com/shareArticle?url=http://www.techhive.com/article/2049921/netflix-opens-the-floodgates-on-super-hd-streaming-support.html" class="socialite linkedin-share" data-counter="top" data-size="tall" data-href="http://www.techhive.com/article/2049921/netflix-opens-the-floodgates-on-super-hd-streaming-support.html" data-onsuccess="linkedInTrack" rel="nofollow" target="_blank"><span class="vhidden">Share on LinkedIn</span></a></li>
+    <li class="pinterestShare"><a href="http://pinterest.com/pin/create/button/?url=http://www.techhive.com/article/2049921/netflix-opens-the-floodgates-on-super-hd-streaming-support.html&media=http://images.techhive.com/images/article/2013/01/netflix_superhd_screenshot-100020600-medium.png&description=Netflix opens the floodgates on Super HD streaming support | TechHive" class="socialite pinterest-pinit" data-pin-do="buttonPin" data-pin-config="above" data-default-href="http://pinterest.com/pin/create/button/?url=http://www.techhive.com/article/2049921/netflix-opens-the-floodgates-on-super-hd-streaming-support.html" rel="nofollow" target="_blank" id="pinterestShare"><span class="vhidden">Share on Pinterest</span></a></li>
+	<li class="redditShare" id="redditShare"><script type="text/javascript">reddit_url = "http://www.techhive.com/article/2049921/netflix-opens-the-floodgates-on-super-hd-streaming-support.html"; reddit_title = "Netflix opens the floodgates on Super HD streaming support | TechHive"; reddit_bgcolor = "FFF"; reddit_bordercolor = "FFF"; </script><script type="text/javascript" src="http://www.reddit.com/static/button/button3.js"></script></li>	
+</ul>
+
+    
+<div id="container-article-meta" style="display: none;">
+<div class="article-meta">
+	<div class="article-author">
+					<img  class="bylineImage  imgId100034105 " src="http://zapt5.staticworld.net/images/article/2013/04/jon-100034105-byline.png" width="34" width="34" /><div class="author-name">
+						<a href="#jonathanseff" itemprop="author">Jonathan Seff</a>
+						<span>@jonseff</span>
+						</div>
+				</div>
+			<ul class="fmenu">
+			<li itemprop="datePublished">Sep 26, 2013 3:15 PM</li><li><a href="javascript://" onclick="window.print()" class="icn-link icn-print ir">print</a></li></ul>
+	</div>
+<div class="author-info" id="jonathanseff">
+			 <img  class="bylineImage  imgId100034105 " src="http://zapt5.staticworld.net/images/article/2013/04/jon-100034105-byline.png" width="116" width="116" alt="Jonathan Seff" /><h3>Jonathan Seff<span>Executive Editor, TechHive</span> 
+			
+			<a href="https://twitter.com/jonseff" class="twitter-follow-button" data-show-count="false"><img src="http://zapt5.staticworld.net/images/furniture/techhive/TwitterFollowButton.png" border="0" alt="Follow me on Twitter"/></a>
+			<a href="https://plus.google.com/106140990359770269775" class="googleplus-one-follow-button" data-show-count="false"><img src="http://zapt5.staticworld.net/images/furniture/techhive/GoogleFollowButton.png" border="0" alt="Follow me on Google+"/></a>
+			</h3>
+			
+			<p>Jonathan has been covering the tech industry since 1998. He loves watching TV shows on his iPhone while exercising, and has already indoctrinated his young twins in the ways of the Apple TV.<br/><strong>More by <a href="/author/Jonathan-Seff/">Jonathan Seff</a></strong></p>
+			</div>
+	</div>
+</article>
+    
+    <div class="OUTBRAIN" data-src="http://www.techhive.com/article/2049921/netflix-opens-the-floodgates-on-super-hd-streaming-support.html" data-widget-id="AR_1" data-ob-template="TechHive"></div>
+	<script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"></script> 
+<style>
+		#toaster{ border-bottom:1px solid #c6c6c6; border-left:1px solid #c6c6c6; border-top:1px solid #c6c6c6; -moz-box-shadow: 0 0 4px 2px #ddd; -webkit-box-shadow: 0 0 4px 2px #ddd; box-shadow: 0 0 4px 2px #ddd; background: #FFF url(http://zapt5.staticworld.net/images/furniture/techhive/toaster-striped-tall-bg-th.png) left 0 no-repeat; width:385px; height:auto; display:none; overflow:hidden; padding-bottom: 3px; position:fixed; right:0; bottom:30px; z-index:99999; }
+		body.pcworld #toaster{background: #FFF url(http://zapt5.staticworld.net/images/furniture/techhive/toaster-striped-tall-bg-pcw.png) left 0 no-repeat;}
+		body.macworld #toaster{background: #FFF url(http://zapt5.staticworld.net/images/furniture/techhive/toaster-striped-tall-bg-mw.png) left 0 no-repeat;}
+		#toasterCloser{ background-image: url("http://zapt5.staticworld.net/images/furniture/techhive/nav-elements_sprite.png"); background-position:0 -50px; float:right; margin-right:10px; margin-top: 7px; height:18px; width:18px; cursor:pointer; }
+		body.pcworld #toasterCloser{ background-image: url("http://zapt5.staticworld.net/images/furniture/pcworld/nav-elements_sprite-pcw.png"); }
+		body.macworld #toasterCloser{ background-image: url("http://zapt5.staticworld.net/images/furniture/macworld/nav-elements_sprite-mw.png"); }
+		#toasterNewsletter{ width:325px; display:block; float:left; margin-left:31px; font-size:15px; margin-bottom:6px;}
+		#toasterNewsletter input[type="text"]{ float:left; border-radius: 4px; box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4) inset; padding: 5px 25px 5px 8px; font-size:12px; width:170px; }
+		#toasterNewsletter input[type="button"]{ font-size:12px; margin-left:10px;}		
+		#toasterText{ width:325px; display:block; float:left; margin-top:7px; margin-bottom: 5px; padding-bottom:5px; border-bottom:1px solid #c6c6c6; margin-left:31px;}
+		#toasterLabel{ color:#959595; font-size:9px; display:block; text-transform:uppercase; }
+		#toasterReadMore{ display:block; font-size:10px; }
+		#toaster h4{ margin-top: .25em; line-height:1.2; font-size:15px; }
+		#toasterNewsletter h4{ margin-top:1px;}
+		#toaster.hideTheToaster{ right: -365px; cursor:pointer; }
+	</style>
+	<div id="toaster">    	
+		<div id="toasterCloser"></div>
+		<div id="toasterText">
+			<span id="toasterLabel">recommended for you</span>
+			<h4><a href="/article/2030606/netflix-takes-need-for-speed-global-with-worldwide-isp-rankings.html">Netflix takes need for speed global with worldwide ISP rankings</a></h4>
+			<span id="toasterReadMore"><a href="/article/2030606/netflix-takes-need-for-speed-global-with-worldwide-isp-rankings.html">Read more &raquo;</a></span>        
+		</div>
+		<div id="toasterNewsletter">
+			<h4>Subscribe to the Now Playing Newsletter </h4>
+		        <form action="/newsletters/nl_module_processor" method="post" id="newsletterModuleFormToaster" name="newsletterModuleFormToaster">
+					<input type="hidden" name="sourceid" id="sourceid" value="1" />
+					<input type="hidden" name="subsource" id="subsource" value="NL_MODULE" />
+					<input type="hidden" name="submitted" id="submitted" value="toaster" />
+					<input type="hidden" name="caller" id="caller" value="nav" />
+					<input type="hidden" name="prodid" id="prodid" value="404" />
+					<input type="hidden" name="title" id="title" value="Now Playing" />					
+					<div id="message"></div> 
+		            <div class="submitField">
+		                <div class="textField">
+		                    <input type="text" onfocus="clearFld(this);" id="email" name="email" class="field" placeholder="Enter email">
+		                </div>
+		                <input type="button" onclick="submitNewsletterSubscriptionToaster();return false;" class="submitBtn" value="Subscribe">
+		            </div>
+				</form>
+			</div>		
+	</div>	
+	
+	 <script type="text/javascript">	 
+		function submitNewsletterSubscriptionToaster(){		
+			var postData=$("#newsletterModuleFormToaster").serialize();
+	 		var email = $.trim($('#newsletterModuleFormToaster [name="email"]').val());					
+			if(!checkEmailValid(email)){
+				alert("Please enter a valid email address.");
+				return false;
+			} 			
+			else if(postData.indexOf("prodid")==-1){
+				alert("Please Select at least one Newsletter.");
+				return false;
+			}
+			var requestOptions={
+						url: '/newsletters/nl_module_processor',
+						data: postData,
+						success: function(data,textStatus){
+								$("#toasterNewsletter").fadeOut("slow",function(){$(this).html(data).fadeIn("slow");
+									})
+							}
+				};
+			$.ajax(requestOptions);
+		}
+	</script>	
+	     
+	<section id="comments">
+		<div id="comments-response"></div>
+		<div id="comment-form" name="comment-form" class="clearfix">
+	        <h3>Add Your Comment</h3>
+	        <div class="comment-avatar">
+	            <img id="forumUserThumbnail" src="http://forums.pcworld.com/public/style_images/master/profile/default_large.png" alt="user avatar" />
+	        </div>
+	        <textarea id="forum_comment" rows="10" cols="80" class="" placeholder="Leave a comment" onclick="if ('Leave a comment'==$('#forum_comment').val()) $('#forum_comment').val('');"></textarea>
+        	<button onclick="Social.handleCommentSubmit(); return false;" id='submitButton'>Add Your Comment</button>
+	    </div><!--#comment-form-->
+	</section>
+
+	<div id="emailModal" style="display:none">
+		<a class='close' href="#" id="_extra-nav-toggle">close</a>
+		<form id="emailModalForm" action="/email/article?id=2049921" class="section">
+			<input type="hidden" name="title" value="Netflix opens the floodgates on..."/>
+			<input type="hidden" name="url" value="http://www.techhive.com/article/2049921/netflix-opens-the-floodgates-on-super-hd-streaming-support.html"/>
+			<h2>Email "Netflix opens the floodgates on..."</h2>
+			<ul>
+			<li>
+			<label for="emailModalSender">From: </label>			 
+			<input type="email" name="sender" id="emailModalSender" pattern="[^ @]*@[^ @]*" placeholder="Enter email address"/>
+			</li>
+			<li>
+			<label for="emailModalRcpts">To: </label>
+			<input type="email" name="recipients" id="emailModalRcpts" placeholder="Enter email address"/>
+			</li>
+			<li>
+			<label for="emailModalMsg">Message: </label>
+			<textarea name="message" rows="4" cols="31" id="emailModalMsg" placeholder="Enter email message"></textarea>
+			
+			</li>
+			</ul>
+			<input type="submit" value="send"/>
+		</form>
+		<div id="emailModalSuccess" class="section success" style="display:none">
+			<h2> Thank you for sharing this page.</h2>
+		</div>
+		<div id="emailModalError" class="section error" style="display:none">
+			<h2> Sorry! There was an error emailing this page</h2>
+		</div>
+	</div>
+	
+	
+</div>
+
+<!-- right side here -->
+<div class="side" id="side" role="secondary">
+	
+	<div id="gpt-showcase" class="side-promo side-module side-ad">
+    <script type="text/javascript">
+    	g_arrAds.push("gpt-showcase");
+    	googletag.cmd.push(function() { googletag.display('gpt-showcase'); });
+    </script>
+    </div>
+ <!-- blx4 #427blox4.video -->
+			<style>
+.home-video, a.video-index-link {
+color: #d77227;
+}
+.home-video {
+background: #e8e8e8;
+margin-bottom: 30px;
+overflow: hidden;
+padding: 0 10px;
+font-family: "ff-enzo-web",sans-serif;
+}
+
+body.pcworld .home-video {
+	font-family: "facitweb",sans-serif;
+}
+body.macworld .home-video {
+	font-family: "proxima-nova",sans-serif;
+}
+
+.home-video-feature{
+	width:100%;
+	position:relative;
+}
+
+.home-video-feature img{
+	max-width:320px;
+	max-height:180px;
+}
+
+.home-video h2 {
+font-size: 24px;
+line-height: 1;
+margin: 0;
+padding: 15px 0;
+text-transform: uppercase;
+}
+
+.home-video .excerpt {
+float: left;
+width: 100%;
+clear: both;
+margin-bottom: 15px;
+}
+
+a.video-blox-thumb {
+display: block;
+position: relative;
+}
+
+p {
+line-height: 1.70em;
+margin: 0 0 .7em;
+}
+
+.home-video .excerpt-img {
+float: left;
+width: 90px;
+margin-top:3px;
+}
+
+
+a.video-blox-thumb span {
+background: url(http://zapt5.staticworld.net/images/furniture/techhive/icn-play-overlay-sm_f.png) 3% 96% no-repeat;
+display: block;
+height: 100%;
+left: 0;
+position: absolute;
+top: 0;
+width: 100%;
+}
+
+a.video-blox-thumb-small span {
+background-image: url(http://zapt5.staticworld.net/images/furniture/techhive/icn-play-overlay-xsm.png);
+}
+
+
+.home-video .excerpt-text a {
+color: #333;
+font-weight: 100;
+}
+
+a.leadVideoModalClick {
+color: #333;
+text-align:center;
+}
+
+div.excerpt-text p {
+line-height: 1.6em;
+margin: 0 0 .7em;
+}
+
+.home-video .excerpt-text {
+float: right;
+width: 220px;
+}
+
+
+
+p#videoModuleLead {
+padding-top: 10px;
+text-align: center;
+font-weight:bold;
+line-height:1.3em;
+font-size:17px;
+}
+
+/* Z-index of #mask must lower than #boxes .window */
+#modalMask {
+  position:absolute;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+  top: 0px;
+  left: 0px;
+}
+  
+#modalVideoWindow {
+  position:fixed;
+  width:622px;
+  height:406px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+  background-color: #fff;
+ } 
+  
+@media only screen and (min-width:1px) and (max-width:767px) {  
+
+.home-video .excerpt-img {
+	width:20%;
+}
+
+.home-video .excerpt-img img{
+	width:100%;
+}
+
+
+.home-video .excerpt-text {
+	width: 78%;
+}
+
+}
+
+@media only screen and (min-width:1px) and (max-width:320px) {  
+.home-video-feature img{
+	max-width:300px;
+	max-height:165px;
+}
+}
+
+
+</style>
+<div class="home-video">
+	<h2>Latest Videos</h2>
+	<div class="home-video-feature">
+		<a href="http://www.techhive.com/video/28863/rapid_review_samsung_galaxy_note_3.html#tk.mod_lat_vid" class="video-blox-thumb leadVideoModalClick"><img  class="posterImage  imgId100056268 " src="http://zapt4.staticworld.net/images/article/2013/09/thumb_note-3-100056268-poster.jpg" /><span></span></a>
+		<p id="videoModuleLead"><a href="http://www.techhive.com/video/28863/rapid_review_samsung_galaxy_note_3.html" class="leadVideoModalClick">Rapid Review: Samsung Galaxy Note 3</a><p>
+	</div>
+	<div class="excerpt">
+		<div class="excerpt-img">
+			<a  class="video-blox-thumb video-blox-thumb-small" href="/video/28683/microsoft-s-new-surface-family-grasps-at-relevance.html#tk.mod_lat_vid"><img  class="posterImage  imgId100055511 " src="http://zapt1.staticworld.net/images/article/2013/09/thumb_surface-rant-100055511-poster.jpg" width="90" width="50" /><span></span>
+			</a></div>
+		<div class="excerpt-text">
+			<p><a  href="/video/28683/microsoft-s-new-surface-family-grasps-at-relevance.html#tk.mod_lat_vid">Microsoft's new Surface family grasps at relevance</a></p>
+		</div>
+	</div>
+<div class="excerpt">
+		<div class="excerpt-img">
+			<a  class="video-blox-thumb video-blox-thumb-small" href="/video/28864/rapid-review-samsung-galaxy-note-10-1-2014-edition.html#tk.mod_lat_vid"><img  class="posterImage  imgId100056271 " src="http://zapt0.staticworld.net/images/article/2013/09/thumb_-galaxy-10.1-100056271-poster.jpg" width="90" width="50" /><span></span>
+			</a></div>
+		<div class="excerpt-text">
+			<p><a  href="/video/28864/rapid-review-samsung-galaxy-note-10-1-2014-edition.html#tk.mod_lat_vid">Rapid review: Samsung Galaxy Note 10.1 2014 Edition</a></p>
+		</div>
+	</div>
+<div class="excerpt">
+		<div class="excerpt-img">
+			<a  class="video-blox-thumb video-blox-thumb-small" href="/video/28304/photoshop-touch-gives-your-image-that-pro-panache.html#tk.mod_lat_vid"><img  class="posterImage  imgId100052624 " src="http://zapt0.staticworld.net/images/article/2013/09/photoshop-touch-thumb-100052624-poster.jpg" width="90" width="50" /><span></span>
+			</a></div>
+		<div class="excerpt-text">
+			<p><a  href="/video/28304/photoshop-touch-gives-your-image-that-pro-panache.html#tk.mod_lat_vid">Photoshop Touch gives your image that pro panache</a></p>
+		</div>
+	</div>
+<p><a href="/video/" class="video-index-link">View more TechHive videos »</a></p>
+</div><!--/.home-video-->
+<div id="modalVideoWindow">
+	<p><a href="#modalVideoWindow" class="closeVideoModal">Close</a></p>
+	<h3>Rapid Review: Samsung Galaxy Note 3</h3>
+    <p><em>Sep 30, 2013 3:15 PM</em></p>
+	<div id="VideoPlayerMain"><div id="mediaContainer28863"></div></div>
+	<div id="VideoCopyAndSharing">
+		<p>The third iteration of Samsung's  not-quite-phone, not-quite-tablet Note line is one of the company's better phones currently available. But it's also pretty bloated.</p>
+		<p><strong>READ THE RELATED ARTICLE:<</strong></p>
+		<p><a  href="/video/28863/rapid-review-samsung-galaxy-note-3.html">Rapid Review: Samsung Galaxy Note 3</a></p>
+		<ul class="sharing-tools-video">
+    <li class="facebookShare"><a href="http://www.facebook.com/sharer.php?u=http://www.techhive.com/video/28863/rapid-review-samsung-galaxy-note-3.html&amp;t=Rapid Review: Samsung Galaxy Note 3" class="socialite facebook-like" data-href="http://www.techhive.com/video/28863/rapid-review-samsung-galaxy-note-3.html" data-send="false" data-layout="box_count" data-width="60" data-show-faces="false" rel="nofollow" target="_blank"><span class="vhidden">Share on Facebook</span></a></li>
+    <li class="twitterShare"><a href="http://twitter.com/share" class="socialite twitter-share" data-text="Rapid Review: Samsung Galaxy Note 3" data-url="http://www.techhive.com/video/28863/rapid-review-samsung-galaxy-note-3.html" data-count="vertical" data-via="TechHive" rel="nofollow" target="_blank"><span class="vhidden">Share on Twitter</span></a></li>
+    <li class="googleplusShare"><a href="https://plus.google.com/share?url=http://www.techhive.com/video/28863/rapid-review-samsung-galaxy-note-3.html" class="socialite googleplus-one" data-size="tall" data-href="http://www.techhive.com/video/28863/rapid-review-samsung-galaxy-note-3.html" rel="nofollow" target="_blank"><span class="vhidden">Share on Google+</span></a></li>
+	<li class="linkedinShare"><a href="http://www.linkedin.com/shareArticle?url=http://www.techhive.com/video/28863/rapid-review-samsung-galaxy-note-3.html" class="socialite linkedin-share" data-counter="top" data-size="tall" data-href="http://www.techhive.com/video/28863/rapid-review-samsung-galaxy-note-3.html" data-onsuccess="linkedInTrack" rel="nofollow" target="_blank"><span class="vhidden">Share on LinkedIn</span></a></li>
+    <li class="pinterestShare"><a href="http://pinterest.com/pin/create/button/?url=http://www.techhive.com/video/28863/rapid-review-samsung-galaxy-note-3.html&media=http://images.techhive.com/images/article/2013/01/netflix_superhd_screenshot-100020600-medium.png&description=Netflix opens the floodgates on Super HD streaming support | TechHive" class="socialite pinterest-pinit" data-pin-do="buttonPin" data-pin-config="above" data-default-href="http://pinterest.com/pin/create/button/?url=http://www.techhive.com/video/28863/rapid-review-samsung-galaxy-note-3.html" rel="nofollow" target="_blank" id="pinterestShare"><span class="vhidden">Share on Pinterest</span></a></li>
+	<li class="redditShare" id="redditShare"><script type="text/javascript">reddit_url = "http://www.techhive.com/video/28863/rapid-review-samsung-galaxy-note-3.html"; reddit_title = "Rapid Review: Samsung Galaxy Note 3"; reddit_bgcolor = "FFF"; reddit_bordercolor = "FFF"; </script><script type="text/javascript" src="http://www.reddit.com/static/button/button3.js"></script></li>	
+</ul>
+
+    
+</div>
+</div><!-- blx4 #418blox4.html -->
+			<div id="" class="blx blxPbizdevinternalprimary blxM418  blox4_html  blxC1864">    <a href="http://www.techhive.com/premiumcontent/superguide/digitalphoto5.html#tk.TH_swm_SG_DP5"><img src="http://images.techhive.com/images/modules/th/SuperguideModule-DigitalPhotography.png" alt="Get the NEW TechHive Digital Photography Superguide and get the most from your digital cameras!" /></a>      </div>
+		<!-- TODO: remove -- the formatting of the price is something that might change -->
+<div class="side-module side-product-list side-module-popular-products">
+	    <h2>Popular Streaming media</h2>
+	    <ul>
+	    	<li>
+		            <a href="/product/pg/1268880310/detail">
+		                <div class="side-product-photo">
+		                    <img  class="nullImage  imgIdnull " src="http://i.pgcdn.com/pi/126/88/80/1268880310_75.jpg" width="65px" alt="Chromecast Wireless HD Streaming Media Player" /></div>
+		                <div class="side-product-desc">
+		                    Chromecast Wireless HD Streaming Media Player</div>
+		                <div class="side-product-data">
+			                    as low as
+			                    <span class="price universalPriceColor">$35.00</span>
+			                </div>
+			            </a>
+		        </li>
+		    <li>
+		            <a href="/product/pg/1141138936/detail">
+		                <div class="side-product-photo">
+		                    <img  class="nullImage  imgIdnull " src="http://i.pgcdn.com/pi/114/11/38/1141138936_75.jpg" width="65px" alt="TV LIVE Streaming Media Player (802.11b/g/n, HDMI)" /></div>
+		                <div class="side-product-desc">
+		                    TV LIVE Streaming Media Player (802.11b/g/n, HDMI)</div>
+		                <div class="side-product-data">
+			                    as low as
+			                    <span class="price universalPriceColor">$100.00</span>
+			                </div>
+			            </a>
+		        </li>
+		    <li>
+		            <a href="/product/pg/1054496279/detail">
+		                <div class="side-product-photo">
+		                    <img  class="nullImage  imgIdnull " src="http://i.pgcdn.com/pi/105/44/96/1054496279_75.jpg" width="65px" alt="UE Smart Radio (MP3/FLAC/WAV/AIFF/WMA/Ogg Vorbis/A..." /></div>
+		                <div class="side-product-desc">
+		                    UE Smart Radio (MP3/FLAC/WAV/AIFF/WMA/Ogg Vorbis/A...</div>
+		                <div class="side-product-data">
+			                    as low as
+			                    <span class="price universalPriceColor">$180.00</span>
+			                </div>
+			            </a>
+		        </li>
+		    <li>
+		            <a href="/product/pg/1159156683/detail">
+		                <div class="side-product-photo">
+		                    <img  class="nullImage  imgIdnull " src="http://i.pgcdn.com/pi/115/91/56/1159156683_75.jpg" width="65px" alt="3 Wireless HD Streaming Player" /></div>
+		                <div class="side-product-desc">
+		                    3 Wireless HD Streaming Player</div>
+		                <div class="side-product-data">
+			                    as low as
+			                    <span class="price universalPriceColor">$99.00</span>
+			                </div>
+			            </a>
+		        </li>
+		    <li>
+		            <a href="/product/pg/1072101229/detail">
+		                <div class="side-product-photo">
+		                    <img  class="nullImage  imgIdnull " src="http://i.pgcdn.com/pi/107/21/01/1072101229_75.jpg" width="65px" alt="Slingbox 500 Media Player" /></div>
+		                <div class="side-product-desc">
+		                    Slingbox 500 Media Player</div>
+		                <div class="side-product-data">
+			                    as low as
+			                    <span class="price universalPriceColor">$298.00</span>
+			                </div>
+			            </a>
+		        </li>
+		    <li><a href="/product/pg/directory.html?&partnerCategory.pageId=2034">See more &raquo;</a></li>
+	    </ul>
+	</div>
+<div id="textAds" class="sponsored-links "></div>
+<script type="text/javascript"> 
+function microsoft_adunit_render(adArray) {
+   if (adArray.length > 0) {
+       var adsBody = "<h2>Sponsored Links</h2>";
+       for (var i in adArray) {
+    	   if(adArray[i]){
+	           var ad = "<div class='ad'>";
+	           ad += "<a href='" + adArray[i].url + "' target='_blank' rel='nofollow' class='ad-title'>" + adArray[i].title + "</a><br/>";
+	           if (null != adArray[i].line1 && adArray[i].line1.length>0) {
+	            ad += adArray[i].line1 + "<br/>";
+	           }
+	           ad += "<a href='" + adArray[i].url + "' class='ad-site' rel='nofollow' target='_blank'>" + adArray[i].display_url + "</a>";
+	           ad += "</div>";
+	           adsBody += ad;
+    	   }
+       }
+       document.getElementById("textAds").innerHTML = adsBody;
+   }
+};
+microsoft_adunitid = "95641";
+microsoft_adunitformat = "js"; 
+</script>
+<div id="gpt-showcase-2" class="side-promo side-module side-ad">
+    <script type="text/javascript">
+    	g_arrAds.push("gpt-showcase-2");
+    	googletag.cmd.push(function() { googletag.display('gpt-showcase-2'); });
+    </script>
+    </div>
+ <div id="nlmod">
+<div id="touts" class="module">
+<div id="newsletters" class="module radius_5">
+<p class="newsletterTitle">Subscribe to the Now Playing Newsletter </p>
+		
+		<form name="newslettermodule" id="newsletterModuleForm" method="post" action="/newsletters/nl_module_processor">
+			<input type="hidden" name="sourceid" id="sourceid" value="1" />
+			<input type="hidden" name="subsource" id="subsource" value="NL_MODULE" />
+			<input type="hidden" name="submitted" id="submitted" value="show" />
+			<input type="hidden" name="caller" id="caller" value="nav" />
+			<input type="hidden" name="prodid" id="prodid" value="404" />
+			<div id="message"></div> 
+            <div class="submitField">
+                <div class="textField">
+                    <input class="field" name="email" id="email" placeholder="Enter email" onFocus="clearFld(this);" type="text">
+                </div>
+                <input type="button" value="Go" class="submitBtn" onClick="submitNewsletterSubscription();return false;" />
+            </div>
+		</form>
+		<a class="moreLink" href="/newsletters/index" rel="nofollow">See All Newsletters &raquo;</a>
+	
+	<script>
+		function submitNewsletterSubscription(){
+			var postData=$("#newsletterModuleForm").serialize();
+	 		var email = $.trim($('#newsletterModuleForm [name="email"]').val());					
+			if(!checkEmailValid(email)){
+				alert("Please enter a valid email address.");
+				return false;
+			} 			
+			else if(postData.indexOf("prodid")==-1){
+				alert("Please Select at least one Newsletter.");
+				return false;
+			}
+			var requestOptions={
+						url: '/newsletters/nl_module_processor',
+						data: postData,
+						success: function(data,textStatus){
+								$("#newsletters").fadeOut("slow",function(){$(this).html(data).fadeIn("slow");
+									})
+							}
+				};
+			$.ajax(requestOptions)
+		}	
+		function handleSubForm() {
+			if (isValidEmail($('#email').val())) {
+				$.post("/newsletters/nl_module_processor",
+					{
+						email: $('#email').val(),
+						subsource: $('#subsource').val(),
+						prodid: $('#prodid').val(),
+						submitted: $('#submitted').val(),
+						caller: $('#caller').val()
+					}, 
+					function(data) { $(this).html(data); });
+			} else {
+				$('#message').html('Please check your email address and captcha text!');
+			}
+			return false;
+		}
+		function isValidEmail(str) {
+			return (str.indexOf(".") > 2) && (str.indexOf("@") > 0);
+		}
+		function clearFld(pFld) {
+			getObject(pFld).value = "";
+			return false;
+		}
+	</script>
+ 
+
+
+</div> <!--  END #newsletters --><!-- function(data) { $.globalEval(data); }); -->
+</div>
+</div><div id="gpt-custom-promo" class="side-promo side-module side-ad">
+    <script type="text/javascript">
+    	g_arrAds.push("gpt-custom-promo");
+    	googletag.cmd.push(function() { googletag.display('gpt-custom-promo'); });
+    </script>
+    </div>
+ </div>
+<div id="bottom-promo"> 
+	<div id="gpt-leaderboard-2" class="">
+    <script type="text/javascript">
+    	g_arrAds.push("gpt-leaderboard-2");
+    	googletag.cmd.push(function() { googletag.display('gpt-leaderboard-2'); });
+    </script>
+    </div>
+ </div>
+
+</div>
+
+			<div id="panel-loader"></div>
+
+<div id="tso" style="display:none"></div>
+<script type="text/javascript">
+function renderTSO(ads) {
+	$thm.debug("renderTSO:"+ads.length);
+	if (ads && ads.length > 0) {
+		var selectedAds = selectTSOAds(ads,6);
+		if (null != selectedAds && selectedAds.length > 0) {
+			var html = "<h3>Today's Special Offers</h3>";
+			html += "<ul>";
+			for (var i=0; i<selectedAds.length;i++) {
+				html += "<li>";
+				html += "<a href='"+selectedAds[i].url+"'>"+selectedAds[i].title+"</a>";
+				html += "<span>"+selectedAds[i].body+"</span>";
+				if (null != selectedAds[i].pixel && selectedAds[i].pixel.length > 0) {
+					html += "<img src='"+selectedAds[i].pixel+"' style='height:0;width:0;'/>";
+				}
+				html += "</li>";
+			}
+			html += "</ul>";
+			$("#tso").html(html).show();
+		}
+	}
+}
+function selectTSOAds(ads,max) {
+	if (ads.length <= max) {
+		return ads;
+	} else {
+		var uniq = {};
+		var found = 0;
+		var selectedAds = [];
+		while (found < max) {
+			var ad = ads[Math.floor(Math.random()*ads.length)];
+			if (uniq[ad.id] != null) {
+				continue;
+			} else {
+				uniq[ad.id] = true;
+				found++;
+				selectedAds.push(ad);
+			}
+		}
+		return selectedAds;
+	}
+	return null;
+}
+</script>
+</div>
+	
+		<div id="network"></div>
+<footer id="footer" class="clearfix">
+    <div class="container clearfix">
+    	<div class="footer-col">
+    		<a href="#" id="footer-logo" class="ir">TechHive</a>
+    		<p>TechHive helps you find your tech sweet spot. We steer you to products you'll love and show you how to get the most out of them.</p>
+    		<ul>
+    			<li><a href="http://www.idgcsmb.com">About Us</a></li>
+				<li><a href="http://www.idgcsmb.com/contact">Contact Us</a></li>
+				<li><a href="/newsletters/index">Newsletters</a></li>
+				<li><a href="/about/RSS.html">RSS</a></li>
+			</ul>
+			<ul class="right">
+				<li><a href="http://www.idgcsmb.com/contact/techhive-privacy-policy/">Privacy Policy</a></li>
+				<li><a href="http://www.idgcsmb.com/contact/techhive-terms-of-service/">Terms of Service Agreement</a></li>
+				<li><a href="http://www.idgcsmb.com/contact/techhive-privacy-policy/"><img class="footerIcon" alt="Ad Choices" src="http://zapp0.staticworld.net/images/shared/icons/ad_choices_icon.png"> Ad Choices</a></li>
+				
+				</ul>
+    	</div>
+    	<div class="footer-col">
+    		<h2>TechHive CATEGORIES</h2>
+    		<ul>
+    			<li><a href="/category/apps/">Apps</a></li>
+				<li><a href="/category/cameras/">Cameras</a></li>
+				<li><a href="/category/entertainment/">Entertainment</a></li>
+				<li><a href="/category/gadgets/">Gadgets</a></li>
+			</ul>
+			<ul class="right">
+				<li><a href="/category/phones/">Phones</a></li>
+				<li><a href="/category/tablets/">Tablets</a></li>
+				<li><a href="/category/web-social/">Web & Social</a></li>
+			</ul>
+
+
+
+			<h3>IDG Network Sites</h3>
+			<ul>
+				<li><a href="http://www.idgcsmb.com/specs/rates/">Advertise</a></li>
+				<li><a href="http://careers.idg.com/">Careers at IDG</a></li>
+				<li><a href="http://www.idgcsmb.com/brands/content-works/">Content Works</a></li>
+				<li><a href="http://idg.com/www/home.nsf/home?readform">IDG</a></li>
+				<li><a href="http://www.idgcsmb.com/contact/permissions/">Permissions</a></li>
+			</ul>
+			<ul class="right">
+				<li><a href="http://www.idgcsmb.com/">IDG Consumer & SMB</a></li>
+				<li><a href="http://idgknowledgehub.com/">Knowledge Hub</a></li>
+				<li><a href="http://www.pcworld.com/">PCWorld</a></li>
+				<li><a href="http://www.macworld.com/">Macworld</a></li>
+			</ul>
+    	</div>
+    	<div class="footer-col">
+    		<div id="footer-social">
+    			Follow us <a href="https://twitter.com/TechHive" class="twitterSocial" onClick="socialTrack('Footer','Twitter','Follow')"></a><a href="http://www.facebook.com/techhivemedia" class="facebookSocial" onClick="socialTrack('Footer','Facebook','Follow')"></a><a href="http://www.linkedin.com/today/techhive.com" class="linkedinSocial" onClick="socialTrack('Footer','LinkedIn','Follow')"></a>
+    		</div>
+    		
+		    <p>Visit other IDG sites:</p>
+    		
+    		<div id="idgInfo" class="styled-select">		
+		            <select onchange="location = this.options[this.selectedIndex].value;" id="jumpMenu" name="jumpMenu" d30tagged="1" style="visibility: visible;">
+		                <option target="_blank" value="">Select One</option>
+		                <option target="_blank" value="http://www.cio.com">CIO</option>
+		                <option target="_blank" value="http://www.computerworld.com">Computerworld</option>
+		                <option target="_blank" value="http://www.csoonline.com">CSO</option>
+		                <option target="_blank" value="http://www.demo.com/">DEMO</option>
+		                <option target="_blank" value="http://www.idgconnect.com">IDG Connect</option>
+		                <option target="_blank" value="http://www.idgtechnetwork.com">IDG TechNetwork</option>
+		                <option target="_blank" value="http://www.infoworld.com">InfoWorld</option>
+		                <option target="_blank" value="http://www.itworld.com">ITworld</option>
+		                <option target="_blank" value="http://www.javaworld.com">JavaWorld</option>
+		                <option target="_blank" value="http://www.networkworld.com">Network World</option>
+		                <option target="_blank" value="http://www.thestandard.com">The Industry Standard</option>
+		            </select>
+		    </div>
+		        <p><small>&copy; 1998-2013, IDG Consumer &amp; SMB</small></p>
+    	</div>
+    </div>
+</footer>
+ 
+<script src="http://code.jquery.com/jquery-1.8.1.js"></script>
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<script src="http://cdn.jquerytools.org/1.2.7/all/jquery.tools.min.js"></script>
+
+
+<script src="/www.idgcsmb/js/mule/breakpoints.js"></script>
+<script src="/www.idgcsmb/js/mule/socialite.min.js"></script>
+<script src="/www.idgcsmb/js/mule/ios-orientationchange-fix.js"></script>
+<script type='text/javascript' src="/www.idgcsmb/js/video/embedder.js"></script>
+
+<script src="/www.idgcsmb/js/thm_post.js?v=20131003110141"></script>
+<script src="/www.idgcsmb/js/jquery/plug-ins/jquery.md5.js"></script>
+<script src="/www.idgcsmb/js/jquery/plug-ins/jquery.details.min.js"></script>
+<script src="/www.idgcsmb/js/jquery/plug-ins/jquery.colorbox-min.js"></script>
+<script src="http://cdn.gigya.com/js/socialize.js?apiKey=2_E5g3qkf9pVjWvrIVsdCDez6f4J1JQYLS5MiU5vVWlQI87T3QqObjAvf55NW8U8lc"></script>
+<script src="/www.idgcsmb/js/autocomplete.js"></script>
+<script type="text/javascript">
+var narfVideo = {
+	aid:"2049921",
+	siteName:"TechHive"
+};
+if (0 < $('.embeddedVideo').length) {
+	narfVideo.preroll = 'http://pubads.g.doubleclick.net/gampad/ads?sz=426x240&iu=/8456/IDG.TechHive_CSMB/_CSMB&ciu_szs=336x280&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url='+escape(escape(window.location.href))+'&correlator='+$thm.getOrd();
+} else {
+	narfVideo.preroll = null;
+}
+</script>
+<script type='text/javascript' src="/www.idgcsmb/js/article_comments.js"></script><script type='text/javascript' src="http://adsyndication.msn.com/delivery/getads.js?"></script><script type='text/javascript'>
+	    		
+			//Banner Toggle
+			$('#banner-toggle a').click(function(event){
+				openHeight = $('.int-features-inner').height() + 'px';
+				wideToolHeight = 140 + $('.int-features-inner').height() + 'px';
+				if($('#int-features').hasClass('open')){
+					$('#int-features').animate({height:'0px'}).removeClass('open');
+					$('#wide-panel-banner').animate({height:'140px'});
+					$(this).removeClass('open');
+				}else{
+					$('#int-features').animate({height:openHeight}).addClass('open');
+					$('#wide-panel-banner').animate({height:wideToolHeight});
+					$(this).addClass('open');
+				}
+				return false;
+				});
+	
+
+	
+	$(document).ready(function(){
+
+	$('#extra-nav-toggle a').click(function(){
+		if($(this).hasClass('open')){
+			$('#extra-nav').hide();
+			$(this).removeClass('open');
+		} else {
+			$('#extra-nav').show();
+			$(this).addClass('open');
+		}
+		return false;
+	});
+	$('#extra-nav a').click(function(){
+		$('#extra-nav').hide();
+		$('#extra-nav-toggle a').removeClass('open');
+	});
+		   
+						  
+	});//-- end document Ready
+		
+	
+
+
+		$(document).ready(function(){
+			$('#article-meta-target').html($('#container-article-meta').html());
+			
+			$('.article-author').click(function(){
+				var whichAuthor = $(this).find('a').attr('href');
+				if($(whichAuthor).hasClass('open')){
+					$(whichAuthor).removeClass('open').slideUp('fast',function(){
+						$('.article-meta').removeClass('open');
+					});
+				} else {
+					$('.author-info').hide().removeClass('open');
+					$(whichAuthor).addClass('open').slideDown('fast',function(){
+						$('.article-meta').addClass('open');
+					});
+				}
+				return false;
+			});			
+			
+		});
+	
+g_arrModules['toaster'] = true;
+
+		var relatedStories = $(".related-stories").children("div[class^='related-story']");
+		if ($thm.deviceWidthAtLeast($thm.deviceBreakpoints.desktop) && !$thm.isMobile()){
+			$(window).scroll(function(e) {
+				var divpos= $(".main").offset().top + 400;
+				var commentspos= $("#comments").offset().top - 150;
+				
+				if ($(window).scrollTop() >= divpos && $(window).scrollTop() < commentspos) {	
+					$('#toaster').fadeIn(300);
+				}
+				else{
+					$('#toaster').fadeOut(300);
+				}				
+				});
+			
+				$("#toasterCloser").click(function(e) {	
+					$("#toaster").addClass('hideTheToaster');
+					e.stopPropagation();
+				});
+				
+				$("#toaster").click(function(e){
+					if ($('#toaster').hasClass('hideTheToaster')){
+						$("#toaster").removeClass('hideTheToaster');	
+					}
+			});		
+			
+			//hide story that appears in toaster
+			if (relatedStories.length == 1){
+				$(".related-stories").hide();
+			}
+			else {
+				relatedStories.eq(0).hide();
+				relatedStories.eq(1).addClass("left");
+			}
+		}
+		else {
+			//hide toaster and third related story
+			$('#toaster').hide();
+			if(relatedStories.length > 2 ) relatedStories.eq(2).hide();
+		}
+	
+
+		ArticleComments.aid = 2049921;
+		ArticleComments.subject = 'Netflix opens the floodgates on Super HD streaming support';
+		ArticleComments.threadId = 8023;
+		ArticleComments.communityId = 7;
+		ArticleComments.uname = Cooker.readCookie("uname");
+	
+		function loadComments(order) {
+			var params = {
+				threadId:		ArticleComments.threadId,
+				style:			ArticleComments.style,
+				sort:			order,
+				pagination:		ArticleComments.pagination
+			};
+	
+			if (null != ArticleComments.uname && '' != ArticleComments.uname) {
+				params.username = ArticleComments.uname;
+			}
+	
+			$.get("/articleComment/get.do", params,
+			ArticleComments.fireCallBacks);
+		}
+	
+		function sortComments(buttonId, order) {
+			$('.btn-link').attr('class', 'btn-link');
+			$('#'+buttonId).attr('class', 'selected btn-link');
+			loadComments(order);
+		}
+	
+		loadComments("default");
+	
+		if (Logon.isValid) {
+		    $("#forum_comment").attr({'placeholder':'Leave a comment'});
+		    $("#forum_comment").val('Leave a comment');
+		    $('p.caption > small.sign-in-reg-note').hide();
+		    $("#forum_comment").removeAttr('disabled');
+		    $(document).ready(function(){
+				if (typeof(gigya) != "undefined") {
+					gigya.services.socialize.getUserInfo(gigyaConf, { callback: Social.setCommentAvatar });
+				}
+			});
+		} else {
+			$("#forum_comment").attr({'placeholder':'Please login or register to comment'});
+			$("#forum_comment").val('Please login or register to comment');
+			$("#forum_comment").attr({'disabled':'disabled'});
+			$("#forum_comment").attr({'class':'unlogged'});
+			$('#submitButton').html('LOGIN');
+			$('#commentList .item a.recommend, #commentList .item a.flag, #commentList .item a.reply').click(function() { NarfUser.showLogin(); });
+		}
+	
+
+	$(document).ready(function(){
+	
+		$("#emailModal").detach().appendTo("body").css("position","absolute");
+		$("#emailModal").position({ my: "center", at: "center bottom", of: ".icn-print" });
+
+	
+		$(document).on("click",".icn-email",function(event){
+			event.preventDefault();
+			var $e = $('#emailModal');
+					$e.hide().fadeIn(800).css({
+								'display':'block',
+								'width':'300px',
+								'background':'#fff',
+					        	'border': '8px #333 solid',
+					        	'padding': '12px 12px 20px',
+					        	'z-index':'8000',
+					        	'-moz-border-radius':'15px',
+					        	'border-radius':'15px',
+					        	'-moz-box-shadow':'6px 6px 3px #888',
+					        	'-webkit-box-shadow':'6px 6px 3px #888',
+					        	'box-shadow':'6px 6px 3px #888',					        	
+					}).find(".section").hide().filter("form").show();
+		});
+		
+		
+		$(document).on("click","#emailModal .close",function(event){
+			event.preventDefault();
+			$('#emailModal').fadeOut(200);
+			
+		});	
+		
+		
+		
+		$(document).on("submit","#emailModal form",function(event){
+			event.preventDefault();
+
+				var $form = $(this);
+				var action = $form.attr('action');
+				var formData = $form.serialize();
+				$.ajax(action,{
+					type: 'POST',
+					data: formData,
+					success: function(){
+						$("#emailModal .section").hide().filter(".success").fadeIn(800);
+					},
+					error: function(){
+						$("#emailModal .section").hide().filter(".error").fadeIn(800);
+					},
+				});
+		});
+	});
+
+
+/*
+csmbvideo.info = {
+	siteName : "th",
+	pageName: document.title
+};
+
+$(document).ready(function() {
+	csmbvideo.leadUrl="http://www.techhive.com/video/28863/rapid_review_samsung_galaxy_note_3.html";
+	csmbvideo.doBloxModal=false;
+
+	if (-1 < csmbvideo.leadUrl.indexOf("MODAL")) {
+		csmbvideo.doBloxModal=true;
+	}
+
+	if (true == csmbvideo.doBloxModal) {
+		$('body').append("<div id=\"modalMask\"></div>");
+
+		var narfVideo = {
+			aid:2049921,
+			preroll:'http://pubads.g.doubleclick.net/gampad/ads?sz=426x240&iu=/8456/IDG.TechHive_CSMB/_CSMB&ciu_szs=336x280&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1%26url='+escape(escape(window.location.href))+'%26correlator='+$thm.getOrd(),
+			siteName:"TechHive"
+		};
+	
+		$(".sharing-tools-video").show();
+	    $('a.leadVideoModalClick').click(function(e) {
+	        var id = $(this).attr('href');
+	        var maskHeight = $(document).height();
+	        var maskWidth = $(window).width();
+	        var winH = $(window).height();
+	        var winW = $(window).width();
+	
+			$('#modalMask').css({'width':maskWidth,'height':maskHeight});
+			$('#modalMask').fadeIn(250).fadeTo("slow",0.8);
+	
+	        $(id).css('top',  winH/2-$(id).height()/2);
+	        $(id).css('left', winW/2-$(id).width()/2);
+	        $(id).fadeIn(500);
+
+			if ("pcw" == "th") {
+				narfVideo.preroll = "http://addirector.vindicosuite.com/Feeds/AdDirector/VAST/2/?rotationId=SMG_MSFT_O365_IDG_2513752_Tom_*NOGOAL*%26version=release%26usage=vpaid%26frt=vast-xumo%26imps=false%26stretch=true%26maintainAspectratio=true";
+			}
+
+			csmbvideo.insert({
+				"embed":encodeURI('<iframe width="562" height="316" src="http://'+"www.techhive.com"+'/video/iframe/28863/iframe.html" frameborder="0" allowfullscreen></iframe>'),
+				'src':"playlist",
+				"mode":"overlay",
+				'trackingId':'mediaContainer28863',
+				'autostart':true,
+				'pageURL':document.URL,
+				"link":document.URL,
+				"pageName" : csmbvideo.info.pageName,
+				"videoName" : "Rapid Review: Samsung Galaxy Note 3",
+				'duration': 0,
+				'width':undefined,
+				'height':undefined,
+				'loadImage':"http://images.techhive.com/images/article/2013/09/thumb_note-3-100056268-poster.jpg",
+				'prerollTag':narfVideo.preroll,
+				"scaleMode":"stretch",
+				"insertType":"modal",
+				"playlistHandler": csmbvideo.getBloxArticlePlaylist
+			});
+
+			return false;
+		});
+
+		$('a.closeVideoModal').click(function (e) {
+	    	var id = $(this).attr('href');
+	    	$('#modalMask').fadeOut(250);
+	    	$(id).fadeOut(500);
+			$('#VideoPlayerMain').html("<div id=\"mediaContainer28863\"></div>");
+	       return false;
+		});
+	} else {
+		$('a.leadVideoModalClick').attr({'href':csmbvideo.leadUrl});
+	}
+});
+
+csmbvideo.getBloxArticlePlaylist = function() {
+	var videoPlaylist = [
+		{
+			"src" : "undefined",
+			"duration":"63"
+		}
+,{
+			"src" : "http://media.techhive.com/media/2012/08/surface-event-v1-28683-orig.m4v",
+			"duration" : "117"
+},{
+			"src" : "undefined",
+			"duration" : "79"
+},{
+			"src" : "undefined",
+			"duration" : "77"
+}
+	];
+	return videoPlaylist;
+}
+*/
+
+g_arrModules['slinks_rt'] = true;
+g_arrModules['tso'] = true;
+
+	$.ajax('/ads/tso',{
+		dataType: 'json',
+		success: function(data){
+			renderTSO(data.tsoLinks);
+		},
+		error: function(jqXHR,error,thrown){
+			$thm.debug("TSO AJAX Status: "+error+": "+thrown,true);
+		}
+	});
+
+
+	$('details').details();
+
+</script><iframe id="adsb" src="/ads/adData?t=Netflix+opens+the+floodgates+on+Super+HD+streaming+support+%7C+TechHive&amp;bc=article%2Fstreaming-media&amp;ct=news&amp;c=Entertainment%3AStreaming+media" width="0" height="0" frameborder="0" marginheight="0" marginwidth="0" style="display:none;visibility:hidden;"></iframe><!-- blx4 #243blox4.html -->
+			<div id="" class="blx blxPadopstechnetpixel blxM243  blox4_html  blxC524"><script language="JavaScript" type="text/javascript">
+if (typeof ord=='undefined'){ord=Math.random()*10000000000000000;}
+document.write('<img src="http://ad.doubleclick.net/activity;dc_pixel_url=idgt.csmb;dc_seg=137551;ord=' + ord + '?" width="0" height="0" border="0" alt="">');
+</script>
+<noscript>
+<img src="http://ad.doubleclick.net/activity;dc_pixel_url=idgt.csmb;dc_seg=137551;ord=123456789?" width="0" height="0" border="0" alt="">
+</noscript> </div>
+		<!-- ros viglink -->
+ <script type="text/javascript">
+  var vglnk = { api_url: '//api.viglink.com/api',
+                key: '2b0adaafa9ad8a29fede7758fada1730' };
+  (function(d, t) {
+    var s = d.createElement(t); s.type = 'text/javascript'; s.async = true;
+    s.src = ('https:' == document.location.protocol ? vglnk.api_url :
+             '//cdn.viglink.com/api') + '/vglnk.js';
+    var r = d.getElementsByTagName(t)[0]; r.parentNode.insertBefore(s, r);
+    
+    window.vglnk = vglnk;
+  }(document, 'script'));
+</script>  <!-- Begin BlueKai Tag -->
+	<iframe name="__bkframe" height="0" width="0" frameborder="0" src="javascript:void(0)" style="display:none;"></iframe>
+	
+	<script type="text/javascript">
+	$.getScript("http://tags.bkrtx.com/js/bk-coretag.js").done(function(script, textStatus) {
+		
+		if ( typeof(s) != 'undefined' ) {
+			bk_addPageCtx("p2", (typeof(s.prop2)!='undefined')?s.prop2:'');
+			bk_addPageCtx("p9", (typeof(s.prop9)!='undefined')?s.prop9:'');
+			bk_addPageCtx("p18", (typeof(s.prop18)!='undefined')?s.prop18:'');
+			bk_addPageCtx("p54", (typeof(s.prop54)!='undefined')?s.prop54:'');
+			bk_addPageCtx("p56", (typeof(s.prop56)!='undefined')?s.prop56:'');
+			bk_addPageCtx("p59", (typeof(s.prop59)!='undefined')?s.prop59:'');
+			bk_addPageCtx("p60", (typeof(s.prop60)!='undefined')?s.prop60:'');
+		}
+		
+		if (typeof(bk_doJSTag) == typeof(Function)) {
+			bk_ignore_outside_iframe = false;
+			bk_use_first_party = true;			
+			bk_doJSTag(13981, 6);
+		}
+		
+	}).fail(function(jqxhr, settings, exception) { });			
+	</script>
+	<!-- End BlueKai Tag -->
+<script type="text/javascript">
+  (function () {
+    var p = new Image(1, 1);
+    p.onerror = p.onload = function () {
+      p.onerror = p.onload = null;
+    };
+    p.src = ["//t.staticworld.net/pixel.gif?aid=2049921&b=4&d=", (new Date()).getTime()].join('');
+  })();
+</script>
+<script type="text/javascript">
+__reach_config = {
+	pid: "517187104240cfa21e0000eb",
+	title: "Netflix opens the floodgates on Super HD streaming support",
+	url: "http://www.techhive.com/article/2049921/netflix-opens-the-floodgates-on-super-hd-streaming-support.html",
+	
+		date: "2013-09-26T15:15-0700",
+		
+			authors: ["Jonathan Seff"],
+		
+		channels: ["Streaming media"],
+		tags: ["Streaming media"],
+	
+	landing_url: ""
+};
+(function()
+{ var s = document.createElement('script'); s.async = true; s.type = 'text/javascript'; s.src = document.location.protocol + '//d8rk54i4mohrb.cloudfront.net/js/reach.js'; (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s); }
+)();
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('a.pinterest-pinit').click(function(e){
+		socialTrack('Article','Pinterest','share');
+	});
+	$('li.redditShare').click(function(e) {
+		socialTrack('Article','Reddit','share');
+	});
+	$('a.shoppingExit').click(function(e){
+		s = s_gi(g_sOmnitureReportSuite);
+		s.linkTrackEvents = s.events = "event4";
+		s.prop26 = 'Merchant Exit';
+		s.linkTrackVars = "eVar30,prop26,prop54,events";
+		s.tl(true, 'o', 'Merchant Exit Link');
+	});
+
+	$('a.bingexit').click(function(e){
+		s = s_gi(g_sOmnitureReportSuite);
+		s.linkTrackEvents = s.events = "event6";
+		s.prop35="text ad exit";
+		s.linkTrackVars = "eVar35,prop35,events";
+		s.tl(true, 'o', 'Text Ad Exit');
+	});
+	$('a.itclick').click(function(e){
+		s = s_gi(g_sOmnitureReportSuite);
+		s.linkTrackEvents = s.events = "event5";
+		s.prop36="itunes exit";
+		s.linkTrackVars = "eVar36,prop36,events";
+		s.tl(true, 'o', 'iTunes Exit');
+	});
+	$('a.signinclick').click(function(e){
+		s = s_gi(g_sOmnitureReportSuite);
+		s.linkTrackEvents = s.events = "event32";
+		s.prop19="Internal Login";
+		s.linkTrackVars = "prop19,events";
+		s.tl(true, 'o', 'Login');
+	});
+	$('a.regclick').click(function(e){
+		s = s_gi(g_sOmnitureReportSuite);
+		s.linkTrackEvents = s.events = "event7,event18,prop20,prop22";
+		s.prop20="new registered user";
+		s.prop22="Internal Reg";
+		s.linkTrackVars = "events";
+		s.tl(true, 'o', 'Register');
+	});
+	$('.banner-tw').click(function(e){
+		s = s_gi(g_sOmnitureReportSuite);
+		s.linkTrackEvents = s.events = "event37";
+		s.prop49="twitter follow";
+		s.linkTrackVars = "prop49,events";
+		s.tl(true, 'o', 'Social Media Follow');
+		
+	});
+	$('.banner-fb').click(function(e){
+		s = s_gi(g_sOmnitureReportSuite);
+		s.linkTrackEvents = s.events = "event37";
+		s.prop49="facebook follow";
+		s.linkTrackVars = "prop49,events";
+		s.tl(true, 'o', 'Social Media Follow');
+		
+	});
+
+
+	if (typeof(FB)!='undefined') {
+		FB.Event.subscribe('edge.create', function(response){
+			s = s_gi(g_sOmnitureReportSuite);
+			s.linkTrackEvents = s.events = "event36";
+			s.prop48="facebook share";
+			s.linkTrackVars = "prop48,events";
+			s.tl(true, 'o', 'Social Media share');
+		});
+	}
+
+	if (typeof(digMag) != 'undefined'){
+		if(typeof(digLogin) != 'undefined'){
+			DigAnalytics.logSignIn(digLogin);
+		}
+	}
+
+
+});
+
+var Analytics = new Object();
+Analytics.logArticleComment = function(){
+	s = s_gi(g_sOmnitureReportSuite);
+	s.linkTrackVars="prop25,eVar25,events"; 
+	s.linkTrackEvents="event19";
+	s.events="event19";
+	s.prop25 = 'Article Comment';
+	s.tl(this,'o','Article Comments');
+};
+Analytics.logSocialSignin = function(provider){
+	s = s_gi(g_sOmnitureReportSuite);
+
+	s.linkTrackEvents = s.events = "event32";
+	s.prop19=provider;
+	s.linkTrackVars = "prop19,events";
+	s.tl(true, 'o', provider);
+};
+Analytics.logInternalSignin = function(){
+	s = s_gi(g_sOmnitureReportSuite);
+	s.linkTrackEvents = s.events = "event32";
+	s.prop19="Internal Login";
+	s.linkTrackVars = "prop19,events";
+	s.tl(true, 'o', 'Login');
+};
+</script>
+<!-- SiteCatalyst code version: H.25.
+Copyright 1996-2012 Adobe, Inc. All Rights Reserved
+More info available at http://www.omniture.com -->
+<script language="JavaScript" type="text/javascript" src="/www.idgcsmb.th/js/analytics/omniture/pcwmw-techhive/s_code.js"></script>
+<script language="JavaScript" type="text/javascript" id="omniVars"><!--
+g_sOmnitureReportSuite = "pcwmw-techhive"; 
+
+/* You may give each page an identifying name, server, and channel on
+the next lines. */
+//BEGIN OMNITURE VARS 
+s.pageName="news:TechHive:article:news:Entertainment:Streaming media:Netflix opens the floodgates on Super HD streaming support | TechHive";
+s.pageType="";
+if (typeof omnitureChannel != 'undefined'){
+s.channel=omnitureChannel;
+}
+s.prop1="source:TechHive";s.eVar1="D=c1";
+s.prop2="content type:news";s.eVar2="D=c2";
+s.prop3="display type:article:news";s.eVar3="D=c3";
+s.prop4="9 days";s.eVar4="D=c4";
+s.prop6="";
+s.prop7="";s.eVar7="D=c7";
+s.prop9="category:Entertainment:Streaming media";s.eVar9="D=c9";
+s.prop11="published:26-Sep-13";s.eVar11="D=c11";
+s.prop12="aid:2049921";s.eVar12="D=c12";
+s.prop13="";s.eVar13="D=c13";
+s.prop14="author:Jonathan Seff";s.eVar14="D=c14";
+s.prop15="page number:1";s.eVar15="D=c15";
+s.prop17="uri:/article/2049921/netflix-opens-the-floodgates-on-super-hd-streaming-support.html";s.eVar17="D=c17";
+s.prop18="";s.eVar18="D=c18";
+s.prop24=getLoginStatusForOmniture();s.eVar24="D=c24";
+s.prop28=getTrackingToken('tk') ? "tokens:"+getTrackingToken('tk') : "";s.eVar28="D=c28";
+s.prop61="";s.eVar10="D=c61";
+s.prop37="rpn:th:news:news:TechHive:article:news:Entertainment:Streaming media:Netflix opens the floodgates on Super HD streaming support | TechHive";s.eVar37="D=c37";
+s.prop53="2124";s.eVar53="D=c53";
+s.prop54="Streaming media";s.eVar30="D=c54";
+s.eVar33=s.prop55="2124";s.eVar33="D=c55";
+s.prop39="";s.eVar39="D=c39";
+s.prop56="Netflix,streaming video,HDTV,net neutrality";s.eVar40="D=c56";
+s.prop41=g_arrAds.toString();
+//module tracking
+sModules = '';
+for(var i in g_arrModules){
+	if(g_arrModules[i]){
+		sModules += i+',';
+	}
+}
+sModules = sModules.replace(/,$/,'');
+s.prop42 = sModules;
+
+//now set events
+s.events="";
+
+
+
+//force all values to lower case for reporting consistency
+for(var p in s){
+	if(s[p] && p.match(/^(prop|ceVar)\d+$/)){
+		//console.log(p+": "+s[p]);
+		s[p] = s[p].toLowerCase();
+		//console.log(p+": "+s[p]);
+	}
+}
+//END OMNITURE VARS 
+
+
+/* Conversion Variables */
+s.campaign=getTrackingToken('tk') ? "tokens:"+getTrackingToken('tk') : "";
+
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script language="JavaScript" type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><noscript><img src="http://pcworldcommunication.122.2o7.net/b/ss/pcwmw-techhive/1/H.25--NS/0"
+height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.25. -->
+
+<div id="loginModal"></div>
+		<div id="logoffModal"></div>
+		<div id="abuseModal"></div>
+
+		<!-- rev: 20131003110141  -->
+		</body>
+</html>

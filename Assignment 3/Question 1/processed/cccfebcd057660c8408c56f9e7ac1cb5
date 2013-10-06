@@ -1,0 +1,46 @@
+<html>
+<head><title>Dropbox - 4xx</title>
+<link href="https://www.dropbox.com/static/css/main.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="/static/images/favicon.ico"/>
+</head>
+<body style="background-color:#fff">
+<br/><br/>
+<div align="center">
+<table><tr><td width="600px">
+<center><img id="errorimage" src="/static/images/psychobox.png"/></center>
+<div id="errorbox">
+<h1>Error (4xx)</h1>We can't find the page you're looking for. Check out our <a href="https://www.dropbox.com/help">Help Center</a> and <a href="https://forums.dropbox.com">forums</a> for help, or head back to <a href="https://www.dropbox.com/home">home</a>.
+</div>
+</td></tr></table>
+</div>
+
+<script type="text/javascript" src="/static/javascript/external/prototype.js"></script>
+<script>
+message = {"fr": "\x3ch1>Erreur (4xx)\x3c/h1>La page que vous recherchez est introuvable. Pour obtenir de l\u2019aide, consultez le \x3ca href=\"https://www.dropbox.com/help\">centre d\u2019assistance\x3c/a> et les \x3ca href=\"https://forums.dropbox.com\">forums\x3c/a>, ou revenez \u00e0 la \x3ca href=\"https://www.dropbox.com/home\">page d\u2019accueil\x3c/a>.", "de": "\x3ch1>Fehler (4xx)\x3c/h1> Wir k\u00f6nnen die gew\u00fcnschte Seite nicht finden. Suche im \x3ca href=\"https://www.dropbox.com/help\">Hilfecenter\x3c/a> und in den \x3ca href=\"https://forums.dropbox.com\">Foren\x3c/a> nach Hilfe. Oder geh zur\u00fcck zur \x3ca href=\"https://www.dropbox.com/home\">Startseite\x3c/a>.", "ko": "\x3ch1>\uc624\ub958(4xx)\x3c/h1>\ucc3e\uc73c\ub824\ub294 \ud398\uc774\uc9c0\uac00 \uc5c6\uc2b5\ub2c8\ub2e4. \ub3c4\uc6c0\uc774 \ud544\uc694\ud55c \uacbd\uc6b0 Dropbox\uc758 \x3ca href=\"https://www.dropbox.com/help\">\ub3c4\uc6c0\ub9d0 \uc13c\ud130\x3c/a> \ubc0f \x3ca href=\"https://forums.dropbox.com\">\ud3ec\ub7fc\x3c/a>\uc744 \ucc38\uc870\ud558\uac70\ub098 \x3ca href=\"https://www.dropbox.com/home\">\ud648\x3c/a>\uc73c\ub85c \ub3cc\uc544\uac00\uc138\uc694.", "ja": "\x3ch1>\u30a8\u30e9\u30fc (4xx)\x3c/h1>\u304a\u63a2\u3057\u306e\u30da\u30fc\u30b8\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f\u3002\x3ca href=\"https://www.dropbox.com/help\">\u30d8\u30eb\u30d7\u30bb\u30f3\u30bf\u30fc\x3c/a>\u3068\x3ca href=\"https://forums.dropbox.com\">\u30d5\u30a9\u30fc\u30e9\u30e0\x3c/a>\u3067\u3067\u4e0d\u660e\u306a\u70b9\u3092\u304a\u8abf\u3079\u304f\u3060\u3055\u3044\u3002\u307e\u305f\u306f\u3001\x3ca href=\"https://www.dropbox.com/home\">\u30db\u30fc\u30e0\x3c/a>\u306b\u623b\u3063\u3066\u304f\u3060\u3055\u3044\u3002", "es": "\x3ch1>Error (4xx)\x3c/h1>No podemos encontrar la p\u00e1gina que est\u00e1s buscando. Consulta el \x3ca href=\"https://www.dropbox.com/help\">Centro de ayuda\x3c/a> y los \x3ca href=\"https://forums.dropbox.com\">foros\x3c/a> para obtener ayuda o vuelve al \x3ca href=\"https://www.dropbox.com/home\">Inicio\x3c/a>."};
+function read_cookie (name) {
+	    var nameEQ = name + "=";
+	    var ca = document.cookie.split(';');
+	    for (var i = 0; i < ca.length; i++) {
+		    var c = ca[i];
+		    while (c.charAt(0) == ' ') {
+                c = c.substring(1, c.length);
+            }
+		    if (c.indexOf(nameEQ) === 0) {
+                return c.substring(nameEQ.length, c.length);
+            }
+	    }
+	    return null;
+}
+Event.observe(document, 'dom:loaded', function () {
+    var locale = read_cookie('locale');
+    if (locale) {
+       var msg = message[locale];
+       if (msg) {
+           $('errorbox').update(msg);
+       }
+    }
+});
+</script>
+
+</body>
+</html>

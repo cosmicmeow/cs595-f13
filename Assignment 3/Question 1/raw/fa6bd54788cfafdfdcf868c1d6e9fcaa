@@ -1,0 +1,1252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" dir="ltr"
+xmlns:og="http://ogp.me/ns#"
+xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'/>
+<script type="text/javascript">var refreshTimer = setInterval( function(){window.location=window.location.href;}, 900000);</script>
+    <noscript><meta http-equiv="Refresh" content="900" /></noscript>
+<meta property="og:site_name" content="Meristation" />
+<meta property="og:type" content="website" />
+<meta property="fb:admins" content="1078693147" />
+<link rel="canonical" href="http://www.meristation.com/pc/noticias/nvidia-trabaja-con-valve-en-el-diseno-de-steamos/58/1904687" />
+<link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+
+<title>NVIDIA trabaja con Valve en el diseño de SteamOS - PC | MeriStation.com</title>
+<meta name="keywords" content="NVIDIA trabaja con Valve en el diseño de SteamOS - PC | MeriStation.com, PC, Noticias, videojuego, meristation" />
+
+
+<link type="text/css" rel="stylesheet" media="all" href="http://css.meristation.com/files/css/css_a19b7aa363844e8db8176aeeb5e87273.css" />
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/darwin/darwintheme/css/ie.css?2" />
+<![endif]-->
+<!--[if lte IE 6]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/darwin/darwintheme/css/ie6.css?2" />
+<![endif]-->
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/darwin/darwintheme/css/ie7.css?2" />
+<![endif]-->
+<style type="text/css"><!--/*--><![CDATA[/*><!--*/
+body, #channels-menu ul#channel-tabs li.expandable ul, #footer, #footer #footer-logo, .poll .bar .foreground { background-color: #941500; }
+body { background-image: url(/files/imagenes/general/fondo_pc.jpg); }
+body { background-repeat: no-repeat; }
+body { background-position: center top; }
+body { background-attachment: scroll; }
+/*]]>*/--></style>
+<script type="text/javascript" src="http://js.meristation.com/files/js/js_0137b9c42dd6d3f986adf5635094380f.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "\/", "persistent_login": { "host": "www.meristation.com", "mainCookie": "SESSc80ecef3ea90a07c9aa8451959d751af", "plCookie": "DARWINc80ecef3ea90a07c9aa8451959d751af", "idCookie": "MeriUid", "timeoutCookie": "PLc80ecef3ea90a07c9aa8451959d751af", "cookieDomain": ".meristation.com", "refresh_session_timeout": 1800, "refresh_calls": 6, "enabled": true, "url_check": "http:\/\/www.meristation.com\/persistent_login\/session_check", "url_refresh": "http:\/\/www.meristation.com\/persistent_login\/session_refresh" }, "darwin": { "root_domain": "meristation.com", "cookie_domain": ".meristation.com" }, "admin_menu": { "suppress": 1 }, "darwin_contest": { "status": false }, "darwinNodeCounter": { "countUrl": "http:\/\/www.meristation.com\/darwin-node-counter\/count" }, "darwinNodeVote": { "userVoteUrl": "\/darwin-node-vote\/get-user-ranking", "nodeVoteUrl": "\/darwin-node-vote\/set-ranking", "nodeAvgrUrl": "\/darwin-node-vote\/get-ranking", "destination": "destination=pc%2Fnoticias%2Fnvidia-trabaja-con-valve-en-el-diseno-de-steamos%2F58%2F1904687", "userVoteLabel": "Mi Nota" }, "darwinVoteUpDown": { "baseUrl": "\/darwin-vud\/get-vud-data\/node\/" }, "fivestar": { "titleUser": "Su voto: ", "titleAverage": "Promedio: ", "feedbackSavingVote": "Saving your vote...", "feedbackVoteSaved": "Your vote has been saved.", "feedbackDeletingVote": "Deleting your vote...", "feedbackVoteDeleted": "Your vote has been deleted." }, "extlink": { "extTarget": "_blank", "extClass": "ext", "extSubdomains": 1, "extExclude": "http:\/\/(.*\\.)?(meristation|twitter)\\.com", "extInclude": "", "extAlert": 0, "extAlertText": "This link will take you to an external web site. We are not responsible for their content.", "mailtoClass": "mailto" }, "darwinCurrentLanguage": "es", "ws_fl": { "width": 100, "height": 21 }, "ws_gpo": { "size": "medium", "annotation": "", "lang": "es", "callback": "", "width": 300 }, "dirtyForms": { "troubleshooting": { "alerts": 0 } }, "darwinAdvertisement": { "block": { "Middle": 1 }, "system": "ads_pbs", "show": true, "skyscraper_allowed": [ true, false ], "test": false, "compat": { "Inter": "INTER", "Skin": "SKIN", "Top": "LDB1", "x02": "BOX1", "Bottom": "LDB2", "x06": "BOX2", "Middle": "MPU1", "Middle1": "MPU2", "Middle2": "MPU3", "Box1": "NSTD1" }, "apMap": [  ], "testMap": [  ], "segment_type": "other", "gtpadunit": "meristation_web\/pc\/noticias", "is_new": 1, "listadoKW": [ "nvidia", "trabaja", "con", "valve", "diseno", "steamos", "com" ] } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var tipoContenido = 'Otros';
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+Drupal.behaviors.darwinNodeCounter = function () {
+  var uid = Drupal.darwinTheme.getCookie("MeriUid");
+  if (!uid) {
+    uid = 2055704230;
+  }
+  $.ajax({
+    type: "GET",
+    url: Drupal.settings.darwinNodeCounter.countUrl + "?nid=1904687&uid=" + uid,
+    success: function(visits) {
+    }
+  })
+}
+
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+// pbs adds - lib
+(function() { var useSSL = 'https:' == document.location.protocol; var src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js'; document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>'); })();
+
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+// pbs adds - globals
+try {
+  var gptprpd=getPRPDCkV("profile");
+  var gptuuid = getPRPDCkV("uid");
+}catch(e){
+  var gptprpd=""; var gptuuid="";
+}
+var gtpadunit= 'meristation_web';
+var gtpdivid= 'meri_gpt';
+var listadoKW = [];
+//pbs adds - globals / end
+
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+Drupal.darwinAdvertisement.Init(this);
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+$.extend({
+  getUrlVars: function(){
+    var vars = [], hash;
+    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for(var i = 0; i < hashes.length; i++)
+    {
+      hash = hashes[i].split('=');
+      vars.push(hash[0]);
+      vars[hash[0]] = hash[1];
+    }
+    return vars;
+  },
+  getUrlVar: function(name){
+    return $.getUrlVars()[name];
+  }
+});
+var var_get = $.getUrlVar('frommsn');
+var frommsn = '?p=20130611';
+if(typeof var_get != "undefined") {
+ frommsn += '&frommsn='+var_get;
+} 
+
+var url=(window.location.href.indexOf('?')>0  ?  window.location.href.substr(0,window.location.href.indexOf('?')) : window.location.href);
+url=(url.indexOf('#')>0 ? url.substr(0,url.indexOf('#')) : url );
+url=(frommsn=='' ? '?url=' : '&url=' )+url;
+
+//var iframe_host=(window.location.host.indexOf('.')>0  ?  'www'+window.location.host.substr(window.location.host.indexOf('.')) : window.location.host);
+var iframe_host = window.location.host.replace(/^(?:\w*\.)*(\w+\.\w+)$/, "www.$1");
+var lang_prefix = '';   
+if (window.location.pathname.match(/^\/es(\/|\?|#|$)/)) {
+  lang_prefix = '/es';
+}
+
+
+$(document).ready(function(){
+  $("body").append('<div id="msn_bar_div"><style type="text/css">body{padding-top:31px} #msn_bar_div{position:absolute;top:0;right:0;z-index:600;width:100%;height:30px;background:#fff;border-bottom:1px solid #bbb}#mns_bar{position:relative;width:max-width:995px;margin:0px auto;display:block;}</style><iframe id="mns_bar" width="100%" height="30" scrolling="no" src="http://'+iframe_host+lang_prefix+'/msn/toolbar/toolbar_iframe.html'+frommsn+url+'" frameborder="0">');
+});
+
+//--><!]]>
+</script>
+
+<!-- OPTIMOST: deactivated -->
+
+</head>
+<body class="not-front not-logged-in page-frontend no-sidebars i18n-es page-frontend-platform-new-58-1904687 section-frontend page-panels">
+
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+  if ( (typeof Drupal != "undefined") && (typeof Drupal.darwinAdvertisement != "undefined") && (typeof Drupal.darwinAdvertisement.OAS_AD != "undefined") ) {
+    Drupal.darwinAdvertisement.OAS_AD('Skin');
+    Drupal.darwinAdvertisement.OAS_AD('Inter');
+  }
+//--><!]]>
+</script>
+
+<div id="skip-to-content"><a href="#main-content">Skip to main content</a></div>
+
+  <div id="topbar"><div class="section clearfix">
+    <div id="topbar-user-links">
+      <script type="text/javascript">
+                var user_link = "/user/";
+        var user_logout_link = "http://club.meristation.com/logout?destination=http%3A%2F%2Fwww.meristation.com%2Fpc%2Fnoticias%2Fnvidia-trabaja-con-valve-en-el-diseno-de-steamos%2F58%2F1904687";
+        //var user_logout_link = "/logout";
+        var user_logout = "Desconectar";
+        var user_login_link = "http://club.meristation.com/user/login?destination=http%3A%2F%2Fwww.meristation.com%2Fpc%2Fnoticias%2Fnvidia-trabaja-con-valve-en-el-diseno-de-steamos%2F58%2F1904687";
+        //var user_login_link = "/user/login";
+        var user_login = "Conectar";
+        var user_regis_link = "http://club.meristation.com/user/register?destination=http%3A%2F%2Fwww.meristation.com%2Fpc%2Fnoticias%2Fnvidia-trabaja-con-valve-en-el-diseno-de-steamos%2F58%2F1904687";
+        //var user_regis_link = "/user/register";
+        var user_regis = "Regístrate";
+        $('#topbar-user-links').html(Drupal.darwinTheme.darwinUserData('topbar_user_links', Drupal.darwinTheme));
+      </script>
+    </div>
+          <div id="sites-links"><ul id="sites-menu" class="links"><li class="menu-570910 first"><a href="http://zonaforo.meristation.com" title="">Zonaforo</a></li><li class="menu-570912"><a href="http://blogs.gamefilia.com/" title="">Blogs</a></li><li class="menu-570911"><a href="http://zonaforo.meristation.com/foros/index.php?m=1" title="">Mercadillo</a></li><li class="menu-572855"><a href="/videos/448267" title="">MeriTV</a></li><li class="logo_pais last"><a href="http://www.elpais.com">ir a ElPais.com</a></li></ul></div>
+      </div></div>
+
+<div id="page-wrapper"><div id="page">
+
+  <div id="header"><div class="section clearfix">
+    <h1><a href="/pc/448265" title="PC" id="logo"><img src="/files/imagenes/general/meri_pc.png" alt="PC" /></a></h1>          <div id="search-box"><form action="/pc/noticias/nvidia-trabaja-con-valve-en-el-diseno-de-steamos/58/1904687"  accept-charset="UTF-8" method="post" id="search-block-form" class="dirtyforms-exclude">
+<div><div class="container-inline">
+  <div class="form-item" id="edit-search-block-form-1-wrapper">
+ <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Introduzca los términos que quiera buscar." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Buscar"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-4df4b00b45a14880762c8fe2fbe6deea" value="form-4df4b00b45a14880762c8fe2fbe6deea"  />
+<input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
+</div>
+
+</div></form>
+</div>
+      </div></div>
+
+      <div id="channels-menu">
+      <div id="channels-menu-top" class="clearfix"><ul id="channel-tabs" class="links"><li class="channel-home first no-expandable"><a href="/" title="Inicio"><span class="tab"><span>Inicio</span></span></a></li><li class="active no-expandable"><a href="/pc/448265" title="PC" class="active"><span class="tab">PC</span></a></li><li class="no-expandable"><a href="/playstation-3/448274" title="PlayStation 3"><span class="tab">PS3</span></a></li><li class="no-expandable"><a href="/xbox-360/448273" title="Xbox 360"><span class="tab">360</span></a></li><li class="no-expandable"><a href="/playstation-4/1841439" title="PlayStation 4"><span class="tab">PS4</span></a></li><li class="no-expandable"><a href="/xbox-one/1862661" title="Xbox One"><span class="tab">XBO</span></a></li><li class="no-expandable"><a href="/wii-u/450017" title="Wii U"><span class="tab">WiiU</span></a></li><li class="no-expandable"><a href="/nintendo-3ds/450015" title="Nintendo 3DS"><span class="tab">3DS</span></a></li><li class="no-expandable"><a href="/playstation-vita/450016" title="PlayStation Vita"><span class="tab">PSV</span></a></li><li class="no-expandable"><a href="/iphone-ipad-ipod-touch/448283" title="iPhone iPad iPod Touch"><span class="tab">iOS</span></a></li><li class="no-expandable"><a href="/retro/448272" title="Retro"><span class="tab">Retro</span></a></li><li class="no-expandable"><a href="/meriplus/1863999" title="Meriplus"><span class="tab">Meri+</span></a></li><li class="expandable"><a href="javascript:void(0)" title="Otras plataformas..."><span class="tab">Otras</span></a><ul><li class="first no-expandable"><a href="/android/953016" title="AND"><span class="tab">Android</span></a></li><li class="no-expandable"><a href="/consolas/448266" title="CON"><span class="tab">Consolas</span></a></li><li class="no-expandable"><a href="/playstation/448279" title="PS"><span class="tab">PlayStation</span></a></li><li class="no-expandable"><a href="/playstation-2/448278" title="PS2"><span class="tab">PlayStation 2</span></a></li><li class="no-expandable"><a href="/playstation-portable/448275" title="PSP"><span class="tab">PlayStation Portable</span></a></li><li class="no-expandable"><a href="/nintendo-wii/448276" title="Wii"><span class="tab">Nintendo Wii</span></a></li><li class="no-expandable"><a href="/game-boy/448299" title="GB"><span class="tab">Game Boy</span></a></li><li class="no-expandable"><a href="/gamecube/448298" title="GC"><span class="tab">GameCube</span></a></li><li class="no-expandable"><a href="/nintendo-ds/448277" title="NDS"><span class="tab">Nintendo DS</span></a></li><li class="no-expandable"><a href="/xbox/448297" title="XBX"><span class="tab">Xbox</span></a></li><li class="no-expandable"><a href="/dreamcast/448300" title="DC"><span class="tab">Dreamcast</span></a></li><li class="no-expandable"><a href="/nintendo-64/448280" title="N64"><span class="tab">Nintendo 64</span></a></li><li class="last no-expandable"><a href="/n-gage/448281" title="NGE"><span class="tab">N-Gage</span></a></li></ul></li><li class="no-expandable"><a href="/jugar"><span class="tab">Jugar</span></a></li><li class="expandable"><a href="javascript:void(0)"><span class="tab">Tienda</span></a><ul><li class="first last no-expandable"><a href="http://meristation.dlgamer.com/?affil=0626853203"><span class="tab">Descargar videojuegos</span></a></li></ul></li><li class="last expandable"><a href="javascript:void(0)"><span class="tab">Más</span></a><ul><li class="first no-expandable"><a href="/comics"><span class="tab">Cómic</span></a></li><li class="no-expandable"><a href="/podcasts"><span class="tab">Podcast</span></a></li><li class="no-expandable"><a href="/eventos"><span class="tab">Eventos (E3, TGS...)</span></a></li><li class="no-expandable"><a href="/quids"><span class="tab">Quids</span></a></li><li class="no-expandable"><a href="/colabora"><span class="tab">Colabora</span></a></li><li class="no-expandable"><a href="/publicidad"><span class="tab">Publicidad</span></a></li><li class="left last expandable"><a href="javascript:void(0)" title="Game genders"><span class="tab">Géneros</span></a><ul><li class="first no-expandable"><a href="/pc/genero/accion/448265/124"><span class="tab">Acción</span></a></li><li class="no-expandable"><a href="/pc/genero/aventura/448265/632"><span class="tab">Aventura</span></a></li><li class="no-expandable"><a href="/pc/genero/conduccion/448265/126"><span class="tab">Conducción</span></a></li><li class="no-expandable"><a href="/pc/genero/educativo/448265/631"><span class="tab">Educativo</span></a></li><li class="no-expandable"><a href="/pc/genero/aventura-grafica/448265/568"><span class="tab">Aventura gráfica</span></a></li><li class="no-expandable"><a href="/pc/genero/plataformas/448265/634"><span class="tab">Plataformas</span></a></li><li class="no-expandable"><a href="/pc/genero/puzle/448265/633"><span class="tab">Puzle</span></a></li><li class="no-expandable"><a href="/pc/genero/rol/448265/128"><span class="tab">Rol</span></a></li><li class="no-expandable"><a href="/pc/genero/simulacion/448265/590"><span class="tab">Simulación</span></a></li><li class="no-expandable"><a href="/pc/genero/deportes/448265/129"><span class="tab">Deportes</span></a></li><li class="last no-expandable"><a href="/pc/genero/estrategia/448265/130"><span class="tab">Estrategia</span></a></li></ul></li></ul></li></ul></div>
+      <div id="channels-menu-bottom" class="clearfix"><ul id="channel-subtabs" class="links"><li class="channel-subtab-1068 first"><a href="/pc/noticias/448265" title="" class="active">Noticias</a></li><li class="channel-subtab-1070"><a href="/pc/analisis/448265" title="">Análisis</a></li><li class="channel-subtab-1069"><a href="/pc/avances/448265" title="">Avances</a></li><li class="channel-subtab-1074"><a href="/pc/trucos-guias/448265" title="">Trucos y Guías</a></li><li class="channel-subtab-1071"><a href="/pc/reportajes/448265" title="">Reportajes</a></li><li class="channel-subtab-1072"><a href="/pc/videos/448265" title="">Vídeos</a></li><li class="channel-subtab-1077"><a href="/pc/topjuegos/448265" title="">Top Juegos</a></li><li class="channel-subtab-1076"><a href="/frontend/demos/448265" title="">Descargas</a></li><li class="channel-subtab-1088"><a href="/pc/imagenes-juego/448265" title="">Imágenes</a></li><li class="channel-subtab-1078"><a href="/pc/lanzamientos/448265" title="">Lanzamientos</a></li><li class="channel-subtab-1067 last"><a href="/pc/lo-mas-nuevo/448265" title="">Lo+Nuevo</a></li></ul></div>
+    </div>
+  
+  <div id="ads-landscape-wrapper"><div id="ads-landscape-sides"><div id="ads-landscape-section1" class="clearfix">
+    <div class="banner-h90" style="float: left;">
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+        if ( (typeof Drupal != "undefined") && (typeof Drupal.darwinAdvertisement != "undefined") && (typeof Drupal.darwinAdvertisement.OAS_AD != "undefined") ) {
+          Drupal.darwinAdvertisement.OAS_AD('Top');
+        }
+      //--><!]]>
+      </script>
+    </div>
+    <div class="banner-h90" style="float: right;">
+      <script type="text/javascript">
+        <!--//--><![CDATA[//><!--
+        if ((typeof Drupal != "undefined") && (typeof Drupal.darwinAdvertisement != "undefined") && (typeof Drupal.darwinAdvertisement.OAS_AD != "undefined") ) {
+          Drupal.darwinAdvertisement.OAS_AD('x02');
+        }
+        //--><!]]>
+      </script>
+    </div>
+  </div></div>
+      <div class="ads-notificator clearfix">
+      <div class="ads-notificator-large">Publicidad</div>
+      <div class="ads-notificator-short">Publicidad</div>
+    </div>
+    </div>
+
+  <div id="main-wrapper">
+
+<div class="ELIMINADO 3divs"></div>
+   <div id="main" class="clearfix">
+    <div id="content">   
+    <div class="section clearfix">
+   
+                  <div class="column clearfix"><a name="main-content" id="main-content"></a>
+                                        <h1 class="title top-page-header-common">NVIDIA trabaja con Valve en el diseño de SteamOS - PC</h1>
+                                                                          <div id="content-area" class="clearfix">
+          <div class="panel-2col-stacked clear-block panel-display" id="panel-darwin-review-game">
+      <div class="panel-col-top panel-panel">
+      <div class="inside"><div class="panel-pane pane-panels-mini pane-node-counter-callback" >
+  
+      
+    
+      <div class="pane-content">
+        <div class="panel-display panel-1col clear-block" id="mini-panel-node_counter_callback">
+  <div class="panel-panel panel-col">
+    <div></div>
+  </div>
+</div>
+      </div>
+
+    
+      </div>
+</div>
+    </div>    
+  
+  <div class="center-wrapper">
+    <div class="panel-col-first panel-panel">
+      <div class="inside"><div class="panel-pane pane-panels-mini pane-content-header" >
+  
+      
+    
+      <div class="pane-content">
+        <div class="panel-display panel-1col clear-block" id="mini-panel-content_header">
+  <div class="panel-panel panel-col">
+    <div>      <span class="panel-pane pane-content-field pane-field-author" >
+  <span class="pane-content">
+    
+<span class="field field-type-userreference field-field-author">
+    <span class="field-items">
+            <span class="field-item odd">
+                    <a href="/user/325726">Enrique García @enriquegper</a>        </span>
+        </span>
+</span>
+  </span>
+</span>
+    <span class="panel-region-separator">|</span>    <span class="panel-pane pane-content-field pane-field-publication-start" >
+  <span class="pane-content">
+    
+<span class="field field-type-datestamp field-field-publication-start">
+    <span class="field-items">
+            <span class="field-item odd">
+                    <span class="date-display-single">26/09/2013 - 09:16</span>        </span>
+        </span>
+</span>
+  </span>
+</span>
+    <span class="panel-region-separator">|</span>    <span class="panel-pane pane-content-field pane-field-kicker-type" >
+  <span class="pane-content">
+    
+<span class="field field-type-content-taxonomy field-field-kicker-type">
+    <span class="field-items">
+            <span class="field-item odd">
+                    Actualidad        </span>
+        </span>
+</span>
+  </span>
+</span>
+    <span class="panel-region-separator">|</span>    <span class="panel-pane pane-custom pane-1" >
+  <span class="pane-content">
+    <div id="node-count-1904687" class="node-visits">1817 visitas</div>  </span>
+</span>
+    <span class="panel-region-separator">-</span>    <span class="panel-pane pane-content-field pane-field-ref-platform" >
+  <span class="pane-content">
+    
+<span class="field field-type-content-taxonomy field-field-ref-platform">
+    <span class="field-items">
+            <span class="field-item odd">
+                    <a href="/pc/448265" title="PC"><strong style="color:#990066;">PC</strong></a>        </span>
+        </span>
+</span>
+  </span>
+</span>
+    <span class="panel-region-separator"></span>  <div class="panel-pane pane-content-field pane-field-rider" >
+  
+     
+    
+    <div class="pane-content">
+      
+<div class="field field-type-text field-field-rider">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <p>Su <em>hardware </em>estará optimizado.</p>
+<ul>
+<li><a href="http://www.meristation.com/pc/noticias/nvidia-las-consolas-no-podran-tener-mejores-graficos-que-el-ordenador/58/1904345">Duelo entre consolas y compatibles</a></li>
+<li><a href="http://www.meristation.com/pc/noticias/primeras-invitaciones-para-la-beta-de-steam-family-sharing/58/1904683">Comienza la beta de Steam Sharing</a></li>
+</ul>        </div>
+        </div>
+</div>
+    </div>
+
+    
+      </div>
+  <span class="panel-region-separator"></span>  <div class="panel-pane pane-panels-mini pane-sharer" >
+  
+     
+    
+    <div class="pane-content">
+      <div class="panel-display panel-1col clear-block" id="mini-panel-Sharer">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-node-phpbb-comments" >
+  
+      
+    
+      <div class="pane-content">
+        <div class="comentarios"><a href="/pc/noticias/nvidia-trabaja-con-valve-en-el-diseno-de-steamos/58/1904687#comment-wrapper"><b>12</b> <span class="comentario">comentarios</span></a><span class="bg_fin"> </span></div>      </div>
+
+    
+      </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-block pane-service-links-service-links-not-node" >
+  
+      
+    
+      <div class="pane-content">
+        <table><tr><td style="vertical-align: top;"  width="66%"><div class="service service-links-facebook-like"><fb:like layout="button_count" show_faces="false"></fb:like></div><div class="service service-links-twitter-widget"><a href="http://twitter.com/share?url=http%3A%2F%2Fwww.meristation.com%2Fpc%2Fnoticias%2Fnvidia-trabaja-con-valve-en-el-diseno-de-steamos%2F58%2F1904687&amp;count=horizontal&amp;via=Meristation&amp;text=&amp;counturl=http%3A%2F%2Fwww.meristation.com%2Fpc%2Fnoticias%2Fnvidia-trabaja-con-valve-en-el-diseno-de-steamos%2F58%2F1904687" class="twitter-share-button service-links-twitter-widget" title="Tweet This" rel="nofollow"><span style="display:none;">Tweet Widget</span></a></div><div class="service service-links-google-plus-one"><a href="http://www.meristation.com/pc/noticias/nvidia-trabaja-con-valve-en-el-diseno-de-steamos/58/1904687" title="Plus it" class="service-links-google-plus-one" rel="nofollow"><span style="display:none;">Google Plus One</span></a></div></td><td width="34%"><div style="vertical-align: top;"><a href="#" onclick="
+    var height = $(this).parent().find('div').height();
+  var div = $(this).parent().find('div');
+  if (!height) {
+    div.animate({height: '100%', opacity: 0.9});
+    div.css('zIndex', 10);
+    $(this).blur(function() {
+      div.animate({height: '0', opacity: 0});
+      div.css('zIndex', -1);
+});
+}
+else {
+  div.animate({height: '0', opacity: 0});
+  div.css('zIndex', -1);
+}
+return false;"><img style="vertical-align: bottom;" src="/sites/all/themes/darwin/darwintheme/images/layout/icn_share.png" /> Compartir</a><div style="height: 0px; opacity: 0; position: absolute; z-index: -1;"><ul class="links"><li class="service-links-service-links-facebook first"><a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.meristation.com%2Fpc%2Fnoticias%2Fnvidia-trabaja-con-valve-en-el-diseno-de-steamos%2F58%2F1904687&amp;t=" title="Share on Facebook" class="service-links-facebook" rel="nofollow"><img src="/sites/all/modules/service_links/images/facebook.png" alt="Facebook logo" title="" width="16" height="16" /> Facebook</a></li><li class="service-links-service-links-twitter"><a href="http://twitter.com/share?url=http%3A%2F%2Fwww.meristation.com%2Fpc%2Fnoticias%2Fnvidia-trabaja-con-valve-en-el-diseno-de-steamos%2F58%2F1904687&amp;text=" title="Share this on Twitter" class="service-links-twitter" rel="nofollow"><img src="/sites/all/modules/service_links/images/twitter.png" alt="Twitter logo" title="" width="16" height="16" /> Twitter</a></li><li class="service-links-service-links-meneame"><a href="http://www.meneame.net/submit.php?url=http%3A%2F%2Fwww.meristation.com%2Fpc%2Fnoticias%2Fnvidia-trabaja-con-valve-en-el-diseno-de-steamos%2F58%2F1904687&amp;title=" title="Share this post on Meneame." class="service-links-meneame" rel="nofollow"><img src="/sites/all/modules/darwin/darwin_formatters/images/meneame.png" alt="Meneame logo" title="" width="16" height="16" /> Meneame</a></li><li class="service-links-service-links-tuenti"><a href="http://www.tuenti.com/share?url=http%3A%2F%2Fwww.meristation.com%2Fpc%2Fnoticias%2Fnvidia-trabaja-con-valve-en-el-diseno-de-steamos%2F58%2F1904687&amp;title=" title="Share this post on Tuenti." class="service-links-tuenti" rel="nofollow"><img src="/sites/all/modules/darwin/darwin_formatters/images/tuenti.png" alt="Tuenti logo" title="" width="16" height="16" /> Tuenti</a></li><li class="service-links-service-links-google"><a href="http://www.google.com/bookmarks/mark?op=add&amp;bkmk=http%3A%2F%2Fwww.meristation.com%2Fpc%2Fnoticias%2Fnvidia-trabaja-con-valve-en-el-diseno-de-steamos%2F58%2F1904687&amp;title=" title="Bookmark this post on Google" class="service-links-google" rel="nofollow"><img src="/sites/all/modules/service_links/images/google.png" alt="Google logo" title="" width="16" height="16" /> Google</a></li><li class="service-links-service-links-myspace"><a href="http://www.myspace.com/index.cfm?fuseaction=postto&amp;t=&amp;u=http%3A%2F%2Fwww.meristation.com%2Fpc%2Fnoticias%2Fnvidia-trabaja-con-valve-en-el-diseno-de-steamos%2F58%2F1904687" title="Share on MySpace" class="service-links-myspace" rel="nofollow"><img src="/sites/all/modules/service_links/images/myspace.png" alt="MySpace logo" title="" width="16" height="16" /> MySpace</a></li><li class="service-links-service-links-linkedin"><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwww.meristation.com%2Fpc%2Fnoticias%2Fnvidia-trabaja-con-valve-en-el-diseno-de-steamos%2F58%2F1904687&amp;title=&amp;summary=&amp;source=MeriStation.com" title="Publish this post to LinkedIn" class="service-links-linkedin" rel="nofollow"><img src="/sites/all/modules/service_links/images/linkedin.png" alt="LinkedIn logo" title="" width="16" height="16" /> LinkedIn</a></li><li class="service-links-service-links-digg last"><a href="http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fwww.meristation.com%2Fpc%2Fnoticias%2Fnvidia-trabaja-con-valve-en-el-diseno-de-steamos%2F58%2F1904687&amp;title=" title="Digg this post on digg.com" class="service-links-digg" rel="nofollow"><img src="/sites/all/modules/service_links/images/digg.png" alt="Digg logo" title="" width="16" height="16" /> Digg</a></li></ul></div></div></td></tr></table>      </div>
+
+    
+      </div>
+</div>
+  </div>
+</div>
+    </div>
+
+    
+      </div>
+</div>
+  </div>
+</div>
+      </div>
+
+    
+      </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-panels-mini pane-new-body" >
+  
+      
+    
+      <div class="pane-content">
+        <div class="panel-display panel-1col clear-block" id="mini-panel-new_body">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-node-body" >
+  
+      
+    
+      <div class="pane-content">
+        <div class="clear-block"><p>Que un <strong>PC </strong>tiene más oportunidades en lo que respecta a potencia gráfica que las consolas es un hecho contrastable y algo que <strong>NVIDIA </strong><a href="http://www.meristation.com/pc/noticias/nvidia-las-consolas-no-podran-tener-mejores-graficos-que-el-ordenador/58/1904345">defendió ayer</a> horas antes de que se anunciaran las <strong>Steam Machines</strong> de <strong>VALVE</strong>, máquinas que usarán <strong>SteamOS</strong>.</p>
+<p>Es precisamente este sistema operativo el que ha traído a la fabricante de <em>hardware </em>a la posición de salida junto a la compañía de Gabe Newell, pues las dos empresas están colaborando para la plataforma propia del servicio Steam.</p>
+<p>"Ingenieros de VALVE y de NVIDIA han colaborado durante mucho tiempo para SteamOS con el mismo objetivo: ofrecer una plataforma de juego que brinde una experiencia superior y con un enorme rendimiento para la gran pantalla", detallan.</p>
+<p>Esta colaboración hará que las tarjetas gráficas de NVIDIA "estén optimizadas" especialmente para SteamOS, según la compañía, y que su <em>hardware </em>saque el máximo provecho a la tecnología de VALVE y forme parte de las Steam Machines.</p>
+<p><a class="darwin-inline-image-link darwin-inline-image-preset-inline" href="http://img3.meristation.com/files/imagenes/general/steamos.jpg"><img src="http://img3.meristation.com/files/imagecache/inline/imagenes/general/steamos.jpg?1379956023" class="darwin-inline-image" title="Captura de pantalla - steamos.jpg" alt="steamos.jpg Captura de pantalla" width="603" height="244" /></a></p></div>      </div>
+
+    
+      </div>
+</div>
+  </div>
+</div>
+      </div>
+
+    
+      </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views pane-frontend-node-details" >
+  
+      
+    
+      <div class="pane-content">
+          <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      </div>
+      </div>
+
+    
+      </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-last-node-phpbb-comments" >
+  
+      
+    
+      <div class="pane-content">
+        <form action="/pc/noticias/nvidia-trabaja-con-valve-en-el-diseno-de-steamos/58/1904687#comment-wrapper"  accept-charset="UTF-8" method="post" id="darwin_phpbb_fast_comment">
+<div><input type="hidden" name="" id="edit-darwin-phpbb-fast-comment" value="darwin_phpbb_fast_comment"  />
+<input type="hidden" name="form_build_id" id="form-3f60d5fd2ff97ab5c774db55b2dda0f8" value="form-3f60d5fd2ff97ab5c774db55b2dda0f8"  />
+<input type="hidden" name="nid" id="nid" value="1904687"  />
+<input type="hidden" name="topic_id" id="topic_id" value="2140663"  />
+<div class="form-item" id="comment-wrapper">
+ <label for="comment">Comentarios <b>(12)</b> </label>
+ <div class="description"><a href="http://club.meristation.com/user/register?destination=http%3A%2F%2Fwww.meristation.com%2Fpc%2Fnoticias%2Fnvidia-trabaja-con-valve-en-el-diseno-de-steamos%2F58%2F1904687">Regístrate</a> o <a href="http://club.meristation.com/user/login?destination=http%3A%2F%2Fwww.meristation.com%2Fpc%2Fnoticias%2Fnvidia-trabaja-con-valve-en-el-diseno-de-steamos%2F58%2F1904687">haz login</a> para hacer un comentario</div>
+ <textarea cols="60" rows="5" name="comment" id="comment"  class="form-textarea resizable"></textarea>
+</div>
+<div id="cookie_comment"></div><input type="submit" name="op" id="" value="Enviar"  class="form-submit" />
+
+</div></form>
+<table class="comments commentplus"><tr><td class="comment-author"><a name="39190233"></a><img class="bocadillo" src="/sites/all/themes/darwin/darwintheme/images/theme/post_bocadillo.png" /><img src="/sites/all/modules/darwin/darwin_channels/images/avatar.jpg" /></td><td class="comment-body"><a href="/user/50676" title="Ver perfil de usuario.">jberrozpe</a><div class="comment-date">Vie, 27/09/2013 - 18:04</div><div class="comment-text">Muy interesante. Vienen buenos años con muchisimas nuevas opciones para los jugadores...</div></td></tr><tr class="spacer"></tr><tr><td class="comment-author"><a name="39189460"></a><img class="bocadillo" src="/sites/all/themes/darwin/darwintheme/images/theme/post_bocadillo.png" /><img src="http://www.tarlic.com/tarod/snufkin_01_foro.png" /></td><td class="comment-body"><a href="/user/26003" title="Ver perfil de usuario.">link_net</a><div class="comment-date">Vie, 27/09/2013 - 16:23</div><div class="comment-text">Bien. Buen comienzo.</div></td></tr><tr class="spacer"></tr><tr><td class="comment-author"><a name="39181864"></a><img class="bocadillo" src="/sites/all/themes/darwin/darwintheme/images/theme/post_bocadillo.png" /><img src="/sites/all/modules/darwin/darwin_channels/images/avatar.jpg" /></td><td class="comment-body"><a href="/user/56703" title="Ver perfil de usuario.">raulrapadura</a><div class="comment-date">Jue, 26/09/2013 - 16:53</div><div class="comment-text">Pues parece que Gabe lo tiene todo atado y bien atado!!
+
+Uno de los mayores impedimentos para jugar en Linux ha sido siempre la pobre calidad de los drivers gráficos respecto a Windows. Si son capaces de superar este problema, tienen muchas posibilidades de triunfar.
+
+Supongo que AMD también estará en el ajo. Pero no olvidemos que Nvidia debe estar mucho más interesada en el SteamOS al haberse quedado fuera de las tres consolas de nuevas generación.</div></td></tr><tr class="spacer"></tr><tr><td class="comment-author"><a name="39181638"></a><img class="bocadillo" src="/sites/all/themes/darwin/darwintheme/images/theme/post_bocadillo.png" /><img src="http://zonaforo.meristation.com/foros/images/avatars/202/2023789154524422fab236f.jpg" /></td><td class="comment-body"><a href="/user/723532" title="Ver perfil de usuario.">rubeneltito</a><div class="comment-date">Jue, 26/09/2013 - 16:26</div><div class="comment-text">Me parece todo esto &quot;perfe&quot;, pero... también creo que poco tendrán que hacer, con la llegada de las nuevas consolas. SALUDOS</div></td></tr><tr class="spacer"></tr><tr><td class="comment-author"><a name="39181629"></a><img class="bocadillo" src="/sites/all/themes/darwin/darwintheme/images/theme/post_bocadillo.png" /><img src="http://zonaforo.meristation.com/foros/images/avatars/202/2023789154524422fab236f.jpg" /></td><td class="comment-body"><a href="/user/723532" title="Ver perfil de usuario.">rubeneltito</a><div class="comment-date">Jue, 26/09/2013 - 16:24</div><div class="comment-text">Me parece todo esto &quot;perfe&quot;, pero... también creo que poco tendrán que hacer, con la llegada de las nuevas consolas. SALUDOS</div></td></tr><tr class="spacer"></tr><tr><td class="comment-author"><a name="39181575"></a><img class="bocadillo" src="/sites/all/themes/darwin/darwintheme/images/theme/post_bocadillo.png" /><img src="http://zonaforo.meristation.com/foros/images/avatars/202/2023789154524422fab236f.jpg" /></td><td class="comment-body"><a href="/user/723532" title="Ver perfil de usuario.">rubeneltito</a><div class="comment-date">Jue, 26/09/2013 - 16:18</div><div class="comment-text">Me parece todo esto &quot;perfe&quot;, pero... también creo que poco tendrán que hacer, con la llegada de las nuevas consolas. SALUDOS</div></td></tr><tr class="spacer"></tr><tr><td class="comment-author"><a name="39181063"></a><img class="bocadillo" src="/sites/all/themes/darwin/darwintheme/images/theme/post_bocadillo.png" /><img src="http://i44.servimg.com/u/f44/12/24/87/66/avatar10.gif" /></td><td class="comment-body"><a href="/user/485443" title="Ver perfil de usuario.">Nalus</a><div class="comment-date">Jue, 26/09/2013 - 15:10</div><div class="comment-text">Jajaja Valve es una putilla  XD 
+
+También tienen acuerdos con AMD  XD , Steam te actualiza automáticamente los drivers de las gráficas AMD  XD .
+
+Dios este Gabe XD  es un picaflor , no se casa con nadie . 
+
+Saludos</div></td></tr><tr class="spacer"></tr><tr><td class="comment-author"><a name="39180949"></a><img class="bocadillo" src="/sites/all/themes/darwin/darwintheme/images/theme/post_bocadillo.png" /><img src="/sites/all/modules/darwin/darwin_channels/images/avatar.jpg" /></td><td class="comment-body"><a href="/user/544017" title="Ver perfil de usuario.">dreams78</a><div class="comment-date">Jue, 26/09/2013 - 14:57</div><div class="comment-text"></span><table width="90%" cellspacing="1" cellpadding="3" border="0" style="margin-left:20px;float:none;">
+    <tr>
+      <td><span class="postbody"><span class="genmed"><b>MSR escribió:</b></span></span></td>
+    </tr>
+    <tr>
+      <td class="quote"><span class="postbody">AMD también se debería unir.
+</span></td>
+     </tr>
+   </table>
+ <span class="postbody">
+AMD se une indirectamente con la nueva API de sus GPU que evita el uso de Direct X y es abierta.
+
+Steam OS va a meter el pelotazo..</div></td></tr><tr class="spacer"></tr><tr><td class="comment-author"><a name="39180890"></a><img class="bocadillo" src="/sites/all/themes/darwin/darwintheme/images/theme/post_bocadillo.png" /><img src="/sites/all/modules/darwin/darwin_channels/images/avatar.jpg" /></td><td class="comment-body"><a href="/user/615369" title="Ver perfil de usuario.">evergrey18</a><div class="comment-date">Jue, 26/09/2013 - 14:48</div><div class="comment-text">Esto ya me lo imaginaba... que con alguna de estas compañias tenian que estar trabajando, y seguramente tambien con Intel o con AMD para los procesadores?? en cualquier caso son buenas noticias, al igual que el creador de Bioshock y el de minecraft empiecen a apoyar este proyecto.</div></td></tr><tr class="spacer"></tr><tr><td class="comment-author"><a name="39180264"></a><img class="bocadillo" src="/sites/all/themes/darwin/darwintheme/images/theme/post_bocadillo.png" /><img src="/sites/all/modules/darwin/darwin_channels/images/avatar.jpg" /></td><td class="comment-body"><a href="/user/410" title="Ver perfil de usuario.">MSR</a><div class="comment-date">Jue, 26/09/2013 - 13:34</div><div class="comment-text">AMD también se debería unir.</div></td></tr><tr class="spacer"></tr><tr><td class="comment-author"><a name="39179101"></a><img class="bocadillo" src="/sites/all/themes/darwin/darwintheme/images/theme/post_bocadillo.png" /><img src="/sites/all/modules/darwin/darwin_channels/images/avatar.jpg" /></td><td class="comment-body"><a href="/user/653525" title="Ver perfil de usuario.">molul</a><div class="comment-date">Jue, 26/09/2013 - 10:32</div><div class="comment-text">Era de esperar. Las declaraciones sobre el rendimiento de las Steam Machines son muy prometedoras. </div></td></tr><tr class="spacer"></tr><tr><td class="comment-author"><a name="39179059"></a><img class="bocadillo" src="/sites/all/themes/darwin/darwintheme/images/theme/post_bocadillo.png" /><img src="http://zonaforo.meristation.com/foros/images/avatars/253/253983243500ddba5b8909.jpg" /></td><td class="comment-body"><a href="/user/322421" title="Ver perfil de usuario.">caesar77</a><div class="comment-date">Jue, 26/09/2013 - 10:22</div><div class="comment-text">...menuda unión, uff :D</div></td></tr><tr class="spacer"></tr></table><div class="topic-link"><a href="/phpbb/1904687" class="btn_generic_grey">Ver los 12 comentarios</a></div>      </div>
+
+    
+      </div>
+<div class="panel-region-separator"></div><div class="panel-pane  pane-deadend-frontpage " >
+  
+      
+    
+      <div class="pane-content">
+        <div class="panel-display panel-1col clear-block" id="mini-panel-deadend_frontpage">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-views pane-frontend-daytopic-frontpage" >
+  
+      
+    
+      <div class="pane-content">
+        <div class="view view-frontend-daytopic-frontpage view-id-frontend_daytopic_frontpage view-display-id-block_1 view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-field-image-file-fid">
+                <span class="field-content"><a href="/pc/reportaje/regreso-al-pasado-pokemon/1603129/58"><img src="http://img2.meristation.com/files/imagecache/ipo/imagenes/general/rap-pokemon_td-605x300.jpg" alt="" title=""  class="imagecache imagecache-ipo" width="132" height="65" /></a></span>
+  </div>
+  
+  <div class="views-field-title-1">
+                <span class="field-content"><a href="/pc/reportaje/regreso-al-pasado-pokemon/1603129/58">Regreso al Pasado: Pokémon</a></span>
+  </div>
+  
+  <span class="views-field-type">
+                <span class="field-content">Reportaje</span>
+  </span>
+  
+  <span class="views-field-phpcode-1">
+                <span class="field-content"></span>
+  </span>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>       </div>
+
+    
+      </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views pane-frontend-blocks-frontpage" >
+  
+      
+    
+      <div class="pane-content">
+        <div class="view view-frontend-blocks-frontpage view-id-frontend_blocks_frontpage view-display-id-block_7 view-dom-id-2">
+    
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid col-3">
+  <tbody>
+                <tr class="row-1 row-first row-last">
+                  <td class="col-1 col-first">
+              
+  <div class="views-field-field-image-file-fid">
+                <span class="field-content"><a href="/pc/reportaje/los-juegos-de-la-nueva-generacion/1833500/58"><img src="http://img1.meristation.com/files/imagecache/ipo/imagenes/general/los-juegos-de-la-nextgen_ipo-199x146.jpg" alt="" title=""  class="imagecache imagecache-ipo" width="131" height="96" /></a></span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/pc/reportaje/los-juegos-de-la-nueva-generacion/1833500/58">Los Juegos de la Nueva Generación</a></span>
+  </div>
+  
+  <div class="views-field-type">
+                <span class="field-content">Reportaje</span>
+  </div>
+  
+  <div class="views-field-phpcode">
+                <span class="field-content"></span>
+  </div>
+          </td>
+                  <td class="col-2">
+              
+  <div class="views-field-field-image-file-fid">
+                <span class="field-content"><a href="/pc/simcity/avance-juego/1762983/1832236"><img src="http://img4.meristation.com/files/imagecache/ipo/imagenes/general/simcity_ipo02-199x146_1.jpg" alt="" title=""  class="imagecache imagecache-ipo" width="131" height="96" /></a></span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/pc/simcity/avance-juego/1762983/1832236">Sim City, Impresiones</a></span>
+  </div>
+  
+  <div class="views-field-type">
+                <span class="field-content">Avance</span>
+  </div>
+  
+  <div class="views-field-phpcode">
+                <span class="field-content"><span class="platform-container"><a href="/pc/simcity/avance-juego/1762983/1832236" title="SimCity (PC)" class="cool-darwin-platform-first"><strong class="radius" style="color:#990066; border: 1px solid #990066;" onmouseover="$(this).attr('style', 'color: #ff9c00; border: 1px solid #ff9c00;');" onmouseout="$(this).attr('style', 'color: #990066; border: 1px solid #990066;');">PC</strong></a></span></span>
+  </div>
+          </td>
+                  <td class="col-3 col-last">
+              
+  <div class="views-field-field-image-file-fid">
+                <span class="field-content"><a href="/pc/reportaje/vida-y-muerte-de-thq/1832949/58"><img src="http://img2.meristation.com/files/imagecache/ipo/imagenes/general/thq_ipo-199x146.jpg" alt="" title=""  class="imagecache imagecache-ipo" width="131" height="96" /></a></span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/pc/reportaje/vida-y-muerte-de-thq/1832949/58">Vida y Muerte de THQ</a></span>
+  </div>
+  
+  <div class="views-field-type">
+                <span class="field-content">Reportaje</span>
+  </div>
+  
+  <div class="views-field-phpcode">
+                <span class="field-content"></span>
+  </div>
+          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>       </div>
+
+    
+      </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views pane-frontend-news-frontpage" >
+  
+            <h2 class="pane-title">Las noticias</h2>
+    
+    
+      <div class="pane-content">
+        <div class="view view-frontend-news-frontpage view-id-frontend_news_frontpage view-display-id-block_3 view-dom-id-3">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/pc/noticias/sk-telecom-t1-se-convierten-en-los-campeones-mundiales-de-league-of-legends/1526971/1908229">SK Telecom T1 se convierten en los campeones mundiales de League of Legends</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/playstation-4/noticias/sony-penso-en-un-dualshock-4-sin-botones-para-ps4/44672/1908080">SONY pensó en un DualShock 4 sin botones para PS4</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/playstation-3/noticias/los-analistas-ven-posible-el-hundimiento-del-videojuego/61/1908046">Los analistas ven posible el hundimiento del videojuego</a></span>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>       </div>
+
+    
+      </div>
+</div>
+  </div>
+</div>
+
+<!--<esi:include src="/esi/pane/147/1830/page-platform_new/ZnJvbnRlbmQvcGxhdGZvcm0tbmV3LzU4LzE5MDgwMzA=/es:7976e703fade4174fd2496b62bfebf47?1" lang="es" />-->
+      </div>
+
+    
+      </div>
+</div>
+    </div>
+    <div class="panel-col-last panel-panel">
+      <div class="inside"><div class="panel-pane  pane-frontend-video-player right-menu-extra" >
+  
+      
+    
+      <div class="pane-content">
+        <div class="view view-frontend-video-player view-id-frontend_video_player view-display-id-block_2 view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-phpcode-1">
+                <span class="field-content"><!-- Start of Brightcove Player -->
+
+<script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<div style="display:none">
+
+</div>
+<object id="myExperience2718380086001" class="BrightcoveExperience">
+  <param name="wmode" value="transparent" />
+  <param name="bgcolor" value="#FFFFFF" />
+  <param name="width" value="301" />
+  <param name="height" value="220" />
+  <param name="playerID" value="2174940209001" />
+  <param name="playerKey" value="AQ~~,AAAA8asf-nE~,j0fkTcfzGnJTjg-CMJmoy-2xfEi6GWn_" />
+  <param name="isVid" value="true" />
+  <param name="isUI" value="true" />
+  <param name="includeAPI" value="true" />
+  <param name="templateLoadHandler" value="myTemplateLoaded" />
+  <param name="templateReadyHandler" value="onTemplateReady">
+  <param name="dynamicStreaming" value="true" />
+  <param name="linkBaseURL" value="#SHAREURL">
+  <param name="adServerURL" value="http://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=%2F7811748%2Fmeristation_web%2Fplayer_video&ciu_szs=&impl=s&gdfp_req=1&env=vp&output=xml_vast2&correlator=#CORRELATOR&unviewed_position_start=1&cust_params=merikey%3D#VIDEOINFO" />
+
+  <param name="@videoPlayer" value="2718380086001" />
+</object>
+  <script language="JavaScript" type="text/javascript">
+  $(".view-frontend-video-player").ready(function(){
+    $(".view-frontend-video-player object.BrightcoveExperience param").each(function(a,b){
+      if($(this).attr("name") == "adServerURL") {
+        adServerURL = $(this).attr("value");
+        adServerURL = adServerURL.replace("#CORRELATOR", Math.floor(Math.random() + new Date().getTime()));
+        $(this).attr("value", adServerURL);
+      }
+      if($(this).attr("name") == "linkBaseURL") {
+        share_url = $(this).attr("value");
+        share_url = share_url.replace("#SHAREURL", document.domain + $("span.views-field-title-1 a").attr("href"));
+        $(this).attr("value", share_url);
+      }
+    });
+    brightcove.createExperiences();
+  });
+</script>
+  <script type="text/javascript">
+    var myTemplateLoaded, onTemplateReady, player, modVP;
+    myTemplateLoaded = function (experienceID) {
+      player = brightcove.api.getExperience(experienceID);
+      modVP = player.getModule(brightcove.api.modules.APIModules.VIDEO_PLAYER);
+    }
+    onTemplateReady = function (evt) {
+      modVP.addEventListener(brightcove.api.events.MediaEvent.BEGIN, onMediaEventFired);
+    }
+    function onMediaEventFired(evt) {
+      clearInterval(refreshTimer);
+    }
+  </script>
+<!-- End of Brightcove Player --></span>
+  </div>
+  
+  <span class="views-field-title-1">
+                <span class="field-content"><a href="/video/bioshock-infinite---panteon-marino-episodio-1/1908061">Bioshock Infinite, Rapture: la Atlantis moderna</a></span>
+  </span>
+      <strong>·</strong>  
+  <span class="views-field-field-publication-start-value">
+                <span class="field-content"><span class="date-display-single">04/10/2013</span></span>
+  </span>
+  
+  <div class="views-field-field-rider-value">
+                <div class="field-content"><p>El misterioso vídeo de promoción de Panteón Marino.</p></div>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> 
+<!--<esi:include src="/esi/pane/147/1831/page-platform_new/ZnJvbnRlbmQvcGxhdGZvcm0tbmV3LzU4LzE5MDgwMzA=/es:1deedd99a2398ab8f4a5d2e916a2d53c?1" lang="es" />-->
+      </div>
+
+    
+      </div>
+<div class="panel-region-separator"></div><div class="panel-pane  pane-darwin-advertising-0 " >
+  
+      
+    
+      <div class="pane-content">
+        <div class="block block-darwin publi1 middle">
+  <div class="header">publicidad</div>
+  <div class="view-content">
+    <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+        if ((typeof Drupal != "undefined") && (typeof Drupal.darwinAdvertisement != "undefined") && (typeof Drupal.darwinAdvertisement.OAS_AD != "undefined") ) {
+          Drupal.darwinAdvertisement.OAS_AD('Middle');
+        }
+      //--><!]]>
+    </script>
+  </div>
+</div><!--view view-darwin fbf-publi -->
+<!--<esi:include src="/esi/pane/59/1863/page-gametab_review/ZnJvbnRlbmQvZ2FtZS1yZXZpZXcvMTc5ODE1OA==/es:cd16ab24b5a5a22c661d74830aa8a8f6?1" lang="es" />-->
+      </div>
+
+    
+      </div>
+<div class="panel-region-separator"></div><div class="panel-pane  pane-frontend-news-home right-menu-extra" >
+  
+      
+    
+      <div class="pane-content">
+        <div class="view view-frontend-news-home view-id-frontend_news_home view-display-id-block_1 view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+      <table class="views-table cols-2">
+    <thead>
+    <tr>
+              <th class="views-field views-field-title">
+                  </th>
+              <th class="views-field views-field-field-publication-start-value active">
+                  </th>
+          </tr>
+  </thead>
+  <tbody>
+          <tr class="odd views-row-first">
+                              <td class="views-field views-field-title">
+                              <a href="/pc/noticias/sk-telecom-t1-se-convierten-en-los-campeones-mundiales-de-league-of-legends/1526971/1908229">SK Telecom T1 se convierten en los campeones mundiales de League of Legends</a>                                   <p>hace 10 horas 27 mins</p>                  
+                
+            </td>
+                                          </tr>
+          <tr class="even">
+                              <td class="views-field views-field-title">
+                              <a href="/pc/noticias/state-of-decay-supera-el-millon-de-copias-vendidas/1799856/1908239">State of Decay supera el millón de copias vendidas</a>                                   <p>hace 23 horas 55 mins</p>                  
+                
+            </td>
+                                          </tr>
+          <tr class="odd">
+                              <td class="views-field views-field-title">
+                              <a href="/noticias/valve-apuesta-por-la-potencia-en-las-primeras-steam-machines/1908238">Valve apuesta por la potencia en las primeras Steam Machines</a>                                   <p>hace 23 horas 56 mins</p>                  
+                
+            </td>
+                                          </tr>
+          <tr class="even">
+                              <td class="views-field views-field-title">
+                              <a href="/pc/noticias/pixeljunk-shooter-llegara-muy-pronto-a-pc-y-mac/1908241/1908232">PixelJunk Shooter llegará muy pronto a PC y Mac</a>                                   <p>hace 23 horas 57 mins</p>                  
+                
+            </td>
+                                          </tr>
+          <tr class="odd">
+                              <td class="views-field views-field-title">
+                              <a href="/playstation-vita/noticias/tearaway-envolvera-a-ps-vita-el-22-de-noviembre/1798163/1908136">Tearaway envolverá a PS Vita el 22 de noviembre</a>                                   <p>hace 1 día 2 horas</p>                  
+                
+            </td>
+                                          </tr>
+          <tr class="even">
+                              <td class="views-field views-field-title">
+                              <a href="/pc/noticias/implementar-el-steam-controller-en-rome-2-asunto-de-una-hora/1788264/1908134">Implementar el Steam Controller en Rome 2, asunto de &quot;una hora&quot;</a>                                   <p>hace 1 día 2 horas</p>                  
+                
+            </td>
+                                          </tr>
+          <tr class="odd">
+                              <td class="views-field views-field-title">
+                              <a href="/iphone/noticias/star-war-tiny-death-star-disney-expande-la-serie-a-moviles/793/1908133">Star War: Tiny Death Star, Disney expande la serie a móviles</a>                                   <p>hace 1 día 3 horas</p>                  
+                
+            </td>
+                                          </tr>
+          <tr class="even">
+                              <td class="views-field views-field-title">
+                              <a href="/pc/noticias/baldurs-gate-2-enhanced-edition-para-el-15-de-noviembre/58/1908085">Baldur&#039;s Gate 2 Enhanced Edition para el 15 de noviembre</a>                                   <p>hace 1 día 6 horas</p>                  
+                
+            </td>
+                                          </tr>
+          <tr class="odd">
+                              <td class="views-field views-field-title">
+                              <a href="/pc/noticias/sigue-en-directo-la-season-3-de-league-of-legends/1526971/1907733">Sigue en directo la Season 3 de League of Legends</a>                                   <p>hace 1 día 6 horas</p>                  
+                
+            </td>
+                                          </tr>
+          <tr class="even views-row-last">
+                              <td class="views-field views-field-title">
+                              <a href="/pc/noticias/ea-estudia-incluir-modo-offline-en-simcity/1762983/1908082">EA estudia incluir modo offline en SimCity</a>                                   <p>hace 1 día 6 horas</p>                  
+                
+            </td>
+                                          </tr>
+      </tbody>
+</table>    </div>
+  
+  
+  
+  
+  
+  
+</div> 
+<!--<esi:include src="/esi/pane/147/1833/page-platform_new/ZnJvbnRlbmQvcGxhdGZvcm0tbmV3LzU4LzE5MDgwMzA=/es:b038223a1cfe5e25abd18973663a4dcb?1" lang="es" />-->
+      </div>
+
+    
+      </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-panels-mini pane-social-network right-menu-extra" >
+  
+            <h2 class="pane-title">Follow us on:</h2>
+    
+    
+      <div class="pane-content">
+        <div class="panel-display panel-1col clear-block" id="mini-panel-social_network">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-custom pane-2" >
+  
+      
+    
+      <div class="pane-content">
+        <div class="center">
+<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fmeristation&amp;width=300&amp;colorscheme=light&amp;show_faces=true&amp;stream=false&amp;header=true&amp;height=286" scrolling="no" frameborder="no" style="border:none; overflow:hidden; width:300px; height:286px;"></iframe>
+<br /><br />
+</div>
+<div class="center">
+		<a href="http://www.youtube.com/meristation" target="_blank" ><img src="/files/imagenes/general/479/youtube_0.png" width="48" height="48" border="0" alt="Canal Meristation en YouTube" title="Canal Meristation en YouTube" /></a>
+		&nbsp;<a href="http://www.tuenti.com/meristation" target="_blank" ><img src="/files/imagenes/general/fb9/tuenti_0.png" width="48" height="48" border="0" alt="Grupo en Tuenti" title="Grupo en Tuenti" /></a>
+		&nbsp;<a href="http://twitter.com/#!/meristation" target="_blank" ><img src="/files/imagenes/general/10e/twitter_0.png" width="48" height="48" border="0" alt="Síguenos en Twitter" title="Síguenos en Twitter" /></a>
+		<br /><br />
+</div>      </div>
+
+    
+      </div>
+</div>
+  </div>
+</div>
+      </div>
+
+    
+      </div>
+</div>
+    </div>
+  </div>
+
+  </div>
+        </div>
+              </div>
+
+              <div class="ads-notificator clearfix">
+          <div class="ads-notificator-large" style="margin: 0;">Publicidad</div>
+          <div class="ads-notificator-short" style="margin: 0;">Publicidad</div>
+        </div>
+      
+      <div id="ads-landscape-section2" class="clearfix">
+        <div class="banner-h90" style="float: left;">
+          <script type="text/javascript">
+          <!--//--><![CDATA[//><!--
+            if ((typeof Drupal != "undefined") && (typeof Drupal.darwinAdvertisement != "undefined") && (typeof Drupal.darwinAdvertisement.OAS_AD != "undefined") ) {
+              Drupal.darwinAdvertisement.OAS_AD('Bottom');
+            }
+          //--><!]]>
+          </script>
+        </div>
+        <div class="banner-h90" style="float: right;">
+          <script type="text/javascript">
+          <!--//--><![CDATA[//><!--
+            if ((typeof Drupal != "undefined") && (typeof Drupal.darwinAdvertisement != "undefined") && (typeof Drupal.darwinAdvertisement.OAS_AD != "undefined") ) {
+              Drupal.darwinAdvertisement.OAS_AD('x06');
+            }
+          //--><!]]>            
+          </script>
+        </div>
+      </div>
+     </div>
+    </div>
+
+        
+  </div>
+<div class="ELIMINADO 3divs-final"></div>
+</div>
+
+      <div id="footer"><div id="footer-canvas"><div id="footer-logo"></div><div id="footer-menu">
+      <ul id="footer-line-1" class="links"><li class="menu-570916 first"><a href="/apoya" title="Apoya Meristation">Apoya Meristation</a></li><li class="menu-570917"><a href="/condiciones-de-uso" title="Condiciones generales de uso">Condiciones generales de uso</a></li><li class="menu-570918 last"><a href="/galardones" title="Galardones">Galardones</a></li></ul><ul id="footer-line-2" class="links"><li class="menu-665317 first"><a href="/publicidad" title="">Publicidad</a></li><li class="menu-570915"><a href="/redaccion" title="Redacción">Redacción</a></li><li class="menu-570972"><a href="/contact?edit-cid=1" title="">Contacto</a></li><li class="text-copy last"><span>1997-2013 &copy; MeriStation, All Rights Reserved</span></li></ul>    </div></div><script type="text/javascript">
+$(document).ready(function(){
+   $("a#pbt-medios").click(function(event){
+      $("#capa-webs-grupo").addClass("activado");
+   });
+   $("a#cierrame").click(function(event){
+      $("#capa-webs-grupo").removeClass("activado");
+   });
+   $("a#cierrame2").click(function(event){
+      $("#capa-webs-grupo").removeClass("activado");
+   });
+});
+</script>
+<div id="pie-comun9" class="version-k">
+  <div class="inside">
+    <div class="medios-destacados">
+      <a id="pc_prisa" href="http://www.prisa.com" target="_blank"  title="Ir a la web del Grupo Prisa">Una empresa de PRISA</a>
+
+      <a id="pbt-medios" href="javascript:void(0);" title="medios Grupo Prisa">Medios Grupo Prisa</a>
+
+      <ul class="primerafila estirar">
+        <li><a id="pc_elpais" href="http://www.elpais.com" target="_blank"  title="Ir a la web de El PAIS">ElPa&iacute;s.com</a></li>
+                <li><a id="pc_los40" href="http://www.los40.com" target="_blank"  title="Ir a la web de Los 40">M&uacute;sica</a></li>
+                <li><a id="pc_santillana" href="http://www.gruposantillana.com" target="_blank"  title="Ir a la web de Santillana">Santillana</a></li>
+                <li><a id="pc_alfaguara" href="http://www.alfaguara.com/" target="_blank" title="Ir a la web de Alfaguara">Alfaguara</a></li>
+                <li><a id="pc_canalplus" href="http://www.canalplus.es/" target="_blank" title="Ir a la web de Canal +">Canal +</a></li>
+                <li><a id="pc_tvi" href="http://www.tvi.iol.pt" target="_blank"  title="Ir a la web de tvi">tvi</a></li>
+                <li><a id="pc_ser" href="http://www.cadenaser.com" target="_blank"  title="Ir a la web de Cadena SER">Radio</a></li>
+        <li><a id="pc_as" href="http://www.as.com" target="_blank" title="Ir a la web de AS">Deportes en AS.com</a></li>
+                <li><a id="pc_adn" href="http://www.adnradio.cl" target="_blank"  title="Ir a la web de ADN">adn</a></li>
+                <li><a id="pc_caracol" href="http://www.caracol.com.co/" target="_blank"  title="Ir a la web de Caracol">Caracol</a></li>
+             </ul>
+      <ul class="estirar">
+        <li><a id="pc_huffington" href="http://www.huffingtonpost.es/" target="_blank" title="Ir a la web de Huffington Post">Huffington Post</a></li>
+        <li><a id="pc_uno" href="http://www.sistemauno.com/web/index.html" target="_blank" title="Ir a la web de Sistema UNO">UNO</a></li>
+                <li><a id="pc_wradio" href="http://www.wradio.com.co" target="_blank"  title="Ir a la web de wradio">wradio</a></li>
+                <li><a id="pc_cincodias" href="http://www.cincodias.com" target="_blank" title="Ir a la web de Cinco Dias">Econom&iacute;a</a> </li>
+                <li><a id="pc_continental" href="http://www.continental.com.ar" target="_blank"  title="Ir a la web de continental">continental</a></li>
+        <li><a id="pc_maxima" href="http://www.maxima.fm" target="_blank"  title="Ir a la web de Máxima FM">M&aacute;xima</a></li>
+                <li><a id="pc_m80" href="http://www.m80radio.com" target="_blank"  title="Ir a la web de M80 radio">M80 radio</a></li>
+                <li><a id="pc_dial" href="http://www.cadenadial.com" target="_blank"  title="Ir a la web de Cadena Dial">Cadena Dial</a></li>
+                <li><a id="pc_kebuena" href="http://www.kebuena.com.mx/" target="_blank"  title="Ir a la web de Kebuena">Kebuena</a></li>
+      </ul>
+
+      <ul class="estirar">
+        <li><a id="pc_richmond" href="http://www.richmondelt.com/" target="_blank"  title="Ir a la web de Richmond">Richmond</a></li>
+        <li><a id="pc_moderna" href="http://www.moderna.com.br/pagina-inicial.htm" target="_blank"  title="Ir a la web de Moderna">Moderna</a></li>
+                <li><a id="pc_plural" href="http://www.pluralent.com" target="_blank"  title="Ir a la web de plural">Plural</a></li>
+                <li><a id="pc_tvi24" href="http://www.tvi24.iol.pt/" target="_blank"  title="Ir a la web de tvi">tvi24</a></li>
+                <li><a id="pc_cinemania" href="http://www.cinemania.es" target="_blank"  title="Ir a la web de Cinemania">Cinemania</a></li>
+        <li><a id="pc_rollingstone" href="http://www.rollingstone.es" target="_blank"  title="Ir a la web de Rolling Stone">Rolling Stone</a></li>
+                <li><a id="pc_tareasymas" href="http://www.tareasymas.es/" target="_blank"  title="Ir a la web de Tareas y Más">Tareas y Más</a></li>
+        <li><a id="pc_meristation" href="http://www.meristation.com/" target="_blank"  title="Ir a la web de Meristation">Videojuegos</a></li>
+                <li><a id="pc_elviajero" href="http://elviajero.elpais.com" target="_blank"  title="Ir a la web de El Viajero">El viajero</a></li>
+                <li><a id="pc_clasificados" href="http://clasificados.elpais.com/" target="_blank"  title="Ir a la web de Clasificados El Pais">Anuncios Clasificados</a></li>
+      </ul>
+    </div><!-- /medios-destacados -->
+
+
+    <div id="capa-webs-grupo" class="muestra-medios"> <!-- activado / desactivado -->
+      <div class="capa-medios">
+        <div class="cabecera-capa estirar">
+          <h3>Webs de PRISA</h3>
+          <a href="javascript:void(0);" title="cerrar" id="cierrame">cerrar ventana</a>
+        </div><!-- /cabecera-capa -->
+        <ul class="webs-grupo version-k">
+  <li class="webs-grupo-col">
+    <ul>
+      <li class="tit-principal">SANTILLANA</li>
+            <li class="encabezado"><a href="http://www.santillana.com " target="_blank" title="SANTILLANA Global">SANTILLANA Global</a></li>
+            <li class="tit-seccion"><a href="http://www.prisaediciones.com/ " target="_blank" title="PRISA Ediciones">PRISA Ediciones</a></li>
+            <li><a href="http://www.alfaguara.com/" target="_blank" title="Alfaguara">Alfaguara</a></li>
+            <li><a href="http://www.librosalfaguarainfantil.com/" target="_blank" title="Alfaguara Infantil">Alfaguara Infantil</a></li>
+            <li><a href="http://www.librosalfaguarajuvenil.com/" target="_blank" title="Alfaguara Juvenil">Alfaguara Juvenil</a></li>
+            <li><a href="http://www.librosaguilar.com/" target="_blank" title="Aguilar">Aguilar</a></li>
+            <li><a href="http://www.elpaisaguilar.es/" target="_blank" title="El Pa&iacute;s-Aguilar">El Pa&iacute;s-Aguilar</a></li>
+            <li><a href="http://www.sumadeletras.com/" target="_blank" title="Suma de Letras">Suma</a></li>
+            <li><a href="http://www.objetiva.com.br/" target="_blank" title="Editora Objetiva">Objetiva</a></li>
+            <li><a href="http://www.objectiva.pt/objectiva.aspx" target="_blank" title="Objectiva">Objectiva</a></li>
+            <li><a href="http://www.puntodelectura.com/" target="_blank" title="Punto de Lectura">Punto de Lectura</a></li>
+            <li><a href="http://www.editorialtaurus.com/" target="_blank" title="Taurus">Taurus</a></li>
+            <li class="encabezado subrayado"><a href="http://www.richmondelt.com/" target="_blank" title="Richmond Publishing">Richmond</a></li>
+            <li class="tit-seccion">SANTILLANA</li>
+            <li><a href="http://www.santillana.com.ar" target="_blank" title="Argentina">Argentina</a></li>
+            <li><a href="http://www.santillana.com.bo/" target="_blank" title="Bolivia">Bolivia</a></li>
+            <li><a href="http://www.santillana.com.br/" target="_blank" title="Brasil">Brasil</a></li>
+            <li><a href="http://www.santillana.cl/" target="_blank" title="Chile">Chile</a></li>
+            <li><a href="http://www.santillana.com.co/websantillana/" target="_blank" title="Colombia">Colombia</a></li>
+            <li><a href="http://www.santillana.co.cr/" target="_blank" title="Costa Rica">Costa Rica</a></li>
+            <li><a href="http://www.santillana.com.ec/" target="_blank" title="Ecuador">Ecuador</a></li>
+            <li><a href="http://www.santillana.com.sv/" target="_blank" title="El Salvador">El Salvador</a></li>
+            <li><a href="http://www.santillana.es/" target="_blank" title="Espa&ntilde;a">Espa&ntilde;a</a></li>
+            <li><a href="http://www.santillanausa.com/" target="_blank" title="Estados Unidos">Estados Unidos</a></li>
+            <li><a href="http://www.santillana.com.gt/" target="_blank" title="Guatemala">Guatemala</a></li>
+            <li><a href="http://www.santillana.com.hn/" target="_blank" title="Honduras">Honduras</a></li>
+            <li><a href="http://www.santillana.com.mx/" target="_blank" title="M&eacute;xico">M&eacute;xico</a></li>
+            <li><a href="http://www.santillana.com.py/" target="_blank" title="Paraguay">Paraguay</a></li>
+            <li><a href="http://www.santillana.com.pe/" target="_blank" title="Per&uacute;">Per&uacute;</a></li>
+            <li><a href="http://www.santillana.pt/" target="_blank" title="Portugal">Portugal</a></li>
+            <li><a href="http://www.gruposantillanapr.com/" target="_blank" title="Puerto Rico">Puerto Rico</a></li>
+            <li><a href="http://www.santillana.com.do/" target="_blank" title="Rep. Dominicana">Rep. Dominicana</a></li>
+            <li><a href="http://www.santillana.com.uy/" target="_blank" title="Uruguay">Uruguay</a></li>
+            <li><a href="http://www.santillana.com.ve/" target="_blank" title="Venezuela">Venezuela</a></li>
+            <li class="encabezado subrayado"><a href="http://www.santillanaele.com/web/index.php?santillanaele_es" target="_blank" title="SANTILLANA ESPA&Ntilde;OL">SANTILLANA ESPA&Ntilde;OL</a></li>
+            <li class="encabezado subrayado"><a href="http://www.santillanafrancais.com/accueil/default.htm" target="_blank" title="SANTILLANA FRANCES">SANTILLANA FRANCES</a></li>
+            <li class="encabezado subrayado"><a href="http://www.sistemauno.com/web/inicio.html" target="_blank" title="Sistema UNO de Ensino">Sistema UNO</a></li>
+            <li class="encabezado subrayado"><a href="http://ineverycrea.net/" target="_blank" title="IneveryCREAP">IneveryCREA</a></li>
+            <li class="tit-seccion">Fundaci&oacute;n Santillana</li>
+            <li><a href="http://www.fundacaosantillana.com.br/" target="_blank" title="Brasil">Brasil</a></li>
+            <li><a href="http://www.fundacionsantillana.com/" target="_blank" title="Espa&ntilde;a">Espa&ntilde;a</a></li>
+            <li><a href="http://www.fundacionsantillana.org.co/" target="_blank" title="Colombia">Colombia</a></li>
+            <li><a href="http://www.seminariodenarrativayperiodismo.com/" target="_blank" title="Seminario de Narrativa y Periodismo">Seminario de Narrativa y Periodismo</a></li>
+            <li><a href="http://www.essayandscience.com" target="_blank" title="Essay & Science">Essay & Science</a></li>
+            <li><a href="http://www.premiovivalectura.org.ar/" target="_blank" title="Premio Viva Lectura">Premio Viva Lectura</a></li>
+            <li><a href="http://www.premiovivaleitura.org.br/" target="_blank" title="Premio Viva Leitura">Premio Viva Leitura</a></li>
+            <li><a href="http://www.escolasdevalor.com.br/default.asp" target="_blank" title="Escolas de Valor">Escolas de Valor</a></li>
+            <li><a href="http://www.elboomeran.com/" target="_blank" title="El Boomeran(g)">El Boomeran(g)</a></li>
+            <li class="encabezado subrayado"><a href="http://www.kalipedia.com/" target="_blank" title="Kalipedia">Kalipedia</a></li>
+
+        </ul>
+
+  </li>
+  <li class="webs-grupo-col">
+    <ul>
+      <li class="tit-principal">PRISA NOTICIAS</li>
+            <li class="encabezado"><a href="http://www.prisanoticias.com " target="_blank" title="PRISA Noticias">PRISA Noticias</a></li>
+            <li class="tit-seccion"><a href="http://elpais.com/" target="_blank" title="El PA&Iacute;S">El PA&Iacute;S</a></li>
+            <li><a href="http://blogs.elpais.com/" target="_blank" title="Blogs El PA&Iacute;S">Blogs El PA&Iacute;S</a></li>
+            <li><a href="http://eskup.elpais.com/" target="_blank" title="Eskup El PA&Iacute;S">Eskup El PA&Iacute;S</a></li>
+            <li><a href="http://servicios.elpais.com/" target="_blank" title="Servicios El PA&Iacute;S">Servicios El PA&Iacute;S</a></li>
+            <li><a href="http://tienda.elpais.com" target="_blank" title="Tienda El PA&Iacute;S">Tienda El PA&Iacute;S</a></li>
+            <li><a href="http://www.elpaisclubdevinos.com/" target="_blank" title="Club de vinos El PA&Iacute;S">Club de vinos El PA&Iacute;S</a></li>
+            <li><a href="http://escuela.elpais.com/" target="_blank" title="Escuela de Periodismo">Escuela de Periodismo</a></li>
+            <li><a href="http://estudiantes.elpais.com/ " target="_blank" title="El PA&Iacute;S de los Estudiantes">El PA&Iacute;S de los Estudiantes</a></li>
+            <li><a href="http://smoda.elpais.com/" target="_blank" title="S Moda">S Moda</a></li>
+            <li><a href="http://elviajero.elpais.com/" target="_blank" title="El Viajero">El Viajero</a></li>
+            <li><a href="http://clasificados.elpais.com/" target="_blank" title="Clasificados El PA&Iacute;S">Clasificados El PA&Iacute;S</a></li>
+            <li class="tit-seccion"><a href="http://www.as.com/" target="_blank" title="Diario Deportivo">AS</a></li>
+            <li><a title="Videos deportivos - ASTV" href="http://www.as.com/videos/" target="_blank"> ASTV</a></li>
+      <li><a title="Megastore" href="http://megastore.as.com" target="_blank"> Megastore</a></li>
+      <li><a title=" Striker Manager" href="http://es.strikermanager.com " target="_blank"> Striker Manager</a></li>
+      <li><a title="Ibasket Manager" href="http://es.ibasketmanager.com" target="_blank"> Ibasket Manager</a></li>
+            <li class="encabezado subrayado"><a href="http://www.cincodias.com/" target="_blank" title="Diario Econ&oacute;mico">Cinco D&iacute;as</a></li>
+            <li class="tit-seccion"><a href="http://www.prisarevistas.com" target="_blank" title="El PA&Iacute;S">PRISA Revistas</a></li>
+            <li><a href="http://www.cinemania.es/" target="_blank" title="Cineman&iacute;a">Cineman&iacute;a</a></li>
+            <li><a href="http://www.rollingstone.es/" target="_blank" title="Rolling Stone">Rolling Stone</a></li>
+
+            <li class="encabezado subrayado"><a href="http://www.huffingtonpost.es/" target="_blank" title="Huffington Post">El Huffington Post</a></li>
+
+
+    </ul>
+  </li><!-- /webs-grupo-col -->
+  <li class="webs-grupo-col">
+    <ul>
+      <li class="tit-principal">PRISA RADIO</li>
+            <li class="encabezado"><a href="http://www.prisaradio.com" target="_blank" title="PRISA Radio">PRISA Radio</a></li>
+            <li class="tit-seccion">RADIO HABLADA</li>
+            <li class="nolink">ADN Radio</li>
+            <li class="sub"><a href="http://www.adnradio.cl/" target="_blank" title="ADN Chile">Chile</a></li>
+            <li class="sub"><a href="http://www.adn.fm/" target="_blank" title="ADN Costa Rica">Costa Rica</a></li>
+            <li class="nolink"><a href="http://www.cadenaser.com/" target="_blank" title="Cadena SER">Cadena SER</a></li>
+            <li class="nolink"><a href="http://www.caracol.com.co/" target="_blank" title="Caracol Radio (Colombia)">Caracol Radio</a></li>
+            <li class="nolink"><a href="http://www.caracol1260.com/" target="_blank" title="Caracol 1260 (Miami)">Caracol 1260</a></li>
+            <li class="nolink"><a href="http://www.continental.com.ar/" target="_blank" title="Continental">Continental</a></li>
+            <li class="nolink"><a href="http://www.ona-fm.cat/" target="_blank" title="ONA Catalana">ONA Catalana</a></li>
+            <li class="nolink">W Radio</li>
+            <li class="sub"><a href="http://www.wradio690.com/" target="_blank" title="EE UU">EE UU</a></li>
+            <li class="sub"><a href="http://www.wradio.com.co/" target="_blank" title="Colombia">Colombia</a></li>
+            <li class="sub"><a href="http://www.wradio.com.mx/" target="_blank" title="M&eacute;xico">M&eacute;xico</a></li>
+            <li class="tit-seccion">RADIO MUSICAL</li>
+            <li class="nolink">40 Principales</li>
+            <!-- li class="sub"><a href="http://www.los40principales.com.ar/" target="_blank" title="Argentina">Argentina</a></li -->
+            <li class="sub"><a href="http://www.los40.cl/" target="_blank" title="Chile">Chile</a></li>
+            <li class="sub"><a href="http://www.los40.com.co/" target="_blank" title="Colombia">Colombia</a></li>
+            <li class="sub"><a href="http://www.los40.co.cr/" target="_blank" title="Costa Rica">Costa Rica</a></li>
+            <li class="sub"><a href="http://www.los40.com.ec/" target="_blank" title="Ecuador">Ecuador</a></li>
+            <li class="sub"><a href="http://www.los40.com" target="_blank" title="Espa&ntilde;a">Espa&ntilde;a</a></li>
+            <li class="sub"><a href="http://www.los40.com.gt/" target="_blank" title="Guatemala">Guatemala</a></li>
+            <li class="sub"><a href="http://www.los40.com.mx/" target="_blank" title="M&eacute;xico">M&eacute;xico</a></li>
+            <li class="sub"><a href="http://www.los40.com.pa/" target="_blank" title="Panam&aacute;">Panam&aacute;</a></li>
+            <li class="nolink">B&eacute;same</li>
+            <li class="sub"><a href="http://www.besame.fm/" target="_blank" title="Colombia">Colombia</a></li><!--?urlÂ¿--->
+            <li class="sub"><a href="http://www.besame.co.cr/" target="_blank" title="Costa Rica">Costa Rica</a></li>
+            <li class="sub"><a href="http://www.besame.com.mx/" target="_blank" title="M&eacute;xico">M&eacute;xico</a></li>
+            <li class="nolink"><a href="http://www.cadenadial.com/" target="_blank" title="Cadena DIAL">Cadena DIAL</a></li>
+            <li class="nolink"><a href="http://www.castellolopesmultimedia.com/" target="_blank" title="CLMC">CLMC</a></li>
+            <li class="nolink"><a href="http://www.colorincolorradio.com/" target="_blank" title="Color&iacute;n ColorRadio">Color&iacute;n ColorRadio</a></li>
+            <li class="nolink"><a href="http://www.concierto.cl/" target="_blank" title="Concierto">Concierto</a></li>
+            <li class="nolink"><a href="http://www.corazon.cl/" target="_blank" title="Coraz&oacute;n">Coraz&oacute;n</a></li>
+            <li class="nolink"><a href="http://www.fmdos.cl/" target="_blank" title="FMDOS">FMDOS</a></li>
+            <li class="nolink"><a href="http://www.futuro.cl/" target="_blank" title="Futuro">Futuro</a></li>
+            <li class="nolink"><a href="http://www.hjck.com/" target="_blank" title="HJCK">HJCK</a></li>
+            <li class="nolink"><a href="http://www.iarc.cl/" target="_blank" title="Ibero Americana Radio Chile">Ibero Americana Radio Chile</a></li>
+            <li class="nolink"><a href="http://www.kebuena.com.mx/" target="_blank" title="KeBuena">KeBuena</a></li>
+            <li class="nolink"><a href="http://www.lavallenata.com/" target="_blank" title="Besame Colombia">B&eacute;same Colombia</a></li>
+            <li class="nolink"><a href="http://www.maxima.fm/" target="_blank" title="M&aacute;xima FM">M&aacute;xima FM</a></li>
+            <li class="nolink"><a href="http://www.m80radio.com/" target="_blank" title="M80 Radio">M80 Radio</a></li>
+            <li class="nolink"><a href="http://www.oxigeno.fm/" target="_blank" title="Ox&iacute;geno">Ox&iacute;geno</a></li>
+            <li class="nolink"><a href="http://www.pudahuel.cl/" target="_blank" title="Pudahuel">Pudahuel</a></li>
+            <li class="nolink"><a href="http://www.radioacktiva.com/" target="_blank" title="Radioacktiva (Colombia)">Radioacktiva </a></li>
+            <li class="nolink"><a href="http://www.radioactiva.cl/" target="_blank" title="Radioactiva (Chile)">Radioactiva </a></li>
+            <li class="nolink"><a href="http://www.radioimagina.cl/" target="_blank" title="Radio Imagina">Radio Imagina</a></li>
+            <li class="nolink"><a href="http://www.radiouno.cl/" target="_blank" title="Radio Uno">Radio Uno</a></li>
+            <li class="nolink"><a href="http://www.radiole.com/" target="_blank" title="Radiol&eacute;">Radiol&eacute;</a></li>
+            <li class="nolink"><a href="http://www.rockandpop.cl/" target="_blank" title="Rock&amp;Pop">Rock&amp;Pop</a></li>
+            <li class="nolink"><a href="http://www.tropicanafm.com/" target="_blank" title="Tropicana">Tropicana</a></li>
+            <li class="tit-seccion">M&Uacute;SICA</li>
+            <li class="nolink"><a title="Merchandising On Stage" target="_blank" href="http://www.onstage.es/">Merchandising On Stage</a></li>
+            <li class="nolink"><a title="Planet Events" target="_blank" href="http://www.planetevents.es/">Planet Events</a></li>
+            <li class="nolink"><a href="http://www.rlm.es" target="_blank" title="RLM">RLM</a></li>
+        </ul>
+  </li><!-- /webs-grupo-col -->
+  <li class="webs-grupo-col">
+    <ul>
+      <li class="tit-principal">PRISA TV</li>
+            <li class="encabezado"><a href="http://www.prisatv.com" target="_blank" title="PRISA TV">PRISA TV</a></li>
+            <li class="nolink"><a href="http://www.plus.es/" target="_blank" title="CANAL+">CANAL+</a></li>
+            <li class="nolink"><a href="http://canalplus.es/yomvi/" target="_blank" title="YOMVI">YOMVI</a></li>
+            <li class="nolink"><a href="http://sales.prisatv.es/indice" target="_blank" title="Distribuci&oacute;n de contenidos">PRISA TV Distribuci&oacute;n de contenidos</a></li>
+            <li class="tit-seccion"><a href="http://www.mediacapital.pt/ " target="_blank" title="MEDIA CAPITAL TV">MEDIA CAPITAL</a></li>
+            <li class="tit-seccion dos">TV</li>
+            <li><a href="http://www.tvi.iol.pt/" target="_blank" title="TVI">TVI</a></li>
+            <li><a href="http://www.tvi24.iol.pt/" target="_blank" title="TVI24">TVI24</a></li>
+            <li><a href="http://www.tvi.iol.pt/internacional.html" target="_blank" title="TVI Internacional">TVI Internacional</a></li>
+            <li class="tit-seccion dos">PRODUCCI&Oacute;N AUDIOVISUAL</li>
+            <li class="nolink">Plural Entertainment</li>
+            <li class="sub"><a href="http://www.pluralent.com/" target="_blank" title="Espa&ntilde;a">Espa&ntilde;a</a></li>
+            <li class="sub"><a href="http://www.pluralportugal.pt/" target="_blank" title="Portugal">Portugal</a></li>
+            <li class="tit-seccion dos">RADIO</li>
+            <li><a href="http://www.cotonete.iol.pt" target="_blank" title="Cotonete">Cotonete</a></li>
+            <li><a href="http://www.radiocomercial.iol.pt " target="_blank" title="Radio Comercial">Radio Comercial</a></li>
+            <li><a href="http://www.m80.iol.pt" target="_blank" title="M80">M80</a></li>
+            <li><a href="http://www.cidadefm.iol.pt" target="_blank" title="Cidade FM">Cidade FM</a></li>
+            <li><a href="http://www.starfm.clix.pt " target="_blank" title="Star FM">Star FM</a></li>
+            <li><a href="http://www.vodafone.fm/ " target="_blank" title="Vodafone FM ">Vodafone FM </a></li>
+            <li class="tit-seccion dos">REVISTAS</li>
+            <li><a href="http://www.lux.iol.pt/ " target="_blank" title="Lux">Lux</a></li>
+            <li><a href="http://www.revistadevinhos.iol.pt/" target="_blank" title="Revista de Vinhos">Revista de Vinhos</a></li>
+            <li class="tit-seccion dos">DIGITAL</li>
+            <li><a href="http://www.iol.pt" target="_blank" title="IOL">IOL</a> </li>
+            <li><a href="http://www.agenciafinanceira.iol.pt/" target="_blank" title="Ag&ecirc;ncia Financeira">Ag&ecirc;ncia Financeira</a></li>
+            <li><a href="http://www.autoportal.iol.pt/" target="_blank" title="Autoportal">Autoportal</a></li>
+            <li><a href="http://www.maisfutebol.iol.pt/" target="_blank" title="Maisfutebol">Maisfutebol</a></li>
+
+
+            <li class="tit-seccion"><a href="http://www.vmetv.com/" target="_blank" title="V-ME">V-ME</a></li>
+    </ul>
+  </li><!-- /webs-grupo-col -->
+  <li class="webs-grupo-col ultimo">
+    <ul>
+      <li class="tit-principal">PRISA DIGITAL</li>
+            <li class="encabezado"><a href="http://www.prisadigital.com/americas/sp/" target="_blank" title="PRISA Digital Americas">PRISA Digital Americas</a> </li>
+            <li class="encabezado"><a href="http://www.11824.es" target="_blank" title="11824">11824</a></li>
+            <li class="encabezado"><a href="http://www.lalistawip.com/" target="_blank" title="lalistaWip">lalistaWip</a></li>
+            <li class="encabezado"><a href="http://www.meristation.com/" target="_blank" title="Meristation">Meristation</a></li>
+
+            <li class="tit-principal">COMERCIAL Y MARKETING</li>
+      <li class="encabezado"><a href="http://www.prisabs.com/" target="_blank" title="PRISA Brand Solutions">PRISA Brand Solutions</a></li>
+    </ul>
+  </li><!-- /webs-grupo-col -->
+</ul><!-- /webs-grupo -->
+        <div class="pc-sombreado">
+          <a href="javascript:void(0);" id="cierrame2">cerrar</a>
+        </div><!-- /pc-sombreado -->
+      </div><!-- /capa-medios -->
+    </div><!-- /muestra-medios -->
+
+  </div><!-- /inside -->
+</div><!-- /pie-comun9 --></div>
+  
+</div></div>
+
+<!-- OPTIMOST: deactivated -->
+
+<script type="text/javascript" src="http://js.meristation.com/files/js/js_c2aa0f9db9ef50591a81b8f21cc96405.js"></script>
+<script type="text/javascript" src="http://js.meristation.com/sites/all/modules/service_links/js/google_plus_one.js?1381013453"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "googleCSE": { "language": "es" } });
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "CToolsAJAX": { "scripts": { "\/sites\/all\/modules\/jquery_update\/replace\/jquery.min.js": true, "\/misc\/drupal.js": true, "\/sites\/all\/modules\/darwin\/darwin_extensions\/js\/darwin.js": true, "\/files\/languages\/es_8764ceb34abff40a7dc3ccdf69891853.js": true, "\/sites\/all\/modules\/persistent_login\/persistent_login.js": true, "\/sites\/all\/modules\/ajax_load\/ajax_load.js": true, "\/sites\/all\/libraries\/jquery.ui\/ui\/minified\/ui.core.min.js": true, "\/sites\/all\/libraries\/jquery.ui\/ui\/minified\/ui.dialog.min.js": true, "\/sites\/all\/libraries\/jquery.ui\/ui\/minified\/ui.draggable.min.js": true, "\/sites\/all\/modules\/modalframe\/js\/parent.js": true, "\/sites\/all\/modules\/darwin\/darwin_node_vote\/js\/darwin_node_vote.js": true, "\/sites\/all\/libraries\/jquery.ui\/ui\/minified\/ui.slider.min.js": true, "\/sites\/all\/modules\/darwin\/darwin_omniture\/js\/darwin_omniture.js": true, "\/sites\/all\/modules\/darwin\/darwin_phpbb\/js\/darwin_phpbb_comments.js": true, "\/sites\/all\/libraries\/jquery.appear\/jquery.appear.js": true, "\/sites\/all\/modules\/darwin\/darwin_profile_games\/js\/darwin_profile_games.js": true, "\/sites\/all\/themes\/darwin\/darwintheme\/widgets\/darwin_updown\/darwin_updown.js": true, "\/sites\/all\/modules\/fivestar\/js\/fivestar.js": true, "\/sites\/all\/modules\/panels\/js\/panels.js": true, "\/sites\/all\/modules\/darwin\/darwin_formatters\/js\/darwin_formatters.daytopic.js": true, "\/sites\/all\/modules\/extlink\/extlink.js": true, "\/sites\/all\/modules\/darwin\/darwin_ecommerce\/js\/darwin_ecommerce.gameprice.js": true, "\/sites\/all\/modules\/service_links\/js\/facebook_like.js": true, "\/sites\/all\/modules\/service_links\/js\/twitter_button.js": true, "\/sites\/all\/modules\/ctools\/js\/ajax-responder.js": true, "\/sites\/all\/modules\/onbeforeunload\/onbeforeunload.js": true, "\/sites\/all\/modules\/dirtyforms\/dirtyforms.js": true, "\/misc\/textarea.js": true, "\/sites\/all\/modules\/darwin\/darwin_advertising\/js\/darwin_advertising.js": true, "\/sites\/all\/modules\/google_cse\/google_cse.js": true, "\/sites\/all\/modules\/service_links\/js\/google_plus_one.js": true, "\/http:\/\/connect.facebook.net\/en_US\/all.js#xfbml=1": true }, "css": { "\/sites\/all\/modules\/darwin\/darwin_channels\/css\/darwin_channels.css": true, "\/sites\/all\/modules\/darwin\/darwin_channels\/css\/darwin-game-table.css": true, "\/modules\/node\/node.css": true, "\/modules\/system\/defaults.css": true, "\/modules\/system\/system.css": true, "\/modules\/system\/system-menus.css": true, "\/modules\/user\/user.css": true, "\/modules\/poll\/poll.css": true, "\/sites\/all\/modules\/cck\/theme\/content-module.css": true, "\/sites\/all\/modules\/ctools\/css\/ctools.css": true, "\/sites\/all\/modules\/darwin\/darwin_game_prices\/css\/darwin_game_prices_widgets.css": true, "\/sites\/all\/modules\/darwin\/darwin_images\/css\/darwin_images.imagecache.css": true, "\/sites\/all\/modules\/darwin\/darwin_images\/css\/darwin_images.inline-images.css": true, "\/sites\/all\/modules\/darwin\/darwin_images\/css\/darwin_images.gallery.css": true, "\/sites\/all\/modules\/modalframe\/css\/modalframe.parent.css": true, "\/sites\/all\/modules\/darwin\/darwin_node_vote\/css\/darwin_node_vote.css": true, "\/sites\/all\/libraries\/jquery.ui\/themes\/base\/ui.slider.css": true, "\/sites\/all\/modules\/darwin\/darwin_phpbb\/css\/darwin_phpbb.css": true, "\/sites\/all\/modules\/darwin\/darwin_profile_games\/css\/darwin_profile_games.css": true, "\/sites\/all\/modules\/darwin\/darwin_videos\/css\/darwin_videos.inline-images.css": true, "\/sites\/all\/modules\/darwin\/darwin_videos_external\/css\/darwin_videos_external.inline-images.css": true, "\/sites\/all\/themes\/darwin\/darwintheme\/widgets\/darwin_updown\/darwin_updown.css": true, "\/sites\/all\/modules\/date\/date.css": true, "\/sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css": true, "\/sites\/all\/modules\/date\/date_popup\/themes\/jquery.timeentry.css": true, "\/sites\/all\/modules\/filefield\/filefield.css": true, "\/sites\/all\/modules\/fivestar\/css\/fivestar.css": true, "\/sites\/all\/modules\/fivestar\/widgets\/small\/small.css": true, "\/sites\/all\/modules\/google_cse\/google_cse.css": true, "\/sites\/all\/modules\/hidden_captcha\/hidden_captcha.css": true, "\/sites\/all\/modules\/sphinxsearch\/sphinxsearch.css": true, "\/misc\/farbtastic\/farbtastic.css": true, "\/sites\/all\/modules\/calendar\/calendar.css": true, "\/sites\/all\/modules\/darwin\/darwin_formatters\/darwin_formatters.css": true, "\/sites\/all\/modules\/darwin\/darwin_formatters\/css\/darwin_formatters.fields.css": true, "\/sites\/all\/modules\/darwin\/darwin_pagebreak\/css\/darwin_pagebreak.css": true, "\/sites\/all\/modules\/extlink\/extlink.css": true, "\/sites\/all\/modules\/cck\/modules\/fieldgroup\/fieldgroup.css": true, "\/sites\/all\/modules\/views\/css\/views.css": true, "\/sites\/all\/modules\/darwin\/darwin_extensions\/css\/darwin_extensions.css": true, "\/sites\/all\/modules\/darwin\/darwin_ecommerce\/css\/darwin_ecommerce.css": true, "\/sites\/all\/modules\/panels\/plugins\/layouts\/twocol_stacked\/twocol_stacked.css": true, "\/sites\/all\/modules\/panels\/plugins\/layouts\/onecol\/onecol.css": true, "\/sites\/all\/modules\/noderelationships\/css\/noderelationships.backref_views.css": true, "\/sites\/all\/themes\/darwin\/darwintheme\/css\/reset.css": true, "\/sites\/all\/themes\/darwin\/darwintheme\/css\/tabs.css": true, "\/sites\/all\/themes\/darwin\/darwintheme\/css\/messages.css": true, "\/sites\/all\/themes\/darwin\/darwintheme\/css\/tables.css": true, "\/sites\/all\/themes\/darwin\/darwintheme\/css\/forms.css": true, "\/sites\/all\/themes\/darwin\/darwintheme\/css\/panels.css": true, "\/sites\/all\/themes\/darwin\/darwintheme\/css\/styles.css": true, "\/sites\/all\/themes\/darwin\/darwintheme\/piecomun\/css\/pie-comunes.css": true, "\/sites\/all\/modules\/darwin\/darwin_formatters\/css\/darwin_formatters.theme.css": true, "\/sites\/all\/modules\/darwin\/darwin_formatters\/css\/darwin_formatters.menu.css": true, "\/sites\/all\/modules\/darwin\/darwin_formatters\/css\/darwin_formatters.filters.css": true } } });
+//--><!]]>
+</script>
+
+
+<!-- Activity Name for this tag is: Meristation_General / Meristation_General -->
+<script type="text/javascript">
+    <!--
+        var gmturl='http://es.gmads.net/pct';
+        var gmtr=Math.floor(Math.random()*9999999999);
+        document.write("<iframe src='"+gmturl+"?gmtevt=8a8386853f7c657c013f9fc01ba62557&amp;gmtcl=12&amp;gmtr="+gmtr+"' style='overflow:hidden' frameborder='0' width='0' height='0'></iframe>");
+    -->
+</script>
+<noscript>
+    <iframe
+        src="http://es.gmads.net/pct?gmtevt=8a8386853f7c657c013f9fc01ba62557&gmtcl=12"
+        style="overflow:hidden" frameborder="0" width="0" height="0">
+    </iframe>
+</noscript>
+<!-- Activity End -->
+
+<!-- PRISA OMNITURE -->
+<!-- SiteCatalyst code version: H.26 -->
+
+
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+var pixel_seccion = "PC";
+var pixel_subseccion = "Noticias";
+var pixel_subsubseccion = "";
+var pixel_titulo_pagina = "NVIDIA trabaja con Valve en el diseño de SteamOS - PC | MeriStation.com";
+//--><!]]></script>
+<script type="text/javascript" src="http://js.meristation.com/omniture/s_code.js?p=260"></script>
+<script type="text/javascript" src="http://js.meristation.com/omniture/omniture.js?p=260"></script>
+<script language="JavaScript" type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><noscript><img src="http://prisacom.112.2o7.net/b/ss/prisacommeristation,prisacomglobal/1/H.26--NS/0"
+height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.26. -->
+<!-- PRISA FIN OMNITURE -->
+
+</body>
+</html>

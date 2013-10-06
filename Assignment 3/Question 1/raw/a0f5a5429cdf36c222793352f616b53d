@@ -1,0 +1,1297 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
+<script type="text/javascript">
+if (!navigator.userAgent.match(/iPad/i)) {
+	document.write('<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />');
+}
+</script>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<script src="/templates/cfa2012/js/libs/jquery-1.8.2.js"></script>
+  <base href="http://news.cfa.vic.gov.au/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="CFA Country Fire Authority Connect news information videos forum blog blogs current affairs newsletter RSS subscribe royal commission fire fires Victoria government organization corporate community volunteers discussion comments comment submit register registration login log-in share social network networking" />
+  <meta name="title" content="Man injured in Ensay house fire - Country Fire Authority" />
+  <meta name="author" content="CFA Media" />
+  <meta name="description" content="CFA (Country Fire Authority)" />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>Man injured in Ensay house fire - Country Fire Authority - Country Fire Authority</title>
+  <link href="/templates/cfa2012/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="/media/system/css/modal.css" type="text/css" />
+  <link rel="stylesheet" href="http://news.cfa.vic.gov.au/components/com_k2/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="http://news.cfa.vic.gov.au/modules/mod_k2_content/tmpl/css/style.css" type="text/css" />
+  <script type="text/javascript" src="/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="/media/system/js/modal.js"></script>
+  <script type="text/javascript" src="http://news.cfa.vic.gov.au/components/com_k2/js/k2.js"></script>
+  <script type="text/javascript">
+
+		window.addEvent('domready', function() {
+
+			SqueezeBox.initialize({});
+
+			$$('a.modal').each(function(el) {
+				el.addEvent('click', function(e) {
+					new Event(e).stop();
+					SqueezeBox.fromElement(el);
+				});
+			});
+		});
+  </script>
+  <link rel="stylesheet" type="text/css" href="http://news.cfa.vic.gov.au/components/com_jomcomment/style.css"/>
+<link rel="stylesheet" type="text/css" href="http://news.cfa.vic.gov.au/components/com_jomcomment/templates/default/comment_style.css"/>
+
+<script type='text/javascript'>
+/*<![CDATA[*/
+var jc_option           = "com_content";
+var jc_autoUpdate       = "0";
+var jc_update_period    = 0*1000;
+var jc_orderBy          = "1";
+var jc_livesite_busyImg = "http://news.cfa.vic.gov.au/components/com_jomcomment/busy.gif";
+var jc_username         = "";
+var jc_email            = "";
+var jc_commentForm;
+/*]]>*/
+</script>
+  <script type='text/javascript'>
+/*<![CDATA[*/
+	var jax_live_site = 'http://news.cfa.vic.gov.au/index.php';
+	var jax_site_type = '1.5';
+/*]]>*/
+</script><script type="text/javascript" src="http://news.cfa.vic.gov.au/plugins/system/pc_includes/ajax_1.2.js"></script>
+  <!--[if IE 7]>
+<link href="http://news.cfa.vic.gov.au/components/com_k2/css/ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if lte IE 6]>
+<link href="http://news.cfa.vic.gov.au/components/com_k2/css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+<meta itemprop="name" content="Country Fire Authority"/>
+<meta property="og:description" content="Information for Victoria on current fires and warnings, total fire bans, fire danger ratings, fire restrictions and preparing for bushfires."/>
+<meta property="og:title" content="Country Fire Authority"/>
+<meta property="og:image" content="http://www.cfa.vic.gov.au/img/apple-touch-icon-114x114-precomposed.png"/>
+<meta property="og:image" content="http://www.cfa.vic.gov.au/img/cfa-social-media-200x200.png"/>
+<meta name="google-site-verification" content="KCiqdyZNJW0espwJb_Pc1_LQoSxfEgg3l9LkbBjtzJI" /> 
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png" />
+<!-- For iPhone 4 with high-resolution Retina display: -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png" />
+<!-- For first-generation iPad: -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png" />
+<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-57x57-precomposed.png" />
+<!-- For nokia devices: -->
+<link rel="shortcut icon" href="apple-touch-icon.png" />
+<link href="/templates/cfa2012/css/style.css?t=23423" rel="stylesheet" type="text/css" />
+<link href="/templates/cfa2012/css/joomla.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="/templates/cfa2012/css/zebra_datepicker.css" type="text/css">
+<script src="/templates/cfa2012/js/libs/modernizr-2.5.3.min.js"></script>
+
+<link href="/templates/cfa2012/css/mobile.css" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+<script>
+  (function() {
+    var cx = '006727815269793595466:yzclkj09euo';
+    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<!--[if IE 7 ]>  <link href="/templates/cfa2012/css/ie7.css" rel="stylesheet" type="text/css" /> <![endif]-->
+<!--[if IE 8 ]>  <link href="/templates/cfa2012/css/ie8.css" rel="stylesheet" type="text/css" /> <![endif]-->
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+<script type="text/javascript" src="/templates/cfa2012/js/sharethis.js"></script> 
+<script type="text/javascript">stLight.options({publisher: "ur-196bb778-fa56-8722-7986-1b779125ff36"}); </script> 
+</head>    <body class="warning">
+        		<div id="pageTop" name="pageTop"></div>
+
+			<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>out of date!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+		<nav id="skipLinks" class="visuallyhidden">
+			<h2>Accessibility navigation</h2>
+			<ul>
+				<li><a href="#globalContent" title="Skip to Content">Skip to Content</a></li>
+				<li><a href="#globalPrimaryNav" title="Skip to Navigation">Skip to Navigation</a></li>
+			</ul>
+		</nav>
+
+		<hr class="hidden" />
+
+		<div class="wrapper">
+
+			<header id="globalHeader" role="banner">
+
+	<div class="container">
+	
+		<div class="wrapper clearfix">
+
+			<h1 id="globalLogo"><a href="http://www.cfa.vic.gov.au" target="_self" title="Go to Home" ><img src="/templates/cfa2012/img/elements/logo.png" width="102" height="104" alt="Country Fire Authority (CFA)" /></a></h1>
+
+			<ul id="globalAboutLinks">
+				<li><a href="http://www.cfa.vic.gov.au/about" target="_self" title="About us">About us</a></li>
+				<li><a href="http://www.cfa.vic.gov.au/contact" target="_self" title="Contact us">Contact us</a></li>
+				<li><a href="https://cfaonline.cfa.vic.gov.au/mycfa/Show?pageId=colHome" target="_self" title="CFA Members">CFA Members</a></li>
+			</ul>
+			<!-- /end #globalAboutLinks -->
+
+			<strong id="globalMessage">Protecting lives and property</strong>
+
+			<gcse:searchbox-only></gcse:searchbox-only>
+
+		</div>
+		<!-- /end .wrapper -->
+
+	</div>
+	<!-- /end .container -->
+
+</header>
+<!-- /end #globalHeader -->
+
+<hr class="hidden" />
+		        	 <nav id="globalPrimaryNav" role="navigation">
+                <div class="primaryNavInner">
+        	        <div class="container clearfix">
+		                <h2 id="menuToggle"><a href="#"><span></span> Menu</a></h2>
+		                <ul>
+                            
+			                <li >
+				                <div class="menuBtnWrap">
+					                <a href="http://www.cfa.vic.gov.au/warnings-restrictions" target="_self" title="Warnings & Restrictions">Warnings & Restrictions</a>
+					                <span><span></span></span>
+				                </div>
+                                
+                                <div class="subNav">
+				                    <ul>
+                                        
+					                    <li >
+                                            <a href="http://www.cfa.vic.gov.au/warnings-restrictions/find-your-fire-district" title="Find your fire district">
+                                                
+					                            
+                                                
+				                                <span></span> <strong>Find your fire district</strong>
+				                                <p>Victoria is divided into nine Fire Districts.</p>
+                                            </a>
+                                        </li>
+                                        
+					                    <li >
+                                            <a href="http://www.cfa.vic.gov.au/warnings-restrictions/warnings-and-incidents" title="Warnings and Incidents">
+                                                
+				                                <span></span> <strong>Warnings and Incidents</strong>
+				                                <p>View the latest incidents and warnings for Victoria from CFA, DSE & MFB.</p>
+                                            </a>
+                                        </li>
+                                        
+					                    <li >
+                                            <a href="http://www.cfa.vic.gov.au/warnings-restrictions/total-fire-bans-and-ratings" title="Total fire bans and ratings">
+                                                
+					                           
+                                                
+				                                <span></span> <strong>Total fire bans and ratings</strong>
+				                                <p>This page shows Fire Danger Ratings and Total Fire Ban declarations as a map and as table data.</p>
+                                            </a>
+                                        </li>
+                                        
+					                    <li >
+                                            <a href="http://www.cfa.vic.gov.au/warnings-restrictions/restrictions-during-the-fire-danger-period" title="Restrictions during the Fire Danger Period">
+                                                
+					                            
+                                                
+				                                <span></span> <strong>Restrictions during the Fire Danger Period</strong>
+				                                <p>The Fire Danger Period is when CFA restricts the use of fire in the community. Check if restrictions have been declared in your area.</p>
+                                            </a>
+                                        </li>
+                                        
+				                    </ul>
+                                    <span class="closeBtn">Close</span>
+                                </div>
+                                
+			                </li>
+                            
+			                <li >
+				                <div class="menuBtnWrap">
+					                <a href="http://www.cfa.vic.gov.au/plan-prepare" target="_self" title="Plan & Prepare">Plan & Prepare</a>
+					                <span><span></span></span>
+				                </div>
+                                
+                                <div class="subNav">
+				                    <ul>
+                                        
+					                    <li >
+                                            <a href="http://www.cfa.vic.gov.au/plan-prepare/am-I-at-risk" title="Am I at risk">
+                                                
+					                            
+                                                
+				                                <span></span> <strong>Am I at risk</strong>
+				                                <p>Victoria is one of the most fire-prone areas in the world. Understanding your level of risk is the first step in developing your Bushfire Survival Plan.</p>
+                                            </a>
+                                        </li>
+                                        
+					                    <li >
+                                            <a href="http://www.cfa.vic.gov.au/plan-prepare/before-and-during-bushfire" title="What to do before and during bushfire">
+                                                
+				                                <span></span> <strong>What to do before and during bushfire</strong>
+				                                <p>What to do before and during bushfire</p>
+                                            </a>
+                                        </li>
+                                        
+					                    <li >
+                                            <a href="http://www.cfa.vic.gov.au/plan-prepare/prepare-your-property" title="Prepare your property">
+                                                
+				                                <span></span> <strong>Prepare your property</strong>
+				                                <p>Everyone in Victoria who lives near dense forest, bush, grassland or the coast needs to prepare their property for bushfire</p>
+                                            </a>
+                                        </li>
+                                        
+					                    <li >
+                                            <a href="http://www.cfa.vic.gov.au/plan-prepare/fires-in-the-home" title="Fires in the home">
+                                                
+					                            
+                                                
+				                                <span></span> <strong>Fires in the home</strong>
+				                                <p>CFA attends more than 2,000 house fires every year. There are more than 4,500 house fires every year in Victoria.</p>
+                                            </a>
+                                        </li>
+                                        
+					                    <li >
+                                            <a href="http://www.cfa.vic.gov.au/plan-prepare/business" title="Business">
+                                                
+				                                <span></span> <strong>Business</strong>
+				                                <p></p>
+                                            </a>
+                                        </li>
+                                        
+					                    <li >
+                                            <a href="http://www.cfa.vic.gov.au/plan-prepare/my-cfa" title="My CFA">
+                                                
+				                                <span></span> <strong>My CFA</strong>
+				                                <p>My CFA</p>
+                                            </a>
+                                        </li>
+                                        
+				                    </ul>
+                                    <span class="closeBtn">Close</span>
+                                </div>
+                                
+			                </li>
+                            
+			                <li >
+				                <div class="menuBtnWrap">
+					                <a href="http://www.cfa.vic.gov.au/volunteer-careers" target="_self" title="Volunteer & Careers">Volunteer & Careers</a>
+					                <span><span></span></span>
+				                </div>
+                                
+                                <div class="subNav">
+				                    <ul>
+                                        
+					                    <li >
+                                            <a href="http://www.cfa.vic.gov.au/volunteer-careers/volunteers" title="Volunteers">
+                                                
+				                                <span></span> <strong>Volunteers</strong>
+				                                <p>CFA volunteers come from all walks of life: mums, dads, professionals, tradespeople, students, retirees. Everyone is welcome to apply.</p>
+                                            </a>
+                                        </li>
+                                        
+					                    <li >
+                                            <a href="http://www.cfa.vic.gov.au/volunteer-careers/career-firefighting" title="Career Firefighting">
+                                                
+				                                <span></span> <strong>Career Firefighting</strong>
+				                                <p></p>
+                                            </a>
+                                        </li>
+                                        
+					                    <li >
+                                            <a href="http://www.cfa.vic.gov.au/volunteer-careers/positions-vacant" title="Positions Vacant">
+                                                
+					                            
+                                                
+				                                <span></span> <strong>Positions Vacant</strong>
+				                                <p>Positions Vacant</p>
+                                            </a>
+                                        </li>
+                                        
+				                    </ul>
+                                    <span class="closeBtn">Close</span>
+                                </div>
+                                
+			                </li>
+                            
+			                <li class="active">
+				                <div class="menuBtnWrap">
+					                <a href="//news.cfa.vic.gov.au" target="_self" title="News & Media">News & Media</a>
+					                <span><span></span></span>
+				                </div>
+                                
+                                <div class="subNav">
+				                    		<div class="moduletable">
+					<ul id="mainlevel-nav"><li class="item100"><a href="/" class="mainlevel-nav" ><span></span><strong>News</strong></a></li><li class="item101"><a href="/news/category.html" class="mainlevel-nav" id="active_menu-nav"><span></span><strong>Latest News</strong></a></li><li class="item102"><a href="/media/user/cfa-media.html" class="mainlevel-nav" ><span></span><strong>Media</strong></a></li><li class="item103"><a href="/photos.html?view=jgallery&amp;layout=index" class="mainlevel-nav" ><span></span><strong>Photos</strong></a></li><li class="item104"><a href="/video/latest-cfa-tv-videos.html" class="mainlevel-nav" ><span></span><strong>Video</strong></a></li><li class="item105"><a href="/forum.html" class="mainlevel-nav" ><span></span><strong>Forum</strong></a></li><li class="item106"><a href="/blog.html" class="mainlevel-nav" ><span></span><strong>Blog</strong></a></li><li class="item107"><a href="/pages/help.html" class="mainlevel-nav" ><span></span><strong>Help</strong></a></li></ul>		</div>
+	
+				                    
+				                    
+                                    <span class="closeBtn">Close</span>
+                                </div>
+                                
+			                </li>
+                            
+			                <li >
+				                <div class="menuBtnWrap">
+					                <a href="http://www.cfa.vic.gov.au/kids-schools" target="_self" title="Kids & Schools">Kids & Schools</a>
+					                <span><span></span></span>
+				                </div>
+                                
+                                <div class="subNav">
+				                    <ul>
+                                        
+					                    <li >
+                                            <a href="http://www.cfa.vic.gov.au/kids-schools/secondary-schools" title="Secondary schools">
+                                                
+					                            
+                                                
+				                                <span></span> <strong>Secondary schools</strong>
+				                                <p>Take your students through a digital bushfire environment and experience wind change, radiant heat and ember attack.</p>
+                                            </a>
+                                        </li>
+                                        
+					                    <li >
+                                            <a href="http://www.cfa.vic.gov.au/kids-schools/primary-school-kids" title="Primary school kids">
+                                                
+				                                <span></span> <strong>Primary school kids</strong>
+				                                <p>Hi Kids, thanks for taking a break to learn about fire safety and CFA. In this section you'll enjoy learning about fire safety, and have lots of fun at the same time. </p>
+                                            </a>
+                                        </li>
+                                        
+					                    <li >
+                                            <a href="http://www.cfa.vic.gov.au/kids-schools/teachers" title="Teachers">
+                                                
+				                                <span></span> <strong>Teachers</strong>
+				                                <p>Incorporate Fire Safety as part of your curriculum in your school with the resources</p>
+                                            </a>
+                                        </li>
+                                        
+				                    </ul>
+                                    <span class="closeBtn">Close</span>
+                                </div>
+                                
+			                </li>
+                            
+			            </ul>
+                    </div>
+	                <!-- /end .container -->
+
+                <div class="bar"></div>
+
+
+                </div>
+	            <!-- /end . primaryNavInner-->
+
+            </nav>
+            <!-- /end #globalNav -->            			<div class="clr"></div>
+            			<hr class="hidden" />
+			<div id="globalBody" role="main">
+				
+<div id="globalBanner">
+
+	<div class="background"></div>
+
+	<div class="container">
+
+		<div class="wrapper">
+
+			<em id="sectionTitle">News &amp; Media</em>
+
+			<nav id="globalBreadcrumb" role="navigation">
+				<h2 class="visuallyhidden">Breadcrumbs</h2>
+						<div class="moduletable">
+					<ul class="breadcrumbs pathway">
+<li><a href="http://www.cfa.vic.gov.au" class="pathway">CFA Home</a> > </li><li><a href='//news.cfa.vic.gov.au'>News &amp; Media</a> ></li><li><a href="/news/category.html" class="pathway">Latest News</a></li><li> &gt; Man injured in Ensay house fire</li>	</ul>
+		</div>
+	
+			</nav>
+			<!-- /end #globalBreadcrumb -->
+			    <span class="login_mod">
+        <div id="login_mod_wrap">
+            <div id="login_mod_top"><span id="login_button">CFA News Log in</span><span class="sep">|</span></div>
+        </div>
+    </span>
+		<div id="utilities">
+			<div class="utilities_inner">
+			<span class='st_sharethis_custom' displayText='ShareThis' title="Share this page">Share</span> <span class="sep">|</span> <span id="printBtn" title="Print page">Print</span>
+			</div>
+		</div>
+		
+		<!-- /end #utilities -->
+
+		</div>
+		<!-- /end .wrapper -->
+		
+	</div>
+	<!-- /end .container -->
+
+</div>
+<!-- /end #globalSectionTitle -->
+<div class="mobile_login">
+	    <span class="login_mod">
+        <div id="login_mod_wrap_mobile">
+            <div id="login_mod_top_mobile"><span id="login_button_mobile">CFA News Log in</span></div>
+        </div>
+    </span>
+</div>
+<hr class="hidden" />
+
+		<div class="moduletable">
+					
+<div id="login_mod_wrap">
+<div id="login_mod_middle" style="display:none;">
+<div id="inner_mod"> 
+<form action="https://news.cfa.vic.gov.au/" method="post" name="login" class="form-login">
+	        <h3>CFA News Log in</h3>
+        <label for="mod_login_username">Username</label>
+		<input name="username" id="mod_login_username" type="text" class="inputbox" value="" />
+        <label for="mod_login_password">Password</label>
+		<input type="password" id="mod_login_password" name="passwd" class="inputbox" value="" />
+        <div class="lost_pass">
+           
+	        		    <p><a href="/user/register.html#content">
+			Register here</a></p>
+            
+            
+            <p><a href="/user/reset.html#content">
+			Lost your password?</a></p>
+            
+	                </div>
+        <div class="buttons">
+	    <input type="submit" name="Submit" class="log_buttons" value="Log in" />
+        <input id="log_cancel_button" type="button" class="log_buttons" value="Cancel"/>
+        </div>
+	<input type="hidden" name="option" value="com_user" />
+	<input type="hidden" name="task" value="login" />
+	<input type="hidden" name="return" value="aW5kZXgucGhw" />
+	<input type="hidden" name="a61094bbc0a65e059513277d02fd43bb" value="1" /></form>
+</div>
+</div>
+</div>
+		</div>
+	
+<div class="container clearfix">
+
+	<div id="mainContent" class="col textResizeWrap">
+    			 
+			<div class="two-cols">
+				<article role="article" class="content-area">
+			<!-- START K2 Item Layout -->
+<div id="k2Container" class="itemView ">
+
+	<!-- Plugins: BeforeDisplay -->
+		
+	<!-- K2 Plugins: K2BeforeDisplay -->
+		<div id="k2_breadcrumbs">
+		<div class="moduletable">
+           	 <span class="breadcrumbs pathway">
+      <a class="pathway" href="">Home</a> > <a class="pathway" href="/news/category.html">News</a> > Man injured in Ensay house fire    </span>
+			</div>
+	</div>
+    
+    <div class="news_left">
+       
+              <div id="news_left_menu">
+           <ul>
+              <li><a href="index.php?option=com_k2&view=itemlist&layout=category&task=category&id=1&Itemid=105">View All</a></li>
+              <li><a href="index.php?option=com_k2&view=itemlist&task=search&searchword=General&local=1&Itemid=46">General Interest</a></li>
+              <li><a href="index.php?option=com_articles&local=1&Itemid=109">Local News</a></li>
+              <li><a href="index.php?option=com_content&view=article&id=524&Itemid=83">Brigade magazine</a></li>
+              <li><a href="index.php?option=com_newsfeeds&view=newsfeed&feedid=1&id=1&Itemid=23">Google CFA News Feed</a></li>
+              <li><a href="index.php?option=com_content&view=article&id=51&Itemid=47">Connect RSS Feeds</a></li>
+              <li><a href="index.php?option=com_content&view=article&id=684&Itemid=106">Browse by District / Category</a></li>
+           </ul>
+      </div>
+             <div id="news_left_share">
+        <p>Share</p>
+        <ul>
+		    <li><a class="twittericon" title="Like this? Tweet it to your followers!" href="http://twitter.com/intent/tweet?text=Reading+%40cfa_connect+Man+injured+in+Ensay+house+fire+http%3A%2F%2Ftinyurl.com%2Focoqb6h" target="_blank">Tweet this story</a></li>
+		    <li><a class="diggicon" title="Digg this" href="http://digg.com/submit?url=http%3A%2F%2Fnews.cfa.vic.gov.au%2Fnews%2Fman-injured-in-ensay-house-fire.html&amp;title=Man+injured+in+Ensay+house+fire" target="_blank">Digg it</a></li>
+		    <li><a class="facebookicon" title="Add to Facebook" href="http://www.facebook.com/share.php?u=http%3A%2F%2Fnews.cfa.vic.gov.au%2Fnews%2Fman-injured-in-ensay-house-fire.html&amp;t=Man+injured+in+Ensay+house+fire" target="_blank">Share on Facebook</a></li>
+  		    <li><a class="emailicon" onclick="jax.call('jomcomment', 'jcxShowEmailThis', 3658,'com_k2'); " href="javascript:void(0);">Email this story</a></li>
+			<li><fb:like data-href="http://news.cfa.vic.gov.au/news/man-injured-in-ensay-house-fire.html" send="true" layout="button_count"></fb:like></li>
+		</ul>
+        <script type="text/javascript" src="http://news.cfa.vic.gov.au/templates/cfa2012/js/share_analytics.js"></script>
+      </div>
+      
+      <div id="news_related_stories">
+                                   <p>Related Stories</p>
+                   <ul>
+                                             <li ><a href="/news/major-fire-at-seaford.html">Major fire in Seaford</a></li>
+		                                     <li ><a href="/news/wind-drives-doveton-house-fire.html">Wind drives Doveton house fire</a></li>
+		                                     <li ><a href="/news/cfa-kept-busy-overnight.html">CFA kept busy overnight</a></li>
+		                                     <li ><a href="/news/wandong-shed-fire.html">Wandong shed fire</a></li>
+		                                     <li class="last"><a href="/news/crews-praised-for-fire-rescue.html">Crews praised for fire rescue</a></li>
+		             		           </ul>
+                      </div>           
+    </div>
+    <div class="news_right">
+	<div class="itemHeader">
+	  	  <h1 class="componentheading" >
+	  	Man injured in Ensay house fire		
+			  </h1>
+	  	          <div class="small_red item_date">
+        	Fri 27 Sep 2013        </div>
+      	  
+				
+  </div>
+
+
+  <!-- Plugins: AfterDisplayTitle -->
+    
+  <!-- K2 Plugins: K2AfterDisplayTitle -->
+  
+
+
+  <div class="itemTools">
+		<div id="k2_author_date">
+						<!-- Item Author -->
+			<div class="ef_row">
+			  <div class="ef_label">
+				Posted by              </div>
+              <div class="ef_value">
+            <a href="/media/user/cfa-media.html" title="View more items posted by CFA Media">CFA Media</a> 			</div>
+            </div>
+					
+			
+		</div>
+		
+			<!-- Anchor link to comments below - if enabled -->
+			
+			
+		<ul class="itemToolbar">
+						
+			
+			
+						
+			
+						
+						
+			
+		</ul>
+		
+		<div class="clr"></div>
+  </div>
+	 	  <!-- Item extra fields -->  
+	  <div class="itemExtraFields">
+							<div class="ef_row">
+					<div class="ef_label">Location:</div>
+					<div class="ef_value">
+											<a href="index.php?option=com_k2&view=itemlist&task=search&local=1&amp;reg[]=District+11+News">District 11</a>										</div>
+				</div>
+							<div class="ef_row">
+					<div class="ef_label">Categories:</div>
+					<div class="ef_value">
+											<a href="index.php?option=com_k2&view=itemlist&task=search&local=1&amp;cat[]=Incidents+-+Structure">Incidents - Structure</a>										</div>
+				</div>
+			                        <!-- Item Hits -->
+           <div class="ef_row">
+			<div class="ef_label">Views</div>
+            <div class="ef_value">755</div>
+            
+            </div>
+                        
+        <div class="ef_row">
+            <div class="ef_label">Comments</div>
+            <div class="ef_value">
+            <a class="itemCommentsLink" href="#jc_commentsDiv">
+                <span>0</span>
+            </a>
+            </div>
+        </div>
+                
+        
+	    <div class="clr"></div>
+	  </div>
+	  
+
+	
+
+  <div class="itemBody">
+  
+  
+  
+	  <!-- Plugins: BeforeDisplayContent -->
+	  	  
+	  <!-- K2 Plugins: K2BeforeDisplayContent -->
+	  
+
+	  	  
+	  	  <!-- Item introtext -->
+	  <div class="itemIntroText">
+	  	<p>A man suffered burns after a fire broke out at his Ensay house in the early hours of this morning (Friday).</p>	  </div>
+	  
+	  	  <!-- Item fulltext -->
+	  <div class="itemFullText">
+	  	<p>CFA was called to the Great Alpine Road property about 4.50am and the cottage was fully involved in fire.</p><p>District 11 RDO Gavin Parker said the occupant had been woken by a working smoke alarm in the house.</p><p>However he suffered burns to his hands, face, ears and airways when he opened a door in the burning house and was airlifted to hospital.</p><p>Mr Parker said a Fire Investigator would attend to establish a cause, but it has not been deemed suspicious.</p><p>The cottage was totally destroyed.</p>	  </div>
+	  		
+		<div class="clr"></div>
+
+	 
+
+
+
+  		  <!-- Item navigation -->
+  <div class="itemNavigation">
+		<div class="ef_row clearfix">
+				<div class="ef_label">More in this category:</div>
+				<div class="ef_value">
+				<a href="/news/major-fire-at-seaford.html">Major fire in Seaford</a> | <a href="/news/wind-drives-doveton-house-fire.html">Wind drives Doveton house fire</a>				</div>
+		</div>
+  </div>
+					  
+  
+					<!-- Item date modified -->
+					
+	  <!-- Plugins: AfterDisplayContent -->
+	  	  
+	  <!-- K2 Plugins: K2AfterDisplayContent -->
+	  
+	  <div class="clr"></div>
+  </div>
+ 
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    <!-- Item info block -->
+  <div class="itemInfo">
+		
+
+			</div>
+    
+  
+  
+    <div class="itemLinks">
+		
+				
+	  
+      
+      
+      
+	  
+	  
+		<div class="clr"></div>
+  </div>
+    
+  
+  
+    
+
+    
+  
+  
+  <!-- Plugins: AfterDisplay -->
+    
+  <!-- K2 Plugins: K2AfterDisplay -->
+  
+ 
+	<script src="http://news.cfa.vic.gov.au/components/com_jomcomment/script.js?1.8.9" type="text/javascript"></script>
+<script src="http://news.cfa.vic.gov.au/index2.php?option=com_jomcomment&amp;task=userinfo&amp;no_html=1" type="text/javascript"></script>
+<!-- JOM COMMENT START --><div style="clear:both;height:1px;padding:0px"></div>
+
+<!-- Sharing toolbar -->
+<div>
+				 <div class="commentBlogView commentTools" id="commentTools"></div></div>
+<!-- Trackback Title-->
+
+<!-- 'Comments Title -->
+<div class="contentheading" id="written_comments_title" style="margin: 10px 0 0 0;">Comments <span id="jc_numComment">(0)</span></div>
+
+<!-- RSS Feed link below the title -->
+<div class="feed_link">
+	<a href="http://news.cfa.vic.gov.au/component/jomcomment/feed/1372/com_k2.html" rel="bookmark">
+		<img src="http://news.cfa.vic.gov.au/components/com_jomcomment/templates/default/images/rss.png" alt="feed" width="16" height="16" border="0" />Subscribe to this comment's feed
+	</a>
+</div>
+
+	<!-- Hide/Show input form notice -->
+	
+	<!-- Placeholder for all comments. REQUIRED.  -->
+		<div id="jc_commentsDiv" style="display:block;visibility:visible">
+			</div>
+	<!-- 'Write Comment' Title -->
+<br />
+<a name="comments" id="comments"></a><div class="contentheading" id="write_comment_title">Write comment &#187;</div>
+
+<!-- Hide/Show input form notice -->
+
+<!-- Comment locked notice -->
+
+<!-- Login required -->
+<div id="comment_locked_notice" class="jomentry2">You must be logged in to post a comment. Please <a href="index.php?option=com_user&view=register#content">register</a> if you do not have an account yet.</div>
+
+<!-- Show link to the last page -->
+
+<!-- Placeholder for ajax notification -->
+<div id="jc_busyDiv"></div>
+
+<!-- Input form begin -->
+<!-- Input form end -->
+<br/><script type='text/javascript'> jc_loadUserInfo(); </script><img src    ="http://news.cfa.vic.gov.au/components/com_jomcomment/busy.gif" alt="busy" style="visibility:hidden;display:none;"/><!-- JOM COMMENT END -->
+	<div class="clr"></div>
+    <div id="mobile_top_stories">
+	<ul class="tabs">
+		<li id="tab1"><span><a href="javascript:void();" id="mobile_top_link">Top</a></span></li>
+		<li id="tab2"><span><a href="javascript:void();" id="mobile_latest_link">Latest</a></span></li>
+		<li id="tab3" class="active"><span><a href="javascript:void();" id="mobile_popular_link">Popular</a></span></li>
+	</ul>
+
+	<div id="mobile_top_content">
+		
+	        <div class="news_wrap leading">
+	   
+        <div class="item_text">
+        <h3><a href='/news/major-fire-at-seaford.html'>Major fire in Seaford</a></h3>
+									
+				
+		<div class="date">Fri 4 Oct 2013</div>
+       		<div class="article-intro">Around 90 CFA firefighters battled a major blaze in the floor space of a trampoline leisure centre at Seaford, which has left one man in hospital.</div>
+		        </div> 
+        </div>      
+        <div class="news_wrap left_col">
+	   
+        <div class="item_text">
+        <h3><a href='/news/cfa-kept-busy-overnight.html'>CFA kept busy overnight</a></h3>
+									
+				
+		<div class="date">Tue 1 Oct 2013</div>
+       		<div class="article-intro">CFA responded to over 380 incidents overnight as wild weather lashed the state.
+</div>
+		        </div> 
+        </div>      
+        <div class="news_wrap">
+	   
+        <div class="item_text">
+        <h3><a href='/news/crews-praised-for-fire-rescue.html'>Crews praised for fire rescue</a></h3>
+									
+				
+		<div class="date">Mon 30 Sep 2013</div>
+       		<div class="article-intro">Crews from Hoppers Crossing and Werribee have been praised for rescuing a young man from his burning home in Werribee at the weekend.</div>
+		        </div> 
+        </div>      
+<div class="clear"></div>        <div class="news_wrap last">
+	   
+        <div class="item_text">
+        <h3><a href='/news/new-era-for-rushworth-fire-services.html'>New era for Rushworth</a></h3>
+									
+				
+		<div class="date">Thu 26 Sep 2013</div>
+       		<div class="article-intro">After more than six months of feverish activity, construction of Rushworth&#8216;s new Fire Station in Murchison Road is now complete, and the complex will be officially opened on Saturday 19 October.</div>
+		        </div> 
+        </div>      
+		
+		
+	</div>
+	<div id="mobile_latest_content">
+		        <div class="news_wrap leading">
+	   
+        <div class="item_text">
+        <h3><a href='/news/rrds-at-elmore-field-days.html'>RRDS at Elmore Field Days</a></h3>
+									
+				
+		<div class="date">Fri 4 Oct 2013</div>
+       		<div class="article-intro">The Regional Radio Dispatch Service Project Team joined forces with CFA staff from Loddon Mallee Region and ESTA to attend the annual Elmore Field Days.</div>
+		        </div> 
+        </div>      
+        <div class="news_wrap left_col">
+	   
+        <div class="item_text">
+        <h3><a href='/news/why-do-people-wait-see.html'>Why do people wait & see?</a></h3>
+									
+				
+		<div class="date">Fri 4 Oct 2013</div>
+       		<div class="article-intro">Different psychological processes between individuals drives decision making. What does this mean for residents who are threatened by bushfire? Why do they decide to evacuate, stay and defend or wait and see?</div>
+		        </div> 
+        </div>      
+        <div class="news_wrap">
+	   
+        <div class="item_text">
+        <h3><a href='/news/leadership-community-of-practice-2.html'>Leadership Community of Practice </a></h3>
+									
+				
+		<div class="date">Fri 4 Oct 2013</div>
+       		<div class="article-intro">A CFA ‘Leadership Community of Practice’ has been established to support and develop the capacity of leaders within CFA. The leadership community group, supported by the Volunteer Support Program, currently comprises 18 members from right across Victoria.   The first meeting was held in Bendigo onSunday 15 September. </div>
+		        </div> 
+        </div>      
+<div class="clear"></div>        <div class="news_wrap last">
+	   
+        <div class="item_text">
+        <h3><a href='/news/welcome-boost-for-tanjil-brigade.html'>Welcome boost for Tanjil brigade</a></h3>
+									
+				
+		<div class="date">Fri 4 Oct 2013</div>
+       		<div class="article-intro">Tanjil brigade received a welcome boost to its fund raising campaign this month with the donation of $5,000 from long-time supporter APA Group.</div>
+		        </div> 
+        </div>      
+	</div>
+	<div id="mobile_popular_content">
+		        <div class="news_wrap leading">
+	   
+        <div class="item_text">
+        <h3><a href='/news/major-fire-at-seaford.html'>Major fire in Seaford</a></h3>
+									
+				
+		<div class="date">Fri 4 Oct 2013</div>
+       		<div class="article-intro">Around 90 CFA firefighters battled a major blaze in the floor space of a trampoline leisure centre at Seaford, which has left one man in hospital.</div>
+		        </div> 
+        </div>      
+        <div class="news_wrap left_col">
+	   
+        <div class="item_text">
+        <h3><a href='/news/man-pulled-from-werribee-house-fire.html'>Man pulled from Werribee house fire</a></h3>
+									
+				
+		<div class="date">Sat 28 Sep 2013</div>
+       		<div class="article-intro">A man believed to be in his late teens or early twenties has been dragged unconscious from a house fire at Werribee this morning (Saturday 28 September).
+</div>
+		        </div> 
+        </div>      
+        <div class="news_wrap">
+	   
+        <div class="item_text">
+        <h3><a href='/news/cfa-kept-busy-overnight.html'>CFA kept busy overnight</a></h3>
+									
+				
+		<div class="date">Tue 1 Oct 2013</div>
+       		<div class="article-intro">CFA responded to over 380 incidents overnight as wild weather lashed the state.
+</div>
+		        </div> 
+        </div>      
+<div class="clear"></div>        <div class="news_wrap last">
+	   
+        <div class="item_text">
+        <h3><a href='/news/wind-drives-doveton-house-fire.html'>Wind drives Doveton house fire</a></h3>
+									
+				
+		<div class="date">Tue 1 Oct 2013</div>
+       		<div class="article-intro">Strong, gusty winds made the firefight a challenge for firefighters at a house fire in Doveton.</div>
+		        </div> 
+        </div>      
+	</div>
+    <a href="index.php?option=com_k2&view=itemlist&layout=category&task=category&id=1&Itemid=42" class="mobile_view_all">View all news</a>
+</div>
+
+
+
+<div id="top_stories" class="news_surround">
+<div class="article_top"><h2>Top Stories</h2></div>
+<div class="article_middle">
+        <div class="news_wrap leading">
+		                    <img src="http://news.cfa.vic.gov.au/media/k2/items/cache/aee1a5aa76ef36d981450ff04a00740a_XS.jpg"/>
+        <div class="item_text">
+        <h3 style="margin-bottom:0px;"><a href='/news/major-fire-at-seaford.html'>Major fire in Seaford</a></h3>
+									<div class="small">2013-10-03 18:10:55</div>
+		        <div class="date">Fri 4 Oct 2013</div>
+		<div class="article-intro">Around 90 CFA firefighters battled a major blaze in the floor space of a trampoline leisure centre at Seaford, which has left one man in hospital.</div>
+		        </div> 
+        </div>     
+        
+        <div class="news_wrap left_col">
+		                    <img src="http://news.cfa.vic.gov.au/media/k2/items/cache/9da5ba405e428d33ec6f21eff5dda49d_XS.jpg"/>
+        <div class="item_text">
+        <h3 style="margin-bottom:0px;"><a href='/news/cfa-kept-busy-overnight.html'>CFA kept busy overnight</a></h3>
+									<div class="small">2013-09-30 23:53:27</div>
+		        <div class="date">Tue 1 Oct 2013</div>
+		<div class="article-intro">CFA responded to over 380 incidents overnight as wild weather lashed the state.
+</div>
+		        </div> 
+        </div>     
+        
+        <div class="news_wrap">
+		                    <img src="http://news.cfa.vic.gov.au/media/k2/items/cache/1162815ad9bf895f2061c0defe3b0cae_XS.jpg"/>
+        <div class="item_text">
+        <h3 style="margin-bottom:0px;"><a href='/news/crews-praised-for-fire-rescue.html'>Crews praised for fire rescue</a></h3>
+									<div class="small">2013-09-29 23:59:56</div>
+		        <div class="date">Mon 30 Sep 2013</div>
+		<div class="article-intro">Crews from Hoppers Crossing and Werribee have been praised for rescuing a young man from his burning home in Werribee at the weekend.</div>
+		        </div> 
+        </div>     
+        
+<div class="clear"></div>        <div class="news_wrap last">
+		                    <img src="http://news.cfa.vic.gov.au/media/k2/items/cache/36529921163871d27e3bd3fe6d1a538e_XS.jpg"/>
+        <div class="item_text">
+        <h3 style="margin-bottom:0px;"><a href='/news/new-era-for-rushworth-fire-services.html'>New era for Rushworth</a></h3>
+									<div class="small">2013-09-26 04:20:11</div>
+		        <div class="date">Thu 26 Sep 2013</div>
+		<div class="article-intro">After more than six months of feverish activity, construction of Rushworth&#8216;s new Fire Station in Murchison Road is now complete, and the complex will be officially opened on Saturday 19 October.</div>
+		        </div> 
+        </div>     
+        
+</div></div>
+<div class="clear"></div>
+  
+
+
+
+    </div>
+<div class="clr"></div>    
+</div>
+<!-- End K2 Item Layout -->
+
+            
+		</article>
+		<!-- /end article -->
+		 
+			<aside class="side-col">
+            	            			<div class="moduletable moreauthor">
+					<h3>More from this Author</h3>
+					<ul><li><a href='/news/major-fire-at-seaford.html'>Major fire in Seaford</a></li><li><a href='/news/cfa-kept-busy-overnight.html'>CFA kept busy overnight</a></li><li><a href='/news/wandong-shed-fire.html'>Wandong shed fire</a></li><li><a href='/news/man-pulled-from-werribee-house-fire.html'>Man pulled from Werribee house fire</a></li><li><a href='/news/police-investigate-shepparton-fatal.html'>Police investigate Shepparton fatal</a></li></ul>		</div>
+			<div class="moduletable lastest_headlines">
+					<h3>Latest Headlines</h3>
+					<div class="k2ItemsListWrap">
+<div id="myslider" class="k2ItemsListContainer  lastest_headlines">
+  <ul class="">
+                <div class="lastest_headlines_page current">
+        <li class="grey">
+            <a class="k2ItemsTitle" href="/news/rrds-at-elmore-field-days.html">RRDS at Elmore Field Days</a>
+                                                          </li>
+                 <li >
+            <a class="k2ItemsTitle" href="/news/why-do-people-wait-see.html">Why do people wait & see?</a>
+                                                          </li>
+                 <li class="grey">
+            <a class="k2ItemsTitle" href="/news/leadership-community-of-practice-2.html">Leadership Community of Practice </a>
+                                                          </li>
+                 <li >
+            <a class="k2ItemsTitle" href="/news/welcome-boost-for-tanjil-brigade.html">Welcome boost for Tanjil brigade</a>
+                                                          </li>
+                 <li class="grey">
+            <a class="k2ItemsTitle" href="/news/major-fire-at-seaford.html">Major fire in Seaford</a>
+                                                          </li>
+           </div>
+               </ul>
+</div>
+<a href='/index.php?option=com_k2&view=itemlist&layout=category&task=category&id=1&Itemid=42' class='view_all'>View all Latest News &#187;</a>
+</div>
+<script>
+var limit=3;
+var now =1;
+var page_width=jQuery('.lastest_headlines_page').width()+2;
+
+jQuery(document).ready(function() {
+var flag=true;
+
+jQuery('#mysliderright').click(function(event) {
+  if(flag && now<limit){
+	now++;
+	flag=false;
+  	jQuery('#myslider').animate({
+   	 left: '-='+page_width
+  	}, 600, function() {
+		if(now == 2) jQuery("#pageNumber").html('51 - 100');
+		if(now == 3) jQuery("#pageNumber").html('101 - 150');
+		flag=true;
+		if(now==limit){ jQuery('#mysliderright').addClass('disable');}
+		jQuery('#mysliderleft').removeClass('disable');
+    // Animation complete.
+  	});
+  }
+});
+
+jQuery('#mysliderleft').click(function(event) {
+  if(flag && now>1){
+	now--;
+  	flag=false;
+  	jQuery('#myslider').animate({
+    	left: '+='+page_width
+  	  }, 600, function() {
+		if(now == 2) jQuery("#pageNumber").html('51 - 100');
+		if(now == 1) jQuery("#pageNumber").html('1 - 50');
+    	flag=true;
+		if(now==1){ jQuery('#mysliderleft').addClass('disable');}
+		jQuery('#mysliderright').removeClass('disable');
+ 	  });
+   }
+});
+});
+</script>	
+
+		</div>
+	
+                			</aside>
+		</div>
+			</div>
+	<!-- /end #mainContent -->
+	
+	<hr class="hidden" />
+
+<div id="subContent" class="col textResizeWrap">
+
+	<nav id="globalSecondaryNav" role="navigation">
+		<h2 class="visuallyhidden">Secondary navigation</h2>
+        <ul class="menu"><li class="item142"><a href="http://news.cfa.vic.gov.au/"><span>News</span></a></li><li id="current" class="active item42"><a href="/news/category.html"><span>Latest News</span></a></li><li class="item143"><a href="/media/user/cfa-media.html"><span>Media</span></a></li><li class="item141"><a href="/photos.html?view=jgallery&amp;layout=index"><span>Photos</span></a></li><li class="item144"><a href="/video/latest-cfa-tv-videos.html"><span>Video</span></a></li><li class="item145"><a href="/forum.html"><span>Forum</span></a></li><li class="item146"><a href="/blog.html"><span>Blog</span></a></li><li class="item148"><a href="/pages/help.html"><span>Help</span></a></li></ul>
+	</nav>
+	<!-- /end #secondaryNav -->
+
+	<nav id="globalTertiaryNav" role="navigation">
+	</nav>
+
+</div>
+<!-- /end #subContent -->
+
+</div>
+<!-- /end .container -->
+
+
+
+
+				<a href="/news/man-injured-in-ensay-house-fire.html#pageTop" id="globalTopBtn" title="Back to top">Back to top</a>
+
+			</div>
+			<!-- /end #content -->
+<hr class="hidden" />
+<div id="news_cat_footer">
+  
+</div>
+<footer role="contentinfo" id="globalFooter">
+  <h2 class="visuallyhidden">Website Information</h2>
+  <div class="usefulLinks">
+    <div class="container clearfix">
+      <ul id="globalFooterLinks">
+      	<li><a href="http://www.cfa.vic.gov.au/mobile/index.htm">Mobile</a></li>
+        <li><a title="Apps" target="_self" href="http://www.cfa.vic.gov.au/plan-prepare/fireready-app">Apps</a></li>
+        <li><a title="Publications" target="_self" href="http://www.cfa.vic.gov.au/about/publications">Publications</a></li>
+        <li><a title="Links" target="_self" href="http://www.cfa.vic.gov.au/links">Links</a></li>
+        <li><a title="Apps" target="_self" href="http://www.cfa.vic.gov.au/sitemap">Sitemap</a></li>
+      </ul>
+      <!-- /end #globalFooterLinks -->
+      <ul id="socialMediaLinks">
+        <li><a title="Go to RSS Feed" id="rssIco" target="_self" href="http://www.cfa.vic.gov.au/rss-feeds/"><span><span>RSS feed</span></span></a></li>
+        <li><a title="Visit Facebook page" id="facebookIco" class="external" target="_self" href="http://www.facebook.com/cfavic"><span><span>Facebook</span></span></a></li>
+        <li><a title="Visit Twitter page" id="twitterIco" class="external" target="_self" href="https://twitter.com/cfa_updates"><span><span>Twitter</span></span></a></li>
+        <li><a title="Visit YouTube page" id="youtubeIco" class="external" target="_self" href="http://www.youtube.com/cfatv"><span><span>YouTube</span></span></a></li>
+      </ul>
+      <!-- /end #socialMediaLinks-->
+      
+      <ul id="fontResizeControl">
+        <li><a title="Decrease font size" id="decreaseFontBtn" target="_self" href="#" aria-disabled="true" class="disabled">Decrease font size</a></li>
+        <li><a title="Increase font size" id="increaseFontBtn" target="_self" href="#">Increase font size</a></li>
+      </ul>
+      <!-- /end #fontResizeControl -->
+      <noscript>
+      (Javascript is required to resize text size)
+      </noscript>
+      <div id="languageBarWrapper">
+        <div id="languageCtrl"> <span title="Previous Language" id="prevLang" style="cursor: pointer;">Previous Language</span> <span title="Play / Pause" id="langToggle" style="cursor: pointer;">Play / Pause</span> <span title="Next Language" id="nextLang" style="cursor: pointer;">Next Slide</span> </div>
+        <div id="languageBar" style="position: relative; top: 0px; left: 0px; overflow: hidden; z-index: 1; width: 264px; height: 44px;">
+          <ul style="position: relative; overflow: hidden; cursor: move; left: -7074px; width: 19650px;">
+            <li style="float: left; width: 262px;"><a title="Arabic" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Arabic" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Arabic.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Burmese" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Burmese" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Burmese.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Croatian" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Croatian" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Croatian.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Fijian" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Fijian" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Fijian.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="German" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="German" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_German.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Greek" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Greek" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Greek.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Hindi" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Hindi" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Hindi.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Italian" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Italian" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Italian.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Japanese" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Japanese" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Japanese.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Karen" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Karen" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Karen.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Khmer" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Khmer" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Khmer.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Korean" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Korean" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Korean.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Macedonian" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Macedonian" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Macedonian.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Malay" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Malay" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Malay.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Maltese" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Maltese" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Maltese.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Mandarin" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Mandarin" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Mandarin.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Persian" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Persian" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Persian.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Serbian" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Serbian" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Serbian.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Sinhalese" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Sinhalese" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Sinhalese.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Somali" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Somali" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Somali.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Spanish" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Spanish" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Spanish.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Sudanese" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Sudanese" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Sudanese.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Tongan" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Tongan" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Tongan.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Turkish" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Turkish" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Turkish.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Vietnmaese" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Vietnmaese" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Vietnmaese.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Arabic" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Arabic" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Arabic.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Burmese" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Burmese" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Burmese.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Croatian" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Croatian" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Croatian.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Fijian" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Fijian" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Fijian.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="German" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="German" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_German.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Greek" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Greek" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Greek.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Hindi" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Hindi" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Hindi.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Italian" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Italian" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Italian.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Japanese" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Japanese" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Japanese.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Karen" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Karen" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Karen.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Khmer" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Khmer" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Khmer.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Korean" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Korean" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Korean.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Macedonian" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Macedonian" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Macedonian.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Malay" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Malay" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Malay.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Maltese" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Maltese" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Maltese.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Mandarin" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Mandarin" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Mandarin.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Persian" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Persian" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Persian.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Serbian" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Serbian" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Serbian.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Sinhalese" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Sinhalese" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Sinhalese.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Somali" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Somali" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Somali.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Spanish" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Spanish" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Spanish.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Sudanese" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Sudanese" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Sudanese.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Tongan" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Tongan" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Tongan.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Turkish" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Turkish" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Turkish.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Vietnmaese" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Vietnmaese" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Vietnmaese.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Arabic" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Arabic" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Arabic.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Burmese" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Burmese" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Burmese.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Croatian" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Croatian" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Croatian.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Fijian" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Fijian" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Fijian.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="German" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="German" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_German.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Greek" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Greek" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Greek.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Hindi" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Hindi" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Hindi.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Italian" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Italian" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Italian.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Japanese" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Japanese" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Japanese.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Karen" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Karen" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Karen.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Khmer" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Khmer" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Khmer.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Korean" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Korean" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Korean.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Macedonian" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Macedonian" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Macedonian.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Malay" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Malay" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Malay.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Maltese" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Maltese" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Maltese.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Mandarin" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Mandarin" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Mandarin.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Persian" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Persian" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Persian.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Serbian" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Serbian" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Serbian.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Sinhalese" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Sinhalese" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Sinhalese.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Somali" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Somali" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Somali.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Spanish" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Spanish" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Spanish.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Sudanese" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Sudanese" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Sudanese.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Tongan" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Tongan" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Tongan.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Turkish" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Turkish" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Turkish.png"></a></li>
+            <li style="float: left; width: 262px;"><a title="Vietnmaese" href="http://www.cfa.vic.gov.au/about/other-languages"><img width="262" height="25" alt="Vietnmaese" src="/templates/cfa2012/img/CFA_Web-buttons_Publications_Vietnmaese.png"></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- /end #languageBarWrapper --> 
+    </div>
+    <!-- /end .container --> 
+  </div>
+  <!-- /end .usefulLinks -->
+  <div class="container clearfix last">
+    <ul id="globalDisclaimerLinks">
+      <li>Copyright <span>2012</span> <span>Country Fire Authority (CFA)</span></li>
+      <li><a target="_self" href="http://www.cfa.vic.gov.au/disclaimer/" title="Disclaimer">Disclaimer</a></li>
+      <li><a target="_self" href="http://www.cfa.vic.gov.au/privacy/" title="Privacy statement">Privacy statement</a></li>
+      <li><a href="http://www.cfa.vic.gov.au/protected-disclosure-act/">Protected Disclosure</a></li>
+    </ul>
+    <!-- /end #globalDisclaimerLinks -->
+    <ul id="affiliateLinks">
+     
+      <li><a href="http://www.dse.vic.gov.au" title="Visit State Government of Victoria - Department of Environment and Primary Industries website" class="external"><img width="149" height="41" alt="State Government of Victoria - Department of Environment and Primary Industries" src="/templates/cfa2012/img/DEPI_Black_left.jpg"></a></li>
+      <li><a target="_self" href="http://www.mfb.vic.gov.au" title="Visit Melbourne Fire Brigade website" class="external"><img width="79" height="41" alt="Melbourne Fire Brigade (MFB)" src="/templates/cfa2012/img/mfb_logo.png"></a></li>
+      <li><a target="_self" href="http://www.police.vic.gov.au" title="Visit Victoria Police website" class="external"><img width="61" height="41" alt="Victoria Police" src="/templates/cfa2012/img/vic_police_logo.png"></a></li>
+      <li><a target="_self" href="http://www.ses.vic.gov.au" title="Visit Victoria State Emergency Service website" class="external"><img width="28" height="41" alt="Victoria State Emergency Service" src="/templates/cfa2012/img/ses_logo.png"></a></li>
+      <li><a target="_self" href="http://www.firecommissioner.vic.gov.au" title="Visit Fire Services Commissioner Victoria website" class="external"><img width="106" height="41" alt="Fire Services Commissioner Victoria" src="/templates/cfa2012/img/fsc_logo.png"></a></li>
+    </ul>
+    <!-- /end #affiliateLinks--> 
+    
+  </div>
+  <!-- /end .container --> 
+</footer>
+<!-- /end #globalFooter -->
+
+</div>
+<!-- /end .wrapper --> 
+
+<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline --> 
+
+<!--[if (gte IE 6)&(lte IE 8)]>
+			<script src="/templates/cfa2012/js/libs/respond.min.js"></script>
+			<script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+			<script>!window.jQuery && document.write(unescape('%3Cscript src="/templates/cfa2012/js/libs/selectivizr-min.js"%3E%3C/script%3E'))</script>
+		<![endif]--> 
+<!-- scripts concatenated and minified via build script --> 
+<script src="/templates/cfa2012/js/plugins.js"></script> 
+<script src="/templates/cfa2012/js/script.js?version=1.3"></script> 
+<script src="/templates/cfa2012/js/global.js"></script>
+<script src="/templates/cfa2012/js/zebra_datepicker.js"></script> 
+<script type="text/javascript">
+			jQuery(document).ready(function() {
+			    // assuming the controls you want to attach the plugin to 
+			    // have the "datepicker" class set
+			    jQuery('#startdate').Zebra_DatePicker();
+			    jQuery('#enddate').Zebra_DatePicker();
+			 });
+			</script>
+		<script type="text/javascript">var switchTo5x=false;</script> 
+
+	<script type="text/javascript" charset="utf-8">
+	   var is_ssl = ("https:" == document.location.protocol);
+	   var asset_host = is_ssl ? "https://s3.amazonaws.com/getsatisfaction.com/" : "http://s3.amazonaws.com/getsatisfaction.com/";
+	   document.write(unescape("%3Cscript src='" + asset_host + "javascripts/feedback-v2.js' type='text/javascript'%3E%3C/script%3E"));
+	</script> 
+	<script type="text/javascript" charset="utf-8">
+		        var feedback_widget_options = {};
+		        feedback_widget_options.display = "overlay";
+		        feedback_widget_options.company = "cfa";
+		        feedback_widget_options.placement = "right";
+		        feedback_widget_options.color = "#333";
+		        feedback_widget_options.style = "question";
+		        feedback_widget_options.limit = "5";
+		        var feedback_widget = new
+		        GSFN.feedback_widget(feedback_widget_options);
+	</script>
+	<link rel="stylesheet" href="/classes/assets/slimbox.css" />
+	<script type="text/javascript" src="/classes/assets/slimbox.js"></script> 
+	<script>
+		jQuery(document).ready(function(){
+			jQuery(".group1").colorbox({rel:'group1',width:"80%", height:"80%" });
+			
+		});
+	
+		jQuery(window).resize(function () {
+	
+			if(jQuery('#cboxOverlay').is(':visible')){
+					jQuery.colorbox.load(true);
+			}
+	
+		});
+	</script> 
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-36381824-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+ 
+    
+    
+	<!-- end scripts --> 
+	<script type="text/javascript">
+		  var _sf_async_config = { uid: 43198, domain: 'news.cfa.vic.gov.au' };
+		  (function() {
+			function loadChartbeat() {
+			  window._sf_endpt = (new Date()).getTime();
+			  var e = document.createElement('script');
+			  e.setAttribute('language', 'javascript');
+			  e.setAttribute('type', 'text/javascript');
+			  e.setAttribute('src',
+				(("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+				"js/chartbeat.js");
+			  document.body.appendChild(e);
+			};
+			var oldonload = window.onload;
+			window.onload = (typeof window.onload != 'function') ?
+			  loadChartbeat : function() { oldonload(); loadChartbeat(); };
+		  })();
+		</script>
+</body></html>

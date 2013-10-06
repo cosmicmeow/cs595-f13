@@ -1,0 +1,414 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja"
+xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<meta property="og:image" content="http://www.publickey1.jp/blog/13/javaone08.jpg"/>
+
+
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="JavaによるJavaScriptエンジンやNode.js実装など「Project Avatar」がオープンソースで公開～JavaOne 2013"/>
+<meta property="og:url" content="http://www.publickey1.jp/blog/13/javajavascriptnodejsproject_avatarjavaone_2013.html"/>
+<meta property="og:description" content="オラクルはHTML5やJavaScriptなどのWebテクノロジーとJavaとの親和性を高めることを目指し、JavaによるJavaScriptエンジン実装などを"/>
+<meta property="fb:app_id" content="171052189635502" />
+
+<link rel="alternate" type="application/atom+xml" title="Atom" href="http://www.publickey1.jp/atom.xml" />
+<link rel="stylesheet" href="http://www.publickey1.jp/styles_blog0911.css" type="text/css" />
+
+
+<title>JavaによるJavaScriptエンジンやNode.js実装など「Project Avatar」がオープンソースで公開～JavaOne 2013 － Publickey</title>
+<link rel="canonical" href="http://www.publickey1.jp/blog/13/javajavascriptnodejsproject_avatarjavaone_2013.html" />
+</head>
+
+<body>
+<!-- DFPスタンダード アドサーバ設定-->
+<script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'>
+</script>
+<script type='text/javascript'>
+GS_googleAddAdSenseService("ca-pub-9871097733789671");
+GS_googleEnableAllServices();
+</script>
+<script type='text/javascript'>
+GA_googleAddSlot("ca-pub-9871097733789671", "Pbk_Rect1_300x300");
+GA_googleAddSlot("ca-pub-9871097733789671", "Pbk_SBanr01_728x90");
+GA_googleAddSlot("ca-pub-9871097733789671", "Pbk_Footer_520x260");
+</script>
+<script type='text/javascript'>
+GA_googleFetchAds();
+</script>
+
+<div id="header">
+<table summary="logo"><tr><td class="logo">
+<a href="http://www.publickey1.jp/" onClick="_gaq.push(['_trackPageview','/clk-home']);"><img src="http://www.publickey1.jp/logo_0911.gif" alt="Publickey" /></a>
+</td>
+<td class="logo">
+<a href="http://www.publickey1.jp/m/" onClick="_gaq.push(['_trackPageview','/clk-sedition']);"><img style="float:right" src="http://www.publickey1.jp/smartedition.gif" alt="Smart Edition" /></a>
+</td>
+</tr></table>
+</div>
+<script type="text/javascript">
+if (navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+var s = location.href; s = s.replace("publickey1.jp/","publickey1.jp/m/");
+s = '<p style="background:#aaaaff; padding: .5em 3em"><a href="'+s+'" style="color:black; border-bottom: solid 1px #000;">このページをモバイルデバイスに最適化されたPublickey Smart Edtionで読む</a></p>';
+document.write(s);
+}
+</script>
+
+<div class="topbanner" style="width:810px;margin:0 auto 15px auto;">
+
+<!-- Pbk_SBanr01_728x90 -->
+<script type='text/javascript'>
+GA_googleFillSlot("Pbk_SBanr01_728x90");
+</script>
+</div>
+
+
+
+<div id="container">
+<div id="maincol">
+
+<h1>JavaによるJavaScriptエンジンやNode.js実装など「Project Avatar」がオープンソースで公開～JavaOne 2013</h1>
+<div class="pubdate">2013年9月26日
+
+</div><br />
+
+
+
+
+<p>オラクルはHTML5やJavaScriptなどのWebテクノロジーとJavaとの親和性を高めることを目指し、JavaによるJavaScriptエンジン実装などを含む「Project Avatar」を2年前から社内で進めてきました。</p>
+
+<p>サンフランシスコで開催中のJavaOne 2013、初日のストラテジーキーノートでは、そのProject Avatarがオープンソースとして公開されたことを発表しています。Java EEに関する内容と合わせて紹介します。</p>
+
+<h3>Java EE 7はエンタープライズとWebアプリの先端</h3>
+
+<p>米オラクルのVice President, Java Product Management、Peter Utzschneider氏（左）と、VP of Java Development of Java Platform、Cameron Purdy氏（右）</p>
+
+<div class="imgCenter" style="width:522px;"><img src="http://www.publickey1.jp/blog/13/javaone08.jpg" alt="fig" /> </div>
+
+<p>Java EE 7はエンタープライズの要件を意識しており、バッチ処理、開発生産性、WebSocketやRESTfulサポートなどのHTML5対応の3つが大きな特徴だ。</p>
+
+<div class="imgCenter" style="width:522px;"><img src="http://www.publickey1.jp/blog/13/javaone09.jpg" alt="fig" /> </div>
+
+<p>Java EEは将来に向けて、開発生産性の高いプラットフォームでありつつ、エンタープライズ向けのアプリケーションだけでなく、Webアプリケーションの先端的なプラットフォームを目指している。そのために最新の標準技術を積極的に採用していく。</p>
+
+<div class="imgCenter" style="width:522px;"><img src="http://www.publickey1.jp/blog/13/javaone10.jpg" alt="fig" /> </div>
+
+<p>すでにJava EE 7は公開されており、アプリケーションサーバの参照実装としてGlassFish 4.0も公開されている。</p>
+
+<div class="imgCenter" style="width:522px;"><img src="http://www.publickey1.jp/blog/13/javaone11.jpg" alt="fig" /> </div>
+
+<h3>Project Avatarをオープンソースで公開</h3>
+
+<p>2年前、ここでProject Avatarの話をした。そこから多くの作業を行ってきた。</p>
+
+<p>HTML5の機能を実装し、WebSocket、RESTful、NoSQLデータベースのサポートなどがそれらだ。</p>
+
+<p>さらにProject NashornでJava EEコンテナを拡張し、JavaScriptエンジンを組み込み、Node.jsサービスもJavaアプリケーションサーバ内で稼働するようになった。</p>
+
+<div class="imgCenter" style="width:522px;"><img src="http://www.publickey1.jp/blog/13/javaone12.jpg" alt="fig" /> </div>
+
+<p>そして、ここでProject Avatarをオープンソース化したことを発表する。</p>
+
+<div class="imgCenter" style="width:522px;"><img src="http://www.publickey1.jp/blog/13/javaone13.jpg" alt="fig" /> </div>
+
+<p>新しいオープンソースのプロジェクトだ。</p>
+
+<h4>Oracle OpenWorld 2013 / JavaOne 2013</h4>
+
+<ul>
+<li><a href="http://www.publickey1.jp/blog/13/oracle_12coracle_openworld_2013.html">［速報］オラクル、Oracle 12cにインメモリとカラム型データベースの追加機能を発表～Oracle OpenWorld 2013</a></li>
+<li><a href="http://www.publickey1.jp/blog/13/oracleoracle_openworld_2013.html">［速報］オラクル、Oracleデータベースの遠隔バックアップサービスをクラウドで提供へ～Oracle OpenWorld 2013</a></li>
+<li><a href="http://www.publickey1.jp/blog/13/oracle_dbweblogicpaasopenstack_apiiaasoracle_openworld_2013.html">［速報］オラクル、クラウドでOracle DBとWebLogicのPaaS提供へ、IaaSはOpenStack API採用。エリソン氏は基調講演をドタキャン～Oracle OpenWorld 2013</a></li>
+<li><a href="http://www.publickey1.jp/blog/13/java_sejava_meinternet_of_thingsjavaone_2013.html">Java SEとJava MEが一本化へ。Internet of Thingsの時代に向けて～JavaOne 2013</a></li>
+<li><a href="http://www.publickey1.jp/blog/13/javajavascriptnodejsproject_avatarjavaone_2013.html">JavaによるJavaScriptエンジンやNode.js実装など「Project Avatar」がオープンソースで公開～JavaOne 2013</a></li>
+</ul>
+
+<p style="clear:both;"/>
+<style>
+.twitter-share-button {width: 99px !important;}
+.sbm {height:24px;vertical-align:middle;margin-right: 9px;float: left;}
+</style>
+<div class="sbm">
+<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+<div class="sbm">
+<a href="http://b.hatena.ne.jp/entry/http://www.publickey1.jp/blog/13/javajavascriptnodejsproject_avatarjavaone_2013.html" class="hatena-bookmark-button" data-hatena-bookmark-title="JavaによるJavaScriptエンジンやNode.js実装など「Project Avatar」がオープンソースで公開～JavaOne 2013" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button_wo_al.js" charset="utf-8" async="async"></script>
+</div>
+<div class="sbm">
+<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.publickey1.jp%2Fblog%2F13%2Fjavajavascriptnodejsproject_avatarjavaone_2013.html&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=171052189635502" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:102px; height:21px;" allowTransparency="true"></iframe>
+
+</div>
+<div class="sbm">
+<g:plusone size="medium" annotation="none"></g:plusone>
+</div>
+<div class="sbm">
+<a href="http://delicious.com/save" onclick="window.open('http://delicious.com/save?v=5&amp;noui&amp;jump=close&amp;url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title), 'delicious','toolbar=no,width=550,height=550'); return false;"><img src="http://www.publickey1.jp/images/icon_delicious_l.png" alt="Bookmark this on Delicious"  title="Bookmark this on Delicious"/></a>
+</div>
+<br style="clear:both;" />
+<p>タグ ：  <a href="http://www.publickey1.jp/mt5/mt-search.cgi?IncludeBlogs=2&amp;tag=HTML5&amp;limit=20">HTML5</a> , <a href="http://www.publickey1.jp/mt5/mt-search.cgi?IncludeBlogs=2&amp;tag=Java&amp;limit=20">Java</a> , <a href="http://www.publickey1.jp/mt5/mt-search.cgi?IncludeBlogs=2&amp;tag=JavaScript&amp;limit=20">JavaScript</a> , <a href="http://www.publickey1.jp/mt5/mt-search.cgi?IncludeBlogs=2&amp;tag=Node.js&amp;limit=20">Node.js</a> , <a href="http://www.publickey1.jp/mt5/mt-search.cgi?IncludeBlogs=2&amp;tag=Oracle&amp;limit=20">Oracle</a> </p>
+
+<!-- 関連記事表示 -->
+<div class="recommends">
+<script charset="utf-8" src="http://connect.newzia.jp/channels/15/script.js" type="text/javascript"></script>
+</div>
+<div class="ad_footer" style="clear: both;">
+
+
+
+<!--記事下テキスト広告-->
+<div style="padding:0.75em 0"><!--<h4>Publickey広告</h4>-->
+<script type="text/javascript">
+<!--
+adtag2 = new Array();
+// ここに広告タグを追記していきます。配列は0から
+// adtag2[0] = "<ul style=\"padding:0 0 0.5em 0\"><li><strong><a href=\"http://bit.ly/advance201309\">Excelで帳票デザイン！Windows 8、Windowsストアアプリにも対応！</a></strong><br />今まで使っていたExcelの表がそのまま帳票デザインとして使えます。<br />ASP.NET対応でサーバー上からもExcel、PDF帳票をダイレクト配信できます。</li></ul>";
+function adtag_rotation2() {
+// 配列要素数-1で発生乱数の上限値を設定
+var ad_max = adtag2.length;
+
+// もし入稿なしならなにもせず処理終了
+if (ad_max < 1) {
+return;
+}
+
+/* 1～配列要素数の範囲で乱数発生 */
+var rand_num = 1 + Math.floor(Math.random() * ad_max);
+
+for (i = rand_num; i < rand_num + ad_max; i++) {
+document.write(adtag2[i % ad_max]);
+}
+}
+adtag_rotation2();
+//-->
+</script>
+</div><!--記事下テキスト広告ここまで-->
+
+<!-- Pbk_Footer_520x260 -->
+<script type='text/javascript'>
+GA_googleFillSlot("Pbk_Footer_520x260");
+</script>
+<br />
+
+<!-- Publickeyにliftを表示 -->
+<script charset="utf-8" src="http://connect.newzia.jp/channels/285/script.js" type="text/javascript"></script>
+<br style="clear:both" />
+<div class="adsense_footer" style="border:solid 1px #ccc; ">
+<div style="padding: 12px;">
+<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- pbk_468x60, 作成済み 09/09/18 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-9871097733789671"
+     data-ad-slot="8762530570"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div><!-- style -->
+</div><!--adsense_footer-->
+
+<br />
+</div><!--ad_footer-->
+<div style="clear: both;"></div>
+<p>
+
+<em>≫次の記事</em><br /><a href="http://www.publickey1.jp/blog/13/baas_mobile_backend5gbapi200.html">ニフティクラウドが、モバイル向けBaaS「ニフティクラウド mobile backend」を提供開始。ストレージ5GB、プッシュ通知やAPIリクエスト月間200万回までは無料</a><br />
+
+
+<em>≪前の記事</em><br /><a href="http://www.publickey1.jp/blog/13/java_sejava_meinternet_of_thingsjavaone_2013.html">Java SEとJava MEが一本化へ。Internet of Thingsの時代に向けて～JavaOne 2013</a>
+
+</p>
+</div><!-- end of maincol -->
+
+
+
+<div id="subcol">
+<style type="text/css">
+.cse .gsc-control-cse, .gsc-control-cse {
+border-color: #f3f3f3 !important;
+background-color: #f3f3f3 !important;
+}
+</style>
+<!-- Put the following javascript before the closing </head> tag. -->
+<script>
+  (function() {
+    var cx = '013552350871967056070:oszcdh3s4mm';
+    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+<!-- Place this tag where you want both of the search box and the search results to render -->
+<gcse:search>Loading...</gcse:search>
+
+<h4>Blogger in Chief</h4>
+<p><img src="http://www.publickey1.jp/images/profile.jpg" alt="photo of jniino" style="float:right" />
+Junichi Niino（jniino）<br />
+<span style="font-size:small; color:#222">IT系の雑誌編集者、オンラインメディア発行人を経て独立。新しいオンラインメディアの可能性を追求しています。<br />
+（<a href="/about-us.html">詳しいプロフィール</a>）</span></p><br />
+<p>新サイト「<a href="http://www.publickey2.jp/">Publickey Topics</a>」始めました！</p><br />
+<p style="line-height:1.6">Publickeyの新着情報をチェックしませんか？<br />
+Twitterで ：<a href="http://twitter.com/publickey/"> @Publickey</a><br />RSSリーダーで ： <a href="http://www.publickey1.jp/atom.xml">Feed</a><br />
+</p><br />
+
+
+<!-- Pbk_Rect1_300x300 -->
+<script type='text/javascript'>
+GA_googleFillSlot("Pbk_Rect1_300x300");
+</script>
+<br />
+
+<!--Google Adsense-->
+<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- pbk_300x250, 作成済み 09/08/14 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-9871097733789671"
+     data-ad-slot="8267829013"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!--Google Adsense-->
+<br />
+<br />
+
+
+<h4>アクセスランキング － 過去7日間</h4>
+<ol><li><a href="http://www.publickey1.jp/blog/13/jolt_awards_20132013it5.html" title="この1年の優れたIT系書籍はどれか？「Jolt Awards 2013」が5冊を発表 － Publickey" >この1年の優れたIT系書籍はどれか？「Jolt Awards 2013」が5冊を発表<li><a href="http://www.publickey1.jp/blog/13/mysql_572mysqlmysql_connect_2013.html" title="次バージョンのMySQL 5.7はさらに性能を2倍へ、「オラクルはMySQLを殺そうとしている」は真実ではない～MySQL Connect 2013 － Publickey" >次バージョンのMySQL 5.7はさらに性能を2倍へ、「オラクルはMySQLを殺そうとしている」は真実ではない～MySQL Connect 2013<li><a href="http://www.publickey1.jp/blog/13/facebooktwitterpaypallinkedinmysqlmysqlmysql_connect_2013.html" title="Facebook、Twitter、PayPal、LinkedInのMySQL担当者は、MySQLをどう使い、何を課題だと考えているか～MySQL Connect 2013 － Publickey" >Facebook、Twitter、PayPal、LinkedInのMySQL担当者は、MySQLをどう使い、何を課題だと考えているか～MySQL Connect 2013<li><a href="http://www.publickey1.jp/blog/13/githubdevopsboxenhubotdevops_day_tokyo_2013.html" title="GitHub社内のDevOpsを支えるツール「Boxen」と「Hubot」（前編）～DevOps Day Tokyo 2013 － Publickey" >GitHub社内のDevOpsを支えるツール「Boxen」と「Hubot」（前編）～DevOps Day Tokyo 2013<li><a href="http://www.publickey1.jp/blog/13/devopsdevops_day_tokyo_2013.html" title="運用を見える化することでDevOpsを前進させよう（前編）～DevOps Day Tokyo 2013 － Publickey" >運用を見える化することでDevOpsを前進させよう（前編）～DevOps Day Tokyo 2013<li><a href="http://www.publickey1.jp/blog/13/postgresqlguipostgresql_studio.html" title="PostgreSQLのGUI管理ツール「PostgreSQL Studio」、オープンソースで公開 － Publickey" >PostgreSQLのGUI管理ツール「PostgreSQL Studio」、オープンソースで公開<li><a href="http://www.publickey1.jp/blog/13/githubboxenhubotdevops_day_tokyo_2013.html" title="GitHub社内のDevOpsを支えるツール「Boxen」と「Hubot」（後編）～DevOps Day Tokyo 2013 － Publickey" >GitHub社内のDevOpsを支えるツール「Boxen」と「Hubot」（後編）～DevOps Day Tokyo 2013<li><a href="http://www.publickey1.jp/blog/13/devopsdevops_day_tokyo_2013_1.html" title="運用を見える化することでDevOpsを前進させよう（後編）～DevOps Day Tokyo 2013 － Publickey" >運用を見える化することでDevOpsを前進させよう（後編）～DevOps Day Tokyo 2013<li><a href="http://www.publickey1.jp/blog/13/facebookmysqlmysql_connect_2013.html" title="FacebookにおけるMySQLを用いた大規模システムアーキテクチャの現実～MySQL Connect 2013 － Publickey" >FacebookにおけるMySQLを用いた大規模システムアーキテクチャの現実～MySQL Connect 2013<li><a href="http://www.publickey1.jp/blog/13/it_2013_1.html" title="IT系上場企業の平均給与を業種別にみてみた 2013年版 ～ ネットベンチャー、ソーシャル、モバイル編 － Publickey" >IT系上場企業の平均給与を業種別にみてみた 2013年版 ～ ネットベンチャー、ソーシャル、モバイル編<li><a href="http://www.publickey1.jp/blog/13/2012it5jolt_awards_2012.html" title="2012年の優れたIT系書籍としての5冊、「Jolt Awards 2012」 － Publickey" >2012年の優れたIT系書籍としての5冊、「Jolt Awards 2012」<li><a href="http://www.publickey1.jp/blog/13/javajavascriptnodejsproject_avatarjavaone_2013.html" title="JavaによるJavaScriptエンジンやNode.js実装など「Project Avatar」がオープンソースで公開～JavaOne 2013 － Publickey" >JavaによるJavaScriptエンジンやNode.js実装など「Project Avatar」がオープンソースで公開～JavaOne 2013<li><a href="http://www.publickey1.jp/m/" title="Publickey Smart Edition β2" >Publickey Smar<li><a href="http://www.publickey1.jp/blog/13/html5monaca.html" title="HTML5をすぐハイブリッドアプリとして試せる無料のツール「Monaca」を使ってみた － Publickey" >HTML5をすぐハイブリッドアプリとして試せる無料のツール「Monaca」を使ってみた<li><a href="http://www.publickey1.jp/blog/13/10_10.html" title="さくらのクラウドがアベイラビリティゾーン提供。設備を完全に分離した第二ゾーンが10月から稼働開始 － Publickey" >さくらのクラウドがアベイラビリティゾーン提供。設備を完全に分離した第二ゾーンが10月から稼働開始</ol>
+<h4>Publickey 最新記事 10本</h4>
+<ul>
+<li class="s3"><a href="http://www.publickey1.jp/blog/13/postgresqlguipostgresql_studio.html">PostgreSQLのGUI管理ツール「PostgreSQL Studio」、オープンソースで公開</a></li><li class="s3"><a href="http://www.publickey1.jp/blog/13/jolt_awards_20132013it5.html">この1年の優れたIT系書籍はどれか？「Jolt Awards 2013」が5冊を発表</a></li><li class="s3"><a href="http://www.publickey1.jp/blog/13/githubboxenhubotdevops_day_tokyo_2013.html">GitHub社内のDevOpsを支えるツール「Boxen」と「Hubot」（後編）～DevOps Day Tokyo 2013</a></li><li class="s3"><a href="http://www.publickey1.jp/blog/13/githubdevopsboxenhubotdevops_day_tokyo_2013.html">GitHub社内のDevOpsを支えるツール「Boxen」と「Hubot」（前編）～DevOps Day Tokyo 2013</a></li><li class="s3"><a href="http://www.publickey1.jp/blog/13/devopsdevops_day_tokyo_2013_1.html">運用を見える化することでDevOpsを前進させよう（後編）～DevOps Day Tokyo 2013</a></li><li class="s3"><a href="http://www.publickey1.jp/blog/13/devopsdevops_day_tokyo_2013.html">運用を見える化することでDevOpsを前進させよう（前編）～DevOps Day Tokyo 2013</a></li><li class="s3"><a href="http://www.publickey1.jp/blog/13/mysql_572mysqlmysql_connect_2013.html">次バージョンのMySQL 5.7はさらに性能を2倍へ、「オラクルはMySQLを殺そうとしている」は真実ではない～MySQL Connect 2013</a></li><li class="s3"><a href="http://www.publickey1.jp/blog/13/facebooktwitterpaypallinkedinmysqlmysqlmysql_connect_2013.html">Facebook、Twitter、PayPal、LinkedInのMySQL担当者は、MySQLをどう使い、何を課題だと考えているか～MySQL Connect 2013</a></li><li class="s3"><a href="http://www.publickey1.jp/blog/13/10_10.html">さくらのクラウドがアベイラビリティゾーン提供。設備を完全に分離した第二ゾーンが10月から稼働開始</a></li><li class="s3"><a href="http://www.publickey1.jp/blog/13/facebookmysqlmysql_connect_2013.html">FacebookにおけるMySQLを用いた大規模システムアーキテクチャの現実～MySQL Connect 2013</a></li>
+</ul>
+<h4>Publickey Topics 最新記事 10本</h4>
+<ul>
+
+<li><a href="http://www.publickey2.jp/2013/07/javascriptiosandroidtriggerio2.html">JavaScriptをiOS/Androidのネイティブアプリ化する「Trigger.io」がバージョン2へ</a></li>
+
+<li><a href="http://www.publickey2.jp/2013/07/rockmelt7.html">ソーシャル向けブラウザのRockmeltが7月末で終了</a></li>
+
+<li><a href="http://www.publickey2.jp/2013/07/jquery_mobile.html">jQuery Mobileのリーダーが交代</a></li>
+
+<li><a href="http://www.publickey2.jp/2013/07/osshinemos.html">OSS統合運用管理ソフト「Hinemos」、ホップバイホップとオーバーレイのハイブリッドなネットワーク構成に対応</a></li>
+
+<li><a href="http://www.publickey2.jp/2013/07/unicast-only_vxlan.html">UNICAST-ONLY VXLANが出荷開始</a></li>
+
+<li><a href="http://www.publickey2.jp/2013/07/pc_world.html">PC World、紙の雑誌は終了へ</a></li>
+
+<li><a href="http://www.publickey2.jp/2013/07/dbxdropbox_developer_conference.html">DBX：Dropbox Developer Conference 2013のキーノートが公開</a></li>
+
+<li><a href="http://www.publickey2.jp/2013/07/basho_riak_14.html">Bashoが Riak 1.4をリリース</a></li>
+
+<li><a href="http://www.publickey2.jp/2013/07/xenarm.html">XenがARMサーバで仮想化機能を実現</a></li>
+
+<li><a href="http://www.publickey2.jp/2013/07/dropboxapi.html">DropboxがDatastore APIを公開</a></li>
+
+</ul>
+<br />
+
+<h4>PR - Books</h4>
+<br />
+<a href="http://www.amazon.co.jp/exec/obidos/redirect?path=ASIN/4873115892&tag=publickey-22"><img src="http://ec2.images-amazon.com/images/I/41qHKrFZi0L._SX200_BO1,200,200,200_.jpg" alt="fig" /></a>
+<br /><br />
+<a href="http://www.amazon.co.jp/exec/obidos/redirect?path=ASIN/4478022216&tag=publickey-22"><img src="http://ec2.images-amazon.com/images/I/41-4aLbrvpL._SX200_BO1,200,200,200_.jpg" alt="fig" /></a>
+<br /><br />
+<a href="http://www.amazon.co.jp/exec/obidos/redirect?path=ASIN/4798129704&tag=publickey-22"><img src="http://ec2.images-amazon.com/images/I/51foFYG9XfL._SX200_BO1,200,200,200_.jpg" alt="fig" /></a>
+<br /><br />
+
+<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- pgk300x250b, 作成済み 10/01/27 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-9871097733789671"
+     data-ad-slot="0210137968"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<br /><br />
+
+</div>
+
+<div id="commentsandtrackbacks">
+
+
+
+<!--Disqus-->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+window.onload = function() { document.onscroll = disqus;};
+function disqus(){
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'publickey'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+document.onscroll = "";
+}
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+<!--Disqusここまで-->
+<br /><br />
+
+
+</div><!-- end of commentsandtrackbacks -->
+</div><!-- end of container -->
+<div id="footer">
+<div id="footer_inner">
+
+<img class="feedicon" src="http://www.publickey1.jp/images/feed-icon-28x28.png" alt="feed" />
+<div class="feeds"><a href="http://www.publickey1.jp/atom.xml">Feed / RSS</a>
+</div>
+<div class="aboutus">About us
+<ul>
+<li><a href="/about-us.html">Publickeyについて／運営者について</a></li>
+<li><a href="/about-us.html">お問い合わせ</a></li>
+</ul>
+</div>
+<div class="aboutus">&nbsp;
+<ul>
+<li><a href="http://www.publickey1.jp/adinfo/publickey-ad.html">広告について</a></li>
+<li><a href="http://www.publickey1.jp/privacy.html">プライバシーポリシー</a></li>
+</ul>
+</div>
+<div style="clear:both;"></div>
+</div><!--end of footer_inner-->
+</div><!--end of footer-->
+
+<!--Google Analytics-->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-104739-7']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+<!-- Google Plus用スクリプト -->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'ja'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+</body>
+
+</html>

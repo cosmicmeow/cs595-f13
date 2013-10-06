@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html lang="ja" data-page-class="entry" data-is-v3-entry-page="true" data-entry-eid="163011690" data-already-bookmarked="false" data-entry-has-video="false" data-entry-url="http://log.deconcepter.jp/2013/09/clmtrackr/">
+<head>
+<meta charset="UTF-8">
+<title>はてなブックマーク - JavaScript製の顔認識ライブラリがすごい | DECONCEPTER</title>
+
+<link type="text/css" rel="stylesheet" href="http://cdn-ak.b.st-hatena.com/css/v3/base.css?538086bd80541e91eec2ef734fec7228f7020de2" />
+<link type="text/css" rel="stylesheet" href="http://cdn-ak.b.st-hatena.com/css/v3/contents.css?f9e4bd7585009676003cfae5f2549fc1426949f3" />
+<link type="text/css" rel="stylesheet" href="http://cdn.www.st-hatena.com/css/hatena/header.css" />
+<script type="text/javascript" charset="utf-8" src="http://s.hatena.ne.jp/js/HatenaStar.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://cdn-ak.b.st-hatena.com/js/lib/underscore-min.1.4.4.js?3757bd6bf3d27b23919bd69c87259db857c6a30f"></script>
+<script type="text/javascript" charset="utf-8" src="http://cdn-ak.b.st-hatena.com/js/lib/micro-location.0.1.1.js?303f552c22e921272d44c4ebe7a31eb447a381d4"></script>
+<script type="text/javascript" charset="utf-8" src="http://cdn-ak.b.st-hatena.com/js/Hatena/Bookmark.js?207da3926d40db60c37b402305f19af4e5fee0f7"></script>
+<script type="text/javascript" charset="utf-8" src="http://cdn.www.st-hatena.com/js/header.ja.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://cdn-ak.b.st-hatena.com/js/v3/startup.js?90ddc9f7580bed8f281a2187df579ee73d69d01e"></script>
+<script type="text/javascript">
+  window.google_analytics_uacct = 'UA-7855606-1';
+  google_analytics_domain_name = '.hatena.ne.jp';
+</script>
+<link rel="canonical" href="http://b.hatena.ne.jp/entry/log.deconcepter.jp/2013/09/clmtrackr/" />
+<link rel="shortcut icon" type="image/x-icon" href="//b.hatena.ne.jp/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" title="はてなブックマーク検索" href="/opensearch.xml" />
+<meta name="apple-itunes-app" content="app-id=354976659" />
+<link rel="apple-touch-icon-precomposed" href="http://cdn-ak.b.st-hatena.com/images/v3/apple-touch-icon-precomposed.png?f6339ae21408299eb539c3dcec43ffd818dca1c0" />
+<meta name="hatena-google-play-app" content="app-id=com.hatena.android.bookmark,title=はてなブックマーク,icon-url=http://cdn-ak.b.st-hatena.com/images/android-app-icon.png?1ca12117ff3a3fbb954dd9fd71578a4c1f5e5f10,author=株式会社はてな" />
+<meta name="msapplication-navbutton-color" content="#2C6EBD" />
+<meta name="msapplication-task" content="name=はてなブックマーク; action-uri=/; icon-uri=/images/icons/bookmark.ico" />
+<meta name="msapplication-task" content="name=マイブックマーク; action-uri=/my; icon-uri=/images/icons/my-bookmark.ico" />
+<meta name="msapplication-task" content="name=お気に入りのブックマーク; action-uri=/my/favorite; icon-uri=/images/icons/favorite-bookmark.ico" />
+<meta name="msapplication-task" content="name=人気エントリー; action-uri=/hotentry; icon-uri=/images/icons/hotentry.ico" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/entry/rss/http://log.deconcepter.jp/2013/09/clmtrackr/" />
+<link rel="alternate" type="text/html" media="handheld" href="http://b.hatena.ne.jp/entrymobile/163011690" /><script type="text/javascript">
+(function () { "use strict";
+
+  Hatena.Bookmark.Browsing.start(1381013194);
+
+
+
+
+  Hatena.Bookmark.Browsing.document.addEventListener('pageload', function() {
+      var login_link = document.getElementById('login_link');
+      if (login_link) {
+          var redirect_link = location.href;
+          if (Hatena.Bookmark.entry.eid) {
+            redirect_link = 'http://b.hatena.ne.jp/entry?eid=' + Hatena.Bookmark.entry.eid;
+          } else {
+            redirect_link = redirect_link + '?&login_date=' + ((new Date).getTime());
+          }
+          login_link.href = 'https://www.hatena.ne.jp/login?location=' + encodeURIComponent(redirect_link);
+          //var guestMessageButton = document.getElementById('guest-message-button');
+          //if (guestMessageButton)
+          //  guestMessageButton.href = login_link.href;
+      }
+
+      Hatena.Bookmark.ViewHelper.handleKeyActivation();
+      Hatena.Bookmark.JumpList.setup();
+
+
+      if (location.hash.length > 2) {
+          var ref = location.hash.substring(1);
+          var hashTarget = document.getElementById(ref) || document.getElementsByName(ref)[0];
+          if (hashTarget) {
+              if (Ten.DOM.loaded)
+                  hashTarget.scrollIntoView();
+          }
+      }
+  });
+
+
+  Ten.DOM.addEventListener('DOMContentLoaded', function () {
+      Hatena.Bookmark.RegistReminder.count();
+  });
+}).call(this);
+</script>
+
+<meta name="keywords" content="マスキング,デフォルメ,トラッキング,ライブラリ" />
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@HatenaBookmark">
+<meta name="twitter:title" content="『JavaScript製の顔認識ライブラリがすごい | DECONCEPTER』へのコメント">
+<meta name="twitter:description" content="hisasann “face detect” / signamo “なかなかの精度らしい。” / muromi ““の顔認識トラッキング（Tracking in video）認識顔に別の顔を乗せてマスキング（Face masking）認識した顔のデフォルメ（Face deformation）の4つがあります。 デフォルメとマスキングが特に面白いのでお試しあれ。”” / taka222 “”JavaScript製の顔認識ライブラリがすごい | DECONCEPTER””">
+<meta name="twitter:image:src" content="http://cdn-ak.b.st-hatena.com/entryimage/163011690-1380163479.jpg">
+<meta name="twitter:domain" content="コメント一覧ページ">
+</head>
+<body class="entry it">
+<div id="global-header">
+    <div id="header">
+        <div id="gh-branding">
+            <h1><a href="/"><img src="http://cdn-ak.b.st-hatena.com/images/v3/gh-logo.png?56a96f0ffada16ab081ae176af02083032bb1ef9" width="34" height="34"  alt="Hatena::Bookmark" /></a></h1>
+            <form id="searchbox" method="get" action="/search/tag">
+                <input value="" name="q" type="text" class="inputtext" id="searchtext" placeholder="タグ・URLを検索" size="40" onfocus="Ten.DOM.addClassName(document.getElementById('searchbox'), 'focus')" onblur="Ten.DOM.removeClassName(document.getElementById('searchbox'), 'focus')" />
+                <input value="" type="submit" class="search-button" />
+            </form>
+        </div>
+        <a href="#" id="gototop" class="notactive"><span class="arw-top"></span>ページトップへ戻る</a>
+        <ul class="service-menu" id="header-navigation"><li class="guest"><a href="/guide">はてなブックマークって？</a></li>
+                <li class="guest"><a href="https://www.hatena.ne.jp/register?location=http%3A%2F%2Fb.hatena.ne.jp%2F">ユーザー登録</a></li>
+                <li class="guest"><a id="login_link" href="https://www.hatena.ne.jp/login?location=http%3A%2F%2Fb.hatena.ne.jp%2Fentry%2Flog.deconcepter.jp%2F2013%2F09%2Fclmtrackr%2F">ログイン</a></li>
+                <li><a href="/help">ヘルプ</a></li><li class="global-logo"><a href="http://www.hatena.ne.jp/"><img src="http://cdn.www.st-hatena.com/images/header/global-logo-wh.png" alt="Hatena" width="76" height="12" /></a></li>
+        </ul>
+    </div>
+</div>
+<div id="info-header"><div id="info-header-message"></div><span></span></div>
+
+<div id="container">
+
+
+<div id="entry-iphone-navigation-anchor" style="display:none"></div>
+
+<div id="header-space">
+
+<div class="breadcrumbs"><a href="/" title="はてなブックマーク">はてなブックマーク</a><span class="sep">&gt;</span><a href="/hotentry/it" title="テクノロジー">テクノロジー</a><span class="sep">&gt;</span>JavaScript製の顔認識ライブラリがすごい | DECONCE...
+</div>
+<ul class="ad-head-text">
+  <li><span class="pr">PR</span>
+<script type="text/javascript" src="http://red.st-hatena.com/ad?cid=144&amp;encode=utf8" charset="utf-8"></script></li>
+</ul>
+
+</div>
+
+<div id="main">
+
+    <div class="box-wrap mix box2 top">
+        <div class="box3_2">
+          <script id="highlighted_bookmark_template" type="text/x-underscore-template">
+            <div id="highlighted-wrapper">
+              <div id="highlighted-bookmark">
+                <a class="profile-icon" href="/<%- bookmark.user.name %>/"><img src="<%- bookmark.user.profile_icon_uri %>" alt="<%- bookmark.user.name %>" title="<%- bookmark.user.name %>" class="profile-image"></a>
+                <div class="header">
+                  <a class="username" href="<%- bookmark.permalink %>"><%- bookmark.user.name %></a>
+                  <% if (bookmark.user.can_plus_icon) { %>
+                    <a href="/guide/plus" class="plus_icon"><img src="http://cdn-ak.b.st-hatena.com/images/plus.gif" title="はてなブックマークプラス" alt="" width="25" height="11" /></a>
+                  <% } %>
+                  <span class="tags<%- bookmark.tags.length <= 0 ? ' empty' : '' %>">
+                    <% _.each(bookmark.tags, function (tag) { %>
+                      <a class="user-tag" href="<%- tag.uri %>" rel="tag"><%- tag.name %></a>
+                    <% }); %>
+                  </span>
+                </div>
+                <div class="comment-container">
+                  <span class="comment"><%- bookmark.comment %></span>
+                  <ul>
+                    <li><span class="timestamp"><%- bookmark.timestamp %></span></li>
+                    <li><span class="starContainer"></span></li>
+                    <li><span class="linkinfo"><%- bookmark.user.name %>さんが以下のページをブックマークしました</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </script>
+
+            <ul class="entry-page-unit">
+                <li class="entry-unit category-it" >
+                    <ul class="users js-hb-users">
+                            <li><strong><a href="/entry/log.deconcepter.jp/2013/09/clmtrackr/"><span>376</span> users</a></strong></li>
+                    </ul>
+
+                    <div class="entry-contents">
+                        <!-- google_ad_section_start(name=title) -->
+                        <h3 id="title-edit"><a id="head-entry-link" href="http://log.deconcepter.jp/2013/09/clmtrackr/" class="entry-link">JavaScript製の顔認識ライブラリがすごい | DECONCEPTER</a></h3>
+                        <!-- google_ad_section_end(name=title) -->
+
+                            
+
+                        <ul class="entry-data">
+                            <li class="category"><a href="/hotentry/it" class="category group2">テクノロジー</a>
+                            </li>
+                            <li class="date">2013/09/26 11:44</li>
+                            <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Flog.deconcepter.jp%2F" title="『DECONCEPTER』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Flog.deconcepter.jp%2F" class="favicon" alt="" />DECONCEPTER</a></li>
+                            <li class="star"><span id="entry_star_count"></span></li>
+                            <li class="clicks"><span id="click-counter" title="このエントリーのTwitter連携機能からの合計クリック数"></span></li>
+
+                            <!-- google_ad_section_start(name=tag) -->
+<li class="tag">
+      <a href="http://b.hatena.ne.jp/search/tag?q=JavaScript" rel="tag" class="tag">JavaScript</a>
+      <a href="http://b.hatena.ne.jp/search/tag?q=%E9%A1%94%E8%AA%8D%E8%AD%98" rel="tag" class="tag">顔認識</a>
+      <a href="http://b.hatena.ne.jp/search/tag?q=%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA" rel="tag" class="tag">ライブラリ</a>
+      <a href="http://b.hatena.ne.jp/search/tag?q=library" rel="tag" class="tag">library</a>
+      <a href="http://b.hatena.ne.jp/search/tag?q=%E7%94%BB%E5%83%8F" rel="tag" class="tag">画像</a>
+      <a href="http://b.hatena.ne.jp/search/tag?q=image" rel="tag" class="tag">image</a>
+      <a href="http://b.hatena.ne.jp/search/tag?q=%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0" rel="tag" class="tag">プログラミング</a>
+</li>
+                            <!-- google_ad_section_end(name=tag) -->
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="ads-entry">
+<script type="text/javascript">
+<!--
+afc_format = 'blocklink_entry';
+google_ad_channel = 'b_entry';
+google_ad_section = 'title content tag';
+google_max_num_ads = '2';
+// -->
+</script>
+<script type="text/javascript" src="http://cdn-ak.b.st-hatena.com/js/google_afc_lazy.js?c34a95edf091d3532985db4a82235e6e39840a8e"></script></div>
+
+            <div id="bookmarks">
+                
+    <div id="public-bookmarks" class="box">
+        
+        <h4 id="public-bookmarks-header" class="entry-page-main-subtitle">
+            <ul class="tab-navi"><li id="scored-bookmarks-tab" class="public-bookmarks-tab disable">人気コメント</li><li id="new-bookmarks-tab" class="public-bookmarks-tab ">新着コメント</li>
+                <li id="all-bookmarks-tab" class="public-bookmarks-tab ">すべてのブックマーク</li>
+                <li id="entry-info-tab" class="public-bookmarks-tab">このページの情報</li></ul>
+        </h4>
+
+        <!-- google_ad_section_start(name=content) -->
+        <div id="scored-bookmarks" data-eid="163011690" data-has-contents="0">
+          <!--p class="no-bookmark-comment-message">人気のブックマークコメントはありません</p-->
+        </div>
+
+        <div id="new-bookmarks" data-eid="163011690" data-has-contents="1">
+            <ul class="bookmark-list"><li id="bookmark-user-hisasann" data-user="hisasann"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/hisasann/"><img src="http://cdn1.www.st-hatena.com/users/hi/hisasann/profile_l.gif" class="profile-image" alt="hisasann" title="hisasann" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/hisasann/20131001#bookmark-163011690">hisasann</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=JavaScript">JavaScript</a></span>
+</span>
+<span class="comment-container">
+<span class="comment">face detect</span> <span class="timestamp">2013/10/01</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-signamo" data-user="signamo"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/signamo/"><img src="http://cdn1.www.st-hatena.com/users/si/signamo/profile_l.gif" class="profile-image" alt="signamo" title="signamo" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/signamo/20130930#bookmark-163011690">signamo</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=%E7%B4%B9%E4%BB%8B">紹介</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=js">js</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=lib">lib</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=%E9%A1%94%E8%AA%8D%E8%AD%98">顔認識</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=face">face</a></span>
+</span>
+<span class="comment-container">
+<span class="comment">なかなかの精度らしい。</span> <span class="timestamp">2013/09/30</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-muromi" data-user="muromi"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/muromi/"><img src="http://cdn1.www.st-hatena.com/users/mu/muromi/profile_l.gif" class="profile-image" alt="muromi" title="muromi" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/muromi/20130927#bookmark-163011690">muromi</a>
+    
+    <span class="tags empty"></span>
+</span>
+<span class="comment-container">
+<span class="comment">“の顔認識トラッキング（Tracking in video）認識顔に別の顔を乗せてマスキング（Face masking）認識した顔のデフォルメ（Face deformation）の4つがあります。 デフォルメとマスキングが特に面白いのでお試しあれ。”</span> <span class="timestamp">2013/09/27</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-taka222" data-user="taka222"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/taka222/"><img src="http://cdn1.www.st-hatena.com/users/ta/taka222/profile_l.gif" class="profile-image" alt="taka222" title="taka222" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/taka222/20130927#bookmark-163011690">taka222</a>
+    
+    <span class="tags empty"></span>
+</span>
+<span class="comment-container">
+<span class="comment">”JavaScript製の顔認識ライブラリがすごい | DECONCEPTER”</span> <span class="timestamp">2013/09/27</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-poppun1940" data-user="poppun1940"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/poppun1940/"><img src="http://cdn1.www.st-hatena.com/users/po/poppun1940/profile_l.gif" class="profile-image" alt="poppun1940" title="poppun1940" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/poppun1940/20130927#bookmark-163011690">poppun1940</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=Evernote">Evernote</a></span>
+</span>
+<span class="comment-container">
+<span class="comment"> JavaScript製顔認識ライブラリを紹介します。 試してみたところ想像以上に精度が高かったので驚きました。横顔や傾けた顔の認識は難しようですが、正面の精度がすごい。 auduno/clmtrackr デモは画像の顔認識トラッキング（Tra</span> <span class="timestamp">2013/09/27</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-taki0313" data-user="taki0313"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/taki0313/"><img src="http://cdn1.www.st-hatena.com/users/ta/taki0313/profile_l.gif" class="profile-image" alt="taki0313" title="taki0313" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/taki0313/20130927#bookmark-163011690">taki0313</a>
+    
+    <span class="tags empty"></span>
+</span>
+<span class="comment-container">
+<span class="comment">ワロタ</span> <span class="timestamp">2013/09/27</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-yussi" data-user="yussi"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/yussi/"><img src="http://cdn1.www.st-hatena.com/users/yu/yussi/profile_l.gif" class="profile-image" alt="yussi" title="yussi" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/yussi/20130927#bookmark-163011690">yussi</a>
+    
+    <span class="tags empty"></span>
+</span>
+<span class="comment-container">
+<span class="comment">おっぱいが顔では無いことを認識してくれるライブラリ、ではないか。おっぱいで顔を認識してくれるライブラリだったら色々捗る？</span> <span class="timestamp">2013/09/27</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-a2ikm" data-user="a2ikm"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/a2ikm/"><img src="http://cdn1.www.st-hatena.com/users/a2/a2ikm/profile_l.gif" class="profile-image" alt="a2ikm" title="a2ikm" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/a2ikm/20130927#bookmark-163011690">a2ikm</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=javascript">javascript</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=library">library</a></span>
+</span>
+<span class="comment-container">
+<span class="comment">おっぱいじゃないことを認識するライブラリ。精度高そう</span> <span class="timestamp">2013/09/27</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-w7tree" data-user="w7tree"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/w7tree/"><img src="http://cdn1.www.st-hatena.com/users/w7/w7tree/profile_l.gif" class="profile-image" alt="w7tree" title="w7tree" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/w7tree/20130926#bookmark-163011690">w7tree</a>
+    
+    <span class="tags empty"></span>
+</span>
+<span class="comment-container">
+<span class="comment">あとでやる</span> <span class="timestamp">2013/09/26</span><span class="starContainer"></span>
+<span class="twitter">
+<a href="http://twitter.com/w7tree/status/383243339438362625" class="with-short-url"></a>
+</span>
+</span>
+</li>
+<li id="bookmark-user-siteworkers" data-user="siteworkers"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/siteworkers/"><img src="http://cdn1.www.st-hatena.com/users/si/siteworkers/profile_l.gif" class="profile-image" alt="siteworkers" title="siteworkers" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/siteworkers/20130926#bookmark-163011690">siteworkers</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA">ライブラリ</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=JavaScript">JavaScript</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=video">video</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=%E7%94%BB%E5%83%8F">画像</a></span>
+</span>
+<span class="comment-container">
+<span class="comment">なるほど</span> <span class="timestamp">2013/09/26</span><span class="starContainer"></span>
+<span class="twitter">
+<a href="http://twitter.com/takechi_tateki/status/383222548244090880" class="with-short-url"></a>
+</span>
+</span>
+</li>
+<li id="bookmark-user-eromate" data-user="eromate"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/eromate/"><img src="http://cdn1.www.st-hatena.com/users/er/eromate/profile_l.gif" class="profile-image" alt="eromate" title="eromate" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/eromate/20130926#bookmark-163011690">eromate</a>
+    
+    <span class="tags empty"></span>
+</span>
+<span class="comment-container">
+<span class="comment">アダルト動画管理者としては無修正かどうがチェックも欲しいです。あとJS以外に対応してくれると使いやすい！期待</span> <span class="timestamp">2013/09/26</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-yosuke_furukawa" data-user="yosuke_furukawa"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/yosuke_furukawa/"><img src="http://cdn1.www.st-hatena.com/users/yo/yosuke_furukawa/profile_l.gif" class="profile-image" alt="yosuke_furukawa" title="yosuke_furukawa" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/yosuke_furukawa/20130926#bookmark-163011690">yosuke_furukawa</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=%E9%A1%94%E8%AA%8D%E8%AD%98">顔認識</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA">ライブラリ</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=JavaScript">JavaScript</a></span>
+</span>
+<span class="comment-container">
+<span class="comment">今日一番の有用情報、顔認識に使えない部位がある。</span> <span class="timestamp">2013/09/26</span><span class="starContainer"></span>
+<span class="twitter">
+<a href="http://twitter.com/yosuke_furukawa/status/383219941458997248" class="with-short-url"></a>
+</span>
+</span>
+</li>
+<li id="bookmark-user-cider_kondo" data-user="cider_kondo"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/cider_kondo/"><img src="http://cdn1.www.st-hatena.com/users/ci/cider_kondo/profile_l.gif" class="profile-image" alt="cider_kondo" title="cider_kondo" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/cider_kondo/20130926#bookmark-163011690">cider_kondo</a>
+    
+    <span class="tags empty"></span>
+</span>
+<span class="comment-container">
+<span class="comment">サムネだと胸部認識ライブラリの記事にしか見えなくてこまった</span> <span class="timestamp">2013/09/26</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-fan-tail" data-user="fan-tail"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/fan-tail/"><img src="http://cdn1.www.st-hatena.com/users/fa/fan-tail/profile_l.gif" class="profile-image" alt="fan-tail" title="fan-tail" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/fan-tail/20130926#bookmark-163011690">fan-tail</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=javascript">javascript</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA">ライブラリ</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=%E7%94%BB%E5%83%8F">画像</a></span>
+</span>
+<span class="comment-container">
+<span class="comment">ためすかー。</span> <span class="timestamp">2013/09/26</span><span class="starContainer"></span>
+<span class="twitter">
+<a href="http://twitter.com/fan_tail/status/383210565566361600" class="with-short-url"></a>
+</span>
+</span>
+</li>
+<li id="bookmark-user-sugimori" data-user="sugimori"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/sugimori/"><img src="http://cdn1.www.st-hatena.com/users/su/sugimori/profile_l.gif" class="profile-image" alt="sugimori" title="sugimori" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/sugimori/20130926#bookmark-163011690">sugimori</a>
+    
+    <span class="tags empty"></span>
+</span>
+<span class="comment-container">
+<span class="comment">最近はなにかやりたかったらライブラリで出来ちゃうなー</span> <span class="timestamp">2013/09/26</span><span class="starContainer"></span>
+<span class="twitter">
+<a href="http://twitter.com/sugimori/status/383205214984998914" class="with-short-url"></a>
+</span>
+</span>
+</li>
+
+            </ul>
+            <div id="remaining-new-bookmarks" data-eid="163011690" data-bookmark-count="376" data-bookmark-shown="15">
+            </div>
+        </div>
+
+        <div id="all-bookmarks" data-eid="163011690" data-has-contents="1" data-bookmark-shown="0">
+            <div id="public-bookmarks" class="box">
+                <ul class="bookmark-list">
+                    <li id="bookmark-user-raimon49" data-user="raimon49" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/raimon49/"><img src="http://cdn1.www.st-hatena.com/users/ra/raimon49/profile_l.gif" class="profile-image" alt="raimon49" title="raimon49" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/raimon49/20131006#bookmark-163011690">raimon49</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=JavaScript">JavaScript</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=%E3%81%8A%E3%81%A3%E3%81%B1%E3%81%84">おっぱい</a></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/10/06</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-mtoy" data-user="mtoy" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/mtoy/"><img src="http://cdn1.www.st-hatena.com/users/mt/mtoy/profile_l.gif" class="profile-image" alt="mtoy" title="mtoy" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/mtoy/20131003#bookmark-163011690">mtoy</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=javascript">javascript</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=%E9%A1%94%E8%AA%8D%E8%AD%98">顔認識</a></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/10/03</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-cda244" data-user="cda244" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/cda244/"><img src="http://cdn1.www.st-hatena.com/users/cd/cda244/profile_l.gif" class="profile-image" alt="cda244" title="cda244" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/cda244/20131001#bookmark-163011690">cda244</a>
+    
+    <span class="tags empty"></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/10/01</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-hisasann" data-user="hisasann"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/hisasann/"><img src="http://cdn1.www.st-hatena.com/users/hi/hisasann/profile_l.gif" class="profile-image" alt="hisasann" title="hisasann" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/hisasann/20131001#bookmark-163011690">hisasann</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=JavaScript">JavaScript</a></span>
+</span>
+<span class="comment-container">
+<span class="comment">face detect</span> <span class="timestamp">2013/10/01</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-sexmachinegunmu" data-user="sexmachinegunmu" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/sexmachinegunmu/"><img src="http://cdn1.www.st-hatena.com/users/se/sexmachinegunmu/profile_l.gif" class="profile-image" alt="sexmachinegunmu" title="sexmachinegunmu" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/sexmachinegunmu/20131001#bookmark-163011690">sexmachinegunmu</a>
+    
+    <span class="tags empty"></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/10/01</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-signamo" data-user="signamo"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/signamo/"><img src="http://cdn1.www.st-hatena.com/users/si/signamo/profile_l.gif" class="profile-image" alt="signamo" title="signamo" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/signamo/20130930#bookmark-163011690">signamo</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=%E7%B4%B9%E4%BB%8B">紹介</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=js">js</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=lib">lib</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=%E9%A1%94%E8%AA%8D%E8%AD%98">顔認識</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=face">face</a></span>
+</span>
+<span class="comment-container">
+<span class="comment">なかなかの精度らしい。</span> <span class="timestamp">2013/09/30</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-yoshiweb" data-user="yoshiweb" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/yoshiweb/"><img src="http://cdn1.www.st-hatena.com/users/yo/yoshiweb/profile_l.gif" class="profile-image" alt="yoshiweb" title="yoshiweb" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/yoshiweb/20130929#bookmark-163011690">yoshiweb</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=javascript">javascript</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=library">library</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=%E9%A1%94%E8%AA%8D%E8%AD%98">顔認識</a></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/29</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-darwinia" data-user="darwinia" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/darwinia/"><img src="http://cdn1.www.st-hatena.com/users/da/darwinia/profile_l.gif" class="profile-image" alt="darwinia" title="darwinia" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/darwinia/20130929#bookmark-163011690">darwinia</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=javascript">javascript</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=image">image</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=%E9%A1%94%E8%AA%8D%E8%AD%98">顔認識</a></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/29</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-tadaemon" data-user="tadaemon" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/tadaemon/"><img src="http://cdn1.www.st-hatena.com/users/ta/tadaemon/profile_l.gif" class="profile-image" alt="tadaemon" title="tadaemon" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/tadaemon/20130929#bookmark-163011690">tadaemon</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=javascript">javascript</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=%E9%A1%94%E8%AA%8D%E8%AD%98">顔認識</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA">ライブラリ</a></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/29</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-tkmc" data-user="tkmc" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/tkmc/"><img src="http://cdn1.www.st-hatena.com/users/tk/tkmc/profile_l.gif" class="profile-image" alt="tkmc" title="tkmc" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/tkmc/20130929#bookmark-163011690">tkmc</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=javascript">javascript</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=%E8%87%AA%E5%8B%95%E5%88%A4%E5%88%A5">自動判別</a></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/29</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-waman" data-user="waman" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/waman/"><img src="http://cdn1.www.st-hatena.com/users/wa/waman/profile_l.gif" class="profile-image" alt="waman" title="waman" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/waman/20130929#bookmark-163011690">waman</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=javascript">javascript</a></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/29</span><span class="starContainer"></span>
+<span class="twitter">
+<a href="http://twitter.com/waman10da/status/384021240479883265" class="with-short-url"></a>
+</span>
+</span>
+</li>
+<li id="bookmark-user-tofy" data-user="tofy" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/tofy/"><img src="http://cdn1.www.st-hatena.com/users/to/tofy/profile_l.gif" class="profile-image" alt="tofy" title="tofy" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/tofy/20130929#bookmark-163011690">tofy</a>
+    
+    <span class="tags empty"></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/29</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-giass" data-user="giass" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/giass/"><img src="http://cdn1.www.st-hatena.com/users/gi/giass/profile_l.gif" class="profile-image" alt="giass" title="giass" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/giass/20130929#bookmark-163011690">giass</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=javascript">javascript</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=%E9%A1%94%E8%AA%8D%E8%AD%98">顔認識</a></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/29</span><span class="starContainer"></span>
+<span class="twitter">
+<a href="http://twitter.com/giass_the_earth/status/383971963170852864" class="with-short-url"></a>
+</span>
+</span>
+</li>
+<li id="bookmark-user-isuta3" data-user="isuta3" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/isuta3/"><img src="http://cdn1.www.st-hatena.com/users/is/isuta3/profile_l.gif" class="profile-image" alt="isuta3" title="isuta3" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/isuta3/20130928#bookmark-163011690">isuta3</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=JavaScript">JavaScript</a></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/28</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-motasaiko" data-user="motasaiko" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/motasaiko/"><img src="http://cdn1.www.st-hatena.com/users/mo/motasaiko/profile_l.gif" class="profile-image" alt="motasaiko" title="motasaiko" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/motasaiko/20130928#bookmark-163011690">motasaiko</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=JavaScript">JavaScript</a></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/28</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-sawarabi0130" data-user="sawarabi0130" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/sawarabi0130/"><img src="http://cdn1.www.st-hatena.com/users/sa/sawarabi0130/profile_l.gif" class="profile-image" alt="sawarabi0130" title="sawarabi0130" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/sawarabi0130/20130928#bookmark-163011690">sawarabi0130</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=javascript">javascript</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA">ライブラリ</a></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/28</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-lEDfm4UE" data-user="lEDfm4UE" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/lEDfm4UE/"><img src="http://cdn1.www.st-hatena.com/users/lE/lEDfm4UE/profile_l.gif" class="profile-image" alt="lEDfm4UE" title="lEDfm4UE" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/lEDfm4UE/20130928#bookmark-163011690">lEDfm4UE</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=*%E3%81%82%E3%81%A8%E3%81%A7">*あとで</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=development">development</a></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/28</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-m0t0m0t0" data-user="m0t0m0t0" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/m0t0m0t0/"><img src="http://cdn1.www.st-hatena.com/users/m0/m0t0m0t0/profile_l.gif" class="profile-image" alt="m0t0m0t0" title="m0t0m0t0" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/m0t0m0t0/20130927#bookmark-163011690">m0t0m0t0</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=javascript">javascript</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=image">image</a></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/27</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-clavier" data-user="clavier" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/clavier/"><img src="http://cdn1.www.st-hatena.com/users/cl/clavier/profile_l.gif" class="profile-image" alt="clavier" title="clavier" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/clavier/20130927#bookmark-163011690">clavier</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=library">library</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=programming">programming</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=javascript">javascript</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=image">image</a></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/27</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-oasis440" data-user="oasis440" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/oasis440/"><img src="http://cdn1.www.st-hatena.com/users/oa/oasis440/profile_l.gif" class="profile-image" alt="oasis440" title="oasis440" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/oasis440/20130927#bookmark-163011690">oasis440</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=%E9%A1%94%E8%AA%8D%E8%AD%98">顔認識</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=JavaScript">JavaScript</a></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/27</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-fijixfiji" data-user="fijixfiji" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/fijixfiji/"><img src="http://cdn1.www.st-hatena.com/users/fi/fijixfiji/profile_l.gif" class="profile-image" alt="fijixfiji" title="fijixfiji" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/fijixfiji/20130927#bookmark-163011690">fijixfiji</a>
+    
+    <span class="tags empty"></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/27</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-quodius" data-user="quodius" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/quodius/"><img src="http://cdn1.www.st-hatena.com/users/qu/quodius/profile_l.gif" class="profile-image" alt="quodius" title="quodius" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/quodius/20130927#bookmark-163011690">quodius</a>
+    
+    <span class="tags empty"></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/27</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-shimanp" data-user="shimanp" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/shimanp/"><img src="http://cdn1.www.st-hatena.com/users/sh/shimanp/profile_l.gif" class="profile-image" alt="shimanp" title="shimanp" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/shimanp/20130927#bookmark-163011690">shimanp</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=javascript">javascript</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=%E9%A1%94%E8%AA%8D%E8%AD%98">顔認識</a></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/27</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-itboy" data-user="itboy" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/itboy/"><img src="http://cdn1.www.st-hatena.com/users/it/itboy/profile_l.gif" class="profile-image" alt="itboy" title="itboy" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/itboy/20130927#bookmark-163011690">itboy</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=JavaScript">JavaScript</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=programming">programming</a></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/27</span><span class="starContainer"></span>
+<span class="twitter">
+<a href="http://twitter.com/it_boy/status/383442605620482048" class="with-short-url"></a>
+</span>
+</span>
+</li>
+<li id="bookmark-user-hirose31" data-user="hirose31" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/hirose31/"><img src="http://cdn1.www.st-hatena.com/users/hi/hirose31/profile_l.gif" class="profile-image" alt="hirose31" title="hirose31" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/hirose31/20130927#bookmark-163011690">hirose31</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=face">face</a></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/27</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-secondlife" data-user="secondlife" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/secondlife/"><img src="http://cdn1.www.st-hatena.com/users/se/secondlife/profile_l.gif" class="profile-image" alt="secondlife" title="secondlife" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/secondlife/20130927#bookmark-163011690">secondlife</a><a href="/guide/plus" class="plus_icon"><img src="http://cdn-ak.b.st-hatena.com/images/plus.gif" title="はてなブックマークプラス" alt="" width="25" height="11" /></a>
+    
+    <span class="tags empty"></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/27</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-heavenshell" data-user="heavenshell" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/heavenshell/"><img src="http://cdn1.www.st-hatena.com/users/he/heavenshell/profile_l.gif" class="profile-image" alt="heavenshell" title="heavenshell" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/heavenshell/20130927#bookmark-163011690">heavenshell</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=javascript">javascript</a></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/27</span><span class="starContainer"></span>
+<span class="twitter">
+<a href="http://twitter.com/heavenshell/status/383429050460405760" class="with-short-url"></a>
+</span>
+</span>
+</li>
+<li id="bookmark-user-TakayukiN627" data-user="TakayukiN627" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/TakayukiN627/"><img src="http://cdn1.www.st-hatena.com/users/Ta/TakayukiN627/profile_l.gif" class="profile-image" alt="TakayukiN627" title="TakayukiN627" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/TakayukiN627/20130927#bookmark-163011690">TakayukiN627</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=programming">programming</a>
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=javascript">javascript</a></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/27</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-kusano4sk" data-user="kusano4sk" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/kusano4sk/"><img src="http://cdn1.www.st-hatena.com/users/ku/kusano4sk/profile_l.gif" class="profile-image" alt="kusano4sk" title="kusano4sk" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/kusano4sk/20130927#bookmark-163011690">kusano4sk</a>
+    
+    <span class="tags empty"></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/27</span><span class="starContainer"></span></span>
+</li>
+<li id="bookmark-user-fooo" data-user="fooo" class="nocomment"
+onmouseover="Hatena.Bookmark.CommentEditor.Hover.Entry.create(this, 'http://log.deconcepter.jp/2013/09/clmtrackr/', false);">
+    <a class="profile-icon" href="/fooo/"><img src="http://cdn1.www.st-hatena.com/users/fo/fooo/profile_l.gif" class="profile-image" alt="fooo" title="fooo" width="16" height="16" /></a>
+<span class="header">
+    <a class="username" href="/fooo/20130927#bookmark-163011690">fooo</a>
+    
+    <span class="tags">
+        <a rel="tag" class="user-tag" href="http://b.hatena.ne.jp/search/tag?q=JavaScript">JavaScript</a></span>
+</span>
+<span class="comment-container">
+<span class="comment"></span> <span class="timestamp">2013/09/27</span><span class="starContainer"></span></span>
+</li>
+
+                    
+                </ul>
+                <div id="remaining-all-bookmarks" data-eid="163011690" data-bookmark-count="376" data-bookmark-shown="30"></div>
+            </div>
+        </div>
+        <div id="entry-info" class="has-image" data-eid="163011690" data-has-contents="1">
+                <div id="entry-content">
+                    
+                    <a class="thumbnail" href="http://log.deconcepter.jp/2013/09/clmtrackr/"><img src="http://cdn-ak.b.st-hatena.com/entryimage/163011690-1380163479.jpg" /></a>
+                    
+                    <p><a href="http://d.hatena.ne.jp/keyword/JavaScript" class="keyword">JavaScript</a>製顔認識<a href="http://d.hatena.ne.jp/keyword/%A5%E9%A5%A4%A5%D6%A5%E9%A5%EA" class="keyword">ライブラリ</a>を紹介します。 試してみたところ想像以上に精度が高かったので驚きました。横顔や傾けた顔の認識は難しようですが、正面の精度がすごい。 auduno/clmtrackr デモは画像の顔認識<a href="http://d.hatena.ne.jp/keyword/%A5%C8%A5%E9%A5%C3%A5%AD%A5%F3%A5%B0" class="keyword">トラッキング</a>（Tracking in <a href="http://d.hatena.ne.jp/keyword/image" class="keyword">image</a>）<a href="http://d.hatena.ne.jp/keyword/%A5%D3%A5%C7%A5%AA" class="keyword">ビデオ</a>の顔認識<a href="http://d.hatena.ne.jp/keyword/%A5%C8%A5%E9%A5%C3%A5%AD%A5%F3%A5%B0" class="keyword">トラッキング</a>（Tracking in video）認識顔に別の顔を乗せて<a href="http://d.hatena.ne.jp/keyword/%A5%DE%A5%B9%A5%AD%A5%F3%A5%B0" class="keyword">マスキング</a>（Face masking）認識した顔の<a href="http://d.hatena.ne.jp/keyword/%A5%C7%A5%D5%A5%A9%A5%EB%A5%E1" class="keyword">デフォルメ</a>（Face deformation）の4つがあります。 <a href="http://d.hatena.ne.jp/keyword/%A5%C7%A5%D5%A5%A9%A5%EB%A5%E1" class="keyword">デフォルメ</a>と<a href="http://d.hatena.ne.jp/keyword/%A5%DE%A5%B9%A5%AD%A5%F3%A5%B0" class="keyword">マスキング</a>が特に<a href="http://d.hatena.ne.jp/keyword/%CC%CC%C7%F2%A4%A4" class="keyword">面白い</a>の...
+                    </p>
+                </div>
+
+
+
+            <div id="entry-subcontent">
+                <span id="entry-blogparts-toggle-button">▼ ブログで紹介する</span>
+            </div>
+                      <div id="entry-blogparts" style="display:none;">
+            <table>
+                <tr class="first"><td>
+                  <span class="header">B!ボタン</span>
+                  <a target="_blank" href="/guide/bbutton?url=http%3A%2F%2Flog.deconcepter.jp%2F2013%2F09%2Fclmtrackr%2F" title="はてなブックマークボタンを作成">はてなブックマークボタンを作成</a>
+                </td></tr>
+                <tr><td>
+                  <span class="header">リンク</span>
+                    <input type="text" class="blogparts-text blogparts-input-text" size="30" value="&lt;span class=&quot;hatena-bookmark-title&quot;&gt;&lt;a href=&quot;http://log.deconcepter.jp/2013/09/clmtrackr/&quot;&gt;JavaScript製の顔認識ライブラリがすごい | DECONCEPTER&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;hatena-bookmark-users&quot;&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/log.deconcepter.jp/2013/09/clmtrackr/&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/http://log.deconcepter.jp/2013/09/clmtrackr/&quot;&gt;&lt;/a&gt;&lt;/span&gt;" />
+                    <span id="preview-button" class="blogparts-preview-button">▼ プレビュー</span>
+                    <div id="blogparts-container" style="display:none;">
+                      <p class="blogparts-note">選択後に、上記の埋め込みコードをコピーして貼り付けてください。選択内容により、コードは変わります。</p>
+                      <div class="popup">
+                        <ul id="blogparts-link-checkbox-container" class="blogparts-link-checkbox">
+                          <li class="blogparts-link-list" ><label for="include-users"><input class="blogparts-link-checkbox" type="checkbox" id="include-users" checked="checked" />ブックマーク数を表示</label></li>
+                          <li class="blogparts-link-list" ><label for="b-mark"><input class="blogparts-link-checkbox" type="checkbox" id="b-mark" /><img alt="はてなブックマークで表示" title="はてなブックマークで表示" src="http://cdn-ak.b.st-hatena.com/images/b_entry.gif" />を表示</label></li>
+                          <li class="blogparts-link-list" ><label for="b-ex-mark"><input class="blogparts-link-checkbox" type="checkbox" id="b-ex-mark" /><img alt="このエントリーをはてなブックマークに追加" title="このエントリーをはてなブックマークに追加" src="http://cdn-ak.b.st-hatena.com/images/append.gif" />を表示</label></li>
+                        </ul>
+                        <div id="blogparts-preview"></div>
+                      </div>
+                    </div>
+                </td></tr>
+                <tr><td>
+                  <span class="header">詳細表示</span>
+                    <input type="text" class="blogparts-widget-text blogparts-input-text" size="30" value="&lt;iframe marginwidth=&quot;0&quot; marginheight=&quot;0&quot; src=&quot;http://b.hatena.ne.jp/entry.parts?url=http%3A%2F%2Flog.deconcepter.jp%2F2013%2F09%2Fclmtrackr%2F&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; height=&quot;230&quot; width=&quot;500&quot;&gt;&lt;div class=&quot;hatena-bookmark-detail-info&quot;&gt;&lt;a href=&quot;http://log.deconcepter.jp/2013/09/clmtrackr/&quot;&gt;JavaScript製の顔認識ライブラリがすごい | DECONCEPTER&lt;/a&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/log.deconcepter.jp/2013/09/clmtrackr/&quot;&gt;はてなブックマーク - JavaScript製の顔認識ライブラリがすごい | DECONCEPTER&lt;/a&gt;&lt;/div&gt;&lt;/iframe&gt;" />
+                    <span id="preview-widget-button" class="blogparts-preview-button">▼ プレビュー</span>
+                      <div id="blogparts-widget-container" style="display:none;">
+                        <p class="blogparts-note">上記の埋め込みコードをコピーして貼り付けてください。</p>
+                        <div class="popup">
+                          <div id="blogparts-widget-preview"></div>
+                        </div>
+                      </div>
+                </td></tr>
+                <tr><td>
+                  <span class="header">人気エントリー</span>
+                  <a href="/entrylist?sort=count&amp;url=http%3A%2F%2Flog.deconcepter.jp%2F" title="『DECONCEPTER』">『DECONCEPTER』の人気エントリー</a><br />
+                  <a target="_blank" href="/entrylist/widget?url=http%3A%2F%2Flog.deconcepter.jp%2F">『DECONCEPTER』の人気エントリーのブログパーツを作成</a>
+                </td></tr>
+                
+            </table>
+        </div>
+
+            <div id="entry-paragraph-label" class="cmpact">
+                <span class="paragraph-label">最終更新: </span>2013/09/26 11:44
+            </div>
+        </div>
+
+        <!-- google_ad_section_end(name=content) -->
+    </div><!--//public-bookmarks-->
+    <script>
+        (function setupBookmarksTabChanger() {
+            var started_new = false;
+            var started_all = false;
+            var allBookmarksTab = {
+              id: 'all-bookmarks',
+              onSelect: function () {
+                if (started_all) { return; }
+                started_all = true;
+                var container = document.getElementById('remaining-all-bookmarks');
+                (new Hatena.Bookmark.Entry.CommentListLoader({
+                    container     : container,
+                    commentOnly   : 0
+                })).load();
+              }
+            };
+            var tabmenu = new Hatena.Bookmark.Entry.BookmarksTabMenuV3(document.getElementById('public-bookmarks'), [
+                  { id: 'scored-bookmarks' },
+                  {
+                    id: 'new-bookmarks',
+                    fallBack: allBookmarksTab,
+                    onSelect: function () {
+                      if (started_new) { return; }
+                      started_new = true;
+                      var container = document.getElementById('remaining-new-bookmarks');
+                      (new Hatena.Bookmark.Entry.CommentListLoader({
+                          container     : container,
+                          commentOnly   : 1
+                      })).load();
+                    }
+                  },
+                  allBookmarksTab,
+                  { id: 'entry-info' }
+            ], 'bookmarks_tab');
+            tabmenu.addEventListener("tabchanged", function () {
+                var EntryPage = Hatena.Bookmark.UI.Pages.EntryPage;
+                EntryPage.dispatchEvent("tabcontainerresized", {});
+            });
+        }).call(this);
+    </script>
+
+                <p id="visibility-info">
+                    <a href="/help/nocomment">このブックマーク一覧を非公開にするには?</a>
+                </p>
+            </div>
+            <div class="ads-entry bottom">
+<script type="text/javascript">
+<!--
+afc_format = 'blocklink_entry';
+google_ad_channel = 'b_entry_bottom';
+google_ad_section = 'title content tag';
+google_max_num_ads = '3';
+// -->
+</script>
+<script type="text/javascript" src="http://cdn-ak.b.st-hatena.com/js/google_afc_lazy.js?c34a95edf091d3532985db4a82235e6e39840a8e"></script></div>
+                <div id="add-bookmark-container" class="add-bookmark-container box guest">
+                    <div class="add-bookmark-form">
+                        <p>ユーザーはみんなでブックマークを共有して、効率良く情報収集しています。あなたもはてなブックマークを始めてみませんか?
+                        </p>
+                        <div class="guest-signup-container">
+                            <a href="/guide">はてなブックマークってなに？</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="guest-message">
+                </div>
+            <div class="box3_2" id="referrers">
+                    <h2>このエントリーを含むエントリー<span class="count">（1）</span></h2>
+                    <ul class="entry-list-entry-l notag">
+
+<li class="entrylist-unit category-it hb-entry-unit-with-favorites" data-eid="163070554">
+    <h3 class="hb-entry-link-container"><a href="http://www.appbank.net/2013/09/26/iphone-news/675211.php" class="entry-link"  title="[夕刊] 明日27日10時、AppBank Store 八重洲オープン！あとマミルトン！！ - たのしいiPhone！ AppBank" data-entryrank="" data-track-click-target="direct">[夕刊] 明日27日10時、AppBank Store 八重洲オープン！あとマミルトン！！ - ...</a></h3>
+    <ul class="entry-data">
+      <li class="users"><a href="/entry/www.appbank.net/2013/09/26/iphone-news/675211.php" data-track-click-target="entry" title="すべてのブックマークを見る"><span>2</span> users</a></li>
+          <li class="category">
+              <a href="/hotentry/it" class="category">テクノロジー</a>
+          </li>
+      <li class="date">2013/09/26 20:47</li>
+      <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fwww.appbank.net%2F" title="『AppBank』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fwww.appbank.net%2F" class="favicon" alt="" /><span>www.appbank.net</span></a></li>
+              <li class="tag">
+                    <a href="http://b.hatena.ne.jp/search/tag?q=gn" rel="tag" class="tag">gn</a>
+                    <a href="http://b.hatena.ne.jp/search/tag?q=%E5%A4%95%E5%88%8A" rel="tag" class="tag">夕刊</a>
+              </li>
+          <li class="follow"></li>
+    </ul>
+</li>
+
+                    </ul>
+            </div>
+            <script type="text/javascript">
+                 Hatena.Bookmark.Entry.FoldableListV3.create(
+                   Ten.DOM.getElementsByTagAndClassName('ul', 'entry-list-entry-l', document.getElementById('referrers'))[0],
+                   3
+                 );
+            </script><div class="box3_2">
+<h2><span class="inner"><a href="/entrylist/it">新着エントリー - テクノロジー</a></span></h2>
+<ul class="entry-list-entry-l notag">
+
+<li class="entrylist-unit category-it hb-entry-unit-with-favorites" data-eid="164242322">
+    <h3 class="hb-entry-link-container"><a href="http://hitoriblog.com/?p=19414" class="entry-link"  title="ひとりぶろぐ » iPhoneでWikipediaをページ内検索しようと思ったら本文が畳まれててできず困るのを何とかするブックマークレット" data-entryrank="" data-track-click-target="direct">ひとりぶろぐ » iPhoneでWikipediaをページ内検索しようと思ったら本文が畳ま...</a></h3>
+    <ul class="entry-data">
+      <li class="users"><em><a href="/entry/hitoriblog.com/?p=19414" data-track-click-target="entry" title="すべてのブックマークを見る"><span>3</span> users</a></em></li>
+          <li class="category">
+              <a href="/hotentry/it" class="category">テクノロジー</a>
+          </li>
+      <li class="date">2013/10/06 06:57</li>
+      <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fhitoriblog.com%2F" title="『ひとりぶろぐ | Just another WordPress site』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fhitoriblog.com%2F" class="favicon" alt="" /><span>hitoriblog.com</span></a></li>
+                <li class="tag">
+                      <a href="http://b.hatena.ne.jp/search/tag?q=iPhone" rel="tag" class="tag">iPhone</a>
+                      <a href="http://b.hatena.ne.jp/search/tag?q=Bookmarklet" rel="tag" class="tag">Bookmarklet</a>
+                </li>
+          <li class="follow"></li>
+    </ul>
+</li>
+
+
+<li class="entrylist-unit category-it hb-entry-unit-with-favorites" data-eid="164239966">
+    <h3 class="hb-entry-link-container"><a href="http://blog.dataminer.me/entry/2013/10/06/053137" class="entry-link"  title="『最適化』という魔法の言葉 - dataminer.me" data-entryrank="" data-track-click-target="direct">『最適化』という魔法の言葉 - dataminer.me</a></h3>
+    <ul class="entry-data">
+      <li class="users"><em><a href="/entry/blog.dataminer.me/entry/2013/10/06/053137" data-track-click-target="entry" title="すべてのブックマークを見る"><span>4</span> users</a></em></li>
+          <li class="category">
+              <a href="/hotentry/it" class="category">テクノロジー</a>
+          </li>
+      <li class="date">2013/10/06 06:00</li>
+      <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fblog.dataminer.me%2F" title="『dataminer.me』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fblog.dataminer.me%2F" class="favicon" alt="" /><span>blog.dataminer.me</span></a></li>
+              <li class="tag">
+                    <a href="http://b.hatena.ne.jp/search/tag?q=%E5%BA%83%E5%91%8A" rel="tag" class="tag">広告</a>
+                    <a href="http://b.hatena.ne.jp/search/tag?q=%E3%83%87%E3%83%BC%E3%82%BF%E6%AF%8E%E3%81%AB%E3%82%B0" rel="tag" class="tag">データ毎にグ</a>
+              </li>
+          <li class="follow"></li>
+    </ul>
+</li>
+
+
+<li class="entrylist-unit category-it hb-entry-unit-with-favorites" data-eid="164233226">
+    <h3 class="hb-entry-link-container"><a href="http://togetter.com/li/573170" class="entry-link"  title="編集者ヤマウチ「ラクガキ特集ページ」と新サイトを語る - Togetter" data-entryrank="" data-track-click-target="direct">編集者ヤマウチ「ラクガキ特集ページ」と新サイトを語る - Togetter</a></h3>
+    <ul class="entry-data">
+      <li class="users"><em><a href="/entry/togetter.com/li/573170" data-track-click-target="entry" title="すべてのブックマークを見る"><span>7</span> users</a></em></li>
+          <li class="category">
+              <a href="/hotentry/it" class="category">テクノロジー</a>
+          </li>
+      <li class="date">2013/10/06 03:02</li>
+      <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Ftogetter.com%2F" title="『ツイッターをまとめよう - Togetter』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Ftogetter.com%2F" class="favicon" alt="" /><span>togetter.com</span></a></li>
+              <li class="tag">
+                    <a href="http://b.hatena.ne.jp/search/tag?q=twitter" rel="tag" class="tag">twitter</a>
+                    <a href="http://b.hatena.ne.jp/search/tag?q=web%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9" rel="tag" class="tag">webサービス</a>
+                    <a href="http://b.hatena.ne.jp/search/tag?q=Web" rel="tag" class="tag">Web</a>
+                    <a href="http://b.hatena.ne.jp/search/tag?q=Book" rel="tag" class="tag">Book</a>
+              </li>
+          <li class="follow"></li>
+    </ul>
+</li>
+
+  <li class="more-entry"><a href="/entrylist/it">もっと読む</a></li>
+</ul>
+<div id="reldiary">
+    <h2>このエントリーを含むはてなブログ<span class="count">（1）</span></h2>
+    <ul class="entry-list-diary-l">
+            <li class="entry-list">
+                <div class="user-icon">
+                    <a href="http://d.hatena.ne.jp/polygonplanet/"><img src="http://cdn1.www.st-hatena.com/users/po/polygonplanet/profile_l.gif" class="profile-image" alt="polygonplanet" title="polygonplanet" width="32" height="32" /></a>
+                </div>
+                <div class="entry-contents">
+                    <h3><a href="http://d.hatena.ne.jp/polygonplanet/20130927" class="entry-link">polygon clip</a></h3>
+                    <ul class="entry-data">
+                        <li class="domain"><a href="http://d.hatena.ne.jp/polygonplanet/">id:polygonplanet</a></li>
+                        <li class="date">2013/09/27</li>
+                    </ul>
+                </div>
+            </li>
+    </ul>
+    
+</div></div>
+        </div><div class="box3_1 notitle" id="sidebar">
+        <div id="sidebar-inner" style="width: 320px;">
+            
+            <ul class="entry-horizontal-s">
+                <li class="entry-list ad-unit">
+                    
+<div id="div-gpt-ad-1359517531039-0" class="ad-rectangle"></div>
+<script type="text/javascript" id="dfp_script_div-gpt-ad-1359517531039-0"
+    data-dfp-tag="/4374287/bookmark_entry" data-dfp-width="300" data-dfp-height="250">
+(function() {
+    var targetId = 'div-gpt-ad-1359517531039-0';
+    var currentScript = document.getElementById('dfp_script_' + targetId);
+
+    var widthStr  = currentScript.getAttribute('data-dfp-width');
+    var heightStr = currentScript.getAttribute('data-dfp-height');
+    var ngWordThresholdStr = currentScript.getAttribute('data-dfp-ngword-threshold');
+
+    var elem = document.getElementById(targetId);
+    elem.style.width  = widthStr + 'px';
+    elem.style.height = heightStr + 'px';
+
+    window.hatena_dfp_tag       = currentScript.getAttribute('data-dfp-tag');
+    window.hatena_dfp_size      = [+widthStr, +heightStr];
+    window.hatena_dfp_target_id = targetId;
+    window.hatena_dfp_ngword_threshold = ngWordThresholdStr != undefined ? +ngWordThresholdStr : undefined;
+})();
+</script>
+<script type="text/javascript" src="http://ad.hatena.ne.jp/js/hatena_dfp-compiled.js"></script>
+                </li>
+            </ul>
+            
+    <h2 class="entry-page-sidebar-title"><span class="inner"><a href="/entrylist?url=http%3A%2F%2Flog.deconcepter.jp%2F">同じサイトのほかのエントリー</a></span></h2>
+    <ul class="entry-horizontal-s"><li class="entry-list category-it" data-eid="163612594" data-bookmark-count="4" data-entryrank="1">
+    <ul class="users">
+      <li><em><a href="/entry/log.deconcepter.jp/2013/10/google_webdesigner/" data-track-click-target="entry" title="すべてのブックマークを見る"><span>4</span> users</a></em></li>
+    </ul>
+    <div class="entry-contents">
+        <h3 class="hb-entry-link-container" ><a href="http://log.deconcepter.jp/2013/10/google_webdesigner/" class="entry-link" rel="nofollow" title="グーグル Adobeのソフトがすべて合体したようなツール Web Designerを公開 | DECONCEPTER" data-entryrank="1" data-track-click-target="direct">グーグル Adobeのソフトがすべて合体したようなツール Web Designerを公...</a></h3>
+        <ul class="entry-data">
+                <li class="category">
+                    <a href="/hotentry/it" class="category group2">テクノロジー</a>
+                </li>
+            <li class="date">2013/10/01 10:56</li>
+        </ul>
+    </div>
+    <ul class="entry-meta">
+        <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Flog.deconcepter.jp%2F" title="『DECONCEPTER』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Flog.deconcepter.jp%2F" class="favicon" alt="" /><span>log.deconcepter.jp</span></a></li>
+    </ul>
+</li>
+          <li class="entry-list category-it" data-eid="163477122" data-bookmark-count="4" data-entryrank="2">
+    <ul class="users">
+      <li><em><a href="/entry/log.deconcepter.jp/2013/09/nodejs_nvm/" data-track-click-target="entry" title="すべてのブックマークを見る"><span>4</span> users</a></em></li>
+    </ul>
+    <div class="entry-contents">
+        <h3 class="hb-entry-link-container" ><a href="http://log.deconcepter.jp/2013/09/nodejs_nvm/" class="entry-link" rel="nofollow" title="node.jsのインストールとnvmの使い方 | DECONCEPTER" data-entryrank="2" data-track-click-target="direct">node.jsのインストールとnvmの使い方 | DECONCEPTER</a></h3>
+        <ul class="entry-data">
+                <li class="category">
+                    <a href="/hotentry/it" class="category group2">テクノロジー</a>
+                </li>
+            <li class="date">2013/09/30 09:36</li>
+        </ul>
+    </div>
+    <ul class="entry-meta">
+        <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Flog.deconcepter.jp%2F" title="『DECONCEPTER』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Flog.deconcepter.jp%2F" class="favicon" alt="" /><span>log.deconcepter.jp</span></a></li>
+    </ul>
+</li>
+          
+          <li class="entry-list category-it" data-eid="162171794" data-bookmark-count="14" data-entryrank="4">
+    <ul class="users">
+      <li><strong><a href="/entry/log.deconcepter.jp/2013/09/cssdatahover/" data-track-click-target="entry" title="すべてのブックマークを見る"><span>14</span> users</a></strong></li>
+    </ul>
+    <div class="entry-contents">
+        <h3 class="hb-entry-link-container" ><a href="http://log.deconcepter.jp/2013/09/cssdatahover/" class="entry-link" rel="nofollow" title="CSSだけで作る カスタム属性を利用したロールオーバーエフェクト | DECONCEPTER" data-entryrank="4" data-track-click-target="direct">CSSだけで作る カスタム属性を利用したロールオーバーエフェクト | DECO...</a></h3>
+        <ul class="entry-data">
+                <li class="category">
+                    <a href="/hotentry/it" class="category group2">テクノロジー</a>
+                </li>
+            <li class="date">2013/09/19 12:43</li>
+        </ul>
+    </div>
+    <ul class="entry-meta">
+        <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Flog.deconcepter.jp%2F" title="『DECONCEPTER』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Flog.deconcepter.jp%2F" class="favicon" alt="" /><span>log.deconcepter.jp</span></a></li>
+    </ul>
+</li>
+          
+      <li class="more-entry"><a href="/entrylist?url=http%3A%2F%2Flog.deconcepter.jp%2F">もっと読む</a></li>
+    </ul>
+    <h2>関連エントリー</h2>
+    <ul class="entry-horizontal-s"><li class="entry-list category-it" data-eid="4093070" data-bookmark-count="24" data-entryrank="1">
+    <ul class="users">
+      <li><strong><a href="/entry/wota.jp/ac/?date=20070226%23p01" data-track-click-target="entry" title="すべてのブックマークを見る"><span>24</span> users</a></strong></li>
+    </ul>
+    <div class="entry-contents">
+        <h3 class="hb-entry-link-container" ><a href="http://wota.jp/ac/?date=20070226#p01" class="entry-link"  title="从 ;’w’;)クゥ〜ン(2007-02-26)" data-entryrank="1" data-track-click-target="direct">从 ;’w’;)クゥ〜ン(2007-02-26)</a></h3>
+        <ul class="entry-data">
+                <li class="category">
+                    <a href="/hotentry/it" class="category group2">テクノロジー</a>
+                </li>
+            <li class="date">2007/03/01 09:37</li>
+        </ul>
+    </div>
+    <ul class="entry-meta">
+        <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fwota.jp%2F" title="『wota.jp』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fwota.jp%2F" class="favicon" alt="" /><span>wota.jp</span></a></li>
+    </ul>
+</li><li class="entry-list category-it" data-eid="5940006" data-bookmark-count="563" data-entryrank="2">
+    <ul class="users">
+      <li><strong><a href="/entry/opencv.jp/" data-track-click-target="entry" title="すべてのブックマークを見る"><span>563</span> users</a></strong></li>
+    </ul>
+    <div class="entry-contents">
+        <h3 class="hb-entry-link-container" ><a href="http://opencv.jp/" class="entry-link"  title="opencv.jp" data-entryrank="2" data-track-click-target="direct">opencv.jp</a></h3>
+        <ul class="entry-data">
+                <li class="category">
+                    <a href="/hotentry/it" class="category group2">テクノロジー</a>
+                </li>
+            <li class="date">2007/09/20 18:46</li>
+        </ul>
+    </div>
+    <ul class="entry-meta">
+        <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fopencv.jp%2F" title="『opencv.jp』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fopencv.jp%2F" class="favicon" alt="" /><span>opencv.jp</span></a></li>
+    </ul>
+</li><li class="entry-list category-it" data-eid="4153118" data-bookmark-count="206" data-entryrank="3">
+    <ul class="users">
+      <li><strong><a href="/entry/d.hatena.ne.jp/spiritloose/20070308/1173314595" data-track-click-target="entry" title="すべてのブックマークを見る"><span>206</span> users</a></strong></li>
+    </ul>
+    <div class="entry-contents">
+        <h3 class="hb-entry-link-container" ><a href="http://d.hatena.ne.jp/spiritloose/20070308/1173314595" class="entry-link"  title="spiritlooseのはてなダイアリー - OpenCVを使って画像の物体認識をするPerlモジュール作った" data-entryrank="3" data-track-click-target="direct">spiritlooseのはてなダイアリー - OpenCVを使って画像の物体認識をするP...</a></h3>
+        <ul class="entry-data">
+                <li class="category">
+                    <a href="/hotentry/it" class="category group2">テクノロジー</a>
+                </li>
+            <li class="date">2007/03/08 09:57</li>
+        </ul>
+    </div>
+    <ul class="entry-meta">
+        <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fd.hatena.ne.jp%2Fspiritloose%2F" title="『spiritlooseのはてなダイアリー』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fd.hatena.ne.jp%2Fspiritloose%2F" class="favicon" alt="" /><span>d:id:spiritloose</span></a></li>
+    </ul>
+</li>
+    </ul>
+            <ul class="entry-horizontal-s">
+                <li class="entry-list ad-unit">
+                    
+<div id="div-gpt-ad-1359517576082-0" class="ad-rectangle"></div>
+<script type="text/javascript" id="dfp_script_div-gpt-ad-1359517576082-0"
+    data-dfp-tag="/4374287/bookmark_entry2" data-dfp-width="300" data-dfp-height="250">
+(function() {
+    var targetId = 'div-gpt-ad-1359517576082-0';
+    var currentScript = document.getElementById('dfp_script_' + targetId);
+
+    var widthStr  = currentScript.getAttribute('data-dfp-width');
+    var heightStr = currentScript.getAttribute('data-dfp-height');
+    var ngWordThresholdStr = currentScript.getAttribute('data-dfp-ngword-threshold');
+
+    var elem = document.getElementById(targetId);
+    elem.style.width  = widthStr + 'px';
+    elem.style.height = heightStr + 'px';
+
+    window.hatena_dfp_tag       = currentScript.getAttribute('data-dfp-tag');
+    window.hatena_dfp_size      = [+widthStr, +heightStr];
+    window.hatena_dfp_target_id = targetId;
+    window.hatena_dfp_ngword_threshold = ngWordThresholdStr != undefined ? +ngWordThresholdStr : undefined;
+})();
+</script>
+<script type="text/javascript" src="http://ad.hatena.ne.jp/js/hatena_dfp-compiled.js"></script>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    <div class="box-wrap box4">
+        <div class="box1_1">
+                  
+    <h2>関連商品</h2>
+    <ul class="entry-vertical-4"><li class="entry-unit category-it hb-entry-unit-with-favorites recommended has-image" data-eid="26397954" data-bookmark-count="106" data-entryrank="1">
+    <ul class="users">
+      <li><strong><a href="/entry/www.amazon.co.jp/gp/product/4774144665" data-track-click-target="entry" title="すべてのブックマークを見る"><span>106</span> users</a></strong></li>
+    </ul>
+    <div class="entry-contents">
+        <h3 class="hb-entry-link-container" ><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774144665/hatena-betest-22/ref=nosim" class="entry-link"  title="Amazon.co.jp： JavaScript本格入門　～モダンスタイルによる基礎からAjax・ｊQueryまで: 山田 祥寛: 本" data-entryrank="1" data-track-click-target="direct">JavaScript本格入門　～モダンスタイルによる基礎からAjax・ｊQueryまで</a></h3>
+        <ul class="entry-data">
+            <li class="description"><blockquote>商品の説明内容紹介 最も手軽でありながら、いまやネットのプログラミングに最も欠かせないJavaScri...</blockquote></li>
+            <li class="thumbnail">
+                <a class="" href="http://www.amazon.co.jp/exec/obidos/ASIN/4774144665/hatena-betest-22/ref=nosim" title="" data-entryrank="1" data-track-click-target="entry"><img src="http://ecx.images-amazon.com/images/I/512wo9i9iSL._SS200_.jpg" alt="" /></a>
+            </li>
+            <li class="date">2010/11/10 17:49</li>
+        </ul>
+    </div>
+    <ul class="entry-meta">
+        <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fwww.amazon.co.jp%2F" title="『Amazon』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fwww.amazon.co.jp%2F" class="favicon" alt="" /><span>www.amazon.co.jp</span></a></li>
+                <li class="tag">
+                      <a href="http://b.hatena.ne.jp/search/tag?q=JavaScript" rel="tag" class="tag">JavaScript</a>
+                      <a href="http://b.hatena.ne.jp/search/tag?q=Book" rel="tag" class="tag">Book</a>
+                      <a href="http://b.hatena.ne.jp/search/tag?q=amazon" rel="tag" class="tag">amazon</a>
+                      <a href="http://b.hatena.ne.jp/search/tag?q=%E6%9C%AC" rel="tag" class="tag">本</a>
+                </li>
+    </ul>
+        <div class="follow"></div>
+</li><li class="entry-unit category-it hb-entry-unit-with-favorites recommended has-image" data-eid="103929778" data-bookmark-count="18" data-entryrank="2">
+    <ul class="users">
+      <li><strong><a href="/entry/www.amazon.co.jp/gp/product/4873115736" data-track-click-target="entry" title="すべてのブックマークを見る"><span>18</span> users</a></strong></li>
+    </ul>
+    <div class="entry-contents">
+        <h3 class="hb-entry-link-container" ><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4873115736/hatena-betest-22/ref=nosim" class="entry-link"  title="Amazon.co.jp： JavaScript 第6版: David Flanagan, 村上 列: 本" data-entryrank="2" data-track-click-target="direct">JavaScript 第6版</a></h3>
+        <ul class="entry-data">
+            <li class="description"><blockquote>商品の説明著者について David Flanagan(デイビッド・フラナガン):プログラマ兼著述家。Webサイトは...</blockquote></li>
+            <li class="thumbnail">
+                <a class="" href="http://www.amazon.co.jp/exec/obidos/ASIN/4873115736/hatena-betest-22/ref=nosim" title="" data-entryrank="2" data-track-click-target="entry"><img src="http://ecx.images-amazon.com/images/I/51f46ZHorvL._SS200_.jpg" alt="" /></a>
+            </li>
+            <li class="date">2012/07/30 14:04</li>
+        </ul>
+    </div>
+    <ul class="entry-meta">
+        <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fwww.amazon.co.jp%2F" title="『Amazon』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fwww.amazon.co.jp%2F" class="favicon" alt="" /><span>www.amazon.co.jp</span></a></li>
+                <li class="tag">
+                      <a href="http://b.hatena.ne.jp/search/tag?q=javascript" rel="tag" class="tag">javascript</a>
+                      <a href="http://b.hatena.ne.jp/search/tag?q=book" rel="tag" class="tag">book</a>
+                      <a href="http://b.hatena.ne.jp/search/tag?q=%22amazon+book%22" rel="tag" class="tag">amazon book</a>
+                      <a href="http://b.hatena.ne.jp/search/tag?q=books" rel="tag" class="tag">books</a>
+                </li>
+    </ul>
+        <div class="follow"></div>
+</li><li class="entry-unit hb-entry-unit-with-favorites recommended has-image" data-eid="83894509" data-bookmark-count="14" data-entryrank="3">
+    <ul class="users">
+      <li><strong><a href="/entry/www.amazon.co.jp/gp/product/4839941874" data-track-click-target="entry" title="すべてのブックマークを見る"><span>14</span> users</a></strong></li>
+    </ul>
+    <div class="entry-contents">
+        <h3 class="hb-entry-link-container" ><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4839941874/hatena-betest-22/ref=nosim" class="entry-link"  title="Amazon.co.jp： よくわかるJavaScriptの教科書: たにぐち まこと: 本" data-entryrank="3" data-track-click-target="direct">よくわかるJavaScriptの教科書</a></h3>
+        <ul class="entry-data">
+            <li class="description"><blockquote></blockquote></li>
+            <li class="thumbnail">
+                <a class="" href="http://www.amazon.co.jp/exec/obidos/ASIN/4839941874/hatena-betest-22/ref=nosim" title="" data-entryrank="3" data-track-click-target="entry"><img src="http://ecx.images-amazon.com/images/I/51cGTKeIUQL._SS200_.jpg" alt="" /></a>
+            </li>
+            <li class="date">2012/03/05 12:50</li>
+        </ul>
+    </div>
+    <ul class="entry-meta">
+        <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fwww.amazon.co.jp%2F" title="『Amazon』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fwww.amazon.co.jp%2F" class="favicon" alt="" /><span>www.amazon.co.jp</span></a></li>
+                <li class="tag">
+                      <a href="http://b.hatena.ne.jp/search/tag?q=javascript" rel="tag" class="tag">javascript</a>
+                      <a href="http://b.hatena.ne.jp/search/tag?q=%E6%9C%AC" rel="tag" class="tag">本</a>
+                      <a href="http://b.hatena.ne.jp/search/tag?q=book" rel="tag" class="tag">book</a>
+                      <a href="http://b.hatena.ne.jp/search/tag?q=Amazon" rel="tag" class="tag">Amazon</a>
+                </li>
+    </ul>
+        <div class="follow"></div>
+</li><li class="entry-unit category-it hb-entry-unit-with-favorites recommended has-image" data-eid="149009334" data-bookmark-count="11" data-entryrank="4">
+    <ul class="users">
+      <li><strong><a href="/entry/www.amazon.co.jp/gp/product/487311621X" data-track-click-target="entry" title="すべてのブックマークを見る"><span>11</span> users</a></strong></li>
+    </ul>
+    <div class="entry-contents">
+        <h3 class="hb-entry-link-container" ><a href="http://www.amazon.co.jp/exec/obidos/ASIN/487311621X/hatena-betest-22/ref=nosim" class="entry-link"  title="Amazon.co.jp： 開眼! JavaScript ―言語仕様から学ぶJavaScriptの本質: Cody Lindley, 和田 祐一郎: 本" data-entryrank="4" data-track-click-target="direct">開眼!  JavaScript ―言語仕様から学ぶJavaScriptの本質</a></h3>
+        <ul class="entry-data">
+            <li class="description"><blockquote>商品の説明内容紹介 本書は、JavaScriptの言語的特性で知っておくべきポイントをまとめた書籍です。...</blockquote></li>
+            <li class="thumbnail">
+                <a class="" href="http://www.amazon.co.jp/exec/obidos/ASIN/487311621X/hatena-betest-22/ref=nosim" title="" data-entryrank="4" data-track-click-target="entry"><img src="http://ecx.images-amazon.com/images/I/51jMq3+DklL._SS200_.jpg" alt="" /></a>
+            </li>
+            <li class="date">2013/06/04 21:48</li>
+        </ul>
+    </div>
+    <ul class="entry-meta">
+        <li class="domain"><a class="domain" href="/entrylist?url=http%3A%2F%2Fwww.amazon.co.jp%2F" title="『Amazon』の新着エントリー"><img src="http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fwww.amazon.co.jp%2F" class="favicon" alt="" /><span>www.amazon.co.jp</span></a></li>
+                <li class="tag">
+                      <a href="http://b.hatena.ne.jp/search/tag?q=javascript" rel="tag" class="tag">javascript</a>
+                      <a href="http://b.hatena.ne.jp/search/tag?q=book" rel="tag" class="tag">book</a>
+                      <a href="http://b.hatena.ne.jp/search/tag?q=%22amazon+book%22" rel="tag" class="tag">amazon book</a>
+                      <a href="http://b.hatena.ne.jp/search/tag?q=%E6%9B%B8%E7%B1%8D%E8%B3%BC%E5%85%A5%E5%80%99%E8%A3%9C" rel="tag" class="tag">書籍購入候補</a>
+                </li>
+    </ul>
+        <div class="follow"></div>
+</li>
+    </ul>
+    <script type="text/javascript">
+      // <![CDATA[
+        var loader = Hatena.Bookmark.LazyFavoriteLoader.getInstance()
+            loader.appendType('entry-related-amazon');
+            loader.init();
+      // ]]>
+    </script>
+        </div>
+    </div>
+
+</div>      </div>
+    </div>
+    </div>
+
+    
+    <div id="navi-foot">
+        <ul id="navi-foot-category">
+            <li class="top"><a href="/" class="category top">トップ</a></li>
+            <li class="headline"><a href="/headline" class="category headline">ヘッドライン</a></li>
+            <li class="hotentry"><a href="/hotentry" class="category hotentry">総合</a></li>
+            <li class="group1 category-social"><a href="/hotentry/social" class="category group1">世の中</a></li>
+            <li class="group1 category-economics"><a href="/hotentry/economics" class="category group1">政治と経済</a></li>
+            <li class="group2 category-life"><a href="/hotentry/life" class="category group2">暮らし</a></li>
+            <li class="group2 category-knowledge"><a href="/hotentry/knowledge" class="category group2">学び</a></li>
+            <li class="group3 category-it"><a href="/hotentry/it" class="category group3">テクノロジー</a></li>
+            <li class="group4 category-entertainment"><a href="/hotentry/entertainment" class="category group4">エンタメ</a></li>
+            <li class="group4 category-game"><a href="/hotentry/game" class="category group4">アニメとゲーム</a></li>
+            <li class="group4 category-fun"><a href="/hotentry/fun" class="category group4">おもしろ</a></li>
+            <li class="group5 category-video"><a href="/video" class="category group5">動画</a></li>
+        </ul>
+    </div>
+
+    <div id="footer">
+        <div class="footer-link">
+            <a href="/">トップ</a>
+            <a href="/hotentry">人気エントリー</a>
+            <a href="/entrylist">新着エントリー</a>
+            <a href="/articles">はてなブックマークニュース</a>
+            <a href="/guide/tools">アプリ・拡張機能</a>
+            <a href="http://bookmark.hatenastaff.com/">開発ブログ</a>
+            <a href="/help">ヘルプ</a>
+        </div>
+        <div id="copyright">Copyright &copy; 2005&ndash;2013 <a href="http://www.hatena.ne.jp/">Hatena</a>. All Rights Reserved.</div>
+    </div>
+
+<script type="text/javascript">
+(function () {
+    var infoHeader = document.getElementById('info-header');
+    var info_data  = [];
+    if (info_data && infoHeader) {
+        new Hatena.Bookmark.Information(infoHeader, info_data);
+    }
+})();
+
+</script>
+
+<script type="text/javascript">Hatena.Bookmark.Browsing.document.checkPageLoad();</script>
+            <script>
+                var blogparts = new Hatena.Bookmark.Blogparts({
+                    "blogPartsContainer"    : "#entry-blogparts",
+                    "tagArea"               : "input.blogparts-text",
+                    "widgetTagArea"         : "input.blogparts-widget-text",
+                    "entryTitle"            : "JavaScript製の顔認識ライブラリがすごい | DECONCEPTER",
+                    "formContainer"         : "#blogparts-container",
+                    "previewDiv"            : "#blogparts-preview",
+                    "widgetContainer"       : "#blogparts-widget-container",
+                    "widgetPreviewDiv"      : "#blogparts-widget-preview",
+                    "linkCheckboxUl"        : "#blogparts-link-checkbox-container"
+                });
+                blogparts.registerToggleBlogPartsContainer("#entry-blogparts-toggle-button");
+                blogparts.registerLinkCheckbox("input.blogparts-link-checkbox");
+                blogparts.registerTogglePreview("#preview-button");
+                blogparts.registerToggleWidgetPreview("#preview-widget-button");
+                blogparts.init();
+            </script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(
+    ['_setCustomVar', 1, 'usertype', 'guest'],
+    ['_setAccount', 'UA-20092244-1'],
+    ['_trackPageview'],
+    ['b._setAccount', 'UA-7855606-1'],
+    ['b._setDomainName', '.hatena.ne.jp'],
+    ['b._trackPageview'],
+    ['c._setAccount', 'UA-441387-3'],
+    ['c._trackPageview']
+  );
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><script type="text/javascript" src="http://cdn-ak.b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+</body>
+</html>

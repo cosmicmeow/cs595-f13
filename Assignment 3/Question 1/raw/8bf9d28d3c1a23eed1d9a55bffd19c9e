@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head><script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js"></script><script type="text/javascript">GS_googleAddAdSenseService("ca-pub-2468178897216830");GS_googleEnableAllServices();</script><script type="text/javascript">GA_googleAddSlot("ca-pub-2468178897216830", "sen_top5");</script><script type="text/javascript">GA_googleAddSlot("ca-pub-2468178897216830", "sen_top4");</script><script type="text/javascript">GA_googleAddSlot("ca-pub-2468178897216830", "sen_top6");</script><script type="text/javascript">GA_googleAddSlot("ca-pub-2468178897216830", "sen_top7");</script><script type="text/javascript">GA_googleAddSlot("ca-pub-2468178897216830", "sen_top8");</script><script type="text/javascript">GA_googleAddSlot("ca-pub-2468178897216830", "sen_720*90");</script><script type="text/javascript">GA_googleAddSlot("ca-pub-2468178897216830", "sen_300*250");</script><script type="text/javascript">GA_googleAddSlot("ca-pub-2468178897216830", "sen_300*250_2");</script><script type="text/javascript">GA_googleAddSlot("ca-pub-2468178897216830", "160*600");</script><script type="text/javascript">GA_googleAddSlot("ca-pub-2468178897216830", "120*600");</script><script type="text/javascript">GA_googleFetchAds();</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22797761-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+
+<meta name="keywords" content="企業情報,ポータルサイト,日立製作所">
+<meta name="description" content="企業情報ポータルサイト - 日立製作所">
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+<title>百年の涙 - 日立製作所</title>
+
+</head>
+<body oncontextmenu="return false;">
+
+<!-- コンテナ開始 -->
+<div id="container">
+
+<!-- ページ開始 -->
+<div id="page">
+
+
+<!-- ヘッダ開始 -->
+<div id="header">
+
+<!-- ++Begin Blog Bar Wizard Generated Code++ -->
+  <!--
+  // Created with a Google AJAX Search Wizard
+  // http://code.google.com/apis/ajaxsearch/wizards.html
+  -->
+
+  <!--
+  // The Following div element will end up holding the actual blogbar.
+  // You can place this anywhere on your page.
+  -->
+  <div id="blogBar-bar">
+    <span style="color:#676767;font-size:11px;margin:10px;padding:4px;">Loading...</span>
+  </div>
+
+  <!-- Ajax Search Api and Stylesheet
+  // Note: If you are already using the AJAX Search API, then do not include it
+  //       or its stylesheet again
+  //
+  // The Key Embedded in the following script tag is designed to work with
+  // the following site:
+  // http://ictmax.jpn.ph/news/
+  -->
+  <script src="http://www.google.com/uds/api?file=uds.js&v=1.0&source=uds-blbw&key=ABQIAAAAA5DXXOH5XlvVTUxkSo04thQlz5e8g12CGWa30lE2LKerPUPWxBSh4kpuowRHGcFS0lT9kPce_zpriw"
+    type="text/javascript"></script>
+  <style type="text/css">
+    @import url("http://www.google.com/uds/css/gsearch.css");
+  </style>
+
+  <!-- Blog Bar Code and Stylesheet -->
+  <script src="http://www.google.com/uds/solutions/blogbar/gsblogbar.js?mode=new"
+    type="text/javascript"></script>
+  <style type="text/css">
+    @import url("http://www.google.com/uds/solutions/blogbar/gsblogbar.css");
+  </style>
+
+  <script type="text/javascript">
+    function LoadBlogBar() {
+      var blogBar;
+      var options = {
+        largeResultSet : false,
+        title : "The blogsphere",
+        horizontal : true,
+        orderBy : GSearch.ORDER_BY_DATE,
+        autoExecuteList : {
+          executeList : ["日立製作所"]
+        }
+      }
+
+      blogBar = new GSblogBar(document.getElementById("blogBar-bar"), options);
+    }
+    // arrange for this function to be called during body.onload
+    // event processing
+    GSearch.setOnLoadCallback(LoadBlogBar);
+  </script>
+<!-- ++End Blog Bar Wizard Generated Code++ -->
+
+<table width="100%">
+<td align="left">
+<h1 class="siteTitle"><a href=http://enterprise.jpn.org/><img src="./sennen.jpg" alt="百年の涙"></a></h1>
+
+<p class="catch" align="center"><strong>企業情報ポータルサイト</strong></p>
+</td>
+
+<td align="right">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-2468178897216830";
+/* 728x15, 作成済み 11/06/21 */
+google_ad_slot = "4009263915";
+google_ad_width = 728;
+google_ad_height = 15;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<!-- sen_720*90 --><script type="text/javascript">GA_googleFillSlot("sen_720*90");</script>
+
+
+
+
+
+
+
+
+
+
+</td>
+</table>
+
+
+<div class="opening">
+
+</div>
+
+
+<ul class="spotlight">
+
+
+
+<form action="http://ictmax.jpn.ph/" id="cse-search-box">
+  <div>
+    <input type="hidden" name="cx" value="partner-pub-2468178897216830:9408544963" />
+    <input type="hidden" name="cof" value="FORID:10" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" size="52" />
+    <input type="submit" name="sa" value="&#x691c;&#x7d22;" />
+  </div>
+</form>
+<script type="text/javascript" src="http://www.google.co.jp/cse/brand?form=cse-search-box&amp;lang=ja"></script> 
+
+
+</ul>
+
+<table width="100%">
+<td align="left">
+<ol class="topicPath">
+
+
+
+
+</table>
+
+</div>
+
+<!-- ヘッダ終了 -->
+
+<!-- サイドバー(B)開始 -->
+<div id="aside">
+
+<div class="section strong">
+
+<iframe frameborder=0 marginwidth=0 marginheight=0 border=0 style="border:0;margin:0;width:300px;height:250px;" src="http://www.google.com/uds/modules/elements/newsshow/iframe.html?rsz=large&format=300x250&q=%E6%97%A5%E7%AB%8B%E8%A3%BD%E4%BD%9C%E6%89%80&element=true" scrolling="no" allowtransparency="true"></iframe>
+
+<!-- sen_300*250 --><script type="text/javascript">GA_googleFillSlot("sen_300*250");</script>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="section pickup">
+
+<h2>[ Sponsored Links ]</h2>
+
+<ul>
+
+
+<!-- sen_300*250_2 --><script type="text/javascript">GA_googleFillSlot("sen_300*250_2");</script>
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+<!-- ↑最後の項目（li要素）にクラス名（last）を設定してください -->
+
+</div>
+
+
+<div class="section pickup"><h2>[ The following advertisement are<br><div align="right">Wild Card Choices. ]</div></h2>
+<!-- sen_top4 --><script type='text/javascript'>GA_googleFillSlot("sen_top4");</script>
+
+
+
+
+
+
+
+
+<!-- sen_top5 --><script type='text/javascript'>GA_googleFillSlot("sen_top5");</script>
+
+<center><table><tr>
+<td><!-- 160*600 --><script type='text/javascript'>GA_googleFillSlot("160*600");</script></td>&nbsp;
+<td><!-- 120*600 --><script type='text/javascript'>GA_googleFillSlot("120*600");</script></td>
+</tr></table></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- sen_top8 --><script type='text/javascript'>GA_googleFillSlot("sen_top8");</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- sen_top6 --><script type='text/javascript'>GA_googleFillSlot("sen_top6");</script>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<hr class="none">
+
+</div>
+<!-- サイドバー(B)終了 -->
+
+
+<!-- メインカラム開始 -->
+<div id="main">
+
+<div class="pageTitle">
+<table width="100%">
+<td align="left">
+<h1>日立製作所</h1>
+</td>
+<td align="right">
+<a href=./index.shtml><font color="white">＜トップナンバー</font></a>
+<font color="white">｜</font><a href=http://enterprise.jpn.org/hitachiseisakusho/b/b236a167-2d94-11e3-a817-525400ee4425.html><font color="white">バックナンバー＞</font></a>
+</td>
+</table>
+
+</div>
+
+<div class="section normal">
+
+<HTML>
+    <HEAD>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="style_light.css">
+
+        <TITLE>
+            SenNen's Okage
+        </TITLE>
+    </HEAD>
+<BODY>
+
+<div id="rss_feed">
+  <p id="feed_description"></p>
+  <ul class="items_record">
+    <li class="items_area">
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNFTZpzf2aluD6-J_IhIsOHYB0pL5A&amp;url=http://sankei.jp.msn.com/economy/news/131005/fnc13100508450002-n1.htm" title="日立、１２月にワシントンで取締役会 - MSN産経ニュース"><strong>日立、１２月にワシントンで取締役会 - MSN産経ニュース</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNFTZpzf2aluD6-J_IhIsOHYB0pL5A&amp;url=http://sankei.jp.msn.com/economy/news/131005/fnc13100508450002-n1.htm"><b><b>日立</b>、１２月にワシントンで取締役会</b></a><br /><font size="-1"><b><font color="#6f6f6f">MSN産経ニュース</font></b></font><br /><font size="-1">【ワシントン＝柿内公輔】<b>日立</b>製作所は４日、１２月初旬にワシントンで取締役会を開く方針を明らかにした。訪米中の中西宏明社長が記者団に語った。海外では昨年のインドに続き２回目で、重要市場と位置づける米国での事業展開の強化をアピールする。 中西社長は「今後は&nbsp;<b>...</b></font><br /><font size="-1"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNHRwF7FS6qb_ZL_p4kRWxAbXe_F1Q&amp;url=http://www.jiji.com/jc/c?g%3Deco_30%26k%3D2013100500097">１２月にワシントンで取締役会＝<b>日立</b>、海外定例化</a><font size="-1" color="#6f6f6f"><nobr>時事通信</nobr></font></font><br /><font size="-1" class="p"></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=d6aFfiFvLUQC8YM_FpSeOU9spX5CM&amp;ned=us&amp;hl=ja"><nobr><b>all 2 news articles&nbsp;&raquo;</b></nobr></a></font></div></font></td></tr></table></p>
+      <p class="feed_date_time">10/05/2013 08:50 AM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNE8b8HmdcGwziKroEjGm177bjJWBA&amp;url=http://itpro.nikkeibp.co.jp/article/NEWS/20131003/508682/" title="日立、デスクトップ仮想化の垂直統合モデルを発表 - ITpro"><strong>日立、デスクトップ仮想化の垂直統合モデルを発表 - ITpro</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNE8b8HmdcGwziKroEjGm177bjJWBA&amp;url=http://itpro.nikkeibp.co.jp/article/NEWS/20131003/508682/"><b><b>日立</b>、デスクトップ仮想化の垂直統合モデルを発表</b></a><br /><font size="-1"><b><font color="#6f6f6f">ITpro</font></b></font><br /><font size="-1"><b>日立</b>製作所は2013年10月3日、垂直統合型システム「<b>Hitachi</b> Unified Compute Platform」（UCP）のラインアップを拡充し、デスクトップ仮想化環境（VDI）の構築に特化した新モデル「<b>Hitachi</b> Unified Compute PlatformかんたんVDIモデル」（写真）を発表した。VDIに必要な&nbsp;<b>...</b></font><br /><font size="-1" class="p"></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=dher8nm0vhVORiM&amp;ned=us&amp;hl=ja"><nobr><b></b></nobr></a></font></div></font></td></tr></table></p>
+      <p class="feed_date_time">10/03/2013 05:16 PM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNGn6sOnecN0kiPqpsk6JK9ecBQmwg&amp;url=http://www.nikkei.com/article/DGXNZO60711090W3A001C1TJC000/" title="日立建機、納期３割短縮 国内の生産効率化 - 日本経済新聞"><strong>日立建機、納期３割短縮 国内の生産効率化 - 日本経済新聞</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNGn6sOnecN0kiPqpsk6JK9ecBQmwg&amp;url=http://www.nikkei.com/article/DGXNZO60711090W3A001C1TJC000/"><b><b>日立</b>建機、納期３割短縮 国内の生産効率化</b></a><br /><font size="-1"><b><font color="#6f6f6f">日本経済新聞</font></b></font><br /><font size="-1"><b>日立</b>建機は国内工場の生産効率化に着手する。組み立てラインの配置変更や、取引先からの部品調達体制の見直しなどに取り組み、2016年度までに納期を３割短縮する方針。今年度中に具体的な計画をまとめ、来年度に策定する16年度までの中期経営計画の柱にする。</font><br /><font size="-1" class="p"></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=dGaULmq_QNbCI3M&amp;ned=us&amp;hl=ja"><nobr><b></b></nobr></a></font></div></font></td></tr></table></p>
+      <p class="feed_date_time">10/06/2013 01:02 AM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNF5Nvk1UeGqMRMCzJVv1t-f80-_FA&amp;url=http://cloud.watch.impress.co.jp/docs/news/20131003_617999.html" title="日立、VDI環境を容易に導入できる垂直統合型製品〜PoC用の小型モデルも - クラウド Watch"><strong>日立、VDI環境を容易に導入できる垂直統合型製品〜PoC用の小型モデルも - クラウド Watch</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNF5Nvk1UeGqMRMCzJVv1t-f80-_FA&amp;url=http://cloud.watch.impress.co.jp/docs/news/20131003_617999.html"><b><b>日立</b>、VDI環境を容易に導入できる垂直統合型製品〜PoC用の小型モデルも</b></a><br /><font size="-1"><b><font color="#6f6f6f">クラウド Watch</font></b></font><br /><font size="-1">株式会社<b>日立</b>製作所（以下、<b>日立</b>）は3日、仮想デスクトップ（VDI）環境を容易に構築できる垂直統合型製品「<b>Hitachi</b> Unified Compute Platform かんたんVDIモデル」（以下、かんたんVDIモデル）を発表した。 「かんたんVDIモデル」は、VDIに必要なサーバー、ストレージなどの&nbsp;<b>...</b></font><br /><font size="-1" class="p"></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=dSL9oPuVpCVLMOM&amp;ned=us&amp;hl=ja"><nobr><b></b></nobr></a></font></div></font></td></tr></table></p>
+      <p class="feed_date_time">10/03/2013 01:34 PM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNHmAVAfbNrfH2eHcpf0E7QNmoleEA&amp;url=http://biz.bcnranking.jp/article/keyperson/1310/131003_134629.html" title="日立ソリューションズ 社長 佐久間嘉一郎 - BCN　Bizline"><strong>日立ソリューションズ 社長 佐久間嘉一郎 - BCN　Bizline</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNHmAVAfbNrfH2eHcpf0E7QNmoleEA&amp;url=http://biz.bcnranking.jp/article/keyperson/1310/131003_134629.html"><b><b>日立</b>ソリューションズ 社長 佐久間嘉一郎</b></a><br /><font size="-1"><b><font color="#6f6f6f">BCN　Bizline</font></b></font><br /><font size="-1"><b>日立</b>ソリューションズは、米MicrosoftのERP（統合基幹業務システム）「Dynamics」を軸にグローバル進出を加速する。<b>日立</b>グループの再編も含めて、<b>日立</b>ソリューションズは欧米と中国、インドに計15拠点を展開し、およそ500人のスタッフを擁している。「Dynamicsを軸の一つと&nbsp;<b>...</b></font><br /><font size="-1" class="p"></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=dIFYGBUHjykytfM&amp;ned=us&amp;hl=ja"><nobr><b></b></nobr></a></font></div></font></td></tr></table></p>
+      <p class="feed_date_time">10/03/2013 10:36 AM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNHuJeEjyMXluMh71lq-uqjopNdMVg&amp;url=http://japan.zdnet.com/datacenter/analysis/35037989/" title="日立が垂直統合型の新製品--デスクトップ仮想化システム構築向け - ZDNet Japan"><strong>日立が垂直統合型の新製品--デスクトップ仮想化システム構築向け - ZDNet Japan</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNHuJeEjyMXluMh71lq-uqjopNdMVg&amp;url=http://japan.zdnet.com/datacenter/analysis/35037989/"><b><b>日立</b>が垂直統合型の新製品--デスクトップ仮想化システム構築向け</b></a><br /><font size="-1"><b><font color="#6f6f6f">ZDNet Japan</font></b></font><br /><font size="-1"><b>日立</b>製作所は10月3日、ハードウェアとソフトウェアを一体化させる垂直統合型システム「<b>Hitachi</b> Unified Compute Platform（UCP）」に、デスクトップ仮想化環境（VDI）を構築、運用できるモデルを投入すると発表した。10月4日から販売を開始する。 製品名は「<b>Hitachi</b> Unified&nbsp;<b>...</b></font><br /><font size="-1" class="p"></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=daL731EInlCBJ7M&amp;ned=us&amp;hl=ja"><nobr><b></b></nobr></a></font></div></font></td></tr></table></p>
+      <p class="feed_date_time">10/03/2013 03:08 PM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNHRDWHOt0n6OlUjCwUBnHb0ajqGSQ&amp;url=http://www.nikkeibp.co.jp/article/news/20131005/367879/" title="日立グループが自動駐車システムを開発、カメラ4個で実現 - nikkei BPnet"><strong>日立グループが自動駐車システムを開発、カメラ4個で実現 - nikkei BPnet</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNHRDWHOt0n6OlUjCwUBnHb0ajqGSQ&amp;url=http://www.nikkeibp.co.jp/article/news/20131005/367879/"><b><b>日立</b>グループが自動駐車システムを開発、カメラ4個で実現</b></a><br /><font size="-1"><b><font color="#6f6f6f">nikkei BPnet</font></b></font><br /><font size="-1"><b>日立</b>グループのクラリオンは、<b>日立</b>オートモティブシステムズ（AS）や<b>日立</b>製作所と共同で、自動で駐車するシステムを開発していることを「CEATEC JAPAN 2013」で発表した。車両のステアリングとブレーキ、エンジンを制御することで駐車枠に自動で入れる。技術面では「ほぼ&nbsp;<b>...</b></font><br /><font size="-1" class="p"></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=dsbw-vVq4f9eq7M&amp;ned=us&amp;hl=ja"><nobr><b>and more&nbsp;&raquo;</b></nobr></a></font></div></font></td></tr></table></p>
+      <p class="feed_date_time">10/05/2013 04:15 PM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNFs2YTg1A5zpRb75CghAG2VxG6acw&amp;url=http://enterprisezine.jp/article/detail/5216" title="日立、デスクトップ仮想化システム向けの日立統合プラットフォームを発表 - EnterpriseZine"><strong>日立、デスクトップ仮想化システム向けの日立統合プラットフォームを発表 - EnterpriseZine</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNFs2YTg1A5zpRb75CghAG2VxG6acw&amp;url=http://enterprisezine.jp/article/detail/5216"><b><b>日立</b>、デスクトップ仮想化システム向けの<b>日立</b>統合プラットフォームを発表</b></a><br /><font size="-1"><b><font color="#6f6f6f">EnterpriseZine</font></b></font><br /><font size="-1"><b>日立</b>製作所は、10月3日、<b>日立</b>統合プラットフォーム「<b>Hitachi</b> Unified Compute Platform（UCP）」において、デスクトップ仮想化環境（VDI）の構築向けに、「<b>Hitachi</b> Unified Compute Platform かんたんVDIモデル｣を10月4日から販売開始すると発表した。 この製品は、VDIに&nbsp;<b>...</b></font><br /><font size="-1" class="p"></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=d1uut4KSkz2MQTM&amp;ned=us&amp;hl=ja"><nobr><b></b></nobr></a></font></div></font></td></tr></table></p>
+      <p class="feed_date_time">10/03/2013 12:51 PM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNF94wsK0PBsmnyDblHQa93VZUXrQA&amp;url=http://www.hokkaido-np.co.jp/news/levanga/496258.html" title="レバンガ、反撃及ばず 日立に７３―８１ - 北海道新聞"><strong>レバンガ、反撃及ばず 日立に７３―８１ - 北海道新聞</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNEZpJkrlcz46t_Idq8_6bx9H81aMQ&amp;url=http://www.yomiuri.co.jp/e-japan/hokkaido/news/20131005-OYT8T00021.htm?from%3Dosusume"><img src="//t1.gstatic.com/images?q=tbn:ANd9GcTYxS0NrHbajcOwXbc1Y67zXXRXmpRu9ZKLhMPqt4P9a1VuYAqV8stf3iN8HwyAP49NYS51rf0" alt="" border="1" width="80" height="80" /><br /><font size="-2">読売新聞</font></a></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNF94wsK0PBsmnyDblHQa93VZUXrQA&amp;url=http://www.hokkaido-np.co.jp/news/levanga/496258.html"><b>レバンガ、反撃及ばず <b>日立</b>に７３―８１</b></a><br /><font size="-1"><b><font color="#6f6f6f">北海道新聞</font></b></font><br /><font size="-1">バスケットボール男子のナショナルリーグ（ＮＢＬ）の第２節第２日は５日、東京代々木第二体育館などで６試合を行い、レバンガ北海道は<b>日立</b>東京に７３―８１で敗れた。レバンガは前半を３７―４２で折り返し、第３クオーターで一時は逆転したが、<b>日立</b>東京に３点シュートなどで&nbsp;<b>...</b></font><br /><font size="-1"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNEZpJkrlcz46t_Idq8_6bx9H81aMQ&amp;url=http://www.yomiuri.co.jp/e-japan/hokkaido/news/20131005-OYT8T00021.htm?from%3Dosusume">レバンガ・折茂選手、５００試合出場…国内トップリーグ初</a><font size="-1" color="#6f6f6f"><nobr>読売新聞</nobr></font></font><br /><font size="-1" class="p"></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=duszcYhb0ljjm4MTrNBSaMvHNCwhM&amp;ned=us&amp;hl=ja"><nobr><b>all 4 news articles&nbsp;&raquo;</b></nobr></a></font></div></font></td></tr></table></p>
+      <p class="feed_date_time">10/05/2013 09:52 PM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNHJANq9m2DXLDh5wp-OFRKs12mpbg&amp;url=http://www.nikkeibp.co.jp/article/news/20131004/367745/" title="日立、デスクトップ仮想化の垂直統合モデルを発表、2カ月で導入可能 - nikkei BPnet"><strong>日立、デスクトップ仮想化の垂直統合モデルを発表、2カ月で導入可能 - nikkei BPnet</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNHJANq9m2DXLDh5wp-OFRKs12mpbg&amp;url=http://www.nikkeibp.co.jp/article/news/20131004/367745/"><b><b>日立</b>、デスクトップ仮想化の垂直統合モデルを発表、2カ月で導入可能</b></a><br /><font size="-1"><b><font color="#6f6f6f">nikkei BPnet</font></b></font><br /><font size="-1">[画像のクリックで拡大表示]. <b>日立</b>製作所は2013年10月3日、垂直統合型システム「<b>Hitachi</b> Unified Compute Platform」のラインアップを拡充し、デスクトップ仮想化環境の構築に特化した新モデル「<b>Hitachi</b> Unified Compute PlatformかんたんVDIモデル」を発表した。VDIに必要&nbsp;<b>...</b></font><br /><font size="-1" class="p"></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=dg-XwPojdXcKmRM&amp;ned=us&amp;hl=ja"><nobr><b></b></nobr></a></font></div></font></td></tr></table></p>
+      <p class="feed_date_time">10/04/2013 06:14 PM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNGTfBwUthn_LbBx0ilc1NVr0S7o-A&amp;url=http://itpro.nikkeibp.co.jp/article/NCD/20130930/507748/" title="「インフラ×IT」と「反骨心」でアジアを攻める---日立アジア梶芳氏 - ITpro"><strong>「インフラ×IT」と「反骨心」でアジアを攻める---日立アジア梶芳氏 - ITpro</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNGTfBwUthn_LbBx0ilc1NVr0S7o-A&amp;url=http://itpro.nikkeibp.co.jp/article/NCD/20130930/507748/"><b>「インフラ×IT」と「反骨心」でアジアを攻める---<b>日立</b>アジア梶芳氏</b></a><br /><font size="-1"><b><font color="#6f6f6f">ITpro</font></b></font><br /><font size="-1">インフラとITの融合、研究所と事業部門の連携によるイノベーションの創出――。<b>日立</b>製作所の新たな取り組みが、アジアで進みつつある。日本の拠点に比べて要員や予算といった経営リソースに制約があるなか、「小所帯」であることを強みに、小回りを利かせて臨んでいる。</font><br /><font size="-1" class="p"></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=d667oxNbZo792jM&amp;ned=us&amp;hl=ja"><nobr><b></b></nobr></a></font></div></font></td></tr></table></p>
+      <p class="feed_date_time">10/05/2013 01:16 AM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNHGGszYIeiXKg3cw3Dd9vELSdaOWg&amp;url=http://mainichi.jp/area/ibaraki/news/m20131005ddlk08100197000c.html" title="茨城ブランド:みそプリン 日立「味噌蔵 みずきの庄」 ／茨城 - 毎日新聞"><strong>茨城ブランド:みそプリン 日立「味噌蔵 みずきの庄」 ／茨城 - 毎日新聞</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNHGGszYIeiXKg3cw3Dd9vELSdaOWg&amp;url=http://mainichi.jp/area/ibaraki/news/m20131005ddlk08100197000c.html"><b>茨城ブランド:みそプリン <b>日立</b>「味噌蔵 みずきの庄」 ／茨城</b></a><br /><font size="-1"><b><font color="#6f6f6f">毎日新聞</font></b></font><br /><font size="-1">創業１３５年のみそ製造・販売業「味噌蔵 みずきの庄」（<b>日立</b>市水木町）はみそを生かした新商品の開発に取り組み、「みそプリン」を考案した。２００７年に商品化。当初は同社に併設するカフェで１日２０個の限定販売だった。しかし、珍しいマッチングと深い味わいが話題を呼び、今&nbsp;<b>...</b></font><br /><font size="-1" class="p"></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=dCn6WKnaoWAqydM&amp;ned=us&amp;hl=ja"><nobr><b></b></nobr></a></font></div></font></td></tr></table></p>
+      <p class="feed_date_time">10/05/2013 01:50 PM</p>
+      <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+      <p class="feed_item_title"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNFvWFROH0eLzocb8Oq1OepnMdEQMA&amp;url=http://www.nikkei.com/article/DGKDZO60432250R01C13A0MM8000/" title="日立製作所（下）勝つため人材多様化 - 日本経済新聞"><strong>日立製作所（下）勝つため人材多様化 - 日本経済新聞</strong></a></p>
+      <p class="item_description"><table border="0" cellpadding="2" cellspacing="7" style="vertical-align:top;"><tr><td width="80" align="center" valign="top"><font style="font-size:85%;font-family:arial,sans-serif"></font></td><td valign="top" class="j"><font style="font-size:85%;font-family:arial,sans-serif"><br /><div style="padding-top:0.8em;"><img alt="" height="1" width="1" /></div><div class="lh"><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;usg=AFQjCNFvWFROH0eLzocb8Oq1OepnMdEQMA&amp;url=http://www.nikkei.com/article/DGKDZO60432250R01C13A0MM8000/"><b><b>日立</b>製作所（下）勝つため人材多様化</b></a><br /><font size="-1"><b><font color="#6f6f6f">日本経済新聞</font></b></font><br /><font size="-1">先月18日、<b>日立</b>製作所の東京本社で中西宏明社長、川村隆会長を前に話し始めたのは米子会社、<b>日立</b>データシステムズのジャック・ドメ最高経営責任者（ＣＥＯ）だ。 「米国ならクビ」. ３カ月に一度、海外で幹部を務める外国人から意見を聞く「グローバルセッション」。この日は&nbsp;<b>...</b></font><br /><font size="-1" class="p"></font><br /><font class="p" size="-1"><a class="p" href="http://news.google.com/news/more?ncl=dMZSVhS9MgSAK_M&amp;ned=us&amp;hl=ja"><nobr><b>and more&nbsp;&raquo;</b></nobr></a></font></div></font></td></tr></table></p>
+      <p class="feed_date_time">10/01/2013 07:03 AM</p>
+      
+<br id="cb">
+    </li>
+  </ul>
+</div>
+
+
+    </BODY>
+</HTML>
+
+
+</div>
+
+
+</div>
+<!-- メインカラム終了 -->
+
+
+
+
+<!-- フッタ開始 -->
+<div id="footer">
+
+<address>
+Copyright (C) <script language="javascript">document.write(new Date().getFullYear())</script>  <a href="http://ictmax.info">レンタルサーバ[ICTmax]</a>. All Rights Reserved.
+</address>
+
+</div>
+<!-- フッタ終了 -->
+
+
+</div>
+<!-- ページ終了 -->
+
+</div>
+<!-- コンテナ終了 -->
+
+</body>
+</html>

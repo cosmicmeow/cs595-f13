@@ -1,0 +1,443 @@
+    
+    
+    
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="author" content="MuchMusic" /><meta name="thumbnail" content="Help my school win a VJ-hosted MuchVideoDance AND get featured on TV! " /><meta property="og:type" content="video"/><meta property="og:site_name" content="MuchMusic"/><meta property="fb:app_id" content="131515486897956"/><meta property="og:title" content="Help my school win a VJ-hosted MuchVideoDance AND get featured on TV!" /><meta property="og:url" content="http://www.muchmusic.com/music/muchvideodance/profile/archbishop-romero-css/458777/" /><link rel="canonical" href="http://www.muchmusic.com/music/muchvideodance/profile/archbishop-romero-css/458777/" /><meta property="og:image" content="http://s3.amazonaws.com/MuchMusic/contests/subway_mvd/13801560240532-frontschool-jpg"/><title>
+	MuchVideoDance Contest
+</title><link rel="stylesheet" href="/css/home/globalstyles30.css" type="text/css" /><link rel="stylesheet" href="/music/muchvideodance/styles/styles.css" type="text/css" /><link rel="stylesheet" href="/music/muchvideodance/styles/contest.css" type="text/css" /><link rel="stylesheet" href="/includes/js/jscrollpane/jscrollpane-v2.css" type="text/css" />
+    <script language="javascript" type="text/javascript" src="/includes/js/jquery.js"></script>
+    <script type="text/javascript"> _AUTO_TRACK = false; </script>
+	<script type="text/javascript" src="http://www.muchmusic.com/globalPageTracking.js" ></script>
+    <script type="text/javascript" src="http://www.muchmusic.com/includes/js/CorporatePageTracking.js"></script>
+	<script language="javascript" type="text/javascript" src="/includes/js/home30-nolistings.js"></script>
+    <script language="javascript" type="text/javascript" src="/music/muchvideodance/js/redeem.js"></script>
+    <script language="javascript" type="text/javascript" src="/includes/js/jscrollpane/jscrollpane-v2.js"></script>
+    <script language="javascript" type="text/javascript" src="/includes/js/jscrollpane/mousewheel-v2.js"></script>
+    <script type="text/javascript">
+	$(document).ready(function(){
+		var mvd_userid =458777;var mvd_profile_link ="http://www.muchmusic.com/music/muchvideodance/profile/archbishop-romero-css/458777/";var mvd_school_name ="Archbishop Romero CSS";
+		
+		
+		$('#Tweet').click(function(){
+			window.open('https://twitter.com/share?url='+encodeURIComponent(mvd_profile_link)+'&text=Help my school win a VJ-hosted MuchVideoDance AND get featured on TV!', 'Twitter', 'width=600, height=400');
+
+			if(getCookie("twitter_"+mvd_userid) == ""){
+				setCookie("twitter_"+mvd_userid,"voted",0);
+				$.getJSON("http://webservices.muchmusic.com/connect/extra/subway_mvd/subway_mvd.php?act=hypeMeter&jsoncallback=?", {userid:mvd_userid},function(data){});
+			} 
+			
+			return false;
+		});
+		
+		$('#FBShare').click(function(){
+			window.open('http://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(mvd_profile_link), 'Facebook', 'width=675, height=375');
+			
+			if(getCookie("fb_"+mvd_userid) == ""){
+				setCookie("fb_"+mvd_userid,"voted",0);
+				$.getJSON("http://webservices.muchmusic.com/connect/extra/subway_mvd/subway_mvd.php?act=hypeMeter&jsoncallback=?", {userid:mvd_userid},function(data){});
+			} 
+
+			return false;
+		});
+		$("#WhyScroll").jScrollPane();
+	});
+	function rulespopup(){
+		window.open('rules.html','popUp','scrollbars=yes,resizable=no,width=640, height=480');
+	}
+	</script>
+
+<style type="text/css">
+#ContestInfo{ background: url("/music/muchvideodance/images/contest/profile-bg2.jpg") 0 0 no-repeat; }
+#ContestInfo #FBShare { left: 17px; }
+#ContestInfo #Tweet { left: 150px;}
+
+#ContestInfo #ContestSubwayLogo {left: 50px; bottom: 115px}
+
+#ContestInfo #PrevProfile { position: absolute; width: 58px; height: 16px; top: 17px; right: 118px; text-indent: -9999px; display: none;}
+#ContestInfo #NextProfile { position: absolute; width: 110px; height: 30px; top: 13px; right: 18px; text-indent: -9999px; }
+#ContestInfo #BackHome { position: absolute; width: 55px; height: 18px; top: 17px; right: 134px; text-indent: -9999px; }
+
+#ContestInfo h3#HypeMeterTitle {margin:0; padding: 0; text-indent: -9999px; position: absolute; bottom: 75px; right: 440px; width: 200px;}
+
+#ContestInfo p {margin: 0; padding: 0; position: absolute; font-family:Arial, Helvetica, sans-serif; font-size: 18px; font-weight:bold;}
+#ContestInfo p#SchoolName {font-size: 30px; top: 100px; left: 56px; top: 42px;}
+#ContestInfo p#SubmittedBy { top: 100px; left: 56px; top: 81px;}
+#ContestInfo p#City { top: 129px; left: 345px; color: #ffff4c; }
+#ContestInfo p#Province { top: 155px; left: 345px; color: #ffff4c; }
+
+#ContestInfo p#WhyTitle{font-size: 16px; top: 200px; left: 345px;}
+#ContestInfo #WhyScroll{position:absolute; top: 222px; left: 345px; width:617px; height:174px;}
+#ContestInfo p#Why{font-size: 14px; font-weight: normal; position:relative; width:590px;}
+#ContestInfo img#SchoolImage { max-width:240px; max-height:186px; position: absolute; top: 122px; left: 72px;}
+
+#ContestInfo #HypeMeter {width: 0px; height: 8px; position: absolute; bottom: 34px; left: 310px; background: url("/music/muchvideodance/images/hypemeter.png") 0 0 no-repeat;}
+</style>    
+    
+<script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script></head>
+
+<body>
+<div style="display:none;">	
+    <script type="text/javascript">
+		Tracking.SetSubSections( "muchvideodance", "profile", "" );
+		Tracking.Track();
+    </script>
+
+</div>
+
+<div id="WrapperBG">
+<div id="Container">
+    <div id="Header">
+        <script language="javascript" type="text/javascript">
+	var theord = Math.ceil( Math.random() * 1000000000 ).toString();
+</script>
+<script language="javascript" type="text/javascript" src="/mmconnect/js/core.js"></script>
+<script language="javascript" type="text/javascript" src="/mmconnect/js/header-simple.js"></script>
+<script language="javascript" type="text/javascript" src="/includes/js/mobile-detect.js"></script>
+<script type="text/javascript">
+	$('body').prepend('<div id="fb-root"></div>');
+</script>
+<div id="HeaderMenu">
+	<div id="HeaderMenuInner">
+    	<style type="text/css">
+			#hdrcntdwn{
+				font-size:14px;
+				display:block;
+				position:absolute;
+				right:355px;
+				top:2px;
+			}	
+			#HeaderMenuInner a{
+				text-decoration:none;
+			}	
+			#hdrcntdwn b{
+				font-weight:normal;
+			}
+		</style>
+		<script type="text/javascript">
+            TargetDate2 = "01/7/2013 7:20 PM";
+            BackColor2 = "transparent";
+            ForeColor2 = "#ffffff";
+            CountActive2 = true;
+            CountStepper2 = -1;
+            LeadingZero2 = true;
+            DisplayFormat2 = "%%D%%:%%H%%:%%M%%:%%S%%";
+            FinishMessage2 = "";
+        </script> 
+        <script type="text/javascript" src="/itscoming/js/headercountdown.js"></script>
+        <a href="http://www.muchmusic.com/muchcloser/" id="MuchCloserHeaderLink">MuchCloser</a>
+        <div id="HeaderMenuLoggedOut">
+            <div id="HeaderMenuHover">
+            <a href="#" class="login" onclick="openwindow2(); tWin2(); return false;">Login</a>
+        	<ul>
+            	<li class="fblogin"><a href="#" onclick="connect(); return false;">Login With Facebook</a></li>
+                <li class="twitterlogin"><a href="#" onclick="openTwitterWin(); closeTwitterWin(); return false;">Login With Twitter</a></li>
+                <li class="muchlogin" style="border-bottom:none; padding-bottom:0;"><a href="#" onclick="muchloginclick();return false;">Login With Much</a></li>
+                <li class="loginbox" style="border-bottom:none; padding-top:0;">
+                	<div>
+                    	<span class="ErrorMessage"></span>
+                        <input type="text" id="email" value="Email"/>
+                        <input type="text" id="passwordtext" value="Password" />
+                        <input type="password" id="password" value="" />
+                        <a href="#" class="submit" onclick="return false;">Submit</a>
+                    </div>
+                </li>	
+            </ul>
+            </div>
+            <a href="#" class="signup" onclick="openRegisterWin(); closeRegisterWin(); return false;">Sign Up</a>
+        </div>
+        <div id="HeaderMenuLoggedIn">
+            <div class="bv_playerMeta" bv_options='{"meta":["notifications"]}' style=""></div>
+            <div id="HeaderMuchData">
+              <img src="http://www.muchmusic.com/mmconnect/userimages/default.gif" alt="User Image" width="16" height="16" class="UserImage"/>
+              <a href="#" class="AccountName" onclick="return false;">User</a>
+           <div class="bv_playerMeta" bv_options='{"meta":["points"]}' style=""></div>
+              <div id="HeaderMenuDropdown">
+                <ul>
+                    <li><a href="#" onclick="Badgeville.Settings.showProfile(Badgeville.Settings.user);">My Rewards</a></li>
+                    <li><a href="#" style="border-top:1px solid #333" onclick="openwindow(); tWin(); return false">Edit Profile</a></li>
+                    <li><a href="#" style="border-top:1px solid #333" onclick="logout(); return false;">Log Out</a></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+</div><h1><a href="http://www.muchmusic.com">MuchMusic.com</a></h1>
+
+<div id="NavigationBar">
+    <ul xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:media="http://search.yahoo.com/mrss/"><li id="Videos"><a class="NavItem" href="http://www.muchmusic.com/videos" title="Videos">Videos</a><div class="DropdownBody"><div class="DropdownInnerBody"><dl><dt>Much Shows</dt><dd><a href="http://www.muchmusic.com/tv/deathvalley/episodes/" title="Death Valley">Death Valley</a></dd><dd><a href="http://www.muchmusic.com/tv/degrassi/episodes/" title="Degrassi">Degrassi</a></dd><dd><a href="http://www.muchmusic.com/tv/billyonthestreet/" title="Funny Or Die's Billy On The Street">Funny Or Die's Billy On The Street</a></dd><dd><a href="http://www.muchmusic.com/tv/guycode/" title="Guy Code">Guy Code</a></dd><dd><a href="http://www.muchmusic.com/tv/hardtimes/episodes/" title="The Hard Times Of RJ Berger">The Hard Times Of RJ Berger</a></dd><dd><a href="http://www.muchmusic.com/tv/thelacomplex/episodes/" title="The L.A. Complex">The L.A. Complex</a></dd><dd><a href="http://www.muchmusic.com/tv/countdown/" title="Much Countdown">Much Countdown</a></dd><dd><a href="http://www.muchmusic.com/tv/mydatewith/" title="My Date With">My Date With</a></dd><dd><a href="http://www.newmusiclive.ca/video/" title="New.Music.Live.">New.Music.Live.</a></dd><dd><a href="http://www.newmusiclive.ca/performances/" title="New.Music.Live. Performances">New.Music.Live. Performances</a></dd><dd><a href="http://www.muchmusic.com/tv/prettylittleliars/episodes/" title="Pretty Little Liars">Pretty Little Liars</a></dd><dd><a href="http://www.muchmusic.com/tv/punkd/" title="Punk'd">Punk'd</a></dd><dd><a href="http://www.muchmusic.com/music/rapcity/interviews.aspx" title="RapCity Interviews">RapCity Interviews</a></dd><dd><a href="http://www.muchmusic.com/tv/scaretactics/" title="Scare Tactics">Scare Tactics</a></dd><dd><a href="http://www.muchmusic.com/tv/teenwolf/episodes/" title="Teen Wolf">Teen Wolf</a></dd><dd><a href="http://www.muchmusic.com/music/thewedge/interviews.aspx" title="The Wedge Interviews">The Wedge Interviews</a></dd><dd><a href="http://www.muchmusic.com/tv/allshows.aspx" title="&gt;&gt; All Much Shows">&gt;&gt; All Much Shows</a></dd></dl><dl><dt>Specials</dt><dd><a href="http://www.muchmusic.com/events/britawards/" title="2013 Brit Awards">2013 Brit Awards</a></dd><dd><a href="http://www.muchmusic.com/music/digitaldreams/" title="2013 Digital Dreams">2013 Digital Dreams</a></dd><dd><a href="http://www.muchmusic.com/events/junos/" title="2013 JUNO Awards">2013 JUNO Awards</a></dd><dd><a href="http://mmva.muchmusic.com/watch/" title="2013 MMVAs">2013 MMVAs</a></dd><dd><a href="http://mmva.muchmusic.com/video/pid/135496/2013-mmva-red-carpet/" title="2013 MMVA Red Carpet">2013 MMVA Red Carpet</a></dd><dd><a href="http://www.muchmusic.com/events/weday/" title="2012 We Day">2012 We Day</a></dd><dd><a href="http://www.muchmusic.com/events/bigjingle/" title="The Big Jingle">The Big Jingle</a></dd><dd><a href="http://www.muchmusic.com/tv/ontourwith/episodes/pid/128557/newmusiclive-carly-rae-jepsen-on-tour" title="Carly Rae Jepsen On Tour">Carly Rae Jepsen On Tour</a></dd><dd><a href="http://www.muchmusic.com/tv/specials/demilovatounbroken/" title="Demi Lovato: Unbroken">Demi Lovato: Unbroken</a></dd><dd><a href="http://www.muchmusic.com/tv/holidaywrap/video/pid/99973/justin-bieber-home-for-the-holidays" title="Justin Bieber: Home For The Holidays">Justin Bieber: Home For The Holidays</a></dd><dd><a href="http://www.muchmusic.com/tv/liveatmuch/falloutboy/" title="Live At Much w/ Fall Out Boy">Live At Much w/ Fall Out Boy</a></dd><dd><a href="http://www.muchmusic.com/tv/ontourwith/episodes/pid/127896/newmusiclive-marianas-trench-on-tour" title="Marianas Trench On Tour">Marianas Trench On Tour</a></dd><dd><a href="http://www.muchmusic.com/tv/specials/muchtalks/antibullying/" title="Much Talks: Anti-Bullying">Much Talks: Anti-Bullying</a></dd><dd><a href="http://www.muchmusic.com/tv/specials/muchtalks/degrassi" title="Much Talks: Degrassi">Much Talks: Degrassi</a></dd><dd><a href="http://www.muchmusic.com/tv/specials/muchtalks/eatingdisorder" title="Much Talks: Eating Disorders">Much Talks: Eating Disorders</a></dd><dd><a href="http://www.muchmusic.com/tv/onset/" title="On Set">On Set</a></dd><dd><a href="http://www.muchmusic.com/tv/ontourwith/" title="On Tour With">On Tour With</a></dd><dd><a href="http://www.muchmusic.com/tv/revealed/" title="Revealed">Revealed</a></dd><dd><a href="http://www.muchmusic.com/tv/holidaywrap/video/pid/128286/rihanna-inside-777" title="Rihanna Inside 777">Rihanna Inside 777</a></dd><dd><a href="http://www.muchmusic.com/music/videopremiere/shawndesman" title="Shawn Desman's Alive">Shawn Desman's Alive</a></dd><dd><a href="http://www.muchmusic.com/events/weday/video/" title="We Day 2012">We Day 2012</a></dd><dd><a href="http://www.muchmusic.com/tv/specials/" title="&gt;&gt; All Specials">&gt;&gt; All Specials</a></dd></dl><dl><dt>MuchMore Shows</dt><dd><a href="http://www.muchmore.ca/warped-roadies/" title="Warped Roadies" target="_blank">Warped Roadies</a></dd><dd><a href="http://www.muchmore.ca/bestink/" title="Best Ink" target="_blank">Best Ink</a></dd><dd><a href="http://www.muchmore.ca/in-sixty/" title="In Sixty" target="_blank">In Sixty</a></dd><dd><a href="http://www.muchmore.ca/metal-evolution/" title="Metal Evolution" target="_blank">Metal Evolution</a></dd><dd><a href="http://www.muchmore.ca/onehitwonders/" title="The Top 100 One Hit Wonders" target="_blank">The Top 100 One Hit Wonders</a></dd><dd><a href="http://www.muchmore.ca/category/shows" title="&gt;&gt; All MuchMore Shows" target="_blank">&gt;&gt; All MuchMore Shows</a></dd></dl></div><div class="threecolbottom"></div></div></li><li id="Music"><a class="NavItem" href="http://www.muchmusic.com/music" title="Music">Music</a><div class="DropdownBody"><div class="DropdownInnerBody"><dl><dt>Music On Much</dt><dd><a href="http://www.muchmusic.com/music/artists/" title="Browse All Artists">Browse All Artists</a></dd><dd><a href="http://www.muchmusic.com/music/firstspin/korn-the-paradigm-shift" title="First Spin: Korn">First Spin: Korn</a></dd><dd><a href="http://www.muchmusic.com/music/firstspin/haerts-hemiplegia" title="First Spin: Haerts">First Spin: Haerts</a></dd><dd><a href="http://www.muchmusic.com/music/firstspin/fast-romantics-afterlife-blues" title="First Spin: Fast Romantics">First Spin: Fast Romantics</a></dd><dd><a href="http://www.muchmusic.com/music/freshvideos/" title="Fresh Music Videos">Fresh Music Videos</a></dd><dd><a href="http://www.muchmusic.com/officesessions/" title="Much Office Sessions">Much Office Sessions</a></dd><dd><a href="http://www.muchmusic.com/music/videodance/" title="MuchVideoDance Party">MuchVideoDance Party</a></dd><dd><a href="http://www.muchmusic.com/music/muchfact/" title="MuchFACT">MuchFACT</a></dd><dd><a href="http://www.muchmusic.com/music/" title="&gt;&gt; All Music On Much">&gt;&gt; All Music On Much</a></dd></dl><dl><dt>Music Video Playlists</dt><dd><a href="http://www.muchmusic.com/artists/artists.aspx" title="Browse By Artist A-Z">Browse By Artist A-Z</a></dd><dd><a href="http://www.muchmusic.com/music/canadiana/" title="Canadiana">Canadiana</a></dd><dd><a href="http://www.muchmusic.com/music/freshvideos/" title="Fresh Videos">Fresh Videos</a></dd><dd><a href="http://www.newmusiclive.ca/performances/" title="Live Performances &amp; Exclusives">Live Performances &amp; Exclusives</a></dd><dd><a href="http://www.muchmusic.com/music/alternative/" title="Much Alternative">Much Alternative</a></dd><dd><a href="http://www.muchmusic.com/music/dance/" title="Much Dance">Much Dance</a></dd><dd><a href="http://www.muchmusic.com/music/hiphop/" title="Much Hip-Hop">Much Hip-Hop</a></dd><dd><a href="http://www.muchmusic.com/music/rb/" title="Much R &amp; B">Much R &amp; B</a></dd><dd><a href="http://www.muchmusic.com/music/rock/" title="Much Rock">Much Rock</a></dd><dd><a href="http://www.muchmusic.com/music/muchradar/" title="Much Radar">Much Radar</a></dd><dd><a href="http://www.muchmusic.com/music/megahits/" title="MuchMegaHits">MuchMegaHits</a></dd><dd><a href="http://www.muchmore.ca/category/music/music-videos/" title="MuchMore Videos" target="_blank">MuchMore Videos</a></dd><dd><a href="http://www.muchmusic.com/music/top200/" title="Top 200 of 2012">Top 200 of 2012</a></dd><dd><a href="http://www.muchmusic.com/music/top50moviesoundtracks/" title="Top 50 Movie Soundtrack Videos">Top 50 Movie Soundtrack Videos</a></dd><dd><a href="http://www.muchmusic.com/music/rapcity/" title="RapCity">RapCity</a></dd><dd><a href="http://www.muchmusic.com/music/thewedge/" title="The Wedge">The Wedge</a></dd><dd><a href="http://www.muchmusic.com/music/playlist/" title="&gt;&gt; All Music Video Playlists">&gt;&gt; All Music Video Playlists</a></dd></dl><dl><dt>Much Countdowns</dt><dd><a href="http://www.muchmore.ca/mmtop20/" title="MMTOP20.ca" target="_blank">MMTOP20.ca</a></dd><dd><a href="http://www.muchmore.ca/countdown/" title="MuchMore Countdown" target="_blank">MuchMore Countdown</a></dd><dd><a href="http://www.muchmusic.com/tv/countdown/" title="Much Top 30 Countdown">Much Top 30 Countdown</a></dd><dd><a href="http://www.muchmusic.com/tv/countdown/" title="&gt;&gt; All Much Countdowns">&gt;&gt; All Much Countdowns</a></dd></dl></div><div class="threecolbottom"></div></div></li><li id="Shows"><a class="NavItem" href="http://www.muchmusic.com/tv" title="Shows">Shows</a><div class="DropdownBody"><div class="DropdownInnerBody"><dl><dt>TV Shows</dt><dd><a href="http://www.muchmusic.com/tv/awkward/" title="Awkward.">Awkward.</a></dd><dd><a href="http://www.muchmusic.com/tv/bunk/" title="Bunk">Bunk</a></dd><dd><a href="http://www.muchmusic.com/tv/chappellesshow/" title="Chappelle's Show">Chappelle's Show</a></dd><dd><a href="http://www.muchmusic.com/tv/theclevelandshow/" title="The Cleveland Show">The Cleveland Show</a></dd><dd><a href="http://www.muchmusic.com/tv/comedybangbang/" title="Comedy Bang! Bang!">Comedy Bang! Bang!</a></dd><dd><a href="http://www.muchmusic.com/tv/conan/" title="Conan">Conan</a></dd><dd><a href="http://www.muchmusic.com/tv/degrassi/" title="Degrassi">Degrassi</a></dd><dd><a href="http://www.muchmusic.com/tv/degrassi/afterdegrassi/" title="After Degrassi">After Degrassi</a></dd><dd><a href="http://www.muchmusic.com/tv/drunkhistory/" title="Drunk History">Drunk History</a></dd><dd><a href="http://www.muchmusic.com/tv/freshprinceofbelair/" title="The Fresh Prince of Bel-Air">The Fresh Prince of Bel-Air</a></dd><dd><a href="http://www.muchmusic.com/tv/thejeselnikoffensive/" title="The Jeselnik Offensive">The Jeselnik Offensive</a></dd><dd><a href="http://www.muchmusic.com/tv/latenightwithjimmyfallon/" title="Late Night With Jimmy Fallon">Late Night With Jimmy Fallon</a></dd><dd><a href="http://www.muchmusic.com/tv/outthere/" title="Out There">Out There</a></dd><dd><a href="http://www.muchmusic.com/tv/prettylittleliars/" title="Pretty Little Liars">Pretty Little Liars</a></dd><dd><a href="http://www.muchmusic.com/tv/thesimpsons/" title="The Simpsons">The Simpsons</a></dd><dd><a href="http://www.muchmusic.com/tv/southpark/" title="South Park">South Park</a></dd><dd><a href="http://www.muchmusic.com/tv/teenwolf/" title="Teen Wolf">Teen Wolf</a></dd><dd><a href="http://www.muchmusic.com/tv/tosh0/" title="Tosh.0">Tosh.0</a></dd><dd><a href="http://www.muchmusic.com/tv/uglyamericans/" title="Ugly Americans">Ugly Americans</a></dd><dd><a href="http://www.muchmusic.com/tv/videoontrial/" title="Video On Trial">Video On Trial</a></dd><dd><a href="http://www.muchmusic.com/tv/allshows.aspx" title="&gt;&gt; All TV Shows">&gt;&gt; All TV Shows</a></dd><dd><a href="http://www.muchmusic.com/tv/listings/" title="&gt;&gt; Daily Listings">&gt;&gt; Daily Listings</a></dd></dl><dl><dt>Specials</dt><dd><a href="http://www.muchmusic.com/events/britawards/" title="2013 Brit Awards">2013 Brit Awards</a></dd><dd><a href="http://www.muchmusic.com/events/junos/" title="2013 JUNO Awards">2013 JUNO Awards</a></dd><dd><a href="http://mmva.muchmusic.com/watch/" title="2013 MMVAs">2013 MMVAs</a></dd><dd><a href="http://www.muchmusic.com/events/weday/" title="2012 We Day">2012 We Day</a></dd><dd><a href="http://www.muchmusic.com/events/bigjingle/" title="The Big Jingle">The Big Jingle</a></dd><dd><a href="http://www.muchmusic.com/tv/specials/demilovatounbroken/" title="Demi Lovato: Unbroken">Demi Lovato: Unbroken</a></dd><dd><a href="http://www.muchmusic.com/tv/liveatmuch/jonasbrothers/" title="Live At Much w/ Jonas Brothers">Live At Much w/ Jonas Brothers</a></dd><dd><a href="http://www.muchmusic.com/tv/specials/muchtalks/degrassi" title="Much Talks">Much Talks</a></dd><dd><a href="http://www.muchmusic.com/tv/onset/" title="On Set">On Set</a></dd><dd><a href="http://www.muchmusic.com/tv/ontourwith/" title="On Tour With">On Tour With</a></dd><dd><a href="http://www.muchmusic.com/tv/revealed/" title="Revealed">Revealed</a></dd><dd><a href="http://www.muchmusic.com/tv/holidaywrap/video/pid/128286/rihanna-inside-777" title="Rihanna Inside 777">Rihanna Inside 777</a></dd><dd><a href="http://www.muchmusic.com/music/videopremiere/shawndesman" title="Shawn Desman's Alive">Shawn Desman's Alive</a></dd></dl><dl><dt>Music Shows</dt><dd><a href="http://www.muchmusic.com/music/alternative/" title="Much Alternative">Much Alternative</a></dd><dd><a href="http://www.muchmusic.com/music/dance/" title="Much Dance">Much Dance</a></dd><dd><a href="http://www.muchmusic.com/music/hiphop/" title="Much Hip-Hop">Much Hip-Hop</a></dd><dd><a href="http://www.muchmusic.com/music/rb/" title="Much R &amp; B">Much R &amp; B</a></dd><dd><a href="http://www.muchmusic.com/music/rock/" title="Much Rock">Much Rock</a></dd><dd><a href="http://www.muchmusic.com/music/megahits/" title="MuchMegaHits">MuchMegaHits</a></dd><dd><a href="http://www.muchmusic.com/tv/countdown/" title="Much Top 30 Countdown">Much Top 30 Countdown</a></dd><dd><a href="http://www.muchmusic.com/newmusiclive/" title="New.Music.Live.">New.Music.Live.</a></dd><dd><a href="http://www.muchmusic.com/music/rapcity/" title="RapCity">RapCity</a></dd><dd><a href="http://www.muchmusic.com/tv/todaystop10/" title="Today's Top 10">Today's Top 10</a></dd><dd><a href="http://www.muchmusic.com/music/top50moviesoundtracks/" title="Top 50 Movie Soundtrack Videos">Top 50 Movie Soundtrack Videos</a></dd><dd><a href="http://www.muchmusic.com/music/top200/" title="Top 200 of 2012">Top 200 of 2012</a></dd><dd><a href="http://www.muchmusic.com/music/thewedge/" title="The Wedge">The Wedge</a></dd><dd><a href="http://www.muchmusic.com/tv/allshows.aspx" title="&gt;&gt; All Music Shows">&gt;&gt; All Music Shows</a></dd></dl></div><div class="threecolbottom"></div></div></li><li id="News"><a class="NavItem" href="http://www.muchmusic.com/news" title="News">News</a><div class="DropdownBody"><div class="DropdownInnerBodyThin"><dl><dd><a href="http://www.muchmusic.com/news/" title="News Headlines">News Headlines</a></dd><dd><a href="http://blog.muchmusic.com" title="RedHotMuch Blog">RedHotMuch Blog</a></dd></dl></div><div class="onecolbottom"></div></div></li><li id="Contests"><a class="NavItem" href="http://www.muchmusic.com/contests" title="Contests">Contests</a><div class="DropdownBody"><div class="DropdownInnerBodyThin"><dl><dd><a href="http://www.muchmusic.com/contests/igotu/" title="Win A Back To School Tech Bundle" target="_blank">Win A Back To School Tech Bundle</a></dd><dd><a href="http://www.muchmusic.com/contests/" title="&gt;&gt; All Contests">&gt;&gt; All Contests</a></dd></dl></div><div class="onecolbottom"></div></div></li><li id="Shop"><a class="NavItem" href="http://www.muchmusic.com/ringtones" title="Shop">Shop</a><div class="DropdownBody"><div class="DropdownInnerBodyThin"><dl><dd><a href="http://www.muchmusic.com/ringtones" title="Ringtones" target="_blank">Ringtones</a></dd><dd><a href="http://www.muchmusic.com/ringtones/images.aspx" title="Wallpapers" target="_blank">Wallpapers</a></dd><dd><a href="http://www.muchmusic.com/music/muchdance/2013/" title="Much Dance 2013">Much Dance 2013</a></dd></dl></div><div class="onecolbottom"></div></div></li></ul>
+     <div id="Search">
+        <input type="text" name="searchKeyword" id="searchKeyword" value="Search here..." size="10" maxlength="40" onblur="if (this.value == '') {this.value = 'Search here...';}" onfocus="if (this.value == 'Search here...') {this.value = '';}" onkeypress="checkEnter(event)" style="float:left;" />
+	
+     </div>
+</div>	
+    </div>
+    <div id="DanceHeader">
+    <div id="BookDance">
+        <h3>BOOK A MUCH VIDEO DANCE</h3>
+        <p id="p1"><strong>You know you want it!</strong> Wicked sound, killer</p><p id="p2">lighting &amp; the hottest new and old school videos</p><p id="p3">You supply the  place and we'll bring the funk!</p>
+        <span>Email: <a href="mailto:info@muchvideodance.com"><strong>info@muchvideodance.com</strong></a></span>
+        <span class="call">Call: <strong>1(800) 461-6824</strong></span>
+    </div>
+    <div id="FreeMusic">
+        <h3>FREE MUSIC</h3>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;If you scored a free music card at a <strong>Much <br />Video Dance</strong>, enter the code in the box:</p>
+        <input type="text" value="Enter Code..." id="DanceCode"/>
+        <a href="#" id="DanceSubmit" onClick="return false;">Submit</a>        
+    </div>
+    <a href="http://freshenergy.ca/Track" target="_blank" id="SubwayLogo">Subway</a>
+    <a href="https://www.facebook.com/SubwayCanada" id="LikeSubway" target="blank_">Like Subway Canada</a>
+</div>
+<div id="ContestSubnav">
+    <a href="/music/muchvideodance/" class="home">Tell Is Your Story</a>
+    <a href="/music/muchvideodance/info/" class="info">Book a Dance</a>
+    <a href="/music/muchvideodance/fundraising/" class="fundraising">Fundraising</a>
+    <a href="/music/muchvideodance/playlist/" class="playlist">Playlist</a>
+    <a href="/music/muchvideodance/retro/" class="retro">Retro Playlist</a>
+</div>	
+    <div id="Content">
+        <div id="MainContent">
+            <div id="ContestInfo">
+            	<p id="SchoolName">Archbishop Romero CSS</p>
+                <p id="SubmittedBy">Submitted By: <span id="EntrantsName" style="color: #007b17;">Martha De Oliveira</span></p>
+
+				<img src="http://s3.amazonaws.com/MuchMusic/contests/subway_mvd/13801560240532-frontschool-jpg" id="SchoolImage" alt="Archbishop Romero CSS" />
+            
+				<p id="City">City/Town: <span id="EntrantsCity" style="color: #ffffff;">Toronto</span></p>
+				<p id="Province">Province: <span id="EntrantsProv" style="color: #ffffff;">ON</span></p>
+            
+            	<p id="WhyTitle">Why does your school deserve a MuchVideoDance?</p>
+            	<div id="WhyScroll"><p id="Why">As student council president of Archbishop Romero, I believe that we deserve to have this chance in winning. Our school is always glad to help out our community in any way. Due to the recent flood in August, our first floor was ruined causing our gym floor to be destroyed. The gym was the heart of our school, we'd all come together in there as one big family. We are not able to use our gym because it is in the process of being fixed and how great would it be hosting the MUCH VIDEO DANCE as our first gathering altogether in there again? This would be a new beginning for our school and something people would be talking about for ages. Therefore it would be an honor having this dance and we really hope we get it!
+Thank you. GO RAIDERS GO!!!
+P.S. You should trust me when I say you will leave with the brightest smile :D </p></div>
+            
+				<a href="http://www.muchmusic.com/music/muchvideodance/profile/lillooet-secondary-school/456644/" id="PrevProfile">Previous Random Profile</a>
+				<a href="/music/muchvideodance/" id="BackHome">Go Back Home</a>                
+				<a href="http://www.muchmusic.com/music/muchvideodance/profile/university-of-toronto-schools-uts/357203/" id="NextProfile">Next Random Profile</a>
+                
+				<h3 id="HypeMeterTitle">HYPE METER - Think this school should win? Share this page on Twitter and Facebook to raise hype!</h3>
+                <div id="HypeMeter" style="width:606px;"></div>
+                
+                <a href="../../../#" id="FBShare">Facebook Share</a>
+                <a href="../../../#" id="Tweet">Tweet</a>
+
+                <a href="http://freshenergy.ca/Track" id="ContestSubwayLogo" target="_blank">Subway</a>
+            </div>
+        <!-- END MainContent-->
+        </div>
+         
+    <!-- END Content-->
+	</div>
+
+    <div id="Footer">
+    	<span id="DrLine">&copy; 2013 Doctor's Associates Inc. SUBWAY&reg; is a registered trademark of Doctor's Associates Inc.</span>
+		<a href="http://www.muchmusic.com" id="MuchLinkFooter" title="MuchMusic">MuchMusic.com</a>
+    	<ul id="Sections">
+        	<li id="VideosFooter"><a href="/videos/">Videos</a></li>
+            <li id="MusicFooter"><a href="/music/">Music</a></li>
+            <li id="ShowsFooter"><a href="/tv/">Shows</a></li>
+            <li id="NewsFooter"><a href="/news/">News</a></li>
+            <li id="ConcertsFooter"><a href="http://concerts.muchmusic.com">Concerts</a></li>
+            <li id="ContestsFooter"><a href="/contests">Contests</a></li>
+            <li id="ShopFooter"><a href="http://www.muchmusic.com/ringtones" target="_blank">Shop</a></li>
+            <li id="AboutFooter"><a href="/aboutus/">About</a></li>
+            <li id="Sitemap"><a href="/sitemap.aspx">Sitemap</a></li>
+        </ul>
+        <ul id="Brands">
+        	<li id="MuchMore"><a href="http://www.muchmore.ca" title="MuchMore" target="_blank">MuchMore</a></li>
+            <!--li id="PunchMuch"><a href="http://www.punchmuch.com" title="PunchMuch" target="_blank">PunchMuch</a></li-->
+            <li id="MuchVibe"><a href="http://www.muchvibe.ca" title="MuchVibe" target="_blank">MuchVibe</a></li>
+            <li id="MuchLoud"><a href="http://www.muchloud.com" title="MuchLOUD" target="_blank">MuchLOUD</a></li>
+            <li id="MuchMoreRetro"><a href="http://www.muchmoreretro.com" title="MuchMoreRetro" target="_blank">MuchMoreRetro</a></li>
+        </ul>
+        <p id="UnderRibbon">MuchMusic is Canada's No. 1 destination for music videos, live performances and interviews with today's hottest celebrities; plus music downloads, ringtones, artist profiles, concert listings &amp; music countdown.</p>
+        <p id="crosslinks">Hot Spots: <a href="http://www.mtv.ca/showtown/episodes/" title="MTV Showtown" target="_blank">Watch full episodes of MTV Showtown</a><a href="http://news.mtv.ca/" title="Get the latest MTV News" target="_blank">Get the latest MTV News</a><a href="http://news.mtv.ca/photos/ " title="Check out hot celeb pics" target="_blank">Check out hot celeb pics</a></p>
+          <p id="ctvinfo"><span>&copy; 2013</span><a href="http://bellmedia.ca" target="_blank" id="companylogo">Bell Media</a><span>All Rights Reserved.&nbsp;</span><span id="siteterms">Bell Media Television | <a href="http://www.bellmedia.ca/en/toc.html" target="_blank"> Terms &amp; Conditions</a> | <a href="http://www.bellmedia.ca/en/privacy.html" target="_blank">Privacy Policy</a></span></p>
+        
+		<!--Page Beacon-->
+		<script type="text/javascript" src="http://metrics.ctvdigital.net/comscore/beacon.js"></script>
+		
+		<!--Video Beacon-->
+		<script type="text/javascript" src="http://b.scorecardresearch.com/beacon.js" ></script>
+		
+		<!-- Google Analytics-->
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-19845395-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+       <!-- Google Code for Remarketing tag -->
+        <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 1000943436;
+        var google_conversion_label = "hYRACMSrvQQQzN6k3QM";
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+        </script>
+        <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+        </script>
+        <noscript>
+        <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1000943436/?value=0&amp;label=hYRACMSrvQQQzN6k3QM&amp;guid=ON&amp;script=0"/>
+        </div>
+        </noscript>
+        <script type="text/javascript">
+		  function setPlayer(){
+			if (getCookie("mml")!=null && getCookie("mml")!=""){
+			  var username=getCookie("mmd").substring(0,getCookie("mmd").indexOf('|'));
+			  var userimage=getCookie("mmd").substring(getCookie("mmd").indexOf('|')+1);
+			  Badgeville.setPlayer({
+				email: username+'@muchmusic.com',
+				display_name: username,
+				picture_url: userimage	  
+			  });
+			  
+			 // loadbadging();
+			 
+			}
+		  }
+		  function loadbadging(){
+			
+			
+			window.BadgevilleAsynchInit = function() {
+			  // Add any Badgeville.Settings changes (such as domain) into this extend call:
+			  Badgeville.extend( Badgeville.Settings, {
+				  key: '970949204c3a76602f5f1dab96c61d3d',
+				  domain: 'www.muchmusic.com'
+			  });
+			  Badgeville.extend( Badgeville.Lang, {
+				  activitiesHeader: 'Activities',
+				  showcaseTitle: ''
+			  });
+			  Badgeville.Settings.signIn=badgelogin;
+			  Badgeville.Settings.signOut=logout;
+			  Badgeville.Settings.signUp=badgeregister;
+			  Badgeville.Settings.twitter = '8SybN7IJssL8mBVh1R7tDg';
+			  Badgeville.Settings.twitterAccount = 'muchmusic';
+			  //skin multitab widget
+			  Badgeville.Defaults.playerStats.fields = ['points', 'unit_degrassi'];
+			  Badgeville.Lang[ 'widget_builder_multiLeaderboard_893003' ] = 'Leaderboard';
+			  Badgeville.Lang[ 'widget_builder_playerProfile_341586' ] = 'My Rewards';
+			  Badgeville.$.extend( Badgeville.Lang, {
+				  //activitiesTitle: '<img src="/images/badging/muchcloser-logo.gif" style="height:29px;">',
+				  multiTabTitle: '<img src="/images/badging/muchcloser-logo.gif" style="height:29px;">'
+			  });
+			  if (getCookie("mml")!=null && getCookie("mml")!=""){
+				var username=getCookie("mmd").substring(0,getCookie("mmd").indexOf('|'));
+				var userimage=getCookie("mmd").substring(getCookie("mmd").indexOf('|')+1);
+				Badgeville.setPlayer({
+				  email: username+'@muchmusic.com',
+				  display_name: username,
+				  picture_url: userimage	  
+				  });
+			  }
+			  BV.Defaults.missions = { filter:function( data ) {
+				var ret = [];
+				BV.$.each( data, function( i, value ) {
+					if ( Badgeville.Objects.is( value, Badgeville.Objects.MISSION ) === false || ( BV.$.isPlainObject( value ) === true && value.track_member !== true ) ) {
+						if(!value.name.match(/Perfect Attendance|Extra Credit|Casting Call|Watch Degrassi|Drama Club/)){
+							ret.push( value );
+						}
+					}
+					});
+					return ret;
+				}
+			  };
+
+			  Badgeville.ready( function() {
+				try{bvready();}catch(err){}
+				Badgeville.bind('beforeShare', function(event, data) {
+					if (data.sharetype == 'FB') {
+						data.shareOptions.caption = data.shareOptions.caption.replace("Oh snap,","Check it out!");
+					}
+				});
+				$(".bv_joinNoworSignIn").html('<div class="bv_join">Do you have what it takes?</div><a class="bv_signUp" href="#joinnow" onclick="openRegisterWin(); closeRegisterWin(); return false;">Join now!</a> To earn up to 50 <em class="bv_unitLabel">pts</em> or <a class="bv_signIn" href="#login" onclick="openwindow2(); tWin2(); return false;"> Sign in</a>');
+				FB.Event.subscribe('edge.create',
+				function(response) {
+					if (getCookie("mml")!=null && getCookie("mml")!=""){
+						if(response=="http://www.facebook.com/muchmusic"){
+							 try{Badgeville.credit({verb:'like much',address:response});}catch(err){}
+							
+						}else if(response.indexOf("vjsearch")!=-1){
+							try{Badgeville.credit({verb:'facebook like',address:response,category:'vjsearch'});}catch(err){}
+						}else if(response.indexOf("cokecovers")!=-1){
+							try{Tracking.TrackCorporateLinkClicked( "CokeCovers_FacebookLike" );}catch(err){}
+						}else{
+							try{Badgeville.credit({verb:'facebook like',address:response});}catch(err){}
+						}
+					}else{
+						if(response.indexOf("cokecovers")!=-1){
+							try{Tracking.TrackCorporateLinkClicked( "CokeCovers_FacebookLike" );}catch(err){}
+						}
+					}
+				});
+				
+				FB.Event.subscribe('comment.create',
+				function(response) {
+					 if (getCookie("mml")!=null && getCookie("mml")!=""){
+						try{Badgeville.credit({verb:'comment',address:response});}catch(err){}
+					 }
+				});
+				
+			  });
+		    };
+			
+		   
+			// Load the Framework asynchronously
+			(function() {
+				var s = document.createElement( 'script' );
+				s.async = true;
+				s.src = document.location.protocol + '//api.v2.badgeville.com/v4/badgeville-current.js';
+				document.body.appendChild(s);
+			}());	
+		  
+		}
+		loadbadging();
+	  </script>
+      <script type="text/javascript">
+	  	var isiPad = navigator.userAgent.match(/iPad/i) != null;
+		var loadScript = function(src, callbackfn) {
+			var newScript = document.createElement("script");
+			newScript.type = "text/javascript";
+			newScript.setAttribute("async", "true");
+			newScript.setAttribute("src", src);
+		
+			if(newScript.readyState) {
+				newScript.onreadystatechange = function() {
+					if(/loaded|complete/.test(newScript.readyState)) callbackfn();
+				}
+			} else {
+				newScript.addEventListener("load", callbackfn, false);
+			}
+		
+			document.documentElement.firstChild.appendChild(newScript);
+		}
+		if(!isiPad){
+			loadScript("http://o2.eyereturn.com/?site=4619&page=generic",function(){});
+		}
+      </script>
+      <script src="http://connect.facebook.net/en_US/all.js"></script>
+	  <script type="text/javascript">
+		FB.init({appId: '407175825267', status: true, cookie: true, xfbml: true, channelURL : 'http://www.muchmusic.com/mmconnect/channel.html',oauth  : true});
+	  </script>	
+    </div>
+</div>
+</div>
+
+<script type="text/javascript">
+	s.trackExternalLinks=false;
+	TrackCorporateLink( "SubwayLogo", "Muchvideodance_subwaylogo", "true");
+	TrackCorporateLink( "LikeSubway", "Muchvideodance_subwaylike", "true");
+	TrackCorporateLink( "ContestSubwayLogo", "Muchvideodance_bottom-logo", "true");
+</script>
+<script type="text/javascript"> if (!NREUMQ.f) {NREUMQ.f=function() {NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script"); e.type="text/javascript"; e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" + "js-agent.newrelic.com/nr-100.js"; document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-3.newrelic.com","78812cf6bc","1627899","ZlcAZxFZWxIFVhENX18dI2AzF1gUF1wGS11EUQpFClxQDgBUCwdVHkIQXAVRWQRKVBYUSA==",0,62,new Date().getTime(),"F82C7E14B327BB60","","","",""]);</script></body>
+</html>

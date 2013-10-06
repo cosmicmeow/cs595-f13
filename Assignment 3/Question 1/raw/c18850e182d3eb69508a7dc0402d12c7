@@ -1,0 +1,977 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml">
+    <head>
+        <!--[if IE]>
+        <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <meta name="robots" content="index,follow" />
+<meta name="keywords" content="Tokyo Game Show, Podcast, The Game Informer Show, gameinformershow, Valve, tgs, japan, steam, half-life 3, japanese culture, steam machine, steamOS, tgs 2013" />
+<meta name="description" content="We weigh in on Valve&#39;s week of announcements and talk about our trip to the Tokyo Game Show in Japan." />
+<meta name="GENERATOR" content="Telligent Community 1.5.134.12297 (Build: 5.5.134.12297)" />
+<link rel="pingback" href="http://www.gameinformer.com/b/podcasts/pingback.aspx" />
+<link rel="alternate" type="application/rss+xml" title="Game Informer Magazine (RSS 2.0)" href="http://www.gameinformer.com/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="Ben Hanson&#39;s Comments (RSS 2.0)" href="/members/GIHanson/comments/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="Ben Hanson&#39;s Activities (RSS 2.0)" href="/members/GIHanson/activities/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="Activities of People Ben Hanson Follows (RSS 2.0)" href="/members/GIHanson/activities/followersrss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="Ben Hanson&#39;s Groups Activities (RSS 2.0)" href="/members/GIHanson/activities/groupsrss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="Podcasts (RSS 2.0)" href="http://www.gameinformer.com/b/podcasts/rss.aspx"  />
+<link rel="alternate" type="application/atom+xml" title="Podcasts (Atom 1.0)" href="http://www.gameinformer.com/b/podcasts/atom.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="Podcasts - All Comments (RSS 2.0)" href="http://www.gameinformer.com/b/podcasts/rsscomments.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="GI Show 174: Valve&#39;s Steam Machines, Visiting The Tokyo Game Show - Comments for this post (RSS 2.0)" href="http://www.gameinformer.com/b/podcasts/rsscomments.aspx?WeblogPostID=4723681"  />
+
+            <link rel="stylesheet" href="/themes/generic/css/layout.css" type="text/css" media="screen" />
+        
+          <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      
+        <meta name="google-site-verification" content="0104EY6iIbSG7muhC0OPVcqxF0hWUNsywbXiJUlHVLs" />
+<meta name="msvalidate.01" content="43B68E03CFDAB9DF4FCDA1CD9951576F" />
+<meta name="y_key" content="beed52c25501f56d" />
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-10915966-2']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript">
+  (function()  
+{var po = document.createElement("script");
+po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(po, s);
+})();
+</script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.gameinformer.com/b/podcasts/rsd.ashx" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href="http://www.gameinformer.com/b/podcasts/wlwmanifest.ashx" />
+<meta property="og:title" content="GI Show 174: Valve&#39;s Steam Machines, Visiting The Tokyo Game Show" />
+<meta property="og:description" content="We weigh in on Valve&#39;s week of announcements and talk about our trip to the Tokyo Game Show in Japan." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.gameinformer.com/b/podcasts/archive/2013/09/26/gi-show-174-valve-39-s-steam-machines-visiting-the-tokyo-game-show.aspx" />
+<meta property="og:image" content="http://media1.gameinformer.com/filestorage/CommunityServer.Components.SiteFiles/imagefeed/featured/gameinformer/thegishow/ep174/GIShow-Ep174-200.jpeg" />
+<meta property="og:site_name" content="www.GameInformer.com" />
+<link rel="stylesheet" type="text/css" href="/Themes/fiji/css/tcbase.gen.css?r=613ACE50BAA10AFFE913C2108FDA0034" />
+<link rel="stylesheet" type="text/css" href="/Themes/GameInformer/Css/gibase.gen.css?r=2C579CA27E0F017C8D04FE3145FEDF21" />
+<!--[if lt IE 7]><link type="text/css" rel="stylesheet" href="/Themes/GameInformer/Css/ie6-.css" /><![endif]-->
+<!--[if lt IE 8]><link type="text/css" rel="stylesheet" href="/Themes/GameInformer/Css/ie7-.css" /><![endif]-->
+<!--[if IE 8]>   <link type="text/css" rel="stylesheet" href="/Themes/GameInformer/Css/ie8-.css" /><![endif]-->
+<!--[if IE]><link type="text/css" rel="stylesheet" href="/Themes/GameInformer/Css/IE-all.css" /><![endif]-->
+<link type="text/css" rel="stylesheet" href="/themes/GameInformer/Css/DynamicStyle.aspx" />
+<link rel="publisher" href="https://plus.google.com/104569341456857245757/" /><title>
+	GI Show 174: Valve&#39;s Steam Machines, Visiting The Tokyo Game Show - Podcasts - www.GameInformer.com
+</title><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script></head>
+	<body class="on blog">
+		<form name="aspnetForm" method="post" action="/b/podcasts/archive/2013/09/26/gi-show-174-valve-39-s-steam-machines-visiting-the-tokyo-game-show.aspx?utm_content=buffer5e7a7&amp;utm_source=buffer&amp;utm_medium=twitter&amp;utm_campaign=Buffer" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTM5OTAxNDYyNWRkqqLyHXY7Il/zZum/ZU9fxf5Xz2w=" />
+</div>
+
+
+<script src="/WebResource.axd?d=GKLmvx4B1shExA1_hlBwZQi09_0sxGGFs1zYJEySi3atWX6UhryME0YYeLopoZkQnE-ylGQV2_w07cPnZ3a8A8Hw7FqG0caeVBArI48MO_SE2XHUwdq8hCrNPaZbYwyzF-Bdb_bL8vwc1M_2kLcz0BFN2Ed-dJpd-cka5Z6slRm64eZdIKbBwN75fofW1vVspNFCdg2&amp;t=634897509196951635" type="text/javascript"></script><script type="text/javascript" src="/utility/jquery/jquery-1.3.2.min.js"></script><script type="text/javascript" src="/themes/gameinformer/script/default.gen.js?r=63854D04C358C67530D094A063172F9A"></script>
+<script src="/WebResource.axd?d=HxLTtN65vNFZGtueint5twq4jc7UPRdkiFQKj58mvH5UrGdNwG0yBJLgWH2KQM7RYqpKNVIb7UvQ8j9gwaBI5ynuY1n07JrbBAXwzlJCV1xAxpT4CeXftByMYrkHgUvd7myKQaW82e3WMluwHPOIpMHdSD41&amp;t=634897509209744127" type="text/javascript"></script>
+<script src="/WebResource.axd?d=s6QG4MiN2CqNtHHmhOSi5qt8PUR4fxIKKW28VYZ1P2voS-UNbb38rrbW62uylK8zeWahJQrg9k1rP-oWsfJrMBpqJdqrz8phE2QfCG0JBx960_YAOm1CHbwc-RhWF9KJJgQGuy1usk0mX7CxnCZf0VhM6i41&amp;t=634897509209744127" type="text/javascript"></script>
+<script src="/WebResource.axd?d=tZV12fUBBK5MelBJk9Qs_Ls6pcHKca4WNsoUgxi2CzjHlOMVppVBiKSz_CNCzvRSlje4sz9hA4Dqmp3HkfzmluVm1wX6XUNGqNYe4RxGIbChdQd9HSQxzwZ-fwpSShjiIU0wWANsrvZaSSaLJvZ96m_Pio41&amp;t=634897509196951635" type="text/javascript"></script><script type="text/javascript" src="/Themes/GameInformer/Script/jquery.jcarousel.gen.js?r=B0757A0ABC1C741966CE317D11BE21D8"></script>
+<script src="/WebResource.axd?d=BwXomHk7NZVOcX-B0MBhwNzNGQvtlwKE_FbC2sPpouqb5V3vD6J288LjoVZtH7ATcCNdpyQDVYLYL7FHgJ_bzZDEzkyO-RRC4KPbDbaFIggc4mYFOUFfodXwQKx6DNR8bCvIu3RJZVlbfQjxeX04D4zhRD9BmhbIavJA909CVM5n3RSL0&amp;t=634897509209744127" type="text/javascript"></script>
+<script src="/WebResource.axd?d=6M1YIXjBTCnY4ARytXXYcnCdVq3oOlAGE_0HK8My5WPSOtmHlxqTkSm796vmvSYBDEoSlA4mXi8eVXe9R7aV0L2yKPpvvbbN-zAgNgDVjZe8MV9M8zNS_mC6_elZ4sDerXbcNq0462IPNmhXxVy4bo8PFhitUTVX42VKsZXQPra4wHn10&amp;t=634897509196951635" type="text/javascript"></script>
+<script src="/WebResource.axd?d=mHMPIPBYUgx4Seq4psTCCRDYXDzA8biybM7yoZRKASSaRDYMdk_UQWG8590k25piYpjlvD2_QnjEwwwMW8d7URa6df-lqUCx1r8Uip-xWMm2ICWqdysOWEX64zWtWvPpRO00xKkXUKz9WWq-6sddq_gRZX9aU458o8SpNLXpiaxpKbcNwKmNGk8z6LSGU7I3bNtsOA2&amp;t=634897509196951635" type="text/javascript"></script>
+<script src="/WebResource.axd?d=I0WTFzxdpuV2i85EAHwqmambUKVvqWh_3onLQ3oacWB38nVXegISO1c6v0Uo4w5GTLtcvrb7CHPAyeeXxPHOJwrbrMztxi60rc1kd7-WMQDXft0IC8d35EU4GAipQBoFDXA_72XPyYFwbJ9tDRAttvQNJBMLwxUZA--wgkkhBNge4yE70&amp;t=634897509209744127" type="text/javascript"></script>
+<script src="/WebResource.axd?d=IYN52kroXWwMh7ZjkXfhwXcFypJD5DFIZ1MdD0AiyUKSTdm5QAau36l_CZDZu7oeaZTOztx1VqLE9SMmuf2gmtHFLzBEssH_NyYEZ6Itj0zu9v6W0wYf8klvfZmwpVdHtLoKeK0NJrU_MxDLugoTWPM-bmw1HhHr5dzLVfhqq-yojV-w0&amp;t=634897509209744127" type="text/javascript"></script><script type="text/javascript" src="/themes/gameinformer/js/knockout-2.2.1.gen.js?r=1D81A438B0F7E0FF897E89B7F4752D38"></script><script type="text/javascript" src="/themes/gameinformer/script/threadedcomments2.gen.js?r=579DEBF9D60E9A67177C35BD676004C1"></script>
+			
+            
+                
+            
+            <div class="header-fragments-header"></div>
+<div class="header-fragments"><div class="header-fragment user-welcome" id="fragment-90912bac-e742-4aab-9bea-d5bb69eb0a11">
+
+<!-- name: 1_WEB01-->
+
+
+        <div class="navigation-list-header"></div>
+        <ul class="navigation-list">
+            <li class="navigation-item"><a class="internal-link user-registration" href="/user/CreateUser.aspx?ReturnUrl="><span></span>Join</a></li>
+            <li class="navigation-item"><a class="internal-link login" href="/login.aspx?ReturnUrl=%2fb%2fpodcasts%2farchive%2f2013%2f09%2f26%2fgi-show-174-valve-39-s-steam-machines-visiting-the-tokyo-game-show.aspx%3futm_content%3dbuffer5e7a7%26utm_source%3dbuffer%26utm_medium%3dtwitter%26utm_campaign%3dBuffer"><span></span>Sign in </a></li>
+        </ul>
+        <div class="navigation-list-footer"></div>
+    
+</div><div class="header-fragment client-side-search" id="fragment-dade1208-0318-4ae2-9bb9-0414a111a84f">
+
+<div class="field-list-header">
+</div>
+<fieldset class="field-list">
+      <ul class="field-list">
+            <li class="field-item">
+                <span class="field-item-input">
+                    <input type="text" class="search empty" id="headerSearchTextBox" value="find something" onfocus="search_onfocus(this);" onblur="search_onblur(this);" onkeypress="search_onkeypress(event);" />
+                </span>
+            </li>
+            <li class="field-item">
+				<span class="field-item-input">
+                    <input type="button" value="Search" onclick="search_onclick();" class="internal-link search-options" />
+                </span>
+			</li>
+      </ul>
+</fieldset>
+<div class="field-list-footer">
+</div>
+</div><div class="header-fragment lights" id="fragment-375e4e56-0d03-40e1-b20b-22f4bd179867">
+
+<link type="text/css" rel="disabled" href="/Themes/GameInformer/Css/screen-off.css" />
+<div style="cursor: hand; cursor: pointer;">
+	<a id="Switch" class="light-switch">Switch Lights</a>
+	<p class="text">The lights are on</p>
+</div>
+</div><div class="header-fragment common" id="fragment-7dbb6ab2-8847-4c61-89f9-e4e3470d1274">
+
+<script type="text/javascript" src="/Themes/GameInformer/Script/gibase.gen.js?r=7256210E2956AEB63B7A81ECC4B50520"></script>
+
+</div><div class="header-fragment site-banner" id="fragment-03b45ff2-7273-43ad-9a61-ebf9e8e47046">
+
+<h1>
+    <a href="http://www.gameinformer.com"><span>GameInformer</span></a>
+</h1></div><div class="header-fragment activity-stream-widget" id="fragment-50624b4a-6625-4c67-b77f-bc5abe862dbc">
+
+
+
+
+<script language="javascript">
+$(document).ready(function() {
+
+     var ctl00_fragment_50624b4a_6625_4c67_b77f_bc5abe862dbc={"wrapperId":"fragment-50624b4a-6625-4c67-b77f-bc5abe862dbc","variableName":"ctl00_fragment_50624b4a_6625_4c67_b77f_bc5abe862dbc","parameter":null};
+    $('.title-activity-stream').show();
+    var widget = $("#"+ctl00_fragment_50624b4a_6625_4c67_b77f_bc5abe862dbc.wrapperId + ' .content-list');
+    if(!widget.jcarousel) return;
+    widget.jcarousel({
+        scroll: 1,
+        offset: 0,
+        auto: 5,
+        wrap: "last"
+    });
+
+
+});
+</script>
+<div class="title-activity-stream"><div class="content-list-header">What's Happening</div><div><ul class="content-list"><li class="content-item"><div class="full-post"><div class="post-author"><div class="avatar"><img src="http://media1.gameinformer.com/filestorage/CommunityServer.Components.Avatars/00/00/29/46/04/4TLRP25LXWRW.png" style="border-width: 0;max-height:26px;max-width:26px;" /><div class="tip"></div></div></div><div class="post-content user-defined-markup"><a href="/members/Pein310/default.aspx">Boyzby</a> commented on <a href="/members/GIKyle/default.aspx">Kyle Hilliard's</a> post about <a href="/b/news/archive/2013/10/05/pok-233-mon-bank-and-pok-233-transporter-coming-to-3ds-in-december.aspx#comments">Pok&#233;mon Bank and Pok&#233; Transporter Coming To 3DS In December</a>.</div></div><div class="full-post-footer"></div></li><li class="content-item"><div class="full-post"><div class="post-author"><div class="avatar"><img src="http://media1.gameinformer.com/filestorage/CommunityServer.Components.Avatars/00/00/45/31/63/4TPVWIGGM63I.jpg" style="border-width: 0;max-height:26px;max-width:26px;" /><div class="tip"></div></div></div><div class="post-content user-defined-markup"><a href="/members/kittenkilla/default.aspx">new traditionalist </a> commented on <a href="/members/PliggeTheFallen/default.aspx">Zachary Pligge's</a> post about <a href="/b/news/archive/2013/10/05/4936334.aspx#comments">re: Activision Counter-Sues Worlds, Inc. Over Patent Violations</a>.</div></div><div class="full-post-footer"></div></li><li class="content-item"><div class="full-post"><div class="post-author"><div class="avatar"><img src="http://media1.gameinformer.com/filestorage/CommunityServer.Components.Avatars/00/01/50/30/51/4TPQOSGMWSPV.jpg" style="border-width: 0;max-height:26px;max-width:26px;" /><div class="tip"></div></div></div><div class="post-content user-defined-markup"><a href="/members/codforlife/default.aspx">MSF codforlife</a> commented on <a href="/members/SereneMidnight/default.aspx">SereneMidnight's</a> post about <a href="/b/news/archive/2013/09/13/4426003.aspx#comments">re: Reader Discussion: Do You Watch Gaming Videos On YouTube?</a>.</div></div><div class="full-post-footer"></div></li><li class="content-item"><div class="full-post"><div class="post-author"><div class="avatar"><img src="http://media1.gameinformer.com/images/defaultpost.png" style="border-width: 0;max-height:26px;max-width:26px;" /><div class="tip"></div></div></div><div class="post-content user-defined-markup"><a href="/members/gamefan71/default.aspx">gamefan71</a> commented on <a href="/members/GIKyle/default.aspx">Kyle Hilliard's</a> post about <a href="/b/news/archive/2013/10/05/batman-arkham-origins-blackgate-developers-have-quot-non-arkham-quot-game-in-the-works.aspx#comments">Batman Arkham Origins: Blackgate Developers Have &quot;Non-Arkham&quot; Game In The Works</a>.</div></div><div class="full-post-footer"></div></li><li class="content-item"><div class="full-post"><div class="post-author"><div class="avatar"><img src="http://media1.gameinformer.com/filestorage/CommunityServer.Components.Avatars/00/00/98/26/64/4TNJ73R0EFHB.jpg" style="border-width: 0;max-height:26px;max-width:26px;" /><div class="tip"></div></div></div><div class="post-content user-defined-markup"><a href="/members/killerclown2143/default.aspx">Proprietary-Windmill</a> commented on <a href="/members/GIJeffM/default.aspx">Jeff Marchiafava's</a> post about <a href="/b/features/archive/2013/10/04/naming-the-next-disgaea.aspx#comments">Naming The Next Disgaea</a>.</div></div><div class="full-post-footer"></div></li><li class="content-item"><div class="full-post"><div class="post-author"><div class="avatar"><img src="http://media1.gameinformer.com/filestorage/CommunityServer.Components.Avatars/00/00/11/92/55/4TJZG1DGK1R7.jpg" style="border-width: 0;max-height:26px;max-width:26px;" /><div class="tip"></div></div></div><div class="post-content user-defined-markup"><a href="/members/DuskMirage/default.aspx">DuskMirage</a> commented on <a href="/members/Pherostatic/default.aspx">Pherostatic's</a> post about <a href="/b/features/archive/2013/10/05/4721322.aspx#comments">re: Replay – Strider</a>.</div></div><div class="full-post-footer"></div></li><li class="content-item"><div class="full-post"><div class="post-author"><div class="avatar"><img src="http://media1.gameinformer.com/filestorage/CommunityServer.Components.Avatars/00/01/43/89/01/4TQ0HFAYZN1I.jpg" style="border-width: 0;max-height:26px;max-width:26px;" /><div class="tip"></div></div></div><div class="post-content user-defined-markup"><a href="/members/BrokenWing/default.aspx">BrokenAngel</a> commented on <a href="/members/BrokenWing/default.aspx">BrokenAngel's</a> post about <a href="/b/news/archive/2013/10/05/4968404.aspx#comments">re: SNK Blocks The Sale And Manufacture Of NeoGeo X</a>.</div></div><div class="full-post-footer"></div></li><li class="content-item"><div class="full-post"><div class="post-author"><div class="avatar"><img src="http://media1.gameinformer.com/images/defaultpost.png" style="border-width: 0;max-height:26px;max-width:26px;" /><div class="tip"></div></div></div><div class="post-content user-defined-markup"><a href="/members/gamefan71/default.aspx">gamefan71</a> commented on <a href="/members/GIMike/default.aspx">Mike Futter's</a> post about <a href="/b/news/archive/2013/10/03/sony-and-extra-life-team-up-for-charity.aspx#comments">Sony And Extra Life Team Up For Charity</a>.</div></div><div class="full-post-footer"></div></li><li class="content-item"><div class="full-post"><div class="post-author"><div class="avatar"><img src="http://media1.gameinformer.com/filestorage/CommunityServer.Components.Avatars/00/00/96/36/76/4TLOBYTH4UOK.jpg" style="border-width: 0;max-height:26px;max-width:26px;" /><div class="tip"></div></div></div><div class="post-content user-defined-markup"><a href="/members/JonnyH107/default.aspx">JonnyH107</a> commented on <a href="/members/Mjolnr839/default.aspx">Mjolnr839's</a> post about <a href="/b/news/archive/2013/10/05/4961820.aspx#comments">re: League Of Legends Crowns Its Season Three World Champions</a>.</div></div><div class="full-post-footer"></div></li><li class="content-item"><div class="full-post"><div class="post-author"><div class="avatar"><img src="http://media1.gameinformer.com/filestorage/CommunityServer.Components.Avatars/00/01/55/57/35/4TPDQBER7US3.jpg" style="border-width: 0;max-height:26px;max-width:26px;" /><div class="tip"></div></div></div><div class="post-content user-defined-markup"><a href="/members/Gravity-Pen/default.aspx">Gravity Pen</a> commented on <a href="/members/GIMike/default.aspx">Mike Futter's</a> post about <a href="/b/news/archive/2013/10/03/a-look-at-naughty-dog_2700_s-abandoned-jak-and-daxter-reboot.aspx#comments">A Look At Naughty Dog&#39;s Abandoned Jak And Daxter Reboot</a>.</div></div><div class="full-post-footer"></div></li><li class="content-item"><div class="full-post"><div class="post-author"><div class="avatar"><img src="http://media1.gameinformer.com/filestorage/CommunityServer.Components.Avatars/00/00/64/38/32/4THYH5CRQ5GX.jpg" style="border-width: 0;max-height:26px;max-width:26px;" /><div class="tip"></div></div></div><div class="post-content user-defined-markup"><a href="/members/Taleus/default.aspx">Ryan</a> commented on <a href="/members/Deadpool3514/default.aspx">Deadpool3514's</a> post about <a href="/b/news/archive/2013/10/04/4920964.aspx#comments">re: GTA Online Patch Live On PlayStation 3, Coming Later Today For Xbox 360</a>.</div></div><div class="full-post-footer"></div></li><li class="content-item"><div class="full-post"><div class="post-author"><div class="avatar"><img src="http://media1.gameinformer.com/filestorage/CommunityServer.Components.Avatars/00/01/55/57/35/4TPDQBER7US3.jpg" style="border-width: 0;max-height:26px;max-width:26px;" /><div class="tip"></div></div></div><div class="post-content user-defined-markup"><a href="/members/Gravity-Pen/default.aspx">Gravity Pen</a> commented on <a href="/members/Mike-B-Trinh/default.aspx">Mike Trinh's</a> post about <a href="/b/news/archive/2013/10/03/costume-ideas-for-gamers-this-halloween.aspx#comments">Costume Ideas For Gamers This Halloween</a>.</div></div><div class="full-post-footer"></div></li><li class="content-item"><div class="full-post"><div class="post-author"><div class="avatar"><img src="http://media1.gameinformer.com/images/defaultpost.png" style="border-width: 0;max-height:26px;max-width:26px;" /><div class="tip"></div></div></div><div class="post-content user-defined-markup"><a href="/members/gamefan71/default.aspx">gamefan71</a> commented on <a href="/members/GIJeff/default.aspx">Jeff Cork's</a> post about <a href="/b/features/archive/2013/10/05/replay-strider.aspx#comments">Replay – Strider</a>.</div></div><div class="full-post-footer"></div></li><li class="content-item"><div class="full-post"><div class="post-author"><div class="avatar"><img src="http://media1.gameinformer.com/filestorage/CommunityServer.Components.Avatars/00/00/44/20/33/4TPSJU5F7XCS.jpg" style="border-width: 0;max-height:26px;max-width:26px;" /><div class="tip"></div></div></div><div class="post-content user-defined-markup"><a href="/members/VinsanityV22/default.aspx">VinsanityV22</a> commented on <a href="/members/GIKyle/default.aspx">Kyle Hilliard's</a> post about <a href="/b/news/archive/2013/10/05/snk-blocks-the-sale-and-manufacture-of-neogeo-x.aspx#comments">SNK Blocks The Manufacture Of NeoGeo X</a>.</div></div><div class="full-post-footer"></div></li><li class="content-item"><div class="full-post"><div class="post-author"><div class="avatar"><img src="http://media1.gameinformer.com/filestorage/CommunityServer.Components.Avatars/00/01/55/57/35/4TPDQBER7US3.jpg" style="border-width: 0;max-height:26px;max-width:26px;" /><div class="tip"></div></div></div><div class="post-content user-defined-markup"><a href="/members/Gravity-Pen/default.aspx">Gravity Pen</a> commented on <a href="/members/GIMike/default.aspx">Mike Futter's</a> post about <a href="/b/news/archive/2013/10/04/maxis-exploring-offline-mode-for-simcity.aspx#comments">Maxis Exploring Offline Mode For SimCity</a>.</div></div><div class="full-post-footer"></div></li></ul></div></div>
+</div><div class="header-fragment nav-bar" id="fragment-cc2860ed-42cc-400a-ba14-3cf8397c2148">
+
+<div class="nav-bar-header"></div>
+<div class="nav-bar-content">
+    <ul class="navigation-list">
+        <li class="all"><em><a href="/default.aspx">Home</a></em></li>
+        <li class="platforms"><em><a href="#" class="ir">Platforms</a><span></span></em>
+            
+                    <div class="subnav">
+                        <ul class="dropdown">
+                             
+                    
+                                <li><a href="/Wii/news.aspx">Nintendo Wii</a></li>                            
+                                               
+                             
+                    
+                                <li><a href="/Nintendo+DS/news.aspx">Nintendo DS</a></li>                            
+                                               
+                             
+                    
+                                <li><a href="/PlayStation+3/news.aspx">PlayStation 3</a></li>                            
+                                               
+                             
+                    
+                                <li><a href="/PC/news.aspx">PC</a></li>                            
+                                               
+                             
+                                       
+                             
+                    
+                                <li><a href="/PSP/news.aspx">PSP</a></li>                            
+                                               
+                             
+                    
+                                <li><a href="/Xbox+360/news.aspx">Xbox 360</a></li>                            
+                                               
+                             
+                    
+                                <li><a href="/3DS/news.aspx">3DS</a></li>                            
+                                               
+                             
+                    
+                                <li><a href="/Wii+U/news.aspx">Wii U</a></li>                            
+                                               
+                             
+                    
+                                <li><a href="/PlayStation+Vita/news.aspx">PlayStation Vita</a></li>                            
+                                               
+                             
+                    
+                                <li><a href="/PlayStation+4/news.aspx">PlayStation 4</a></li>                            
+                                               
+                             
+                    
+                                <li><a href="/Xbox+One/news.aspx">Xbox One</a></li>                            
+                                               
+                
+                        <li><a href="../../../News.aspx">All</a></li>
+                        </ul>
+                    </div>
+                
+        </li>
+        <li class="news"><em><a href="/news.aspx">News</a></em></li>
+        <li class="reviews"><em><a href="/reviews.aspx">Reviews</a></em></li>
+        <li class="previews"><em><a href="/previews.aspx">Previews</a></em></li>
+        <li class="explore"><em><a href="#" class="ir">Explore</a><span></span></em>
+            <div class="subnav">
+                <ul class="dropdown">
+                    <!--<li><a href="/m/">Media Gallery</a></li>-->
+                    <li><a href="/features.aspx">Features</a></li>
+                    <li><a href="/w/">Guides</a></li>
+                    <li><a href="/p/siteactivity.aspx">Site Activity</a></li>
+                    <li><a id="ctl00_fragment_cc2860ed_42cc_400a_ba14_3cf8397c2148_ctl01_editorBlogs" href="/blogs/editors/default.aspx">Editor Blogs</a></li>
+                    <li><a id="ctl00_fragment_cc2860ed_42cc_400a_ba14_3cf8397c2148_ctl01_podcastBlogLink" href="/b/podcasts/default.aspx">Podcasts</a></li>
+                    <li><a href="/mag/reviewarchive.aspx">Review Archive</a></li> 
+                    <li><a href="/p/thevault.aspx">The Vault</a></li>  
+                    <li><a href="/p/help.aspx">Site Help</a></li>     
+                </ul>
+            </div>
+        </li>
+        <li class="take-part"><em><a href="#" class="ir">Take Part</a><span></span></em>
+            <div class="subnav">
+                <ul class="dropdown">
+                    <li><a id="ctl00_fragment_cc2860ed_42cc_400a_ba14_3cf8397c2148_ctl01_userBlogLink" href="/blogs/members/default.aspx">Blogs</a></li>
+                    <li><a id="ctl00_fragment_cc2860ed_42cc_400a_ba14_3cf8397c2148_ctl01_forumsLink" href="/forums/default.aspx">Forums</a></li>
+                    <li><a href="/w/">Guides</a></li>
+                    <li><a id="ctl00_fragment_cc2860ed_42cc_400a_ba14_3cf8397c2148_ctl01_contestBlogLink" href="/b/contests/default.aspx">Contests</a></li>
+                    <li><a id="ctl00_fragment_cc2860ed_42cc_400a_ba14_3cf8397c2148_ctl01_groupsLink" href="/membergroups/default.aspx">Groups</a></li>
+                    <li><a id="ctl00_fragment_cc2860ed_42cc_400a_ba14_3cf8397c2148_ctl01_pollLink" href="/polls/f/10.aspx">Polls</a></li>
+                    <li><a href="/p/newsletter.aspx">Newsletter Sign-up</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="take part"><em><a href="#" class="ir">Magazine</a><span></span></em>                                          
+            <div class="subnav">
+                <ul class="dropdown">
+                    <li><a href="/mag/default.aspx">Read Current Issue</a></li>
+                    <li><a href="http://itunes.apple.com/us/app/game-informer/id526096699" title="Open Our iPad App in iTunes">iPad App</a></li>
+                    <li><a href="/p/subscribe.aspx">Subscribe</a></li>
+                    <li><a href="http://www.gameinformer.com/contactus.aspx" title="Contact Us">Contact Us</a></li>
+                    <li><a href="/mag/reviewarchive.aspx">Review Archive</a></li>  
+                    <li><a href="/mag/covers.aspx">Cover Gallery</a></li>                    
+                </ul>
+            </div>                
+        </li>
+       <li class="magazine"><em><a href="#" class="ir">Hubs</a><span></span></em>                                          
+            <div class="subnav" style="width:140px !important;">
+                <ul id="ctl00_fragment_cc2860ed_42cc_400a_ba14_3cf8397c2148_ctl01_ulHubs" class="dropdown"><li><a href="/codghosts">Call of Duty</a></li><li><a href="/dai">Dragon Age</a></li><li><a href="/e32013">E3 Hot 50</a></li><li><a href="/p/gishow.aspx">The GI Show</a></li><li><a href="/p/replay.aspx">Replay</a></li><li><a href="/p/culture.aspx">Gamer Culture</a></li><li><a href="/p/testchamber.aspx">Test Chamber</a></li><li><a href="/p/cosblog.aspx">CosBlog</a></li><li><a href="/p/spoiled.aspx">Spoiled!</a></li><li><a href="/p/impulse.aspx">Impulse</a></li><li><a href="/p/respec_radio.aspx">Respec Radio</a></li><li><a href="/p/thelab.aspx">More...</a></li></ul>
+            </div>                
+        </li>
+    </ul>
+</div>
+<div class="nav-bar-footer"></div>
+
+</div></div>
+<div class="header-fragments-footer"></div>
+			
+    <div class="content-fragment-page post" id="ctl00_content_ctl00_page"><div class="layout">
+<div class="layout-header"></div>
+<div class="layout-content header-top-content-left-sidebar-right" id="ctl00_content_ctl00_layout">
+<div class="layout-region header" id="ctl00_content_ctl00_header">
+<div class="layout-region-inner header"><div class="content-fragment g-i-core-breadcrumbs" id="fragment-3599">
+<div class="content-fragment-content">
+
+
+<div class="breadcrumb-list-header"></div>
+<div class="breadcrumb-list">
+    
+    <span class="breadcrumb-item first"><a class="internal-link" href="/default.aspx">Home</a></span>
+                        
+	
+							<span class="breadcrumb-item"><a href="/b/podcasts/archive/2013/09/26/gi-show-174-valve-39-s-steam-machines-visiting-the-tokyo-game-show.aspx?utm_content=buffer5e7a7&amp;utm_source=buffer&amp;utm_medium=twitter&amp;utm_campaign=Buffer">
+									Podcasts
+								</a></span>
+            
+                    
+
+                      
+    
+    
+                
+            
+		
+		
+	
+</div>
+<div class="breadcrumb-list-footer">
+</div>
+<script>
+    $(function() {
+        $(".breadcrumb-list .breadcrumb-item:last-child").addClass('last');
+    });
+</script>
+</div>
+<div class="content-fragment-footer"></div>
+</div>
+</div>
+</div>
+<div class="layout-region right-sidebar" id="ctl00_content_ctl00_right-sidebar">
+<div class="layout-region-inner right-sidebar"><div class="content-fragment raw-html" id="fragment-16656">
+<div class="content-fragment-content">
+<div class="user-defined-markup"><script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/1019038/GI_ROS_af_300x250//300x600', [[300, 250], [300, 600]], 'div-gpt-ad-1367948411207-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+<!-- GI_ROS_af_300x250/300x600 -->
+<div id='div-gpt-ad-1367948411207-0'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1367948411207-0'); });
+</script>
+</div></div></div>
+<div class="content-fragment-footer"></div>
+</div>
+<div class="content-fragment g-i-blog-links" id="fragment-6736">
+<div class="content-fragment-content">
+
+<div class="gi-blog-toolbox">
+    
+            <div class="navigation-list-header"></div>
+            <ul class="navigation-list">
+        
+
+	    
+
+	    <li class="navigation-item"><a class="internal-link rss" href="/b/MainFeed.aspx?Type=BlogsOnly"><span></span>Subscribe via RSS</a></li>
+
+	    
+        
+	    
+    	
+	    
+    	
+	    
+
+	    
+    				
+	    
+    	    	
+	    
+    	
+	    
+    	
+	    
+    	
+	    
+    	
+	    
+    	
+	    
+    	
+	    
+
+        
+        
+        
+        
+    
+		    </ul>
+		    <div class="navigation-list-footer"></div>
+        
+
+</div></div>
+<div class="content-fragment-footer"></div>
+</div>
+<div class="content-fragment sidebar-recent-featured-articles" id="fragment-15607">
+<div class="content-fragment-header">features</div>
+<div class="content-fragment-content">
+
+
+<div class="lnkHeader_container">
+    <div class="lnkHeader_textlink">
+        <a id="ctl00_content_ctl00_fragment_15607_ctl01_ctl00_lnkHeader_Text" href="http://www.gameinformer.com/p/features.aspx">
+            <img src="/Themes/GameInformer/images/sidebar/spacer-Off.gif" style="border: none; height:20px; width: 200px; z-index: 500;" alt="widget link" /> 
+        </a>
+    </div>
+    <div class="lnkHeader_imagelink">
+        <a id="ctl00_content_ctl00_fragment_15607_ctl01_ctl00_lnkHeader_Chevron_Icon" class="sb_anchor_image" href="http://www.gameinformer.com/p/features.aspx" style="display:inline-block;"><img src="/Themes/GameInformer/images/sidebar/spacer-Off.gif" alt="" border="0" /></a>
+    </div>
+</div>
+
+<div class="side-bar-list">
+    <div class="staff">
+        <ul class="sb_list">
+            <ul class="sb_list"timestamp="10/5/2013 5:52:00 PM"><li><div class="sb_featurePost_image"><img src="http://media1.gameinformer.com/filestorage/CommunityServer.Components.SiteFiles/imagefeed/featured/gameinformer/replay/strider/Replay_strider_200.jpg" height="90" width="100"></img></div><div class="sb_featurePost_subject"><a href="/b/features/archive/2013/10/05/replay-strider.aspx">Replay – Strider</a></div></li><li><div class="sb_featurePost_image"><img src="http://media1.gameinformer.com/filestorage/CommunityServer.Components.SiteFiles/imagefeed/featured/gameinformer/namingkingdomhearts/disgaea/disgaea200.jpg" height="90" width="100"></img></div><div class="sb_featurePost_subject"><a href="/b/features/archive/2013/10/04/naming-the-next-disgaea.aspx">Naming The Next Disgaea</a></div></li><li><div class="sb_featurePost_image"><img src="http://media1.gameinformer.com/filestorage/CommunityServer.Components.SiteFiles/imagefeed/featured/nintendo2013/windwakerHD/swift200.jpg" height="90" width="100"></img></div><div class="sb_featurePost_subject"><a href="/b/features/archive/2013/10/04/how-to-get-the-swift-sail-wind-waker-hd.aspx">How To Get The Swift Sail In Zelda: The Wind Waker HD</a></div></li><li><div class="sb_featurePost_image"><img src="http://media1.gameinformer.com/filestorage/CommunityServer.Components.SiteFiles/imagefeed/featured/2kgames/irrational/ken200.jpg" height="90" width="100"></img></div><div class="sb_featurePost_subject"><a href="/b/features/archive/2013/10/04/quantum-mechanics-and-the-joy-of-ambiguity-a-conversation-with-ken-levine.aspx">Quantum Mechanics And The Joy Of Ambiguity: A Conversation With...</a></div></li><li><div class="sb_featurePost_image"><img src="http://media1.gameinformer.com/filestorage/CommunityServer.Components.SiteFiles/imagefeed/featured/features/top10s/armies/covenant200.jpg" height="90" width="100"></img></div><div class="sb_featurePost_subject"><a href="/b/features/archive/2013/10/03/the-top-10-armies-in-video-games.aspx">The Top 10 Armies in Video Games</a></div></li><li><div class="sb_featurePost_image"><img src="http://media1.gameinformer.com/filestorage/CommunityServer.Components.SiteFiles/imagefeed/featured/nis-america/disgaea/disgaea4200.jpg" height="90" width="100"></img></div><div class="sb_featurePost_subject"><a href="/b/features/archive/2013/10/03/rpg-spotlight-disgaea.aspx">RPG Spotlight: Disgaea</a></div></li><li><div class="sb_featurePost_image"><img src="http://media1.gameinformer.com/filestorage/CommunityServer.Components.SiteFiles/imagefeed/featured/sony2013/mark-cerny/MarkCernyVideo-2200.jpg" height="90" width="100"></img></div><div class="sb_featurePost_subject"><a href="/b/features/archive/2013/10/03/knack-for-all-trades-mark-cernys-legendary-career-in-games.aspx">Knack For All Trades: Mark Cerny's Legendary Career In Games</a></div></li></ul>
+        </ul>
+    </div>
+</div>
+
+</div>
+<div class="content-fragment-footer"></div>
+</div>
+<div class="content-fragment sidebar-related-posts-list sidebar-header-black" id="fragment-3608">
+<div class="content-fragment-header">Related Posts</div>
+<div class="content-fragment-content">
+
+<div class="side-bar-list">
+    <ul class="list">
+    
+        <li>
+            <div class="item-title">
+                <a href="/b/news/archive/2013/10/04/half_2D00_life-3-trademark-listing-was-a-hoax.aspx" title="Report: Half-Life 3 Trademark Listing Was A Hoax">Report: Half-Life 3 Trademark Listing Was A Hoax</a>
+            </div>
+            <div class="item-meta">
+                <span class="date">Oct 04 2013 08:17 PM</span>
+            </div>
+        </li>
+    
+        <li>
+            <div class="item-title">
+                <a href="/b/news/archive/2013/10/04/valve-steam-machine-prototypes-coming-with-nvidia-titans.aspx" title="Some Valve Steam Machine Prototypes Coming With NVidia Titans">Some Valve Steam Machine Prototypes Coming With NVidia Titans</a>
+            </div>
+            <div class="item-meta">
+                <span class="date">Oct 04 2013 02:29 PM</span>
+            </div>
+        </li>
+    
+        <li>
+            <div class="item-title">
+                <a href="/b/news/archive/2013/10/04/bioshock-2-on-steam-free-for-those-with-original-release-discounted-for-others-.aspx" title="BioShock 2 On Steam Free For Those With Original Release, Discounted For Others">BioShock 2 On Steam Free For Those With Original Release, Discounted For Others</a>
+            </div>
+            <div class="item-meta">
+                <span class="date">Oct 04 2013 01:44 PM</span>
+            </div>
+        </li>
+    
+        <li>
+            <div class="item-title">
+                <a href="/b/news/archive/2013/10/03/you-can-pre-order-the-wolf-among-us-now.aspx" title="You Can Pre-Order The Wolf Among Us Now">You Can Pre-Order The Wolf Among Us Now</a>
+            </div>
+            <div class="item-meta">
+                <span class="date">Oct 03 2013 08:35 PM</span>
+            </div>
+        </li>
+    
+        <li>
+            <div class="item-title">
+                <a href="/b/podcasts/archive/2013/10/03/gi-show-175-grand-theft-auto-online-brothers-interview.aspx" title="GI Show 175: Grand Theft Auto Online, Brothers Interview">GI Show 175: Grand Theft Auto Online, Brothers Interview</a>
+            </div>
+            <div class="item-meta">
+                <span class="date">Oct 03 2013 07:00 PM</span>
+            </div>
+        </li>
+    
+        <li>
+            <div class="item-title">
+                <a href="/b/features/archive/2013/10/03/knack-for-all-trades-mark-cernys-legendary-career-in-games.aspx" title="Knack For All Trades: Mark Cerny&#39;s Legendary Career In Games">Knack For All Trades: Mark Cerny&#39;s Legendary Career In Games</a>
+            </div>
+            <div class="item-meta">
+                <span class="date">Oct 03 2013 01:00 PM</span>
+            </div>
+        </li>
+    
+        <li>
+            <div class="item-title">
+                <a href="/b/news/archive/2013/10/02/32-new-titles-get-the-steam-greenlight.aspx" title="32 New Titles Get The Steam Greenlight">32 New Titles Get The Steam Greenlight</a>
+            </div>
+            <div class="item-meta">
+                <span class="date">Oct 02 2013 09:00 PM</span>
+            </div>
+        </li>
+    
+        <li>
+            <div class="item-title">
+                <a href="/b/podcasts/archive/2013/10/02/special-edition-podcast-cod-ghosts.aspx" title="Special Edition Podcast – Call Of Duty: Ghosts">Special Edition Podcast – Call Of Duty: Ghosts</a>
+            </div>
+            <div class="item-meta">
+                <span class="date">Oct 02 2013 02:00 PM</span>
+            </div>
+        </li>
+    
+        <li>
+            <div class="item-title">
+                <a href="/b/news/archive/2013/10/02/report-valves-internal-database-exposed-half-life-3-team-revealed.aspx" title="Report: Valve&#39;s Internal Database Exposed, Half-Life 3 Team Revealed">Report: Valve&#39;s Internal Database Exposed, Half-Life 3 Team Revealed</a>
+            </div>
+            <div class="item-meta">
+                <span class="date">Oct 02 2013 09:21 AM</span>
+            </div>
+        </li>
+    
+        <li>
+            <div class="item-title">
+                <a href="/b/news/archive/2013/10/01/valve-files-half-life-3-trademark.aspx" title="Valve Files Half-Life 3 Trademark">Valve Files Half-Life 3 Trademark</a>
+            </div>
+            <div class="item-meta">
+                <span class="date">Oct 01 2013 01:55 PM</span>
+            </div>
+        </li>
+    
+    </ul>
+</div>
+</div>
+<div class="content-fragment-footer"></div>
+</div>
+</div>
+</div>
+<div class="layout-region content" id="ctl00_content_ctl00_content">
+<div class="layout-region-inner content"><div class="content-fragment g-i-blog-post" id="fragment-3600">
+<div class="content-fragment-content">
+
+<div class="gi-post preview" itemscope itemtype="http://schema.org/Article">
+    <div class="full-post-header"></div>
+    <div class="full-post">
+        
+        <h1 itemprop="name" class="post-name">
+            GI Show 174: Valve&#39;s Steam Machines, Visiting The Tokyo Game Show</h1>
+        
+        <div class="post-meta">
+            
+                    <div class="FeedTag"><span>podcast</span></div>
+                
+            
+            <div class="post-hotness">
+                
+            </div>
+            <div class="post-author">
+                <span class="label">by <a href="/members/GIHanson/default.aspx" title="Visit Profile">
+                    Ben Hanson</a> </span><span class="label">on
+                        September 26, 2013
+                        at
+                        07:00 PM</span>
+            </div>
+            <div class="post-views">
+                <span class="value">
+                    5,675
+                </span><span class="label">Views </span>
+            </div>
+            <div class="post-platforms">
+                
+            </div>
+            
+            <div class="post-rating"><span id="ctl00_content_ctl00_fragment_3600_ctl01_ctl00_ctl04" title="Rated Excellent [5 out of 5]."></span><input type="hidden" value="5" id="ctl00_content_ctl00_fragment_3600_ctl01_ctl00_ctl04_Value" /></div>
+            
+                    <div class="post-comments">
+                        
+                                <span class="comment-count"><em>
+                                    <a class="internal-link view-replies" href="/b/podcasts/archive/2013/09/26/gi-show-174-valve-39-s-steam-machines-visiting-the-tokyo-game-show.aspx#comments">15</a>
+                                </em></span>
+                            
+                        
+                    </div>
+                
+        </div>
+        <div class="post-content user-defined-markup">
+            <p><img itemprop="image" border="0" src="http://media1.gameinformer.com/filestorage/CommunityServer.Components.SiteFiles/imagefeed/featured/gameinformer/thegishow/ep174/GIShow-Ep174-610.jpeg" style="max-width:610px;" alt="" /></p>
+<p>From Valve&#39;s hardware announcements to the wonders of Tokyo, we cover the big news of the week.</p>
+<p>The hype surrounding Valve lately is the biggest story; the reveal of&nbsp;<a href="http://www.gameinformer.com/b/news/archive/2013/09/23/valve-announces-free-steamos-as-first-living-room-announcement.aspx">SteamOS</a>&nbsp;and partnering with manufacturers to <a href="http://www.gameinformer.com/b/news/archive/2013/09/25/second-steam-announcement-reveals-steam-machines-beta-test.aspx">create Steam Machines</a> mark the first two announcements, with all signs pointing to Friday being a Valve-produced controller reveal. Video producer Ben Hanson (who fills in for regular host Matt Helgeson) is joined by Jeff Cork, Dan Ryckert, and Kyle Hilliard to talk about the potential of Valve invading our living rooms. We then get the nomadic Tim Turi and Kim Wallace to talk about their adventures in Japan <a href="http://www.gameinformer.com/b/features/archive/2013/09/21/our-tokyo-game-show-2013-highlights.aspx">while covering the Tokyo Game Show</a>, and they paint a nice picture of this mystical foreign land. </p>
+<p><span>E</span>njoy!</p>
+<p><script type="text/javascript" src="http://www.gameinformer.com/WebResource.axd?d=1OYIckjeKXVAzO4lJDh4WaDjDrqWFfaF-ZRxljYYWjAwxFpj_K7ow8ihrgnn6UvxeMODqNdi_M20QCJMWpjkiZULsHE36K6EkdsAhmknM8vOMTbXaClBVWHTfrddI5hNpq0XHJ3woflR4xERGYsW_PJaAe6dA-G1L0fA2WlDA7NivSrZ0&t=634897509196483617"></script><div id="audio_0318e870-00ac-40a0-8d26-1485f6650885"><a style="display: block; text-align: center; width: 588px; text-decoration: none; color: #fff; border: solid 1px #333; background-color: #666; background-image: url('/utility/images/audio-preview.gif'); background-position: 2px center; background-repeat: no-repeat; padding: 10px; font-size: 11px; font-weight: bold;" href="http://media1.gameinformer.com/media/audio/theshow/ep174/theshow-ep174.mp3" onclick="cs_setInnerHtml('audio_0318e870-00ac-40a0-8d26-1485f6650885','&lt;object width=\&quot;610\&quot; height=\&quot;50\&quot; type=\&quot;application/x-mplayer2\&quot;  &gt;&lt;param name=\&quot;autostart\&quot; value=\&quot;true\&quot; /&gt;\n&lt;param name=\&quot;filename\&quot; value=\&quot;http://media1.gameinformer.com/media/audio/theshow/ep174/theshow-ep174.mp3\&quot; /&gt;\n&lt;param name=\&quot;src\&quot; value=\&quot;http://media1.gameinformer.com/media/audio/theshow/ep174/theshow-ep174.mp3\&quot; /&gt;\n&lt;param name=\&quot;autoplay\&quot; value=\&quot;true\&quot; /&gt;\n&lt;param name=\&quot;playcount\&quot; value=\&quot;1\&quot; /&gt;\n&lt;param name=\&quot;controller\&quot; value=\&quot;true\&quot; /&gt;\n&lt;param name=\&quot;hidden\&quot; value=\&quot;false\&quot; /&gt;\n&lt;param name=\&quot;loop\&quot; value=\&quot;false\&quot; /&gt;\n&lt;param name=\&quot;width\&quot; value=\&quot;610\&quot; /&gt;\n&lt;param name=\&quot;height\&quot; value=\&quot;50\&quot; /&gt;\n&lt;embed src=\&quot;http://media1.gameinformer.com/media/audio/theshow/ep174/theshow-ep174.mp3\&quot; width=\&quot;610\&quot; height=\&quot;50\&quot; loop=\&quot;false\&quot; hidden=\&quot;false\&quot; autostart=\&quot;true\&quot; controller=\&quot;true\&quot; playcount=\&quot;1\&quot; type=\&quot;application/x-mplayer2\&quot;  /&gt;&lt;/object&gt;');return false;">Click here to play this audio clip</a></div><script type="text/javascript" src="http://www.gameinformer.com/WebResource.axd?d=qNm8fHakzhEBz4yHbvh0FQibGEKOSGyJKNOUCh207ubz3NWYnBsg701m_ubbbbyktThmRmzaVAER7_CA0CNhrvs6mc2xfzGfbBr9pFk1zJualf7qeqBnaKbwnC0ygztk33u2SaITWoRdHAWOEd_Om3rZy8WklqdBygacAQrnmiwpQwL-0&t=634897509196483617"></script><script type="text/javascript">
+if (deconcept.SWFObjectUtil.getPlayerVersion().major >= 8)
+{
+var audio_0318e87000ac40a08d261485f6650885 = new SWFObject('http://www.gameinformer.com/WebResource.axd?d=rzA-365uXT-5lVNZq3kIbwCi1oyQSCsBnnN0cAtIbR_MzTtHvEcXj9i7n5GmjIGuN0s0fgZ8EyAh11jd2r7M4D92kmzDT2gMPx9LF2t4JwXsIODzMsXmFrf4f28Lk0OGtqXM8r1S2vMjC2TxR8CM-WOwe1-1vkmNQLM1gonFOuhe1k_L0&t=634897509196483617','audio_0318e870-00ac-40a0-8d26-1485f6650885-e','610','20','8');
+audio_0318e87000ac40a08d261485f6650885.addVariable('width','610');
+audio_0318e87000ac40a08d261485f6650885.addVariable('height','20');
+audio_0318e87000ac40a08d261485f6650885.addVariable('file','http://media1.gameinformer.com/media/audio/theshow/ep174/theshow-ep174.mp3');
+audio_0318e87000ac40a08d261485f6650885.write('audio_0318e870-00ac-40a0-8d26-1485f6650885');
+}
+</script></p><div style="clear:both;"></div>
+        </div>
+        <div class="post-attachment-viewer">
+            
+                    <div class="post-attachment">
+                        <span class="label">Attachment:</span>
+                        <span class="value">
+                <a class="internal-link download-attachment" href="http://media1.gameinformer.com/media/audio/theshow/ep174/theshow-ep174.mp3">
+                    <span class="avatar"><img src="/utility/filethumbnails/mp3.gif" border="0" alt="" style="max-height: 28px;max-width: 28px;" /></span>
+                    http://media1.gameinformer.com/media/audio/theshow/ep174/theshow-ep174.mp3
+                </a>
+                    </span></div>
+                
+        </div>
+        
+        <section class="hcard" itemscope itemtype="http://data-vocabulary.org/Person">
+            <p>Email the author <a href="mailto:Hanson@gameinformer.com" title="Email Ben Hanson" itemprop="url"><span itemprop="name" class="">Ben Hanson</span></a>, or follow on <a href="http://www.twitter.com/yozetty" titlte="Twitter" itemprop="url">Twitter</a>, and <a href="/members/GIHanson/default.aspx" titlte="Game Informer" itemprop="url">Game Informer</a>.</p>
+        </section>
+        <div class="post-tags">
+                Filed under:
+            <span id="ctl00_content_ctl00_fragment_3600_ctl01_ctl00_ctl07_ctl03"><a href="http://www.gameinformer.com/b/podcasts/archive/tags/Tokyo+Game+Show/default.aspx" rel="tag">Tokyo Game Show</a>, <a href="http://www.gameinformer.com/b/podcasts/archive/tags/Podcast/default.aspx" rel="tag">Podcast</a>, <a href="http://www.gameinformer.com/b/podcasts/archive/tags/The+Game+Informer+Show/default.aspx" rel="tag">The Game Informer Show</a>, <a href="http://www.gameinformer.com/b/podcasts/archive/tags/gameinformershow/default.aspx" rel="tag">gameinformershow</a>, <a href="http://www.gameinformer.com/b/podcasts/archive/tags/Valve/default.aspx" rel="tag">Valve</a>, <a href="http://www.gameinformer.com/b/podcasts/archive/tags/tgs/default.aspx" rel="tag">tgs</a>, <a href="http://www.gameinformer.com/b/podcasts/archive/tags/japan/default.aspx" rel="tag">japan</a>, <a href="http://www.gameinformer.com/b/podcasts/archive/tags/steam/default.aspx" rel="tag">steam</a>, <a href="http://www.gameinformer.com/b/podcasts/archive/tags/half_2D00_life+3/default.aspx" rel="tag">half-life 3</a>, <a href="http://www.gameinformer.com/b/podcasts/archive/tags/japanese+culture/default.aspx" rel="tag">japanese culture</a>, <a href="http://www.gameinformer.com/b/podcasts/archive/tags/steam+machine/default.aspx" rel="tag">steam machine</a>, <a href="http://www.gameinformer.com/b/podcasts/archive/tags/steamOS/default.aspx" rel="tag">steamOS</a>, <a href="http://www.gameinformer.com/b/podcasts/archive/tags/tgs+2013/default.aspx" rel="tag">tgs 2013</a></span><input type="hidden" name="ctl00$content$ctl00$fragment_3600$ctl01$ctl00$ctl07$ctl03" id="ctl00_content_ctl00_fragment_3600_ctl01_ctl00_ctl07_ctl03_State" value="nochange" /></div>
+        
+    </div>
+    <div class="full-post-footer">
+    </div>
+</div></div>
+<div class="content-fragment-footer"></div>
+</div>
+<div id="fragment-3601"></div>
+<div id="fragment-3602"></div>
+<div class="content-fragment share-post-toolbar-content-fragment" id="fragment-3603">
+<div class="content-fragment-content">
+
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style ">
+    <a class="addthis_button_facebook_like"></a>
+    <a class="addthis_button_tweet"></a>
+    <a class="addthis_button_google_plusone"></a>
+    <a class="addthis_counter addthis_pill_style"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e5788613eabd5b4"></script>
+<!-- AddThis Button END -->
+<script type="text/javascript">
+    jQuery('.addthis_button_facebook_like').attr('fb:like:layout',
+'button_count');
+    jQuery(".addthis_button_google_plusone").attr("g:plusone:size", "medium");
+</script></div>
+<div class="content-fragment-footer"></div>
+</div>
+<div id="fragment-3604"></div>
+<div class="content-fragment post-feed-back-list" id="fragment-17347">
+<div class="content-fragment-content">
+
+
+<style type="text/css">
+    .textbox_comments { border: solid 2px #ff6600; color: #333; margin: 10px; }
+    #moderator_tools { width: 300px; margin: auto; text-align: center; }
+    #moderator_tools a { text-align: center; margin: auto; }
+    #post_links { width: 530px; margin: auto; }
+    .date-view { clear: none; display: block; margin: 10px 10px 6px 0; }
+    .feedback-button { cursor: pointer; }
+</style>
+<script type="text/javascript">
+    var Blogs_BlogPostFeedback_AjaxEndpoint = '/Utility/ContentFragments/GameInformer/Post/PostFeedback.asmx';
+</script>
+<a name="comments" href="javscript:void(0);"></a>
+
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        Comments.Start({"postId":4723681,"postSectionId":8,"threadId":2065994,"pageNum":0,"pageSize":20,"sort":"asc","isAnonymous":"true","currentUserId":2101,"isUserModerator":"false","isEditorOrAdmin":"false","hotConversationThreshold":10});
+    });
+</script>
+
+
+<div class="gi-post-list comment-list" id="comments">
+    <div class="content-list-name">
+         <em>comments</em>
+    </div>
+    <div class="navigation-list-header sort-options">
+        sort by date:
+    </div>
+    <ul class="navigation-list sort-options">
+        <li class="navigation-item">
+            <a id="ctl00_content_ctl00_fragment_17347_ctl01_ctl00_btnSortAsc" class="navigation-item-title selected" href="javascript:__doPostBack(&#39;ctl00$content$ctl00$fragment_17347$ctl01$ctl00$btnSortAsc&#39;,&#39;&#39;)">ascending</a>
+        </li>
+        <li class="navigation-item last">
+            <a id="ctl00_content_ctl00_fragment_17347_ctl01_ctl00_btnSortDesc" class="navigation-item-title" href="javascript:__doPostBack(&#39;ctl00$content$ctl00$fragment_17347$ctl01$ctl00$btnSortDesc&#39;,&#39;&#39;)">descending</a></li>
+    </ul>
+    
+        <ul class="content-list" data-bind="template: { name: 'comment-template', foreach: comments }"></ul>
+    
+    <script type="text/html" id="comment-template">
+        <li class="content-item">
+            <div class="abbreviated-post-header">
+                <a data-bind="attr: {href: ProfileURL }">
+                    <div data-bind="css: UserRoleDisplay">
+                        <div class="img">
+                            <img data-bind="attr: { src: Avatar() }" alt="Avatar" />
+                        </div>
+                        <div class="role" data-bind="text: UserRoleName"></div>
+                    </div>
+                </a>
+            </div>
+            <div class="abbreviated-post">
+                <div class="post-meta">
+                    <span class="">by 
+                        <a class="internal-link view-user-profile" data-bind="attr: { href: ProfileURL }, text: DisplayName"></a>
+                    </span>
+                    <span class="date-view" data-bind="text: DatePosted"></span>
+                </div>
+                <div class="post-body" data-bind="html: Body">
+                    <div style="clear: both;"></div>
+                </div>
+                <div class="post-body" data-bind="visible: IsCommentAuthor()">
+                    <a class="feedback-button feedback-edit-button"  data-bind="click: Edit">Edit</a> &nbsp; 
+                    <a class="feedback-button feedback-delete-button"  data-bind="click: Delete">Delete</a>
+                </div>
+                <div data-bind="visible: IsQuotable()">
+                    <a class="feedback-button replyLink feedback-reply-button"  data-bind="click: ToggleReplyButton">Reply</a>
+                    <div class="replyControl">
+                        <textarea rows="5" cols="20" class="textbox_comments" style="width: 95%"></textarea>
+                        <a class="feedback-button feedback-submit-button" data-bind="click: Reply">Submit</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="threadedComments" data-bind="visible: ReplyCount() > 0">
+                <a href="javascript:void(0)" class="threaded-conversation-toggle" data-bind="click: ToggleReplies, text: '[+] View Conversation (' + ReplyCount() + ')'"></a>
+                &nbsp;<img src="/Themes/gameinformer/images/mini-hot-icon.png" class="threaded-conversation-hot-icon" data-bind="visible: ReplyCount() > HotConversationThreshold"/>
+                <div class="threaded-conversation-listing" data-bind="visible: RepliesVisible">
+                    <ul data-bind="template: { name: 'comment-template', foreach: Replies }"></ul>
+                </div>
+            </div>
+        </li>
+    </script>
+</div>
+
+
+</div>
+<div class="content-fragment-footer"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="layout-footer"></div>
+</div></div>
+
+			<div class="footer-fragments-header"></div>
+<div class="footer-fragments"><div class="footer-fragment entire-footer-fragment" id="fragment-d71774e4-f6e2-4e87-ba7a-b9f58acbc7c2">
+
+<footer id="footer">
+    <header>
+        <nav class="logo">
+            <a href="/default.aspx" title="Game Informer Home Page">Game Informer</a>
+        </nav>
+        <nav class="authentication">
+            <a href="/p/corporateinfo.aspx">About</a>    
+            
+            <a href="/user/CreateUser.aspx?ReturnUrl=%2fb%2fpodcasts%2farchive%2f2013%2f09%2f26%2fgi-show-174-valve-39-s-steam-machines-visiting-the-tokyo-game-show.aspx%3futm_content%3dbuffer5e7a7%26utm_source%3dbuffer%26utm_medium%3dtwitter%26utm_campaign%3dBuffer" title="Join the Game Informer Community">Join</a>
+            <a href="/login.aspx?ReturnUrl=%2fb%2fpodcasts%2farchive%2f2013%2f09%2f26%2fgi-show-174-valve-39-s-steam-machines-visiting-the-tokyo-game-show.aspx%3futm_content%3dbuffer5e7a7%26utm_source%3dbuffer%26utm_medium%3dtwitter%26utm_campaign%3dBuffer" title="Sign In to the Game Informer Community">Sign In</a>
+            
+        </nav>
+    </header>
+    <section>
+        <div class="nav">
+	<dl>
+		<dt>Cover Stories</dt>
+                <dd><a href="/codghosts" title="Game Informer October 2013: Call of Duty: Ghosts">Call of Duty: Ghosts</a></dd>
+                <dd><a href="/dai" title="Game Informer September 2013: Dragon Age: Inquisition">Dragon Age: Inquisition</a></dd>
+		<dd><a href="/e32013" title="Game Informer August 2013: E3">E3 Hot 50</a></dd>
+		<dd><a href="/titanfall" title="Game Informer July 2013: Titanfall">Titanfall</a></dd>
+		<dd><a href="/infamous" title="Game Informer June 2013: Infamous Second Son">Infamous Second Son</a></dd>
+	</dl>
+	<dl style="width:100px;">
+		<dt>Hubs</dt>
+		<dd><a href="/p/replay.aspx">Replay</a></dd>
+		<dd><a href="/p/testchamber.aspx">Test Chamber</a></dd>
+		<dd><a href="/p/spoiled.aspx">Spoiled!</a></dd>
+		<dd><a href="/p/impulse.aspx">Impulse</a></dd>
+		<dd><a href="/p/cosblog.aspx">CosBlog</a></dd>
+		<dd><a href="/p/culture.aspx">Gamer Culture</a></dd>
+	</dl>
+	<dl>
+		<dt>Podcasts</dt>
+		<dd><a href="/p/gishow.aspx">The Game Informer Show</a></dd>
+		<dd><a href="/p/respec_radio.aspx">Respec Radio</a></dd>
+	</dl>
+	<dl>
+		<dt>Must Read</dt>
+		<dd><a href="/blogs/editors/default.aspx">Editor Blogs</a></dd>
+		<dd><a href="/blogs/members/default.aspx">User Blogs</a></dd>
+		<dd><a href="/previews.aspx">Previews</a></dd>
+		<dd><a href="/forums/default.aspx">Forums</a></dd>
+		<dd><a href="/features.aspx">Features</a></dd>
+<dd><a href="/p/thevault.aspx">The Vault</a></dd>
+	</dl>
+	<dl>
+		<dt>Magazine</dt>
+		<dd><a href="/mag/default.aspx">Read Current Issue</a></dd>
+		<dd><a href="/p/subscribe.aspx">Subscribe</a></dd>
+<dd><a href="http://itunes.apple.com/us/app/game-informer/id526096699?mt=8">iPad App</a></dd>
+<dd><a href="https://play.google.com/store/apps/details?id=com.gameinformer.tablet">Android App</a></dd>
+<dd><a href="https://play.google.com/store/magazines/details/Game_Informer?id=CAow18Jo&amp;feature=movers-shakers-magazines#?t=W251bGwsMSwyLDQwMSwibWFnYXppbmUtQ0FvdzE4Sm8iXQ..">Google Play</a></dd>
+		<dd><a href="/mag/covers.aspx">Cover Gallery</a></dd>
+		
+	</dl>
+	<dl>
+		<dt>Service</dt>
+		<dd><a href="/p/help.aspx">Site Help</a></dd>
+		<dd><a href="/membergroups/game_informer/site_feedback/f/default.aspx">Site Feedback</a></dd>
+		<dd><a href="/p/customerservice.aspx">Service Form</a></dd>
+		<dd><a href="/digimag/faq.aspx">Registration F.A.Q.</a></dd>
+	</dl>
+</div>
+        <nav class="network">
+            <a href="http://www.gamestop.com/?affid=4700" title="GameStop Network">Part of the GameStop Network:</a>
+            <a href="http://www.gamestop.com/?affid=4700" title="GameStop" class="gamestop">GameStop.com</a>
+            <a href="http://impulsedriven.com/?affid=4700" title="Impulse Driven" class="impulse">GameStop PC Downloads</a>
+            <a href="http://www.gameinformer.com" title="Game Informer" class="gi">Game Informer</a>
+            <a href="http://www.kongregate.com/?affid=4700" title="Kongregate" class="kongregate">Kongregate</a>
+        </nav>
+    </section>
+    <aside>
+        <nav>
+            <div class="social">
+                <a href="http://twitter.com/GameInformer" title="Game Informer on Twitter" class="twitter">Game Informer on Twitter</a>
+                <a href="http://www.facebook.com/officialgameinformer" title="Game Informer on Facebook" class="facebook">Game Informer on Facebook</a>
+                <a href="/rss" title="Game Informer RSS" class="rss">Game Informer RSS</a>
+                <a href="http://www.youtube.com/gameinformer" title="Game Informer on YouTube" class="youtube">Game Informer on YouTube</a>
+            </div>
+            <div class="business">
+                <a href="http://www.gameinformer.com/contactus.aspx" title="Contact Us">Contact Us</a>
+                <a href="/p/staff.aspx" title="Staff Bios">Staff Bios</a>
+                <a href="/p/terms.aspx" title="Terms and Conditions">Terms and Conditions</a>
+                <a href="/p/privacy.aspx" title="Privacy Policy">Privacy Policy</a>
+                <a href="/p/customerservice.aspx" title="Customer Service">Customer Service</a>
+                <a href="/p/corporateinfo.aspx" title="Corporate Information">Corporate Information</a>
+                <a href="/p/advertising.aspx" title="Advertising">Advertising</a>
+                <a href="/p/thelab.aspx" title="The Laboratory">The Laboratory</a>
+                <p class="copyright">&copy; 2013</p>
+            </div>
+            <a href="http://webbyawards.com/webbys/current.php?season=14#webby_entry_games_related" target="_blank" id="webby_awards"><img src="http://media1.gameinformer.com/images/site/footer/webby.png" class="webby" height="40" /></a>
+        </nav>
+    </aside>
+</footer>
+</div><div class="footer-fragment common" id="fragment-52e646af-d9ef-4bcd-8f77-8e850d606147">
+
+<script language="JavaScript" type="text/javascript" 
+        src="https://sadmin.brightcove.com/js/BrightcoveExperiences.js">
+</script></div></div>
+<div class="footer-fragments-footer"></div>
+		
+<script type="text/javascript">
+// <![CDATA[
+ctl00_content_ctl00 = new ContentFragmentPageCustomCallback('ctl00_content_ctl00',new Function('mode','parameters','callback','errorCallback','context','ctl00_content_ctl00_ctl00._doCallback(mode+\':\'+parameters,callback,context,errorCallback);'));
+// ]]>
+</script>
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+rdf:about="http://www.gameinformer.com/b/podcasts/archive/2013/09/26/gi-show-174-valve-39-s-steam-machines-visiting-the-tokyo-game-show.aspx"
+dc:identifier="http://www.gameinformer.com/b/podcasts/archive/2013/09/26/gi-show-174-valve-39-s-steam-machines-visiting-the-tokyo-game-show.aspx"
+dc:title="GI Show 174: Valve&#39;s Steam Machines, Visiting The Tokyo Game Show"
+trackback:ping="http://www.gameinformer.com/b/podcasts/trackback.ashx?WeblogPostID=4723681" />
+</rdf:RDF>
+-->
+<script type="text/javascript">
+// <![CDATA[
+Telligent_Modal.Configure('/utility/loading.htm',['modal'],['modal-title','modal-title-2','modal-title-3','modal-title-4'],['modal-close'],['modal-content','modal-content-2'],['modal-footer','modal-footer-2','modal-footer-3'],['modal-resize'],['modal-mask'],10000,false,true,true);
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_content_ctl00_ctl00 = new Telligent_CallbackManager('ctl00_content_ctl00_ctl00','ctl00$content$ctl00$ctl00','aspnetForm');
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+var ctl00_content_ctl00_fragment_3600_ctl01_ctl00_ctl04=new RateableContentRating('ctl00_content_ctl00_fragment_3600_ctl01_ctl00_ctl04','ctl00_content_ctl00_fragment_3600_ctl01_ctl00_ctl04','ctl00_content_ctl00_fragment_3600_ctl01_ctl00_ctl04_Value', 5, '/Utility/images/', false, 'rating','rating active','rating readonly',['Terrible','Poor','Fair','Average','Good','Excellent'],true,true);
+// ]]>
+</script><script type="text/javascript">
+				// <![CDATA[
+				var ctl00_content_ctl00_fragment_3600_ctl01_ctl00_ctl04_ajax={"SaveRating":function(rating,successFunction,failureFunction){WebForm_DoCallback('ctl00$content$ctl00$fragment_3600$ctl01$ctl00$ctl04',rating,successFunction,rating,failureFunction,true)}};
+				// ]]>
+				</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_content_ctl00_fragment_3600_ctl01_ctl00_ctl07_ctl03 = new Telligent_InlineEditorPanel('ctl00_content_ctl00_fragment_3600_ctl01_ctl00_ctl07_ctl03','ctl00_content_ctl00_fragment_3600_ctl01_ctl00_ctl07_ctl03','ctl00_content_ctl00_fragment_3600_ctl01_ctl00_ctl07_ctl03_State','ctl00_content_ctl00_fragment_3600_ctl01_ctl00_ctl07_ctl02',false,null,null,null);
+// ]]>
+</script><script>
+$(function(){
+// just return. don't need this right now. it's for coverit live integration.
+return;
+if(window.location.href.indexOf('https://') > -1) return;
+    var newiframe = $("<iframe />").attr({"src":"http://www.coveritlive.com/index2.php/option=com_altcaster/task=viewaltcast/altcast_code=8dcd60af22/height=730/width=610", "scrolling":"no", "height":"730px", "width":"610px", "frameborder":"0", "allowTransparency":"true"}).append($("<a />").attr({"href":"http://www.coveritlive.com/mobile.php?option=com_mobile&task=viewaltcast&altcast_code=8dcd60af22"}).text("Microsoft E3 Presser Live Blog"));
+    var coveritlive = $("#coveritlive_microsfot_e3_2012");
+    if(coveritlive.length === 0) return;
+    coveritlive.append(newiframe);
+});
+</script>
+ <script>
+(function(){
+	var domain = "www.gameinformer.com";
+	var sc = document.createElement("script");
+	sc.type = "text/javascript";
+	sc.src = "https://" + domain + "/js/site_catalyst.js?2";
+sc.onload = function(){
+var s_code=gs.t();if(s_code)document.write(s_code);
+};
+	document.body.appendChild(sc);
+})();
+</script>
+<script>
+$(function(){
+    var twitch_tv = $("#twitch_tv");
+if(twitch_tv.length === 0) return;
+    var breakout_link = $("#breakout");
+    var live_embed_player_flash = $("#live_embed_player_flash");
+    var container = $("<div />").css({display: "none"}).css({position: "fixed", width: "100%", height: "100%", background: "rgba(0,0,0,.8)", top: 0, bottom: 0, left: 0, right: 0});
+    $("body").append(container);
+    twitch_tv.html('<iframe frameborder="0" scrolling="no" id="chat_embed" src="http://twitch.tv/chat/embed?channel=gameinformer&amp;popout_chat=true" height="301" width="221"></iframe>');
+twitch_tv.find("iframe").width("100%");
+    breakout_link.click(function(e){
+e.preventDefault();
+	twitch_tv.remove();
+	live_embed_player_flash.remove();
+	twitch_tv.css({position:"absolute", top:0, right: 0, width:"50%", height: "100%"});
+	live_embed_player_flash.css({position: "absolute", top: "50%", "margin-top": "-172px", left: 0});
+	container.append(live_embed_player_flash).append(twitch_tv);
+	var iframe = document.getElementById("chat_embed");
+	iframe.height = "100%";
+	iframe.width = "100%";
+	$("body").css({overflow: "hidden"});
+	setTimeout(function(){
+		container.fadeIn();
+	}, 500);
+    });
+});
+</script>
+<style type="text/css">
+	.layout-region-inner.header .ad-zone{
+	 margin-left: -5px !important;
+	 }
+	.layout-region-inner.header  .ad-zone .content-fragment-content
+	{
+		position: relative;
+width: 970px;
+box-shadow: 0 3px 7px rgba(0,0,0,.8);
+background: white;
+	}
+.layout-region-inner.header .ad-zone .content-fragment-content .advertisement{
+background: white;
+}
+.layout-region-inner.header .ad-zone .content-fragment-content .advertisement a{
+display: block;
+}
+</style>
+<script>
+    (function(){
+        var imagesToLightBox = [];
+        var addLightBoxBehavior = function(images){
+            images.each(function(i, img){
+                var src = (img.parentNode.nodeName === "A") ? img.parentNode.href : img.src;
+                if(/\.(jpg|png|tiff|gif)/.test(src)){
+                    $(img).colorbox({ href: src, speed: 100, rel: "postimages"});                
+                }
+            });
+        }
+        $(function(){
+            imagesToLightBox = $(".full-post .post-content img");
+            if(imagesToLightBox.length === 0) return;
+            if($("script[src*='jquery.colorbox.js']").length === 0){
+                var css = $("<link />").attr({rel: "stylesheet"
+                    , type: "text/css", href: "http://media1.gameinformer.com/code/colorbox/colorbox.css"});
+                $("head").append(css);
+                $.getScript("http://media1.gameinformer.com/code/colorbox/jquery.colorbox.js", function(){
+                    addLightBoxBehavior(imagesToLightBox);
+                });
+            }else{
+                addLightBoxBehavior(imagesToLightBox);
+            }
+        });
+    })();
+</script></form>
+	<script type="text/javascript"> if (!NREUMQ.f) {NREUMQ.f=function() {NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script"); e.type="text/javascript"; e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" + "js-agent.newrelic.com/nr-100.js"; document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-6.newrelic.com","f1393e2d7a","1590995","NldWMkFTWBdVBUZfWg8ddTVjHRxLVgpdUUZOVVEIVkBfBxsWXUVBT1NHFks=",0,109,new Date().getTime(),"E09A57A7B1F06C55","","","",""]);</script></body>
+</html>

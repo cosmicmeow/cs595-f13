@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <script>/*<![CDATA[*/(function(a){function b(a,b){if(+a)return~a||(d.cookie=h+"=; path=/");j=d.createElement(e),k=d.getElementsByTagName(e)[0],j.src=a,b&&(j.onload=j.onerror=b),k.parentNode.insertBefore(j,k)}function c(){n.api||b(l.shift()||-1,c)}if(this.Mobify)return;var d=document,e="script",f="mobify",g="."+f+".com/",h=f+"-path",i=g+"un"+f+".js",j,k,l=[!1,1],m,n=this.Mobify={points:[+(new Date)],tagVersion:[6,1],ajs:"//a.mobify.com/performance/css-tricks-1/a.js"},o=/((; )|#|&|^)mobify-path=([^&;]*)/g.exec(location.hash+"; "+d.cookie);o?(m=o[3])&&!+(m=o[2]&&sessionStorage[h]||m)&&(l=[!0,"//preview"+g+escape(m)]):(l=a()||l,l[0]&&l.push("//cdn"+i,"//files01"+i)),l.shift()?(d.write('<plaintext style="display:none;">'),setTimeout(c)):b(l[0])})(function(){if(/ip(hone|od|ad)|android|blackberry.*applewebkit|bb1\d.*mobile/i.test(navigator.userAgent)){return[1,"//cdn.mobify.com/swift/css-tricks-1/production/mobify.js"]}return[0,Mobify.ajs]})/*]]>*/</script>
+
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width">
+
+	
+	<title>Hiding Native HTML5 Video Controls in Full-Screen Mode | CSS-Tricks</title>
+
+	<link rel="shortcut icon" href="http://cdn.css-tricks.com/favicon.ico">
+
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+	<link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="CSS-Tricks Search">
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds.feedburner.com/CssTricks">
+
+	<link rel="author" href="https://plus.google.com/101987072260327250694/posts">
+
+	
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.4.15 - http://yoast.com/wordpress/seo/ -->
+<meta name="description" content="The following is a guest post by Sara Soueidan. I know Sara through all her excellent work on CodePen. She was working on some custom HTML5 video controls"/>
+<link rel="canonical" href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="@Real_CSS_Tricks"/>
+<meta name="twitter:domain" content="CSS-Tricks"/>
+<meta name="twitter:creator" content="@Real_CSS_Tricks"/>
+<meta name="twitter:image:src" content="http://cdn.css-tricks.com/wp-content/uploads/2013/09/example-video.png"/>
+<meta name="twitter:image:src" content="http://cdn.css-tricks.com/wp-content/uploads/2013/09/chrome-fullscreen-style-z-index.png"/>
+<meta name="twitter:image:src" content="http://cdn.css-tricks.com/wp-content/uploads/2013/09/shadow-dom-dev-tools-focus.png"/>
+<meta name="twitter:image:src" content="http://cdn.css-tricks.com/wp-content/uploads/2013/09/shadow-dom-dev-tools-styles.png"/>
+<meta name="twitter:image:src" content="http://cdn.css-tricks.com/wp-content/uploads/2013/09/chrome-fullscreen-style-z-index1.png"/>
+<meta name="twitter:description" content="The following is a guest post by Sara Soueidan. I know Sara through all her excellent work on CodePen. She was working on some custom HTML5 video controls and noticed that the customizations were lost when the video went into full screen mode (example of that happening). Digging into the shadow DOM, Sara finds a solution...
+
+If you’ve ever worked with HTML5 video then you have probably wondered how you get a bunch of control buttons, sliders, &hellip;"/>
+<meta name="twitter:title" content="Hiding Native HTML5 Video Controls in Full-Screen Mode - CSS-Tricks"/>
+<meta name="twitter:url" content="http://css-tricks.com/custom-controls-in-html5-video-full-screen/"/>
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="CSS-Tricks &raquo; Hiding Native HTML5 Video Controls in Full-Screen Mode Comments Feed" href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/feed/" />
+<link rel='stylesheet' id='bbp-child-bbpress-css'  href='http://cdn.css-tricks.com/wp-content/themes/CSS-Tricks-10/css/bbpress.css?ver=2.4' type='text/css' media='screen' />
+<link rel='stylesheet' id='jetpack-widgets-css'  href='http://cdn.css-tricks.com/wp-content/plugins/jetpack/modules/widgets/widgets.css?ver=20121003' type='text/css' media='all' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js?ver=3.6.1'></script>
+<link rel='shortlink' href='http://css-tricks.com/?p=151172' />
+<!-- Better Art Direction Styles -->
+
+
+<style type='text/css'>img#wpstats{display:none}</style>  <script>window.jQuery || document.write('<script src="http://cdn.css-tricks.com/wp-content/themes/CSS-Tricks-10/js/jquery.min.js"><\/script>')</script>
+
+      <link rel="stylesheet" href="http://cloud.typography.com/610186/608840/css/fonts.css">
+  
+  <!--[if !IE]><!-->
+  <link rel="stylesheet" href="http://cdn.css-tricks.com/wp-content/themes/CSS-Tricks-10/style.css?v1.6">
+  <!--<![endif]-->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" href="http://cdn.css-tricks.com/wp-content/themes/CSS-Tricks-10/css/oldie.css">
+  <![endif]-->
+  <!--[if IE 9]>
+  <link rel="stylesheet" href="http://cdn.css-tricks.com/wp-content/themes/CSS-Tricks-10/style.css?v1.2">
+  <![endif]-->
+
+  
+			<script src='/wp-includes/js/comment-reply.js'></script>
+    <script src="http://cdn.css-tricks.com/wp-content/themes/CSS-Tricks-10/js/showdown-ck.js"></script>
+	
+	
+	
+	
+	
+  
+	
+	
+  
+  
+	
+	
+</head>
+
+<body class="single single-post postid-151172 single-format-standard user-0">
+
+    <script>
+  (function(){
+    var bsa = document.createElement('script');
+       bsa.type = 'text/javascript';
+       bsa.async = true;
+       bsa.src = 'http://s3.buysellads.com/ac/bsa.js';
+    (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+  })();
+  </script>
+  
+  <header id="top" class="top">
+
+  <div class="logo">
+    <a href="/">
+      CSS<span>-Tricks</span>
+    </a>
+  </div>
+
+    <a class="top-treehouse-ad group" href="http://teamtreehouse.com/redirect/css-tricks">
+    <svg version="1.1" class="treehouse-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   width="606.777px" height="133.209px" viewBox="0 0 606.777 133.209" enable-background="new 0 0 606.777 133.209"
+   xml:space="preserve">
+<g class="treehouse-logo-letter">
+  <path fill="#FFFFFF" d="M169.271,99.972c-11.407,0-16.559-7.819-16.559-18.123V45.511c0-3.588,2.668-6.44,6.164-6.44
+    c3.404,0,6.164,2.852,6.164,6.44v6.255h11.499c3.036,0,5.704,2.3,5.704,5.52c0,3.036-2.668,5.335-5.704,5.335H165.04v18.951
+    c0,4.416,1.932,6.809,5.979,6.809c2.024,0,4.048-0.553,5.704-1.012c4.692-1.104,7.636,1.84,7.636,5.243
+    c0,2.024-1.012,4.14-3.864,5.428C177.275,99.512,172.768,99.972,169.271,99.972z"/>
+  <path fill="#FFFFFF" d="M222.813,56.458c0,2.484-1.932,5.796-5.796,5.796c-2.116,0-4.14-0.92-6.899-0.828
+    c-3.036,0.092-4.784,1.748-4.784,5.979V93.44c0,3.496-2.667,6.256-6.164,6.256c-3.404,0-6.164-2.76-6.164-6.256V65.106
+    c0-9.567,5.612-15.731,16.191-15.731c3.036,0,6.071,0.276,7.911,0.736C220.881,51.123,222.813,53.423,222.813,56.458z"/>
+  <path fill="#FFFFFF" d="M270.653,72.742c0,3.588-1.84,6.163-6.348,6.163h-24.471v0.92c0,5.797,4.416,8.924,10.58,8.924
+    c3.312,0,6.715-0.828,9.843-2.023c4.876-1.84,8.096,1.472,8.096,4.875c0,1.748-0.644,3.681-3.128,5.152
+    c-3.404,2.023-9.292,3.22-15.179,3.22c-12.695,0-21.251-8.003-22.171-19.503c-0.276-3.588-0.184-8.647,0-11.5
+    c1.104-11.958,9.66-19.594,21.711-19.594c12.511,0,21.067,8.372,21.067,21.342V72.742z M257.774,70.534
+    c0.644,0,1.012-0.367,1.012-1.104c0.276-5.612-3.22-9.384-9.2-9.384c-6.532,0-9.751,4.14-9.751,10.487H257.774z"/>
+  <path fill="#FFFFFF" d="M322.633,72.742c0,3.588-1.84,6.163-6.348,6.163h-24.471v0.92c0,5.797,4.416,8.924,10.58,8.924
+    c3.312,0,6.715-0.828,9.843-2.023c4.876-1.84,8.096,1.472,8.096,4.875c0,1.748-0.644,3.681-3.128,5.152
+    c-3.404,2.023-9.292,3.22-15.179,3.22c-12.695,0-21.251-8.003-22.171-19.503c-0.276-3.588-0.184-8.647,0-11.5
+    c1.104-11.958,9.66-19.594,21.711-19.594c12.511,0,21.067,8.372,21.067,21.342V72.742z M309.753,70.534
+    c0.644,0,1.012-0.367,1.012-1.104c0.276-5.612-3.22-9.384-9.2-9.384c-6.532,0-9.751,4.14-9.751,10.487H309.753z"/>
+  <path fill="#FFFFFF" d="M345.542,52.963c2.024-1.84,6.716-3.588,11.591-3.588c11.684,0,18.584,6.992,18.584,20.147v23.643
+    c0,3.68-2.576,6.531-6.256,6.531c-3.404,0-6.072-2.852-6.072-6.531V70.167c0-5.612-3.22-8.74-8.279-8.74
+    c-3.863,0-7.636,1.748-9.567,3.864v28.058c0,3.496-2.576,6.348-6.071,6.348c-3.404,0-6.256-2.852-6.256-6.348V39.531
+    c0-3.588,2.668-6.348,6.163-6.348c3.404,0,6.164,2.76,6.164,6.348V52.963z"/>
+  <path fill="#FFFFFF" d="M408.562,99.972c-12.052,0-21.159-7.728-22.079-18.675c-0.275-3.68-0.275-9.476,0-13.155
+    c0.92-11.04,10.027-18.767,22.079-18.767c12.144,0,21.067,7.728,21.987,18.767c0.275,3.68,0.275,9.384,0,13.063
+    C429.629,92.245,420.705,99.972,408.562,99.972z M418.312,70.074c-0.275-5.244-3.955-8.923-9.751-8.923s-9.384,3.68-9.844,8.923
+    c-0.185,2.483-0.185,6.808,0,9.2c0.46,5.243,4.048,8.923,9.844,8.923s9.384-3.68,9.751-8.923
+    C418.497,76.881,418.497,72.557,418.312,70.074z"/>
+  <path fill="#FFFFFF" d="M441.312,56.183c0-3.68,2.209-6.532,6.072-6.532c3.496,0,6.256,2.852,6.256,6.532v23.458
+    c0,5.52,3.588,8.556,8.832,8.556c4.047,0,7.083-1.196,9.016-2.392V55.999c0-3.496,2.575-6.348,6.163-6.348
+    c3.403,0,6.163,2.852,6.163,6.348v34.406c0,2.115-0.551,3.312-2.207,4.324c-2.852,2.023-9.568,5.243-19.411,5.243
+    c-13.247,0-20.884-7.175-20.884-20.147V56.183z"/>
+  <path fill="#FFFFFF" d="M532.391,83.965c0,10.303-8.556,16.007-19.227,16.007c-8.648,0-14.168-2.483-17.572-5.335
+    c-2.207-1.84-2.852-5.336-1.104-7.637c1.84-2.483,4.968-3.035,8.004-1.104c2.852,1.84,6.623,3.035,10.947,3.035
+    c4.783,0,6.992-1.747,6.992-4.23c0-2.024-1.473-3.404-5.336-4.324c-3.312-0.736-3.221-0.645-6.809-1.564
+    c-7.543-1.932-13.431-6.163-13.431-14.075c0-9.936,8.003-15.363,18.767-15.363c5.796,0,11.775,1.472,14.996,4.14
+    c2.668,2.208,2.483,5.979,0.551,8.188c-1.84,2.024-4.967,2.3-8.003,0.736c-2.392-1.196-5.612-2.024-8.003-2.024
+    c-4.601,0-6.532,1.748-6.532,3.956c0,1.932,1.38,3.22,5.52,4.14l6.532,1.472C527.883,72.19,532.391,76.698,532.391,83.965z"/>
+  <path fill="#FFFFFF" d="M583.45,72.742c0,3.588-1.84,6.163-6.348,6.163h-24.471v0.92c0,5.797,4.415,8.924,10.579,8.924
+    c3.312,0,6.716-0.828,9.844-2.023c4.876-1.84,8.096,1.472,8.096,4.875c0,1.748-0.645,3.681-3.128,5.152
+    c-3.403,2.023-9.292,3.22-15.179,3.22c-12.695,0-21.252-8.003-22.172-19.503c-0.275-3.588-0.184-8.647,0-11.5
+    c1.104-11.958,9.66-19.594,21.711-19.594c12.512,0,21.067,8.372,21.067,21.342V72.742z M570.57,70.534
+    c0.645,0,1.013-0.367,1.013-1.104c0.276-5.612-3.22-9.384-9.2-9.384c-6.531,0-9.751,4.14-9.751,10.487H570.57z"/>
+</g>
+<g class="treehouse-logo-letter">
+  <path fill="#FFFFFF" d="M593.32,56.023c0,0.63-0.48,1.11-1.11,1.11c-0.659,0-1.14-0.51-1.14-1.11v-5.16h-1.68
+    c-0.57,0-1.051-0.48-1.051-1.05c0-0.63,0.48-1.08,1.051-1.08h5.549c0.57,0,1.051,0.45,1.051,1.08c0,0.57-0.48,1.05-1.051,1.05
+    h-1.619V56.023z M600.1,49.963l0.96,4.2l0.99-4.2c0.18-0.84,0.899-1.35,1.649-1.35c0.871,0,1.561,0.51,1.74,1.56l0.87,5.52
+    c0.12,0.66-0.12,1.32-0.78,1.44c-0.779,0.15-1.289-0.3-1.38-0.96l-0.6-4.65l-1.08,4.35c-0.21,0.75-0.66,1.26-1.41,1.26
+    c-0.69,0-1.17-0.45-1.409-1.26l-1.08-4.38l-0.601,4.68c-0.09,0.66-0.6,1.11-1.38,0.96c-0.66-0.12-0.9-0.78-0.779-1.44l0.869-5.49
+    c0.18-1.08,0.9-1.59,1.74-1.59C599.199,48.613,599.92,49.123,600.1,49.963z"/>
+</g>
+<path fill="#69C773" d="M108.197,24.309c-4.414-2.496-11.464,1.518-15.745,8.964L84.7,46.756
+  c-2.832,5.606-2.443,12.281,1.149,17.434l0.226,0.324c3.592,5.153,8.408,9.917,10.002,11.614c0.936,1,1.653,2.232,2.048,3.643
+  c1.309,4.682-1.424,9.537-6.104,10.848c-4.682,1.309-9.539-1.424-10.848-6.105c-0.329-1.174-0.402-2.36-0.254-3.499
+  c0.251-1.934-0.369-5.083-3.143-8.177c-2.773-3.092-8.441,2.749-10.272,8.756l-0.086,0.275c-1.833,6.007-2.99,11.25-2.644,11.754
+  c0.207,0.301,0.397,0.617,0.573,0.946c2.571,4.839,0.734,10.845-4.104,13.417s-10.846,0.734-13.417-4.104
+  c-2.572-4.84-0.734-10.845,4.104-13.417c0.216-0.115,0.437-0.222,0.658-0.32c0.37-0.162,1.417-2.688,2.327-5.67
+  c0.911-2.983,1.648-5.4,1.648-5.4c0.098-0.317,0.182-0.632,0.259-0.943l4.896-17.482l-5.237,10.75
+  c-0.622-2.041-1.647-2.113-3.895-0.506c-1.355,0.969-3.596,2.879-4.691,3.662c-2.055,1.471-3.775,4.327-4.686,6.078
+  c-0.535,1.029-1.286,1.971-2.245,2.746c-3.749,3.043-9.255,2.469-12.296-1.279c-3.042-3.748-2.469-9.254,1.28-12.295
+  c1.099-0.893,2.349-1.475,3.644-1.756c2.203-0.478,9.693-5.054,14.207-8.283c0.808-0.579,1.486-1.125,2.037-1.632l12.05-9.152
+  l-10.494,5.672c0,0-1.068-0.108-2.377,0.037c-3.841,0.426-7.798,0.967-8.545,1.918c-0.441,0.562-0.967,1.073-1.577,1.51
+  c-3.502,2.523-8.388,1.729-10.911-1.775c-2.524-3.503-1.729-8.39,1.774-10.911c1.446-1.042,3.125-1.517,4.777-1.471
+  c2.808,0.077,10.201,1.576,16.384,0.48l1.589-0.281c6.185-1.096,13.588-6.48,16.54-12.026c0,0,2.888-5.073,6.452-11.333
+  c3.564-6.258,3.3-13.115-0.587-15.313l-7.041-3.98c-3.551-2.008-9.365-2.011-12.92-0.006L6.462,28.835
+  C2.908,30.838,0,35.817,0,39.897v53.416c0,4.08,2.908,9.059,6.462,11.062l48.486,27.335c3.555,2.004,9.369,2,12.92-0.008
+  l48.321-27.318c3.553-2.009,6.458-6.99,6.458-11.07V39.897c0-4.08-2.906-9.063-6.458-11.07
+  C116.189,28.827,112.61,26.804,108.197,24.309z"/>
+</svg>
+    <div class="treehouse-slogan">
+      <span class="dreams">Make your dreams come true</span>
+      <span class="dash">&mdash;</span>
+      <strong class="love">love what you do.</strong>
+    </div>
+  </a>
+  
+  <section class="search" role="search">
+
+    <div class="open-search">
+      <a href="#" title="Show search box" role="button">
+         <span data-icon="m" aria-hidden="true"></span>
+         <span class="screen-reader">Show search box</span>
+      </a>
+    </div>
+
+    <div class="close-search">
+      <form id="search-form" action="/search-results/">
+
+        <div>
+          <label for="q" id="search-label" class="screen-reader">Search</label>
+          <input aria-labelledby="search-label" id="q" type="search" name="q" class="search-field" placeholder="Search terms..." value="">
+          <input type="submit" value="Search" class="button search-button">
+        </div>
+
+        <div class="search-parts">
+          <strong>Search in:</strong>
+          <a data-url="/search-results/" class="active">All</a>
+          <a data-url="/search-results/articles/">Articles</a>
+          <a data-url="/search-results/forums/">Forums</a>
+          <a data-url="/search-results/snippets/">Snippets</a>
+          <a data-url="/search-results/video/">Videos</a>
+
+          <a href="#" id="x-search" class="x-search">✕</a>
+        </div>
+
+      </form>
+    </div>
+
+  </section>
+
+</header>
+  <div class="page-wrap">
+
+    <nav class="main-nav" id="main-nav">
+  <a href="/" class="home">
+    <span data-icon="&#xe007;" aria-hidden="true"></span>Home
+  </a>
+  <a href="/forums/" class="forums">
+    <span data-icon="9" aria-hidden="true"></span>Forums
+  </a>
+  <a href="/snippets/" class="snippets">
+    <span data-icon="Q" aria-hidden="true"></span>Snippets
+  </a>
+  <a href="/gallery/" class="gallery">
+    <span data-icon="p" aria-hidden="true"></span>Gallery
+  </a>
+  <a href="/video-screencasts/" class="videos">
+    <span data-icon="q" aria-hidden="true"></span>Videos
+  </a>
+  <a href="/almanac/" class="almanac">
+    <span data-icon="ó" aria-hidden="true"></span>Almanac
+  </a>
+  <a href="/downloads/" class="demos">
+    <span data-icon="&#x77;" aria-hidden="true"></span>Demos
+  </a>
+  <a href="/lodge/" class="lodge">
+    <span data-icon="6" aria-hidden="true"></span>Lodge
+  </a>
+
+
+  <a href="#main-nav" class="show-hide-navigation" id="show-hide-navigation">
+    Navigation 'n' Search
+  </a>
+</nav>
+<div class="grid group">
+
+	<section class="blog-posts grid-2-3">
+
+		<article class="module" id="post-151172">
+
+			<h1>Hiding Native HTML5 Video Controls in Full-Screen Mode</h1>
+
+			<p class="time">
+
+				Published
+				<time datetime="2013-09-26">
+					September 26, 2013				</time>
+
+				by Chris Coyier			</p>
+
+			<div class="google-ad">
+        				<div id="bsap_1279518" class="bsarocks bsap_3469a2a501a9e18091036aa0c89f9dcb"></div>
+              </div>
+
+			<p><em class="explanation">The following is a guest post by <a href="http://sarasoueidan.com">Sara Soueidan</a>. I know Sara through all her excellent work <a href="http://codepen.io/SaraSoueidan/">on CodePen</a>. She was working on some custom HTML5 video controls and noticed that the customizations were lost when the video went into full screen mode (<a href="http://codepen.io/frytyler/pen/juGfk">example</a> of that happening). Digging into the shadow DOM, Sara finds a solution...</em></p>
+<p><span id="more-151172"></span></p>
+<p>If you’ve ever worked with HTML5 video then you have probably wondered how you get a bunch of control buttons, sliders, and slider thumbs on your page, when you’ve only added a single <code>&lt;video&gt;</code> tag to the DOM.</p>
+<figure id='post-151176 media-151176' class='align-none'><img src='http://cdn.css-tricks.com/wp-content/uploads/2013/09/example-video.png' alt='' /></p>
+<figcaption>Where did all these control elements come from?</figcaption>
+</figure>
+<p>Browsers add these controls as a “sub-tree” of the video tag into the rendering of the document. These elements (buttons, sliders, etc.) <em>are</em> part of the DOM, but you can’t actually see them in the main DOM tree, you only see them rendered onto the page. More on this shortly.</p>
+<h3>The problem of HTML5 video controls in full-screen mode</h3>
+<p>While working on a custom HTML5 video framework lately, I stumbled upon an issue which a lot of designers and developers stumble upon in this area. Instead of displaying the custom controls I was working on, native browser controls appeared on the video when it entered the full-screen mode. Like so many others, I searched around for answers to this problem but had no luck finding any. After some inspection in the dev tools, I found that:</p>
+<ol>
+<li><strong>The native controls were still there</strong>. By setting the <code>controls</code> attribute of the video element to <code>false</code>, we are able to <em>hide</em> the controls but for some reason, when entering full-screen mode they reappear, despite being hidden in normal screen mode. (Why?) </li>
+<li><strong>The custom controls were hidden <em>below</em> the video in the full-screen mode</strong>. Inspecting the controls with the dev tools showed that the reason the controls were hidden below is because the user agent’s style sheet (in this case Chrome’s style sheet) was overriding the styles applied to the controls, with a very weird <code>z-index</code> value, I must say! </li>
+</ol>
+<figure>
+  <img src="http://cdn.css-tricks.com/wp-content/uploads/2013/09/chrome-fullscreen-style-z-index.png" /></p>
+<figcaption>The high z-index applied by Chrome's user agent stylesheet</figcaption>
+</figure>
+<p>How do we make this work? How do we prevent the native controls from appearing in full-screen mode and show our own custom-styled controls instead?</p>
+<p>The second point is easy: just override the user agent stylesheet. We do that all the time in our stylesheets. We’ll get to this shortly. But what about the first point? How can we hide elements that the browser adds but we can't see in the DOM tree we're working with?</p>
+<p><em>Note that the technique explained in this article to hide the native controls works only in <a href="http://caniuse.com/#search=shadow%20DOM">browsers that support the Shadow DOM</a>.</em></p>
+<h3>Quick Introduction to Shadow DOM</h3>
+<p>The subtree of DOM elements generated by the browser is what we call the "Shadow DOM". Plainly speaking, it’s a bunch of DOM elements, the same as the ones you’re already familiar with, like <code>&lt;div&gt;</code>s and <code>&lt;span&gt;</code>s, which are added by the browser as a <em>document fragment</em>, and are rendered on the page just like the main DOM tree.</p>
+<p>James Edwards summarizes the function of the shadow DOM perfectly in <a href="http://www.sitepoint.com/dark-shadow-dom/">his article for SitePoint</a>:</p>
+<blockquote><p>The Shadow DOM encapsulates content by creating document fragments. Effectively, the content of a Shadow DOM is a <em>different document</em>, which is merged with the main document to create the overall rendered output.</p>
+<p>In fact some browsers already use this to render some of their native widgets.</p></blockquote>
+<p>The reason why browsers do this is because browser developers decided to encapsulate some DOM elements to hide them from us developers so we’re not concerned with the implementation details of these elements, in an attempt to make things easier for us to work with. Also, as James Edwards also said in his article:</p>
+<blockquote><p>Because it’s isolated, users can’t accidentally break it, there’s no possibility of naming conflicts with any classes or IDs you use, and the CSS on the main page won’t affect it at all.</p></blockquote>
+<p>So we know now that the controls added to the video tag are just part of the shadow DOM sub-tree generated for this tag by the browser.</p>
+<h3>Hiding the native video controls</h3>
+<p>We need to be able to style the controls which are part of the shadow DOM, but how do we do that if the regular CSS selectors we know can’t access Shadow DOM elements?</p>
+<p>After reading <a href="http://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/">this superb intro article</a> by Dimitri Glazkov I learned that "there’s a handy <a href="http://dev.w3.org/2006/xbl2/#the-pseudo-attribute">pseudo attribute</a> capability, which allows shadow DOM subtrees to associate an arbitrary pseudo-element identifier with an element in the subtree."</p>
+<p>Which means that some elements inside the shadow DOM subtree can be styled by targeting them via their associated pseudo-element. This sounds great!</p>
+<p>But how do we determine what pseudo-element is associated with the shadow DOM element we need to style? Some elements are more or less known, like the range input, which has a pseudo-element available to style its thumb in webkit browsers</p>
+<pre rel="CSS"><code class="language-css">::-webkit-slider-thumb</code></pre>
+<p>Firefox also provides two pseudo-elements to style range inputs now that it supports them starting from version 23.0:</p>
+<pre rel="CSS"><code class="language-css">::-moz-range-track</code></pre>
+<p>and</p>
+<pre rel="CSS"><code class="language-css">::-moz-range-thumb</code></pre>
+<p>But what about other less-known pseudo-elements associated with other shadow DOM elements? What pseudo-elements are associated with them? To find out, the Chrome dev tools come to the rescue!</p>
+<h4>Determining pseudo-elements associated with Shadow DOM elements</h4>
+<p>One of the great features of the Chrome dev tools is that you can inspect the shadow DOM subtrees in the Elements panel just like you would inspect the “regular” DOM tree. All you have to do is enable this feature:</p>
+<ol>
+<li>Go to dev tools settings (by clicking the little gear icon at the bottom right of the dev tools)</li>
+<li>In the General tab, check the “Show Shadow DOM” option</li>
+<li>Restart the dev tools (close and reopen)</li>
+</ol>
+<p>Now, when u inspect the <code>&lt;video&gt;</code> element, you get something similar to the screenshot below:</p>
+<figure>
+  <img src="http://cdn.css-tricks.com/wp-content/uploads/2013/09/shadow-dom-dev-tools-focus.png" /></p>
+<figcaption>The shadow DOM sub-tree added to the <code>&lt;video&gt;</code> element as inspected with the Chrome dev tools reveals a new #document-fragment</figcaption>
+</figure>
+<p>Then, just like you can get the style rules for any HTML element if you click on it in the Elements panel, you can see the pseudo-elements associated with the subtree of the shadow DOM too. Pretty neat, huh? :)</p>
+<figure>
+  <img src="http://cdn.css-tricks.com/wp-content/uploads/2013/09/shadow-dom-dev-tools-styles.png" /></p>
+<figcaption>The CSS panel in the Chrome dev tools shows the pseudo-element name associated with the <code>&lt;div&gt;</code> inside the shadow DOM sub-tree</figcaption>
+</figure>
+<p>So for the video controls we can see from the screenshot that there’s a pseudo-element called <code>::-webkit-media-controls</code>, which as the name clearly indicates, is associated with tags containing media controls.</p>
+<p>Setting a <code>display:none !important;</code> on this pseudo-element hides the element completely in normal and full-screen mode.</p>
+<pre rel="CSS"><code class="language-css">::-webkit-media-controls {
+  display:none !important;
+}</code></pre>
+<p>But bear in mind that this pseudo-element is associated with the outermost <code>&lt;div&gt;</code> in the subtree, which will contain media controls, <em>all</em> kinds of media controls, which means that if you have an <code>&lt;audio&gt;</code> tag somewhere on the page, you’ll be hiding the controls for that media element as well. </p>
+<p>So, unless you want to hide <em>all</em> browser native media controls, you’ll need to specify which type of media controls to hide, which are those associated with the video element, and you’d target them by specifying the “scope” for this pseudo-element:</p>
+<pre rel="CSS"><code class="language-css">video::-webkit-media-controls {
+  display:none !important;
+}</code></pre>
+<p>This will hide the native controls completely. </p>
+<p>Another options is that you could go deeper in the sub-tree to find the pseudo-element associated with the inner and more specific <code>div</code> containing the actual controls: buttons, sliders, etc., and hide that.</p>
+<p>So going one level deeper we get the pseudo-element associated with the inner <code>div</code>:</p>
+<pre rel="CSS"><code class="language-css">video::-webkit-media-controls-enclosure {
+  display:none !important;
+}</code></pre>
+<p>Setting the <code>display</code> property of this pseudo-element to <code>none</code> will hide the native controls completely, in both normal and full-screen mode. You can also see that this pseudo-element is more specific in terms of scope (the video element) and the <code>div</code> it’s associated with: the <code>div</code> “enclosing” the actual control elements.</p>
+<p>And that’s pretty much all you need to do to hide the native controls in full-screen mode. Simple, right?</p>
+<h3>Showing the custom video controls</h3>
+<p>As for the custom controls, they still didn’t appear in my demo after hiding the native ones, because, as you’ve seen in the screenshot above, the user agent style sheet had a value for z-index set to the full-screen mode:</p>
+<figure>
+  <img src="http://cdn.css-tricks.com/wp-content/uploads/2013/09/chrome-fullscreen-style-z-index1.png" /></p>
+<figcaption>The high z-index applied by Chrome's user agent style sheet</figcaption>
+</figure>
+<p>I have no idea why the developers chose this value in particular, but it could be because, as Nate Volker pointed out in <a href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/#comment-561349">his comment below</a> that this number is the maximum value for a 32-bit signed integer, which could be the datatype the browser developers use to represent values for z-index. So in order to make sure the custom controls are visible you need to <strong>set the z-index for the custom controls to be equal to or higher than this value</strong>.</p>
+<p>Setting it to 2147483646 made the controls disappear in full-screen mode on Firefox and, sometimes (a bug?), in Chrome, so the z-index for the controls container should be >= 2147483647.</p>
+<pre rel="CSS"><code class="language-css">.custom-video-controls {
+  z-index: 2147483647;
+}</code></pre>
+<h3>Summary</h3>
+<p>In order to hide the native controls in full-screen mode in browsers supporting the Shadow DOM you need to:</p>
+<ol>
+<li>target the pseudo-element associated with them: <code>video::-webkit-media-controls-enclosure</code>, which you can find by using Chrome’s dev tools and inspecting the shadow DOM, and set it's display to none, and then to show your custom-styled controls</li>
+<li>set the z-index of your custom controls to a value higher than the z-index supplied by the user agent style sheet.</li>
+</ol>
+<p>And that's pretty much it!</p>
+<h3>Demo</h3>
+<p><a class="button" href="http://css-tricks.com/examples/CustomVideoControlsFullscreen/">View Demo</a></p>
+<h3>What about other browsers that don't support the shadow DOM?</h3>
+<p>While working I also tested the results in Firefox. Setting the <code>z-index</code> to the value mentioned above makes the custom controls also appear in Firefox’s full-screen mode, so showing the controls is easy, but the shadow DOM solution doesn’t work because Firefox does not yet support it, so the native controls also still appear in full-screen mode.</p>
+<p>Surely enough, you can expect similar behavior in other browsers that don't support the shadow DOM.</p>
+<p>The only way that I found to hide the native controls in these browsers is to cover the native controls with the custom ones, by simply positioning the custom controls on top of them using simple and basic CSS styles targeting the full-screen mode.<br />
+This hides the native controls, but also has a limitation: the custom controls can’t have a transparent background, otherwise the native controls will show through.</p>
+<p>There is another possible solution here. Mr. James Edwards noted in <a href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/#comment-561384">his comment below</a> that the native controls can be hidden in full-screen mode in another way too, without having to use the shadow DOM, by applying the full-screen mode to an element, for example, a
+<div>, containing the video element. I tested his technique and it worked in Chrome, and it also worked in latest version of Firefox on Windows 7, and according to Mr. Edwards it should also work in other browsers supporting the full-screen mode</p>
+<h3>Further Reading</h3>
+<ul>
+<li>W3C's <a href="http://www.w3.org/TR/shadow-dom/">Shadow DOM Working Draft</a></li>
+<li><a href="http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/">Shadow DOM 101</a> on HTML5Rocks</li>
+<li><a href="http://www.sitepoint.com/dark-shadow-dom/">The Dark Shadow Of The DOM</a> on SitePoint</li>
+<li><a href="http://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/">What The Heck Is Shadow DOM</a> by Dimitri Glazkov</li>
+</ul>
+<p>And if you're interested you can also see how you can use the shadow DOM API and HTML <code>&lt;template&gt;</code>s to create your own “encapsulated” code and HTML templates by watching <a href="http://www.youtube.com/watch?v=U45e-zq4bTs&#038;feature=youtu.be">this presentation by Peter Gasston</a> about Web Components that he gave at this year's <a href="http://2013.cssconf.eu/">CSSConfEU</a>.</p>
+
+			
+		</article>
+
+		<div class='yarpp-related'>
+<section class="related-posts group">
+
+
+  
+    <div class="module module-related">
+
+      <h2 class="h4">
+        <a href="http://css-tricks.com/video-source-by-screen-size/">
+          Video Source by Screen Size        </a>
+      </h2>
+
+      <p>Right after <a href="http://css-tricks.com/lodge/">The Lodge</a> opened up around here, I started getting reports right away about some videos not playing on &hellip;</p>
+
+      <a href="http://css-tricks.com/video-source-by-screen-size/">Read Article &rarr;</a>
+
+    </div>
+
+  
+    <div class="module module-related">
+
+      <h2 class="h4">
+        <a href="http://css-tricks.com/ie-iframe-quirksmode/">
+          In IE, iFrames on Pages in Quirks Mode Also in Quirks Mode        </a>
+      </h2>
+
+      <p>Just wanted to make sure that this was documented. Here&#8217;s what I think the most important lesson is:</p>
+<p><strong>If you </strong>&hellip;</p>
+
+      <a href="http://css-tricks.com/ie-iframe-quirksmode/">Read Article &rarr;</a>
+
+    </div>
+
+  
+
+</section>
+<img src='http://yarpp.org/pixels/e42758635938f2ca7d47dfaa85074d5f'/>
+</div>
+
+    		<div id="bsap_1250418" class="bsarocks entry-unrelated bsap_3469a2a501a9e18091036aa0c89f9dcb"></div>
+    
+					<a href="#" class="button full-width-button view-comments-button" id="view-comments-button">View Comments</a>
+
+<section id="comments">
+
+
+
+	<h1 class="h2 comments-title">
+		<span aria-hidden="true" data-icon="9"></span>Comments
+	</h1>
+
+	<ol class="commentlist group">
+		
+		<li class="comment even thread-even depth-1" id="li-comment-561345">
+
+      <div class="grid group nopadding comment-wrap" id="comment-561345">
+
+        <div class="comment-avatar grid-1-5">
+          <img alt='' src='http://1.gravatar.com/avatar/13a9550a854af911366d9f5deb785cd6?s=160&amp;d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&amp;r=PG' class='avatar avatar-160 photo' height='160' width='160' />        </div>
+
+        <div class="comment-body group grid-4-5">
+
+          <div class="comment-author-wrap vcard">
+            <div class="comment-author"><a href='http://timpietrusky.com' rel='external nofollow' class='url'>Tim Pietrusky</a></div> <div class="comment-time"><a href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/#comment-561345"><span class="screen-reader">Permalink to comment</span>#</span></a> <time pubdate datetime="2013-09-26T08:19:34+00:00">September 26, 2013</time></div>
+            
+          </div>
+          
+          <div class="comment-content">
+
+            <p>I love it Sara! You are a genius.</p>
+
+            <div class="reply">
+              <a class='comment-reply-link' href='/custom-controls-in-html5-video-full-screen/?utm_content=buffer115d8&#038;utm_source=buffer&#038;utm_medium=twitter&#038;utm_campaign=Buffer&#038;replytocom=561345#respond' onclick='return addComment.moveForm("comment-561345", "561345", "respond", "151172")'>Reply &darr;</a>            </div><!-- .reply -->
+
+          </div>
+        </div>
+      </div>
+    
+	<ul class="children">
+
+		<li class="comment odd alt depth-2" id="li-comment-561351">
+
+      <div class="grid group nopadding comment-wrap" id="comment-561351">
+
+        <div class="comment-avatar grid-1-5">
+          <img alt='' src='http://0.gravatar.com/avatar/077b21d23ac9a33b822caada81ef1422?s=160&amp;d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&amp;r=PG' class='avatar avatar-160 photo' height='160' width='160' />        </div>
+
+        <div class="comment-body group grid-4-5">
+
+          <div class="comment-author-wrap vcard">
+            <div class="comment-author"><a href='http://martabakang.us/' rel='external nofollow' class='url'>pedox</a></div> <div class="comment-time"><a href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/#comment-561351"><span class="screen-reader">Permalink to comment</span>#</span></a> <time pubdate datetime="2013-09-26T08:29:24+00:00">September 26, 2013</time></div>
+            
+          </div>
+          
+          <div class="comment-content">
+
+            <p>i love that video in demo :)</p>
+
+            <div class="reply">
+                          </div><!-- .reply -->
+
+          </div>
+        </div>
+      </div>
+    
+	</li><!-- #comment-## -->
+
+		<li class="comment even depth-2" id="li-comment-561562">
+
+      <div class="grid group nopadding comment-wrap" id="comment-561562">
+
+        <div class="comment-avatar grid-1-5">
+          <img alt='' src='http://1.gravatar.com/avatar/3d06d32135547aa054e1e198c88e5386?s=160&amp;d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&amp;r=PG' class='avatar avatar-160 photo' height='160' width='160' />        </div>
+
+        <div class="comment-body group grid-4-5">
+
+          <div class="comment-author-wrap vcard">
+            <div class="comment-author">Marcello</div> <div class="comment-time"><a href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/#comment-561562"><span class="screen-reader">Permalink to comment</span>#</span></a> <time pubdate datetime="2013-09-26T13:23:55+00:00">September 26, 2013</time></div>
+            
+          </div>
+          
+          <div class="comment-content">
+
+            <p>Indeed – thank you veeeery much!</p>
+
+            <div class="reply">
+                          </div><!-- .reply -->
+
+          </div>
+        </div>
+      </div>
+    
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-561349">
+
+      <div class="grid group nopadding comment-wrap" id="comment-561349">
+
+        <div class="comment-avatar grid-1-5">
+          <img alt='' src='http://1.gravatar.com/avatar/9ed23bffd248391a783648905b30f26c?s=160&amp;d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&amp;r=PG' class='avatar avatar-160 photo' height='160' width='160' />        </div>
+
+        <div class="comment-body group grid-4-5">
+
+          <div class="comment-author-wrap vcard">
+            <div class="comment-author">Nate Volker</div> <div class="comment-time"><a href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/#comment-561349"><span class="screen-reader">Permalink to comment</span>#</span></a> <time pubdate datetime="2013-09-26T08:28:09+00:00">September 26, 2013</time></div>
+            
+          </div>
+          
+          <div class="comment-content">
+
+            <p>2147483647 is the maximum value for a 32-bit signed integer, which is likely the datatype the browser developers use to represent values for z-index.</p>
+
+            <div class="reply">
+              <a class='comment-reply-link' href='/custom-controls-in-html5-video-full-screen/?utm_content=buffer115d8&#038;utm_source=buffer&#038;utm_medium=twitter&#038;utm_campaign=Buffer&#038;replytocom=561349#respond' onclick='return addComment.moveForm("comment-561349", "561349", "respond", "151172")'>Reply &darr;</a>            </div><!-- .reply -->
+
+          </div>
+        </div>
+      </div>
+    
+	<ul class="children">
+
+		<li class="comment even depth-2" id="li-comment-561358">
+
+      <div class="grid group nopadding comment-wrap" id="comment-561358">
+
+        <div class="comment-avatar grid-1-5">
+          <img alt='' src='http://0.gravatar.com/avatar/81b58502541f9445253f30497e53c280?s=160&amp;d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&amp;r=PG' class='avatar avatar-160 photo' height='160' width='160' />        </div>
+
+        <div class="comment-body group grid-4-5">
+
+          <div class="comment-author-wrap vcard">
+            <div class="comment-author"><a href='http://sarasoueidan.com' rel='external nofollow' class='url'>Sara Soueidan</a></div> <div class="comment-time"><a href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/#comment-561358"><span class="screen-reader">Permalink to comment</span>#</span></a> <time pubdate datetime="2013-09-26T08:39:27+00:00">September 26, 2013</time></div>
+            
+          </div>
+          
+          <div class="comment-content">
+
+            <p>That&#8217;s a good tip! Thanks, Nate! I was very curious about it. :)</p>
+
+            <div class="reply">
+                          </div><!-- .reply -->
+
+          </div>
+        </div>
+      </div>
+    
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+
+		<li class="comment odd alt thread-even depth-1" id="li-comment-561384">
+
+      <div class="grid group nopadding comment-wrap" id="comment-561384">
+
+        <div class="comment-avatar grid-1-5">
+          <img alt='' src='http://0.gravatar.com/avatar/c0866060bbd63730723bc5036643f337?s=160&amp;d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&amp;r=PG' class='avatar avatar-160 photo' height='160' width='160' />        </div>
+
+        <div class="comment-body group grid-4-5">
+
+          <div class="comment-author-wrap vcard">
+            <div class="comment-author"><a href='http://www.brothercake.com/' rel='external nofollow' class='url'>James Edwards</a></div> <div class="comment-time"><a href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/#comment-561384"><span class="screen-reader">Permalink to comment</span>#</span></a> <time pubdate datetime="2013-09-26T09:16:56+00:00">September 26, 2013</time></div>
+            
+          </div>
+          
+          <div class="comment-content">
+
+            <p>I&#8217;ve built an HTML5 video player which supports fullscreen mode, and I never encountered any of these issues.</p>
+<p>When you apply fullscreen mode, are you applying it to the VIDEO element? If so, that&#8217;s the problem &#8212; if you wrap the VIDEO in a container DIV and then apply fullscreen to that container, then it all works as expected, in all browsers that support fullscreen mode (i.e. recent versions of Chrome, Safari, Firefox and Opera).</p>
+<p>Here: <a href="http://www.accessibilityoz.com.au/products/ozplayer/" title="" rel="nofollow">http://www.accessibilityoz.com.au/products/ozplayer/</a></p>
+
+            <div class="reply">
+              <a class='comment-reply-link' href='/custom-controls-in-html5-video-full-screen/?utm_content=buffer115d8&#038;utm_source=buffer&#038;utm_medium=twitter&#038;utm_campaign=Buffer&#038;replytocom=561384#respond' onclick='return addComment.moveForm("comment-561384", "561384", "respond", "151172")'>Reply &darr;</a>            </div><!-- .reply -->
+
+          </div>
+        </div>
+      </div>
+    
+	<ul class="children">
+
+		<li class="comment even depth-2" id="li-comment-561411">
+
+      <div class="grid group nopadding comment-wrap" id="comment-561411">
+
+        <div class="comment-avatar grid-1-5">
+          <img alt='' src='http://0.gravatar.com/avatar/81b58502541f9445253f30497e53c280?s=160&amp;d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&amp;r=PG' class='avatar avatar-160 photo' height='160' width='160' />        </div>
+
+        <div class="comment-body group grid-4-5">
+
+          <div class="comment-author-wrap vcard">
+            <div class="comment-author"><a href='http://sarasoueidan.com' rel='external nofollow' class='url'>Sara Soueidan</a></div> <div class="comment-time"><a href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/#comment-561411"><span class="screen-reader">Permalink to comment</span>#</span></a> <time pubdate datetime="2013-09-26T09:59:23+00:00">September 26, 2013</time></div>
+            
+          </div>
+          
+          <div class="comment-content">
+
+            <p>Thanks for the comment, James!</p>
+<p>In the demo I provided for this article I had to apply the full-screen mode to the video&#8217;s container to position the custom controls where I wanted them to be (in Firefox), but that still didn&#8217;t solve the problem of the native controls. The native controls were still there in full-screen on Firefox.</p>
+<p>Applying full-screen to the video container does work in Chrome, I just tested it, but it doesn&#8217;t work in Firefox for me. :/</p>
+
+            <div class="reply">
+                          </div><!-- .reply -->
+
+          </div>
+        </div>
+      </div>
+    
+	</li><!-- #comment-## -->
+
+		<li class="comment odd alt depth-2" id="li-comment-561460">
+
+      <div class="grid group nopadding comment-wrap" id="comment-561460">
+
+        <div class="comment-avatar grid-1-5">
+          <img alt='' src='http://0.gravatar.com/avatar/81b58502541f9445253f30497e53c280?s=160&amp;d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&amp;r=PG' class='avatar avatar-160 photo' height='160' width='160' />        </div>
+
+        <div class="comment-body group grid-4-5">
+
+          <div class="comment-author-wrap vcard">
+            <div class="comment-author"><a href='http://sarasoueidan.com' rel='external nofollow' class='url'>Sara Soueidan</a></div> <div class="comment-time"><a href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/#comment-561460"><span class="screen-reader">Permalink to comment</span>#</span></a> <time pubdate datetime="2013-09-26T10:44:31+00:00">September 26, 2013</time></div>
+            
+          </div>
+          
+          <div class="comment-content">
+
+            <p>Edit to my previous comment:</p>
+<p>My bad! it <em>does</em> work in Firefox, too! Thanks for the tip, James. :)</p>
+
+            <div class="reply">
+                          </div><!-- .reply -->
+
+          </div>
+        </div>
+      </div>
+    
+	</li><!-- #comment-## -->
+
+		<li class="comment even depth-2" id="li-comment-564606">
+
+      <div class="grid group nopadding comment-wrap" id="comment-564606">
+
+        <div class="comment-avatar grid-1-5">
+          <img alt='' src='http://1.gravatar.com/avatar/52cb5124dc4fccd85a34ef2522365660?s=160&amp;d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&amp;r=PG' class='avatar avatar-160 photo' height='160' width='160' />        </div>
+
+        <div class="comment-body group grid-4-5">
+
+          <div class="comment-author-wrap vcard">
+            <div class="comment-author">Jörn</div> <div class="comment-time"><a href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/#comment-564606"><span class="screen-reader">Permalink to comment</span>#</span></a> <time pubdate datetime="2013-09-28T07:12:02+00:00">September 28, 2013</time></div>
+            
+          </div>
+          
+          <div class="comment-content">
+
+            <p>I can confirm your findings, James. In my case though, I have the video in one container and everything else in a following container. Both containers are then wrapped again. This wrapper is &#8220;fullscreened&#8221;. The parallel containers fixed the z-index issue without me ever noticing the problem &#8211; plus it does not require Shadow DOM support or me knowing about all the browser specific pseudo selectors.<br />
+Cheers</p>
+
+            <div class="reply">
+                          </div><!-- .reply -->
+
+          </div>
+        </div>
+      </div>
+    
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-561491">
+
+      <div class="grid group nopadding comment-wrap" id="comment-561491">
+
+        <div class="comment-avatar grid-1-5">
+          <img alt='' src='http://1.gravatar.com/avatar/325a809e0b59a9cbfce62cbcb48c6506?s=160&amp;d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&amp;r=PG' class='avatar avatar-160 photo' height='160' width='160' />        </div>
+
+        <div class="comment-body group grid-4-5">
+
+          <div class="comment-author-wrap vcard">
+            <div class="comment-author">yathaid</div> <div class="comment-time"><a href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/#comment-561491"><span class="screen-reader">Permalink to comment</span>#</span></a> <time pubdate datetime="2013-09-26T11:31:29+00:00">September 26, 2013</time></div>
+            
+          </div>
+          
+          <div class="comment-content">
+
+            <p>2147483647 = 2^31 &#8211; 1</p>
+
+            <div class="reply">
+              <a class='comment-reply-link' href='/custom-controls-in-html5-video-full-screen/?utm_content=buffer115d8&#038;utm_source=buffer&#038;utm_medium=twitter&#038;utm_campaign=Buffer&#038;replytocom=561491#respond' onclick='return addComment.moveForm("comment-561491", "561491", "respond", "151172")'>Reply &darr;</a>            </div><!-- .reply -->
+
+          </div>
+        </div>
+      </div>
+    
+	</li><!-- #comment-## -->
+
+		<li class="comment even thread-even depth-1" id="li-comment-561613">
+
+      <div class="grid group nopadding comment-wrap" id="comment-561613">
+
+        <div class="comment-avatar grid-1-5">
+          <img alt='' src='http://0.gravatar.com/avatar/8e19a401ce827905d4b7002b5a965800?s=160&amp;d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&amp;r=PG' class='avatar avatar-160 photo' height='160' width='160' />        </div>
+
+        <div class="comment-body group grid-4-5">
+
+          <div class="comment-author-wrap vcard">
+            <div class="comment-author"><a href='http://www.northstarmultimedia.com' rel='external nofollow' class='url'>Robert B</a></div> <div class="comment-time"><a href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/#comment-561613"><span class="screen-reader">Permalink to comment</span>#</span></a> <time pubdate datetime="2013-09-26T15:23:53+00:00">September 26, 2013</time></div>
+            
+          </div>
+          
+          <div class="comment-content">
+
+            <p>Thanks for the post&#8230;I am a hack at best&#8230;and, doing all my stuff in WordPress now&#8230;.my Holy Grail is how to push the controls down below the video frame.  Is that a total FoPAH or can it be done?</p>
+
+            <div class="reply">
+              <a class='comment-reply-link' href='/custom-controls-in-html5-video-full-screen/?utm_content=buffer115d8&#038;utm_source=buffer&#038;utm_medium=twitter&#038;utm_campaign=Buffer&#038;replytocom=561613#respond' onclick='return addComment.moveForm("comment-561613", "561613", "respond", "151172")'>Reply &darr;</a>            </div><!-- .reply -->
+
+          </div>
+        </div>
+      </div>
+    
+	<ul class="children">
+
+		<li class="comment odd alt depth-2" id="li-comment-562484">
+
+      <div class="grid group nopadding comment-wrap" id="comment-562484">
+
+        <div class="comment-avatar grid-1-5">
+          <img alt='' src='http://0.gravatar.com/avatar/81b58502541f9445253f30497e53c280?s=160&amp;d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&amp;r=PG' class='avatar avatar-160 photo' height='160' width='160' />        </div>
+
+        <div class="comment-body group grid-4-5">
+
+          <div class="comment-author-wrap vcard">
+            <div class="comment-author"><a href='http://sarasoueidan.com' rel='external nofollow' class='url'>Sara Soueidan</a></div> <div class="comment-time"><a href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/#comment-562484"><span class="screen-reader">Permalink to comment</span>#</span></a> <time pubdate datetime="2013-09-27T01:38:09+00:00">September 27, 2013</time></div>
+            
+          </div>
+          
+          <div class="comment-content">
+
+            <p>That <em>should</em> be doable by giving the controls a negative margin at the bottom. I haven&#8217;t tried it but it could do it.</p>
+
+            <div class="reply">
+                          </div><!-- .reply -->
+
+          </div>
+        </div>
+      </div>
+    
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+
+		<li class="comment even thread-odd thread-alt depth-1" id="li-comment-561677">
+
+      <div class="grid group nopadding comment-wrap" id="comment-561677">
+
+        <div class="comment-avatar grid-1-5">
+          <img alt='' src='http://0.gravatar.com/avatar/cac6aab54bfe7acfa3f4e7da7d4c4632?s=160&amp;d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&amp;r=PG' class='avatar avatar-160 photo' height='160' width='160' />        </div>
+
+        <div class="comment-body group grid-4-5">
+
+          <div class="comment-author-wrap vcard">
+            <div class="comment-author">Kadeni</div> <div class="comment-time"><a href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/#comment-561677"><span class="screen-reader">Permalink to comment</span>#</span></a> <time pubdate datetime="2013-09-26T16:56:55+00:00">September 26, 2013</time></div>
+            
+          </div>
+          
+          <div class="comment-content">
+
+            <p>The great sara strikes again :D<br />
+<strong>Awesome</strong> as always.</p>
+
+            <div class="reply">
+              <a class='comment-reply-link' href='/custom-controls-in-html5-video-full-screen/?utm_content=buffer115d8&#038;utm_source=buffer&#038;utm_medium=twitter&#038;utm_campaign=Buffer&#038;replytocom=561677#respond' onclick='return addComment.moveForm("comment-561677", "561677", "respond", "151172")'>Reply &darr;</a>            </div><!-- .reply -->
+
+          </div>
+        </div>
+      </div>
+    
+	</li><!-- #comment-## -->
+
+		<li class="comment odd alt thread-even depth-1" id="li-comment-561705">
+
+      <div class="grid group nopadding comment-wrap" id="comment-561705">
+
+        <div class="comment-avatar grid-1-5">
+          <img alt='' src='http://1.gravatar.com/avatar/ff46243d7e2c83192682c5cfcc0a7078?s=160&amp;d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&amp;r=PG' class='avatar avatar-160 photo' height='160' width='160' />        </div>
+
+        <div class="comment-body group grid-4-5">
+
+          <div class="comment-author-wrap vcard">
+            <div class="comment-author"><a href='http://www.nilnakliyat.com/' rel='external nofollow' class='url'>serdar</a></div> <div class="comment-time"><a href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/#comment-561705"><span class="screen-reader">Permalink to comment</span>#</span></a> <time pubdate datetime="2013-09-26T17:20:10+00:00">September 26, 2013</time></div>
+            
+          </div>
+          
+          <div class="comment-content">
+
+            <p><a href="http://www.nilnakliyat.com/" rel="nofollow">http://www.nilnakliyat.com/</a> Thanks for the comment, James!</p>
+
+            <div class="reply">
+              <a class='comment-reply-link' href='/custom-controls-in-html5-video-full-screen/?utm_content=buffer115d8&#038;utm_source=buffer&#038;utm_medium=twitter&#038;utm_campaign=Buffer&#038;replytocom=561705#respond' onclick='return addComment.moveForm("comment-561705", "561705", "respond", "151172")'>Reply &darr;</a>            </div><!-- .reply -->
+
+          </div>
+        </div>
+      </div>
+    
+	</li><!-- #comment-## -->
+
+		<li class="comment even thread-odd thread-alt depth-1" id="li-comment-562266">
+
+      <div class="grid group nopadding comment-wrap" id="comment-562266">
+
+        <div class="comment-avatar grid-1-5">
+          <img alt='' src='http://0.gravatar.com/avatar/a9db2cbc6d4e589aec2d25f67771b85e?s=160&amp;d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&amp;r=PG' class='avatar avatar-160 photo' height='160' width='160' />        </div>
+
+        <div class="comment-body group grid-4-5">
+
+          <div class="comment-author-wrap vcard">
+            <div class="comment-author"><a href='http://webplatformdaily.org' rel='external nofollow' class='url'>Šime Vidas</a></div> <div class="comment-time"><a href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/#comment-562266"><span class="screen-reader">Permalink to comment</span>#</span></a> <time pubdate datetime="2013-09-26T22:44:01+00:00">September 26, 2013</time></div>
+            
+          </div>
+          
+          <div class="comment-content">
+
+            <p>FWIW IE11 <em>does</em> support the Full-screen API, prefixed (according to Can I use&#8230;).</p>
+
+            <div class="reply">
+              <a class='comment-reply-link' href='/custom-controls-in-html5-video-full-screen/?utm_content=buffer115d8&#038;utm_source=buffer&#038;utm_medium=twitter&#038;utm_campaign=Buffer&#038;replytocom=562266#respond' onclick='return addComment.moveForm("comment-562266", "562266", "respond", "151172")'>Reply &darr;</a>            </div><!-- .reply -->
+
+          </div>
+        </div>
+      </div>
+    
+	<ul class="children">
+
+		<li class="comment odd alt depth-2" id="li-comment-562273">
+
+      <div class="grid group nopadding comment-wrap" id="comment-562273">
+
+        <div class="comment-avatar grid-1-5">
+          <img alt='' src='http://0.gravatar.com/avatar/81b58502541f9445253f30497e53c280?s=160&amp;d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&amp;r=PG' class='avatar avatar-160 photo' height='160' width='160' />        </div>
+
+        <div class="comment-body group grid-4-5">
+
+          <div class="comment-author-wrap vcard">
+            <div class="comment-author"><a href='http://sarasoueidan.com' rel='external nofollow' class='url'>Sara Soueidan</a></div> <div class="comment-time"><a href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/#comment-562273"><span class="screen-reader">Permalink to comment</span>#</span></a> <time pubdate datetime="2013-09-26T22:49:43+00:00">September 26, 2013</time></div>
+            
+          </div>
+          
+          <div class="comment-content">
+
+            <p>Cool, so this means that the full-screen applied to the container could/should work in IE11, but the shadow DOM technique may or may not work, as support for the shadow DOM is still unknown in IE11 (also according to <a href="http://caniuse.com/shadowdom" rel="nofollow">http://caniuse.com/shadowdom</a>)</p>
+
+            <div class="reply">
+                          </div><!-- .reply -->
+
+          </div>
+        </div>
+      </div>
+    
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+
+		<li class="comment even thread-even depth-1" id="li-comment-562358">
+
+      <div class="grid group nopadding comment-wrap" id="comment-562358">
+
+        <div class="comment-avatar grid-1-5">
+          <img alt='' src='http://0.gravatar.com/avatar/8cb0999887bfb39b25f650bfdcadff09?s=160&amp;d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&amp;r=PG' class='avatar avatar-160 photo' height='160' width='160' />        </div>
+
+        <div class="comment-body group grid-4-5">
+
+          <div class="comment-author-wrap vcard">
+            <div class="comment-author">Hugo</div> <div class="comment-time"><a href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/#comment-562358"><span class="screen-reader">Permalink to comment</span>#</span></a> <time pubdate datetime="2013-09-27T00:00:10+00:00">September 27, 2013</time></div>
+            
+          </div>
+          
+          <div class="comment-content">
+
+            <p>Nice post! Thank you!!!</p>
+
+            <div class="reply">
+              <a class='comment-reply-link' href='/custom-controls-in-html5-video-full-screen/?utm_content=buffer115d8&#038;utm_source=buffer&#038;utm_medium=twitter&#038;utm_campaign=Buffer&#038;replytocom=562358#respond' onclick='return addComment.moveForm("comment-562358", "562358", "respond", "151172")'>Reply &darr;</a>            </div><!-- .reply -->
+
+          </div>
+        </div>
+      </div>
+    
+	</li><!-- #comment-## -->
+
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-562469">
+
+      <div class="grid group nopadding comment-wrap" id="comment-562469">
+
+        <div class="comment-avatar grid-1-5">
+          <img alt='' src='http://1.gravatar.com/avatar/1dbed16149c5cf2e1b88708975ba40f5?s=160&amp;d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&amp;r=PG' class='avatar avatar-160 photo' height='160' width='160' />        </div>
+
+        <div class="comment-body group grid-4-5">
+
+          <div class="comment-author-wrap vcard">
+            <div class="comment-author">Jeppe Dyrby</div> <div class="comment-time"><a href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/#comment-562469"><span class="screen-reader">Permalink to comment</span>#</span></a> <time pubdate datetime="2013-09-27T01:32:03+00:00">September 27, 2013</time></div>
+            
+          </div>
+          
+          <div class="comment-content">
+
+            <p>I don&#8217;t believe this is a problem, if you go ahead and make the container element fullscreen.</p>
+<p>The one containing both the controls and the video. This might actually make it easier to style the video and the controls in fullscreen.</p>
+<p>This is what I&#8217;m currently doing, as I&#8217;m in the process of making a custom video player as well.</p>
+
+            <div class="reply">
+              <a class='comment-reply-link' href='/custom-controls-in-html5-video-full-screen/?utm_content=buffer115d8&#038;utm_source=buffer&#038;utm_medium=twitter&#038;utm_campaign=Buffer&#038;replytocom=562469#respond' onclick='return addComment.moveForm("comment-562469", "562469", "respond", "151172")'>Reply &darr;</a>            </div><!-- .reply -->
+
+          </div>
+        </div>
+      </div>
+    
+	</li><!-- #comment-## -->
+
+		<li class="comment even thread-even depth-1" id="li-comment-565231">
+
+      <div class="grid group nopadding comment-wrap" id="comment-565231">
+
+        <div class="comment-avatar grid-1-5">
+          <img alt='' src='http://1.gravatar.com/avatar/95f937c781b55dc676a94a9bc46473d7?s=160&amp;d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&amp;r=PG' class='avatar avatar-160 photo' height='160' width='160' />        </div>
+
+        <div class="comment-body group grid-4-5">
+
+          <div class="comment-author-wrap vcard">
+            <div class="comment-author"><a href='http://brad.is' rel='external nofollow' class='url'>Brad Dougherty</a></div> <div class="comment-time"><a href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/#comment-565231"><span class="screen-reader">Permalink to comment</span>#</span></a> <time pubdate datetime="2013-09-28T21:34:42+00:00">September 28, 2013</time></div>
+            
+          </div>
+          
+          <div class="comment-content">
+
+            <p>This is definitely an interesting approach, but it&#8217;s not a very robust one. The demo works properly in Chrome, but in the latest Safari beta, the custom controls are there along with the native ones.</p>
+<p>As some of the other commenters said, the better solution is to put the wrapper element in full screen. It also has the benefit of being supported in more browsers. <a href="http://brad.is/coding/BigScreen/" rel="nofollow">I wrote a library</a> that we use in the Vimeo player to make it a little easier to deal with all the variations and bugs (there are a few that specifically affect iframes).</p>
+
+            <div class="reply">
+              <a class='comment-reply-link' href='/custom-controls-in-html5-video-full-screen/?utm_content=buffer115d8&#038;utm_source=buffer&#038;utm_medium=twitter&#038;utm_campaign=Buffer&#038;replytocom=565231#respond' onclick='return addComment.moveForm("comment-565231", "565231", "respond", "151172")'>Reply &darr;</a>            </div><!-- .reply -->
+
+          </div>
+        </div>
+      </div>
+    
+	</li><!-- #comment-## -->
+
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-568390">
+
+      <div class="grid group nopadding comment-wrap" id="comment-568390">
+
+        <div class="comment-avatar grid-1-5">
+          <img alt='' src='http://0.gravatar.com/avatar/cc47274eef3b9728e2e4bd353f980a04?s=160&amp;d=http%3A%2F%2Fcss-tricks.com%2Fimages%2Fget-gravatar.png%3Fs%3D160&amp;r=PG' class='avatar avatar-160 photo' height='160' width='160' />        </div>
+
+        <div class="comment-body group grid-4-5">
+
+          <div class="comment-author-wrap vcard">
+            <div class="comment-author"><a href='http://www.crea8iveideas.com' rel='external nofollow' class='url'>Shahzad</a></div> <div class="comment-time"><a href="http://css-tricks.com/custom-controls-in-html5-video-full-screen/#comment-568390"><span class="screen-reader">Permalink to comment</span>#</span></a> <time pubdate datetime="2013-09-30T20:42:34+00:00">September 30, 2013</time></div>
+            
+          </div>
+          
+          <div class="comment-content">
+
+            <p>Wahooo&#8230;! Good Job done by Sara i really appreciated</p>
+
+            <div class="reply">
+              <a class='comment-reply-link' href='/custom-controls-in-html5-video-full-screen/?utm_content=buffer115d8&#038;utm_source=buffer&#038;utm_medium=twitter&#038;utm_campaign=Buffer&#038;replytocom=568390#respond' onclick='return addComment.moveForm("comment-568390", "568390", "respond", "151172")'>Reply &darr;</a>            </div><!-- .reply -->
+
+          </div>
+        </div>
+      </div>
+    
+	</li><!-- #comment-## -->
+	</ol>
+
+
+
+	<div id="respond" class="respond group">
+
+		
+		<form action="http://css-tricks.com/wp-comments-post.php" method="post" id="comment-form" class="group comment-form">
+
+			<h2 class="comments-title">
+				<span aria-hidden="true" data-icon="9"></span>Leave a Comment
+			</h2>
+
+			
+				<div class="grid nopadding group commenter-inputs">
+
+				  <div class="grid-1-3">
+						<label for="author" class="screen-reader">Name*</label>
+						<input placeholder="Name (required)" required type="text" name="author" id="author" value="" class="infoput">
+				  </div>
+
+				  <div class="grid-1-3">
+						<label for="email" class="screen-reader">Email</label>
+						<input placeholder="Email (required)" required type="email" name="email" id="email" value="" class="infoput">
+				  </div>
+
+				  <div class="grid-1-3">
+						<label for="url" class="screen-reader">Website</label>
+						<input placeholder="Website (optional)" type="url" name="url" id="url" value="" class="infoput">
+					</div>
+
+				</div>
+				
+				<div class="comment-wrap">
+					<label for="comment" class="screen-reader">Comment</label>
+					<textarea name="comment" id="comment" cols="100" rows="10" placeholder="Your comment here. You'd be surprised how doing good comes around."></textarea>
+					<p class="textarea-usage">Use <a href="http://daringfireball.net/projects/markdown/syntax" target="_blank">markdown</a> or basic HTML and be nice.</p>
+				</div>
+
+				<input type='hidden' name='comment_post_ID' value='151172' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+				<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="683b49f632" /></p><script src="http://css-tricks.com/?live-comment-preview.js" type="text/javascript"></script><div id="commentPreview"></div><p class="comment-subscription-form"><input type="checkbox" name="subscribe_comments" id="subscribe_comments" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;" /> <label class="subscribe-label" id="subscribe-label" for="subscribe_comments" style="display: inline;">Notify me of follow-up comments by email.</label></p><p class="comment-subscription-form"><input type="checkbox" name="subscribe_blog" id="subscribe_blog" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;" /> <label class="subscribe-label" id="subscribe-blog-label" for="subscribe_blog" style="display: inline;">Notify me of new posts by email.</label></p>
+				<div class="comment-form-button-wrap">
+					<input name="submit" type="submit" class="button" id="submit" value="Submit Comment">
+
+					<a rel="nofollow" id="cancel-comment-reply-link" href="/custom-controls-in-html5-video-full-screen/?utm_content=buffer115d8&amp;utm_source=buffer&amp;utm_medium=twitter&amp;utm_campaign=Buffer#respond" style="display:none;">Cancel Reply</a>				</div>
+
+		</form>
+
+		
+	</div>
+
+</section>		
+	</section>
+
+	<aside class="grid-1-3">
+
+    <div class="module module-image-ad module-treehouse">
+
+    <a href="http://teamtreehouse.com/redirect/css-tricks/sidebar">
+    <img src="http://cdn.css-tricks.com/images/CSS-Tricks-600x500.png">
+    </a>
+
+    <p class="note">I recommend using <a href="http://teamtreehouse.com/redirect/css-tricks/sidebar">Treehouse</a> for learning web design, web development, and iOS development. Their structured course-based learning is like a more modern college at about 1% of the price.</p>
+
+  </div>
+  
+  <div class="module group module-lodge">
+    
+  
+    <p class="intro-lodge"><a href="/lodge/">The Lodge</a> is a <a href="/wp-login.php">member login</a> only area with access to video training on how to build websites from scratch using the best modern tools.</p>
+
+    <div class="lodge-actions">
+      <a href="/lodge/signup/" class="button">Sign up!</a>
+    </div>
+
+  
+  </div>
+
+    <div class="module module-image-ad">
+    <a id="wufoo-ad-graphic" class="wufoo-ad-graphic" href="http://ad.doubleclick.net/clk;270735259;98920367;x?http://www.wufoo.com/landing/1/?utm_source=csstricks&utm_medium=ppc&cmpid=brand&utm_network=d&utm_term=csstricks600x600banner">
+    </a>
+    <p class="note">
+      As a web designer, you can build a form yourself if you want. But will it block spam? Will it look and work well on any screen size? Is it incredibly easy to make changes to? Can it accept payments? Is it multi-page with logic forks? Are you saving the data so you can build visual reports? Does that data have an API? 
+      <a href="http://ad.doubleclick.net/clk;270735316;98920367;r?http://www.wufoo.com/landing/1/?utm_source=csstricks&utm_medium=ppc&cmpid=brand&utm_network=d&utm_term=csstrickstextlinkwufoo">Wufoo</a> does all that and much more. Plus it's so easy absolutely anybody can do it.
+
+      <a href="http://ad.doubleclick.net/clk;270735352;98920367;r?http://www.wufoo.com/landing/1/?utm_source=csstricks&utm_medium=ppc&cmpid=brand&utm_network=d&utm_term=csstrickstextlinktryitfree">Try&nbsp;it&nbsp;free!</a><img src="http://ad.doubleclick.net/ad/N7439.1063086.CSS-TRICKS.COM/B7043538.2;sz=1x1;ord=2013-10-05T22:49:28+00:00?'); ?>?">
+    </p>
+  </div>
+  
+  <div class="module module-poll">
+    <div id="polls-46" class="wp-polls">
+	<form id="polls_form_46" class="wp-polls-form" action="/custom-controls-in-html5-video-full-screen/?utm_content=buffer115d8&amp;utm_source=buffer&amp;utm_medium=twitter&amp;utm_campaign=Buffer" method="post">
+		<p style="display: none;"><input type="hidden" id="poll_46_nonce" name="wp-polls-nonce" value="9415b958eb" /></p>
+		<p style="display: none;"><input type="hidden" name="poll_id" value="46" /></p>
+		<h4>Is it useful to distinguish between "web apps" and "web sites"?</h4>
+
+<div id="polls-46-ans" class="wp-polls-ans">
+
+<ul class="wp-polls-ul group">
+		<li class="group"><input type="radio" id="poll-answer-256" name="poll_46" value="256" /> <label for="poll-answer-256">Yep. They are different things with different concerns.</label></li>
+		<li class="group"><input type="radio" id="poll-answer-257" name="poll_46" value="257" /> <label for="poll-answer-257">Nope. It's all just the web.</label></li>
+		</ul>
+
+<p class="voting-buttons">
+
+<input type="button" name="vote" value="   Vote   " class="button" onclick="poll_vote(46);" onkeypress="poll_result(46);" /> &nbsp; <a href="#ViewPollResults" class="button" onclick="poll_result(46); return false;" onkeypress="poll_result(46); return false;" title="View Results Of This Poll">View Results</a>
+
+</p>
+
+</div>
+	</form>
+</div>
+  </div>
+  <div class="module module-subscribe">
+    <h4>Over 100,000 of the best looking web workers subscribe to CSS-Tricks. Join them?</h4>
+    <div class="module-subscribe-buttons">
+      <a class="button" href="http://feeds.feedburner.com/CssTricks">
+        <span aria-hidden="true" data-icon="S"></span>RSS
+      </a>
+      <br>
+      <a class="button" href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=273881728">
+        <span aria-hidden="true" data-icon="&#x61;"></span>iTunes
+      </a>
+    </div>
+    <a href="/subscription-options/">See all Subscription Options</a>
+  </div>
+
+</aside>
+</div>
+  </div>
+  <footer class="site-footer top-footer group">
+
+    <ul class="link-list left-links">
+      <li><a href="/contact/">Contact CSS-Tricks<span></span></a></li>
+      <li class="space"><a href="/advertising/">Advertise on CSS-Tricks<span></span></a></li>
+
+      <li><a href="http://twitter.com/real_css_tricks">Twitter: real_css_tricks<span></span></a></li>
+      <li><a href="http://facebook.com/CSSTricks">Facebook: CSSTricks<span></span></a></li>
+      <li><a href="http://www.youtube.com/realcsstricks">YouTube: realcsstricks<span></span></a></li>
+      <li class="space"><a href="https://github.com/CSS-Tricks/">GitHub: CSS-Tricks Org<span></span></a></li>
+
+      <li><a href="http://twitter.com/chriscoyier">Twitter: chriscoyier<span></span></a></li>
+      <li><a href="http://codepen.io/chriscoyier">CodePen: chriscoyier<span></span></a></li>
+      <li><a href="http://dribbble.com/chriscoyier">Dribbble: chriscoyier<span></span></a></li>
+      <li><a href="http://pinboard.in/u:chriscoyier">Pinboard: chriscoyier<span></span></a></li>
+      <li><a href="http://plus.google.com/101987072260327250694/posts">Google+: chriscoyier<span></span></a></li>
+    </ul>
+
+    <ul class="link-list right-links">
+      <li><a href="/bookshelf/">The Bookshelf<span></span></a></li>
+      <li><a href="/polls/">Poll Archive<span></span></a></li>
+      <li><a href="/design-history/">Design Archive<span></span></a></li>
+      <li class="space"><a href="/archives/">Article Archive<span></span></a></li>
+
+      <li><a href="http://digwp.com">Digging into WordPress<span></span></a></li>
+      <li><a href="http://www.lynda.com/home/DisplayCourse.aspx?lpk2=67160&utm_medium=affiliate&utm_source=ldc_affiliate&utm_content=524&utm_campaign=CD2269&bid=524&aid=CD2269&opt=">Lynda.com WP Theme Course<span></span></a></li>
+
+      <li><a href="http://quotesondesign.com/">Quotes on Design<span></span></a></li>
+      <li class="space"><a href="http://html-ipsum.com/">HTML-Ipsum<span></span></a></li>
+
+      <li><a href="/deals/">Deals<span></span></a></li>
+      <li><a class="footer-store-link" href="/store/">The Store<span></span></a></li>
+      <li><a href="/license/">The License<span></span></a></li>
+    </ul>
+
+  </footer>
+
+  <footer class="site-footer bottom-footer group">
+
+    <div class="bottom-footer-part footer-codepen">
+      <a href="http://codepen.io" class="footer-logo">
+        <img src="http://cdn.css-tricks.com/wp-content/themes/CSS-Tricks-10/images/footer-logo-codepen.png" alt="CodePen Logo">
+      </a>
+      <p>
+        <a href="http://codepen.io">
+          CodePen
+        </a>
+        is a social code playground for web designers and developers. Build demos, find inspiration, or troubleshoot code. With <a href="http://blog.codepen.io/documentation/pro-features/">CodePen PRO</a> you can teach students, pair program, host files, and more!
+      </p>
+    </div>
+
+    <div class="bottom-footer-part footer-shoptalk">
+      <a href="http://shoptalkshow.com" class="footer-logo">
+        <img src="http://cdn.css-tricks.com/wp-content/themes/CSS-Tricks-10/images/footer-logo-shoptalk.png" alt="ShopTalk Logo">
+      </a>
+      <p>
+        <a href="http://shoptalkshow.com">
+          ShopTalk
+        </a>
+         is a podcast about all things web design and development hosted by Dave Rupert and me. The show is recorded live and covers the week in #hotdrama and listener Q&amp;A.
+       </p>
+    </div>
+
+  </footer>
+
+  <footer class="site-footer slogan">
+    CSS-Tricks* is created, written by, and maintained by <a href="http://chriscoyier.net">Chris Coyier</a>. It is built on <a href="http://wordpress.org/">WordPress</a>, hosted by <a href="http://www.mediatemple.net/#a_aid=4e25c84480ed2">Media Temple</a> and <a href="http://tracking.maxcdn.com/c/13088/93731/378">MaxCDN</a>, with fonts by <a href="http://www.typography.com/">H&FJ</a>. *May or may not contain any "CSS" or "Tricks".
+  </footer>
+
+		<div style="display:none">
+	<div class="grofile-hash-map-13a9550a854af911366d9f5deb785cd6">
+	</div>
+	<div class="grofile-hash-map-077b21d23ac9a33b822caada81ef1422">
+	</div>
+	<div class="grofile-hash-map-3d06d32135547aa054e1e198c88e5386">
+	</div>
+	<div class="grofile-hash-map-9ed23bffd248391a783648905b30f26c">
+	</div>
+	<div class="grofile-hash-map-81b58502541f9445253f30497e53c280">
+	</div>
+	<div class="grofile-hash-map-c0866060bbd63730723bc5036643f337">
+	</div>
+	<div class="grofile-hash-map-52cb5124dc4fccd85a34ef2522365660">
+	</div>
+	<div class="grofile-hash-map-325a809e0b59a9cbfce62cbcb48c6506">
+	</div>
+	<div class="grofile-hash-map-8e19a401ce827905d4b7002b5a965800">
+	</div>
+	<div class="grofile-hash-map-cac6aab54bfe7acfa3f4e7da7d4c4632">
+	</div>
+	<div class="grofile-hash-map-ff46243d7e2c83192682c5cfcc0a7078">
+	</div>
+	<div class="grofile-hash-map-a9db2cbc6d4e589aec2d25f67771b85e">
+	</div>
+	<div class="grofile-hash-map-8cb0999887bfb39b25f650bfdcadff09">
+	</div>
+	<div class="grofile-hash-map-1dbed16149c5cf2e1b88708975ba40f5">
+	</div>
+	<div class="grofile-hash-map-95f937c781b55dc676a94a9bc46473d7">
+	</div>
+	<div class="grofile-hash-map-cc47274eef3b9728e2e4bd353f980a04">
+	</div>
+	</div>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201340'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"http:\/\/css-tricks.com\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"0","show_fading":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://cdn.css-tricks.com/wp-content/plugins/wp-polls/polls-js.js?ver=2.63'></script>
+
+	<script src="http://stats.wordpress.com/e-201340.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:2.4.2',blog:'45537868',post:'151172',tz:'-7'});
+	var load_cmc = function(){linktracker_init(45537868,151172,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script>
+  <script src='http://cdn.css-tricks.com/wp-content/themes/CSS-Tricks-10/js/global-ck.js?v=1.4'></script>
+  <script async src="//codepen.io/assets/embed/ei.js"></script>
+
+  
+  <script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-68528-29']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+  })();
+</script>
+
+<script>
+/* <![CDATA[ */
+var google_conversion_id = 1017883234;
+var google_conversion_label = "BsxVCM7ImAMQ4tSu5QM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1017883234/?value=0&amp;label=BsxVCM7ImAMQ4tSu5QM&amp;guid=ON&amp;script=0">
+</div>
+</noscript>
+
+</body>
+
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk
+Content Delivery Network via cdn.css-tricks.com
+
+ Served from: css-tricks.com @ 2013-10-05 15:49:28 by W3 Total Cache -->

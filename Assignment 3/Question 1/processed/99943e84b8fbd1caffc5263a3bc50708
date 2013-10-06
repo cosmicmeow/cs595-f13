@@ -1,0 +1,1881 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <title>Cronut, el híbrido de croissant y donut que causa furor - BBC Mundo - Noticias</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=8" />
+      <meta http-equiv="content-language" content="es" />
+      <meta http-equiv="content-script-type" content="text/javascript" />
+      <meta http-equiv="imagetoolbar" content="no" />
+      <link rel="schema.dc" href="http://purl.org/dc/elements/1.1/" />
+      <link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
+      <meta name="dc.language" content="es" />
+      <meta name="dc.publisher" content="British Broadcasting Corporation" />
+      <meta name="dc.identifier"
+            content="http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml" />
+      <meta name="dcterms.created" content="2013-09-25T23:02:10+00:00" />
+      <meta name="dcterms.modified" content="2013-09-26T02:45:45+00:00" />
+      <meta name="description"
+            content="Se empezaron a vender el pasado mes de mayo en una pastelería del barrio de Soho de Nueva York y en cuestión de semanas su popularidad se extendió por todo el mundo. BBC Mundo le presenta a la nueva estrella de la repostería." />
+      <meta name="keywords"
+            content="Cultura, Sociedad, Cronut, donut, croissant, moda, pastelerías" />
+      <meta name="news_keywords"
+            content="Cultura, Sociedad, Cronut, donut, croissant, moda, pastelerías" />
+      <meta name="generator" content="Topcat2" />
+      <!-- OpenGraph meta -->
+      <meta property="og:image"
+            content="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/09/25/130925222933_cronut_304x171_bbcmundo_nocredit.jpg" />
+      <meta property="og:title"
+            content="Cronut, el híbrido de croissant y donut que causa furor - BBC Mundo - Noticias" />
+      <meta property="og:description"
+            content="Se empezaron a vender el pasado mes de mayo en una pastelería del barrio de Soho de Nueva York y en cuestión de semanas su popularidad se extendió por todo el mundo. BBC Mundo le presenta a la nueva estrella de la repostería." />
+      <meta property="og:url"
+            content="http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml" />
+      
+	
+		
+	
+
+
+	
+
+	
+
+		
+
+		
+	
+		
+		
+			
+		
+	
+	
+		
+	
+		
+		
+			
+		
+			
+	
+		
+	
+		
+		
+			
+		
+		
+		
+
+	
+
+		
+
+	
+		
+	
+	
+
+
+
+	
+
+
+
+
+	
+		
+			
+		
+	
+
+
+
+
+
+
+	
+		
+			
+		
+	
+
+
+
+	
+		
+	
+
+
+
+
+	
+		
+	
+
+
+	
+
+
+	
+
+	
+		
+	
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+	
+
+
+
+	
+	
+
+
+
+
+
+  <!-- /* includes legend */ -->
+  <!-- /* includes legend */ -->
+
+<!-- 
+	ws	- worldservice
+	v	- vocab
+	c	- config
+	u	- url
+	
+	ac	- audio console
+	cf	- contact form
+	dt	- document tools
+	esf - email subscribe form
+	ls	- livestats
+	lt	- livetext
+	stf	- send to friend form
+--> 
+
+<!--  vocab and config for includes -->
+
+<!-- 	/* site config */ -->
+	 <!-- e.g. same as tc2_config.xml  -->
+	 <!-- e.g. same as tc2_config.xml  -->
+	 <!-- BBCGel.com -->
+	 <!-- e.g. nepali -->
+	 <!-- e.g. /nepali -->
+	 <!-- e.g. BBCBrasil.com - RSS -->
+
+
+<!-- 	/* contact us config */ -->
+	 <!-- Localised error page TC2 -->
+	 <!-- Localised success page TC2 -->
+	 <!-- e.g. nepali@bbc.co.uk -->
+	 <!-- Service - Contact Us Form -->
+	 <!-- Max characters -->
+	
+<!-- 	/* contact us vocab */ -->
+     <!-- Contact Us -->
+	 <!-- Your Feedback -->
+	 <!-- Your Contact Details -->
+	 <!-- Indicates required fields -->
+	 <!-- Name -->
+	 <!-- Town, Country -->
+	 <!-- Your email address -->
+	 <!-- Telephone -->
+	 <!-- Your Message -->
+	 <!-- Comment -->
+	 <!-- (X maximum characters) -->
+	 <!-- Disclaimer -->
+	 <!-- The disclaimer -->
+	 <!-- Clear -->
+	 <!-- Submit -->
+
+<!-- 	/* report error config */ -->
+	 <!-- Localised error page TC2 -->
+	 <!-- Localised success page TC2 -->
+	 <!-- e.g. nepali@bbc.co.uk -->
+	 <!-- Service - Contact Us Form -->
+	 <!-- Max characters -->	
+	
+<!-- 	/* report error vocab */ -->
+     <!-- Report an error -->
+	 <!-- Your Feedback -->
+	 <!-- Your Contact Details -->
+	 <!-- Indicates required fields -->
+	 <!-- Name -->
+	 <!-- Your email address -->
+	 <!-- Your Message -->
+	 <!-- Your Message -->
+	 <!-- Comment -->
+	 <!-- (X maximum characters) -->
+	 <!-- Disclaimer -->
+	 <!-- The disclaimer -->
+	 <!-- Clear -->
+	 <!-- Submit -->	
+	
+<!-- 	/* email subscribe config */ -->
+	 <!-- Localised success page TC2 -->
+
+<!-- 	/* email subscribe vocab */ -->
+	 <!-- e.g. BBCBrasil.com e-mail newsletter -->
+	 <!-- Subscribe e-mail newsletter info -->
+	 <!-- Sign-up to email news info -->
+	 <!-- Indicates required fields -->
+	 <!-- Type your email address in the field below -->
+	 <!-- Your comment -->
+	 <!-- Your email -->
+	 <!-- Now select Plain text or HTML info -->
+	 <!-- Plain text -->
+	 <!-- HTML -->
+	 <!-- Select "Subscribe" and then press "Send" -->
+	 <!-- Subscribe label -->
+	 <!-- Submit -->
+	 <!-- Confirm your request info -->
+	 <!-- How to unsubscribe -->
+	 <!-- How to unsubscribe info -->
+	 <!-- Cancel label -->
+
+
+<!-- 	/* livetext vocab */ -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+     <!-- This page is regularly updated. Please click the Refresh button for the latest content. -->
+      <!-- More Updates -->	
+
+	
+	
+<!-- 	/* ugc vocab */ -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	
+	
+	
+	
+<!-- 	/* document tools config */ -->
+	 <!--  width/height e.g. 325x520 -->
+	 <!-- Report an error cta -->
+	 <!-- Report an error url -->
+
+<!-- 	/* top stories vocab */ -->
+	 <!-- Top Stories -->
+
+<!-- 	/* topic stories config */ -->
+     <!-- Num of headlines to show -->
+
+<!-- 	/* topic stories vocab */ -->
+     <!-- More from {dont add topic_name} -->
+    
+	
+<!-- 	/* livestats config */ -->
+	 <!-- Livestats service name if not the same as tc2 service name -->
+	 <!-- Enable Read Tab -->
+	 <!-- Path to most read stats -->
+	 <!-- Enable Shared Tab -->
+	 <!-- Path to most shared stats -->
+	 <!-- Enable Watched/Listened Tab -->
+	 <!-- Path to Watched/Listened Tab stats -->
+	 <!-- Add Genres here, comma seperated, to exclude from livestats  -->
+	 <!-- Only necessary if not defaulting to read. Should be added to include's query string   -->
+  	
+<!-- 	/* livestats vocab */ -->
+	 <!-- Most Popular Now -->
+	 <!-- Most Read -->
+	 <!-- Read tab -->
+	 <!-- Shared tab -->
+	 <!-- Watched/Listened tab -->
+	
+<!-- 	/* document tools vocab */ -->
+	 <!-- Send to a friend -->
+	 <!-- Print page -->
+	 <!-- Back to top link -->
+	
+	
+<!-- 	/* rss feeds vocab */ -->
+	 <!-- RSS -->
+	 <!-- What is RSS? -->
+
+
+<!-- 	/* audio console config */ -->
+	 <!--  Localised success page TC2 -->
+	 <!--  Localised success page TC2 -->
+	 <!--  width/height e.g. 325x520 -->
+
+<!-- 	/* audio console vocab */ -->
+     <!-- Title -->
+	 <!-- To play this content JavaScript must be turned on and the latest Flash player installed. -->
+	 <!-- Get the latest Flash Player -->
+	 <!-- Play in Real Player or Windows Media Player -->
+	
+
+<!-- 	/* send to friend config */ -->
+	 <!-- Localised privacy page TC2 -->
+	 <!-- Localised faq page TC2 -->
+	 <!-- Localised accessibility page TC2 -->
+	 <!-- Max characters -->
+	
+<!-- 	/* send to friend vocab */ -->
+	 <!-- Title -->
+	 <!-- Send the page: -->
+	 <!-- indicates compulsory fields. -->
+	 <!-- To: -->
+	 <!-- To email address -->
+	 <!-- From: -->
+	 <!-- Your name -->
+	 <!-- Your email address -->
+	 <!-- Your message -->
+	 <!-- SEND -->
+	 <!-- (X maximum characters) -->
+	 <!-- Email a friend disclaimer -->
+	 <!-- The disclaimer -->
+	 <!-- Privacy Statement -->
+	 <!-- Find out more about the BBC's e-mail a friend service in our -->
+	 <!-- frequently asked questions -->
+	 <!-- Accessibility Links -->
+	 <!-- Accessibility help -->
+	 <!-- Submission sent -->	
+	 <!-- Submission failed -->
+	 <!-- Back to form -->
+
+<!-- 	/* rolling news config */ -->
+	 <!-- publishing location from root: e.g. /gel/rolling_news -->
+	 <!-- TC2 genre for rolling news -->
+	 
+
+<!-- 	/* rolling news vocab */ -->
+	 <!-- Title -->
+	 <!-- Sub Title -->
+	 <!-- Disclaimer -->
+	 <!-- See Latest -->
+	
+
+	 <!-- 	/* weather config */ -->
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  <!-- 	/* weather vocab */ -->	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+  
+	
+  <!-- 	/* weather module setup */ -->
+    <!-- onecity or multicity -->  
+  	
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   <!-- business data -->
+  
+  	
+  <!-- market data -->
+  
+  
+  
+  				
+  
+  
+  	
+  
+  
+  <!-- for each market comparison, provide a code and (optional) title  -->
+  
+  
+  
+  
+  	
+    <!-- /* pulse survey setup */ -->
+     <!-- Add genres here, comma separated  -->
+
+	<!-- /* gv survey setup */ -->
+    <!-- #set var="ws.c.gvsurvey.genres" value="homepage" --><!-- Add genres here, comma separated  -->	
+		
+  <!-- /* blq translations head*/ -->
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- 	/* GEL SEARCH */ -->
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- /* Ads */-->
+  
+    
+  
+  
+  
+
+
+<script type="text/javascript">//<![CDATA[
+//call before barlesque for ads
+wsads = {
+
+ 
+	
+	  
+	queryString: '',
+	referrer: '(none)',
+	section: 'cultura',
+	service: 'mundo',
+	storyId: '27300299',
+	documentType: 'story',  
+	uri: '/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml',
+	isMobile: null
+}
+//]]>
+</script>
+
+
+                                            <!-- Glow cachebust:    
+                -->       <!-- Barlesque 2.51.6 -->      
+   <meta http-equiv="X-UA-Compatible" content="IE=8" />  
+  <link rel="schema.dcterms" href="http://purl.org/dc/terms/" />  <link rel="index" href="http://www.bbc.co.uk/a-z/" title="A to Z" /> <link rel="copyright" href="http://www.bbc.co.uk/terms/" title="Terms of Use" /> <link rel="icon" href="http://www.bbc.co.uk/favicon.ico" type="image/x-icon" />  <meta name="viewport" content="width = 996" /> 
+
+ <link rel="stylesheet" type="text/css" href="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/3.5/style/main.css"  />  <link rel="stylesheet" type="text/css" href="http://static.bbci.co.uk/bbcdotcom/0.3.205/style/3pt_ads.css"  />  <script type="text/javascript">/*<![CDATA[*/ (function(undefined){if(!window.bbc){window.bbc={}}var ROLLING_PERIOD_DAYS=30;window.bbc.Mandolin=function(id,segments,opts){var now=new Date().getTime(),storedItem,DEFAULT_START=now,DEFAULT_RATE=1,COOKIE_NAME="ckpf_mandolin";opts=opts||{};this._id=id;this._segmentSet=segments;this._store=new window.window.bbc.Mandolin.Storage(COOKIE_NAME);this._opts=opts;this._rate=(opts.rate!==undefined)?+opts.rate:DEFAULT_RATE;this._startTs=(opts.start!==undefined)?new Date(opts.start).getTime():new Date(DEFAULT_START).getTime();this._endTs=(opts.end!==undefined)?new Date(opts.end).getTime():daysFromNow(ROLLING_PERIOD_DAYS);this._signupEndTs=(opts.signupEnd!==undefined)?new Date(opts.signupEnd).getTime():this._endTs;this._segment=null;if(typeof id!=="string"){throw new Error("Invalid Argument: id must be defined and be a string")}if(Object.prototype.toString.call(segments)!=="[object Array]"){throw new Error("Invalid Argument: Segments are required.")}if(opts.rate!==undefined&&(opts.rate<0||opts.rate>1)){throw new Error("Invalid Argument: Rate must be between 0 and 1.")}if(this._startTs>this._endTs){throw new Error("Invalid Argument: end date must occur after start date.")}if(!(this._startTs<this._signupEndTs&&this._signupEndTs<=this._endTs)){throw new Error("Invalid Argument: SignupEnd must be between start and end date")}removeExpired.call(this,now);if((storedItem=this._store.getItem(this._id))){this._segment=storedItem.segment}else{if(this._startTs<=now&&now<this._signupEndTs&&now<=this._endTs&&this._store.isEnabled()===true){this._segment=pick(segments,this._rate);if(opts.end===undefined){this._store.setItem(this._id,{segment:this._segment})}else{this._store.setItem(this._id,{segment:this._segment,end:this._endTs})}log.call(this,"mandolin_segment")}}log.call(this,"mandolin_view")};window.bbc.Mandolin.prototype.getSegment=function(){return this._segment};function log(actionType,params){var that=this;require(["istats-1"],function(istats){istats.log(actionType,that._id+":"+that._segment,params?params:{})})}function removeExpired(expires){var items=this._store.getItems(),expiresInt=+expires;for(var key in items){if(items[key].end!==undefined&&+items[key].end<expiresInt){this._store.removeItem(key)}}}function getLastExpirationDate(data){var winner=0,rollingExpire=daysFromNow(ROLLING_PERIOD_DAYS);for(var key in data){if(data[key].end===undefined&&rollingExpire>winner){winner=rollingExpire}else{if(+data[key].end>winner){winner=+data[key].end}}}return(winner)?new Date(winner):new Date(rollingExpire)}window.bbc.Mandolin.prototype.log=function(params){log.call(this,"mandolin_log",params)};window.bbc.Mandolin.prototype.convert=function(params){log.call(this,"mandolin_convert",params);this.convert=function(){}};function daysFromNow(n){var endDate;endDate=new Date().getTime()+(n*60*60*24)*1000;return endDate}function pick(segments,rate){var picked,min=0,max=segments.length-1;if(typeof rate==="number"&&Math.random()>rate){return null}do{picked=Math.floor(Math.random()*(max-min+1))+min}while(picked>max);return segments[picked]}window.bbc.Mandolin.Storage=function(name){this._cookieName=name;this._isEnabled=(bbccookies.isAllowed(this._cookieName)===true&&bbccookies.cookiesEnabled()===true)};window.bbc.Mandolin.Storage.prototype.setItem=function(key,value){var storeData=this.getItems();storeData[key]=value;this.save(storeData);return value};window.bbc.Mandolin.Storage.prototype.isEnabled=function(){return this._isEnabled};window.bbc.Mandolin.Storage.prototype.getItem=function(key){var storeData=this.getItems();return storeData[key]};window.bbc.Mandolin.Storage.prototype.removeItem=function(key){var storeData=this.getItems();delete storeData[key];this.save(storeData)};window.bbc.Mandolin.Storage.prototype.getItems=function(){return deserialise(this.readCookie(this._cookieName)||"")};window.bbc.Mandolin.Storage.prototype.save=function(data){window.bbccookies.set(this._cookieName+"="+serialise(data)+"; expires="+getLastExpirationDate(data).toUTCString()+";")};window.bbc.Mandolin.Storage.prototype.readCookie=function(name){var nameEQ=name+"=",ca=window.bbccookies.get().split(";"),i,c;for(i=0;i<ca.length;i++){c=ca[i];while(c.charAt(0)===" "){c=c.substring(1,c.length)}if(c.indexOf(nameEQ)===0){return c.substring(nameEQ.length,c.length)}}return null};function serialise(o){var str="";for(var p in o){if(o.hasOwnProperty(p)){str+='"'+p+'"'+":"+(typeof o[p]==="object"?(o[p]===null?"null":"{"+serialise(o[p])+"}"):'"'+o[p].toString().replace(/"/g,'\\"')+'"')+","}}return str.replace(/,\}/g,"}").replace(/,$/g,"")}function deserialise(str){var o;eval("o = {"+str+"}");return o}})(); /*]]>*/</script>  <script type="text/javascript">/*<![CDATA[*/ if (typeof bbccookies_flag === 'undefined') { bbccookies_flag = 'ON'; } showCTA_flag = false; cta_enabled = (showCTA_flag && (bbccookies_flag === 'ON') ); (function(){var e="ckns_policy",m="Thu, 01 Jan 1970 00:00:00 GMT",k={ads:true,personalisation:true,performance:true,necessary:true};function f(p){if(f.cache[p]){return f.cache[p]}var o=p.split("/"),q=[""];do{q.unshift((o.join("/")||"/"));o.pop()}while(q[0]!=="/");f.cache[p]=q;return q}f.cache={};function a(p){if(a.cache[p]){return a.cache[p]}var q=p.split("."),o=[];while(q.length&&"|co.uk|com|".indexOf("|"+q.join(".")+"|")===-1){if(q.length){o.push(q.join("."))}q.shift()}f.cache[p]=o;return o}a.cache={};function i(o,t,p){var z=[""].concat(a(window.location.hostname)),w=f(window.location.pathname),y="",r,x;for(var s=0,v=z.length;s<v;s++){r=z[s];for(var q=0,u=w.length;q<u;q++){x=w[q];y=o+"="+t+";"+(r?"domain="+r+";":"")+(x?"path="+x+";":"")+(p?"expires="+p+";":"");bbccookies.set(y,true)}}}window.bbccookies={_setEverywhere:i,cookiesEnabled:function(){var o="ckns_testcookie"+Math.floor(Math.random()*100000);this.set(o+"=1");if(this.get().indexOf(o)>-1){g(o);return true}return false},set:function(o){return document.cookie=o},get:function(){return document.cookie},_setPolicy:function(o){return h.apply(this,arguments)},readPolicy:function(o){return b.apply(this,arguments)},_deletePolicy:function(){i(e,"",m)},isAllowed:function(){return true},_isConfirmed:function(){return c()!==null},_acceptsAll:function(){var o=b();return o&&!(j(o).indexOf("0")>-1)},_getCookieName:function(){return d.apply(this,arguments)},_showPrompt:function(){var o=(!this._isConfirmed()&&window.cta_enabled&&this.cookiesEnabled()&&!window.bbccookies_disable);return(window.orb&&window.orb.fig)?o&&(window.orb.fig("no")||window.orb.fig("ck")):o}};bbccookies._getPolicy=bbccookies.readPolicy;function d(p){var o=(""+p).match(/^([^=]+)(?==)/);return(o&&o.length?o[0]:"")}function j(o){return""+(o.ads?1:0)+(o.personalisation?1:0)+(o.performance?1:0)}function h(r){if(typeof r==="undefined"){r=k}if(typeof arguments[0]==="string"){var o=arguments[0],q=arguments[1];if(o==="necessary"){q=true}r=b();r[o]=q}else{if(typeof arguments[0]==="object"){r.necessary=true}}var p=new Date();p.setYear(p.getFullYear()+1);p=p.toUTCString();bbccookies.set(e+"="+j(r)+";domain=bbc.co.uk;path=/;expires="+p+";");bbccookies.set(e+"="+j(r)+";domain=bbc.com;path=/;expires="+p+";");return r}function l(o){if(o===null){return null}var p=o.split("");return{ads:!!+p[0],personalisation:!!+p[1],performance:!!+p[2],necessary:true}}function c(){var o=new RegExp("(?:^|; ?)"+e+"=(\\d\\d\\d)($|;)"),p=document.cookie.match(o);if(!p){return null}return p[1]}function b(o){var p=l(c());if(!p){p=k}if(o){return p[o]}else{return p}}function g(o){return document.cookie=o+"=;expires="+m+";"}function n(){var o='<script type="text/javascript" src="http://static.bbci.co.uk/frameworks/bbccookies/0.6.2/script/bbccookies.js"><\/script>';if(window.bbccookies_flag==="ON"&&!bbccookies._acceptsAll()&&!window.bbccookies_disable){document.write(o)}}n()})(); /*]]>*/</script>      <script type="text/javascript"> if (! window.gloader) { window.gloader = [ "glow", {map: "http://node1.bbcimg.co.uk/glow/glow/map.1.7.7.js"}]; } </script>  <script type="text/javascript" src="http://node1.bbcimg.co.uk/glow/gloader.0.1.6.js"></script>   <script type="text/javascript" src="http://static.bbci.co.uk/frameworks/requirejs/0.13.1/sharedmodules/require.js"></script> <script type="text/javascript">  bbcRequireMap = {"jquery-1":"http://static.bbci.co.uk/frameworks/jquery/0.3.0/sharedmodules/jquery-1.7.2", "jquery-1.4":"http://static.bbci.co.uk/frameworks/jquery/0.3.0/sharedmodules/jquery-1.4", "jquery-1.9":"http://static.bbci.co.uk/frameworks/jquery/0.3.0/sharedmodules/jquery-1.9.1", "swfobject-2":"http://static.bbci.co.uk/frameworks/swfobject/0.1.10/sharedmodules/swfobject-2", "demi-1":"http://static.bbci.co.uk/frameworks/demi/0.10.0/sharedmodules/demi-1", "gelui-1":"http://static.bbci.co.uk/frameworks/gelui/0.9.13/sharedmodules/gelui-1", "cssp!gelui-1/overlay":"http://static.bbci.co.uk/frameworks/gelui/0.9.13/sharedmodules/gelui-1/overlay.css", "istats-1":"http://static.bbci.co.uk/frameworks/istats/0.16.1/modules/istats-1", "relay-1":"http://static.bbci.co.uk/frameworks/relay/0.2.4/sharedmodules/relay-1", "clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/clock-1", "canvas-clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/canvas-clock-1", "cssp!clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/clock-1.css", "jssignals-1":"http://static.bbci.co.uk/frameworks/jssignals/0.3.6/modules/jssignals-1", "jcarousel-1":"http://static.bbci.co.uk/frameworks/jcarousel/0.1.10/modules/jcarousel-1"}; require({ baseUrl: 'http://static.bbci.co.uk/', paths: bbcRequireMap, waitSeconds: 30 }); </script>      <script type="text/javascript" src="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/3.5/script/barlesque.js"></script>
+  
+<!--[if IE 6]>
+        <script type="text/javascript">
+        try {
+            document.execCommand("BackgroundImageCache",false,true);
+        } catch(e) {}
+    </script>
+        <style type="text/css">
+        /* Use filters for IE6 */
+        #blq-blocks a {
+            background-image: none;
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/3.5//img/blq-blocks_white_alpha.png', sizingMethod='image');
+        }
+        .blq-masthead-focus #blq-blocks a,
+        .blq-mast-text-dark #blq-blocks a {
+            background-image: none;
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/3.5//img/blq-blocks_grey_alpha.png', sizingMethod='image');
+        }
+        #blq-nav-search button span {
+            background-image: none;
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/3.5//img/blq-search_grey_alpha.png', sizingMethod='image');
+        }
+        #blq-nav-search button img {
+            position: absolute;
+            left: -999em;    
+        }
+    </style>
+<![endif]-->
+
+<!--[if (IE 7])|(IE 8)>
+    <style type="text/css">
+        .blq-clearfix {
+            display: inline-block;
+        }
+    </style>
+<![endif]-->
+
+<script type="text/javascript">
+     blq.setEnvironment('live');  if (blq.setLabel) blq.setLabel('searchSuggestion', "Buscar");  if (! /bbc\.co\.uk$/i.test(window.location.hostname) ) { document.documentElement.className += ' blq-not-bbc-co-uk'; } </script>
+
+<!-- ISTATS -->
+
+    
+
+
+
+    
+
+
+
+
+
+
+    <script type="text/javascript"> if (! window.gloader) { window.gloader = [ "glow", {map: "http://node1.bbcimg.co.uk/glow/glow/map.1.7.7.js"}]; } </script>
+    <!-- BBCDOTCOM template:server-side journalismVariant: false ipIsAdvertiseCombined: true adsEnabled: true showDotcom: true flagpole: ON -->
+                                <meta name="application-name" content="BBC"/>
+            <meta name="msapplication-tooltip" content="Explore the BBC, for latest news, sport and weather, TV &amp; radio schedules and highlights, with nature, food, comedy, children's programmes and much more"/>
+                        <meta name="msapplication-starturl" content="http://www.bbc.com/?ocid=global-barlesque-pinned-ie9"/>
+                        <meta name="msapplication-window" content="width=1024;height=768"/>
+            <meta name="msapplication-task" content="name=BBC Home;action-uri=http://www.bbc.com/?ocid=global-homepage-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC News;action-uri=http://www.bbc.com/news/?ocid=global-news-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Sport;action-uri=http://www.bbc.com/sport/0/?ocid=global-sport-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Future;action-uri=http://www.bbc.com/future?ocid=global-future-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Travel;action-uri=http://www.bbc.com/travel?ocid=global-travel-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+            <meta name="msapplication-task" content="name=BBC Weather;action-uri=http://www.bbc.com/weather/?ocid=global-weather-pinned-ie9;icon-uri=http://static.bbci.co.uk/bbcdotcom/0.3.205/img/favicon_16.ico" />
+             <style type="text/css">.bbccom_display_none{display:none;}</style> <script type="text/javascript"> /*<![CDATA[*/ if (bbcdotcom === undefined) { var bbcdotcom = { data: {}, advert: { write: function () {}, show: function () {}, isActive: function () { return false; } } }; } bbcdotcom.objects = function (strName, action, obj) { var nameParts, i, len; nameParts = strName.split("."); if (action === undefined) { action = 'valid'; } if (obj === undefined) { obj = window; } for (i = 0, len = nameParts.length; i < len; i++) { if (obj[nameParts[i]] === undefined) { if (action === 'create') { obj[nameParts[i]] = {}; } else { return false; } } else if (typeof obj[nameParts[i]] === 'function') { if(obj[nameParts[i]]() !== undefined) { return obj[nameParts[i]](); } } obj = obj[nameParts[i]]; } return obj; }; bbcdotcom.objects('bbcdotcom.config', 'create'); bbcdotcom.config =(function(ads, analytics) { var adsEnabled=ads, analyticsEnabled=analytics; return { setAdsEnabled: function(enabled) { /* Once it has been disable to not allow it to be enabled */ adsEnabled = (adsEnabled !== 0) ? enabled : 0; }, isAdsEnabled: function() { return adsEnabled; }, setAnalyticsEnabled: function(enabled) { /* Once it has been disable to not allow it to be enabled */ analyticsEnabled = (analyticsEnabled !== 0) ? enabled : 0; }, isAnalyticsEnabled: function() { return analyticsEnabled; } }; }(1, 1)); bbcdotcom.objects('create', bbcdotcom, 'siteCatalyst'); bbcdotcom.siteCatalyst = {"ch":"","cdp":"3","ce":"UTF-8"}; bbcdotcom.objects('bbcdotcom.stats', 'create'); /* Create BBC.adverts skeleton */ if (BBC === undefined) { var BBC = {}; } if (BBC.adverts === undefined) { BBC.adverts = { setZone: function () {}, configure: function () {}, write: function () {}, show: function () {}, isActive: function () { return false; }, setScriptRoot: function () {}, setImgRoot: function () {}, getAdvertTag: function () {}, getSectionPath: function() {}, showPartnerButtons: function() {} }; } (function(){ if(typeof require !== 'undefined') { require({ paths:{ "bbcdotcom":"http://static.bbci.co.uk/bbcdotcom/0.3.205/script" } }); } })(); /*]]>*/ </script>                                             <script type="text/javascript" src="http://static.bbci.co.uk/bbcdotcom/0.3.205/script/bbccom.js"></script>
+                        <script type="text/javascript">
+                /*<![CDATA[*/
+                (function(){
+                    var zoneFile = "3pt_zone_file";
+                    bbcdotcom.objects('page', 'create', bbcdotcom);
+                                        
+                                        if('undefined' == typeof(bbcdotcom.latest_version)) {
+                        BBC.adverts.setScriptRoot("http://static.bbci.co.uk/bbcdotcom/0.3.205/script/");
+                    } else {
+                        BBC.adverts.setScriptRoot('http://wwwpreview.test.newsonline.tc.nca.bbc.co.uk/js/app/bbccom/' + bbcdotcom.latest_version + '/');
+                    }
+                    BBC.adverts.setImgRoot("http://static.bbci.co.uk/bbcdotcom/0.3.205/img/");
+                    BBC.adverts.init({
+                        domain: "127.0.0.1:8888",
+                        location: window.location.pathname,
+                        zoneVersion: zoneFile,
+                        zoneAuto: false,
+                        siteAuto: false,
+                        keywordsAuto: false,
+                        zoneReferrer: document.referrer
+                    });
+                    bbcdotcom.adUnit = 'bbccom.live.site.mobile.news/frameworks_barlesque';                })();
+                /*]]>*/
+            </script>
+                                   
+    
+
+
+	
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+	
+	    <link rel="stylesheet" type="text/css" href="http://wscdn.bbc.co.uk/worldservice/styles/core/2/screen/all.css?direction=ltr&script=latin&service=mundo&v=500" />
+	
+	
+	
+	
+	
+	<!--[if lte IE 7]>
+		<link rel="stylesheet" type="text/css" href="http://wscdn.bbc.co.uk/worldservice/styles/core/2/screen/core_ie6.css?500" />
+	<![endif]-->
+	
+	<!--[if (IE 7)]>
+		<link rel="stylesheet" type="text/css" href="http://wscdn.bbc.co.uk/worldservice/styles/core/2/screen/core_ie7.css?500" />
+	<![endif]-->
+	
+	<!--[if (IE 7)|(IE 8)]>
+		<link rel="stylesheet" type="text/css" href="http://wscdn.bbc.co.uk/worldservice/styles/core/2/screen/blq_ie.css?500" />
+	<![endif]-->
+
+
+<!--  fix print bug -->
+<style type="text/css" media="print">
+.story-body{
+	overflow:visible;
+}
+</style>
+
+
+
+	<script type="text/javascript" src="http://wscdn.bbc.co.uk/worldservice/scripts/core/2/core.js?500"></script>
+
+
+<script type="text/javascript">
+	
+    ws.env.serverDate = new Date(2013,10-1, 5,22,48,12);
+    //ws.env.serverEpoch = new Date(%s);    
+    ws.env.serverDayOfWeek = '6';
+    ws.env.service = 'mundo';
+    ws.env.servicePath = '/mundo';
+    ws.env.genre = 'news';
+    ws.env.documentType = 'story';
+    ws.env.isMobile = '(none)';
+    ws.env.assetsVersion = '500';	
+    ws.env.showPre = false;
+	 
+	ws.env.showPre = true; 
+	 	
+</script>
+
+<script type="text/javascript">
+	
+	 
+		
+		  
+	ws.siteCatalyst = {
+		queryString: '',
+		referrer: '(none)',
+		section: 'cultura',
+		service: 'mundo',
+		siteVersion: 'gel',
+		storyId: '27300299',
+		documentType: 'story',  
+		uri: '/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml',
+		isMobile: null
+	}
+	ws.ads = {
+		queryString: '',
+		referrer: '(none)',
+		section: 'cultura',
+		service: 'mundo',
+		storyId: '27300299',
+		documentType: 'story',  
+		uri: '/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml',
+		isMobile: null
+	}
+</script>
+
+
+<script>
+	
+	
+	
+	ws.flagpole.flastmod.livestats = new Date(2013,10-1, 5,23,31,40);
+	
+	
+	
+	ws.flagpole.flastmod.commodities = new Date(2013,10-1, 5,17,11,35);
+	
+	
+	
+	ws.flagpole.flastmod.currencies = new Date(2013,10-1, 5, 0,02,37);
+	
+	
+	
+	ws.flagpole.flastmod.markets = new Date(2013,10-1, 5,22,31,00);
+	
+	ws.flagpole.init();
+</script>
+
+
+<script type="text/javascript" src="http://wscdn.bbc.co.uk/emp/swfobject.js?500"></script>
+
+    <script type="text/javascript" src="http://www.bbc.co.uk/emp/bump?emp=worldwide"></script>
+
+
+<!--  logic to check for rss xml -->
+
+
+
+
+
+
+	
+		
+		
+	
+
+
+			
+
+
+
+
+
+<link href="http://www.bbc.co.uk/mundo/index.xml" rel="alternate" type="application/atom+xml" title="RSS - BBCMundo.com" />
+
+			
+
+
+<script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+<link rel="stylesheet" rev="stylesheet" href="http://static.bbci.co.uk/id/0.22.1/style/id-cta.css"/>
+
+
+
+
+
+
+
+<script src="http://news.bbc.co.uk/hi/spanish/js/livestats_v1_1.js?v5" type="text/javascript"></script>
+<script type="text/javascript">
+//adds a class to a plain 4 column published list
+glow.ready(function() {
+		var fourColumnItems = glow.dom.get('#blq-content .g-w20 .li-plain .content .cols-4 li .g-w0');
+			fourColumnItems.each(function(i){	
+				if(fourColumnItems[i]){
+					glow.dom.get(this).addClass("g-w5");
+				}
+			});	
+});
+</script>			
+
+
+                                          <link rel="stylesheet" rev="stylesheet" href="http://static.bbci.co.uk/modules/comments/2.1.81/css/comments-gvl3.css"/>   <!--[if lte IE 7]> <link rel="stylesheet" rev="stylesheet" href="http://static.bbci.co.uk/modules/comments/2.1.81/css/comments-ie6-7.css"/> <![endif]--> <script type="text/javascript">//<![CDATA[
+			
+				ws.onload(function(){
+				
+				});
+				
+				//]]></script></head>
+   <body id="www-bbcmundo-com" class="story genre-news ltr">
+                       <script type="text/javascript">/*<![CDATA[*/ bbcFlagpoles_istats = 'ON'; istatsTrackingUrl = '//sa.bbc.co.uk/bbc/bbc/s?name=SET-COUNTER&app_type=web&ml_name=SSI&ml_version=0.16.1&language=es-005'; if (window.istats_countername) { istatsTrackingUrl = istatsTrackingUrl.replace(/([?&]name=)[^&]+/ig, '$1' + istats_countername); } (function() { if ( /\bIDENTITY=/.test(document.cookie) ) { istatsTrackingUrl += '&bbc_identity=1'; } var c = (document.cookie.match(/\bckns_policy=(\d\d\d)/)||[]).pop() || ''; istatsTrackingUrl += '&bbc_mc=' + (c? 'ad'+c.charAt(0)+'ps'+c.charAt(1)+'pf'+c.charAt(2) : 'not_set'); if ( /\bckns_policy=\d\d0/.test(document.cookie) ) { istatsTrackingUrl += '&ns_nc=1'; } var screenWidthAndHeight = 'unavailable'; if (window.screen && screen.width && screen.height) { screenWidthAndHeight = screen.width + 'x' + screen.height; } istatsTrackingUrl += ('&screen_resolution=' + screenWidthAndHeight); istatsTrackingUrl += '&blq_s=3.5&blq_r=3.5&blq_v=worldservice-worldwide'; })(); /*]]>*/</script>  <!-- Begin iStats 20100118 (UX-CMC 1.1009.3) --> <script type="text/javascript">/*<![CDATA[*/ (function() { window.istats || (istats = {}); var cookieDisabled = (document.cookie.indexOf('NO-SA=') != -1), hasCookieLabels = (document.cookie.indexOf('sa_labels=') != -1), hasClickThrough = /^#sa-(.*?)(?:-sa(.*))?$/.test(document.location.hash), runSitestat = !cookieDisabled && !hasCookieLabels && !hasClickThrough && !istats._linkTracked; if (runSitestat && bbcFlagpoles_istats === 'ON') { sitestat(istatsTrackingUrl); } else { window.ns_pixelUrl = istatsTrackingUrl; /* used by Flash library to track */ } function sitestat(n){var j=document,f=j.location,b="";if(j.cookie.indexOf("st_ux=")!=-1){var k=j.cookie.split(";");var e="st_ux",h=document.domain,a="/";if(typeof ns_!="undefined"&&typeof ns_.ux!="undefined"){e=ns_.ux.cName||e;h=ns_.ux.cDomain||h;a=ns_.ux.cPath||a}for(var g=0,f=k.length;g<f;g++){var m=k[g].indexOf("st_ux=");if(m!=-1){b="&"+unescape(k[g].substring(m+6))}}document.cookie=e+"=; expires="+new Date(new Date().getTime()-60).toGMTString()+"; path="+a+"; domain="+h}ns_pixelUrl=n;n=ns_pixelUrl+"&ns__t="+(new Date().getTime())+"&ns_c="+((j.characterSet)?j.characterSet:j.defaultCharset)+"&ns_ti="+escape(j.title)+b+"&ns_jspageurl="+escape(f&&f.href?f.href:j.URL)+"&ns_referrer="+escape(j.referrer);if(n.length>2000&&n.lastIndexOf("&")){n=n.substring(0,n.lastIndexOf("&")+1)+"ns_cut="+n.substring(n.lastIndexOf("&")+1,n.lastIndexOf("=")).substring(0,40)}(j.images)?new Image().src=n:j.write('<p><i'+'mg src="'+n+'" height="1" width="1" alt="" /></p>')}; })(); /*]]>*/</script> <noscript><p style="position: absolute; top: -999em;"><img src="//sa.bbc.co.uk/bbc/bbc/s?name=SET-COUNTER&amp;app_type=web&amp;ml_name=SSI&amp;ml_version=0.16.1&amp;language=es-005&amp;blq_s=3.5&amp;blq_r=3.5&amp;blq_v=worldservice-worldwide" height="1" width="1" alt="" /></p></noscript> <!-- End iStats (UX-CMC) -->   <div id="blq-global"> <div id="blq-pre-mast" lang="en-GB"> <!-- Pre mast -->  </div> </div>  <script type="text/html" id="blq-bbccookies-tmpl"><![CDATA[ <div id="bbccookies-prompt" class="bbccookies-w"> <h2> Cookies on the BBC website </h2> <p> We use cookies to ensure that we give you the best experience on our website.<span class="bbccookies-international-message"> We also use cookies to ensure we show you advertising that is relevant to you.</span> If you continue without changing your settings, we'll assume that you are happy to receive all cookies on the BBC website. However, if you would like to, you can <a href="/privacy/cookies/managing/cookie-settings.html">change your cookie settings</a> at any time. </p> <ul> <li id="bbccookies-continue"> <button type="button" id="bbccookies-continue-button">Continue</button> </li> <li id="bbccookies-more"><a href="/privacy/cookies/bbc">Find out more</a></li></ul> </div> ]]></script> <script type="text/javascript">/*<![CDATA[*/ (function(){if(bbccookies._showPrompt()){var i=document,b=i.getElementById("blq-pre-mast"),f=i.getElementById("blq-global"),h=i.getElementById("blq-container"),c=i.getElementById("blq-bbccookies-tmpl"),a,g,e;if(b&&i.createElement){a=i.createElement("div");a.id="bbccookies";e=c.innerHTML;e=e.replace("<"+"![CDATA[","").replace("]]"+">","");a.innerHTML=e;if(f){f.insertBefore(a,b)}else{h.insertBefore(a,b)}g=i.getElementById("bbccookies-continue-button");g.onclick=function(){a.parentNode.removeChild(a);return false};bbccookies._setPolicy()}}})(); /*]]>*/</script>  <div id="blq-masthead" class="blq-clearfix blq-mast-bg-transparent-dark blq-lang-es-005 blq-ltr"> <span id="blq-mast-background"><span></span></span>  <div id="blq-mast" class="blq-rst">  <div id="blq-mast-bar" class="blq-masthead-container blq-worldservice-worldwide"> <div id="blq-blocks"> <a href="/" hreflang="en-GB"> <abbr title="British Broadcasting Corporation" class="blq-home"> <img src="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/3.5/img/blq-blocks_grey_alpha.png" alt="BBC" width="84" height="24" /> </abbr> </a> </div> <div id="blq-acc-links"> <h2 id="page-top">Accesibilidad</h2> <ul>  <li><a href="#blq-content">Saltar a navegación de BBC Mundo</a></li>  <li><a href="#blq-local-nav"></a></li>  <li><a href="/mundo/ayuda/accesibilidad/">Accesibilidad</a></li> </ul> </div> <div id="blq-sign-in" class="blq-gel">  </div> <div id="blq-nav"> <h2>bbc.co.uk navigation</h2>     <ul id="blq-nav-main">   <li id="blq-nav-more"> <a href="/a-z/">Vínculos de la BBC</a> </li>      </ul>   <div id="blq-nav-search"> <form method="get" action="http://search.bbc.co.uk/search" accept-charset="utf-8" id="blq-search-form"> <div>  <input type="hidden" name="go" value="toolbar" />  <input type="hidden" name="uri" value="/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml" />    <input type="hidden" name="scope" value="spanish" />  <label for="blq-search-q" class="blq-hide">Término de búsqueda:</label> <input id="blq-search-q" type="text" name="q" value="" maxlength="128" /> <button id="blq-search-btn" type="submit"><span><img src="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/3.5/img/blq-search_grey_alpha.png" width="13" height="13" alt="Buscar"/></span></button> </div> </form> </div>  </div> </div> </div> </div> <div id="blq-container-outer" class="blq-worldservice-worldwide blq-ltr" >  <div id="blq-container" class="blq-lang-es-005 blq-dotcom blq-int-nav"> <div id="blq-container-inner" lang="es-005">   <div id="blq-main" class="blq-clearfix">       
+
+
+      <div id="banner">
+         
+	<!-- #set var="tagline" value="una voz independiente" -->
+	<a href="/mundo/" class="brand"><span>Mundo</span></a> 
+	<!-- <span class="tagline">(none)</span> -->
+	<a href="/mundo/movil/?m" id="promo-mobile"><span>Versión móvil</span></a>
+
+	
+	
+	
+
+      </div>
+      <div id="blq-content">
+         <div class="g-group">
+            <div class="g-block advert ws-leaderboard">
+               <div class="g-container">
+                  
+<div id="bbccom_leaderboard" class="bbccom_display_none">
+	<div class="bbccom_text">
+		<a href="/mundo/institucional/faqs/">Publicidad</a>
+	</div>
+	<script type="text/javascript">
+	//<![CDATA[ 
+	if (typeof BBC != "undefined" && typeof BBC.adverts != "undefined") { 
+		BBC.adverts.write("leaderboard",false);
+	}
+	//]]> 
+	</script>
+</div>
+<script type="text/javascript">
+//<![CDATA[ 
+if (typeof BBC != "undefined" && typeof BBC.adverts != "undefined") { 
+	BBC.adverts.show("leaderboard");
+}
+//]]> 
+</script>
+
+               </div>
+            </div>
+            <div class="g-container">
+               
+	
+ 
+            </div>
+         </div>
+         <div class="g-group">
+            <div class=" g-w20 g-first">
+               <div class="g-container">
+                  <h1>Cronut, el híbrido de croissant y donut que causa furor</h1>
+               </div>
+               <div class="g-container">
+                  <div class="box bx-byline">
+                     <div class="person">
+                        <div class="person-info">
+                           <p class="name"><a href="https://twitter.com/bbc_gonzalez?lang=en">Jaime González</a></p>
+                           <p class="role">BBC Mundo, Los Ángeles, @bbc_gonzalez</p>
+                        </div>
+                     </div>
+                     <p class="subject"></p>
+                  </div>
+               </div>
+               <div class="g-container">
+                  <div class="datestamp"><span class="lastupdated">Última actualización:</span> Jueves, 26 de septiembre de 2013
+                  </div>
+                  
+
+
+
+
+  
+  
+
+
+
+<div class="tools-container">
+
+	
+		
+    <ul class="document-tools blq-clearfix">
+    	
+		
+		
+
+
+	<li class="facebook">
+		<a href="http://www.facebook.com/sharer.php?u=http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml&amp;t=BBCMundo.com+-+Cronut, el híbrido de croissant y donut que causa furor" title="Compartir esta historia en Facebook" class="popup-750x350">Facebook</a>
+	</li>	
+	<li class="twitter">
+		<a href="http://twitter.com/home?status=http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml" title="Compartir esta historia en Twitter" class="popup-750x350">Twitter</a>
+	</li>
+	<li class="googleplus">
+		<a href="https://plus.google.com/share?url=http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml&hl=es-419" title="Compartir esta historia en Google+" class="popup-750x350">Google+</a>
+	</li>	
+	<li class="mename">
+		<a href="http://meneame.net/submit.php?url=http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml&BBCMundo.com+-+Cronut, el híbrido de croissant y donut que causa furor" title="Compartir esta historia en Menéame" class="popup-750x350">Menéame</a>
+	</li>
+	<li class="sonico">
+		<a href="http://www.sonico.com/share.php?url=http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtmlBBCMundo.com+-+Cronut, el híbrido de croissant y donut que causa furor+http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml" title="Compartir esta historia en Sónico" class="popup-750x350">Sonico</a>
+	</li>
+	<li class="delicious">
+		<a href="http://del.icio.us/post?url=http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtmlBBCMundo.com+-+Cronut, el híbrido de croissant y donut que causa furor+http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml" title="Compartir esta historia en Delicious" class="popup-750x350">Delicious</a>
+	</li>
+	<!--li class="share">
+		<a href="#" title="Share this story">Share</a>
+	</li-->
+
+
+  
+  
+
+
+
+        
+        
+		<li class="email">
+			<a class="popup-325x520-scrolling" href="/worldservice/apps/mundo/sendemail/g/http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml?t=Cronut, el híbrido de croissant y donut que causa furor" title="Envíe esta página por e-mail">Envíe esta página por e-mail</a>
+		</li>
+		
+			
+		<li class="print">
+			<a href="?print=1" title="Imprima esta nota">Imprima esta nota</a>
+		</li>
+        
+	</ul>
+	
+</div>
+
+               </div>
+               <div class="g-container story-body">
+                  <div class="bodytext">
+                     <div class="module">
+                        <div class="image img-w304"><img width="304" height="171"
+                                src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/09/25/130925222933_cronut_304x171_bbcmundo.jpg"
+                                alt="El tipo de Cronut que venden en Los Ángeles" /><p class="caption">Los Cronuts se comercializan por todo el mundo bajo diferentes nombres para no infringir los derechos de autor.</p>
+                        </div>
+                     </div>
+                     <p class="ingress">Se empezaron a vender el pasado mes de mayo en una pastelería del barrio de Soho de Nueva York y en cuestión de semanas su popularidad se extendió por todo Estados Unidos y más allá. Se trata de los Cronuts, un híbrido entre un croissant y un donut que está causando furor.</p>
+                     <p>Frente a la pastelería Dominique Ansel en Manhattan -lugar en que nacieron los Cronuts- cada mañana se forman colas de clientes ansiosos por probar la nueva estrella del mundo de la repostería.</p>
+                     <p>Los Cronuts están hechos de una masa especial de croissant a la que se da forma de donut y que, una vez fermentada, se fríe en aceite y se cubre de azúcar glaseado. En algunos casos se rellena de crema.</p>
+                     <p>Dominique Ansel afirma que necesitó cerca de 10 intentos para dar con la fórmula de la masa de los Cronuts, que venden en su local en diferentes sabores en función del mes: hasta ahora vainilla, limón, coco y mascarpone.</p>
+                     <p>Los creadores del Cronut -que ya han patentado su invención- recomiendan que se sirva a temperatura ambiente y se consuma nada más comprarlo. Además, se ha de cortar con un cuchillo de sierra para no aplastar las capas que lo forman.</p>
+                     <p>Por el momento y dada la alta demanda, en la pastelería Dominique Ansel no permiten que se compren más de dos unidades por cliente y los venden a un precio de US$5.</p>
+                     <h2>En todo el mundo</h2>
+                     <div class="module">
+                        <div class="image img-w224"><img width="224" height="280"
+                                src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/09/25/130925223328_cronut_224x280_bbcmundo.jpg"
+                                alt="Pastelería Kettle Glazed Doughnuts" /><p class="caption">En la pastelería Kettle Glazed Doughnuts venden con éxito los "donuts estilo croissant".</p>
+                        </div>
+                     </div>
+                     <p>Pero si no tiene pensado viajar próximamente a Nueva York no se preocupe, ya que los Cronuts ya se pueden adquirir en las principales ciudades del planeta.</p>
+                     <p>De Londres a Singapur, pasando por Barcelona, Roma o Moscú, este dulce está conquistando el mundo en múltiples formas y sabores.</p>
+                     <p>En la ciudad de Los Ángeles, por ejemplo, es fácil encontrar tiendas de repostería que, para no infringir los derechos de autor, los venden bajo nombres diferentes, como Doughssant, Kronutz o Croughnut.</p>
+                     <p>La pastelería Kettle Glazed Doughnuts, que abrió sus puertas hace dos meses en el barrio de Hollywood, los comercializa como "donuts estilo croissant".</p>
+                     <p>Según le explicó a BBC Mundo Brandon Kelly, uno de los dependientes del negocio, desde un principio fueron un éxito.</p>
+                     <p>"A los clientes les encantan. Hay mucha gente que viene especialmente para comprarlos", asegura Kelly, quien explica que son un poco más caros (US$3,75) que un donut normal, entre otras cosas "porque hay que invertir más tiempo en su elaboración".</p>
+                     <p>De momento los venden de chocolate, pistacho y mocha, aunque están experimentando con otros sabores.</p>
+                     <p>A este ritmo, y siguiendo los pasos de sus primos los cupcakes, los Cronuts (o como quieran llamarlos) parecen estar lejos de ser una moda pasajera. ¡Buen provecho!</p>
+                  </div>
+               </div>
+               <div class="g-container story-body">
+                  
+
+
+
+
+  
+  
+
+
+
+<div class="tools-container-end">
+
+	
+	<a class="backtotop" href="#page-top">
+		<span class="label">(none)</span>
+		<span class="link-title">Arriba</span>
+	</a>
+	
+		
+    <ul class="document-tools blq-clearfix">
+    	
+		
+		<li class="report-error">
+			<a href="/mundo/institucional/2013/01/130109_reporte_error.shtml">Reporte un error</a>
+		</li>		
+		
+		
+
+
+	<li class="facebook">
+		<a href="http://www.facebook.com/sharer.php?u=http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml&amp;t=BBCMundo.com+-+Cronut, el híbrido de croissant y donut que causa furor" title="Compartir esta historia en Facebook" class="popup-750x350">Facebook</a>
+	</li>	
+	<li class="twitter">
+		<a href="http://twitter.com/home?status=http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml" title="Compartir esta historia en Twitter" class="popup-750x350">Twitter</a>
+	</li>
+	<li class="googleplus">
+		<a href="https://plus.google.com/share?url=http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml&hl=es-419" title="Compartir esta historia en Google+" class="popup-750x350">Google+</a>
+	</li>	
+	<li class="mename">
+		<a href="http://meneame.net/submit.php?url=http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml&BBCMundo.com+-+Cronut, el híbrido de croissant y donut que causa furor" title="Compartir esta historia en Menéame" class="popup-750x350">Menéame</a>
+	</li>
+	<li class="sonico">
+		<a href="http://www.sonico.com/share.php?url=http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtmlBBCMundo.com+-+Cronut, el híbrido de croissant y donut que causa furor+http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml" title="Compartir esta historia en Sónico" class="popup-750x350">Sonico</a>
+	</li>
+	<li class="delicious">
+		<a href="http://del.icio.us/post?url=http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtmlBBCMundo.com+-+Cronut, el híbrido de croissant y donut que causa furor+http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml" title="Compartir esta historia en Delicious" class="popup-750x350">Delicious</a>
+	</li>
+	<!--li class="share">
+		<a href="#" title="Share this story">Share</a>
+	</li-->
+
+
+  
+  
+
+
+
+        
+        
+		<li class="email">
+			<a class="popup-325x520-scrolling" href="/worldservice/apps/mundo/sendemail/g/http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml?t=Cronut, el híbrido de croissant y donut que causa furor" title="Envíe esta página por e-mail">Envíe esta página por e-mail</a>
+		</li>
+		
+			
+		<li class="print">
+			<a href="?print=1" title="Imprima esta nota">Imprima esta nota</a>
+		</li>
+        
+	</ul>
+	
+</div>
+
+               </div>
+               <div class="g-container story-body">
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                                                      <!-- Comments Module Start -->     <script type="text/javascript"> (function(){ gloader.load( ["glow", "1", "glow.net"], { async: true, onLoad: function(glow) { glow.ready(function() { commentsParams = { version : '2.1.81', bbc_id_env : 'id.bbc.co.uk', base_non_secure_url : 'http://www.bbc.co.uk/modules/comments/', base_secure_url : 'https://ssl.bbc.co.uk/modules/comments/', ajax_load_url : 'http://www.bbc.co.uk/modules/comments/index/getcomments/', ajax_preview_url : 'https://ssl.bbc.co.uk/modules/comments/index/preview/', user_auth_url : 'http://www.bbc.co.uk/modules/comments/getauth/', translations_url : 'http://www.bbc.co.uk/modules/comments/getjstranslations/', items_per_page : 20, sort_order : 'Descending', sort_by : 'Created', filter : 'none', current_page : 1, page_count : 1, comment_count : 3, site_name : 'wsmundo', forum_id : 'wsmundo_27300299', title : 'Cronut, el h&iacute;brido de croissant y donut que causa furor', preset : 'opinion', parent_uri : 'http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml', postFreq : 0, character_limit : 0, loc : 'es', timezone : 'Europe/London', policy_uri : 'comment', allow_not_signed_in_commenting : '1', recaptcha_public_key : '6Lf3IMYSAAAAAF8-DDC6CfZkFb8fPnY9rtlxBMuQ', anon_display_name_max_length : '30', rtl : false, textarea_height : '16px' ,logged_in : false  };  glow.net.loadScript("http://static.bbci.co.uk/modules/comments/2.1.81/javascript/comments.js", { useCache : true }); }); } } ); })(); </script>  <a name="dna-comments"></a> <div class="dna-comments_module preset_opinion"> <h3>Comentarios </h3>   <p class="dna-commentbox-nocomments"> <span class="forumclosed">Ya no se aceptan más comentarios</span>  </p>   <a href="#comment_pagination_page_status" class="dna-hide">Saltar a la paginación de los comentarios</a>  <div class="ieclear">&nbsp;</div> <ul class="tabs" style="clear: both; display: block; position: relative; ">  <li class="sel" id="tab_none"><a href="http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml?filter=none#dna-comments">Todos los comentarios <span class="dna-comment-count-number">3</span><span></span></a></li> <li class="hidden dna-tab-loading loading"><img src="http://static.bbci.co.uk/modules/comments/2.1.81/img/loader.gif" alt="cargando" /></li> </ul>  <div class="dna-comment-list">   <ul class="collections forumthreadposts">    <li class="dna-comment dna-rate-order-controls"> <ul class="secondary_body"> <li>Ordenar por:</li> <li><a href="http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml?filter=none#dna-comments" class="dna-sort-control-reset_highlight">Los más recientes</a></li> <li><a href="http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml?sortBy=RatingValue&sortOrder=Descending#dna-comments" class="dna-sort-control-arrow-down">Los más votados</a></li> <li><a href="http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml?sortBy=RatingValue&sortOrder=Ascending#dna-comments" class="dna-sort-control-arrow-up">Los menos votados</a></li> </ul> </li>      <li class="dna-comment  " id="comment_117469100">   <!--[if lt IE 8]><span class="ie6-7"><![endif]--> <form action="https://ssl.bbc.co.uk/modules/comments/rate/" method="post" class="dna-rate-comment secondary_body dna-commentbox-logged-in" id="dna-rate-comment-117469100"> <input type="hidden" name="csrftoken" class="dna-comments-csrf" value="" /> <input type="hidden" name="forumId" value="wsmundo_27300299" /> <input type="hidden" name="siteId" value="wsmundo" /> <input type="hidden" name="direction" class="direction" value="" /> <input type="hidden" name="parentUri" value="http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml" /> <input type="hidden" name="title" value="Cronut, el h&iacute;brido de croissant y donut que causa furor"/> <input type="hidden" name="loc" value="es"/> <input type="hidden" name="integrityHash" value="70e95fded7a99cce8188f9d3881942bf" /> <input type="hidden" name="commentId" value="117469100" /> <input type="hidden" name="postStyle" value="plaintext" /> <div class="dna-commentbox-logged-in"> <span class="dna-rate-label">valorar</span> <span class="dna-rate-controls" > <input type="submit" name="direction_set" value="positive" class="rate_positive" title="Valore este comentario como positivo" /><input type="submit" name="direction_set" value="negative" class="rate_negative" title="Valora este comentario como negativo" /> </span> </div> <span class="dna-comment-rating" title="Valoración de este comentario.">0</span> </form> <!--[if lt IE 8]></span><![endif]-->  <!--[if lt IE 8]><span class="ie6-7"><![endif]--> <form action="" method="post" class="dna-rate-comment secondary_body dna-commentbox-logged-out" id="dna-rate-comment-117469100"style="display: none;"> <div class="dna-commentbox-logged-in"> <span class="dna-rate-label">valorar</span> <span class="dna-rate-controls dna-logged-out-rate-controls"> <a href=" https://id.bbc.co.uk/id/signin?loc=es&ptrt=http%3A%2F%2Fwww.bbc.co.uk%2Fmundo%2Fnoticias%2F2013%2F09%2F130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml%3FpostId%3D117469100%23comment_117469100&p=comment" class="identity-login rate_positive"><img src="http://static.bbci.co.uk/modules/comments/2.1.81/img/rate_up.png" name="direction_set" class="rate_positive" alt="Valore este comentario como positivo" /></a><a href=" https://id.bbc.co.uk/id/signin?loc=es&ptrt=http%3A%2F%2Fwww.bbc.co.uk%2Fmundo%2Fnoticias%2F2013%2F09%2F130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml%3FpostId%3D117469100%23comment_117469100&p=comment" class="identity-login rate_negative"><img src="http://static.bbci.co.uk/modules/comments/2.1.81/img/rate_down.png" name="direction_set" class="rate_negative" alt="Valora este comentario como negativo" /></a> </span> </div> <span class="dna-comment-rating" title="Valoración de este comentario.">0</span> </form> <!--[if lt IE 8]></span><![endif]-->  <h4 class="comments_comment_number secondary_body"><span class="dna-hide">Comentario número</span> 3.</h4> <cite class="comments_user_info secondary_body"> <span class="vcard"><span class="comment_username comment_username_291300803528483847" title="Nombre de usuario del participante">ivancitouam</span></span> <br />  <span class="time" title="Fecha de publicación">27 septiembre 2013 - 17:59 GMT</span> </cite> <div class="comment-text"><div>  <p>El "antojo" podría haberse vendido años antes en México, o Sudafrica; el punto es el mercadeo propio de los gringos, que no venden popo, no mas porque aun no hay  mercado....</p>  </div></div>   <div class="dna-comments-comment-footer"> <p class="flag comment_complain_291300803528483847"> <a href="http://www.bbc.co.uk/dna/wsmundo/comments-es/UserComplaintPage?PostID=117469100&amp;s_start=1" class="popup dna-commentbox-complain-link" title="Alerte al moderador"><img src="http://static.bbci.co.uk/modules/comments/2.1.81/images/warning_icon.gif" alt="" />Alerte al moderador<span class="dna-hide"> (Comentario número 3)</span></a></p> <p class="comments_link_to_comment"><a href="http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml?postId=117469100#comment_117469100" title="Haga clic aquí para generar un vínculo permanente a este comentario">Vínculo a este comentario<span class="dna-hide"> (Comentario número 3)</span></a></p> <div style="clear: both;"></div> </div>  </li>     <li class="dna-comment  " id="comment_117458088">   <!--[if lt IE 8]><span class="ie6-7"><![endif]--> <form action="https://ssl.bbc.co.uk/modules/comments/rate/" method="post" class="dna-rate-comment secondary_body dna-commentbox-logged-in" id="dna-rate-comment-117458088"> <input type="hidden" name="csrftoken" class="dna-comments-csrf" value="" /> <input type="hidden" name="forumId" value="wsmundo_27300299" /> <input type="hidden" name="siteId" value="wsmundo" /> <input type="hidden" name="direction" class="direction" value="" /> <input type="hidden" name="parentUri" value="http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml" /> <input type="hidden" name="title" value="Cronut, el h&iacute;brido de croissant y donut que causa furor"/> <input type="hidden" name="loc" value="es"/> <input type="hidden" name="integrityHash" value="70e95fded7a99cce8188f9d3881942bf" /> <input type="hidden" name="commentId" value="117458088" /> <input type="hidden" name="postStyle" value="plaintext" /> <div class="dna-commentbox-logged-in"> <span class="dna-rate-label">valorar</span> <span class="dna-rate-controls" > <input type="submit" name="direction_set" value="positive" class="rate_positive" title="Valore este comentario como positivo" /><input type="submit" name="direction_set" value="negative" class="rate_negative" title="Valora este comentario como negativo" /> </span> </div> <span class="dna-comment-rating" title="Valoración de este comentario.">0</span> </form> <!--[if lt IE 8]></span><![endif]-->  <!--[if lt IE 8]><span class="ie6-7"><![endif]--> <form action="" method="post" class="dna-rate-comment secondary_body dna-commentbox-logged-out" id="dna-rate-comment-117458088"style="display: none;"> <div class="dna-commentbox-logged-in"> <span class="dna-rate-label">valorar</span> <span class="dna-rate-controls dna-logged-out-rate-controls"> <a href=" https://id.bbc.co.uk/id/signin?loc=es&ptrt=http%3A%2F%2Fwww.bbc.co.uk%2Fmundo%2Fnoticias%2F2013%2F09%2F130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml%3FpostId%3D117458088%23comment_117458088&p=comment" class="identity-login rate_positive"><img src="http://static.bbci.co.uk/modules/comments/2.1.81/img/rate_up.png" name="direction_set" class="rate_positive" alt="Valore este comentario como positivo" /></a><a href=" https://id.bbc.co.uk/id/signin?loc=es&ptrt=http%3A%2F%2Fwww.bbc.co.uk%2Fmundo%2Fnoticias%2F2013%2F09%2F130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml%3FpostId%3D117458088%23comment_117458088&p=comment" class="identity-login rate_negative"><img src="http://static.bbci.co.uk/modules/comments/2.1.81/img/rate_down.png" name="direction_set" class="rate_negative" alt="Valora este comentario como negativo" /></a> </span> </div> <span class="dna-comment-rating" title="Valoración de este comentario.">0</span> </form> <!--[if lt IE 8]></span><![endif]-->  <h4 class="comments_comment_number secondary_body"><span class="dna-hide">Comentario número</span> 2.</h4> <cite class="comments_user_info secondary_body"> <span class="vcard"><span class="comment_username comment_username_0" title="Nombre de usuario del participante">Adios al libre mercado</span></span> <br />  <span class="time" title="Fecha de publicación">26 septiembre 2013 - 17:09 GMT</span> </cite> <div class="comment-text"><div>  <p>Parece insolito que no te dejen comprar los que quieras, lo que falta es que te impongan la tarjeta como en Cuba y Venezuela para verificar si ya compraste y que cantidad</p>  </div></div>   <div class="dna-comments-comment-footer"> <p class="flag comment_complain_0"> <a href="http://www.bbc.co.uk/dna/wsmundo/comments-es/UserComplaintPage?PostID=117458088&amp;s_start=1" class="popup dna-commentbox-complain-link" title="Alerte al moderador"><img src="http://static.bbci.co.uk/modules/comments/2.1.81/images/warning_icon.gif" alt="" />Alerte al moderador<span class="dna-hide"> (Comentario número 2)</span></a></p> <p class="comments_link_to_comment"><a href="http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml?postId=117458088#comment_117458088" title="Haga clic aquí para generar un vínculo permanente a este comentario">Vínculo a este comentario<span class="dna-hide"> (Comentario número 2)</span></a></p> <div style="clear: both;"></div> </div>  </li>     <li class="dna-comment  " id="comment_117457100">   <!--[if lt IE 8]><span class="ie6-7"><![endif]--> <form action="https://ssl.bbc.co.uk/modules/comments/rate/" method="post" class="dna-rate-comment secondary_body dna-commentbox-logged-in" id="dna-rate-comment-117457100"> <input type="hidden" name="csrftoken" class="dna-comments-csrf" value="" /> <input type="hidden" name="forumId" value="wsmundo_27300299" /> <input type="hidden" name="siteId" value="wsmundo" /> <input type="hidden" name="direction" class="direction" value="" /> <input type="hidden" name="parentUri" value="http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml" /> <input type="hidden" name="title" value="Cronut, el h&iacute;brido de croissant y donut que causa furor"/> <input type="hidden" name="loc" value="es"/> <input type="hidden" name="integrityHash" value="70e95fded7a99cce8188f9d3881942bf" /> <input type="hidden" name="commentId" value="117457100" /> <input type="hidden" name="postStyle" value="plaintext" /> <div class="dna-commentbox-logged-in"> <span class="dna-rate-label">valorar</span> <span class="dna-rate-controls" > <input type="submit" name="direction_set" value="positive" class="rate_positive" title="Valore este comentario como positivo" /><input type="submit" name="direction_set" value="negative" class="rate_negative" title="Valora este comentario como negativo" /> </span> </div> <span class="dna-comment-rating" title="Valoración de este comentario.">-1</span> </form> <!--[if lt IE 8]></span><![endif]-->  <!--[if lt IE 8]><span class="ie6-7"><![endif]--> <form action="" method="post" class="dna-rate-comment secondary_body dna-commentbox-logged-out" id="dna-rate-comment-117457100"style="display: none;"> <div class="dna-commentbox-logged-in"> <span class="dna-rate-label">valorar</span> <span class="dna-rate-controls dna-logged-out-rate-controls"> <a href=" https://id.bbc.co.uk/id/signin?loc=es&ptrt=http%3A%2F%2Fwww.bbc.co.uk%2Fmundo%2Fnoticias%2F2013%2F09%2F130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml%3FpostId%3D117457100%23comment_117457100&p=comment" class="identity-login rate_positive"><img src="http://static.bbci.co.uk/modules/comments/2.1.81/img/rate_up.png" name="direction_set" class="rate_positive" alt="Valore este comentario como positivo" /></a><a href=" https://id.bbc.co.uk/id/signin?loc=es&ptrt=http%3A%2F%2Fwww.bbc.co.uk%2Fmundo%2Fnoticias%2F2013%2F09%2F130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml%3FpostId%3D117457100%23comment_117457100&p=comment" class="identity-login rate_negative"><img src="http://static.bbci.co.uk/modules/comments/2.1.81/img/rate_down.png" name="direction_set" class="rate_negative" alt="Valora este comentario como negativo" /></a> </span> </div> <span class="dna-comment-rating" title="Valoración de este comentario.">-1</span> </form> <!--[if lt IE 8]></span><![endif]-->  <h4 class="comments_comment_number secondary_body"><span class="dna-hide">Comentario número</span> 1.</h4> <cite class="comments_user_info secondary_body"> <span class="vcard"><span class="comment_username comment_username_0" title="Nombre de usuario del participante">MARIO  PECH</span></span> <br />  <span class="time" title="Fecha de publicación">26 septiembre 2013 - 15:50 GMT</span> </cite> <div class="comment-text"><div>  <p>PUES  EN  YUCATÁN  MEXICO DESDE  HACE  AÑOS  HAY  ESE  POSTRE   SE  LLAMA  ROSCA  BRIOCHE    Y  SE  VENDE  EN TERE  CAZOLA  Y  SUPERMERCADOS  WALMART  Y   CHADRAUI   DEL  ESTADO  .   ESTA  RELLENA  DE  QUESO  CREMA    Y  CUBIERTA  DE  AZUCAR  GLASS  CUESTA  4  DOLARES   Y ES  DE   APROXIMANADEMENTE  1  KG .</p>  </div></div>   <div class="dna-comments-comment-footer"> <p class="flag comment_complain_0"> <a href="http://www.bbc.co.uk/dna/wsmundo/comments-es/UserComplaintPage?PostID=117457100&amp;s_start=1" class="popup dna-commentbox-complain-link" title="Alerte al moderador"><img src="http://static.bbci.co.uk/modules/comments/2.1.81/images/warning_icon.gif" alt="" />Alerte al moderador<span class="dna-hide"> (Comentario número 1)</span></a></p> <p class="comments_link_to_comment"><a href="http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml?postId=117457100#comment_117457100" title="Haga clic aquí para generar un vínculo permanente a este comentario">Vínculo a este comentario<span class="dna-hide"> (Comentario número 1)</span></a></p> <div style="clear: both;"></div> </div>  </li>    </ul>  <div class="ieclear">&nbsp;</div>   <div class="comments_pagination">   </div> <div class="ieclear">&nbsp;</div>    </div> <div class="dna-commentbox-logged-in" style="display: none;"> <p class="primary_body dna-commentbox-add-comment-cta"><a href="#dna-comments">Añadir su comentario</a></p> </div>   </div>   
+               </div>
+               <div class="g-block story-body contextual-links">
+                  <h2>Contexto</h2>
+                  <div class="g-container g-first contextual-published-list"></div>
+                  <div class="g-container">
+                     <div class="list li-relatedlinks">
+                        <h3 class="title">Contenido relacionado</h3>
+                        <div class="content">
+                           <ul>
+                              <li class="ts-headline body-disabled first teaser"><a href="/mundo/noticias/2013/09/130925_curiosidades_chocolate_sabor_tamano_ap.shtml">¿Cambia el sabor del chocolate según la forma?</a><p class="date timeago" id="dt-2013-09-25T22:06:56+00:00">25.09.13</p>
+                              </li>
+                              <li class="ts-headline body-disabled teaser"><a href="/mundo/noticias/2013/06/130606_salud_nutricion_familia_azucar_finde_gtg.shtml">La familia que eligió dejar el azúcar</a><p class="date timeago" id="dt-2013-06-09T13:15:48+00:00">09.06.13</p>
+                              </li>
+                              <li class="ts-headline body-disabled teaser"><a href="/mundo/noticias/2013/04/130403_salud_adiccion_azucar_finde_np.shtml">¿Por qué el azúcar es tan adictiva?</a><p class="date timeago" id="dt-2013-04-22T08:14:05+00:00">22.04.13</p>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="g-container">
+                     <div class="list li-relatedtopics">
+                        <h2 class="title">Temas relacionados</h2>
+                        <div class="content">
+                           <ul>
+                              <li class="primary-topic"><a href="http://www.bbc.co.uk/mundo/temas/cultura" class="topic">Sociedad y Cultura</a>,
+                              </li>
+                              <li><a href="http://www.bbc.co.uk/mundo/temas/sociedad" class="topic">Sociedad</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="g-container">
+                     
+                  </div>
+                  <div class="g-container"></div>
+                  <div class="g-container"></div>
+                  <div class="g-container"></div>
+               </div>
+               <div class="g-container">
+                  <div xmlns="http://www.w3.org/1999/xhtml" class="list li-plain"><h2 class="title">Más noticias</h2><div class="content"><ul class="list-items cols-4"><li><ul class="g-w0 g-first"><li class="ts-144x81 first teaser"><p class="link title"><a href="/mundo/noticias/2013/10/131002_ciencia_planta_papas_y_tomates_tomtato_np.shtml">La planta que da papas y tomates<img alt="Planta que da tomates y papas" width="144" height="81" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/10/03/131003113700_tomtato_144x81_bbc_nocredit.jpg" /></a></p><div class="body"></div></li></ul><ul class="g-w0"><li class="ts-144x81 teaser"><p class="link title"><a href="/mundo/ultimas_noticias/2013/10/131004_ultnot_economia_twitter_tweeter_confusion_bolsa_jrg.shtml">Confunden a Twitter con empresa en bancarrota<img alt="Twitter" width="144" height="81" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/10/04/131004015456_twitter_144x81__nocredit.jpg" /></a></p><div class="body"></div></li></ul><ul class="g-w0"><li class="ts-144x81 teaser"><p class="link title"><a href="/mundo/noticias/2013/10/131004_ciencia_galeria_animales_petrificados_lago_nick_brandt_np.shtml">Los misteriosos animales petrificados de Natrón<img alt="Flamingo petrificado, foto de Nick Brandt" width="144" height="81" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/10/04/131004101930_nickbrandt_index_144x81_nickbrandt_nocredit.jpg" /></a></p><div class="body"></div></li></ul><ul class="g-w0"><li class="ts-144x81 teaser"><p class="link title"><a href="/mundo/noticias/2013/10/131004_internacional_obituario_vo_nguyen_giap_lav.shtml">El vietnamita que derrotó a Francia y EE.UU.<img alt="Vo Nguyen Giap" width="144" height="81" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/10/05/131005043809_sp_vo_nguyen_giap_144x81_reuters_nocredit.jpg" /></a></p><div class="body"></div></li></ul></li></ul></div></div>
+               </div>
+            </div>
+            <div class=" g-w11">
+               <div class="g-container">
+                  
+
+	
+
+
+
+
+
+
+
+<!-- mr:hp homepage/(none)/(none) 
+
+
+-->
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="list li-plain topstories-list">
+
+	<h2 class="title">Principales noticias</h2>
+
+
+
+	<a class="rss" href="/mundo/index.xml">RSS</a>
+
+
+	<div class="content">
+		<ul>
+		    
+	    	    
+	    	    
+	    	    
+	    	    
+	    	    
+	    	    
+	    	    
+	    	    	<li class="teaser ts-144x81 body-disabled first">
+	    	    		
+	    	    		
+	    	    		
+	    	    		
+	    	    		
+	    	    		
+						<p class="link title">
+		    				<a href="/mundo/noticias/2013/10/131003_eeuu_bancada_suicida_republicanos_cch.shtml">La &quot;bancada suicida&quot; que tiene cerrado al gobierno <img width="144" height="81" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/10/05/131005025948_boehner_capitol_protester_144x81_ap_nocredit.jpg" alt="manifestante con cartel exige a Boehner aprobar prespuesto para el gobierno"></a>
+		    				<span id="dt-2013-10-05T13:23:35+00:00" class="timeago">05.10.13</span>
+						</p>
+		    		</li>
+	    	    
+			
+			
+	    	    
+	    	    
+	    	    
+	    	    
+	    	    
+	    	    
+	    	    
+	    	    	<li class="teaser ts-144x81 body-disabled">
+	    	    		
+	    	    		
+	    	    		
+	    	    		
+	    	    		
+	    	    		
+						<p class="link title">
+		    				<a href="/mundo/noticias/2013/10/131005_kenia_sobreviviente_cronica_westgate_ataque_men.shtml">Kenia: &quot;Fingí estar muerta para sobrevivir&quot; <img width="144" height="81" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/10/05/131005091645_kenya_westgate_attack_survive_144x81_bbc_nocredit.jpg" alt="Faith Wambua y sus hijos"></a>
+		    				<span id="dt-2013-10-05T15:38:25+00:00" class="timeago">05.10.13</span>
+						</p>
+		    		</li>
+	    	    
+			
+			
+			    
+			    
+			    
+			    
+		   	    
+			    
+	    	    
+	    	    	<li class="teaser ts-144x81 body-disabled">
+	    	    		
+	    	    		
+	    	    		
+	    	    		
+	    	    		
+	    	    		
+						<p class="link title">
+		    				<a href="/mundo/noticias/2013/10/131004_mitos_medicos_realmente_frio_resfrio_finde.shtml">¿Realmente el frío da resfrío? <img width="144" height="81" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/10/04/131004132905_chico_esturnudando_144x81_spl_nocredit.jpg" alt="Chico estornudando"></a>
+		    				<span id="dt-2013-10-05T16:28:47+00:00" class="timeago">05.10.13</span>
+						</p>
+		    		</li>
+	    	    
+			
+			
+			       
+			  
+			 
+			 
+			                                  		
+		</ul>
+	</div>
+</div> 
+
+
+               </div>
+               <div class="g-block advert ws-mpu">
+                  <div class="g-container">
+                     
+	
+<div id="bbccom_mpu" class="bbccom_display_none">
+	<div class="bbccom_text">
+		<a href="/mundo/institucional/faqs/">Publicidad</a>
+	</div>
+	<script type="text/javascript">
+	//<![CDATA[ 
+	if (typeof BBC != "undefined" && typeof BBC.adverts != "undefined") {
+		BBC.adverts.write("mpu",false);
+	}
+	//]]> 
+	</script>
+</div>
+<script type="text/javascript">
+//<![CDATA[ 
+if (typeof BBC != "undefined" && typeof BBC.adverts != "undefined") { 
+	BBC.adverts.show("mpu");
+}
+//]]> 
+</script>
+
+
+	
+                  </div>
+               </div>
+               <div class="g-container">
+                  <!-- Check for ads enabled story pages serve ads document nav -->
+
+
+<!-- ### has ads ### -->
+	<!-- Set Topics -->
+		<!-- Learning English -->
+		
+		
+	<!-- Set MAPs -->
+		
+		
+	<!-- Set Story -->
+		
+			<div xmlns="http://www.w3.org/1999/xhtml" class="list li-specialfeatures"><h2 class="title">En fotos</h2><div class="content"><ul><li class="ts-336x189 first teaser"><h3 class="link title"><a href="/mundo/video_fotos/2013/10/131003_galeria_exposicion_de_perlas_en_londres_finde_bd.shtml">Las perlas brillan en la historia<img alt="Exhibición Perlas" width="336" height="189" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/09/30/130930123917_pearl_promo_336.jpg" /></a></h3><div class="body"><p class="summary">El museo Victoria y Albert de Londres se llenó de perlas. En una exposición que recorre la historia de estos adornos apreciados desde los tiempos del Imperio Romano hasta la actualidad. </p></div></li></ul></div></div>
+			
+
+
+  
+      
+
+
+    
+      
+
+<div class="box bx-livestats tabbed">						
+	
+	<h2 class="title">Lo más visto</h2>
+	<h3 class="tab open"><a href="#">Texto</a></h3>
+							
+	<div class="content open">
+		<div class="body">
+		      ﻿<ol>
+  <li
+    class="li-1">
+    <a
+      href="http://www.bbc.co.uk/mundo/noticias/2013/10/131003_respuestas_curiosos_5oct_finde.shtml">¿Cómo evolucionó la reproducción sexual?</a>
+  </li>
+  <li
+    class="li-2">
+    <a
+      href="http://www.bbc.co.uk/mundo/noticias/2013/10/131004_mitos_medicos_realmente_frio_resfrio_finde.shtml">¿Realmente el frío da resfrío?</a>
+  </li>
+  <li
+    class="li-3">
+    <a
+      href="http%3A%2F%2Fwww.bbc.co.uk%2Fmundo%2Fultimas_noticias%2F2013%2F10%2F131005_ultnot_musica_madona_victima_violacion_lav.shtml">Madonna revela que fue víctima de una violación</a>
+  </li>
+  <li
+    class="li-4">
+    <a
+      href="http://www.bbc.co.uk/mundo/noticias/2013/10/130926_internacional_eeuu_ciudadania_pasaporte_renuncia_lav.shtml">¿Por qué cada vez más estadounidenses renuncian a su ciu...</a>
+  </li>
+  <li
+    class="li-5">
+    <a
+      href="http://www.bbc.co.uk/mundo/noticias/2013/10/131003_eeuu_bancada_suicida_republicanos_cch.shtml">EE.UU.: la "bancada suicida" que tiene cerrado al gobierno</a>
+  </li>
+</ol>
+		</div>	
+	</div>
+		
+	
+	<h3 class="tab"><a href="#">Video</a></h3>
+	<div class="content watched-listened">
+		<div class="body">
+			﻿<ol>
+  <li
+    class="li-1">
+    <a
+      href="http://www.bbc.co.uk/mundo/noticias/2013/10/131004_video_qatar_mundial_trabajo_esclavo_lp.shtml">Trabajo semiesclavo, el costo del Mundial 2022 en Qatar</a>
+  </li>
+  <li
+    class="li-2">
+    <a
+      href="http://www.bbc.co.uk/mundo/video_fotos/2013/10/131002_video_bolivia_narco_dinero_cch.shtml">El millón de dólares que cayó del cielo</a>
+  </li>
+  <li
+    class="li-3">
+    <a
+      href="http://www.bbc.co.uk/mundo/noticias/2013/10/131004_video_tecnologia_clic_lp.shtml">Energía de los rayos para cargar el celular </a>
+  </li>
+  <li
+    class="li-4">
+    <a
+      href="http://www.bbc.co.uk/mundo/video_fotos/2013/10/131003_video_washington_capitolio_tiroteo_cch.shtml">Vea la mortal persecución en el corazón de Washington</a>
+  </li>
+  <li
+    class="li-5">
+    <a
+      href="http://www.bbc.co.uk/mundo/video_fotos/2013/03/130322_video_tigres_argentina_bd.shtml">Buenos Aires tiene unos singulares tigres blancos</a>
+  </li>
+</ol>						
+		</div>	
+	</div>										
+			
+</div>
+
+
+			<div xmlns="http://www.w3.org/1999/xhtml" class="list li-specialfeatures"><h2 class="title">Destacamos</h2><div class="content"><ul><li class="ts-336x189 first teaser"><h3 class="link title"><a href="/mundo/noticias/2013/10/130917_especial_25_anos_plebiscito_chile_pinochet_no_ch.shtml">Tres hitos que marcaron la caída de Augusto Pinochet<img alt="Gente celebra triunfo del No" width="336" height="189" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/09/18/130918120127_triunfo_del_no_plebiscito_chile_1988_336x189_getty_nocredit.jpg" /></a></h3><div class="body"><p class="summary">El 5 de octubre de 1988 Chile le dijo "No" al gobierno militar en una histórica consulta. BBC Mundo recuerda el momento 25 años después.</p></div></li><li class="ts-112x63 teaser"><p class="link title"><a href="/mundo/noticias/2013/10/131002_cine_eeuu_alfonso_cuaron_gravity_exito_critica_jg.shtml">Alfonso Cuarón alcanza una nueva dimensión con "Gravity"<img alt='Imagen de la película "Gravity"' width="112" height="63" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/10/04/131004042444_gravity_112x63_warnerbros_nocredit.jpg" /></a></p><div class="body"></div></li><li class="ts-112x63 teaser"><p class="link title"><a href="/mundo/noticias/2013/10/131004_copadelmundo_qatar_brasil2014_amv.shtml">Calor o cambio de calendario: ¿cómo afecta a América Latina jugar en Qatar?<img alt="Qatar, Mundial de Fútbol 2022, FIFA" width="112" height="63" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/10/04/131004081933_qatar_mundial2022_americalatina_112x63_afp_nocredit.jpg" /></a></p><div class="body"></div></li></ul></div></div>
+			<div xmlns="http://www.w3.org/1999/xhtml" class="list li-plain"><h2 class="title">Lo más compartido</h2><div class="content"><ul><li class="first"><div class="list li-plain"><h3 class="title"><a href="https://www.facebook.com/bbcmundo">En Facebook</a></h3><div class="content"><ul><li class="ts-112x63 first teaser"><p class="link title"><a href="/mundo/noticias/2013/10/131003_eutanasia_belgica_transexual.shtml">Nathan Verhelst, el transexual con "angustia extrema" que optó por la eutanasia <img alt="Reportaje de Nathan Verhelst en el Het Laatste Nieuwshoras" width="112" height="63" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/10/04/131004043434_sp_nathan_112x63_hln.be_nocredit.jpg" /></a></p><div class="body"></div></li></ul></div></div></li><li><div class="list li-plain"><h3 class="title"><a href="http://twitter.com/bbcmundo">En Twitter</a></h3><div class="content"><ul><li class="ts-112x63 first teaser"><p class="link title"><a href="/mundo/noticias/2013/10/131003_ciencia_fisica_cinco_descubrimientos_mas_importantes_np.shtml">¿Cuáles son los cinco grandes descubrimientos de la física contemporánea?<img alt="Computación cuántica" width="112" height="63" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/10/03/131003133657_ciencia_quantum_112x63_spl_nocredit.jpg" /></a></p><div class="body"></div></li></ul></div></div></li></ul></div></div>
+			
+		
+<!-- ### end ads ### -->
+
+
+
+               </div>
+               <div class="g-container">
+                  
+	<div xmlns="http://www.w3.org/1999/xhtml" class="list li-carousel"><h2 class="title"><a href="http://www.bbc.co.uk/mundo/video_fotos/">Videos</a></h2><div class="content"><ul><li class="ts-144x81 ts-video first teaser"><p class="link title"><a href="/mundo/video_fotos/2013/10/131003_video_washington_capitolio_tiroteo_cch.shtml">Mortal persecución en el corazón de Washington<img alt="policía trata de detener un auto a las afueras del capitolio en Washington" width="144" height="81" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/10/03/131003224638_washington_capitol_shooting_144x81_alhurra_nocredit.jpg" /><span class="cta"><span>Ver</span><span class="duration">01:14</span></span></a></p><div class="body"></div></li><li class="ts-144x81 ts-video teaser"><p class="link title"><a href="/mundo/noticias/2013/10/131004_video_qatar_mundial_trabajo_esclavo_lp.shtml">Crudas imágenes de los trabajadores de Qatar 2022<img alt="Trabajador nepalí en Qatar" width="144" height="81" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/10/04/131004111528_qatar_144x81_theguardian_nocredit.jpg" /><span class="cta"><span>Ver</span><span class="duration">01:46</span></span></a></p><div class="body"></div></li><li class="ts-144x81 ts-video teaser"><p class="link title"><a href="/mundo/video_fotos/2013/10/131002_video_bolivia_narco_dinero_cch.shtml">El millón de dólares que cayó del cielo<img alt="billetes de dólar estadounidenses" width="144" height="81" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/10/02/131002211451_us_dollars_notes_144x81_reuters_nocredit.jpg" /><span class="cta"><span>Ver</span><span class="duration">01:19</span></span></a></p><div class="body"></div></li><li class="ts-144x81 ts-video teaser"><p class="link title"><a href="/mundo/noticias/2013/10/131003_video_italia_lampedusa_tragedia_jmp.shtml">La tragedia de inmigrantes en Lampedusa<img alt="Lampedusa, Italia" width="144" height="81" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/10/03/131003145031_lampedusa_tragedy_144x81_afp_nocredit.jpg" /><span class="cta"><span>Ver</span><span class="duration">01:04</span></span></a></p><div class="body"></div></li><li class="ts-144x81 ts-video teaser"><p class="link title"><a href="/mundo/video_fotos/2013/10/131001_video_ataque_escuela_siria_regreso_lp.shtml">Siria: la agonía de los niños de la escuela atacada<img alt="Ahmed Darwish" width="144" height="81" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/10/01/131001104210_sirianino_144x81_bbc_nocredit.jpg" /><span class="cta"><span>Ver</span><span class="duration">01:39</span></span></a></p><div class="body"></div></li><li class="ts-144x81 ts-video teaser"><p class="link title"><a href="/mundo/noticias/2013/10/131003_video_movida_cultural_3oct_lp.shtml">Recuerdos de Neymar y Ronaldo en la vitrina<img alt="Exhibición de objetos pertenecientes a las estrellas de fútbol de Brasil " width="144" height="81" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/10/03/131003140755_brasil_144x81_other_nocredit.jpg" /><span class="cta"><span>Ver</span><span class="duration">02:51</span></span></a></p><div class="body"></div></li><li class="ts-144x81 ts-video teaser"><p class="link title"><a href="/mundo/video_fotos/2013/10/130927_video_eeuu_cultura_biblioteca_hispana_tsb.shtml">Vea el primer Quijote y el primer diccionario español<img alt="Primera Edición de Don Quijote" width="144" height="81" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/09/27/130927164424_don_quixote_first_edition_144x81_bbcmundo_nocredit.jpg" /><span class="cta"><span>Ver</span><span class="duration">01:54</span></span></a></p><div class="body"></div></li><li class="ts-144x81 ts-video teaser"><p class="link title"><a href="/mundo/noticias/2013/10/131002_video_paso_nivel_tren_reino_unido_pea.shtml">La ciclista que evitó por poco ser atropellada<img alt="Ciclista en un paso a nivel" width="144" height="81" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/10/03/131003112109_ciclista_144x81_d_nocredit.jpg" /><span class="cta"><span>Ver</span><span class="duration">00:26</span></span></a></p><div class="body"></div></li><li class="ts-144x81 ts-video teaser"><p class="link title"><a href="/mundo/noticias/2013/10/131001_video_tecnologia_detective_digital_il.shtml">El Sherlock Holmes de la era digital<img alt="Paul Reedy" width="144" height="81" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/10/01/131001111421_paul_reedy_144x81__nocredit.jpg" /><span class="cta"><span>Ver</span><span class="duration">02:34</span></span></a></p><div class="body"></div></li><li class="ts-144x81 ts-video teaser"><p class="link title"><a href="/mundo/video_fotos/2013/09/130918_video_venezuela_runners_corredores_inseguridad_jp.shtml">Una manera segura de correr por las calles de Caracas<img alt="Corrida en Caracas de Runners Venezuela" width="144" height="81" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/09/18/130918135319_venezuela_runners_144x81_other_nocredit.jpg" /><span class="cta"><span>Ver</span><span class="duration">02:18</span></span></a></p><div class="body"></div></li><li class="ts-144x81 ts-video teaser"><p class="link title"><a href="/mundo/noticias/2013/10/130930_video_perro_mas_pequeno_record_guinness_pea.shtml">El perro "más pequeño" es de Puerto Rico<img alt="El perro más pequeño del mundo" width="144" height="81" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/10/01/131001134619_perro_144x81_d_nocredit.jpg" /><span class="cta"><span>Ver</span><span class="duration">00:31</span></span></a></p><div class="body"></div></li><li class="ts-144x81 ts-video teaser"><p class="link title"><a href="/mundo/noticias/2013/10/130930_video_reacciones_cierre_gobierno_estados_unidos_pea.shtml">Estadounidenses opinan del cierre del gobierno<img alt="Estadounidense opina sobre el cierre parcial del gobierno" width="144" height="81" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/10/01/131001113522_united_states_144x81_d_nocredit.jpg" /><span class="cta"><span>Ver</span><span class="duration">00:40</span></span></a></p><div class="body"></div></li><li class="ts-144x81 ts-video teaser"><p class="link title"><a href="/mundo/noticias/2013/09/130926_dataviz_video_armas_nucleares_mundo_ojivas_mz.shtml">Guía animada: ¿qué países tienen armas nucleares?<img alt="Guía de armas nucleares en el mundo" width="144" height="81" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/09/26/130926111456_nuclear_weapon_dataviz_countries_world_144x81_bbc_nocredit.jpg" /><span class="cta"><span>Ver</span><span class="duration">02:42</span></span></a></p><div class="body"></div></li><li class="ts-144x81 ts-video teaser"><p class="link title"><a href="/mundo/video_fotos/2013/09/130927_video_kenia_detalles_ataque_centro_comercial_lav.shtml">La BBC revela detalles del ataque en Kenia<img alt="Ataque en Kenia" width="144" height="81" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/09/27/130927171153_kenya_144x81_getty_nocredit.jpg" /><span class="cta"><span>Ver</span><span class="duration">02:18</span></span></a></p><div class="body"></div></li><li class="ts-144x81 ts-video teaser"><p class="link title"><a href="/mundo/video_fotos/2013/09/130926_video_click_27sept_jp.shtml">Microsoft busca revancha con la tableta Surface 2<img alt="Tableta Surface" width="144" height="81" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/09/26/130926151536_surface_tablet_144x81_other_nocredit.jpg" /><span class="cta"><span>Ver</span><span class="duration">02:13</span></span></a></p><div class="body"></div></li><li class="ts-144x81 ts-video teaser"><p class="link title"><a href="/mundo/noticias/2013/09/130913_video_venezuela_autos_carros_venta_precios_pea.shtml">La odisea de comprar un carro en Venezuela<img alt="Hombre mirando un auto en Caracas" width="144" height="81" src="http://wscdn.bbc.co.uk/worldservice/assets/images/2013/09/13/130913114045_venezuela_144x81_d_nocredit.jpg" /><span class="cta"><span>Ver</span><span class="duration">02:41</span></span></a></p><div class="body"></div></li></ul></div></div>
+ 
+               </div>
+               <div class="g-container">
+                  
+
+ 
+               </div>
+               <div class="g-block advert ws-adsense">
+                  <div class="g-container">
+                     
+<div id="bbccom_adsense_mpu" class="bbccom_adsense bbccom_display_none">
+<script type="text/javascript">
+//<![CDATA[ 
+if (typeof BBC != "undefined" && typeof BBC.adverts != "undefined") { 
+	bbc_adsense_slot = "adsense_mpu";"us" == "us" ? bbc_adsense_country = "us" : bbc_adsense_country = "rest";
+	if (typeof BBC != 'undefined' && typeof BBC.adverts != 'undefined') {
+		document.write('<scr'+'ipt type="text/javascript" src="'+BBC.adverts.getScriptRoot()+'/adsense_write.js"></scr'+'ipt>');
+	}
+}
+//]]> 
+</script>
+</div>
+<script type="text/javascript">
+//<![CDATA[ 
+if (typeof BBC != "undefined" && typeof BBC.adverts != "undefined") { 
+	BBC.adverts.show("adsense_mpu");
+}
+//]]> 
+</script>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="blq-local-nav">
+         
+  <!-- $subdir can be set in light/local_nav.sssi -->
+  
+  	
+  
+  
+  
+    
+  
+  
+  
+    
+  
+  
+  <ul class="blq-clearfix">
+	<li><a href="/mundo/">Noticias</a></li>
+	<li><a href="/mundo/ultimas_noticias/">Última Hora</a></li>
+	<li><a href="/mundo/temas/america_latina/">América Latina</a></li>
+	<li><a href="/mundo/temas/internacional/">Internacional</a></li>
+	<li><a href="/mundo/temas/economia/">Economía</a></li>
+	<li><a href="/mundo/temas/tecnologia/">Tecnología</a></li>
+	<li><a href="/mundo/temas/ciencia/">Ciencia</a></li>
+	<li><a href="/mundo/temas/salud/">Salud</a></li>	
+	<li class="nav-current"><a href="/mundo/temas/cultura/">Sociedad y Cultura</a></li>	
+	<li><a href="/mundo/temas/curiosidades/">Curiosidades</a></li>
+	<li><a href="/mundo/video_fotos/">Video y Fotos</a></li>
+  </ul>
+
+<!-- ****************************************************************
+For topics, margin from banner needs to be hardcoded in 
+/mundo/includes/gel/head.sssi
+********************************************************************* --> 
+      </div>
+      <div id="footer">
+         <div class="footer" id="related-services">
+   <div id="news-services">
+      <h2>Servicios</h2>
+      <ul>
+		 <li id="service-mobile">
+         	<a href="http://www.bbc.co.uk/mundo/servicios/2009/03/000000_movil.shtml"><span class="services-icon">&nbsp;</span><span class="services-text">BBC Mundo en su celular</span></a>
+         </li>
+		 <li id="service-email-news">
+         	<a href="http://www.bbc.co.uk/mundo/servicios/2009/03/000000_email.shtml"><span class="services-icon">&nbsp;</span><span class="services-text">Noticias por e-mail</span></a>
+         </li>  
+		 <li id="service-feeds">
+         	<a href="http://www.bbc.co.uk/mundo/index.xml"><span class="services-icon">&nbsp;</span><span class="services-text">Noticias RSS</span></a>
+         </li>
+      </ul>
+   </div> 
+   <div id="news-related-sites">
+      <h2>Acerca de la BBC</h2>
+      <ul>
+        <li class="column-1"><a href="http://www.bbc.co.uk/worldservice/languages/index.shtml">Otros sitios</a></li>
+        <li class="column-1"><a href="http://www.bbc.co.uk/portuguese/">BBC Brasil</a></li>
+        <li class="column-1"><a href="http://www.bbc.co.uk/news/">BBC News</a></li>
+        <li class="column-1"><a href="/mundo/institucional/2013/05/000000_partners_bbcmundo.shtml">Nuestros socios</a></li>
+      </ul>
+   </div>
+</div>
+
+      </div>
+      
+
+    
+
+
+	
+		
+			<!-- start live stats -->
+			<img src="http://stats.bbc.co.uk/o.gif?~RS~s~RS~ws~RS~t~RS~HighWeb_Story~RS~i~RS~27300299~RS~p~RS~5342~RS~u~RS~http://www.bbc.co.uk/mundo/noticias/2013/09/130923_eeuu_cronuts_croissant_donut_exito_moda_jg.shtml~RS~r~RS~(none)~RS~a~RS~spanish~RS~q~RS~enable_top_story_image=3&amp;num_headlines=3~RS~z~RS~12~RS~" height="1" width="1" alt="" id="ls-wb" /> 
+			<!-- end live stats -->
+		
+	    
+    
+
+
+	<!-- Pulse survey code -->
+	
+
+
+
+	
+
+<!-- Nielson stats code -->
+<script type="text/javascript" src="http://wscdn.bbc.co.uk/worldservice/js/nielson_stats.js"></script>
+<script type="text/javascript" src="//secure-uk.imrworldwide.com/v53.js"></script>
+<noscript><div><img src="//secure-uk.imrworldwide.com/cgi-bin/m?ci=bbc&amp;cg=0" alt=""/></div></noscript>
+
+
+
+<!-- SiteCatalyst code version: H.22.1. 
+Copyright 1996-2010 Adobe, Inc. All Rights Reserved -->
+<script language="JavaScript" type="text/javascript" src="http://wscdn.bbc.co.uk/worldservice/js/site_catalyst/s_code.js"></script>
+<noscript><div><img src="http://bbc.112.2o7.net/b/ss/bbcworldservicedev/1/H.22.1--NS/0" height="1" width="1" border="0" alt="" /></div></noscript>
+<!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.22.1. -->
+
+
+
+<script type="text/javascript" src="http://js.revsci.net/gateway/gw.js?csid=J08781"></script>
+<script type="text/javascript">
+    DM_tag();
+</script>
+
+
+
+
+
+
+
+	
+		
+		
+			
+			
+		
+		
+	
+	<!--
+		Start of DoubleClick Floodlight Tag: Please do not remove
+		Activity name of this tag: BBC_mundo_LandingP
+		URL of the webpage where the tag is expected to be placed: http://www.bbc.co.uk/mundo/
+		This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
+		Creation Date: 03/01/2012
+	-->
+	<script type="text/javascript">
+		var axel = Math.random() + "";
+		var a = axel * 10000000000000;
+		document.write('<iframe src="http://fls.doubleclick.net/activityi;src=3570066;type=bbc_m050;cat=bbc_m590;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+	</script>
+	<noscript>
+		<iframe src="http://fls.doubleclick.net/activityi;src=3570066;type=bbc_m050;cat=bbc_m590;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+	</noscript>
+
+<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+
+	
+
+
+
+
+	
+		<!-- Begin comScore Tag -->
+		<script>
+			var _comscore = _comscore || [];
+			_comscore.push({ c1: "2", c2: "6035051" });
+			(function() {
+			var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+			s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+			el.parentNode.insertBefore(s, el);
+			})();
+		</script>
+		<noscript>
+			<img src="http://b.scorecardresearch.com/p?c1=2&c2=6035051&cv=2.0&cj=1" />
+		</noscript>
+		<!-- End comScore Tag -->
+	
+
+
+
+
+
+
+
+
+               </div>   <div id="blq-foot" lang="es-005" class="blq-rst blq-clearfix blq-ws-font blq-foot-grey"> <div id="blq-footlinks"> <h2 class="blq-hide">Vínculos de la BBC</h2>       <ul>                    <li class="blq-footlinks-row"> <ul class="blq-footlinks-row-list"> <li><a href="/mundo/movil/" id="blq-footer-mobile">Versión móvil</a></li><li><a href="/mundo/institucional/condiciones_de_uso/">Condiciones de uso</a></li><li><a href="/mundo/institucional/">Institucional</a></li> </ul> </li>                     <li class="blq-footlinks-row"> <ul class="blq-footlinks-row-list"> <li><a href="/mundo/institucional/publicidad/">Anuncie en BBC Mundo</a></li><li><a href="/mundo/institucional/privacidad/">Cláusula de privacidad</a></li><li><a href="/mundo/ayuda/accesibilidad/">Accesibilidad</a></li> </ul> </li>                   <li class="blq-footlinks-row"> <ul class="blq-footlinks-row-list"> <li><a href="/mundo/institucional/opcionespublicidad/">Opciones de anuncios</a></li><li><a href="/mundo/institucional/escribanos/">Escriba a BBC Mundo</a></li> </ul> </li>                    </ul> <script type="text/javascript">/*<![CDATA[*/ (function() { var mLink = document.getElementById('blq-footer-mobile'), stick = function() { var d = new Date (); d.setYear(d.getFullYear() + 1); d = d.toUTCString(); window.bbccookies.set('ckps_d=m;domain=.bbc.co.uk;path=/;expires=' + d ); window.bbccookies.set('ckps_d=m;domain=.bbc.com;path=/;expires=' + d ); }; if (mLink) {  if (mLink.addEventListener) { mLink.addEventListener('click', stick, false); } else if (mLink.attachEvent) { mLink.attachEvent('onclick', stick); } } })(); /*]]>*/</script>  </div>  <div id="blq-foot-blocks" class="blq-footer-image-light"><img src="http://static.bbci.co.uk/frameworks/barlesque/2.51.6/desktop/3.5/img/blocks/light.png" width="84" height="24" alt="BBC" /></div>  <p id="blq-disclaim"><span id="blq-copy">BBC &copy; 2013</span> <a href="/mundo/institucional/vinculos/">El contenido de las páginas externas no es responsabilidad de la BBC.</a></p> <div id="blq-obit"><p><strong>Para ver esta página tal cual fue diseñada, debe utilizar un navegador de internet actualizado, que tenga habilitado el uso de hojas de estilo en cascada (CSS, por Cascading Stylesheets en inglés). Aunque en el navegador que está utilizando podrá ver el contenido de la página, no será presentado de la mejor forma posible. Por favor, evalúe la posibilidad de actualizar su navegador y/o habilitar el uso de CSS.</strong></p></div> </div> </div>  </div> </div>  <script type="text/javascript"> if (typeof require !== 'undefined') { require(['istats-1'], function(istats){ istats.track('external', { region: document.getElementById('blq-main') }); istats.track('download', { region: document.getElementById('blq-main') }); }); } </script>  <script type="text/html" id="blq-panel-template-promo"><![CDATA[ <div id="blq-panel-promo" class="blq-masthead-container"></div> ]]></script> <script type="text/html" id="blq-panel-template-more"><![CDATA[ <div id="blq-panel-more" class="blq-masthead-container  blq-ws-font blq-clearfix" lang="en-GB" dir="ltr"> <div class="blq-panel-container panel-paneltype-more"> <div class="panel-header"> <h2> <a href="/a-z/">  Vínculos de la BBC  </a> </h2>  </div> <div class="panel-component panel-links">   <p id="blq-eng" lang="es-005">Sitios de la BBC en inglés:</p> <p class="blq-hide">Three navigation lists follow:</p> <ul class="blq-nav-sub blq-first"> <li><a href="/a-z/" class="panel-header-link">Full A-Z<span class="blq-hide"> of BBC sites</span></a></li> </ul>       <ul>   <li> <a href="http://www.bbc.co.uk/news/"  >News</a> </li>    <li> <a href="http://news.bbc.co.uk/sport/"  >Sport</a> </li>   </ul>  <ul>   <li> <a href="http://www.bbc.co.uk/weather/"  >Weather</a> </li>    <li> <a href="/worldservice/languages/"  >Languages</a> </li>   </ul>  <ul>   <li> <a href="/tv/"  >TV</a> </li>    <li> <a href="/radio/"  >Radio</a> </li>   </ul>   </div> </div> ]]></script>                
+
+   </body>
+</html>

@@ -1,0 +1,442 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/contents.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="男性不妊治療、男性不妊検査なら東京渋谷区恵比寿つじクリニック。男性に安心して受けていただける男性不妊の泌尿器科クリニックです。男性不妊治療・男性不妊検査をじっくりと医師と相談しながら完全予約制で受けることができます。" />
+<meta name="keywords" content="男性不妊,治療,検査" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>男性不妊治療・男性更年期治療・ED療・精索静脈瘤・TESE・男性不妊検査・精液検査：東京渋谷区（恵比寿つじクリニック）〜FAQ〜</title>
+<!-- InstanceEndEditable -->
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/base.css" rel="stylesheet" type="text/css" />
+<link href="css/contents.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/superfish.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/superfish-vertical.css" media="screen" />
+<!-- InstanceBeginEditable name="EditRegion4" -->
+<link href="css/semen-analysis.css" rel="stylesheet" type="text/css" />
+<link href="css/prettyPhoto.css" rel="stylesheet"  media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+<!-- InstanceEndEditable -->
+<link href="css/class.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/imgover.js"></script>
+<script type="text/javascript" src="js/hoverIntent.js"></script>
+<script type="text/javascript" src="js/superfish.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-15679634-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript">
+// initialise plugins
+	$(document).ready(function(){
+    	$("ul.sf-menu").superfish({ 
+        	animation: {height:'show'},   // slide-down effect without fade-in 
+        	delay:     800,         // 1.2 second delay on mouseout 
+			speed:     'fast'
+    	}); 
+	});
+</script>
+<!-- InstanceBeginEditable name="head" -->
+<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function(){
+$(".gallery a[rel^='prettyPhoto']").prettyPhoto({theme:'dark_rounded'});
+});
+</script>
+<link href="css/faq.css" rel="stylesheet" type="text/css" />
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="OptionalRegion1" type="boolean" value="true" -->
+</head>
+
+<body>
+<div id="wrapper">
+<div id="wrapper2" class="clearfix">
+
+<div id="header">
+<h1>男性不妊治療、検査の相談は恵比寿つじクリニック</h1>
+<ul>
+	<li class="border"><a href="http://e-dansei.com/"><img src="img/header/etc-btup_01.gif" width="135" height="34" alt="恵比寿つじクリニック HOME" class="imgover" /></a></li>
+	<li class="border"><a href="greeting.html"><img src="img/header/etc-btup_02.gif" width="135" height="34" alt="院長挨拶" class="imgover" /></a></li>
+	<li class="border"><a href="consultation.html"><img src="img/header/etc-btup_03.gif" width="135" height="34" alt="診療内容" class="imgover" /></a></li>
+	<li class="border"><a href="treatment-cost.html"><img src="img/header/etc-btup_04.gif" width="135" height="34" alt="治療費用" class="imgover" /></a></li>
+	<li class="border"><a href="doctor.html"><img src="img/header/etc-btup_05.gif" width="135" height="34" alt="スタッフ紹介" class="imgover" /></a></li>
+	<li class="border"><a href="access.html"><img src="img/header/etc-btup_06.gif" width="135" height="34" alt="アクセス" class="imgover" /></a></li>
+	<li><a onclick="window.open('','mail','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=0,width=800,height=600')" href="http://e-dansei.com/mail.cgi" target="mail"><img src="img/header/etc-btup_07.gif" width="135" height="34" alt="お問い合わせ" class="imgover" /></a></li>
+</ul>
+</div>
+<!-- end of header -->
+
+<div id="side" class="clearfix">
+<p><img src="img/side/etc-logo220.gif" width="220" height="70" alt="恵比寿つじクリニック ロゴ" /></p>
+<ul class="sf-menu sf-vertical">
+	<li class="border"><a href="first.html"><img src="img/side/btl_01.gif" width="220" height="47" class="imgover" /></a></li>
+	<li class="border current"><img src="img/side/btl_02.gif" width="220" height="47" class="imgover" />
+    <ul>
+	    <li><a href="inspection-meaning.html">&gt; 男性不妊検査の意義</a></li>
+	    <li><a href="examination.html">&gt; 触診検査</a></li>
+	    <li><a href="semen-analysis.html">&gt; 精液検査</a></li>
+	    <li><a href="ultrasonography.html">&gt; 超音波検査</a></li>
+	    <li><a href="internal-secretion-inspection.html">&gt; 内分泌検査</a></li>
+	    <li><a href="inheritance-inspection.html">&gt; 遺伝検査</a></li>
+    </ul>
+	</li>
+	<li class="border current"><img src="img/side/btl_03.gif" width="220" height="47" class="imgover" />
+    <ul>
+	    <li><a href="azoospermia.html">&gt; 乏精子症・無精子症</a></li>
+	    <li><a href="spermatic-varicocele.html">&gt; 精索静脈瘤</a></li>
+	    <li><a href="sexually-transmitted-disease.html">&gt; 性感染症（STD）</a></li>
+    </ul>
+	</li>
+	<li class="border current"><img src="img/side/btl_04.gif" width="220" height="47" class="imgover" />
+    <ul>
+	    <li><a href="man-climacterium.html">&gt; 男性更年期とは？</a></li>
+	    <li><a href="man-climacterium-diagnosis.html">&gt; 男性更年期の診断</a></li>
+	    <li><a href="man-climacterium-treatment.html">&gt; 男性更年期の治療</a></li>
+    </ul>
+	</li>
+	<li class="border current"><img src="img/side/btl_06.gif" width="220" height="47" class="imgover" />
+    <ul>
+	    <li><a href="first.html">&gt; 初めて受診の方へ</a></li>
+	    <li><a href="ed-diagnosis.html">&gt; EDの診断と原因</a></li>
+	    <li><a href="ed-treatment.html">&gt; ED治療について</a></li>
+	    <li><a href="ed-medicine.html">&gt; ED治療薬について</a></li>
+	    <li><a href="ed-personal-import.html">&gt; ED治療薬と個人輸入について</a></li>
+	    <li><a href="ejaculation-is-imperfect.html">&gt; 射精不全について</a></li>
+    </ul>
+	</li>
+	<li class="border"><a href="etc-qa.html"><img src="img/side/btl_07.gif" width="220" height="47" class="imgover" /></a></li>
+	<li><a href="news.html"><img src="img/side/btld_01.gif" width="220" height="21" class="imgover" /></a></li>
+	<li><a href="media.html"><img src="img/side/btld_02.gif" width="220" height="21" class="imgover" /></a></li>
+	<li><a href="link.html"><img src="img/side/btld_03.gif" width="220" height="21" class="imgover" /></a></li>
+</ul>
+
+<div class="clear sidebk2">
+<p>ED診察を迅速に! オンライン問診をどうぞ<br />
+<a href="web-interview.html">
+<img src="img/side/webmonshin.gif" width="220" height="26" alt="予約なしでスピードED診療" class="imgover" />
+</a>
+</p>
+<p class="txt_left">
+<img src="img/side/keitai.gif" width="35" height="60" alt="携帯電話" class="left pl2e pr1e" /><br />
+   迷ったらすぐにご相談を！<br />
+<span class="f18 c176bba">03-5456-6088</span>
+</p>
+
+</div>
+
+<div class="clear sidebk2">
+  <p class="f12">携帯サイト<a href="http://e-dansei.com/m">http://e-dansei.com/m</a></p>
+    <img src="img/side/qr_code.jpg" width="90" height="90" alt="QRコード" class="right" />
+  <p class="f09 txt_left">携帯電話にQRコード読み取り機能がある場合はこちらをご使用ください。  </p>
+    <img src="img/common/icon-imode.gif" width="43" height="36" alt="i-mode" class="left" />
+    <img src="img/common/icon-ezweb.gif" width="43" height="36" alt="ez web" class="left" />
+    <img src="img/common/icon-yahoo.gif" width="43" height="36" alt="yahoo" class="left" />
+</div>
+
+
+<div id="side_tweet" class="clear">
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+    new TWTR.Widget({
+      version: 2,
+      type: 'profile',
+      rpp: 7,
+      interval: 6000,
+      width: 220,
+      height: 400,
+      theme: {
+        shell: {
+          background: '#8ec1da',
+          color: '#ffffff'
+        },
+        tweets: {
+          background: '#fbfbfb',
+          color: '#444444',
+          links: '#33453a'
+        }
+      },
+      features: {
+        scrollbar: false,
+        loop: false,
+        live: false,
+        hashtags: true,
+        timestamp: true,
+        avatars: false,
+        behavior: 'all'
+      }
+    }).render().setUser('danseifunin').start();
+    </script>
+    </div>
+
+</div>
+<!-- end of side -->
+
+<div id="main">
+<div id="contents">
+<!-- InstanceBeginEditable name="EditRegion3" -->
+<div id="outer" class="clearfix">
+<div id="navigate">
+<p class="inner"><a href="http://e-dansei.com/">男性不妊の治療、検査の恵比寿つじクリニック HOME</a> &gt;  FAQ</p>
+<form method="get" action="http://www.google.co.jp/search">
+<input type="hidden" name="ie" value="UTF-8" />
+<input type="hidden" name="oe" value="UTF-8" />
+<input type="hidden" name="hl" value="ja" />
+<input type="hidden" name="domains" value="e-dansei.com" />
+<input type="hidden" name="sitesearch" value="e-dansei.com" />
+<input type="text" name="q" size="20" maxlength="255" class="txt" />
+<input type="submit" name="" value="検索" />
+</form>
+<p class="inner right">サイト内検索</p>
+</div>
+</div>
+<h2>恵比寿つじクリニックFAQ</h2>
+
+<p>こちらのサイトではよくある質問に対して回答しております。<br />
+ご質問のある方はまずこちらをご覧になって、回答がないようであればお問い合わせ頂けると幸いです。</p>
+
+<h3>&lt;診療について&gt;</h3>
+<ol>
+<li class="question">Q.<a href="#q1">受診予約はメールでも可能でしょうか？</a></li>
+<li class="question">Q.<a href="#q2">土日祝しかお休みがないのですが、診察して頂けますか？</a></li>
+<li class="question">Q.<a href="#q3">健康保険は使えないのでしょうか？</a></li>
+<li class="question">Q.<a href="#q4">遠方から診察に伺いたいのですが、可能でしょうか？</a></li>
+<li class="question">Q.<a href="#q5">夫婦で伺った方が良いのでしょうか？</a></li>
+</ol>
+
+<h3>&lt;精液検査について&gt;</h3>
+<ol>
+<li class="question">Q.<a href="#q6">精液検査の料金について教えて下さい。</a></li>
+<li class="question">Q.<a href="#q7">精子検査を受けるにあたり、費用は10,500円の他に初診時の費用などはかからないのでしょうか？
+また支払い方法でクレジットカードなどでの支払いは可能でしょうか？</a></li>
+<li class="question">Q.<a href="#q8">今まで精液検査を受けた事がないのですが、最初から男性不妊検査を受けるべきでしょうか？</a></li>
+<li class="question">Q.<a href="#q9">精液検査の結果はどれくらいで教えて頂けるのでしょうか？</a></li>
+<li class="question">Q.<a href="#q10">精液検査は2回受けた方が良いと言われていますが本当はどうなのでしょうか？</a></li>
+</ol>
+
+<h3>&lt;無精子症&gt;</h3>
+<ol>
+<li class="question">Q.<a href="#q11">他院で無精子症と診断されました。このような場合でも治療は可能なのでしょうか？</a></li>
+</ol>
+
+<h3>&lt;乏精子症&gt;</h3>
+<ol>
+<li class="question">Q.<a href="#q12">他院で乏精子症と診察され、体外受精しか子供を授かる可能性がないと言われました。</a></li>
+</ol>
+
+<h3>&lt;手術について&gt;</h3>
+<ol>
+<li class="question">Q.<a href="#q13">精索静脈瘤手術は日帰りですか？</a></li>
+<li class="question">Q.<a href="#q14">精索静脈瘤手術は生命保険の手術給付金が出ますか？</a></li>
+</ol>
+
+<h3>&lt;ED・射精障害治療&gt;</h3>
+<ol>
+<li class="question">Q.<a href="#q15">どうやら射精障害のようなのですが、貴院では治療をされていますか？</a></li>
+</ol>
+
+<h3>&lt;その他&gt;</h3>
+<ol>
+<li class="question">Q.<a href="#q16">自宅近くの他のクリニックで治療しているのですが、その治療が妥当かセカンドオピニオンで相談したいのですが可能ですか？</a></li>
+<li class="question">Q.<a href="#q17">過去にパイプカットの手術をしました。子供を作りたいので元に戻す手術をしたいのですが、そちらのクリニックで行っているでしょうか？</a></li>
+</ol>
+
+<p class="txt_right f08"><a href="#">▲ページTOPへ</a></p>
+
+<h2>診療について</h2>
+<ol>
+<li class="question"><a name="q1" id="q1"></a>Q.受診予約はメールでも可能でしょうか？</li>
+<li class="answer border"><span class="ans">A.</span>診療の予約は電話のみの受け付けになります（電話：03-5456-6088）</li>
+
+<li class="question"><a name="q2" id="q2"></a>Q.土日祝しかお休みがないのですが、診察して頂けますか？</li>
+<li class="answer border"><span class="ans">A.</span>当院は月曜・火曜の休診日以外は祝日でも診療しています。<br />
+もちろん土曜・日曜も受診していただけます。</li>
+
+<li class="question"><a name="q3" id="q3"></a>Q.健康保険は使えないのでしょうか？</li>
+<li class="answer border"><span class="ans">A.</span>保険診療は行っておりません。<br />
+当院では専門に特化したオーダーメイドな治療を提供するためすべて自由診療とさせていただいております。</li>
+
+<li class="question"><a name="q4" id="q4"></a>Q.遠方から診察に伺いたいのですが、可能でしょうか？</li>
+<li class="answer border"><span class="ans">A.</span>もちろん大丈夫です。海外から来られる患者さんもおられます。</li>
+
+<li class="question"><a name="q5" id="q5"></a>Q.夫婦で伺った方が良いのでしょうか？</li>
+<li class="answer"><span class="ans">A.</span>診察や検査の結果が揃って、今後の治療のことをご相談する際には奥様がご同席されたほうがいいかもしれません。<br />
+まずは、ご主人が精液検査を受けてみようということであれば、お一人で構いません。</li>
+</ol>
+<p class="txt_right f08"><a href="#">▲ページTOPへ</a></p>
+
+<h2>精液検査について</h2>
+<ol>
+<li class="question"><a name="q6" id="q6"></a>Q.精液検査の料金について教えて下さい。</li>
+<li class="answer border"><span class="ans">A.</span>一般精液検査は、10,500円です（男性不妊症の検査の場合は、42,000円になります）<br />
+詳しく内容はこちらにあります。</li>
+<li  class="question"><a name="q7" id="q7"></a>Q.精子検査を受けるにあたり、費用は10,500円の他に初診時の費用などはかからないのでしょうか？<br />
+また支払い方法でクレジットカードなどでの支払いは可能でしょうか？</li>
+<li class="answer border"><span class="ans">A.</span>精液検査のみであれば、費用は10,500円だけで、初診料等はかかりません。<br />
+また、現金以外にもクレジットカード、デビットカードがご利用頂けます。</li>
+<li  class="question"><a name="q8" id="q8"></a>Q.今まで精液検査を受けた事がないのですが、最初から男性不妊検査を受けるべきでしょうか？</li>
+<li class="answer border"><span class="ans">A.</span>奥様が婦人科での検査で問題ないとされているのであれば、最初から男性不妊検査を受けられるのが良いでしょう。<br />
+そうでないのであれば、まずは一般精液検査（10,500円）を受られるのをお勧めします。<br />
+一般精液検査の結果に問題があれば、男性不妊症として検査を進める必要があります。</li>
+<li class="question"><a name="q9" id="q9"></a>Q.精液検査の結果はどれくらいで教えて頂けるのでしょうか？</li>
+<li class="answer border"><span class="ans">A.</span>一般精液検査の結果は、約1時間で分かります。</li>
+<li class="question"><a name="q10" id="q10"></a>Q.精液検査は2回受けた方が良いと言われていますが本当はどうなのでしょうか？</li>
+<li class="answer"><span class="ans">A.</span>精液所見は昔からバラツキが大きいことが知られています。<br />
+結果が非常に良好なら1回でいいですが、悪かったり、ボーダーラインであれば少なくともあと1回は受ける必要があります。</li>
+</ol>
+<p class="txt_right f08"><a href="#">▲ページTOPへ</a></p>
+
+<h2>無精子症</h2>
+<ol>
+<li  class="question"><a name="q11" id="q11"></a>Q.他院で無精子症と診断されました。このような場合でも治療は可能なのでしょうか？</li>
+<li class="answer"><span class="ans">A.</span>現在では顕微鏡を使って精巣（睾丸）内の精子を探し、精子がいれば顕微授精することでお子さんを授かることが可能です。まだ挙児の希望を捨てる必要はありません。</li>
+</ol>
+<p class="txt_right f08"><a href="#">▲ページTOPへ</a></p>
+
+<h2>乏精子症</h2>
+<ol>
+<li  class="question"><a name="q12" id="q12"></a>Q.他院で乏精子症と診察され、体外受精しか子供を授かる可能性がないと言われました。<br />
+出来るだけ自然妊娠を希望しています。精子を増やす方法はあるのでしょうか？</li>
+<li class="answer"><span class="ans">A.</span>治療により精子の数を増やすことが可能な場合があります。<br />
+代表的なものは精索静脈瘤ですが、ぜひ男性不妊症の診察・検査を受けてください。</li>
+</ol>
+<p class="txt_right f08"><a href="#">▲ページTOPへ</a></p>
+
+<h2>手術について</h2>
+<ol>
+<li  class="question"><a name="q13" id="q13"></a>Q.精索静脈瘤手術は日帰りですか？</li>
+<li class="answer border"><span class="ans">A.</span>当院での精索静脈瘤手術は日帰りで行っております。<br />
+朝10時に来ていただいて、お昼過ぎには歩いて帰っていただきます。<br />
+手術当日はゆっくり安静にしていただきますが、じっと寝ておく必要はありません。<br />
+手術翌日は傷を見せにご来院いただきますが、みなさん通常通りにお仕事をされています。</li>
+<li class="question"><a name="q14" id="q14"></a>Q.精索静脈瘤手術は生命保険の手術給付金が出ますか？</li>
+<li class="answer"><span class="ans">A.</span>「精索静脈瘤手術」は、生命保険・医療保険の手術給付金の対象になるはずです。<br />
+ただ、保険会社や契約内容により違いがあると思われますのでご確認ください（その際は手術名「精索静脈瘤手術」でお問い合わせになってください）。</li>
+</ol>
+<p class="txt_right f08"><a href="#">▲ページTOPへ</a></p>
+
+<h2>ED・射精障害治療</h2>
+<ol>
+<li  class="question"><a name="q15" id="q15"></a>Q.どうやら射精障害のようなのですが、貴院では治療をされていますか？</li>
+<li class="answer"><span class="ans">A.</span>診療しておりますのでご相談ください。</li>
+</ol>
+<p class="txt_right f08"><a href="#">▲ページTOPへ</a></p>
+
+<h2>その他</h2>
+<ol>
+<li class="question"><a name="q16" id="q16"></a>Q.自宅近くの他のクリニックで治療しているのですが、その治療が妥当かセカンドオピニオンで相談したいのですが可能ですか？</li>
+<li class="answer border"><span class="ans">A.</span>セカンドオピニオンでのご相談にも対応させていただきます。<br />
+出来れば現在の主治医の先生にご紹介状をいただきたいのですが、それが難しいならば、これまでの検査のデータをご持参ください。<br />
+また、予約の際にはセカンドオピニオンと受診目的をおっしゃってください。</li>
+<li class="question"><a name="q17" id="q17"></a>Q.過去にパイプカットの手術をしました。子供を作りたいので元に戻す手術をしたいのですが、そちらのクリニックで行っているでしょうか？</li>
+<li class="answer"><span class="ans">A.</span>パイプカット後の精路再建（精管吻合術）は当院で可能です。<br />
+ただ、奥様の年齢などの状況によっては精管の吻合手術より精巣内精子による顕微授精のほうが良いと判断される場合もあります。</li>
+</ol>
+
+<p class="txt_right f08"><a href="#">▲ページTOPへ</a></p>
+<div class="txt_center"> </div>
+<!-- InstanceEndEditable -->
+</div>
+</div>
+<!-- end of main -->
+</div>
+
+
+<div id="main_footer_wrap" class="clear clearfix">
+<div id="main_footer">
+<div id="mf_contact">
+<h3 class="f11 bold">恵比寿 つじクリニック</h3>
+<p>
+〒150-0021　<br />
+東京都渋谷区恵比寿西2-4-7 <br />
+NNステーツビル2F<br />
+（恵比寿・代官山から徒歩6分）<br />
+TEL：<em>03-5456-6088</em>　<br />
+FAX：<em>03-5456-1688</em>
+</p>
+</div>
+
+<div class="flink">
+<ul>
+    <li><a href="http://e-dansei.com/">男性不妊の治療、検査の<br />恵比寿つじクリニック HOME</a></li>
+    <li><a href="greeting.html">院長挨拶</a></li>
+    <li><a href="consultation.html">診療内容</a></li>
+    <li><a href="treatment-cost.html">治療費用</a></li>
+    <li><a href="doctor.html">スタッフ紹介</a></li>
+    <li><a href="access.html">アクセス</a></li>
+    <li><a onclick="window.open('','mail','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=0,width=800,height=600')" href="http://e-dansei.com/mail.cgi" target="mail">お問い合わせ</a></li>
+    <li><a href="web-interview.html">予約なしでスピードED診療</a></li>
+</ul>
+</div>
+
+<div class="flink">
+<ul>
+<li><a href="first.html">男性不妊でお悩みの方へ</a></li>
+<li>男性不妊検査について
+	<ul>
+	<li><a href="inspection-meaning.html">男性不妊検査の意義</a></li>
+	<li><a href="examination.html">触診検査</a></li>
+    <li><a href="semen-analysis.html">精液検査</a></li>
+    <li><a href="ultrasonography.html">超音波検査</a></li>
+    <li><a href="internal-secretion-inspection.html">内分泌検査</a></li>
+    <li><a href="inheritance-inspection.html">遺伝検査</a></li>
+	</ul>
+</li>
+</ul>
+</div>
+
+<div class="flink">
+<ul>
+	<li>診療内容について
+    <ul>
+	    <li><a href="azoospermia.html">乏精子症・無精子症</a></li>
+	    <li><a href="spermatic-varicocele.html">精索静脈瘤</a></li>
+	    <li><a href="sexually-transmitted-disease.html">性感染症（STD）</a></li>
+    </ul>
+	</li>
+	<li>男性更年期とは
+    <ul>
+	    <li><a href="man-climacterium.html">男性更年期とは？</a></li>
+	    <li><a href="man-climacterium-diagnosis.html">男性更年期の診断</a></li>
+	    <li><a href="man-climacterium-treatment.html">男性更年期の治療</a></li>
+    </ul>
+	</li>
+    </ul>
+</div>
+
+<div class="flink">
+<ul>
+	<li>ED(勃起不全)でお悩みの方へ
+      <ul>
+	    <li><a href="ed-diagnosis.html">EDの診断と原因</a></li>
+	    <li><a href="ed-treatment.html">ED治療について</a></li>
+	    <li><a href="ed-medicine.html">ED治療薬について</a></li>
+	    <li><a href="ed-personal-import.html">ED治療薬と個人輸入について</a></li>
+	    <li><a href="ejaculation-is-imperfect.html">射精不全について</a></li>
+    </ul>
+	</li>
+	<li><a href="http://e-dansei.com/">FAQ</a></li>
+    <li><a href="news.html">男性不妊最新ニュース</a></li>
+    <li><a href="media.html">メディア紹介</a></li>
+    <li><a href="link.html">男性不妊治療関連リンク</a></li>
+    <li><a href="sitemap.html">サイトマップ</a></li>
+</ul>
+</div>
+
+</div>
+</div>
+
+</div>
+<div id="footer" class="clear">
+Copyright © 2010-2012 ebisu TSUJI CLINIC. All Right Reserved.
+</div>
+</body>
+<!-- InstanceEnd --></html>

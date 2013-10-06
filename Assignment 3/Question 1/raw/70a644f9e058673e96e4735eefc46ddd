@@ -1,0 +1,2150 @@
+
+
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta property="og:title" content="Naughty Dog Blog" />
+		<meta property="og:image" content="http://www.naughtydog.com/images/naughty_dog_s.gif" />
+		<meta name="keywords" content="uncharted, uncharted 3, uncharted 2, naughty dog, naughtydog, naughty dog games, naughty dog stats, katherine marlowe, jak and daxter" /> 
+		<meta name="description" content="Official site for Naughty Dog, creators of Uncharted 3: Drake's Deception, Uncharted 2: Among Thieves, Uncharted: Drake's Fortune, Jak & Daxter series, and Crash Bandicoot series" />
+		<title>Naughty Dog</title>
+		<link rel="shortcut icon" href="http://www.naughtydog.com/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="/assets/site/css/global.css" />
+		<link rel="stylesheet" type="text/css" href="/assets/site/css/blog.css" />
+		<link rel="stylesheet" type="text/css" href="/css/rating.css" />
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js"></script>
+		<script src="/assets/site/js/blog_calendar.js" language="javascript"></script>
+		<script src="/assets/site/js/site.js" language="javascript"></script>
+		<script src="/assets/site/js/cufon-yui.js" language="javascript"></script>
+		<script src="/assets/site/js/Helvetica_300.font.js" language="javascript"></script>
+		<script type="text/javascript" language="javascript" src="/js/behavior.js"></script>
+		<script type="text/javascript" language="javascript" src="/js/rating.js"></script>
+		<script>Cufon.replace('.h1_cufon', { });</script>
+		<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8013365-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript" src="/js/ga_social_tracking.js"></script>
+<script>
+	window.fbAsyncInit = function(){
+		FB.init({
+			appId: '203760899691256',
+			channelUrl : 'www.naughtydog.com/channel.html',
+			status : true,
+			cookie : true,
+			xfbml : true
+		});
+		
+		FB.Event.subscribe('edge.create', function(targetUrl){_gaq.push(['_trackSocial','facebook','like',targetUrl]);});
+		FB.Event.subscribe('edge.remove', function(targetUrl){_gaq.push(['_trackSocial','facebook','unlike',targetUrl]);});
+		FB.Event.subscribe('message.send', function(targetUrl){
+			_gaq.push(['_trackSocial', 'facebook','send',targetUrl]);
+		});
+	};
+	(function(d){
+		var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+		js  = d.createElement('script'); js,id = id; js.async = true;
+		d.getElementsByTagName('head')[0].appendChild(js);
+	}(document));
+</script>
+<script type="text/javascript">_ga.trackFacebook();</script>
+<script>
+  (function(){
+    var twitterWidgets = document.createElement('script');
+    twitterWidgets.type = 'text/javascript';
+    twitterWidgets.async = true;
+    twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+
+    // Setup a callback to track once the script loads.
+    twitterWidgets.onload = _ga.trackTwitter;
+
+    document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+  })();
+</script>
+<script>
+	// _ga.trackSocial();
+	// function trackTwitter(intent_event){
+	// 	if(intent_event){
+	// 		var opt_pagePath;
+	// 		if(intent_event.target && intent_event.target.nodeName == 'IFRAME'){
+	// 			opt_target = extractParamFromUri(intent_event.targetr.src, 'url');
+	// 		}
+	// 		_gaq.push(['_trackSocial', 'twitter', 'tweet', opt_pagePath]);
+	// 	}
+	// }
+	// 
+	// twttr.ready(function (twttr){
+	// 	twttr.events.bind('tweet', trackTwitter);
+	// });
+</script>
+	</head>
+	<body>
+		<div id="bg_top"></div>
+		<div id="bg_bottom"></div>
+		<div id="container">
+			<div id="header">
+				<div id="log" style="position:fixed"></div>
+<div id="toprow">
+	<div id="toprow_logo"><a href="http://www.naughtydog.com/"><img title="Naughty Dog" src="/assets/site/images/global/logo_header.png"></a></div>
+	<div id="toprow_facebook">
+		<iframe src="http://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fnaughtydog&amp;send=true&amp;layout=button_count&amp;width=450&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>
+	</div>
+	<div id="toprow_twitter">
+		<!--a href="http://twitter.com/share" class="twitter-share-button" data-text="Check out the Naughty Dog website!" data-count="horizontal">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script-->
+		<a href="http://twitter.com/naughty_dog" class="twitter-follow-button" data-show-count="false">Follow @naughty_dog</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+	</div>
+	<div id="toprow_googleplus">
+		<link href="https://plus.google.com/112063116155978782075/" rel="publisher" />
+		<a href="https://plus.google.com/112063116155978782075/?prsrc=3" style="text-decoration: none; color: #333;"><div style="display: inline-block;"><span style="float: left; font: bold 13px/16px arial,sans-serif; margin-right: 4px;">Naughty Dog</span><span style="float: left; font: 13px/16px arial,sans-serif; margin-right: 11px;">on</span><div style="float: left;"><img src="https://ssl.gstatic.com/images/icons/gplus-16.png" width="16" height="16" style="border: 0;"/></div><div style="clear: both"></div></div></a>
+	</div>
+			<div id="toprow_account">
+			<div id="toprow_account_logo"><img src="/assets/site/images/global/logo_psn.png" alt="Playstation Network" /></div>
+			<div id="toprow_account_title">PlayStation&reg;Network</div>
+			<div id="toprow_account_links"><a href="https://store.playstation.com/accounts/register/beginNewAccountRegistrationFlow.action" onclick="window.open('https://store.playstation.com/accounts/register/beginNewAccountRegistrationFlow.action'); return false;">JOIN NOW</a> | <a href="http://www.naughtydog.com/site/login?url=aHR0cDovL3d3dy5uYXVnaHR5ZG9nLmNvbS9zaXRlL2Jsb2cvMjAxMy8wOS8yNw%3D%3D" onclick="return WarnIfSafari();">LOG IN</a></div>
+		</div>
+			<div id="psn_loggedout">
+			PSN Status: <img style='top:2px;' src='/images/dot_green.gif'/>	</div>		
+</div>
+				<div id="nav_container">
+	<div class="nav_item first">
+		<a href="http://www.naughtydog.com/blog/" alt="Visit Blog" title="Visit Blog" class="nav nav_blog first"></a>
+		<div class="nav_text first"><a href="http://www.naughtydog.com/blog/" alt="Visit Blog" title="Visit Blog">BLOG</a></div>
+		<div class="nav_second hide">
+			<div class="nav_second_text">
+				<ul>
+					<li class="first" index="0"><table><tr><td><a href="http://www.naughtydog.com/site/blog/">News</a></td></tr></table></li>
+					<li class="last" index="1"><table><tr><td><a href="http://www.naughtydog.com/site/around_the_web/">Around The Web</a></td></tr></table></li>
+				</ul>
+			</div>
+			<div class="nav_second_hover hide"></div>
+			<div class="nav_second_bg">				
+				<ul>
+					<li class="first"></li>
+					<li class="last"></li>
+				</ul>
+			</div>
+			<div class="nav_second_bg2">				
+				<ul>
+					<li class="first"></li>
+					<li class="last"></li>
+				</ul>
+			</div>
+			<div class="nav_second_hover_under hide"></div>
+		</div>
+	</div>
+	<div class="nav_item">
+		<a href="http://www.naughtydog.com/games/" class="nav nav_games"></a>
+		<div class="nav_text">GAMES</div>
+		<div class="nav_second hide">
+			<div class="nav_second_text">
+				<ul>
+					<li class="first" index="0"><table><tr><td><a href="http://www.naughtydog.com/games/the_last_of_us/"><img src="/assets/site/images/global/header_logo_tlou.png" alt="The Last Of Us" style="bottom:8px"></a></td></tr></table></li>
+					<li index="1"><table><tr><td><a href="http://www.naughtydog.com/games/uncharted3_drakes_deception/"><img src="/assets/site/images/global/header_logo_uc3.png" height="27" alt="Uncharted 3: Drake's Deception"></a></td></tr></table></li>
+					<li index="2"><table><tr><td><a href="http://www.naughtydog.com/games/uncharted2_among_thieves/"><img src="/assets/site/images/global/header_logo_uc2.png" height="27" alt="Uncharted 2: Among Thieves"></a></td></tr></table></li>
+					<li index="3"><table><tr><td><a href="http://www.naughtydog.com/games/uncharted_drakes_fortune/"><img src="/assets/site/images/global/header_logo_uc1.png" height="28" alt="Uncharted: Drake's Fortune"></a></td></tr></table></li>
+					<li index="4"><table><tr><td><a href="http://www.naughtydog.com/games/jak3/"><img src="/assets/site/images/global/Jak_3.png" height="28" alt="Jak 3"></a></td></tr></table></li>
+					<li index="5"><table><tr><td><a href="http://www.naughtydog.com/games/jak2/"><img src="/assets/site/images/global/Jak_ii.png" height="28" alt="Jak 2"></a></td></tr></table></li>
+					<li class="last" index="6"><table><tr><td><a href="http://www.naughtydog.com/games/jak_and_daxter_the_precursor_legacy/"><img src="/assets/site/images/global/Jak_Daxter_Precursor.png" height="28" alt="Jak & Daxter The Precursor Legacy"></a></td></tr></table></li>
+				</ul>
+			</div>
+			<div class="nav_second_hover hide"></div>
+			<div class="nav_second_bg">				
+				<ul>
+					<li class="first"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li class="last"></li>
+				</ul>
+			</div>
+			<div class="nav_second_bg2">				
+				<ul>
+					<li class="first"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li class="last"></li>
+				</ul>
+			</div>
+			<div class="nav_second_hover_under hide"></div>
+		</div>
+	</div>
+	<div class="nav_item">
+		<a href="http://www.naughtydog.com/company/" alt="Company" title="Company" class="nav nav_company"></a>
+		<div class="nav_text"><a href="http://www.naughtydog.com/company/">COMPANY</a></div>
+		<div class="nav_second hide">
+			<div class="nav_second_text">
+				<ul>
+					<li class="first" index="0"><table><tr><td><a href="http://www.naughtydog.com/company/">About</a></td></tr></table></li>
+					<li index="1"><table><tr><td><a href="http://www.naughtydog.com/contact/">Contact</a></td></tr></table></li>
+					<li class="last" index="2" ><table><tr><td><a href="http://www.naughtydog.com/work/">Careers</a></td></tr></table></li>
+				</ul>
+			</div>
+			<div class="nav_second_hover hide"></div>
+			<div class="nav_second_bg">				
+				<ul>
+					<li class="first"></li>
+					<li></li>
+					<li class="last"></li>
+				</ul>
+			</div>
+			<div class="nav_second_bg2">				
+				<ul>
+					<li class="first"></li>
+					<li></li>
+					<li class="last"></li>
+				</ul>
+			</div>
+			<div class="nav_second_hover_under hide"></div>
+		</div>
+	</div>
+	<div class="nav_item">
+		<a href="http://www.naughtydog.com/site/gallery/" alt="Media" title="Media" class="nav nav_media"></a>
+		<div class="nav_text"><a href="http://www.naughtydog.com/site/gallery/">MEDIA</a></div>
+		<div class="nav_second hide">
+			<div class="nav_second_text">
+				<ul>
+					<li class="first" index="0"><table><tr><td><a href="http://www.naughtydog.com/media/dogcast/">Dogcast</a></td></tr></table></li>
+					<li index="1"><table><tr><td><a href="http://www.naughtydog.com/site/gallery/">Photos</a></td></tr></table></li>
+					<li index="2"><table><tr><td><a href="http://www.naughtydog.com/site/videos/">Videos</a></td></tr></table></li>
+					<li class="last" index="3"><table><tr><td><a href="http://www.naughtydog.com/events/">Events</a></td></tr></table></li>
+				</ul>
+			</div>
+			<div class="nav_second_hover hide"></div>
+			<div class="nav_second_bg">				
+				<ul>
+					<li class="first"></li>
+					<li></li>
+					<li></li>
+					<li class="last"></li>
+				</ul>
+			</div>
+			<div class="nav_second_bg2">				
+				<ul>
+					<li class="first"></li>
+					<li></li>
+					<li></li>
+					<li class="last"></li>
+				</ul>
+			</div>
+			<div class="nav_second_hover_under hide"></div>
+		</div>
+	</div>
+	<div class="nav_item">
+					<a href="http://www.naughtydog.com/stats/" alt="Multiplayer" title="Multiplayer" class="nav nav_multiplayer"></a>
+			<div class="nav_text"><a href="http://www.naughtydog.com/stats/">MULTIPLAYER</a></div>
+			<div class="nav_second hide">
+			<div class="nav_second_text">
+				<ul>
+					<li class="first" index="0"><table><tr><td><a href="http://www.naughtydog.com/stats/uncharted3/"><img src="/assets/site/images/global/header_logo_uc3.png" height="22" alt="Uncharted 3: Drake's Deception"></a></td></tr></table></li>
+					<li class="last" index="1" ><table><tr><td><a href="http://www.naughtydog.com/stats/uncharted2/"><img src="/assets/site/images/global/header_logo_uc2.png" height="27" alt="Uncharted 2: Among Thieves"></a></td></tr></table></li>
+				</ul>
+			</div>
+			<div class="nav_second_hover hide"></div>
+			<div class="nav_second_bg">				
+				<ul>
+					<li class="first"></li>
+					<li class="last"></li>
+				</ul>
+			</div>
+			<div class="nav_second_bg2">				
+				<ul>
+					<li class="first"></li>
+					<li class="last"></li>
+				</ul>
+			</div>
+			<div class="nav_second_hover_under hide"></div>
+		</div>
+			</div>
+	<div class="nav_item">
+		<a href="http://community.us.playstation.com/t5/Naughty-Dog-Discussion/ct-p/14811" alt="Forums" title="Forums" class="nav nav_forum"></a>
+		<div class="nav_text"><a href="http://community.us.playstation.com/t5/Naughty-Dog-Discussion/ct-p/14811">FORUM</a></div>
+		<div class="nav_second hide">
+			<div class="nav_second_text">
+				<ul></ul>
+			</div>
+			<div class="nav_second_hover hide"></div>
+			<div class="nav_second_bg">				
+				<ul></ul>
+			</div>
+			<div class="nav_second_bg2">				
+				<ul></ul>
+			</div>
+			<div class="nav_second_hover_under hide"></div>
+		</div>
+	</div>
+	<form method="post" action="http://www.naughtydog.com/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="19" />
+<input type="hidden" name="XID" value="" />
+<input type="hidden" name="RP" value="search/results" />
+<input type="hidden" name="NRP" value="" />
+<input type="hidden" name="RES" value="" />
+<input type="hidden" name="status" value="" />
+<input type="hidden" name="weblog" value="" />
+<input type="hidden" name="search_in" value="everywhere" />
+<input type="hidden" name="where" value="all" />
+<input type="hidden" name="site_id" value="1" />
+</div>
+
+
+		<div class="nav_searchfield">
+			<!--form action="#" method="post" id="searchform"-->
+				<nobr><input type="text" maxlength="100" class="input" id="search" value="" name="keywords"></nobr>
+			<!--/form-->
+		</div>
+		<div class="nav_item" id="search_btn">
+			<input class="nav nav_search submit" type="image" value="sumbit" src='/assets/site/images/global/clear.gif'/>
+			<div class="nav_text">SEARCH</div>
+		</div>
+	</form>
+</div>
+			</div>
+			<div id="content">
+				<div class="generic_section">
+					<h1><img name="Naughty Dog Blog Posts" src="/assets/site/images/global/naughty_dog_blog_posts.png"></h1>
+					<div class="blog main">
+						<h2 class="gold"><span class="nobold">___ </span><span class="weight_normal">LATEST POSTS</span></h2>
+						<div class="blog_inner">
+        					
+        				</div>
+        				
+
+<div id="blog_sidebar">
+	<div class="blog_item">
+		<h2 class="linkorange"><span class="nobold">___ </span><span class="weight_normal">CATEGORIES</span></h2>
+		<div class="blog_item_inner blog_item_nav">
+			<ul>
+				<ul id="nav_categories" class="nav_categories">
+	<li>
+					<li>| <a href="http://www.naughtydog.com/blog/C1/">Work In Progress</a></li>
+				</li>
+	<li>
+					<li>| <a href="http://www.naughtydog.com/blog/C2/">Game News</a></li>
+				</li>
+	<li>
+					<li>| <a href="http://www.naughtydog.com/blog/C3/">Company News</a></li>
+				</li>
+	<li>
+					<li>| <a href="http://www.naughtydog.com/blog/C4/">Contests and Giveaways</a></li>
+				</li>
+	<li>
+					<li>| <a href="http://www.naughtydog.com/blog/C45/">Development</a></li>
+				</li>
+	<li>
+					<li>| <a href="http://www.naughtydog.com/blog/C5/">Industry News</a></li>
+				</li>
+	<li>
+					<li>| <a href="http://www.naughtydog.com/blog/C6/">Caption It</a></li>
+				</li>
+	<li>
+					<li>| <a href="http://www.naughtydog.com/blog/C44/">Of Dogs and Development</a></li>
+				</li>
+	<li>
+					<li>| <a href="http://www.naughtydog.com/blog/C46/">Paws 'n' Jobs</a></li>
+				</li>
+	<li>
+					<li>| <a href="http://www.naughtydog.com/blog/C7/">Press & Events</a></li>
+				</li>
+	<li>
+					<li>| <a href="http://www.naughtydog.com/blog/C8/">Anything Goes</a></li>
+				</li>
+</ul>
+
+			</ul>
+		</div>
+	</div>
+	<div class="blog_item">
+		<h2 class="blue"><span class="nobold">___ </span><span class="weight_normal">ARCHIVES</span></h2>
+		<div class="blog_item_inner blog_item_archives">
+			<div id="calendar"></div>
+			<script>
+				$(document).ready(function() {
+					var blog_posts = Array();
+					
+							var count = "1";
+							var month = "09" - 1;
+							var blog_post = {year:"2013",month:month,day:"03",count:count,url:"/site/blog/2013/09/03"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "09" - 1;
+							var blog_post = {year:"2013",month:month,day:"12",count:count,url:"/site/blog/2013/09/12"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "09" - 1;
+							var blog_post = {year:"2013",month:month,day:"24",count:count,url:"/site/blog/2013/09/24"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "09" - 1;
+							var blog_post = {year:"2013",month:month,day:"27",count:count,url:"/site/blog/2013/09/27"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "08" - 1;
+							var blog_post = {year:"2013",month:month,day:"27",count:count,url:"/site/blog/2013/08/27"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "08" - 1;
+							var blog_post = {year:"2013",month:month,day:"28",count:count,url:"/site/blog/2013/08/28"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2013",month:month,day:"03",count:count,url:"/site/blog/2013/07/03"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "07" - 1;
+							var blog_post = {year:"2013",month:month,day:"26",count:count,url:"/site/blog/2013/07/26"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "06" - 1;
+							var blog_post = {year:"2013",month:month,day:"04",count:count,url:"/site/blog/2013/06/04"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "06" - 1;
+							var blog_post = {year:"2013",month:month,day:"06",count:count,url:"/site/blog/2013/06/06"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "06" - 1;
+							var blog_post = {year:"2013",month:month,day:"11",count:count,url:"/site/blog/2013/06/11"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "06" - 1;
+							var blog_post = {year:"2013",month:month,day:"13",count:count,url:"/site/blog/2013/06/13"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "06" - 1;
+							var blog_post = {year:"2013",month:month,day:"18",count:count,url:"/site/blog/2013/06/18"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "06" - 1;
+							var blog_post = {year:"2013",month:month,day:"26",count:count,url:"/site/blog/2013/06/26"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "06" - 1;
+							var blog_post = {year:"2013",month:month,day:"28",count:count,url:"/site/blog/2013/06/28"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "05" - 1;
+							var blog_post = {year:"2013",month:month,day:"03",count:count,url:"/site/blog/2013/05/03"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "05" - 1;
+							var blog_post = {year:"2013",month:month,day:"17",count:count,url:"/site/blog/2013/05/17"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "05" - 1;
+							var blog_post = {year:"2013",month:month,day:"24",count:count,url:"/site/blog/2013/05/24"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "05" - 1;
+							var blog_post = {year:"2013",month:month,day:"27",count:count,url:"/site/blog/2013/05/27"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "05" - 1;
+							var blog_post = {year:"2013",month:month,day:"28",count:count,url:"/site/blog/2013/05/28"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "05" - 1;
+							var blog_post = {year:"2013",month:month,day:"31",count:count,url:"/site/blog/2013/05/31"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "04" - 1;
+							var blog_post = {year:"2013",month:month,day:"01",count:count,url:"/site/blog/2013/04/01"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "04" - 1;
+							var blog_post = {year:"2013",month:month,day:"03",count:count,url:"/site/blog/2013/04/03"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "04" - 1;
+							var blog_post = {year:"2013",month:month,day:"05",count:count,url:"/site/blog/2013/04/05"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "04" - 1;
+							var blog_post = {year:"2013",month:month,day:"09",count:count,url:"/site/blog/2013/04/09"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "04" - 1;
+							var blog_post = {year:"2013",month:month,day:"15",count:count,url:"/site/blog/2013/04/15"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "04" - 1;
+							var blog_post = {year:"2013",month:month,day:"16",count:count,url:"/site/blog/2013/04/16"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2013",month:month,day:"05",count:count,url:"/site/blog/2013/03/05"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2013",month:month,day:"12",count:count,url:"/site/blog/2013/03/12"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "03" - 1;
+							var blog_post = {year:"2013",month:month,day:"19",count:count,url:"/site/blog/2013/03/19"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2013",month:month,day:"21",count:count,url:"/site/blog/2013/03/21"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2013",month:month,day:"26",count:count,url:"/site/blog/2013/03/26"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2013",month:month,day:"01",count:count,url:"/site/blog/2013/02/01"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2013",month:month,day:"05",count:count,url:"/site/blog/2013/02/05"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2013",month:month,day:"11",count:count,url:"/site/blog/2013/02/11"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2013",month:month,day:"12",count:count,url:"/site/blog/2013/02/12"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2013",month:month,day:"19",count:count,url:"/site/blog/2013/02/19"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2013",month:month,day:"25",count:count,url:"/site/blog/2013/02/25"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2013",month:month,day:"26",count:count,url:"/site/blog/2013/02/26"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "01" - 1;
+							var blog_post = {year:"2013",month:month,day:"08",count:count,url:"/site/blog/2013/01/08"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "01" - 1;
+							var blog_post = {year:"2013",month:month,day:"16",count:count,url:"/site/blog/2013/01/16"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "01" - 1;
+							var blog_post = {year:"2013",month:month,day:"22",count:count,url:"/site/blog/2013/01/22"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "01" - 1;
+							var blog_post = {year:"2013",month:month,day:"24",count:count,url:"/site/blog/2013/01/24"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "01" - 1;
+							var blog_post = {year:"2013",month:month,day:"29",count:count,url:"/site/blog/2013/01/29"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "12" - 1;
+							var blog_post = {year:"2012",month:month,day:"05",count:count,url:"/site/blog/2012/12/05"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "12" - 1;
+							var blog_post = {year:"2012",month:month,day:"12",count:count,url:"/site/blog/2012/12/12"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "12" - 1;
+							var blog_post = {year:"2012",month:month,day:"14",count:count,url:"/site/blog/2012/12/14"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "12" - 1;
+							var blog_post = {year:"2012",month:month,day:"17",count:count,url:"/site/blog/2012/12/17"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "12" - 1;
+							var blog_post = {year:"2012",month:month,day:"21",count:count,url:"/site/blog/2012/12/21"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "12" - 1;
+							var blog_post = {year:"2012",month:month,day:"25",count:count,url:"/site/blog/2012/12/25"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "11" - 1;
+							var blog_post = {year:"2012",month:month,day:"01",count:count,url:"/site/blog/2012/11/01"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "11" - 1;
+							var blog_post = {year:"2012",month:month,day:"06",count:count,url:"/site/blog/2012/11/06"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "11" - 1;
+							var blog_post = {year:"2012",month:month,day:"13",count:count,url:"/site/blog/2012/11/13"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "11" - 1;
+							var blog_post = {year:"2012",month:month,day:"20",count:count,url:"/site/blog/2012/11/20"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "11" - 1;
+							var blog_post = {year:"2012",month:month,day:"27",count:count,url:"/site/blog/2012/11/27"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2012",month:month,day:"01",count:count,url:"/site/blog/2012/10/01"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2012",month:month,day:"02",count:count,url:"/site/blog/2012/10/02"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2012",month:month,day:"05",count:count,url:"/site/blog/2012/10/05"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2012",month:month,day:"09",count:count,url:"/site/blog/2012/10/09"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2012",month:month,day:"16",count:count,url:"/site/blog/2012/10/16"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "10" - 1;
+							var blog_post = {year:"2012",month:month,day:"23",count:count,url:"/site/blog/2012/10/23"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2012",month:month,day:"26",count:count,url:"/site/blog/2012/10/26"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2012",month:month,day:"30",count:count,url:"/site/blog/2012/10/30"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "09" - 1;
+							var blog_post = {year:"2012",month:month,day:"04",count:count,url:"/site/blog/2012/09/04"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "09" - 1;
+							var blog_post = {year:"2012",month:month,day:"07",count:count,url:"/site/blog/2012/09/07"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "09" - 1;
+							var blog_post = {year:"2012",month:month,day:"14",count:count,url:"/site/blog/2012/09/14"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "09" - 1;
+							var blog_post = {year:"2012",month:month,day:"18",count:count,url:"/site/blog/2012/09/18"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "09" - 1;
+							var blog_post = {year:"2012",month:month,day:"25",count:count,url:"/site/blog/2012/09/25"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "08" - 1;
+							var blog_post = {year:"2012",month:month,day:"07",count:count,url:"/site/blog/2012/08/07"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "08" - 1;
+							var blog_post = {year:"2012",month:month,day:"09",count:count,url:"/site/blog/2012/08/09"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "08" - 1;
+							var blog_post = {year:"2012",month:month,day:"10",count:count,url:"/site/blog/2012/08/10"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "08" - 1;
+							var blog_post = {year:"2012",month:month,day:"13",count:count,url:"/site/blog/2012/08/13"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "08" - 1;
+							var blog_post = {year:"2012",month:month,day:"14",count:count,url:"/site/blog/2012/08/14"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "08" - 1;
+							var blog_post = {year:"2012",month:month,day:"15",count:count,url:"/site/blog/2012/08/15"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "08" - 1;
+							var blog_post = {year:"2012",month:month,day:"21",count:count,url:"/site/blog/2012/08/21"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "08" - 1;
+							var blog_post = {year:"2012",month:month,day:"24",count:count,url:"/site/blog/2012/08/24"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "08" - 1;
+							var blog_post = {year:"2012",month:month,day:"27",count:count,url:"/site/blog/2012/08/27"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "08" - 1;
+							var blog_post = {year:"2012",month:month,day:"29",count:count,url:"/site/blog/2012/08/29"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "08" - 1;
+							var blog_post = {year:"2012",month:month,day:"30",count:count,url:"/site/blog/2012/08/30"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2012",month:month,day:"04",count:count,url:"/site/blog/2012/07/04"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2012",month:month,day:"09",count:count,url:"/site/blog/2012/07/09"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2012",month:month,day:"10",count:count,url:"/site/blog/2012/07/10"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2012",month:month,day:"13",count:count,url:"/site/blog/2012/07/13"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2012",month:month,day:"17",count:count,url:"/site/blog/2012/07/17"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2012",month:month,day:"24",count:count,url:"/site/blog/2012/07/24"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2012",month:month,day:"28",count:count,url:"/site/blog/2012/07/28"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2012",month:month,day:"29",count:count,url:"/site/blog/2012/07/29"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "06" - 1;
+							var blog_post = {year:"2012",month:month,day:"04",count:count,url:"/site/blog/2012/06/04"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "06" - 1;
+							var blog_post = {year:"2012",month:month,day:"11",count:count,url:"/site/blog/2012/06/11"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "06" - 1;
+							var blog_post = {year:"2012",month:month,day:"12",count:count,url:"/site/blog/2012/06/12"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "06" - 1;
+							var blog_post = {year:"2012",month:month,day:"14",count:count,url:"/site/blog/2012/06/14"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "05" - 1;
+							var blog_post = {year:"2012",month:month,day:"04",count:count,url:"/site/blog/2012/05/04"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "05" - 1;
+							var blog_post = {year:"2012",month:month,day:"11",count:count,url:"/site/blog/2012/05/11"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "05" - 1;
+							var blog_post = {year:"2012",month:month,day:"14",count:count,url:"/site/blog/2012/05/14"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "05" - 1;
+							var blog_post = {year:"2012",month:month,day:"15",count:count,url:"/site/blog/2012/05/15"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "05" - 1;
+							var blog_post = {year:"2012",month:month,day:"24",count:count,url:"/site/blog/2012/05/24"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "05" - 1;
+							var blog_post = {year:"2012",month:month,day:"25",count:count,url:"/site/blog/2012/05/25"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "05" - 1;
+							var blog_post = {year:"2012",month:month,day:"28",count:count,url:"/site/blog/2012/05/28"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "04" - 1;
+							var blog_post = {year:"2012",month:month,day:"04",count:count,url:"/site/blog/2012/04/04"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "04" - 1;
+							var blog_post = {year:"2012",month:month,day:"05",count:count,url:"/site/blog/2012/04/05"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "04" - 1;
+							var blog_post = {year:"2012",month:month,day:"06",count:count,url:"/site/blog/2012/04/06"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "04" - 1;
+							var blog_post = {year:"2012",month:month,day:"12",count:count,url:"/site/blog/2012/04/12"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2012",month:month,day:"02",count:count,url:"/site/blog/2012/03/02"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2012",month:month,day:"03",count:count,url:"/site/blog/2012/03/03"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2012",month:month,day:"06",count:count,url:"/site/blog/2012/03/06"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2012",month:month,day:"08",count:count,url:"/site/blog/2012/03/08"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2012",month:month,day:"13",count:count,url:"/site/blog/2012/03/13"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "03" - 1;
+							var blog_post = {year:"2012",month:month,day:"20",count:count,url:"/site/blog/2012/03/20"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2012",month:month,day:"23",count:count,url:"/site/blog/2012/03/23"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2012",month:month,day:"31",count:count,url:"/site/blog/2012/03/31"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2012",month:month,day:"01",count:count,url:"/site/blog/2012/02/01"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "02" - 1;
+							var blog_post = {year:"2012",month:month,day:"06",count:count,url:"/site/blog/2012/02/06"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2012",month:month,day:"07",count:count,url:"/site/blog/2012/02/07"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2012",month:month,day:"09",count:count,url:"/site/blog/2012/02/09"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2012",month:month,day:"20",count:count,url:"/site/blog/2012/02/20"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2012",month:month,day:"21",count:count,url:"/site/blog/2012/02/21"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2012",month:month,day:"24",count:count,url:"/site/blog/2012/02/24"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2012",month:month,day:"29",count:count,url:"/site/blog/2012/02/29"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "01" - 1;
+							var blog_post = {year:"2012",month:month,day:"12",count:count,url:"/site/blog/2012/01/12"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "01" - 1;
+							var blog_post = {year:"2012",month:month,day:"17",count:count,url:"/site/blog/2012/01/17"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "01" - 1;
+							var blog_post = {year:"2012",month:month,day:"19",count:count,url:"/site/blog/2012/01/19"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "12" - 1;
+							var blog_post = {year:"2011",month:month,day:"10",count:count,url:"/site/blog/2011/12/10"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "12" - 1;
+							var blog_post = {year:"2011",month:month,day:"13",count:count,url:"/site/blog/2011/12/13"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "12" - 1;
+							var blog_post = {year:"2011",month:month,day:"21",count:count,url:"/site/blog/2011/12/21"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "12" - 1;
+							var blog_post = {year:"2011",month:month,day:"25",count:count,url:"/site/blog/2011/12/25"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "2";
+							var month = "11" - 1;
+							var blog_post = {year:"2011",month:month,day:"02",count:count,url:"/site/blog/2011/11/02"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "11" - 1;
+							var blog_post = {year:"2011",month:month,day:"03",count:count,url:"/site/blog/2011/11/03"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "11" - 1;
+							var blog_post = {year:"2011",month:month,day:"07",count:count,url:"/site/blog/2011/11/07"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "11" - 1;
+							var blog_post = {year:"2011",month:month,day:"11",count:count,url:"/site/blog/2011/11/11"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "11" - 1;
+							var blog_post = {year:"2011",month:month,day:"17",count:count,url:"/site/blog/2011/11/17"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "11" - 1;
+							var blog_post = {year:"2011",month:month,day:"27",count:count,url:"/site/blog/2011/11/27"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2011",month:month,day:"06",count:count,url:"/site/blog/2011/10/06"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2011",month:month,day:"10",count:count,url:"/site/blog/2011/10/10"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2011",month:month,day:"11",count:count,url:"/site/blog/2011/10/11"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2011",month:month,day:"14",count:count,url:"/site/blog/2011/10/14"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2011",month:month,day:"19",count:count,url:"/site/blog/2011/10/19"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2011",month:month,day:"21",count:count,url:"/site/blog/2011/10/21"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2011",month:month,day:"26",count:count,url:"/site/blog/2011/10/26"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2011",month:month,day:"31",count:count,url:"/site/blog/2011/10/31"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "09" - 1;
+							var blog_post = {year:"2011",month:month,day:"01",count:count,url:"/site/blog/2011/09/01"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "09" - 1;
+							var blog_post = {year:"2011",month:month,day:"07",count:count,url:"/site/blog/2011/09/07"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "09" - 1;
+							var blog_post = {year:"2011",month:month,day:"11",count:count,url:"/site/blog/2011/09/11"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "08" - 1;
+							var blog_post = {year:"2011",month:month,day:"13",count:count,url:"/site/blog/2011/08/13"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "08" - 1;
+							var blog_post = {year:"2011",month:month,day:"16",count:count,url:"/site/blog/2011/08/16"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "08" - 1;
+							var blog_post = {year:"2011",month:month,day:"31",count:count,url:"/site/blog/2011/08/31"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2011",month:month,day:"02",count:count,url:"/site/blog/2011/07/02"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2011",month:month,day:"04",count:count,url:"/site/blog/2011/07/04"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "07" - 1;
+							var blog_post = {year:"2011",month:month,day:"06",count:count,url:"/site/blog/2011/07/06"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2011",month:month,day:"08",count:count,url:"/site/blog/2011/07/08"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2011",month:month,day:"10",count:count,url:"/site/blog/2011/07/10"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2011",month:month,day:"13",count:count,url:"/site/blog/2011/07/13"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2011",month:month,day:"14",count:count,url:"/site/blog/2011/07/14"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2011",month:month,day:"25",count:count,url:"/site/blog/2011/07/25"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "06" - 1;
+							var blog_post = {year:"2011",month:month,day:"24",count:count,url:"/site/blog/2011/06/24"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "06" - 1;
+							var blog_post = {year:"2011",month:month,day:"25",count:count,url:"/site/blog/2011/06/25"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "06" - 1;
+							var blog_post = {year:"2011",month:month,day:"29",count:count,url:"/site/blog/2011/06/29"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "05" - 1;
+							var blog_post = {year:"2011",month:month,day:"25",count:count,url:"/site/blog/2011/05/25"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "05" - 1;
+							var blog_post = {year:"2011",month:month,day:"26",count:count,url:"/site/blog/2011/05/26"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "04" - 1;
+							var blog_post = {year:"2011",month:month,day:"06",count:count,url:"/site/blog/2011/04/06"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "04" - 1;
+							var blog_post = {year:"2011",month:month,day:"07",count:count,url:"/site/blog/2011/04/07"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "04" - 1;
+							var blog_post = {year:"2011",month:month,day:"08",count:count,url:"/site/blog/2011/04/08"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "04" - 1;
+							var blog_post = {year:"2011",month:month,day:"18",count:count,url:"/site/blog/2011/04/18"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "04" - 1;
+							var blog_post = {year:"2011",month:month,day:"21",count:count,url:"/site/blog/2011/04/21"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "04" - 1;
+							var blog_post = {year:"2011",month:month,day:"22",count:count,url:"/site/blog/2011/04/22"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2011",month:month,day:"02",count:count,url:"/site/blog/2011/03/02"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2011",month:month,day:"03",count:count,url:"/site/blog/2011/03/03"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2011",month:month,day:"08",count:count,url:"/site/blog/2011/03/08"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2011",month:month,day:"10",count:count,url:"/site/blog/2011/03/10"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2011",month:month,day:"18",count:count,url:"/site/blog/2011/03/18"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2011",month:month,day:"24",count:count,url:"/site/blog/2011/03/24"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2011",month:month,day:"09",count:count,url:"/site/blog/2011/02/09"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "02" - 1;
+							var blog_post = {year:"2011",month:month,day:"10",count:count,url:"/site/blog/2011/02/10"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2011",month:month,day:"18",count:count,url:"/site/blog/2011/02/18"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2011",month:month,day:"23",count:count,url:"/site/blog/2011/02/23"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2011",month:month,day:"25",count:count,url:"/site/blog/2011/02/25"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "01" - 1;
+							var blog_post = {year:"2011",month:month,day:"07",count:count,url:"/site/blog/2011/01/07"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "01" - 1;
+							var blog_post = {year:"2011",month:month,day:"12",count:count,url:"/site/blog/2011/01/12"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "01" - 1;
+							var blog_post = {year:"2011",month:month,day:"14",count:count,url:"/site/blog/2011/01/14"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "01" - 1;
+							var blog_post = {year:"2011",month:month,day:"22",count:count,url:"/site/blog/2011/01/22"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "01" - 1;
+							var blog_post = {year:"2011",month:month,day:"26",count:count,url:"/site/blog/2011/01/26"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "01" - 1;
+							var blog_post = {year:"2011",month:month,day:"27",count:count,url:"/site/blog/2011/01/27"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "12" - 1;
+							var blog_post = {year:"2010",month:month,day:"02",count:count,url:"/site/blog/2010/12/02"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "12" - 1;
+							var blog_post = {year:"2010",month:month,day:"09",count:count,url:"/site/blog/2010/12/09"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "3";
+							var month = "12" - 1;
+							var blog_post = {year:"2010",month:month,day:"17",count:count,url:"/site/blog/2010/12/17"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "12" - 1;
+							var blog_post = {year:"2010",month:month,day:"21",count:count,url:"/site/blog/2010/12/21"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "11" - 1;
+							var blog_post = {year:"2010",month:month,day:"09",count:count,url:"/site/blog/2010/11/09"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "11" - 1;
+							var blog_post = {year:"2010",month:month,day:"11",count:count,url:"/site/blog/2010/11/11"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "11" - 1;
+							var blog_post = {year:"2010",month:month,day:"18",count:count,url:"/site/blog/2010/11/18"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "11" - 1;
+							var blog_post = {year:"2010",month:month,day:"20",count:count,url:"/site/blog/2010/11/20"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "11" - 1;
+							var blog_post = {year:"2010",month:month,day:"23",count:count,url:"/site/blog/2010/11/23"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2010",month:month,day:"01",count:count,url:"/site/blog/2010/10/01"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2010",month:month,day:"06",count:count,url:"/site/blog/2010/10/06"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2010",month:month,day:"15",count:count,url:"/site/blog/2010/10/15"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2010",month:month,day:"20",count:count,url:"/site/blog/2010/10/20"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2010",month:month,day:"22",count:count,url:"/site/blog/2010/10/22"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2010",month:month,day:"26",count:count,url:"/site/blog/2010/10/26"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2010",month:month,day:"29",count:count,url:"/site/blog/2010/10/29"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "09" - 1;
+							var blog_post = {year:"2010",month:month,day:"02",count:count,url:"/site/blog/2010/09/02"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "09" - 1;
+							var blog_post = {year:"2010",month:month,day:"16",count:count,url:"/site/blog/2010/09/16"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "09" - 1;
+							var blog_post = {year:"2010",month:month,day:"20",count:count,url:"/site/blog/2010/09/20"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "09" - 1;
+							var blog_post = {year:"2010",month:month,day:"28",count:count,url:"/site/blog/2010/09/28"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "09" - 1;
+							var blog_post = {year:"2010",month:month,day:"29",count:count,url:"/site/blog/2010/09/29"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "09" - 1;
+							var blog_post = {year:"2010",month:month,day:"30",count:count,url:"/site/blog/2010/09/30"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "08" - 1;
+							var blog_post = {year:"2010",month:month,day:"02",count:count,url:"/site/blog/2010/08/02"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "08" - 1;
+							var blog_post = {year:"2010",month:month,day:"06",count:count,url:"/site/blog/2010/08/06"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "08" - 1;
+							var blog_post = {year:"2010",month:month,day:"12",count:count,url:"/site/blog/2010/08/12"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "08" - 1;
+							var blog_post = {year:"2010",month:month,day:"18",count:count,url:"/site/blog/2010/08/18"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "08" - 1;
+							var blog_post = {year:"2010",month:month,day:"19",count:count,url:"/site/blog/2010/08/19"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "08" - 1;
+							var blog_post = {year:"2010",month:month,day:"27",count:count,url:"/site/blog/2010/08/27"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "08" - 1;
+							var blog_post = {year:"2010",month:month,day:"31",count:count,url:"/site/blog/2010/08/31"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2010",month:month,day:"01",count:count,url:"/site/blog/2010/07/01"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2010",month:month,day:"02",count:count,url:"/site/blog/2010/07/02"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2010",month:month,day:"08",count:count,url:"/site/blog/2010/07/08"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2010",month:month,day:"14",count:count,url:"/site/blog/2010/07/14"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2010",month:month,day:"19",count:count,url:"/site/blog/2010/07/19"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2010",month:month,day:"21",count:count,url:"/site/blog/2010/07/21"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2010",month:month,day:"26",count:count,url:"/site/blog/2010/07/26"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2010",month:month,day:"27",count:count,url:"/site/blog/2010/07/27"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2010",month:month,day:"30",count:count,url:"/site/blog/2010/07/30"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "06" - 1;
+							var blog_post = {year:"2010",month:month,day:"02",count:count,url:"/site/blog/2010/06/02"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "06" - 1;
+							var blog_post = {year:"2010",month:month,day:"03",count:count,url:"/site/blog/2010/06/03"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "06" - 1;
+							var blog_post = {year:"2010",month:month,day:"11",count:count,url:"/site/blog/2010/06/11"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "06" - 1;
+							var blog_post = {year:"2010",month:month,day:"25",count:count,url:"/site/blog/2010/06/25"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "06" - 1;
+							var blog_post = {year:"2010",month:month,day:"26",count:count,url:"/site/blog/2010/06/26"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "05" - 1;
+							var blog_post = {year:"2010",month:month,day:"19",count:count,url:"/site/blog/2010/05/19"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "05" - 1;
+							var blog_post = {year:"2010",month:month,day:"21",count:count,url:"/site/blog/2010/05/21"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "05" - 1;
+							var blog_post = {year:"2010",month:month,day:"24",count:count,url:"/site/blog/2010/05/24"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "05" - 1;
+							var blog_post = {year:"2010",month:month,day:"25",count:count,url:"/site/blog/2010/05/25"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "05" - 1;
+							var blog_post = {year:"2010",month:month,day:"27",count:count,url:"/site/blog/2010/05/27"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "04" - 1;
+							var blog_post = {year:"2010",month:month,day:"04",count:count,url:"/site/blog/2010/04/04"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "04" - 1;
+							var blog_post = {year:"2010",month:month,day:"09",count:count,url:"/site/blog/2010/04/09"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "04" - 1;
+							var blog_post = {year:"2010",month:month,day:"19",count:count,url:"/site/blog/2010/04/19"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "04" - 1;
+							var blog_post = {year:"2010",month:month,day:"20",count:count,url:"/site/blog/2010/04/20"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "04" - 1;
+							var blog_post = {year:"2010",month:month,day:"21",count:count,url:"/site/blog/2010/04/21"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "04" - 1;
+							var blog_post = {year:"2010",month:month,day:"23",count:count,url:"/site/blog/2010/04/23"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "04" - 1;
+							var blog_post = {year:"2010",month:month,day:"30",count:count,url:"/site/blog/2010/04/30"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2010",month:month,day:"02",count:count,url:"/site/blog/2010/03/02"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2010",month:month,day:"03",count:count,url:"/site/blog/2010/03/03"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2010",month:month,day:"06",count:count,url:"/site/blog/2010/03/06"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2010",month:month,day:"07",count:count,url:"/site/blog/2010/03/07"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2010",month:month,day:"10",count:count,url:"/site/blog/2010/03/10"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "03" - 1;
+							var blog_post = {year:"2010",month:month,day:"11",count:count,url:"/site/blog/2010/03/11"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "03" - 1;
+							var blog_post = {year:"2010",month:month,day:"12",count:count,url:"/site/blog/2010/03/12"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "03" - 1;
+							var blog_post = {year:"2010",month:month,day:"13",count:count,url:"/site/blog/2010/03/13"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2010",month:month,day:"17",count:count,url:"/site/blog/2010/03/17"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2010",month:month,day:"18",count:count,url:"/site/blog/2010/03/18"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "3";
+							var month = "03" - 1;
+							var blog_post = {year:"2010",month:month,day:"19",count:count,url:"/site/blog/2010/03/19"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2010",month:month,day:"22",count:count,url:"/site/blog/2010/03/22"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2010",month:month,day:"24",count:count,url:"/site/blog/2010/03/24"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2010",month:month,day:"06",count:count,url:"/site/blog/2010/02/06"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2010",month:month,day:"07",count:count,url:"/site/blog/2010/02/07"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2010",month:month,day:"09",count:count,url:"/site/blog/2010/02/09"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2010",month:month,day:"10",count:count,url:"/site/blog/2010/02/10"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "02" - 1;
+							var blog_post = {year:"2010",month:month,day:"12",count:count,url:"/site/blog/2010/02/12"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2010",month:month,day:"13",count:count,url:"/site/blog/2010/02/13"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2010",month:month,day:"15",count:count,url:"/site/blog/2010/02/15"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2010",month:month,day:"18",count:count,url:"/site/blog/2010/02/18"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "02" - 1;
+							var blog_post = {year:"2010",month:month,day:"19",count:count,url:"/site/blog/2010/02/19"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2010",month:month,day:"20",count:count,url:"/site/blog/2010/02/20"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2010",month:month,day:"23",count:count,url:"/site/blog/2010/02/23"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2010",month:month,day:"24",count:count,url:"/site/blog/2010/02/24"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2010",month:month,day:"25",count:count,url:"/site/blog/2010/02/25"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "02" - 1;
+							var blog_post = {year:"2010",month:month,day:"26",count:count,url:"/site/blog/2010/02/26"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "01" - 1;
+							var blog_post = {year:"2010",month:month,day:"02",count:count,url:"/site/blog/2010/01/02"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "01" - 1;
+							var blog_post = {year:"2010",month:month,day:"09",count:count,url:"/site/blog/2010/01/09"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "01" - 1;
+							var blog_post = {year:"2010",month:month,day:"14",count:count,url:"/site/blog/2010/01/14"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "01" - 1;
+							var blog_post = {year:"2010",month:month,day:"16",count:count,url:"/site/blog/2010/01/16"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "01" - 1;
+							var blog_post = {year:"2010",month:month,day:"19",count:count,url:"/site/blog/2010/01/19"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "01" - 1;
+							var blog_post = {year:"2010",month:month,day:"26",count:count,url:"/site/blog/2010/01/26"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "01" - 1;
+							var blog_post = {year:"2010",month:month,day:"27",count:count,url:"/site/blog/2010/01/27"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "01" - 1;
+							var blog_post = {year:"2010",month:month,day:"28",count:count,url:"/site/blog/2010/01/28"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "01" - 1;
+							var blog_post = {year:"2010",month:month,day:"30",count:count,url:"/site/blog/2010/01/30"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "12" - 1;
+							var blog_post = {year:"2009",month:month,day:"02",count:count,url:"/site/blog/2009/12/02"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "12" - 1;
+							var blog_post = {year:"2009",month:month,day:"03",count:count,url:"/site/blog/2009/12/03"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "12" - 1;
+							var blog_post = {year:"2009",month:month,day:"05",count:count,url:"/site/blog/2009/12/05"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "12" - 1;
+							var blog_post = {year:"2009",month:month,day:"09",count:count,url:"/site/blog/2009/12/09"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "12" - 1;
+							var blog_post = {year:"2009",month:month,day:"11",count:count,url:"/site/blog/2009/12/11"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "12" - 1;
+							var blog_post = {year:"2009",month:month,day:"12",count:count,url:"/site/blog/2009/12/12"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "12" - 1;
+							var blog_post = {year:"2009",month:month,day:"16",count:count,url:"/site/blog/2009/12/16"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "12" - 1;
+							var blog_post = {year:"2009",month:month,day:"18",count:count,url:"/site/blog/2009/12/18"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "12" - 1;
+							var blog_post = {year:"2009",month:month,day:"19",count:count,url:"/site/blog/2009/12/19"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "12" - 1;
+							var blog_post = {year:"2009",month:month,day:"23",count:count,url:"/site/blog/2009/12/23"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "12" - 1;
+							var blog_post = {year:"2009",month:month,day:"30",count:count,url:"/site/blog/2009/12/30"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "11" - 1;
+							var blog_post = {year:"2009",month:month,day:"12",count:count,url:"/site/blog/2009/11/12"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "11" - 1;
+							var blog_post = {year:"2009",month:month,day:"20",count:count,url:"/site/blog/2009/11/20"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "11" - 1;
+							var blog_post = {year:"2009",month:month,day:"21",count:count,url:"/site/blog/2009/11/21"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "11" - 1;
+							var blog_post = {year:"2009",month:month,day:"25",count:count,url:"/site/blog/2009/11/25"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "11" - 1;
+							var blog_post = {year:"2009",month:month,day:"27",count:count,url:"/site/blog/2009/11/27"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2009",month:month,day:"05",count:count,url:"/site/blog/2009/10/05"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2009",month:month,day:"15",count:count,url:"/site/blog/2009/10/15"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2009",month:month,day:"16",count:count,url:"/site/blog/2009/10/16"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2009",month:month,day:"17",count:count,url:"/site/blog/2009/10/17"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2009",month:month,day:"21",count:count,url:"/site/blog/2009/10/21"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "10" - 1;
+							var blog_post = {year:"2009",month:month,day:"23",count:count,url:"/site/blog/2009/10/23"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2009",month:month,day:"28",count:count,url:"/site/blog/2009/10/28"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2009",month:month,day:"29",count:count,url:"/site/blog/2009/10/29"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "2";
+							var month = "10" - 1;
+							var blog_post = {year:"2009",month:month,day:"30",count:count,url:"/site/blog/2009/10/30"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "09" - 1;
+							var blog_post = {year:"2009",month:month,day:"09",count:count,url:"/site/blog/2009/09/09"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "09" - 1;
+							var blog_post = {year:"2009",month:month,day:"10",count:count,url:"/site/blog/2009/09/10"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "09" - 1;
+							var blog_post = {year:"2009",month:month,day:"15",count:count,url:"/site/blog/2009/09/15"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "09" - 1;
+							var blog_post = {year:"2009",month:month,day:"28",count:count,url:"/site/blog/2009/09/28"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2009",month:month,day:"06",count:count,url:"/site/blog/2009/07/06"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2009",month:month,day:"21",count:count,url:"/site/blog/2009/07/21"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "07" - 1;
+							var blog_post = {year:"2009",month:month,day:"31",count:count,url:"/site/blog/2009/07/31"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "06" - 1;
+							var blog_post = {year:"2009",month:month,day:"24",count:count,url:"/site/blog/2009/06/24"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "2";
+							var month = "03" - 1;
+							var blog_post = {year:"2009",month:month,day:"11",count:count,url:"/site/blog/2009/03/11"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2009",month:month,day:"30",count:count,url:"/site/blog/2009/03/30"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "02" - 1;
+							var blog_post = {year:"2009",month:month,day:"02",count:count,url:"/site/blog/2009/02/02"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "01" - 1;
+							var blog_post = {year:"2009",month:month,day:"10",count:count,url:"/site/blog/2009/01/10"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+
+							var count = "1";
+							var month = "10" - 1;
+							var blog_post = {year:"2008",month:month,day:"30",count:count,url:"/site/blog/2008/10/30"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "3";
+							var month = "09" - 1;
+							var blog_post = {year:"2008",month:month,day:"04",count:count,url:"/site/blog/2008/09/04"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "04" - 1;
+							var blog_post = {year:"2008",month:month,day:"11",count:count,url:"/site/blog/2008/04/11"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+
+							var count = "1";
+							var month = "03" - 1;
+							var blog_post = {year:"2008",month:month,day:"03",count:count,url:"/site/blog/2008/03/03"};//month begins with 0 - jan = 0, dec = 11
+							blog_posts.push(blog_post);
+						
+ 
+					bc = new BlogCalendar('#calendar',blog_posts);
+				});						
+			</script>
+		</div>
+	</div>
+	<div class="blog_item">
+		
+	</div>
+	<div class="blog_item">
+		<div class="blog_item_inner blog_item_facebook">
+			<iframe src="//www.facebook.com/plugins/activity.php?site=www.naughtydog.com&amp;width=235&amp;height=300&amp;header=false&amp;colorscheme=light&amp;linktarget=_blank&amp;border_color&amp;font=trebuchet+ms&amp;recommendations=true&amp;appId=132279440184888" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:235px; height:300px;" allowTransparency="true"></iframe>
+		</div>
+	</div>
+	<div class="blog_item">
+		<h2 class="green"><span class="nobold">___ </span><span class="weight_normal" style="letter-spacing:-.05em">MOST COMMENTED POSTS</span></h2>
+		<div class="blog_item_inner blog_item_comments">
+						
+		</div>
+	</div>
+	<div class="blog_item">
+		
+			<div class="blog_item_inner blog_item_preorder">
+				<a href="games/uncharted_freetoplay/"><div class="blog_item_preorder_img"><img src="http://www.naughtydog.com/images_blog/F2P_CallOut.jpg" width="222" height="101" /></div></a>
+				<a href="games/uncharted_freetoplay/"><h2 class="generic_title">| Uncharted 3 Free To Play</h2></a>
+				<p>Check out the Uncharted 3 Multiplayer Free To Play</p>
+			</div>
+		
+			<div class="blog_item_inner blog_item_preorder">
+				<a href="http://www.naughtydog.com/games/uncharted_tournament/"><div class="blog_item_preorder_img"><img src="http://www.naughtydog.com/images_blog/ByrEV64A7ucKAuPpDyTdYQL89C7VaiET8U5amYm-qY.jpeg" width="222" height="101" /></div></a>
+				<a href="http://www.naughtydog.com/games/uncharted_tournament/"><h2 class="generic_title">| Uncharted 3 Tournament</h2></a>
+				<p>Check out the Uncharted 3 Tournament</p>
+			</div>
+		
+			<div class="blog_item_inner blog_item_preorder">
+				<a href="http://unchartedthegame.com/e3/preorder.php?utm_source=nd_preorder_image&utm_medium=image&utm_campaign=naughtydog_front_door"><div class="blog_item_preorder_img"><img src="http://www.naughtydog.com/images/uploads/uc3_preorder_01.png" style="border: 0;" alt="image" width="222" height="101" /></div></a>
+				<a href="http://unchartedthegame.com/e3/preorder.php?utm_source=nd_preorder_image&utm_medium=image&utm_campaign=naughtydog_front_door"><h2 class="generic_title">| Buy UNCHARTED 3</h2></a>
+				<p>Uncover the Truth 11-1-11</p>
+			</div>
+		
+	</div>
+	<div class="blog_item">
+		<h2 class="cyan"><span class="nobold">___ </span><span class="weight_normal">POPULAR TWITTER POSTS</span></h2>
+		<div class="blog_item_inner blog_item_tweets">
+											
+		</div>
+	</div>
+</div>
+					</div>
+				<div id="footer">
+	<div id="footer_left">
+		<ul>
+			<li><a class="big" href="http://www.naughtydog.com/blog/">blog</a></li>
+			<li><a class="big" href="http://www.naughtydog.com/games/">games</a></li>
+			<li><a class="big" href="http://www.naughtydog.com/company/">company</a> <span class="footer_triangle"></span> <a href="http://www.naughtydog.com/company/">About</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.naughtydog.com/contact/">Contact</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.naughtydog.com/blog/C7/">Press</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.naughtydog.com/work/">Careers</a></li>
+			<li><a class="big" href="#">media</a> <span class="footer_triangle"></span> <a href="http://www.naughtydog.com/site/gallery/">Photo Gallery</a>&nbsp;&nbsp;|&nbsp;&nbsp;Videos</li>
+		</ul>
+	</div>
+	<div id="footer_right">
+		<div id="footer_right_line2">
+			<ul>
+				<li><div class="ib ps_legal" style="padding-top:20px"></div></li>
+				<li><div class="ib sce_legal" style="padding-top:20px"></div></li>
+				<li class="esrb_privacy"><a href="http://us.playstation.com/support/privacypolicy/index.htm" target="_blank"><img src="/assets/site/images/global/esrb_privacy_policy_small.png" class="ib"></a></li>
+				<li class="esrb"><a href="http://www.esrb.org/" target="_blank"><img src="/assets/site/images/global/esrb_e-m.png" class="ib"></a></li>
+			</ul>	
+		</div>
+		<div id="footer_right_line2_legal">
+			<p><a href="http://www.us.playstation.com/Support/PrivacyPolicy">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+			<p>&copy; 2013 Sony Computer Entertainment America LLC. UNCHARTED and UNCHARTED 3: Drake's Deception are trademarks of Sony Computer Entertainment America LLC.  Created and developed by Naughty Dog, Inc.</p>
+		</div>
+	</div>
+	<div id="footer_social_line">
+		<ul>
+			<li><a target="_blank" href="http://www.facebook.com/naughtydog"><div class="ib footer_fb_icon"></div>/naughtydog</a></li>
+			<li><a target="_blank" href="http://twitter.com/#!/naughty_dog"><div class="ib footer_twitter_icon"></div>/naughty_dog</a></li>
+			<li><a target="_blank" href="http://www.youtube.com/user/NaughtyDog"><div class="ib footer_youtube_icon"></div>/NaughtyDog</a></li>
+			<li><a target="_blank" href="http://www.flickr.com/photos/naughty_dog/"><div class="ib footer_flickr_icon"></div>/naughty_dog</a></li>
+			<li><a target="_blank" href="http://naughty-dog.tumblr.com/"><div class="ib footer_tumblr_icon"></div>/naughty-dog</a></li>
+			<li><a target="_blank" href="http://feeds.feedburner.com/NaughtyDog"><div class="ib footer_rss_icon"></div>RSS</a></li>
+		</ul>
+	</div>
+</div> <!--footer -->  
+
+<script type="text/javascript" language="javascript" src="/js/css_browser_selector.js"></script>
+<script src="/js/ga_social_tracking.js"></script>
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8013365-1']);
+  _gaq.push(['_setDomainName', 'naughtydog.com']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_trackPageview', 'http://www.naughtydog.com/uc3_stats/game_history.php']);
+  _gaq.push(['_trackPageview', 'http://www.naughtydog.com/uc3_stats/game_detail_history.php']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script>
+  (function(){
+    var twitterWidgets = document.createElement('script');
+    twitterWidgets.type = 'text/javascript';
+    twitterWidgets.async = true;
+    twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+    twitterWidgets.onload = _ga.trackTwitter;
+
+    document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+  })();
+</script>
+<script>
+	_ga.trackSocial();
+	if(typeof(FB) != 'undefined' && FB != null){
+		FB.Event.subscribe('edge.create', function(targetUrl){_gaq.push(['_trackSocial','facebook','like',targetUrl]);});
+		FB.Event.subscribe('edge.remove', function(targetUrl){_gaq.push(['_trackSocial','facebook','unlike',targetUrl]);});
+		FB.Event.subscribe('message.send', function(targetUrl){
+			_gaq.push(['_trackSocial', 'facebook','send',targetUrl]);
+		});
+	}
+	
+	function trackTwitter(intent_event){
+		if(intent_event){
+			var opt_pagePath;
+			if(intent_event.target && intent_event.target.nodeName == 'IFRAME'){
+				opt_target = extractParamFromUri(intent_event.targetr.src, 'url');
+			}
+			_gaq.push(['_trackSocial', 'twitter', 'tweet', opt_pagePath]);
+		}
+	}
+	
+	// twttr.ready(function (twttr){
+	// 	twttr.events.bind('tweet', trackTwitter);
+	// });
+</script>
+<script type="text/javascript">Cufon.now();</script>
+			</div>
+		</div>
+		<script type="text/javascript" language="javascript" src="http://widgets.digg.com/buttons.js"></script>
+		<script type="text/javascript" src="http://platform.tumblr.com/v1/share.js"></script>
+		<script type="text/javascript">(function() {var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;po.src = 'https://apis.google.com/js/plusone.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);})();</script>
+	</body>
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset=UTF-8">
+	<title>Design next generation responsive designs for iOS7 with Edge Reflow CC and CSS Regions–A story of collaboration  |   Web Platform Team Blog</title>
+	<meta name="viewport" content="width=device-width" >
+	<!--[if lte IE 9]><link rel="stylesheet" href="/_/css/ie.css" type="text/css" media="screen" /><![endif]-->
+	<!--[if lt IE 9]><script src="/_/js/modernizr.custom.95873.js"></script><![endif]-->
+	<link rel="stylesheet" href="http://blogs.adobe.com/webplatform/wp-content/themes/webplatformtheme/screen.css" type="text/css" media="screen">
+	<link rel="shortcut icon" href="http://html.adobe.com/_/img/favicon.ico">
+    <link rel="alternate" href="http://blogs.adobe.com/webplatform/feed/" title="Web Platform Team Blog" type="application/rss+xml"/>
+	<script type="text/javascript" src="http://blogs.adobe.com/webplatform/wp-content/themes/webplatformtheme/js/vze1tyc.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/dnq4oot.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<link rel='stylesheet' id='wp-syntax-css-css'  href='http://blogs.adobe.com/webplatform/wp-content/plugins/wp-syntax/css/wp-syntax.css?ver=1.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://blogs.adobe.com/webplatform/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://blogs.adobe.com/webplatform/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blogs.adobe.com/webplatform/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blogs.adobe.com/webplatform/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='iOS 7 Safari &amp; New Web Platform Features' href='http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/' />
+<link rel='next' title='Introducing ShaderDSL.js: Web Developer friendly syntax for WebGL Shaders' href='http://blogs.adobe.com/webplatform/2013/09/30/introducing-shaderdsl-js-web-developer-friendly-syntax-for-webgl-shaders/' />
+<link rel='canonical' href='http://blogs.adobe.com/webplatform/2013/09/23/design-next-generation-responsive-designs-for-ios7-with-edge-reflow-cc-and-css-regions-a-story-of-collaboration/' />
+<link rel='shortlink' href='http://blogs.adobe.com/webplatform/?p=4925' />
+
+<!--Plugin WP Missed Schedule 2011.0920.2011 Active--><style type="text/css" id="syntaxhighlighteranchor"></style>
+</head>
+<body>
+	<header role="banner">
+		<div class="container clearfix">
+			<a class="blog-title" href="http://blogs.adobe.com/webplatform">Web Platform Team Blog</a>
+							<nav role="navigation">
+					<ul id="header_nav" class="menu"><li id="menu-item-1359" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1359"><a href="http://blogs.adobe.com/webplatform/">Home</a></li>
+<li id="menu-item-1358" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1358"><a href="http://blogs.adobe.com/webplatform/about/">About</a></li>
+</ul>				</nav>
+						<h2><a href="http://www.adobe.com/">Adobe</a></h2>
+		</div>
+	</header>
+	<section id="subheader" role="region">
+		<div class="container row">
+			<div class="holder-title">
+				<img src="http://blogs.adobe.com/webplatform/wp-content/themes/webplatformtheme/images/decor.png" alt="decor">
+				<h2>Making the web awesome</h2>
+			</div>
+		</div>
+	</section>
+	<section id="main" class="home-page">
+		<div class="row">
+				<div id="section_nav" class="threecol">
+		<div class="widget widget_text">			<a href="http://twitter.com/adobeweb"><img src="http://mystaging.org/webplatform/wp-content/themes/webplatform2/images/ico-twitter.gif" alt="twitter">
+<span class="holder-contact-inf">
+	<span class="follow-link">Follow us on Twitter</span>
+      @adobeweb
+</span>	
+</a>		</div><div class="widget widget_search"><form method="get" class="searchform" id="searchform" action="http://blogs.adobe.com/webplatform" >
+	<label style="display:none;" for="s" class="screen-reader-text">Search for:</label>
+	<input type="text" id="s" name="s" value="Search" />
+	<input type="submit" value="Search" class="searchsubmit" />
+</form>
+</div><div class="widget widget_categories"><h3>Categories</h3>		<ul>
+	<li class="cat-item cat-item-33"><a href="http://blogs.adobe.com/webplatform/category/features/css-compositing/" title="Blogs in this category discuss the CSS Compositing effort in the FX task force: https://dvcs.w3.org/hg/FXTF/raw-file/4b53107dd95d/compositing/index.html">Blend Modes</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://blogs.adobe.com/webplatform/category/community-events/" title="View all posts filed under Community Events">Community Events</a>
+</li>
+	<li class="cat-item cat-item-15"><a href="http://blogs.adobe.com/webplatform/category/features/css-shaders/" title="View all posts filed under CSS Shaders">CSS Shaders</a>
+</li>
+	<li class="cat-item cat-item-258"><a href="http://blogs.adobe.com/webplatform/category/features/css-text/" title="View all posts filed under CSS Text">CSS Text</a>
+</li>
+	<li class="cat-item cat-item-245"><a href="http://blogs.adobe.com/webplatform/category/features/css-custom-filters/" title="View all posts filed under Custom Filters">Custom Filters</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://blogs.adobe.com/webplatform/category/features/css-exclusions/" title="View all posts filed under Exclusions">Exclusions</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://blogs.adobe.com/webplatform/category/features/image-events/" title="View all posts filed under Image Events">Image Events</a>
+</li>
+	<li class="cat-item cat-item-266"><a href="http://blogs.adobe.com/webplatform/category/links-of-interest/" title="View all posts filed under Links of Interest">Links of Interest</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://blogs.adobe.com/webplatform/category/news/" title="View all posts filed under News">News</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://blogs.adobe.com/webplatform/category/features/css-regions/" title="View all posts filed under Regions">Regions</a>
+</li>
+	<li class="cat-item cat-item-267"><a href="http://blogs.adobe.com/webplatform/category/features/css-shapes/" title="View all posts filed under Shapes">Shapes</a>
+</li>
+	<li class="cat-item cat-item-28"><a href="http://blogs.adobe.com/webplatform/category/features/svg/" title="View all posts filed under SVG">SVG</a>
+</li>
+	<li class="cat-item cat-item-240"><a href="http://blogs.adobe.com/webplatform/category/features/testing/" title="View all posts filed under Testing">Testing</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://blogs.adobe.com/webplatform/category/tips-and-tricks/" title="View all posts filed under Tips and Tricks">Tips and Tricks</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://blogs.adobe.com/webplatform/category/features/transforms/" title="View all posts filed under Transforms">Transforms</a>
+</li>
+	<li class="cat-item cat-item-257"><a href="http://blogs.adobe.com/webplatform/category/features/web-animations/" title="View all posts filed under Web Animations">Web Animations</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://blogs.adobe.com/webplatform/category/features/" title="View all posts filed under Web Platform Features">Web Platform Features</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="http://blogs.adobe.com/webplatform/category/webkit/" title="View all posts filed under WebKit">WebKit</a>
+</li>
+		</ul>
+</div><div class="widget widget_archive"><h3>Archives</h3>		<ul>
+			<li><a href='http://blogs.adobe.com/webplatform/2013/09/' title='September 2013'>September 2013</a></li>
+	<li><a href='http://blogs.adobe.com/webplatform/2013/08/' title='August 2013'>August 2013</a></li>
+	<li><a href='http://blogs.adobe.com/webplatform/2013/07/' title='July 2013'>July 2013</a></li>
+	<li><a href='http://blogs.adobe.com/webplatform/2013/06/' title='June 2013'>June 2013</a></li>
+	<li><a href='http://blogs.adobe.com/webplatform/2013/05/' title='May 2013'>May 2013</a></li>
+	<li><a href='http://blogs.adobe.com/webplatform/2013/04/' title='April 2013'>April 2013</a></li>
+	<li><a href='http://blogs.adobe.com/webplatform/2013/03/' title='March 2013'>March 2013</a></li>
+	<li><a href='http://blogs.adobe.com/webplatform/2013/02/' title='February 2013'>February 2013</a></li>
+	<li><a href='http://blogs.adobe.com/webplatform/2013/01/' title='January 2013'>January 2013</a></li>
+	<li><a href='http://blogs.adobe.com/webplatform/2012/12/' title='December 2012'>December 2012</a></li>
+	<li><a href='http://blogs.adobe.com/webplatform/2012/11/' title='November 2012'>November 2012</a></li>
+	<li><a href='http://blogs.adobe.com/webplatform/2012/10/' title='October 2012'>October 2012</a></li>
+	<li><a href='http://blogs.adobe.com/webplatform/2012/09/' title='September 2012'>September 2012</a></li>
+	<li><a href='http://blogs.adobe.com/webplatform/2012/08/' title='August 2012'>August 2012</a></li>
+	<li><a href='http://blogs.adobe.com/webplatform/2012/07/' title='July 2012'>July 2012</a></li>
+	<li><a href='http://blogs.adobe.com/webplatform/2012/06/' title='June 2012'>June 2012</a></li>
+	<li><a href='http://blogs.adobe.com/webplatform/2012/05/' title='May 2012'>May 2012</a></li>
+	<li><a href='http://blogs.adobe.com/webplatform/2012/04/' title='April 2012'>April 2012</a></li>
+	<li><a href='http://blogs.adobe.com/webplatform/2012/03/' title='March 2012'>March 2012</a></li>
+	<li><a href='http://blogs.adobe.com/webplatform/2012/01/' title='January 2012'>January 2012</a></li>
+		</ul>
+</div><div class="widget widget_meta"><h3>Meta</h3>			<ul>
+						<li><a href="http://blogs.adobe.com/webplatform/wp-login.php">Log in</a></li>
+			<li><a href="http://blogs.adobe.com/webplatform/feed/" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://blogs.adobe.com/webplatform/comments/feed/" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>						</ul>
+</div>					<nav role="navigation">
+				<ul>
+									</ul>
+			</nav>
+			</div>
+	<div class="ninecol last">
+									<div class="navigation" id="nav-above">
+					<div class="nav-previous"><a href="http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/" rel="prev"><span class="meta-nav">&larr;</span> Previous post</a></div>
+					<div class="nav-next"><a href="http://blogs.adobe.com/webplatform/2013/09/30/introducing-shaderdsl-js-web-developer-friendly-syntax-for-webgl-shaders/" rel="next">Next post <span class="meta-nav">&rarr;</span></a></div>
+				</div>
+				<article class="post-block single">			
+					<h1 class="balance-text">Design next generation responsive designs for iOS7 with Edge Reflow CC and CSS Regions–A story of collaboration</h1>
+					<div class="entry-meta">
+						<span class="sep">Posted on </span>
+												<a href="http://blogs.adobe.com/webplatform/2013/09/23/">September 23, 2013</a>
+						<span class="byline">by Vincent Hardy</span>
+					</div>				
+				<div class="entry-content">
+					<p dir="ltr">Apple recently announced its <a href="http://www.apple.com/pr/library/2013/06/10Apple-Unveils-iOS-7.html">official release of iOS 7</a> . This is a release packed with very significant changes, in particular a radical transition for the iOS user interface design and user experience.</p>
+<p dir="ltr">Part of the updates to iOS 7 is an upgrade of <a href="http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/">mobile Safari which comes with multiple new features</a>. One of these features is <a href="http://html.adobe.com/webplatform/layout/regions/">CSS regions</a>. CSS regions is a revolutionary <a href="http://dev.w3.org/csswg/css-regions/">CSS specification draft</a> that allows a deeper separation of concerns in the way designers and developers structure their content and layout. They can now manage the way content should flow across different regions of the page design (hence the name CSS Regions) separately from the content itself . Then content can now be made to flow in different chains of regions, typically laid out differently for a mobile, tablet or desktop/laptop use.</p>
+<p dir="ltr"><img alt="" src="https://lh5.googleusercontent.com/2UbSksyPBiXeaHWpogdqAzjk6NuzTCa9WGUMVbBhsPkcIWnxFVxGt3Qh7XWHPbxq2SSJ-5OhObs12a5JFrQ-gwmpD1MwW5-063KoJprCtmjWt7knvw8CaR3t" width="624px;" height="347px;" /></p>
+<p dir="ltr">So the same content can flow across different layouts for each of the designs designers want to author.</p>
+<p><img alt="" src="https://lh4.googleusercontent.com/edjNRjeDimGfi8QBJzv7YLCJbuliQXRvkoJtWWVuO5JoUzjIcnnNd-R5_Qy58mry6BuwHqPctnWshkdxbWYPSDMV6wktPiF74a2rtEyMuPo8hOGBbNluQymt" width="366px;" height="242px;" /></p>
+<p dir="ltr">Below is an example of a design using CSS regions, and you can see how the same content flows through different areas of the page at different form factors. Note how the text body flows through multiple regions that can be placed arbitrarily around the quote (top and bottom for the narrow version, all around for the others).</p>
+<p><img alt="" src="https://lh6.googleusercontent.com/WnUCaYSkNZwDPspEtIrs97lRxSGZaeO_ujUTAzKSw8zhf8Hwdj68lkZ8EfrToXJtdEk9a-ktsTR2CoEWvPp_BlZ05F71oYYnBW8RxyNv7GFmXo8v7FKrATKC" width="109px;" height="331px;" /><img alt="" src="https://lh6.googleusercontent.com/f69vwxuscw0yhE0LI6xdTsl_PXGVCAxYCoJ1LtvOX12m6n6y36XTOXWDyuypKGvvWHR6l3g6AzrYXCG-gNrEpLTNTSEVecSGWpO-RsNmBUs6HYe0ofP9uS55" width="209px;" height="329px;" /><img alt="" src="https://lh5.googleusercontent.com/eIUG7-6yZ9Z0EsvcVbo2Z5cccxZPS13l-G8kNSepezavWaOv4CJ01XTFzFIY2lsOmlpcXwcCzANyeoEZ1-h_3yYH-0zAkoSdBdFsco_Z_Wh5Jfr57AKVJ2nx" width="272px;" height="328px;" /></p>
+<p dir="ltr">Figure 2–Screen shots from the ‘Bike &amp; Co.’ demo<a href="http://download.adobe.com/pub/adobe/edge/reflow/samples/bike-and-co.htm"><br />
+</a></p>
+<p dir="ltr">This is a core technology that we are excited to see Apple enable in their browser.</p>
+<p dir="ltr">Our Web Platform team at Adobe has been working on this feature, with many other partners in the W3C, the <a href="http://webkit.org">WebKit</a> and the <a href="http://www.chromium.org/blink">Blink</a> projects, for over two years now. It has been a delight to see the feature <a href="http://www.w3.org/TR/2011/WD-css3-regions-20110609/">we proposed</a> go through maturation thanks to the feedback in both the CSS working group (e.g., Microsoft is a co-editor of the specification with Adobe), where the specification is defined, and in the open source project, where it is implemented (and we collaborated on the implementation with engineers from different companies such as Apple and Google). Safari is the first browser to release with support of the latest specification and this is a major step forward for beautiful, responsive layouts on the web.</p>
+<p dir="ltr">So, attention web designers and developers! You can start using the future of responsive design now (on iOS 7, but check out the <a href="http://html.adobe.com/webplatform/layout/regions/browser-support/">compatibility chart</a> for precise details about where the feature is supported). There are great <a href="http://html.adobe.com/webplatform/layout/regions/">demos and resources</a> to get you started.</p>
+<p dir="ltr">But that’s not all.</p>
+<p dir="ltr">With today’s new update to <a href="http://html.adobe.com/edge/reflow/">Edge Reflow CC</a> , a web design tool to build beautiful responsive web designs,  designers can now create flowable responsive designs with regions, similar to the effects that users are able to create in Photoshop.   Also, <a href="http://html.adobe.com/edge/code/">Edge Code CC</a>,  a lightweight code editor for web developers and designers working with HTML, CSS, and JavaScript was updated with code hinting support for regions to easily implement flowable, magazine-like designs.  You can download both Edge Reflow and Edge Code with your <a href="https://creative.adobe.com/plans">free subscription</a> to Creative Cloud.</p>
+<p dir="ltr">The following screenshot shows how the content shown above was authored in Edge Reflow CC.</p>
+<p dir="ltr"><a href="http://blogs.adobe.com/webplatform/files/2013/09/Screen-Shot-2013-09-25-at-7.57.41-AM.png"><img class="alignnone size-medium wp-image-4997" alt="Screen Shot 2013-09-25 at 7.57.41 AM" src="http://blogs.adobe.com/webplatform/files/2013/09/Screen-Shot-2013-09-25-at-7.57.41-AM-300x255.png" width="300" height="255" /></a> <a href="http://blogs.adobe.com/webplatform/files/2013/09/Screen-Shot-2013-09-25-at-7.58.18-AM.png"><img class="alignnone size-medium wp-image-4998" alt="Screen Shot 2013-09-25 at 7.58.18 AM" src="http://blogs.adobe.com/webplatform/files/2013/09/Screen-Shot-2013-09-25-at-7.58.18-AM-300x257.png" width="300" height="257" /></a></p>
+<p dir="ltr">Figure 2. Screen shots from the ‘Bike &amp; Co.’</p>
+<p dir="ltr">So checkout the <a href="http://youtu.be/vrodQ4tYPAo">video</a> and <a href="http://html.adobe.com/edge/reflow/shiny-web-features.html">shiny web features</a> for what I hope will be an aha moment for responsive design authors when witnessing the future of responsive design meeting the present!</p>
+<p>We would love to hear what you think about this feature and the tooling workflow that Reflow provides. Please let us know <a href="https://twitter.com/adobeweb">@adobeweb</a> on Twitter or by leaving comments here.</p>
+				</div>
+				<footer class="entry-meta">
+					<p>This entry was posted in <a href="http://blogs.adobe.com/webplatform/category/news/" title="View all posts in News" rel="category tag">News</a>, <a href="http://blogs.adobe.com/webplatform/category/features/css-regions/" title="View all posts in Regions" rel="category tag">Regions</a>, <a href="http://blogs.adobe.com/webplatform/category/features/" title="View all posts in Web Platform Features" rel="category tag">Web Platform Features</a>. </p> 
+					<div class="navigation">
+						<div class="nav-previous"><a href="http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/" rel="prev"><span class="meta-nav">&larr;</span> Previous post</a></div>
+						<div class="nav-next"><a href="http://blogs.adobe.com/webplatform/2013/09/30/introducing-shaderdsl-js-web-developer-friendly-syntax-for-webgl-shaders/" rel="next">Next post <span class="meta-nav">&rarr;</span></a></div>
+					</div>
+				</footer>
+			</article>
+			
+			
+<div class="section respond reply-box" id="respond">
+	<h3>Leave a Reply</h3>
+	<div class="cancel-comment-reply"><a rel="nofollow" id="cancel-comment-reply-link" href="/webplatform/2013/09/23/design-next-generation-responsive-designs-for-ios7-with-edge-reflow-cc-and-css-regions-a-story-of-collaboration/#respond" style="display:none;">Click here to cancel reply.</a></div>
+	<p>Your email address will not be published. Required fields are marked <span class="required">*</span></p>
+	<form action="http://blogs.adobe.com/webplatform/wp-comments-post.php" method="post" id="commentform" class="commentform">
+		<fieldset>
+												<div class="row-form">
+						<label for="author">Name <span class="required">*</span></label>
+						<div class="inp-textholder">
+							<input name="author" id="author" value="" type="text" class="text" />
+						</div>
+					</div>
+					<div class="row-form">
+						<label for="email">Email <span class="required">*</span></label>
+						<div class="inp-textholder">
+							<input name="email" id="email" value="" type="text" class="text" />
+						</div>
+					</div>
+					<div class="row-form">
+						<label for="url">Website</label>
+						<div class="inp-textholder">
+							<input name="url" id="url" value="" type="text" class="text" />
+						</div>
+					</div>
+								<div class="row-form">
+					<label for="comment">Comment</label>
+					<div class="inp-textholder">
+						<textarea name="comment" id="comment" cols="100" rows="10"></textarea>
+					</div>
+					<p class="form-allowed-tags">You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes:  <code>&lt;a href="" title=""&gt; &lt;abbr title=""&gt; &lt;acronym title=""&gt; &lt;b&gt; &lt;blockquote cite=""&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=""&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=""&gt; &lt;strike&gt; &lt;strong&gt; </code></p>
+				</div>					
+				<div class="row-form">
+					<!-- <input type="submit" class="btn-commentform" value="Post Comment" id="submit" name="submit" /> -->
+					<input name="submit" type="submit" id="submit" class="hidden" value="Submit Comment" />
+					<input class="btn" value="Post Comment" type="submit" />
+				</div>
+				<input type='hidden' name='comment_post_ID' value='4925' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="d924c49868" /></p>				
+		</fieldset>
+	</form>
+</div>
+						</div>
+	</div>
+	</section>
+	<footer role="contentinfo">
+		<div class="container clearfix row">
+							<div class="sevencol right">
+					<nav role="navigation">
+						<ul id="footer_nav" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1359"><a href="http://blogs.adobe.com/webplatform/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1358"><a href="http://blogs.adobe.com/webplatform/about/">About</a></li>
+</ul>					</nav>
+				</div>
+						<div id="legal" class="fivecol first right">Copyright &copy; 2012 Adobe Systems Incorporated. All rights reserved.<br/> <a href="#" target="_blank">Terms of Use</a> | <a href="#" target="_blank">Privacy Policy and Cookies (Updated)</a>.</div>
+		</div>
+	</footer>
+	<script src="http://blogs.adobe.com/webplatform/wp-content/themes/webplatformtheme/js/jquery.main.js"></script>
+	<!-- Omniture -->
+	<script language="JavaScript" type="text/javascript"><!--
+		var s_code=' ';
+		var s_Host=window.location.hostname.toLowerCase();
+		var s_account="mxmacromedia"; // Production Report Suite
+		var scJsHost = (("https:" == document.location.protocol) ? "https://www.adobe.com" : "http://wwwimages.adobe.com");
+		document.write(unescape("%3Cscript src='" + scJsHost + "/uber/js/omniture_s_code_rm.js' type='text/javascript'%3E%3C/script%3E"));
+		//--></script><div id="mboxScriptContainer" style="display:none;visibility:hidden;"></div><style>.mboxDefault{visibility:hidden;}</style>
+		<script language="JavaScript" type="text/javascript"><!--
+		s.channel="Marketing Microsites:NA: " + window.location.hostname.toLowerCase();
+		s.hier2="Marketing Microsites|NA|" + window.location.hostname.toLowerCase();
+		s.server="Marketing Microsites:NA";
+
+		// Customizable by Agency - add new domain name
+		s.linkInternalFilters="javascript:,adobe.com,macromedia.com,photoshop.com,acrobat.com,scene7.com,businesscatalyst.com,openscreenproject.org,flex.org,acrobatusers.com,worldsecuresystems.com,www.willyoubelong.com,adobeconnectforeveryone.com,../";
+
+		/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+		var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+		<!-- Set TID Cookie -->
+		<script language="JavaScript" type="text/javascript">
+		<!--
+		var TIDNum=Number(new Date);
+		var TIDquery=window.location.search;
+		var TIDflag=0;
+		var incomingSAMCAPcode;
+		var outgoingSAMCAPcode;
+		var TIDquerysub="";
+		if (TIDquery.indexOf("sdid=") != -1) {
+		incomingSAMCAPcode=(TIDquery.split(("sdid="),2));
+		outgoingSAMCAPcode=(incomingSAMCAPcode[1]);
+		if (outgoingSAMCAPcode.indexOf("&") != -1)
+		  outgoingSAMCAPcode=outgoingSAMCAPcode.substring(0,outgoingSAMCAPcode.indexOf("&"));
+		if (outgoingSAMCAPcode.match(/^[a-zA-Z0-9_]*$/)) {
+		  TIDquerysub="sdid="+outgoingSAMCAPcode+"&";
+		  TIDflag=1;
+		}
+		}
+		if (TIDquery.indexOf("trackingid") != -1) {
+		incomingSAMCAPcode=(TIDquery.split(("trackingid="),2));
+		outgoingSAMCAPcode=(incomingSAMCAPcode[1]);
+		if (outgoingSAMCAPcode.indexOf("&") != -1)
+		  outgoingSAMCAPcode=outgoingSAMCAPcode.substring(0,outgoingSAMCAPcode.indexOf("&"));
+		if (outgoingSAMCAPcode.match(/^[a-zA-Z0-9_]*$/)) {
+		  TIDquerysub=TIDquerysub+"trackingid="+outgoingSAMCAPcode+"&";
+		  TIDflag=1;
+		}
+		}
+		if (TIDquery.indexOf("promoid") != -1) {
+		incomingSAMCAPcode=(TIDquery.split(("promoid="),2));
+		outgoingSAMCAPcode=(incomingSAMCAPcode[1]);
+		if (outgoingSAMCAPcode.indexOf("&") != -1)
+		  outgoingSAMCAPcode=outgoingSAMCAPcode.substring(0,outgoingSAMCAPcode.indexOf("&"));
+		if (outgoingSAMCAPcode.match(/^[a-zA-Z0-9_]*$/)) {
+		  TIDquerysub=TIDquerysub+"promoid="+outgoingSAMCAPcode;
+		  TIDflag=1;
+		}
+		}
+		if(TIDflag > 0)
+			document.write('<img src="' + document.location.protocol + '//www.adobe.com/images/pixel.gif?'+TIDNum+"&"+TIDquerysub +'" height=1 width=1 alt="" />');
+//--></script>
+<script type="text/javascript" src="http://blogs.adobe.com/webplatform/wp-content/themes/webplatformtheme/js/jquery.balancetext.min.js"></script>
+
+<!--Plugin WP Missed Schedule 2011.0920.2011 Active--></body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+		<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+		<head>
+	<title>Skills Matter : Writing Concurrent Code with Lock-Free Algor</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<meta name="keywords" content="Martin Thompson, Skills Matter, Java, C++, low-latency, high-throughput systems, build code">
+	<meta name="description" content="Writing Concurrent Code with Lock-Free Algorithms with Martin Thompson: Backed by many years of hard-won experience, Martin has created a truly inspir">
+		<link rel="SHORTCUT ICON" href="/skills-matter.ico"/>
+		<link rel="stylesheet"  type="text/css" href="/style_front_end.css">
+		<link rel="stylesheet"  type="text/css" href="/style_front_new.css">
+		<link rel="stylesheet"  type="text/css" href="/style_front_end_special.css">
+		<link rel="stylesheet"  type="text/css" href="/style_sizes.css"></head>
+		<body>
+<table class="surround">
+	<tr>
+		<td>
+			<div class="border">
+				<table cellpadding="0" cellspacing="0" class="mainpage" >
+					<!-- Start top margin -->
+					<tr>
+						<td class="mainpage" style="padding:0px;cell-spacing:0px;">
+							<table cellpadding="0" cellspacing="0"  style="width:100%;">
+								<tr>
+									<td style="text-align:left;vertical-align:middle;" class="toptitle">
+
+										<img  src="/images/system/contact-us.jpg" title="" alt="" />
+									</td>
+									<td>
+										<a  href="http://skillsmatter.com">
+										<img src="/custom/images/skills-matter_150x60_logo_2010.gif" title="" alt="" /></a>
+									</td>
+								</tr>
+								<!--Start top nav -->
+								<tr>
+									<td colspan="2" style="padding:0px;">
+	<table cellspacing="0" id="TabbedNav">
+	  <tr>
+	  	<td style="border-bottom:solid 1px black">&nbsp;</td>
+			<td>
+				<span class="unselected">
+					<a class="unselected"   href="http://skillsmatter.com/go/home" title="HOME" alt="HOME, ">HOME </a>
+				</span>
+			</td>
+			<td>
+				<span class="unselected">
+					<a class="unselected"   href="http://skillsmatter.com/go/scala" title="SCALA &amp; F#" alt="SCALA &amp; F#, ">SCALA &amp; F# </a>
+				</span>
+			</td>
+			<td>
+				<span class="selected">
+					<a class="selected"   href="http://skillsmatter.com/go/java-jee" title="JAVA" alt="JAVA, ">JAVA </a>
+				</span>
+			</td>
+			<td>
+				<span class="unselected">
+					<a class="unselected"   href="http://skillsmatter.com/go/open-source-dot-net" title=".NET" alt=".NET, ">.NET </a>
+				</span>
+			</td>
+			<td>
+				<span class="unselected">
+					<a class="unselected"   href="http://skillsmatter.com/go/ajax-ria" title="WEB" alt="WEB, ">WEB </a>
+				</span>
+			</td>
+			<td>
+				<span class="unselected">
+					<a class="unselected"   href="http://skillsmatter.com/go/groovy-grails" title="GROOVY &amp; GRAILS" alt="GROOVY &amp; GRAILS, ">GROOVY &amp; GRAILS </a>
+				</span>
+			</td>
+			<td>
+				<span class="unselected">
+					<a class="unselected"   href="http://skillsmatter.com/go/os-mobile-server" title="ANDROID &amp; IOS" alt="ANDROID &amp; IOS, ">ANDROID &amp; IOS </a>
+				</span>
+			</td>
+			<td>
+				<span class="unselected">
+					<a class="unselected"   href="http://skillsmatter.com/go/nosql" title="NOSQL" alt="NOSQL, ">NOSQL </a>
+				</span>
+			</td>
+			<td>
+				<span class="unselected">
+					<a class="unselected"   href="http://skillsmatter.com/go/design-architecture" title="ARCHITECTURE" alt="ARCHITECTURE, ">ARCHITECTURE </a>
+				</span>
+			</td>
+			<td>
+				<span class="unselected">
+					<a class="unselected"   href="http://skillsmatter.com/go/agile-scrum" title="AGILE &amp; SCRUM" alt="AGILE &amp; SCRUM, ">AGILE &amp; SCRUM </a>
+				</span>
+			</td>
+			<td>
+				<span class="unselected">
+					<a class="unselected"   href="http://skillsmatter.com/go/agile-testing" title="AGILE DEVELOPER" alt="AGILE DEVELOPER, ">AGILE DEVELOPER </a>
+				</span>
+			</td>
+		<td style="border-bottom:solid 1px black">&nbsp;</td>
+	</tr>
+	</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					<tr>
+					<td class="mainpage" style="border:solid 1px black;border-top:0px;">
+					<table class="middlemargin">
+							<tr>
+							<td class="middlemargin1">
+								
+			
+				<div style="
+						font-size:small;
+						width:100%;
+						height:100%;">
+
+						<div style="width:100%;text-align:center;background-color:#036C9D;"  class="pluginblock" >Writing Concurrent Code with Lock-Free Algorithms with Martin Thompson (CONCURRENT-CODE-01-03)
+				</div><table  class="coursedetails">
+					<tr>
+						<td class="coursedetails"
+							style="
+							width:47%;
+							font-size:small;
+							padding:none;
+							vertical-align:top;">
+
+
+							<div style="color:#036C9D;"  class="pluginblockcourse" >CODE: CONCURRENT-CODE-01-03 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DURATION: 3 DAY/S</div>
+							<div class="course_text"><p>Backed by many years of hard-won experience, Martin has created a truly inspiring and challenging course for Java and C++ programmers interested in building low-latency, high-throughput systems.</p>
+
+<p>Taking a unique hardware-up approach, Martin will teach you how to build code that reaches world-class performance levels.</p>
+							</div>
+
+							<br />
+
+							<div style="color:#036C9D;"  class="pluginblockcourse" >LEARN HOW TO:</div>
+
+							<div  class="course_text"><ul>
+<li>Gain in-depth knowledge of concurrent programming</li>
+<li>Develop data structures such as queues, executors, and shared memory IPC transports that significantly out perform any products currently available.
+<li>Build high-performance data structures</li>
+<li>Understand a new performance testing and profiling discipline that is fundamental to working at the extremes of systems performance.</li></ul></div>
+
+							<div style="color:#036C9D;"  class="pluginblockcourse" >PROGRAMME</div>
+							<div class="course_text"><h3>Understanding Mechanical Sympathy</h3>
+<ul>
+<P><li>Performance considerations on modern hardware</li>
+<li>How modern x86-64 hardware informs concurrent and high performance programming techniques</li>
+<li>Memory models for software and hardware</li>
+<li>Why contention of any type is the enemy and how to avoid it</li>
+<li>How we manage contention when we absolutely must</li></ul></P>
+
+<h3>Concurrent and High-performance Algorithm Design</h3>
+<ul>
+<p><li>Lock-free concurrency primitives<//li>
+<li>Signalling state change</li>
+<li>Ensuring order</li>
+<li>Preventing speculative execution during critical data exchanges</li>
+<li>Managing contended state</li>
+<li>Wait-free techniques</li>
+<li>API design to avoid the latency J-curve</li>
+<li>Efficient back-off strategies</li>
+<li>Discovering hidden contention and how to avoid it</li></p>
+
+
+</div>
+
+						</td>
+
+						<td style="width:53%;padding:none;font-size:small;border:none 1px #036C9D;vertical-align:top;">
+		<div class="pluginslot"
+		style="
+		border:none 1px #036C9D;
+		font-size:small;
+		width:100%;
+		height:100%;"
+			>
+				<div style="color:#036C9D;"  class="pluginblockcourse">
+					NEXT SESSION
+				</div>
+					<table class="pluginslot">
+			<tr>
+				<td>
+			<td>
+				<a href=/expert-profile/java-jee/martin-thompson>
+					<img style="width:50px;padding-right:5px;" src="/custom/geeks_thumb/martin-thompson-large.jpg"  title="Martin Thompson:Writing Concurrent Code with Lock-Free Algorithms with Martin Thompson">
+				</a>
+			</td>
+					
+					<td>
+					The next course will be delivered at <a href="/location-details/java-jee/2932/196">Fleet Street - London</a>,  on  14 Oct 2013 by  <a href=/expert-profile/java-jee/martin-thompson>Martin Thompson</a>. Martin is also the author of this course.<br /></td></tr></table></div>
+		<div
+			class="pluginslot"
+			style="
+			border:dotted 1px #036C9D;
+			font-size:small;
+			width:100%;
+			height:100%;"
+			>
+			<div style="color:#036C9D;"  class="pluginblockcourse" >COURSE DATES & REGISTRATION</div>
+					<table style="font-size:smaller;width:100%;">
+						<tr>
+							<td><b>Date</b></td>
+							<td><b>City</b></td>
+							<td><b>Cost (ex vat)</b></td>
+							<td><b>Offer</b></td>
+							<td></td>
+						</tr>
+					<tr>
+					<td>14-10-13</td>
+					<td><a href="/location-details/nosql/2932/196">London</a></td>
+					
+						<td>£1995.00</td>
+						<td> - </td>
+						<td><a style="text-decoration:underline;color:#ff0000;font-weight:600;" href="https://skillsmatter.com/register-online/course/2932">Book Online Now</a>
+						</td>
+					</tr>
+					
+					<tr>
+					<td>02-12-13</td>
+					<td><a href="/location-details/nosql/2933/174">New York City</a></td>
+					
+						<td>$2195.00</td>
+						<td> - </td>
+						<td><a target="_blank" style="text-decoration:underline;color:#ff0000;font-weight:600;" href=" https://www.eventbrite.com/event/7829007773 ">Register Here</a>
+						</td>
+					</tr>
+					
+				</table>
+		<div style="padding-top: 5px;width:100%;text-align:left;font-weight:700;font-size:larger;color:#ff6600;">Book Online or Call Sales on +44 (0)207 1839040</div></div>
+		<div class="pluginslot"
+		style="
+		border:none 1px #036C9D;
+		font-size:small;
+		width:100%;
+		height:100%;"
+			>
+				<div style="color:#036C9D;"  class="pluginblockcourse">
+					ABOUT THE AUTHOR
+				</div>
+				<table class="pluginslot">
+			<tr>
+				<td>
+					<a href=http://skillsmatter.com/expert-profile/java-jee/martin-thompson>
+						<img style="width:100px;padding-right:5px;" src="/custom/geeks_thumb/martin-thompson-large.jpg">
+					</a>
+				</td>
+				<td>
+				Martin is a high-performance and low-latency specialist, with over two decades working with large scale transactional and big-data systems, in the automotive, gaming, financial, mobile, and content management domains.<br />
+				<a href=http://skillsmatter.com/expert-profile/java-jee/martin-thompson>
+				More about Martin Thompson</a>
+				</td>
+			</tr>
+		</table>
+		</div><div class="slot036C9D">
+		<div
+		class="pluginslot"
+
+		style="
+		border:none 1px #036C9D;
+		font-size:small;
+		width:100%;
+		height:100%;"
+			>
+				<div style="color:#036C9D;"  class="pluginblockcourse">
+					WHAT PEOPLE ARE SAYING
+				</div>
+
+
+			<table class="pluginslot"><tr>
+					<td style="padding:5px;"><i>"This course was really great. It changed the way I think about all my programming work, not just with concurrent systems."</i></td>
+					<td></td>
+					<td style="vertical-align:middle;width:60px;" ></td></tr><tr>
+					<td style="padding:5px;"><i>"Excellent course materials and code examples, helping you to try things for yourself and learn by doing. The course has provided a wealth of useful information. Martin also covered interesting areas on request in order to tailor parts to the interest of participants. The most useful course I've ever done. "</i></td>
+					<td></td>
+					<td style="vertical-align:middle;width:60px;" ></td></tr><tr>
+					<td style="padding:5px;"><i>"The course is excellent, the materials very well prepared, the off the cuff discussions invaluable."</i></td>
+					<td></td>
+					<td style="vertical-align:middle;width:60px;" ></td></tr><tr>
+					<td style="padding:5px;"><i>"Great class. Martin really knows his stuff. He also struck a good balance between talking through concepts and having us do hands-on exercises. "</i></td>
+					<td></td>
+					<td style="vertical-align:middle;width:60px;" ></td></tr><tr>
+					<td style="padding:5px;"><i>"I feel it would be very worthwhile for all serious developers to think about attending (this course)!"</i></td>
+					<td></td>
+					<td style="vertical-align:middle;width:60px;" ></td></tr></table></div></div>
+					<div class="pluginslot"
+					style="
+					border:none 1px #036C9D;
+					font-size:small;
+					width:100%;
+					height:100%;"
+						>
+					<div style="color:#036C9D;"  class="pluginblockcourse" >IS THIS COURSE FOR YOU?</div>
+					<div  class="course_text">If you are an advanced programmer working in high-performance or low-latency business domains, then this course is for you!
+ </div>
+					<br />
+					<div style="color:#036C9D;"  class="pluginblockcourse" >COURSE PREREQUISITES</div>
+					<div  class="course_text"><p><h3>BRING YOUR OWN LAPTOP</h3></p>
+<p><B>Important - Please note:</B></p>
+<p>Delegates are requested to bring their own Linux, Mac or Windows-based laptop for this course, capable of running at least 4 concurrent threads.  That is, a quad core or dual core with hyperthreading. You should also have Java 7 and your favourite IDE installed. If you are unable to bring a laptop for the course, please contact the sales team on +44 20 7183 9040, or email sales@skillsmatter.com. A full installation guide for the course software will be provided with your course joining instructions.</p></div>
+					<br />
+					<div style="color:#036C9D;"  class="pluginblockcourse" >COURSE LABS & EXERCISES</div>
+					<div  class="course_text"></div>
+					<br />
+					
+		<div
+			class="pluginslot"
+			style="
+			border:dotted 1px #036C9D;
+			font-size:small;
+			width:100%;
+			height:100%;"
+			>
+			<div style="color:#036C9D;"  class="pluginblockcourse" >COURSE DATES & REGISTRATION</div>
+					<table style="font-size:smaller;width:100%;">
+						<tr>
+							<td><b>Date</b></td>
+							<td><b>City</b></td>
+							<td><b>Cost (ex vat)</b></td>
+							<td><b>Offer</b></td>
+							<td></td>
+						</tr>
+					<tr>
+					<td>14-10-13</td>
+					<td><a href="/location-details/nosql/2932/196">London</a></td>
+					
+						<td>£1995.00</td>
+						<td> - </td>
+						<td><a style="text-decoration:underline;color:#ff0000;font-weight:600;" href="https://skillsmatter.com/register-online/course/2932">Book Online Now</a>
+						</td>
+					</tr>
+					
+					<tr>
+					<td>02-12-13</td>
+					<td><a href="/location-details/nosql/2933/174">New York City</a></td>
+					
+						<td>$2195.00</td>
+						<td> - </td>
+						<td><a target="_blank" style="text-decoration:underline;color:#ff0000;font-weight:600;" href=" https://www.eventbrite.com/event/7829007773 ">Register Here</a>
+						</td>
+					</tr>
+					
+				</table>
+		<div style="padding-top: 5px;width:100%;text-align:left;font-weight:700;font-size:larger;color:#ff6600;">Book Online or Call Sales on +44 (0)207 1839040</div></div>
+						</td>
+					</tr>
+				</table>
+			</div>
+							</td>
+						</tr>
+						</table>
+
+					</td>
+					</tr>
+					<tr>
+		<td style="text-align:center;">
+			<!--Start lower navigation-->
+			<table style="padding-left:50px;width:100%;">
+				<tr>
+					<td>
+
+<div class="copy">
+© Copyright 2003-2013, Skills Matter Ltd 
+</div>
+					</td>
+					<td><table class="extranav"><tr><td><a class="extranav" href="http://skillsmatter.com/go/about-us">About Us</a>&nbsp;&nbsp;<a class="extranav" href="http://skillsmatter.com/go/jobs">Jobs</a>&nbsp;&nbsp;<a class="extranav" href="http://skillsmatter.com/go/find-us">Find Us</a>&nbsp;&nbsp;<a class="extranav" href="http://skillsmatter.com/go/training-room-hire-clerkenwell">Meeting & Training Rooms</a>&nbsp;&nbsp;<a class="extranav" href="http://skillsmatter.com/go/newsletter">Newsletter</a>&nbsp;&nbsp;<a class="extranav" href="http://skillsmatter.com/go/sales-executive">Jobs: Sales Executive</a>&nbsp;&nbsp;<a class="extranav" href="http://skillsmatter.com/go/jobs-student-skillscaster">Jobs: Student SkillsCaster</a>&nbsp;&nbsp;<a class="extranav" href="http://skillsmatter.com/go/open-source-journal">Open Source Journal</a>&nbsp;&nbsp;<a class="extranav" href="http://skillsmatter.com/go/jobs-sponsorship-development">Jobs: Sponsorship Development</a>&nbsp;&nbsp;<a class="extranav" href="http://skillsmatter.com/go/jobs-hr-manager">Jobs: HR Manager</a>&nbsp;&nbsp;<a class="extranav" href="http://skillsmatter.com/go/jobs-join-our-dev-team">jobs-Join Our Dev Team</a>&nbsp;&nbsp;<a class="extranav" href="http://skillsmatter.com/go/devops-engineer">DevOps Engineer</a>&nbsp;&nbsp;<a class="extranav" href="http://skillsmatter.com/go/were-hiring-rails-devs">Rails Developer</a>&nbsp;&nbsp;<a class="extranav" href="http://skillsmatter.com/go/test-engineer">Test Engineer</a>&nbsp;&nbsp;<a class="extranav" href="http://skillsmatter.com/go/dumbo-deep-tech-week">DUMBO Software Craftsmanship Week</a>&nbsp;&nbsp;<a class="extranav" href="http://skillsmatter.com/go/privacy-policy">Privacy Policy</a>&nbsp;&nbsp;<a class="extranav" href="http://skillsmatter.com/go/training-vouchers">Training Vouchers</a>&nbsp;&nbsp;<a class="extranav" href="http://skillsmatter.com/go/were-hiring-tech-support">We're hiring tech support</a>&nbsp;&nbsp;</td></tr></table>
+					</td>
+			</tr>
+			</table>
+			<!--End lower navigation-->
+		</td>
+	</tr>
+
+				</table>
+			</div>
+
+		<td>
+	</tr>
+</table>
+						<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+						</script>
+						<script type="text/javascript">
+						_uacct = "UA-3990881-1";
+						urchinTracker();
+						</script>
+		</body>
+		</html>

@@ -1,0 +1,363 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CU3ER Javascript version is out. Now CU3ER 3D Image Slider works beautifully on all devices including PCs,iPads,iPhones,Android and other phones and tabled devices. - CU3ER</title>
+<meta name="description" content="CU3ER Javascript 3D update, getting closer to the Flash version now!" />
+<meta name="keywords" content="CU3ER,3D,image,slider,slideshow,gallery,iPad,iPhone,PC,webdesign,web developer" /><link rel="stylesheet" type="text/css" href="/css/javascript.css" media="all" /><link rel="icon" type="image/png" href="/img/favicon.png"/>
+
+
+	 <meta property="og:title" content="CU3ER 3D Image Slider"/>
+	 <meta property="og:site_name" content="http://getcu3er.com"/>
+	 <meta property="og:image" content="http://getcu3er.com/img/logo/cu3er_logo_white.png"/>
+	 <link rel="image_src" href="http://getcu3er.com/img/logo/cu3er_logo_white.png" />
+	 
+
+
+
+
+
+	<script type="text/javascript" src="/js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.dimensions.js"></script>
+	<script type="text/javascript" src="/js/jquery.accordion.js"></script>
+	<script type="text/javascript" src="/js/prettyPhoto/js/jquery.prettyPhoto.js"></script>
+
+
+    <script type="text/javascript">
+
+       function createCookie(name,value,days) {
+        	if (days) {
+        		var date = new Date();
+        		date.setTime(date.getTime()+(days*24*60*60*1000));
+        		var expires = "; expires="+date.toGMTString();
+        	}
+        	else var expires = "";
+        	document.cookie = name+"="+value+expires+"; path=/";
+        }
+		
+        createCookie('notification_javascript_3d', 1, 30);
+		
+		    </script>
+    
+	<link rel="stylesheet" type="text/css" href="/css/../js/prettyPhoto/css/prettyPhoto.css" />
+	<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="/css/text.css" />
+	<link rel="stylesheet" type="text/css" href="/css/layout.css" />
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+<script type="text/javascript">
+$(document).ready(function() {
+/* new sign up popup box */
+					$('.signUpNew').prettyPhoto();
+		var arrSignup = $('.signUpNew'); 
+		if (self.document.location.hash.substring(1) == "signup") {
+			$(arrSignup[0]).trigger("click");
+		}
+		/*$(".wrapper").append($('<a>').attr({
+		'href': 'http://www.thefwa.com/mobile/cu3er-3d-image-slider-html5-version',
+		'target': '_blank',
+		'title': 'FWA Award - CU3ER 3D Image Slider HTML5 version'
+	}).css({
+		'width': '68px',
+		'height': '68px',
+		'border': 0,
+		'position': 'absolute',
+		'right': 0,
+		'top': 0
+	}).append($('<img>').attr({
+		'src': '/img/fwa_motd_topright.png',
+		'width': 68,
+		'height': 68
+	}).css({
+		'border': 0
+	})));*/
+});
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-4315232-2']);
+
+_gaq.push(['_setDomainName', 'none']);
+_gaq.push(['_setAllowLinker', true]);
+_gaq.push(['_setAllowHash', false]);
+_gaq.push(['_setCustomVar',  3, 'full_referrer', '', 2 ]);
+_gaq.push(['_trackPageview']);
+
+
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+
+</head>
+
+   
+<body id="javascript">
+<div class="wrapper">
+
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=142767120187";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="header" class="outer">
+
+	<div class="header-top" style="position:relative; ">
+			<div style="position:absolute; top:40px; left:160px; z-index:1000">
+				<a href="http://twitter.com/share?text=Unique%20%26%20Awesome%203D%20Image%20Slider.%20Nice%20templates%20and%20works%20on%20all%20devices%20-%20http%3A%2F%2Fgetcu3er.com%20(via%20%40CU3ER)" target="_blank">					
+						<img src="/img/javascript/tweet.gif" alt="Tweet"/>
+					</a>
+				<script type="text/javascript">
+					function openFBShare() {
+						window.open("http:\/\/www.facebook.com\/sharer.php?u=http%3A\/\/getcu3er.com", "Facebook Share", "height=440,width=620,scrollbars=true"); 
+						return;
+					}
+				</script>&nbsp;
+				<div class="fb-like" style="width:77px; top:-2px;" data-href="http://facebook.com/CU3ER" data-send="false" data-layout="button_count" data-width="40" data-show-faces="true"></div>&nbsp;
+				&nbsp;<a style="top:-1px" href="https://plus.google.com/109752717048349799877?prsrc=3" rel="publisher" style="text-decoration:none;"><img src="https://ssl.gstatic.com/images/icons/gplus-16.png" alt="" style="border:0;width:16px;height:16px;"/></a>
+				<!-- <g:plusone size="medium" href="http://getcu3er.com"></g:plusone> -->
+			</div>
+
+                     
+            <a href="/account/home" id="login-btn">Log-In</a>                    
+       	    </div>
+
+
+      <div class="inner shadow">
+      <div class="wrap">
+        <div id="logo" class="grid_2 first"> 
+        		<div id="load"><img src="/img/ajax-loader.gif" width="31" height="31" alt="" /></div>
+                <a href="/">
+                    <img src="/img/logo/logo_cu3er_site_small.png" width="81" height="30" alt="" />
+              	</a>
+				
+
+        </div> 
+            <div id="mainnavi" class="grid_10 last">
+              <ul>
+                   
+                    <li><a id="navi-features"	 href="/features" >Features</a></li>
+                     <li><a id="navi-pricing"	 href="/pricing">Pricing</a></li>
+                    <li><a id="navi-suppoprt" 	href="/support">Support</a></li>
+                   
+					<!-- <li><a id="navi-about"		 href="/about">About</a></li>-->
+					  <li><a id="navi-affiliate" 	href="/affiliate">Affiliate</a></li>
+                    <li><a id="navi-contant"  	href="/contact">Contact Us</a></li>
+					
+										   <li><a href="/users/create/?iframe=true&width=540&height=238" class="signUpNew" rel="prettyPhoto">Sign up free</a></li>
+						
+								
+										
+					
+                    
+
+               </ul>
+            </div>  
+        <div class="clear">&nbsp;</div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    function openWindow(url) {
+      width = window.screen.width;
+      height = window.screen.height;
+      leftWindow = 0;
+      topWindow = 0;
+      options = 'toolbar=0,locationbar=0,status=0,width='+width+',height='+height+',top='+topWindow+',left='+leftWindow;
+      window.open(url, "cManager", options);
+    }
+
+  </script>
+  <!-- Place this tag in your head or just before your close body tag -->
+			<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+   <div id="content" >
+		
+        <div class="inner" style="margin-top:30px;">
+		<div style=" margin-bottom:20px; text-align:center" id="info-txt">You are now seeing CU3ER Javascript (detecting version...) for demonstration purposes.</div>
+		
+		<div style="margin-left:-50px; margin-bottom:30px; height:300px !important;" id="CU3ER-holder">
+			<div id="CU3ER" style="margin: 0 !important; height:300px;">  		  		
+			  <p>If you do not see content of CU3ER slider here try to enable JavaScript and reload the page</p>
+			</div>		
+		</div>
+			
+			<script type="text/javascript" src="/js/swfobject.js"></script>
+			<script type="text/javascript" src="/js/jquery.cu3er.js"></script>
+			
+			<script type="text/javascript">
+			
+				
+			
+		$(function () {
+			var force_js = true;
+			$("#CU3ER").cu3er({
+				vars: {
+					xml_location : '/templates/cmanager/showcase/CU3ER-config.xml?unchache=1335362846',
+					folder_images:"/templates/cmanager/showcase/images",
+					folder_fonts:"/templates/cmanager/showcase/fonts",
+					swf_location: 'CU3ER.swf',
+					<!-- js_location: '/js/jquery.cu3er.player.old.js', -->
+					width: "940",
+					height: "300",
+					folder_images:"/templates/cmanager/showcase/images",
+					flash_version : "10.0.0",
+					display_js3d_first: true,
+					
+					xml_encoded: "%3Cdata%3E%3Clicence%3E%3C!%5BCDATA%5B!icw.KRyQk2MtG1i5'ACI%7BB%7BI)fS'18Q%5D%5D%3E%3C%2Flicence%3E%3C%2Fdata%3E"
+				},
+				params: {
+				  wmode : 'transparent'  		},
+				attributes: {
+					id:'CU3ER',
+					name:'CU3ER'
+				},
+				  onSliderInit : function() {
+				
+					switch (CU3ER['CU3ER'].displayVersion) {
+						case "Flash":
+							$("#info-txt").html("You are now seeing <strong>CU3ER Flash</strong> version, since you do not have CSS 3D capable browser.<br/>Try Chrome, Safari or Firefox 11+ to see Javascript 3D version of CU3ER.");
+						break;
+						case "JS-3D":
+							$("#info-txt").html("You are now seeing <strong>CU3ER Javascript 3D</strong> version. Yes, we know. It looks awesome.");
+						break;
+						case "JS-Slicing":
+							$("#info-txt").html("You are now seeing <strong>CU3ER Javascript Slicing</strong> version, best CU3ER Javascript version your browser can display.<br/>Try Chrome, Safari or Firefox 11+ to see Javascript 3D version of CU3ER.");
+						break;
+						case "JS-Simple":
+							$("#info-txt").html("You are now seeing <strong>CU3ER Javascript Simple</strong> version, best CU3ER Javascript version your browser can display. <br/>Try Chrome, Safari or Firefox 11+ to see Javascript 3D version of CU3ER.");
+						break;
+					} 
+				  }
+			});
+
+		});
+
+		
+				
+				
+			
+
+			</script>
+
+		
+			
+			
+			
+				<div style="clear:both"></div>
+
+				<div id="desc-left">
+					<h1>3D WORLD IN JAVASCRIPT GETS BETTER!</h1>
+					<p>We are very dedicated to keep CU3ER on the high end of the web. Our latest update for Javascript 3D version brings just that, depth for slices in a transition. This makes JS version very close to Flash. We are happy to bring them closer, more updates coming soon!</p>
+					<img src="/img/flat-to-3d.jpg" alt="Flat transition becomes 3D" /><br/><br/>
+					<p>You can enable CU3ER to display this 3D Javascript version first and then Flash. To display Javascript 3D version your visitors need to have compatible browsers : Chrome, Safari, Firefox 10+, iOS devices...
+					<br/>You should set <em>display_js3d_first : true</em> in your embedding options, more info at <a href="http://docs.getcu3er.com/cu3er/embedding-vars">embedding vars article</a></p>
+					<p>CU3ER Javascript version is available to PRO users only. If you have any questions, please feel free to <a href="/contact">contact us</a>.</p>
+					
+				</div> 
+				<div id="desc-right" style="text-align:left; font-size:12px; line-height:18px;">
+				
+				
+					
+			
+				
+				
+					<h3 style="font-size:16px">Not a PRO yet?</h3>
+					<p>CU3ER Javascript version is available to PRO users only. You can upgrade to PRO using special offers below, or if you are a PRO you can take advantage of the discounts!</p>
+										<div style="width:100%; background-color:#ffffff; border:1px solid #dddddd; padding:10px;">
+						<a href="https://secure.avangate.com/order/checkout.php?PRODS=4377454&QTY=1&PRICES4377454[USD]=39&PLNKEXP=1381097879&PHASH=be220ba8e95579584143c336c7e2b191&CART=2&ORDERSTYLE=nLWsnpXPpn4=&SRC=javascript3d">Get 1 PRO license for $39 - save 20%</a><br/>
+						<a href="https://secure.avangate.com/order/checkout.php?PRODS=4377454&QTY=5&PRICES4377454[USD]=99&PLNKEXP=1381097879&PHASH=e8678e41ac76fc656fc3f281c30d7948&CART=2&ORDERSTYLE=nLWsnpXPpn4=&SRC=javascript3d">Get 5 PRO licenses for $99 - save 60%</a><br/>
+						<a href="https://secure.avangate.com/order/checkout.php?PRODS=4377454&QTY=50&PRICES4377454[USD]=249&PLNKEXP=1381097879&PHASH=b13f54ebbf2a8dbe0c7e85a7b15421ce&CART=2&ORDERSTYLE=nLWsnpXPpn4=&SRC=javascript3d">Get 50 PRO licenses for $249 - save 90%</a><br/>
+					</div><br/><br/>
+						<h3 style="font-size:16px">Win a CU3ER Pro license!</h3>
+					<p>Tweet about new CU3ER Javascript 3D version, Like Facebook page or +1 Google page and stand a chance to win CU3ER Pro license. We will award one license every week!
+					<div style="height:40px; width:100%;display:block;">
+						<a href="http://twitter.com/share?text=Awesome Javascript 3D update to @CU3ER image slider http://bit.ly/IdlhwY RT for a chance to win a license!" target="_blank">					
+							<img src="/img/javascript/tweet.gif" alt="Tweet"/>
+						</a>&nbsp;&nbsp;
+						<div class="fb-like" style="width:77px; top:-2px;" data-href="http://facebook.com/CU3ER" data-send="false" data-layout="button_count" data-width="40" data-show-faces="true"></div>
+						&nbsp;&nbsp;
+						<!-- Place this tag in the <head> of your document -->
+<!-- Place this tag where you want the badge to render -->
+<a href="https://plus.google.com/109752717048349799877?prsrc=3" rel="publisher" style="text-decoration:none;"><img src="https://ssl.gstatic.com/images/icons/gplus-16.png" alt="" style="border:0;width:16px;height:16px;"/></a>
+					</div>
+					</p> 
+					
+				</div>
+		
+				
+					
+				<div style="clear:both"></div>
+	
+	
+	
+	<div id="footer" class="outer">
+    <div class="inner shadow">
+    <div class="wrap">
+        <div class="grid_12">
+            <div class="grid_8 first">
+                <ul>
+                    <li><a href="/about">About</a></li>                    
+                    <li><a href="/privacy">Privacy Policy</a></li>
+                    <li><a href="/terms">Terms of Service</a></li>
+					<li><a href="/press">Press</a></li>
+					<li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+            
+        	<div class="grid_4 last social">       
+                <ul class="">
+                    <li> Follow CU3ER:</li>
+                    <li><a href="http://twitter.com/CU3ER/"><img src="/img/icons/twitter_16.png" alt="Follow CU3ER on Twitter!" width="16" height="16" /></a></li>
+                    <li><a href="http://www.flickr.com/photos/cu3er"><img src="/img/icons/flickr_16.png" alt="CU3ER on Flickr" width="16" height="16" /></a></li>
+                    <li><a href="http://facebook.com/cu3er"><img src="/img/icons/facebook_16.png" alt="Join CU3ER on Facebook!" width="16" height="16" /></a></li>
+                    <li><a href="http://vimeo.com/user3390265"><img src="/img/icons/vimeo_16.png" alt="CU3ER on Vimeo!" width="16" height="16" /></a></li>
+                    <li><a href="/newsletter"><img src="/img/icons/email_16.png" alt="Subscribe to CU3ER newsletter!" width="16" height="16" /></a></li>
+                </ul>        
+        </div>                            
+        </div>
+        <div class="clear">&nbsp;</div>
+        </div>
+    <div class="clear">&nbsp;</div>    
+   	</div>    
+    <div class="inner">
+        <div class="grid_12 copyright">Copyright 2010-2011 <a href="http://madebyplay.com">MADEBYPLAY</a>.
+        	All rights reserved.</div>           		     
+        <div class="clear">&nbsp;</div>
+    </div>      
+</div>
+<script type="text/javascript">
+adroll_adv_id = "FUCLS7B2SRBXVGBMJW7U3D";
+adroll_pix_id = "TYTUF5IGS5EBBPRK6KSS52";
+(function () {
+var oldonload = window.onload;
+window.onload = function(){
+   __adroll_loaded=true;
+   var scr = document.createElement("script");
+   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+   scr.setAttribute('async', 'true');
+   scr.type = "text/javascript";
+   scr.src = host + "/j/roundtrip.js";
+   ((document.getElementsByTagName('head') || [null])[0] ||
+    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+   if(oldonload){oldonload()}};
+}());
+</script>
+    
+</div>
+<!-- Place this tag in your head or just before your close body tag -->
+			<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+</body>
+
+</html>
+

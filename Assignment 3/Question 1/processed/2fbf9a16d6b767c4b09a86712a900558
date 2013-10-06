@@ -1,0 +1,209 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="es"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="es"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="es"> <![endif]-->
+
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
+<head>
+	
+    <meta charset="utf-8">
+  	<meta name="author" content="">
+    <meta name="generator" content="SoulPHP v1.0" />
+  	<meta name="description" content="" />
+    <meta name="keywords" content="Leonardo Elias,Pérez,leoelias123" />
+	<meta name="robots" content="index, follow" />
+  	<!--<meta name="viewport" content="width=device-width,initial-scale=1">-->
+	
+    <link rel="stylesheet" href="http://coderos.mx/styles/normalization.css">
+    
+    <link href='http://fonts.googleapis.com/css?family=Metrophobic' rel='stylesheet' type='text/css'>
+	<link href="http://coderos.mx/styles/full-default.css" rel="stylesheet" type="text/css" media="screen">
+    
+    
+    <link href="http://coderos.mx/sections/perfil/styles/full-perfil.css" rel="stylesheet" type="text/css" media="screen">
+
+	<link rel="shortcut icon" href="http://coderos.mx/images/favicon.ico" type="img/ico" >
+    
+    <script src="http://coderos.mx/scripts/libraries/modernizr-2.0.6.min.js"></script>
+
+	<title>Leonardo Elias Pérez | Coderos</title>
+    
+</head>
+
+<body>
+
+	<header>
+    	
+    	<nav class="wrapper top-bar">
+        	<a href="http://coderos.mx/" id="logo">coderos</a>
+    		<a href="/home/login">mi cuenta</a> <!--| <a href="#">recuperar contraseña</a>-->
+    
+    
+    
+    | <a href="mailto:contacto@coderos.mx">contacto</a> <a href="https://twitter.com/Coderosmx" title="coderosmx" class="twitter" target="_blank">&nbsp;</a>
+        </nav>
+    </header>
+    		
+    <section id="perfil-section">
+	
+    <div class="wrapper">
+    
+    	<div class="grid-2">
+            <h2> Leonardo Elias Pérez</h2>
+            <section id="life">Hombre de 19 años viviendo en Nuevo León. <span id="hiring" class="hiring-available">Disponible para trabajar</span></section>
+            <div id="share">
+            
+                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://coderos.mx/perfil/leoelias123" data-text="Mira mi perfil de conocimientos en Coderos.mx" data-via="coderosmx" data-lang="es" data-dnt="true">Twittear</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    
+			</div>
+            
+        </div>
+        
+        
+        <section id="networks">
+        	<ul>
+            	
+            	<li><a href="https://twitter.com/leo_elias123" class="twitter" target="_blank" title="https://twitter.com/leo_elias123">&nbsp;</a></li>
+            	<li><a href="https://www.facebook.com/leonardo.elias123" class="facebook" target="_blank" title="https://www.facebook.com/leonardo.elias123">&nbsp;</a></li>
+            </ul>
+        </section>
+        
+        
+        <section id="biography">
+        	<p></p>
+            
+        </section>
+        
+        
+        <h3>Habilidades</h3>
+        
+        <section id="knowledge">
+            <article id="knowledge-1" class="knowledge">
+        <h4>Lenguajes de Servidor</h4>
+        <ul class="skills">
+    		
+            <li><figure id="skill-2" class="intermediate"><div class="name">PYTHON</div><div class="level">Intermedio</div></figure></li>
+            <li><figure id="skill-1" class="basic"><div class="name">PHP</div><div class="level">Básico</div></figure></li>
+    
+        </ul>
+    </article>
+	
+    
+    <article id="knowledge-2" class="knowledge">
+        <h4>Lenguajes de Cliente</h4>
+        <ul class="skills">
+    		
+            <li><figure id="skill-8" class="intermediate"><div class="name">JAVASCRIPT</div><div class="level">Intermedio</div></figure></li>
+    
+        </ul>
+    </article>
+	
+    
+    <article id="knowledge-3" class="knowledge">
+        <h4>Lenguajes de Hipertexto</h4>
+        <ul class="skills">
+    		
+            <li><figure id="skill-16" class="advanced"><div class="name">HTML 5</div><div class="level">Avanzado</div></figure></li>
+    
+        </ul>
+    </article>
+	
+    
+    <article id="knowledge-4" class="knowledge">
+        <h4>Hojas de Estilo en Cascada</h4>
+        <ul class="skills">
+    		
+            <li><figure id="skill-19" class="advanced"><div class="name">CSS 3</div><div class="level">Avanzado</div></figure></li>
+    
+        </ul>
+    </article>
+	
+    
+    <article id="knowledge-8" class="knowledge">
+        <h4>CMS</h4>
+        <ul class="skills">
+    		
+            <li><figure id="skill-33" class="advanced"><div class="name">WORDPRESS</div><div class="level">Avanzado</div></figure></li>
+            <li><figure id="skill-35" class="intermediate"><div class="name">DRUPAL</div><div class="level">Intermedio</div></figure></li>
+    
+        </ul>
+    </article>
+	
+    
+    <article id="knowledge-9" class="knowledge">
+        <h4>Frameworks</h4>
+        <ul class="skills">
+    		
+            <li><figure id="skill-47" class="intermediate"><div class="name">DJANGO</div><div class="level">Intermedio</div></figure></li>
+    
+        </ul>
+    </article>
+	
+    
+    <article id="knowledge-10" class="knowledge">
+        <h4>Software</h4>
+        <ul class="skills">
+    		
+            <li><figure id="skill-62" class="advanced"><div class="name">PHOTOSHOP</div><div class="level">Avanzado</div></figure></li>
+            <li><figure id="skill-60" class="advanced"><div class="name">FILEZILLA</div><div class="level">Avanzado</div></figure></li>
+            <li><figure id="skill-61" class="advanced"><div class="name">NOTEPAD++</div><div class="level">Avanzado</div></figure></li>
+    
+        </ul>
+    </article>
+        </section>
+        
+        
+        
+        
+        
+        <h3>Otros Perfiles interesantes</h3>
+        
+        <ul class="profiles">
+        	
+        	<li><a href="http://coderos.mx/perfil/guerrero"><strong>eduardo guerrero</strong> en Distrito Federal</a></li>
+        	<li><a href="http://coderos.mx/perfil/davidleon"><strong>David Leon</strong> en Distrito Federal</a></li>
+        	<li><a href="http://coderos.mx/perfil/chimbo"><strong>angel ibarra</strong> en Morelos</a></li>
+        	<li><a href="http://coderos.mx/perfil/fernandopoumian"><strong>[fernando poumián] Fernando</strong> en Chihuahua</a></li>
+        	<li><a href="http://coderos.mx/perfil/javierdiaz"><strong>Javier Alonso Díaz</strong> en Sonora</a></li>
+        </ul>
+        <!--END: other_profiles -->
+        
+        <p>¿Y tú, ya estás en Coderos? <a href="/home/registrate">¡Únete aquí!</a></p>
+        
+    </div>
+
+</section>  
+        
+    <footer>
+    	<div class="wrapper">
+    		<aside class="copyright">Copyright © 2013 Coderos.mx. Todos los Derechos Reservados.</aside>
+        </div>
+    </footer>
+    
+    <script src="http://coderos.mx/scripts/libraries/jquery-1.7.2.min.js"></script>
+    <script src="http://coderos.mx/scripts/core.js"></script>
+    <script src="http://coderos.mx/scripts/libraries/repo.min.js"></script>
+    
+    <script src="http://coderos.mx/scripts/libraries/jquery.masonry.min.js"></script>
+    <script src="http://coderos.mx/scripts/libraries/repo.min.js"></script>
+    <script src="http://coderos.mx/sections/perfil/scripts/perfil.js"></script>
+    
+    
+     
+    
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-41317320-1', 'coderos.mx');
+	  ga('send', 'pageview');
+	
+	</script>
+    
+    
+
+</body>
+</html>

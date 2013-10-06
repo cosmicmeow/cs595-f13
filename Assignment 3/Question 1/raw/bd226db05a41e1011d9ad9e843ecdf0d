@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Página não encontrada</title>
+  
+  <link rel="icon" type="image/png" href="http://novo.vagas.com.br/assets/mundos/favicon_i.ico" />
+  <style type="text/css">
+	*{padding:0;margin:0}
+	body{font:12px/1.5 Verdana,Geneva,sans-serif;color:#738890;background:#fafafa;min-width:900px}
+	ul,li{list-style:none}
+	a{color:#0073ae}
+	img{border:none}
+	.clear{clear:both;display:block}
+	p,h1,h2,h3,h4,h5,h6{margin:0 0 1.5em}
+	h1,h2,h3,h4,h5,h6{font-family:"Trebuchet MS",Arial,Helvetica,sans-serif}
+	.center{width:960px;margin:0 auto}
+
+	#wrapper.gradiente{background:#f5f7f8;background:-moz-linear-gradient(top, #e2e9eb 0%, #f5f7f8 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #e2e9eb), color-stop(100%, #f5f7f8));background:-webkit-linear-gradient(top, #e2e9eb 0%, #f5f7f8 100%);background:-o-linear-gradient(top, #e2e9eb 0%, #f5f7f8 100%);background:-ms-linear-gradient(top, #e2e9eb 0%, #f5f7f8 100%);background:linear-gradient(to bottom, #e2e9eb 0%, #f5f7f8 100%);padding-top:20px}
+	#topo{border-bottom:1px solid #d1d8db;background:#fafafa;z-index:101;height:57px}
+	#topo .center{position:relative}
+	#topo.paginaInterna{height:80px;border-top:3px solid #0073ae}
+	#topo.paginaInterna #logoVagas a{width:120px;height:80px;margin:0;background:url("http://novo.vagas.com.br/assets/mundos/logo-vagas-institucional.png") no-repeat 0 center}
+	#logoVagas{float:left;margin:0}
+	#logoVagas a{float:left;width:120px;height:32px;background:url("http://novo.vagas.com.br/assets/mundos/logo-vagas-institucional.png") no-repeat scroll 0 center transparent;text-indent:-99999px;margin-top:12px}
+	#tagline{float:left;padding-left:20px;font:11px/56px "Trebuchet MS",Arial,Helvetica,sans-serif;color:#738890}
+	#bgPredios{background:url("http://novo.vagas.com.br/assets/mundos/bg-predios.png") no-repeat center 80px;height:174px;padding-top:120px;margin-bottom:1px;clear:both;position:relative}
+	#bgPredios.prediosAltos{background:url("http://novo.vagas.com.br/assets/mundos/bg-predios.png") no-repeat center top;height:77px;padding:200px 0 17px;margin-bottom:1px;clear:both}
+	#rodapeFaixa{background:#1283c3;height:32px;border-bottom:1px solid #0765ac;margin-bottom:20px;clear:both}
+	#logoVagasRodape{float:left;background-position:-121px 0;margin:0}
+	#logoVagasRodape a{width:65px;height:32px;float:left;text-decoration:none;text-indent:-99999px}
+	#logoVagasRodape a:hover{background-position:-317px 0}
+	#listaRedes{float:right}
+	#listaRedes li{float:left}
+	#listaRedes a{float:left;height:32px;text-indent:-99999px}
+	.linkLinkedIn{background-position:0 0;width:28px}
+	.linFace{background-position:-28px 0;width:23px}
+	.linkTwitter{background-position:-51px 0;width:36px}
+	.linkOrkut{background-position:-87px 0;width:34px}
+	.linkBlog{background-position:-487px -98px;width:26px}
+	.linkLinkedIn:hover{background-position:-196px 0}
+	.linFace:hover{background-position:-224px 0}
+	.linkTwitter:hover{background-position:-247px 0}
+	.linkOrkut:hover{background-position:-283px 0}
+	.linkBlog:hover{background-position:-511px -98px}
+
+	#logoVagasRodape,#btLogin,#listaRedes a,#inputPesquisa,#btPesquisar,.next_page,.previous_page,.btEs,.btPt,.btEn,.inputSubmit,.btFechar span,.linkEmpresa,.linkCandidato,.linkEmpresa span,.linkCandidato span,#listaProjetosSociais .setinha,#submenu a,#listaLogosPopup .desc .setinha,#lang .setinha{background-image:url("http://novo.vagas.com.br/assets/mundos/sprites-geral.png");background-repeat:no-repeat}
+
+
+
+	#conteudoErro {
+		width:750px;
+		padding-top:15px;
+		margin:0 auto -245px;
+		position: relative;
+		z-index: 10;
+		overflow:hidden;
+	}
+	#placa {float:left; width:155px; height:304px; margin-right:60px; background:url('http://novo.vagas.com.br/assets/mundos/placa-404.png') no-repeat 0 0; padding-top:150px;}
+		#placa h2 {color:#fff; font-size:10px; margin:0 40px; text-align:center; line-height:1.2; font-family: verdana, arial, sans-serif;}
+	
+	#texto {float:left; width:530px; padding-top:52px;}
+	.titErro {color:#ed1c24; font-size:21px; margin-bottom:.5em; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+	.subtitErro {border-bottom:1px solid #c3ced4; margin-bottom:1.8em; margin-top:1.8em; padding-bottom:.5em; font-size:15px;}
+	p {font-size:11px;}
+
+	#texto ul{margin-left:.7em;}
+	#texto li {list-style:disc; font-weight:bold; font-size:11px; line-height:1.5; margin-left:.7em;}
+	#texto .listaEmpresas a {color:#F36C34; text-decoration:none;}
+	#texto .listaPessoas a {color:#00B8AD; text-decoration:none;}
+	
+	#bgPredios.home {padding-top:100px;}
+	.col1, .col2 {float:left; width:210px;}
+	.col1 {margin-right:70px;}
+	.col1 h3, .col2 h3 {font-size:14px;}
+  </style>
+</head>
+
+<body>
+
+    <div id="topo" accesskey="">
+      <div class="center">
+    
+        <h1 id="logoVagas"><a href="http://www.vagas.com.br">Vagas</a></h1>
+    
+      </div>
+    </div>
+
+
+    <div id="wrapper" class="gradiente">
+    	
+        <div id="conteudoErro">
+
+			<div id="placa">
+            	<h2>Página não encontrada</h2>
+            </div>
+
+            <div id="texto">
+                <h1 class="titErro">A página que você solicitou não pôde ser encontrada.</h1>
+                <p>Você pode ter digitado o endereço errado ou a página agora tem outro endereço.</p>
+                
+                <h2 class="subtitErro">Como podemos ajudá-lo?</h2>
+                
+                <div class="col1">
+                    <h3>Empresas</h3>
+                    <ul class="listaEmpresas">
+                        <li><a href="http://empresas.vagas.com.br/e-partner">Conheça nossa ferramenta</a></li>
+                        <li><a href="http://empresas.vagas.com.br/move_to?servico=login_de_empresa">Acesso ao VAGAS e-partner</a></li>
+                        <li><a href="http://empresas.vagas.com.br/solicitar-proposta">Solicitar proposta</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col2">
+                    <h3>Pessoas</h3>
+                    <ul class="listaPessoas">
+                        <li><a href="http://pessoas.vagas.com.br">Pesquisa de vagas</a></li>
+                        <li><a href="http://pessoas.vagas.com.br/move_to?servico=acesso_ao_curriculo">Acesso ao currículo</a></li>
+                        <li><a href="http://vagas.com.br/ajuda">Ajuda</a></li>
+                    </ul>
+                </div>
+            </div>
+        
+        </div>
+
+      <div id="bgPredios" class="home"></div>
+
+    </div>
+    
+    <div id="rodape">
+      <div id="rodapeFaixa">
+        <div class="center">
+
+          <h2 id="logoVagasRodape"><a href="http://www.vagas.com.br">Vagas</a></h2>
+
+          <ul id="listaRedes">
+            <li><a class="linkLinkedIn" href="http://linkd.in/GrupoVAGAS" title="LinkedIn" target="_blank">LinkedIn</a></li>
+            <li><a class="linFace" href="http://facebook.com/vagascombr" title="Facebook" target="_blank">Facebook</a></li>
+            <li><a class="linkTwitter" href="http://twitter.com/@VAGAS" title="Twitter" target="_blank">Twitter</a></li>
+            <li><a class="linkOrkut" href="http://bit.ly/OrkutVAGAS" title="Orkut" target="_blank">Orkut</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+</body>
+</html>

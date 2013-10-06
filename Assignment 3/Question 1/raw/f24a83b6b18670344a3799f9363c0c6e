@@ -1,0 +1,434 @@
+<html>
+
+<head>
+<title>Dumb Astronomy Acronyms</title>
+<style>
+  <!--
+     A{text-decoration:none}
+     a:hover { text-decoration: underline overline }
+  //-->
+</style>
+<script type="text/javascript" src="../java/fader.js"> </script>
+<script type="text/javascript" src="../java/varimage1.js"> </script>
+<script type="text/javascript" src="../java/bgcolour.js"> </script>
+
+</head>
+
+<body bgcolor="#000000" text="#FFFFFF" link="#A5C8FF" vlink="#FF66CC" alink="#FF0000">
+
+
+<h3>Dumb Or Overly Forced Astronomical Acronyms Site (or DOOFAAS)</h3>
+
+I've been offline for a long time, but have cleared my backlog of unposted submissions, so please continue to <a href="nospam.html" onmouseover="findLink(this.id); this.href='mai' + 'lto:' + 'gpetitpas' + '@' + 'cfa.harvard.edu'" onmouseout="clearFade()">mail me yours today!</a>
+<table border=0 bgcolor="#666666">
+<tr><td>
+
+<table border=0 cellspacing=2 bgcolor="#000000">
+
+<tr><th align="left">Acronym</th> <th align="left">Solution</th></tr>
+<tr><td>11HUGS </td> <td>     11 Mpc Halpha and Ultraviolet Galaxy Survey (Yowza. We have a winner!)<td></tr>
+<tr><td>2D-FRUTTI </td> <td>     2-D Photon Counting System (I swear, I didn't make this up. It was on CTIO as best I can tell. <a href="http://stsdas.stsci.edu/cgi-bin/gethelp.cgi?2dfrutti">Manual here</a>)</td></tr>
+<tr><td>2MASS </td> <td>         Two Micron All-Sky Survey</td></tr>
+<tr><td>25BEARS </td> <td>       ??? It's on ASTE. I need specifics</td></tr>
+<tr><td>5MUSES </td> <td>       5 Mjy Unbiased Spitzer Extragalactic Survey (in Acronym mode, their 5 mJy survey seems less impressive in it's senstivity)</td></tr>
+<tr><td>ACBAR </td> <td>         Arcminute Cosmology Bolometer Array Receiver ("It's a photon trap!")</td></tr>
+<tr><td>ACE </td> <td>           Advanced Composition Explorer</td></tr>
+<tr><td>ADIoS </td> <td>           Aste Dense gas Imaging Of Spiral galaxies (an AMFA: Acronym Made From Acronyms)</td></tr>
+<tr><td>ADONIS</td> <td>           Adaptive Optics Near-Infrared System</td></tr>
+<tr><td>AESOP</td> <td>           An Extensive Symbolic Optics Package</td></tr>
+<tr><td>AGAPE </td> <td>         Andromeda Galaxy and Amplified Pixel Experiment</td></tr>
+<tr><td>AIM </td> <td>          Astrometric Interferometry Mission</td></tr>
+<tr><td>AIPS </td> <td>         Astronomical Image Processing System</td></tr>
+<tr><td>ALEXIS </td> <td>        Array of Low Energy X-ray Imaging Sensors</td></tr>
+<tr><td>ALFA </td> <td>        Adaptive optics with Lasers For Astronomy</td></tr>
+<tr><td>ALFA </td> <td>        Arecibo L-band Feed Array </td></tr>
+<tr><td>ALFAFA </td> <td>        Arecibo Legacy Fast ALFA survey (technically you have Arecibo in there twice) </td></tr>
+<tr><td>ALPO </td> <td>          Association of Lunar and Planetary Observers</td></tr>
+<tr><td>AMANDA</td> <td>         Antarctic Muon And Neutrino Detector Array</td></tr>
+<tr><td>AMASE</td> <td>         Astrophysics Multispectral Archive Search Engine</td></tr>
+<tr><td>AMBER</td> <td>         Astronomical MultiBEam Recombiner</td></tr>
+<tr><td>ANCHORS</td> <td>         AN archive of CHandra Observations of Regions of Star formation (Woweee. That's terrible)</td></tr>
+<tr><td>ANDREAS</td> <td>        Advanced Name Designer REgarding Astronomical Systems (Bryan Gaensler's astro-acro informant)</td></tr>
+<tr><td>ANIS    </td> <td>     All Neutrino Interaction Simulation  (LOL!)  </td></tr>
+<tr><td>ANTARES </td>  <td>      Astronomy with a Neutrino Telescope and Abyss
+environmental RESearch (whatever that means)</td></tr>
+<tr><td>APHID </td> <td>      Atmospheric PHase Inference Device</td></tr>
+<tr><td>APT </td> <td>      Asia Pacific Telescope</td></tr>
+<tr><td>ARCADE </td> <td>      Absolute Radiometer for Cosmology, Astrophysics, and Diffuse Emission</td></tr>
+<tr><td>ARCSEC </td> <td>      Association of Roman Catholics for the promotion
+of Space Exploration and Colonization</td></tr>
+<tr><td>ARIES </td> <td>   Arizona Infrared Imager and Echelle Spectrograph</td></tr>
+<tr><td>ARISE </td> <td>   Advanced Radio Interferometry between Space and Earth</td></tr>
+<tr><td>ARISTOTELES </td> <td>   Applications and Research Involving Space Technologies Observing the Earth's field from Low Earth orbiting Satellite</td></tr>
+<tr><td>ARMPIT </td> <td>       ASKAP Rotation Measure and Polarisation InvestigaTion (an AMFA: ASKAP=Australian Square Kilometer Array Pathfinder)</td></tr>
+<tr><td>ARTEMIS </td> <td>       Advanced Relay TEchnology MISsion</td></tr>
+<tr><td>ASTER</td> <td>          Advanced Spaceborne Thermal Emmision and Reflection</td></tr>
+<tr><td>AST/RO</td> <td>         Antarctic Submillimeter Telescope and Remote Observatory</td></tr>
+<tr><td>ATLAS  </td> <td>        Atmospheric Laboratory for Applications and Science</td></tr>
+<tr><td>AURA  </td> <td>        Association of Universities for Research in Astronomy</td></tr>
+<tr><td>AVIRIS  </td> <td>       Airborne Visible/InfraRed Imaging Spectrometer</td></tr>
+<tr><td>AzTEC  </td> <td>       The AZtronomical Thermal Emission Camera (that's cheating)</td></tr>
+<tr><td>BACODINE  </td> <td>     BATSE COordinate DIstribution NEtwork (BATSE=Burst And Transient Source Experiment)</td></tr>
+<tr><td>BAD</td> <td>          Balmer-Absorption-Dominated (Nuclei)</td></tr>
+<tr><td>BAM  </td> <td>          Balloon-bourne Anisotropy Measurement</td></tr>
+<tr><td>BaR-SPOrt  </td> <td>          BAlloon-bourne Radiometers for Sky Polarisation ObseRvaTions (honestly)</td></tr>
+<tr><td>BEER  </td> <td>          BEaming, Ellipsoidal & Reflection effects (mmmm, BERE)</td></tr>
+<tr><td>BICEP   </td> <td>       Background Imaging of Cosmic Extragalactic Polarization (feel the burn)
+<tr><td>BIGASS  </td> <td>       Bright Infrared Galaxy All Sky Survey (J. Howell is still a winner in my book!)</td></tr>
+<tr><td>BIGRAT  </td> <td>       BIcentennial Gamma RAy Telescope</td></tr>
+<tr><td>BiSON  </td> <td>       Birmingham Solar Oscillations Network</td></tr>
+<tr><td>BLAST  </td> <td>       Balloon­borne Large­Aperture Sub­millimeter Telescope</td></tr>
+<tr><td>BLISS  </td> <td>       Background-Limited Infrared-Submillimeter Spectrograph</td></tr>
+<tr><td>BLOSM  </td> <td>       Broad band and Large area x-ray Omni Sky Monitor</td></tr>
+<tr><td>BOOJUMS   </td> <td>    Blue Objects Observed Just Undergoing Moderate Starbursts (`Boojums' is from Lewis Carrolls poem ``The Hunting of the Snark'')</td></tr>
+<tr><td>BOOMERanG  </td> <td>    Balloon Observations Of Millimetric Extragalactic Radiation and Geophysics</td></tr>
+<tr><td>CAFE </td> <td>      CAssegrain Fiber Environment</td></tr>
+<tr><td>CANDELS </td> <td>      Cosmic Assembly Near-infrared Deep Extragalactic Legacy Survey </td></tr>
+<tr><td>CANGAROO </td> <td>      Collaboration between Australian and Nippon for a Gamma Ray Observatory in the Outback (krazy!)</td></tr>
+<tr><td>CARA </td> <td>        Centre for Astrophysical Research in Antarctica</td></tr>
+<tr><td>CARMA </td> <td>        Combined Array for Research in Millimetre-wave Astronomy</td></tr>
+<tr><td>CASA-BLANCA</td> <td>  Chicago Air Shower Array - Broad LAteral Non-imaging Cerenkov Array</td></tr>
+<tr><td>CASIMIR</td> <td>       CAltech Submillimeter Interstellar Medium Investigations Receiver</td></tr>
+<tr><td>CASPIR</td> <td>        Cryogenic Array SPectrometer ImageR</td></tr>
+<tr><td>CASTLES</td> <td>        Cfa/Arizona Space Telescope LEns Survey</td></tr>
+<tr><td>CAT </td> <td>        Cosmic Anisotropy Telescope</td></tr>
+<tr><td>ChAOS </td> <td>        Chicago Adaptive Optics System</td></tr>
+<tr><td>CHARA </td> <td>        Center for High Angular Resolution Astronomy</td></tr>
+<tr><td>CHASE </td> <td>        Coronal Helium Abundance Spacelab Experiment</td></tr>
+<tr><td>CHIPS </td> <td>        Cosmic Hot Interstellar Plasma Spectrometer</td></tr>
+<tr><td>CIAO </td> <td>        Chandra Interactive Analysis of Observations</td></tr>
+<tr><td>CIRPASS </td> <td>        Cambridge InfraRed PAnoramic Survey Spectrograph</td></tr>
+<tr><td>CIRRIS </td> <td>        Cryogenic InfraRed Radiance Instrument for Shuttle</td></tr>
+<tr><td>CIRSI </td> <td>        Cambridge InfraRed Survey Instrument (as in Cerse,
+the daughter of sun god Helius)  </td></tr>
+<tr><td>CISCO </td> <td>        Cooled Infrared Spectrograph and Camera for OHS</td></tr>
+<tr><td>COAST </td> <td>        Cambridge Optical Aperature Synthesis Telescope</td></tr>
+<tr><td>COAST </td> <td>        Cambridge Optical Aperature Synthesis Telescope</td></tr>
+<tr><td>CLOUD </td> <td>        Cosmics Leaving OUtdoor Droplets (huh?)</td></tr>
+<tr><td>COBRA </td> <td>        Cadmium-zinc-telluride O-neutrino double-Beta Research Apparatus (The "O" is for "Zero" 0f c0urse)</td></tr>
+<tr><td>COBRAS/SAMBA </td> <td>  COsmic Background Radiation Anisotropy Satellite/SAtellite to Measure Background Anisotropies</td></tr>
+<tr><td>COHSI</td> <td>      Cambridge OH Suppresion Instrument</td></tr>
+<tr><td>COINS</td> <td>      CSOs Observed In Northern Sky</td></tr>
+<tr><td>COMPLETE</td> <td>     COodinated Molecular Probe Line Extinction Thermal Emissio (survey)</td></tr>
+<tr><td>COMPLEX</td> <td>     COMmittee on Planetary and Lunar spave EXploration</td></tr>
+<tr><td>CORNEA</td> <td>      Corrective Optics R? N? Emmending Atmosphere  (would you believe on IRIS ?)</td></tr>
+<tr><td>COSMOS</td> <td>      CoOrdinates, Sizes, Magnitudes, Orientations, and Shapes </td></tr>
+<tr><td>COSTAR</td> <td>      Corrective Optics Space Telescope Axial Replacement </td></tr>
+<tr><td>COLA</td> <td>      Compact Objects in Low power Agns  </td></tr>
+<tr><td>COME ON+ </td> <td>      ? (Adaptive Optics on ESO 3.6 m Telescope) </td></tr>
+<tr><td>COMPASS  </td> <td>      COsmic Microwave Polarization At Small Scales </td></tr>
+<tr><td>CONICA </td> <td>      COude Near Infrared CamerA</td></tr>
+<tr><td>COW </td> <td>          Committee Of the Wise (scheduling committee for WET)</td></tr>
+<tr><td>COYOTES </td> <td>          Coordinated Observations of Young ObjecTs from Earthbound Sites</td></tr>
+<tr><td>CREAM</td> <td>         Cosmic Radiation Effects and Activatiom Monitor</td></tr>
+<tr><td>CUBIC</td> <td>         Cosmic Unresolved Background Instrument using CCD's </td></tr>
+<tr><td>DAISY</td> <td>         Data Acquisition and Interpretation System</td></tr>
+<tr><td>DASI</td> <td>         Degree Angular Scale Interferometer/td></tr>
+<tr><td>DAZLE</td> <td>         Dark Ages Z (redshift) Lyman-alpha Explorer</td></tr>
+<tr><td>DEBRA</td> <td>         Diffuse Extragalactic Background RAdiation</td></tr>
+<tr><td>DEBRIS</td> <td>        Disc Emission via a Bias-free Reconnaissance in the Infrared/Sub-millimetre (not bad...)</td></tr>
+<tr><td>DEEP </td> <td>         Deep Extragalactic Evolutionary Probe </td></tr>   
+<tr><td>DEERS </td> <td>         Deeply Embedded Energetic Radio Sources </td></tr>   
+<tr><td>DEIMOS </td> <td>         Deep Extragalactic Imaging Multi Object Spectrograph</td></tr>   
+<tr><td>DENIS </td> <td>         DEep Near Infrared Survey of the Southern Sky </td></tr>   
+<tr><td>DIGIT </td> <td>        Dust, Ice, and Gas In Time (everything in time...)</td></tr>   
+<tr><td>DIMES </td> <td>        DIffuse Microwave Emission Survey </td></tr>   
+<tr><td>DIRT </td> <td>        Dust InfraRed Toolbox </td></tr>   
+<tr><td>DIVA</td> <td>        Deutsches Interferometer fuer Vielkanalphotometry und Astrometrie </td></tr>   
+<tr><td>DIXI</td> <td>        Deep Impact eXtended Investigation</td></tr>   
+<tr><td>DONUT</td> <td>        Direct Observation of NU Tau</td></tr>   
+<tr><td>DRAGN</td> <td>        Double Radio sources Associated with Galactic Nuclei</td></tr>   
+<tr><td>DUO </td> <td>         Disk Unseen Objects </td></tr>   
+<tr><td>DUNES </td> <td>         DUst disks around NEarby Stars</td></tr>   
+<tr><td>DUPLEX </td> <td>        DUst-Prominent Longitudinally-EXtended</td></tr>   
+<tr><td>EGG </td> <td>         Evaporating Gaseous Globule</td></tr>
+<tr><td>EGRET </td> <td>         Energetic Gamma Ray Experiment Telescope</td></tr>
+<tr><td>EIDERS </td> <td>         Externally Ionized Disks in the Environs of Radiation Sources</td></tr>
+<tr><td>ELFS</td> <td>          Extremely Luminous Far-infrared Sources</td></tr>
+<tr><td>EPOCh</td> <td>         Extrasolar Planet
+Observations and Characterization (see below for evolution) </td></tr>
+<tr><td>EPOXI</td> <td>         The result of merging the EPOCh and DIXI missions (an AMFAMFA, Acronym Made From AMFAs) </td></tr>
+<tr><td>EROS </td> <td>          Exp&eacute;rience de Recherche d'Objects Sombres</td></tr>
+<tr><td>ESP</td> <td>        ESO Slice Project (an AMFA)</td></tr>
+<tr><td>ETC</td> <td>        Explosive Transient Camera</td></tr>
+<tr><td>EURECA </td> <td>        EUropean REtrievable CArrier</td></tr>
+<tr><td>FAME  </td> <td>         Fizeau Astrometric Mapping Explorer</td></tr>
+<tr><td>FaNTOmM</td> <td>       Fabry-perot of New Technology for the Observatoire du mont Megantic (wow... just wow)</td></tr>
+<tr><td>FAST  </td> <td>         Fast Auroral SnapshoT explorer</td></tr>
+<tr><td>FASTSOUND  </td> <td>    Fmos Ankoku Shindou Tansa Subaru Observation Understanding Nature of Dark energy (A multilanguage AMFA. FMOS is 'Fiber Multi-Object Spectrograph' and Ankoku Shindou Tansa is Japanese for 'Dark Oscillation Survey'</td></tr>
+<tr><td>FATBOY  </td> <td>         The Florida Analysis Tool Born of Yearning for high-quality scientific data (this may be the worse... or best yet)</td></tr>
+<tr><td>FAUST  </td> <td>         FAr-Ultraviolet Space Telescope</td></tr>
+<tr><td>FIBRE </td> <td>      Fabry-perot Interferometer Bolometer Research Experiment</td></tr>
+<tr><td>FIDEL</td> <td>      Far Infrared Deep Extragalactic Legacy </td></tr>
+<tr><td>FIFI </td> <td>       Far Infrared Fabry-perot Interferometer</td></tr>
+<tr><td>FIGARO  </td> <td>       French Italian GAmma Ray Observatory</td></tr>
+<tr><td>FILM  </td> <td>       Far Infrared Line Mapper</td></tr>
+<tr><td>FIRST  </td> <td>        Faint Images of the Radio Sky at Twenty-centimeters</td></tr>
+<tr><td>FITS  </td> <td>        Flexible Image Transport System</td></tr>
+<tr><td>FLAIR </td> <td>        Fibre Linked Array Image Reformatter</td></tr>
+<tr><td>FLAMINGOS </td> <td>        FLoridA Multi-object Imaging Near-infrared Grism Observational Spectrometer (eek)</td></tr>
+<tr><td>FLIERS </td> <td>        Fast, Low-Ionization Emission RegionS</td></tr>
+<tr><td>FLITECAM </td> <td>      First Light Infrared Test Experiment CAMera (it's on SOFIA, so it really is a flying camera. Good work!)</td></tr>
+<tr><td>FORCAST  </td> <td>      Faint Object infraRed CAmera for the SOFIA Telescope (Also an AMFA; Thanks to Luke Keller)</td></tr>
+<tr><td>FORT  </td> <td>        Foyer Optimise pour le RadioTelescope (FORT="strong" in French)</td></tr>
+<tr><td>FOXES </td> <td>        Fluctuating Optical and X-ray Emitting Sources</td></tr>
+<tr><td>FRED  </td> <td>        Fast RisE, rapid Decay (pulse structure in pulsars)</td></tr>
+<tr><td>FROG  </td> <td>         Faint Red Outlier Galaxy</td></tr>
+<tr><td>FUC</td> <td>  Far Ultraviolet Camera</td></tr>
+<tr><td>FUCR</td> <td>  Far Ultra-Chromatic Rocket (thanks to Will Marchant)</td></tr>
+<tr><td>FUSE </td> <td>          Far Ultraviolet Spectroscopic Explorer</td></tr>
+<tr><td>GAIA </td> <td>          Global Astrometric Interferometer for Astrophysics</td></tr>
+<tr><td>GADZOOKS! </td> <td>     Gadolinium Antineutrino Detector Zealously Outperforming Old Kamiokande, Super! (PI insists on the exclaimation point! Awesome!)</td></tr>
+<tr><td>GALAPAGOS </td> <td>       Galaxy Analysis over Large Areas: Parameter Assessment by Galfitting Objects from Sextractor (took some work!)</td></tr>
+<tr><td>GANDALF </td> <td>          Gas AND Absorption Line Fitting algorithm (pushed all the right nerd buttons)</td></tr>
+<tr><td>GASP </td> <td>          Gamma-rays At the South Pole</td></tr>
+<tr><td>GASP </td> <td>          Guide star selection system Astrometric Support Package</td></tr>
+<tr><td>GASPS </td> <td>         GAS in Protoplanetary Systems</td></tr>
+<tr><td>GEMS </td> <td>          Glasses Embedded Metals and Sulfides</td></tr>
+<tr><td>GIMP </td> <td>          Geo-magnetically induced Image Motion Problem (on HST) </td></tr>
+<tr><td>GISMO </td> <td>         Goddard-Iram Superconducting 2-Millimeter Observer (the '2' is silent. I guess GITMO was inappropriate))</td></tr>
+<tr><td>GENIUS </td> <td>        GErmanium liquid NItrogen Underground Setup</td></tr>
+<tr><td>GIPSY </td> <td>          Groningen Image Processing SYstem </td></tr>
+<tr><td>GLIMPSE </td> <td>       GLobal IMPlicit SEarch</td></tr>
+<tr><td>GLIMPSE </td> <td>       Galactic Legacy Infrared MidPlane Survey Extraordinaire</td></tr>
+<tr><td>GOALS </td> <td>         Great Observatories All-sky LIRG Survey (another AMFA!)</td></tr>
+<tr><td>GOES </td> <td>         Geostationary Operational Environmental Satellites</td></tr>
+<tr><td>GOD </td> <td>         Gravity One Dimension (The paper was entitled `The likelihood of GODs' existence'...)</td></tr>
+<tr><td>GONG  </td> <td>         Global Oscillations Network Group</td></tr>
+<tr><td>GOODS  </td> <td>        Great Observatories Origins Deep Survey</td></tr>
+<tr><td>GNAT  </td> <td>         Global Network of Astronomical Telescopes </td></tr>
+<tr><td>GRAPE  </td> <td>        GRAvity PipE</td></tr>
+<tr><td>GRAPES  </td> <td>       GRism Acs Program for Extragalactic Science</td></tr>
+<tr><td>GRASP  </td> <td>        Gamma-Ray Astronomy with Spectroscopy and Positioning</td></tr>
+<tr><td>GREAT  </td> <td>        German REceiver for Astronomy at Terahetz frequencies (it'd better be good!)</td></tr>
+<tr><td>HARP  </td> <td>         Hermite AcceleratoR Pipe</td></tr>
+<tr><td>HAWAII  </td> <td>         HgCdTe Astronomical Wide Area Infrared Imager</td></tr>
+<tr><td>HEAD  </td> <td>         High Energy Astrophysics Division</td></tr>
+<tr><td>HEAT  </td> <td>         High-Energy Antimatter Telescope</td></tr>
+<tr><td>HELLAS  </td> <td>         High-Energy Large Area Survey (I don't know where the extra L came from, but I think Hellas is the ancient name for Greece.)</td></tr>
+<tr><td>HERB  </td> <td>         High Energy Resolution Burst</td></tr>
+<tr><td>HERITAGE  </td> <td>     HERschel Inventory of The Agents of Galaxy Evolution (agents?)</td></tr>
+<tr><td>HERMES  </td> <td>     HERschel M33 Extended Survey</td></tr>
+<tr><td>HEROES  </td> <td>     HERschel Observations Edge-on Spirals</td></tr>
+<tr><td>HIFI </td> <td>          Hawaii Imaging Fabry-perot Interferometer</td></tr>
+<tr><td>HIPPARCOS </td> <td>          HIgh Precision PARallax COllecting Satellite (I genuinely did not know this was an acronym until readers pointed out I missed it :P)</td></tr>
+<tr><td>HIS/HERS  </td> <td>     High Intensity Spectrograph / High Energy Range Spectrometer</td></tr>
+<tr><td>HO-BAGS</td> <td>        Hubble Observatory BAckground Galaxy Survey</td></tr>
+<tr><td>HOEs</td> <td>           Holographic Optical Elements</td></tr>
+<tr><td>HOPS</td> <td>           Herschel Orion Protostar Survey</td></tr>
+<tr><td>IDEA</td> <td>           Initiative to Develop Education through Astronomy </td></tr>
+<tr><td>INTEGRAL</td> <td>       INTErnational Gamma Ray Astrophysics Laboratory</td></tr>
+<tr><td>IOTA</td> <td>           Infrared and Optical Telescope Array</td></tr>
+<tr><td>IRAC</td> <td>           InfraRed Array Camera</td></tr>
+<tr><td>IRIS</td> <td>           Infra Red Imager Spectrograph</td></tr>
+<tr><td>JACARA </td> <td>        Joint Australian Centre for Astrophysical Research in Antarctica</td></tr>
+<tr><td>JIVE  </td> <td>         Joint Institute for VLBI in Europe</td></tr>
+<tr><td>KARMEN  </td> <td>      Karlsruhe Appleton Rutherford Medium Neutrino Experiment</td></tr>
+<tr><td>KASCADE  </td> <td>      KArlsruhe Shower Core and Array DEtector</td></tr>
+<tr><td>KINGFISH </td> <td>      Key Insights on Nearby Galaxies: a Far-Infrared Survey with Herschel</td></tr>
+<tr><td>KISS </td> <td>          KPNO International Spectroscopic Survey</td></tr>
+<tr><td>KNAC </td> <td>          Keck Northeast Astronomy Consortium</td></tr>
+<tr><td>KOSMA </td> <td>         K&ouml;lner Observatorium f&uuml;r Submillimeter Astronomie</td></tr>
+<tr><td>LACE </td> <td>         Low power Atmospheric Compensation Experiment</td></tr>
+<tr><td>LALA </td> <td>         Large Area Lyman Alpha survey</td></tr>
+<tr><td>LAMOST </td> <td>         Large sky Area Mulit Object fiber Spectrscopic Telescope</td></tr>
+<tr><td>LAMP </td> <td>         Lick AGN Monitoring Project (AMFA)</td></tr>
+<tr><td>LEST </td> <td>         Large Earth-based Solar Telescope</td></tr>
+<tr><td>LIGHT </td> <td>        Light Interferometer satellite for the studies of Galactic Halo Tracers</td></tr>
+<tr><td>LINERS </td> <td>        Low Ionization Nuclear Emission-line Regions</td></tr>
+<tr><td>LIRIS </td> <td>        Long slit Intermediate Resolution Intrared Spectrograph</td></tr>
+<tr><td>LISA </td> <td>        Laser Interfeter Space Antenna</td></tr>
+<tr><td>LUCIFER </td> <td>        LBT near infrared spectroscopic Utility with Camera and Integral Field Unit for Extragalactic Research (apparently most of that is silent, and and AMFA)</td></tr>
+<tr><td>MACHO </td> <td>         MAssive Compact Halo Objects</td></tr>
+<tr><td>MACRO </td> <td>         Monopoles, Astrophysics, and Cosmic Ray Observatory</td></tr>
+<tr><td>MAGES </td> <td>         MIPS AGN and Galaxy Evolution Survey (a double AMFA!)</td></tr>
+<tr><td>MAGNUM </td> <td>         Multicolor Active Galactic Nuclei Monitoring project</td></tr>
+<tr><td>MAMA </td> <td>         Multi-Anode Microchannel Array</td></tr>
+<tr><td>MAMBO </td> <td>       MAx-planck-Millimeter-BOlometer </td></tr>
+<tr><td>MAP </td> <td>         Microwave Anisotropy Probe</td></tr>
+<tr><td>MAPS </td> <td>         Minnesota Automated Plate Scanner</td></tr>
+<tr><td>MARTINI </td> <td>      Multi-Aperture Real Time Image NormalIzation system</td></tr>
+<tr><td>MASSIF </td> <td>      Masses and Stellar Systems with InterFerometry</td></tr>
+<tr><td>MAX </td> <td>         Millimeter wave Anisotropy eXperiment</td></tr>
+<tr><td>MAXIMA </td> <td>        Millimeter wave Anisotropy eXperiment IMaging Array</td></tr>
+<tr><td>MBONE </td> <td>         Multicast BackbONE</td></tr>
+<tr><td>MERLIN </td> <td>        Multi-Element Radio Linked Interferometer Network</td></tr>
+<tr><td>MIAOW </td> <td>         Minimum Inertia Adaptive Optics Widget</td></tr>
+<tr><td>MICE </td> <td>          Muons in ICE</td></tr>
+<tr><td>MICHELLE </td> <td>      Mid-Infrared eCHELLE spectrograph</td></tr>
+<tr><td>MIDAS </td> <td>         Munich Image Data Analysis System</td></tr>
+<tr><td>MIDGet </td> <td>        Millimeter Interferometry of Dwarf Galaxies (adding letters to be offensive?, especially when they prefer to be called "little galaxies") </td></tr>
+<tr><td>MIME </td> <td>          Multipurpose Internet Mail Extensions</td></tr>
+<tr><td>MIRA </td> <td>          Mitaka optical and Infra-Red interferometer Array</td></tr>
+<tr><td>MIRAC </td> <td>          Mid InfraRed Array Camera</td></tr>
+<tr><td>MIRACLE </td> <td>       Mid-InfraRed Array Camera of Least Effort</td></tr>
+<tr><td>MIRIAD </td> <td>       Multichannel Image Reconstruction, Image Analysis and Display</td></tr>
+<tr><td>MIRLIN </td><td> Mid-InfraRed Large Imager (the 'N' doesn't
+stand for anything!)</td></tr>
+<tr><td>MOMI </td> <td>       Manchester Occulting Mask Imager</td></tr>
+<tr><td>MONICA </td> <td>       MONtreal Infrared CAmera</td></tr>
+<tr><td>MOSAIC </td> <td>         MDM/Ohio State/ALADDIN Infrared Camera (really!)</td></tr>
+<tr><td>MOST </td> <td>         Microvariability and Oscillations of STars</td></tr>
+<tr><td>MOST </td> <td>         Molonglo Observatory Synthesis Telescope</td></tr>
+<tr><td>MUNICS </td> <td>         MUnich Near-Infrared Cluster Survey (awesome)</td></tr>
+<tr><td>MUSE </td> <td>        Multi Unit Spectroscopic Explorer  </td></tr>
+<tr><td>MUSICOS </td> <td>         MUlit-SIte COordinated Spectroscopy</td></tr>
+<tr><td>NEAT </td> <td>         Near Earth Asteriod Tracking (telescope)</td></tr>
+<tr><td>NHEMESES </td> <td>      New HErshel Multi-wavelength Extragalactic Survey of Edge-on Spirals</td></tr>
+<tr><td>NIRI </td> <td>         Near InfraRed Imager</td></tr>
+<tr><td>NITE </td> <td>         Near-Infrared Telescope Experiment</td></tr>
+<tr><td>NOT </td> <td>          Nordic Optical Telescope</td></tr>
+<tr><td>OASIS </td> <td>        Optically Adaptive System for Imaging Spectroscopy</td></tr>
+<tr><td>OGLE </td> <td>          Optical Gravitational Lensing Experiment</td></tr>
+<tr><td>OHANA </td> <td>         Optical Hawaiian Array for Nanoradian Astronomy (A plan to join Mauna Kea optical observatories into one interferometer. Ohana is Hawaiian for 'family'. OK, this one is good.)</td></tr>
+<tr><td>OPAL</td> <td>           Orbiting Picosat Automatic Launcher</td></tr>
+<tr><td>OPUS</td> <td>           Observations support/post-observation data Processing Unified System   (good god!)</td></tr>
+<tr><td>ORFEUS </td> <td>        Orbiting and Retrievable Far and Extreme Ultraviolet Spectrometer</td></tr>
+<tr><td>OSCAR </td> <td>         Orbiting Satellite Carrying Amateur Radio</td></tr>
+<tr><td>OSCIR </td> <td>         Observatory Spectrometer Camera for the InfraRed</td></tr>
+<tr><td>OSIRIS </td> <td>         Optical Space Interferometer: Russian Instrument for Stellar astronomy</td></tr>
+<tr><td>OWL </td> <td>         Overwhelmingly Large Telescope (so big, it's ridiculous)</td></tr>
+<tr><td>PEARS </td> <td>      Probing Evolution And Reionization Spectroscopically</td></tr>
+<tr><td>PHEBUS </td> <td>      Payload for High Energy BUrst Spectroscopy</td></tr>
+<tr><td>PIG  </td> <td>      Partially Ionized Globule</td></tr>
+<tr><td>PINOCCHIO  </td> <td>      PINpointing Orbit-Crossing Collapsed HIerarchial Objects (Egad!)</td></tr>
+<tr><td>PINTofALE  </td> <td>     Package for the INTeractive Analysis of Line Emission (E for Effort, but this is PINTAofLE)</td></tr>
+<tr><td>PIQUE  </td> <td>     Princeton IQU Experiment</td></tr>
+<tr><td>PIT  </td> <td>      Phase 1 Tool (for Gemini, replacing POOPSY)</td></tr>
+<tr><td>PLANET </td> <td>      Probing Lensing Anomalies NETwork</td></tr>
+<tr><td>POEM </td> <td>      Polar Orbiting Earth Mission</td></tr>
+<tr><td>POINTS </td> <td>      Precision Optical INTerferometer in Space</td></tr>
+<tr><td>POLAR </td> <td>      Polarization Observations of Large Angular Regions (what's an angular region?)</td></tr>
+<tr><td>POLARBEAR </td> <td>     POLARization of the Background millimEter bAckground Radiation (very weak)</td></tr>
+<tr><td>POOPSY</td> <td>      Phase One Observing Proposal SYstem</td></tr>
+<tr><td>POST</td> <td>      POlar Stratosperic Telescope</td></tr>
+<tr><td>PRESTO</td> <td>      Project to Re-Engineer Space Telescope Observing</td></tr>
+<tr><td>PROSAC</td> <td>      PROtostellar Submillimetre Array Campaign (a pretty hard campaign)</td></tr>
+<tr><td>QUEST </td> <td>      Q and U Extra-galactic Sub-mm Telescope</td></tr>
+<tr><td>QUIRC  </td> <td>      QUick InfRared Camera</td></tr>
+<tr><td>RASSCALS  </td> <td>     ROSAT All-Sky Survey-Center for Astrophysics Loose Systems (yet another AMFA) </td></tr>
+<tr><td>RATTS  </td> <td>      Run Away T-Tauri Stars</td></tr>
+<tr><td>RESCEU  </td> <td>      RESearch Center for the Early Universe </td></tr>
+<tr><td>RICE  </td> <td>      Radio Ice Cerenkov Experiment</td></tr>
+<tr><td>SAFARI  </td> <td>       SpicA FAR-infrared Instrument (an AMFA!)</td></tr>
+<tr><td>SAGA  </td> <td>         Solar Array Gain Augmentation</td></tr>
+<tr><td>SAGE  </td> <td>         Surveying the Agents of a Galaxy's Evolution (overly forced!)</td></tr>
+<tr><td>SAGES  </td> <td>         Study of the Astrophysics of Globular clusters in Extragalactic Systems</td></tr>
+<tr><td>SARA  </td> <td>         Satellite pour Astronomie Radio Amateur</td></tr>
+<tr><td>SASS </td> <td>          Standard Analysis Software System</td></tr>
+<tr><td>SASS </td> <td>          Spitzer Atlas of Stellar Spectra</td></tr>
+<tr><td>SAX </td> <td>          Satellite per Astronomia X (its Italian)</td></tr>
+<tr><td>SAURON </td> <td>        Spectroscopic Areal Unit for
+ Research on Optical Nebulae (mmmm, nerdy) </td></tr>
+<tr><td>SCAR</td> <td>          Scientific Committee on Antarctic Research</td></tr>
+<tr><td>SCORE</td> <td>          SIRTF-CORnell Echelle</td></tr>
+<tr><td>SCUBA </td> <td>          Submillimeter Common-User Bolometer Array</td></tr>
+<tr><td>SEQUOIA </td> <td>           SEcond QUabbin Optical Imaging Array</td></tr>
+<tr><td>SERENDIP </td> <td>   Search for Extraterrestrial Radio Emissions from Nearby
+Developed Intelligent Populations</td></tr>
+<tr><td>SERTS </td> <td>          Solar EUV Rocket Telescope Spectrograph</td></tr>
+<tr><td>SERVS </td> <td>          Spitzer Extragalactic Representative Volume Survey</td></tr>
+<tr><td>SGARFACE</td> <td>        Short GAmma Ray Front AirCerenkov Experiment (Sweet misspelled goodness)</td></tr>
+<tr><td>SHARC </td> <td>          Submillimeter High Angular Resolution Camera
+(eats SCUBA alive they claim)</td></tr>
+<tr><td>SHARE </td> <td>         Space station Heat pipe Advanved Radiator Element</td></tr>
+<tr><td>SHARP </td> <td>         System for High-Angular-Resolution Pictures</td></tr>
+<tr><td>SHEEP </td> <td>         Search for the High Energy Extragalactic Population</td></tr>
+<tr><td>SHIT </td> <td>        Super Huge Interferometric Telescope <a href="http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1999AAS...195.8713R&amp;db_key=AST&amp;data_type=HTML&amp;format=&amp;high=42d6ffad6b00937">(look for yourself)</a></td></tr>
+<tr><td>SiEGMuND </td> <td>      Simulation of Events with Geant for Muon and Neutrino Detectors </td></tr> 
+<tr><td>SIGMA </td> <td>        Systeme d'Imagerie Gamma a Masque Aleatoire</td></tr> 
+<tr><td>SIMBAD </td> <td>        Set of Identifications, Measurements and Bibliography for Astronomical Data</td></tr> 
+<tr><td>SIMPLE </td> <td>        Spitzer IRAC/MUSYC Public Legacy survey in the Extended chandra
+deep field south (Wow, SIMPLSECDFS?)</td></tr> 
+<tr><td>SINFONI </td> <td>        the SINgle Faint Object Near-infrared Investigation</td></tr> 
+<tr><td>SINGS </td> <td>        SIRTF Infrared Nearby Galaxy Survey (an AMFA)</td></tr> 
+<tr><td>SIMPLE </td> <td>        Superheated Instrument for Massive ParticLe Experiments</td></tr> 
+<tr><td>SLAP </td> <td>         Space Link Access Protocol</td></tr>
+<tr><td>SMAC </td> <td>         Streaming Motions of Abel Clusters</td></tr>
+<tr><td>SMIRFS </td> <td>         Sub Millimeter InfraRed Fiber-feed System (or something)</td></tr>
+<tr><td>SMOG </td> <td>         Spitzer Mapping of the Outer Galaxy</td></tr>
+<tr><td>SMUDGES </td> <td>      Systematic Multiwavelength Unbiased catalog of Dwarf Galaxies and Evolution of Structure (clever and appropriate)</td></tr>
+<tr><td>SNAP </td> <td>         SuperNova Acceleration Probe</td></tr>
+<tr><td>SOAR </td> <td>         Southern Observatory for Astrophysical Research</td></tr>
+<tr><td>SOFIA </td> <td>         Stratospheric Observatory For Infrared Astronomy</td></tr>
+<tr><td>SODA </td> <td>         Small Objects DAtabase </td></tr>     
+<tr><td>SOHO </td> <td>         SOlar and Heliospheric Observatory </td></tr>
+<tr><td>SOLE </td> <td>        Star-Obvious Low-level-Elongated </td></tr>
+<tr><td>SOLSTICE</td> <td>      SOLar STellar Irradiance Comparison Experiment </td></tr>     
+<tr><td>SONG</td> <td>         Stellar Oscillations Network Group </td></tr>     
+<tr><td>SONG</td> <td>         Survey Of Nearby Galaxies </td></tr>     
+<tr><td>SOONSPOT </td> <td>     Solar Observing Optical Network / Solar Patrol On Tape </td></tr>     
+<tr><td>SOUP </td> <td>        Solar Optical Universal Polarimeter</td></tr>     
+<tr><td>SPAN </td> <td>        Space Physics and Analysis Network</td></tr>     
+<tr><td>SPARTAN </td> <td>      Shuttle Pointed Autonomous Research Tool for AstroNomy </td></tr>     
+<tr><td>SPASE </td> <td>       South Pole Air ShowEr array  </td></tr>     
+<tr><td>SPAS </td> <td>       SPace VLBI Assistance Software</td></tr>     
+<tr><td>SPICA </td> <td>       SPace Infra-red telescope for Cosmology and Astrophysics</td></tr>     
+<tr><td>SPICE </td> <td>       Spectro-Photometric Infrared Celestrial Explorer  </td></tr>     
+<tr><td>SPIFFI </td> <td>       SPectrometer for Infrared Faint Field Imaging </td></tr>     
+<tr><td>SPIFI </td> <td>       South Pole Imaging Fabry-perot Interferometer </td></tr>     
+<tr><td>SPIRAL </td> <td>       Surface Photometry Interactive Reduction and Analysis Library</td></tr>     
+<tr><td>SPIRAL </td> <td>       Segmented Pupil/ Imaging Array Lenses</td></tr>
+<tr><td>SPIRE </td> <td>       Spectral and Photometric Imaging REceiver for herschel</td></tr>
+<tr><td>SPOrt </td> <td>       Sky Polarization Observatory (why not ObseRvaTory?)</td></tr>
+<tr><td>SPOT </td> <td>       Satellite Pour l'Observation de la Terre</td></tr>
+<tr><td>SPUDS </td> <td>       Spitzer Public legacy survey of the UKIDSS ultra Deep Survey (weak)</td></tr>
+<tr><td>SPYBAL </td> <td>       SPectrum Y-BALance </td></tr>     
+<tr><td>SQIID </td> <td>        Simultaneous Quad-color Infrared Imaging Device </td></tr>     
+<tr><td>SQUID</td> <td>         Superconducting QUantum Interference Device  </td></tr>    
+<tr><td>SQUIRT</td> <td>         Satellite QUIck Research Testbed </td></tr>    
+<tr><td>STACEE</td> <td>       Solar Tower Atmospheric Cherenkov Effect Experiment </td></tr>    
+<tr><td>STEP</td> <td>         Solar Terrestrial Energy Program </td></tr>    
+<tr><td>SUMER</td> <td>         Solar Ultraviolet Measurements of Emitted Radiation </td></tr>    
+<tr><td>SURF</td> <td>         SCUBA User Reduction Facility </td></tr>    
+<tr><td>SUSI</td> <td>         Sydney University Stellar Interferometer </td></tr>    
+<tr><td>SUSPECT</td> <td>         Sydney University SPECTrograph</td></tr>    
+<tr><td>SuZIE</td> <td>         Sunyaev-Zel'dovich Infrared Experiment</td></tr>   
+<tr><td>STEFFI</td> <td>         Spectrograph-TElescope Fibre-Feed Interface</td></tr>    
+<tr><td>SWAN</td> <td>         Solar Wind Anisotropy Experiment</td></tr>    
+<tr><td>TADPOL</td> <td>         Telescope Array Doing POLarization</td></tr>    
+<tr><td>TANGOinPARIS</td> <td> Testing  Astroparticle with the New Gev/tev Observations Positrons And electRons : Identifying the Sources (THE WINNER!)</td></tr>    
+<tr><td>TAROT</td> <td>         Telescope a Action Rapide pour les Objets Transitoires</td></tr>    
+<tr><td>TAU</td> <td>         Thousand Astronomical Unit</td></tr>    
+<tr><td>THINGS</td> <td>         The HI Nearby Galaxy Survey (roman numerals as "I"; a first here!)</td></tr>    
+<tr><td>THUMPER</td> <td>     Two HUndred Micron PhotometER</td></tr>    
+<tr><td>TIM</td> <td>         Telescope Image Modelling</td></tr>    
+<tr><td>TIM</td> <td>         (translates to) Mexican Infrared-optical Telescope</td></tr>    
+<tr><td>TNTCAM</td> <td>         Ten aNd Twenty Micron CAMera</td></tr>    
+<tr><td>TOMBO</td> <td>         Transient Observatory for Microlensing and Bursting Objects (Japanese project; telescopes resemble compound insect eyes; Tombo is Japanese for dragonfly) </td></tr>    
+<tr><td>TOMS</td> <td>        Total Ozone Mapping Spectrometer</td></tr>
+<tr><td>TOOT</td> <td>        TexOx-1000 (Oh, I get it, Texas-Oxford One Thousand; weak)</td></tr>
+<tr><td>T-RECS</td> <td>        Thermal REgion Camera System</td></tr>
+<tr><td>TRIFFID</td> <td>        TRansputer Instrument For Fast Image Deconvolution (actually, it had no Transputer chips, and didn't even do deconvolution) </td></tr>
+<tr><td>UNSWIRF</td> <td>        University of New South Wales Infrared Fabry-Perot (after an unpopular premier of NSW named Barry Unsworth)</td></tr>
+<tr><td>VERITAS </td> <td>        Very large Energetic Radiation Imaging Telescope Array System</td></tr>
+<tr><td>VIPER </td> <td>        VIMos Public Extragalactic Redshift Survey</td></tr>
+<tr><td>VIRGO </td> <td>        Variability in Irradiance and Gravity Oscillations</td></tr>
+<tr><td>VIRIS </td> <td>        Visual-InfraRed Imaging System</td></tr>
+<tr><td>VOIR </td> <td>        Venus Orbiting Imaging Radar (voir is french for "to see")</td></tr>
+<tr><td>WARPS </td> <td>         Wide Angle ROSAT Pointed Survey</td></tr>
+<tr><td>WASP </td> <td>         Wideband Analog SPectrometer</td></tr>
+<tr><td>WATCH </td> <td>         Wide Angle Telescope for Cosmic Hard x-rays</td></tr>
+<tr><td>WET </td> <td>         Whole Earth Telescope</td></tr>
+<tr><td>WHAM </td> <td>          Wisconsin H-Alpha Mapper</td></tr>
+<tr><td>WIMP </td> <td>          Weakly Interacting Massive Particles</td></tr>
+<tr><td>WIRE </td> <td>          Wide-field InfraRed Explorer</td></tr>
+<tr><td>WISARD </td> <td>          Web Interface for Searching Archival Research
+Data</td></tr>
+<tr><td>WISEASS </td> <td>         Weizmann Institute of Science Experimental Astrophysics Spectroscopy System</td></tr>
+<tr><td>WISP </td> <td>         Wide field Imaging Symbiotic Program</td></tr>
+<tr><td>WITS </td> <td>         Web Infrared ToolShed (has DIRT on it)</td></tr>
+<tr><td>WOMBAT </td> <td>         Wavelength-Oriented Microwave Background Analysis Team (Go Team! They're playing the Molecular Astrophysics Team for the championship later this week.)</td></tr>
+<tr><td>WUPPE </td> <td>         Wisconsin Ultraviolet Photo-Polarimeter Experiment</td></tr>
+<tr><td>YORIC </td> <td>         Yet another Optimal Resolution Image Constructor (Alas...)</td></tr>
+
+<! NUGIE  Near-Ultraviolet Ground-based Interferometry Experiment>
+<! ComaTOSE  Coma Total Optical Survey of Ellipticals>
+</table>
+
+</td></tr>
+</table>
+
+</body>
+
+</html>

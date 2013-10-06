@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Minecraft snapshot 13w39a (Updated with 13w39b!)</title>
+<meta name="robots" content="noodp, noydir" />
+<meta name="description" content="Update: Snapshot 13w39b has been released to address some stability issues and other bugs. Server links are below. I&#8217;m a little snapshot, short and stout. Here is my screenshot and here is my [FATAL CORRUPTION IN CLASS SXQ CANNOT CONTINUE]" />
+<link rel="stylesheet" href="https://d1y0oqfyli6x95.cloudfront.net/wp-content/themes/thesis_18/style.css.gzip?091813-142946" type="text/css" media="screen, projection" />
+<link rel="stylesheet" href="https://d1y0oqfyli6x95.cloudfront.net/wp-content/themes/thesis_18/custom/layout.css.gzip?091813-142946" type="text/css" media="screen, projection" />
+<!--[if lte IE 8]><link rel="stylesheet" href="https://d1y0oqfyli6x95.cloudfront.net/wp-content/themes/thesis_18/lib/css/ie.css.gzip?091813-142946" type="text/css" media="screen, projection" /><![endif]-->
+<link rel="stylesheet" href="https://d1y0oqfyli6x95.cloudfront.net/wp-content/themes/thesis_18/custom/custom.css.gzip?091813-142946" type="text/css" media="screen, projection" />
+<link rel="shortcut icon" href="https://d1y0oqfyli6x95.cloudfront.net/wp-content/uploads/2011/02/favicon.ico.gzip" />
+<link rel="canonical" href="https://mojang.com/2013/09/minecraft-snapshot-13w39a/" />
+<link rel="alternate" type="application/rss+xml" title="Mojang RSS Feed" href="https://mojang.com/feed/" />
+<link rel="pingback" href="https://mojang.com/xmlrpc.php" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://mojang.com/xmlrpc.php?rsd" />
+<script src="https://d1y0oqfyli6x95.cloudfront.net/wp-content/themes/thesis_18/app/js/lib/require-jquery.js.gzip"></script>
+<script src="https://d1y0oqfyli6x95.cloudfront.net/wp-content/themes/thesis_18/app/js/src/main-built.js.gzip"></script>
+
+<script type="text/javascript" charset="UTF-8">/*<![CDATA[*/var _gaq=_gaq||[];function init_gaq(){_gaq.push(['_setAccount','UA-21268927-1']);}function do_load_gaq(){init_gaq();_gaq.push(['_trackPageview']);}/*]]>*/</script><link href="http://www.minilibra.com/" title="Professional Web Developer &amp; WordPress Expert" rel="meta friend" />
+<link href="http://www.satublogs.com/" title="Web Design Jakarta" rel="meta friend" />
+<script type='text/javascript' src='https://d1y0oqfyli6x95.cloudfront.net/wp-includes/js/jquery/jquery.js.gzip?ver=1.8.3'></script>
+
+<link rel="stylesheet" href="https://mojang.com/wp-content/plugins/wp-syntax/wp-syntax.css" type="text/css" media="screen" />
+<link rel="image_src" href="https://s3.amazonaws.com/assets.mojang.com/mojang_icon.png"/>
+<meta property="og:image" content="https://s3.amazonaws.com/assets.mojang.com/mojang_icon.png" />
+</head>
+<body class="custom">
+    <div id="mojang-bar-container"></div>
+    <div id="container">
+<div id="page">
+	<div id="header">
+    <a href="/" id="header-link">Back to home</a>  
+      	</div>
+<ul class="menu">
+<li class="tab tab-home"><a href="https://mojang.com">Home</a></li>
+<li class="tab tab-1"><a href="https://mojang.com/about/" title="About">About</a></li>
+<li class="tab tab-2"><a href="https://mojang.com/games/" title="Games">Games</a></li>
+<li class="tab tab-3"><a href="https://mojang.com/merch/" title="Merch">Merch</a></li>
+</ul>
+	<div id="content_box">
+		<div id="content" class="hfeed">
+
+		<div class="section-head">Updates</div>
+	<div id="proof"></div>
+			<div class="post-4856 post type-post status-publish format-standard hentry category-uncategorized post_box top" id="post-4856">
+				<div class="headline_area">
+					<h1 class="entry-title">Minecraft snapshot 13w39a (Updated with 13w39b!)</h1>
+					<p class="headline_meta">by <span class="author vcard"><a href="https://mojang.com/author/dinnerbone/" class="url fn">Dinnerbone</a></span> on <abbr class="published" title="2013-09-26">September 26, 2013</abbr></p>
+				</div>
+				<div class="format_text entry-content">
+<p><a href="https://d1y0oqfyli6x95.cloudfront.net/wp-content/uploads/2013/09/13w39a.png"><img src="https://d1y0oqfyli6x95.cloudfront.net/wp-content/uploads/2013/09/13w39a.png" alt="snapshot_13w39a" width="439" height="226" class="aligncenter size-full wp-image-4719" /></a><br />
+<b>Update:</b> Snapshot 13w39b has been released to address some stability issues and other bugs. Server links are below.</p>
+<p>I&#8217;m a little snapshot, short and stout. Here is my screenshot and here is my <del>[FATAL CORRUPTION IN CLASS SXQ CANNOT CONTINUE]</del></p>
+<p>To get snapshots, open your launcher and press the &#8220;New Profile&#8221; button. Call it &#8220;snapshots&#8221; and check the box saying &#8220;Enable experimental development snapshots&#8221; and save. To switch to the normal version, you can select it in the dropdown at the bottom left corner of the launcher.</p>
+<p>Server files:</p>
+<ul>
+<li>Cross-platform jar: <a href="https://s3.amazonaws.com/Minecraft.Download/versions/13w39b/minecraft_server.13w39b.jar">https://s3.amazonaws.com/Minecraft.Download/versions/13w39b/minecraft_server.13w39b.jar</a></li>
+<li>Windows EXE: <a href="https://s3.amazonaws.com/Minecraft.Download/versions/13w39b/minecraft_server.13w39b.exe">https://s3.amazonaws.com/Minecraft.Download/versions/13w39b/minecraft_server.13w39b.exe</a></li>
+</ul>
+<p>Report bugs here:</p>
+<ul>
+<li><a href="https://mojang.atlassian.net/browse/MC">Minecraft issue tracker</a>!</li>
+</ul>
+<p>// The Minecraft and Minecraft Realms teams</p>
+				</div>
+			</div>
+
+			<div id="comments">
+<div class="comments_closed">
+	<p>Comments on this entry are closed.</p>
+</div>
+			</div>
+					<div class="prev_next post_nav">
+						<p class="previous">Previous post: <a href="https://mojang.com/2013/09/whats-next-for-scrolls/" rel="prev">What&#8217;s next for Scrolls?</a></p>
+						<p>Next post: <a href="https://mojang.com/2013/09/minecon-2013-call-for-panelists/" rel="next">MINECON 2013 Call for Panelists</a></p>
+					</div>
+		</div>
+
+		<div id="sidebars">
+			<div id="sidebar_1" class="sidebar">
+				<ul class="sidebar_list">
+<li class="widget widget_Twidget" id="twitter"><a class="twitter-timeline" data-dnt=true href="https://twitter.com/mollstam" data-widget-id="350696440789626880"><h3>Twitter</h3></a>
+		      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<p>Get smart with the <a href="http://diythemes.com/thesis/">Thesis WordPress Theme</a> from DIYthemes.</p>
+<script type="text/javascript" charset="UTF-8">/*<![CDATA[*/var AGA_LINKS_DATA={count:0,external:{track:false, domain:'', prefix:'/outbound', fulltrack:false},data:[]};/*]]>*/</script><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><script type='text/javascript' src='http://mojang.com/wp-content/plugins/async-google-analytics/custom-aga-min.js?ver=3.0.3'></script>
+
+<script type="text/javascript" charset="UTF-8">/*<![CDATA[*/(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.onload=do_load_gaq;ga.src='http://www.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();/*]]>*/</script>	</div>
+</div>
+</div>
+<!--[if lte IE 8]>
+<div id="ie_clear"></div>
+<![endif]-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <div style="width:868px; padding:8px 16px; margin:0 auto; color:#AAA">
+        &copy; 2010-2013 Mojang AB
+    </div>
+    </body>
+</html>
+<!-- Served from: mojang.com @ 2013-10-05 23:47:12 by W3 Total Cache -->

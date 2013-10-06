@@ -1,0 +1,1976 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" itemscope itemtype="http://schema.org/NewsArticle" itemid="http://www.fastcompany.com/3018535/fast-feed/valves-steam-machines-a-new-challenger-in-the-gaming-console-wars"><!--<![endif]-->
+    <head>
+        
+          
+          
+          
+          
+          <script>
+            (function(){({mobiles:"iphone ipod blackberry android motorola bb10 mobile".split(" "),mobileExempts:["ipad"],start:function(){var a=window.location.href;a.match(/http:\/\/(.[^\/?]+)/);var c=this.isMobile();!this.readCookie("_nored")&&this.isMobile()&&(c&&-1<a.toLowerCase().indexOf("fullsite")&&!this.readCookie("_nored")?this.createCookie("_nored","1",1):c&&this.readCookie("_noread")||!c||(a=a.replace("www.","").replace("http://","http://m."),window.location=a))},isMobile:function(){for(var a=navigator.userAgent.toLowerCase(),
+c=this.mobiles,f=c.length,b=this.mobileExempts,d=b.length,e=0;e<d;e++)if(-1<a.search(b[e]))return!1;for(e=0;e<f;e++)if(-1<a.search(c[e]))return!0;return!1},createCookie:function(a,c,f){var b="",d=new Date;f&&(d.setTime(d.getTime()+864E5*f),b="; expires="+d.toGMTString());document.cookie=a+"="+c+b+"; path=/"},readCookie:function(a){a+="=";for(var c=document.cookie.split(";"),f=c.length,b=[],d=0;d<f;d++){for(b=c[d];" "===b.charAt(0);)b=b.substring(1,b.length);if(0===b.indexOf(a))return b.substring(a.length,
+b.length)}return null},eraseCookie:function(a){this.createCookie(a,"",-1)}}).start()})();
+          </script>
+          
+        
+
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <title>Valve&#x27;s Steam Machines: A New Challenger In The Gaming Console Wars  | Fast Company | Business + Innovation</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+        
+        <link rel="stylesheet" href="/css/main.css" />
+        
+
+        
+
+
+
+<meta name="description" content="Valve has revealed the hardware it wants to use to disrupt the games console industry. But will smartphone gaming beat it to the punch?"/>
+<link rel="canonical" href="http://www.fastcompany.com/3018535/fast-feed/valves-steam-machines-a-new-challenger-in-the-gaming-console-wars"/>
+
+ <link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.fastcompany.com/3018535/fast-feed/valves-steam-machines-a-new-challenger-in-the-gaming-console-wars">
+
+
+
+  <meta property="og:type" content="article">
+
+  <meta property="og:title" content="Valve's Steam Machines: A New Challenger In The Gaming Console Wars ">
+
+  <meta property="og:url" content="http://www.fastcompany.com/3018535/fast-feed/valves-steam-machines-a-new-challenger-in-the-gaming-console-wars">
+
+  <meta property="og:locale" content="en_US">
+
+  <meta property="og:description" content="Valve has revealed the hardware it wants to use to disrupt the games console industry. But will smartphone gaming beat it to the punch?">
+
+  <meta property="og:image" content="http://f.fastcompany.net/multisite_files/fastcompany/imagecache/620x350/poster/2013/09/3018535-poster-steam.jpg">
+
+  <meta property="og:site_name" content="Fast Company">
+
+  <meta property="fb:app_id" content="178479832213933">
+
+  <meta property="fb:admins" content="100000062710915">
+
+  <meta property="article:published_time" content="2013-09-26T13:56:00Z">
+
+  <meta property="article:modified_time" content="2013-09-26T14:14:02Z">
+
+  <meta property="article:section" content="Fast Feed">
+
+  <meta property="article:tag" content="console gaming">
+
+  <meta property="article:tag" content="FastFeed">
+
+  <meta property="article:tag" content="iphone">
+
+  <meta property="article:tag" content="ps4">
+
+  <meta property="article:tag" content="steam">
+
+  <meta property="article:tag" content="steam machine">
+
+  <meta property="article:tag" content="steamos">
+
+  <meta property="article:tag" content="valve">
+
+  <meta property="article:tag" content="xbox one">
+
+  <meta property="article:tag" content="xbox one">
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="twitter:title" content="Valve's Steam Machines: A New Challenger In The Gaming Console Wars ">
+
+  <meta name="twitter:description" content="Valve has revealed the hardware it wants to use to disrupt the games console industry. But will smartphone gaming beat it to the punch?">
+
+  <meta name="twitter:url" content="http://www.fastcompany.com/3018535/fast-feed/valves-steam-machines-a-new-challenger-in-the-gaming-console-wars">
+
+  <meta name="twitter:site" content="@FastCompany">
+
+  <meta name="twitter:image" content="http://f.fastcompany.net/multisite_files/fastcompany/imagecache/620x350/poster/2013/09/3018535-poster-steam.jpg">
+
+  <meta name="twitter:domain" content="fastcompany.com">
+
+  <meta name="twitter:creator" content="@kiteaton">
+
+
+
+  <meta itemprop="name" content="Valve's Steam Machines: A New Challenger In The Gaming Console Wars ">
+
+  <meta itemprop="description" content="Valve has revealed the hardware it wants to use to disrupt the games console industry. But will smartphone gaming beat it to the punch?">
+
+  <meta itemprop="image" content="http://f.fastcompany.net/multisite_files/fastcompany/imagecache/620x350/poster/2013/09/3018535-poster-steam.jpg">
+
+
+
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
+        <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml">
+
+        <script src="/js/vendor/modernizr.min.js"></script>
+        <script src="/js/vendor/jquery.min.js"></script>
+
+        
+  
+  <script>
+  var _prum = [['id', '518c1737abe53dc44c000000'],
+               ['mark', 'firstbyte', (new Date()).getTime()]];
+  (function() {
+      var s = document.getElementsByTagName('script')[0]
+        , p = document.createElement('script');
+      p.async = 'async';
+      p.src = '//rum-static.pingdom.net/prum.min.js';
+      s.parentNode.insertBefore(p, s);
+  })();
+  </script>
+
+
+
+  
+  <script type="text/javascript">
+    var _sf_startpt=(new Date()).getTime();
+  </script>
+
+
+
+  
+  <script>
+    var _comscore = _comscore || [];
+    _comscore.push({ c1: "2", c2: "6916907" });
+    (function() {
+      var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+      s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+      el.parentNode.insertBefore(s, el);
+    })();
+  </script>
+
+
+
+  
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-4300461-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+
+
+
+  
+  <script type="text/javascript">
+  
+  (function () {
+  	var d = new Image(1, 1);
+  	d.onerror = d.onload = function () {
+  	  d.onerror = d.onload = null;
+  	};
+  	d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-805310h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
+  })();
+
+  function Nielsen_Event() {
+  	var d = new Image(1, 1);
+  	d.onerror = d.onload = function () { d.onerror = d.onload = null; };
+  	d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-805310h&cg=0&cc=1&si=", escape(window.location.href),
+  	"&rp=", escape(document.referrer),
+  	"&ts=compact&c0=usergen,1&rnd=",(new Date()).getTime()].join('');
+  };
+  
+  </script>
+
+
+
+  
+  
+
+  <script type="text/javascript" language="JavaScript">
+  //<![CDATA[
+  var CA = window.CA || {};
+  CA.cmd = CA.cmd || [];
+  CA.cmd.push(function() {
+    CA.doTargeting({id:40046 , defaultKVP:rasegs=seg2});
+  });
+  CA.getDefaultKeyValue = CA.getTargetKeyValues = function () {return "rasegs=seg2"};
+  (function (){
+    var p = document.createElement("script");
+    p.type = "text/javascript";
+    p.async = true;
+    p.src = (document.location.protocol != "https:" ? "http" : "https") + "://p0.raasnet.com/partners/dfp_async1.js";
+    var s = document.getElementsByTagName("script"); s[s.length-1].parentNode.appendChild(p);
+  })();
+  //]]>
+  </script>
+  
+
+  <script type="text/javascript">
+  //<![CDATA[
+  var _ca_id=1965;
+  // Additional request query data. Uncomment next line and change parameters if needed.
+  // var _ca_params={ oid:ORDERID, tp:1000, curr:"USD", accid:ACCOUNTID, gid:GOOGLEID, ... };
+  //]]>
+  </script>
+  <script type="text/javascript">
+  //<![CDATA[
+  (function (){
+  var p,s;
+  p = document.createElement("script");
+  p.type = "text/javascript";
+  p.async = true;
+  p.src = (document.location.protocol != "https:" ? "http" : "https") + "://p0.raasnet.com/partners/_ca.js";
+  s = document.getElementsByTagName("script"); s[s.length-1].parentNode.appendChild(p);
+  })();
+  //]]>
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+        <div class="wrapper">
+          <header id="header" class="absolute">
+  <div class="header-wrap">
+
+      
+
+
+      <div class="ad-unit hide-for-small hide-on-print" data-advertising="page_top" data-cb-ad-id="Top" data-cb-dfp-id="unit=page_top;size=970x90,970x66,970x60;pos=top">
+            <div class="dart-ad hide-on-print" id="ad-unit-top-header"></div>
+      </div>
+
+      <div class="contain-to-grid clearfix"> 
+
+  <nav id="navigation" class="top-bar">
+
+  <ul class="title">
+    <!-- Title Area -->
+    <li class="name">
+      
+      
+       <h1 itemscope itemtype="http://schema.org/Organization">
+        <a itemprop="url" href="http://www.fastcompany.com/">
+          <img itemprop="logo" alt="Fast Company logo" title="Fast Company" src="/images/svg/FastCompany-logo-white.svg" width="100" height="18">
+        </a>
+       </h1>
+       
+       <div class="hide" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+        <a href="http://wwww.fastcompany.com/" itemprop="url"><span itemprop="title">Fast Company</span></a>
+       </div>
+    </li>
+
+    <li class="toggle-topbar">
+      <a  href="#"
+          data-event-category="topbar"
+          data-event-action="toggle"
+          data-event-label="Topbar: Brands"></a>
+    </li>
+  </ul>
+
+  <section class="hide-on-print">
+
+    
+    <ul class="left brands hide-for-medium-down">
+      <li class="codesign">
+        <a href="http://www.fastcodesign.com">
+          <svg version="1.1" class="header-brand-logo" id="header-codesign-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10px" height="10px" viewBox="0 0 93 93" enable-background="new 0 0 93 93" xml:space="preserve">
+            <path d="M0.001,0H93v93H0.001V0z M23.147,10H0v83h27.107C47.376,90.417,56,75.154,56,51.85v-6.688C56,24.089,48.566,10,23.147,10z M41.265,0C60.915,6.458,70,23.809,70,49.174v0.335C70,68.598,64.875,86.375,53.375,93H93V0H41.265z"/>
+          </svg>
+          Design
+        </a>
+      </li>
+      <li class="divider show-for-small"></li>
+      <li class="coexist">
+        <a href="http://www.fastcoexist.com">
+          <svg version="1.1"  class="header-brand-logo" id="header-exist-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10px" height="10px" viewBox="0 0 92 93" enable-background="new 0 0 92 93" xml:space="preserve">
+            <path d="M0,0h92v93H0V0z M55,0v26H43V11H0v36h43v11H0v35h44V78h13v15h35V0H55z"/>
+          </svg>
+          Exist
+        </a>
+      </li>
+      <li class="divider show-for-small"></li>
+      <li class="cocreate">
+        <a href="http://www.fastcocreate.com">
+          <svg version="1.1" class="header-brand-logo" id="header-cocreate-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10px" height="10px" viewBox="0 0 93 93" enable-background="new 0 0 93 93" xml:space="preserve">
+            <path d="M0,0h93v93H0V0z M0,0v23.367c1-1.85,3.064-3.586,4.943-5.184c9.237-7.854,21.805-12.18,35.716-12.18c21.28,0,31.155,6.589,35.054,10.518L76,16.66V38H63V20.107c-6-2.323-13.13-3.452-21.307-3.452C22.967,16.655,3,27.069,3,56.296v6.536C3,75.547,5.123,85.646,10.688,93H93V0H0z"/>
+          </svg>
+          Create
+        </a>
+      </li>
+      <li class="divider show-for-small"></li>
+      <li class="colabs">
+        <a href="http://www.fastcolabs.com">
+          <svg version="1.1" class="header-brand-logo" id="header-colabs-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10px" height="10px" viewBox="0 0 228 234" enable-background="new 0 0 228 234" xml:space="preserve">
+            <polygon points="195.703,207 195.822,140 165,140 165,178 63,178 63,0 27,0 27,181 0,181 0,207 "/>
+          </svg>
+          Labs
+        </a>
+      </li>
+      <li class="divider show-for-small"></li>
+    </ul>
+
+    <!-- Middle Brands Section -->
+    <ul class="left hide-for-medium-down circle-plus">
+      <li class="has-megadrop hide-for-small brands">
+        <a  href="#megadrop-brands"
+            class="toggle-megadrop"
+            data-event-category="topbar"
+            data-event-action="toggle"
+            data-event-label="Topbar: Brands">
+          <span class="icon-plus-sign" title="Expand"></span>
+        </a>
+      </li>
+    </ul>
+
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="divider show-for-small"></li>
+      <li class="has-megadrop features">
+        <a  href="#megadrop-features"
+            class="toggle-megadrop"
+            data-event-category="topbar"
+            data-event-action="toggle"
+            data-event-label="Topbar: Features">Features</a>
+      </li>
+      <li class="divider show-for-small"></li>
+      <li class="subscribe">
+        
+        <a  href="http://www.fastcompany.com/newsletters"
+            class="toggle-megadrop"
+            data-event-category="topbar"
+            data-event-action="toggle"
+            data-event-label="Topbar: Emails">Emails</a>
+      </li>
+      <li class="divider show-for-small"></li>
+      <li class="has-megadrop issues">
+        <a  href="#megadrop-issues"
+            class="toggle-megadrop"
+            data-event-category="topbar"
+            data-event-action="toggle"
+            data-event-label="Topbar: Issues">Issues</a>
+      </li>
+      <li class="divider show-for-small"></li>
+      <li class="print-subscribe">
+        <a  href="https://magazine.fastcompany.com/loc/FST/topnav"
+            class="toggle-megadrop"
+            target="_blank"
+            data-event-category="topbar"
+            data-event-action="click"
+            data-event-label="Topbar: Subscribe">Subscribe</a>
+      </li>
+      <li class="divider show-for-small"></li>
+      <li class="has-button search" data-name="search">
+        <a  href="#search"
+            class="toggle-notify"
+            data-event-category="topbar"
+            data-event-action="toggle"
+            data-event-label="Topbar: Search">
+          <span class="icon-search" title="Search"></span>
+        </a>
+      </li>
+
+      <li class="divider show-for-small"></li>
+      <li class="has-button rss">
+        <a  href="/rss.xml"
+            rel="feed"
+            class="toggle-notify"
+            data-event-category="topbar"
+            data-event-action="click"
+            data-event-label="Topbar: RSS">
+          <span class="icon-rss" title="RSS"></span>
+        </a>
+      </li>
+
+      <li class="divider show-for-small"></li>
+      <li class="has-dropdown editions">
+        <a  href="#"
+            rel="share"
+            data-event-category="topbar"
+            data-event-action="toggle"
+            data-event-label="Topbar: Editions">
+          <span class="icon-globe" title="Editions"></span>
+        </a>
+        <ul class="dropdown">
+          <li><label>Editions</label></li>
+          <li class="divider"></li>
+          <li><a href="http://www.fastcompany.cn">China</a></li>
+        </ul>
+      </li>
+
+      <li class="divider show-for-small"></li>
+      <li class="has-dropdown share">
+        <a  href="#"
+            rel="share"
+            data-event-category="topbar"
+            data-event-action="toggle"
+            data-event-label="Topbar: Share">
+          <span class="icon-share-this" title="Share"></span>
+        </a>
+        <ul class="dropdown">
+          <li><label>Find Us</label></li>
+          <li class="divider"></li>
+          <li><a href="http://www.facebook.com/FastCompany">Facebook</a></li>
+          <li><a href="https://twitter.com/FastCompany">Twitter</a></li>
+        </ul>
+      </li>
+
+    </ul>
+  </section>
+
+  </nav>
+
+</div>
+
+
+
+
+      <div id="notify" class="hide-on-print">
+  <div class="notify-wrap">
+
+    <div id="notify-search" data-name="search" class="message search persist">
+  <div class="message-wrap row">
+
+    <div class="three columns"></div>
+
+    <div class="six columns">
+
+      <div id="search-form">
+        <form class="search" action="/search/" method="get">
+
+          <div class="row collapse">
+
+            <div class="ten mobile-three columns">
+              <input type="text" />
+            </div>
+
+            <div class="two mobile-one columns">
+              <a class="button expand postfix">Search</a>
+            </div>
+
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+
+    <div class="two columns"></div>
+
+    <div class="one columns">
+      <span class="close icon close-message">Close</span>
+    </div>
+
+
+  </div>
+</div>
+
+
+  </div>
+</div>
+
+
+  </div>
+</header>
+
+<div id="megadrop">
+  <div class="megadrop-wrapper row">
+    <div class="mobile-main-nav-padding">
+
+      <section id="megadrop-brands"    data-order="1" data-name="brands"    class="card"></section>
+      <section id="megadrop-features"  data-order="2" data-name="features"  class="card"></section>
+      <section id="megadrop-issues"    data-order="3" data-name="issues"    class="card"></section>
+      <section id="megadrop-subscribe" data-order="4" data-name="subscribe" class="card"></section>
+
+    </div>
+  </div>
+</div>
+
+
+<div id="admin-panel"></div>
+
+          <div id="page" class="identity-fastcompany kind-article type-post slug-fast-feed">
+
+  <section id="page-jumbotron" class="hide-on-print">
+    <div class="container">
+      
+
+  
+
+    
+
+      <figure class="jumbotron" itemscope itemprop="image" itemtype="http://schema.org/ImageObject">
+
+        <img src="//f.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2013/09/3018535-poster-steam.jpg" width="1280" height="720" id="poster" itemprop="contentUrl representativeOfPage">
+
+        
+
+      </figure>
+
+    
+
+  
+
+
+
+
+  
+    <span itemscope itemtype="http://schema.org/Organization">
+     <a itemprop="url" href="http://www.fastcompany.com" id="logo" class="navigate hide-for-small hide-on-print">
+      
+       <img itemprop="logo" src="/images/svg/fastcompany-light-txt.svg" width="100" height="123" class="hide-on-print">
+      
+     </a>
+    </span>
+    
+    <span class="hide" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+        <a href="http://www.fastcompany.com" itemprop="url"><span itemprop="title">Fast Company</span></a>
+    </span>
+  
+
+
+    </div>
+  </section>
+      
+  <div class="page-inner">
+
+    <div class="page-background hide-on-print">
+      <div class="tile"></div>
+      <div class="gradient"></div>
+    </div>
+
+    <div id="page-main" class="page-main row">
+      
+      <div class="page-main-wrap">
+
+        <section id="page-body" class="eight columns page-body">
+          <div class="container">
+            <article data-resource-id="3018535" class="node full-view kind-article slug-fast-feed">
+
+  <header>
+
+    <div class="summary row collapse">
+      
+
+      
+
+      
+      
+        
+
+          
+            
+             <h4 class="tag" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+              <span class="slug">
+               <a href="/section/fast-feed" itemprop="url">
+                <span itemprop="title">Fast Feed</span>
+               </a>
+              </span>
+             </h4>
+            
+
+            
+          
+
+        
+      
+
+      <h1 class="title" itemprop="title headline">Valve's Steam Machines: A New Challenger In The Gaming Console Wars </h1>
+
+      
+      <span class="deck" itemprop="deck description"><p>Valve has revealed the hardware it wants to use to disrupt the games console industry. But will smartphone gaming beat it to the punch?</p></span>
+      
+    </div>
+
+    <div class="tools row collapse">
+
+    
+      
+      <div class="four columns">
+        
+            
+            <div class="byline">
+              By:
+              
+                
+                  
+
+                  
+                     <a href="/user/kit-eaton" itemprop="byline" class="navigate" data-resource-type="user" rel="author">Kit Eaton</a>
+                  
+                
+
+              
+            </div>
+            
+          
+        
+      </div>
+
+      
+
+      <div class="eight columns hide-on-print">
+        <div class="share-box"></div>
+      </div>
+
+      <br class="clear" />
+
+    </div>
+
+  </header>
+
+  <hr class="break"/>
+
+  <div class="row collapse">
+
+    <div class="body prose twelve columns" itemprop="body">
+      <p>Valve, the game company behind a string of successful computer games like <em>Portal</em> and Half-Life, has already revealed its <a href="http://www.fastcompany.com/3018108/fast-feed/with-steam-os-valve-wants-to-dominate-living-room-gaming" target="_self">SteamOS gaming operating system</a> this week--an attempt to make it easier to code better computer games. Now it's also revealed its long-awaited and much-rumored gaming hardware, the Steam Machine. But as the <em><a href="http://www.theguardian.com/technology/2013/sep/25/valve-announces-steam-machines" target="_blank">Guardian</a></em> points out, it's not quite the radical entry to the console wars that we were expecting.</p>
+
+<p>Steam Machines are going to be pretty powerful pieces of kit. They're based on PC architectures, but shaped deliberately into a "new category of living-room hardware," according to the company. The idea is to take aspects of high-end computer hardware and put them into a box that will sit underneath the user's TV, acting as a gaming and entertainment portal, running the Linux-based SteamOS. Valve isn't actually going to make its own machines--which is a blow to those expecting some sort of awesome Weighted Companion Cube format--and instead is going to license the manufacture out to other firms for a 2014 launch. The company is going to make a few hundred reference consoles, however, and release them to beta testers who can even now try to sign up to the program, which will begin this year. There's no real idea of the type of hardware that will arrive, but makers will be able to customize the devices beyond the base specification and users will be able to hack and tweak the OS.</p>
+
+<p>This is a different approach to the more locked-down and DRM-protected status of games machines like <a href="http://www.fastcompany.com/3006112/fast-feed/sony-reveals-its-big-play-next-gen-gaming-playstation-4" target="_self">Sony's PS4</a>, and particularly Microsoft's upcoming Xbox One, whose overly <a href="http://www.fastcompany.com/3015635/where-are-they-now/microsoft-backtracks-says-xbox-one-will-work-without-the-kinect" target="_self">restrictive policies</a> caused a backlash that has already hurt the console's reputation. But it is worth pointing out that the Steam Machines are, in essence, similar to the PS4 and One, which are traditional PC hardware reimagined and directed toward gaming and home entertainment.</p>
+
+<p>It's also worth pointing out that the console gaming market is facing an ever-increasing threat from mobile games on smartphones and tablets. Apple has just revealed the <a href="http://www.fastcompany.com/3018073/where-are-they-now/apple-seems-to-have-scored-another-iphone-hit" target="_self">iPhone 5S</a>, which is as powerful as a desktop PC from a few years ago and can run <a href="http://www.fastcompany.com/3017153/reverse-engineered/how-infinity-blade-iii-was-built-from-scratch-to-show-off-your-iphone-5s" target="_self">amazing games</a>. It's likely that its next iPad will be even more powerful, and the company may have plans to turn its machines into erstwhile games consoles. So is Steam's effort too little, too late?</p>
+
+<p>[<em>Image: Flickr user <a href="http://www.flickr.com/photos/thebigtable/8368409758/" target="_blank">Pedro Reyna</a></em>]</p>
+    </div>
+
+    
+    
+    
+
+  </div>
+
+  <div class="after-body">
+
+    <div class="share-box hide-on-print"></div>
+
+    
+      
+        
+        <aside id="author" class=" ">
+          <div class="row">
+            <div class="author-wrap twelve columns">
+
+           
+              <figure class="poster">
+                <a class="author-readmore" href="http://www.fastcompany.com/user/kit-eaton">
+                  <img class="author-headshot" src="//e.fastcompany.net/multisite_files/fastcompany/imagecache/profile-s/profile/2148610-photo-me2.jpg" />
+                </a>
+              </figure>
+           
+
+              <div class="teaser">
+                <h4 class="author-name"><a rel="author" href="http://www.fastcompany.com/user/kit-eaton">Kit Eaton</a></h4>
+                
+                  <div class="author-teaser">
+                    <p>I'm covering the science/tech/generally-exciting-and-innovative beat for Fast Company. Follow me on Twitter, or Google+ and you'll hear tons of interesting stuff, I promise.
+</p><p>
+I've also got a PhD, and worked in such roles as professional scientist and theater technician...thankfully avoiding jobs like bodyguard and chicken shed-cleaner (bonus points if you get that reference!). </p><p>
+
+Oh, and I definitely don't live where you think I do--it's sunnier here.</p>
+                  </div>
+                  
+                  <div class="author-readmore">
+                   <a href="http://www.fastcompany.com/user/kit-eaton">Continue</a>
+                  </div>
+                  
+                
+              </div>
+
+            </div>
+          </div>
+        </aside>
+      
+    
+
+    <aside class="pager">
+
+      <div class="three columns mobile-two pager-page previous">
+        
+      </div>
+
+      <div class="six columns hide-for-small time">
+        <time itemprop="datePublished" datetime="2013-09-26">September 26, 2013 | 9:56 AM</time>
+      </div>
+
+      <div class="three columns mobile-two pager-page next end">
+        
+      </div>
+
+    </aside>
+
+    <aside id="related"></aside>
+    <section id="comments"></section>
+  </div>
+
+</article>
+
+
+
+          </div>
+        </section>
+
+        <br class="clear show-for-small" />
+
+        <aside id="page-series" class="four columns page-sidebar hide-on-print series clearfix">
+          <div class="container">
+            
+  
+
+    <div class="series-sponsored-by">
+      <div class="ad-unit" data-advertising="page_logo" data-cb-ad-id="Logo" data-cb-dfp-id="unit=page_logo;size=120x90,120x60,88x31;pos=logo"> 
+        <div class="dart-ad" id="ad-unit-top-series"></div>
+      </div>
+    </div>
+
+    <div class="about-this-series">
+      <a href="http://www.fastcompany.com/section/fast-feed" class="about-this-series-logo">
+        
+          <img src="///f.fastcompany.net/multisite_files/fastcompany/poster/2009/06/3003292-teaser-fast-feedfinalsidebar.jpg" title="Fast Feed" alt="">
+        
+      </a>
+
+      <div class="series-subhead">
+        <strong></strong>
+      </div>
+
+      <p><p>Welcome to Fast Feed, the Fast Company reader's essential source for breaking news and innovation from around the web--bite-sized and updated all day.</p></p>
+
+      <p class="series-read-more">
+        <a href="http://www.fastcompany.com/section/fast-feed" class="read-more">
+          Read More &raquo;
+        </a>
+      </p>
+
+    </div>
+
+  
+
+
+          </div>
+        </aside>
+
+        <br class="clear show-for-small" />
+
+        <aside id="page-sidebar" class="four columns page-sidebar hide-on-print">
+          <div class="container">
+            
+<div id="sidebar-top" data-region="sidebar_nofollow">
+
+<div id="sidebar-add-unit-dartad_imu_1" data-name="dartad_imu_1">
+  <div class="block ad-unit" data-advertising="dartad_imu_1" data-cb-ad-id="dartad_imu_1" data-cb-dfp-id="unit=dartad_imu_1;size=300x250,300x600,300x1050;pos=dartad_imu_1">
+      <div class="dart-ad" id="ad-unit-sidebar-dartad_imu_1"></div>
+      <div class="ad-label"></div>
+  </div>
+</div>
+
+
+</div>
+
+<div id="sidebar-follow" data-region="sidebar">
+
+    
+    
+    
+    
+
+
+    
+
+    <div id="sidebar-block-newsletters" class="hide-for-small" data-name="newsletters">
+  <div class="block">
+  	<div class="wrapper">
+	    <h2>Subscribe to Newsletters</h2>
+
+  		<div class = "subscribe-form">
+  			<div class="form-padding">
+  				<form action="//www.fastcompany.com/newsletters">
+  					<label for="email">Enter Your Email:</label>
+  				    <input type="text" value="" name="email" class="email" id="email" placeholder="@" />
+  				    	<input type="submit" id="subscribe" value="submit" class="btn" alt="Subscribe"/>
+			    </form>
+		    </div>
+	   	</div>
+
+   	</div>
+  </div>
+</div>
+
+    <div id="sidebar-block-featuredB" class="sidebar-block-featured hide-for-small" data-name="featuredB">
+  <div class="block">
+    <ul class="post-list">
+      
+        <li><article
+  data-id="3019313"
+  class="node teaser-view sidebar kind-slideshow site-fastcodesign slug-fastcodesign">
+
+  
+    
+      <h4 class="supertag subheader navigate">
+        <a href="http://www.fastcodesign.com/section/innovation-by-design-awards">Innovation By Design Awards</a>
+      </h4>
+    
+  
+
+  <figure class="poster">
+    
+
+      
+        
+          
+            <h4 class="slug subheader">
+              <a class="fastcodesign light" href="http://www.fastcodesign.com">
+                <img src="/images/svg/fastcodesign-light-notxt.svg" width="30" height="30">
+              </a>
+            </h4>
+          
+        
+      
+
+      
+        <a  href="http://www.fastcodesign.com/3019313/innovation-by-design-awards/bauhaus-meets-bacchanalia-the-2013-innovation-by-design-awards-a"
+            title="Bauhaus Meets Bacchanalia: The 2013 Innovation By Design Awards After-Party"
+            data-event-category="sidebar"
+            data-event-action="clickPoster">
+      
+
+        
+          <img src="//e.fastcompany.net/multisite_files/fastcompany/imagecache/300x166/poster/2013/10/3019313-poster-p-2-jawbone-explains-how-wearables-will-go-mainstream.jpg" />
+        
+
+        </a>
+
+    
+  </figure>
+
+  <h3 class="title">
+    
+      <a href="http://www.fastcodesign.com/3019313/innovation-by-design-awards/bauhaus-meets-bacchanalia-the-2013-innovation-by-design-awards-a" data-event-category="sidebar" data-event-action="clickTitle" title="Bauhaus Meets Bacchanalia: The 2013 Innovation By Design Awards After-Party">Bauhaus Meets Bacchanalia: The 2013 Innovation By Design Awards After-Party</a>
+    
+  </h3>
+
+  <div class="source-logo"></div>
+
+</article>
+</li>
+      
+        <li><article
+  data-id="3017512"
+  class="node teaser-view sidebar kind-video site-fastcoexist slug-fastcoexist">
+
+  
+    
+      <h4 class="supertag subheader navigate">
+        <a href="http://www.fastcoexist.com/section/change-generation">Change Generation</a>
+      </h4>
+    
+  
+
+  <figure class="poster">
+    
+
+        <iframe width="300"
+                height="166"
+                src="/embed/78526eab1ce3a?watermark=0&autohide=2&poster=sidebar"
+                scrolling="no"
+                frameborder="0"
+                allowfullscreen
+                data-event-category="sidebar"
+                data-event-action="clickVideo"></iframe>
+
+    
+  </figure>
+
+  <h3 class="title">
+    
+      <a href="http://www.fastcoexist.com/3017512/change-generation/putting-the-micro-in-micro-entrepreneur-for-just-5-a-gig" data-event-category="sidebar" data-event-action="clickTitle" title="Putting The Micro In Micro-Entrepreneur, For $5 to $500 A Gig">Putting The Micro In Micro-Entrepreneur, For $5 to $500 A Gig</a>
+    
+  </h3>
+
+  <div class="source-logo"></div>
+
+</article>
+</li>
+      
+        <li><article
+  data-id="3019000"
+  class="node teaser-view sidebar kind-slideshow site-fastcodesign slug-fastcodesign">
+
+  
+    
+      <h4 class="supertag subheader navigate">
+        <a href="http://www.fastcodesign.com/section/innovation-by-design">Innovation By Design</a>
+      </h4>
+    
+  
+
+  <figure class="poster">
+    
+
+      
+        
+          
+            <h4 class="slug subheader">
+              <a class="fastcodesign dark" href="http://www.fastcodesign.com">
+                <img src="/images/svg/fastcodesign-dark-notxt.svg" width="30" height="30">
+              </a>
+            </h4>
+          
+        
+      
+
+      
+        <a  href="http://www.fastcodesign.com/3019000/the-winners-of-our-2013-innovation-by-design-awards"
+            title="The Winners Of Our 2013 Innovation By Design Awards"
+            data-event-category="sidebar"
+            data-event-action="clickPoster">
+      
+
+        
+          <img src="//a.fastcompany.net/multisite_files/fastcompany/imagecache/300x166/poster/2013/10/3019000-poster-1280-winners.jpg" />
+        
+
+        </a>
+
+    
+  </figure>
+
+  <h3 class="title">
+    
+      <a href="http://www.fastcodesign.com/3019000/the-winners-of-our-2013-innovation-by-design-awards" data-event-category="sidebar" data-event-action="clickTitle" title="The Winners Of Our 2013 Innovation By Design Awards">The Winners Of Our 2013 Innovation By Design Awards</a>
+    
+  </h3>
+
+  <div class="source-logo"></div>
+
+</article>
+</li>
+      
+    </ul>
+  </div>
+</div>
+
+    
+
+    <div id="sidebar-add-unit-dartad_imu_2" data-name="dartad_imu_2">
+  <div class="block ad-unit" data-advertising="dartad_imu_2" data-cb-ad-id="dartad_imu_2" data-cb-dfp-id="unit=dartad_imu_2;size=300x250,300x600,300x1050;pos=dartad_imu_2">
+      <div class="dart-ad" id="ad-unit-sidebar-dartad_imu_2"></div>
+      <div class="ad-label"></div>
+  </div>
+</div>
+
+
+    <div id="sidebar-block-featuredC" class="sidebar-block-featured hide-for-small" data-name="featuredC">
+  <div class="block">
+    <ul class="post-list">
+      
+        <li><article
+  data-id="3019027"
+  class="node teaser-view sidebar kind-article site-fastcompany slug-fastcompany">
+
+  
+    
+      <h4 class="supertag subheader">
+        <a href="http://www.fastcompany.com">Fast Company</a>
+      </h4>
+    
+  
+
+  <figure class="poster">
+    
+
+      
+        
+          
+            <h4 class="slug subheader">
+              <a class="fastcompany dark" href="http://www.fastcompany.com">
+                <img src="/images/svg/fastcompany-dark-notxt.svg" width="30" height="30">
+              </a>
+            </h4>
+          
+        
+      
+
+      
+        <a  href="/3019027/what-obamacare-means-for-the-startup-founder-the-nonprofit-the-vc"
+            title="What Obamacare Means for the Startup Founder, the VC, and the Big Company"
+            class="navigate"
+            data-resource-type="post"
+            data-event-category="sidebar"
+            data-event-action="clickPoster">
+      
+
+        
+          <img src="//b.fastcompany.net/multisite_files/fastcompany/imagecache/300x166/poster/2013/10/3019027-poster-p-1-what-obamacare-means-for-the-startup-founder-the-nonprofit-the-vc.jpg" />
+        
+
+        </a>
+
+    
+  </figure>
+
+  <h3 class="title">
+    
+      <a href="/3019027/what-obamacare-means-for-the-startup-founder-the-nonprofit-the-vc" class="navigate" data-event-category="sidebar" data-event-action="clickTitle" title="What Obamacare Means for the Startup Founder, the VC, and the Big Company">What Obamacare Means for the Startup Founder, the VC, and the Big Company</a>
+    
+  </h3>
+
+  <div class="source-logo"></div>
+
+</article>
+</li>
+      
+        <li><article
+  data-id="3018997"
+  class="node teaser-view sidebar kind-article site-fastcompany slug-fast-feed">
+
+  
+    
+      <h4 class="supertag subheader navigate">
+        <a href="http://www.fastcompany.com/section/fast-feed">Fast Feed</a>
+      </h4>
+    
+  
+
+  <figure class="poster">
+    
+
+      
+        
+          
+            <h4 class="slug subheader">
+              <a class="fastcompany light" href="http://www.fastcompany.com">
+                <img src="/images/svg/fastcompany-light-notxt.svg" width="30" height="30">
+              </a>
+            </h4>
+          
+        
+      
+
+      
+        <a  href="/3018997/fast-feed/obamacare-debuts-today-what-it-means-for-the-self-employed-the-start-up-worker-the"
+            title="What Obamacare Means For The Self-Employed, The Startup Worker, The Freelancer"
+            class="navigate"
+            data-resource-type="post"
+            data-event-category="sidebar"
+            data-event-action="clickPoster">
+      
+
+        
+          <img src="//d.fastcompany.net/multisite_files/fastcompany/imagecache/300x166/poster/2013/10/3018997-poster-p-obamacare-debuts-today-what-it-means-for-the-self-employed-the-start-up-worker.jpg" />
+        
+
+        </a>
+
+    
+  </figure>
+
+  <h3 class="title">
+    
+      <a href="/3018997/fast-feed/obamacare-debuts-today-what-it-means-for-the-self-employed-the-start-up-worker-the" class="navigate" data-event-category="sidebar" data-event-action="clickTitle" title="What Obamacare Means For The Self-Employed, The Startup Worker, The Freelancer">What Obamacare Means For The Self-Employed, The Startup Worker, The Freelancer</a>
+    
+  </h3>
+
+  <div class="source-logo"></div>
+
+</article>
+</li>
+      
+        <li><article
+  data-id="3019062"
+  class="node teaser-view sidebar kind-article site-fastcompany slug-fastcompany">
+
+  
+    
+      <h4 class="supertag subheader">
+        <a href="http://www.fastcompany.com">Fast Company</a>
+      </h4>
+    
+  
+
+  <figure class="poster">
+    
+
+      
+        
+          
+            <h4 class="slug subheader">
+              <a class="fastcompany dark" href="http://www.fastcompany.com">
+                <img src="/images/svg/fastcompany-dark-notxt.svg" width="30" height="30">
+              </a>
+            </h4>
+          
+        
+      
+
+      
+        <a  href="/3019062/obamacare-means-youre-getting-hit-with-a-tsunami-of-health-care-marketing"
+            title="In The Wake Of Obamacare, A Tsunami of Health Care Marketing"
+            class="navigate"
+            data-resource-type="post"
+            data-event-category="sidebar"
+            data-event-action="clickPoster">
+      
+
+        
+          <img src="//d.fastcompany.net/multisite_files/fastcompany/imagecache/300x166/poster/2013/10/3019062-poster-p-2-obamacare-and-the-coming-tsunami-of-health-care-marketing.jpg" />
+        
+
+        </a>
+
+    
+  </figure>
+
+  <h3 class="title">
+    
+      <a href="/3019062/obamacare-means-youre-getting-hit-with-a-tsunami-of-health-care-marketing" class="navigate" data-event-category="sidebar" data-event-action="clickTitle" title="In The Wake Of Obamacare, A Tsunami of Health Care Marketing">In The Wake Of Obamacare, A Tsunami of Health Care Marketing</a>
+    
+  </h3>
+
+  <div class="source-logo"></div>
+
+</article>
+</li>
+      
+    </ul>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    <div id="sidebar-add-unit-dartad_imu_3" data-name="dartad_imu_3">
+  <div class="block ad-unit" data-advertising="dartad_imu_3" data-cb-ad-id="dartad_imu_3" data-cb-dfp-id="unit=dartad_imu_3;size=300x250,300x600,300x1050;pos=dartad_imu_3">
+      <div class="dart-ad" id="ad-unit-sidebar-dartad_imu_3"></div>
+      <div class="ad-label"></div>
+  </div>
+</div>
+
+
+    <div id="sidebar-block-featuredD" class="sidebar-block-featured hide-for-small" data-name="featuredD">
+  <div class="block">
+    <ul class="post-list">
+      
+        <li><article
+  data-id="3019342"
+  class="node teaser-view sidebar kind-article site-fastcompany slug-fastcompany">
+
+  
+    
+      <h4 class="supertag subheader">
+        <a href="http://www.fastcompany.com">Fast Company</a>
+      </h4>
+    
+  
+
+  <figure class="poster">
+    
+
+      
+        
+          
+            <h4 class="slug subheader">
+              <a class="fastcompany dark" href="http://www.fastcompany.com">
+                <img src="/images/svg/fastcompany-dark-notxt.svg" width="30" height="30">
+              </a>
+            </h4>
+          
+        
+      
+
+      
+        <a  href="/3019342/twitter-ipo-filing-what-you-need-to-know"
+            title="Twitter IPO Filing: What You Need To Know"
+            class="navigate"
+            data-resource-type="post"
+            data-event-category="sidebar"
+            data-event-action="clickPoster">
+      
+
+        
+          <img src="//f.fastcompany.net/multisite_files/fastcompany/imagecache/300x166/poster/2013/10/3019342-poster-p-twitter-finalize-ipo.jpg" />
+        
+
+        </a>
+
+    
+  </figure>
+
+  <h3 class="title">
+    
+      <a href="/3019342/twitter-ipo-filing-what-you-need-to-know" class="navigate" data-event-category="sidebar" data-event-action="clickTitle" title="Twitter IPO Filing: What You Need To Know">Twitter IPO Filing: What You Need To Know</a>
+    
+  </h3>
+
+  <div class="source-logo"></div>
+
+</article>
+</li>
+      
+        <li><article
+  data-id="3019335"
+  class="node teaser-view sidebar kind-article site-fastcompany slug-fastcompany">
+
+  
+    
+      <h4 class="supertag subheader">
+        <a href="http://www.fastcompany.com">Fast Company</a>
+      </h4>
+    
+  
+
+  <figure class="poster">
+    
+
+      
+        
+          
+            <h4 class="slug subheader">
+              <a class="fastcompany dark" href="http://www.fastcompany.com">
+                <img src="/images/svg/fastcompany-dark-notxt.svg" width="30" height="30">
+              </a>
+            </h4>
+          
+        
+      
+
+      
+        <a  href="/3019335/washington-dc-capitol-shooting-tests-twitters-new-alert-system"
+            title="Capitol Shooting Tests Twitter&#x27;s New Alert System"
+            class="navigate"
+            data-resource-type="post"
+            data-event-category="sidebar"
+            data-event-action="clickPoster">
+      
+
+        
+          <img src="//f.fastcompany.net/multisite_files/fastcompany/imagecache/300x166/poster/2013/10/3019335-poster-capitolbuildingz.jpg" />
+        
+
+        </a>
+
+    
+  </figure>
+
+  <h3 class="title">
+    
+      <a href="/3019335/washington-dc-capitol-shooting-tests-twitters-new-alert-system" class="navigate" data-event-category="sidebar" data-event-action="clickTitle" title="Capitol Shooting Tests Twitter&#x27;s New Alert System">Capitol Shooting Tests Twitter's New Alert System</a>
+    
+  </h3>
+
+  <div class="source-logo"></div>
+
+</article>
+</li>
+      
+        <li><article
+  data-id="3019169"
+  class="node teaser-view sidebar kind-article site-fastcompany slug-fastcompany">
+
+  
+    
+      <h4 class="supertag subheader">
+        <a href="http://www.fastcompany.com">Fast Company</a>
+      </h4>
+    
+  
+
+  <figure class="poster">
+    
+
+      
+        
+          
+            <h4 class="slug subheader">
+              <a class="fastcompany dark" href="http://www.fastcompany.com">
+                <img src="/images/svg/fastcompany-dark-notxt.svg" width="30" height="30">
+              </a>
+            </h4>
+          
+        
+      
+
+      
+        <a  href="/3019169/advice-from-vcs-for-startups-navigating-the-government-shutdown"
+            title="Advice From VCs For Startups Navigating the Government Shutdown"
+            class="navigate"
+            data-resource-type="post"
+            data-event-category="sidebar"
+            data-event-action="clickPoster">
+      
+
+        
+          <img src="//c.fastcompany.net/multisite_files/fastcompany/imagecache/300x166/poster/2013/10/3019169-poster-government-shutdown-vcs-startup-advice.jpg" />
+        
+
+        </a>
+
+    
+  </figure>
+
+  <h3 class="title">
+    
+      <a href="/3019169/advice-from-vcs-for-startups-navigating-the-government-shutdown" class="navigate" data-event-category="sidebar" data-event-action="clickTitle" title="Advice From VCs For Startups Navigating the Government Shutdown">Advice From VCs For Startups Navigating the Government Shutdown</a>
+    
+  </h3>
+
+  <div class="source-logo"></div>
+
+</article>
+</li>
+      
+    </ul>
+  </div>
+</div>
+
+    
+
+    <div id="sidebar-block-masthead" class="hide-for-small" data-name="masthead">
+  
+  <div class="block masthead" style='overflow-y: auto;'>
+    <h4 class="subheader"><span>Masthead</span></h4>
+
+    <ul class="user-list">
+        
+        <li>
+          <a data-resource-type="user" data-resource-id="2142631" class="navigate" href="http://www.fastcompany.com/user/noah-robischon">
+	<span class="masthead-editor">Executive Editor:</span>&nbsp;<span class="display-name">Noah Robischon</span>
+</a>
+
+        </li>
+        
+        <li>
+          <a data-resource-type="user" data-resource-id="2188041" class="navigate" href="http://www.fastcompany.com/user/tyler-gray">
+	<span class="masthead-editor">Editorial Director, Digital:</span>&nbsp;<span class="display-name">Tyler Gray</span>
+</a>
+
+        </li>
+        
+        <li>
+          <a data-resource-type="user" data-resource-id="2300945" class="navigate" href="http://www.fastcoexist.com/user/morgan-clendaniel">
+	<span class="masthead-editor">Editor:</span>&nbsp;<span class="display-name">Morgan Clendaniel</span>
+</a>
+
+        </li>
+        
+        <li>
+          <a data-resource-type="user" data-resource-id="2313284" class="navigate" href="http://www.fastcocreate.com/user/teressa-iezzi">
+	<span class="masthead-editor">Editor, Co.Create:</span>&nbsp;<span class="display-name">Teressa Iezzi</span>
+</a>
+
+        </li>
+        
+        <li>
+          <a data-resource-type="user" data-resource-id="2285291" class="navigate" href="http://www.fastcompany.com/user/erin-schulte">
+	<span class="masthead-editor">Senior Editor:</span>&nbsp;<span class="display-name">Erin Schulte</span>
+</a>
+
+        </li>
+        
+        <li>
+          <a data-resource-type="user" data-resource-id="2209602" class="navigate" href="http://www.fastcompany.com/user/maccabee-montandon">
+	<span class="masthead-editor">News Editor:</span>&nbsp;<span class="display-name">Maccabee Montandon</span>
+</a>
+
+        </li>
+        
+        <li>
+          <a data-resource-type="user" data-resource-id="2307984" class="navigate" href="http://www.fastcodesign.com/user/belinda-lanks">
+	<span class="masthead-editor">Deputy Editor, Co.Design:</span>&nbsp;<span class="display-name">Belinda Lanks</span>
+</a>
+
+        </li>
+        
+        <li>
+          <a data-resource-type="user" data-resource-id="2118986" class="navigate" href="http://www.fastcolabs.com/user/chris-dannen">
+	<span class="masthead-editor">Senior Editor &amp; Lead Tech Editor:</span>&nbsp;<span class="display-name">Chris Dannen</span>
+</a>
+
+        </li>
+        
+        <li>
+          <a data-resource-type="user" data-resource-id="3005671" class="navigate" href="http://www.fastcompany.com/user/cole-wilson">
+	<span class="masthead-editor">Director, Editorial Relations:</span>&nbsp;<span class="display-name">Cole Wilson</span>
+</a>
+
+        </li>
+        
+    </ul>
+
+    <p class="more"><a href="http://www.fastcompany.com/staff-masthead" class="read-more">More &raquo;</a></p>
+   </div>
+  
+</div>
+
+
+    <div id="sidebar-block-contributors" class="hide-for-small" data-name="contributors">
+  <div class="block contributors" style='overflow-y: auto;'>
+    <h4 class="subheader"><span>Contributors</span></h4>
+    <div class="users-container">
+    	<ul class="user-list">
+        
+          <li><div class="user">
+	<a href="http://www.fastcompany.com/user/addy-dugdale" class="blockqueue-node-2" title="Addy Dugdale">
+    
+		  <img src="//c.fastcompany.net/multisite_files/fastcompany/imagecache/59x59/fc_files/profile/2198993-addy-dugdale-profile.png" alt="" title="Addy Dugdale">
+    
+	</a>
+</div>
+</li>
+        
+          <li><div class="user">
+	<a href="http://www.fastcompany.com/user/anjali-mullany" class="blockqueue-node-2" title="Anjali Mullany">
+    
+		  <img src="//c.fastcompany.net/multisite_files/fastcompany/imagecache/59x59/profile/2371755-photo-528499547676488577770155146355n.jpeg" alt="" title="Anjali Mullany">
+    
+	</a>
+</div>
+</li>
+        
+          <li><div class="user">
+	<a href="http://www.fastcompany.com/user/anya-kamenetz" class="blockqueue-node-2" title="Anya Kamenetz">
+    
+		  <img src="//b.fastcompany.net/multisite_files/fastcompany/imagecache/59x59/profile/2105230-photo-hedshot.jpg" alt="" title="Anya Kamenetz">
+    
+	</a>
+</div>
+</li>
+        
+          <li><div class="user">
+	<a href="http://www.fastcoexist.com/user/ariel-schwartz" class="blockqueue-node-2" title="Ariel Schwartz">
+    
+		  <img src="//a.fastcompany.net/multisite_files/fastcompany/imagecache/59x59/profile/2153941-photo-ariel_0.png" alt="" title="Ariel Schwartz">
+    
+	</a>
+</div>
+</li>
+        
+          <li><div class="user">
+	<a href="http://www.fastcompany.com/user/austin-carr" class="blockqueue-node-2" title="Austin Carr">
+    
+		  <img src="//e.fastcompany.net/multisite_files/fastcompany/imagecache/59x59/fc_files/profile/2219225-austin-carr-profile.jpg" alt="" title="Austin Carr">
+    
+	</a>
+</div>
+</li>
+        
+          <li><div class="user">
+	<a href="http://www.fastcodesign.com/user/belinda-lanks" class="blockqueue-node-2" title="Belinda Lanks">
+    
+		  <img src="//e.fastcompany.net/multisite_files/fastcompany/imagecache/59x59/fc_files/profile/2307984-belinda-lanks-profile.jpg" alt="" title="Belinda Lanks">
+    
+	</a>
+</div>
+</li>
+        
+          <li><div class="user">
+	<a href="http://www.fastcompany.com/user/christina-chaey" class="blockqueue-node-2" title="Christina Chaey">
+    
+		  <img src="//d.fastcompany.net/multisite_files/fastcompany/imagecache/59x59/profile/2278839-photo-christinachaey.jpg" alt="" title="Christina Chaey">
+    
+	</a>
+</div>
+</li>
+        
+          <li><div class="user">
+	<a href="http://www.fastcompany.com/user/david-zax" class="blockqueue-node-2" title="David Zax">
+    
+		  <img src="//c.fastcompany.net/multisite_files/fastcompany/imagecache/59x59/profile/2253232-photo-dzhead.png" alt="" title="David Zax">
+    
+	</a>
+</div>
+</li>
+        
+          <li><div class="user">
+	<a href="http://www.fastcompany.com/user/kit-eaton" class="blockqueue-node-2" title="Kit Eaton">
+    
+		  <img src="//b.fastcompany.net/multisite_files/fastcompany/imagecache/59x59/profile/2148610-photo-me2.jpg" alt="" title="Kit Eaton">
+    
+	</a>
+</div>
+</li>
+        
+          <li><div class="user">
+	<a href="http://www.fastcodesign.com/user/mark-wilson" class="blockqueue-node-2" title="Mark Wilson">
+    
+		  <img src="//e.fastcompany.net/multisite_files/fastcompany/imagecache/59x59/profile/2339820-photo-marksourcephoto2.jpg" alt="" title="Mark Wilson">
+    
+	</a>
+</div>
+</li>
+        
+          <li><div class="user">
+	<a href="http://www.fastcompany.com/user/neal-ungerleider" class="blockqueue-node-2" title="Neal Ungerleider">
+    
+		  <img src="//e.fastcompany.net/multisite_files/fastcompany/imagecache/59x59/profile/2260653-photo-vegasneonmuseum_0.jpg" alt="" title="Neal Ungerleider">
+    
+	</a>
+</div>
+</li>
+        
+          <li><div class="user">
+	<a href="http://www.fastcocreate.com/user/joe-berkowitz" class="blockqueue-node-2" title="Joe Berkowitz">
+    
+		  <img src="//c.fastcompany.net/multisite_files/fastcompany/imagecache/59x59/profile/2340935-photo-2327107-joe-berkowitz-profile.jpg" alt="" title="Joe Berkowitz">
+    
+	</a>
+</div>
+</li>
+        
+          <li><div class="user">
+	<a href="http://www.fastcompany.com/user/jason-feifer" class="blockqueue-node-2" title="Jason Feifer">
+    
+		  <img src="//c.fastcompany.net/multisite_files/fastcompany/imagecache/59x59/fc_files/profile/2312234-jason-feifer-profile.png" alt="" title="Jason Feifer">
+    
+	</a>
+</div>
+</li>
+        
+          <li><div class="user">
+	<a href="http://www.fastcompany.com/user/sarah-kessler" class="blockqueue-node-2" title="Sarah Kessler">
+    
+		  <img src="//c.fastcompany.net/multisite_files/fastcompany/imagecache/59x59/fc_files/profile/2373750-sarah-kessler-profile.png" alt="" title="Sarah Kessler">
+    
+	</a>
+</div>
+</li>
+        
+          <li><div class="user">
+	<a href="http://www.fastcocreate.com/user/teressa-iezzi" class="blockqueue-node-2" title="Teressa Iezzi">
+    
+		  <img src="//a.fastcompany.net/multisite_files/fastcompany/imagecache/59x59/profile/2313284-photo-user-ti-cocreate.jpg" alt="" title="Teressa Iezzi">
+    
+	</a>
+</div>
+</li>
+        
+          <li><div class="user">
+	<a href="http://www.fastcompany.com/user/vivek-kemp" class="blockqueue-node-2" title="Vivek Kemp">
+    
+		  <img src="//a.fastcompany.net/multisite_files/fastcompany/imagecache/59x59/profile/3003558-photo-img2024.jpg" alt="" title="Vivek Kemp">
+    
+	</a>
+</div>
+</li>
+        
+    	</ul>
+    </div>
+  </div>
+</div>
+
+
+    
+
+    <div id="sidebar-block-trending" class="hide-for-small" data-name="trending">
+  <div class="block trending">
+    <h4 class="subheader trending"><span>Trending Articles</span></h4>
+    <ol class="trending"></ol>
+  </div>
+</div>
+
+
+
+    
+
+    <div id="sidebar-block-featuredE" class="sidebar-block-featured hide-for-small" data-name="featuredE">
+  <div class="block">
+    <ul class="post-list">
+      
+        <li><article
+  data-id="3019082"
+  class="node teaser-view sidebar kind-article site-fastcolabs slug-fastcolabs">
+
+  
+    
+      <h4 class="supertag subheader">
+        <a href="http://www.fastcolabs.com">Co.Labs</a>
+      </h4>
+    
+  
+
+  <figure class="poster">
+    
+
+      
+        
+          
+            <h4 class="slug subheader">
+              <a class="fastcolabs light" href="http://www.fastcolabs.com">
+                <img src="/images/svg/fastcolabs-light-notxt.svg" width="30" height="30">
+              </a>
+            </h4>
+          
+        
+      
+
+      
+        <a  href="http://www.fastcolabs.com/3019082/coding-is-an-art-software-people-should-learn-art-thinking"
+            title="Coding Is An Art--Software People Should Learn &quot;Art Thinking&quot;"
+            data-event-category="sidebar"
+            data-event-action="clickPoster">
+      
+
+        
+          <img src="//a.fastcompany.net/multisite_files/fastcompany/imagecache/300x166/poster/2013/10/3019082-poster-p-1-coding-is-an-art-software-people-should-learn-art-thinking.jpg" />
+        
+
+        </a>
+
+    
+  </figure>
+
+  <h3 class="title">
+    
+      <a href="http://www.fastcolabs.com/3019082/coding-is-an-art-software-people-should-learn-art-thinking" data-event-category="sidebar" data-event-action="clickTitle" title="Coding Is An Art--Software People Should Learn &quot;Art Thinking&quot;">Coding Is An Art--Software People Should Learn "Art Thinking"</a>
+    
+  </h3>
+
+  <div class="source-logo"></div>
+
+</article>
+</li>
+      
+        <li><article
+  data-id="3019084"
+  class="node teaser-view sidebar kind-slideshow site-fastcompany slug-reverse-engineered">
+
+  
+    
+      <h4 class="supertag subheader navigate">
+        <a href="http://www.fastcompany.com/section/reverse-engineered">Reverse Engineered</a>
+      </h4>
+    
+  
+
+  <figure class="poster">
+    
+
+      
+        
+          
+            <h4 class="slug subheader">
+              <a class="fastcompany light" href="http://www.fastcompany.com">
+                <img src="/images/svg/fastcompany-light-notxt.svg" width="30" height="30">
+              </a>
+            </h4>
+          
+        
+      
+
+      
+        <a  href="/3019084/reverse-engineered/would-you-want-to-hear-this-new-circa-news-sound-whenever-news-breaks"
+            title="Would You Want To Hear This New Circa News Sound Whenever News Breaks?"
+            class="navigate"
+            data-resource-type="post"
+            data-event-category="sidebar"
+            data-event-action="clickPoster">
+      
+
+        
+          <img src="//b.fastcompany.net/multisite_files/fastcompany/imagecache/300x166/poster/2013/10/3019084-poster-p-1-would-you-want-to-hear-this-new-circa-news-sound-whenever-news-breaks.jpg" />
+        
+
+        </a>
+
+    
+  </figure>
+
+  <h3 class="title">
+    
+      <a href="/3019084/reverse-engineered/would-you-want-to-hear-this-new-circa-news-sound-whenever-news-breaks" class="navigate" data-event-category="sidebar" data-event-action="clickTitle" title="Would You Want To Hear This New Circa News Sound Whenever News Breaks?">Would You Want To Hear This New Circa News Sound Whenever News Breaks?</a>
+    
+  </h3>
+
+  <div class="source-logo"></div>
+
+</article>
+</li>
+      
+        <li><article
+  data-id="3019236"
+  class="node teaser-view sidebar kind-slideshow site-fastcompany slug-most-innovative-companies-2013">
+
+  
+    
+      <h4 class="supertag subheader navigate">
+        <a href="http://www.fastcompany.com/section/most-innovative-companies-2013">Most Innovative Companies 2013</a>
+      </h4>
+    
+  
+
+  <figure class="poster">
+    
+
+      
+        
+          
+            <h4 class="slug subheader">
+              <a class="fastcompany light" href="http://www.fastcompany.com">
+                <img src="/images/svg/fastcompany-light-notxt.svg" width="30" height="30">
+              </a>
+            </h4>
+          
+        
+      
+
+      
+        <a  href="/3019236/most-innovative-companies-2013/apple-wins-another-architectural-patent-for-its-glass-cylinde"
+            title="Apple Wins Another Architectural Patent For Its Glass Cylinder Staircase"
+            class="navigate"
+            data-resource-type="post"
+            data-event-category="sidebar"
+            data-event-action="clickPoster">
+      
+
+        
+          <img src="//e.fastcompany.net/multisite_files/fastcompany/imagecache/300x166/poster/2013/10/3019236-poster-p-apple-adds-shanghai-staircase-architectural-patent-to.jpg" />
+        
+
+        </a>
+
+    
+  </figure>
+
+  <h3 class="title">
+    
+      <a href="/3019236/most-innovative-companies-2013/apple-wins-another-architectural-patent-for-its-glass-cylinde" class="navigate" data-event-category="sidebar" data-event-action="clickTitle" title="Apple Wins Another Architectural Patent For Its Glass Cylinder Staircase">Apple Wins Another Architectural Patent For Its Glass Cylinder Staircase</a>
+    
+  </h3>
+
+  <div class="source-logo"></div>
+
+</article>
+</li>
+      
+    </ul>
+  </div>
+</div>
+
+    
+
+    
+
+    <div id="sidebar-block-footer" data-name="footer">
+  <div class="block">
+    <footer class="closure">
+      <ul class="links">
+        <li><a href="http://mediakit.fastcompany.com/">Advertise</a></li>
+        <li><a href="http://www.fastcompany.com/privacy-policy">Privacy Policy</a></li>
+        <li><a href="http://www.fastcompany.com/terms-and-conditions">Terms</a></li>
+        <li><a href="http://www.fastcompany.com/contact">Contact</a></li>
+      </ul>
+
+      <hr class="hr-sidebar" />
+
+      <p>
+        <small class="copyright"><a href="http://www.fastcompany.com/">Fast Company</a> &amp; <a href="http://www.inc.com">Inc</a> &copy; 2013 Mansueto Ventures, LLC.</small>
+        <a href="http://www.aboutads.info/" target="_new" class="icon_adoption" rel="nofollow">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAANCAAAAAC4QtCeAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAJ0Uk5TAAB2k804AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAAAEgAAABIAEbJaz4AAACASURBVAjXYyir3PaDAQby09KL9/2FcjIWf1mbVX0Mwklfw8DwbF5awzkwZzXDjco/j/vTuq+COe93APXcLE5bCeKczvzOwPCoPG0xiHMq6/f9SWkdF4HK1jKcyepJazgFNnrBpwtpVUchRuempR17+htqaU/55l9w5xzf+RHOBgC94zlXyQTR6wAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxMy0wMy0wOFQxOToxMDo0NC0wNTowMNnS5vEAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTMtMDMtMDhUMTk6MTA6NDQtMDU6MDCoj15NAAAAAElFTkSuQmCC" width="12" height="13" alt="">
+        </a>
+      </p>
+
+    </footer>
+  </div>
+</div>
+
+
+</div>
+
+
+          </div>
+        </aside>
+
+      </div><!-- .page-main-wrap -->
+
+    </div><!-- /#page-main -->
+
+  </div><!-- /.page-inner -->
+
+</div><!-- /#page -->
+
+          <footer id="footer">
+    <div class="footer-wrap container">
+        <!-- footer -->
+    </div>
+</footer>
+
+
+          <div class="container clearfix hide-for-small hide-on-print" id="admin-toolbar">
+            <div id="toolbar-controls" class="clearfix"></div>
+          </div>
+          
+        </div>
+
+        <div id="search-modal" class="reveal-modal large twelve columns hide-on-print">
+
+  <a class="close-reveal-modal"><i class="icon-remove-sign"></i></a>
+
+  <div class="row">
+    <div class="twelve columns">
+      <div id="search-form">
+        <div class="row collapse">
+
+          <div class="ten mobile-three columns">
+            <input type="text" class="search_input" id="search-input" placeholder="Search" autofocus />
+          </div>
+
+          <div class="two mobile-one columns">
+            <a class="btn_search button expand postfix">Search</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="search-results-wrapper" class="row">
+    
+  </div>
+
+</div>
+
+        
+        <div id="send-article-modal" class="reveal-modal small hide-on-print" style="z-index: 9999;"></div>
+
+        
+        <div class="timestamp-wrapper show-for-large-up">
+          <div class="timestamp-inner show-for-large-up">
+            <div class="timestamp show-for-large-up">
+              <p><time pubdate class="date"></time></p>
+            </div>
+          </div>
+        </div>
+
+        <div id="message-space"></div>
+
+        
+
+  
+  <script type="text/javascript" src="/js/vendor/omniture-scode-prod.js"></script>
+  <script type="text/javascript"><!--
+
+  
+    
+    fastco_s.server="fastcompany";
+    
+    fastco_s.pageName="fastcompany:3018535:valves-steam-machines-a-new-challenger-in-the-gaming-console-wars";
+    fastco_s.events="event9";
+
+    fastco_s.prop1="technology";
+    fastco_s.prop2="technology";
+    fastco_s.prop3="Valve&#x27;s Steam Machines: A New Challenger In The Gaming Console Wars ";
+    fastco_s.prop4="http://www.fastcompany.com/3018535/fast-feed/valves-steam-machines-a-new-challenger-in-the-gaming-console-wars";
+    fastco_s.prop5="fast-feed";
+    fastco_s.prop6="fast-feed";
+    fastco_s.prop8="Kit Eaton";
+    fastco_s.prop9="2013-09-26";
+    fastco_s.prop10="3018535";
+    fastco_s.prop11="Kit Eaton";
+    fastco_s.prop13="1";
+    fastco_s.prop21="anonymous";
+    fastco_s.prop22="anonymous:fastcompany:3018535:valves-steam-machines-a-new-challenger-in-the-gaming-console-wars";
+    fastco_s.prop23="anonymous";
+    fastco_s.prop28="article";
+    fastco_s.prop30="console-gaming|fastfeed|iphone|ps4|steam|steam-machine|steamos|valve|xbox-one|xbox-one";
+    
+
+    
+  
+
+  var s_code=fastco_s.t();if(s_code)document.write(s_code)//--></script>
+  <script type="text/javascript"><!--
+  if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+  //--></script><noscript><img src="http://grunerandjahr.112.2o7.net/b/ss/gjincfastcoprod/1/H.24.4--NS/0/5658306"
+  height="1" width="1" alt="" style="border:0;" /></noscript><!--/DO NOT REMOVE/-->
+  
+
+
+
+  
+  <script type="text/javascript">
+  var _sf_async_config={uid:2768,domain:"fastcompany.com",sections:"fast-feed",authors:"Kit Eaton"};
+  (function(){
+    function loadChartbeat() {
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src',
+         (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+         "js/chartbeat.js");
+      document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+       loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+  </script>
+
+
+
+  
+  <noscript>
+    <img src="http://b.scorecardresearch.com/p?c1=2&c2=6916907&cv=2.0&cj=1" />
+  </noscript>
+
+
+
+  
+  <noscript>
+    <div>
+      <img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-805310h&amp;cg=0&amp;cc=1&amp;ts=noscript"
+      width="1" height="1" alt="" />
+    </div>
+  </noscript>
+
+
+
+ <div id="BF_WIDGET_1">&nbsp;</div>
+ <script type="text/javascript">
+(function( ){
+BF_WIDGET_JS=document.createElement("script");
+BF_WIDGET_JS.type="text/javascript";
+BF_WIDGET_SRC="http://ct.buzzfeed.com/wd/UserWidget?u=fastcompany.com&to=1&or=vb&wid=1&cb=" + (new Date()).getTime();
+setTimeout(function() {document.getElementById("BF_WIDGET_1").appendChild(BF_WIDGET_JS);BF_WIDGET_JS.src=BF_WIDGET_SRC},1);
+})();
+</script>
+
+        <script type="text/javascript">
+  window.bootstrap_type = 'post';
+  window.bootstrap_kind = 'article';
+  window.bootstrap_id = '3018535';
+  window.bootstrap_obj = {"id":3018535,"nid":3018535,"md5":"d483004fe52aa10761702210b31322c2","type":"post","kind":"article","site":{"name":"fastcompany.com","title":"Fast Company","url":"http://www.fastcompany.com","slug":"fastcompany"},"site_id":"fastcompany","status":true,"updated":"2013-09-26T14:14:02Z","published":"2013-09-26T13:56:00Z","url":"http://www.fastcompany.com/3018535/fast-feed/valves-steam-machines-a-new-challenger-in-the-gaming-console-wars","isOwnSite":true,"path":"/3018535/fast-feed/valves-steam-machines-a-new-challenger-in-the-gaming-console-wars","title":"Valve's Steam Machines: A New Challenger In The Gaming Console Wars ","headline":{"html":"Valve's Steam Machines: A New Challenger In The Gaming Console Wars ","plain":"Valve's Steam Machines: A New Challenger In The Gaming Console Wars "},"isArticle":true,"blocks":{"sidebar":["newsletters","featuredB","dartad_imu_2","featuredC","dartad_imu_3","featuredD","masthead","contributors","trending","featuredE","footer"],"sidebar_nofollow":["dartad_imu_1"]},"ads":{"first_level":"mansueto.fc","second_level":"ros","adzone":"sp.fastfeed","mobile_override":false},"poster":{"original":{"path":"/multisite_files/fastcompany/poster/2013/09/3018535-poster-steam.jpg","url":"//d.fastcompany.net/multisite_files/fastcompany/poster/2013/09/3018535-poster-steam.jpg","mimetype":"image/jpeg","width":1280,"height":720,"ratio":1.7777777777777777,"is_placeholder":false},"full":{"path":"/multisite_files/fastcompany/imagecache/1280/poster/2013/09/3018535-poster-steam.jpg","url":"//f.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2013/09/3018535-poster-steam.jpg","mimetype":"image/jpeg","width":1280,"height":720,"ratio":1.7777777777777777,"is_placeholder":false},"teaser":{"path":"/multisite_files/fastcompany/imagecache/620x350/poster/2013/09/3018535-poster-steam.jpg","url":"//e.fastcompany.net/multisite_files/fastcompany/imagecache/620x350/poster/2013/09/3018535-poster-steam.jpg","mimetype":"image/jpeg","width":620,"height":350,"ratio":1.7714285714285714,"is_placeholder":false},"sidebar":{"path":"/multisite_files/fastcompany/imagecache/300x166/poster/2013/09/3018535-poster-steam.jpg","url":"//a.fastcompany.net/multisite_files/fastcompany/imagecache/300x166/poster/2013/09/3018535-poster-steam.jpg","mimetype":"image/jpeg","width":300,"height":166,"ratio":1.8072289156626506,"is_placeholder":false},"thumbnail":{"path":"/multisite_files/fastcompany/imagecache/320x240/poster/2013/09/3018535-poster-steam.jpg","url":"//d.fastcompany.net/multisite_files/fastcompany/imagecache/320x240/poster/2013/09/3018535-poster-steam.jpg","mimetype":"image/jpeg","width":320,"height":240,"ratio":1.3333333333333333,"is_placeholder":false},"caption":null,"credit":null,"shade":true,"hideLogo":false},"labels":{"tags":[{"plain":"console gaming","slug":"console-gaming"},{"plain":"FastFeed","slug":"fastfeed"},{"plain":"iphone","slug":"iphone"},{"plain":"ps4","slug":"ps4"},{"plain":"steam","slug":"steam"},{"plain":"steam machine","slug":"steam-machine"},{"plain":"steamos","slug":"steamos"},{"plain":"valve","slug":"valve"},{"plain":"xbox one","slug":"xbox-one"},{"plain":"xbox one","slug":"xbox-one"}],"topics":[{"plain":"Technology","slug":"technology"}],"supertags":[{"plain":"Fast Feed","slug":"fast-feed"}]},"teaser":{"html":"<p>Valve has revealed the hardware it wants to use to disrupt the games console industry. But will smartphone gaming beat it to the punch?</p>","plain":"Valve has revealed the hardware it wants to use to disrupt the games console industry. But will smartphone gaming beat it to the punch?"},"analytics":{"omniture":{"server":"fastcompany","channel":"technology","pageName":"fastcompany:3018535:valves-steam-machines-a-new-challenger-in-the-gaming-console-wars","pageType":"","prop1":"technology","prop2":"technology","prop3":"Valve's Steam Machines: A New Challenger In The Gaming Console Wars ","prop4":"http:\\/\\/www.fastcompany.com\\/3018535\\/fast-feed\\/valves-steam-machines-a-new-challenger-in-the-gaming-console-wars","prop5":"fast-feed","prop6":"fast-feed","prop8":"Kit Eaton","prop9":"2013-09-26","prop10":3018535,"prop11":"Kit Eaton","prop13":"1","prop28":"article","prop30":"console-gaming|fastfeed|iphone|ps4|steam|steam-machine|steamos|valve|xbox-one|xbox-one","events":"event9"}},"date":{"updated":{"datetime":"2013-09-26T14:14:02Z","short":"2013-09-26","medium":"September 26, 2013","long":"September 26, 2013 | 10:14 AM"},"published":{"datetime":"2013-09-26T13:56:00Z","short":"2013-09-26","medium":"September 26, 2013","long":"September 26, 2013 | 9:56 AM"}},"meta":null,"poster_element":{"full":"image","teaser":"image"},"cache_lifetime":null,"amazon_affiliate":true,"author":{"display_name":"Kit Eaton","name":"kit-eaton","nid":2148610,"site":"fastcompany.com","mail":"hawkit@mac.com","url":"http://www.fastcompany.com/user/kit-eaton","id":"fastcompany|node|2148610","uid":148610,"email":"hawkit@mac.com","site_id":"fastcompany","path":"/user/kit-eaton","images":{"full":{"path":"/multisite_files/fastcompany/profile/2148610-photo-me2.jpg","url":"//a.fastcompany.net/multisite_files/fastcompany/profile/2148610-photo-me2.jpg","mimetype":"image/jpeg","is_placeholder":false},"small":{"path":"/multisite_files/fastcompany/imagecache/59x59/profile/2148610-photo-me2.jpg","url":"//b.fastcompany.net/multisite_files/fastcompany/imagecache/59x59/profile/2148610-photo-me2.jpg","mimetype":"image/jpeg","is_placeholder":false,"height":59,"width":59},"thumb":{"path":"/multisite_files/fastcompany/imagecache/profile-s/profile/2148610-photo-me2.jpg","url":"//e.fastcompany.net/multisite_files/fastcompany/imagecache/profile-s/profile/2148610-photo-me2.jpg","mimetype":"image/jpeg","is_placeholder":false}},"social":{"googleplus":{"username":"103752683956466789792","uid":"103752683956466789792","url":"https://plus.google.com/u/0/103752683956466789792/posts","site":{"title":"Google+","slug":"google-plus"}},"pinterest":{"username":"rockitrocket","uid":"rockitrocket","url":"http://www.pinterest.com/rockitrocket","site":{"title":"Pinterest","slug":"pinterest"}},"twitter":{"username":"kiteaton","uid":"kiteaton","url":"http://www.twitter.com/kiteaton","site":{"title":"Twitter","slug":"twitter"}}},"teaser":{"html":"<p>I'm covering the science/tech/generally-exciting-and-innovative beat for Fast Company. Follow me on Twitter, or Google+ and you'll hear tons of interesting stuff, I promise.\n</p><p>\nI've also got a PhD, and worked in such roles as professional scientist and theater technician...thankfully avoiding jobs like bodyguard and chicken shed-cleaner (bonus points if you get that reference!). </p><p>\n\nOh, and I definitely don't live where you think I do--it's sunnier here.</p>","plain":"I'm covering the science/tech/generally-exciting-and-innovative beat for Fast Company. Follow me on Twitter, or Google+ and you'll hear tons of interesting stuff, I promise.\n\nI've also got a PhD, and worked in such roles as professional scientist and theater technician...thankfully avoiding jobs like bodyguard and chicken shed-cleaner (bonus points if you get that reference!). \n\nOh, and I definitely don't live where you think I do--it's sunnier here."},"roles":{"staff":true},"items":[{"display_name":"Kit Eaton","name":"kit-eaton","nid":2148610,"site":"fastcompany.com","mail":"hawkit@mac.com","url":"http://www.fastcompany.com/user/kit-eaton","id":"fastcompany|node|2148610","uid":148610,"email":"hawkit@mac.com","site_id":"fastcompany","path":"/user/kit-eaton","images":{"full":{"path":"/multisite_files/fastcompany/profile/2148610-photo-me2.jpg","url":"//a.fastcompany.net/multisite_files/fastcompany/profile/2148610-photo-me2.jpg","mimetype":"image/jpeg","is_placeholder":false},"small":{"path":"/multisite_files/fastcompany/imagecache/59x59/profile/2148610-photo-me2.jpg","url":"//b.fastcompany.net/multisite_files/fastcompany/imagecache/59x59/profile/2148610-photo-me2.jpg","mimetype":"image/jpeg","is_placeholder":false,"height":59,"width":59},"thumb":{"path":"/multisite_files/fastcompany/imagecache/profile-s/profile/2148610-photo-me2.jpg","url":"//e.fastcompany.net/multisite_files/fastcompany/imagecache/profile-s/profile/2148610-photo-me2.jpg","mimetype":"image/jpeg","is_placeholder":false}},"social":{"googleplus":{"username":"103752683956466789792","uid":"103752683956466789792","url":"https://plus.google.com/u/0/103752683956466789792/posts","site":{"title":"Google+","slug":"google-plus"}},"pinterest":{"username":"rockitrocket","uid":"rockitrocket","url":"http://www.pinterest.com/rockitrocket","site":{"title":"Pinterest","slug":"pinterest"}},"twitter":{"username":"kiteaton","uid":"kiteaton","url":"http://www.twitter.com/kiteaton","site":{"title":"Twitter","slug":"twitter"}}},"teaser":{"html":"<p>I'm covering the science/tech/generally-exciting-and-innovative beat for Fast Company. Follow me on Twitter, or Google+ and you'll hear tons of interesting stuff, I promise.\n</p><p>\nI've also got a PhD, and worked in such roles as professional scientist and theater technician...thankfully avoiding jobs like bodyguard and chicken shed-cleaner (bonus points if you get that reference!). </p><p>\n\nOh, and I definitely don't live where you think I do--it's sunnier here.</p>","plain":"I'm covering the science/tech/generally-exciting-and-innovative beat for Fast Company. Follow me on Twitter, or Google+ and you'll hear tons of interesting stuff, I promise.\n\nI've also got a PhD, and worked in such roles as professional scientist and theater technician...thankfully avoiding jobs like bodyguard and chicken shed-cleaner (bonus points if you get that reference!). \n\nOh, and I definitely don't live where you think I do--it's sunnier here."},"roles":{"staff":true}}],"hideByline":false,"hideBy":false},"disqus":{"domain":"fastcompany","status":true,"identifier":"node/3018535","url":"http://www.fastcompany.com/3018535/fast-feed/valves-steam-machines-a-new-challenger-in-the-gaming-console-wars","title":"Valve&#039;s Steam Machines: A New Challenger In The Gaming Console Wars "},"series":{"id":"fastcompany|node|3003292","nid":3003292,"title":"Fast Feed","url":"http://www.fastcompany.com/section/fast-feed","path":"/section/fast-feed","image_url":"//f.fastcompany.net/multisite_files/fastcompany/poster/2009/06/3003292-teaser-fast-feedfinalsidebar.jpg","poster":{"original":{"path":"/multisite_files/fastcompany/poster/2009/06/3003292-teaser-fast-feedfinalsidebar.jpg","url":"//f.fastcompany.net/multisite_files/fastcompany/poster/2009/06/3003292-teaser-fast-feedfinalsidebar.jpg","mimetype":"image/jpeg","width":256,"height":50,"ratio":5.12,"is_placeholder":false}},"subheadline":"","body":"<p>Welcome to Fast Feed, the Fast Company reader's essential source for breaking news and innovation from around the web--bite-sized and updated all day.</p>","supertag_zone":"sp.fastfeed","promo_ad":false,"ordered":false,"mobile_override":false,"site":"fastcompany.com"},"videos":null,"attribution":null,"deck":{"html":"<p>Valve has revealed the hardware it wants to use to disrupt the games console industry. But will smartphone gaming beat it to the punch?</p>","plain":"Valve has revealed the hardware it wants to use to disrupt the games console industry. But will smartphone gaming beat it to the punch?"},"body":"<p>Valve, the game company behind a string of successful computer games like <em>Portal</em> and Half-Life, has already revealed its <a href=\"http://www.fastcompany.com/3018108/fast-feed/with-steam-os-valve-wants-to-dominate-living-room-gaming\" target=\"_self\">SteamOS gaming operating system</a> this week--an attempt to make it easier to code better computer games. Now it's also revealed its long-awaited and much-rumored gaming hardware, the Steam Machine. But as the <em><a href=\"http://www.theguardian.com/technology/2013/sep/25/valve-announces-steam-machines\" target=\"_blank\">Guardian</a></em> points out, it's not quite the radical entry to the console wars that we were expecting.</p>\n\n<p>Steam Machines are going to be pretty powerful pieces of kit. They're based on PC architectures, but shaped deliberately into a \"new category of living-room hardware,\" according to the company. The idea is to take aspects of high-end computer hardware and put them into a box that will sit underneath the user's TV, acting as a gaming and entertainment portal, running the Linux-based SteamOS. Valve isn't actually going to make its own machines--which is a blow to those expecting some sort of awesome Weighted Companion Cube format--and instead is going to license the manufacture out to other firms for a 2014 launch. The company is going to make a few hundred reference consoles, however, and release them to beta testers who can even now try to sign up to the program, which will begin this year. There's no real idea of the type of hardware that will arrive, but makers will be able to customize the devices beyond the base specification and users will be able to hack and tweak the OS.</p>\n\n<p>This is a different approach to the more locked-down and DRM-protected status of games machines like <a href=\"http://www.fastcompany.com/3006112/fast-feed/sony-reveals-its-big-play-next-gen-gaming-playstation-4\" target=\"_self\">Sony's PS4</a>, and particularly Microsoft's upcoming Xbox One, whose overly <a href=\"http://www.fastcompany.com/3015635/where-are-they-now/microsoft-backtracks-says-xbox-one-will-work-without-the-kinect\" target=\"_self\">restrictive policies</a> caused a backlash that has already hurt the console's reputation. But it is worth pointing out that the Steam Machines are, in essence, similar to the PS4 and One, which are traditional PC hardware reimagined and directed toward gaming and home entertainment.</p>\n\n<p>It's also worth pointing out that the console gaming market is facing an ever-increasing threat from mobile games on smartphones and tablets. Apple has just revealed the <a href=\"http://www.fastcompany.com/3018073/where-are-they-now/apple-seems-to-have-scored-another-iphone-hit\" target=\"_self\">iPhone 5S</a>, which is as powerful as a desktop PC from a few years ago and can run <a href=\"http://www.fastcompany.com/3017153/reverse-engineered/how-infinity-blade-iii-was-built-from-scratch-to-show-off-your-iphone-5s\" target=\"_self\">amazing games</a>. It's likely that its next iPad will be even more powerful, and the company may have plans to turn its machines into erstwhile games consoles. So is Steam's effort too little, too late?</p>\n\n<p>[<em>Image: Flickr user <a href=\"http://www.flickr.com/photos/thebigtable/8368409758/\" target=\"_blank\">Pedro Reyna</a></em>]</p>","magazine":null,"parallax":null,"spokenLayer":false,"sponsored":false,"twitter_headline":null,"google_news":{"googlenews_standout":false,"standout":false,"editors_picks":false},"tags":[{"plain":"console gaming","slug":"console-gaming"},{"plain":"FastFeed","slug":"fastfeed"},{"plain":"iphone","slug":"iphone"},{"plain":"ps4","slug":"ps4"},{"plain":"steam","slug":"steam"},{"plain":"steam machine","slug":"steam-machine"},{"plain":"steamos","slug":"steamos"},{"plain":"valve","slug":"valve"},{"plain":"xbox one","slug":"xbox-one"},{"plain":"xbox one","slug":"xbox-one"}],"topic":{"plain":"Technology","slug":"technology"},"supertag":{"plain":"Fast Feed","slug":"fast-feed"},"slug":{"title":"Fast Feed","name":"fast-feed","url":"/section/fast-feed","slug":"fast-feed"},"adzone":"sp.fastfeed","self_link":"/api/v1/posts/3018535.html?fields=blocks%2Cads%2Cposter%2Clabels%2Cteaser%2Canalytics%2Cdate%2Cmeta%2Cposter_element%2Cslug%2Ccache_lifetime%2Camazon_affiliate%2Cauthor%2Cdisqus%2Cseries%2Cslides%2Cvideos%2Cattribution%2Cdeck%2Cbody%2Cmagazine%2Cseries_order%2Cparallax%2CspokenLayer%2Csponsored%2Ctwitter_headline%2Cgoogle_news%2Crelated_works&limit=1","config":{"analytics":{"omniture":{"server":"fastcompany","tracking_pixel":"http://grunerandjahr.112.2o7.net/b/ss/gjincfastcoprod/1/H.24.4--NS/0/5658306","s_code":"/js/vendor/omniture-scode-prod.js"},"redaril":{"rid":"1966:1965","RADFP":40046,"ca_id":1965},"nielsen":{"client_id":"us-805310h"},"google_analytics":{"web_property_id":"UA-4300461-2"},"comscore":{"c1":2,"c2":6916907,"publisher_id":6916907},"chartbeat":{"uid":2768,"domain":"fastcompany.com","sections":"wanted","authors":"Chris Dannen"},"pingdom":{"id":"518c1737abe53dc44c000000"},"buzzfeed":{"domain":"fastcompany.com"}},"disqus":{"_api_key":"sSxne7WU9G3cjfQ0SYj1AKNs45625ARssbQLkoBWvOy88Lh4GEdoE4AVwEz376pg","forum":"fastcompany","developer":1},"embed":{"liverail_publisher_id":1562,"player_profile":"fastcompany_episode","colors":{"highlight":"#39a9ff"},"watermark":{"url":"/images/watermark.png","height":250,"width":250},"placeholder":{"url":"/embed/placeholder.png","height":480,"width":852}},"facebook":{"admins":100000062710915,"app_id":178479832213933,"locale":"en_US","channel_path":"/channel.html"},"identity":{"name":"fastcompany.com","slug":"fastcompany","site_name":"Fast Company","site_url":"http://www.fastcompany.com","front":"/","base_path":"/","files_dir":"multisite_files/fastcompany","slogan":"Business + Innovation","description":"Fast Company inspires a new breed of innovative and creative thought leaders who are actively inventing the future of business.","copyright":"Copyright 2013, Mansueto Ventures","logo":"/multisite_files/fastcompany/imagecache/thumbnail/sites/fastcompany.com/themes/fastcompany/logo.png","gnewslogo":"/images/gnewslogo.png","delimiter":"|","site_zone":"mansueto.fc","timezone":"America/New_York","editor":{"name":"Tyler Gray","email":"tyler@fastcompany.com"},"contact":{"name":"Fast Company","email":"faster@fastcompany.com"},"keywords":{"0":"business","1":"magazine","2":"news","3":"fastcompany","4":"innovation"}},"twitter":{"site":"FastCompany","via":"FastCompany","related":"FastCompany"}}};
+  window.bootstrap_config = {"analytics":{"omniture":{"server":"fastcompany","tracking_pixel":"http://grunerandjahr.112.2o7.net/b/ss/gjincfastcoprod/1/H.24.4--NS/0/5658306","s_code":"/js/vendor/omniture-scode-prod.js"},"redaril":{"rid":"1966:1965","RADFP":40046,"ca_id":1965},"nielsen":{"client_id":"us-805310h"},"google_analytics":{"web_property_id":"UA-4300461-2"},"comscore":{"c1":2,"c2":6916907,"publisher_id":6916907},"chartbeat":{"uid":2768,"domain":"fastcompany.com","sections":"wanted","authors":"Chris Dannen"},"pingdom":{"id":"518c1737abe53dc44c000000"},"buzzfeed":{"domain":"fastcompany.com"}},"disqus":{"forum":"fastcompany","developer":1},"embed":{"liverail_publisher_id":1562,"player_profile":"fastcompany_episode","colors":{"highlight":"#39a9ff"},"watermark":{"url":"/images/watermark.png","height":250,"width":250},"placeholder":{"url":"/embed/placeholder.png","height":480,"width":852}},"facebook":{"admins":100000062710915,"app_id":178479832213933,"locale":"en_US","channel_path":"/channel.html"},"identity":{"name":"fastcompany.com","slug":"fastcompany","site_name":"Fast Company","site_url":"http://www.fastcompany.com","front":"/","base_path":"/","files_dir":"multisite_files/fastcompany","slogan":"Business + Innovation","description":"Fast Company inspires a new breed of innovative and creative thought leaders who are actively inventing the future of business.","copyright":"Copyright 2013, Mansueto Ventures","logo":"/multisite_files/fastcompany/imagecache/thumbnail/sites/fastcompany.com/themes/fastcompany/logo.png","gnewslogo":"/images/gnewslogo.png","delimiter":"|","site_zone":"mansueto.fc","timezone":"America/New_York","editor":{"name":"Tyler Gray","email":"tyler@fastcompany.com"},"contact":{"name":"Fast Company","email":"faster@fastcompany.com"},"keywords":{"0":"business","1":"magazine","2":"news","3":"fastcompany","4":"innovation"}},"twitter":{"site":"FastCompany","via":"FastCompany","related":"FastCompany"},"env":"production"};
+</script>
+
+
+        
+
+        
+          <script data-main="/js/amd-app" src="/js/vendor/require.js"></script>
+        
+
+    </body>
+</html>

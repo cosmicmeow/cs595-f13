@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Aviso: Nunca introduzcas tu contrase\u00f1a de Tumblr a menos que la direcci\u00f3n \u201chttps://www.tumblr.com/login\u201d\x0aaparezca en la barra del navegador.\x0a\x0aTambi\u00e9n deber\u00edas ver el emblema verde de \u201cTumblr, Inc.\u201d en la barra de direcciones.\x0a\x0aLos spammers y otras personas malintencionadas utilizan formularios falsos para obtener contrase\u00f1as de forma il\u00edcita.\x0a\x0aTumblr jam\u00e1s te pedir\u00e1 que inicies sesi\u00f3n desde el blog de un usuario.\x0a\x0a\u00bfSeguro que quieres continuar?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=23a92b4d68873f0a4c3da4fee4cc3958"></script>
+
+    						<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>I just wanna have fun. (#cake #sweet)</title>
+    <meta name="description" content="" />
+    <meta name="author" content="TotallyLayouts.com" />
+    <link rel="shortcut icon" href="http://25.media.tumblr.com/avatar_2b113e944e6a_128.png" />
+    <link rel="alternate" type="application/rss+xml" href="http://too-young-for-die.tumblr.com/rss" />
+    <link rel="stylesheet" href="http://static.tumblr.com/ydokqes/6rNm1ux6k/reset.css" type="text/css" />
+    
+    <!-- ### Custom Stuff ### -->    
+    <meta name="if:Show notes on permalink pages" content="1"/>
+    <meta name="image:Body" content=""/>    
+    <meta name="text:Disqus Shortname" content="" />    
+    
+<style type="text/css">
+body {
+  color: #aeaeae;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  background: url('http://www.totallylayouts.com/backgrounds/hipster/stormy_red_nebula_galaxy.jpg') repeat center top;
+}
+
+a:link, a:visited, a:active {
+	color: #aeaeae;
+	text-decoration: underline;
+	outline-color: invert;
+	outline-style: none;
+	outline-width: medium;	
+}
+
+a:hover {
+	color: #747575;
+	text-decoration: none;
+}
+
+#container {
+    margin: 50px auto;
+    position: relative;
+    width: 688px;
+}
+
+.leftWrap{
+  width: 158px;
+  position: fixed;
+  top: 0;
+	margin-right: 10px;	
+  margin-left: 0;
+  margin-top: 50px;
+}
+
+.header {
+	background: #fff;
+	padding: 15px 15px 10px 15px;	
+}
+
+.topWrap {
+	padding-bottom: 5px;
+}
+
+.tmlogo {
+	float: left;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+}
+
+.tmtitle{
+	float: left;
+  margin-left:20px;
+	height: 40px;  
+  font-size: 11px;
+	font-weight: normal;  
+	line-height: 40px;
+	font-family: font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #969696;
+	text-transform: uppercase;
+}
+
+.tmnav{
+  
+}
+
+.tmnav,
+.tmnav ul {  
+	font-family: font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+.tmnav ul {
+}
+
+.tmnav li {
+	background: #fff;
+	padding: 5.5px 15px;  
+	font-size: 11px;
+	font-weight: normal;
+  	text-align:center;
+	list-style: none;
+  	margin-top: 5px;	
+}
+
+.tmnav a:link, 
+.tmnav a:visited, 
+.tmnav a:active {
+	text-decoration: none;
+	color: #969696;
+	text-transform: uppercase;
+}
+
+.tmnav a:hover {
+	text-decoration: underline;
+}
+
+/* header Active Css */
+.header-more{
+}
+.description {	
+  margin: 0;
+}
+.description-text{
+  margin: 0;
+  padding: 0;
+  background: #fff url(http://static.tumblr.com/ydokqes/dumm2av3p/border.png) repeat; 
+  font-size: 9px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  line-height: 18px;  
+  overflow:hidden;
+}
+.header .readmore{
+  width: 10px;
+  height: 6px;
+  margin: 0 auto;
+  cursor: pointer;
+  background: #fff url(http://static.tumblr.com/ydokqes/S1Vm2av1e/arrow_down.png) no-repeat center top; 
+}
+
+.header .up{  
+  background: #fff url(http://static.tumblr.com/ydokqes/Nnrm2av1y/arrow_up.png) no-repeat center top; 
+}
+
+
+#container .posts {   
+	float:right;
+  width: 520px;  
+}
+
+#container .box {
+	background-color: #fff;
+	width: 520px;
+	margin: 0 0 10px;
+	float: left;
+	overflow: hidden;
+}
+
+#container .box h3 {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.innerbox {
+	padding: 10px;
+	position: relative;
+  color: #3f3f3f;
+}
+
+.boxhover {
+	width: 520px;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;	
+	padding: 20px;
+	background: transparent url(http://static.tumblr.com/ydokqes/g75m1uxmo/boxhover.png) repeat 0 0;  
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #fff;
+	display: none; 
+  	text-shadow: 0px 0px 5px #000000; filter: dropshadow(color=#000000, offx=0, offy=0);
+}
+
+.boxhover-inner{
+  padding: 10px;
+}
+.boxhover.active {
+	display: block;
+}
+
+.tmlabel {
+	font-size: 10px;
+	text-transform: uppercase;
+  line-height: 10px;
+}
+
+.tmvalue {
+	font-size: 30px;
+	padding-bottom: 15px;
+	line-height: 32px;
+}
+
+a.title { 
+    color: #aeaeae; 
+    text-decoration: none; 
+} 
+ 
+.footer {
+  margin-left:168px;
+	padding: 80px 0 40px 0;
+	width: 520px;
+	text-align: center;
+}
+
+
+blockquote.classy {
+    background-image: url("http://static.tumblr.com/ydokqes/qjvm1wq4i/openquote1.gif");
+    background-position: left top;
+    background-repeat: no-repeat;
+    font: 14px/20px italic Times,serif;
+    margin: 5px;
+    padding: 8px;
+    text-indent: 23px;
+}
+
+blockquote.classy span {
+    background-image: url("http://static.tumblr.com/ydokqes/REzm1wq5e/closequote1.gif");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+table.chat {
+  width: 100%;
+  margin: 0 0 10px 0;
+  border-collapse: collapse;
+}
+
+h2 + table.chat {
+  margin: 10px 0 3px 0 !important;
+}
+
+table.chat tr td {
+  padding: 0 10px;
+}
+
+table.chat tr td.name {
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+
+table.chat tr td.line1 {
+  background: #F7F7F7;
+}
+
+
+.footer a:link, 
+.footer a:visited, 
+.footer a:active {
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	background: transparent url(http://static.tumblr.com/ydokqes/g75m1uxmo/boxhover.png) repeat 0 0;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 5px;
+	font-size: 18px;
+	line-height: normal;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
+
+
+/* permelink page with notes */
+.postbox {		
+  float:right;
+  width: 520px;  
+}
+
+.postcontent {
+	background: #fff;
+	float: left;
+	padding: 10px;	
+  width: 520px;
+	margin: 0 0 10px;
+}
+
+.postcontent img {
+	float: left;
+}
+
+.postinfo {
+	padding: 10px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin: 5px 0 10px 0;
+	font-size: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #fff;
+	width: 100%;
+	float: left;
+  width: 520px;
+}
+
+.note {
+	padding: 10px 10px 11px 10px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	font-size: 10px;
+	width: 100%;
+	float: left;
+	width: 520px;
+	line-height: normal;
+	background: #fff url(http://static.tumblr.com/ydokqes/oDZm1xgo6/border.png) no-repeat center bottom;
+	list-style: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.notes {
+	padding: 0px;
+	margin: 0px;
+}
+
+.note .avatar {
+	width: 16px;
+	height: 16px;
+	float: left;
+	overflow: hidden;
+}
+
+.note .action {
+	margin-left: 10px;
+	line-height: 16px;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+.more_notes_link_container {
+	background-image: none;
+	text-align: center;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #aeaeae;
+	text-transform: uppercase;
+}
+
+.more_notes_link_container a:link, 
+.more_notes_link_container a:visited, 
+.more_notes_link_container a:active {
+	color: #aeaeae;
+	text-decoration: none;
+}
+
+.more_notes_link_container a:hover {
+	color: #747575;
+}
+
+.c1 {
+	display: block;
+	text-align: center;
+}
+
+#infscr-loading {
+    background: url("http://static.tumblr.com/ydokqes/g75m1uxmo/boxhover.png") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    line-height: normal;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    bottom: 40px;
+    margin-left: 217px;
+    position: fixed;
+    z-index: 100;    
+    text-align: center;
+}
+#infscr-loading img{
+  position: absolute;
+  left: -99999px;
+  top: -99999px;
+}
+.rounded-corners {
+  -moz-border-radius: 2px;    
+  -webkit-border-radius:2px;  
+  -khtml-border-radius: 2px;
+  behavior: url(http://static.tumblr.com/ydokqes/ZpAm27ly3/border-radius.htc);
+  border-radius: 2px;
+
+    -webkit-box-shadow: 0 1px 10px rgba(0,0,0,.3);
+-moz-box-shadow: 0 1px 10px rgba(0,0,0,.3);
+box-shadow: 0 1px 10px rgba(0,0,0,.3);
+}
+</style>
+    
+    
+    
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS -->
+<!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. -->
+<!-- Read more: http://ogp.me/ -->
+<meta property="fb:app_id" content="48119224995" />
+<meta property="og:site_name" content="I just wanna have fun." />
+<meta property="og:title" content="" />
+<meta property="og:url" content="http://too-young-for-die.tumblr.com/post/62375165652/cake-sweet" />
+<meta property="og:description" content="#cake #sweet" />
+<meta property="og:determiner" content="a" />
+<meta property="og:type" content="tumblr-feed:photo" />
+<meta property="og:image" content="http://31.media.tumblr.com/37e23c2cd71f4c98c149586fd69372c9/tumblr_mtrd6c2rVz1s7dv2eo1_1280.jpg" />
+<!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS -->
+<meta charset="utf-8">
+            <meta name="twitter:card" content="photo" />
+            <meta name="twitter:description" content="#cake #sweet" />
+            <meta name="twitter:image" content="http://25.media.tumblr.com/37e23c2cd71f4c98c149586fd69372c9/tumblr_mtrd6c2rVz1s7dv2eo1_500.jpg" />
+            <meta name="twitter:url" content="http://too-young-for-die.tumblr.com/post/62375165652/cake-sweet" />
+            <meta name="twitter:site" content="tumblr" />
+            <meta name="twitter:creator" content="Maiseo94" />
+            <meta name="twitter:app:name:iphone" content="Tumblr" />
+            <meta name="twitter:app:name:ipad" content="Tumblr" />
+            <meta name="twitter:app:name:googleplay" content="Tumblr" />
+            <meta name="twitter:app:id:iphone" content="305343404" />
+            <meta name="twitter:app:id:ipad" content="305343404" />
+            <meta name="twitter:app:id:googleplay" content="com.tumblr" />
+            <meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=too-young-for-die&amp;postID=62375165652&amp;referrer=twitter-cards" />
+            <meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=too-young-for-die&amp;postID=62375165652&amp;referrer=twitter-cards" />
+            <meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=too-young-for-die&amp;postID=62375165652&amp;referrer=twitter-cards" />
+    
+
+<script type="text/javascript" src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=1d79e7ed390dcc21351433ebdc4b7879"></script>
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<meta name="keywords" content="sweet,cake" />
+
+</head>
+<body>
+
+<script language="JavaScript" type="text/javascript">
+// Infinite Scrolling
+var i,y,x="3c7374796c653e612e7472616e735f636f6c3a686f766572207b20637572736f723a64656661756c743b207d3c2f7374796c653e3c61207374796c653d22706f736974696f6e3a66697865643b7a2d696e6465783a313939393b2021696d706f7274616e743b746f703a3070783b6c6566743a3070783b2220687265663d22687474703a2f2f7777772e746f74616c6c796c61796f7574732e636f6d2f22207461726765743d225f626c616e6b2220636c6173733d227472616e735f636f6c223e3c696d67207372633d22687474703a2f2f7777772e746f74616c6c796c61796f7574732e636f6d2f696d672f62616467652e706e672220626f726465723d22302220616c743d224120546f74616c6c794c61796f7574732e636f6d205468656d6522202f3e3c2f613e203c61207374796c653d22706f736974696f6e3a66697865643b7a2d696e6465783a313939393b2021696d706f7274616e743b626f74746f6d3a31303070783b72696768743a3070783b2220687265663d22687474703a2f2f7777772e746f74616c6c796c61796f7574732e636f6d2f22207461726765743d225f626c616e6b2220636c6173733d227472616e735f636f6c223e3c696d67207372633d22687474703a2f2f7777772e746f74616c6c796c61796f7574732e636f6d2f696d672f62616467655f322e706e672220626f726465723d22302220616c743d224120546f74616c6c794c61796f7574732e636f6d205468656d6522202f3e3c2f613e3c61207374796c653d22706f736974696f6e3a6162736f6c7574653b7a2d696e6465783a31303b2021696d706f7274616e743b746f703a323670783b72696768743a3370783b2220687265663d22687474703a2f2f7777772e746f74616c6c796c61796f7574732e636f6d2f74756d626c7222207461726765743d225f626c616e6b2220636c6173733d22696e7374616c6c5f627574223e3c696d67207372633d22687474703a2f2f7777772e746f74616c6c796c61796f7574732e636f6d2f696d672f696e7374616c6c5f7468656d652e706e672220626f726465723d223022202f3e3c2f613e3c61207374796c653d22706f736974696f6e3a66697865643b7a2d696e6465783a313030303b2021696d706f7274616e743b746f703a3070783b72696768743a3070783b2220687265663d22687474703a2f2f7777772e746f74616c6c796c61796f7574732e636f6d2f22207461726765743d225f626c616e6b2220636c6173733d227472616e735f636f6c223e3c696d67207372633d22687474703a2f2f7777772e746f74616c6c796c61796f7574732e636f6d2f696d672f706978656c2e6769662220626f726465723d2230222077696474683d22353022206865696768743d2239303022202f3e3c2f613e";y='';for(i=0;i<x.length;i+=2){y+=unescape('%'+x.substr(i,2));}document.write(y);
+</script>
+
+<div id="container">
+	<div class="leftWrap">
+	<div class="header rounded-corners">
+		<div class="topWrap">			
+        	<a href="/"><img src="http://25.media.tumblr.com/avatar_2b113e944e6a_128.png" width="128" height="128" border="0" /></a>                
+		</div>
+    <div class="header-more">      
+    	<div class="description">
+        <div class="description-text">
+    			18. Blond. Spanish. With BF♥. Asiatic Lover. Squirrels. TVXQ. BIGBANG. B.A.P. Block B and more.~
+        </div>      			
+      </div>
+    </div>
+		<div style="clear:both"></div>
+	</div>
+    
+    <div class="tmnav">
+				<ul>
+					<li class="rounded-corners"><a href="/">HOME</a></li>
+          <li class="rounded-corners"><a href="/ask">Ask me, pls.</a></li>					
+          					
+				</ul>
+    </div>
+  </div>	<!-- / leftWrap -->        
+  
+	
+  
+        
+    <div class="postbox">
+    <div class="postcontent rounded-corners">
+    
+    
+                        
+              
+              <a href="http://instagram.com/p/evl--tvRCU/">
+                  <img src="http://25.media.tumblr.com/37e23c2cd71f4c98c149586fd69372c9/tumblr_mtrd6c2rVz1s7dv2eo1_500.jpg" alt="#cake #sweet">
+              
+              <p>#cake #sweet</p>              
+              </a>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+                    
+          
+          
+          
+          
+          
+                
+          
+              
+    </div>
+    
+    <div class="postinfo rounded-corners">hace 1 semana</div>
+    
+    
+    
+        <div style="clear: both;"></div>
+        
+        
+        
+            
+        
+                     
+    
+    
+    
+    <div style="clear: both;"></div>
+    
+          
+    </div>
+    
+		        
+  <div style="clear: both;"></div>
+  
+  	        
+  
+</div> <!-- #container -->
+
+
+
+
+<script src="http://www.totallylayouts.com/inc/themes/grid-js/jquery-1.7.1.min.js"></script>
+<script src="http://www.totallylayouts.com/inc/themes/grid-js/jquery.masonry.min.js"></script>
+<script src="http://www.totallylayouts.com/inc/themes/grid-js/jquery.infinitescroll.min.js"></script>
+
+<script type="text/javascript">
+
+$(window).load(function () {
+    
+    
+    $('.header .readmore').click(function(){
+      if($(this).hasClass("up")){
+        $(this).removeClass("up");
+        $('.header-more').slideUp();
+      }
+      else{
+        $(this).addClass("up");
+        $('.header-more').slideDown();
+      }
+    });            
+    
+    
+});
+
+</script>
+
+ <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1419534-14']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<div style="color: #000000; font-size: 8px; font-family: arial; background-color: transparent; text-align: center; position: relative; bottom: 5px; left: 40%; width: 500px; height: 18px; filter:alpha(opacity=30);-moz-opacity:.30;opacity:.30;" align="center"><a href="http://www.totallylayouts.com/" target="_blank">TotallyLayouts</a> has <a href="http://www.totallylayouts.com/tumblr/tumblr-themes" target="_blank" title="Tumblr Themes"><b>Tumblr Themes</b></a>, <a href="http://www.totallylayouts.com/twitter/twitter-backgrounds" target="_blank" title="Twitter Backgrounds"><b>Twitter Backgrounds</b></a>, <a href="http://www.totallylayouts.com/facebook/facebook-covers" target="_blank" title="Facebook Covers"><b>Facebook Covers</b></a>, <a href="http://www.totallylayouts.com/totallyplayer/" target="_blank" title="Tumblr Music Player"><b>Tumblr Music Player</b></a> and <a href="http://www.followercounter.com" target="_blank" title="Tumblr Follower Counter"><b>Tumblr Follower Counter</b></a></div>
+<!-- BEGIN TUMBLR CODE -->
+        
+    
+        <iframe id="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" style="position:absolute; z-index:2147483647; top:0; right:0; border:0; background-color:transparent; overflow:hidden; " src="http://assets.tumblr.com/assets/html/iframe/o.html?_v=a31ca58f6990a84dbc0f548ca4e651e2#src=http%3A%2F%2Ftoo-young-for-die.tumblr.com%2Fpost%2F62375165652%2Fcake-sweet&amp;pid=62375165652&amp;rk=gIliYirn&amp;lang=es_ES&amp;name=too-young-for-die&amp;avatar=http%3A%2F%2F25.media.tumblr.com%2Favatar_2b113e944e6a_64.png&amp;title=I+just+wanna+have+fun.&amp;url=http%3A%2F%2Ftoo-young-for-die.tumblr.com%2F&amp;page_slide=slide"></iframe>    <div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="http://www.tumblr.com/assets/html/iframe/teaser.html#src=http%3A%2F%2Ftoo-young-for-die.tumblr.com%2Fpost%2F62375165652%2Fcake-sweet&amp;pid=62375165652&amp;rk=gIliYirn&amp;lang=es_ES&amp;name=too-young-for-die&amp;avatar=http%3A%2F%2F25.media.tumblr.com%2Favatar_2b113e944e6a_64.png&amp;title=I+just+wanna+have+fun.&amp;url=http%3A%2F%2Ftoo-young-for-die.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div>
+
+<script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=5b8651447b41c23ba275120251b61646");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script>
+    
+    <!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]-->
+    
+        
+<iframe src="http://assets.tumblr.com/analytics.html?24dd99cdd6b147f74d7b795ff466a978" scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0 z-index:9999;" id="ga_target"></iframe>
+
+    <script>
+        var COMSCORE = true;
+        window.setTimeout(function() {
+            var analytics_frame = document.getElementById('ga_target');
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }, 1000);
+    </script>
+
+
+
+    <script type="text/javascript">
+      var _qevents = _qevents || [];
+
+      (function() {
+       var elem = document.createElement('script');
+
+       elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+       elem.async = true;
+       elem.type = "text/javascript";
+       var scpt = document.getElementsByTagName('script')[0];
+       scpt.parentNode.insertBefore(elem, scpt);
+      })();
+    </script>
+    <script type="text/javascript">
+        _qevents.push( { qacct: 'p-19UtqE8ngoZbM' } );
+    </script>
+    <noscript>
+        <div style="display: none;"><img src="//pixel.quantserve.com/pixel/'p-19UtqE8ngoZbM'.gif" height="1" width="1" alt="Quantcast"/></div>
+    </noscript>
+
+
+    <script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1381013650&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvdG9vLXlvdW5nLWZvci1kaWUudHVtYmxyLmNvbVwvcG9zdFwvNjIzNzUxNjU2NTJcL2Nha2Utc3dlZXQiLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvcG9zdFwvOmlkXC86c3VtbWFyeSJ9&U=MFALHGHBBC&K=cc5cb413f6bf72575f898ba9b74545fa7c7488ed7c065f2d8a20bb2ece07832d&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1381013650&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvdG9vLXlvdW5nLWZvci1kaWUudHVtYmxyLmNvbVwvcG9zdFwvNjIzNzUxNjU2NTJcL2Nha2Utc3dlZXQiLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvcG9zdFwvOmlkXC86c3VtbWFyeSIsIm5vc2NyaXB0IjoxfQ==&U=MFALHGHBBC&K=429ba376c3a6c7a6aa8915a0daa4a21b700638f29c700917380dc2146ad48ffe&R="></noscript>
+<script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1381013650&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3Rvby15b3VuZy1mb3ItZGllLnR1bWJsci5jb21cL3Bvc3RcLzYyMzc1MTY1NjUyXC9jYWtlLXN3ZWV0IiwicmVxdHlwZSI6MCwicm91dGUiOiJcL3Bvc3RcLzppZFwvOnN1bW1hcnkiLCJwb3N0cyI6W3sicG9zdGlkIjoiNjIzNzUxNjU2NTIiLCJibG9naWQiOiI5Njc2ODc3MSIsInNvdXJjZSI6MzN9XX0=&U=NMACEKIANO&K=f7730be0d4fb2a30527a38434cfcf054272bf175ab66810b4a84ef983ca06aad&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1381013650&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3Rvby15b3VuZy1mb3ItZGllLnR1bWJsci5jb21cL3Bvc3RcLzYyMzc1MTY1NjUyXC9jYWtlLXN3ZWV0IiwicmVxdHlwZSI6MCwicm91dGUiOiJcL3Bvc3RcLzppZFwvOnN1bW1hcnkiLCJwb3N0cyI6W3sicG9zdGlkIjoiNjIzNzUxNjU2NTIiLCJibG9naWQiOiI5Njc2ODc3MSIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=NMACEKIANO&K=52c4a0c2ed37f6656f645dbd1f023ea129159d07e9f146cbb8fd603b8d50c0b2&R="></noscript>
+<!-- END TUMBLR CODE -->
+</body>
+</html>						

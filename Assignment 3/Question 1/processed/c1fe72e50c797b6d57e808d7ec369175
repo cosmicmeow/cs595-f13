@@ -1,0 +1,651 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>NVIDIA speaks on SteamOS, open-platform gaming, and validating SHIELD | Snip Blog</title>
+    <meta name="author" content="Chris Burns">
+    <meta name="description" content="This week gaming company Valve made public a new operating system based on their game collection and environment: SteamOS. As Steam continues to be a central">
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@snipnews">
+
+<meta name="twitter:url" content="http://www.snipblog.com/a/2013-09-26/slashgear/nvidia-speaks-on-steamos-open-platform-gaming-and-validating-shield">
+<meta name="twitter:title" content="NVIDIA speaks on SteamOS, open-platform gaming, and validating SHIELD">
+<meta name="twitter:description" content="This week gaming company Valve made public a new operating system based on their game collection and environment: SteamOS. As Steam continues to be a central">
+<meta name="twitter:image" content="http://cdn.slashgear.com/wp-content/uploads/2013/09/machinesondesk-580x3451.png">
+
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!--  For SEO   -->
+    <link rel="canonical" href="http://www.snipblog.com/a/2013-09-26/slashgear/nvidia-speaks-on-steamos-open-platform-gaming-and-validating-shield" />
+
+    <!-- Le styles -->
+        <link rel="stylesheet" type="text/css" href="http://ww2.filestoa.com/css/theme/blackonbrown/bootstrap.min-2.3.1.css">
+    <link rel="stylesheet" type="text/css" href="http://ww2.filestoa.com/css/jquery-ui-1.9.2/smoothness/jquery-ui-1.9.2.custom.css"/>
+    <style type="text/css">
+      body { padding-top: 60px; padding-bottom: 30px; }
+    </style>
+    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/blogstoa.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/blogstoa-screen.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="/css/blogstoa-mobile.css" media="only screen and (max-device-width: 480px)"/>
+<!-- 
+    <link rel="stylesheet" type="text/css" href="/css/blogstoa-snipblog.css"/>
+-->
+
+    
+<style type="text/css">
+.blog_icon {
+    vertical-align: bottom;
+    padding: 10px 10px 0px 0px;
+}
+</style> 
+    <!-- end CSS-->
+
+    <!-- Le fav and touch icons -->
+	<link rel="shortcut icon" href="/img/favicon-snipblog.ico" />
+	<link rel="icon" href="/img/favicon-snipblog.ico" type="image/x-icon" />
+
+    <!-- All JavaScript at the bottom, except for Modernizr / Respond.
+       Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+       For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+    <script src="http://ww2.filestoa.com/js/modernizr/modernizr-2.0.6.min.js"></script>
+
+    <!--  Twitter @anywhere API  -->
+    <script src="http://platform.twitter.com/anywhere.js?id=Z9OARsxnnu5SkGbYuBHQ&v=1" type="text/javascript"></script>
+
+  </head>
+
+  <body>
+
+
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="i-bar"></span>
+            <span class="i-bar"></span>
+            <span class="i-bar"></span>
+          </a>
+
+          <a class="brand" href="/home" title="Snip Blog Beta - Get Your Daily Tech News Fix">Snip Blog <sup>&beta;</sup></a>
+
+          <div class="nav-collapse">
+            <ul class="nav">
+
+              <li ><a id="topmenu_nav_summaries" href="/summaries" title="Blog article summaries"><i class="icon-folder-close icon-white"></i></a></li>
+              <li ><a id="topmenu_nav_article_news_images" href="/article/news/images" title="Top news story photos and images"><i class="icon-picture icon-white"></i></a></li>
+              <li ><a id="topmenu_nav_article_tech_images" href="/article/tech/images" title="Tech news photos and images"><i class="icon-th-large icon-white"></i></a></li>
+              <li ><a id="topmenu_nav_blogstream_news" href="/stream/news" title="News article stream"><i class="icon-random icon-white"></i></a></li>
+              <li ><a id="topmenu_nav_blogstream_tech" href="/stream/tech" title="Tech blog stream"><i class="icon-download-alt icon-white"></i></a></li>
+<!-- 
+              <li ><a id="topmenu_nav_summaries" href="/summaries" title="Blog article summaries"><img src="http://ww2.filestoa.com/img/glyphicons/glyphicons_288_scissors.png"></img></a></li>
+              <li ><a id="topmenu_nav_article_news_images" href="/article/news/images" title="Top news story photos and images"><img src="http://ww2.filestoa.com/img/glyphicons/glyphicons_159_picture.png"></img></a></li>
+              <li ><a id="topmenu_nav_article_tech_images" href="/article/tech/images" title="Tech news photos and images"><img src="http://ww2.filestoa.com/img/glyphicons/glyphicons_159_picture.png"></img></a></li>
+              <li ><a id="topmenu_nav_blogstream_news" href="/stream/news" title="News article stream"><img src="http://ww2.filestoa.com/img/glyphicons/glyphicons_261_buoy.png"></img></a></li>
+              <li ><a id="topmenu_nav_blogstream_tech" href="/stream/tech" title="Tech blog stream"><img src="http://ww2.filestoa.com/img/glyphicons/glyphicons_261_buoy.png"></img></a></li>
+-->
+
+
+            </ul>
+
+
+
+
+            <p class="navbar-text pull-right">
+<!-- 
+              <a id="anchor_topmenu_tweet" href="#" title="Share it on Twitter"><i class="icon-retweet icon-white"></i></a>&nbsp;
+              <a id="anchor_topmenu_share" href="#" title="Email it to your friend"><i class="icon-share icon-white"></i></a>&nbsp;
+-->
+              <a id="anchor_topmenu_email" href="contact:info+blogstoa+com?subject=Re: Snip Blog" title="Email us"><i class="icon-envelope icon-white"></i></a>&nbsp;
+
+
+            </p>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+
+      <form class="form-inline" id="form_blogarticle_signup" method="POST" action="" accept-charset="UTF-8">
+
+      <div id="blogarticle_view_header">
+<div style="margin:0px 16px -5px 0px; font-size: 0.95em;">&nbsp;
+
+<span>
+
+<a id="blogarticle_autoplay_next" href="#" title="Read the next article summary" accesskey="n"><i class="icon-step-backward"></i></a>
+
+
+
+<!-- 
+<a id="blogarticle_autoplay_play" style="background: silver;" href="#" title=""><i class="icon-play icon-white"></i></a>
+-->
+
+
+
+<a id="blogarticle_autoplay_prev" href="#" title="Read the previous article summary" accesskey="p"><i class="icon-step-forward"></i></a>
+
+</span>
+
+
+
+
+<!-- 
+<span class="fb-like pull-right" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="arial"></span>
+-->
+
+<span class="pull-right">
+<span class="g-plusone" data-size="medium" data-annotation="none"></span>
+</span>
+
+<span class="pull-right blogarticle_view_information_shortlink">
+<a href="https://twitter.com/share" class="twitter-share-button" accesskey="t" 
+    data-url="http://m.qn.gs/q19u" 
+
+    data-counturl="http://www.snipblog.com/a/2013-09-26/slashgear/nvidia-speaks-on-steamos-open-platform-gaming-and-validating-shield" 
+
+    data-text="NVIDIA speaks on SteamOS, open-platform gaming, and validating SHIELD"
+    data-via="snipnews" 
+    data-count="none"
+    data-lang="en">Tweet</a>
+</span>
+
+<span class="pull-right">
+<script type="IN/Share"></script>
+</span>
+
+<!-- 
+<span class="pull-right">
+<a id="summary_view_shorturl_tweet" href="#" title="Share this story on Twitter" accesskey="t"><i class="icon-share-alt"></i></a>
+</span>
+-->
+
+<!-- 
+<span class="pull-right">
+<a href="http://m.qn.gs/q19u" title="Article Short URL">http://m.qn.gs/q19u</a>
+</span>
+-->
+
+</div>
+      </div>
+
+      <div id="blogarticle_body" class="blogarticle_view_body">
+      <fieldset name="fieldset_blogarticle_body">
+        <div id="blogarticle_body_top" class="blogarticle_view_body_top" style="text-align:bottom;">
+          <div id="blogarticle_title" class="blogarticle_view_title" style="text-align:bottom;">
+          <div id="blogarticle_title_title" style="text-align:bottom;">
+            <h1>
+            &nbsp;<img class="blog_icon" src="/img/blogs/slashgear-64.png" width="64" height="64" alt="SlashGear" title="SlashGear"/>
+            <span id="blogarticle_title_text" style="font-size: 0.65em;" title="This week gaming company Valve made public a new operating system based on their game collection...">NVIDIA speaks on SteamOS, open-platform gaming, and validating SHIELD</span>
+            </h1>
+          </div>
+          </div>
+        </div>
+
+
+        <div id="blogarticle_body_main" class="blogarticle_body_main_content">
+        
+
+          <div id="blogarticle_view_body_writerpenname" style="margin: 5px 0px 8px 32px; font-size: 0.95em;">
+          <span id="blogarticle_body_writerpenname_text">Article by
+          Chris Burns
+          </span>
+<a id="blogarticle_view_articles_authorname" href="/article/list/author/Chris+Burns" title="View all articles by this author" accesskey="w"><i class="icon-cog"></i></a>
+          </div>
+
+
+
+<div id="blogarticle_view_information" style="padding-left:12px;">
+<table class="table table-condensed" id="blogarticle_view_information_table">
+
+
+<tr><td class="label_column" style="width: 100px;"><span class="blogarticle_view_information_item_label">
+Original&nbsp;Article:
+</span></td><td><span class="blogarticle_view_information_item_content">
+
+<a href="http://www.slashgear.com/nvidia-speaks-on-steamos-open-platform-gaming-and-validating-shield-26299327/" title="NVIDIA speaks on SteamOS, open-platform gaming, and validating SHIELD" target="_new" rel="nofollow">SlashGear</a>
+
+</span>
+<a id="blogarticle_view_articles_blogsite" href="/article/banners/site/slashgear" title="View all article headlines from this blog" accesskey="h"><i class="icon-cog"></i></a>
+</td></tr>
+
+
+
+
+
+
+<tr><td class="label_column" style="width: 100px;"><span class="blogarticle_view_information_articledate">
+Published&nbsp;Date:
+</span></td><td><span class="blogarticle_view_information_articledate">
+2013-09-26
+</span>
+<a id="blogarticle_view_articles_articledate" href="/article/list/date/2013-09-26" title="View all articles posted on this date" accesskey="s"><i class="icon-cog"></i></a>
+
+
+</td></tr>
+
+
+</table>
+</div>
+
+
+          <div id="blogarticle_content">
+          <div id="blogarticle_view_content_longsummary">
+
+          <div>
+          This week gaming company Valve made public a new operating system based on their game collection and environment: SteamOS. As Steam continues to be a central part of the gaming community here in 2013, dominating the world of digital distribution of games the world over, SlashGear took the opportunity to speak with one of the […]<img src="http://feeds.feedburner.com/~r/slashgear/~4/qHAw6CjEqAM" height="1" width="1"/>
+          </div>
+
+
+
+          <p class="pull-right" style="margin:-4px 16px 0px 0px"><a id="anchor_bodymenu_creatememo" class="btn btn-mini" href="http://www.slashgear.com/nvidia-speaks-on-steamos-open-platform-gaming-and-validating-shield-26299327/" target="_new" title="Read the full article." accesskey="r">Read Article &raquo;</a></p>
+
+
+          </div>
+          </div>
+
+        </div>
+        <!--  
+        <div id="blogarticle_body_bottom">
+          <span id="blogarticle_info_label">Info</span>                    
+          <span id="blogarticle_info_text">Max length... </span>                  
+        </div>
+        -->
+      </fieldset>
+      </div>
+
+      <div id="blogarticle_footer">
+      <fieldset name="fieldset_blogarticle_footer">
+        <div id="blogarticle_created_time">
+          <span id="blogarticle_created_time_label">Created:&nbsp;</span>                    
+          <span id="blogarticle_created_time_text">09/26/2013 23:59:39 UTC</span>
+
+
+
+<span class="pull-right blogarticle_view_information_shortlink">
+<a href="http://m.qn.gs/q19u" title="Article Short URL">http://m.qn.gs/q19u</a>
+</span>
+
+
+        </div>
+      </fieldset>
+      </div>
+
+      </form>
+      </div>  <!--   Hero unit  -->
+
+      <hr>
+
+      <footer>
+        <p>
+        &copy; Snip Blog 2012&nbsp; 
+        <a id="anchor_feedback_footer" href="#" title="Feedback"><i class="icon-comment"></i></a>
+        <span class="pull-right">
+<!--
+            <a href="/about" title="About Snip Blog">About</a> |
+-->
+           <a href="/contact" title="Contact information">Contact</a> 
+
+
+
+
+
+            | <a href="http://www.feedstoa.com/feed/snipblog/digest/rss2" title="RSS Feed">RSS <img src="/img/rss16.png" style="vertical-align: baseline;"></img></a>
+
+
+        </span>
+        </p>
+      </footer>
+
+
+    </div> <!--! end of #container -->
+
+
+    <div id="fb-root"></div>
+
+    <div id="div_status_floater" style="display: none;" class="alert">
+    </div>
+    
+    
+    <!--  Tweet Button  -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+	<!--  Facebook Like  -->
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	
+	<!--  LinkedIn Share  -->
+	<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+	
+	<!-- Google+ - Place this tag after the last +1 button tag. ???  -->
+	<script type="text/javascript">
+	  (function() {
+	    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+	    po.src = 'https://apis.google.com/js/plusone.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+	  })();
+	</script>
+    
+    
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="http://ww2.filestoa.com/js/jquery/jquery-1.8.3.min.js"><\/script>')</script>
+	<script src="http://ww2.filestoa.com/js/jquery/jquery-ui-1.9.2.custom.min.js"></script>
+    <script src="http://ww2.filestoa.com/js/jquery/plugin/jquery.floatobject-1.4.js"></script>
+    <script src="http://ww2.filestoa.com/js/jquery/plugin/jquery-ui-timepicker-addon.js"></script>
+    <script src="http://ww2.filestoa.com/js/jquery/plugin/history.js/uncompressed/history.adapter.jquery.js"></script>
+    <script src="http://ww2.filestoa.com/js/jquery/plugin/history.js/uncompressed/history.js"></script>
+    <script src="http://ww2.filestoa.com/js/jquery/plugin/history.js/uncompressed/history.html4.js"></script>
+    <script src="http://ww2.filestoa.com/js/bootstrap/bootstrap-2.3.1.js"></script>
+    <script type="text/javascript" src="/js/core/debugutil.js"></script>
+    <script type="text/javascript" src="http://ww2.filestoa.com/js/core/datetimeutil-1.0.js"></script>
+    <script type="text/javascript" src="http://ww2.filestoa.com/js/core/emailutil-1.0.js"></script>
+    <script type="text/javascript" src="/js/bean/blogservicejsbean-1.0.js"></script>
+    <script type="text/javascript" src="/js/bean/userblogjsbean-1.0.js"></script>
+    <script type="text/javascript" src="/js/bean/blogpostjsbean-1.0.js"></script>
+    <script type="text/javascript" src="/js/bean/blogarticlejsbean-1.0.js"></script>
+	<script defer type="text/javascript" src="/js/plugins.js"></script>
+    <script defer type="text/javascript" src="/js/script.js"></script>
+    <script defer type="text/javascript" src="http://ww2.filestoa.com/js/util/fiveten-1.0.js"></script>
+    <script defer type="text/javascript" src="http://ww2.filestoa.com/js/util/statushelper-1.1.js"></script>
+    <script defer type="text/javascript" src="http://ww2.filestoa.com/js/util/tweethelper-1.0.js"></script>
+    <script defer type="text/javascript" src="http://ww2.filestoa.com/js/util/signuphelper-1.0.js"></script>
+    <script defer type="text/javascript" src="http://ww2.filestoa.com/js/util/feedbackhelper-1.0.js"></script>
+    <script defer type="text/javascript" src="http://ww2.filestoa.com/js/util/emailhelper-1.0.js"></script>
+    <!-- end scripts-->
+
+
+
+    <script>
+        // Global vars
+    	var statusHelper;
+    	var tweetHelper;
+    	var signupHelper;
+    	var feedbackHelper;
+    	var emailHelper;
+    </script>
+    <script>
+    $(function() {
+    	// Init...
+    	statusHelper = new webstoa.StatusHelper(400, 65);
+    	// test.
+    	//statusHelper.update('test status message');
+
+    	var servicename = "Snip Blog";
+    	var summaryname = "Initial pre-launch trial";
+    	var pageid = "contact";
+    	signupHelper = new webstoa.SignupHelper(servicename, summaryname, pageid);
+
+    	var targetService = "Snip Blog";
+    	var targetPage = "summaryview";
+    	feedbackHelper = new webstoa.FeedbackHelper(targetService, targetPage);
+
+    	var senderEmail = webstoa.EmailUtil.decodeEmailAddress('gaeemail+gmail' + '+com');
+    	var defaultSenderName = "Snip Blog";
+    	var subject = "Interesting site: Snip Blog";
+    	var defaultMessage = "Hi,\n\nSnip Blog, http://www.snipblog.com/, is a blogging helper service. Please check it out.\n\n-me\n";
+    	emailHelper = new webstoa.EmailHelper(senderEmail, subject, defaultMessage, defaultSenderName);
+    });
+    </script>
+
+    <script>
+    // Email address "decoding"...
+    $(function() {
+        $("a").each(function() {
+        	var anchor = $(this);
+        	webstoa.EmailUtil.decodeMailtoAnchor(anchor);
+        });
+    });
+    </script>
+
+    <script>
+    $(function() {
+        $("#anchor_mainmenu_signup").click(function() {
+            if(DEBUG_ENABLED) console.log("Signup button clicked."); 
+
+       	    signupHelper.signup();
+       	    //statusHelper.update('Thanks for signing up.');
+		    return false;
+        });
+    });
+    </script>
+
+    <script>
+    $(function() {
+        $("#anchor_topmenu_share").click(function() {
+            if(DEBUG_ENABLED) console.log("Share button clicked."); 
+       	    emailHelper.email();
+		    return false;
+        });
+    });
+    </script>
+
+    <script>
+    $(function() {
+        $("#anchor_feedback_footer").click(function() {
+            if(DEBUG_ENABLED) console.log("Feedback button clicked."); 
+
+            var targetItem = 'footer';
+            feedbackHelper.feedback(targetItem);
+		    return false;
+        });
+    });
+    </script>
+
+    <script>
+    $(function() {
+        $("#anchor_topmenu_tweet").click(function() {
+            if(DEBUG_ENABLED) console.log("Tweet button clicked."); 
+
+            var tweetButtonUrl = "https://twitter.com/share";
+
+            var tweetMessage = "Get your daily tech news fix at Snip Blog.";
+
+            var enclodedTweetMessage = encodeURIComponent(tweetMessage);
+            tweetButtonUrl = tweetButtonUrl + "?" + "lang=en&" + "text=" + enclodedTweetMessage;
+            tweetButtonUrl += "&related=snipnews";
+            window.open(tweetButtonUrl, "customTweetButtonPopup", 'height=450,width=550,toolbar=no,scrollbars=no');
+            return false;
+
+        });
+    });
+    </script>
+
+
+
+    <script>
+    $("#topmenu_nav_view").click(function(e) {
+        if(DEBUG_ENABLED) console.log("topmenu_nav_view anchor clicked."); 
+   		e.preventDefault();
+        $("#topmenu_nav_view").fadeOut(450).fadeIn(950);
+        return false;
+    });
+    </script>
+
+
+    <script>
+    // Function definitions.
+    function updateStatus(msg, type, time) {
+    	if(!time) {
+    		time = 5000;   // milliseconds.
+    	}
+    	if(!type) {
+    		// type = "info";  // warning, error, etc....
+    	}
+    	//$("#div_status_floater").text(msg);
+    	//$("#div_status_floater").fadeIn().delay(time).fadeOut();
+		$("#div_status_floater").textInOut(msg, type, time);
+    }    
+    </script>
+
+    <script>
+    // temporary
+    function replaceURLWithHTMLLinks(text) {
+        if(text) {
+            var exp = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
+            //var exp = /\(?\bhttp:\/\/[-A-Za-z0-9+&@#\/%?=~_()|!:,.;]*[-A-Za-z0-9+&@#/%=~_()|]/ig;
+            return text.replace(exp,"<a href='$1'>$1</a>");
+        }
+        return '';    // ???
+    }
+    </script>
+
+
+    <script>
+$(function() {
+// Initialize all datetime strings.
+var createdTimeStr = getStringFromTime(1380239979411);  
+$("#blogarticle_created_time_text").text(createdTimeStr);
+
+});    
+    </script>
+
+
+    <script>
+    // "Init"
+    $(function() {
+    	// TBD: initially hide $("#div_status_floater") ...
+    	$("#div_status_floater").text("").hide();
+    
+        // Background image test.
+        //$("#container").css("background-image", 'url(/img/bg/oceansunset.jpg)');
+        //$(document.body).css("background", "silver");
+    	//$("#container").css("background", "ivory");
+
+        // TBD: Location...
+    	var params = {x: 530, y: 15, speed: 'normal' };
+    	$("#div_status_floater").makeFloat(params);
+    	
+    	// temporary
+    	// linkify the content
+    	//var contentOriginal = $("#blogarticle_content").html();
+    	//var contentLinkified = replaceURLWithHTMLLinks(contentOriginal);
+    	//$("#blogarticle_content").html(contentLinkified);
+    	// temporary
+    	
+    	// Peeng?
+    	//var fiveTenTimer = new fiveten.FiveTenTimer(21889, 12);  // ???
+    	//fiveTenTimer.start();
+    });
+    </script>
+
+    <script>
+    // App-related vars.
+    var userGuid;
+    var articleJsBean;
+
+
+	var articleJsObjectStr = '{\"guid\":\"1ab1ff23-9035-421c-9bd2-c8cc2c66640e\",\"title\":\"NVIDIA speaks on SteamOS, open-platform gaming, and validating SHIELD\",\"titleLength\":69,\"image\":{\"uuid\":\"b1810f23-9e2b-403b-89f1-e7b40a95b050\",\"url\":\"http:\/\/cdn.slashgear.com\/wp-content\/uploads\/2013\/09\/machinesondesk-580x3451.png\"},\"createdTime\":1380239979411,\"articleUrl\":\"http:\/\/feeds.slashgear.com\/~r\/slashgear\/~3\/qHAw6CjEqAM\/\",\"permalink\":\"http:\/\/www.snipblog.com\/a\/2013-09-26\/slashgear\/nvidia-speaks-on-steamos-open-platform-gaming-and-validating-shield\",\"shortlink\":\"http:\/\/m.qn.gs\/q19u\",\"articleFetch\":\"d0e74056-ef31-4300-9eb4-dfecf2e778b5\",\"fetchRequest\":\"fe034b56-5f4e-420f-977b-02dd152ecb9a\",\"channelFeed\":\"30e37dc3-a71e-4b90-911e-7d56f87ce0b1\",\"feedItem\":\"ef4739fc-29f2-4e67-88ca-2009082d666f\",\"articleFeedId\":\"http:\/\/www.slashgear.com\/?p=299327\",\"articleSource\":\"slashgear\",\"articleAuthorName\":\"Chris Burns\",\"articlePageUrl\":\"http:\/\/www.slashgear.com\/nvidia-speaks-on-steamos-open-platform-gaming-and-validating-shield-26299327\/\",\"articleImageUrl\":\"http:\/\/cdn.slashgear.com\/wp-content\/uploads\/2013\/09\/machinesondesk-580x3451.png\",\"articleImageUrlNotNull\":true,\"feedCategory\":\"tech\",\"sourceCategory\":\"media\",\"summary\":\"This week gaming company Valve made public a new operating system based on their game collection and environment: SteamOS. As Steam continues to be a central\",\"content\":\"This week gaming company Valve made public a new operating system based on their game collection and environment: SteamOS. As Steam continues to be a central part of the gaming community here in 2013, dominating the world of digital distribution of games the world over, SlashGear took the opportunity to speak with one of the [\u2026]<img src=\\\"http:\/\/feeds.feedburner.com\/~r\/slashgear\/~4\/qHAw6CjEqAM\\\" height=\\\"1\\\" width=\\\"1\\\"\/>\",\"textTitle\":\"NVIDIA speaks on SteamOS, open-platform gaming, and validating SHIELD\",\"textSummary\":\"This week gaming company Valve made public a new operating system based on their game collection and environment: SteamOS. As Steam continues to be a central\",\"textContent\":\"This week gaming company Valve made public a new operating system based on their game collection and environment: SteamOS. As Steam continues to be a central part of the gaming community here in 2013, dominating the world of digital distribution of games the world over, SlashGear took the opportunity to speak with one of the [\u2026]\",\"textTitleLength\":69,\"textSummaryLength\":157,\"textContentLength\":330,\"articlePubDate\":\"Thu, 26 Sep 2013 11:15:15 UTC\",\"articleDate\":\"2013-09-26\",\"attributes\":[]}';
+	if(DEBUG_ENABLED) console.log("articleJsObjectStr = " + articleJsObjectStr);
+	articleJsBean = blogstoa.wa.bean.BlogArticleJsBean.fromJSON(articleJsObjectStr);
+
+    // temporary
+    if(DEBUG_ENABLED) console.log("articleJsBean = " + articleJsBean.toString());
+    </script>
+
+
+    <script>
+/*
+    $(function() {
+        $("#article_view_shorturl_tweet").click(function() {
+            if(DEBUG_ENABLED) console.log("article_view_shorturl_tweet button clicked."); 
+
+            if(!tweetHelper) {
+                tweetHelper = new webstoa.TweetHelper();
+            }
+        	if(tweetHelper) {
+	            var tweetTitle = 'Snip Blog';
+                var tweetMessage = "NVIDIA speaks on SteamOS, open-platform gaming, and validating SHIELD";
+	            tweetHelper.tweet(tweetTitle, tweetMessage);
+        	} else {
+        		// ????
+        	}
+		    return false;
+        });
+    });
+*/
+    </script>
+
+
+    <script>
+    // Ajax form handlers.
+  $(function() {
+	  // ...
+  });
+    </script>
+
+
+    <script>
+    // Event handlers for the list...
+    $(function() {
+
+        $("#blogarticle_autoplay_next").click(function(e) {
+            if(DEBUG_ENABLED) console.log("blogarticle_autoplay_next button clicked.");
+            e.preventDefault();
+            $("#blogarticle_autoplay_next").fadeOut(200).fadeIn(550);
+
+            var nextArticleUrl = "http://www.snipblog.com/a/2013-09-26/techspot/evernote-3m-join-forces-to-take-the-post-it-note-digital";
+            window.location = nextArticleUrl; 
+
+        });
+
+        $("#blogarticle_autoplay_prev").click(function(e) {
+            if(DEBUG_ENABLED) console.log("blogarticle_autoplay_prev button clicked.");
+            e.preventDefault();
+            $("#blogarticle_autoplay_prev").fadeOut(200).fadeIn(550);
+
+            var prevArticleUrl = "http://www.snipblog.com/a/2013-09-26/slashgear/intel-reportedly-in-talks-with-samsung-and-amazon-for-web-tv-backing";
+            window.location = prevArticleUrl; 
+
+        });
+    	
+    });
+    </script>
+
+
+    <!-- Change UA-XXXXX-X to be your site's ID -->
+    <script>
+      window._gaq = [['_setAccount','UA-32559638-1'],['_trackPageview'],['_trackPageLoadTime']];
+      Modernizr.load({
+        load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+      });
+    </script>
+
+
+    <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+    <!--[if lt IE 7 ]>
+      <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+      <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+    <![endif]-->
+
+    </body>
+</html>

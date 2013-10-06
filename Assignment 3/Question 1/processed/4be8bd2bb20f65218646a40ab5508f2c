@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<title>Next Issue Media launches its &#039;Netflix for magazines&#039; in Canada	</title>
+
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+<!-- Favicons
+================================================== -->
+
+<link rel="shortcut icon" href="http://www.canadianbusiness.com/wp-content/themes/canadianbusiness.com/images/favicon.ico">
+
+<link rel="apple-touch-icon" href="http://www.canadianbusiness.com/wp-content/themes/canadianbusiness.com/images/apple-touch-icon.png">
+
+<link rel="apple-touch-icon" sizes="72x72" href="http://www.canadianbusiness.com/wp-content/themes/canadianbusiness.com/images/apple-touch-icon-72x72.png" />
+
+<link rel="apple-touch-icon" sizes="114x114" href="http://www.canadianbusiness.com/wp-content/themes/canadianbusiness.com/images/apple-touch-icon-114x114.png" />
+
+<link rel="pingback" href="http://www.canadianbusiness.com/xmlrpc.php" />
+
+<script type='text/javascript'>
+	var stylesheet_uri = "http://www.canadianbusiness.com/wp-content/themes/canadianbusiness.com"
+	var tablet_menu_type = "click";
+</script>
+
+
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.2.8.7 - http://yoast.com/wordpress/seo/ -->
+<meta name="description" content="Digital magazine subscription service comes to Canada with Rogers Media"/>
+<link rel="canonical" href="http://www.canadianbusiness.com/companies-and-industries/next-issue-media-launches-its-netflix-for-magazines-in-canada/" />
+<meta property='og:locale' content='en_US'/>
+<meta property='og:title' content='Next Issue Media launches its &#039;Netflix for magazines&#039; in Canada'/>
+<meta property='og:description' content='Digital magazine subscription service comes to Canada with Rogers Media'/>
+<meta property='og:url' content='http://www.canadianbusiness.com/companies-and-industries/next-issue-media-launches-its-netflix-for-magazines-in-canada/'/>
+<meta property='og:site_name' content='Canadian Business'/>
+<meta property='og:type' content='article'/>
+<meta property='og:image' content='http://www.canadianbusiness.com/wp-content/uploads/2011/06/6c148f1445d2991d21a3dc4e0518.jpeg'/>
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Canadian Business &raquo; Feed" href="http://www.canadianbusiness.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Canadian Business &raquo; Comments Feed" href="http://www.canadianbusiness.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Canadian Business &raquo; Next Issue Media launches its &#8216;Netflix for magazines&#8217; in Canada Comments Feed" href="http://www.canadianbusiness.com/companies-and-industries/next-issue-media-launches-its-netflix-for-magazines-in-canada/feed/" />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='rdm-ie-css'  href='http://www.canadianbusiness.com/wp-content/themes/rdm_foundation/ie.css?ver=1380819325' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='foundation-css'  href='http://www.canadianbusiness.com/wp-content/themes/rdm_foundation/foundation.css?ver=1380819325' type='text/css' media='all' />
+<link rel='stylesheet' id='main-css'  href='http://www.canadianbusiness.com/wp-content/themes/canadianbusiness.com/style.css?ver=1380819318' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css'  href='http://www.canadianbusiness.com/wp-content/themes/rdm_foundation/print.css?ver=1380819325' type='text/css' media='print' />
+<link rel='stylesheet' id='rogers-rdm-footer-carousel-css'  href='http://static.rogersdigitalmedia.com/web_footers/css/skins/rdm_common_footer_carousel.skin.css' type='text/css' media='all' />
+<link rel='stylesheet' id='paginating_css-css'  href='http://www.canadianbusiness.com/wp-content/plugins/wp-comment-master/cm.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-polls-css'  href='http://www.canadianbusiness.com/wp-content/plugins/wp-polls/polls-css.css?ver=2.63' type='text/css' media='all' />
+<link rel='stylesheet' id='mlp_styles-css'  href='http://www.canadianbusiness.com/wp-content/plugins/media-library-plus/css/mlp.css?ver=3.5.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-content/themes/rdm_foundation/scripts/modernizr.foundation.js?ver=1380819325'></script>
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-content/themes/rdm_foundation/scripts/html5shiv.js?ver=1380819325'></script>
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-includes/js/comment-reply.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-content/plugins/rdm-analytics/media/js/jquery.cookie.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-content/plugins/rdm-analytics/media/js/functions.js?ver=2.1.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var rdm_analytics_post = {"name":"next issue media launches its 'netflix for magazines' in canada"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-content/plugins/rdm-analytics/media/js/functions-social-media.js?ver=2.1.1'></script>
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-content/plugins/rdm-analytics/media/js/functions-video.js?ver=2.1.1'></script>
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-content/plugins/rdm-analytics/media/js/mobile-detect.js?ver=2.1.1'></script>
+<script type='text/javascript' src='http://static.rogersdigitalmedia.com/web_footers/libs/common_footer.s_code.js?ver=3.5.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fromWP = {"ajax_nav_enabled":"","thumblistImageSpacing":"10","thumblistImageWidth":"70","thumbsWidth":"150","thumbsHeight":"150","thumbsSpacing":"5","imagesSpacing":"10","ajaxUrl":"http:\/\/www.canadianbusiness.com\/wp-admin\/admin-ajax.php","voteForString":"VOTE FOR","pluginUrl":"http:\/\/www.canadianbusiness.com\/wp-content\/plugins\/media-library-plus","currentUrl":"\/companies-and-industries\/next-issue-media-launches-its-netflix-for-magazines-in-canada\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-content/plugins/media-library-plus/js/mlp.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-content/plugins/media-library-plus/js/smart-resize.js?ver=3.5.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.canadianbusiness.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.canadianbusiness.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.5.1" />
+<link rel='shortlink' href='http://www.canadianbusiness.com/?p=525522' />
+	<!-- Ad Utility source code -->
+    <script type="text/javascript" src="http://static.rogersdigitalmedia.com/libs/RDMAdUtility4/current/rdm-ad-util.min.js"></script> 
+
+	<script type='text/javascript'>
+		window.adUtility = new RDMAdUtility({
+			site: 'rogers.publishing/canadianbusiness.CPGBusiness',
+			zone: 'companies_industries',
+			pageTargets: {
+				asite: 'canadianbusiness.CPGBusiness',
+				asection: 'companies_industries'
+			},
+			sponsorshipId: '',
+					});
+	</script>
+			<script type="text/javascript">
+			
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-722333-1']);
+				_gaq.push(['_trackPageview']);
+				
+				(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+			
+			</script>
+		<meta name='apple-itunes-app' content='app-id=489278920'/>
+<style type="text/css">
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background-image: url('http://www.canadianbusiness.com/wp-content/plugins/wp-polls/images/default/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+</style>
+
+
+<script type="text/javascript" src="//use.typekit.net/wbf0cwk.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<!--
+	generated in 0.790 seconds
+	59720 bytes batcached for 300 seconds
+-->
+</head>
+<body class="single single-post postid-525522 single-format-standard master-category-companies-and-industries">
+	 <!--interstitial starts -->
+	<div id="interstitial-1381013561-270" class="interstitial">
+		<script type="text/javascript">
+			adUtility.insertAd("interstitial-1381013561-270", {type: adUtility._AD_REDIRECT});
+	    </script>
+	</div>
+ <!--interstitial ends -->
+
+	<div id="wrap" class="container">
+
+
+		<header id="banner" role="banner">
+
+		 
+
+			
+			<!-- ## NOTIFICATION BOX ## -->
+			
+			<!-- ## BRAND LOGO & SEARCH AND MOBILE NAV ## -->
+			<div class="row">
+
+				<!-- ## BRAND LOGO ## -->
+				<div class="brand eight columns tablet-three wide-eight desktop-eight header-three">
+					<a id="logo" href="http://www.canadianbusiness.com/" title="Canadian Business" rel="home" rel="nofollow">
+						<img src="http://www.canadianbusiness.com/wp-content/themes/canadianbusiness.com/images/logo.png" alt="Canadian Business" />
+					</a>
+
+					
+					<div class="header_links">
+											</div>
+				</div>
+
+				
+				<!-- ## SEARCH AND NAV BUTTONS ##-->
+				<div class="four columns wide-four desktop-four tablet-three header-two">
+
+					<ul class="row nav">
+						<li class="nav_button twelve columns show-on-phones phone-two">
+							<button>Sections</button>
+						</li>
+						<li class="desktop-search twelve columns desktop-twelve wide-twelve  phone-two">
+
+							<div class="search_button show-on-phones">
+								<img class="button_image" src="http://www.canadianbusiness.com/wp-content/themes/rdm_foundation/images/search_button.png" />
+							</div>
+							<div class="hide-on-phones">
+								<form role="search" class="searchform" method="get" id="searchform" action="http://www.canadianbusiness.com/" >
+    <label class="assistive-text" for="s">Search for:</label><input type="search" placeholder="Search " value="" name="s" id="s" />
+    <input type="submit" id="searchsubmit" value="Search" />
+    </form>							</div>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+
+
+			<!-- ## SEARCH AND NAV BARS FOR MOBILE ## -->
+			<div class="row">
+				<div id="service-bars" class="twelve columns hide-on-tablets hide-on-desktop hide-on-wide">
+					<div id="mobile-menu">
+						<nav id="mobile-section-nav" class="menu-categories-menu-container"><ul id="menu-categories-menu" class="mobile-section-nav menu" ><li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a href="/">Home</a></li>
+<li id="menu-item-239788" class="news menu-item menu-item-type-taxonomy menu-item-object-category menu-item-239788"><a href="http://www.canadianbusiness.com/business-news/">News</a></li>
+<li id="menu-item-119385" class="investing menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119385"><a href="http://www.canadianbusiness.com/investing/">Investing</a></li>
+<li id="menu-item-119388" class="technology menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119388"><a href="http://www.canadianbusiness.com/technology-news/">Technology</a></li>
+<li id="menu-item-119383" class="companies menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-119383"><a href="http://www.canadianbusiness.com/companies-and-industries/">Companies</a></li>
+<li id="menu-item-119384" class="economy menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119384"><a href="http://www.canadianbusiness.com/economy/">Economy</a></li>
+<li id="menu-item-119386" class="lifestyle menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119386"><a href="http://www.canadianbusiness.com/lifestyle/">Lifestyle</a></li>
+<li id="menu-item-119382" class="commentary menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119382"><a href="http://www.canadianbusiness.com/blogs-and-comment/">Commentary</a></li>
+<li id="menu-item-398958" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-398958"><a href="http://www.canadianbusiness.com/global-report/">Global Report</a></li>
+<li id="menu-item-119705" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-119705"><a href="/portfolio/">Stock Portfolio</a></li>
+<li id="menu-item-119704" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-119704"><a href="#">Mutual Fund Lookup</a></li>
+<li id="menu-item-119703" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-119703"><a href="#">Stock Quotes</a></li>
+<li id="menu-item-343216" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-343216"><a href="http://www.canadianbusiness.com/subscribe/">Subscribe</a></li>
+</ul></nav>
+											</div>
+
+
+					<div class="search-form">
+						<form role="search" class="searchform" method="get" id="searchform" action="http://www.canadianbusiness.com/" >
+    <label class="assistive-text" for="s">Search for:</label><input type="search" placeholder="Search " value="" name="s" id="s" />
+    <input type="submit" id="searchsubmit" value="Search" />
+    </form>					</div>
+				</div>
+			</div>
+
+			<!-- ## MOBILE NAVIGATION ## -->
+			<div class="row show-on-phones">
+				<div class="twelve columns tab-nav">
+					<nav class="menu-mobile-menu-container"><ul id="menu-mobile-menu" class="menu"><li id="menu-item-4" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4"><a href="/">Home</a></li>
+<li id="menu-item-5" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5"><a href="/popular">Popular</a></li>
+<li id="menu-item-343214" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-343214"><a href="http://www.canadianbusiness.com/subscribe/">Subscribe</a></li>
+</ul></nav>                    				</div>
+			</div>
+
+			<!-- ## FULL SITE NAVIGATION ## -->
+			<div class="row show-on-wide show-on-desktops">
+				<div class="twelve columns tab-nav">
+					<nav class="menu-site-menu-container"><ul id="menu-site-menu" class="menu"><li id="menu-item-11" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11"><a href="/">Home</a></li>
+<li id="menu-item-120975" class="news menu-item menu-item-type-taxonomy menu-item-object-category menu-item-120975"><a href="http://www.canadianbusiness.com/business-news/">News</a></li>
+<li id="menu-item-119367" class="investing menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119367"><a href="http://www.canadianbusiness.com/investing/">Investing</a></li>
+<li id="menu-item-119370" class="technology menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119370"><a href="http://www.canadianbusiness.com/technology-news/">Technology</a></li>
+<li id="menu-item-119365" class="companies-and-industries menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-119365"><a href="http://www.canadianbusiness.com/companies-and-industries/">Companies</a></li>
+<li id="menu-item-119366" class="economy menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119366"><a href="http://www.canadianbusiness.com/economy/">Economy</a></li>
+<li id="menu-item-119368" class="lifestyle menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119368"><a href="http://www.canadianbusiness.com/lifestyle/">Lifestyle</a></li>
+<li id="menu-item-119364" class="blogs-and-comment menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119364"><a href="http://www.canadianbusiness.com/blogs-and-comment/">Commentary</a></li>
+<li id="menu-item-398876" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-398876"><a href="http://www.canadianbusiness.com/global-report/">Global Report</a></li>
+<li id="menu-item-343212" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-343212"><a href="http://www.canadianbusiness.com/subscribe/">Subscribe</a></li>
+<li id="menu-item-205444" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205444"><a href="http://www.canadianbusiness.com/portfolio/">Portfolio</a></li>
+</ul></nav>				</div>
+			</div>
+
+			<!-- ## GOOGLE FLYOUT ## -->
+
+			<script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'></script>
+            <script type='text/javascript'>
+                GS_googleAddAdSenseService("ca-pub-6839934596972776");
+                GS_googleEnableAllServices();
+            </script>
+            <script type='text/javascript'>
+                GA_googleAddSlot("ca-pub-6839934596972776" , "CBU__textAd_end_360x30");
+            </script>
+            <script type='text/javascript'>
+                GA_googleFetchAds();
+            </script>
+
+
+		</header><!-- end header -->
+
+		<div id="main" role="main">
+
+			<!-- ## SUBSCRIBE MODAL BOX ## -->
+						<div id="modal-subscribe" class="reveal-modal modal-subscribe">
+
+				<div id="cmg_subscribe" class="row">
+				<script language="javascript" type="text/javascript">
+					adUtility.insertAd("cmg_subscribe", { type: adUtility._AD_SUBSCRIBE_CMG });
+				</script>
+				</div>
+				
+				<a class="close-reveal-modal">&#215;</a>
+			</div>
+						
+
+			<div class="row">
+
+				<!-- ## MAIN CONTENT BOX ## -->
+				<div class="content">
+
+					<div class="wide-twelve desktop-twelve ten columns push-two">
+					
+<div id="sliver" class="sliver">
+	<script type="text/javascript">
+		if( !Modernizr.mq('only screen and (max-width: 1007px)')  ) {
+		 	adUtility.insertAd("sliver", {type: adUtility._AD_SLIVER});
+		}
+    </script>
+</div>
+					<div class="breadcrumb-container"><ul class="breadcrumbs"><li><a href="http://www.canadianbusiness.com" title="home">Home</a><li class=" alone"><a href="http://www.canadianbusiness.com/companies-and-industries/">Companies &amp; Industries</a></li><li class="current"><a href="http://www.canadianbusiness.com/companies-and-industries/next-issue-media-launches-its-netflix-for-magazines-in-canada/" title="Next Issue Media launches its 'Netflix for magazines' in Canada">Next Issue Media launches its 'Netflix for magazines' in Canada</a></li></ul><div class="clear"></div><ul class="breadcrumbs dropdown"><li class="alone current"><a href="http://www.canadianbusiness.com/companies-and-industries/">Companies &amp; Industries</a></li></ul><div class="clear"></div><div class="clear"></div></div><div class="clear"></div>
+
+<article id="post-525522" class="post-525522 post type-post status-publish format-standard hentry category-companies-and-industries tag-digital-publishing tag-ken-whyte tag-magazines tag-morgan-guenther tag-next-issue-media tag-publishing tag-rogers-media master-category-companies-and-industries type-posts">
+	<div class="row">
+		<div class="columns twelve">
+			<header>
+				<div class="column eight tablet-six">
+					<h1>Next Issue Media launches its &#8216;Netflix for magazines&#8217; in Canada</h1>
+					<h2><p>The monthly all-you-can-eat model has already hit movies and music with the likes of Netflix and Rdio, and now moves into the realm of magazines.</p>
+</h2>
+					<h5>
+						<time class="published" title="2013-09-26T14:15:55+00:00"><!-- YYYYMMDDThh:mm:ss+ZZZZ -->Sep 26, 2013</time>
+						<a href="http://www.canadianbusiness.com/author/jeff_beer/" title="Posts by Jeff Beer">Jeff Beer</a>												<a href=""  class="comment_bubble">0</a>
+																	</h5>
+				</div>
+				<div class="column four tablet-six ad-sponsor-large-container">				
+					<div id="sponsor-large" class="sponsor-large">
+	<script type="text/javascript">
+		adUtility.insertAd("sponsor-large", { type: adUtility._AD_XTRALARGE_SPONS });
+	</script>
+</div>				</div>
+			</header>
+		</div>
+		
+	</div>
+	<div class="row">
+		<div class="twelve columns wide-eight  desktop-eight">
+			<div class="row">
+				<div class="text columns no-image twelve wide-ten centered">
+					<p>The monthly all-you-can-eat model has already hit movies and music with the likes of Netflix and Rdio, and now moves into the realm of magazines for Canadian readers.</p>
+<p>Rogers Media (who owns <em>Canadian Business</em>) has joined with <a href="http://www.nextissue.com/" target="_blank">Next Issue Media (NIM)</a> to bring the latter&#8217;s magazine service across the border. Next Issue Media, started in 2009 as a collaboration between five leading U.S.-based publishers Condé Nast, Hearst, Meredith, NewsCorp, and Time Inc., launched its first app just 18 months ago and offers two subscription plans. For $9.99 per month, readers get unlimited access to monthly and bi-weekly magazines like <em>Vogue</em>, <em>Esquire</em>, <em>Vanity Fair</em>, <em>Wired</em> and now Rogers&#8217; titles like <em>Canadian Business </em>and<em> </em><em>Sportsnet</em>, including back issues. The $14.99 per month option gets you all titles in the catalog and back issues, including weeklies like <em>Entertainment Weekly</em>, <em>Sports Illustrated</em>, <em>The New Yorker</em> and <em>Maclean&#8217;s</em>.</p><div class="box ad ad-box inline-ad-box">
+							<div id="bigbox-article-1" class="bigbox ad-container">
+							<h5>Advertisement</h5>
+								<script type="text/javascript">
+							          adUtility.insertAd("bigbox-article-1", {type: adUtility._AD_BIGBOX});
+							     </script>
+							</div>
+						</div>
+<p>Earlier this year, <a href="http://www.forbes.com/sites/jeffbercovici/2013/03/06/next-issue-media-aka-netflix-for-magazines-hits-windows-8-targets-1-million-user-mark/" target="_blank">NIM CEO Morgan Guenther told <em>Forbes</em></a> the service had built a user base of 120,000. Of that, 70,000 weren’t necessarily subscribers but readers who use NIM to access digital versions of publications they subscribe to in print. Of the remaining 50,000, 60% were paying $15 a month for premium subscriptions and 40% paid for the $10 a month option. It&#8217;s a decent start but Guenther is aiming much higher; he says a million users by the end of next year is a reasonable target. This Canadian excursion is certainly hoping to help.</p>
+<p>“We’re thrilled to be partnering with Rogers to bring for the first time the Next Issue experience to customers outside of the U.S.,” said Guenther, in a statement. “In addition to its popular magazine titles, the Rogers organization offers unparalleled reach to consumers throughout Canada via its cable, wireless, broadcast, sports and Internet properties.&#8221;</p>
+<p>The partnership between NIM and Rogers goes beyond just stocking up on the Canadian company&#8217;s quiver of media properties. President of Rogers Publishing Ken Whyte is leaving that desk to be president of Next Issue Canada. During a press conference announcing the deal, Whyte said this will represent an eight-figure investment in promotion, marketing and distribution. &#8220;In my lifetime, this is probably the biggest bet that any company has made in the development in [the publishing] industry,&#8221; said Whyte. &#8220;Titles change hands, companies change hands, but we are making a serious investment in magazine content for Canadians which will have a huge impact all the way through the publishing infrastructure&#8230; In this service, Canadian and American magazines will be available on equal terms on both sides of the border. We&#8217;re essentially going global as a Canadian content company.&#8221;</p>
+<p>Next Issue Canada is going with a two-tiered launch, first available October 15th with a free two-month trial to Rogers wireless and cable customers on iPads, Android tablets and Win8 devices then to everyone else with a free one-month trial on December 15th.</p>
+				</div>
+			</div>			
+		</div>
+		<div class="twelve columns wide-four desktop-four">
+			<div class="sidebar">
+
+<div class="row share-buttons">
+	<div class="twelve columns">
+		<div class="rdm_sp_container"><div class="social-title">Share:</div>        
+   		<div class="rdm_sp_button_container">
+            <a class="rdm_sp_button rdm_sp_trackthis rdm_sp_google_plusone_share" href="http://api.addthis.com/oexchange/0.8/forward/google_plusone_share/offer?url=www.canadianbusiness.com/companies-and-industries/next-issue-media-launches-its-netflix-for-magazines-in-canada/&title=Next+Issue+Media+launches+its+%27Netflix+for+magazines%27+in+Canada" rel="nofollow" target="_blank">
+                Google+ Share            </a>
+       	</div>
+        
+   		<div class="rdm_sp_button_container">
+            <a class="rdm_sp_button rdm_sp_trackthis rdm_sp_facebook" href="http://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=www.canadianbusiness.com/companies-and-industries/next-issue-media-launches-its-netflix-for-magazines-in-canada/&title=Next+Issue+Media+launches+its+%27Netflix+for+magazines%27+in+Canada" rel="nofollow" target="_blank">
+                Facebook            </a>
+       	</div>
+        
+   		<div class="rdm_sp_button_container">
+            <a class="rdm_sp_button rdm_sp_trackthis rdm_sp_linkedin" href="http://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=www.canadianbusiness.com/companies-and-industries/next-issue-media-launches-its-netflix-for-magazines-in-canada/&title=Next+Issue+Media+launches+its+%27Netflix+for+magazines%27+in+Canada" rel="nofollow" target="_blank">
+                LinkedIn            </a>
+       	</div>
+        
+   		<div class="rdm_sp_button_container">
+            <a class="rdm_sp_button rdm_sp_trackthis rdm_sp_twitter" href="http://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=www.canadianbusiness.com/companies-and-industries/next-issue-media-launches-its-netflix-for-magazines-in-canada/&title=Next+Issue+Media+launches+its+%27Netflix+for+magazines%27+in+Canada" rel="nofollow" target="_blank">
+                Twitter            </a>
+       	</div>
+<br clear="all" /></div>	</div>
+</div>
+<div class="row">
+	<!-- GOOGLE FLYOUT -->
+	<div class="show-on-phones google_flyout">
+		<script type='text/javascript'>
+			GA_googleFillSlot("CBU__textAd_end_360x30");
+		</script>
+	</div>
+	<div class="twelve columns">
+		<button class="button nice comment-button full-width" id="commentlink" href="#comment-block">
+			<span class="lblShowComments display">Leave a comment</span><span class="lblHideComments">Hide comments</span> 		</button>
+	</div>
+</div>
+
+<nav id="nav-single">
+	<h3 class="assistive-text">Post navigation</h3>
+	<div class="row">
+		<div class="six columns phone-two left">
+			<span class="nav-previous"><a href="http://www.canadianbusiness.com/companies-and-industries/mcdonalds-finally-gets-vegetarian-friendly-peter-nowak/" rel="prev"><span class="title">Previous</span> <span class="meta-nav">McDonald’s finally gets vegetarian-friendly: Nowak</span></a></span>
+		</div>
+		<div class="six columns phone-two right">
+			<span class="nav-next"><a href="http://www.canadianbusiness.com/technology-news/new-twitter-features-bode-well-for-ipo/" rel="next"><span class="title">Next</span> <span class="meta-nav">New Twitter features bode well for IPO</span></a></span>
+		</div>
+	</div>
+</nav>
+	
+<div class="row">
+	<div class="twelve columns">
+		<ul class="related-content">
+			<dt><h6 class="side-header"><span>Related</span></h6></dt>
+			<li class="post-7702 post type-post status-publish format-standard hentry category-media category-business-news tag-magazine tag-newsweek tag-ode tag-print tag-publishing row master-category-companies-and-industries type-posts"'><div class='related-post-text columns nine wide-eight phone-three'><h2><a href='http://www.canadianbusiness.com/business-news/industries/media/' title='media'>media</a></h2>
+<h1><a href='http://www.canadianbusiness.com/business-news/industries/media/the-daily-beast-consumes-newsweek/'>The Daily Beast consumes Newsweek</a></h1></div><div class='related-post-image columns three wide-four phone-one'><a href='http://www.canadianbusiness.com/business-news/industries/media/the-daily-beast-consumes-newsweek/'><img width="401" height="267" src="http://www.canadianbusiness.com/wp-content/uploads/2012/10/3c24c81b4a51a848574822964c49.jpg" class="attachment-main-thumbnail wp-post-image" alt="(Photograph by Erin Seaman)" /></a></div></li><li class="post-15655 post type-post status-publish format-standard hentry category-business-news category-technology-news tag-digital tag-e-books tag-fifty-shades-of-grey tag-publishing row master-category-companies-and-industries type-posts"'><div class='related-post-text columns nine wide-eight phone-three'><h2><a href='http://www.canadianbusiness.com/business-news/' title='News'>News</a></h2>
+<h1><a href='http://www.canadianbusiness.com/technology-news/vanity-publishing-the-shades-of-grey-effect/'>Vanity publishing: The Shades of Grey effect</a></h1></div><div class='related-post-image columns three wide-four phone-one'><a href='http://www.canadianbusiness.com/technology-news/vanity-publishing-the-shades-of-grey-effect/'><img width="401" height="267" src="http://www.canadianbusiness.com/wp-content/uploads/2012/09/9ccb7a0e4adfab999cd3917c3a1a.jpg" class="attachment-main-thumbnail wp-post-image" alt="A copy of &quot;Fifty Shades of Grey&quot; by E. L. James at the Watchung Booksellers shop in Montclair, N.J., March 9, 2012. (Richard Perry/The New York Times)" /></a></div></li><li class="post-16788 post type-post status-publish format-standard hentry category-blogs-and-comment category-media category-technology-industry tag-apple tag-apps tag-financial-times tag-media tag-publishing row master-category-companies-and-industries type-posts"'><div class='related-post-text columns nine wide-eight phone-three'><h2><a href='http://www.canadianbusiness.com/blogs-and-comment/' title='Blogs &amp; Comment'>Blogs &amp; Comment</a></h2>
+<h1><a href='http://www.canadianbusiness.com/blogs-and-comment/why-the-financial-timess-new-app-matters/'>Why the Financial Times's new app matters</a></h1></div><div class='related-post-image columns three wide-four phone-one'><a href='http://www.canadianbusiness.com/blogs-and-comment/why-the-financial-timess-new-app-matters/'><img width="401" height="267" src="http://www.canadianbusiness.com/wp-content/uploads/2011/07/b87b5d4048f09baf0ec036829ad0.jpeg" class="attachment-main-thumbnail wp-post-image" alt="(Photo: Alistair Berg)" /></a></div></li>		</ul>
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="twelve columns">
+	<h6 class="side-header"><span>Filed under:</span></h6> <ul class="rdm-tag-list"><li><a href="http://www.canadianbusiness.com/tag/digital-publishing/" rel="tag">digital publishing</a></li><li><a href="http://www.canadianbusiness.com/tag/ken-whyte/" rel="tag">Ken Whyte</a></li><li><a href="http://www.canadianbusiness.com/tag/magazines/" rel="tag">magazines</a></li><li><a href="http://www.canadianbusiness.com/tag/morgan-guenther/" rel="tag">Morgan Guenther</a></li><li><a href="http://www.canadianbusiness.com/tag/next-issue-media/" rel="tag">Next Issue Media</a></li><li><a href="http://www.canadianbusiness.com/tag/publishing/" rel="tag">publishing</a></li><li><a href="http://www.canadianbusiness.com/tag/rogers-media/" rel="tag">Rogers Media</a></li><li><a href="http://www.canadianbusiness.com/companies-and-industries/" title="View all posts in Companies &amp; Industries" rel="category tag">Companies &amp; Industries</a></ul>	</div>		
+</div>
+
+</div>
+		</div>	
+	</div>
+</article>
+<div class="row">
+	
+	<div class="six show-on-desktops show-on-wide columns bottom-comment-button-container">
+		<button class="button nice comment-button full-width" id="commentlink" href="#comment-block">
+			<span class="lblShowComments display">Leave a comment</span><span class="lblHideComments">Hide comments</span> 		</button>
+	</div>
+
+</div>
+
+<div class="row" id="comment-block" name="#comment-block">
+	<div class="twelve desktop-eight wide-eight">
+			<div id="comments" class="left-column">
+	
+	
+	
+									<div id="respond">
+				<h3 id="reply-title">Leave a comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="/companies-and-industries/next-issue-media-launches-its-netflix-for-magazines-in-canada/#respond" style="display:none;">Cancel reply</a></small></h3>
+									<p class="must-log-in">You must be <a href="http://www.canadianbusiness.com/signin?redirect_to=http%3A%2F%2Fwww.canadianbusiness.com%2Fcompanies-and-industries%2Fnext-issue-media-launches-its-netflix-for-magazines-in-canada%2F%23comment-block">signed in</a> to post a comment.</p>												</div><!-- #respond -->
+						
+</div><!-- #comments -->	</div>
+</div>
+
+<div class="box subscribe-widget"><article>
+<h6><a href="https://secure.canadianbusiness.com/loc/CBU/header" ref="nofollow">Subscribe</a></h6>		<div class="subscribe-widget-container">
+		<div class="subscribeSquare">
+			<h3>To the magazine</h3>
+			<div class="row">
+								<div class="column four phone-one">
+					<a href="http://www.canadianbusiness.com/subscribe/latest-issue/table-of-contents-october-2013/" title="In this issue: A better way to pick NHL stars" rel="nofollow"><img width="150" height="200" src="http://www.canadianbusiness.com/wp-content/uploads/2013/09/CB16_OCT14_2013-WEB-150x200.jpg" class="attachment-photogallery-thumbnail wp-post-image" alt="CB16_OCT14_2013-COVER-WEB" /></a>
+				</div>
+								<div class="column eight phone-three">
+					<ul>
+						<li><a href="http://www.canadianbusiness.com/subscribe/latest-issue/table-of-contents-october-2013/" title="In this issue: A better way to pick NHL stars">In this issue: A better way to pick NHL stars</a>
+						</li>
+											</ul>
+					<a class="button small nice" href="https://secure.canadianbusiness.com/loc/CBU/header" title="">Subscribe</a>
+				</div>
+			</div>
+		</div>
+		<div class="subscribeSquare">
+			<h3>To the newsletter(s)</h3>
+			<div class="row frmENewsletter">
+				<form action="/newsletter/" name="nl_registration">
+					<input type="text" name="email1" value="Enter your email" onfocus="if(this.value == 'Enter your email') { this.value = ''; }" class="email" />
+					<input class="button nice" type="submit" id="email_subscribe" value="Subscribe" />
+				</form>
+			</div>
+			<div class="social-links"><h3>Follow us</h3>        
+   		<div class="rdm_sp_button_container">
+            <a class="rdm_sp_button rdm_sp_trackthis rdm_sp_facebook" href="https://www.facebook.com/canadianbusinessmagazine" rel="nofollow" target="_blank">
+                Facebook            </a>
+       	</div>
+        
+   		<div class="rdm_sp_button_container">
+            <a class="rdm_sp_button rdm_sp_trackthis rdm_sp_twitter" href="http://www.twitter.com/CdnBusinessMag" rel="nofollow" target="_blank">
+                Twitter            </a>
+       	</div>
+        
+   		<div class="rdm_sp_button_container">
+            <a class="rdm_sp_button rdm_sp_trackthis rdm_sp_google_plusone_share" href="https://plus.google.com/100693468839461527512/" rel="nofollow" target="_blank">
+                Google+ Share            </a>
+       	</div>
+		<div class="rdm_sp_button_container rdm_sp_last_button rdm_sp_subscribe_button">
+			<a class="rdm_sp_button rdm_sp_subscribe" href="http://www.canadianbusiness.com/subscribe/" rel="nofollow">
+			    More
+			</a>
+		</div>
+<br clear="all" /></div>
+		</div>
+		</div>
+	</article></div>
+
+
+					
+					
+					<div class="clear footer-leaderboard show-on-desktops show-on-wide">
+					<div id="leaderboard_top" class="leaderboard show-on-desktops show-on-wide">
+			<h5>Advertisement</h5>
+		<script type="text/javascript">			
+			if( !Modernizr.mq('only screen and (max-width: 1007px)') ){
+				adUtility.insertAd("leaderboard_top", {type: adUtility._AD_LEADERBOARD_MASTER });
+			}
+	     </script>
+	 </div>					</div>
+					
+					</div><!-- end .ten.columns -->
+					
+					
+					
+					<!-- ## LEFT SIDEBAR FOR TABLET ## -->
+					<div class="wide-twelve desktop-twelve two columns pull-ten show-on-tablets">
+						
+						<div class="show-on-tablets tablet-side" >
+						
+							<nav class="menu-tablet-menu-container"><ul id="menu-tablet-menu" class="nice tabs vertical mobile menu" ><li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a href="/">Home</a></li>
+<li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8"><a href="/popular">Popular</a></li>
+<li id="menu-item-10" class="parent menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="#">Sections</a>
+<ul class="sub-menu nice tabs vertical mobile">
+	<li id="menu-item-239792" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-239792"><a href="http://www.canadianbusiness.com/business-news/">News</a></li>
+	<li id="menu-item-119391" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119391"><a href="http://www.canadianbusiness.com/investing/">Investing</a></li>
+	<li id="menu-item-119394" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119394"><a href="http://www.canadianbusiness.com/technology-news/">Technology</a></li>
+	<li id="menu-item-119389" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-119389"><a href="http://www.canadianbusiness.com/companies-and-industries/">Companies</a></li>
+	<li id="menu-item-119390" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119390"><a href="http://www.canadianbusiness.com/economy/">Economy</a></li>
+	<li id="menu-item-119392" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119392"><a href="http://www.canadianbusiness.com/lifestyle/">Lifestyle</a></li>
+	<li id="menu-item-119395" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119395"><a href="http://www.canadianbusiness.com/blogs-and-comment/">Commentary</a></li>
+	<li id="menu-item-398874" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-398874"><a href="http://www.canadianbusiness.com/global-report/">Global Report</a></li>
+	<li id="menu-item-119700" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-119700"><a href="#">Stock Quotes</a></li>
+	<li id="menu-item-119701" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-119701"><a href="#">Mutual Fund Lookup</a></li>
+	<li id="menu-item-119702" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-119702"><a href="/portfolio/">Stock Portfolio</a></li>
+</ul>
+</li>
+<li id="menu-item-343210" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-343210"><a href="http://www.canadianbusiness.com/subscribe/">Subscribe</a></li>
+</ul></nav><div class="social-links"><div class="text">Follow us</div>        
+   		<div class="rdm_sp_button_container">
+            <a class="rdm_sp_button rdm_sp_trackthis rdm_sp_facebook" href="https://www.facebook.com/canadianbusinessmagazine" rel="nofollow" target="_blank">
+                Facebook            </a>
+       	</div>
+        
+   		<div class="rdm_sp_button_container">
+            <a class="rdm_sp_button rdm_sp_trackthis rdm_sp_twitter" href="http://www.twitter.com/CdnBusinessMag" rel="nofollow" target="_blank">
+                Twitter            </a>
+       	</div>
+        
+   		<div class="rdm_sp_button_container">
+            <a class="rdm_sp_button rdm_sp_trackthis rdm_sp_google_plusone_share" href="https://plus.google.com/100693468839461527512/" rel="nofollow" target="_blank">
+                Google+ Share            </a>
+       	</div>
+		<div class="rdm_sp_button_container rdm_sp_last_button rdm_sp_subscribe_button">
+			<a class="rdm_sp_button rdm_sp_subscribe" href="http://www.canadianbusiness.com/subscribe/" rel="nofollow">
+			    More
+			</a>
+		</div>
+<br clear="all" /></div><nav class="menu-resources-menu-container"><ul id="menu-resources-menu" class="menu" ><li><h2>Resources:</h2></li><li id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="/about-us/">About Us</a></li>
+<li id="menu-item-36" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36"><a href="/contact-us/">Contact Us</a></li>
+<li id="menu-item-37" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37"><a href="http://www.rogersconnect.com/publication/canadian-business">Advertising</a></li>
+<li id="menu-item-38" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38"><a href="https://secure.indas.on.ca/rogers/in-class/CanadianBusiness">In-class program</a></li>
+</ul></nav>							
+						</div>
+												
+					</div><!-- end .two.columns -->
+					
+				</div>
+
+			</div><!-- end .row -->
+			
+		</div><!-- end #main -->
+
+		<footer class="main-footer">
+			<div class="row">
+				<div class="content">
+		
+					<div class="row show-on-wide show-on-desktops footer_nav">
+						<div class="twelve columns tab-nav">
+							<nav class="menu-site-menu-container"><ul id="menu-site-menu-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11"><a href="/">Home</a></li>
+<li class="news menu-item menu-item-type-taxonomy menu-item-object-category menu-item-120975"><a href="http://www.canadianbusiness.com/business-news/">News</a></li>
+<li class="investing menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119367"><a href="http://www.canadianbusiness.com/investing/">Investing</a></li>
+<li class="technology menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119370"><a href="http://www.canadianbusiness.com/technology-news/">Technology</a></li>
+<li class="companies-and-industries menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-119365"><a href="http://www.canadianbusiness.com/companies-and-industries/">Companies</a></li>
+<li class="economy menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119366"><a href="http://www.canadianbusiness.com/economy/">Economy</a></li>
+<li class="lifestyle menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119368"><a href="http://www.canadianbusiness.com/lifestyle/">Lifestyle</a></li>
+<li class="blogs-and-comment menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119364"><a href="http://www.canadianbusiness.com/blogs-and-comment/">Commentary</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-398876"><a href="http://www.canadianbusiness.com/global-report/">Global Report</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-343212"><a href="http://www.canadianbusiness.com/subscribe/">Subscribe</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205444"><a href="http://www.canadianbusiness.com/portfolio/">Portfolio</a></li>
+</ul></nav>						</div>
+					</div><!-- end .footer_nav -->
+				
+					<div class="columns four show-on-phones">
+					
+						<nav class="menu-tablet-menu-container"><ul id="menu-tablet-menu-1" class="nice tabs vertical mobile menu" ><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a href="/">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8"><a href="/popular">Popular</a></li>
+<li class="parent menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="#">Sections</a>
+<ul class="sub-menu nice tabs vertical mobile">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-239792"><a href="http://www.canadianbusiness.com/business-news/">News</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119391"><a href="http://www.canadianbusiness.com/investing/">Investing</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119394"><a href="http://www.canadianbusiness.com/technology-news/">Technology</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-119389"><a href="http://www.canadianbusiness.com/companies-and-industries/">Companies</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119390"><a href="http://www.canadianbusiness.com/economy/">Economy</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119392"><a href="http://www.canadianbusiness.com/lifestyle/">Lifestyle</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119395"><a href="http://www.canadianbusiness.com/blogs-and-comment/">Commentary</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-398874"><a href="http://www.canadianbusiness.com/global-report/">Global Report</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-119700"><a href="#">Stock Quotes</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-119701"><a href="#">Mutual Fund Lookup</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-119702"><a href="/portfolio/">Stock Portfolio</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-343210"><a href="http://www.canadianbusiness.com/subscribe/">Subscribe</a></li>
+</ul></nav><nav class="menu-resources-menu-container"><ul id="menu-resources-menu-1" class="menu" ><li><h2>Resources:</h2></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="/about-us/">About Us</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36"><a href="/contact-us/">Contact Us</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37"><a href="http://www.rogersconnect.com/publication/canadian-business">Advertising</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38"><a href="https://secure.indas.on.ca/rogers/in-class/CanadianBusiness">In-class program</a></li>
+</ul></nav>					</div>
+					
+					
+					<div class="row service_footer">
+						<div class="columns one tablet-one hide-on-phones">
+							<button class="small button nice black top-scroll">Top</button>
+						</div>
+						<div class="columns four hide-on-tablets social-links-column">
+							<div class="social-links">
+								<div class="text">Follow us</div>
+								        
+   		<div class="rdm_sp_button_container">
+            <a class="rdm_sp_button rdm_sp_trackthis rdm_sp_facebook" href="https://www.facebook.com/canadianbusinessmagazine" rel="nofollow" target="_blank">
+                Facebook            </a>
+       	</div>
+        
+   		<div class="rdm_sp_button_container">
+            <a class="rdm_sp_button rdm_sp_trackthis rdm_sp_twitter" href="http://www.twitter.com/CdnBusinessMag" rel="nofollow" target="_blank">
+                Twitter            </a>
+       	</div>
+        
+   		<div class="rdm_sp_button_container">
+            <a class="rdm_sp_button rdm_sp_trackthis rdm_sp_google_plusone_share" href="https://plus.google.com/100693468839461527512/" rel="nofollow" target="_blank">
+                Google+ Share            </a>
+       	</div>
+		<div class="rdm_sp_button_container rdm_sp_last_button rdm_sp_subscribe_button">
+			<a class="rdm_sp_button rdm_sp_subscribe" href="http://www.canadianbusiness.com/subscribe/" rel="nofollow">
+			    More
+			</a>
+		</div>
+<br clear="all" />							</div>
+						</div>
+						<div class="columns four show-on-desktops show-on-wide resource-column">
+							<nav class="menu-resources-menu-container"><ul id="menu-resources-menu-2" class="menu" ><li><h2>Resources:</h2></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="/about-us/">About Us</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36"><a href="/contact-us/">Contact Us</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37"><a href="http://www.rogersconnect.com/publication/canadian-business">Advertising</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38"><a href="https://secure.indas.on.ca/rogers/in-class/CanadianBusiness">In-class program</a></li>
+</ul></nav>						</div>
+						<div class="columns three tablet-three desktop-search">
+														<form role="search" class="searchform" method="get" id="searchform" action="http://www.canadianbusiness.com/" >
+    <label class="assistive-text" for="s">Search for:</label><input type="search" placeholder="Search " value="" name="s" id="s" />
+    <input type="submit" id="searchsubmit" value="Search" />
+    </form>						</div>
+			
+					</div><!-- end .service_footer -->
+				
+				
+						<div id="dhtml-ad-hook">
+	  <script type="text/javascript">
+	  	if(document.documentElement.clientWidth >= 1008){
+			adUtility.insertAd("dhtml-ad-hook", { type: adUtility._AD_DHTML });
+	  	}
+	  	else {
+			adUtility.insertAd("dhtml-ad-hook", { type: adUtility._AD_DRAU });
+	  	}
+	  </script>
+	</div>
+		<script type="text/javascript">
+			// SiteCatalyst Code
+			var analyticsProtocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+			var analyticsHostServer = 'analytics.rogersmedia.com';
+			var s_account = 'rogersrmiglobal, rogersrmipublishing'; // Report Suite ID
+			document.write(unescape("%3Cscript src='" + analyticsProtocol + analyticsHostServer + "/js/rdm_s_code.min.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		
+		<script type="text/javascript">
+		
+ 				 s.events='event1';
+ 				 s.pageName='canadian business : companies-and-industries : next issue media launches its \'netflix for magazines\' in canada';
+ 				 s.hier1='companies-and-industries';
+ 				 s.channel='english';
+ 				 s.server='www.canadianbusiness.com';
+ 				 s.prop1='publishing';
+ 				 s.prop2='canadian business';
+ 				 s.prop3=rdm_analytics_get_responsive_breakpoint();
+ 				 s.prop4=rdm_analytics_get_platform();
+ 				 s.prop6='canadian business : companies-and-industries';
+ 				 s.prop10='next issue media launches its \'netflix for magazines\' in canada';
+ 				 s.prop11='article';
+ 				 s.prop12='jeff beer';
+ 				 s.prop13='http://www.canadianbusiness.com/companies-and-industries/next-issue-media-launches-its-netflix-for-magazines-in-canada/';
+ 				 s.prop14='digital publishing, ken whyte, magazines, morgan guenther, next issue media, publishing, rogers media';
+ 				 s.prop15='companies &amp; industries';
+ 				 s.prop16='525522';
+ 				 s.prop18='oando';
+ 				 s.prop36=rdm_analytics_get_mobile_os();
+ 				 s.prop37=rdm_analytics_get_user_agent();
+ 				 s.prop39=rdm_analytics_get_device_type();
+ 				 s.prop41=rdm_analytics_get_hour();
+ 				 s.prop42=rdm_analytics_get_weekday();
+ 				 s.prop43=rdm_analytics_get_day_type();
+ 				 s.prop44='2.5';
+ 				 s.prop46='disabled';
+ 				 s.eVar53=rdm_analytics_get_uuid();
+ 
+
+		</script>
+
+				<script type="text/javascript">
+			// AudienceManager Code
+			document.write(unescape("%3Cscript src='" + analyticsProtocol + analyticsHostServer + "/js/rdm_dil_code.full.js?version=1.7' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+				<script type="text/javascript">
+			var s_code=s.t(); 
+			if(s_code) {
+				document.write(s_code);
+			}
+		</script>
+			<!-- Begin comScore Tag -->
+
+	<script>
+		var _comscore = _comscore || [];
+		_comscore.push({ c1: "2", c2: "3005682" });
+		(function() {
+			var s = document.createElement("script");
+			var el = document.getElementsByTagName("script")[0];
+			s.async = true;
+			s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+			el.parentNode.insertBefore(s, el);
+		})();
+	</script>
+	<noscript>
+		<img src="http://b.scorecardresearch.com/p?c1=2&c2=3005682&cv=2.0&cj=1" />
+	</noscript>
+	
+	<!-- End comScore Tag -->
+	<link rel='stylesheet' id='rdm-sp-user-style-css'  href='http://www.canadianbusiness.com/wp-content/plugins/rdm-social-plugin/media/css/user_styles.css?ver=3.5.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-content/themes/rdm_foundation/scripts/foundation.js?ver=1380819325'></script>
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-content/themes/rdm_foundation/scripts/jquery-ui.widget.min.js?ver=1380819325'></script>
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-content/themes/rdm_foundation/scripts/jquery.cycle.min.js?ver=1380819325'></script>
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-content/themes/rdm_foundation/scripts/jquery.fitvids.js?ver=1380819325'></script>
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-content/themes/rdm_foundation/scripts/rwd-table.js?ver=1380819325'></script>
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-content/themes/rdm_foundation/scripts/jquery.backgroundSize.js?ver=1380819325'></script>
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-content/themes/rdm_foundation/scripts/jquery.dotdotdot-1.5.1.min.js?ver=1380819325'></script>
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-content/themes/rdm_foundation/scripts/app.js?ver=1380819325'></script>
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-content/themes/rdm_foundation/scripts/resize-header.js?ver=1380819325'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var yjlSettings = {"pagination":"enable","comPerpage":"","numPerpage":"5","pagerPos":"before","repForm":"enable","gifUrl":"http:\/\/www.canadianbusiness.com\/wp-content\/plugins\/wp-comment-master\/ajax-loader.gif","prev":"","next":"","timeOut":"","fast":"","thank":"","order":"asc","autoGrow":"disable"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-content/plugins/wp-comment-master/cm.js?ver=3.5.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"http:\/\/www.canadianbusiness.com\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-content/plugins/wp-polls/polls-js.js?ver=2.63'></script>
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-content/plugins/rdm-combined-footer/js/front-end.js?ver=0.1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var js_vars = {"rdm_paywall_media_path":"http:\/\/www.canadianbusiness.com\/wp-content\/plugins\/rdm-paywall-overhaul\/media","go_to_article":"Go to article","learn_more_string":"Learn more","learn_more_link":"","homepage_overlay_text":"This <strong>All Access<\/strong> article is featured in our magazine.<br \/>Non-subscribers receive access to a limited number of articles per month."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-content/plugins/rdm-paywall-overhaul/media/js/main.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://www.canadianbusiness.com/wp-content/plugins/rdm-paywall-overhaul/media/js/jquery.blockUI.js?ver=3.5.1'></script>
+
+<!-- RDM Combined Footer start -->
+<div class="row">	<section id="rdm_global_footer" class="" >
+	<header><h1>Sites we recommend </h1></header>
+	<div class="row">
+		<aside class="columns four">
+			<a href="http://www.profitguide.com/" target="_blank" title="PROFIT">
+				<img alt="PROFIT" src="http://static.rogersdigitalmedia.com/web_footers/images/common_footers/News_and_Business/rcf_profit.png" onclick="itemClick('http://www.profitguide.com/');"/>
+				<h2>News and strategies for Canadian entrepreneurs</h2>
+			</a>
+			<a class="content-link" href="http://www.profitguide.com/" title="PROFIT">
+			PROFIT
+		</a>
+		</aside>
+		<aside class="columns four">
+			<a href="http://www.moneysense.ca/" target="_blank" title="MoneySense">
+				<img alt="MoneySense" src="http://static.rogersdigitalmedia.com/web_footers/images/common_footers/News_and_Business/rcf_moneysense.png" onclick="itemClick('http://www.moneysense.ca/');"/>
+				<h2>Canada's personal finance website</h2>
+			</a>
+			<a class="content-link" href="http://www.moneysense.ca/" title="MoneySense">
+			MoneySense
+		</a>
+		</aside>
+		<aside class="columns four">
+			<a href="http://www2.macleans.ca/" target="_blank" title="Maclean&acute;s">
+				<img alt="Maclean&acute;s" src="http://static.rogersdigitalmedia.com/web_footers/images/common_footers/News_and_Business/rcf_macleansB.png" onclick="itemClick('http://www2.macleans.ca/');"/>
+				<h2>Canada's only national weekly current affairs magazine</h2>
+			</a>
+			<a class="content-link" href="http://www2.macleans.ca/" title="Maclean's">
+			Maclean's
+		</a>
+		</aside>
+	</div>
+	
+	<div class="rdm_comscore_footer row">
+		<div class="columns five">
+			<a href="http://www.rogersdigitalmedia.com/" target="_blank" title="Rogers Digital Media Community"><img src="http://static.rogersdigitalmedia.com/web_footers/images/common_footers/comscore_logos/white_BG/comscoreRogersMediaPublishingNews.png" alt="Rogers Digital Media Community" border="0"></a>
+		</div>
+		<div class="columns seven">
+			<div class="rdm_universal_footer">
+			&copy; 1999-2013 Rogers Media. All rights reserved.
+			<span id='footer_links'><a href="http://www.rogerspublishing.ca/privacy.shtml" target="_blank">Privacy Policy</a> <a href="http://www.rogerspublishing.ca/privacy.shtml#section17">Ad Choices</a> <img src="http://static.rogersdigitalmedia.com/web_footers/images/common_footers/comscore_logos/BG/adchoices.png"> <a href="http://www.rogersmedia.com/terms-of-service" target="_blank">Terms of Service</a></span>
+			</div>
+		</div>
+	</div>
+	
+	</section></div>
+<!-- RDM Combined Footer end -->
+				
+				</div>
+			</div>
+			
+		</footer><!-- end footer -->
+
+	</div><!-- end #wrap -->
+
+	
+</body>
+</html>

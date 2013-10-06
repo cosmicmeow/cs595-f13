@@ -1,0 +1,3010 @@
+
+
+
+						
+									
+
+
+  
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>FDA Issues Final Guidance on Medical Mobile Applications - HDM Latest News Article</title>
+  <link rel="Shortcut Icon" href="http://cdn.healthdatamanagement.com/media/ui/favicon.png" />
+	<link rel="apple-touch-icon" href="http://cdn.healthdatamanagement.com/media/ui/hdm-apple-touch-icon-precomposed.png" />
+
+		
+			  		<meta name="title" content="FDA Issues Final Guidance on Medical Mobile Applications" />
+    		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+				<meta name="keywords" content="" />
+			<meta name="description" content="The Food and Drug Administration has issued final guidance on its current thinking about the regulation of medical mobile applications." />
+
+	
+					
+	<meta property="og:title" content="FDA Issues Final Guidance on Medical Mobile Applications" />	<meta property="og:site_name" content="HDM Latest News" />	<meta property="og:url" content="http://www.healthdatamanagement.com/news/fda-final-guidance-on-medical-mobile-applications-46626-1.html" />  <meta property="og:description" content="The Food and Drug Administration has issued final guidance on its current thinking about the regulation of medical mobile applications." />
+			
+
+	<meta property="og:image" content="http://cdn.healthdatamanagement.com/media/ui/logo-hdm-trans.png" />
+	
+				<!-- jQuery / Fancybox dependants-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+	<script src="http://cdn.healthdatamanagement.com/media/js/jquery.site-functions.js" type="text/javascript"></script>
+	<script src="http://cdn.healthdatamanagement.com/media/js/fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="http://cdn.healthdatamanagement.com/media/js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" />
+		
+
+		
+						
+			
+
+					
+			
+		 	 		
+<style type="text/css">
+	#fancybox-wrap {padding-right:0px !important;}
+	div#fancybox-wrap {padding-right:0px !important;}
+	#fancybox-bg-n {background-image:none !important;display:none !important;}
+	#fancybox-bg-e {background-image:none !important;display:none !important;}
+	#fancybox-bg-w {background-image:none !important;display:none !important;}
+	#fancybox-bg-s {background-image:none !important;display:none !important;}
+	#fancybox-bg-se {background-image:none !important;display:none !important;}
+	#fancybox-bg-sw {background-image:none !important;display:none !important;}
+	#fancybox-bg-ne {background-image:none !important;display:none !important;}
+	#fancybox-bg-nw {background-image:none !important;display:none !important;}
+</style>
+							<script type="text/javascript">
+								var welcomeCookie = "hdm_welcome_yes";
+								var frequency;
+								var expire = new Date();
+								expire.setTime(1381020835000);
+
+									if(welcomeCookie != "hdm_welcome_undefined" && welcomeCookie != null && screen.width > 768) {
+										if ((document.cookie.indexOf(welcomeCookie)==-1)) {
+							  			var tomorrow = new Date();
+							        if(frequency == "undefined" || frequency == null){
+							        	frequency = 24*60*60*1000;
+							        }
+							        var nowPlus =  tomorrow.getTime() + frequency;
+							        tomorrow.setTime(nowPlus);
+							        document.cookie = welcomeCookie+'='+ tomorrow.getTime()+'; path=/; domain=.healthdatamanagement.com; expires=' +expire.toGMTString();
+
+											$(document).ready(function() {
+												/* Using custom settings */
+												$("#inline-welcome").fancybox({
+													'padding': 0,
+													'margin': 0,
+													'width': '100%',
+													'height': '100%',
+					                'overlayOpacity': 1,
+					                'autoScale': true,
+					                'autoDimensions': 'false',
+					                'showCloseButton': false,
+					                'enableEscapeButton': true,
+					                'hideOnContentClick': false,
+					                'type': "iframe",
+					                'scrolling': "no",
+													'onComplete' : function() {
+					  								var timeoutID;
+					  								timeoutID = window.setTimeout( function()
+														{ jQuery.fancybox.close(); }, 10000 );
+														}
+												}).trigger('click');
+											});
+										}
+									}
+						  </script>
+
+
+  		<link rel="stylesheet" type="text/css" media="Screen" href="http://cdn.healthdatamanagement.com/css/style.css" />
+	  <link rel="stylesheet" type="text/css" media="Screen" href="http://cdn.healthdatamanagement.com/css/jquery.tooltip.css" />
+	  <link rel="stylesheet" type="text/css" href="http://cdn.healthdatamanagement.com/media/js/jcarousel/skins/tango/skin.css" />
+	  <link rel="stylesheet" type="text/css" href="http://cdn.healthdatamanagement.com/css/basic.css" />
+	  <link rel="stylesheet" type="text/css" href="http://cdn.healthdatamanagement.com/css/boxes.css" />
+	  <link rel="stylesheet" type="text/css" href="http://cdn.healthdatamanagement.com/css/override.css" />
+	  <link rel="stylesheet" type="text/css" href="/css/jquery.tweet.css" />
+	  <link rel="stylesheet" type="text/css" href="/css/zoomfixes.css" />
+	<!--[if IE 6]>
+		<link rel="stylesheet" type="text/css" media="Screen" href="/css/style.css" />
+	  <link rel="stylesheet" type="text/css" media="Screen" href="/css/jquery.tooltip.css" />
+	  <link rel="stylesheet" type="text/css" href="http://cdn.healthdatamanagement.com/media/js/jcarousel/skins/tango/skin.css" />
+	  <link rel="stylesheet" type="text/css" href="/css/basic.css" />
+	  <link rel="stylesheet" type="text/css" href="/css/boxes.css" />
+	  <link rel="stylesheet" type="text/css" href="/css/override.css" />
+	<![endif]-->
+
+				
+ 	<script src="http://cdn.healthdatamanagement.com/media/js/jquery.jcarousel.js" type="text/javascript"></script>
+	<script src="http://cdn.healthdatamanagement.com/media/js/jquery.simplemodal.js" type="text/javascript"></script>
+  <!--<script type="text/javascript" src="js/jquery.dimensions.js"></script>-->
+  <script src="http://cdn.healthdatamanagement.com/media/js/jquery.tooltip.js" type="text/javascript"></script>
+	<script src="/custom/js/utilities.js" type="text/javascript"></script>
+
+    <!--[if lt IE 9]>
+    <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+    <![endif]-->
+
+	<!--[if IE 7]>
+    <style>
+		#two-col-layout {
+			overflow:visible;
+		}
+		#footer {
+			display:inline-block;
+		}
+		#content {
+			display:inline-block;
+		}
+    </style>
+  <![endif]-->
+
+    <!--[if lt IE 7]>
+    <script src="http://cdn.healthdatamanagement.com/media/js/ie7/IE9.js"></script>
+  <![endif]-->
+  
+  <!--[if IE 6]>
+    <style>
+	  .web-search-box {
+	   	width: 175px;
+		}
+		.index-2col .col1 {
+	   margin: 0 15px 0 0;
+	   width: 300px;
+		}
+		.col2-text {
+			margin-right: 0px;
+		}
+    </style>
+  <![endif]-->
+
+	<script type="text/javascript">function addClassNames() { return false; }</script>
+
+	
+	
+
+	<link rel="alternate" type="application/rss+xml" href="http://www.healthdatamanagement.com/reader_services/rss.html" title="Health Data Management - RSS Feeds">
+
+	<script type="text/javascript">
+	addOnLoadEvent('if (document.getElementById("ranking-table")) alternate("ranking-table");');
+	</script>
+
+ <script type="text/javascript">
+  _bizo_data_partner_id = "417";
+</script>
+<script type="text/javascript">
+	(function(){var b,a,u;a=document.createElement("script");a.type="text/javascript";a.async=true;u=(window.location.protocol==="https:"?"https://sjs.":"http://js.")+"bizographics.com/insight.min.js";a.src=u;b=document.getElementsByTagName("script")[0];return b.parentNode.insertBefore(a,b)})();
+</script>
+<noscript>
+  <img height="1" width="1" alt="" style="display:none;" src="//www.bizographics.com/collect/?pid=417&fmt=gif" />
+</noscript>
+
+	
+<!-- Start Google Analytics Code -->
+<!-- Universal GA code for all sites -->
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  var pluginUrl = (('https:' == document.location.protocol) ?
+   'https://www.' : 'http://www.') +
+   'google-analytics.com/plugins/ga/inpage_linkid.js';
+	_gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+	_gaq.push(
+	['_setAccount', 'UA-219761-39'],
+    ['_setDomainName', 'healthdatamanagement.com'],
+	['_setCustomVar', 1, 'Content-Type', 'Story--20130923--46626--Joseph Goedert', 3],
+	
+	['_setCustomVar', 3, 'User-Type', 'non-registered-user', 1],
+	['_setCustomVar', 4, 'OFIE', 'ofieSmall', 3],
+	['_setAllowLinker', true]
+  );
+
+
+
+  _gaq.push(['_trackPageview', '']);
+
+
+
+    (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+
+
+		<script type="text/javascript" src="http://cdn.healthdatamanagement.com/media/js/jquery.functions.js"></script>
+
+		
+  
+  	
+		
+		
+	
+	
+	
+	
+
+			
+		
+
+		
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+		
+	
+	
+
+
+			<script type="text/javascript">
+			(function() {
+				var useSSL = 'https:' == document.location.protocol;
+				var src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+				document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+			})();
+		</script> 
+		<script>
+		
+var smallbanner = googletag.defineSlot("/16059533/HealthDataManagement/Channel/MobileTechnology", [468, 60], "smallbanner")
+	.addService(googletag.pubads())
+	.setTargeting("hdm_pos", "smallbanner");
+var leaderboard = googletag.defineSlot("/16059533/HealthDataManagement/Channel/MobileTechnology", [728, 90], "leaderboard")
+	.addService(googletag.pubads())
+	.setTargeting("hdm_pos", "leaderboard");
+var peelback = googletag.defineOutOfPageSlot("/16059533/HealthDataManagement/Channel/MobileTechnology", "peelback")
+	.addService(googletag.pubads())
+	.setTargeting("hdm_pos", "peelback");
+var topbutton = googletag.defineSlot("/16059533/HealthDataManagement/Channel/MobileTechnology", [120, 90], "topbutton")
+	.addService(googletag.pubads())
+	.setTargeting("hdm_pos", "topbutton");
+var searchad = googletag.defineSlot("/16059533/HealthDataManagement/Channel/MobileTechnology", [150, 48], "searchad")
+	.addService(googletag.pubads())
+	.setTargeting("hdm_pos", "searchad");
+var pushdown = googletag.defineSlot("/16059533/HealthDataManagement/Channel/MobileTechnology", [[970, 66],[970, 90]], "pushdown")
+	.addService(googletag.pubads())
+	.setTargeting("hdm_pos", "pushdown");
+var bigbox1 = googletag.defineSlot("/16059533/HealthDataManagement/Channel/MobileTechnology", [[300, 250],[300, 600]], "bigbox1")
+	.addService(googletag.pubads())
+	.setTargeting("hdm_pos", "bigbox1");
+var bigbox2 = googletag.defineSlot("/16059533/HealthDataManagement/Channel/MobileTechnology", [[300, 250],[300, 600]], "bigbox2")
+	.addService(googletag.pubads())
+	.setTargeting("hdm_pos", "bigbox2");
+var bigbox3 = googletag.defineSlot("/16059533/HealthDataManagement/Channel/MobileTechnology", [300, 250], "bigbox3")
+	.addService(googletag.pubads())
+	.setTargeting("hdm_pos", "bigbox3");
+var bigbox4 = googletag.defineSlot("/16059533/HealthDataManagement/Channel/MobileTechnology", [300, 250], "bigbox4")
+	.addService(googletag.pubads())
+	.setTargeting("hdm_pos", "bigbox4");
+var rightbutton1 = googletag.defineSlot("/16059533/HealthDataManagement/Channel/MobileTechnology", [120, 90], "rightbutton1")
+	.addService(googletag.pubads())
+	.setTargeting("hdm_pos", "rightbutton1");
+var rightbutton2 = googletag.defineSlot("/16059533/HealthDataManagement/Channel/MobileTechnology", [120, 90], "rightbutton2")
+	.addService(googletag.pubads())
+	.setTargeting("hdm_pos", "rightbutton2");
+var rightbutton3 = googletag.defineSlot("/16059533/HealthDataManagement/Channel/MobileTechnology", [120, 90], "rightbutton3")
+	.addService(googletag.pubads())
+	.setTargeting("hdm_pos", "rightbutton3");
+var rightbutton4 = googletag.defineSlot("/16059533/HealthDataManagement/Channel/MobileTechnology", [120, 90], "rightbutton4")
+	.addService(googletag.pubads())
+	.setTargeting("hdm_pos", "rightbutton4");
+var rightbutton5 = googletag.defineSlot("/16059533/HealthDataManagement/Channel/MobileTechnology", [120, 90], "rightbutton5")
+	.addService(googletag.pubads())
+	.setTargeting("hdm_pos", "rightbutton5");
+var rightbutton6 = googletag.defineSlot("/16059533/HealthDataManagement/Channel/MobileTechnology", [120, 90], "rightbutton6")
+	.addService(googletag.pubads())
+	.setTargeting("hdm_pos", "rightbutton6");
+var bottombanner = googletag.defineSlot("/16059533/HealthDataManagement/Channel/MobileTechnology", [728, 90], "bottombanner")
+	.addService(googletag.pubads())
+	.setTargeting("hdm_pos", "bottombanner");
+var pubbar = googletag.defineSlot("/16059533/HealthDataManagement/Channel/MobileTechnology", [120, 60], "pubbar")
+	.addService(googletag.pubads())
+	.setTargeting("hdm_pos", "pubbar");
+var pubbarLeft = googletag.defineSlot("/16059533/HealthDataManagement/Channel/MobileTechnology", [120, 60], "pubbarLeft")
+	.addService(googletag.pubads())
+	.setTargeting("hdm_pos", "pubbarLeft");
+var wallpaper = googletag.defineSlot("/16059533/HealthDataManagement/Channel/MobileTechnology", [1351, 1024], "wallpaper")
+	.addService(googletag.pubads())
+	.setTargeting("hdm_pos", "wallpaper");
+var pillarLeft = googletag.defineSlot("/16059533/HealthDataManagement/Channel/MobileTechnology", [188, 1050], "pillarLeft")
+	.addService(googletag.pubads())
+	.setTargeting("hdm_pos", "pillarLeft");
+var pillarRight = googletag.defineSlot("/16059533/HealthDataManagement/Channel/MobileTechnology", [188, 1050], "pillarRight")
+	.addService(googletag.pubads())
+	.setTargeting("hdm_pos", "pillarRight");
+googletag.pubads().enableSyncRendering();
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+		</script>
+		
+
+<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(window).ready(function() {
+	$('.share-linkedin').click(function() {
+	_gaq.push(['_trackSocial', 'LinkedIn', 'Share', 'FDA Issues Final Guidance on Medical Mobile Applications - HDM Latest News Article', '/news/fda-final-guidance-on-medical-mobile-applications-46626-1.html']);
+	});
+});
+</script>
+
+</head>
+
+<body id="article">
+
+	
+			
+							<div id="peelback" >
+	<script type="text/javascript">
+		googletag.display("peelback");
+	</script>
+</div>
+					
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      status     : true, // check login status
+      cookie     : true, // enable cookies to allow the server to access the session
+      xfbml      : true  // parse XFBML
+    });
+    // Additional initialization code here
+    		FB.Event.subscribe('edge.create', function(targetUrl) {
+		  _gaq.push(['_trackSocial', 'facebook', 'like', 'FDA Issues Final Guidance on Medical Mobile Applications - HDM Latest News Article', '/news/fda-final-guidance-on-medical-mobile-applications-46626-1.html']);
+		});
+		  };
+  // Load the SDK Asynchronously
+  (function(d){
+     var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement('script'); js.id = id; js.async = true;
+     js.src = "//connect.facebook.net/en_US/all.js";
+     ref.parentNode.insertBefore(js, ref);
+   }(document));
+</script>
+
+			<a id="inline-welcome" href="/ad_includes/welcome.html" class="iframe"></a>
+		<a id="inline-custom-interstitial" href="/ad_includes/custom_interstitial_toggle.html" class="iframe"></a>
+	
+			<a id="inline" href="/ad_includes/interstitial.html" class="iframe"></a>
+	
+
+<div id="wrapper">
+
+	
+	
+			<style>  .wallpaper_ad_left {  	margin-left:-188px; position:fixed;  } .wallpaper_ad_right {  	margin-left:1100px; position:fixed;  }  </style> 
+ <!--[if lt IE 8]> <style>  .fixed_ad {  	display:none;  }  .absolute_ad { 	display:none;  } .skin_ad { 	display:none; } .wallpaper_ad_left { 	display:none; }  .wallpaper_ad_right { 	display:none; }  .pillar_ad_left { 	display:none; }  .pillar_ad_right { 	display:none; }  </style> <![endif]-->
+	
+										<div class="wallpaper_ad_left"><div id="pillarLeft" style="width: 188px;height: 1050px;">
+	<script type="text/javascript">
+		googletag.display("pillarLeft");
+	</script>
+</div></div>
+
+<div class="wallpaper_ad_right"><div id="pillarRight" style="width: 188px;height: 1050px;">
+	<script type="text/javascript">
+		googletag.display("pillarRight");
+	</script>
+</div></div>
+					
+
+	
+		
+	<div id="header" class="clearfix">
+    <div id="header-content">
+        <div class="leaderboard-ad left">
+            <div id="leaderboard" style="width: 728px;height: 90px;">
+	<script type="text/javascript">
+		googletag.display("leaderboard");
+	</script>
+</div>
+        </div>
+        <div class="leaderboard-ad2 right">
+            <div id="topbutton" style="width: 120px;height: 90px;">
+	<script type="text/javascript">
+		googletag.display("topbutton");
+	</script>
+</div>
+        </div>
+    </div>
+</div>
+
+<div id="header-bottom-wrapper">
+    <div id="header-bottom" class="clearfix">
+        <div id="logo" class="left">
+									<a href="http://www.healthdatamanagement.com"><img src="http://cdn.healthdatamanagement.com/media/ui/logo-hdm-trans.png" alt="Health Data Management" /></a>
+				        </div>
+        <div id="search" class="right">
+            <div id="search-date">
+            							
+			Saturday, October  5, 2013             </div>
+            <div id="search-box" class="clearfix right">
+			<form name="search" id="form1" action="/search/index.html">
+			<input type="hidden" name="zkDo" value="search" id="zkDo" />
+			<input type="hidden" name="frommonth" value="04" />
+			<input type="hidden" name="fromday" value="05" />
+			<input type="hidden" name="fromyear" value="2012" />
+			<input type="hidden" name="tomonth" value="10" />
+			<input type="hidden" name="today" value="05" />
+			<input type="hidden" name="toyear" value="2013" />
+			<input type="hidden" name="publication" value="all_articles" />
+				<div class="left" id="search-text">
+					<input name="query" id="term" />
+				</div>
+				<div class="left" id="search-button">
+					<input type="image" src="http://cdn.healthdatamanagement.com/media/ui/search-button.png" />
+				</div>
+			</form>
+            </div><!-- search box -->
+								  
+				  													<div class="right" id="powered-by">
+							<div id="searchad" style="width: 150px;height: 48px;">
+	<script type="text/javascript">
+		googletag.display("searchad");
+	</script>
+</div>
+							</div>
+															        </div><!-- search -->
+    </div><!-- header-bottom -->
+</div><!-- header-bottom-wrapper -->
+
+				
+<script type="text/javascript">
+
+	$(document).ready(function() {
+		var delayAmount=100;
+		$("#menu-1").hover(
+		  function () {
+			$("#hidden-8").delay(delayAmount).fadeIn();
+			$("#menu-1").addClass("on");
+		  }, 
+		  function () {
+			$("#hidden-8").hide();
+			$("#hidden-8").clearQueue();
+			$("#menu-1").removeClass("on");
+		  }
+		);
+
+		$("#menu-2").hover(
+		  function () {
+			$("#hidden-7").delay(delayAmount).fadeIn();
+			$("#menu-2").addClass("on");
+		  }, 
+		  function () {
+			$("#hidden-7").hide();
+			$("#hidden-7").clearQueue();
+			$("#menu-2").removeClass("on");
+		  }
+		);
+		
+		$("#menu-3").hover(
+		  function () {
+			$("#hidden-6").delay(delayAmount).fadeIn();
+			$("#menu-3").addClass("on");
+		  }, 
+		  function () {
+			$("#hidden-6").hide();
+			$("#hidden-6").clearQueue();
+			$("#menu-3").removeClass("on");
+		  }
+		);
+		
+		$("#menu-4").hover(
+		  function () {
+			$("#hidden-5").delay(delayAmount).fadeIn();
+			$("#menu-4").addClass("on");
+		  }, 
+		  function () {
+			$("#hidden-5").hide();
+			$("#hidden-5").clearQueue();
+			$("#menu-4").removeClass("on");
+		  }
+		);
+		$("#menu-5").hover(
+		  function () {
+			$("#hidden-4").delay(delayAmount).fadeIn();
+			$("#menu-5").addClass("on");
+		  }, 
+		  function () {
+			$("#hidden-4").hide();
+			$("#hidden-4").clearQueue();
+			$("#menu-5").removeClass("on");
+		  }
+		);
+
+		$("#menu-6").hover(
+		  function () {
+			$("#hidden-3").delay(delayAmount).fadeIn();
+			$("#menu-6").addClass("on");
+		  }, 
+		  function () {
+			$("#hidden-3").hide();
+			$("#hidden-3").clearQueue();
+			$("#menu-6").removeClass("on");
+		  }
+		);
+		
+		$("#menu-7").hover(
+		  function () {
+			$("#hidden-2").delay(delayAmount).fadeIn();
+			$("#menu-7").addClass("on");
+		  }, 
+		  function () {
+			$("#hidden-2").hide();
+			$("#hidden-2").clearQueue();
+			$("#menu-7").removeClass("on");
+		  }
+		);
+		
+		$("#menu-8").hover(
+		  function () {
+			$("#hidden-1").delay(delayAmount).fadeIn();
+			$("#menu-8").addClass("on");
+		  }, 
+		  function () {
+			$("#hidden-1").hide();
+			$("#hidden-1").clearQueue();
+			$("#menu-8").removeClass("on");
+		  }
+		);
+		
+		$("#menu-9").hover(
+		  function () {
+			$("#hidden-9").delay(delayAmount).fadeIn();
+			$("#menu-9").addClass("on");
+		  }, 
+		  function () {
+			$("#hidden-9").hide();
+			$("#hidden-9").clearQueue();
+			$("#menu-9").removeClass("on");
+		  }
+		);
+		
+		$("#hidden-1").hover(
+		  function () {
+			$("#hidden-1").show();
+			
+		  }, 
+		  function () {
+			$("#hidden-1").hide();
+		  }
+		);
+		$("#hidden-2").hover(
+		  function () {
+			$("#hidden-2").show();
+		  }, 
+		  function () {
+			$("#hidden-2").hide();
+		  }
+		);
+		$("#hidden-3").hover(
+		  function () {
+			$("#hidden-3").show();
+		  }, 
+		  function () {
+			$("#hidden-3").hide();
+		  }
+		);
+		$("#hidden-4").hover(
+		  function () {
+			$("#hidden-4").show();
+		  }, 
+		  function () {
+			$("#hidden-4").hide();
+		  }
+		);
+		$("#hidden-5").hover(
+		  function () {
+			$("#hidden-5").show();
+		  }, 
+		  function () {
+			$("#hidden-5").hide();
+		  }
+		);
+		$("#hidden-6").hover(
+		  function () {
+			$("#hidden-6").show();
+		  }, 
+		  function () {
+			$("#hidden-6").hide();
+		  }
+		);
+		$("#hidden-7").hover(
+		  function () {
+			$("#hidden-7").show();
+		  }, 
+		  function () {
+			$("#hidden-7").hide();
+		  }
+		);
+		$("#hidden-8").hover(
+		  function () {
+			$("#hidden-8").show();
+		  }, 
+		  function () {
+			$("#hidden-8").hide();
+		  }
+		);
+		$("#hidden-9").hover(
+		  function () {
+			$("#hidden-9").show();
+		  }, 
+		  function () {
+			$("#hidden-9").hide();
+		  }
+		);
+	});
+
+</script>
+
+<div id="primary-menu">
+    <div class="nav-container">
+        <ul class="nav-items">
+			<a href="http://www.healthdatamanagement.com/policy-and-regulation/"><li class="first off nav-item" id="menu-1">Policy &<br />Regulation</li></a>
+            <a href="http://www.healthdatamanagement.com/electronic-health-records/"><li class="off nav-item" id="menu-2">EHR</li></a>
+            <a href="http://www.healthdatamanagement.com/health-information-exchange/"><li class="off nav-item" id="menu-3">Health Info<br />Exchange</li></a>
+            <a href="http://www.healthdatamanagement.com/revenue-cycle-and-payments/"><li class="off nav-item" id="menu-4">Revenue Cycle<br />& Payments</li></a>
+            <a href="http://www.healthdatamanagement.com/chronic-care/"><li class="off nav-item" id="menu-5">chronic<br />care</li></a>
+            <a href="http://www.healthdatamanagement.com/mobile-technology/"><li class="off nav-item" id="menu-6">mobile<br />technology</li></a>
+            <a href="http://www.healthdatamanagement.com/resource-center/"><li class="off nav-item" id="menu-9">multimedia</li></a>
+            <a href="http://www.healthdatamanagement.com/sponsored/"><li class="off nav-item" id="menu-7">web seminars &<br />white papers</li></a>
+            <a href="http://www.healthdatamanagement.com/resource-center/"><li class="off nav-item" id="menu-8">resource<br />center</li></a>
+		</ul>
+    </div><!-- content center -->
+</div><!-- primary-menu -->
+
+
+
+
+
+<div id="hidden-3" class="hidden-div hidden-div-btn" style="display:none;">
+    <div class="clear">
+    
+      	
+      <div class="col-1 left">
+	      <h2>Topics</h2>
+	      	      	<div class="blog-watch-item">
+		      	<a href="/channels/hardware.html">Hardware</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/mobile-technology.html">Mobile Tech</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/wireless-mobile.html">Wireless/Mobile</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/hospitals.html">Hospitals</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/group-practices.html">Group Practices</a>
+		      </div>
+					    </div>
+      
+	          <div class="col-2 left">
+				<h2>Highlights</h2>
+				        
+        	        
+	        <div class="article-related-links-item">
+	            <a href="/issues/20_4/ipad-mobile-computing-devices-tablets-44243-1.html">Tale of the Tablets</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item">
+	            <a href="/news/mobile-computing-devices-physician-ipad-hospital-43973-1.html">Survey: Docs Love Mobile Devices, I.T. Departments Don&#146;t</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item">
+	            <a href="/news/mobile-computing-bring-your-own-device-healthcare-44005-1.html">&#145;Bring Your Own Device&#146; a Mixed Bag for Health Care</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item">
+	            <a href="/news/smoking-cessation-decision-support-dental-aetna-43958-1.html">Aetna Wants Dentists to Push Smoking Cessation via iPads</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item last-item">
+	            <a href="/news/breach-notification-hipaa-privacy-security-43956-1.html">Laptop Loaded with PHI Stolen from Lexington Clinic</a>
+	        </div>         
+	                                       
+	            </div>
+      
+            <div class="col-3 left">
+      					      	
+      
+      		<h2>Blogs</h2>	
+          
+          																				
+	          <div class="clearfix person">
+	              
+	              	              																										
+																		              	              <div class="carousel-item-image left">
+	                  <img src="http://cdn.healthdatamanagement.com/media/newspics/KLAS.jpg" />
+	              </div>
+	              	              
+	              <div class="left item">
+	                  <div class="carousel-item-title">
+	                      <a href="http://www.healthdatamanagement.com/blogs/essentials-for-selecting-your-next-EMR-46639-1.html">3 Essentials for Selecting Your Next EMR</a>
+										</div>
+										<div class="carousel-item-desc"> </div>
+	              </div>
+	          </div>
+          															
+	          <div class="clearfix person-last">
+	              
+	              	              																										
+																		              	              <div class="carousel-item-image left">
+	                  <img src="http://cdn.healthdatamanagement.com/media/newspics/Hersh3.jpg" />
+	              </div>
+	              	              
+	              <div class="left item">
+	                  <div class="carousel-item-title">
+	                      <a href="http://www.healthdatamanagement.com/blogs/physician-computer-usage-46586-1.html">Do Physicians Spend Too Much Time With Computers?</a>
+										</div>
+										<div class="carousel-item-desc"> </div>
+	              </div>
+	          </div>
+                              
+          <div id="bankthink-see-all">
+              <a href="http://www.healthdatamanagement.com/blog/"><img class="morebutton" src="http://cdn.healthdatamanagement.com/media/ui/btn-more.png"></a>
+          </div> 
+                        
+      </div>
+      
+            <div class="col-4 left">
+          <h2>Slide Shows</h2>
+          
+                              	
+                    
+          	
+                    
+          	          <div id="multimedia-desc">
+	              <strong><a href="http://www.healthdatamanagement.com/resource-center/?id=46697">10 Big Question Marks About ICD-10</a>:</strong> 	          </div>
+										
+						  						  						  						  							  						
+								          <div id="multimedia-image">
+		              <a href="http://www.healthdatamanagement.com/resource-center/?id=46697"><img width="212" src="http://cdn.healthdatamanagement.com/media/gallery/cover-p185qjgnv914213j8mgh1iup1g9p3.jpg" /></a>
+		          </div>
+	                                	
+	          <div id="multimedia-see-all">
+	              <a href="/resource-center/?media_type=slideshow"><img class="morebutton" src="http://cdn.healthdatamanagement.com/media/ui/btn-more.png"></a>
+	          </div>
+          
+      </div>
+      
+    </div>
+</div>
+
+
+
+<div id="hidden-4" class="hidden-div hidden-div-btn" style="display:none;">
+    <div class="clear">
+    
+      	
+      <div class="col-1 left">
+	      <h2>Topics</h2>
+	      	      	<div class="blog-watch-item">
+		      	<a href="/channels/consumer-health.html">Consumer Health</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/disease-management.html">Disease Management</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/hospitals.html">Hospitals</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/group-practices.html">Group Practices</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/payers.html">Payers</a>
+		      </div>
+					    </div>
+      
+	          <div class="col-2 left">
+				<h2>Highlights</h2>
+				        
+        	        
+	        <div class="article-related-links-item">
+	            <a href="/issues/20_4/phr-personal-health-records-consumers-clinicians-44241-1.html">Is the Industry Ready to Get Personal?</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item">
+	            <a href="/news/hie-nationwide-health-information-network-44451-1.html">ONC Seeks Input on NwHIN Governance</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item">
+	            <a href="/news/hhs-medication-adherence-chronic-adults-44293-1.html">HHS Seeks Answers on Medication Non-Adherence</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item">
+	            <a href="/news/Humana-Cares-Stanford-chronic-care-CDSMP-44336-1.html">Humana, National Council on Aging Partner in Stanford Pilot</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item last-item">
+	            <a href="/news/medicare-medicaid-home-care-telemedicine-reform-44401-1.html">Final Rule Encourages Medicaid Home and Community-Based Care</a>
+	        </div>         
+	                                       
+	            </div>
+      
+            <div class="col-3 left">
+      					      	
+      
+      		<h2>Blogs</h2>	
+          
+          																				
+	          <div class="clearfix person">
+	              
+	              	              																										
+																		              	              <div class="carousel-item-image left">
+	                  <img src="http://cdn.healthdatamanagement.com/media/newspics/KLAS.jpg" />
+	              </div>
+	              	              
+	              <div class="left item">
+	                  <div class="carousel-item-title">
+	                      <a href="http://www.healthdatamanagement.com/blogs/essentials-for-selecting-your-next-EMR-46639-1.html">3 Essentials for Selecting Your Next EMR</a>
+										</div>
+										<div class="carousel-item-desc"> </div>
+	              </div>
+	          </div>
+          															
+	          <div class="clearfix person-last">
+	              
+	              	              																										
+																		              	              <div class="carousel-item-image left">
+	                  <img src="http://cdn.healthdatamanagement.com/media/newspics/Hersh3.jpg" />
+	              </div>
+	              	              
+	              <div class="left item">
+	                  <div class="carousel-item-title">
+	                      <a href="http://www.healthdatamanagement.com/blogs/physician-computer-usage-46586-1.html">Do Physicians Spend Too Much Time With Computers?</a>
+										</div>
+										<div class="carousel-item-desc"> </div>
+	              </div>
+	          </div>
+                              
+          <div id="bankthink-see-all">
+              <a href="http://www.healthdatamanagement.com/blog/"><img class="morebutton" src="http://cdn.healthdatamanagement.com/media/ui/btn-more.png"></a>
+          </div> 
+                        
+      </div>
+      
+            <div class="col-4 left">
+          <h2>Slide Shows</h2>
+          
+                              	
+                    
+          	
+                    
+          	          <div id="multimedia-desc">
+	              <strong><a href="http://www.healthdatamanagement.com/resource-center/?id=46697">10 Big Question Marks About ICD-10</a>:</strong> 	          </div>
+										
+						  						  						  						  							  						
+								          <div id="multimedia-image">
+		              <a href="http://www.healthdatamanagement.com/resource-center/?id=46697"><img width="212" src="http://cdn.healthdatamanagement.com/media/gallery/cover-p185qjgnv914213j8mgh1iup1g9p3.jpg" /></a>
+		          </div>
+	                                	
+	          <div id="multimedia-see-all">
+	              <a href="/resource-center/?media_type=slideshow"><img class="morebutton" src="http://cdn.healthdatamanagement.com/media/ui/btn-more.png"></a>
+	          </div>
+          
+      </div>
+      
+    </div>
+</div>
+
+
+
+<div id="hidden-5" class="hidden-div hidden-div-btn" style="display:none;">
+    <div class="clear">
+    
+      	
+      <div class="col-1 left">
+	      <h2>Topics</h2>
+	      	      	<div class="blog-watch-item">
+		      	<a href="/channels/coding.html">Coding</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/document-management.html">Document Management</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/electronic-data-interchange.html">Electronic Data Interchange</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/practice-management.html">Practice Management</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/revenue-cycle-management.html">Revenue Cycle Management</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/hospitals.html">Hospitals</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/payers.html">Payers</a>
+		      </div>
+					    </div>
+      
+	          <div class="col-2 left">
+				<h2>Highlights</h2>
+				        
+        	        
+	        <div class="article-related-links-item">
+	            <a href="/issues/20_5/hospital-physician-i.t.-information-technology-ehr-44378-1.html">The Price of I.T. Progress?</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item">
+	            <a href="/news/american-medical-association-workers-compensation-claims-44408-1.html">AMA Pushes E-Billing of Workers&#146; Comp Claims</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item">
+	            <a href="/news/HIMSS12-Aetna-CEO-insurers-face-extinction-44041-1.html">Aetna CEO: Health Insurers Face Extinction</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item">
+	            <a href="/news/medicaid-audits-claims-revenue-cycle-44205-1.html">Review of Medicaid Audit Program Finds Big Flaws</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item last-item">
+	            <a href="/news/icd-10-codes-coding-hhs-compliance-survey-readiness-44204-1.html">ICD-10 Survey: Readiness Poor Across the Board</a>
+	        </div>         
+	                                       
+	            </div>
+      
+            <div class="col-3 left">
+      					      	
+      
+      		<h2>Blogs</h2>	
+          
+          																				
+	          <div class="clearfix person">
+	              
+	              	              																										
+																		              	              <div class="carousel-item-image left">
+	                  <img src="http://cdn.healthdatamanagement.com/media/newspics/KLAS.jpg" />
+	              </div>
+	              	              
+	              <div class="left item">
+	                  <div class="carousel-item-title">
+	                      <a href="http://www.healthdatamanagement.com/blogs/essentials-for-selecting-your-next-EMR-46639-1.html">3 Essentials for Selecting Your Next EMR</a>
+										</div>
+										<div class="carousel-item-desc"> </div>
+	              </div>
+	          </div>
+          															
+	          <div class="clearfix person-last">
+	              
+	              	              																										
+																		              	              <div class="carousel-item-image left">
+	                  <img src="http://cdn.healthdatamanagement.com/media/newspics/Hersh3.jpg" />
+	              </div>
+	              	              
+	              <div class="left item">
+	                  <div class="carousel-item-title">
+	                      <a href="http://www.healthdatamanagement.com/blogs/physician-computer-usage-46586-1.html">Do Physicians Spend Too Much Time With Computers?</a>
+										</div>
+										<div class="carousel-item-desc"> </div>
+	              </div>
+	          </div>
+                              
+          <div id="bankthink-see-all">
+              <a href="http://www.healthdatamanagement.com/blog/"><img class="morebutton" src="http://cdn.healthdatamanagement.com/media/ui/btn-more.png"></a>
+          </div> 
+                        
+      </div>
+      
+            <div class="col-4 left">
+          <h2>Slide Shows</h2>
+          
+                              	
+                    
+          	
+                    
+          	          <div id="multimedia-desc">
+	              <strong><a href="http://www.healthdatamanagement.com/resource-center/?id=46697">10 Big Question Marks About ICD-10</a>:</strong> 	          </div>
+										
+						  						  						  						  							  						
+								          <div id="multimedia-image">
+		              <a href="http://www.healthdatamanagement.com/resource-center/?id=46697"><img width="212" src="http://cdn.healthdatamanagement.com/media/gallery/cover-p185qjgnv914213j8mgh1iup1g9p3.jpg" /></a>
+		          </div>
+	                                	
+	          <div id="multimedia-see-all">
+	              <a href="/resource-center/?media_type=slideshow"><img class="morebutton" src="http://cdn.healthdatamanagement.com/media/ui/btn-more.png"></a>
+	          </div>
+          
+      </div>
+      
+    </div>
+</div>
+
+
+
+<div id="hidden-6" class="hidden-div hidden-div-btn" style="display:none;">
+    <div class="clear">
+    
+      	
+      <div class="col-1 left">
+	      <h2>Topics</h2>
+	      	      	<div class="blog-watch-item">
+		      	<a href="/channels/electronic-data-interchange.html">Electronic Data Interchange</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/health-information-exchange.html">Health Info Exchange</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/systems-integration.html">Systems Integration</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/cloud-computing.html">Cloud Computing</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/hospitals.html">Hospitals</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/payers.html">Payers</a>
+		      </div>
+					    </div>
+      
+	          <div class="col-2 left">
+				<h2>Highlights</h2>
+				        
+        	        
+	        <div class="article-related-links-item">
+	            <a href="/issues/20_2/accountable-care-revenue-cycle-health-reform-43919-1.html">Building Connections on the Care Continuum</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item">
+	            <a href="/news/ehr-electronic-health-records-meaningful-use-stage-2-44415-1.html">Consumer Advocate Slams AHA Position on Patient Access</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item">
+	            <a href="/news/him-health-information-management-medical-records-kloss-44414-1.html">What do HIM Departments Look Like in 2016?</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item">
+	            <a href="/news/medicare-medicaid-primary-care-initiative-cms-44317-1.html">CMS to Test New Primary Care Program in 7 States</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item last-item">
+	            <a href="/news/phr-personal-health-records-patient-portals-consumers-44313-1.html">Patient Portal Success Factors</a>
+	        </div>         
+	                                       
+	            </div>
+      
+            <div class="col-3 left">
+      					      	
+      
+      		<h2>Blogs</h2>	
+          
+          																				
+	          <div class="clearfix person">
+	              
+	              	              																										
+																		              	              <div class="carousel-item-image left">
+	                  <img src="http://cdn.healthdatamanagement.com/media/newspics/KLAS.jpg" />
+	              </div>
+	              	              
+	              <div class="left item">
+	                  <div class="carousel-item-title">
+	                      <a href="http://www.healthdatamanagement.com/blogs/essentials-for-selecting-your-next-EMR-46639-1.html">3 Essentials for Selecting Your Next EMR</a>
+										</div>
+										<div class="carousel-item-desc"> </div>
+	              </div>
+	          </div>
+          															
+	          <div class="clearfix person-last">
+	              
+	              	              																										
+																		              	              <div class="carousel-item-image left">
+	                  <img src="http://cdn.healthdatamanagement.com/media/newspics/Hersh3.jpg" />
+	              </div>
+	              	              
+	              <div class="left item">
+	                  <div class="carousel-item-title">
+	                      <a href="http://www.healthdatamanagement.com/blogs/physician-computer-usage-46586-1.html">Do Physicians Spend Too Much Time With Computers?</a>
+										</div>
+										<div class="carousel-item-desc"> </div>
+	              </div>
+	          </div>
+                              
+          <div id="bankthink-see-all">
+              <a href="http://www.healthdatamanagement.com/blog/"><img class="morebutton" src="http://cdn.healthdatamanagement.com/media/ui/btn-more.png"></a>
+          </div> 
+                        
+      </div>
+      
+            <div class="col-4 left">
+          <h2>Slide Shows</h2>
+          
+                              	
+                    
+          	
+                    
+          	          <div id="multimedia-desc">
+	              <strong><a href="http://www.healthdatamanagement.com/resource-center/?id=46697">10 Big Question Marks About ICD-10</a>:</strong> 	          </div>
+										
+						  						  						  						  							  						
+								          <div id="multimedia-image">
+		              <a href="http://www.healthdatamanagement.com/resource-center/?id=46697"><img width="212" src="http://cdn.healthdatamanagement.com/media/gallery/cover-p185qjgnv914213j8mgh1iup1g9p3.jpg" /></a>
+		          </div>
+	                                	
+	          <div id="multimedia-see-all">
+	              <a href="/resource-center/?media_type=slideshow"><img class="morebutton" src="http://cdn.healthdatamanagement.com/media/ui/btn-more.png"></a>
+	          </div>
+          
+      </div>
+      
+    </div>
+</div>
+
+
+
+<div id="hidden-7" class="hidden-div hidden-div-btn" style="display:none;">
+    <div class="clear">
+    
+      	
+      <div class="col-1 left">
+	      <h2>Topics</h2>
+	      	      	<div class="blog-watch-item">
+		      	<a href="/channels/health-analytics.html">Health Analytics</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/data-repositories.html">Data Repositories</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/decision-support.html">Decision Support</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/electronic-health-records.html">EHR</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/medication-management.html">Medication Management</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/vendor-news.html">Vendor News</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/hospitals.html">Hospitals</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/group-practices.html">Group Practices</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/medical-imaging.html">Medical Imaging</a>
+		      </div>
+					    </div>
+      
+	          <div class="col-2 left">
+				<h2>Highlights</h2>
+				        
+        	        
+	        <div class="article-related-links-item">
+	            <a href="/issues/20_5/EHR-electronic-health-records-hospital-physician-44380-1.html">EHR Success All in the Details</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item">
+	            <a href="/issues/20_5/hospital-information-system-vendors-revenue-his-44387-1.html">Top HIS Vendors by 2011 Revenue</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item">
+	            <a href="/issues/20_3/Clearing-the-Air-Around-Cloud-Computing-44114-1.html">Clearing the Air Around Cloud Computing</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item">
+	            <a href="/news/ehr-electronic-health-records-meaningful-use-44412-1.html">EHR Leaders Give Tips for Success</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item last-item">
+	            <a href="/news/interoperability-health-information-exchange-hie-connectathon-44330-1.html">Dates Set for Connectathon 2013 Interoperability Testing</a>
+	        </div>         
+	                                       
+	            </div>
+      
+            <div class="col-3 left">
+      					      	
+      
+      		<h2>Blogs</h2>	
+          
+          																				
+	          <div class="clearfix person">
+	              
+	              	              																										
+																		              	              <div class="carousel-item-image left">
+	                  <img src="http://cdn.healthdatamanagement.com/media/newspics/KLAS.jpg" />
+	              </div>
+	              	              
+	              <div class="left item">
+	                  <div class="carousel-item-title">
+	                      <a href="http://www.healthdatamanagement.com/blogs/essentials-for-selecting-your-next-EMR-46639-1.html">3 Essentials for Selecting Your Next EMR</a>
+										</div>
+										<div class="carousel-item-desc"> </div>
+	              </div>
+	          </div>
+          															
+	          <div class="clearfix person-last">
+	              
+	              	              																										
+																		              	              <div class="carousel-item-image left">
+	                  <img src="http://cdn.healthdatamanagement.com/media/newspics/Hersh3.jpg" />
+	              </div>
+	              	              
+	              <div class="left item">
+	                  <div class="carousel-item-title">
+	                      <a href="http://www.healthdatamanagement.com/blogs/physician-computer-usage-46586-1.html">Do Physicians Spend Too Much Time With Computers?</a>
+										</div>
+										<div class="carousel-item-desc"> </div>
+	              </div>
+	          </div>
+                              
+          <div id="bankthink-see-all">
+              <a href="http://www.healthdatamanagement.com/blog/"><img class="morebutton" src="http://cdn.healthdatamanagement.com/media/ui/btn-more.png"></a>
+          </div> 
+                        
+      </div>
+      
+            <div class="col-4 left">
+          <h2>Slide Shows</h2>
+          
+                              	
+                    
+          	
+                    
+          	          <div id="multimedia-desc">
+	              <strong><a href="http://www.healthdatamanagement.com/resource-center/?id=46697">10 Big Question Marks About ICD-10</a>:</strong> 	          </div>
+										
+						  						  						  						  							  						
+								          <div id="multimedia-image">
+		              <a href="http://www.healthdatamanagement.com/resource-center/?id=46697"><img width="212" src="http://cdn.healthdatamanagement.com/media/gallery/cover-p185qjgnv914213j8mgh1iup1g9p3.jpg" /></a>
+		          </div>
+	                                	
+	          <div id="multimedia-see-all">
+	              <a href="/resource-center/?media_type=slideshow"><img class="morebutton" src="http://cdn.healthdatamanagement.com/media/ui/btn-more.png"></a>
+	          </div>
+          
+      </div>
+      
+    </div>
+</div>
+
+
+
+<div id="hidden-8" class="hidden-div hidden-div-btn" style="display:none;">
+    <div class="clear">
+    
+      	
+      <div class="col-1 left">
+	      <h2>Topics</h2>
+	      	      	<div class="blog-watch-item">
+		      	<a href="/channels/data-security.html">Data Security</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/policy-and-regulation.html">Policies/Regulation</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/stimulus.html">Stimulus</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/hospitals.html">Hospitals</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/group-practices.html">Group Practices</a>
+		      </div>
+					      	<div class="blog-watch-item">
+		      	<a href="/channels/payers.html">Payers</a>
+		      </div>
+					    </div>
+      
+	          <div class="col-2 left">
+				<h2>Highlights</h2>
+				        
+        	        
+	        <div class="article-related-links-item">
+	            <a href="/issues/20_5/The-View-from-Inside-the-Supreme-Court-44393-1.html">The View from Inside the Supreme Court</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item">
+	            <a href="/issues/20_3/Which-Way-for-Data-Exchanges-44120-1.html">Which Way for Data Exchanges?</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item">
+	            <a href="/issues/20_2/mobile-health-in-the-regulatory-crosshairs-fda-43924-1.html">Mobile Health in the Regulatory Crosshairs</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item">
+	            <a href="/news/reform-employer-pay-or-play-accountable-care-44450-1.html">IRS Notices Address Employer Pay-or-Play Under Reform</a>
+	        </div>         
+	        
+	        <div class="article-related-links-item last-item">
+	            <a href="/news/cms-rule-regulatory-burden-executive-order-obama-44446-1.html">CMS Rule Aims to Cut Regulatory Burdens</a>
+	        </div>         
+	                                       
+	            </div>
+      
+            <div class="col-3 left">
+      					      	
+      
+      		<h2>Blogs</h2>	
+          
+          																				
+	          <div class="clearfix person">
+	              
+	              	              																										
+																		              	              <div class="carousel-item-image left">
+	                  <img src="http://cdn.healthdatamanagement.com/media/newspics/KLAS.jpg" />
+	              </div>
+	              	              
+	              <div class="left item">
+	                  <div class="carousel-item-title">
+	                      <a href="http://www.healthdatamanagement.com/blogs/essentials-for-selecting-your-next-EMR-46639-1.html">3 Essentials for Selecting Your Next EMR</a>
+										</div>
+										<div class="carousel-item-desc"> </div>
+	              </div>
+	          </div>
+          															
+	          <div class="clearfix person-last">
+	              
+	              	              																										
+																		              	              <div class="carousel-item-image left">
+	                  <img src="http://cdn.healthdatamanagement.com/media/newspics/Hersh3.jpg" />
+	              </div>
+	              	              
+	              <div class="left item">
+	                  <div class="carousel-item-title">
+	                      <a href="http://www.healthdatamanagement.com/blogs/physician-computer-usage-46586-1.html">Do Physicians Spend Too Much Time With Computers?</a>
+										</div>
+										<div class="carousel-item-desc"> </div>
+	              </div>
+	          </div>
+                              
+          <div id="bankthink-see-all">
+              <a href="http://www.healthdatamanagement.com/blog/"><img class="morebutton" src="http://cdn.healthdatamanagement.com/media/ui/btn-more.png"></a>
+          </div> 
+                        
+      </div>
+      
+            <div class="col-4 left">
+          <h2>Slide Shows</h2>
+          
+                              	
+                    
+          	
+                    
+          	          <div id="multimedia-desc">
+	              <strong><a href="http://www.healthdatamanagement.com/resource-center/?id=46697">10 Big Question Marks About ICD-10</a>:</strong> 	          </div>
+										
+						  						  						  						  							  						
+								          <div id="multimedia-image">
+		              <a href="http://www.healthdatamanagement.com/resource-center/?id=46697"><img width="212" src="http://cdn.healthdatamanagement.com/media/gallery/cover-p185qjgnv914213j8mgh1iup1g9p3.jpg" /></a>
+		          </div>
+	                                	
+	          <div id="multimedia-see-all">
+	              <a href="/resource-center/?media_type=slideshow"><img class="morebutton" src="http://cdn.healthdatamanagement.com/media/ui/btn-more.png"></a>
+	          </div>
+          
+      </div>
+      
+    </div>
+</div>
+
+<div id="hidden-2" style="display:none;" class="hidden-div">
+    <div class="clearfix">
+    	
+    	
+
+    	
+	
+	
+	
+<div id="data-tools-col-1" class="left">
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+								<h2>Upcoming Web Seminars</h2>
+																																	<div class="clearfix person">
+										          <div class="carousel-item-image left">
+										          	<img src="http://cdn.healthdatamanagement.com/media/newspics/hcata.gif" />
+										          </div>
+										          <div class="left item">
+											          <div class="carousel-item-title">
+											          	<a href="/web_seminars/-46627-1.html">Healthcare Reform: Implications for Your Health System</a>
+											          </div>
+											          <div class="carousel-item-desc">
+												          Sponsor: Health Catalyst<br />												          Date: October 8, 2013<br />
+												          Time: 01:00PM ET <br />
+												          Duration: 60 Mins												          												          </div>
+										          </div>
+									          </div>
+																	
+																														<div class="clearfix person">
+										          <div class="carousel-item-image left">
+										          	<img src="http://cdn.healthdatamanagement.com/media/newspics/hdmeditlogo.jpg" />
+										          </div>
+										          <div class="left item">
+											          <div class="carousel-item-title">
+											          	<a href="/web_seminars/-46653-1.html">Geography, Analytics and Population Health</a>
+											          </div>
+											          <div class="carousel-item-desc">
+												          												          Date: October 17, 2013<br />
+												          Time: 02:00PM ET <br />
+												          Duration: 1 Hour												          												          </div>
+										          </div>
+									          </div>
+																	
+																					
+																					
+	    				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+																					
+																					
+				
+				
+				
+				
+				
+				
+				
+																					
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+	    				
+				
+				
+				
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+				
+				
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+				
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+	    	
+       
+          
+          
+          
+          
+          
+          
+          <div class="clearfix">
+	          <div id="bankthink-see-all" class="right">
+	          	<a href="/web_seminars"><img src="http://cdn.healthdatamanagement.com/media/ui/btn-more.png" class="morebutton" /></a>
+	          </div>  
+          </div>                
+        </div>
+       
+				<div id="data-tools-col-2" class="left">
+        		<h2>White Papers</h2>
+        		
+                      	            <div class="article-related-links-item">
+                <a href="/white_papers/PCconnection-46689-1.html">Manage, Access, and Share Critical Patient Information</a>
+            </div>                                
+                        <div class="article-related-links-item">
+                <a href="/white_papers/nextgen-46692-1.html">Make ICD-10 easier!</a>
+            </div>                                
+                        <div class="article-related-links-item">
+                <a href="/white_papers/imprivata-46598-1.html">Secure Sign-On and Strong Authentication:  A More Secure Front Door</a>
+            </div>                                
+                        <div class="article-related-links-item">
+                <a href="/white_papers/kofax-46566-1.html">Making the First Mile&#153; of Healthcare Smarter</a>
+            </div>                                
+                        <div class="article-related-links-item">
+                <a href="/white_papers/health-46525-1.html">The Late-Binding&#153; Data Warehouse Explained:</a>
+            </div>                                
+                                                      
+            <div class="clearfix button-padding">
+                <div id="bankthink-see-all" class="right">
+                    <a href="/white_papers"><img src="http://cdn.healthdatamanagement.com/media/ui/btn-more.png" class="morebutton" /></a>
+                </div>  
+            </div>  
+            <h2>eBooks</h2>
+            
+                      	            <div class="article-related-links-item">
+							<a href="/digital_edition/leveraging-clinical-analytics-46688-1.html">Leveraging Clinical Analytics to Improve Patient Care</a>
+            </div>                                
+                        <div class="article-related-links-item">
+							<a href="/digital_edition/Adopting-ICD-10-46659-1.html">Adopting ICD-10</a>
+            </div>                                
+                                                                   
+            <div class="clearfix button-padding">
+                <div id="bankthink-see-all" class="right">
+                    <a href="/ebooks"><img src="http://cdn.healthdatamanagement.com/media/ui/btn-more.png" class="morebutton" /></a>
+                </div>  
+            </div>  
+        </div>                    
+       
+    </div>
+</div>
+
+
+<div id="hidden-1" class="hidden-div hidden-div-btn" style="display:none;">
+    <div class="clear">
+	      <div class="col-1 left">
+				<h2>Current Issue</h2>
+				
+					            <div class="btn-cover">
+	               <a href="/issues/"><img src="http://cdn.healthdatamanagement.com/media/newspics/C1_HDMOct13.jpg" border=0 /></a>
+	            </div>
+	            									 
+																																																			<div class="article-related-links-item">
+							<a href="/Health-information-management-what-a-ride-it-has-been-46668-1.html">Health Information Management: What a Ride it Has Been</a><br />
+							<p>In a transformational era that started with HITECH and continues with health reform, health information management leaders are busier than ever.</p>
+							</div>
+																																																																																																																																																																																				                                
+	      </div>
+	  	
+        <div class="col-2 left">
+            <h2>Newsletters</h2>
+                      	            <div class="article-related-links-item">
+                <a href="/register/?user_publications[]=31">HDM Daily</a>
+                <div class="clearfix">
+                    <div id="bankthink-see-all" class="right">
+                        <a href="/register/?user_publications[]=31"><img src="http://cdn.healthdatamanagement.com/media/ui/subscribe-btn.png" class="morebutton" /></a>
+                    </div>  
+                </div>  
+            </div>
+                        <div class="article-related-links-item">
+                <a href="/register/?user_publications[]=32">HDM Alert</a>
+                <div class="clearfix">
+                    <div id="bankthink-see-all" class="right">
+                        <a href="/register/?user_publications[]=32"><img src="http://cdn.healthdatamanagement.com/media/ui/subscribe-btn.png" class="morebutton" /></a>
+                    </div>  
+                </div>  
+            </div>
+                        <div class="article-related-links-item">
+                <a href="/register/?user_publications[]=25">HDM Webcast Direct</a>
+                <div class="clearfix">
+                    <div id="bankthink-see-all" class="right">
+                        <a href="/register/?user_publications[]=25"><img src="http://cdn.healthdatamanagement.com/media/ui/subscribe-btn.png" class="morebutton" /></a>
+                    </div>  
+                </div>  
+            </div>
+                        <div class="article-related-links-item">
+                <a href="/register/?user_publications[]=24">HDM White Paper Direct</a>
+                <div class="clearfix">
+                    <div id="bankthink-see-all" class="right">
+                        <a href="/register/?user_publications[]=24"><img src="http://cdn.healthdatamanagement.com/media/ui/subscribe-btn.png" class="morebutton" /></a>
+                    </div>  
+                </div>  
+            </div>
+                        <div class="article-related-links-item last-item">
+                <a href="/register/?user_publications[]=52">HDM Health Information Exchange</a>
+                <div class="clearfix">
+                    <div id="bankthink-see-all" class="right">
+                        <a href="/register/?user_publications[]=52"><img src="http://cdn.healthdatamanagement.com/media/ui/subscribe-btn.png" class="morebutton" /></a>
+                    </div>  
+                </div>  
+            </div>
+                                                                                              
+        </div>
+        <div class="col-3 left">
+        	
+            <h2>eBooks & Supplements</h2>
+                      	            <div class="article-related-links-item">
+                <a href="/digital_edition/leveraging-clinical-analytics-46688-1.html">Leveraging Clinical Analytics to Improve Patient Care</a>
+            </div>                                
+                        <div class="article-related-links-item">
+                <a href="/digital_edition/Adopting-ICD-10-46659-1.html">Adopting ICD-10</a>
+            </div>                                
+                        <div class="article-related-links-item">
+                <a href="/digital_edition/Health-Industry-Embraces-Information-Technology-Innovation-Marches-On-46395-1.html">Health Industry Embraces Information Technology, Innovation Marches On</a>
+            </div>                                
+                        <div class="article-related-links-item">
+                <a href="/digital_edition/big-data-analytics-46266-1.html">Big Data & Analytics</a>
+            </div>                                
+                        <div class="article-related-links-item">
+                <a href="/digital_edition/mobile-health-empowering-people-46253-1.html">Mobile Health: Empowering People to Make the Best Choices</a>
+            </div>                                
+                             
+            <div class="clearfix">
+                <div id="bankthink-see-all" class="right">
+                    <a href="http://www.healthdatamanagement.com/ebooks/"><img src="http://cdn.healthdatamanagement.com/media/ui/btn-more.png" class="morebutton" /></a>
+                </div>  
+            </div>
+            <h2><a href="http://marketplace.healthdatamanagement.com/">Resource Guide</a></h2> 
+            <div class="article-related-links-item">
+          		<a href="http://cdn.healthdatamanagement.com/media/pdfs/2013_RG_form.pdf">Access the 2013 RG form here!</a>
+          	</div> 
+        </div>
+        <div class="col-4 left">
+
+	          <h2>Slide Shows</h2>
+	          
+	          
+	          	          
+	          		          <div id="multimedia-desc">
+		              <strong><a href="http://www.healthdatamanagement.com/resource-center/?id=46697">10 Big Question Marks About ICD-10</a>:</strong> 		          </div>
+												
+						  						  						  						  							  						
+								          <div id="multimedia-image">
+		             <a href="http://www.healthdatamanagement.com/resource-center/?id=46697"><img width="212" src="http://cdn.healthdatamanagement.com/media/gallery/cover-p185qjgnv914213j8mgh1iup1g9p3.jpg" /></a>
+		          </div>
+	                                	
+	          <div id="multimedia-see-all">
+	              <a href="/resource-center/?media_type=slideshow"><img class="morebutton" src="http://cdn.healthdatamanagement.com/media/ui/btn-more.png"></a>
+	          </div>            
+            
+            <h2>Events</h2>
+                      	            <div class="article-related-links-item last-item">
+                <a href="/industry_events/index.html#45359">Healthcare Analytics Symposium & Expo</a>
+            </div>    
+                         
+            
+                        <h2>Podcasts</h2>
+          	            <div class="article-related-links-item last-item">
+                <a href="/podcasts/-44490-1.html">Moving to the EHR: How to Cut the Paper Clutter</a>
+            </div>    
+                         
+            
+                    </div>
+    </div>
+</div>
+
+
+<div id="hidden-9" class="hidden-div hidden-div-btn" style="display:none;">
+    <div class="clear">
+				
+        <div class="col-1 left" id="multimedia-col-1" style="width:305px;">
+            <h2>Videos</h2>
+                                  	          	                      	                      	                      	                      	                      	                      	          	            <div class="article-related-links-item">
+          		<a href="/NY-Islanders-injuries-health-IT-Moulson-Boyles-Tavares-46067-1.html"><img src="http://cdn.healthdatamanagement.com/media/newspics/HDM_islanders_580.jpg" width="305" /></a>               <a href="/NY-Islanders-injuries-health-IT-Moulson-Boyles-Tavares-46067-1.html">Health I.T. Keeps NY Islanders On the Ice</a>
+          		<p>How the Isles&#146; medical team uses PACS/RIS and other health information technologies to take care of John Tavares, Matt Moulson, Brad Boyles and the rest of NHL playoff-bound team.</p>
+            </div>
+                                  	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	             
+                            <div class="clearfix">
+                    <div id="bankthink-see-all" class="right">
+                        <a href="/more/videos.html"><img src="http://cdn.healthdatamanagement.com/media/ui/btn-more.png" class="morebutton" /></a>
+                    </div>  
+                </div> 
+
+        </div>
+        <div class="col-1 left" id="multimedia-col-1" style="width:305px;">
+            <h2>60 Seconds Smarter</h2>
+                                  	          	          	            <div class="article-related-links-item">
+          		<a href="/60-seconds-smarter/?id=46529"><img src="http://cdn.healthdatamanagement.com/media/newspics/ReportingSmall.jpg" width="305" /></a>               <a href="/60-seconds-smarter/?id=46529">60 Seconds Smarter: Meaningful Use Clinical Quality Reporting</a>
+          		<p>Virtually every hospital and physician in the country is pursuing meaningful use dollars, and the key to success to clinical quality measure reporting. But will providers be able to measure up to the changes in CQM reporting in 2014?</p>
+            </div>
+                                  	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	                      	             
+                            <div class="clearfix">
+                    <div id="bankthink-see-all" class="right">
+                        <a href="/60-seconds-smarter/"><img src="http://cdn.healthdatamanagement.com/media/ui/btn-more.png" class="morebutton" /></a>
+                    </div>  
+                </div> 
+
+        </div>
+        <div class="col-2 left" id="multimedia-col-2" style="width:195px;">
+				
+	          <h2>Slide Shows</h2>
+						
+						  						  						  						  							  						
+								          <div id="slideshow-image" class="left">
+		             <a href="http://www.healthdatamanagement.com/resource-center/?id=46695"><img src="http://cdn.healthdatamanagement.com/media/gallery/cover-p185q91bhjleg1b7urv01dntvfv5.jpg" width="200" /></a>
+		          </div>
+	          	          	          
+            		          <div id="slideshow-desc" class="right">
+		              <strong><a href="http://www.healthdatamanagement.com/resource-center/?id=46695">6 Things We Learned about Enterprise Analytics from Nate Silver</a>:</strong> <p>&#133;</p>		          </div>
+						                      	
+	          <div id="slideshow-see-all">
+	              <a href="/more/gallery.html"><img class="morebutton right" src="http://cdn.healthdatamanagement.com/media/ui/btn-more.png"></a>
+	          </div>
+            
+        </div>
+    </div>
+</div>
+    <div id="content-wrapper">
+    	<!-- content start -->
+    	<div id="content" class="clearfix">
+    															
+	<form name="quick-subscribe-form" id="quick-subscribe-form" action="">
+<div id="call-to-actions" class="clearfix">
+<div class="left call-to-action1"><a name="submit-subscribe" class="qlbtn" href="http://www.healthdatamanagement.com/register/"><img src="http://cdn.healthdatamanagement.com/media/ui/ad-sign-me-up-subscribe.png" /></a></div>
+<div class="left call-to-action2"><a name="submit-trial" class="qlbtn" href="http://www.healthdatamanagement.com/reader_services/enewsletters.html"><img src="http://cdn.healthdatamanagement.com/media/ui/ad-newsletters.png" /></a></div>
+<div class="right call-to-action3"><a name="submit-login" class="qlbtn" href="http://www.healthdatamanagement.com/subscribe/"><img src="http://cdn.healthdatamanagement.com/media/ui/ad-join-panel.png" /></a></div>
+</div>  
+</form>
+
+ 
+						
+																		
+									        
+			        			        				        			            <div id="top-ad">
+							      <div id="pushdown" >
+	<script type="text/javascript">
+		googletag.display("pushdown");
+	</script>
+</div>
+			            </div>
+			                                             
+                        
+                        
+            <div id="two-col-layout">
+
+                <!-- column one start -->
+                <div id="col-one" class="left">
+
+
+       		
+
+
+	
+	
+			
+								
+
+
+
+
+		
+
+
+
+
+
+
+	
+			
+								
+	
+
+
+
+
+
+
+
+<div id="article-wrapper" class="clearfix">
+	
+	<div class="left" id="article-left-col">
+      
+    <div id="article-meta">
+    	          		<div class="name">
+    		<span class="article-meta-name"><a href="/cgi-bin/udt/fdc.collector?client_id=healthdatamanagement&form_id=maileditform&link_id=13">Joseph Goedert</a></span>    		</div>
+    	    				            <div class="date">SEP 23, 2013 11:16pm ET</div>
+      
+    </div>
+    
+    <script language="javascript" type="text/javascript">
+		$(document).ready(function() {
+			/* This is basic - uses default settings */	
+			$("a.archive_enlarge").fancybox({
+				'autoScale'	: false,
+				'autoDimensions'	: false
+			  });
+		});
+		</script>    
+    
+        	
+			
+															
+						
+						
+						
+						
+						
+						
+						
+						
+						
+					
+							<div id="article-related-links">
+					<h2>Related Links</h2>	    	
+											<div class="article-related-links-item">
+							<a href="/news/health-and-human-services-consumer-mobile-apps-46554-1.html">HHS Agencies Build 33 Free Consumer Mobile Apps</a>
+							<div class="article-related-links-date">September 4, 2013</div>
+						</div>
+											<div class="article-related-links-item">
+							<a href="/news/intermountain-healthcare-technology-transformation-laboratory-46508-1.html">New Tech Lab Launches at Intermountain, More Vendors Welcome</a>
+							<div class="article-related-links-date">August 23, 2013</div>
+						</div>
+											<div class="article-related-links-item">
+							<a href="/news/breach-notification-hipaa-privacy-security-46481-1.html">Home Health Agency Tight-Lipped About Breach</a>
+							<div class="article-related-links-date">August 13, 2013</div>
+						</div>
+											<div class="article-related-links-item">
+							<a href="/news/health-information-technology-vendor-news-46456-1.html">HIT Vendor News Roundup: Cerner, Alere & 3M HIS</a>
+							<div class="article-related-links-date">August 5, 2013</div>
+						</div>
+											<div class="article-related-links-item">
+							<a href="/news/health-app-developer-challenge-community-population-health-46451-1.html">$2 Million Challenge to Developers: Use Data to Improve Community Health</a>
+							<div class="article-related-links-date">August 1, 2013</div>
+						</div>
+											<div class="article-related-links-item">
+							<a href="/news/physician-financial-transparency-sunshine-act-mobile-app-46404-1.html">Mobile Apps Help Comply With the Physician Payments Sunshine Act</a>
+							<div class="article-related-links-date">July 23, 2013</div>
+						</div>
+											<div class="article-related-links-item article-related-links-item-last">
+							<a href="/news/hospital-computing-workstations-carts-stinger-enovate-merge-46379-1.html">Hospital Workstation Vendors Merge</a>
+							<div class="article-related-links-date">July 12, 2013</div>
+						</div>
+									 </div>
+							
+			
+									
+			
+	
+					
+						
+		 		
+	 	
+                           
+  </div>
+                        
+  <div class="left" id="article-right-col">
+  	
+  	
+    <h1>FDA Issues Final Guidance on Medical Mobile Applications</h1>
+    
+        
+    <div id="article-tools" class="clearfix">
+    	
+    	<div class="left article-tool">
+      	<img src="http://cdn.healthdatamanagement.com/media/ui/print-icon.png" /> <a href="?zkPrintable=true">Print</a>
+      </div>                            	
+      
+      <div class="left article-tool">
+      	<img src="http://cdn.healthdatamanagement.com/media/ui/reprint-icon.png" /> <a href="http://license.icopyright.net/3.7734?icx_id=46626">Reprints</a>
+      </div>                            	
+      
+      <div class="left article-tool">
+      	<img src="http://cdn.healthdatamanagement.com/media/ui/email-icon.png" /> <a href="?zkDo=emailArticlePrompt">Email</a>
+      </div>
+    
+    </div>
+                            
+    <!-- share start -->
+		
+	<!-- share start -->
+<div class="share-icons clearfix">
+	<div class="left share-icon">
+		<a href="https://twitter.com/share" class="twitter-share-button" data-size="medium" data-width="100" data-text="FDA Issues Final Guidance on Medical Mobile Applications" data-url="http://www.healthdatamanagement.com/news/fda-final-guidance-on-medical-mobile-applications-46626-1.html" data-related="hdmmagazine:Health Data Management">Tweet</a>
+	</div>
+<div class="left share-icon share-linkedin">
+                
+		<script type="IN/Share" data-url="http://www.healthdatamanagement.com/news/fda-final-guidance-on-medical-mobile-applications-46626-1.html" data-width="100" data-text="FDA Issues Final Guidance on Medical Mobile Applications" data-counter="right"></script>
+	</div> 
+	<div class="left share-icon share-facebook">
+<div class="fb-like" data-href="http://www.healthdatamanagement.com/news/fda-final-guidance-on-medical-mobile-applications-46626-1.html" data-text="FDA Issues Final Guidance on Medical Mobile Applications" data-send="false" data-layout="button_count" data-width="50" data-show-faces="false"></div>
+		</div> 
+<div class="left share-icon share-googleplus">
+		<g:plusone size="medium" annotation="none" width="35" href="http://www.healthdatamanagement.com/news/fda-final-guidance-on-medical-mobile-applications-46626-1.html"></g:plusone>
+	</div>
+</div>
+<!-- share end -->
+
+ 
+		<!-- share end -->                            
+       
+ 			 							<p>The Food and Drug Administration has issued final guidance on its current thinking about the regulation of medical mobile applications.
+</p>
+				<div id="getaccess">
+					<div class="gaheader">Get access to this article and thousands more...</div>
+					<p><b>All Health Data Management articles are archived after 7 days.</b> <a href="/register/">REGISTER NOW</a> for unlimited access to all recently archived articles, as well as thousands of searchable stories. Registered Members also gain access to exclusive industry white paper downloads, web seminars, podcasts, e-books, and conference discounts. Qualified members may also choose to receive our free monthly magazine and any of our e-newsletters covering the latest breaking news, opinions from industry leaders, developing trends and specialized topics like EHR's, revenue cycle management, health insurance exchanges, analytics, and more!</p>
+					<div class="gaactivate"><a href="/register/" class="activate">TO ACTIVATE YOUR MEMBERSHIP, REGISTER NOW FOR FREE HERE</a></div>
+					<div class="garegister"><a name="Login"></a>
+						<h4>Already Registered?</h4>
+												<form id="login" action="#Login" method="post">
+							<input type="hidden" name="zkLogin" value="true" />
+							<input type="hidden" name="client_id" value="healthdatamanagement_news" />
+							<input type="hidden" name="return_url" value="/news/fda-final-guidance-on-medical-mobile-applications-46626-1.html#read" />
+							<div class="galeft"><label for="login_id">E-mail Address</label><input type="text" name="login_id" id="login_id" value="" class="text" /></div>
+							<div class="garight"><label for="login_pwd">Password</label><input type="password" name="login_pwd" id="login_pwd" value="" class="text" /></div>
+							<div class="gawtf">
+								<input type="submit" name="submit" class="submit noMargin" value="Log In" />
+								<a href="/profile/password.reminder.html" class="needhelp" target="_blank">Forgot Password/Need Help?</a>
+							</div>
+						</form>
+					</div>
+				</div>
+				</div>
+</div>
+
+				<div id="storymiddle-ad">
+			<div id="smallbanner" style="width: 468px;height: 60px;">
+	<script type="text/javascript">
+		googletag.display("smallbanner");
+	</script>
+</div>
+		</div>
+	
+	
+
+
+				</div>
+                <!-- column one end -->
+
+    	                <!-- right rail start -->
+				<div id="col-two" class="right">
+
+									
+
+
+
+	
+
+
+
+<!-- ad start -->
+<div class="module">
+	<div id="bigbox1" >
+	<script type="text/javascript">
+		googletag.display("bigbox1");
+	</script>
+</div>
+</div>
+<!-- ad end -->
+
+<div style="padding-bottom:15px;"><a href="http://marketplace.healthdatamanagement.com/" target="_blank"><img src="http://cdn.healthdatamanagement.com/media/ui/resource_guide_right_rail.gif"></a></div>
+
+						
+
+ <!-- most read start -->
+        <script type="text/javascript">
+
+        $(document).ready(function() {
+
+        $('#most-read').click(function() {
+				
+				$('#most-read').removeClass("tab-on");
+				$('#most-emailed').removeClass("tab-off");
+				
+				$('#most-read').addClass("tab-off");
+				$('#most-emailed').addClass("tab-on");
+				
+				$('#most-read-content').show();
+				$('#most-emailed-content').hide();         
+				
+        });
+                                
+        $('#most-emailed').click(function() {
+                
+				$('#most-read').removeClass("tab-off");
+				$('#most-emailed').removeClass("tab-on");
+				
+				$('#most-read').addClass("tab-on");
+				$('#most-emailed').addClass("tab-off");
+				
+				$('#most-read-content').hide();
+				$('#most-emailed-content').show();
+        });
+       });
+
+    </script>
+
+<div class="module">
+	<div id="tabs" class="clearfix">
+		<div id="most-read" class="left tab tab-off">Most Read</div>
+    <div id="most-emailed" class="left tab tab-on">Most Emailed</div>
+  </div>
+	<div id="most-read-content" class="tab-content">
+		<ul>
+		
+										
+															<li><a href="/news/icd-10-ticking-time-clock-46704-1.html">ICD-10 Feature Story: Ticking Time Clock-or Bomb?</a></li>
+																					
+															<li><a href="/news/stories-lessons-learned-from-exchanges-first-days-46713-1.html">Success Stories &#150; and Lessons Learned &#150; From the Exchanges&#146; First Days</a></li>
+																					
+															<li><a href="/news/exchange-conflicts-come-into-sharper-focus-46709-1.html">Exchange Conflicts Come Into Sharper Focus</a></li>
+																					
+															<li><a href="/news/EHR-Game-Changers-Contest-46719-1.html">Meet Brad Jannenga, EHR Game Changer</a></li>
+																					
+															<li><a href="/news/icd-10-codes-coding-compliance-testing-trizetto-46721-1.html">TriZetto Joins Short List of Clearinghouses Testing ICD-10</a></li>
+																					
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																				</ul>
+	</div>
+	<div id="most-emailed-content" style="display:none;" class="tab-content">
+		<ul>
+		
+										
+															<li><a href="/news/university-michigan-cio-sue-schade-building-leaders-46711-1.html">U-M Hospitals CIO Sue Schade on Building Leaders</a></li>
+														  						
+															<li><a href="/news/icd-10-ticking-time-clock-46704-1.html">ICD-10 Feature Story: Ticking Time Clock-or Bomb?</a></li>
+														  						
+												  						
+												  							</ul>
+	</div>
+</div>
+<!-- most read end -->
+									<script type="text/javascript" src="http://jsc.madisonlogic.com/jsc?pub=477&pgr=866&src=8739&layrf=6290&num=3"></script>
+ 
+								
+<!-- video gallery start -->
+<script type="text/javascript">
+jQuery(document).ready(function() {
+	jQuery('#video_gallery2').jcarousel({
+		scroll: 2,
+		visible: 2
+	});
+
+});
+</script>
+
+
+
+
+    
+        	    
+		<!-- video start -->
+  <div class="module module-video">
+		<h4><a href="/resource-center/?media_type=slideshow">Slide Shows</a></h4>
+		<div class="video">
+			<a href="http://www.healthdatamanagement.com/resource-center/?id=46697"><img src="http://cdn.healthdatamanagement.com/media/gallery/cover-p185qjgnv914213j8mgh1iup1g9p3.jpg" width="298" border="0" alt="" title="" /></a>		</div>
+		<div class="video-caption">
+			<a href="http://www.healthdatamanagement.com/resource-center/?id=46697">10 Big Question Marks About ICD-10</a>
+		</div>
+	</div>
+	<!-- video end -->
+		  
+        	    
+			<!-- video gallery start -->
+	<div class="module">
+		<ul id="video_gallery2" class="jcarousel-skin-tango">
+			
+			<li>
+				<div class="carousel-item-image"><a href="http://www.healthdatamanagement.com/resource-center/?id=46619"><img width="100" src="http://cdn.healthdatamanagement.com/media/newspics/160_F_48828958_SkspH7pZ1j3WjSkQzAA7VzaLazhCBFdU.jpg" border="0" alt="" title="" /></a></div>
+				<div class="carousel-item-desc"><a href="http://www.healthdatamanagement.com/resource-center/?id=46619">6 Steps to Showing HIPAA Privacy/Security Compliance</a></div>
+			</li>
+		
+		  
+        	    
+				
+			<li>
+				<div class="carousel-item-image"><a href="http://www.healthdatamanagement.com/resource-center/?id=46606"><img width="100" src="http://cdn.healthdatamanagement.com/media/newspics/cover-p184rfugjj17dq1l25h8h1d7qhnt5.jpg" border="0" alt="" title="" /></a></div>
+				<div class="carousel-item-desc"><a href="http://www.healthdatamanagement.com/resource-center/?id=46606">Top 10 Health Industry Issues</a></div>
+			</li>
+		
+		  
+        	    
+				
+			<li>
+				<div class="carousel-item-image"><a href="http://www.healthdatamanagement.com/resource-center/?id=46588"><img width="100" src="http://cdn.healthdatamanagement.com/media/newspics/cover-p184m3spoh1n9bu8vgjp1e261u6f5.jpg" border="0" alt="" title="" /></a></div>
+				<div class="carousel-item-desc"><a href="http://www.healthdatamanagement.com/resource-center/?id=46588">Top 5 Fastest Growing States for Tech Hiring</a></div>
+			</li>
+		
+		  
+        	    
+				
+			<li>
+				<div class="carousel-item-image"><a href="http://www.healthdatamanagement.com/resource-center/?id=46550"><img width="100" src="http://cdn.healthdatamanagement.com/media/newspics/p183bi82nq1e3v11ou125rn0r68t5.jpg" border="0" alt="" title="" /></a></div>
+				<div class="carousel-item-desc"><a href="http://www.healthdatamanagement.com/resource-center/?id=46550">Top 6 Threats to Enterprise Security</a></div>
+			</li>
+		
+		  
+        	    
+				
+			<li>
+				<div class="carousel-item-image"><a href="http://www.healthdatamanagement.com/resource-center/?id=46573"><img width="100" src="http://cdn.healthdatamanagement.com/media/newspics/images.jpg" border="0" alt="" title="" /></a></div>
+				<div class="carousel-item-desc"><a href="http://www.healthdatamanagement.com/resource-center/?id=46573">Status Check on Medical ID Theft: Going Up</a></div>
+			</li>
+		
+		  
+        	    
+				
+			<li>
+				<div class="carousel-item-image"><a href="http://www.healthdatamanagement.com/resource-center/?id=46512"><img width="100" src="http://cdn.healthdatamanagement.com/media/newspics/cover-p182ph578612i1qa84i1ac91bsh5.jpg" border="0" alt="" title="" /></a></div>
+				<div class="carousel-item-desc"><a href="http://www.healthdatamanagement.com/resource-center/?id=46512">5 Cloud Trends for 2013 and Beyond</a></div>
+			</li>
+		
+		  
+        	    
+				
+			<li>
+				<div class="carousel-item-image"><a href="http://www.healthdatamanagement.com/resource-center/?id=46492"><img width="100" src="http://cdn.healthdatamanagement.com/media/newspics/cover-p1829jm4hdc5eab1fpho541dlu5.jpg" border="0" alt="" title="" /></a></div>
+				<div class="carousel-item-desc"><a href="http://www.healthdatamanagement.com/resource-center/?id=46492">A Tutorial for a World-Class Health Analytics Project</a></div>
+			</li>
+		
+		  
+        	    
+				
+			<li>
+				<div class="carousel-item-image"><a href="http://www.healthdatamanagement.com/resource-center/?id=46475"><img width="100" src="http://cdn.healthdatamanagement.com/media/newspics/cover-p181nqjk69106k12891cdtto41hul5.jpg" border="0" alt="" title="" /></a></div>
+				<div class="carousel-item-desc"><a href="http://www.healthdatamanagement.com/resource-center/?id=46475">Survey: Clinicians Rapidly Increase Mobile Adoption</a></div>
+			</li>
+		
+		  
+        	    
+				
+			<li>
+				<div class="carousel-item-image"><a href="http://www.healthdatamanagement.com/resource-center/?id=46429"><img width="100" src="http://cdn.healthdatamanagement.com/media/newspics/cover-p180pakuen5omj05ji91s5b1tru5.jpg" border="0" alt="" title="" /></a></div>
+				<div class="carousel-item-desc"><a href="http://www.healthdatamanagement.com/resource-center/?id=46429">Profiling HIE Vendors in a Rapidly Evolving Market</a></div>
+			</li>
+		
+		  
+        	    
+				
+			<li>
+				<div class="carousel-item-image"><a href="http://www.healthdatamanagement.com/resource-center/?id=46414"><img width="100" src="http://cdn.healthdatamanagement.com/media/newspics/cover-p180beh4defi81knj5gi1hdi193k3.jpg" border="0" alt="" title="" /></a></div>
+				<div class="carousel-item-desc"><a href="http://www.healthdatamanagement.com/resource-center/?id=46414">ICD-10: Physicians Struggle to Adopt</a></div>
+			</li>
+		
+		  
+        	    
+				
+			<li>
+				<div class="carousel-item-image"><a href="http://www.healthdatamanagement.com/resource-center/?id=46400"><img width="100" src="http://cdn.healthdatamanagement.com/media/newspics/cover-p1802156rlejr9diqnnai8qcb5.jpg" border="0" alt="" title="" /></a></div>
+				<div class="carousel-item-desc"><a href="http://www.healthdatamanagement.com/resource-center/?id=46400">The Stories Behind Big Breaches Reported in 2Q 2013</a></div>
+			</li>
+		
+		  
+        	    
+				
+			<li>
+				<div class="carousel-item-image"><a href="http://www.healthdatamanagement.com/resource-center/?id=46349"><img width="100" src="http://cdn.healthdatamanagement.com/media/newspics/cover-p17udvb41duscoojea2fd6jq5.jpg" border="0" alt="" title="" /></a></div>
+				<div class="carousel-item-desc"><a href="http://www.healthdatamanagement.com/resource-center/?id=46349">Nine Do-or-Die Questions to Ask About New Business Technology</a></div>
+			</li>
+		
+		  
+        	    
+				
+			<li>
+				<div class="carousel-item-image"><a href="http://www.healthdatamanagement.com/resource-center/?id=46276"><img width="100" src="http://cdn.healthdatamanagement.com/media/newspics/cover-p17t7uj5jm169p1gcb5t2qq411465.jpg" border="0" alt="" title="" /></a></div>
+				<div class="carousel-item-desc"><a href="http://www.healthdatamanagement.com/resource-center/?id=46276">2013 Best in KLAS/Medical Equipment</a></div>
+			</li>
+		
+		  
+        	    
+				
+			<li>
+				<div class="carousel-item-image"><a href="http://www.healthdatamanagement.com/resource-center/?id=46242"><img width="100" src="http://cdn.healthdatamanagement.com/media/newspics/cover-p17sbo7oie1kqu1j3v1bld1lkq1n5a5.jpg" border="0" alt="" title="" /></a></div>
+				<div class="carousel-item-desc"><a href="http://www.healthdatamanagement.com/resource-center/?id=46242">10 Data Breach Vulnerabilities Revealed</a></div>
+			</li>
+		
+		  
+        	    
+				
+			<li>
+				<div class="carousel-item-image"><a href="http://www.healthdatamanagement.com/resource-center/?id=46027"><img width="100" src="http://cdn.healthdatamanagement.com/media/newspics/cover-p17of5gn6e1ldq1iq91fpm1tneae43.jpg" border="0" alt="" title="" /></a></div>
+				<div class="carousel-item-desc"><a href="http://www.healthdatamanagement.com/resource-center/?id=46027">Insurance Insights</a></div>
+			</li>
+		
+		  
+        	    
+				
+			<li>
+				<div class="carousel-item-image"><a href="http://www.healthdatamanagement.com/resource-center/?id=45391"><img width="100" src="http://cdn.healthdatamanagement.com/media/gallery/cover-p17eb3a0iio2r1tlc1o5r1mpi1g385.jpg" border="0" alt="" title="" /></a></div>
+				<div class="carousel-item-desc"><a href="http://www.healthdatamanagement.com/resource-center/?id=45391">2012 Best in KLAS</a></div>
+			</li>
+		
+		  
+        	    
+				
+			<li>
+				<div class="carousel-item-image"><a href="http://www.healthdatamanagement.com/resource-center/?id=45989"><img width="100" src="http://cdn.healthdatamanagement.com/media/newspics/cover-p17no60ugt1qg1jsbst3llo1msh5.jpg" border="0" alt="" title="" /></a></div>
+				<div class="carousel-item-desc"><a href="http://www.healthdatamanagement.com/resource-center/?id=45989">Research Indicates a Majority of Hospital Acquisitions Fall Flat</a></div>
+			</li>
+			
+		</ul>
+	</div>
+	<!-- video gallery end -->
+		
+			
+		
+  
+			
+<!-- ad start -->
+<div class="module">
+	<div class="advertisement">&nbsp;</div>
+		<div id="bigbox2" >
+	<script type="text/javascript">
+		googletag.display("bigbox2");
+	</script>
+</div>
+</div>
+<!-- ad end -->
+
+						
+            <!-- socialtabs start -->
+
+<script type="text/javascript">
+
+	jQuery(function($){
+	  $(".tweet").tweet({
+	    join_text: "auto",
+	    username: "HDMmagazine",
+	    avatar_size: 48,
+	    count: 3,
+	    auto_join_text_default: "we said,",
+	    auto_join_text_ed: "we",
+	    auto_join_text_ing: "we were",
+	    auto_join_text_reply: "we replied",
+	    auto_join_text_url: "we were checking out",
+	    loading_text: "loading tweets..."
+	  });
+	});
+
+	$(document).ready(function() {
+
+        $('#tab-twitter').click(function() {
+
+			$('#tab-twitter').removeClass("socialtab-off");
+			$('#tab-facebook').removeClass("socialtab-on");
+			$('#tab-linkedin').removeClass("socialtab-on");
+			
+			
+			$('#tab-twitter').addClass("socialtab-on");
+			$('#tab-facebook').addClass("socialtab-off");
+			$('#tab-linkedin').addClass("socialtab-off");
+			
+			$('#twitter-content').show();
+			$('#facebook-content').hide();
+			$('#linkedin-content').hide();
+          
+        });
+		
+        $('#tab-facebook').click(function() {
+	
+			$('#tab-twitter').removeClass("socialtab-on");
+			$('#tab-facebook').removeClass("socialtab-off");
+			$('#tab-linkedin').removeClass("socialtab-on");
+			
+			
+			$('#tab-twitter').addClass("socialtab-off");
+			$('#tab-facebook').addClass("socialtab-on");
+			$('#tab-linkedin').addClass("socialtab-off");
+			
+			$('#twitter-content').hide();
+			$('#facebook-content').show();
+			$('#linkedin-content').hide();
+		});
+	
+	$('#tab-linkedin').click(function() {
+
+			$('#tab-twitter').removeClass("socialtab-on");
+			$('#tab-facebook').removeClass("socialtab-on");
+			$('#tab-linkedin').removeClass("socialtab-off");
+			
+			
+			$('#tab-twitter').addClass("socialtab-off");
+			$('#tab-facebook').addClass("socialtab-off");
+			$('#tab-linkedin').addClass("socialtab-on");
+			
+			$('#twitter-content').hide();
+			$('#facebook-content').hide();
+			$('#linkedin-content').show();
+          
+        });
+	});
+
+    </script>
+<div class="module">
+	<div id="socialtabs" class="clearfix">      
+		<div id="tab-twitter" class="left socialtab socialtab-on">
+			<div class="clearfix">
+				<div class="logo-holder left"><img src="http://cdn.healthdatamanagement.com/media/ui/icon-socialtab-twitter.png" /></div>
+				<div class="text-holder left">Twitter</div>
+			</div>
+		</div>
+		<div id="tab-facebook" class="left socialtab socialtab-off">
+			<div class="clearfix">
+				<div class="logo-holder left"><img src="http://cdn.healthdatamanagement.com/media/ui/icon-socialtab-facebook.png" /></div>
+				<div class="text-holder left">Facebook</div>
+			</div>
+		</div>
+		<div id="tab-linkedin" class="left socialtab socialtab-off">
+			<div class="clearfix">
+				<div class="logo-holder left"><img src="http://cdn.healthdatamanagement.com/media/ui/icon-socialtab-linkedin.png" /></div>
+				<div class="text-holder left">LinkedIn</div>
+			</div>
+		</div>
+	</div>
+	<div id="twitter-content" class="tab-content clearfix">
+		<div class="feed-holder tweet">
+		</div>
+		<div class="social-footer" style="padding-left:25px;padding-top:5px;"><a href="https://twitter.com/HDMmagazine" class="twitter-follow-button" data-width="250px">Follow @HDMmagazine</a></div>
+	</div>
+	<div id="facebook-content" style="display:none;" class="tab-content">
+		<div class="feed-holder">
+			<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) {return;}
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+
+			<div class="fb-like-box" data-href="http://www.facebook.com/HealthDataManagement" data-width="275" data-show-faces="false" data-stream="true" data-header="false" force_wall="true"></div>
+		</div>
+	</div>
+	<div id="linkedin-content" style="display:none;" class="tab-content">
+		<div class="feed-holder">
+		<!-- linkedin start -->
+			<div id="linkedin-module">
+				<div class="row clearfix">
+					<div class="img-holder left"><img src="http://cdn.healthdatamanagement.com/media/newspics/thumb-linkedin.jpg" /></div>
+					<div class="text-holder">Looking to move your initiatives and career forward? Health Data Management's LinkedIn group can help you connect and collaborate with a network of your peers.</div>				</div>
+							<div class="row clearfix">
+					<div class="button-holder right"><a href="http://www.linkedin.com/groups/Health-Data-Management-Magazine-3982973"><img src="http://cdn.healthdatamanagement.com/media/ui/btn-linkedin-joinnow.png" /></a></div>
+				</div>
+						</div>
+    <!-- linkedin end -->
+    </div>
+	</div>
+	
+</div>
+<!-- socialtabs end --> 
+								
+
+
+<div class="module">
+	<h4 class="carousel-header">Current Issue</h4>
+	<div class="current-issue-module clearfix">
+		
+				<div class="imgholder left">
+			<a href="/issues/"><img width="107" src="http://cdn.healthdatamanagement.com/media/newspics/C1_HDMOct13.jpg"></a>
+		</div>
+				<div class="txtholder left">
+							 
+																																										<div class="caption-title"><a href="/Health-information-management-what-a-ride-it-has-been-46668-1.html">Health Information Management: What a Ride it Has Been</a></div>
+						<div class="caption-txt"><p>In a transformational era that started with HITECH and continues with health reform, health information management leaders are busier than ever.</p></div>
+																																																																																																																																																						<div class="caption-list">
+				<ul>
+					<li><a href="/subscribe">Subscribe to the Magazine</a></li>
+					<li><a href="/issues/archives.html">Click here for past issues</a></li>
+					<li><a href="http://digital.healthdatamanagement.com/healthdatamanagement/october_2013">View our Digital Edition now!</a></li>				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+		
+		
+			
+			
+		
+ 
+			
+<!-- ad start -->
+<div class="module">
+	<div class="advertisement">&nbsp;</div>
+		<div id="bigbox3" style="width: 300px;height: 250px;">
+	<script type="text/javascript">
+		googletag.display("bigbox3");
+	</script>
+</div>
+</div>
+<!-- ad end -->
+
+						
+<!-- video gallery start -->
+<script type="text/javascript">
+jQuery(document).ready(function() {
+	jQuery('#video_gallery').jcarousel({
+		scroll: 2,
+		visible: 2
+	});
+
+});
+</script>
+
+
+
+
+    
+        	    
+		<!-- video start -->
+  <div class="module module-video">
+		<h4><a href="/resource-center">Videos</a></h4>
+		<div class="video">
+			<a href="http://www.healthdatamanagement.com/resource-center/?id=46529"><img src="http://cdn.healthdatamanagement.com/media/newspics/ReportingSmall.jpg" width="298" border="0" alt="" title="" /></a>		</div>
+		<div class="video-caption">
+			<a href="http://www.healthdatamanagement.com/resource-center/?id=46529">60 Seconds Smarter: Meaningful Use Clinical Quality Reporting</a>
+		</div>
+	</div>
+	<!-- video end -->
+			
+			<div class="advertisement">&nbsp;</div>
+		
+  
+			
+<!-- 2 col ad start -->
+<div class="module small-ads">
+		
+	<div class="ad-row1 clearfix">
+		<div class="left small-ad"><div id="rightbutton1" style="width: 120px;height: 90px;">
+	<script type="text/javascript">
+		googletag.display("rightbutton1");
+	</script>
+</div></div> 
+		<div class="right small-ad"><div id="rightbutton2" style="width: 120px;height: 90px;">
+	<script type="text/javascript">
+		googletag.display("rightbutton2");
+	</script>
+</div></div> 
+	</div>                        
+	<div class="ad-row2 clearfix">
+		<div class="left small-ad"><div id="rightbutton3" style="width: 120px;height: 90px;">
+	<script type="text/javascript">
+		googletag.display("rightbutton3");
+	</script>
+</div></div> 
+		<div class="right small-ad"><div id="rightbutton4" style="width: 120px;height: 90px;">
+	<script type="text/javascript">
+		googletag.display("rightbutton4");
+	</script>
+</div></div> 
+	</div>
+</div>
+<!-- 2 col ad end -->				
+				</div>	<!-- right rail end -->
+			             <div style="clear:both;"></div>
+            </div>	<!-- 2-col layout end -->
+     </div>  <!-- content end -->
+  </div>
+
+
+
+<!-- footer content start -->
+<div id="footer-content" class="clearfix">
+
+    <div class="clearfix">
+
+                                            
+
+        <div id="footer-content-left" class="left">
+        	<div class="left footer-col">
+                <h2><a href="/policy-and-regulation">Policy & Regulation</a></h2>
+                <ul>
+				
+														<li><a href="/news/icd-10-codes-coding-compliance-testing-trizetto-46721-1.html">TriZetto Joins Short List of Clearinghouses Testing ICD-10</a></li>
+																			<li><a href="/news/breach-stolen-laptop-results-in-identity-protection-46720-1.html">Stolen Laptop Results in Hospital Offering ID Protection</a></li>
+																			<li><a href="/news/california-cuts-medicaid-payments-as-more-enroll-46718-1.html">California Cuts Medicaid Payments as 1 Million New Users Loom</a></li>
+																			<li><a href="/news/lexmark-buys-pacs-integration-vendor-46717-1.html">Lexmark Buys PACS Integration Vendor</a></li>
+																		                </ul>
+                <h2><a href="/electronic-health-records">EHR</a></h2>
+                <ul>
+				
+														<li><a href="/news/icd-10-codes-coding-compliance-testing-trizetto-46721-1.html">TriZetto Joins Short List of Clearinghouses Testing ICD-10</a></li>
+																			<li><a href="/news/breach-stolen-laptop-results-in-identity-protection-46720-1.html">Stolen Laptop Results in Hospital Offering ID Protection</a></li>
+																			<li><a href="/news/EHR-Game-Changers-Contest-46719-1.html">Meet Brad Jannenga, EHR Game Changer</a></li>
+																			<li><a href="/news/california-cuts-medicaid-payments-as-more-enroll-46718-1.html">California Cuts Medicaid Payments as 1 Million New Users Loom</a></li>
+																		                </ul>
+            </div>
+            <div class="left footer-col">
+                <h2><a href="/health-information-exchange">Health Info Exchange</a></h2>
+                <ul>
+				
+														<li><a href="/news/icd-10-codes-coding-compliance-testing-trizetto-46721-1.html">TriZetto Joins Short List of Clearinghouses Testing ICD-10</a></li>
+																			<li><a href="/news/breach-stolen-laptop-results-in-identity-protection-46720-1.html">Stolen Laptop Results in Hospital Offering ID Protection</a></li>
+																			<li><a href="/news/california-cuts-medicaid-payments-as-more-enroll-46718-1.html">California Cuts Medicaid Payments as 1 Million New Users Loom</a></li>
+																			<li><a href="/news/lexmark-buys-pacs-integration-vendor-46717-1.html">Lexmark Buys PACS Integration Vendor</a></li>
+																		                </ul>
+                <h2><a href="/revenue-cycle-and-payments">Revenue Cycle & Payments</a></h2>
+                <ul>
+				
+														<li><a href="/news/icd-10-codes-coding-compliance-testing-trizetto-46721-1.html">TriZetto Joins Short List of Clearinghouses Testing ICD-10</a></li>
+																			<li><a href="/news/breach-stolen-laptop-results-in-identity-protection-46720-1.html">Stolen Laptop Results in Hospital Offering ID Protection</a></li>
+																			<li><a href="/news/california-cuts-medicaid-payments-as-more-enroll-46718-1.html">California Cuts Medicaid Payments as 1 Million New Users Loom</a></li>
+																			<li><a href="/news/lexmark-buys-pacs-integration-vendor-46717-1.html">Lexmark Buys PACS Integration Vendor</a></li>
+																		                </ul>
+            </div>    		
+            <div class="left footer-col">
+                <h2><a href="/chronic-care">Chronic Care</a></h2>
+                <ul>
+				
+														<li><a href="/news/icd-10-codes-coding-compliance-testing-trizetto-46721-1.html">TriZetto Joins Short List of Clearinghouses Testing ICD-10</a></li>
+																			<li><a href="/news/breach-stolen-laptop-results-in-identity-protection-46720-1.html">Stolen Laptop Results in Hospital Offering ID Protection</a></li>
+																			<li><a href="/news/california-cuts-medicaid-payments-as-more-enroll-46718-1.html">California Cuts Medicaid Payments as 1 Million New Users Loom</a></li>
+																			<li><a href="/news/lexmark-buys-pacs-integration-vendor-46717-1.html">Lexmark Buys PACS Integration Vendor</a></li>
+																		                </ul>
+                <h2><a href="/mobile-technology">Mobile Technology</a></h2>
+                <ul>
+				
+														<li><a href="/news/icd-10-codes-coding-compliance-testing-trizetto-46721-1.html">TriZetto Joins Short List of Clearinghouses Testing ICD-10</a></li>
+																			<li><a href="/news/breach-stolen-laptop-results-in-identity-protection-46720-1.html">Stolen Laptop Results in Hospital Offering ID Protection</a></li>
+																			<li><a href="/news/california-cuts-medicaid-payments-as-more-enroll-46718-1.html">California Cuts Medicaid Payments as 1 Million New Users Loom</a></li>
+																			<li><a href="/news/lexmark-buys-pacs-integration-vendor-46717-1.html">Lexmark Buys PACS Integration Vendor</a></li>
+																		                </ul>
+            </div>
+            <div class="left footer-col">
+                <h2><a href="/web_seminars">Web Seminars</a></h2>
+                <ul>
+				
+														<li><a href="/web_seminars/-46712-1.html">The Retail Revolution in Healthcare &#150; A Landscape Changed by Healthcare Reform</a></li>
+																			<li><a href="/web_seminars/-46715-1.html">The Trilemma: Tax, Financial Reporting and New Regulatory Requirements</a></li>
+																											                </ul>
+                <h2><a href="/white_papers">White Papers</a></h2>
+                <ul>
+				
+														<li><a href="/white_papers/PCconnection-46689-1.html">Manage, Access, and Share Critical Patient Information</a></li>
+																			<li><a href="/white_papers/nextgen-46692-1.html">Make ICD-10 easier!</a></li>
+																																				                </ul>
+            </div>
+        </div>
+
+             
+    
+            <!-- 2 col ad start -->
+           <div class="left" id="footer-content-right">
+	           <div class="clearfix">
+		           <!-- ad start -->
+		    			 <div class="module">
+		        		 <div id="bigbox4" style="width: 300px;height: 250px;">
+	<script type="text/javascript">
+		googletag.display("bigbox4");
+	</script>
+</div>
+		    			 </div>
+		    			 <!-- ad end -->
+	    			 </div><!-- clearfix -->
+
+           	 <div style="height:1px;background:#ccc;margin: 0 0 15px 0;"></div>
+	           <div class="module small-ads">
+		           <div class="ad-row1 clearfix">
+		           	<div class="left small-ad"><div id="rightbutton5" style="width: 120px;height: 90px;">
+	<script type="text/javascript">
+		googletag.display("rightbutton5");
+	</script>
+</div></div>
+		           	<div class="right small-ad"><div id="rightbutton6" style="width: 120px;height: 90px;">
+	<script type="text/javascript">
+		googletag.display("rightbutton6");
+	</script>
+</div></div>
+		           </div>
+	           </div>
+           </div>
+           <!-- 2 col ad end -->
+        </div><!-- footer-content-right -->
+        <div id="footer-ad">
+        <div id="bottombanner" style="width: 728px;height: 90px;">
+	<script type="text/javascript">
+		googletag.display("bottombanner");
+	</script>
+</div>
+    </div>
+    </div><!-- clearfix -->
+
+
+</div>
+<!-- footer content end -->
+ </div><!-- wrapper -->
+<div id="footer-wrapper">
+	<div id="footer">
+			<div class="clearfix frame">
+					
+	<div class="left footer-col-1">
+	<ul>
+		<li><a href="http://www.healthdatamanagement.com">HOME</a></li>
+		<li><a href="http://www.healthdatamanagement.com/about/index.html">About Us</a></li>
+		<li><a href="http://www.healthdatamanagement.com/about/contact.html">Contact Us</a></li>
+		<li><a href="http://www.sourcemedia.com/media_kits/health_data_management.html">Advertise with Us</a></li>
+		<li><a href="http://www.healthdatamanagement.com/subscribe/">Subscribe</a></li>
+		<li><a href="http://www.healthdatamanagement.com/reader_services/reprints.html">Reprints</a></li>
+		<li><a href="http://www.healthdatamanagement.com/about/customer_service.html">Customer Service</a></li>
+		<li><a href="http://www.healthdatamanagement.com/about/editorial_calendar.html">Editorial Calendar</a></li>
+		<li><a href="http://www.healthdatamanagement.com/about/contact.html">Feedback</a></li>
+		<li><a href="http://www.healthdatamanagement.com/profile/">My Account</a></li>
+		<li><a href="http://www.healthdatamanagement.com/resources/sitemap.html">Site Map</a></li>
+		<li><a href="http://www.healthdatamanagement.com/about/privacy.html">Privacy Policy</a></li>
+		<!--li><a href="http://www.healthdatamanagement.com/aboutus/subscriptionagreement.html">Subscription Agreement</a></li-->
+</ul>
+<div style="height:10px;"></div>
+
+</div>
+<div class="left footer-col-2">
+	<h2 class="white"><a href="http://www.sourcemedia.com/">sourcemedia<br />corporate site</a></h2>
+	<div style="height:10px;"></div>
+	<h2>banking</h2>
+	<ul>
+		<li><a href="http://www.americanbanker.com">American Banker</a></li>
+		<li><a href="http://www.americanbanker.com/btn">Bank Technology News</a></li>
+		<li><a href="http://www.americanbanker.com/magazine/">American Banker Magazine</a></li>
+		<li><a href="http://www.cujournal.com">Credit Union Journal</a></li>
+	</ul>
+
+	<h2 class="second" style="margin: 10px 0 0px;">MORTGAGES</h2>
+	<ul>         	
+		<li><a href="http://www.nationalmortgagenews.com">National Mortgage News</a></li>
+	</ul>
+
+	<h2 class="second" style="margin: 10px 0 0px;">PAYMENTS
+</h2>
+	<ul>         	
+		<li><a href="http://www.paymentssource.com">PaymentsSource</a></li>
+		<li><a href="http://www.collectionscreditrisk.com">Collections & Credit Risk</a></li>
+		<li><a href="http://www.isoandagent.com/">ISO & Agent</a></li>
+	</ul>
+
+</div>
+<div class="left footer-col-3">
+	<h2>capital markets</h2>
+	<ul>         	
+		<li><a href="http://www.themiddlemarket.com">Mergers & Acquisitions</a></li>
+		<li><a href="http://www.structuredfinancenews.com">Asset Securitization Report</a></li>
+		<li><a href="http://www.leveragedfinancenews.com">Leveraged Finance News</a></li>
+		<li><a href="http://www.privateplacementletter.com">Private Placement Letter</a></li>
+		<li><a href="http://www.tradersmagazine.com">Traders Magazine</a></li>
+		<li><a href="http://www.securitiestechnologymonitor.com">Securities Technology Monitor</a></li>
+	</ul>
+	<h2 class="second" style="margin: 10px 0 0px;">MUNICIPAL FINANCE</h2>
+	<ul>         	
+		<li><a href="http://www.bondbuyer.com">The Bond Buyer</a></li>
+	</ul>
+	<h2 class="second" style="margin: 10px 0 0px;">accounting</h2>
+	<ul>
+		<li><a href="http://www.accountingtoday.com">Accounting Today</a></li>
+		<li><a href="http://www.accountingtoday.com/taxprotoday">Tax Pro Today</a></li>
+	</ul>
+
+</div>
+<div class="left footer-col-4">
+	<h2>HEALTHCARE & BENEFITS</h2>
+	<ul>
+		<li><a href="http://ebn.benefitnews.com">Employee Benefit News</a></li>
+		<li><a href="http://eba.benefitnews.com">Employee Benefit Adviser</a></li>
+		<li><a href="http://www.healthdatamanagement.com">Health Data Management</a></li>
+		<li><a href="http://www.insurancenetworking.com">Insurance Networking News</a></li>
+		<li><a href="http://www.information-management.com">Information Management</a></li>
+	</ul>
+	<h2 class="second" style="margin: 10px 0 0px;">INVESTMENT ADVISORY</h2>
+	<ul>
+		<li><a href="http://www.financial-planning.com">Financial Planning</a></li>
+		<li><a href="http://www.onwallstreet.com">On Wall Street</a></li>
+		<li><a href="http://www.bankinvestmentconsultant.com">Bank Investment Consultant</a></li>
+		<li><a href="http://www.mmexecutive.com">Money Management Executive</a></li>
+		<li><a href="http://www.mandatepipeline.com">Investment Mgt. Mandate Pipeline</a></li>
+	</ul>
+</div>
+
+ 
+				</div>
+	 		<div id="footer-bottom" class="clearfix">
+			<div class="left" id="footer-bottom-logo">
+						<img src="http://cdn.healthdatamanagement.com/media/ui/sm-logo-bw.png" />
+					</div>
+			<div class="left" id="footer-bottom-more-links">
+				<div id="footer-bottom-privacy">
+					&copy; 2013 <a href="http://www.sourcemedia.com/">SourceMedia</a>. All rights reserved.
+				</div>
+			</div>
+		</div>
+	</div><!-- footer -->
+</div>
+
+
+	
+
+<script type="text/javascript">
+
+	function showBar(){
+		$("#slide-area").animate({
+			bottom: '0'
+		});
+		$("#ribbon-right").animate({
+			bottom: '0'
+		});
+	}
+
+	$(document).ready(function(){
+		jQuery(function ($) {
+			// Load dialog on page load
+			//$('#basic-modal-content').modal();
+
+			// Load dialog on click
+			$('.basic').click(function (e) {
+				$('#basic-modal-content').modal();
+
+				return false;
+			});
+		});
+
+		// if ie6
+		if (!window.XMLHttpRequest) {
+			var isIE6 = true;
+		}
+
+		//if ipad
+		var isiPad = navigator.userAgent.match(/iPad/i) != null;
+
+		//if iphone
+		var isiPhone = navigator.userAgent.match(/iPhone/i) != null;
+
+		//if mobile device
+		var isMobile = "";
+
+		if ( (isiPad) || (isIE6) || (isiPhone) || (isMobile) ){
+			$('#bottom-anchor-wrapper').addClass("ipad-anchor-wrapper");
+		} else {
+			$('#bottom-anchor-wrapper').addClass("web-anchor-wrapper");
+		}
+
+		if ( (isiPad)|| (isiPhone) || (isMobile) ) {
+			$('#term').addClass("ipad-search-box");
+		} else {
+			$('#term').addClass("web-search-box");
+		}
+
+	});
+
+</script>
+
+<div id="bottom-anchor-wrapper">
+
+	<div id="bottom-anchor" class="clearfix">
+		
+
+
+	<div style="float:left;position: absolute; left: 23px; bottom: 8px; z-index: 1000000;">
+		<div id="pubbarLeft" style="width: 120px;height: 60px;">
+	<script type="text/javascript">
+		googletag.display("pubbarLeft");
+	</script>
+</div>
+	</div>
+		
+		<div id="toggle" class="left">
+        	<!-- <a href="" onclick="hideBar();return false;">HIDE &raquo;</a> -->
+        </div>
+      <div id="slide-area" class="left">
+        <div class="left" id="welcome-text">
+       					</div>
+
+		    					
+	<div class="left" id="logout-text">
+                <a href="#signInContainer" id="signInLink" style="color:#ffffff;font-weight:bold;" class="fancybox">Login</a> &nbsp;|&nbsp; <a href="http://www.healthdatamanagement.com/profile/">My Account</a> &nbsp;|&nbsp; <a href="http://www.healthdatamanagement.com/white_papers/">White Papers</a> &nbsp;|&nbsp; <a href="http://www.healthdatamanagement.com/web_seminars/">Web Seminars</a> &nbsp;|&nbsp; <a href="http://www.healthdatamanagement.com/industry_events/">Events</a>&nbsp;|&nbsp; <a href="http://www.healthdatamanagement.com/reader_services/enewsletters.html">Newsletters</a>&nbsp;|&nbsp; <a href="http://www.healthdatamanagement.com/ebooks/">eBooks</a>
+
+            </div>
+            <div class="right" id="share-icons"><div id="share-text" class="left"> FOLLOW US </div>
+                <a href="http://www.facebook.com/HealthDataManagement" target="_blank"><img src="http://cdn.healthdatamanagement.com/media/ui/facebook-20x20.png" /></a>
+<a href="http://www.linkedin.com/groups/Health-Data-Management-Magazine-3982973" target="_blank"><img src="http://cdn.healthdatamanagement.com/media/ui/linkedin-20x20.png" /></a>
+                <a href="http://twitter.com/HDMmagazine" target="_blank"><img src="http://cdn.healthdatamanagement.com/media/ui/twitter-20x20.png" /></a>
+<a href="/reader_services/rss.html"><img src="http://cdn.healthdatamanagement.com/media/ui/rss-20x20.png"></a>
+<!-- Place this tag where you want the +1 button to render -->
+<g:plusone size="medium" annotation="none"></g:plusone>
+            </div>
+
+ 
+				      </div>
+      
+					<div style="float:right;position: absolute; right: 23px; bottom: 8px;z-index: 1000000;">
+			<div id="pubbar" style="width: 120px;height: 60px;">
+	<script type="text/javascript">
+		googletag.display("pubbar");
+	</script>
+</div>
+		</div>
+			      
+    </div> <!-- bottom-anchor -->
+</div><!-- bottom-anchor-wrapper -->
+
+<!-- add overlay -->
+
+	<div style="display: none;">
+	<div id="signInContainer" class="grid_8">
+				
+		<div class="clearfix" id="logged-out-buttons">
+			<div class="left">
+		  	<a href="/subscribe/"><img border="0" src="http://cdn.healthdatamanagement.com/media/ui/subscribe.png"></a>
+		  </div>                            	
+		  <div class="right">
+		  	<a href="/register/"><img border="0" src="http://cdn.healthdatamanagement.com/media/ui/register.png"></a>
+		  </div>
+		</div>
+		
+		<div class="clearfix" id="logged-out-login">
+			
+			<div id="logged-out-login-header">
+		  	Already a subscriber? Log in here
+		  </div>
+		  
+		  <div id="login-left" class="left">
+		  	<form method="post" action="/profile/">
+				<input type="hidden" name="zkLogin" value="true" />
+				<input type="hidden" name="zkLoginRedirectUrl" value="/news/fda-final-guidance-on-medical-mobile-applications-46626-1.html" /> 
+				<input type="hidden" name="return_url" value="/news/fda-final-guidance-on-medical-mobile-applications-46626-1.html" />     
+		  	<div id="login-disclaimer">
+		    	Please note you must now log in with your <strong>email address</strong> and password.
+		    </div>
+		    <div class="login-input login-input-text">
+		    	E-MAIL ADDRESS
+		      <br>
+		      <input type="text" name="login_id" id="login_id" value="" class="text">
+		    </div>                                    
+		    <div class="login-input login-input-text">
+		    	PASSWORD
+		      <br>
+		      <input type="password" name="login_pwd" id="login_pwd" value="" class="text" />
+		    </div>                                    
+		    <div class="login-input">
+		    	<input type="image" src="http://cdn.healthdatamanagement.com/media/ui/login.png">
+		    </div>
+		    <div class="login-input login-input-checkbox">
+		    	<input name="zkMaintainState" type="checkbox" class="ckBox" value="1" id="zkMaintainState" checked="checked" /> Remember me
+		    </div>
+		    </form>
+		  </div>
+		  
+		  <div id="login-right" class="left">
+		  	<a href="/profile/password.reminder.html">Forgot your password?</a>
+		    <br><br>
+		    <a href="/customer_service/contactcustomerservice.html">Does your company have a site license? Inquire here.</a>
+		    <br><br>
+		    <a href="/customer_service/contactcustomerservice.html">Contact customer service.</a>
+		    <br><br>
+		    <a href="/activate/">Already a print subscriber? Activate your online account.</a>
+		  </div>
+		  
+		</div>
+
+	</div>
+</div> 
+<script type="text/javascript" charset="utf-8">
+
+      window.twttr = (function (d,s,id) {
+
+        var t, js, fjs = d.getElementsByTagName(s)[0];
+
+        if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+
+        js.src="//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+
+        return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+
+      }(document, "script", "twitter-wjs"));
+
+    //Wrap event bindings - Wait for async js to load
+  twttr.ready(function (twttr) {
+    //event bindings
+        twttr.events.bind('tweet', function(event) {
+        _gaq.push(['_trackSocial', 'twitter', 'tweet', 'FDA Issues Final Guidance on Medical Mobile Applications - HDM Latest News Article', '/news/fda-final-guidance-on-medical-mobile-applications-46626-1.html']);
+    });
+  });
+	</script>
+<script type="text/javascript" src="http://cdn.healthdatamanagement.com/media/js/twitter/jquery.tweet.js" ></script>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+<!-- Google Code for Remarketing tag -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 995873635;
+var google_conversion_label = "IULBCKXEjgQQ46bv2gM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/995873635/?value=0&amp;label=IULBCKXEjgQQ46bv2gM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<script type="text/javascript">
+$.ajax({
+url: document.location.protocol + '//munchkin.marketo.net/munchkin.js',
+dataType: 'script',
+cache: true,
+success: function() {
+Munchkin.init('555-ETU-514');
+}
+});
+</script>
+<img src="http://ad.retargeter.com/seg?add=708868&t=2" width="1" height="1" />
+</body>
+</html>

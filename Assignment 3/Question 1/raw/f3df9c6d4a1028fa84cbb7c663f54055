@@ -1,0 +1,1042 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+    <head>
+	  
+	  		  
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		
+							
+		<!-- Make sure the href of the link tag points to the icon you created -->
+<meta name="application-name" content="Principales Noticias de Colombia y el Mundo - ELTIEMPO.COM" />
+<meta name="msapplication-starturl" content="http://www.eltiempo.com/" />
+<meta name="msapplication-navbutton-color" content="#065e9d" />
+<meta name="msapplication-window" content="width=1024;height=768" />
+<meta name="msapplication-tooltip" content="Principales Noticias de Colombia y el Mundo - ELTIEMPO.COM" />
+
+<link rel="shortcut icon" href="http://www.eltiempo.com/favicon.ico"/>
+
+<script type="text/javascript">
+        var contadorFunc = 0;
+    function IEFunctionality()
+    {
+	    try{
+        if (window.external.msIsSiteMode())
+        {         
+           if(contadorFunc == 0){
+            //omniture desde el alclaje de PIN IE9
+            var s=s_gi('eltiempocom'); 
+            s.linkTrackVars='eVar33,events'; 
+            s.linkTrackEvents='event26'; 
+            s.eVar33='Tracking IE9'; 
+            s.events='event26';  
+            s.tl(this,'o','Tracking IE9'); 
+            
+            s.prop43 = "PIN IE 9";  
+		    var s_code=s.t();if(s_code)document.write(s_code);//recuest
+		   }
+		   contadorFunc++;
+            /*ATENCION OMITIR ESTA LINEA AL PONER EL SITE EN PRODUCCION*/
+            //jQuery.support.cors = true;
+            //var counter = 1;	
+		    $.ajax(
+		    {
+			    type: "GET",
+			    url: "http://www.eltiempo.com/pinie9_rss.xml",
+			    dataType: "xml",
+			    success: function(xml) 
+			    {
+                    window.external.msSiteModeClearJumpList();
+                    window.external.msSiteModeCreateJumpList('Secciones de interés');
+                    
+                    var counterItem = 0;    
+				    var str="";
+				    $(xml).find('item').each(function()
+				    {
+                        var title = $(this).find('title').text();
+                        var link = $(this).find('link').text();
+                        //adicionar icono de notificacion   /media/images/favicons/favicon_etalerta.ico
+                        //se puede cambiar el icono por el numero respectivo por ejemplo
+                        
+                        if(title != 'no hay streaming en eltiempo.com' && counterItem == 0){
+                            //window.external.msSiteModeClearIconOverlay();
+                            window.external.msSiteModeSetIconOverlay("http://www.eltiempo.com/media/images/favicons/faviconetalerta.ico");
+                            window.external.msSiteModeActivate();
+                            //window.external.msSiteModeSetIconOverlay("http://www.eltiempo.com/media/images/favicons/favicon_etalerta.ico", title);
+                        }else{
+                        //media/images/favicons/favicon_et.ico
+                            //window.external.msSiteModeSetIconOverlay("http://www.eltiempo.com/media/images/favicons/favicon_et.ico", title);
+                            if(title == 'no hay streaming en eltiempo.com' && counterItem == 0){
+                                window.external.msSiteModeClearIconOverlay();
+                            }
+                        }
+
+                        //Adicionar noticia a las 5 noticias recomendadas
+                        //se puede cambiar el icono por el numero respectivo por ejemplo
+                        if(counterItem > 0)
+                            window.external.msSiteModeAddJumpListItem(title, link, "http://www.eltiempo.com/favicon.ico");
+
+                        counterItem++;
+				    }); 
+				    window.external.msSiteModeShowJumpList();
+			    },
+                error:function(jqXHR, textStatus, errorThrown)
+                {}
+		    });
+  
+	    }
+	    }catch(e){
+            //console.log("- Error " + e)    
+        }
+    }
+   window.onload = IEFunctionality;
+   //window.setTimeout(IEFunctionality, 10000);
+   window.setInterval(IEFunctionality, 10000);
+</script>
+     
+			  
+		<title>Fotos: Colombia, entre los mejores 15 lugares, según fundador de 'Lonely Planet'  - Galería de Fotos - ELTIEMPO.COM</title>               	<link rel="canonical" href="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/GALERIAFOTOS-WEB-PLANTILLA_GALERIA_FOTOS-13083817.html" /> 
+                               
+                      
+         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+ <meta  http-equiv="Cache-Control" content="max-age=3600"/>
+ <meta name="generator" content="Sistema CMS, Nuevos Medios: Casa Editorial EL TIEMPO"/>
+ <meta name="DESCRIPTION" content="Esta famosa guía de viajes se dejó enamorar por la magia de Ciudad Perdida en Colombia. El sitio logró  cautivar a su fundador, Tony  Wheeler,  quien en honor a los 15 años de su editorial, escogió los 15 lugares más especiales del mundo. FOTOS: Archivo Particular.  "/>
+     
+      
+     
+     <meta itemprop="keywords" name="keywords" content="fotografía, debes saber"/> 
+<meta name="news_keywords" content="fotografía, debes saber"/> 
+                                   
+  <link rel="alternate" type="application/rss+xml" title="- ELTIEMPO.COMFotografía" href="" />
+<meta property="og:title" content="Colombia, entre los mejores 15 lugares, según fundador de 'Lonely Planet' " />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/colombia-dentro-de-los-mejores-15-lugares-del-mundo-segun-la-editorial-lonely-planet-_13083817-5" />
+<meta property="og:description" content="Esta famosa guía de viajes se dejó enamorar por la magia de Ciudad Perdida en Colombia. El sitio logró  cautivar a su fundador, Tony  Wheeler,  quien en honor a los 15 años de su editorial, escogió los 15 lugares más especiales del mundo. FOTOS: Archivo Particular.  " />
+<meta property="og:site_name" content="Fotografía"/>
+<meta property="og:image" content="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083795-1.png" />
+<!--100002279652972 es el id del usuario harara-->
+<meta property="fb:admins" content="100002279652972" />                                				<link rel="stylesheet" type="text/css" href="http://static.eltiempo.com/media/css/produccion/main.css" media="all" />
+													<link rel="stylesheet" type="text/css" href="http://static.eltiempo.com/media/css/produccion/etphoto_gal.css" media="all" />
+						<link rel="stylesheet" type="text/css" href="http://static.eltiempo.com/media/css/produccion/multimedia-especiales-negrav2.css" media="all" />
+						<!--<link rel="stylesheet" type="text/css" href="http://static.eltiempo.com/media/css/produccion/despliegue1blackpruebas.css" media="all" />-->
+						<link rel="stylesheet" type="text/css" href="http://static.eltiempo.com/media/css/produccion/Home_especialesET.css" media="all" />
+						<link rel="stylesheet" type="text/css" href="http://static.eltiempo.com/media/css/produccion/nueva_galeriaet.css" media="all" />
+					    	    							<link rel="stylesheet" type="text/css" href="http://static.eltiempo.com/media/css/produccion/shadowbox.css" media="all" />
+						<!--[if lte IE 7]>
+				<link rel="stylesheet" type="text/css" href="http://static.eltiempo.com/media/css/produccion/barraie6.css" media="all" />
+             	<script src="/js/DD_belatedPNG_0.0.8a-min.js" type="text/javascript"></script>
+	            <script src="/js/png.js" type="text/javascript"></script> 
+			<![endif]-->
+           
+						<!--[if IE 7]>
+				<link rel="stylesheet" type="text/css" href="http://static.eltiempo.com/media/css/produccion/ie7_2.css" media="all" />
+			<![endif]-->
+			<!--[if IE 8]>
+				<link rel="stylesheet" type="text/css" href="http://static.eltiempo.com/media/css/produccion/ie8_2.css" media="all" />
+			<![endif]-->          
+			<script type="text/javascript">var  CMS_ID_PAGINA_ACTUAL=8967207;</script><script language='javascript' type='text/javascript' src='../../../OBJ-JAVASCRIPTS_GENERALES-70937_CG.js'>
+</script><script language='javascript' type='text/javascript' src='../../../OBJ-JAVASCRIPT_CSI-71497_CG.js'>
+</script>	  <script src='http://player.ooyala.com/v3/8b9ddbb2bb504e658a5ba07ea351da80?platform=html5-fallback'></script>
+	  <script type="text/javascript" src="http://www.eltiempo.com/media/js/swfstore.js"></script>
+	  
+	  
+	  <script type="text/javascript" src="http://static.eltiempo.com/media/js/javascript_st.js"></script>          
+          
+                             
+                          <link rel="stylesheet" type="text/css" href="http://static.eltiempo.com/media/css/produccion/galleria.classic.css" media="screen, projection"/>
+                 <script src="http://www.eltiempo.com/media/js/globalMeasure.js"></script>
+                 <script src="http://www.eltiempo.com/media/js/galleria.js"></script>
+                 <script src="http://www.eltiempo.com/media/js/galleria.classic.js"></script>
+                     
+           
+        
+      
+
+      
+
+     
+
+ 
+
+    
+	  
+	  
+<script type="text/javascript" language="JavaScript">
+var seccion = "internacional11";
+var profile = "";
+var idSitioSmart = "22171";
+var idSeccionSmart= "184319";
+var arrayPautasSmart = [9309,9608,9344,10914,15293];
+</script>
+<script language='javascript' type='text/javascript' src='../../../OBJ-JS_PUBLICIDAD_SMART-81017_CG.js'>
+</script><script type="text/javascript" src="http://cdn1.smartadserver.com/diff/js/smartadserver.js"></script>
+                                                            	  
+	  
+	  
+    </head>
+  
+            <body>   
+       
+               <!--[if lte IE 7]>
+                <div class="barra-recomendacion-ie6">
+	               <ul class="enlaces-navegadores">
+    	                                    <li class="boton-ff"><a href="http://www.mozilla-europe.org/es/firefox/" title="descarga firefox" target="_blank">firefox</a></li>
+                      <li class="boton-ie8"><a href="http://windows.microsoft.com/es-ES/internet-explorer/download-ie" target="_blank" title="descarga internet explorer">internet explorer</a></li>
+                      <li class="boton-gchrome"><a href="http://www.google.com/chrome" target="_blank" title="descarga google chrome">google chrome</a></li>
+                   </ul>
+                </div>
+           <![endif]-->
+        <!-- alias seccion fotografia --><script language="JavaScript">
+<!--  
+var s_pageName="Fotografía: Colombia, entre los mejores 15 lugares, según fundador de Lonely Planet "
+var s_prop14;
+var loggeadin = getCookie('eltiempopuntocom');
+if(loggeadin!=null && loggeadin!="")
+{
+    //s_prop14 = "SI";
+    s_prop14 = loggeadin[0];
+    //sexo
+    s_prop15 = loggeadin[6];
+    //Pais
+    s_prop16 = loggeadin[7];
+    //edad
+    s_prop17 = loggeadin[8];
+    //Profesion
+    s_prop18 = loggeadin[9];
+}
+else
+{
+    s_prop14 = "-";
+    s_prop15 = "-";
+    s_prop16 = "-";
+    s_prop17 = "-";
+    s_prop18 = "-";
+}
+
+
+var s_channel="Fotografía";
+var s_hier1 = "otras secciones:multimedia:galeria de fotos:fotografía"
+var s_prop24 = "sub-section level 4:fotografía"
+var s_prop24 = ""
+var s_prop25 = "Colombia, entre los mejores 15 lugares, según fundador de 'Lonely Planet' "
+var s_prop26 = ""
+var s_prop11 = 'Normal';
+	var s_prop75;
+	 -->
+</script>
+
+
+<!-- SCRIPT PARA CHARTBEAT-->
+<script type='text/javascript'>var _sf_startpt=(new Date()).getTime()</script>
+            
+<script type='text/javascript'>
+    var _sf_async_config={};
+    /** CONFIGURATION START **/
+    _sf_async_config.uid = 50648;
+    _sf_async_config.domain = 'eltiempo.com';
+    _sf_async_config.useCanonical = true;
+    _sf_async_config.sections = "Fotografía";  //CHANGE THIS
+    _sf_async_config.authors = "";    //CHANGE THIS
+    /** CONFIGURATION END **/
+    (function(){
+      function loadChartbeat() {
+        window._sf_endpt=(new Date()).getTime();
+        var e = document.createElement('script');
+        e.setAttribute('language', 'javascript');
+        e.setAttribute('type', 'text/javascript');
+        e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+        document.body.appendChild(e);
+      }
+      var oldonload = window.onload;
+      window.onload = (typeof window.onload != 'function') ?
+         loadChartbeat : function() { oldonload(); loadChartbeat(); };
+    })();
+</script>
+
+
+                                        
+<script type="text/javascript" language="javascript">
+//<![CDATA[
+var loggeadin = getCookie('eltiempopuntocom');
+if(!loggeadin)
+ loggeadin= new Array();
+ 
+var seccionEplanning = "Galeria";
+
+//]]>     	
+</script><script language='javascript' type='text/javascript' src='../../../OBJ-JS_PUBLICIDAD_AJAX-75117_CG.js'>
+</script>
+<script type="text/javascript" language="JavaScript">
+sas_formatid=9601;
+if(typeof SmartAdServerAjax == "function"){
+	SmartAdServerAjax(sas_pageid,sas_formatid,sas_target);
+}
+</script>
+<script type="text/javascript" language="JavaScript">
+sas_formatid=9635;
+if(typeof SmartAdServerAjax == "function"){
+	SmartAdServerAjax(sas_pageid,sas_formatid,sas_target);
+}
+</script><div style='height: 0px; width: 0px' id='sas_8933'>
+<script type="text/javascript" language="JavaScript">
+sas_formatid=8933;
+if(typeof SmartAdServerAjax == "function"){
+	SmartAdServerAjax(sas_pageid,sas_formatid,sas_target);
+}
+</script></div>
+<script type="text/javascript" language="JavaScript">
+sas_formatid=9343;
+if(typeof SmartAdServerAjax == "function"){
+	SmartAdServerAjax(sas_pageid,sas_formatid,sas_target);
+}
+</script>
+<script type="text/javascript" language="JavaScript">
+sas_formatid=9861;
+if(typeof SmartAdServerAjax == "function"){
+	SmartAdServerAjax(sas_pageid,sas_formatid,sas_target);
+}
+</script>
+<script type="text/javascript">
+  
+  function mostrarLoginCasper(){
+  	domain = document.domain;
+  
+  	client_id = 'eltiempo';
+  	if (domain == 'www.motor.com.co' || domain == 'motor.com.co') client_id = 'motor';
+  	if (domain == 'www.revistacredencial.com.co' || domain == 'revistacredencial.com.co') client_id = 'credencial';
+  
+  	if(document.getElementById('sb-title'))
+		document.getElementById('sb-title').style.visibility='hidden';
+	if(document.getElementById('sb-body-text'))
+		document.getElementById('sb-body-text').style.visibility='hidden';
+  	if(document.getElementById('sb-info'))
+		document.getElementById('sb-info').style.visibility='hidden';
+  	Shadowbox.open({
+	  player: 'iframe',
+	  content: 'https://seg.eltiempo.com/autenticacion/authentication/login/?response_type=code&client_id=' + client_id + '&state=1706333574',
+	  width:655,
+	  height:287,
+	  options: {
+		handleOversize: 'none',
+		onClose: function(){
+		  document.getElementById('sb-title').style.visibility='visible';
+  		  document.getElementById('sb-body-text').style.visibility='visible';
+  		  document.getElementById('sb-info').style.visibility='visible';
+		}
+	  }
+	});
+	return false;
+}	
+   
+</script>
+
+<div class="container_logued maquillaje" id="zonadeusuario0" style="display:none;"></div>
+
+<div class="container-header nuevo maquillaje " id="maincontainerheader">
+    <div id="movie_down" style="position:absolute;z-index:10006;margin-left:60px;margin-top:50px;"></div>
+    <div id="cien" style="position:absolute;z-index:9999; margin-left: 10px; margin-top: 20px;display:none;"></div>
+   
+    <script type="text/javascript">
+        var valor1cabezote = "0";
+        var valor2cabezote = "0";
+        var direccionurlcabezote=top.location.href;
+        direccionurlcabezote=direccionurlcabezote.toLowerCase();
+        if (direccionurlcabezote.indexOf("/carrusel/")==-1)
+        {
+            valor1cabezote="1";
+        }
+        valor1cabezote="1";
+        var usuariocabezote = getCookie("eltiempopuntocom");
+        if(usuariocabezote != undefined) 
+        {
+            if ((usuariocabezote[0] != "") || (usuariocabezote[10] == 1))
+            {
+                valor2cabezote = "1";
+            }
+        }
+        if ((valor1cabezote=="1") && (valor2cabezote=="1"))
+        {
+            var containerheadercabezote = document.getElementById("maincontainerheader");
+            if (containerheadercabezote != null)
+            {
+                containerheadercabezote.className = "container-header nuevo maquillaje";
+            }
+        }
+    </script>
+    
+    <div id="subcontainerheader" class="header">
+    
+        <script>
+            if ((valor1cabezote=="1") && (valor2cabezote=="1"))
+            {
+                var containerheadercabezote = document.getElementById("subcontainerheader");
+                if (containerheadercabezote != null)
+                {
+                    containerheadercabezote.className = "header";
+                }
+            }
+        </script>
+        
+<div class="registro-header nuevo">
+<div id='CMS_NUEVO_LOGIN_CASPER_102557_55_1380937955.31'></div>
+<script>lanzarRequest('NUEVO_LOGIN_CASPER', obtenerBrowser(),'/cms/servirObjeto.php?alias_objeto=NUEVO_LOGIN_CASPER&id_pagina=8967207&verbose=&enviarArchivos=true&replicarPublicacion=true&enviarObjetos=&nombre_seccion=Fotograf%EDa','CMS_NUEVO_LOGIN_CASPER_102557_55_1380937955.31');</script></div>                                                                <div class="clear"></div>
+           
+    <h1 id="eltiempo2010" class="logo nuevo">
+       <span style="display: none !important">&Uacute;ltimas Noticias de Colombia y el Mundo &#45; ELTIEMPO.COM</span>
+       <a id="logohome" alt="ElTiempo.com -Logo" href='/'>ELTIEMPO.COM</a>
+    </h1>                            <div class="fecha-diaria nuevo">
+                                             <script type="text/javascript">
+    dia = new Date();
+    day = dia.getDate();
+    weekDay = diasSemana[dia.getDay()];
+    month = meses[dia.getMonth()];
+    year = dia.getFullYear();
+    document.write('<span>'+weekDay+'</span> '+day+' de '+month+' de '+year+'');
+ </script>                    </div>
+        <div class="clear"></div>
+                            <div id="publicidads" class="publicidad-flotante" onmouseover="document.getElementById('publicidads').style.zIndex = 1000" onmouseout="document.getElementById('publicidads').style.zIndex = 1000">
+            
+<script type="text/javascript" language="JavaScript">
+sas_formatid=9309;
+if(typeof SmartAdServerAjax == "function"){
+	SmartAdServerAjax(sas_pageid,sas_formatid,sas_target);
+}
+</script>            </div>
+                        <script>
+        $('#archivo-form-buscador-q').val('Buscador Noticias');
+        </script>
+    </div>
+</div>
+<div id="eltiempo_sesion" style="display:none;"></div>        <div class="clear"></div>
+
+<div class="container">
+              <div class="peelbannerpr">
+       
+<script type="text/javascript" language="JavaScript">
+sas_formatid=11236;
+if(typeof SmartAdServerAjax == "function"){
+	SmartAdServerAjax(sas_pageid,sas_formatid,sas_target);
+}
+</script></div>   <div class="header2">
+      <a href="/" title="ELTIEMPO.COM" class="logo-especiales-multimedia1" target="_blank">Eltiempo Multimedia</a>
+	  <ul class="breadcrumb">
+   <li><h3><a title="Galeria de fotos" href="http://www.eltiempo.com/Multimedia">Galeria de fotos </a></h3></li>
+     <li><h3><span>/</span> Internacional 11</h3></li>
+</ul>       </div>
+   <div class="titulargrafico_especiales" alt="Colombia, entre los mejores 15 lugares, según fundador de 'Lonely Planet' " title="Colombia, entre los mejores 15 lugares, según fundador de 'Lonely Planet' ">
+      <div class="descripcion_especiales" id="descripcionGaleriaTit">
+      Esta famosa guía de viajes se dejó enamorar por la magia de Ciudad Perdida en Colombia. El sitio logró  cautivar a su fundador, Tony  Wheeler,  quien en honor a los 15 años de su editorial, escogió los 15 lugares más especiales del mundo. FOTOS: Archivo Particular.        </div><!-- fin descripción -->
+   </div>
+<div class="container-content">
+<div class="pauta-fija-home" style="position:fixed;z-index:10000;padding-top:10px;padding-left:10px;bottom:0;">
+          
+<script type="text/javascript" language="JavaScript">
+sas_formatid=8941;
+if(typeof SmartAdServerAjax == "function"){
+	SmartAdServerAjax(sas_pageid,sas_formatid,sas_target);
+}
+</script>	
+  </div>
+	<div class="content1" id="contenidoArt">
+		<div class="nivel multimedia1">
+			<div class="contiene-bloques">
+				<div class="bloque a">
+			<div class="titulo-especial">
+				<h1 id="tituloGaleria" itemprop="headline">Colombia, entre los mejores 15 lugares, según fundador de 'Lonely Planet' </h1>
+												<h2 id="descripcionGaleria" itemprop="description">Esta famosa guía de viajes se dejó enamorar por la magia de Ciudad Perdida en Colombia. El sitio logró  cautivar a su fundador, Tony  Wheeler,  quien en honor a los 15 años de su editorial, escogió los 15 lugares más especiales del mundo. FOTOS: Archivo Particular.  </h2>
+									</div>
+<div class="container">
+ <div class="wrapper pre_foro">
+   <div class="contenido100_gal">
+   
+      <div class="holder">
+   	 
+   
+        <script type="text/javascript" src="http://www.eltiempo.com/media/js/jquery.tn3lite.min.js"></script>
+<div id="content">
+    <div class="mygallery">
+	<div class="tn3 album">
+	    <h4>Colombia, entre los mejores 15 lugares, según fundador de 'Lonely Planet' </h4>
+	    <div class="tn3 description">Esta famosa guía de viajes se dejó enamorar por la magia de Ciudad Perdida en Colombia. El sitio logró  cautivar a su fundador, Tony  Wheeler,  quien en honor a los 15 años de su editorial, escogió los 15 lugares más especiales del mundo. FOTOS: Archivo Particular.  </div>
+	    <div class="tn3 href">GALERIAFOTOS-WEB-PLANTILLA_GALERIA_FOTOS-13083817.html</div>
+	    <div class="tn3 thumb"></div>
+	    	<ul>
+				<li>
+		    		<h4>Colombia, dentro de los mejores 15 lugares del mundo según la editorial Lonely Planet </h4>
+		    		<div class="tn3 description" id="imgdescription0" >"Olvídate de Machu Picchu peruano. Esta es la mayor ciudad antigua de América del Sur y ¡está realmente perdida!", esto fue lo que comentó sobre Ciudad Perdida, en Colombia, el viajero de Lonely Planet. </div>
+				  	<meta itemprop='caption' content='"Olvídate de Machu Picchu peruano. Esta es la mayor ciudad antigua de América del Sur y ¡está realmente perdida!", esto fue lo que comentó sobre Ciudad Perdida, en Colombia, el viajero de Lonely Planet. '>
+		    		<a title="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083795-2.png" href="javascript:void(0);">
+						<img alt=""Olvídate de Machu Picchu peruano. Esta es la mayor ciudad antigua de América del Sur y ¡está realmente perdida!", esto fue lo que comentó sobre Ciudad Perdida, en Colombia, el viajero de Lonely Planet. " title="Colombia, dentro de los mejores 15 lugares del mundo según la editorial Lonely Planet " src="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083795-2.png" />
+		    		</a>
+				</li>
+						<li>
+		    		<h4>Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet </h4>
+		    		<div class="tn3 description" id="imgdescription1" >Dublín (Irlanda) cautivó a Wheeler por la cantidad de planes turísticos que ofrece. Desde montar en bicicleta por la ciudad, hasta bañarse en la piscina natural de los 40 pies, sin ropa.</div>
+				  	<meta itemprop='caption' content='Dublín (Irlanda) cautivó a Wheeler por la cantidad de planes turísticos que ofrece. Desde montar en bicicleta por la ciudad, hasta bañarse en la piscina natural de los 40 pies, sin ropa.'>
+		    		<a title="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083796-2.jpg" href="javascript:void(0);">
+						<img alt="Dublín (Irlanda) cautivó a Wheeler por la cantidad de planes turísticos que ofrece. Desde montar en bicicleta por la ciudad, hasta bañarse en la piscina natural de los 40 pies, sin ropa." title="Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet " src="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083796-2.jpg" />
+		    		</a>
+				</li>
+						<li>
+		    		<h4>Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet</h4>
+		    		<div class="tn3 description" id="imgdescription2" >Un viejo dicho de los persas dice "Isfahán (Irán) es la mitad del mundo", el viajero Wheeler lo reitera: "Es una ciudad verdaderamente hermosa y el lugar para descubrir lo extraordinariamente amables que son los iraníes".</div>
+				  	<meta itemprop='caption' content='Un viejo dicho de los persas dice "Isfahán (Irán) es la mitad del mundo", el viajero Wheeler lo reitera: "Es una ciudad verdaderamente hermosa y el lugar para descubrir lo extraordinariamente amables que son los iraníes".'>
+		    		<a title="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083797-2.jpg" href="javascript:void(0);">
+						<img alt="Un viejo dicho de los persas dice "Isfahán (Irán) es la mitad del mundo", el viajero Wheeler lo reitera: "Es una ciudad verdaderamente hermosa y el lugar para descubrir lo extraordinariamente amables que son los iraníes"." title="Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet" src="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083797-2.jpg" />
+		    		</a>
+				</li>
+						<li>
+		    		<h4>Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet</h4>
+		    		<div class="tn3 description" id="imgdescription3" >En la Laguna de Chuuk (Micronesia), una serie de ataques aéreos estadounidenses hundieron una flota completa de barcos japoneses en 1944. El viaje consiste en recorrer todas las embarcaciones oxidadas en el fondo del mar.</div>
+				  	<meta itemprop='caption' content='En la Laguna de Chuuk (Micronesia), una serie de ataques aéreos estadounidenses hundieron una flota completa de barcos japoneses en 1944. El viaje consiste en recorrer todas las embarcaciones oxidadas en el fondo del mar.'>
+		    		<a title="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083798-2.jpg" href="javascript:void(0);">
+						<img alt="En la Laguna de Chuuk (Micronesia), una serie de ataques aéreos estadounidenses hundieron una flota completa de barcos japoneses en 1944. El viaje consiste en recorrer todas las embarcaciones oxidadas en el fondo del mar." title="Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet" src="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083798-2.jpg" />
+		    		</a>
+				</li>
+						<li>
+		    		<h4>Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet</h4>
+		    		<div class="tn3 description" id="imgdescription4" >Wheeler se enamoró de San Francisco durante el año que vivió en la época de los ochenta. Además de ser la ciudad estadounidense preferida por él, en este lugar escribió la primera versión de la guía de viajes.</div>
+				  	<meta itemprop='caption' content='Wheeler se enamoró de San Francisco durante el año que vivió en la época de los ochenta. Además de ser la ciudad estadounidense preferida por él, en este lugar escribió la primera versión de la guía de viajes.'>
+		    		<a title="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083799-2.png" href="javascript:void(0);">
+						<img alt="Wheeler se enamoró de San Francisco durante el año que vivió en la época de los ochenta. Además de ser la ciudad estadounidense preferida por él, en este lugar escribió la primera versión de la guía de viajes." title="Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet" src="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083799-2.png" />
+		    		</a>
+				</li>
+						<li>
+		    		<h4>Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet</h4>
+		    		<div class="tn3 description" id="imgdescription5" >Cadaqués, en España, llamó la atención de Wheeler por ser  "el lugar más agradable como punto de partida para conocer la historia de Salvador Dalí".</div>
+				  	<meta itemprop='caption' content='Cadaqués, en España, llamó la atención de Wheeler por ser  "el lugar más agradable como punto de partida para conocer la historia de Salvador Dalí".'>
+		    		<a title="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083801-2.png" href="javascript:void(0);">
+						<img alt="Cadaqués, en España, llamó la atención de Wheeler por ser  "el lugar más agradable como punto de partida para conocer la historia de Salvador Dalí"." title="Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet" src="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083801-2.png" />
+		    		</a>
+				</li>
+						<li>
+		    		<h4>Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet</h4>
+		    		<div class="tn3 description" id="imgdescription6" >Delta del Okavango, en  Botsuana,  ofrece fauna africana en su máximo esplendor, con el llamativo  de que en vez de hacer el recorrido en carro, se hace en una pequeña canoa llamada 'mokoro'.</div>
+				  	<meta itemprop='caption' content='Delta del Okavango, en  Botsuana,  ofrece fauna africana en su máximo esplendor, con el llamativo  de que en vez de hacer el recorrido en carro, se hace en una pequeña canoa llamada 'mokoro'.'>
+		    		<a title="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083802-2.png" href="javascript:void(0);">
+						<img alt="Delta del Okavango, en  Botsuana,  ofrece fauna africana en su máximo esplendor, con el llamativo  de que en vez de hacer el recorrido en carro, se hace en una pequeña canoa llamada 'mokoro'." title="Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet" src="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083802-2.png" />
+		    		</a>
+				</li>
+						<li>
+		    		<h4>Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet</h4>
+		    		<div class="tn3 description" id="imgdescription7" >El Transmongoliano es una ruta de tren que viaja desde Pekín (China), a través de Ulan Bator (Mongolia) hasta llegar a Moscú. El viaje dura aproximadamente dos semanas.</div>
+				  	<meta itemprop='caption' content='El Transmongoliano es una ruta de tren que viaja desde Pekín (China), a través de Ulan Bator (Mongolia) hasta llegar a Moscú. El viaje dura aproximadamente dos semanas.'>
+		    		<a title="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083803-2.png" href="javascript:void(0);">
+						<img alt="El Transmongoliano es una ruta de tren que viaja desde Pekín (China), a través de Ulan Bator (Mongolia) hasta llegar a Moscú. El viaje dura aproximadamente dos semanas." title="Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet" src="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083803-2.png" />
+		    		</a>
+				</li>
+					<li>
+				<h4>pauta</h4>
+				<div class="tn3 description"><p class='publicidadlead'>Publicidad</p></div>
+				
+<script type="text/javascript" language="JavaScript">
+sas_formatid=12066;
+if(typeof SmartAdServerAjax == "function"){
+	SmartAdServerAjax(sas_pageid,sas_formatid,sas_target);
+}
+</script>			</li>	
+						<li>
+		    		<h4>Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet</h4>
+		    		<div class="tn3 description" id="imgdescription8" >Venecia, siempre es una sorpresa para el fundador de la editorial 'Lonely Planet', quien asegura que promete volver y rentar un apartamento para quedarse dos meses admirando la arquitectura de la ciudad.</div>
+				  	<meta itemprop='caption' content='Venecia, siempre es una sorpresa para el fundador de la editorial 'Lonely Planet', quien asegura que promete volver y rentar un apartamento para quedarse dos meses admirando la arquitectura de la ciudad.'>
+		    		<a title="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083804-2.png" href="javascript:void(0);">
+						<img alt="Venecia, siempre es una sorpresa para el fundador de la editorial 'Lonely Planet', quien asegura que promete volver y rentar un apartamento para quedarse dos meses admirando la arquitectura de la ciudad." title="Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet" src="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083804-2.png" />
+		    		</a>
+				</li>
+						<li>
+		    		<h4>Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet</h4>
+		    		<div class="tn3 description" id="imgdescription9" >La Isla de Georgia del Sur, en Antártida, enamoró a Wheeler por su espectáculo visual: "Salpicada de estaciones noruegas abandonadas, poblada por enormes colonias de pingüinos, manadas de lobos marinos y todas las especies de aves".</div>
+				  	<meta itemprop='caption' content='La Isla de Georgia del Sur, en Antártida, enamoró a Wheeler por su espectáculo visual: "Salpicada de estaciones noruegas abandonadas, poblada por enormes colonias de pingüinos, manadas de lobos marinos y todas las especies de aves".'>
+		    		<a title="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083806-2.png" href="javascript:void(0);">
+						<img alt="La Isla de Georgia del Sur, en Antártida, enamoró a Wheeler por su espectáculo visual: "Salpicada de estaciones noruegas abandonadas, poblada por enormes colonias de pingüinos, manadas de lobos marinos y todas las especies de aves"." title="Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet" src="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083806-2.png" />
+		    		</a>
+				</li>
+						<li>
+		    		<h4>Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet</h4>
+		    		<div class="tn3 description" id="imgdescription10" >Hobart (Australia) llamó la atención de 'Lonely Planet' por ser una ciudad con una gran cantidad de actividades al aire libre. Sin embargo, el turista destaca el Museo de Arte Nuevo y Antiguo.</div>
+				  	<meta itemprop='caption' content='Hobart (Australia) llamó la atención de 'Lonely Planet' por ser una ciudad con una gran cantidad de actividades al aire libre. Sin embargo, el turista destaca el Museo de Arte Nuevo y Antiguo.'>
+		    		<a title="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083808-2.png" href="javascript:void(0);">
+						<img alt="Hobart (Australia) llamó la atención de 'Lonely Planet' por ser una ciudad con una gran cantidad de actividades al aire libre. Sin embargo, el turista destaca el Museo de Arte Nuevo y Antiguo." title="Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet" src="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083808-2.png" />
+		    		</a>
+				</li>
+						<li>
+		    		<h4>Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet</h4>
+		    		<div class="tn3 description" id="imgdescription11" >El santuario de Itsukushima ubicado en el Mar Interior de Seto, se destaca por su belleza y tranquilidad. El viaje, en el que se puede ver la cara típica de Japón, se puede hacer en ferry.  </div>
+				  	<meta itemprop='caption' content='El santuario de Itsukushima ubicado en el Mar Interior de Seto, se destaca por su belleza y tranquilidad. El viaje, en el que se puede ver la cara típica de Japón, se puede hacer en ferry.  '>
+		    		<a title="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083811-2.jpg" href="javascript:void(0);">
+						<img alt="El santuario de Itsukushima ubicado en el Mar Interior de Seto, se destaca por su belleza y tranquilidad. El viaje, en el que se puede ver la cara típica de Japón, se puede hacer en ferry.  " title="Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet" src="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083811-2.jpg" />
+		    		</a>
+				</li>
+						<li>
+		    		<h4>Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet</h4>
+		    		<div class="tn3 description" id="imgdescription12" >Baikonur, en Kazajastán, se caracteriza por los lanzamientos espaciales.  Wheeler llegó a este lugar solo para presenciar un hecho de esta magnitud y quedó anonadado. 
+
+</div>
+				  	<meta itemprop='caption' content='Baikonur, en Kazajastán, se caracteriza por los lanzamientos espaciales.  Wheeler llegó a este lugar solo para presenciar un hecho de esta magnitud y quedó anonadado. 
+
+'>
+		    		<a title="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083813-2.jpg" href="javascript:void(0);">
+						<img alt="Baikonur, en Kazajastán, se caracteriza por los lanzamientos espaciales.  Wheeler llegó a este lugar solo para presenciar un hecho de esta magnitud y quedó anonadado. 
+
+" title="Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet" src="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083813-2.jpg" />
+		    		</a>
+				</li>
+						<li>
+		    		<h4>Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet</h4>
+		    		<div class="tn3 description" id="imgdescription13" >Nyiragongo (República Democrática del Congo) llamó la atención del fundador de Lonely Planet por la caminata hacia su volcán. "Así es la imagen que tenemos desde niños de cómo debería ser un volcán, incluido su ardiente lago de color rojo".</div>
+				  	<meta itemprop='caption' content='Nyiragongo (República Democrática del Congo) llamó la atención del fundador de Lonely Planet por la caminata hacia su volcán. "Así es la imagen que tenemos desde niños de cómo debería ser un volcán, incluido su ardiente lago de color rojo".'>
+		    		<a title="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083815-2.png" href="javascript:void(0);">
+						<img alt="Nyiragongo (República Democrática del Congo) llamó la atención del fundador de Lonely Planet por la caminata hacia su volcán. "Así es la imagen que tenemos desde niños de cómo debería ser un volcán, incluido su ardiente lago de color rojo"." title="Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet" src="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083815-2.png" />
+		    		</a>
+				</li>
+						<li>
+		    		<h4>Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet</h4>
+		    		<div class="tn3 description" id="imgdescription14" >Bagan, anteriormente conocida como Birmania, cautivó  a Wheeler  hace 40 años, para ese entonces  publicó en su editorial: "Famosa no tanto por la calidad de sus templos y pagodas como por la mera cantidad de ellos.</div>
+				  	<meta itemprop='caption' content='Bagan, anteriormente conocida como Birmania, cautivó  a Wheeler  hace 40 años, para ese entonces  publicó en su editorial: "Famosa no tanto por la calidad de sus templos y pagodas como por la mera cantidad de ellos.'>
+		    		<a title="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083816-2.jpg" href="javascript:void(0);">
+						<img alt="Bagan, anteriormente conocida como Birmania, cautivó  a Wheeler  hace 40 años, para ese entonces  publicó en su editorial: "Famosa no tanto por la calidad de sus templos y pagodas como por la mera cantidad de ellos." title="Colombia está dentro de la lista de los mejores 15 lugares de la editorial Lonely Planet" src="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13083816-2.jpg" />
+		    		</a>
+				</li>
+			<li>
+		<h4>pauta</h4>
+		<div class="tn3 description">Publicidad</div>
+		
+<script type="text/javascript" language="JavaScript">
+sas_formatid=12359;
+if(typeof SmartAdServerAjax == "function"){
+	SmartAdServerAjax(sas_pageid,sas_formatid,sas_target);
+}
+</script>	</li>
+	<li style="display:none;">
+		<h4></h4>
+		<div class="tn3 description"></div>
+		<a title="http://www.eltiempo.com/media/images/images/last_slide_black.jpg" href="javascript:void(0);">
+			<img src="http://www.eltiempo.com/media/images/images/galerias_ultima.jpg" />
+		</a>
+	</li>
+		    	
+	    	</ul>
+		</div>
+ 
+<script type="text/javascript">
+window.onload= function(){//alert("Cargo");}
+//	setTimeout(
+//   		function() {
+		var tn1 = $('.mygallery').tn3({
+			skinDir:"skins",
+			imageClick:"fullscreen",
+			image:{
+				maxZoom:1.5,
+				crop:true,
+				clickEvent:"dblclick",
+				transitions:[{
+					type:"blinds"
+				},{
+				type:"grid"
+				},{
+					type:"grid",
+					duration:460,
+					easing:"easeInQuad",
+					gridX:1,
+					gridY:8,
+					sort:"random",
+					sortReverse:false,
+					diagonalStart:"bl",
+					method:"scale",
+					partDuration:360,
+					partEasing:"easeOutSine",
+					partDirection:"left"
+				}]
+			}	
+		});
+}//,10000);
+
+</script>	  
+            		<div class="tn3 album" style="display:none;">
+	    		<h4>'Desafío Cero', la carrera de carros eléctricos en Chile</h4>
+	    		<div class="tn3 description"></div>
+	    		<div class="tn3 href">http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/desafio-cero-la-carrera-de-carros-electricos-en-chile_13101001-5</div>
+	    		<div class="tn3 thumb">http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13101020-0.jpg</div>
+	    			<ul>
+						<li>
+		    			<h4>M&aacute;s Galer&iacute;s</h4>
+		    			<div class="tn3 description">Relacionadas</div>
+		    			<a title="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13101020-0.jpg" href="javascript:void(0);">
+						<img src="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13101020-0.jpg"/>
+		    			</a>
+					</li>
+	    		</ul>
+			</div>
+		    		<div class="tn3 album" style="display:none;">
+	    		<h4>Decenas de inmigrantes muertos en Lampedusa tras naufragio de embarcación</h4>
+	    		<div class="tn3 description"></div>
+	    		<div class="tn3 href">http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/decenas-de-inmigrantes-muertos-en-lampedusa-tras-naufragio-de-embarcacion_13100696-5</div>
+	    		<div class="tn3 thumb">http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13100634-0.jpg</div>
+	    			<ul>
+						<li>
+		    			<h4>M&aacute;s Galer&iacute;s</h4>
+		    			<div class="tn3 description">Relacionadas</div>
+		    			<a title="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13100634-0.jpg" href="javascript:void(0);">
+						<img src="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13100634-0.jpg"/>
+		    			</a>
+					</li>
+	    		</ul>
+			</div>
+		    		<div class="tn3 album" style="display:none;">
+	    		<h4>Indígenas salieron a las calles de Brasilia a pedir respeto por sus derechos</h4>
+	    		<div class="tn3 description"></div>
+	    		<div class="tn3 href">http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/indigenas-salieron-a-protestar-en-las-calles-de-brasilia_13100219-5</div>
+	    		<div class="tn3 thumb">http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13100184-0.png</div>
+	    			<ul>
+						<li>
+		    			<h4>M&aacute;s Galer&iacute;s</h4>
+		    			<div class="tn3 description">Relacionadas</div>
+		    			<a title="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13100184-0.png" href="javascript:void(0);">
+						<img src="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13100184-0.png"/>
+		    			</a>
+					</li>
+	    		</ul>
+			</div>
+		    		<div class="tn3 album" style="display:none;">
+	    		<h4>El papa Francisco bendijo la camiseta de Millonarios</h4>
+	    		<div class="tn3 description"></div>
+	    		<div class="tn3 href">http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/el-papa-francisco-bendijo-la-camiseta-de-millonarios_13100102-5</div>
+	    		<div class="tn3 thumb">http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13100099-0.png</div>
+	    			<ul>
+						<li>
+		    			<h4>M&aacute;s Galer&iacute;s</h4>
+		    			<div class="tn3 description">Relacionadas</div>
+		    			<a title="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13100099-0.png" href="javascript:void(0);">
+						<img src="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13100099-0.png"/>
+		    			</a>
+					</li>
+	    		</ul>
+			</div>
+		    		<div class="tn3 album" style="display:none;">
+	    		<h4>Hong Kong celebra su primera Convención Internacional de Tatuajes</h4>
+	    		<div class="tn3 description"></div>
+	    		<div class="tn3 href">http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/hong-kong-celebra-su-primera-convencion-internacional-de-tatuajes_13100061-5</div>
+	    		<div class="tn3 thumb">http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13100037-0.png</div>
+	    			<ul>
+						<li>
+		    			<h4>M&aacute;s Galer&iacute;s</h4>
+		    			<div class="tn3 description">Relacionadas</div>
+		    			<a title="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13100037-0.png" href="javascript:void(0);">
+						<img src="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13100037-0.png"/>
+		    			</a>
+					</li>
+	    		</ul>
+			</div>
+		    		<div class="tn3 album" style="display:none;">
+	    		<h4>Profesores protestan frente aeropuerto de Ciudad de México</h4>
+	    		<div class="tn3 description"></div>
+	    		<div class="tn3 href">http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/profesores-protestan-frente-aeropuerto-de-ciudad-de-mexico_13098799-5</div>
+	    		<div class="tn3 thumb">http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13098764-0.jpg</div>
+	    			<ul>
+						<li>
+		    			<h4>M&aacute;s Galer&iacute;s</h4>
+		    			<div class="tn3 description">Relacionadas</div>
+		    			<a title="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13098764-0.jpg" href="javascript:void(0);">
+						<img src="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/IMAGEN/IMAGEN-13098764-0.jpg"/>
+		    			</a>
+					</li>
+	    		</ul>
+			</div>
+			    </div>
+</div>
+<script type="text/javascript">
+
+sas_loadHandler = function(f) {
+	if(f.id == 12359 && !f.hasAd){
+		divPauta2 = document.getElementById("sas_"+f.id);
+		if(divPauta2 != null){
+			padre2 = divPauta2.parentNode;
+		}
+		if(typeof padre2 != "undefined"){  
+			padre3 = padre2.parentNode;
+		}
+		padre3.removeChild(padre2);	
+	}
+	if(f.id == 12066 && !f.hasAd){
+		divPauta = document.getElementById("sas_"+f.id);
+		if(divPauta != null){
+			padre = divPauta.parentNode;
+		}
+		if(typeof padre != "undefined"){  
+			padre1 = padre.parentNode;
+		}
+		padre1.removeChild(padre);	
+	}
+}
+</script>
+
+
+<script>
+  function AtlText(){
+	var arr = [ "one", "two", "three", "four", "five" ];  
+  	$(document).ready(function () {
+		jQuery.each(arr, function() {
+		  //$('.tn3-full-image img').attr('alt',this);
+		});
+	});
+  }
+  
+  //setTimeout ('AtlText()', 5000);
+</script>
+
+                                           
+      <div class="clear"></div>
+   <div class="barra_redes">
+	    <!-- Inicio modulo-socialmedia2  nuevo -->
+    <div class="social-mediag">
+    
+	    <div class="menu-social-media">
+	    <script type="text/javascript">  
+    var fbShare = {  
+        title: 'Internacional 11',  
+        url: 'http%3A%2F%2Fwww.eltiempo.com%2FMultimedia%2Fgaleria_fotos%2Finternacional11%2FGALERIAFOTOS-WEB-PLANTILLA_GALERIA_FOTOS-13083817.html',  
+        size: 'large'   
+    }  
+</script>
+    <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.eltiempo.com%2FMultimedia%2Fgaleria_fotos%2Finternacional11%2FGALERIAFOTOS-WEB-PLANTILLA_GALERIA_FOTOS-13083817.html&show_faces=false" scrolling="no" frameborder="0" allowTransparency="true" style="max-height: 40px; width: 100%"></iframe>
+	
+		   			<div class="wrapper-redes">
+                 <div class="caja-facebook">				  
+                      <a href="javascript: void(0);" onclick="var s=s_gi('eltiempocom'); s.linkTrackVars='eVar33,events'; s.linkTrackEvents='event12'; s.eVar33='Facebook'; s.events='event12'; s.tl(this,'o','Facebook');;window.open('http://www.facebook.com/sharer.php?u=http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/GALERIAFOTOS-WEB-PLANTILLA_GALERIA_FOTOS-13083817.html','ventanacompartir', 'toolbar=0, status=0, width=650, height=450');"><img src="http://www.eltiempo.com/media/images/olimpicos-2012/bgr-btn-compartir.png" border="0/"></a> 
+				   		         </div>
+<script type="text/javascript">
+	$(document).ready(function() {
+		var url='http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/GALERIAFOTOS-WEB-PLANTILLA_GALERIA_FOTOS-13083817.html';
+		var twitterurl = 'http://urls.api.twitter.com/1/urls/count.json?url=' +url+'&callback=?';
+		$.getJSON(twitterurl, function(json){
+			$('#tweetcount').text(json.count);
+		});
+	
+	});
+</script>
+			  
+<div class="caja-twitter">
+	<a class="boton-twitter topsy_widget_data" href="javascript:void();" data-counturl="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/GALERIAFOTOS-WEB-PLANTILLA_GALERIA_FOTOS-13083817.html" data-text="Colombia, entre los mejores 15 lugares, segÃºn fundador de Lonely Planet " onclick="var s=s_gi('eltiempocom'); s.linkTrackVars='eVar33,events'; s.linkTrackEvents='event12'; s.eVar33='Twitter'; s.events='event12'; s.tl(this,'o','Twitter'); var titulo='Colombia, entre los mejores 15 lugares, según fundador de Lonely Planet '; titulo=encodeURIComponent(titulo); var url='http://twitter.com/share?url=http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/GALERIAFOTOS-WEB-PLANTILLA_GALERIA_FOTOS-13083817.html&via=ELTIEMPO&text='+titulo; window.open(url,'ventanacompartir', 'toolbar=0, status=0, width=650, height=450');">Twitter</a>
+	<div class="contador-twitter">
+		<span class="contador-left"></span>
+		<a id='tweetcount' href="#"></a>
+		<span class="contador-right"></span>
+	</div>
+</div>
+
+            	 <!--<div class="caja-twitter">
+            	 	<div class="topsy_widget_data" onClick="var s=s_gi('eltiempocom'); s.linkTrackVars='eVar33,events'; s.linkTrackEvents='event12'; s.eVar33='Twitter'; s.events='event12'; s.tl(this,'o','Twitter');">
+            	 	
+					  
+					   
+					   <a href="http://twitter.com/share?url=http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/GALERIAFOTOS-WEB-PLANTILLA_GALERIA_FOTOS-13083817.html&via=ELTIEMPO" data-counturl="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/GALERIAFOTOS-WEB-PLANTILLA_GALERIA_FOTOS-13083817.html" data-text="" class="twitter-share-button" target="_blank" rel="external">Tweet</a>
+					   <script type="text/javascript" src="http://platform.twitter.com/widgets.js">
+						
+            		 
+            		//var button = iframeDocument.getElementsByTagName('button');
+            		//button[0].onClick=alert("hola")
+
+//            		document.getElementById("btn").onClick="alert('hola')";
+            		 </script>
+            		 </div>
+            	 </div>-->
+				 <div class="caja-buzz">
+					  <a title="Post to Google Buzz" class="google-buzz-button" href="http://www.google.com/buzz/post" data-button-style="small-count" data-locale="es" onClick="var s=s_gi('eltiempocom'); s.linkTrackVars='eVar33,events'; s.linkTrackEvents='event12'; s.eVar33='Google Buzz'; s.events='event12'; s.tl(this,'o','Google Buzz');"></a>
+			        	
+            	 </div>
+            	 <div class="ico-mail2">
+                      <a onclick="lightboxEnviarAmigo(8967207, 'http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/GALERIAFOTOS-WEB-PLANTILLA_GALERIA_FOTOS-13083817.html', 'LEnviarAmigo');" class="enviar_button" href="javascript:abrirLightbox('lightboxAmigo8967207',0,'contentcamposAmigo8967207');" title='Enviar art&iacute;culo'><div class="totalenvios">0</div></a>
+                 </div>
+            </div>
+		    <script type="text/javascript">
+                $('.FBConnectButton').click(function(){$.get('/participa/conteo/enviado/1/8967207');});
+                $('.topsy_widget_data').click(function(){$.get('/participa/conteo/enviado/1/8967207');});
+                $('.google-buzz-button').click(function(){$.get('/participa/conteo/enviado/1/8967207');});    
+                $('.totalenvios').load("/participa/estadisticas/enviados/1/8967207");
+            </script>    
+        <!-- fin Inicio modulo-socialmedia2  nuevo -->
+		</div>
+		<div class="clear"></div>
+	</div><!-- fin social-media -->
+	
+	<script type="text/javascript">
+	    $('.botonCompartirFacebook').live('click', function(evento) {
+            evento.preventDefault();
+             var link = $(this).attr('href');
+             if(link!='#')
+             {
+                /*window.location = link*/
+             }
+   	    });
+   	    $('.google-buzz-button').live('click', function(evento) {
+            evento.preventDefault();
+             var link = $(this).attr('href');
+             if(link!='#')
+             {
+                /*window.location = link*/
+             }
+   	    });
+	</script>                                                    </div>   </div>
+      
+   </div>
+  </div>
+</div>
+<div id="LEnviarAmigo"></div>
+
+<div class=""><!-- titulo-->
+					
+<script language="javascript" type="text/javascript">
+/*  
+ *  jQuery carouFredSel 4.0.2
+ *  Demo's and documentation:
+ *  caroufredsel.frebsite.nl
+ *  
+ *  Copyright (c) 2010 Fred Heusschen
+ *  www.frebsite.nl
+ *
+ *  Dual licensed under the MIT and GPL licenses.
+ *  http://en.wikipedia.org/wiki/MIT_License
+ *  http://en.wikipedia.org/wiki/GNU_General_Public_License
+ */
+
+
+  eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('(A($){$.1r.1s=A(o){u(T.X==0)B 18(\'3U 3V 2H.\');u(T.X>1){B T.1l(A(){$(T).1s(o)})}C l=T;l.2I=A(o){u(z o!=\'1b\')o={};u(z o.V==\'G\'){u(o.V<=3W)o.V={w:o.V};H o.V={14:o.V}}H{u(z o.V==\'1c\')o.V={Z:o.V}}u(z o.w==\'G\')o.w={D:o.w};H u(z o.w==\'1c\')o.w={D:o.w,1H:o.w,1W:o.w};4=$.1X(O,{},$.1r.1s.30,o);4.1Y=R;1t=(4.1t==\'31\'||4.1t==\'1u\')?\'L\':\'M\';u(4.1t==\'32\'||4.1t==\'1u\'){4.y=[\'1H\',\'33\',\'34\',\'1W\',\'35\',\'36\',\'1u\',\'2e\',\'1I\',0,1,2,3]}H{4.y=[\'1W\',\'35\',\'36\',\'1H\',\'33\',\'34\',\'2e\',\'1u\',\'1J\',3,2,1,0]}C a=N(n);C b=2J(a,4,5,R);u(4[4.y[3]]==\'I\'){4[4.y[3]]=b;4.w[4.y[3]]=b}u(!4.w[4.y[3]]){4.w[4.y[3]]=(2K(a,4,5))?\'Y\':a[4.y[5]](O)}u(!4[4.y[3]]){4[4.y[3]]=4.w[4.y[3]]}u(!4.w[4.y[0]]){4.w[4.y[0]]=(2K(a,4,2))?\'Y\':a[4.y[2]](O)}u(!4.w.D&&4.w[4.y[0]]==\'Y\'){4.w.D=\'Y\'}u(!4.w.D&&!4[4.y[0]]){u(4.w[4.y[0]]!=\'Y\'){4[4.y[0]]=2L(q.1K(),4,1)}}u(!4.w.D){4.w.D=(z 4[4.y[0]]==\'G\'&&4.w[4.y[0]]!=\'Y\')?1Z.3a(4[4.y[0]]/4.w[4.y[0]]):\'Y\'}u(!4[4.y[0]]){4[4.y[0]]=(4.w.D!=\'Y\'&&4.w[4.y[0]]!=\'Y\')?4.w.D*4.w[4.y[0]]:\'Y\'}u(4.w.D==\'Y\'){4.1Y=O;4.2M=(4[4.y[0]]==\'Y\')?2L(q.1K(),4,1):4[4.y[0]];u(4.F===R){4[4.y[0]]=\'Y\'}4.w.D=20(n,4,0)}H{u(4.F===R){4.F=0}}u(z 4.F==\'19\'){4.F=(4[4.y[0]]==\'Y\')?0:\'I\'}4.w.1z=4.w.D;4.S=R;u(4.F==\'I\'){4.F=[0,0,0,0];u(4[4.y[0]]!=\'Y\'){4.S=\'I\';C p=2f(3b(n,4),4);4.F[4.y[10]]=p[0];4.F[4.y[12]]=p[0]}u(4[4.y[3]]!=\'Y\'){C p=(4[4.y[3]]-b)/2;u(p<0)p=0;4.F[4.y[9]]=p;4.F[4.y[11]]=p}}H{4.F=3c(4.F);4.S=(4.F[0]==0&&4.F[1]==0&&4.F[2]==0&&4.F[3]==0)?R:O}u(z 4.w.2g!=\'G\')4.w.2g=(4.1Y)?1:4.w.D;u(z 4.V.w!=\'G\')4.V.w=(4.1Y)?\'Y\':4.w.D;u(z 4.V.14!=\'G\')4.V.14=3X;4.I=21(4.I,R,O);4.M=21(4.M);4.L=21(4.L);4.W=21(4.W,O);4.I=$.1X({},4.V,4.I);4.M=$.1X({},4.V,4.M);4.L=$.1X({},4.V,4.L);4.W=$.1X({},4.V,4.W);u(z 4.W.2h!=\'15\')4.W.2h=R;u(z 4.W.2N!=\'A\')4.W.2N=$.1r.1s.3d;u(z 4.I.13!=\'15\')4.I.13=O;u(z 4.I.22!=\'15\')4.I.22=O;u(z 4.I.2O!=\'G\')4.I.2O=0;u(z 4.I.2i!=\'G\')4.I.2i=(4.I.14<10)?3Y:4.I.14*5};l.3e=A(){u(n.K(\'1A\')==\'3f\'||n.K(\'1A\')==\'3Z\'){18(\'41 42-43 "1A" 44 45 "46" 47 "3g".\')}q.K({1A:\'3g\',48:\'4a\',23:n.K(\'23\'),1I:n.K(\'1I\'),1J:n.K(\'1J\'),24:n.K(\'24\')});n.16(\'3h\',{1H:n.K(\'1H\'),1W:n.K(\'1W\'),23:n.K(\'23\'),1I:n.K(\'1I\'),1J:n.K(\'1J\'),24:n.K(\'24\'),\'2P\':n.K(\'2P\'),1A:n.K(\'1A\'),2e:n.K(\'2e\'),1u:n.K(\'1u\')}).K({23:0,1I:0,1J:0,24:0,\'2P\':\'4b\',1A:\'3f\'});u(4.S){N(n).1l(A(){C m=1v($(T).K(4.y[8]));u(1B(m))m=0;$(T).16(\'1f\',m)})}2j(4,J)};l.3i=A(){l.2Q();n.17(\'1m\',A(e,g){u(z g!=\'15\')g=R;u(g)25=O;u(2k!=2l)4c(2k);u(2m!=2l)4d(2m)});n.17(\'13\',A(e,d,f,g){n.E(\'1m\');u(4.I.13){u(z g!=\'15\'){u(z f==\'15\')g=f;H u(z d==\'15\')g=d;H g=R}u(z f!=\'G\'){u(z d==\'G\')f=d;H f=0}u(d!=\'M\'&&d!=\'L\')d=1t;u(g)25=R;u(25)B;2k=4e(A(){u(n.1L(\':2R\')){n.E(\'13\',d)}H{2n=0;n.E(d,4.I)}},4.I.2i+f-2n);u(4.I.1M===\'4f\'){2m=4g(A(){2n+=3j},3j)}}});n.17(\'M L\',A(e){u(n.1L(\':2R\')||25){e.3k();B}u(4.w.2g>=J){18(\'1N 3l w: 2o 2p\');e.3k();B}});u(4.1Y){n.17(\'M\',A(e,a,b){u(z a==\'G\')b=a;u(z a!=\'1b\')a=4.M;u(z b!=\'G\')b=(z a.w==\'G\')?a.w:4.w.D;26=b;4.w.1z=4.w.D;C c=N(n);u(4.S){1d(c,4)}4.w.D=3m(n,4,26);b=4.w.D-4.w.1z+26;u(b<=0){4.w.D=20(n,4,J-26);b=26}u(4.S){1d(c,4,O)}n.E(\'2q\',[a,b])});n.17(\'L\',A(e,a,b){u(z a==\'G\')b=a;u(z a!=\'1b\')a=4.L;u(z b!=\'G\')b=(z a.w==\'G\')?a.w:4.w.D;4.w.1z=4.w.D;C c=N(n);1d(c,4);4.w.D=20(n,4,b);u(4.w.1z-b>=4.w.D){4.w.D=20(n,4,++b)}1d(c,4,O);n.E(\'2r\',[a,b])})}H{n.17(\'M\',A(e,a,b){n.E(\'2q\',[a,b])});n.17(\'L\',A(e,a,b){n.E(\'2r\',[a,b])})}n.17(\'2q\',A(e,b,c){u(z b==\'G\')c=b;u(z b!=\'1b\')b=4.M;u(z c!=\'G\')c=(z b.w==\'G\')?b.w:4.w.D;u(z c!=\'G\')B 18(\'1N a 2s G: 2o 2p\');u(b.2t&&!b.2t(n))B;u(!4.1C){C d=J-P;u(d-c<0){c=d}u(P==0){c=0}}P+=c;u(P>=J)P-=J;u(!4.1C){u(P==0&&c!=0&&b.2u){b.2u(n)}u(4.2v){u(c==0){n.E(\'L\',J-4.w.D);B}}H{u(P==0&&4.M.U)4.M.U.2w(\'27\');u(4.L.U)4.L.U.2S(\'27\')}}u(c==0)B;N(n,\':28(\'+(J-c-1)+\')\').4h(n);u(J<4.w.D+c)N(n,\':1g(\'+((4.w.D+c)-J)+\')\').3n(O).2T(n);C f=3o(n,4,c),1i=2U(n,4),1D=N(n,\':1n(\'+(c-1)+\')\'),1j=f.1h(\':1O\'),1o=1i.1h(\':1O\');u(4.S){1d(1j,4);1d(1o,4)}u(4.S==\'I\'){C p=2f(2U(n,4,c),4)}C g=1P(N(n,\':1g(\'+c+\')\'),4,0),1w=2x(2y(1i,4,O),4,!4.S);u(4.S){1d(1j,4,4.F[4.y[10]]);1d(1D,4,4.F[4.y[12]])}u(4.S==\'I\'){4.F[4.y[9]]=p[1];4.F[4.y[10]]=p[0];4.F[4.y[11]]=p[1];4.F[4.y[12]]=p[0]}C h={},2V={},1Q={},1R={},Q=b.14;u(Q==\'I\')Q=4.V.14/4.V.w*c;H u(Q<=0)Q=0;H u(Q<10)Q=g/Q;u(b.2z)b.2z(f,1i,1w,Q);u(4.S){C i=4.F[4.y[12]];1Q[4.y[8]]=1D.16(\'1f\');2V[4.y[8]]=1o.16(\'1f\')+4.F[4.y[10]];1R[4.y[8]]=1j.16(\'1f\');1D.1E().1p(1Q,{14:Q,Z:b.Z});1o.1E().1p(2V,{14:Q,Z:b.Z});1j.1E().1p(1R,{14:Q,Z:b.Z})}H{C i=0}h[4.y[6]]=i;u(4[4.y[0]]==\'Y\'||4[4.y[3]]==\'Y\'){q.1E().1p(1w,{14:Q,Z:b.Z})}C j=c;n.K(4.y[6],-g);n.1p(h,{14:Q,Z:b.Z,3p:A(){u(b.2A){b.2A(f,1i,1w)}u(J<4.w.D+j){N(n,\':28(\'+(J-1)+\')\').29()}C a=N(n,\':1n(\'+(4.w.D+j-1)+\')\');u(4.S)a.K(4.y[8],a.16(\'1f\'))}});n.E(\'1F\').E(\'13\',Q)});n.17(\'2r\',A(e,c,d){u(z c==\'G\')d=c;u(z c!=\'1b\')c=4.L;u(z d!=\'G\')d=(z c.w==\'G\')?c.w:4.w.D;u(z d!=\'G\')B 18(\'1N a 2s G: 2o 2p\');u(c.2t&&!c.2t(n))B;u(!4.1C){u(P==0){u(d>J-4.w.D){d=J-4.w.D}}H{u(P-d<4.w.D){d=P-4.w.D}}}P-=d;u(P<0)P+=J;u(!4.1C){u(P==4.w.D&&d!=0&&c.2u){c.2u(n)}u(4.2v){u(d==0){n.E(\'M\',J-4.w.D);B}}H{u(P==4.w.D&&4.L.U)4.L.U.2w(\'27\');u(4.M.U)4.M.U.2S(\'27\')}}u(d==0)B;u(J<4.w.D+d)N(n,\':1g(\'+((4.w.D+d)-J)+\')\').3n(O).2T(n);C f=3q(n,4),1i=2W(n,4,d),1D=f.1h(\':1n(\'+(d-1)+\')\'),1j=f.1h(\':1O\'),1o=1i.1h(\':1O\');u(4.S){1d(1j,4);1d(1o,4)}u(4.S==\'I\'){C p=2f(2W(n,4,d),4)}C g=1P(N(n,\':1g(\'+d+\')\'),4,0),1w=2x(2y(1i,4,O),4,!4.S);u(4.S){1d(1j,4,4.F[4.y[10]]);1d(1o,4,4.F[4.y[10]])}u(4.S==\'I\'){4.F[4.y[9]]=p[1];4.F[4.y[10]]=p[0];4.F[4.y[11]]=p[1];4.F[4.y[12]]=p[0]}C h={},1R={},1Q={},Q=c.14;u(Q==\'I\')Q=4.V.14/4.V.w*d;H u(Q<=0)Q=0;H u(Q<10)Q=g/Q;u(c.2z)c.2z(f,1i,1w,Q);u(4.S){1R[4.y[8]]=1j.16(\'1f\');1Q[4.y[8]]=1D.16(\'1f\')+4.F[4.y[12]];1o.K(4.y[8],1o.16(\'1f\')+4.F[4.y[10]]);1j.1E().1p(1R,{14:Q,Z:c.Z});1D.1E().1p(1Q,{14:Q,Z:c.Z})}h[4.y[6]]=-g;u(4[4.y[0]]==\'Y\'||4[4.y[3]]==\'Y\'){q.1E().1p(1w,{14:Q,Z:c.Z})}C i=d;n.1p(h,{14:Q,Z:c.Z,3p:A(){u(c.2A){c.2A(f,1i,1w)}u(J<4.w.D+i){N(n,\':28(\'+(J-1)+\')\').29()}C a=(4.S)?4.F[4.y[12]]:0;n.K(4.y[6],a);C b=N(n,\':1g(\'+i+\')\').2T(n).1h(\':1O\');u(4.S)b.K(4.y[8],b.16(\'1f\'))}});n.E(\'1F\').E(\'13\',Q)});n.17(\'1S\',A(e,a,b,c,d){u(n.1L(\':2R\'))B;a=2B(a,b,c,P,J,n);u(a==0)B;u(z d!=\'1b\')d=R;u(4.1C){u(a<J/2)n.E(\'L\',[d,a]);H n.E(\'M\',[d,J-a])}H{u(P==0||P>a)n.E(\'L\',[d,a]);H n.E(\'M\',[d,J-a])}});n.17(\'3r\',A(e,a,b,c,d){u(z a==\'1b\'&&z a.2a==\'19\')a=$(a);u(z a==\'1c\')a=$(a);u(z a!=\'1b\'||z a.2a==\'19\'||a.X==0)B 18(\'1N a 2s 1b.\');u(z b==\'19\'||b==\'3s\'){n.2X(a)}H{b=2B(b,d,c,P,J,n);C f=N(n,\':1n(\'+b+\')\');u(4.S){a.1l(A(){C m=1v($(T).K(4.y[8]));u(1B(m))m=0;$(T).16(\'1f\',m)})}u(f.X){u(b<=P)P+=a.X;f.4i(a)}H{n.2X(a)}}J=N(n).X;n.E(\'1T\');2b(n,4);2j(4,J);n.E(\'1F\',O)});n.17(\'3t\',A(e,a,b,c){u(z a==\'19\'||a==\'3s\'){N(n,\':1O\').29()}H{a=2B(a,c,b,P,J,n);C d=N(n,\':1n(\'+a+\')\');u(d.X){u(a<P)P-=d.X;d.29()}}J=N(n).X;2b(n,4);2j(4,J);n.E(\'1F\',O)});n.17(\'1T\',A(e,a,b){u(z a==\'19\'||a.X==0)a=$(\'4j\');H u(z a==\'1c\')a=$(a);u(z a!=\'1b\')B 18(\'1N a 2s 1b.\');u(z b!=\'1c\'||b.X==0)b=\'a.3u\';a.4k(b).1l(A(){C h=T.3v||\'\';u(h.X>0&&N(n).3w($(h))!=-1){$(T).1a(\'1U\').1U(A(e){e.1q();n.E(\'1S\',h)})}})});n.17(\'1G\',A(e){n.E(\'1m\').K(n.16(\'3h\'));l.2Q();q.4l(n)});n.17(\'1F\',A(e,b){u(!4.W.1e)B;u(z b==\'15\'&&b){N(4.W.1e).29();2c(C a=0;a<1Z.4m(J/4.w.D);a++){4.W.1e.2X(4.W.2N(a+1))}N(4.W.1e).1a(\'1U\').1l(A(a){$(T).1U(A(e){e.1q();n.E(\'1S\',[a*4.w.D,0,O,4.W])})})}C c=(P==0)?0:1Z.4n((J-P)/4.w.D);N(4.W.1e).2S(\'2H\').1h(\':1n(\'+c+\')\').2w(\'2H\')})};l.2Q=A(){n.1a(\'1m\').1a(\'13\').1a(\'M\').1a(\'L\').1a(\'2q\').1a(\'2r\').1a(\'1S\').1a(\'3r\').1a(\'3t\').1a(\'1T\').1a(\'1G\').1a(\'1F\')};l.3x=A(){u(4.I.1M&&4.I.13){q.2C(A(){n.E(\'1m\')},A(){n.E(\'13\')})}u(4.M.U){4.M.U.1U(A(e){e.1q();n.E(\'M\')});u(4.M.1M&&4.I.13){4.M.U.2C(A(){n.E(\'1m\')},A(){n.E(\'13\')})}u(!4.1C&&!4.2v){4.M.U.2w(\'27\')}}u($.1r.1k){u(4.M.1k){q.1k(A(e,a){u(a>0){e.1q();2D=(z 4.M.1k==\'G\')?4.M.1k:\'\';n.E(\'M\',2D)}})}u(4.L.1k){q.1k(A(e,a){u(a<0){e.1q();2D=(z 4.L.1k==\'G\')?4.L.1k:\'\';n.E(\'L\',2D)}})}}u(4.L.U){4.L.U.1U(A(e){e.1q();n.E(\'L\')});u(4.L.1M&&4.I.13){4.L.U.2C(A(){n.E(\'1m\')},A(){n.E(\'13\')})}}u(4.W.1e){n.E(\'1F\',O);u(4.W.1M&&4.I.13){4.W.1e.2C(A(){n.E(\'1m\')},A(){n.E(\'13\')})}}u(4.L.1x||4.M.1x){$(3y).3z(A(e){C k=e.3A;u(k==4.L.1x){e.1q();n.E(\'L\')}u(k==4.M.1x){e.1q();n.E(\'M\')}})}u(4.W.2h){$(3y).3z(A(e){C k=e.3A;u(k>=49&&k<4o){k=(k-49)*4.w.D;u(k<=J){e.1q();n.E(\'1S\',[k,0,O,4.W])}}})}u(4.I.13){n.E(\'13\',4.I.2O);u($.1r.22&&4.I.22){n.22(\'1m\',\'13\')}}};l.4p=A(a,b){u(z a==\'19\')B 4;u(z b==\'19\'){C r=3B(\'4.\'+a);u(z r==\'19\')r=\'\';B r}3B(\'4.\'+a+\' = b\');l.2I(4);2b(n,4);B l};l.4q=A(){u(P==0){B 0}B J-P};l.1G=A(){18(\'3C "1G" 3D 3E 1L 3F, 3G 3H "1G" 3I 3J.\');n.E(\'1G\');B l};l.3K=A(a,b){18(\'3C "3K" 3D 3E 1L 3F, 3G 3H "1T" 3I 3J.\');n.E(\'1T\',[a,b]);B l};C n=$(T);u(n.1K().1L(\'.3L\')){C q=n.1K();n.E(\'1G\')}C q=n.4r(\'<4s 4t="3L" />\').1K(),4={},J=N(n).X,P=0,2k=2l,2m=2l,2n=0,25=R,1t=\'L\';l.2I(o);l.3e();l.3i();l.3x();n.E(\'1T\');2b(n,4,R);u(4.w.1y!==0&&4.w.1y!==R){C s=4.w.1y;u(s===O){s=2E.4u.3v;u(!s.X)s=0}u(s===\'3M\'){s=1Z.3a(1Z.3M()*J)}n.E(\'1S\',[s,0,O,{14:0}])}B T};$.1r.1s.30={2v:O,1C:O,1t:\'1u\',w:{1y:0},V:{Z:\'4v\',1M:R,1k:R}};$.1r.1s.3d=A(a){B\'<a 4w="#"><3N>\'+a+\'</3N></a>\'};A 2j(o,t){u(o.w.2g>=t){18(\'1N 3l w: 2o 2p\');C f=\'4x\'}H{C f=\'4y\'}u(o.M.U)o.M.U[f]();u(o.L.U)o.L.U[f]();u(o.W.1e)o.W.1e[f]()}A 2Y(k){u(k==\'32\')B 39;u(k==\'1u\')B 37;u(k==\'31\')B 38;u(k==\'4z\')B 40;B-1}A 21(a,b,c){u(z b!=\'15\')b=R;u(z c!=\'15\')c=R;u(z a==\'19\')a={};u(z a==\'1c\'){C d=2Y(a);u(d==-1)a=$(a);H a=d}u(b){u(z a.2a!=\'19\')a={1e:a};u(z 4A==\'15\')a={2h:a};u(z a.1e==\'1c\')a.1e=$(a.1e)}H u(c){u(z a==\'15\')a={13:a};u(z a==\'G\')a={2i:a}}H{u(z a.2a!=\'19\')a={U:a};u(z a==\'G\')a={1x:a};u(z a.U==\'1c\')a.U=$(a.U);u(z a.1x==\'1c\')a.1x=2Y(a.1x)}B a}A 2B(a,b,c,d,e,f){u(z a==\'1c\'){u(1B(a))a=$(a);H a=1v(a)}u(z a==\'1b\'){u(z a.2a==\'19\')a=$(a);a=N(f).3w(a);u(a==-1)a=0;u(z c!=\'15\')c=R}H{u(z c!=\'15\')c=O}u(1B(a))a=0;H a=1v(a);u(1B(b))b=0;H b=1v(b);u(c){a+=d}a+=b;u(e>0){3O(a>=e){a-=e}3O(a<0){a+=e}}B a}A N(c,f){u(z f!=\'1c\')f=\'\';B $(\'> *\'+f,c)}A 3b(c,o){B N(c,\':1g(\'+o.w.D+\')\')}A 3o(c,o,n){B N(c,\':1g(\'+(o.w.1z+n)+\'):28(\'+(n-1)+\')\')}A 2U(c,o){B N(c,\':1g(\'+o.w.D+\')\')}A 3q(c,o){B N(c,\':1g(\'+o.w.1z+\')\')}A 2W(c,o,n){B N(c,\':1g(\'+(o.w.D+n)+\'):28(\'+(n-1)+\')\')}A 1d(i,o,m){C x=(z m==\'15\')?m:R;u(z m!=\'G\')m=0;i.1l(A(){C t=1v($(T).K(o.y[8]));u(1B(t))t=0;$(T).16(\'3P\',t);$(T).K(o.y[8],((x)?$(T).16(\'3P\'):m+$(T).16(\'1f\')))})}A 2y(i,o,a){3Q=1P(i,o,0,a);3R=2d(i,o,3,a);B[3Q,3R]}A 2d(i,o,a,b){u(z b!=\'15\')b=R;u(z o[o.y[a]]==\'G\'&&b)B o[o.y[a]];u(z o.w[o.y[a]]==\'G\')B o.w[o.y[a]];B 2J(i,o,a+2)}A 2J(i,o,a){C s=0;i.1l(A(){C m=$(T)[o.y[a]](O);u(s<m)s=m});B s}A 2L(b,o,c){C d=b[o.y[c]](),2Z=(o.y[c].4B().4C(\'1H\')>-1)?[\'4D\',\'4E\']:[\'4F\',\'4G\'];2c(a=0;a<2Z.X;a++){C m=1v(b.K(2Z[a]));u(1B(m))m=0;d-=m}B d}A 1P(i,o,a,b){u(z b!=\'15\')b=R;u(z o[o.y[a]]==\'G\'&&b)B o[o.y[a]];u(z o.w[o.y[a]]==\'G\')B o.w[o.y[a]]*i.X;B 3S(i,o,a+2)}A 3S(i,o,a){C s=0;i.1l(A(){s+=$(T)[o.y[a]](O)});B s}A 2K(i,o,a){C s=R,v=R;i.1l(A(){c=$(T)[o.y[a]]();u(s===R)s=c;H u(s!=c)v=O});B v}A 2x(a,o,p){u(z p!=\'15\')p=O;C b=(o.S&&p)?o.F:[0,0,0,0];C c={};c[o.y[0]]=a[0]+b[1]+b[3];c[o.y[3]]=a[1]+b[0]+b[2];B c}A 2b(a,o,p){C b=a.1K(),$i=N(a),$l=$i.1h(\':1n(\'+(o.w.D-1)+\')\');b.K(2x(2y($i.1h(\':1g(\'+o.w.D+\')\'),o,O),o,p));u(o.S){$l.K(o.y[8],$l.16(\'1f\')+o.F[o.y[10]]);a.K(o.y[7],o.F[o.y[9]]);a.K(o.y[6],o.F[o.y[12]])}a.K(o.y[0],1P($i,o,0)*2);a.K(o.y[3],2d($i,o,3))}A 3c(p){u(z p==\'19\')B[0,0,0,0];u(z p==\'G\')B[p,p,p,p];H u(z p==\'1c\')p=p.3T(\'4H\').4I(\'\').3T(\' \');u(z p!=\'1b\'){B[0,0,0,0]}2c(i 4J p){p[i]=1v(p[i])}4K(p.X){2F 0:B[0,0,0,0];2F 1:B[p[0],p[0],p[0],p[0]];2F 2:B[p[0],p[1],p[0],p[1]];2F 3:B[p[0],p[1],p[2],p[1]];4L:B[p[0],p[1],p[2],p[3]]}}A 2f(a,o){C b=(z o[o.y[3]]==\'G\')?o[o.y[3]]:2d(a,o,3);B[(o[o.y[0]]-1P(a,o,0))/2,(b-2d(a,o,3))/2]}A 3m(b,o,c){C d=N(b),1V=0,1y=o.w.D-c-1,x=0;u(1y<0)1y=d.X-1;2c(C a=1y;a>=0;a--){1V+=d.1h(\':1n(\'+a+\')\')[o.y[2]](O);u(1V>o.2M)B x;u(a==0)a=d.X;x++}}A 20(b,o,c){C d=N(b),1V=0,x=0;2c(C a=c;a<=d.X-1;a++){1V+=d.1h(\':1n(\'+a+\')\')[o.y[2]](O);u(1V>o.2M)B x;u(a==d.X-1)a=-1;x++}}A 18(m){u(z m==\'1c\')m=\'1s: \'+m;u(2E.2G&&2E.2G.18)2E.2G.18(m);H 4M{2G.18(m)}4N(4O){}B R}$.1r.3u=A(o){B T.1s(o)}})(4P);',62,300,'||||opts||||||||||||||||||||||||||if||items||dimensions|typeof|function|return|var|visible|trigger|padding|number|else|auto|totalItems|css|next|prev|getItems|true|firstItem|a_dur|false|usePadding|this|button|scroll|pagination|length|variable|easing||||play|duration|boolean|data|bind|log|undefined|unbind|object|string|resetMargin|container|cfs_origCssMargin|lt|filter|c_new|l_old|mousewheel|each|pause|eq|l_new|animate|preventDefault|fn|carouFredSel|direction|left|parseInt|w_siz|key|start|oldVisible|position|isNaN|circular|l_cur|stop|updatePageStatus|destroy|width|marginRight|marginBottom|parent|is|pauseOnHover|Not|last|getTotalSize|a_cur|a_old|slideTo|linkAnchors|click|total|height|extend|variableVisible|Math|getVisibleItemsNext|getNaviObject|nap|marginTop|marginLeft|pausedGlobal|oI|disabled|gt|remove|jquery|setSizes|for|getLargestSize|top|getAutoPadding|minimum|keys|pauseDuration|showNavi|autoTimeout|null|autoInterval|pauseTimePassed|not|scrolling|slidePrev|slideNext|valid|conditions|onEnd|infinite|addClass|mapWrapperSizes|getSizes|onBefore|onAfter|getItemIndex|hover|num|window|case|console|selected|init|getTrueLargestSize|hasVariableSizes|getTrueInnerSize|maxDimention|anchorBuilder|delay|float|unbind_events|animated|removeClass|appendTo|getNewItemsPrev|a_new|getNewItemsNext|append|getKeyCode|arr|defaults|up|right|innerWidth|outerWidth|innerHeight|outerHeight||||floor|getCurrentItems|getPadding|pageAnchorBuilder|build|absolute|relative|cfs_origCss|bind_events|100|stopImmediatePropagation|enough|getVisibleItemsPrev|clone|getOldItemsPrev|complete|getOldItemsNext|insertItem|end|removeItem|caroufredsel|hash|index|bind_buttons|document|keyup|keyCode|eval|The|public|method|deprecated|use|the|custom|event|link_anchors|caroufredsel_wrapper|random|span|while|cfs_tempCssMargin|s1|s2|getTotalSizeVariable|split|No|element|50|500|2500|fixed||Carousels|CSS|attribute|should|be|static|or|overflow||hidden|none|clearTimeout|clearInterval|setTimeout|resume|setInterval|prependTo|before|body|find|replaceWith|ceil|round|58|configuration|current_position|wrap|div|class|location|swing|href|hide|show|down|Object|toLowerCase|indexOf|paddingLeft|paddingRight|paddingTop|paddingBottom|px|join|in|switch|default|try|catch|err|jQuery'.split('|'),0,{}))
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+	if(document.getElementById('user_interaction')){
+   $('#user_interaction').css('display','block');
+   $('ul#user_interaction').carouFredSel({
+      prev: '#prev1',
+      next: '#next1',
+      auto: false
+   }); 
+	}
+});
+</script>
+
+
+
+                    	
+				</div>
+</div></div></div></div>   <div class="contenedor_pautefacil">
+		<div id="PauteFacilPlantillaV2" class="Contenedor_pautefacil_desp">
+   		<div id="insertAdSpaceBeforeThis_000000006c319a46" style="display:none"></div>
+
+<script type="text/javascript">
+	var cX = cX || {};
+	cX.callQueue = cX.callQueue || [];
+	cX.callQueue.push(['insertAdSpace',
+	{
+		adSpaceId: '000000006c319a46',
+		baseAdDeliveryUrl: 'http://adserver.cxad.cxense.com/adserver/search',
+		secureBaseAdDeliveryUrl: 'https://s-adserver.cxad.cxense.com/adserver/search',
+		lang: 'es',
+		resizeToContentSize: true,
+
+		initialHorizontalAdUnits:0,
+		initialVerticalAdUnits:0,
+		adUnitWidth:0,
+		adUnitHeight:0,
+		resizeToContentSize: true,
+		renderTemplateUrl: 'http://cdn.cxpublic.com/eltiempo.esp_4h.html',
+		onImpressionResult : pf_renderHandler
+	}]);
+	function pf_renderHandler(event, data, context) {
+		var iframeEl = document.getElementById(event.elementId);
+		if (iframeEl) {
+			iframeEl.width = event.contentWidth;
+			iframeEl.height = event.contentHeight;
+		}
+		return true;
+	}
+</script>            
+	</div>
+</div>
+<div class="caja_contenedor_publicidad">
+	<div class="contenedor_publicidad300x100">
+		<p>Publicidad</p>
+		<div class="contiene_300x100">
+				      
+		   
+<script type="text/javascript" language="JavaScript">
+sas_formatid=9608;
+if(typeof SmartAdServerAjax == "function"){
+	SmartAdServerAjax(sas_pageid,sas_formatid,sas_target);
+}
+</script>			    </div>
+	</div>
+</div>
+        <div class="clear"></div>
+
+<script type="text/javascript">
+   $(document).ready(function(){
+      $.get('/participa/conteo/recurso/1/');
+   });
+</script>
+<div class="comentarios-especial">
+<script type="text/javascript">
+   $(document).ready(function(){
+   $('#comentarios_nota_int').empty().html('<div align="center"><img src="http://www.eltiempo.com/media/css/images/ajax-loader.gif" /></div>');
+  /* $('#comentarios_nota_int').load('http://www.eltiempo.com/participa/comentario/listado/1/13083817/');*/
+   $('#comentarios_nota_int').load('/participa/comentario/listado/1/13083817/');
+});
+</script>
+
+<div id="comentarios_nota_int" class="container-comentarios">
+</div>
+</div>
+
+</div><div class="container-footer">
+   <div class="footer">
+      <span class="logo-especiales-multimedia2"><a href="http://www.eltiempo.com/Multimedia" target="_blank">Eltiempo.com - Especiales Multimedia</a></span>
+	  <p>COPYRIGHT © 2013 CASA EDITORIAL EL TIEMPO</p>
+	  <p>Prohibida su reproducción parcial o total, así como su traducción a cualquier idioma sin autorización escrita de su titular.</p>
+   </div><!-- fin footer -->
+</div><!-- fin container-footer --></div>                        
+<form method="GET" name="generales" action="">
+  <input type="hidden" name="redireccion" value="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/GALERIAFOTOS-WEB-PLANTILLA_GALERIA_FOTOS-13083817.html" />
+  <input type="hidden" name="redireccionamiento" value="http://www.eltiempo.com/Multimedia/galeria_fotos/internacional11/GALERIAFOTOS-WEB-PLANTILLA_GALERIA_FOTOS-13083817.html" />
+</form>       
+		<script type="text/javascript" defer language="JavaScript" src="http://www.eltiempo.com/media/js/s_code_remote_new.js"></script>
+	   
+    <div id="vermask" class="layerlight" style="display:none"></div>               
+    <script type="text/javascript">                 
+        var velo = document.getElementById("vermask");
+	</script>
+		      <!-- cXense script begin -->
+<div id="cX-root" style="display:none"></div>
+<script type="text/javascript">
+  var cX = cX || {}; cX.callQueue = cX.callQueue || [];
+  cX.callQueue.push(['setAccountId', '9222263900732340917']);
+  cX.callQueue.push(['setSiteId', '9222263900732340944']);
+  cX.callQueue.push(['sendPageViewEvent']);
+</script>
+<script type="text/javascript">
+  (function() { try { var scriptEl = document.createElement('script'); scriptEl.type = 'text/javascript'; scriptEl.async = 'async';
+  scriptEl.src = ('https:' == document.location.protocol) ? 'https://scdn.cxense.com/cx.js' : 'http://cdn.cxense.com/cx.js';
+  var targetEl = document.getElementsByTagName('script')[0]; targetEl.parentNode.insertBefore(scriptEl, targetEl); } catch (e) {};} ());
+</script>
+<!-- cXense script end -->	    
+<!-- Google Code for Usuarios El Tiempo -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 987378831;
+var google_conversion_label = "NH1OCKHvvgoQj-no1gM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/987378831/?value=0&amp;label=NH1OCKHvvgoQj-no1gM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>		
+		
+	</body>
+</html>         
+                                                                                                                                                                                                                                                        

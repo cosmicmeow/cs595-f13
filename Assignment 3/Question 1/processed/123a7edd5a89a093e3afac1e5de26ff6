@@ -1,0 +1,922 @@
+
+
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9]>     <html class="ie lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+    <meta charset="utf-8">
+    <link rel="canonical" href="http://www.riolasvegas.com/restaurants/sao-paulo-cafe.html"/>
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/etc/designs/cet/properties/rio/favicon.ico">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/etc/designs/cet/properties/rio/favicon.ico">
+    <title>São Paulo Café Casual Dining Las Vegas Restaurant at Rio All-Suite Hotel and Casino</title>
+    <meta name="description" content="Start your day at Rio All-Suite Hotel and Casino with a visit to São Paulo Café for their signature coffees and traditional breakfast items.">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="keywords" content="">
+    
+    <link rel="stylesheet" href="/etc/designs/cet/properties/cet.properties.min.css" type="text/css">
+
+    
+    <link rel="stylesheet" type="text/css" href="/etc/designs/cet/properties/rio/css/property_fonts.css"/>
+    <!--property specific stylesheet-->
+    <link rel="stylesheet" type="text/css" href="/etc/designs/cet/properties/rio/css/property_brand.css"/>
+    <!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="/etc/designs/cet/properties/rio/css/property_ie7.css" />
+    <![endif]-->
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="/etc/designs/cet/properties/rio/css/property_ie8.css" />
+    <![endif]-->
+    <!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="/etc/designs/cet/properties/rio/css/property_ie.css" />
+    <![endif]-->
+    
+    
+
+    <!--cq:include script="stats.jsp"/-->
+
+    <script type="text/javascript" src="/etc/clientlibs/cet/jquery.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/cet/jqueryui.min.js"></script>
+
+    <script type="text/javascript" src="/etc/clientlibs/cet/bazaarvoice.min.js"></script>
+
+    <link rel="stylesheet" href="/etc/clientlibs/cet/fancybox.min.css" type="text/css">
+<script type="text/javascript" src="/etc/clientlibs/cet/fancybox.min.js"></script>
+
+    <script type="text/javascript" src="/etc/designs/cet/properties/cet.properties.min.js"></script>
+
+
+    
+    <script type="text/javascript">
+    (function(){
+        try{
+    
+    } catch(err){
+        console.log("An error occurs during execution of user-input JS code:");
+        console.log(err.message);
+    }
+    })();
+    </script>
+    
+            <!-- START: Test & Target JS Import -->
+            <script src="/javascript_includes/omniture/titan/mbox.js"></script>
+            <!-- END: Test & Target JS Import -->
+
+   <script type="text/javascript" src="//caesars.ugc.bazaarvoice.com/static/8897-en_us/bvapi.js"></script>
+    <script type="text/javascript">
+        $BV.configure("global", {
+            submissionContainerUrl: "http://www.parislasvegas.com/things-to-do/bv_submission_container.html"
+        });
+    </script>
+</head>
+
+
+
+
+
+<body>
+
+
+<!--start header-->
+<div class="parsys iparsys header_ipar"><div class="section"><div class="new"></div>
+</div><div class="iparys_inherited"><div class="parsys iparsys header_ipar"><div class="section header">
+
+
+
+
+
+
+
+
+
+
+<div class="parsys INNERheader_par"><div class="parsys thinHeaderBanner section">
+
+ 
+
+
+
+
+
+    <div id="thanks" class="thinHeaderBanner thinHeaderBanner_background" style="background: #8d0d1c"> 
+        <link rel="stylesheet" href="/etc/designs/cet/components.css/thinHeaderBanner.min.css" type="text/css">
+
+       <div class="thinHeaderBanner_Wrapper">
+          <a href="http://www.wsop.com/?sr=1088652&utm_source=hotel&utm_campaign=riolv&utm_medium=online" target="BLANK">  
+            <div class="thinHeaderBanner_Logo">
+                    <img title="wsop_component_logo" alt="wsop_component_logo" src="/content/dam/wsop/wsop_component_logo.png">
+            </div>
+            <div class="thinHeaderBanner_text" style="color:white">Online poker for real money is back in Nevada!</div>
+
+            <div class="thinHeaderBanner_CTA">
+                <img title="wsop_play_now_btn" alt="wsop_play_now_btn" src="/content/dam/wsop/wsop_play_now_btn.png">
+            </div>
+            
+          </a>
+       </div>
+       <div class="thinHeaderBanner_closebutton">       
+           <img src="/etc/designs/cet/components.css/thinHeaderBanner/_images/thinHeaderBanner_closebutton.png">
+           <script type="text/javascript">
+                $(function () {
+                    $('#thanks .thinHeaderBanner_closebutton').click (function () {
+							$('#thanks').remove();
+                        });
+
+                })  
+           </script>
+       </div>
+    </div> 
+             
+
+  </div>
+
+</div>
+
+<header >
+    <div class="inner">
+        <div id="logo">
+            <a href="http://www.riolasvegas.com/" id="hotellogo">
+            <img title="Rio-All-Suites Hotel &amp; Casino-Logos-1" alt="Rio-All-Suites Hotel &amp; Casino-Logos-1" src="/content/dam/rlv/Logos/Rio-All-Suites%20Hotel%20%26%20Casino-Logos-1.png">
+            </a>
+        </div>
+        <div class="headermain">
+            <div class="headertop clearfix">
+                <div id="globalIcons">
+                    <ul class="clearfix">
+                        
+                            <li><a href="http://www.totalrewards.com/hotel-reservations/main/?propCode=RLV" class="book">Book Now</a></li>
+                        
+
+                        
+                            <li><a href="http://riolasvegas.totalrewardsvacations.com/search/default.aspx?plcode=GBCET8&gsprefhotelcode=36933" class="airhotel">Air + Hotel</a></li>
+                        
+
+                        
+                            <li><a href="https://www.totalrewards.com/hotel-reservations/main/?view=promotionsearch&propcode=RLV&r=http%3a%2f%2fwww.totalrewards.com%2fhot-deals%2f" class="deals">Deals</a></li>
+                        
+
+                        
+                            <li><a href="http://www.totalrewards.com/our-casinos/" class="location">Casino Locator</a></li>
+                        
+
+                        
+                            <li><a href="http://www.caesars.com/groups-meetings/index.shtml" class="meetings">Meetings & Events</a></li>
+                        
+                    </ul>
+                </div>
+               
+                
+                    <div class="mboxDefault"></div>
+                    <script type="text/javascript">
+                        mboxCreate("cqWebsiteHeader_Mbox", "cqPropParams=rlv");
+                    </script>
+               
+                   <script type="text/javascript">
+                    function searchMeFocus(obj) {
+                        if (obj.value == 'Search') {
+                            obj.value = '';
+                        }
+                    }
+                    function searchMeBlur(obj) {
+                        if (obj.value == '') {
+                            obj.value = 'Search';
+                        }
+                    }
+                </script>
+                <div class="globalSearch clearfix">
+                    <form class="globalSearchForm" action="">
+                    <input type="text" name="q" value="Search" class="globalsearch_input" onfocus="searchMeFocus(this)" onblur="searchMeBlur(this)"/>
+                    <input type="submit" class="globalsearch_submit" />
+                    </form>
+                </div>
+            </div>
+            <nav>
+                <ul id="globalNav" class="clearfix">
+                        <li>
+<a href="/hotel.html">Hotel</a>
+
+                    <!--start dropdown-->
+                    <!--
+                    <div class="globalDropdown" id="dropdown1">
+                        <div class="dropdownInner clearfix">
+                            -->
+                        
+    <!--end dropdown-->
+    </li>
+<li>
+<a href="/casino.html">Casino</a>
+
+                    <!--start dropdown-->
+                    <!--
+                    <div class="globalDropdown" id="dropdown1">
+                        <div class="dropdownInner clearfix">
+                            -->
+                        
+    <!--end dropdown-->
+    </li>
+<li>
+<a href="/shows.html">Shows</a>
+
+                    <!--start dropdown-->
+                    <!--
+                    <div class="globalDropdown" id="dropdown1">
+                        <div class="dropdownInner clearfix">
+                            -->
+                        
+    <!--end dropdown-->
+    </li>
+<li>
+<a href="/restaurants.html">Restaurants</a>
+
+                    <!--start dropdown-->
+                    <!--
+                    <div class="globalDropdown" id="dropdown1">
+                        <div class="dropdownInner clearfix">
+                            -->
+                        
+    <!--end dropdown-->
+    </li>
+<li>
+<a href="/things-to-do.html">Things To Do</a>
+
+                    <!--start dropdown-->
+                    <!--
+                    <div class="globalDropdown" id="dropdown1">
+                        <div class="dropdownInner clearfix">
+                            -->
+                        
+    <!--end dropdown-->
+    </li>
+
+    </ul>
+    <div class="navicon"></div>
+    </nav>
+    <script language="JavaScript" src="https://www.totalrewards.com/asp_net/login_galaxy_js.aspx"></script>
+    <script type="text/javascript" src="/etc/clientlibs/cet/login.min.js"></script>
+
+    <form method="post" action="https://www.totalrewards.com/TotalRewards/Login.do?" name="LoginWidgetForm" id="LoginWidgetForm">
+        <input type="hidden" name="referdomain">
+        <input type="hidden" name="lastsync">
+        <input type="hidden" name="action" value="ACTION_PIN_LOGIN">
+        <input type="hidden" name="crossDomainLoginFlag" value="">
+        <input type="hidden" name="source" value="">
+        <!-- very important to set global login flag to true, otherwise page will redirect -->
+        <input type="hidden" name="globalLoginFlag" value="true">
+        <div id="totalRewardsLogin">
+            <a id="totalRewardsLogo" href="http://www.totalrewards.com/">Total Rewards</a>
+            <div id="welcome" style="display: none;">
+                Hello, <span style="font-weight:bold;"><a href="/MyTr.do"><script type="text/javascript">document.write(TR_name);</script></a></span><br>
+
+                <a style="cursor:pointer;" href="/TotalRewards/RewardsAndBenefits.do?page=rewardCredits">RC Balance</a>:
+                <span class="highlight"><script type="text/javascript">document.write(accountBalance);</script></span>
+
+                <br><span class="orange"><a href="javascript:void(0);" onclick="javascript:logout()" class="orange">Sign Out</a></span>
+            </div>
+            <div class="signinbtn">Sign In
+                <div id="totalrewards-signin" class="clearfix">
+                    <div class="topedge"></div>
+                    <div id="totalrewards-signinInner">
+                        <input type="text" value="Email/TR Login" name="accountId" class="trsignin-user" onfocus="loginToggle(this)" onblur="loginToggle(this)"/>
+                        <input type="password" value="Password" name="pin" class="trsignin-pass"  onfocus="pwToggle(this)" onblur="pwToggle(this)"/>
+                        <a href="http://www.totalrewards.com/a/security/forgotpassword.aspx" class="forgotpassword">Forgot password?</a>
+                        <a href="javascript:void(0);" class="btn-trsignin" onclick="submitLoginWidgetForm();">Sign In</a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="https://www.totalrewards.com/Program/" class="joinbtn">Join</a>
+
+        </div>
+    </form>
+    <script type="text/javascript">
+        toggleLoginWidget();
+    </script>
+    </div>
+    </div>
+</header></div>
+
+</div>
+</div>
+</div>
+
+<!--end header-->
+<section id="main" class="normal-content">
+    <div class="maininner">
+        <div class="inner">
+            <div class="content clearfix">
+                <div class="sub-col sub-col-left">
+                    <div class="par-leftnavigation parsys iparsys"><div class="section"><div class="new"></div>
+</div><div class="iparys_inherited"><div class="par-leftnavigation parsys iparsys"></div>
+</div>
+</div>
+
+                    <div class="parsys par0"><div class="minibooker section">
+
+
+
+
+
+
+
+
+
+
+
+<!--googleoff: all-->
+<link rel="stylesheet" href="/etc/clientlibs/cet/mbooker.min.css" type="text/css">
+<script type="text/javascript" src="/etc/clientlibs/cet/mbooker.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".modal").fancybox({
+            'width'             : '960',
+            'height'            : '75%',
+            'type'              : 'iframe'});
+    });
+    var languageLocale = "-US";
+    var regional = {
+        dayNamesShort: $.datepicker.regional[ languageLocale ].dayNamesShort,
+        dayNames: $.datepicker.regional[ languageLocale ].dayNames,
+        monthNamesShort: $.datepicker.regional[ languageLocale ].monthNamesShort,
+        monthNames: $.datepicker.regional[ languageLocale ].monthNames
+    };
+</script>
+<!--start .minibooker-->
+<div class="miniBooker clearfix">
+    <div class="bookRoomTab  tabOn" onClick="bookRoomContentOpen(); return false;">
+        <span>Book</span> A Room
+    </div>
+
+    <!--start book a room content-->
+    <div class="bookRoomContent contentOpen">
+        <div class="tabContent clearfix">
+
+            <!--.tabContentTop keeps content even -->
+
+            <!-- 1/16/13 - EL: Dropdown will be created by jQuery -->
+            <div class="tabContentTop">
+                <dl id="miniBook_Room_Casino_Dropdown" class="dropdown">
+                    <dt><a href="#"><span>Rio All-Suites Hotel & Casino</span></a></dt>
+                    <dd>
+                        <div class="mbooker_proplist">
+                            <ul>
+
+                            </ul>
+                        </div>
+                    </dd>
+                </dl>
+
+                <p><a href="#" class="dates-toggler booknow" id="getFlexDates"><span>Have Flexible Dates?</span></a></p>
+
+                <!-- 1/16/13 - EL: Added fields for Confirmation Code/Last Name -->
+                <p>
+                <div class="textInputField viewCancel"><input type="text" placeholder="Confirmation Code" id="cCode" /></div>
+                <div class="textInputField viewCancel"><input type="text" placeholder="Last Name" id="lName" /></div>
+                </p>
+
+                <div class="datePicker clearfix">
+                    <input type="text" value="Check In" id="checkin" />
+                    <div class="datepicker_calendar" onclick="$('#checkin').focus();"></div>
+                </div>
+
+                <div class="datePicker clearfix booknow">
+                    <input type="text" value="Check Out" id="checkout" />
+                    <div class="datepicker_calendar" onclick="$('#checkout').focus();"></div>
+                </div>
+
+                <p class="addARoomLink"><a href="#" id="addRoomLink">Add A Room</a></p>
+
+            </div><!--end .tabContentTop -->
+
+            <dl id="miniBook_Room_Adults_Dropdown" class="dropdown halfSizeFloat pad booknow">
+                <dt><a href="#"><span>Adults</span></a></dt>
+                <dd>
+                    <ul>
+                        <li><a href="#">1 Adult</a></li>
+                        <li><a href="#">2 Adults</a></li>
+                        <li><a href="#">3 Adults</a></li>
+                        <li><a href="#">4 Adults</a></li>
+                    </ul>
+                </dd>
+            </dl>
+
+            <dl id="miniBook_Room_Kids_Dropdown" class="dropdown halfSizeFloat booknow">
+                <dt><a href="#"><span>Kids</span></a></dt>
+                <dd>
+                    <ul>
+                        <li><a href="#">0 Kids</a></li>
+                        <li><a href="#">1 Kid</a></li>
+                        <li><a href="#">2 Kids</a></li>
+                        <li><a href="#">3 Kids</a></li>
+                        <li><a href="#">4 Kids</a></li>
+                    </ul>
+                </dd>
+            </dl>
+
+            <span class="clear"></span>
+
+
+            <!-- 1/16/13 - EL: Added Promo Field -->
+            <div class="booknow">
+                <p>
+                    <a href="javascript:void(0);" id="tripcodeLink">Add Promo or Package Code:</a>
+            <span class="tooltip">
+                <img src="/etc/designs/cet/properties/rio/_images/tooltip.gif" alt="Promocode"/>
+                <span class="hint">
+                   If you have Promo or Package code, click to enter it here to receive your discount.
+                </span>
+            </span>
+                <div class="textInputField" id="tripcodeHolder"><input type="text" placeholder="Enter Promo/Package Code" id="tripcode" /></div>
+                </p>
+            </div>
+
+            <a href="#" class="checkRatesBtn" id="checkRatesBtn"><span>Check Best Rates</span></a>
+
+            <!-- 1/16/13 - EL: Fix form for IBE -->
+            <form action="/hotel-reservations/" method="get" id="mbroom" target="_top" enctype="text/plain">
+                <div id="mbRoomParamSetA">
+                    <input type="hidden" name="propCode" value="rlv" />
+                </div>
+                <div id="mbRoomParamSetB">
+
+                </div>
+            </form>
+
+            <p class="leftTextFloat">
+                <a href="#" id="cCodeLink">View/Cancel</a>
+            </p>
+            <p class="rightTextFloat">
+                <a href="#">Travel Agent</a>
+            </p>
+
+            <span class="clear"></span>
+
+
+            <p class="centerTextBold">
+                <a href="/best-rate-guarantee.html" target="_blank"><img src="/etc/designs/cet/properties/rio/_images/BRG.png" alt="Best Rate Guarantee" border="0" width="143" height="14"/></a>
+            </p>
+
+
+        </div>
+    </div><!--end book a room content-->
+
+
+</div>  <!--end .minibooker-->
+<!--googleon: all--></div>
+<div class="facts section">
+
+
+
+<div class="sub-col-highlight-box">
+
+    
+    <h3 class="sub-col-highlight-heading">Facts</h3>
+    
+    <h4 class="sub-col-highlight-title">cuisine</h4>
+    <p class="sub-col-highlight-text">Cafe/Variety</p>
+    
+    <h4 class="sub-col-highlight-title">avg entree price</h4>
+    <p class="sub-col-highlight-text">$14</p>
+    
+    <h4 class="sub-col-highlight-title">price level</h4>
+    <p class="sub-col-highlight-text">$$</p>
+    
+    <h4 class="sub-col-highlight-title">attire</h4>
+    <p class="sub-col-highlight-text">Casual</p>
+    
+    <h4 class="sub-col-highlight-title">contact</h4>
+    <p class="sub-col-highlight-text">(702) 777-2761</p>
+    
+    <h4 class="sub-col-highlight-title">hours</h4>
+    
+    <span class="sub-col-highlight-hours-day">Daily Breakfast </span>
+    <span class="sub-col-highlight-hours-time">6am-1pm</span>
+    <br class="clear"/>
+    
+    <p class="sub-col-highlight-text"> </p>
+    
+</div>
+
+</div>
+<div class="alsoLike section">
+
+
+<div class="sub-col-highlight-box">
+    <h3 class="sub-col-highlight-heading">WHAT'S NEARBY</h3>
+
+    <div class="parbase image sub-col-highlight-img"><div id="cq-image-jsp-/content/property/rio-all-suite-hotel-and-casino/index/restaurants/sao-paulo-cafe/jcr:content/par0/alsolike/sub-col-highlight-img"><img title="Rio-All-Suite-Hotel-&amp;-Casino-Shows-Chippendales-Performers-1" alt="Rio-All-Suite-Hotel-&amp;-Casino-Shows-Chippendales-Performers-1" class="cq-dd-image" src="/content/property/rio-all-suite-hotel-and-casino/index/restaurants/sao-paulo-cafe/_jcr_content/par0/alsolike/sub-col-highlight-img.img.jpg/1365449219858.jpg"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq-image-jsp-/content/property/rio-all-suite-hotel-and-casino/index/restaurants/sao-paulo-cafe/jcr:content/par0/alsolike/sub-col-highlight-img");
+        var imageEvars = '{ imageLink: "/", imageAsset: "/content/dam/rlv/Shows/Chippendales/Rio-All-Suite-Hotel-&-Casino-Shows-Chippendales-Performers-1.jpg", imageTitle: "Rio\x2DAll\x2DSuite\x2DHotel\x2D\x26\x2DCasino\x2DShows\x2DChippendales\x2DPerformers\x2D1" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation/components/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+
+    <h4 class="sub-col-highlight-title">adult</h4>
+    <h3 class="sub-col-highlight-title">Chippendales</h3>
+
+    <div class="btn-outer">
+        <a href="http://www.riolasvegas.com/shows/chippendales-the-show.html" class="main-btn short">Learn More</a>
+    </div>
+    <p class="sub-col-highlight-text"><em></em></p>
+</div>
+                    </div>
+<div class="alsoLike section">
+
+
+<div class="sub-col-highlight-box">
+    <h3 class="sub-col-highlight-heading">YOU MIGHT ALSO LIKE</h3>
+
+    <div class="parbase image sub-col-highlight-img"><div id="cq-image-jsp-/content/property/rio-all-suite-hotel-and-casino/index/restaurants/sao-paulo-cafe/jcr:content/par0/alsolike_0/sub-col-highlight-img"><img title="Rio-All-Suite-Hotel-Dining-Casual-all-american-bar-and-grille-1" alt="Rio-All-Suite-Hotel-Dining-Casual-all-american-bar-and-grille-1" class="cq-dd-image" src="/content/property/rio-all-suite-hotel-and-casino/index/restaurants/sao-paulo-cafe/_jcr_content/par0/alsolike_0/sub-col-highlight-img.img.jpg/1368838126330.jpg"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq-image-jsp-/content/property/rio-all-suite-hotel-and-casino/index/restaurants/sao-paulo-cafe/jcr:content/par0/alsolike_0/sub-col-highlight-img");
+        var imageEvars = '{ imageLink: "/", imageAsset: "/content/dam/rlv/Dining/Casual/all american bar and grille/Rio-All-Suite-Hotel-Dining-Casual-all-american-bar-and-grille-1.jpeg", imageTitle: "Rio\x2DAll\x2DSuite\x2DHotel\x2DDining\x2DCasual\x2Dall\x2Damerican\x2Dbar\x2Dand\x2Dgrille\x2D1" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation/components/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+
+    <h4 class="sub-col-highlight-title"></h4>
+    <h3 class="sub-col-highlight-title"></h3>
+
+    <div class="btn-outer">
+        <a href="http://www.riolasvegas.com/restaurants/all-american-bar-and-grille.html" class="main-btn short">LEARN MORE</a>
+    </div>
+    <p class="sub-col-highlight-text"><em>All-American Bar & Grille</em></p>
+</div>
+                    </div>
+
+</div>
+
+                </div>
+                <div class="main-col">
+                    <div class="toolbox">
+
+
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style ">
+    <a class="addthis_button_preferred_1"></a>
+    <a class="addthis_button_preferred_2"></a>
+    <a class="addthis_button_preferred_3"></a>
+    <a class="addthis_button_preferred_4"></a>
+    <a class="addthis_button_compact"></a>
+    <a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50af3faf5e7f37b6"></script>
+<!-- AddThis Button END -->
+
+
+
+       </div>
+
+                    <div class="parsys par1"><div class="section breadcrumb">
+
+
+<div class="breadcrumbs">
+
+    
+
+    
+    
+    <a href="/content/property/rio-all-suite-hotel-and-casino/index.html" onclick="CQ_Analytics.record({event:'followBreadcrumb',values: { breadcrumbPath: '/content/property/rio-all-suite-hotel-and-casino/index' },collect: false,options: { obj: this },componentPath: 'cet/properties/components/content/breadcrumb'})">
+        Rio Las Vegas
+    </a>
+    
+
+
+    
+
+    &nbsp;&gt;&nbsp;
+    
+    <a href="/restaurants.html" onclick="CQ_Analytics.record({event:'followBreadcrumb',values: { breadcrumbPath: '/content/property/rio-all-suite-hotel-and-casino/index/restaurants' },collect: false,options: { obj: this },componentPath: 'cet/properties/components/content/breadcrumb'})">
+        Restaurants
+    </a>
+    
+
+
+    
+
+    &nbsp;&gt;&nbsp;
+    
+    Sao Paulo Cafe
+    
+
+
+    
+
+</div></div>
+<div class="title section">
+
+
+
+
+
+
+
+    <script type="text/javascript">
+    (function(){
+        try{
+    
+    } catch(err){
+        console.log("An error occurs during execution of user-input JS code:");
+        console.log(err.message);
+    }
+    })();
+    </script>
+
+    <script type="text/javascript" src="//caesars.ugc.bazaarvoice.com/static/8897-en_us/bvapi.js"></script>
+    <script type="text/javascript">
+        $BV.configure("global", {
+
+            submissionContainerUrl: "http://www.riolasvegas.com/things-to-do/bv_submission_container.html"
+        });
+    </script>
+    <script type="text/javascript">
+        $BV.ui("rr", "show_reviews", {
+            productId: "sao-paulo-cafe"
+        });
+    </script>
+
+       <div class="clearfix"> 
+       
+            <h1 class="main-content-heading" style="float:left;">São Paulo Café</h1>
+        
+        <div class="message_text">
+             <a href=""></a> 
+        </div>
+        </div>
+     </div>
+<div class="heroimage parbase section">
+
+
+
+
+<div class="map-large-container">
+     <img title="Rio-All-Suite-Hotel-Dining-Casual-sao-paulo-caf&sbquo;-3" alt="Rio-All-Suite-Hotel-Dining-Casual-sao-paulo-caf&sbquo;-3" src="/content/property/rio-all-suite-hotel-and-casino/index/restaurants/sao-paulo-cafe/_jcr_content/par1/heroimage/image.cetimg.p2M.jpg/1368837953518.jpg">
+</div>
+
+   
+
+  </div>
+<div class="parbase textParsys section">
+
+<div class="main-col-indent clearfix">
+<div class="main-content-side-block">
+<div class="parsys side-block"><div class="linkedList section">
+
+
+<!--start .main-content-side-block -->
+    <h3 class="main-col-side-block-title">MENUS</h3>
+    <h2 style="margin-left:10px; margin-top:5px"></h2>
+
+        <ul class="sub-col_dashedList">
+
+            <li><a href="/content/dam/rlv/Dining/Casual/sao paulo cafe/RLV-BreakfastMenu_1119KK.pdf" target="_blank" class="menu-listing-link ">
+                Breakfast Menu <img src="/etc/designs/cet/properties/rio/_images/icon_menu.gif"/>
+            </a></li>
+
+        </ul>
+    
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".spMenu").fancybox({
+            'width'             : '300',
+            'height'            : '95%',
+            'type'              : 'iframe'});
+    });
+</script>
+
+                       </div>
+
+</div>
+
+</div>
+<h2>ABOUT&nbsp;São Paulo Café</h2>
+<p><span class="firstcharacter">S</span>ão Paulo Cafe is a Rio Las Vegas casual dining restaurant featuring a large selection of breakfast items and signature coffees. The perfect place to grab breakfast or the go or relax and enjoy a hot cup of coffee. São Paulo Cafe is located next to Pavilion Starbucks and Penn &amp; Teller Theatre.<br>
+</p>
+
+</div></div>
+<div class="wyliCarousel section">
+
+
+
+
+
+
+
+<script type="text/javascript" src="/etc/clientlibs/cet/carousel.min.js"></script>
+
+
+
+<div class="feature-photos">
+    <h3 class="small-feature-headline">WHY YOU'LL LOVE IT</h3>
+    <div class="feature-carousel" id="wylicarousel">
+        <ul class="feature-photos-carousel">
+                
+
+            <li>
+                <img title="A large selection of breakfast items" alt="A large selection of breakfast items" src="/content/property/rio-all-suite-hotel-and-casino/index/restaurants/sao-paulo-cafe/_jcr_content/par1/wylicarousel/images2.cetimg.p2TN.jpg/1368837953518.jpg">
+                <p class="feature-desc">A large selection of breakfast items</p>
+            </li>
+                        
+
+            <li>
+                <img title="Relax or grab breakfast on the go" alt="Relax or grab breakfast on the go" src="/content/property/rio-all-suite-hotel-and-casino/index/restaurants/sao-paulo-cafe/_jcr_content/par1/wylicarousel/images3.cetimg.p2TN.jpg/1368837956611.jpg">
+                <p class="feature-desc">Relax or grab breakfast on the go</p>
+            </li>
+                        
+
+            <li>
+                <img title="Comfortable environment" alt="Comfortable environment" src="/content/property/rio-all-suite-hotel-and-casino/index/restaurants/sao-paulo-cafe/_jcr_content/par1/wylicarousel/images1.cetimg.p2TN.jpg/1350672207463.jpg">
+                <p class="feature-desc">Comfortable environment</p>
+            </li>
+                        
+        </ul>
+    </div>
+
+    <div href="#" class="feature-prev" id="prevBtn-wylicarousel"  >prev</div>
+    <div href="#" class="feature-next" id="nextBtn-wylicarousel"  >next</div>
+
+    <script type="text/javascript">
+        $(function() {
+            $('#wylicarousel').jCarouselLite({
+                btnNext: "#prevBtn-wylicarousel",
+                btnPrev: "#nextBtn-wylicarousel"
+            });
+        });
+    </script>
+
+</div><!--end .feature-photos-->
+                
+</div>
+<div class="testimonial section">
+
+
+
+
+    
+<div class="main-col-indent clearfix">  
+    
+<h3 class="sub-col-module_heading">
+Reviews 
+</h3>
+    <blockquote>
+        "This cafe features international flavor, with a little bit of everything available. <br>Come enjoy something new or stick to their American classics."
+        
+        <span class="author">-Las Vegas Weekly</span>
+                
+
+    </blockquote>
+            
+    
+</div></div>
+
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--start footer-->
+    
+
+
+<footer class="footer clearfix">
+    <div class="parsys iparsys ipar"><div class="section"><div class="new"></div>
+</div><div class="iparys_inherited"><div class="parsys iparsys ipar"><div class="footer section">
+<!--<div class="footerTop">
+<div class="inner clearfix">
+<div class="footer-select-language">
+<div class="parsys footer_par1">
+</div>
+
+
+<h3 class="footer-select-lang-title">Select Language</h3>
+<ul class="footer-select-lang-list">
+<li class="selected"><a href="#">English</a></li>
+<li><a href="#">Chinese</a></li>
+<li><a href="#">Vietnamese</a></li>
+<li><a href="#">Spanish</a></li>
+<li><a href="#">Lorem</a></li>
+<li><a href="#">Lorem</a></li>
+<li class="last"><a href="#">Lorem</a></li>
+</ul>
+
+</div>
+<div class="footer-newsletterEmail clearfix">
+<div class="parsys footer_par2">
+</div>
+
+<form action="http://app.harrahs-marketing.com/enroll/universal/signup.cfm?rd=hcom_emailsign_up_bnavtxt" method="get">
+<span class="footer-newsletterEmailLabel">SUBSCRIBE to get the best deals!</span>
+<input type="text" class="footer-newsletterEmail_input" name="email" value="Your e-mail">
+<input type="submit" class="footer-newsletterEmail_submit" value="Sign Up">
+</form>
+</div>
+</div>
+</div>
+-->
+<div class="footer-iframe" ></div>
+
+<script type="text/javascript">
+
+    $(document).ready(function() {
+        var footerElement = $(".footer-iframe")[0];
+        $.ajax({
+            dataType: "text",
+            url: "/content/property/rio-all-suite-hotel-and-casino/index/jcr:content/ipar/footer" + ".htmltext",
+            async: true,
+            success: function(msg) {
+                var div = document.createElement("div");
+                div.innerHTML = msg;
+                footerElement.appendChild(div);
+            },
+            error: function(req, status, error) {
+                conosle.log(status);
+            }
+        });
+    });
+
+</script></div>
+
+</div>
+</div>
+</div>
+
+</footer>
+<!--end footer-->
+    
+
+
+
+
+
+
+
+<!--
+More detailed timing info is available by uncommenting some code in the timing.jsp component
+Timing chart URL:
+http://chart.apis.google.com/chart?chtt=sao-paulo-cafe.html+%281172ms%29&cht=bhs&chxt=x&chco=c6d9fd,4d89f9&chbh=a&chds=0,1172,0,1172&chxr=0,0,1172&chd=t:16,31,31,31,109,109,141,141,500,500,563,578,578,578,594,594,688,688,781,797,813,813,828,844,844,844,859,906,1047,1078,1078,1109,1109,1141,1172|15,0,0,407,329,329,31,31,0,63,0,0,16,141,15,78,31,31,0,250,0,15,16,15,15,15,47,16,125,0,94,63,63,0,0&chly=head.jsp|init.jsp|new.jsp|iparsys.jsp|header.jsp|par.jsp|thinHeaderBanner.jsp|parsys.jsp|new.jsp|iparsys.jsp|par.jsp|minibooker.jsp|facts.jsp|parsys.jsp|image.jsp|alsoLike.jsp|image.jsp|alsoLike.jsp|toolbox.jsp|parsys.jsp|breadcrumb.jsp|title.jsp|heroimage.jsp|linkedList.jsp|parsys.jsp|textParsys.jsp|wyliCarousel.jsp|testimonial.jsp|footer.jsp|new.jsp|iparsys.jsp|footer.jsp|par.jsp|parsys.jsp|parsys.jsp&chs=600x500
+-->
+
+
+    <div class="servicecomponents cloudservices">
+</div>
+
+    
+            <!-- START: Numeric Analytics Framework Code -->
+                <script src="/javascript_includes/numeric/reportsuites.js"></script>
+                <script type="text/javascript">
+                        function metricTranslation(){
+                                try{   
+                                       _numeric_.analyticsCallBack();
+                                }catch(e){}
+                        }
+     
+                </script>
+                <script language="javascript" type="text/javascript" src="/javascript_includes/numeric/_numeric_.js"></script>
+            <!-- END: Numeric Analtics Framework Code -->
+
+    
+
+</body>
+</html>

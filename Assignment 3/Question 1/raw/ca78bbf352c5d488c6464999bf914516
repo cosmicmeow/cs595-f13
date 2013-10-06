@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<link rel="SHORTCUT ICON" href="orange.ico"/>
+<link rel="alternate" type="application/rss+xml" title="kirupa.com Updates" href="http://www.kirupa.com/modular/kirupa.xml"/>
+<link rel="stylesheet" media="print" href="http://www.kirupa.com/ssi/newDesign/print.css" type="text/css">
+<meta property="og:site_name" content="kirupa.com" />
+<meta property="fb:admins" content="700218" />
+<meta name="keywords" content="javascript, connection, internet, detect">
+<meta name="content" content="Use this simple and effective snippet of JavaScript to check if an internet connection exists or not.">
+<meta name="description" content="Use this simple and effective snippet of JavaScript to check if an internet connection exists or not.">
+
+<meta name="title" content="Check If Internet Connection Exists in JavaScript | kirupa.com">
+<title>Check If Internet Connection Exists in JavaScript | kirupa.com</title>
+<meta name="author" content="Kirupa Chinnathambi" />
+<link href="http://www.kirupa.com/ssi/newDesign/kirupa_html5.css" rel="stylesheet" type="text/css">
+<link rel="image_src" href="http://www.kirupa.com/images/giant_cloud.png" />
+</head>
+
+<body data-help="http://www.kirupa.com/forum/">
+
+<link href='http://fonts.googleapis.com/css?family=Carrois+Gothic|Archivo+Narrow:700' rel='stylesheet' type='text/css'>
+
+
+<div id="headerContainer">
+	<div id="headerMain">
+		<div id="headerLeft">
+			<div id="logintext">
+
+			</div>
+		</div>
+		<div id="headerCenter">
+			<form action="http://search.atomz.com/search" style="margin-bottom: 0px">
+				<input name="sp_a" type="hidden" value="sp040c2f00">
+				<input name="sp_f" type="hidden" value="iso-8859-1">
+				<input id="sbi" class="inputTextStyle" name="sp_q" size="20" placeholder="Search tutorials..." type="text" />
+			</form>
+		</div>
+		<div id="headerRight">
+			
+			<a href="http://www.facebook.com/kirupa" target="_blank">
+			
+			<img height="20" alt="Friend Kirupa to laugh and learn...a lot!" src="http://www.kirupa.com/images/facebook_small.png" width="20" class="socialHeader"></a><a href="http://twitter.com/kirupa" target="_blank"><img alt="Follow @kirupa" height="20" src="http://www.kirupa.com/images/twitter_small.png" width="20" class="socialHeader"></a><a href="http://www.youtube.com/kirupa" target="_blank"><img alt="Go to the kirupa.com YouTube Channel" height="20" src="http://www.kirupa.com/images/youtube_small.png" width="20" class="socialHeader"></a><a href="http://feeds.feedburner.com/kirupa/vXRx" target="_blank"><img height="20" alt="An old-school RSS feed!" src="http://www.kirupa.com/images/rss_small.png" width="20" class="socialHeader"></a></div>
+	</div>
+	
+	<div id="logoAdArea">
+		<div id="logoArea">
+			<a href="http://www.kirupa.com">
+			<img id="theLogo" alt="kirupa.com logo!" height="36" src="http://www.kirupa.com/ssi/newDesign/kirupaLogo_large.png" width="323"></a></div>
+		<div id="adArea" style="border:0px #FFF none">
+			<ul>
+				<li id="tutorialsLink" class="normalLink"><a href="http://www.kirupa.com/browse_all_content.htm">learn</a>
+				
+					<ul id="dropDownMenu">
+						<li class="mainItem" style="background-image: url('http://www.kirupa.com/mini_icons/menu/blue_arrow.png')"><a id="learn_animation" href="http://www.kirupa.com/html5/learn_animation.htm">Animation</a></li>
+						<li class="mainItem" style="background-image: url('http://www.kirupa.com/mini_icons/menu/red_arrow.png')"><a id="learn_html_css" href="http://www.kirupa.com/html5/learn_html_css.htm">HTML &amp; CSS</a></li>
+						<li class="mainItem" style="background-image: url('http://www.kirupa.com/mini_icons/menu/yellow_arrow.png')"><a id="learn_javascript" href="http://www.kirupa.com/html5/learn_javascript.htm">JavaScript</a></li>
+						<li class="mainItem" style="background-image: url('http://www.kirupa.com/mini_icons/menu/green_arrow.png')"><a id="learn_flash" href="http://www.kirupa.com/developer/flash/index.htm">Flash / AS</a></li>
+						<li class="subMainItem"><a id="browse_all_content" href="http://www.kirupa.com/browse_all_content.htm">Browse All Content</a></li>
+					</ul>
+
+				</li>
+				<li id="forumLink" class="normalLink"><a href="http://www.kirupa.com/forum/">forums</a></li>
+				<li id="designLink" class="normalLink"><a href="http://www.kirupa.com/design/index.htm">design</a></li>
+				<li id="bookLink" class="normalLink">
+				<a href="http://www.kirupa.com/book/animation_in_html_css_and_javascript.htm">the book</a></li>
+			</ul>
+		</div>
+	</div>
+<!--
+	<div id="announcementHeader">
+		<ul>
+			<li>Latest: </li>
+			<li>
+			<a href="http://www.kirupa.com/book/animation_in_html_css_and_javascript.htm">
+			Check out Kirupa's new book to learn how to create awesome animations 
+			in HTML5!</a></li>
+		</ul>
+	</div>
+-->
+<div id="theHorizontalLine"></div>
+
+</div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1952673-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+<!-- Begin 
+function Launch(page) { 
+OpenWin = this.open(page, "KirupaStyle", "toolbar=no,menubar=no,location=no,scrollbars=no,resizable=yes,width=670,height=625"); 
+} 
+// End --> 
+</SCRIPT>
+
+<script type="text/javascript">
+<!-- Begin 
+function LaunchV2(page) { 
+OpenWin = this.open(page, "KirupaStyle", "toolbar=no,menubar=no,location=no,scrollbars=no,resizable=yes,width=670,height=635"); 
+} 
+// End --> 
+</SCRIPT>
+
+<script type="text/javascript">
+<!-- Begin 
+function LaunchV3(page, width, height) { 
+OpenWin = this.open(page, "KirupaStyle", "toolbar=no,menubar=no,location=no,scrollbars=no,resizable=yes,width="+width+",height="+height+""); 
+} 
+// End --> 
+</SCRIPT>
+
+<script>
+function getForumData() {
+    var httpc = new XMLHttpRequest();
+    var url = "http://www.kirupa.com/ssi/newDesign/forum_info.php";
+    httpc.open("POST", url, true);
+    httpc.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+    httpc.onreadystatechange = function() { //Call a function when the state changes.
+	    if(httpc.readyState == 4 && httpc.status == 200) { // complete and no errors
+	        showTemplate(httpc.responseText);
+	    }
+    }
+    httpc.send();
+}
+getForumData();
+
+var count = 0;
+
+function showTemplate(response) {
+	var loginText = document.getElementById("logintext");
+	
+	if (response == "LOGIN") {
+		var loginHTML = document.getElementsByClassName("displayLogInJoin")[0];
+		
+		var loginTextCopy = loginHTML.cloneNode(true);
+		loginText.appendChild(loginTextCopy)
+	} else {
+		if (count == 0) {
+			var memberHTML = document.getElementsByClassName("displayMemberInfo")[0];
+			
+			var memberName = document.getElementById("memberName");
+			
+			var jsonData = JSON.parse(response);
+			
+			memberName.childNodes[0].textContent = jsonData[0];
+			memberName.style.backgroundImage="url(http://www.kirupa.com/forum/" + jsonData[3] +")";
+	
+			var memberHTMLCopy = memberHTML.cloneNode(true);
+			loginText.appendChild(memberHTMLCopy)
+			
+			count++;
+			
+			//setupDropDownMenu();
+		}
+	}
+}
+
+var dropDown;
+function setupDropDownMenu() {
+	dropDown = document.getElementById("headerMenu");
+	var memberName = document.getElementById("memberName");
+	
+	memberName.addEventListener("mouseover", showMenu, true);
+	memberName.addEventListener("mouseout", hideMenu, true);
+	
+	dropDown.addEventListener("mouseover", showMenu, true);
+	dropDown.addEventListener("mouseout", hideMenu, true);
+}
+
+function showMenu(e) {
+	dropDown.className = dropDown.className.replace("hidden","visible");
+}
+function hideMenu() {
+	dropDown.className = dropDown.className.replace("visible","hidden");
+}
+
+</script>
+<div id="templateContent" style="display: none;">
+	<div class="displayLogInJoin">
+		<p><a href="http://www.kirupa.com/forum/login.php?do=login">LOG-IN</a> or <a href="http://www.kirupa.com/forum/register.php">JOIN</a><p>
+	</div>
+	
+	<div class="displayMemberInfo">
+		<ul id="memberData">
+			<li id="memberName"><a class="memberNameLink" href="http://www.kirupa.com/forum">kirupa</a>
+				<ul id="headerMenu">
+					<li><a href="http://www.kirupa.com">kirupa.com Home</a></li>
+					<li><a href="http://www.kirupa.com/forum">Forums Home</a></li>
+					<li class="horizontalLine"></li>
+					<li><a href="http://www.kirupa.com/forum/search.php?do=getnew&amp;contenttype=vBForum_Post">What's New</a></li>
+					<li><a href="http://www.kirupa.com/forum/usercp.php">Your Notifications</a></li>
+					<li class="horizontalLine"></li>
+					<li><a href="http://www.kirupa.com/forum/memberlist.php">Member List</a></li>
+					<li><a href="http://www.kirupa.com/forum/search.php?search_type=1">Search Forums</a></li>
+					<li class="horizontalLine"></li>
+					<li><a href="http://www.kirupa.com/forum/profile.php">Edit Profile</a></li>
+					<li class="horizontalLine"></li>
+					<li><a href="http://www.kirupa.com/forum/login.php?do=logout">Log Out</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<!--
+
+<div id="helpFloater">
+	<a id="helpFloaterLink" href="http://www.kirupa.com/forum/">
+	<img alt="ask a question" height="181" src="http://www.kirupa.com/ssi/newDesign/ask_question.png" width="34"></a></div>
+	-->
+<div id="mainBody">
+	
+	<div id="mainContent">
+<div id="tutorialInformation">
+	<div class="authorImage">
+		<a href="http://www.kirupa.com/me/index.htm">
+		<img alt="Look, it's a kirupa!!!" src="http://www.kirupa.com/ssi/newDesign/kirupa_me.png"></a></div>
+	<div class="authorText">
+		<h1>Check If Internet Connection Exists in JavaScript</h1>
+		<p class="tutorialInfo">by <a href="http://www.kirupa.com/me/index.htm">
+		kirupa</a>&nbsp;&nbsp; |&nbsp;&nbsp; 14 September 2013</p>
+	</div>
+</div>
+
+		<p>
+		If there is ever a moment when you need your internet connection to 
+		work, there is a very good chance it is <strong>at that very moment</strong> 
+		your internet connection will fail. This is one of those universally 
+		accepted truths...I think. Anyway, building an app or a site whose 
+		functionality relies on an internet connection being present is tricky. You can't always guarantee that an internet connection 
+		will be available when your app requires it, and this is 
+		especially true on mobile devices when your internet connectivity might 
+		be flaky.</p>
+		<p>
+		To avoid situations where something you create misbehaves because an 
+		internet connection isn't available, you need a way to detect whether an 
+		internet connection exists. The best part is that it isn't very hard to 
+		do.</p>
+		<p>
+		Take a look at the following example:</p>
+		<p class="centerImageNoBorder">
+		<iframe id="I1" border="0" frameborder="0" name="I1" src="examples/detecting_internet_connection.htm" style="width: 458px; height: 308px;" marginheight="0" marginwidth="0" class="centerImage" scrolling="no">Your browser does not support inline frames or is currently configured not to display inline frames.
+			</iframe></p>
+		<p>
+		Click on the <strong>Check connection!</strong> text. If you have an 
+		active internet connection, you will see a dialog telling you that a 
+		connection exists:</p>
+		<p class="centerImageNoBorder">
+		<img alt="connection exists" height="188" src="images/connection_exists_dialog.png" width="237"></p>
+		<p>
+		If you don't have an internet connection (something you can temporarily 
+		simulate by unplugging your network cable or turning off your wireless), you will see 
+		a dialog that says that an internet connection does not exist:</p>
+		<p class="centerImageNoBorder">
+		<img alt="connection doesn't exist" height="187" src="images/connection_doesnt_exist.png" width="264"></p>
+		<p>
+		This crazy-awesome functionality is made possible using a little bit of JavaScript and a 
+		simple <span class="inlineCode">XMLHttpRequest</span> technique. In this 
+		article, you will learn all about it.</p>
+		<p>
+		Onwards!</p>
+		<h2>
+		Detecting the Internet Connection</h2>
+		<p>
+		The way I check if an internet connection exists pretty simple. There is 
+		some code that attempts to access a file that exists on the internet.
+		If we can access that file, this means an internet connection exists:</p>
+		<p class="centerImageNoBorder">
+		<img alt="connection exists" height="411" src="images/connection_exists_72.png" width="528"></p>
+		<p>
+		If we can't access that file, this means an internet connection doesn't 
+		exist or something like a firewall or Nicholas Cage is preventing your app 
+		from connecting to the internet:</p>
+		<p class="centerImageNoBorder">
+		<img alt="no connection" height="288" src="images/no_connection_72.png" width="528"></p>
+		<p>
+		The code for all of what I just described looks as follows:</p>
+		<pre class="brush: js">function doesConnectionExist() {
+    var xhr = new XMLHttpRequest();
+    var file = "http://www.yoursite.com/somefile.png";
+    var randomNum = Math.round(Math.random() * 10000);
+    
+    xhr.open('HEAD', file + "?rand=" + randomNum, false);
+    
+    try {
+    	xhr.send();
+    	
+	    if (xhr.status &gt;= 200 &amp;&amp; xhr.status &lt; 304) {
+	        return true;
+	    } else {
+	        return false;
+	    }
+    } catch (e) {
+    	return false;
+    }
+}</pre>
+		<p>
+		The <span class="inlineCode">doesConnectionExist</span> function returns 
+		a <strong>true</strong> if an internet connection exists. This function 
+		returns a <strong>false</strong> if an internet connection does not 
+		exist. To use this code in your own site or app, the only thing you need to do is change the URL specified for 
+		the <span class="inlineCode">file</span> variable:</p>
+		<pre class="brush: js">var file = "http://www.yoursite.com/somefile.png";</pre>
+		<p>
+		Change the URL to point to any file that you know exists on your own 
+		server. That's all there is to it. To see a full working version of this 
+		code, check out the source for the example you saw earlier from the
+		<a class="blueEmphasis" href="http://www.kirupa.com/html5/examples/detecting_internet_connection.htm">
+		following location</a>.</p>
+		<h2>
+		The Code Explained</h2>
+		<p>
+		In the previous section, you saw the code that makes all of this work. 
+		You also received a very simple explanation as to what the code does. In 
+		this section, let's look through each line of our code in detail and get 
+		the <strong>real</strong> explanation...starting at the top:</p>
+		<pre class="brush: js">var xhr = new XMLHttpRequest();</pre>
+		<p>
+		The first thing we do is create the <span class="inlineCode">xhr</span> 
+		variable and initialize it to a new <span class="inlineCode">
+		XMLHttpRequest</span> object. This object contains all of the properties 
+		and methods you need for sending or getting data from across the 
+		internet without requiring you to refresh your page.</p>
+		<p class="horizontalLine">
+		&nbsp;</p>
+		<p>
+		The next three lines are related, so let's look at them together:</p>
+		<pre class="brush: js">var file = "http://www.yoursite.com/somefile.png";
+var randomNum = Math.round(Math.random() * 10000);
+
+xhr.open('HEAD', file + "?rand=" + randomNum, false);</pre>
+		<p>
+		The <span class="inlineCode">file</span> and <span class="inlineCode">
+		randomNum</span> variables help you to construct a URL that points to a 
+		known file on the internet. You see these variables being used when we 
+		call <span class="inlineCode">open</span> on our
+		<span class="inlineCode">xhr</span> object:</p>
+		<pre class="brush: js, highlight:[4]">var file = "http://www.yoursite.com/somefile.png";
+var randomNum = Math.round(Math.random() * 10000);
+
+xhr.open('HEAD', file + "?rand=" + randomNum, false);</pre>
+		<p>
+		The <span class="inlineCode">open</span> method is pretty interesting, 
+		so let's look at it in more detail.</p>
+		<h3>
+		The Open Method</h3>
+		<p>
+		The <span class="inlineCode">open</span> method allows us to construct a 
+		request. Think of this is formally defining the parameters you want in 
+		order to send your request off to the internet. The
+		<span class="inlineCode">open</span> method (in this variation) takes 
+		three arguments:</p>
+		<ol>
+			<li>The type of HTTP method to use</li>
+			<li>The URL to send the request to</li>
+			<li>Whether the request will be made asynchronously</li>
+		</ol>
+		<h4>
+		HTTP Method</h4>
+		<p>
+		Our HTTP method is going to be <strong>HEAD</strong>. There are
+		<a class="blueEmphasis" href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html" target="_blank">
+		several HTTP methods available</a> that you can specify, but we want to 
+		use a method that simply checks on a file without actually downloading 
+		it. The HEAD method fits that requirement.</p>
+		<h4>
+		The URL</h4>
+		<p>
+		The URL we specify is the path to the file that we want to check on. 
+		This URL is a combination of the <span class="inlineCode">file</span> 
+		and <span class="inlineCode">randomNum</span> variables that you saw 
+		earlier. Then end result is a string that might look as follows:</p>
+		<pre class="brush: js">http://www.kirupa.com/blank.png?rand=6544</pre>
+		<p>
+		The random number tagged on as part of the URL is there to prevent a 
+		cached result from being returned.</p>
+		<h4>
+		Asynchronous Much?</h4>
+		<p>
+		The last argument we specify is whether we want this request to be done 
+		in the background asynchronously or whether we want this to block all 
+		other code from executing and run synchronously. Whether you specify
+		<strong>true</strong> (asynchronous) or <strong>false</strong> 
+		(synchronous) depends entirely on your app.</p>
+		<p>
+		If your application simply cannot proceed further without first checking 
+		whether an internet connection exists, you should specify false. If you 
+		are checking for the internet connection in a more passive way and your 
+		application doesn't demand an answer immediately, specify true.</p>
+		<p>
+		In our example, we specified <strong>false</strong>.</p>
+		<p class="horizontalLine">
+		&nbsp;</p>
+		<p>
+		So far, all we've done is create our <span class="inlineCode">
+		XMLHttpRequest</span> object and constructed our HTTP request. Things 
+		really start moving in the next chunk of code:</p>
+		<pre class="brush: js">try {
+	xhr.send();
+	
+    if (xhr.status &gt;= 200 &amp;&amp; xhr.status &lt; 304) {
+        return true;
+    } else {
+        return false;
+    }
+} catch (e) {
+	return false;
+}</pre>
+		<p>
+		We wrap all of this code inside a <span class="inlineCode">try</span>/<span class="inlineCode">catch
+		</span>statement. The reason has to do with the <span class="inlineCode">
+		xhr.send()</span> line:</p>
+		<pre class="brush:js, highlight:[2]">try {
+	xhr.send();
+	
+    if (xhr.status &gt;= 200 &amp;&amp; xhr.status &lt; 304) {
+        return true;
+    } else {
+        return false;
+    }
+} catch (e) {
+	return false;
+}</pre>
+		<p>
+		When the <span class="inlineCode">send</span> method executes, the HTTP 
+		request you constructed earlier in <span class="inlineCode">open</span> 
+		is actually transmitted. If you do not have an internet connection that 
+		allows this request to fly away, the <span class="inlineCode">send</span> 
+		method throws an exception. At this point, your app would instantly 
+		crash if you didn't use the <span class="inlineCode">try</span>/<span class="inlineCode">catch</span> 
+		statement to anticipate and react to this mini-meltdown.</p>
+		<p>
+		If an internet connection does exist, your <span class="inlineCode">send</span> 
+		method transmits the message and returns an HTTP status code (<span class="inlineCode">xhr.status</span>). 
+		Looking at the
+		<a class="blueEmphasis" href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html" target="_blank">
+		various status codes</a> goes well beyond the scope of this article, but 
+		as long as your status code falls within 200 and 303, you are in good 
+		shape and this entire function returns a <strong>true</strong>.</p>
+		<p>
+		That check is handled by the following highlighted lines:</p>
+		<pre class="brush:js, highlight:[4,5,6,7,8]">try {
+	xhr.send();
+	
+    if (xhr.status &gt;= 200 &amp;&amp; xhr.status &lt; 304) {
+        return true;
+    } else {
+        return false;
+    }
+} catch (e) {
+	return false;
+}</pre>
+		<p>
+		If your status code goes outside of that range, nobody really 
+		knows what is going on. To be safe, our code returns a false to indicate 
+		that the connection doesn't exist. It is very likely be that the file 
+		you specified as part of your request doesn't exist and needs to be 
+		altered. It could be that something else is preventing your connection 
+		from succeeding. If you see <strong>false</strong> being returned 
+		consistently, that is a sign that you need to troubleshoot your 
+		connection.</p>
+		<div class="callout">
+			<h4 id="navigatorOnlineNote">Note on the <span class="inlineCode">
+			navigator.onLine</span> Property</h4>
+			<p>
+			After writing this article, several people asked me why I don't use 
+			the <span class="inlineCode">navigator.onLine</span> property to 
+			check whether a connection exists or not. After all, this property's 
+			sole reason for existing is to tell you...whether a connection 
+			exists or not. It seems like the obvious choice, right? Well, not 
+			quite! Here is why I don't like to use it for what we are trying to 
+			do.</p>
+			<p>
+			What we are doing is checking if we have an internet connection. The 
+			reason we are doing this is to actually connect to the internet and 
+			do something with some remote data. Simply checking if we have a 
+			valid connection isn't adequate. I could be connected to a local 
+			network and not have access to the broader internet. I could be in a 
+			virtual machine with a virtual network adapter that always shows an 
+			active connection...even if such a connection doesn't actually 
+			exist. You may have a firewall that causes problems. There are many 
+			cases where your browser will falsely report a connection exists, 
+			but the <span class="inlineCode">navigator.onLine</span> property 
+			will return <strong>true</strong>.</p>
+			<p>
+			By making a web request like this article describes, there is no 
+			ambiguity on whether your page can connect to the internet. That's 
+			why I prefer the XHR approach as opposed to the
+			<span class="inlineCode">navigator.onLine</span> property.</p>
+		</div>
+		<h2>
+		Conclusion</h2>
+		<p>
+		More and more of your sites and apps store state in a remote location. 
+		Having an internet connection at all times when using your phone or 
+		computer or whatever is no longer a luxury for many parts of the world. 
+		It is a necessity. Despite that, we (and your users) always manage to 
+		get ourselves into situations where an internet connection might not 
+		always exist. I'm looking at you
+		<a class="blueEmphasis" href="http://www.nps.gov/maca/index.htm" target="_blank">
+		Mammoth Caves</a>. </p>
+		<p>
+		For those moments when your site or app doesn't have an internet 
+		connection that it desperately relies on, this code provides you with a 
+		basic solution for how to start dealing with it.</p>
+		<p>
+		<h3>Need Help?</h3>
+<p>If you have questions, need some assistance on this topic, or just want to 
+chat - please drop by our <a class="blueEmphasis" href="http://www.kirupa.com/forum/">friendly forums</a> 
+and post your question. There are a lot of knowledgeable and witty people who 
+would be happy to help you out. Plus, we have a
+<a class="blueEmphasis" href="http://www.kirupa.com/me/credits.htm">large collection of smileys</a> 
+you can use
+<img alt="" height="16" src="http://www.kirupa.com/forum/images/smilies/silly.gif" width="16"></p>
+<h3>Share</h3>
+<p>Did you enjoy reading this and found it useful? If so, please share it with 
+your friends:</p>
+<!-- AddThis Button BEGIN -->
+<div class="callout" style="padding-top:25px; padding-bottom:25px">
+<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+<a class="addthis_button_preferred_1"></a>
+<a class="addthis_button_preferred_2"></a>
+<a class="addthis_button_preferred_3"></a>
+<a class="addthis_button_preferred_4"></a>
+<a class="addthis_button_compact"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=kirupa"></script>
+</div>
+<!-- AddThis Button END -->
+<p>If you didn't like it, I always like to hear how I can do better next time. 
+Please feel free to contact me directly at <strong>kirupa[at]kirupa.com</strong>.</p>
+<p>Cheers!</p>
+			<h2>
+			<a id="kirupaName" href="http://www.kirupa.com/about/whatiskirupa.htm">
+			Kirupa Chinnathambi</a></h2></p>
+	</div>
+	<div id="rightContents">
+	<div id="bookBannerContent">
+	<p class="centerImageNoBorder">
+		<a href="http://www.kirupa.com/book/animation_in_html_css_and_javascript.htm">
+		<img id="bookAd" alt="Check out Kirupa's new book about animation using html, css, and javascript!" src="http://www.kirupa.com/supporter/animation_book_right_banner.png" width="231" height="251"></a></p>
+		<ul>
+			<li>
+			<a href="http://www.amazon.com/dp/1482758954?_encoding=UTF8&camp=15041&creative=373501&linkCode=as3&tag=kirupacom" style="background-image: url('http://www.kirupa.com/mini_icons/entypo/shopping_20x20.png');">
+			Buy on Amazon.com</a></li>
+		</ul>
+	</div>
+	<div class="headingText">
+		<p class="subHeadingText"><a href="#">SUPPORTERS:</a></p>
+	</div>
+	<div id="rightAds" style="margin-top: 15px;">
+		<a href="http://www.edgecast.com/landing/edgecast-cdn/" target="_blank">
+		<img alt="cloud storage" class="bigSquareBanner jitter" height="200" src="http://www.kirupa.com/supporter/ec-kirupa-230x200.gif" width="230"></a><br>
+	</div>
+	<div id="rightAds" style="margin-top: 15px">
+		<a href="http://publ.com/cases/web-developer?utm_source=kirupa.com&amp;utm_medium=Banner&amp;utm_campaign=2013-Summer" onclick="javascript:pageTracker._trackPageview('/outgoing/publ.com');" target="_blank">
+		<img alt="digital publishing with publ.com" class="bigSquareBanner jitter" height="200" src="http://www.kirupa.com/supporter/publ.png" width="230"></a><br>
+	</div>
+	<br>
+	<div class="headingText" style="margin-top: -5px;">
+		<p class="subHeadingText"><a href="http://www.kirupa.com/forum/">RECENT 
+		DISCUSSIONS:</a></p>
+	</div>
+	<div id="newPostsContainer">
+		<ul id="newPostsList">
+			<li>
+			<a class="newPostTitle blueEmphasis" href="http://www.kirupa.com/forum/">
+			Interesting Title</a><br><span class="authorPostInfo">by author</span></li>
+			<li>
+			<a class="newPostTitle blueEmphasis" href="http://www.kirupa.com/forum/">
+			Interesting Title</a><br><span class="authorPostInfo">by author</span></li>
+			<li>
+			<a class="newPostTitle blueEmphasis" href="http://www.kirupa.com/forum/">
+			Interesting Title</a><br><span class="authorPostInfo">by author</span></li>
+			<li>
+			<a class="newPostTitle blueEmphasis" href="http://www.kirupa.com/forum/">
+			Interesting Title</a><br><span class="authorPostInfo">by author</span></li>
+		</ul>
+	</div>
+	<div class="headingText" style="margin-top: -5px;">
+		<p class="subHeadingText"><a href="http://www.mediatemple.net">HOSTED BY:</a></p>
+	</div>
+	<div id="rightAds" style="margin-top: 15px">
+		<a href="http://www.mediatemple.net" target="_blank">
+		<img alt="great web hosting by mediatemple" class="bigSquareBanner jitter" height="60" src="http://www.kirupa.com/supporter/mediatemple.png" width="230"></a><br>
+	</div>
+</div>
+<script src="http://www.kirupa.com/forum/external.php?type=js&amp;lastpost=1"></script>
+<script>
+	function postsInit() {
+		document.addEventListener("DOMContentLoaded", showPosts, false);
+	}
+	
+	function showPosts() {
+	
+		var postTitles = document.getElementsByClassName("newPostTitle");
+		var authorNames = document.getElementsByClassName("authorPostInfo");
+			
+		for (var i = 0; i < 4; i++)
+		{
+			postTitles[i].innerHTML = threads[i].title;
+			postTitles[i].href = "http://www.kirupa.com/forum/showthread.php?"+threads[i].threadid;
+			authorNames[i].textContent = "by " + threads[i].poster;
+		}
+	}
+	postsInit();
+</script>
+</div>
+<!--
+<div id="bottomBanner">
+
+	<div id="bottomAd">
+		<script type="text/javascript">
+		google_ad_client = "ca-pub-0633423995889665";
+		/* kirupa.com Footer! */
+		google_ad_slot = "2117990489";
+		google_ad_width = 728;
+		google_ad_height = 90;
+
+		</script>
+		<script type="text/javascript"
+		src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+		</script>
+	</div>
+</div>
+	-->
+
+
+<div id="footer">
+	<div id="welcome">
+		<p class="footerHeading">welcome</p>
+		<p class="footerText">Thanks for dropping by. Hopefully you found what 
+		you were looking for.<br>&nbsp;<br>If you didn&#39;t, please let 
+		<a class="blueEmphasis" href="http://www.kirupa.com/contact.htm">Kirupa know</a>!</p>
+	</div>
+	<div id="connect">
+		<p class="footerHeading">connect</p>
+		<div class="connectItemWrapper">
+		<div class="connectItem">
+			<ul class="footerList">
+				<li id="forumsLinkFooter"><a href="http://www.kirupa.com/forum/">forums</a></li>
+			</ul>
+		</div>
+		<div class="connectItem">
+		    <ul class="footerList">
+				<li id="facebookLinkFooter">
+				
+					<a href="http://www.facebook.com/kirupa">facebook</a></li>
+			</ul>
+		</div>
+		    <div class="connectItem">
+				<ul class="footerList">
+					<li id="twitterLinkFooter"><a href="http://twitter.com/kirupa">twitter</a></li>
+				</ul>
+		</div>
+		    <div class="connectItem">
+				<ul class="footerList">
+					<li id="youtubeLinkFooter"><a href="http://www.youtube.com/kirupa">
+					youtube</a></li>
+				</ul>
+		</div>
+		    <div class="connectItem">
+				<ul class="footerList">
+					<li id="pinterestLinkFooter"><a href="http://pinterest.com/kirupa/">
+					pinterest</a></li>
+				</ul>
+		</div>
+		    <div class="connectItem">
+				<ul class="footerList">
+					<li id="rssLinkFooter"><a href="http://feeds.feedburner.com/kirupa/vXRx">
+					rss</a></li>
+				</ul>
+		</div>
+		</div>
+	</div>
+	<div id="writeTutorial">
+		<p class="footerHeading">write a tutorial</p>
+		
+		<div id="writeTutorialBox">
+				<p><a href="http://www.kirupa.com/developer/tutorials.htm">This site is always hungry for more quality content. Learn more 
+			on how you can help.</a></p>
+
+		
+		</div>
+	</div>
+</div>
+<div id="bottomFooterLinks">
+	<ul>
+		<li class="rightBorder"><a href="http://www.kirupa.com/">Home</a></li>
+		<li class="rightBorder"><a href="http://www.kirupa.com/me/index.htm">About kirupa.com</a></li>
+		<li class="rightBorder"><a href="http://www.kirupa.com/me/mods.htm">Meet the Moderators</a></li>
+		<li class="rightBorder"><a href="http://www.kirupa.com/me/ad.htm">Advertise</a></li>
+		<li class="rightBorder"><a href="http://www.kirupa.com/me/link.htm">Link to Us</a></li>
+		<li class="rightBorder"><a href="http://www.kirupa.com/me/credits.htm">Credits</a></li>
+		<li><a href="http://blog.kirupa.com/?p=179" class="copyrightClass">Copyright © 1999 - 2012</a></li>
+	</ul>
+</div>
+
+<script src="http://www.kirupa.com/ssi/newDesign/kirupa.js"></script> 
+<script type="text/javascript" src="http://www.kirupa.com/ssi/sh/scripts/shCore.js"></script>
+<script type="text/javascript" src="http://www.kirupa.com/ssi/sh/scripts/shBrushJScript.js"></script>
+<script type="text/javascript" src="http://www.kirupa.com/ssi/sh/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="http://www.kirupa.com/ssi/sh/scripts/shBrushCss.js"></script>
+<script type="text/javascript" src="http://www.kirupa.com/html5/examples/js/prefixfree.min.js"></script>
+
+
+<link href="http://www.kirupa.com/ssi/sh/styles/shCore.css" rel="stylesheet" type="text/css" />
+<link href="http://www.kirupa.com/ssi/sh/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+	 SyntaxHighlighter.defaults['gutter'] = false;
+	 SyntaxHighlighter.defaults['toolbar'] = false;
+	 SyntaxHighlighter.defaults['class-name'] = 'kirupa_code';
+     SyntaxHighlighter.all();
+</script>
+
+</body>
+
+</html>

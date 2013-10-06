@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bookmarkify.it - Create bookmarklets from your javascript!</title>
+  <meta name='description' content="Bookmarkify.it allows you to create bookmarklets from your own javascript code. Launch your code from your bookmarks toolbar!" />
+  <meta name="keywords" content="bookmarklets, bookmarklet, javascript, browser, widget, imdb seen it, gadget, Achilleas, Buisman" />
+  <meta name="author" content="Achilleas Buisman" />
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <link href="/assets/application-4202b8270da7510e18d243be4459d5d8.css" media="all" rel="stylesheet" type="text/css" />
+  <script src="/assets/application-a7ac5fc98f01f2a32ac5a83560f61c34.js" type="text/javascript"></script>
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="X78QY7JOKwabRDHs+9pJdG9rE7P4Drt3R2KFiHu0kXc=" name="csrf-token" />
+</head>
+
+<body>
+  
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-27508655-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+
+</script>
+
+
+  <div id='container'>
+
+        <div id='header'>
+            <img alt="Logo" src="/assets/logo-ae12e1a4dc993fada6ee19befc44e485.png" />
+        </div>
+
+        <div id='content'>
+
+        <div id='bookmarklet_new' class='bookmarklets page'>
+
+  
+
+  <form accept-charset="UTF-8" action="/bookmarklets" class="new_bookmarklet" id="bookmarklet_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="X78QY7JOKwabRDHs+9pJdG9rE7P4Drt3R2KFiHu0kXc=" /></div>
+<label for="bookmarklet_name">Name it</label>
+<input id="bookmarklet_name" name="bookmarklet[name]" placeholder="Name your bookmarklet..." size="30" type="text" />
+<br />
+
+
+<label for="bookmarklet_code">Javascript it</label>
+<div id='editor'></div>
+<textarea cols="40" id="bookmarklet_code" name="bookmarklet[code]" placeholder="Insert your javascript here..." rows="20">
+</textarea>
+
+<label>Include it</label>
+<div id='multi-files'>
+  <div id='file-fields'>
+    
+      <div class="file_row">
+  <input value="http://code.jquery.com/jquery.min.js" type="text" class="bookmarklet_file" name="bookmarklet[files][][url]" />
+  <div class="file_actions">
+    <img alt="move up" class="up" src="/assets/arrow_up2-b620ee33bd614f6a59a86f71f12d4531.png" />
+    <img alt="move down" class="down" src="/assets/arrow_down2-23fb9c94bd76f15ae698bd467c52fc69.png" />
+    <img alt="delete" class="delete" src="/assets/delete-e0a3bb161208cddb3d53fb59cfbca51f.png" />
+  </div>
+</div>
+
+
+  </div>
+  <div id='add-file'><p class='button'>add file</p></div>	
+
+</div>
+
+<!-- 
+<p class='smallnotice'>Please note that for now jQuery will be automatically included.</p>
+-->
+<input alt="Markify!" id="bookmarklet_submit" src="/assets/markify-6c24fa8a2110e73dbbefa2eb303ab204.png" type="image" />
+</form>
+
+</div>
+
+    </div>
+    <div id='footer'>
+      <p>Bookmarkify.it is created by <a href='http://abuisman.nl'>Achilleas Buisman</a></p>
+    </div>
+
+      </div>
+
+</body>
+</html>

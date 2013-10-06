@@ -1,0 +1,897 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>reply/src/clj/reply/main.clj at 338f00e28e0a6a2f0693f01c853d3db25ebe9e71 · trptcolin/reply · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+    <link rel="logo" type="image/svg" href="https://github-media-downloads.s3.amazonaws.com/github-logo.svg" />
+    <meta property="og:image" content="https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png">
+    <meta name="hostname" content="github-fe115-cp1-prd.iad.github.net">
+    <meta name="ruby" content="ruby 1.9.3p194-tcs-github-tcmalloc (2012-05-25, TCS patched 2012-05-27, GitHub v1.0.36) [x86_64-linux]">
+    <link rel="assets" href="https://github.global.ssl.fastly.net/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035/">
+    <link rel="xhr-socket" href="/_sockets" />
+    
+
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="selected-link" value="repo_source" data-pjax-transient />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="805204B6:78F5:6C12B6A:52509886" name="octolytics-dimension-request_id" />
+    
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="D82RyZXo6WNGceS3ZJRQwr2zK6ZL/3qO4LRIT+TP/1U=" name="csrf-token" />
+
+    <link href="https://github.global.ssl.fastly.net/assets/github-05a75a572a86cfef8425f698ed0e5b891f24118e.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://github.global.ssl.fastly.net/assets/github2-5270ba98127dece0c192c0a6c0aa3d40b92efaf0.css" media="all" rel="stylesheet" type="text/css" />
+    
+
+    
+
+      <script src="https://github.global.ssl.fastly.net/assets/frameworks-c4f8e49c5f967e72dd0ab79195971321e5adb6cc.js" type="text/javascript"></script>
+      <script src="https://github.global.ssl.fastly.net/assets/github-21bf8455822c013e37748552e4a1bbd19bcb4c3b.js" type="text/javascript"></script>
+      
+      <meta http-equiv="x-pjax-version" content="8689b59389e7e38906fa435431068773">
+
+        <link data-pjax-transient rel='permalink' href='/trptcolin/reply/blob/338f00e28e0a6a2f0693f01c853d3db25ebe9e71/src/clj/reply/main.clj'>
+  <meta property="og:title" content="reply"/>
+  <meta property="og:type" content="githubog:gitrepository"/>
+  <meta property="og:url" content="https://github.com/trptcolin/reply"/>
+  <meta property="og:image" content="https://github.global.ssl.fastly.net/images/gravatars/gravatar-user-420.png"/>
+  <meta property="og:site_name" content="GitHub"/>
+  <meta property="og:description" content="reply - REPL-y: A fitter, happier, more productive REPL for Clojure."/>
+
+  <meta name="description" content="reply - REPL-y: A fitter, happier, more productive REPL for Clojure." />
+
+  <meta content="15069" name="octolytics-dimension-user_id" /><meta content="trptcolin" name="octolytics-dimension-user_login" /><meta content="2764630" name="octolytics-dimension-repository_id" /><meta content="trptcolin/reply" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="2764630" name="octolytics-dimension-repository_network_root_id" /><meta content="trptcolin/reply" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/trptcolin/reply/commits/338f00e28e0a6a2f0693f01c853d3db25ebe9e71.atom" rel="alternate" title="Recent Commits to reply:338f00e28e0a6a2f0693f01c853d3db25ebe9e71" type="application/atom+xml" />
+
+  </head>
+
+
+  <body class="logged_out  env-production  vis-public  page-blob">
+    <div class="wrapper">
+      
+      
+      
+
+
+      
+      <div class="header header-logged-out">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions">
+        <a class="button primary" href="/signup">Sign up</a>
+      <a class="button signin" href="/login?return_to=%2Ftrptcolin%2Freply%2Fblob%2F338f00e28e0a6a2f0693f01c853d3db25ebe9e71%2Fsrc%2Fclj%2Freply%2Fmain.clj">Sign in</a>
+    </div>
+
+    <div class="command-bar js-command-bar  in-repository">
+
+      <ul class="top-nav">
+          <li class="explore"><a href="/explore">Explore</a></li>
+        <li class="features"><a href="/features">Features</a></li>
+          <li class="enterprise"><a href="https://enterprise.github.com/">Enterprise</a></li>
+          <li class="blog"><a href="/blog">Blog</a></li>
+      </ul>
+        <form accept-charset="UTF-8" action="/search" class="command-bar-form" id="top_search_form" method="get">
+
+<input type="text" data-hotkey="/ s" name="q" id="js-command-bar-field" placeholder="Search or type a command" tabindex="1" autocapitalize="off"
+    
+    
+      data-repo="trptcolin/reply"
+      data-branch="338f00e28e0a6a2f0693f01c853d3db25ebe9e71"
+      data-sha="e58a1c10119fd0f85c76e43b04ee24f3ecc0bb41"
+  >
+
+    <input type="hidden" name="nwo" value="trptcolin/reply" />
+
+    <div class="select-menu js-menu-container js-select-menu search-context-select-menu">
+      <span class="minibutton select-menu-button js-menu-target">
+        <span class="js-select-button">This repository</span>
+      </span>
+
+      <div class="select-menu-modal-holder js-menu-content js-navigation-container">
+        <div class="select-menu-modal">
+
+          <div class="select-menu-item js-navigation-item js-this-repository-navigation-item selected">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" class="js-search-this-repository" name="search_target" value="repository" checked="checked" />
+            <div class="select-menu-item-text js-select-button-text">This repository</div>
+          </div> <!-- /.select-menu-item -->
+
+          <div class="select-menu-item js-navigation-item js-all-repositories-navigation-item">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" name="search_target" value="global" />
+            <div class="select-menu-item-text js-select-button-text">All repositories</div>
+          </div> <!-- /.select-menu-item -->
+
+        </div>
+      </div>
+    </div>
+
+  <span class="octicon help tooltipped downwards" title="Show command bar help">
+    <span class="octicon octicon-question"></span>
+  </span>
+
+
+  <input type="hidden" name="ref" value="cmdform">
+
+</form>
+    </div>
+
+  </div>
+</div>
+
+
+      
+
+
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+
+<ul class="pagehead-actions">
+
+
+  <li>
+  <a href="/login?return_to=%2Ftrptcolin%2Freply"
+  class="minibutton with-count js-toggler-target star-button entice tooltipped upwards"
+  title="You must be signed in to use this feature" rel="nofollow">
+  <span class="octicon octicon-star"></span>Star
+</a>
+<a class="social-count js-social-count" href="/trptcolin/reply/stargazers">
+  145
+</a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2Ftrptcolin%2Freply"
+        class="minibutton with-count js-toggler-target fork-button entice tooltipped upwards"
+        title="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-git-branch"></span>Fork
+      </a>
+      <a href="/trptcolin/reply/network" class="social-count">
+        20
+      </a>
+    </li>
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="repo-label"><span>public</span></span>
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author">
+            <a href="/trptcolin" class="url fn" itemprop="url" rel="author"><span itemprop="title">trptcolin</span></a></span
+          ><span class="repohead-name-divider">/</span><strong
+          ><a href="/trptcolin/reply" class="js-current-repository js-repo-home-link">reply</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="Octocat-spinner-32" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+
+      <div class="repository-with-sidebar repo-container ">
+
+        <div class="repository-sidebar">
+            
+
+<div class="repo-nav repo-nav-full js-repository-container-pjax js-octicon-loaders">
+  <div class="repo-nav-contents">
+    <ul class="repo-menu">
+      <li class="tooltipped leftwards" title="Code">
+        <a href="/trptcolin/reply" aria-label="Code" class="js-selected-navigation-item selected" data-gotokey="c" data-pjax="true" data-selected-links="repo_source repo_downloads repo_commits repo_tags repo_branches /trptcolin/reply">
+          <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+        <li class="tooltipped leftwards" title="Issues">
+          <a href="/trptcolin/reply/issues" aria-label="Issues" class="js-selected-navigation-item js-disable-pjax" data-gotokey="i" data-selected-links="repo_issues /trptcolin/reply/issues">
+            <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+            <span class='counter'>11</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+
+      <li class="tooltipped leftwards" title="Pull Requests"><a href="/trptcolin/reply/pulls" aria-label="Pull Requests" class="js-selected-navigation-item js-disable-pjax" data-gotokey="p" data-selected-links="repo_pulls /trptcolin/reply/pulls">
+            <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+            <span class='counter'>1</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+
+        <li class="tooltipped leftwards" title="Wiki">
+          <a href="/trptcolin/reply/wiki" aria-label="Wiki" class="js-selected-navigation-item " data-pjax="true" data-selected-links="repo_wiki /trptcolin/reply/wiki">
+            <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+    </ul>
+    <div class="repo-menu-separator"></div>
+    <ul class="repo-menu">
+
+      <li class="tooltipped leftwards" title="Pulse">
+        <a href="/trptcolin/reply/pulse" aria-label="Pulse" class="js-selected-navigation-item " data-pjax="true" data-selected-links="pulse /trptcolin/reply/pulse">
+          <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped leftwards" title="Graphs">
+        <a href="/trptcolin/reply/graphs" aria-label="Graphs" class="js-selected-navigation-item " data-pjax="true" data-selected-links="repo_graphs repo_contributors /trptcolin/reply/graphs">
+          <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped leftwards" title="Network">
+        <a href="/trptcolin/reply/network" aria-label="Network" class="js-selected-navigation-item js-disable-pjax" data-selected-links="repo_network /trptcolin/reply/network">
+          <span class="octicon octicon-git-branch"></span> <span class="full-word">Network</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+    </ul>
+
+
+  </div>
+</div>
+
+            <div class="only-with-full-nav">
+              
+
+  
+
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><strong>HTTPS</strong> clone URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/trptcolin/reply.git" readonly="readonly">
+
+    <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/trptcolin/reply.git" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+  
+
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><strong>Subversion</strong> checkout URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/trptcolin/reply" readonly="readonly">
+
+    <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/trptcolin/reply" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+
+<p class="clone-options">You can clone with
+      <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>,
+      or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <span class="octicon help tooltipped upwards" title="Get help on which URL is right for you.">
+    <a href="https://help.github.com/articles/which-remote-url-should-i-use">
+    <span class="octicon octicon-question"></span>
+    </a>
+  </span>
+</p>
+
+
+
+              <a href="/trptcolin/reply/archive/338f00e28e0a6a2f0693f01c853d3db25ebe9e71.zip"
+                 class="minibutton sidebar-button"
+                 title="Download this repository as a zip file"
+                 rel="nofollow">
+                <span class="octicon octicon-cloud-download"></span>
+                Download ZIP
+              </a>
+            </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+
+
+<!-- blob contrib key: blob_contributors:v21:a361dd53d25adc525421ded312b2363e -->
+
+<p title="This is a placeholder element" class="js-history-link-replace hidden"></p>
+
+<a href="/trptcolin/reply/find/338f00e28e0a6a2f0693f01c853d3db25ebe9e71" data-pjax data-hotkey="t" class="js-show-file-finder" style="display:none">Show File Finder</a>
+
+<div class="file-navigation">
+  
+
+
+<div class="select-menu js-menu-container js-select-menu" >
+  <span class="minibutton select-menu-button js-menu-target" data-hotkey="w"
+    data-master-branch="master"
+    data-ref=""
+    role="button" aria-label="Switch branches or tags" tabindex="0">
+    <span class="octicon octicon-git-branch"></span>
+    <i>tree:</i>
+    <span class="js-select-button">338f00e28e</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-remove-close js-menu-close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/blob/master/src/clj/reply/main.clj"
+                 data-name="master"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/blob/stable/src/clj/reply/main.clj"
+                 data-name="stable"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="stable">stable</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.2.1/src/clj/reply/main.clj"
+                 data-name="0.2.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.2.1">0.2.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.2.0/src/clj/reply/main.clj"
+                 data-name="0.2.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.2.0">0.2.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.1.10/src/clj/reply/main.clj"
+                 data-name="0.1.10"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.10">0.1.10</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.1.9/src/clj/reply/main.clj"
+                 data-name="0.1.9"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.9">0.1.9</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.1.8/src/clj/reply/main.clj"
+                 data-name="0.1.8"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.8">0.1.8</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.1.7/src/clj/reply/main.clj"
+                 data-name="0.1.7"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.7">0.1.7</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.1.6/src/clj/reply/main.clj"
+                 data-name="0.1.6"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.6">0.1.6</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.1.5/src/clj/reply/main.clj"
+                 data-name="0.1.5"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.5">0.1.5</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.1.4/src/clj/reply/main.clj"
+                 data-name="0.1.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.4">0.1.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.1.3/src/clj/reply/main.clj"
+                 data-name="0.1.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.3">0.1.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.1.2/src/clj/reply/main.clj"
+                 data-name="0.1.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.2">0.1.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.1.1/src/clj/reply/main.clj"
+                 data-name="0.1.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.1">0.1.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.1.0-beta11/src/clj/reply/main.clj"
+                 data-name="0.1.0-beta11"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.0-beta11">0.1.0-beta11</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.1.0-beta10/src/clj/reply/main.clj"
+                 data-name="0.1.0-beta10"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.0-beta10">0.1.0-beta10</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.1.0-beta9/src/clj/reply/main.clj"
+                 data-name="0.1.0-beta9"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.0-beta9">0.1.0-beta9</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.1.0-beta8/src/clj/reply/main.clj"
+                 data-name="0.1.0-beta8"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.0-beta8">0.1.0-beta8</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.1.0-beta7/src/clj/reply/main.clj"
+                 data-name="0.1.0-beta7"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.0-beta7">0.1.0-beta7</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.1.0-beta6/src/clj/reply/main.clj"
+                 data-name="0.1.0-beta6"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.0-beta6">0.1.0-beta6</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.1.0-beta5/src/clj/reply/main.clj"
+                 data-name="0.1.0-beta5"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.0-beta5">0.1.0-beta5</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.1.0-beta4/src/clj/reply/main.clj"
+                 data-name="0.1.0-beta4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.0-beta4">0.1.0-beta4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.1.0-beta3/src/clj/reply/main.clj"
+                 data-name="0.1.0-beta3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.0-beta3">0.1.0-beta3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.1.0-beta2/src/clj/reply/main.clj"
+                 data-name="0.1.0-beta2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.0-beta2">0.1.0-beta2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.1.0-beta1/src/clj/reply/main.clj"
+                 data-name="0.1.0-beta1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.0-beta1">0.1.0-beta1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.1.0-alpha7/src/clj/reply/main.clj"
+                 data-name="0.1.0-alpha7"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.0-alpha7">0.1.0-alpha7</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/trptcolin/reply/tree/0.1.0/src/clj/reply/main.clj"
+                 data-name="0.1.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.0">0.1.0</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+  <div class="breadcrumb">
+    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/trptcolin/reply/tree/338f00e28e0a6a2f0693f01c853d3db25ebe9e71" data-branch="338f00e28e0a6a2f0693f01c853d3db25ebe9e71" data-direction="back" data-pjax="true" itemscope="url" rel="nofollow"><span itemprop="title">reply</span></a></span></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/trptcolin/reply/tree/338f00e28e0a6a2f0693f01c853d3db25ebe9e71/src" data-branch="338f00e28e0a6a2f0693f01c853d3db25ebe9e71" data-direction="back" data-pjax="true" itemscope="url" rel="nofollow"><span itemprop="title">src</span></a></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/trptcolin/reply/tree/338f00e28e0a6a2f0693f01c853d3db25ebe9e71/src/clj" data-branch="338f00e28e0a6a2f0693f01c853d3db25ebe9e71" data-direction="back" data-pjax="true" itemscope="url" rel="nofollow"><span itemprop="title">clj</span></a></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/trptcolin/reply/tree/338f00e28e0a6a2f0693f01c853d3db25ebe9e71/src/clj/reply" data-branch="338f00e28e0a6a2f0693f01c853d3db25ebe9e71" data-direction="back" data-pjax="true" itemscope="url" rel="nofollow"><span itemprop="title">reply</span></a></span><span class="separator"> / </span><strong class="final-path">main.clj</strong> <span class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="src/clj/reply/main.clj" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+
+
+  <div class="commit file-history-tease">
+      <img class="main-avatar" height="24" src="https://2.gravatar.com/avatar/e16bc9c356b65d61ee1d74c8f06ae35b?d=https%3A%2F%2Fidenticons.github.com%2F45e1ef0afb76fef33345fcac011c18bb.png&amp;s=140" width="24" />
+      <span class="author"><a href="/trptcolin" rel="author">trptcolin</a></span>
+      <time class="js-relative-date" datetime="2013-06-02T11:37:28-07:00" title="2013-06-02 11:37:28">June 02, 2013</time>
+      <div class="commit-title">
+          <a href="/trptcolin/reply/commit/338f00e28e0a6a2f0693f01c853d3db25ebe9e71" class="message" data-pjax="true" title="Allow custom printing fn via main options">Allow custom printing fn via main options</a>
+      </div>
+
+      <div class="participation">
+        <p class="quickstat"><a href="#blob_contributors_box" rel="facebox"><strong>5</strong> contributors</a></p>
+            <a class="avatar tooltipped downwards" title="trptcolin" href="/trptcolin/reply/commits/master/src/clj/reply/main.clj?author=trptcolin"><img height="20" src="https://2.gravatar.com/avatar/e16bc9c356b65d61ee1d74c8f06ae35b?d=https%3A%2F%2Fidenticons.github.com%2F45e1ef0afb76fef33345fcac011c18bb.png&amp;s=140" width="20" /></a>
+    <a class="avatar tooltipped downwards" title="technomancy" href="/trptcolin/reply/commits/master/src/clj/reply/main.clj?author=technomancy"><img height="20" src="https://0.gravatar.com/avatar/22788ec68b2aee512f8f4c5d8ae819ae?d=https%3A%2F%2Fidenticons.github.com%2F0f28b5d49b3020afeecd95b4009adf4c.png&amp;s=140" width="20" /></a>
+    <a class="avatar tooltipped downwards" title="tobias" href="/trptcolin/reply/commits/master/src/clj/reply/main.clj?author=tobias"><img height="20" src="https://1.gravatar.com/avatar/9262893211442b0081f2bcd75bfd47f3?d=https%3A%2F%2Fidenticons.github.com%2Fe113bb92c69391dd39e2488f9f588382.png&amp;s=140" width="20" /></a>
+    <a class="avatar tooltipped downwards" title="samaaron" href="/trptcolin/reply/commits/master/src/clj/reply/main.clj?author=samaaron"><img height="20" src="https://0.gravatar.com/avatar/858b3e3b5d26d7a8652da042f86c5c80?d=https%3A%2F%2Fidenticons.github.com%2F0c74b7f78409a4022a2c4c5a5ca3ee19.png&amp;s=140" width="20" /></a>
+    <a class="avatar tooltipped downwards" title="dlebrero" href="/trptcolin/reply/commits/master/src/clj/reply/main.clj?author=dlebrero"><img height="20" src="https://1.gravatar.com/avatar/b38642dd110d65eb776fcda3df9b402b?d=https%3A%2F%2Fidenticons.github.com%2F4ea540fc34a8e60ce0404e40fe37289a.png&amp;s=140" width="20" /></a>
+
+
+      </div>
+      <div id="blob_contributors_box" style="display:none">
+        <h2 class="facebox-header">Users who have contributed to this file</h2>
+        <ul class="facebox-user-list">
+          <li class="facebox-user-list-item">
+            <img height="24" src="https://2.gravatar.com/avatar/e16bc9c356b65d61ee1d74c8f06ae35b?d=https%3A%2F%2Fidenticons.github.com%2F45e1ef0afb76fef33345fcac011c18bb.png&amp;s=140" width="24" />
+            <a href="/trptcolin">trptcolin</a>
+          </li>
+          <li class="facebox-user-list-item">
+            <img height="24" src="https://0.gravatar.com/avatar/22788ec68b2aee512f8f4c5d8ae819ae?d=https%3A%2F%2Fidenticons.github.com%2F0f28b5d49b3020afeecd95b4009adf4c.png&amp;s=140" width="24" />
+            <a href="/technomancy">technomancy</a>
+          </li>
+          <li class="facebox-user-list-item">
+            <img height="24" src="https://1.gravatar.com/avatar/9262893211442b0081f2bcd75bfd47f3?d=https%3A%2F%2Fidenticons.github.com%2Fe113bb92c69391dd39e2488f9f588382.png&amp;s=140" width="24" />
+            <a href="/tobias">tobias</a>
+          </li>
+          <li class="facebox-user-list-item">
+            <img height="24" src="https://0.gravatar.com/avatar/858b3e3b5d26d7a8652da042f86c5c80?d=https%3A%2F%2Fidenticons.github.com%2F0c74b7f78409a4022a2c4c5a5ca3ee19.png&amp;s=140" width="24" />
+            <a href="/samaaron">samaaron</a>
+          </li>
+          <li class="facebox-user-list-item">
+            <img height="24" src="https://1.gravatar.com/avatar/b38642dd110d65eb776fcda3df9b402b?d=https%3A%2F%2Fidenticons.github.com%2F4ea540fc34a8e60ce0404e40fe37289a.png&amp;s=140" width="24" />
+            <a href="/dlebrero">dlebrero</a>
+          </li>
+        </ul>
+      </div>
+  </div>
+
+<div id="files" class="bubble">
+  <div class="file">
+    <div class="meta">
+      <div class="info">
+        <span class="icon"><b class="octicon octicon-file-text"></b></span>
+        <span class="mode" title="File Mode">file</span>
+          <span>103 lines (94 sloc)</span>
+        <span>4.107 kb</span>
+      </div>
+      <div class="actions">
+        <div class="button-group">
+              <a class="minibutton disabled js-entice" href=""
+                 data-entice="You must be signed in to make or propose changes">Edit</a>
+          <a href="/trptcolin/reply/raw/338f00e28e0a6a2f0693f01c853d3db25ebe9e71/src/clj/reply/main.clj" class="button minibutton " id="raw-url">Raw</a>
+            <a href="/trptcolin/reply/blame/338f00e28e0a6a2f0693f01c853d3db25ebe9e71/src/clj/reply/main.clj" class="button minibutton ">Blame</a>
+          <a href="/trptcolin/reply/commits/338f00e28e0a6a2f0693f01c853d3db25ebe9e71/src/clj/reply/main.clj" class="button minibutton " rel="nofollow">History</a>
+        </div><!-- /.button-group -->
+            <a class="minibutton danger empty-icon js-entice" href=""
+               data-entice="You must be signed in and on a branch to make or propose changes">
+            Delete
+          </a>
+      </div><!-- /.actions -->
+
+    </div>
+        <div class="blob-wrapper data type-clojure js-blob-data">
+        <table class="file-code file-diff">
+          <tr class="file-code-line">
+            <td class="blob-line-nums">
+              <span id="L1" rel="#L1">1</span>
+<span id="L2" rel="#L2">2</span>
+<span id="L3" rel="#L3">3</span>
+<span id="L4" rel="#L4">4</span>
+<span id="L5" rel="#L5">5</span>
+<span id="L6" rel="#L6">6</span>
+<span id="L7" rel="#L7">7</span>
+<span id="L8" rel="#L8">8</span>
+<span id="L9" rel="#L9">9</span>
+<span id="L10" rel="#L10">10</span>
+<span id="L11" rel="#L11">11</span>
+<span id="L12" rel="#L12">12</span>
+<span id="L13" rel="#L13">13</span>
+<span id="L14" rel="#L14">14</span>
+<span id="L15" rel="#L15">15</span>
+<span id="L16" rel="#L16">16</span>
+<span id="L17" rel="#L17">17</span>
+<span id="L18" rel="#L18">18</span>
+<span id="L19" rel="#L19">19</span>
+<span id="L20" rel="#L20">20</span>
+<span id="L21" rel="#L21">21</span>
+<span id="L22" rel="#L22">22</span>
+<span id="L23" rel="#L23">23</span>
+<span id="L24" rel="#L24">24</span>
+<span id="L25" rel="#L25">25</span>
+<span id="L26" rel="#L26">26</span>
+<span id="L27" rel="#L27">27</span>
+<span id="L28" rel="#L28">28</span>
+<span id="L29" rel="#L29">29</span>
+<span id="L30" rel="#L30">30</span>
+<span id="L31" rel="#L31">31</span>
+<span id="L32" rel="#L32">32</span>
+<span id="L33" rel="#L33">33</span>
+<span id="L34" rel="#L34">34</span>
+<span id="L35" rel="#L35">35</span>
+<span id="L36" rel="#L36">36</span>
+<span id="L37" rel="#L37">37</span>
+<span id="L38" rel="#L38">38</span>
+<span id="L39" rel="#L39">39</span>
+<span id="L40" rel="#L40">40</span>
+<span id="L41" rel="#L41">41</span>
+<span id="L42" rel="#L42">42</span>
+<span id="L43" rel="#L43">43</span>
+<span id="L44" rel="#L44">44</span>
+<span id="L45" rel="#L45">45</span>
+<span id="L46" rel="#L46">46</span>
+<span id="L47" rel="#L47">47</span>
+<span id="L48" rel="#L48">48</span>
+<span id="L49" rel="#L49">49</span>
+<span id="L50" rel="#L50">50</span>
+<span id="L51" rel="#L51">51</span>
+<span id="L52" rel="#L52">52</span>
+<span id="L53" rel="#L53">53</span>
+<span id="L54" rel="#L54">54</span>
+<span id="L55" rel="#L55">55</span>
+<span id="L56" rel="#L56">56</span>
+<span id="L57" rel="#L57">57</span>
+<span id="L58" rel="#L58">58</span>
+<span id="L59" rel="#L59">59</span>
+<span id="L60" rel="#L60">60</span>
+<span id="L61" rel="#L61">61</span>
+<span id="L62" rel="#L62">62</span>
+<span id="L63" rel="#L63">63</span>
+<span id="L64" rel="#L64">64</span>
+<span id="L65" rel="#L65">65</span>
+<span id="L66" rel="#L66">66</span>
+<span id="L67" rel="#L67">67</span>
+<span id="L68" rel="#L68">68</span>
+<span id="L69" rel="#L69">69</span>
+<span id="L70" rel="#L70">70</span>
+<span id="L71" rel="#L71">71</span>
+<span id="L72" rel="#L72">72</span>
+<span id="L73" rel="#L73">73</span>
+<span id="L74" rel="#L74">74</span>
+<span id="L75" rel="#L75">75</span>
+<span id="L76" rel="#L76">76</span>
+<span id="L77" rel="#L77">77</span>
+<span id="L78" rel="#L78">78</span>
+<span id="L79" rel="#L79">79</span>
+<span id="L80" rel="#L80">80</span>
+<span id="L81" rel="#L81">81</span>
+<span id="L82" rel="#L82">82</span>
+<span id="L83" rel="#L83">83</span>
+<span id="L84" rel="#L84">84</span>
+<span id="L85" rel="#L85">85</span>
+<span id="L86" rel="#L86">86</span>
+<span id="L87" rel="#L87">87</span>
+<span id="L88" rel="#L88">88</span>
+<span id="L89" rel="#L89">89</span>
+<span id="L90" rel="#L90">90</span>
+<span id="L91" rel="#L91">91</span>
+<span id="L92" rel="#L92">92</span>
+<span id="L93" rel="#L93">93</span>
+<span id="L94" rel="#L94">94</span>
+<span id="L95" rel="#L95">95</span>
+<span id="L96" rel="#L96">96</span>
+<span id="L97" rel="#L97">97</span>
+<span id="L98" rel="#L98">98</span>
+<span id="L99" rel="#L99">99</span>
+<span id="L100" rel="#L100">100</span>
+<span id="L101" rel="#L101">101</span>
+<span id="L102" rel="#L102">102</span>
+
+            </td>
+            <td class="blob-line-code">
+                    <div class="highlight"><pre><div class='line' id='LC1'><span class="p">(</span><span class="kd">ns </span><span class="nv">reply.main</span></div><div class='line' id='LC2'>&nbsp;&nbsp;<span class="p">(</span><span class="ss">:require</span> <span class="p">[</span><span class="nv">reply.eval-modes.nrepl</span> <span class="ss">:as</span> <span class="nv">eval-modes.nrepl</span><span class="p">]</span></div><div class='line' id='LC3'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="nv">reply.eval-modes.standalone</span> <span class="ss">:as</span> <span class="nv">eval-modes.standalone</span><span class="p">]</span></div><div class='line' id='LC4'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="nv">reply.hacks.printing</span> <span class="ss">:as</span> <span class="nv">hacks.printing</span><span class="p">]</span></div><div class='line' id='LC5'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="nv">reply.initialization</span> <span class="ss">:as</span> <span class="nv">initialization</span><span class="p">]</span></div><div class='line' id='LC6'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="nv">reply.signals</span> <span class="ss">:as</span> <span class="nv">signals</span><span class="p">]</span></div><div class='line' id='LC7'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="nv">clojure.main</span><span class="p">]</span></div><div class='line' id='LC8'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="nv">clojure.repl</span><span class="p">]</span></div><div class='line' id='LC9'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="nv">clojure.tools.cli</span> <span class="ss">:as</span> <span class="nv">cli</span><span class="p">]</span></div><div class='line' id='LC10'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="nv">clj-stacktrace.repl</span><span class="p">]))</span></div><div class='line' id='LC11'><br/></div><div class='line' id='LC12'><span class="p">(</span><span class="kd">defn </span><span class="nv">parse-args</span> <span class="p">[</span><span class="nv">args</span><span class="p">]</span></div><div class='line' id='LC13'>&nbsp;&nbsp;<span class="p">(</span><span class="nf">cli/cli</span> <span class="nv">args</span></div><div class='line' id='LC14'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="s">&quot;-h&quot;</span> <span class="s">&quot;--help&quot;</span> <span class="s">&quot;Show this help screen&quot;</span> <span class="ss">:flag</span> <span class="nv">true</span><span class="p">]</span></div><div class='line' id='LC15'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="s">&quot;-e&quot;</span> <span class="s">&quot;--eval&quot;</span> <span class="s">&quot;--custom-eval&quot;</span></div><div class='line' id='LC16'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="s">&quot;Provide a custom form to evaluate in the user ns&quot;</span></div><div class='line' id='LC17'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ss">:parse-fn</span> <span class="nv">read-string</span><span class="p">]</span></div><div class='line' id='LC18'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="s">&quot;--custom-help&quot;</span></div><div class='line' id='LC19'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="s">&quot;Provide a custom help form to print instructions on repl start&quot;</span></div><div class='line' id='LC20'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ss">:parse-fn</span> <span class="nv">read-string</span><span class="p">]</span></div><div class='line' id='LC21'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="s">&quot;--caught&quot;</span></div><div class='line' id='LC22'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="s">&quot;[experimental] Provide an error handler function (0-1 arguments)&quot;</span></div><div class='line' id='LC23'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ss">:parse-fn</span> <span class="nv">read-string</span><span class="p">]</span></div><div class='line' id='LC24'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="s">&quot;-i&quot;</span> <span class="s">&quot;--init&quot;</span> <span class="s">&quot;--custom-init&quot;</span></div><div class='line' id='LC25'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="s">&quot;Provide a Clojure file to evaluate in the user ns&quot;</span></div><div class='line' id='LC26'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ss">:parse-fn</span> <span class="nv">initialization/formify-file</span><span class="p">]</span></div><div class='line' id='LC27'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="s">&quot;--standalone&quot;</span> <span class="s">&quot;Launch standalone mode instead of the default nREPL&quot;</span></div><div class='line' id='LC28'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ss">:flag</span> <span class="nv">true</span><span class="p">]</span></div><div class='line' id='LC29'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="s">&quot;--color&quot;</span> <span class="s">&quot;Use color; currently only available with nREPL&quot;</span></div><div class='line' id='LC30'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ss">:flag</span> <span class="nv">true</span><span class="p">]</span></div><div class='line' id='LC31'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="s">&quot;--skip-default-init&quot;</span> <span class="s">&quot;Skip the default initialization code&quot;</span></div><div class='line' id='LC32'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ss">:flag</span> <span class="nv">true</span><span class="p">]</span></div><div class='line' id='LC33'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="s">&quot;--history-file&quot;</span> <span class="s">&quot;Provide a path for the history file&quot;</span><span class="p">]</span></div><div class='line' id='LC34'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="s">&quot;--prompt&quot;</span> <span class="s">&quot;--custom-prompt&quot;</span> <span class="s">&quot;Provide a custom prompt function&quot;</span></div><div class='line' id='LC35'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ss">:parse-fn</span> <span class="nv">read-string</span><span class="p">]</span></div><div class='line' id='LC36'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="s">&quot;--subsequent-prompt&quot;</span> <span class="s">&quot;Provide a custom subsequent prompt function&quot;</span></div><div class='line' id='LC37'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ss">:parse-fn</span> <span class="nv">read-string</span><span class="p">]</span></div><div class='line' id='LC38'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="s">&quot;--print-value&quot;</span> <span class="s">&quot;Provide a custom value printing function&quot;</span></div><div class='line' id='LC39'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ss">:parse-fn</span> <span class="nv">read-string</span><span class="p">]</span></div><div class='line' id='LC40'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="s">&quot;--attach&quot;</span></div><div class='line' id='LC41'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="s">&quot;Attach to an existing nREPL session on this port or host:port&quot;</span><span class="p">]</span></div><div class='line' id='LC42'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="s">&quot;--port&quot;</span> <span class="s">&quot;Start new nREPL server on this port&quot;</span><span class="p">]))</span></div><div class='line' id='LC43'><br/></div><div class='line' id='LC44'><span class="p">(</span><span class="kd">defn </span><span class="nv">handle-resume</span> <span class="p">[</span><span class="nv">signal</span><span class="p">]</span></div><div class='line' id='LC45'>&nbsp;&nbsp;<span class="p">(</span><span class="nb">println </span><span class="s">&quot;Welcome back!&quot;</span><span class="p">))</span></div><div class='line' id='LC46'><br/></div><div class='line' id='LC47'><span class="p">(</span><span class="kd">defn </span><span class="nv">say-goodbye</span> <span class="p">[]</span></div><div class='line' id='LC48'>&nbsp;&nbsp;<span class="p">(</span><span class="nb">print </span><span class="s">&quot;Bye for now!&quot;</span><span class="p">)</span></div><div class='line' id='LC49'>&nbsp;&nbsp;<span class="p">(</span><span class="nf">flush</span><span class="p">))</span></div><div class='line' id='LC50'><br/></div><div class='line' id='LC51'><span class="p">(</span><span class="kd">defmacro </span><span class="nv">with-launching-context</span> <span class="p">[</span><span class="nv">options</span> <span class="o">&amp;</span> <span class="nv">body</span><span class="p">]</span></div><div class='line' id='LC52'>&nbsp;&nbsp;<span class="o">`</span><span class="p">(</span><span class="nf">try</span></div><div class='line' id='LC53'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">(</span><span class="nf">signals/set-signal-handler!</span> <span class="s">&quot;CONT&quot;</span> <span class="nv">handle-resume</span><span class="p">)</span></div><div class='line' id='LC54'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">(</span><span class="nf">with-redefs</span> <span class="p">[</span><span class="nv">clojure.core/print-sequential</span> <span class="nv">hacks.printing/print-sequential</span></div><div class='line' id='LC55'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nv">clojure.repl/pst</span> <span class="nv">clj-stacktrace.repl/pst</span><span class="p">]</span></div><div class='line' id='LC56'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="o">~@</span><span class="nv">body</span><span class="p">)</span></div><div class='line' id='LC57'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="o">~@</span><span class="p">(</span><span class="nb">filter </span><span class="nv">identity</span></div><div class='line' id='LC58'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[(</span><span class="nb">when </span><span class="p">(</span><span class="nb">resolve </span><span class="ss">&#39;ex-info</span><span class="p">)</span></div><div class='line' id='LC59'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="o">`</span><span class="p">(</span><span class="nf">catch</span> <span class="nv">clojure.lang.ExceptionInfo</span> <span class="nv">e#</span></div><div class='line' id='LC60'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">(</span><span class="k">let </span><span class="p">[</span><span class="nv">status#</span> <span class="p">(</span><span class="ss">:status</span> <span class="p">(</span><span class="ss">:object</span> <span class="p">(</span><span class="nf">ex-data</span> <span class="nv">e#</span><span class="p">)))</span></div><div class='line' id='LC61'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nv">body#</span> <span class="p">(</span><span class="ss">:body</span> <span class="p">(</span><span class="ss">:object</span> <span class="p">(</span><span class="nf">ex-data</span> <span class="nv">e#</span><span class="p">)))]</span></div><div class='line' id='LC62'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">(</span><span class="nb">cond </span><span class="p">(</span><span class="nb">= </span><span class="mi">401</span> <span class="nv">status#</span><span class="p">)</span> <span class="p">(</span><span class="nb">println </span><span class="s">&quot;Unauthorized.&quot;</span><span class="p">)</span></div><div class='line' id='LC63'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">(</span><span class="nf">number?</span> <span class="nv">status#</span><span class="p">)</span> <span class="p">(</span><span class="nb">println </span><span class="s">&quot;Remote error:&quot;</span></div><div class='line' id='LC64'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">(</span><span class="nb">slurp </span><span class="o">~</span><span class="nv">body</span><span class="p">))</span></div><div class='line' id='LC65'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ss">:else</span> <span class="p">(</span><span class="nf">clojure.repl/pst</span> <span class="nv">e#</span><span class="p">)))))</span></div><div class='line' id='LC66'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="o">&#39;</span><span class="p">(</span><span class="nf">catch</span> <span class="nv">Throwable</span> <span class="nv">t#</span> <span class="p">(</span><span class="nf">clojure.repl/pst</span> <span class="nv">t#</span><span class="p">))])</span></div><div class='line' id='LC67'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">(</span><span class="nf">finally</span> <span class="p">(</span><span class="nf">say-goodbye</span><span class="p">)</span></div><div class='line' id='LC68'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">(</span><span class="nf">shutdown-agents</span><span class="p">))))</span></div><div class='line' id='LC69'><br/></div><div class='line' id='LC70'><span class="p">(</span><span class="kd">defn </span><span class="nv">launch-nrepl</span> <span class="p">[</span><span class="nv">options</span><span class="p">]</span></div><div class='line' id='LC71'>&nbsp;&nbsp;<span class="s">&quot;Launches the nREPL version of REPL-y, with options already parsed out. The</span></div><div class='line' id='LC72'><span class="s">  options map can also include :input-stream and :output-stream entries, which</span></div><div class='line' id='LC73'><span class="s">  must be Java objects passed via this entry point, as they can&#39;t be parsed</span></div><div class='line' id='LC74'><span class="s">  from a command line.&quot;</span></div><div class='line' id='LC75'>&nbsp;&nbsp;<span class="p">(</span><span class="nf">with-launching-context</span> <span class="nv">options</span></div><div class='line' id='LC76'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">(</span><span class="nf">eval-modes.nrepl/main</span> <span class="nv">options</span><span class="p">)))</span></div><div class='line' id='LC77'><br/></div><div class='line' id='LC78'><span class="p">(</span><span class="kd">defn </span><span class="nv">launch-standalone</span></div><div class='line' id='LC79'>&nbsp;&nbsp;<span class="s">&quot;Launches the standalone (non-nREPL) version of REPL-y, with options already</span></div><div class='line' id='LC80'><span class="s">  parsed out&quot;</span></div><div class='line' id='LC81'>&nbsp;&nbsp;<span class="p">[</span><span class="nv">options</span><span class="p">]</span></div><div class='line' id='LC82'>&nbsp;&nbsp;<span class="p">(</span><span class="nf">with-launching-context</span> <span class="nv">options</span></div><div class='line' id='LC83'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">(</span><span class="nf">eval-modes.standalone/main</span> <span class="nv">options</span><span class="p">)))</span></div><div class='line' id='LC84'><br/></div><div class='line' id='LC85'><span class="p">(</span><span class="kd">defn </span><span class="nv">launch</span></div><div class='line' id='LC86'>&nbsp;&nbsp;<span class="s">&quot;Entry point for tools which may prefer to send a map of options</span></div><div class='line' id='LC87'><span class="s">  rather than a varargs list of arguments. See parse-args for available</span></div><div class='line' id='LC88'><span class="s">  options.&quot;</span></div><div class='line' id='LC89'>&nbsp;&nbsp;<span class="p">[</span><span class="nv">options</span><span class="p">]</span></div><div class='line' id='LC90'>&nbsp;&nbsp;<span class="p">(</span><span class="k">if </span><span class="p">(</span><span class="ss">:standalone</span> <span class="nv">options</span><span class="p">)</span></div><div class='line' id='LC91'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">(</span><span class="nf">launch-standalone</span> <span class="nv">options</span><span class="p">)</span></div><div class='line' id='LC92'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">(</span><span class="nf">launch-nrepl</span> <span class="nv">options</span><span class="p">)))</span></div><div class='line' id='LC93'><br/></div><div class='line' id='LC94'><span class="p">(</span><span class="kd">defn </span><span class="nv">-main</span> <span class="p">[</span><span class="o">&amp;</span> <span class="nv">args</span><span class="p">]</span></div><div class='line' id='LC95'>&nbsp;&nbsp;<span class="p">(</span><span class="k">let </span><span class="p">[[</span><span class="nv">options</span> <span class="nv">args</span> <span class="nv">banner</span><span class="p">]</span></div><div class='line' id='LC96'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">(</span><span class="nf">try</span> <span class="p">(</span><span class="nf">parse-args</span> <span class="nv">args</span><span class="p">)</span></div><div class='line' id='LC97'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">(</span><span class="nf">catch</span> <span class="nv">Exception</span> <span class="nv">e</span></div><div class='line' id='LC98'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">(</span><span class="nb">println </span><span class="p">(</span><span class="nf">.getMessage</span> <span class="nv">e</span><span class="p">))</span></div><div class='line' id='LC99'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">(</span><span class="nf">parse-args</span> <span class="p">[</span><span class="s">&quot;--help&quot;</span><span class="p">])))]</span></div><div class='line' id='LC100'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">(</span><span class="k">if </span><span class="p">(</span><span class="ss">:help</span> <span class="nv">options</span><span class="p">)</span></div><div class='line' id='LC101'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">(</span><span class="k">do </span><span class="p">(</span><span class="nb">println </span><span class="nv">banner</span><span class="p">)</span> <span class="p">(</span><span class="nf">shutdown-agents</span><span class="p">))</span></div><div class='line' id='LC102'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">(</span><span class="nf">launch</span> <span class="nv">options</span><span class="p">))))</span></div></pre></div>
+            </td>
+          </tr>
+        </table>
+  </div>
+
+  </div>
+</div>
+
+<a href="#jump-to-line" rel="facebox[.linejump]" data-hotkey="l" class="js-jump-to-line" style="display:none">Jump to Line</a>
+<div id="jump-to-line" style="display:none">
+  <form accept-charset="UTF-8" class="js-jump-to-line-form">
+    <input class="linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" autofocus>
+    <button type="submit" class="button">Go</button>
+  </form>
+</div>
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="http://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/">
+      <span class="mega-octicon octicon-mark-github"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2013 <span title="0.04675s from github-fe115-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-fullscreen-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
+          <div class="suggester-container">
+              <div class="suggester fullscreen-suggester js-navigation-container" id="fullscreen_suggester"
+                 data-url="/trptcolin/reply/suggestions/commit">
+              </div>
+          </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped leftwards" title="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped leftwards"
+      title="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-remove-close close ajax-error-dismiss"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+  </body>
+</html>
+

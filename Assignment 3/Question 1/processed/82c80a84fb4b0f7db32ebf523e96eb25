@@ -1,0 +1,2063 @@
+<!DOCTYPE html>
+<!--[if lte IE 7]> <html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" class="ie7 lte8 lte9 " lang="en-au"> <![endif]-->
+<!--[if IE 8]> <html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" class="ie8 lte8 lte9 " lang="en-au"> <![endif]-->
+<!--[if IE 9]> <html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" class="ie9 lte9 " lang="en-au"> <![endif]-->
+<!--[if gt IE 9]> --> <html lang="en-au" class=""> <!--<![endif]-->
+<head>
+        <script type="text/javascript">
+        var mDomains = ["smh.com.au", "theage.com.au", "watoday.com.au", "brisbanetimes.com.au", "canberratimes.com.au",
+            "essentialkids.com.au", "essentialbaby.com.au", "dailylife.com.au", "businessday.com.au","goodfood.com.au"]
+        if (exists(mDomains, function(substring) {return contains(document.domain, substring)})
+                && isSmartPhone(navigator.userAgent) && !contains(document.cookie, "iphone_redirect=false")) {
+            var currentLocation = document.location.href;
+            if (!contains(currentLocation, "/lifestyle/cuisine")) {
+                if (contains(currentLocation, "www.")) {
+                    currentLocation = currentLocation.replace("www.", "m.");
+                    window.location = currentLocation;
+                }
+                if (contains(currentLocation, "media.")) {
+                    currentLocation = currentLocation.replace("media.", "m.media.");
+                    window.location = currentLocation;
+                }
+            }
+        }
+
+        /**
+         * Returns a <code>Boolean</code> indicating whether or not the user agent represents a smart phone.
+         *
+         * @param userAgent User agent to test.
+         * @return True if the user agent represents a smart phone; otherwise false.
+         */
+        function isSmartPhone(userAgent) {
+            return ((matchesSmartPhoneUserAgentRegularExpressions(userAgent)) &&
+                    (!matchesTabletUserAgentRegularExpressions(userAgent)));
+        }
+
+        /**
+         * Returns a <code>Boolean</code> indicating whether or not the specified user agent represents a smart phone.
+         * If any of the regular expressions are updated then they should be updated in
+         * <code>SmartPhoneHelper.java</code>.
+         *
+         * @param userAgent User agent to test.
+         * @return True if the user agent represents a smart phone; otherwise false.
+         */
+        function matchesSmartPhoneUserAgentRegularExpressions(userAgent) {
+            var smartPhoneUserAgentRegularExpressions = ["^Mozilla/5.0.*iPhone.*", "^Mozilla/5.0.*iPod.*",
+                "^Mozilla/5.0.*Android [1-3].*", "^Mozilla/5.0.*SymbianOS/9.*", "^Mozilla/5.0.*Symbian/3.*",
+                "^Mozilla/5.0.*Mobile Safari/.*5[2-3][0-9].*", ".*Dolfin/[1-2].[0-9].*", "^Mozilla/[4-5].0.*Windows Phone OS 7.[0-5].*", "^Opera/9.*Android; Opera Mini.*"];
+            return userAgentMatchesAnyOf(userAgent, smartPhoneUserAgentRegularExpressions);
+        }
+
+        /**
+         * Returns a <code>Boolean</code> indicating whether or not the specified user agent represents a tablet. If any
+         * of the regular expressions are updated then they should be updated in <code>SmartPhoneHelper.java</code>.
+         *
+         * @param userAgent User agent to test.
+         * @return True if the user agent represents a tablet; otherwise false.
+         */
+        function matchesTabletUserAgentRegularExpressions(userAgent) {
+            var tableUserAgentRegularExpressions = ["^Mozilla/5.0.*iPad.*", "^Mozilla/5.0.*GT-P1000.*",
+                "^Mozilla/5.0.*GT-P7500.*", "^Mozilla/5.0.*MZ601.*", "^Mozilla/5.0.*Transformer TF101.*"];
+            return userAgentMatchesAnyOf(userAgent, tableUserAgentRegularExpressions);
+        }
+
+        /**
+         * Determines whether any of the elements match the predicate
+         *
+         * @param elements a collection of elements to check
+         * @param predicate function taking a single element and returning true when that element matches, false otherwise
+         * @return {Boolean}
+         */
+        function exists(elements, predicate) {
+            var index = 0;
+            for (; index < elements.length; index++) {
+                if (predicate(elements[index])) {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        /**
+         * Determines whether {string} contains {substring}
+         *
+         * @param string
+         * @param substring
+         * @return {Boolean}
+         */
+        function contains(string, substring) {
+            return string.indexOf(substring) != -1
+        }
+
+        /**
+         * Determines whether the user agent matches any of the expressions defined by {patterns}
+         *
+         * @param userAgent the User Agent value of the browser
+         * @param patterns the expression patterns to match against
+         * @return {Boolean}
+         */
+        function userAgentMatchesAnyOf(userAgent, patterns) {
+            if ((userAgent) && (userAgent.length > 0)) {
+                return exists(patterns, function(pattern) {return userAgent.match(pattern)})
+            }
+            return false;
+        }
+    </script>
+
+    <title>Brides-to-be still prefer husband's name</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="content-language" content="en" />
+<meta http-equiv="imagetoolbar" content="no" />
+    <link rel="canonical" href="http://www.smh.com.au/lifestyle/weddings/bridestobe-still-prefer-husbands-name-20130926-2ugf2.html"/>
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.smh.com.au/lifestyle/weddings/bridestobe-still-prefer-husbands-name-20130926-2ugf2.html"/>
+<meta name="robots" content="noarchive,noodp" />
+<meta name="robots" content="ACAP allow-index" />
+<meta name="robots" content="ACAP allow-follow" />
+<meta name="robots" content="ACAP disallow-preserve" />
+<meta name="robots" content="ACAP allow-present prohibited-modification=annotation" />
+<meta name="description" content="Kate Winslet said recently that she would never dream of taking on her husband's surname." />
+<meta name="keywords" content="" />
+<meta name="news_keywords" content="Weddings, National" />
+
+<link rel="shortcut icon" type="image/ico" href="http://www.brisbanetimes.com.au/favicon.ico" />
+<meta name="application-name" content="Brisbane Times" />
+<meta name="msapplication-tooltip" content="Open Brisbane Times" />
+<meta name="msapplication-starturl" content="http://www.brisbanetimes.com.au" />
+
+    <meta name="msapplication-task" content="name=National;action-uri=http://www.brisbanetimes.com.au/national;icon-uri=http://www.brisbanetimes.com.au/favicon.ico;" />
+    <meta name="msapplication-task" content="name=World;action-uri=http://www.brisbanetimes.com.au/world;icon-uri=http://www.brisbanetimes.com.au/favicon.ico;" />
+    <meta name="msapplication-task" content="name=Sport;action-uri=http://www.brisbanetimes.com.au/sport;icon-uri=http://www.brisbanetimes.com.au/favicon.ico;" />
+    <meta name="msapplication-task" content="name=Weather;action-uri=http://www.brisbanetimes.com.au/weather;icon-uri=http://www.brisbanetimes.com.au/favicon.ico;" />
+
+<meta name="cXenseParse:ffx-assetid" content="4780190"/>
+<meta name="cXenseParse:ffx-assettype" content="article"/>
+
+
+
+
+
+        <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@brisbanetimes">
+
+    <meta property="og:title" content="Brides-to-be still prefer husband's name"/>
+<meta property="og:description" content="Kate Winslet said recently that she would never dream of taking on her husband's surname."/>
+<meta property="og:site_name" content="Brisbane Times"/>
+<meta property="og:type" content="article"/> 
+<meta property="og:url" content="http://www.brisbanetimes.com.au/lifestyle/weddings/bridestobe-still-prefer-husbands-name-20130926-2ugf2.html"/>
+<meta property="og:image" content="http://images.brisbanetimes.com.au/2013/09/26/4780369/th-WEDDING4.jpg"/>
+    <meta property="fb:app_id" content="210857855632030"/>
+
+                <link rel="stylesheet" type="text/css" media="screen,print" href="http://resources.brisbanetimes.com.au/common/media-common-1.0/css/output/7.29.2/common.skin.news.css/common.skin.news_min.css" />
+
+                    <link rel="stylesheet" type="text/css" media="screen,print" href="http://resources.brisbanetimes.com.au/common/media-common-1.0/css/output/7.29.2/common.skin.article.css/common.skin.article_min.css" />
+
+                    <link rel="stylesheet" type="text/css" media="screen,print" href="http://resources.brisbanetimes.com.au/common/media-common-1.0/css/output/7.29.2/common.skin.brisbanetimes.css/common.skin.brisbanetimes_min.css" />
+
+                <link rel="stylesheet" type="text/css" media="screen,print" href="http://resources.brisbanetimes.com.au/common/media-common-1.0/css/output/7.29.2/common.skin.lifestyle.css/common.skin.lifestyle_min.css" />
+
+                <link rel="stylesheet" type="text/css" media="screen,print" href="http://resources.brisbanetimes.com.au/common/media-common-1.0/css/output/7.29.2/skin.promotions.css/skin.promotions_min.css" />
+
+                <link rel="stylesheet" type="text/css" media="screen,print" href="http://resources.brisbanetimes.com.au/common/media-common-1.0/css/output/7.29.2/common.skin.mysite.css/common.skin.mysite_min.css" />
+
+
+<!-- Initialise Google Analytics event queue -->
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+</script>
+    
+     <link rel="shortcut icon" href="http://www.brisbanetimes.com.au/favicon.ico"/>
+</head>
+<body class="article-template brisbanetimes lifestyle" >
+<script type="text/javascript">
+// <![CDATA[
+	document.body.className += " scriptable";
+// ]]>
+</script>
+
+    <script type="text/javascript">//<![CDATA[
+    var amc=amc||{};if(!amc.on){amc.on=amc.call=function(){}};
+    document.write("<scr"+"ipt type=\"text/javascript\" src=\"//www.adobetag.com/d1/v2/ZDEtZmFpcmZheGF1LTEzMjg0LTI5MDUt/amc.js\"></sc"+"ript>");
+    //]]></script>
+
+<a class="skipLink" href="#nav">Skip to navigation</a>
+<a class="skipLink" href="#content">Skip to content</a>
+<a class="skipLink" href="http://www.brisbanetimes.com.au/siteguide/accessibility">Help using this website - Accessibility statement</a>
+
+        <esi:include src="/ugc/v2/dock.html"/>
+        <esi:remove><div class="mySite" role="document" aria-live="polite" aria-relevant="additions removals" aria-atomic="true">
+    <div class="ms-toolbarWrap">
+        <div class="ms-toolbar clearfix">
+            <p class="hiddenWithJS alert"><em>JavaScript disabled.</em> Please enable JavaScript to use My News, My Clippings, My Comments and user settings.</p>
+<ul class="inactive">
+    <li class="account login">
+        <a href="https://brisbanetimes.myfairfax.com.au/members/session/new?channel_key=adsyxa3LYCxmhcrx-DmA7w&callback_uri=http%3A%2F%2Fwww.brisbanetimes.com.au%2Fugc%2Flogin.html" title="My News"><span class="icon news"></span>My News </a>
+    </li>
+    <li class="account login">
+        <a href="https://brisbanetimes.myfairfax.com.au/members/session/new?channel_key=adsyxa3LYCxmhcrx-DmA7w&callback_uri=http%3A%2F%2Fwww.brisbanetimes.com.au%2Fugc%2Flogin.html" title="My Clippings"><span class="icon clippings"></span>My Clippings </a>
+    </li>
+    <li class="account login">
+        <a href="https://brisbanetimes.myfairfax.com.au/members/session/new?channel_key=adsyxa3LYCxmhcrx-DmA7w&callback_uri=http%3A%2F%2Fwww.brisbanetimes.com.au%2Fugc%2Flogin.html" title="My Comments"><span class="icon comments"></span>My Comments </a>
+    </li>
+    <li class="account login">
+        <a href="https://brisbanetimes.myfairfax.com.au/members/session/new?channel_key=adsyxa3LYCxmhcrx-DmA7w&callback_uri=http%3A%2F%2Fwww.brisbanetimes.com.au%2Fugc%2Flogin.html" title="My History"><span class="icon history"></span>My History </a>
+    </li>
+</ul>
+
+<ul class="alt">
+        <li class="account">
+            <a class="btn alt gaTrackable" href="https://brisbanetimes.myfairfax.com.au/members/members/signup?channel_key=adsyxa3LYCxmhcrx-DmA7w&callback_uri=http%3A%2F%2Fwww.brisbanetimes.com.au%2Fugc%2Flogin.html" data-gaaction="Sign-up" data-gacategory="MyMasthead" data-galabel="Dock Bar">Sign-up</a>
+        </li>
+        <li class="account login">
+            <a class="btn gaTrackable" href="https://brisbanetimes.myfairfax.com.au/members/session/new?channel_key=adsyxa3LYCxmhcrx-DmA7w&callback_uri=http%3A%2F%2Fwww.brisbanetimes.com.au%2Fugc%2Flogin.html" data-gaaction="Login" data-gacategory="MyMasthead" data-galabel="Dock Bar">Log in</a>
+        </li>
+            <li class="account last demo">
+                <a class="btn" href="http://www.brisbanetimes.com.au/static/mymastheads/" target="_blank" id="demo-btn">Learn More</a>
+                <div class="demo-tooltip">
+                    <p>Personalise your news, save articles to read later and customise settings</p>
+                </div>
+            </li>
+</ul>
+<div id="ms-dialogLogin" class="dialogWrap hiddenVisually">
+    <div class="dialogContent main" id="loginIframeContainer" style="width: 625px; height: 425px" data-dialogHref="https://brisbanetimes.myfairfax.com.au/members/session/dialog?channel_key=adsyxa3LYCxmhcrx-DmA7w&callback_uri=http%3A%2F%2Fwww.brisbanetimes.com.au%2Fugc%2Flogin.html">
+        <p class="hiddenVisually">If you have trouble accessing our login form below, you can go to our <a href="https://brisbanetimes.myfairfax.com.au/members/session/new?channel_key=adsyxa3LYCxmhcrx-DmA7w&callback_uri=http%3A%2F%2Fwww.brisbanetimes.com.au%2Fugc%2Flogin.html" title="This link will open in a new window" target="_parent">login page</a>.</p>
+    </div>
+</div>    <div id="ms-dialogLoginPrompt" class="dialogWrap hiddenVisually">
+        <div class="dialogContent main">
+            <p class="hiddenVisually">If you have trouble accessing our login form below, you can go to our <a href="https://brisbanetimes.myfairfax.com.au/members/session/new?channel_key=adsyxa3LYCxmhcrx-DmA7w&callback_uri=http%3A%2F%2Fwww.brisbanetimes.com.au%2Fugc%2Flogin.html" title="This link will open in a new window" target="_parent">login page</a>.</p>
+            <iframe id="loginPromptIframe" width="625" height="425" frameborder="0" scrolling="no" src="" data-dialogHref="https://brisbanetimes.myfairfax.com.au/members/session/dialog?skin=prompt&channel_key=adsyxa3LYCxmhcrx-DmA7w&callback_uri=http%3A%2F%2Fwww.brisbanetimes.com.au%2Fugc%2Flogin.html"></iframe>
+        </div>
+    </div>
+        </div>
+    </div>
+</div></esi:remove>
+    <div data-brandTimezone="Australia/Brisbane"></div>
+
+
+
+<div id="sponsorLink_cA-helmet" class="cA-helmet">
+    <div id="video-player-companion-ad-helmet"></div><!-- id:video-player-companion-ad-helmet -->
+</div><!-- id:sponsorLink_cA-helmet -->
+<script type="text/javascript" src="http://resources.brisbanetimes.com.au/common/media-common-1.0/js/html5shiv.js"></script>
+<div class="outerWrap">
+    <div class="wrap cfix">
+        
+
+<!-- Header (class according to new HTML5 element 'header'; was 'masthead') (scope: network-wide) -->
+<div class="header span-24">
+            <div id="adspot-728x90,468x60-pos-1" class="ad"> <script type="text/javascript"> function getAdCookie(name) { var regex = new RegExp('(?:^|; )' + name + '=([^;]*)'); var value = regex.exec(document.cookie); if (value && value.length > 1) { value = decodeURIComponent(value[1]); } else { value = ""; } return value; } function getFrameDocument(fr) { var doc = fr.contentWindow || fr.contentDocument; if (doc && doc.document) { doc = doc.document; } return doc; } function closeDoc(doc) { doc.close(); } function closeOpenDocuments(openDocs) { for (var i=0;i< openDocs.length; i++) { closeDoc(getFrameDocument(document.getElementById(openDocs[i]))); } } function isIE() { return /msie/i.test(navigator.userAgent) && !/opera/i.test(navigator.userAgent); } function setHash (element, hash) { if(element.hash) { element.hash = element.hash + "," + hash; } else { element.hash = hash; } } function renderIFAd(holderID, adID, srcUrl, width, height, hash, bodyAttributes) { setHash(document.getElementById(holderID), hash); document.dcdAdsR.push(adID); if (ie) { var sizePart = srcUrl.substring(srcUrl.indexOf("sz=")+3); sizePart = sizePart.substring(0, sizePart.indexOf(";")); var multiSizes = sizePart.split(","); var minSize = multiSizes[0]; if (multiSizes.length > 1) { for(var i=1; i< multiSizes.length; i++) { if (minSize > multiSizes[i]) { minSize = multiSizes[i]; } } var sizeParts = minSize.toLowerCase().split("x"); width = sizeParts[0]; height = sizeParts[1]; srcUrl = srcUrl.replace(sizePart, minSize); } } document.write('<iframe id="' + adID + '" src="' + srcUrl + '" width="' + width + '" height="' + height + '" scrolling="no" marginheight="0" marginwidth="0" allowtransparency="true" frameborder="0"><\/iframe>'); } function renderJIFAd(holderID, adID, srcUrl, width, height, hash, bodyAttributes) { setHash(document.getElementById(holderID), hash); document.dcdAdsR.push(adID); document.write('<iframe id="' + adID + '" src="javascript: ;" width="' + width + '" height="' + height + '" scrolling="no" marginheight="0" marginwidth="0" allowtransparency="true" frameborder="0"><\/iframe>'); var body = '<html><head></head><body ' + bodyAttributes + '><scr' + 'ipt src="' + srcUrl + '"></sc' + 'ript></body></html>'; var fr = document.getElementById(adID); setHash(fr, hash); fr.body = body; var doc = getFrameDocument(fr); doc.open(); doc.write(body); setTimeout(function() {closeDoc(getFrameDocument(document.getElementById(adID)))}, 2000); } function renderJIFAdWithInterim(holderID, adID, srcUrl, width, height, hash, bodyAttributes) { setHash(document.getElementById(holderID), hash); document.dcdAdsR.push(adID); document.write('<iframe id="' + adID + '" src=" '+ srcUrl +'" width="' + width + '" height="' + height + '" scrolling="no" marginheight="0" marginwidth="0" allowtransparency="true" frameborder="0"><\/iframe>'); } function renderIJAd(holderID, adID, srcUrl, hash) { document.dcdAdsAA.push(holderID); setHash(document.getElementById(holderID), hash); document.write('<scr' + 'ipt src="' + srcUrl + '" id="' + adID + '"></sc' + 'ript>'); } function renderJAd(holderID, adID, srcUrl, hash) { document.dcdAdsAA.push(holderID); setHash(document.getElementById(holderID), hash); document.dcdAdsH.push(holderID); document.dcdAdsI.push(adID); document.dcdAdsU.push(srcUrl); } function er_showAd() { var regex = new RegExp("externalReferrer=(.*?)(; |&|$)", "gi"); var value = regex.exec(document.cookie); if (value && value.length == 3) { var externalReferrer = value[1]; return (!FD.isInternalReferrer() || ((externalReferrer) && (externalReferrer > 0))); } return false; } function isHome() { var loc = "" + window.location; loc = loc.replace("//", ""); var tokens = loc.split("/"); if (tokens.length == 1) { return true; } else if (tokens.length == 2) { if (tokens[1].trim().length == 0) { return true; } } return false; } function checkAds(checkStrings) { var cs = checkStrings.split(','); for (var i = 0; i < document.dcdAdsAA.length; i++) { var cAd = document.getElementById(document.dcdAdsAA[i]); document.dcdAdsAG.push(cAd.hash); if (isEmpty(cAd.innerHTML, cs)) { document.dcdAdsAI.push(cAd.hash); cAd.style.display ='none'; } } if (!ie) { for (var i = 0; i < document.dcdAdsR.length; i++) { var fr = document.getElementById(document.dcdAdsR[i]); if (fr) { document.dcdAdsAG.push(fr.hash); if (isEmpty(getFrameDocument(fr).body.innerHTML, cs)) { document.dcdAdsAI.push(fr.hash); fr.style.display ='none'; } } } } if (document.dcdAdsAI.length > 0 || document.dcdAdsAG.length > 0) { var pingServerParams = "i="; var sep = ""; for (var i=0;i< document.dcdAdsAI.length; i++) { pingServerParams += sep + document.dcdAdsAI[i]; sep = ","; } } document.pingServerAdParams = pingServerParams; } function isEmpty(h, cs) { var empty = false; for (var j = 0; j < cs.length; j++) { var c = cs[j].trim(); if (c.length > 0 && h.indexOf(c) > 0) { empty = true; break; } } return empty; } function pingAdStatus() { if (isHome ()) { return; } if (document.pingServerAdParams && document.pingServerAdParams.length > 0) { var pingServerUrl = "/action/pingServerAction?" + document.pingServerAdParams; var xmlHttp = null; try { xmlHttp = new XMLHttpRequest(); } catch(e) { try { xmlHttp = new ActiveXObject("Microsoft.XMLHttp"); } catch(e) { xmlHttp = null; } } if (xmlHttp != null) { xmlHttp.open( "GET", pingServerUrl, true); xmlHttp.send( null ); } } } function initAds(log, checkStrings) { for (var i=0;i< document.dcdAdsU.length; i++) { var shadowHolder = document.getElementById("adShD" + i); var targetHolder = document.getElementById(document.dcdAdsH[i]); if (shadowHolder && targetHolder) { var adNodes = new Array(); for (var j=0; j<shadowHolder.childNodes.length; j++) { var child = shadowHolder.childNodes[j]; if (child.nodeName.toLowerCase() != "script") { if (child.nodeType != 3 || child.nodeValue.replace(/^\s+|\s+$/g, '') != '') { /* Not empty text node */ adNodes.push(child); } } } if (adNodes.length == 0) { /* No ad to display - add marker */ var child = document.createElement('img'); child.setAttribute('src', checkStrings.split(',')[0]); shadowHolder.appendChild(child); adNodes.push(child); } appendNodesToTargetHolder(targetHolder, shadowHolder, adNodes); } } if (er_showAd()) { for (var i=0;i< document.dcdAdsE.length; i++) { var erAd = document.getElementById(document.dcdAdsEH[i]); erAd.className = document.dcdAdsEC[i]; erAd.appendChild(document.dcdAdsE[i]); } } if (log) { console.log(document.igCount + "/" + document.tCount); } } function appendNodesToTargetHolder(targetHolder, shadowHolder, adNodes) { var changeMethod = 0; /** appendChild **/ var placeholder = targetHolder; if (targetHolder.children) { for (var i=0; i < targetHolder.children.length; i++) { var child = targetHolder.children[i]; if (child.tagName && child.tagName.toLowerCase() == "small") { if (placeholder.tagName.toLowerCase() == "small") { placeholder = child; changeMethod = 1; /** prepend, since this is the second small tag **/ } else { if (i < (targetHolder.children.length -1)) { placeholder = child; changeMethod = 2; /** append, since this is the first small and its not the last child**/ } else { placeholder = child; changeMethod = 1; /** prepend, since this is the first small but last child **/ } } } } } for (var i=0; i < adNodes.length; i++) { switch(changeMethod) { case 2: placeholder.parentNode.insertBefore(shadowHolder.removeChild(adNodes[i]), placeholder.nextSibling); placeholder = placeholder.nextSibling; break; case 1: placeholder.parentNode.insertBefore(shadowHolder.removeChild(adNodes[i]), placeholder.previousSibling); break; default: placeholder.appendChild(shadowHolder.removeChild(adNodes[i])); } } } function isInterimEnable(frame){ var iFrame_src = frame.src; var interim = iFrame_src.indexOf("adinterim"); if(interim < 0 ){ return false; }else{ return true; } } function getCurrentOrd(srcurl){ var currentOrg = ""; currentOrg = srcurl.split("ord=")[1]; if(currentOrg.indexOf("?") < 0){ return currentOrg }else{ return currentOrg.split("?")[0]; } } document.refreshAds = function rAds(adID) { if (document.dcdAdsR) { document.dcdsAdsToClose = new Array(); for (var i=0;i< document.dcdAdsR.length; i++) { var fr = document.getElementById(document.dcdAdsR[i]); if (fr) { if (!ie && !isInterimEnable(fr)) { if (!adID || adID =="*" || fr.parentNode.id==adID ) { var chNodes = new Array(); for (var j=0; j<fr.parentNode.childNodes.length; j++) { var child = fr.parentNode.childNodes[j]; if (!(child.nodeName.toLowerCase() == "script" || child.nodeName.toLowerCase() == "iframe") || child.nodeName.toLowerCase() == "small") { chNodes.push(child); } } for (var j=0; j<chNodes.length; j++) { if (!child.nodeName.toLowerCase() == "small") { chNodes[j].parentNode.removeChild(chNodes[j]); } } var doc = getFrameDocument(fr); while (doc.childNodes.length > 0) { doc.removeChild(doc.childNodes[0]); } doc.open(); var newBody = fr.body; if (getCurrentOrd(newBody) != "" ) { newBody = newBody.replace(";ord="+getCurrentOrd(newBody), ";ord=" + Math.floor(100000000*Math.random())); } else { newBody = newBody.replace(";ord=", ";ord=" + Math.floor(100000000*Math.random())); } doc.write(newBody); document.dcdsAdsToClose.push(fr.id); } } else { var newSrc = fr.src; if (getCurrentOrd(newSrc) != "" ) { newSrc = newSrc.replace(";ord="+getCurrentOrd(newSrc), ";ord=" + Math.floor(100000000*Math.random())); } else { newSrc = newSrc.replace(";ord=", ";ord=" + Math.floor(100000000*Math.random())); } fr.src = newSrc; } } } if (document.dcdsAdsToClose.length > 0) { setTimeout(function() {closeOpenDocuments(document.dcdsAdsToClose)}, 500); } } }; var ie = isIE(); if(ie && typeof String.prototype.trim !== 'function') { String.prototype.trim = function() { return this.replace(/^\s+|\s+$/g, ''); }; } document.dcdAdsH = new Array(); document.dcdAdsI = new Array(); document.dcdAdsU = new Array(); document.dcdAdsR = new Array(); document.dcdAdsEH = new Array(); document.dcdAdsE = new Array(); document.dcdAdsEC = new Array(); document.dcdAdsAA = new Array(); document.dcdAdsAI = new Array(); document.dcdAdsAG = new Array(); document.dcdAdsToClose = new Array(); document.igCount = 0; document.tCount = 0; var dcOrd = Math.floor(100000000*Math.random()); document.dcAdsCParams = ""; var savValue = getAdCookie("sav"); if (savValue != null && savValue.length > 2) { document.dcAdsCParams = savValue + ";"; } document.dcAdsCParams += "csub={csub};"; </script> <script> renderJAd("adspot-728x90,468x60-pos-1", "dcAd-1", 'http://ad-apac.doubleclick.net/N6411/adj/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=1;dcopt=ist;' + document.dcAdsCParams +'sz=728x90,468x60;tile=1;ord=' + dcOrd + '?', -983730640); </script> <noscript> <a href='http://ad-apac.doubleclick.net/N6411/jump/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=1;dcopt=ist;sz=728x90,468x60;tile=1;ord=4.3799471E7?' target="_blank"> <img src='http://ad-apac.doubleclick.net/N6411/ad/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=1;dcopt=ist;sz=728x90,468x60;tile=1;ord=4.3799471E7?' border="0" alt=""> </a> </noscript> </div>
+
+
+    <p class="mh-logo"><a href="http://www.brisbanetimes.com.au" title="Brisbane Times">Brisbane Times</a></p>
+            <h2><a href="http://www.brisbanetimes.com.au/lifestyle" title="LifeStyle">LifeStyle</a></h2>
+        <ul id="nav" role="navigation" >
+        
+                <li>
+                    <a href="http://www.brisbanetimes.com.au/lifestyle/beauty" title="Beauty">Beauty</a>
+                </li>
+                <li>
+                    <a href="http://www.brisbanetimes.com.au/lifestyle/diet-and-fitness" title="Diet &amp; Fitness">Diet &amp; Fitness</a>
+                </li>
+                <li>
+                    <a href="http://www.brisbanetimes.com.au/lifestyle/fashion" title="Fashion">Fashion</a>
+                </li>
+                <li>
+                    <a href="http://www.brisbanetimes.com.au/lifestyle/celebrity" title="Celebrity">Celebrity</a>
+                </li>
+                <li>
+                    <a href="http://www.brisbanetimes.com.au/lifestyle/homestyle" title="Home &amp; Style">Home &amp; Style</a>
+                </li>
+                <li>
+                    <a href="http://www.brisbanetimes.com.au/lifestyle/life" title="Life">Life</a>
+                </li>
+                <li class="selected">
+                    <a href="http://www.brisbanetimes.com.au/lifestyle/weddings" title="Weddings">Weddings</a>
+                </li>
+                <li>
+                    <a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes" title="Horoscopes">Horoscopes</a>
+                </li>
+                <li>
+                    <a href="http://www.goodfood.com.au/" title="Good Food">Good Food</a>
+                </li>
+                <li>
+                    <a href="http://www.thevine.com.au/?utm_source=FD&utm_medium=nav&utm_campaign=lifeandstyle" title="TheVine">TheVine</a>
+                </li>
+                <li class=" hasDropdown ">
+                    <a href="#" title="Parenting">Parenting</a>
+                            <ul>
+                                    <li class="first">
+                                        <a href="http://www.essentialbaby.com.au?icn=EB&icp=lifestylenav" title="Essential Baby">Essential Baby</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.essentialkids.com.au?icn=EK&icp=lifestylenav" title="Essential Kids">Essential Kids</a>
+                                    </li>
+                                    <li class="last">
+                                        <a href="http://www.findababysitter.com.au?icn=FAB&icp=lifestylenav" title="Find A Babysitter">Find A Babysitter</a>
+                                    </li>
+                            </ul>
+                </li>
+    </ul>
+
+        <p class="breadcrumb">
+        <span>You are here:</span>
+            <a href="http://www.brisbanetimes.com.au" >Home</a>
+            <a href="http://www.brisbanetimes.com.au/lifestyle" >LifeStyle</a>
+            <a href="http://www.brisbanetimes.com.au/lifestyle/weddings" >Weddings</a>
+            <a href="http://www.brisbanetimes.com.au/lifestyle/weddings/bridestobe-still-prefer-husbands-name-20130926-2ugf2.html" class="last">Article</a>
+    </p>
+
+        <div class="cN-searchBox cfix">
+        <form action="http://www.brisbanetimes.com.au/execute_search.html" method="get">
+            <h2>Search brisbanetimes:</h2>
+            <label for="search">
+                <input type="text" name="text" id="search" placeholder='Search here...' onfocus="this.value='';" />
+            </label>
+            <h3>Search in:</h3>
+            <ul id="ddown" class="ddown">
+                <li><a class="selected" href="#">Life & Style</a>
+                    <div class="srch-wrap">
+                        <div></div>
+                        <ul class="cfix">
+                                <li class="first"><a href="#">brisbanetimes.com.au</a></li>
+                                <li><a href="#">Web</a></li>
+                                <li><a href="#">Life & Style</a></li>
+                        </ul>
+                    </div><!-- class:srch-wrap -->
+                </li>
+            </ul>
+            <input type="hidden" name="ss" value="Life & Style" />
+            <input type="submit" class="btnSubmit" value="Search" />
+        </form>
+    </div><!-- class:cN-searchBox cfix -->
+
+</div>
+<!-- End component: Header -->
+
+        
+        
+        <div id="adspot-940x20-pos-1" class="ad ad adPageTop"> <script> renderJAd("adspot-940x20-pos-1", "dcAd-2", 'http://ad-apac.doubleclick.net/N6411/adj/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=1;' + document.dcAdsCParams +'sz=940x20;tile=2;ord=' + dcOrd + '?', -1926202468); </script> <noscript> <a href='http://ad-apac.doubleclick.net/N6411/jump/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=1;sz=940x20;tile=2;ord=4.3799471E7?' target="_blank"> <img src='http://ad-apac.doubleclick.net/N6411/ad/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=1;sz=940x20;tile=2;ord=4.3799471E7?' border="0" alt=""> </a> </noscript> </div>
+        <div id="content" class="span-16 article" itemscope itemtype="http://schema.org/Article">
+            <h1 class="cN-headingPage" itemprop="name">Brides-to-be still prefer husband's name</h1>
+    <span class="gone" itemprop="articleSection">National</span>
+    <span class="gone" itemprop="articleSection">Weddings</span>
+
+<div class="meta hnews">
+    <dl>
+        <dt class="hiddenVisually">Date</dt>
+        <dd class="updated dtstamp">
+            <time itemprop="datePublished" datetime="September 26, 2013">September 26, 2013</time>
+        </dd>
+    </dl>
+    <ul class="tools">
+    <li class="reading collectorHidden" style="display:none">(0)</li>
+            
+    <li class="comments">
+            <a href="#comments">Comments <strong>86</strong></a>
+    </li>
+
+
+        <li class="clipping" data-assetId="d-2ugf2" data-assetType="ARTICLE" data-assetUrl="http://www.brisbanetimes.com.au/lifestyle/weddings/bridestobe-still-prefer-husbands-name-20130926-2ugf2.html"><button class="btnClipping btnFauxLink" type="button">Read later</button></li>
+</ul>
+    
+    
+    
+    <!--We need to call this as a dynamic component, to many variants meant i had to start hacking it for different sections -->
+<ul class="social sponsored cfix">
+
+        <li class="tweet">
+            <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://www.brisbanetimes.com.au/lifestyle/weddings/bridestobe-still-prefer-husbands-name-20130926-2ugf2.html" data-via="brisbanetimes" data-text="Brides-to-be still prefer husband's name">Tweet</a>
+        </li>
+        <li class="fblike"><fb:like href="http://www.brisbanetimes.com.au/lifestyle/weddings/bridestobe-still-prefer-husbands-name-20130926-2ugf2.html" send="false" layout="button_count" width="100" show_faces="false" action="recommend" font="arial"></fb:like></li>
+        <li class="gplus"><div class="g-plus" data-action="share" data-annotation="bubble"></div></li>
+        <li class="linkedin"><script type="IN/Share" data-url="http://www.brisbanetimes.com.au/lifestyle/weddings/bridestobe-still-prefer-husbands-name-20130926-2ugf2.html"></script></li>
+        <li class="pinterest"><a href="http://pinterest.com/pin/create/button/?url=http://www.brisbanetimes.com.au/lifestyle/weddings/bridestobe-still-prefer-husbands-name-20130926-2ugf2.html&media=http://images.brisbanetimes.com.au/2013/09/27/4781781/kate-729.jpg&description=Kate Winslet with husband Ned Rocknroll" class="pin-it-button pinterest" count-layout="horizontal">Pin It</a></li>
+        <li class="reddit"><a href="http://www.reddit.com/submit?url=http://www.brisbanetimes.com.au/lifestyle/weddings/bridestobe-still-prefer-husbands-name-20130926-2ugf2.html&title=Brides-to-be still prefer husband's name">submit to reddit</a></li>
+    <li class="email"><a href="/action/emailToFriend?id=4780190" title="Email to a friend" rel="nofollow" data-emailSocialLink="true" data-emailUrl="/action/emailToFriend?id=4780190">Email article</a></li>
+    <li class="print">
+            <a href="/action/printArticle?id=4780190" title="Print this story" rel="nofollow" data-printSocialLink="true" data-printUrl="/action/printArticle?id=4780190">Print</a>
+    </li>
+        <li class="socSponsor"><div id="adspot-120x50" class="ad"> <script type="text/javascript"> if (ie) { renderIFAd("adspot-120x50", "dcAd-1-3", "http://ad-apac.doubleclick.net/N6411/adi/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;" + document.dcAdsCParams + "sz=120x50;tile=3;ord=" + dcOrd + "?", 120, 50, -1854244912); } else { renderJIFAd("adspot-120x50","dcAd-1-3", "http://ad-apac.doubleclick.net/N6411/adj/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;" + document.dcAdsCParams + "sz=120x50;tile=3;ord=" + dcOrd + "?", 120, 50, -1854244912, ""); } </script> <noscript> <iframe id="dcAd-1-3" src="http://ad-apac.doubleclick.net/N6411/adi/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;sz=120x50;tile=3;ord=4.3799471E7?" width='120' height='50' scrolling="no" marginheight="0" marginwidth="0" allowtransparency="true" frameborder="0"> </iframe> </noscript> </div></li>
+</ul>
+</div><!-- class:meta hnews -->
+<!--honey pot ad inserted via trickyness-->
+<div class="ad adSpot-textBox" id="googleAds">
+</div>
+<div class="articleBody" itemprop="articleBody">
+                                    <!-- cT-imageLandscape -->
+        <div class="cT-imageLandscape">
+
+            <img src="http://images.brisbanetimes.com.au/2013/09/27/4781781/kate-729-620x349.jpg" alt="Kate Winslet with husband Ned Rocknroll" itemprop="image"/>
+                <p>Kate Winslet with husband Ned Rocknroll <em>Photo: Getty</em></p>
+        </div>
+
+
+
+            
+        <p>Kate Winslet said recently that she would never dream of taking on her husband's surname.</p>
+
+        <p>Understandable when you consider the British actress married Richard Branson's nephew, whose name is Ned Rocknroll (Rocknroll changed his name from Smith in 2008).</p>
+
+                    
+        <p>And it was also her third husband.</p>
+
+        <p>In this era of equal opportunity, and decades after the feminist movement, one might assume that Australia's brides-to-be would be following in the footsteps of women like Winslet and holding on to their maiden names.</p>
+
+            <div id="adspot-300x250-pos-3" class="hidden"> <small>Advertisement</small> <script type="text/javascript"> var erA = document.createElement('iframe'); erA.setAttribute("id", "dcAd-1-4"); erA.setAttribute("src", "http://ad-apac.doubleclick.net/N6411/adi/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=3;" + document.dcAdsCParams +"sz=300x250;tile=4;ord=" + dcOrd + "?"); erA.setAttribute("width", "300"); erA.setAttribute("height", "250"); erA.setAttribute("scrolling", "no"); erA.setAttribute("marginheight", "0"); erA.setAttribute("marginwidth", "0"); erA.setAttribute("allowtransparency", "true"); erA.setAttribute("frameborder", "0"); erA.frameBorder = 0; document.dcdAdsE.push(erA); document.dcdAdsEH.push("adspot-300x250-pos-3"); document.dcdAdsEC.push("ad adCentred"); document.dcdAdsR.push("dcAd-1-4"); </script> <noscript> <iframe id="dcAd-1-4" src="http://ad-apac.doubleclick.net/N6411/adi/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=3;sz=300x250;tile=4;ord=4.3799471E7?" width='300' height='250' scrolling="no" marginheight="0" marginwidth="0" allowtransparency="true" frameborder="0"> </iframe> </noscript> </div>
+        <p>But that's not the case, wedding experts says.</p>
+
+        <p>Even as divorce, remarriage, gay marriage and blended families become more commonplace, traditional attitudes towards adopting your husband's surname still persist.</p>
+
+        <p>"Most of my brides do take on their husband's name," says Robyn Caine, the chairperson of the Coalition of Celebrant Associations.</p>
+
+        <p>"There is a lowish percentage that keep their names."</p>
+
+        <p><em>Bride to Be</em> editor Sarah Stevens says while many aspects of the wedding ceremony have evolved, the practice of giving up one's maiden name has remained.</p>
+
+        <p>The magazine's Cost of Love survey, released this year, found 82 per cent of brides plan to change their surname, while 11 per cent expect to keep their name, five per cent will hyphenate and the remainder were undecided. In the magazine's 2008 and 2010 surveys the percentages were the same.</p>
+
+        <p>"While other areas of weddings are evolving, such as people having less ceremonies in churches and brides aren't wearing the traditional veil, for some reason the changing of the name has stuck," says Stevens.</p>
+
+        <p>"The overwhelming reason they cite for the changing of their name is family and thinking forward to having children."</p>
+
+        <p>While taking your husband's name is the most obvious choice for brides-to-be, there are many other name options to consider.</p>
+
+        <p>You could make your maiden name your middle name and take on your husband's surname or keep your maiden name professionally but change your name legally. Perhaps the most unusual option is to get your husband to adopt your family name.</p>
+
+        <p>Jack Gillis of The White Stripes took on his wife Meg White's surname when they married and John Lennon took the last name of his wife, Yoko Ono. His legal name when he died was John Ono Lennon, and her's was Yoko Ono Lennon.</p>
+
+        <p>Jay-Z (born Shawn Carter) opted to hyphenate his name when he married Beyonce (whose surname is Knowles). Jay-Z is legally known as Shawn Knowles-Carter.</p>
+
+        <p>Or you could always opt for the "mesh".</p>
+
+        <p>Los Angeles mayor Antonio Villar married Corina Raigosa and they both changed their surname to Villaraigosa. Despite their divorce they have both kept their invented surname.</p>
+
+        <p>AAP</p>
+        
+</div><!-- class:articleBody -->
+
+
+
+
+
+
+
+
+            
+            <div id="moreGoogleAds" class="ad adSpot-textBox"></div><!-- id:moreGoogleAds -->
+            <div id="jobs" data-jobsBrand="bt" data-jobsSkew="lifestyle2" data-jobsWidth="620" data-jobsHeight="210"></div><!-- id:jobs -->
+
+                <div class="customSuggestions cfix hidden" data-siteid="9222289450909507105" data-brand="brisbanetimes.com.au" data-section="LifeStyle" data-clippable="true"></div>
+
+                <div class="OUTBRAIN" data-src="http://www.brisbanetimes.com.au/lifestyle/weddings/bridestobe-still-prefer-husbands-name-20130926-2ugf2.html" data-widget-id="AR_1" data-ob-template="Brisbane_Times_Fairfax"></div>
+
+                <div id="comments" class="cT-comments">
+    <a id="makeComment" name="makeComment"></a>
+    <h3>
+
+
+</h3>
+            <h2>86 comments</h2>
+        <ul class="comments">
+                <li>
+                        <blockquote><p><p>The author of this article seems to have a problem with 82% of brides to be. Is this news or an opinion piece??</p></p></blockquote>
+                <dl>
+                        <dt class="hiddenVisually">Commenter</dt>
+                        <dd><cite>Anastasios</cite></dd>
+                        <dt class="hiddenVisually">Location</dt>
+                        <dd>Melbourne</dd>
+                    <dt class="hiddenVisually">Date and time</dt>
+                    <dd class="dateTime">September 27, 2013, 6:52AM</dd>
+                </dl>
+                    <ul>
+                <li>
+                        <blockquote><p><p>How about the fact that this survey is based on readers of &quot;Bride to Be&quot; magazine - ie women who buy into the big white dress fantasy wedding, who are likely to be more traditional and conservative and thus take their husband's name. </p><p>No doubt a majority of women do take their husband's name, but anecdotally speaking I wouldn't say it's as high as 82%. </p><p>If you surveyed a wider range of brides you might have found a higher percentage keeping their name. I didn't change my name when I married, and neither did I buy copies of &quot;Bride to Be&quot; magazine (or answer their surveys).</p><p>Shame the journalist didn't bother to look for a more representative survey.</p></p></blockquote>
+                <dl>
+                        <dt class="hiddenVisually">Commenter</dt>
+                        <dd><cite>bobette woodward</cite></dd>
+                        <dt class="hiddenVisually">Location</dt>
+                        <dd>washington</dd>
+                    <dt class="hiddenVisually">Date and time</dt>
+                    <dd class="dateTime">September 27, 2013, 10:18AM</dd>
+                </dl>
+                    </li>
+                <li>
+                        <blockquote><p><p>Many people seem to ignore the fact that most brides actually want to change when the time comes. Feminism shouldn't be about smashing down existing gender based conventions, it should be about women having the power to make their own choices. If my wife wants to ditch her simple 3 letter surname and take on my painful 11 letter surname that's her choice.</p></p></blockquote>
+                <dl>
+                        <dt class="hiddenVisually">Commenter</dt>
+                        <dd><cite>Mick</cite></dd>
+                        <dt class="hiddenVisually">Location</dt>
+                        <dd></dd>
+                    <dt class="hiddenVisually">Date and time</dt>
+                    <dd class="dateTime">September 27, 2013, 11:04AM</dd>
+                </dl>
+                    </li>
+                <li>
+                        <blockquote><p><p>I think it's more 'human interest' story to fill up the paper and create controversy in the comments section than 'journalism' per se.</p><p>Anyway, people who are less traditional when it comes to marriage simply don't.  Don't get married, that is.  Then no-one is having to run around changing names... let alone planning weddings or buying Bride to Be magazine (sounds frightfully scary!).</p><p>Mind you I can understand why some couples may choose to have a common family name when they have children, but that is still a personal choice.  I have not found it at all difficult having family/kids when my partner and I have different surnames - it is the 21st century after all.</p></p></blockquote>
+                <dl>
+                        <dt class="hiddenVisually">Commenter</dt>
+                        <dd><cite>cj</cite></dd>
+                        <dt class="hiddenVisually">Location</dt>
+                        <dd></dd>
+                    <dt class="hiddenVisually">Date and time</dt>
+                    <dd class="dateTime">September 27, 2013, 11:13AM</dd>
+                </dl>
+                    </li>
+                    </ul></li>
+                <li>
+                        <blockquote><p><p>I took onmy husbands name- as it meant alot to him. However it has been a very frustrating thing at times- trying to prove an identity- especially with a house move. I cannot understand why there cannot be a reference on our drivers licenses for example, of the former maiden name, as well. It would<br>Make so much more sense.</p></p></blockquote>
+                <dl>
+                        <dt class="hiddenVisually">Commenter</dt>
+                        <dd><cite>Funkycold</cite></dd>
+                    <dt class="hiddenVisually">Date and time</dt>
+                    <dd class="dateTime">September 27, 2013, 6:59AM</dd>
+                </dl>
+                    <ul>
+                    </ul></li>
+                <li>
+                        <blockquote><p><p>My husband and I are about to hyphenate, adding each other's surnames. As a believer in equal rights and history, our children will carry both our names and a woman's family history will be carried on. Makes sense to my husband and I.</p></p></blockquote>
+                <dl>
+                        <dt class="hiddenVisually">Commenter</dt>
+                        <dd><cite>LJ Fleming</cite></dd>
+                    <dt class="hiddenVisually">Date and time</dt>
+                    <dd class="dateTime">September 27, 2013, 7:10AM</dd>
+                </dl>
+                    <ul>
+                <li>
+                        <blockquote><p><p>Understood, just hope your grandchilden haven't had to deal with too many people with your opinion because their name will be Billy Surname1-Surname2-Surname3-Surname4-Surname5-Surname6-Surname7-Surname8</p><p>Hope that makes sense to you and your husband.</p></p></blockquote>
+                <dl>
+                        <dt class="hiddenVisually">Commenter</dt>
+                        <dd><cite>Wal</cite></dd>
+                        <dt class="hiddenVisually">Location</dt>
+                        <dd>Brisbane</dd>
+                    <dt class="hiddenVisually">Date and time</dt>
+                    <dd class="dateTime">September 27, 2013, 7:32AM</dd>
+                </dl>
+                    </li>
+                <li>
+                        <blockquote><p><p>That's what my parents did - I grew up with a hyphenated surname. I decided to get rid of the hyphen when I married, and took my husband's surname. To hyphenate his surname with one of the &quot;barrels&quot; of mine wasn't going to work (and would have involved a choice of which of my parents' names to keep), so I went with the &quot;easy&quot; option, and changed mine. To tell the truth, I never liked having a hyphenated surname (have a 9-letter first name so the whole thing was quite a mouthful!), but this is such a personal thing - many people love their hyphenated surnames. I did feel quite un-feminist &quot;taking my husband's surname&quot;, but I saw it as an opportunity to get rid of a clunky surname that I never really felt comfortable with. If I had had a surname that I loved - I wouldn't have changed it.</p></p></blockquote>
+                <dl>
+                        <dt class="hiddenVisually">Commenter</dt>
+                        <dd><cite>To hyphen or not to hyphen</cite></dd>
+                        <dt class="hiddenVisually">Location</dt>
+                        <dd>Melbourne</dd>
+                    <dt class="hiddenVisually">Date and time</dt>
+                    <dd class="dateTime">September 27, 2013, 7:49AM</dd>
+                </dl>
+                    </li>
+                <li>
+                        <blockquote><p><p>Wal,</p><p>That's exactly what I'm thinking : )</p></p></blockquote>
+                <dl>
+                        <dt class="hiddenVisually">Commenter</dt>
+                        <dd><cite>sean t</cite></dd>
+                        <dt class="hiddenVisually">Location</dt>
+                        <dd></dd>
+                    <dt class="hiddenVisually">Date and time</dt>
+                    <dd class="dateTime">September 27, 2013, 8:08AM</dd>
+                </dl>
+                    </li>
+                <li>
+                        <blockquote><p><p>@<br>Wal: narky response.  What do you suppose they do in Spain, where kids have the surnames of both parents?  They're not the only country to manage without having the woman's identity completely disappear, either.</p><p>Anyone who suggests there's an ongoing problem with using both surnames is short-sighted.</p></p></blockquote>
+                <dl>
+                        <dt class="hiddenVisually">Commenter</dt>
+                        <dd><cite>bornagirl</cite></dd>
+                        <dt class="hiddenVisually">Location</dt>
+                        <dd>Melbourne</dd>
+                    <dt class="hiddenVisually">Date and time</dt>
+                    <dd class="dateTime">September 27, 2013, 8:15AM</dd>
+                </dl>
+                    </li>
+                    </ul></li>
+        </ul>
+            <p class="more-comments"><span><a href="javascript:;" data-assetId=d-2ugf2>More comments</a></span></p>
+            <b>Comments are now closed</b>
+    
+
+
+
+</div><!-- id:comments -->
+
+            
+            
+            
+            <div class="meta">
+    <!--We need to call this as a dynamic component, to many variants meant i had to start hacking it for different sections -->
+<ul class="social  cfix">
+
+        <li class="tweet">
+            <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://www.brisbanetimes.com.au/lifestyle/weddings/bridestobe-still-prefer-husbands-name-20130926-2ugf2.html" data-via="brisbanetimes" data-text="Brides-to-be still prefer husband's name">Tweet</a>
+        </li>
+        <li class="fblike"><fb:like href="http://www.brisbanetimes.com.au/lifestyle/weddings/bridestobe-still-prefer-husbands-name-20130926-2ugf2.html" send="false" layout="button_count" width="100" show_faces="false" action="recommend" font="arial"></fb:like></li>
+        <li class="gplus"><div class="g-plus" data-action="share" data-annotation="bubble"></div></li>
+        <li class="linkedin"><script type="IN/Share" data-url="http://www.brisbanetimes.com.au/lifestyle/weddings/bridestobe-still-prefer-husbands-name-20130926-2ugf2.html"></script></li>
+        <li class="pinterest"><a href="http://pinterest.com/pin/create/button/?url=http://www.brisbanetimes.com.au/lifestyle/weddings/bridestobe-still-prefer-husbands-name-20130926-2ugf2.html&media=http://images.brisbanetimes.com.au/2013/09/27/4781781/kate-729.jpg&description=Kate Winslet with husband Ned Rocknroll" class="pin-it-button pinterest" count-layout="horizontal">Pin It</a></li>
+        <li class="reddit"><a href="http://www.reddit.com/submit?url=http://www.brisbanetimes.com.au/lifestyle/weddings/bridestobe-still-prefer-husbands-name-20130926-2ugf2.html&title=Brides-to-be still prefer husband's name">submit to reddit</a></li>
+    <li class="email"><a href="/action/emailToFriend?id=4780190" title="Email to a friend" rel="nofollow" data-emailSocialLink="true" data-emailUrl="/action/emailToFriend?id=4780190">Email article</a></li>
+    <li class="print">
+            <a href="/action/printArticle?id=4780190" title="Print this story" rel="nofollow" data-printSocialLink="true" data-printUrl="/action/printArticle?id=4780190">Print</a>
+    </li>
+</ul>
+</div><!-- class:meta -->
+
+            
+            
+        </div><!-- id:content -->
+        <div class="aside span-8 last" role="complementary">
+            <div id="adspot-300x1515-pos-1" class="ad"> <script> renderIJAd("adspot-300x1515-pos-1", "dcAd-5", 'http://ad-apac.doubleclick.net/N6411/adj/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=1;' + document.dcAdsCParams +'sz=300x1515;tile=5;ord=' + dcOrd + '?', 829685381); </script> <noscript> <a href='http://ad-apac.doubleclick.net/N6411/jump/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=1;sz=300x1515;tile=5;ord=4.3799471E7?' target="_blank"> <img src='http://ad-apac.doubleclick.net/N6411/ad/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=1;sz=300x1515;tile=5;ord=4.3799471E7?' border="0" alt=""> </a> </noscript> </div>
+            
+
+                    <div id="adspot-300x600,300x250-pos-1" class="ad"> <small>Advertisement</small> <script> renderJAd("adspot-300x600,300x250-pos-1", "dcAd-6", 'http://ad-apac.doubleclick.net/N6411/adj/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=1;' + document.dcAdsCParams +'sz=300x600,300x250;tile=6;ord=' + dcOrd + '?', 472904840); </script> <noscript> <a href='http://ad-apac.doubleclick.net/N6411/jump/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=1;sz=300x600,300x250;tile=6;ord=4.3799471E7?' target="_blank"> <img src='http://ad-apac.doubleclick.net/N6411/ad/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=1;sz=300x600,300x250;tile=6;ord=4.3799471E7?' border="0" alt=""> </a> </noscript> </div>
+
+            <div id="aside-content1">
+    
+    <div class="gaTrackable" data-gaAction="Most Popular Click" data-gaCategory="Article RHS" data-gaLabel="brisbanetimes, LifeStyle, Weddings">
+    <section class="strap most-popular" id="MostPopularRHS">
+        <header class="cf">
+            <h3>
+                Most popular
+            </h3>
+        </header>
+            <article class="article clippingArea clippingAction" data-assetId="d-2v0g6" data-assetType="ARTICLE" data-assetUrl="http://www.brisbanetimes.com.au/lifestyle/celebrity/madonna-reveals-she-was-raped-at-knifepoint-as-a-young-woman-20131005-2v0g6.html">
+            <a href="http://www.brisbanetimes.com.au/lifestyle/celebrity/madonna-reveals-she-was-raped-at-knifepoint-as-a-young-woman-20131005-2v0g6.html" tabindex="0">
+                <span class="num">1</span>
+                        <a href="http://www.brisbanetimes.com.au/lifestyle/celebrity/madonna-reveals-she-was-raped-at-knifepoint-as-a-young-woman-20131005-2v0g6.html" title="Madonna reveals she was raped at knifepoint as a young woman"><img src="http://images.brisbanetimes.com.au/2013/10/05/4806152/JT_thumbnail_madonna-20131005113136418487-90x60.jpg" width="90" height="60" alt="** FILE ** In this Dec. 2, 2007 file photo, Madonna attends a special screening of "Revolver" hosted by the Cinema Society and Piaget at the Tribeca Grand Hotel in New York. (AP Photo/Evan Agostini, file)" /></a>
+
+            </a>
+            <h3>
+                <a href="http://www.brisbanetimes.com.au/lifestyle/celebrity/madonna-reveals-she-was-raped-at-knifepoint-as-a-young-woman-20131005-2v0g6.html">Madonna reveals she was raped at knifepoint as a ...</a>
+            </h3>
+            <div class="article-meta">
+                <em class="access">Contains:</em>
+            </div>
+            </article>
+            <article class="article clippingArea clippingAction" data-assetId="d-2uuqp" data-assetType="BLOG_ENTRY" data-assetUrl="http://www.brisbanetimes.com.au/lifestyle/life/blogs/citykat/can-sanctioned-affairs-improve-a-marriage-20131003-2uuqp.html">
+            <a href="http://www.brisbanetimes.com.au/lifestyle/life/blogs/citykat/can-sanctioned-affairs-improve-a-marriage-20131003-2uuqp.html" tabindex="0">
+                <span class="num">2</span>
+                        <a href="http://www.brisbanetimes.com.au/lifestyle/life/blogs/citykat/can-sanctioned-affairs-improve-a-marriage-20131003-2uuqp.html" title="Can sanctioned affairs improve a marriage?"><img src="http://images.brisbanetimes.com.au/2013/10/03/4798798/rw-affair-th-20131003095230923580-90x60.jpg" width="90" height="60" alt="Affair" /></a>
+
+            </a>
+            <h3>
+                <a href="http://www.brisbanetimes.com.au/lifestyle/life/blogs/citykat/can-sanctioned-affairs-improve-a-marriage-20131003-2uuqp.html">Can sanctioned affairs improve a marriage?</a>
+            </h3>
+            <div class="article-meta">
+                <em class="access">Contains:</em>
+                    <a href="http://www.brisbanetimes.com.au/lifestyle/life/blogs/citykat/can-sanctioned-affairs-improve-a-marriage-20131003-2uuqp.html#comments"><span title="comments" class="icon comments">total comments</span>159</a>
+            </div>
+            </article>
+            <article class="article clippingArea clippingAction" data-assetId="d-7g9s" data-assetType="ARTICLE" data-assetUrl="http://www.brisbanetimes.com.au/lifestyle/horoscopes/virgo-20090114-7g9s.html">
+            <a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/virgo-20090114-7g9s.html" tabindex="0">
+                <span class="num">3</span>
+                        <a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/virgo-20090114-7g9s.html" title="Virgo"><img src="http://images.brisbanetimes.com.au/2013/08/21/4679521/1_virgo320x214-90x60.jpg" width="90" height="60" alt="1_virgo320x214" /></a>
+
+            </a>
+            <h3>
+                <a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/virgo-20090114-7g9s.html">Virgo</a>
+            </h3>
+            <div class="article-meta">
+                <em class="access">Contains:</em>
+            </div>
+            </article>
+            <article class="article clippingArea clippingAction" data-assetId="d-7g9z" data-assetType="ARTICLE" data-assetUrl="http://www.brisbanetimes.com.au/lifestyle/horoscopes/leo-20090114-7g9z.html">
+            <a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/leo-20090114-7g9z.html" tabindex="0">
+                <span class="num">4</span>
+                        <a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/leo-20090114-7g9z.html" title="Leo"><img src="http://images.brisbanetimes.com.au/2013/08/21/4679527/leo320x214-90x60.jpg" width="90" height="60" alt="leo320x214" /></a>
+
+            </a>
+            <h3>
+                <a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/leo-20090114-7g9z.html">Leo</a>
+            </h3>
+            <div class="article-meta">
+                <em class="access">Contains:</em>
+            </div>
+            </article>
+            <article class="article clippingArea clippingAction" data-assetId="d-7ga3" data-assetType="ARTICLE" data-assetUrl="http://www.brisbanetimes.com.au/lifestyle/horoscopes/aquarius-20090114-7ga3.html">
+            <a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/aquarius-20090114-7ga3.html" tabindex="0">
+                <span class="num">5</span>
+                        <a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/aquarius-20090114-7ga3.html" title="Aquarius"><img src="http://images.brisbanetimes.com.au/2013/08/21/4679515/aquarius320x214-90x60.jpg" width="90" height="60" alt="aquarius320x214" /></a>
+
+            </a>
+            <h3>
+                <a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/aquarius-20090114-7ga3.html">Aquarius</a>
+            </h3>
+            <div class="article-meta">
+                <em class="access">Contains:</em>
+            </div>
+            </article>
+    </section>
+
+</div>
+
+
+    <div id="adspot-300x70-pos-1" class="ad"> <script> renderJAd("adspot-300x70-pos-1", "dcAd-7", 'http://ad-apac.doubleclick.net/N6411/adj/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=1;' + document.dcAdsCParams +'sz=300x70;tile=7;ord=' + dcOrd + '?', 1298193940); </script> <noscript> <a href='http://ad-apac.doubleclick.net/N6411/jump/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=1;sz=300x70;tile=7;ord=4.3799471E7?' target="_blank"> <img src='http://ad-apac.doubleclick.net/N6411/ad/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=1;sz=300x70;tile=7;ord=4.3799471E7?' border="0" alt=""> </a> </noscript> </div>
+
+
+
+
+
+
+    <div class="gaTrackable" data-gaAction="Photo Gallery Click" data-gaCategory="Article RHS" data-gaLabel="brisbanetimes, LifeStyle, Weddings">
+            
+    
+    <div class="cS-photoGalleryLinks cfix">
+        <h3>Photo Galleries</h3>
+        <ul>
+                        <li>
+                            <a href="http://www.brisbanetimes.com.au/photogallery/lifestyle/fashion/celebrity-red-carpet-watch-october-4-2013-20131004-2uz07.html">
+                                    <img src="http://images.brisbanetimes.com.au/2013/10/04/4804287/th-181970131-90x60.jpg" width="89" height="60" alt="LOS ANGELES, CA - SEPTEMBER 26:  Actress Jessica Alba attends the premiere of The Film Arcade's 'A.C.O.D.' at the Landmark Theater on September 26, 2013 in Los Angeles, California.  (Photo by Jason Merritt/Getty Images)"/>
+                            </a>
+                            <p><a href="http://www.brisbanetimes.com.au/photogallery/lifestyle/fashion/celebrity-red-carpet-watch-october-4-2013-20131004-2uz07.html">Celebrity red carpet watch</a></p>
+                        </li>
+                        <li>
+                            <a href="http://www.brisbanetimes.com.au/photogallery/lifestyle/fashion/stella-mccartney-and-collette-dinnigan-at-paris-fashion-week-20131001-2upch.html">
+                                    <img src="http://images.brisbanetimes.com.au/2013/10/01/4791784/th-colette-90x60.jpg" width="90" height="60" alt="PARIS, FRANCE - SEPTEMBER 30:  A model walks the runway during the Collette Dinnigan show as part of Paris Fashion Week Womenswear Spring/Summer 2014 on September 30, 2013 in Paris, France.  (Photo by Kristy Sparow/Getty Images)"/>
+                            </a>
+                            <p><a href="http://www.brisbanetimes.com.au/photogallery/lifestyle/fashion/stella-mccartney-and-collette-dinnigan-at-paris-fashion-week-20131001-2upch.html">Stella McCartney and Collette Dinnigan at Paris Fashion Week</a></p>
+                        </li>
+                        <li>
+                            <a href="http://www.brisbanetimes.com.au/photogallery/lifestyle/fashion/celebrity-street-style-october-4-2013-20131003-2uv8g.html">
+                                    <img src="http://images.brisbanetimes.com.au/2013/10/03/4799395/celeb-street-th-90x60.jpg" width="89" height="60" alt="celeb street"/>
+                            </a>
+                            <p><a href="http://www.brisbanetimes.com.au/photogallery/lifestyle/fashion/celebrity-street-style-october-4-2013-20131003-2uv8g.html">Celebrity street style</a></p>
+                        </li>
+                        <li>
+                            <a href="http://www.brisbanetimes.com.au/photogallery/lifestyle/fashion/celebrity-red-carpet-watch-september-28-2013-20130927-2uj10.html">
+                                    <img src="http://images.brisbanetimes.com.au/2013/09/27/4783759/th-181521746-90x60.jpg" width="89" height="60" alt="WEST HOLLYWOOD, CA - SEPTEMBER 21:  Actress Claire Danes attends Showtime 2013 EMMY Eve Soiree at the Sunset Tower Hotel on September 21, 2013 in West Hollywood, California.  (Photo by Frederick M. Brown/Getty Images)"/>
+                            </a>
+                            <p><a href="http://www.brisbanetimes.com.au/photogallery/lifestyle/fashion/celebrity-red-carpet-watch-september-28-2013-20130927-2uj10.html">Celebrity red carpet watch</a></p>
+                        </li>
+                        <li>
+                            <a href="http://www.brisbanetimes.com.au/photogallery/lifestyle/homestyle/chris-hemsworth-purchases-paul-hogans-malibu-home-20130930-2una9.html">
+                                    <img src="http://images.brisbanetimes.com.au/2013/09/30/4789189/hoges-th-90x60.jpg" width="89" height="60" alt="Paul Hogan"/>
+                            </a>
+                            <p><a href="http://www.brisbanetimes.com.au/photogallery/lifestyle/homestyle/chris-hemsworth-purchases-paul-hogans-malibu-home-20130930-2una9.html">Chris Hemsworth purchases Paul Hogan's Malibu home</a></p>
+                        </li>
+                        <li>
+                            <a href="http://www.brisbanetimes.com.au/photogallery/lifestyle/fashion/65th-annual-primetime-emmy-awards-20130923-2u8k1.html">
+                                    <img src="http://images.brisbanetimes.com.au/2013/09/23/4770092/th-181587590-90x60.jpg" width="89" height="60" alt="LOS ANGELES, CA - SEPTEMBER 22:  Actress Zooey Deschanel arrives at the 65th Annual Primetime Emmy Awards held at Nokia Theatre L.A. Live on September 22, 2013 in Los Angeles, California.  (Photo by Jason Merritt/Getty Images)"/>
+                            </a>
+                            <p><a href="http://www.brisbanetimes.com.au/photogallery/lifestyle/fashion/65th-annual-primetime-emmy-awards-20130923-2u8k1.html">65th annual primetime Emmy Awards red carpet</a></p>
+                        </li>
+        </ul>
+    </div><!-- class:cS-photoGalleryLinks cfix -->
+    
+
+    </div>
+</div>
+            
+    <div id="adspot-149x170" class="ad adSpot-twin cfix"> <small>Featured advertisers</small> <script type="text/javascript"> if (ie) { renderIFAd("adspot-149x170", "dcAd-1-8", "http://ad-apac.doubleclick.net/N6411/adi/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;" + document.dcAdsCParams + "pos=1;sz=149x170;tile=8;ord=" + dcOrd + "?", 149, 170, -2017660446); } else { renderJIFAd("adspot-149x170","dcAd-1-8", "http://ad-apac.doubleclick.net/N6411/adj/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;" + document.dcAdsCParams + "pos=1;sz=149x170;tile=8;ord=" + dcOrd + "?", 149, 170, -2017660446, ""); } </script> <noscript> <iframe id="dcAd-1-8" src="http://ad-apac.doubleclick.net/N6411/adi/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=1;sz=149x170;tile=8;ord=4.3799471E7?" width='149' height='170' scrolling="no" marginheight="0" marginwidth="0" allowtransparency="true" frameborder="0"> </iframe> </noscript> <script type="text/javascript"> if (ie) { renderIFAd("adspot-149x170", "dcAd-2-9", "http://ad-apac.doubleclick.net/N6411/adi/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;" + document.dcAdsCParams + "pos=2;sz=149x170;tile=9;ord=" + dcOrd + "?", 149, 170, 1868482656); } else { renderJIFAd("adspot-149x170","dcAd-2-9", "http://ad-apac.doubleclick.net/N6411/adj/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;" + document.dcAdsCParams + "pos=2;sz=149x170;tile=9;ord=" + dcOrd + "?", 149, 170, 1868482656, ""); } </script> <noscript> <iframe id="dcAd-2-9" src="http://ad-apac.doubleclick.net/N6411/adi/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=2;sz=149x170;tile=9;ord=4.3799471E7?" width='149' height='170' scrolling="no" marginheight="0" marginwidth="0" allowtransparency="true" frameborder="0"> </iframe> </noscript> </div>
+
+
+
+            
+<div id="aside-content2">
+
+    
+    
+        <link rel="stylesheet" type="text/css" href="http://whistleout.s3.amazonaws.com/public/css/widget-v4/widget.css" />
+<link rel="stylesheet" type="text/css" href="http://whistleout.s3.amazonaws.com/public/css/widget-v4/widget_bt_smallbusiness.css" />
+
+<script type="text/javascript" src="http://whistleout.s3.amazonaws.com/public/script/widget/widgetv4_1.js"></script>
+
+<script type="text/javascript">
+<!--
+    var _wo_Tabs = 3;
+    var _wo_Carousel_Visible = new Array(0, 0, 0);
+    var _wo_TabWeightings = new Array(1, 0, 0);
+    var _wo_Carousel = new Array(9, 0, 0);
+    var _wo_CarouselWeightings = wo_GetCarouselWeightings();
+    var _wo_PI = wo_GetPI();
+    var _wo_Layouts = wo_GetLayouts();
+-->
+</script>
+
+<div id="wo-widget-wrap" class="wo-widget-wrap" style="width:300px;height:250px;margin: 0 0 25px;position:relative;overflow:hidden">
+    <div class="wo-widget-header">
+        <h3 class="wo-widget-heading">
+            Compare &amp; Save</h3>
+        <ul id="wo-widget-tabs" class="wo-widget-tabs">
+            <li id="wo-widget-tab-0" class="wo-active"><a href="javascript:wo_ShowTab(0);">Deals</a></li>
+            <li id="wo-widget-tab-1"><a href="javascript:wo_ShowTab(1);">Compare</a></li>
+            <li id="wo-widget-tab-2"><a href="javascript:wo_ShowTab(2);">Popular</a></li>
+        </ul>
+    </div>
+    <div id="wo-widget-tab-content-0">
+        <div id="wo-widget-carousel-item-0-0">
+<a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/iPhone-Plans?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=iPhone_5c_-_Compare_Plans" class="wo-widget-deal">
+<span class="wo-widget-deal-image-wrap"><img src="http://r3.whistleout.com.au/public/images/deals/widget_330x190_0913_iphone5c_j.jpg" alt="iPhone 5c - Compare Plans" class="wo-widget-deal-image"/></span>
+<h3 class="wo-widget-deal-heading">iPhone 5c - Compare Plans</h3>
+Compare plans for new iPhone 5c and iPhone 5s from all major carriers
+<span class="wo-widget-shadow">&nbsp;</span><!--[if lte IE 6]><style type="text/css">.wo-widget-shadow {display:none}</style><![endif]-->
+</a>
+<a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/iPhone-Plans?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=iPhone_5c_-_Compare_Plans" class="wo-widget-deal-cat">Compare Now</a>
+</div>
+<div id="wo-widget-carousel-item-0-1" class="wo-widget-hide">
+<a href="http://business.mobile-phones.brisbanetimes.com.au/Transact?gi=9&e=true&u=https://www.optus.com.au/shop/mobilephones/iphone/iphone5c?utm_source=wo&utm_medium=affil&utm_content=gotosit_bttn&utm_campaign=perf_mob_bau&CID=affil:wo:gotosit:bttn:osc:mob:bau:ip5C&utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=iPhone_5c_from_%7bTotalMonthlyPrice%7d%2fMth_on_Optus" class="wo-widget-deal">
+<span class="wo-widget-deal-image-wrap"><img src="http://r3.whistleout.com.au/public/images/deals/widget_330x190_0913_iphone5c_b.jpg" alt="iPhone 5c from $57/Mth on Optus" class="wo-widget-deal-image"/></span>
+<h3 class="wo-widget-deal-heading">iPhone 5c from $57/Mth on Optus</h3>
+New iPhone 5c starting at $57/Month
+<span class="wo-widget-deal-mtc">Min. Total Cost $1,368<br/> over 24 months</span><span class="wo-widget-supplier" style="background:none;padding:0;text-align:left">
+<img src="http://r3.whistleout.com.au/public/images/suppliers/small/supplier254.png" alt="Optus" />
+</span>
+<span class="wo-widget-shadow">&nbsp;</span><!--[if lte IE 6]><style type="text/css">.wo-widget-shadow {display:none}</style><![endif]-->
+</a>
+<a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Phones/Apple/Apple-iPhone-5c-16GB?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=iPhone_5c_from_%7bTotalMonthlyPrice%7d%2fMth_on_Optus" class="wo-widget-deal-cat">Compare Now</a>
+</div>
+<div id="wo-widget-carousel-item-0-2" class="wo-widget-hide">
+<a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/iPhone-Plans?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=iPhone_5s_-_Compare_Plans" class="wo-widget-deal">
+<span class="wo-widget-deal-image-wrap"><img src="http://r3.whistleout.com.au/public/images/deals/widget_330x190_0913_iphone5s_h.jpg" alt="iPhone 5s - Compare Plans" class="wo-widget-deal-image"/></span>
+<h3 class="wo-widget-deal-heading">iPhone 5s - Compare Plans</h3>
+Compare plans for the stunning iPhone 5s from all carriers
+<span class="wo-widget-shadow">&nbsp;</span><!--[if lte IE 6]><style type="text/css">.wo-widget-shadow {display:none}</style><![endif]-->
+</a>
+<a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/iPhone-Plans?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=iPhone_5s_-_Compare_Plans" class="wo-widget-deal-cat">Compare Now</a>
+</div>
+<div id="wo-widget-carousel-item-0-3" class="wo-widget-hide">
+<a href="http://business.mobile-phones.brisbanetimes.com.au/Transact?gi=9&e=true&u=https://www.optus.com.au/shop/mobilephones/iphone/iphone5s?utm_source=wo&utm_medium=affil&utm_content=gotosit_bttn&utm_campaign=perf_mob_bau&CID=affil:wo:gotosit:bttn:osc:mob:bau:ip5S&utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=iPhone_5s_from_%7bTotalMonthlyPrice%7d%2fMth_on_Optus" class="wo-widget-deal">
+<span class="wo-widget-deal-image-wrap"><img src="http://r3.whistleout.com.au/public/images/deals/widget_330x190_0913_iphone5s_i.jpg" alt="iPhone 5s from $62/Mth on Optus" class="wo-widget-deal-image"/></span>
+<h3 class="wo-widget-deal-heading">iPhone 5s from $62/Mth on Optus</h3>
+New iPhone 5s starting at $62/Month
+<span class="wo-widget-deal-mtc">Min. Total Cost $1,488<br/> over 24 months</span><span class="wo-widget-supplier" style="background:none;padding:0;text-align:left">
+<img src="http://r3.whistleout.com.au/public/images/suppliers/small/supplier254.png" alt="Optus" />
+</span>
+<span class="wo-widget-shadow">&nbsp;</span><!--[if lte IE 6]><style type="text/css">.wo-widget-shadow {display:none}</style><![endif]-->
+</a>
+<a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Phones/Apple/Apple-iPhone-5s-16GB?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=iPhone_5s_from_%7bTotalMonthlyPrice%7d%2fMth_on_Optus" class="wo-widget-deal-cat">Compare Now</a>
+</div>
+<div id="wo-widget-carousel-item-0-4" class="wo-widget-hide">
+<a href="http://business.mobile-phones.brisbanetimes.com.au/Transact?gi=9&e=true&u=https://www.optus.com.au/shop/mobilephones/samsung/galaxys4?utm_source=wo&utm_medium=affil&utm_content=gotosit_bttn&utm_campaign=perf_mob_bau&CID=affil:wo:gotosit:bttn:osc:mob:bau:galS4&utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=GALAXY_S4_from_%7bTotalMonthlyPrice%7d%2fMth_on_Optus" class="wo-widget-deal">
+<span class="wo-widget-deal-image-wrap"><img src="http://r3.whistleout.com.au/public/images/deals/widget_330x190_0813_gs4active_a.jpg" alt="GALAXY S4 from $65/Mth on Optus" class="wo-widget-deal-image"/></span>
+<h3 class="wo-widget-deal-heading">GALAXY S4 from $65/Mth on Optus</h3>
+NEW Samsung GALAXY S4 starting at $65/Month
+<span class="wo-widget-deal-mtc">Min. Total Cost $1,560<br/> over 24 months</span><span class="wo-widget-supplier" style="background:none;padding:0;text-align:left">
+<img src="http://r3.whistleout.com.au/public/images/suppliers/small/supplier254.png" alt="Optus" />
+</span>
+<span class="wo-widget-shadow">&nbsp;</span><!--[if lte IE 6]><style type="text/css">.wo-widget-shadow {display:none}</style><![endif]-->
+</a>
+<a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Phones/Samsung/Samsung-Galaxy-S4-16GB?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=GALAXY_S4_from_%7bTotalMonthlyPrice%7d%2fMth_on_Optus" class="wo-widget-deal-cat">Compare Now</a>
+</div>
+<div id="wo-widget-carousel-item-0-5" class="wo-widget-hide">
+<a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Unlimited-SIM-Only-Mobile-Phone-Plans?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=SIM_Only_Plan_Deals" class="wo-widget-deal">
+<span class="wo-widget-deal-image-wrap"><img src="http://r3.whistleout.com.au/public/images/deals/widget_330x190_0913_simdeals.jpg" alt="SIM Only Plan Deals" class="wo-widget-deal-image"/></span>
+<h3 class="wo-widget-deal-heading">SIM Only Plan Deals</h3>
+Compare the range of SIM Only (BYO Phone) plans from many carriers
+<span class="wo-widget-shadow">&nbsp;</span><!--[if lte IE 6]><style type="text/css">.wo-widget-shadow {display:none}</style><![endif]-->
+</a>
+<a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Unlimited-SIM-Only-Mobile-Phone-Plans?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=SIM_Only_Plan_Deals" class="wo-widget-deal-cat">Compare Now</a>
+</div>
+<div id="wo-widget-carousel-item-0-6" class="wo-widget-hide">
+<a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Phones/BlackBerry/BlackBerry-Z10?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=BlackBerry_Z10_-_Now_Available" class="wo-widget-deal">
+<span class="wo-widget-deal-image-wrap"><img src="http://whistleout.s3.amazonaws.com/public/images/deals/widget_330x190_0313_bbz10_c.jpg" alt="BlackBerry Z10 - Now Available" class="wo-widget-deal-image"/></span>
+<h3 class="wo-widget-deal-heading">BlackBerry Z10 - Now Available</h3>
+Available on Optus
+<span class="wo-widget-supplier" style="background:none;padding:0;text-align:left">
+<img src="http://r3.whistleout.com.au/public/images/suppliers/small/supplier254.png" alt="Optus" />
+</span>
+<span class="wo-widget-shadow">&nbsp;</span><!--[if lte IE 6]><style type="text/css">.wo-widget-shadow {display:none}</style><![endif]-->
+</a>
+<a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=BlackBerry_Z10_-_Now_Available" class="wo-widget-deal-cat">Compare Mobile Phones</a>
+</div>
+<div id="wo-widget-carousel-item-0-7" class="wo-widget-hide">
+<div class="wo-widget-item-finder">
+<div class="wo-widget-item-finder-form">
+<label for="wo_spend">
+Find a Plan</label>
+<select id="wo_spend" name="wo_spend">
+<option value="30">Up to $30</option>
+<option value="40">Up to $40</option>
+<option value="50">Up to $50</option>
+<option value="60">Up to $60</option>
+<option value="70">Up to $70</option>
+<option value="80">Up to $80</option>
+<option value="90">Up to $90</option>
+<option value="100">Up to $100</option>
+<option value="150">Up to $150</option>
+</select>
+<input type="button" value="Go!" onclick="wo_CompareMobilePhonePlans('http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Compare');">
+</div>
+<div class="wo-widget-item-finder-list">
+<strong>Popular phones | <a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=PhonePicker_CompareAll">Compare All</a></strong>
+<ul>
+<li><a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Phones/Apple/Apple-iPhone-5s-16GB?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=PhonePicker_Apple_iPhone_5s_16GB"><span>Apple iPhone 5s 16GB Plans &amp; Deals</span><img src="http://r3.whistleout.com.au/public/images/phones/Apple-iPhone-5s-16GB/Apple-iPhone-5s-16GB-1-s.png" alt="Apple iPhone 5s 16GB"></a></li>
+<li><a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Phones/Apple/Apple-iPhone-5c-16GB?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=PhonePicker_Apple_iPhone_5c_16GB"><span>Apple iPhone 5c 16GB Plans &amp; Deals</span><img src="http://r3.whistleout.com.au/public/images/phones/Apple-iPhone-5c-16GB/Apple-iPhone-5c-16GB-1-s.png" alt="Apple iPhone 5c 16GB"></a></li>
+<li><a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Phones/Apple/Apple-iPhone-5s-32GB?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=PhonePicker_Apple_iPhone_5s_32GB"><span>Apple iPhone 5s 32GB Plans &amp; Deals</span><img src="http://r3.whistleout.com.au/public/images/phones/Apple-iPhone-5s-32GB/Apple-iPhone-5s-32GB-1-s.png" alt="Apple iPhone 5s 32GB"></a></li>
+<li><a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Phones/Samsung/Samsung-Galaxy-S4-16GB?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=PhonePicker_Samsung_GALAXY_S4_16GB"><span>Samsung GALAXY S4 16GB Plans &amp; Deals</span><img src="http://r3.whistleout.com.au/public/images/phones/Samsung-Galaxy-S4-16GB/Samsung-Galaxy-S4-16GB-1-s.png" alt="Samsung GALAXY S4 16GB"></a></li>
+<li><a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Phones/Apple/Apple-iPhone-5-16GB?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=PhonePicker_Apple_iPhone_5_16GB"><span>Apple iPhone 5 16GB Plans &amp; Deals</span><img src="http://r3.whistleout.com.au/public/images/phones/Apple-iPhone-5-16GB/Apple-iPhone-5-16GB-1-s.png" alt="Apple iPhone 5 16GB"></a></li>
+<li><a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Phones/Apple/Apple-iPhone-4-8GB?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=PhonePicker_Apple_iPhone_4_8GB"><span>Apple iPhone 4 8GB Plans &amp; Deals</span><img src="http://r3.whistleout.com.au/public/images/phones/Apple-iPhone-4-8GB/Apple-iPhone-4-8GB-1-s.png" alt="Apple iPhone 4 8GB"></a></li>
+<li><a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Phones/Apple/Apple-iPhone-5s-64GB?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=PhonePicker_Apple_iPhone_5s_64GB"><span>Apple iPhone 5s 64GB Plans &amp; Deals</span><img src="http://r3.whistleout.com.au/public/images/phones/Apple-iPhone-5s-64GB/Apple-iPhone-5s-64GB-1-s.png" alt="Apple iPhone 5s 64GB"></a></li>
+<li><a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Phones/Samsung/Samsung-Galaxy-Note-3?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=PhonePicker_Samsung_Galaxy_Note_3"><span>Samsung Galaxy Note 3 Plans &amp; Deals</span><img src="http://r3.whistleout.com.au/public/images/phones/Samsung-Galaxy-Note-3/Samsung-Galaxy-Note-3-1-s.png" alt="Samsung Galaxy Note 3"></a></li>
+<li><a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Phones/Apple/Apple-iPhone-4S-16GB?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=PhonePicker_Apple_iPhone_4S_16GB"><span>Apple iPhone 4S 16GB Plans &amp; Deals</span><img src="http://r3.whistleout.com.au/public/images/phones/Apple-iPhone-4S-16GB/Apple-iPhone-4S-16GB-1-s.png" alt="Apple iPhone 4S 16GB"></a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="wo-widget-carousel-item-0-8" class="wo-widget-hide">
+<table class="wo-widget-table">
+<tbody>
+<tr class="wo-widget-row">
+<th colspan="4">
+Mobile phone deals in the market...
+</th>
+</tr>
+<tr class="wo-widget-row" onclick="location.href = 'http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Carriers/Vodafone?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=DealsCount_Vodafone';"><td class="wo-table-supplier-img"><span class="wo-widget-supplier"><img src="http://r3.whistleout.com.au/public/images/suppliers/small/supplier251.gif" alt="Vodafone"></span></td><td class="wo-table-supplier"><strong>Vodafone</strong></td><td class="wo-table-deals"><a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Carriers/Vodafone?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=DealsCount_Vodafone" onclick="wo_CancelBubble(event);">40 Deals</a></td><td class="wo-table-chart"><div style="width: 100%">&nbsp;</div></td></tr>
+<tr class="wo-widget-row" onclick="location.href = 'http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Carriers/Yatango-Mobile?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=DealsCount_Yatango_Mobile';"><td class="wo-table-supplier-img"><span class="wo-widget-supplier"><img src="http://r3.whistleout.com.au/public/images/suppliers/small/supplier485.gif" alt="Yatango Mobile"></span></td><td class="wo-table-supplier"><strong>Yatango Mobil...</strong></td><td class="wo-table-deals"><a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Carriers/Yatango-Mobile?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=DealsCount_Yatango_Mobile" onclick="wo_CancelBubble(event);">11 Deals</a></td><td class="wo-table-chart"><div style="width: 28%">&nbsp;</div></td></tr>
+<tr class="wo-widget-row" onclick="location.href = 'http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Carriers/OzLinked?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=DealsCount_OzLinked';"><td class="wo-table-supplier-img"><span class="wo-widget-supplier"><img src="http://r3.whistleout.com.au/public/images/suppliers/small/supplier512.gif" alt="OzLinked"></span></td><td class="wo-table-supplier"><strong>OzLinked</strong></td><td class="wo-table-deals"><a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Carriers/OzLinked?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=DealsCount_OzLinked" onclick="wo_CancelBubble(event);">8 Deals</a></td><td class="wo-table-chart"><div style="width: 20%">&nbsp;</div></td></tr>
+<tr class="wo-widget-row" onclick="location.href = 'http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Carriers/Vaya?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=DealsCount_Vaya';"><td class="wo-table-supplier-img"><span class="wo-widget-supplier"><img src="http://r3.whistleout.com.au/public/images/suppliers/small/supplier475.gif" alt="Vaya"></span></td><td class="wo-table-supplier"><strong>Vaya</strong></td><td class="wo-table-deals"><a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Carriers/Vaya?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=DealsCount_Vaya" onclick="wo_CancelBubble(event);">8 Deals</a></td><td class="wo-table-chart"><div style="width: 20%">&nbsp;</div></td></tr>
+<tr class="wo-widget-row" onclick="location.href = 'http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Carriers/Optus-Business?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=DealsCount_Optus_Business';"><td class="wo-table-supplier-img"><span class="wo-widget-supplier"><img src="http://r3.whistleout.com.au/public/images/suppliers/small/supplier360.png" alt="Optus Business"></span></td><td class="wo-table-supplier"><strong>Optus Busines...</strong></td><td class="wo-table-deals"><a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Carriers/Optus-Business?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=DealsCount_Optus_Business" onclick="wo_CancelBubble(event);">5 Deals</a></td><td class="wo-table-chart"><div style="width: 12%">&nbsp;</div></td></tr>
+</tbody>
+</table>
+</div>
+
+<script type="text/javascript">
+_wo_Layouts[0][0] = 2;
+_wo_CarouselWeightings[0][0] = 40000;
+_wo_Layouts[0][1] = 2;
+_wo_CarouselWeightings[0][1] = 40000;
+_wo_Layouts[0][2] = 2;
+_wo_CarouselWeightings[0][2] = 20000;
+_wo_Layouts[0][3] = 2;
+_wo_CarouselWeightings[0][3] = 40000;
+_wo_Layouts[0][4] = 2;
+_wo_CarouselWeightings[0][4] = 20000;
+_wo_Layouts[0][5] = 2;
+_wo_CarouselWeightings[0][5] = 20000;
+_wo_Layouts[0][6] = 2;
+_wo_CarouselWeightings[0][6] = 3000;
+_wo_CarouselWeightings[0][7] = 1;
+_wo_CarouselWeightings[0][8] = 1;
+_wo_PI[0][8] = 'http://ad.au.doubleclick.net/ad/N6014.157012.WHISTLEOUTAU/B5510161.98;sz=1x1;ord=1820002013|http://ad.au.doubleclick.net/ad/N6014.157012.WHISTLEOUTAU/B7184649;sz=1x1;ord=1820002013|http://ad.au.doubleclick.net/ad/N6014.157012.WHISTLEOUTAU/B6823902.6;sz=1x1;ord=1820002013|http://ad.au.doubleclick.net/ad/N7057.157012.WHISTLEOUTAU/B7044588.26;sz=1x1;ord=1820002013?';
+_wo_AutoCarousel = 0;
+</script>
+
+
+        <div class="wo-widget-carousel">
+            <a href="javascript:wo_PreviousCarouselItem(0);"><span>&laquo;</span></a> <strong
+                id="wo-carousel-status-0">1 <span>of</span> 9</strong> <a href="javascript:wo_NextCarouselItem(0);">
+                    <span>&raquo;</span></a>
+        </div>
+        <span class="wo-widget-compare-heading">Deals powered by WhistleOut</span>
+    </div>
+    <div id="wo-widget-tab-content-1" class="wo-widget-hide">
+        <table class="wo-widget-table">
+            <tbody>
+                <tr class="wo-widget-row">
+                    <th>
+                        Use WhistleOut's technology to compare:
+                    </th>
+                </tr>
+                <tr class="wo-widget-row">
+                    <td class="wo-widget-product">
+                        <a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=MobilePhones">Mobile phone plans &amp; deals</a>
+                    </td>
+                </tr>
+                <tr class="wo-widget-row">
+                    <td class="wo-widget-product">
+                        <a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Phones?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=Phones">Mobile phone models</a>
+                    </td>
+                </tr>
+                <tr class="wo-widget-row">
+                    <td class="wo-widget-product">
+                        <a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Carriers?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=MobilePhoneCarriers">Mobile phone carriers</a>
+                    </td>
+                </tr>
+                <tr class="wo-widget-row">
+                    <td class="wo-widget-product">
+                        <a href="http://business.mobile-phones.brisbanetimes.com.au/Broadband?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=Broadband">Broadband plans &amp; deals</a>
+                    </td>
+                </tr>
+                <tr class="wo-widget-row">
+                    <td class="wo-widget-product">
+                        <a href="http://business.mobile-phones.brisbanetimes.com.au/Broadband/Providers?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=BroadbandProviders">Broadband providers</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <span class="wo-widget-compare-heading">Deals powered by WhistleOut</span>
+    </div>
+    <div id="wo-widget-tab-content-2" class="wo-widget-hide">
+        <table class="wo-widget-table">
+<tbody>
+<tr class="wo-widget-row">
+<th>Guides and Articles</th>
+</tr>
+<tr class="wo-widget-row">
+<td class="wo-widget-product"><a href="http://business.mobile-phones.brisbanetimes.com.au/Broadband/iiNet-Introduces-Budii-Network-Entertainment-Hub?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=iiNet_introduces_Budii%e2%84%a2_-_Network_%26_Entertainment_Hub">iiNet introduces Budii™ - Network & Entertainme...</a></td>
+</tr>
+<tr class="wo-widget-row">
+<td class="wo-widget-product"><a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Unlimited-Mobile-Phone-Plans?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=Unlimited_Mobile_Phone_Plans">Unlimited Mobile Phone Plans</a></td>
+</tr>
+<tr class="wo-widget-row">
+<td class="wo-widget-product"><a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Prepaid-Mobile-Phone-Plans-Long-Expiry?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=Prepaid_Mobile_Phone_Plans_-_Long_Expiry">Prepaid Mobile Phone Plans - Long Expiry</a></td>
+</tr>
+<tr class="wo-widget-row">
+<td class="wo-widget-product"><a href="http://business.mobile-phones.brisbanetimes.com.au/MobilePhones/Mobile-Phone-Plans-Under-$35?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=Mobile_Phone_Plans_Under_%2435">Mobile Phone Plans Under $35</a></td>
+</tr>
+<tr class="wo-widget-row">
+<td class="wo-widget-product"><a href="http://business.mobile-phones.brisbanetimes.com.au/Broadband/National-Broadband-Network-NBN-100Mbps-Plans?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=National_Broadband_Network_NBN_100Mbps_Plans">National Broadband Network NBN 100Mbps Plans</a></td>
+</tr>
+</tbody>
+</table>
+
+        <span class="wo-widget-compare-heading">Deals powered by WhistleOut</span>
+    </div>
+    <a href="http://www.whistleout.com.au/?utm_source=Widget_Fairfax_BT_SmallBusiness&utm_medium=referral&utm_campaign=WhistleOut" class="wo-widget-wolink"><b>WhistleOut</b></a>
+</div>
+
+<script type="text/javascript">
+<!--
+    try
+    {
+        wo_Randomise();
+    }
+    catch (wo_Error)
+    {
+    }
+-->
+</script>
+
+
+
+
+
+    
+
+    <div class="cS-horoscopes cfix">
+            <h3>Horoscopes</h3>
+            <div id="horoscope">
+                <img alt="Scorpio horoscope" src="http://resources.brisbanetimes.com.au/common/lifestyle/horoscope/scorpio.gif"/>
+                <p>Wear your company manners for another day. Be attentive and understanding toward others. This little sacrifice will actually help you.</p>
+                <p>...find out more <a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/scorpio-20090114-7g9y.html">here</a></p>
+            </div><!-- id:horoscope -->
+                <ul>
+            <li class="aries"><a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/aries-20090114-7g9x.html">Aries</a></li>
+            <li class="taurus"><a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/taurus-20090114-7g9u.html">Taurus</a></li>
+            <li class="gemini"><a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/gemini-20090114-7ga0.html">Gemini</a></li>
+            <li class="cancer"><a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/cancer-20090114-7ga2.html">Cancer</a></li>
+                </ul>
+                <ul>
+            <li class="leo"><a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/leo-20090114-7g9z.html">Leo</a></li>
+            <li class="virgo"><a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/virgo-20090114-7g9s.html">Virgo</a></li>
+            <li class="libra"><a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/libra-20090114-7ga1.html">Libra</a></li>
+            <li class="scorpio"><a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/scorpio-20090114-7g9y.html">Scorpio</a></li>
+                </ul>
+                <ul>
+            <li class="sagittarius"><a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/sagittarius-20090114-7g9t.html">Sagittarius</a></li>
+            <li class="capricorn"><a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/capricorn-20090114-7g9v.html">Capricorn</a></li>
+            <li class="aquarius"><a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/aquarius-20090114-7ga3.html">Aquarius</a></li>
+            <li class="pisces"><a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/pisces-20090114-7g9w.html">Pisces</a></li>
+                </ul>
+    </div><!-- class:cS-horoscopes cfix -->
+
+</div>
+            
+            
+                <div class="customSuggestions cfix hidden" data-siteid="9222289450909507105" data-brand="brisbanetimes.com.au" data-section="LifeStyle" data-clippable="true"></div>
+
+                <div class="OUTBRAIN" data-src="http://www.brisbanetimes.com.au/lifestyle/weddings/bridestobe-still-prefer-husbands-name-20130926-2ugf2.html" data-widget-id="SB_1" data-ob-template="Brisbane_Times_Fairfax"></div>
+
+                <div class="cfix"></div>
+                        <div id="adspot-300x250-pos-2" class="ad"> <small>Advertisement</small> <script type="text/javascript"> if (ie) { renderIFAd("adspot-300x250-pos-2", "dcAd-1-10", "http://ad-apac.doubleclick.net/N6411/adi/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=2;" + document.dcAdsCParams + "sz=300x250;tile=10;ord=" + dcOrd + "?", 300, 250, -984850306); } else { renderJIFAd("adspot-300x250-pos-2","dcAd-1-10", "http://ad-apac.doubleclick.net/N6411/adj/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=2;" + document.dcAdsCParams + "sz=300x250;tile=10;ord=" + dcOrd + "?", 300, 250, -984850306, ""); } </script> <noscript> <iframe id="dcAd-1-10" src="http://ad-apac.doubleclick.net/N6411/adi/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=2;sz=300x250;tile=10;ord=4.3799471E7?" width='300' height='250' scrolling="no" marginheight="0" marginwidth="0" allowtransparency="true" frameborder="0"> </iframe> </noscript> </div>
+        </div><!-- class:aside span-8 last -->
+        <!-- Footer fN-footerNetwork (class according to new HTML5 element 'footer'; scope: network-wide) -->
+<div class="footer span-24" role="contentinfo">
+    
+    <div class="c5 classifieds cfix">
+                            <div class="s1 cBT">
+                            <!-- Campaign ID: 1262328 -->
+                            <h2><a title="Life & Style" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip" href="http://www.brisbanetimes.com.au">Life & Style</a></h2>
+                                        <div class="puff">
+                                                <a href="http://www.smh.com.au/lifestyle/life/dna-love-match-20130716-2q0vk.html" rel="nofollow" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip"  >
+    <img src="http://images.brisbanetimes.com.au/2013/07/17/4576706/DNA-love-test-172-x-115-172x115.jpg" width="172" alt="DNA love test"/></a>
+
+                                            <h5><a href="http://www.smh.com.au/lifestyle/life/dna-love-match-20130716-2q0vk.html" rel="nofollow" title="dnalovematch?" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">DNA love match?</a></h5>
+                                        </div><!-- class:puff -->
+                                        <ul><li class="lBT"><a href="http://www.brisbanetimes.com.au" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">Brisbanetimes.com.au</a></li>
+                                        <li><a href="http://www.brisbanetimes.com.au/lifestyle/beauty" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">Beauty</a></li>
+                                        <li><a href="http://www.brisbanetimes.com.au/lifestyle/fashion" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">Fashion</a></li>
+                                        <li><a href="http://www.brisbanetimes.com.au/lifestyle/celebrity" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">People</a></li>
+                                </ul>
+                        </div><!-- class:s1 cBT -->
+                        <div class="s2 cMycareer">
+                            <!-- Campaign ID: 1262332 -->
+                            <h2><a title="Jobs" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip" href="http://www.mycareer.com.au">Jobs</a></h2>
+                                        <div class="puff">
+                                                <a href="http://mycareer.com.au/search/?s=777" rel="nofollow" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip"  >
+    <img src="http://images.brisbanetimes.com.au/2013/04/16/4196395/08-172x115.jpg" width="172" alt="Search for 1000's of jobs"/></a>
+
+                                            <h5><a href="http://mycareer.com.au/search/?s=777" rel="nofollow" title="searchfor1000sofjobsaroundaustralia" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">Search for 1000s of jobs around Australia</a></h5>
+                                        </div><!-- class:puff -->
+                                        <ul><li class="lMycareer"><a href="http://www.mycareer.com.au" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">Mycareer.com.au</a></li>
+                                        <li><a href="http://mycareer.com.au/tools/createJobAlert" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">Set up an email job alert</a></li>
+                                        <li><a href="http://mycareer.com.au/" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">Search for a new job</a></li>
+                                        <li><a href="http://content.mycareer.com.au/salary-centre" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">What are you worth?</a></li>
+                                </ul>
+                        </div><!-- class:s2 cMycareer -->
+                        <div class="s3 cInvestSmart">
+                            <!-- Campaign ID: 1262337 -->
+                            <h2><a title="Managed Funds" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip" href="http://www.investsmart.com.au">Managed Funds</a></h2>
+                                        <div class="puff">
+                                            
+                                            <h5><a href="http://www.investsmart.com.au/shares/Default.asp" rel="nofollow" title="sharetrading" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">Share Trading</a></h5>
+                                        </div><!-- class:puff -->
+                                        <ul><li class="lInvestSmart"><a href="http://www.investsmart.com.au" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">Investsmart.com.au</a></li>
+                                        <li><a href="http://cash.investsmart.com.au/home-loans?s_rid=rainbowstrip:besthomeloans" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">Best Home loan Rates!</a></li>
+                                        <li><a href="http://cash.investsmart.com.au/savings-accounts?s_rid=rainbowstrip:savingsaccbl" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">4.77% On Savings Accounts!</a></li>
+                                        <li><a href="http://cash.investsmart.com.au/term-deposits?s_rid=rainbowstrip:termdepositsbl" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">3.9% Term Deposit!</a></li>
+                                </ul>
+                        </div><!-- class:s3 cInvestSmart -->
+                        <div class="s4 cStayz">
+                            <!-- Campaign ID: 1262338 -->
+                            <h2><a title="Holiday Rentals" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip" href="http://www.stayz.com.au">Holiday Rentals</a></h2>
+                                        <div class="puff">
+                                                <a href="http://www.stayz.com.au/" rel="nofollow" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip"  >
+    <img src="http://images.brisbanetimes.com.au/2012/07/20/3470649/Deepdene_104587-172x115.jpg" width="172" alt="Stayz"/></a>
+
+                                            <h5><a href="http://www.stayz.com.au/" rel="nofollow" title="choosefrom34,000beautifulholidayrentalsaustralia-wide" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">Choose from 34,000 beautiful holiday rentals Australia-wide</a></h5>
+                                        </div><!-- class:puff -->
+                                        <ul><li class="lStayz"><a href="http://www.stayz.com.au" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">Stayz.com.au</a></li>
+                                        <li><a href="http://www.stayz.com.au/family-accommodation" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">Family holidays</a></li>
+                                        <li><a href="http://www.stayz.com.au/accommodation/qld/gold-coast/surfers-paradise" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">Sunshine Coast accommodation</a></li>
+                                        <li><a href="http://www.stayz.com.au/accommodation/nsw/northern-rivers-byron-bay" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">Byron Bay rentals</a></li>
+                                </ul>
+                        </div><!-- class:s4 cStayz -->
+                        <div class="s5 cTheVine">
+                            <!-- Campaign ID: 1262341 -->
+                            <h2><a title="TheVine" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip" href="http://www.thevine.com.au">TheVine</a></h2>
+                                        <div class="puff">
+                                                <a href="http://thevine.com.au/fashion/life/why-i-hate-the-word-panties/?utm_source=FD&utm_medium=rainbow&utm_campaign=panties" rel="nofollow" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip"  >
+    <img src="http://images.brisbanetimes.com.au/2013/08/12/4654768/1_PAINTIES-172x115.jpg" width="172" alt="panties"/></a>
+
+                                            <h5><a href="http://thevine.com.au/fashion/life/why-i-hate-the-word-panties/?utm_source=FD&utm_medium=rainbow&utm_campaign=panties" rel="nofollow" title="whyihatethewordpanties" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">Why I hate the word 'panties'</a></h5>
+                                        </div><!-- class:puff -->
+                                        <ul><li class="lTheVine"><a href="http://www.thevine.com.au" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">Thevine.com.au</a></li>
+                                        <li><a href="http://www.thevine.com.au/entertainment/" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">Entertainment & celebrity news</a></li>
+                                        <li><a href="http://www.thevine.com.au/fashion/?utm_source=FD&utm_medium=rainbow&utm_campaign=fashion" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">Latest fashion coverage</a></li>
+                                        <li><a href="http://www.thevine.com.au/music/?utm_source=FD&utm_medium=rainbow&utm_campaign=music" class="gaTrackable" data-gaAction="RainbowStrip Click" data-gaCategory="RainbowStrip">Music news and reviews</a></li>
+                                </ul>
+                        </div><!-- class:s5 cTheVine -->
+</div><!-- class:c5 classifieds cfix -->
+
+
+    <div class='affiliateTabsInitParams' selectedTab='6' selectedTitle='Low Rate Cards' style='visibility:hidden'></div>
+<div class="fN-affiliateStrip">
+	<h2>Compare and Save</h2>
+    <div class="cN-tabPages affiliateStrip cfix">
+        <p class="access">Skip to:</p>
+        <ul class="nav" role="navigation">
+            <li class="tab-1 selected"><a id="link-tab-1" href="#tab-1">Best Deals</a></li>
+            <li class="tab-2"><a id="link-tab-2" data-remote="true" data-remote-url="/action/displayComponent?name=au.com.fairfaxdigital.common.media.webapp.ui.StaticIncludeComponent&designVersionName=media-common-1.0&params=tab-cands-2.html" href="#tab-2">Mobile</a></li>
+            <li class="tab-3"><a id="link-tab-3" data-remote="true" data-remote-url="/action/displayComponent?name=au.com.fairfaxdigital.common.media.webapp.ui.StaticIncludeComponent&designVersionName=media-common-1.0&params=tab-cands-3.html" href="#tab-3">Broadband</a></li>
+            <li class="tab-4"><a id="link-tab-4" data-remote="true" data-remote-url="/action/displayComponent?name=au.com.fairfaxdigital.common.media.webapp.ui.StaticIncludeComponent&designVersionName=media-common-1.0&params=tab-cands-4.html" href="#tab-4">Home Loans</a></li>
+            <li class="tab-5"><a id="link-tab-5" data-remote="true" data-remote-url="/action/displayComponent?name=au.com.fairfaxdigital.common.media.webapp.ui.StaticIncludeComponent&designVersionName=media-common-1.0&params=tab-cands-5.html" href="#tab-5">Credit Cards</a></li>
+            <li class="tab-6"><a id="link-tab-6" data-remote="true" data-remote-url="/action/displayComponent?name=au.com.fairfaxdigital.common.media.webapp.ui.StaticIncludeComponent&designVersionName=media-common-1.0&params=tab-cands-6.html" href="#tab-6">Low Rate Cards</a></li>
+            <li class="tab-7"><a id="link-tab-7" data-remote="true" data-remote-url="/action/displayComponent?name=au.com.fairfaxdigital.common.media.webapp.ui.StaticIncludeComponent&designVersionName=media-common-1.0&params=tab-cands-7.html" href="#tab-7">Rewards Cards</a></li>
+            <li class="tab-8"><a id="link-tab-8" data-remote="true" data-remote-url="/action/displayComponent?name=au.com.fairfaxdigital.common.media.webapp.ui.StaticIncludeComponent&designVersionName=media-common-1.0&params=tab-cands-8.html" href="#tab-8">Savings Accts</a></li>
+            <li class="tab-9"><a id="link-tab-9" data-remote="true" data-remote-url="/action/displayComponent?name=au.com.fairfaxdigital.common.media.webapp.ui.StaticIncludeComponent&designVersionName=media-common-1.0&params=tab-cands-9.html" href="#tab-9">Term Deposits</a></li>
+            <li class="tab-10 last"><a id="link-tab-10" data-remote="true" data-remote-url="/action/displayComponent?name=au.com.fairfaxdigital.common.media.webapp.ui.StaticIncludeComponent&designVersionName=media-common-1.0&params=tab-cands-10.html" href="#tab-10">Loans</a></li>
+        </ul>
+
+        <div id="tab-1" class="tab selected cfix" aria-live="polite" onclick="trackCompareAndSave(event)">
+            <h3>Check out today's best deals</h3>
+            <div class="one">
+                <h3><a href="http://compare.brisbanetimes.com.au/home-loans?utm_source=CS_front&utm_medium=CnS&utm_campaign=HL_loans451" class="gaTrackable" data-gaAction="1" data-gaCategory="CompareSave" data-gaLabel="1" data-productType="Best Deals">Top Variable Rate</a></h3>
+                <a href="http://compare.brisbanetimes.com.au/home-loans?utm_source=CS_front&utm_medium=CnS&utm_campaign=HL_loans451" class="gaTrackable" data-gaAction="1" data-gaCategory="CompareSave" data-gaLabel="1" data-productType="Best Deals"><img src="http://images.brisbanetimes.com.au/compareandsave/cs-loans-451-pa.png" width="60" height="50" /></a>
+                <p><a href="http://compare.brisbanetimes.com.au/home-loans?utm_source=CS_front&utm_medium=CnS&utm_campaign=HL_loans451" class="gaTrackable" data-gaAction="1" data-gaCategory="CompareSave" data-gaLabel="1" data-productType="Best Deals">Australia's cheapest home loan. Borrow up to 80%.</a></p>
+                <span></span>
+                <p class="links"><a href="http://compare.brisbanetimes.com.au/home-loans?utm_source=CS_front&utm_medium=CnS&utm_campaign=HL_loans451" class="gaTrackable" data-gaAction="1" data-gaCategory="CompareSave" data-gaLabel="1" data-productType="Best Deals">Find Out More</a></p>
+            </div>
+            <div class="two">
+                <h3><a href="http://compare.brisbanetimes.com.au/credit-cards?utm_source=CS_front&utm_medium=CnS&utm_campaign=CC_HSBC&mpp_tab=5" class="gaTrackable" data-gaAction="1" data-gaCategory="CompareSave" data-gaLabel="2" data-productType="Best Deals">No Annual Fee Ever</a></h3>
+                <a href="http://compare.brisbanetimes.com.au/credit-cards?utm_source=CS_front&utm_medium=CnS&utm_campaign=CC_HSBC&mpp_tab=5" class="gaTrackable" data-gaAction="1" data-gaCategory="CompareSave" data-gaLabel="2" data-productType="Best Deals"><img src="http://images.brisbanetimes.com.au/compareandsave/hsbc-cc-cs.gif" width="60" height="50" /></a>
+                <p><a href="http://compare.brisbanetimes.com.au/credit-cards?utm_source=CS_front&utm_medium=CnS&utm_campaign=CC_HSBC&mpp_tab=5" class="gaTrackable" data-gaAction="1" data-gaCategory="CompareSave" data-gaLabel="2" data-productType="Best Deals">Plus 0% p.a. balance transfer rate for 6 months</a></p>
+                <span></span>
+                <p class="links"><a href="http://compare.brisbanetimes.com.au/credit-cards?utm_source=CS_front&utm_medium=CnS&utm_campaign=CC_HSBC&mpp_tab=5" class="gaTrackable" data-gaAction="1" data-gaCategory="CompareSave" data-gaLabel="2" data-productType="Best Deals">Check It Out</a></p>
+            </div>
+            <div class="three">
+                <h3><a href="http://compare.brisbanetimes.com.au/car-loans?utm_source=CS_front&utm_medium=CnS&utm_campaign=CL_merc" class="gaTrackable" data-gaAction="1" data-gaCategory="CompareSave" data-gaLabel="3" data-productType="Best Deals">Cheap Car Loans</a></h3>
+                <a href="http://compare.brisbanetimes.com.au/car-loans?utm_source=CS_front&utm_medium=CnS&utm_campaign=CL_merc" class="gaTrackable" data-gaAction="1" data-gaCategory="CompareSave" data-gaLabel="3" data-productType="Best Deals"><img src="http://images.brisbanetimes.com.au/compareandsave/cs-car-gift.png" width="60" height="50" /></a>
+                <p><a href="http://compare.brisbanetimes.com.au/car-loans?utm_source=CS_front&utm_medium=CnS&utm_campaign=CL_merc" class="gaTrackable" data-gaAction="1" data-gaCategory="CompareSave" data-gaLabel="3" data-productType="Best Deals">Drive a bargain with car loans from just 7.63% p.a.</a></p>
+                <span></span>
+                <p class="links"><a href="http://compare.brisbanetimes.com.au/car-loans?utm_source=CS_front&utm_medium=CnS&utm_campaign=CL_merc" class="gaTrackable" data-gaAction="1" data-gaCategory="CompareSave" data-gaLabel="3" data-productType="Best Deals">Compare Car Loans</a></p>
+            </div>
+            <div class="four">
+                <h3><a href="http://mobile-phones.brisbanetimes.com.au/MobilePhones/iPhone-Plans?utm_source=Widget_Fairfax_SMH_CompareAndSave&utm_medium=referral&utm_campaign=iPhone_5c_Plans" class="gaTrackable" data-gaAction="1" data-gaCategory="CompareSave" data-gaLabel="4" data-productType="Best Deals">iPhone 5c Plans</a></h3>
+                <a href="http://mobile-phones.brisbanetimes.com.au/MobilePhones/iPhone-Plans?utm_source=Widget_Fairfax_SMH_CompareAndSave&utm_medium=referral&utm_campaign=iPhone_5c_Plans" class="gaTrackable" data-gaAction="1" data-gaCategory="CompareSave" data-gaLabel="4" data-productType="Best Deals"><img src="http://images.brisbanetimes.com.au/compareandsave/mobile_160x70_0913_iphone5c_l.jpg" width="60" height="50" /></a>
+                <p><a href="http://mobile-phones.brisbanetimes.com.au/MobilePhones/iPhone-Plans?utm_source=Widget_Fairfax_SMH_CompareAndSave&utm_medium=referral&utm_campaign=iPhone_5c_Plans" class="gaTrackable" data-gaAction="1" data-gaCategory="CompareSave" data-gaLabel="4" data-productType="Best Deals">Compare iPhone 5c Plans from all major carriers</a></p>
+                <span></span>
+                <p class="links"><a href="http://mobile-phones.brisbanetimes.com.au/MobilePhones/iPhone-Plans?utm_source=Widget_Fairfax_SMH_CompareAndSave&utm_medium=referral&utm_campaign=iPhone_5c_Plans" class="gaTrackable" data-gaAction="1" data-gaCategory="CompareSave" data-gaLabel="4" data-productType="Best Deals">iPhone 5c Plans</a></p>
+            </div>
+            <div class="five">
+                <h3><a href="http://mobile-phones.brisbanetimes.com.au/MobilePhones/iPhone-Plans?utm_source=Widget_Fairfax_SMH_CompareAndSave&utm_medium=referral&utm_campaign=iPhone_5s_Plans" class="gaTrackable" data-gaAction="1" data-gaCategory="CompareSave" data-gaLabel="5" data-productType="Best Deals">iPhone 5s Plans</a></h3>
+                <a href="http://mobile-phones.brisbanetimes.com.au/MobilePhones/iPhone-Plans?utm_source=Widget_Fairfax_SMH_CompareAndSave&utm_medium=referral&utm_campaign=iPhone_5s_Plans" class="gaTrackable" data-gaAction="1" data-gaCategory="CompareSave" data-gaLabel="5" data-productType="Best Deals"><img src="http://images.brisbanetimes.com.au/compareandsave/mobile_160x70_0913_iphone5s_p.jpg" width="60" height="50" /></a>
+                <p><a href="http://mobile-phones.brisbanetimes.com.au/MobilePhones/iPhone-Plans?utm_source=Widget_Fairfax_SMH_CompareAndSave&utm_medium=referral&utm_campaign=iPhone_5s_Plans" class="gaTrackable" data-gaAction="1" data-gaCategory="CompareSave" data-gaLabel="5" data-productType="Best Deals">Compare iPhone 5s Plans from all major carriers</a></p>
+                <span></span>
+                <p class="links"><a href="http://mobile-phones.brisbanetimes.com.au/MobilePhones/iPhone-Plans?utm_source=Widget_Fairfax_SMH_CompareAndSave&utm_medium=referral&utm_campaign=iPhone_5s_Plans" class="gaTrackable" data-gaAction="1" data-gaCategory="CompareSave" data-gaLabel="5" data-productType="Best Deals">iPhone 5s Plans</a></p>
+            </div>
+        </div>
+
+        <div id="tab-2" class="tab cfix" aria-live="polite" onclick="trackCompareAndSave(event)">
+        </div>
+
+        <div id="tab-3" class="tab cfix" aria-live="polite" onclick="trackCompareAndSave(event)">
+        </div>
+
+        <div id="tab-4" class="tab cfix" aria-live="polite" onclick="trackCompareAndSave(event)">
+        </div>
+
+        <div id="tab-5" class="tab cfix" aria-live="polite" onclick="trackCompareAndSave(event)">
+        </div>
+
+        <div id="tab-6" class="tab cfix" aria-live="polite" onclick="trackCompareAndSave(event)">
+        </div>
+
+        <div id="tab-7" class="tab cfix" aria-live="polite" onclick="trackCompareAndSave(event)">
+        </div>
+
+        <div id="tab-8" class="tab cfix" aria-live="polite" onclick="trackCompareAndSave(event)">
+        </div>
+
+        <div id="tab-9" class="tab cfix" aria-live="polite" onclick="trackCompareAndSave(event)">
+        </div>
+
+        <div id="tab-10" class="tab cfix" aria-live="polite" onclick="trackCompareAndSave(event)">
+        </div>
+
+    </div>
+    <script>
+        function trackCompareAndSave(e) {
+            if(s){
+                var node = e.target;
+                if(node.tagName.toLowerCase() == "img") {
+                    node = node.parentNode;
+                }
+                var productType = node.getAttribute("data-productType");
+                if(productType) {
+                    var brand = s.prop1;
+                    var section = s.prop2;
+                    var provider = "Various";
+                    var location = "bottom";
+                    s.events = "event22";
+                    s.eVar22 = brand + "-" + section + "-" + provider + "-" + productType + "-" + location;
+                    s.t();
+                }
+            }
+        }
+    </script>
+</div>
+        
+<!-- Reader's most viewed -->
+<div class="c5 top5 cfix">
+    <h2 class="cfix">Readers' most viewed</h2>
+
+            <div class="s1 lSmh">
+                <a href="http://www.smh.com.au">Most viewed articles on The Sydney Morning Herald</a>
+                <h5>Top 5 <a href="http://www.smh.com.au/lifestyle">LifeStyle</a> articles</h5>
+    <ol>
+            <li><a href="http://www.smh.com.au/lifestyle/celebrity/madonna-reveals-she-was-raped-at-knifepoint-as-a-young-woman-20131005-2v0g6.html" title="Madonna reveals she was raped at knifepoint as a young woman" style="">Madonna reveals she was raped at knifepoint as a young woman</a></li>
+            <li><a href="http://www.smh.com.au/lifestyle/private-sydney/prince-harrys-royal-flush-20131004-2uxzf.html" title="Prince Harry's royal flush" style="">Prince Harry's royal flush</a></li>
+            <li><a href="http://www.smh.com.au/lifestyle/life/blogs/citykat/can-sanctioned-affairs-improve-a-marriage-20131003-2uuqp.html" title="Can sanctioned affairs improve a marriage?" style="">Can sanctioned affairs improve a marriage?</a></li>
+            <li><a href="http://www.smh.com.au/lifestyle/a-month-to-remember-20131001-2uqh3.html" title="A month to remember" style="">A month to remember</a></li>
+            <li><a href="http://www.smh.com.au/lifestyle/horoscopes/virgo-20090114-7g9s.html" title="Virgo" style="">Virgo</a></li>
+    </ol>
+
+            </div>
+            <div class="s2 lAge">
+                <a href="http://www.theage.com.au">Most viewed articles on The Age</a>
+                <h5>Top 5 <a href="http://www.theage.com.au/lifestyle">LifeStyle</a> articles</h5>
+    <ol>
+            <li><a href="http://www.theage.com.au/lifestyle/celebrity/madonna-reveals-she-was-raped-at-knifepoint-as-a-young-woman-20131005-2v0g6.html" title="Madonna reveals she was raped at knifepoint as a young woman" style="">Madonna reveals she was raped at knifepoint as a young woman</a></li>
+            <li><a href="http://www.theage.com.au/lifestyle/life/blogs/citykat/can-sanctioned-affairs-improve-a-marriage-20131003-2uuqp.html" title="Can sanctioned affairs improve a marriage?" style="">Can sanctioned affairs improve a marriage?</a></li>
+            <li><a href="http://www.theage.com.au/lifestyle/horoscopes/leo-20090114-7g9z.html" title="Leo" style="">Leo</a></li>
+            <li><a href="http://www.theage.com.au/lifestyle/horoscopes/virgo-20090114-7g9s.html" title="Virgo" style="">Virgo</a></li>
+            <li><a href="http://www.theage.com.au/lifestyle/horoscopes/capricorn-20090114-7g9v.html" title="Capricorn" style="">Capricorn</a></li>
+    </ol>
+
+            </div>
+            <div class="s3 lWAToday">
+                <a href="http://www.watoday.com.au">Most viewed articles on WA Today</a>
+                <h5>Top 5 <a href="http://www.watoday.com.au/lifestyle">LifeStyle</a> articles</h5>
+    <ol>
+            <li><a href="http://www.watoday.com.au/lifestyle/celebrity/madonna-reveals-she-was-raped-at-knifepoint-as-a-young-woman-20131005-2v0g6.html" title="Madonna reveals she was raped at knifepoint as a young woman" style="">Madonna reveals she was raped at knifepoint as a young woman</a></li>
+            <li><a href="http://www.watoday.com.au/lifestyle/life/blogs/citykat/can-sanctioned-affairs-improve-a-marriage-20131003-2uuqp.html" title="Can sanctioned affairs improve a marriage?" style="">Can sanctioned affairs improve a marriage?</a></li>
+            <li><a href="http://www.watoday.com.au/lifestyle/horoscopes/cancer-20090114-7ga2.html" title="Cancer" style="">Cancer</a></li>
+            <li><a href="http://www.watoday.com.au/lifestyle/horoscopes/capricorn-20090114-7g9v.html" title="Capricorn" style="">Capricorn</a></li>
+            <li><a href="http://www.watoday.com.au/lifestyle/horoscopes/leo-20090114-7g9z.html" title="Leo" style="">Leo</a></li>
+    </ol>
+
+            </div>
+            <div class="s4 lCanberratimes">
+                <a href="http://www.canberratimes.com.au">Most viewed articles on Canberra Times</a>
+                <h5>Top 5 <a href="http://www.canberratimes.com.au/lifestyle">LifeStyle</a> articles</h5>
+    <ol>
+            <li><a href="http://www.canberratimes.com.au/lifestyle/celebrity/madonna-reveals-she-was-raped-at-knifepoint-as-a-young-woman-20131005-2v0g6.html" title="Madonna reveals she was raped at knifepoint as a young woman" style="">Madonna reveals she was raped at knifepoint as a young woman</a></li>
+            <li><a href="http://www.canberratimes.com.au/lifestyle/out-with-the-old-and-in-with-the-new-20131001-2uq4o.html" title="Out with the old and in with the new" style="">Out with the old and in with the new</a></li>
+            <li><a href="http://www.canberratimes.com.au/lifestyle/diary-of-a-breast-cancer-survivor-20131001-2uq8t.html" title="Diary of a breast cancer survivor" style="">Diary of a breast cancer survivor</a></li>
+            <li><a href="http://www.canberratimes.com.au/lifestyle/life/blogs/citykat/can-sanctioned-affairs-improve-a-marriage-20131003-2uuqp.html" title="Can sanctioned affairs improve a marriage?" style="">Can sanctioned affairs improve a marriage?</a></li>
+            <li><a href="http://www.canberratimes.com.au/lifestyle/horoscopes/pisces-20090114-7g9w.html" title="Pisces" style="">Pisces</a></li>
+    </ol>
+
+            </div>
+            <div class="s5 lBT">
+                <a href="http://www.brisbanetimes.com.au">Most viewed articles on Brisbane Times</a>
+                <h5>Top 5 <a href="http://www.brisbanetimes.com.au/lifestyle">LifeStyle</a> articles</h5>
+    <ol>
+            <li><a href="http://www.brisbanetimes.com.au/lifestyle/celebrity/madonna-reveals-she-was-raped-at-knifepoint-as-a-young-woman-20131005-2v0g6.html" title="Madonna reveals she was raped at knifepoint as a young woman" style="">Madonna reveals she was raped at knifepoint as a young woman</a></li>
+            <li><a href="http://www.brisbanetimes.com.au/lifestyle/life/blogs/citykat/can-sanctioned-affairs-improve-a-marriage-20131003-2uuqp.html" title="Can sanctioned affairs improve a marriage?" style="">Can sanctioned affairs improve a marriage?</a></li>
+            <li><a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/virgo-20090114-7g9s.html" title="Virgo" style="">Virgo</a></li>
+            <li><a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/leo-20090114-7g9z.html" title="Leo" style="">Leo</a></li>
+            <li><a href="http://www.brisbanetimes.com.au/lifestyle/horoscopes/aquarius-20090114-7ga3.html" title="Aquarius" style="">Aquarius</a></li>
+    </ol>
+
+            </div>
+</div>
+   
+                <div id="adspot-728x90,468x60-pos-2" class="ad"> <script> renderJAd("adspot-728x90,468x60-pos-2", "dcAd-11", 'http://ad-apac.doubleclick.net/N6411/adj/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=2;' + document.dcAdsCParams +'sz=728x90,468x60;tile=11;ord=' + dcOrd + '?', 1106176432); </script> <noscript> <a href='http://ad-apac.doubleclick.net/N6411/jump/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=2;sz=728x90,468x60;tile=11;ord=4.3799471E7?' target="_blank"> <img src='http://ad-apac.doubleclick.net/N6411/ad/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;pos=2;sz=728x90,468x60;tile=11;ord=4.3799471E7?' border="0" alt=""> </a> </noscript> </div>
+        <ul class="fSectionLinks cfix">
+            <li ><a href="http://www.brisbanetimes.com.au/" title="Brisbane Times Home">Brisbane Times Home</a></li>
+            <li ><a href="http://www.brisbanetimes.com.au/queensland" title="Queensland">Queensland</a></li>
+            <li ><a href="http://www.brisbanetimes.com.au/national" title="National">National</a></li>
+            <li ><a href="http://www.brisbanetimes.com.au/environment" title="Environment">Environment</a></li>
+            <li ><a href="http://www.brisbanetimes.com.au/federal-politics" title="Federal Politics">Federal Politics</a></li>
+            <li ><a href="http://www.brisbanetimes.com.au/business" title="Business">Business</a></li>
+            <li ><a href="http://www.brisbanetimes.com.au/technology" title="Technology">Technology</a></li>
+            <li ><a href="http://www.brisbanetimes.com.au/digital-life" title="Digital Life">Digital Life</a></li>
+            <li ><a href="http://www.brisbanetimes.com.au/entertainment1" title="Entertainment">Entertainment</a></li>
+            <li ><a href="http://www.brisbanetimes.com.au/lifestyle" title="Life &amp; Style">Life &amp; Style</a></li>
+            <li ><a href="http://www.brisbanetimes.com.au/travel" title="Travel">Travel</a></li>
+            <li ><a href="http://www.brisbanetimes.com.au/drive" title="Cars">Cars</a></li>
+            <li ><a href="http://www.brisbanetimes.com.au/sport" title="Sport">Sport</a></li>
+            <li class="last"><a href="http://weather.brisbanetimes.com.au/local.jsp" title="Weather">Weather</a></li>
+    </ul>
+
+    <!-- Footer masthead links and copyright -->
+<div class="fMastheadLinks cfix">
+        <ul class="span-4 cfix">
+        <li class="first"><h5>Brisbane Times</h5></li>
+            <li><a href="http://www.brisbanetimes.com.au/siteguide/" title="Sitemap">Sitemap</a></li>
+            <li><a href="http://www.brisbanetimes.com.au/queensland/our-staff" title="About Us">About Us</a></li>
+            <li><a href="http://www.brisbanetimes.com.au/support/" title="Contact Us">Contact Us</a></li>
+            <li><a href="http://adcentre.com.au/brands/brisbane-times-2/" title="Advertise With Us">Advertise With Us</a></li>
+            <li><a href="http://www.brisbanetimes.com.au/am/" title="AM Today">AM Today</a></li>
+            <li><a href="http://www.brisbanetimes.com.au/text/" title="Text Version">Text Version</a></li>
+            <li><a href="http://www.brisbanetimes.com.au/siteguide/accessibility" title="Site Accessibility Guide">Site Accessibility Guide</a></li>
+    </ul>
+
+        <ul class="span-4 cfix">
+        <li class="first"><h5>Connect</h5></li>
+            <li><a href="http://m.brisbanetimes.com.au" title="Mobile Site">Mobile Site</a></li>
+            <li><a href="http://www.brisbanetimes.com.au/rssheadlines" title="RSS">RSS</a></li>
+            <li><a href="http://www.facebook.com/brisbanetimes" title="Facebook">Facebook</a></li>
+            <li><a href="http://twitter.com/brisbanetimes" title="Twitter">Twitter</a></li>
+            <li><a href="http://www.linkedin.com/today/brisbanetimes.com.au" title="LinkedIn">LinkedIn</a></li>
+    </ul>
+
+        <ul class="span-4 cfix">
+        <li class="first"><h5>Products & Services</h5></li>
+            <li><a href="http://www.goodguides.com.au/queensland/" title="Good Food Guide">Good Food Guide</a></li>
+            <li><a href="http://www.brisbanetimes.com.au/newsletters/subscription.html" title="Newsletters">Newsletters</a></li>
+    </ul>
+
+        <ul class="span-4 cfix">
+        <li class="first"><h5>Classifieds</h5></li>
+            <li><a href="http://classifieds.fairfax.com.au/" title="Classifieds & Notices">Classifieds & Notices</a></li>
+            <li><a href="http://www.stayz.com.au/" title="Accommodation">Accommodation</a></li>
+            <li><a href="http://www.drive.com.au/" title="Cars">Cars</a></li>
+            <li><a href="http://www.rsvp.com.au/" title="Dating">Dating</a></li>
+            <li><a href="http://mycareer.com.au/" title="Jobs">Jobs</a></li>
+            <li><a href="http://apm.com.au/" title="Property Price Data">Property Price Data</a></li>
+            <li><a href="http://www.domain.com.au/" title="Real Estate">Real Estate</a></li>
+            <li><a href="http://www.buyandsell.com.au/?utm_source=BrisbaneTimes&utm_medium=HomeFooterLinks&utm_campaign=Buy%2Band%2BSell " title="Buy and Sell">Buy and Sell</a></li>
+    </ul>
+
+        <ul class="span-4 cfix">
+        <li class="first"><h5>Fairfax Media</h5></li>
+            <li><a href="https://membercentre.fairfax.com.au/" title="Member Centre">Member Centre</a></li>
+            <li><a href="http://www.fairfax.com.au/conditions" title="Conditions of Use">Conditions of Use</a></li>
+            <li><a href="http://www.fairfax.com.au/privacy" title="Privacy Policy">Privacy Policy</a></li>
+            <li><a href="http://newsstore.fairfax.com.au/apps/newsSearch.ac?sy=nstore" title="News Store Archive">News Store Archive</a></li>
+            <li><a href="http://www.fairfaxsyndication.com/" title="Photo Sales">Photo Sales</a></li>
+            <li><a href="http://consumer.fairfaxsyndication.com/C.aspx?VP3=ViewBox_VPage&ALID=2ITHRGMNCNCN&CT=Album" title="Purchase Front Pages">Purchase Front Pages</a></li>
+            <li><a href="http://www.fairfaxsyndication.com/" title="Fairfax Syndication">Fairfax Syndication</a></li>
+            <li><a href="http://www.fairfaxevents.com.au/" title="Fairfax Events">Fairfax Events</a></li>
+            <li><a href="http://careers.fairfax.com.au/home.asp" title="Fairfax Careers">Fairfax Careers</a></li>
+            <li><a href="http://www.presscouncil.org.au/what-we-do/" title="Press Council">Press Council</a></li>
+    </ul>
+
+    
+</div>
+<!-- This comment fixes IE6's logo problem. Might be temporary until we've got content below this point -->
+    <div class="nN-footerLinks">
+	<a href="http://www.fairfaxdigital.com.au" class="logo">Fairfax Media</a>
+	<div>
+        <h3>Our Sites</h3>
+    <ul>
+            <li class="first">
+                <a title="The Sydney Morning Herald" href="http://www.smh.com.au/">The Sydney Morning Herald</a>
+            </li>
+            <li>
+                <a title="The Age" href="http://www.theage.com.au/">The Age</a>
+            </li>
+            <li>
+                <a title="MyCareer" href="http://mycareer.com.au/">MyCareer</a>
+            </li>
+            <li>
+                <a title="Domain" href="http://www.domain.com.au/">Domain</a>
+            </li>
+            <li>
+                <a title="Drive" href="http://www.drive.com.au/">Drive</a>
+            </li>
+            <li>
+                <a title="RSVP" href="http://www.rsvp.com.au/">RSVP</a>
+            </li>
+            <li>
+                <a title="Essential Baby" href="http://www.essentialbaby.com.au/">Essential Baby</a>
+            </li>
+            <li>
+                <a title="InvestSMART" href="http://www.investsmart.com.au/">InvestSMART</a>
+            </li>
+            <li>
+                <a title="APM" href="http://apm.com.au/">APM</a>
+            </li>
+            <li>
+                <a title="Stayz" href="http://www.stayz.com.au/">Stayz</a>
+            </li>
+            <li>
+                <a title="Weatherzone" href="http://www.weatherzone.com.au/">Weatherzone</a>
+            </li>
+            <li>
+                <a title="TheVine" href="http://www.thevine.com.au/#utm_source=FD&utm_medium=mastheadpuff&utm_campaign=thevineheader">TheVine</a>
+            </li>
+    </ul>
+
+        <h3>Our Partners</h3>
+    <ul>
+            <li class="first">
+                <a title="Business" href="http://www.business.com.au/">Business</a>
+            </li>
+            <li>
+                <a title="Hair Salons" href="http://www.hairsalon.com.au/">Hair Salons</a>
+            </li>
+            <li>
+                <a title="Electricians" href="http://www.electrician.com.au/">Electricians</a>
+            </li>
+            <li>
+                <a title="Fitness" href="http://www.fitness.com.au/">Fitness</a>
+            </li>
+            <li>
+                <a title="Mechanics" href="http://www.mechanics.com.au/">Mechanics</a>
+            </li>
+            <li>
+                <a title="Cruises" href="http://www.cruises.com.au">Cruises</a>
+            </li>
+            <li>
+                <a title="Tax Refunds" href="http://www.taxrefunds.com.au/">Tax Refunds</a>
+            </li>
+            <li>
+                <a title="Travel Agencies" href="http://www.travelagencies.com.au/">Travel Agencies</a>
+            </li>
+            <li>
+                <a title="Wedding" href="http://www.wedding.com.au/">Wedding</a>
+            </li>
+    </ul>
+
+    </div>
+    <cite>Copyright &copy; 2013 Fairfax Media</cite>
+</div>
+        <div class="Kampyle" data-kampyleFormId="43617" data-kampyleSiteCode="2587051">
+        <a id="kampylink" class="k_static" href="http://www.kampyle.com/feedback_form/ff-feedback-form.php?site_code=2587051&lang=en&form_id=43617" target="kampyleWindow">
+            <img src="http://resources.brisbanetimes.com.au/brisbanetimes/media-common-1.0/images/feedback-button.gif" alt="Feedback Form" style="border:0"/>
+        </a>
+    </div><!-- class:Kampyle -->
+
+</div>
+  
+<!-- End fN-footerNetwork -->
+        <div id="adspot-1x1" class="ad"> <script> renderJAd("adspot-1x1", "dcAd-12", 'http://ad-apac.doubleclick.net/N6411/adj/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;' + document.dcAdsCParams +'sz=1x1;tile=12;ord=' + dcOrd + '?', -1994796531); </script> <noscript> <a href='http://ad-apac.doubleclick.net/N6411/jump/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;sz=1x1;tile=12;ord=4.3799471E7?' target="_blank"> <img src='http://ad-apac.doubleclick.net/N6411/ad/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;sz=1x1;tile=12;ord=4.3799471E7?' border="0" alt=""> </a> </noscript> </div>
+        <div id="adspot-1x11" class="ad"> <script> renderJAd("adspot-1x11", "dcAd-13", 'http://ad-apac.doubleclick.net/N6411/adj/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;' + document.dcAdsCParams +'sz=1x11;tile=13;ord=' + dcOrd + '?', -232091283); </script> <noscript> <a href='http://ad-apac.doubleclick.net/N6411/jump/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;sz=1x11;tile=13;ord=4.3799471E7?' target="_blank"> <img src='http://ad-apac.doubleclick.net/N6411/ad/onl.bt.lands/lands/weddings;ctype=article;cat1=weddings;cat=lands;sz=1x11;tile=13;ord=4.3799471E7?' border="0" alt=""> </a> </noscript> </div>
+    </div><!-- class:wrap cfix -->
+</div><!-- class:outerWrap -->
+<div id="network-strip" class="network-strip-wrap">
+    <div class="network-strip cf">
+    <ul class="nav edition" role="menu">
+            <li role="menuitem" id="whiteStrip-time"><em>8:45AM</em> Sunday Oct 06, 2013</li>
+        
+    
+    
+<li role="menuitem">
+    <span>Do you know more about a story?</span>
+    <div class="dropdown-panel">
+        <button class="dropdown-panel-toggle generic-selector" aria-owns="box-contact" aria-haspopup="true" title="contact us"><span class="icon ddown">contact us</span></button>
+
+            <div id="box-contact" class="dropdown-content dropdown-content-contact generic-selector">
+                <button class="close generic-selector" title="close">Close</button>
+                <form method="GET" action="mailto:scoop@brisbanetimes.com.au">
+                    <label class="h4">Provide detailed information, including contact details (if relevant)</label>
+                    <textarea name="body"></textarea>
+                    <input type="hidden" name="subject" value="Tip">
+                    <input type="submit" value="Post" class="btn">
+                </form>
+            </div>
+    </div>
+</li>
+</ul>
+
+        <ul class="nav external" role="menu">
+                <li><a href="http://www.domain.com.au/" onclick="linktop(this);">Real Estate</a></li>
+                <li><a href="http://www.drive.com.au/" onclick="linktop(this);">Cars</a></li>
+                <li><a href="http://mycareer.com.au/" onclick="linktop(this);">Jobs</a></li>
+                <li><a href="http://www.rsvp.com.au/" onclick="linktop(this);">Dating</a></li>
+                <li><a href="https://membercentre.fairfax.com.au/NewsletterSubscription.aspx" onclick="linktop(this);">Newsletters</a></li>
+            <li class="menuitem">
+                <div class="dropdown-panel">
+                    <button class="dropdown-panel-toggle generic-selector" aria-owns="box-network" aria-haspopup="true">Fairfax Media Network<span class="icon ddown">More</span></button>
+                        <div id="box-network" class="dropdown-content dropdown-content-logos">
+                            <button class="close generic-selector" title="close generic-selector">Close</button>
+                            <div class="logos cf">
+                                <div class="col">
+                                    <h4>News &amp; Weather</h4>
+                                    <ul role="navigation">
+                                        <li class="smh"><a href="http://www.smh.com.au" title="The Sydney Morning Herald">smh.com.au</a></li>
+                                        <li class="theage"><a href="http://www.theage.com.au" title="The Age">theage.com.au</a></li>
+                                        <li class="brisbanetimes"><a href="http://www.brisbanetimes.com.au" title="Brisbane Times">brisbanetimes.com.au</a></li>
+                                        <li class="canberratimes"><a href="http://www.canberratimes.com.au" title="Canberra Times">canberratimes.com.au</a></li>
+                                        <li class="watoday"><a href="http://www.watoday.com.au" title="WA Today">watoday.com.au</a></li>
+                                        <li class="weatherzone"><a href="http://www.weatherzone.com.au" title="Weather Zone">weatherzone.com.au</a></li>
+                                    </ul>
+                                </div><!-- class:col -->
+                                <div class="col">
+                                    <h4>Business &amp; Finance</h4>
+                                    <ul role="navigation">
+                                        <li class="businessday"><a href="http://www.businessday.com.au" title="Business Day">businessday.com.au</a></li>
+                                        <li class="brw"><a href="http://www.brw.com.au" title="BRW">brw.com.au</a></li>
+                                        <li class="afr"><a href="http://www.afr.com" title="AFR">afr.com</a></li>
+                                        <li class="afrmagazine"><a href="http://www.afrmagazine.com.au" title="AFR Magzine">afrmagazine.com.au</a></li>
+                                        <li class="smartinvestor"><a href="http://www.smartinvestor.com.au" title="SmartInvestor">smartinvestor.com.au</a></li>
+                                        <li class="investsmart"><a href="http://www.investsmart.com.au" title="investSmart">investsmart.com.au</a></li>
+                                    </ul>
+                                </div><!-- class:col -->
+                                <div class="col">
+                                    <h4>Lifestyle</h4>
+                                    <ul role="navigation">
+                                        <li class="lifestyle"><a href="http://www.brisbanetimes.com.au/lifestyle" title="LifeStyle">life &amp; style</a></li>
+                                        <li class="dailylife"><a href="http://www.dailylife.com.au" title="Daily Life">dailylife.com.au</a></li>
+                                        <li class="thevine"><a href="http://www.thevine.com.au" title="The Vine">thevine.com.au</a></li>
+                                        <li class="essentialbaby"><a href="http://www.essentialbaby.com.au" title="Essential Baby">essentialbaby.com.au</a></li>
+                                        <li class="essentialkids"><a href="http://www.essentialkids.com.au" title="Essential Kids">essentialkids.com.au</a></li>
+                                        <li class="findababysitter"><a href="http://www.findababysitter.com.au" title="Find a Baby Sitter">findababysitter.com.au</a></li>
+                                        <li class="goodfood"><a href="http://www.goodfood.com.au" title="Good Food">goodfood.com.au</a></li>
+                                    </ul>
+                                </div><!-- class:col -->
+                                <div class="col last">
+                                    <h4>Classifieds</h4>
+                                    <ul role="navigation">
+                                        <li class="domain"><a href="http://www.domain.com.au" title="Domain">domain.com.au</a></li>
+                                        <li class="drive"><a href="http://www.drive.com.au" title="Drive">drive.com.au</a></li>
+                                        <li class="mycareer"><a href="http://www.mycareer.com.au" title="MyCareer">mycareer.com.au</a></li>
+                                        <li class="rsvp"><a href="http://www.rsvp.com.au" title="RSVP">rsvp.com.au</a></li>
+                                        <li class="stayz"><a href="http://www.stayz.com.au" title="Stayz">stayz.com.au</a></li>
+                                    </ul>
+                                </div><!-- class:col last -->
+                            </div><!-- class:logos cf -->
+                            <div class="additional-links">
+                                <ul class="nav">
+                                    <ul class="nav">
+                                        <li><a href="http://adcentre.fairfaxdigital.com.au" title="Advertise with us">Advertise with us</a></li>
+                                        <li><a href="https://membercentre.fairfax.com.au/NewsletterSubscription.aspx" title="Newsletters">Newsletters</a></li>
+                                        <li><a href="http://www.fairfax.com.au/network-map.aspx" title="Full list of sites">Full list of sites</a></li>
+                                        <li><a href="http://fairfaxmedia.com.au" title="About Fairfax Media">About Fairfax Media</a></li>
+                                        <li><a href="http://www.fairfax.com.au/privacy" title="Privacy">Privacy</a></li>
+                                        <li><a href="http://www.fairfax.com.au/conditions" title="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
+                                    </ul>
+                                </ul>
+                            </div><!-- class:additional-links -->
+                        </div><!-- id:box-network class:dropdown-content dropdown-content-logos -->
+                </div><!-- class:dropdown-panel -->
+            </li>
+    </ul>
+
+    </div>
+</div><!-- class:network-strip-wrap -->
+
+
+            <script type="text/javascript">
+
+    var recommendOptions = {
+        display: "off",
+        pos: "rhs",
+        size: {content: 5, rhs: 4},
+        matchingMode: "behavioral^50,contextual^25,trend^25",
+        maxResults: 30
+    };
+
+</script>
+
+
+    <div id="subscription-overlay" class="subscription-overlay"
+     data-hagrid-channel-key="adsyxa3LYCxmhcrx-DmA7w"
+     data-hagrid-base-url="https://brisbanetimes.myfairfax.com.au"
+     data-hagrid-api-url="https://api.myfairfax.com.au"
+     data-hagrid-proxy-url="/originstatic/hagridproxy-0.9.27.html"
+     data-hagrid-iframe-container-id="loginIframeContainer"
+     data-drm-host="http://access.fairfaxapi.com.au"
+     data-hagrid-member-profile-provider-name="customMemberProfileProvider">
+</div>
+
+        <script type="text/javascript" src="http://resources.brisbanetimes.com.au/common/media-common-1.0/js/fdjsf/output/7.29.2/fd.js/fd_min.js"></script>
+
+
+        <script type="text/javascript" src="http://resources.brisbanetimes.com.au/common/media-common-1.0/js/fdjsf/output/7.29.2/fd.google.js/fd.google_min.js"></script>
+
+        <script type="text/javascript" src="http://resources.brisbanetimes.com.au/common/media-common-1.0/js/fdjsf/output/7.29.2/fd.registrars.js/fd.registrars_min.js"></script>
+
+    <script type="text/javascript">
+        var adParameters = {
+            paywall: false
+        };
+        if (FD.JSSDK) {
+
+    window.customMemberProfileProvider = (function() {
+        var module = {};
+        var env = "";
+        var COOKIE_NAME = "ffx_mm_token" + (env ? '_' + env : '');
+        var DAYS_TO_EXPIRE = 30;
+        module.get = function() {
+            var cookie = FD.getCookie(COOKIE_NAME);
+            if (cookie && cookie != "") {
+                return {member_token: cookie };
+            }
+            return null;
+        }
+        module.set = function(profile, expires) {
+            if (!expires) {
+                expires = Date.now() + DAYS_TO_EXPIRE * 24 * 60 * 60 * 1000;
+            }
+            FD.setCookie(COOKIE_NAME, profile.member_token, expires, '/', 'brisbanetimes.com.au');
+        };
+        module.clear = function() {
+            FD.setCookie(COOKIE_NAME, null, null, '/', 'brisbanetimes.com.au');
+        };
+        return module;
+    }(document));
+
+    window.ffxReady = function() {
+        FD.bind("FDHagridLogin", function() {
+            if (FFXHagrid.isLoggedIn()) {
+                FD.trigger("FDMyMastheadCompleteLogin", "http://www.brisbanetimes.com.au");
+            }
+            FFXHagrid.setDocumentDomain(document.domain);
+            FFXHagrid.login({ui: 'iframe'});
+        });
+        FD.bind("FDHagridLogout", function() {
+            FFXHagrid.setDocumentDomain(document.domain);
+            FFXHagrid.logout({ui: 'iframe'});
+        });
+        FFXHagrid.on('login', function() {
+            if (FFXHagrid.isLoggedIn()) {
+                FD.trigger("FDMyMastheadCompleteLogin",  "http://www.brisbanetimes.com.au");
+            }
+        });
+        FFXHagrid.on('logout', function() {
+            window.location.href = "http://www.brisbanetimes.com.au/ugc/logout.html";
+        });
+
+        FD.bind("FDDrmSubscribe", function() {
+            FFXHagrid.subscribe({ui: 'fullpage'});
+        });
+        FD.bind("FDDrmActivate", function() {
+            FFXHagrid.activatePrintSubscription({ui: 'fullpage'});
+        });
+        var profileProvider = FFXDRM.DefaultUserProfileProvider(), drmclient = FFXDRM.DRMClient({ userProfileProvider: profileProvider });
+        drmclient.on('accessdenied', function(reason, requiredPlans, limit) {
+            FD.s_prop24=reason;
+            FD.trigger("FDDrmInfo", [reason, limit]);
+            adParameters.paywall = true;
+        });
+        drmclient.on('accessallowed', function() {
+            FD.s_prop24='accessallowed';
+        });
+        drmclient.on('showmeter', function(count, limit) {
+            FD.trigger("FDDrmMeter", [count, limit]);
+        });
+
+        (function() {
+            var asset = {
+                id: '4780190',
+                types: ['article'],
+                sources: ['AAP'],
+                categories: ['Weddings','National']
+            };
+            FD.trigger("FDDrmCheckPermissions", [drmclient, 'brisbanetimes', asset, FFXHagrid.getUserPlansProvider()]);
+        })();
+    };
+
+    (function(d) {
+        var js = d.createElement('script'),
+                ref = d.getElementsByTagName('script')[0];
+        js.src = "http://resources.fairfax.com.au/js/ffx-sdk/ffx-hagrid-drm-0.9.31.min.js";
+        js.async = true;
+        js.id = 'ffx-script';
+        js.setAttribute('data-hagrid-channel-key', 'adsyxa3LYCxmhcrx-DmA7w');
+        js.setAttribute('data-hagrid-base-url', 'https://brisbanetimes.myfairfax.com.au');
+        js.setAttribute('data-hagrid-api-url', 'https://api.myfairfax.com.au');
+        js.setAttribute('data-hagrid-proxy-url', '/originstatic/hagridproxy-0.9.31.html');
+        js.setAttribute('data-hagrid-iframe-container-id', 'loginIframeContainer');
+        js.setAttribute('data-drm-host', 'http://access.fairfaxapi.com.au');
+        js.setAttribute('data-hagrid-member-profile-provider-name', 'customMemberProfileProvider');
+        ref.parentNode.insertBefore(js, ref);
+    }(document));
+}
+</script>
+<div data-brandName="brisbanetimes"></div>
+        <script type="text/javascript" src="http://resources.brisbanetimes.com.au/common/media-common-1.0/js/fdjsf/output/7.29.2/fd.videoplayer.js/fd.videoplayer_min.js"></script>
+
+
+
+            <script type="text/javascript" src="http://resources.brisbanetimes.com.au/common/media-common-1.0/js/fdjsf/output/7.29.2/fd.registrars.mymasthead.js/fd.registrars.mymasthead_min.js"></script>
+
+        <script type="text/javascript" src="http://resources.brisbanetimes.com.au/common/media-common-1.0/js/fdjsf/output/7.29.2/fd.registrars.contentpagewide.js/fd.registrars.contentpagewide_min.js"></script>
+
+    <script type="text/javascript">
+    (function() {
+        new FD.UserHistoryRecommendations({
+            "assetId": "4780190"
+        })
+     })();
+    </script>
+
+<script type="text/javascript">
+    (function() {
+            var jsonFragmentData0 = {"stopRecommend":true,"name":"2f8rg","listName":"Brisbane Times Homepage Recommend Fragment 1","matchingModes":{},"defaultAssets":[{"pos":0,"rank":0},{"pos":0,"rank":1},{"pos":0,"rank":2},{"pos":0,"rank":3},{"pos":0,"rank":4}],"groups":[],"allDomains":[],"allTypes":[]};
+            if (!jsonFragmentData0.stopRecommend) {
+                new FD.RecommendationsFragment({
+                    "baseUrl": "http://www.brisbanetimes.com.au",
+                    "serviceUrl": "http://fairfax.cxsearch.cxense.com/api/recommendation",
+                    "fragmentData": jsonFragmentData0,
+                    "cookiePrefix": "ffx_home_rec_",
+                    "maxGroups": 5,
+                    "frequency": 5,
+                    "debugMode": false
+                });
+            }
+    })();
+</script>
+
+
+<script type="text/javascript">
+    function getGoogleAdChannel(showAboveArticle) {
+        var googleAdChannel = "LifeStyle";
+        if (showAboveArticle) {
+            googleAdChannel += " abovearticle";
+        }
+        return googleAdChannel;
+    }
+    function google_ad_request_done(google_ads) {
+        var googleAd = new FD.GoogleAd({
+                adBlockTitle: "Ads by Google",
+                maximumAdsInBlock: 3,
+                checkExternalReferrer: true,
+                split: 1,
+            googleAds: google_ads,
+            googleAdsId: "googleAds",
+            moreGoogleAdsId: "moreGoogleAds"
+        });
+        googleAd.insertGoogleAds();
+    }
+    var google_ad_client = "ca-fairfax-brisbanetimes_js";
+    var google_ad_channel = "National";
+    var google_max_num_ads = "4";
+        var externalReferrer = FD.getCookie("externalReferrer");
+        if (FD.showExternalReferrerAd(externalReferrer)) {
+            google_ad_channel = getGoogleAdChannel(true);
+        } else {
+            google_max_num_ads = "3";
+        }
+    var google_ad_output = "js";
+    var google_ad_type = "text";
+    var google_encoding = "utf8";
+    var google_safe = "high";
+    var google_ad_section = "default";
+</script>
+<!-- The JavaScript returned from the following page uses the parameter values assigned above to populate an array of
+ad objects. Once that array has been populated, the JavaScript will call the google_ad_request_done function to display
+the ads. -->
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script> 
+<script type="text/javascript">
+    (function() {
+        
+    })();
+</script>
+<script type="text/javascript">
+    (function() {
+        
+    })();
+</script>
+<script type="text/javascript">
+if(document.location.protocol=='http:'){
+ var Tynt=Tynt||[];Tynt.push('dzkkhEwwyr34jFadbiUt4I');
+ (function(){var s=document.createElement('script');s.async="async";s.type="text/javascript";s.src='http://tcr.tynt.com/ti.js';var h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})();
+}
+</script>
+
+<script type="text/javascript">
+    if (window["FD"]) {
+        (function() {
+            // Check that the user is at least logged in before attempting to say that they have read an article.
+            if (FD.isLoggedIn()) {
+                FD.trigger("FDArticleRead");
+            } else {
+                FD.trigger("FDMyMastheadAccountLoginPrompt");
+            }
+        })();
+    }
+</script>
+<script type="text/javascript">
+    if (document.googleMapConfiguration) {
+        document.write("<script src='http://maps.googleapis.com/maps/api/js?client=gme-fairfax&sensor=false&channel=brisbanetimescomau' type='text/javascript'><\/script>");
+    }
+</script>
+        <script type="text/javascript" src="http://resources.brisbanetimes.com.au/common/media-common-1.0/js/fdjsf/output/7.29.2/fd.registrars.googlemap.js/fd.registrars.googlemap_min.js"></script>
+
+<script type="text/javascript"> (function(){ var userType = getAdCookie("csub"); var csub = "unknown"; if((userType) && (userType.length)) { csub = userType.split(" ", 1)[0]; } if((typeof adParameters !== "undefined") && adParameters.paywall) { csub = "paywall"; } for(var i = 0; i < document.dcdAdsU.length; i++) { document.dcdAdsU[i] = document.dcdAdsU[i].replace("{csub}", csub); } })(); </script> <div class="hidden" id="adShD0"> <script type="text/javascript"> if (0 < document.dcdAdsU.length) { document.write('<scr' + 'ipt type="text\/javascript" id="' + document.dcdAdsI[0] + '" src="' + document.dcdAdsU[0] + '"><\/scr' + 'ipt>'); } </script> </div> <div class="hidden" id="adShD1"> <script type="text/javascript"> if (1 < document.dcdAdsU.length) { document.write('<scr' + 'ipt type="text\/javascript" id="' + document.dcdAdsI[1] + '" src="' + document.dcdAdsU[1] + '"><\/scr' + 'ipt>'); } </script> </div> <div class="hidden" id="adShD2"> <script type="text/javascript"> if (2 < document.dcdAdsU.length) { document.write('<scr' + 'ipt type="text\/javascript" id="' + document.dcdAdsI[2] + '" src="' + document.dcdAdsU[2] + '"><\/scr' + 'ipt>'); } </script> </div> <div class="hidden" id="adShD3"> <script type="text/javascript"> if (3 < document.dcdAdsU.length) { document.write('<scr' + 'ipt type="text\/javascript" id="' + document.dcdAdsI[3] + '" src="' + document.dcdAdsU[3] + '"><\/scr' + 'ipt>'); } </script> </div> <div class="hidden" id="adShD4"> <script type="text/javascript"> if (4 < document.dcdAdsU.length) { document.write('<scr' + 'ipt type="text\/javascript" id="' + document.dcdAdsI[4] + '" src="' + document.dcdAdsU[4] + '"><\/scr' + 'ipt>'); } </script> </div> <div class="hidden" id="adShD5"> <script type="text/javascript"> if (5 < document.dcdAdsU.length) { document.write('<scr' + 'ipt type="text\/javascript" id="' + document.dcdAdsI[5] + '" src="' + document.dcdAdsU[5] + '"><\/scr' + 'ipt>'); } </script> </div> <div class="hidden" id="adShD6"> <script type="text/javascript"> if (6 < document.dcdAdsU.length) { document.write('<scr' + 'ipt type="text\/javascript" id="' + document.dcdAdsI[6] + '" src="' + document.dcdAdsU[6] + '"><\/scr' + 'ipt>'); } </script> </div> <script type="text/javascript"> initAds(false, "817-grey.gif"); checkAds("817-grey.gif"); window.setTimeout('pingAdStatus()', 10000); </script>
+
+<!-- START Google Analytics Tracking -->
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-22700242-3']);
+    _gaq.push(['_setDomainName', '.brisbanetimes.com.au']);
+    _gaq.push(['_addIgnoredRef', 'brisbanetimes.com.au']);
+    _gaq.push(['_setAllowAnchor', true]);
+    _gaq.push(['_setCustomVar', 1, 'Section', 'LifeStyle', 3]);
+    _gaq.push(['_setCustomVar', 2, 'Sub-Section', 'Weddings', 3]);
+    _gaq.push(['_setCustomVar', 3, 'Byline', '', 3]);
+    _gaq.push(['_setCustomVar', 4, 'Page Type', 'Article', 3]);
+    _gaq.push(['_setAllowAnchor', true]);
+    _gaq.push(['_setCampaignCookieTimeout', 1209600000]);
+    // See User Type tracking for invocation
+</script>
+<!-- END Google Analytics Tracking -->
+
+<!-- START Nielsen Online SiteCensus V6.0 -->
+<!-- COPYRIGHT 2009 Nielsen Online -->
+<script type="text/javascript" src="//secure-au.imrworldwide.com/v60.js"></script>
+<script type="text/javascript">
+    var pvar = {cid:"f2", content:"BrisbaneTimes-lifestyle-weddings-story-online", server:"secure-au"};
+    var trac = nol_t(pvar);
+    trac.record().post();
+    window.s_pageName = "brisbanetimes:article:lifestyle:weddings:brides-to-be still prefer husband's name";
+</script>
+<noscript>
+    <div>
+        <img src="//secure-au.imrworldwide.com/cgi-bin/m?ci=f2&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt=""/>
+    </div>
+</noscript>
+    <!--end of if !suppressNielsen -->
+<!-- END Nielsen Online SiteCensus V6.0 -->
+    <script type="text/javascript">
+	if (window["FD"]) {
+		/**
+		 * Initiates the client side asset view tracking component (self executing).
+		 */
+		(function() {
+			FD.pingServerWithSuccessCallback("4780190", "Article", "LifeStyle", FD.updateWhiteStrip);
+		})();
+	}
+</script>
+
+<!-- FFX analytics stuff -->
+<script>
+    var _fmaq = _fmaq || [];
+        _fmaq.push(["_trackEvent", [
+            ["event", "view"],
+            ["system", "DCDS"],
+            ["site", "btimes"],
+            ["assetCategory", "LifeStyle"],
+            ["asset", "4780190"],
+            ["title", "Brides-to-be still prefer husband's name"],
+            ["assetType", "Article"]
+        ]]);
+
+    var _fma_options = {};
+
+    (function () {
+        var fma_script = document.createElement('script');
+        fma_script.src = 'http://resources.fairfax.com.au/js/track/1.0/track.min.js';
+        fma_script.setAttribute('async', 'true');
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(fma_script, s);
+    })();
+</script>
+    <script type="text/javascript">
+        var cX_ffx_customParameters = cX_ffx_customParameters || {};
+        cX_ffx_customParameters.ffx_contentid = 'dcds_4780190';
+    </script>
+    <div id="cX-root" style="display:none"></div>
+    <script type="text/javascript">
+        var cX = cX || {}; cX.callQueue = cX.callQueue || [];
+        cX.callQueue.push(['setAccountId', '9222289450909507104']);
+        cX.callQueue.push(['setSiteId', '9222289450909507105']);
+        if (cX_ffx_customParameters) {
+            cX.callQueue.push(['setCustomParameters', cX_ffx_customParameters]);
+        }
+        cX.callQueue.push(['sendPageViewEvent']);
+    </script>
+    <script type="text/javascript">
+        (function() { try { var scriptEl = document.createElement('script'); scriptEl.type = 'text/javascript'; scriptEl.async = 'async';
+            scriptEl.src = ('https:' == document.location.protocol) ? 'https://scdn.cxense.com/cx.js' : 'http://cdn.cxense.com/cx.js';
+            var targetEl = document.getElementsByTagName('script')[0]; targetEl.parentNode.insertBefore(scriptEl, targetEl); } catch (e) {};} ());
+    </script>
+
+
+<!-- Adobe Marketing Cloud Tag Management code
+Copyright 1996-2012 Adobe, Inc. All Rights Reserved
+More info available at http://www.adobe.com -->
+<script type="text/javascript" src="http://resources.brisbanetimes.com.au/common/media-common-1.0/js/s_code.js"></script>
+<script type="text/javascript">
+if(s){
+    s.pageName = "btimes:LifeStyle:Weddings::Brides-to-be still prefer husband's name:4780190"
+    s.prop1 = "btimes"
+    s.prop2 = "LifeStyle"
+    s.prop7 = "Article"
+    s.prop8 = "4780190 + Brides-to-be still prefer husband's name"
+    s.prop31 = ""
+    s.prop32 = "2013-09-27"
+    if (window["FD"]) {
+        if (typeof FD.s_prop24 !== "undefined") {
+            s.prop24 = FD.s_prop24
+        }
+    }
+    // See User Type tracking for invocation
+
+    // OLG tracking
+    if(typeof olgTracking !== "undefined") {
+        if(s.events) {
+            s.events += ",event21";
+        } else {
+            s.events = "event21";
+        }
+        s.eVar22 = s.prop1 + "-" + s.prop2 + "-" + olgTracking.provider + "-" + olgTracking.productType + "-" + olgTracking.location;
+    }
+}
+</script>
+<!-- End Adobe Marketing Cloud Tag Management code -->
+
+<!-- Start User Type tracking -->
+<script>
+    (function() {
+        if (typeof FFXHagrid === "undefined"){
+            invokeTracking(null);
+        }else {
+            var userType = "unknown";
+            if (FFXHagrid.isLoggedIn()) {
+                try {
+                    FFXHagrid.getUserPlansProvider().getUserPlans(false, function(plans) {
+                        if (typeof plans !== "undefined" && plans.length > 0) {
+                            userType = "subscriber " + plans.join(",").toLowerCase();
+                        } else {
+                            userType = "member";
+                        }
+                    });
+                } catch (e) {
+                    userType ="member";
+                }
+            } else {
+                userType = "visitor";
+            }
+            invokeTracking(userType);
+            saveUserType(userType);
+        }
+        function invokeTracking(userType) {
+            // GA
+            if(userType != null){
+                _gaq.push(['_setCustomVar', 5, 'Login Status', userType, 2]);
+            }
+            _gaq.push(['_trackPageview']);
+            (function() {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+
+            // Site Catalyst
+            if(s){
+                if(userType != null){
+                    s.eVar57 = userType;
+                }
+                s.t();
+            }
+        }
+
+        function saveUserType(userType) {
+            FD.setCookie("csub", userType, null, "/", document.domain);
+        }
+    })();
+</script>
+
+
+<!-- Google Code for Remarketing tag -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = '1066375035';
+var google_conversion_label = 'xs3OCPm5kQUQ-66-_AM';
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066375035/?value=0&label=xs3OCPm5kQUQ-66-_AM&guid=ON&script=0"/>
+</div>
+</noscript>
+<!-- End Google Code for Remarketing tag -->
+<script type="text/javascript">
+if (window["FD"]) {
+    FD.trigger("FDTrackReady");
+}
+</script>
+
+    <script type="text/javascript">//<![CDATA[
+    var amc=amc||{};if(!amc.on){amc.on=amc.call=function(){}};
+    document.write("<scr"+"ipt type=\"text/javascript\" src=\"//www.adobetag.com/d1/v2/ZDEtZmFpcmZheGF1LTEzMjg0LTI5MDYt/amc.js\"></sc"+"ript>");
+    //]]></script>
+
+
+    <script type="text/javascript" src="http://widgets.outbrain.com/outbrain.js"></script>
+
+        <div id="fb-root"></div><!-- id:fb-root -->
+        <script src="http://connect.facebook.net/en_US/all.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            window.fbAsyncInit = function() {
+                FB.init({
+                        appId: "210857855632030",
+                    cookie: true,
+                    status: true,
+                    xfbml: true
+                });
+                FD.register(function() {
+                    new FD.Facebook({});
+                });
+            };
+        </script>
+        <script src="https://apis.google.com/js/plusone.js" type="text/javascript"></script>
+        <script src="http://platform.linkedin.com/in.js" type="text/javascript">
+                api_key: qottgxmkkl6f
+            authorize: true
+        </script>
+        <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+        <script src="http://widgets.twimg.com/j/2/widget.js" type="text/javascript"></script>
+    <div data-boomerangSegment="132493"></div>
+        <script type="text/javascript" src="http://resources.brisbanetimes.com.au/common/media-common-1.0/js/fdjsf/output/7.29.2/fd.registrars.social.js/fd.registrars.social_min.js"></script>
+
+
+
+ 
+    <script type="text/javascript" src="http://secure-au.imrworldwide.com/cgi-bin/j?ci=rj0093-stayz&amp;se=1&amp;te=0"> </script>
+
+        <script type="text/javascript" src="http://resources.brisbanetimes.com.au/common/media-common-1.0/js/fdjsf/output/7.29.2/fd.registrars.images.httppipelining.js/fd.registrars.images.httppipelining_min.js"></script>
+
+</body>
+</html>

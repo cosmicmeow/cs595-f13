@@ -1,0 +1,328 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>＜アプリケーションエンジニア＞＜社名非公開＞｜IT転職求人サーチ</title>
+<meta name="keywords" content="IT転職,it,転職,転職情報,求人,求人情報,ウェブデザイナー,ウェブプログラマー" />
+<meta name="description" content="【Java】電力制御システム環境移行" />
+<meta name="author" content="IT転職求人サーチ＠minoribute" />
+<meta name="robots" content="index,follow" />
+<meta name="revisit_after" content="2 days" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<link href="../css/reset.css" rel="stylesheet" type="text/css" />
+<link href="../css/result.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+<!--
+var w_af;
+function MoveOffer2()
+{
+  w_af.close();
+}
+
+function MoveOffer(url1,url2)
+{
+  w_af=window.open(url1,"pop_offer_af",'width=1,height=1');
+  w=window.open(url2,"pop_offer",'toolbar=yes,menubar=yes,scrollbars=yes,resizable=yes,width=1024,height=800');
+
+  w.focus();
+  setTimeout("MoveOffer2()",8000);
+
+  return;
+}
+
+-->
+</script>
+
+</head>
+<body>
+  <div id="wrapper">
+    <div>
+      <script type="text/javascript"><!--
+      google_ad_client = "ca-pub-8624710640091217";
+      /* IT search 詳細上 */
+      google_ad_slot = "4695239452";
+      google_ad_width = 728;
+      google_ad_height = 90;
+      //-->
+      </script>
+      <script type="text/javascript"
+      src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+      </script>
+    </div>
+    <h1>【Java】電力制御システム環境移行</h1>
+    <a href="https://twitter.com/ITBOT2" class="twitter-follow-button" data-show-count="false" data-lang="ja" data-size="large">@ITBOT2をフォロー</a>
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bit.ly/1eK2cVc" data-text="【Java】電力制御システム環境移行" data-via="ITBOT2" data-lang="ja" data-related="ITBOT2" data-count="none" data-hashtags="IT転職求人サーチ,求人,IT求人 ">ツイート</a>
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    フォローするとIT新着求人を8分毎につぶやいてくれます！<br/><br/>
+        <br />
+    <div id="gaiyou">
+      <table width="728" border="0">
+        <tr>
+          <td colspan="2" class="center">■求人情報</td>
+        </tr>
+        <tr>
+          <td width="190" class="left">会社名</td>
+          <td width="500" class="right">社名非公開</td>
+        </tr>
+        <tr>
+          <td class="left">募集職種</td>
+          <td class="right">アプリケーションエンジニア</td>
+        </tr>
+        <tr>
+          <td class="left">募集背景</td>
+          <td class="right">---</td>
+        </tr>
+        <tr>
+          <td class="left">就業時間</td>
+          <td class="right">9:00&nbsp;～&nbsp;18:00</td>
+        </tr>
+        <tr>
+          <td class="left">仕事内容</td>
+          <td class="right">電力系統を制御するシステムの機能改善に携わっていただきます。</td>
+        </tr>
+        <tr>
+          <td class="left">雇用形態</td>
+          <td class="right">業務委託</td>
+        </tr>
+        <tr>
+          <td class="left">想定賃金（または時給）</td>
+          <td class="right">～550,000円/月</td>
+        </tr>
+        <tr>
+          <td class="left">昇給</td>
+          <td class="right">---</td>
+        </tr>
+        <tr>
+          <td class="left">賞与</td>
+          <td class="right">---</td>
+        </tr>
+        <tr>
+          <td class="left">応募資格</td>
+          <td class="right">【必須スキル】<br />
+・Java経験5年以上<br />
+・JavaScriptの経験<br />
+<br />
+【歓迎スキル】<br />
+・PostgreSQLの経験</td>
+        </tr>
+        <tr>
+          <td class="left">就業場所</td>
+          <td class="right">府中市</td>
+        </tr>
+        <tr>
+          <td class="left">待遇・福利厚生</td>
+          <td class="right">---</td>
+        </tr>
+        <tr>
+          <td class="left">休日・休暇</td>
+          <td class="right">---</td>
+        </tr>
+        <tr>
+          <td class="left">企業からのメッセージ</td>
+          <td class="right">BtoB、BtoCと様々な開発を受託している企業で、弊社と長くお付き合いがございます。</td>
+        </tr>
+        <tr>
+          <td colspan="2" class="center">■会社概要</td>
+        </tr>
+        <tr>
+          <td width="190" class="left">会社設立</td>
+          <td width="500" class="right">---</td>
+        </tr>
+        <tr>
+          <td class="left">代表者</td>
+          <td class="right">---</td>
+        </tr>
+         <tr>
+          <td class="left">資本金</td>
+          <td class="right">---</td>
+        </tr>
+       <tr>
+          <td class="left">年間売上</td>
+          <td class="right">---</td>
+        </tr>
+        <tr>
+          <td class="left">従業員数</td>
+          <td class="right">---</td>
+        </tr>
+        <tr>
+          <td class="left">平均年齢</td>
+          <td class="right">---</td>
+        </tr>
+        <tr>
+          <td class="left">事業内容</td>
+          <td class="right">Webサービス</td>
+        </tr>
+        <tr>
+          <td class="left">主要取引先</td>
+          <td class="right">---</td>
+        </tr>
+        <tr>
+          <td class="left">本社</td>
+          <td class="right">---</td>
+        </tr>
+        <tr>
+          <td class="left">業種</td>
+          <td class="right">プログラマ(PG)<br />
+システムエンジニア(SE)</td>
+        </tr>
+        <tr>
+          <td colspan="2" class="center">■応募･選考について</td>
+        </tr>
+        <tr>
+          <td width="190" class="left">応募方法</td>
+          <td width="500" class="right">---</td>
+        </tr>
+        <tr>
+          <td class="left">選考プロセス</td>
+          <td class="right">【STEP1】@Agent応募時の書類確認<br />
+▼<br />
+【STEP2】弊社コーディネーターとのカウンセリング<br />
+▼<br />
+【STEP3】クライアント先訪問(1回)<br />
+▼<br />
+【STEP4】条件調整、ご参画<br />
+<br />
+※クライアント先訪問日程等はご相談ください。</td>
+        </tr>
+         <tr>
+          <td class="left">面接地</td>
+          <td class="right">---</td>
+        </tr>
+       <tr>
+          <td class="left">担当</td>
+          <td class="right">---</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div class="entryblock">
+              <span class="red">この求人情報は掲載先で2013年09月30日に掲載期間が終了した可能性があります。<br /></span>
+              状況により再掲載されている可能性があります。<br />
+              恐れ入りますが別サイトで確認するか、または下記の検索ボックスより別の求人を検索してください。<br /><br />
+
+              <div id="navimenu">
+                <form action="../search/index.php" method="post" onSubmit="disableSubmit(this)">
+                  <table width="" border="0">
+                    <tr>
+                      <td width="245"></td>
+                      <td width="220"><span class="orange">地域</span>：都道府県や市区町村を入力</td>
+                      <td rowspan="3" width="130"><label>
+                        <input class="searchbtn" type="submit" name="button" id="button" value="検索" />
+                      </label></td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <select name="search0" class="search0" id="srearch0">
+<option value="1000" class="search0 option" id="srearch0-0"></option>
+<option value="1" class="search0 option" id="srearch0-1">新着求人一覧</option>
+<option value="2" class="search0 option" id="srearch0-2">急募求人一覧</option>
+<option value="1001" class="search0 option" id="srearch0-3"></option>
+<option value="100" class="search0 option" id="srearch0-4">■デザイナー</option>
+<option value="110" class="search0 option" id="srearch0-5">├ウェブデザイナー</option>
+<option value="120" class="search0 option" id="srearch0-6">├HTMLコーダー</option>
+<option value="130" class="search0 option" id="srearch0-7">├グラフィックデザイナー</option>
+<option value="140" class="search0 option" id="srearch0-8">├ソーシャルゲームデザイン</option>
+<option value="150" class="search0 option" id="srearch0-9">└FLASH制作</option>
+<option value="1002" class="search0 option" id="srearch0-10"></option>
+<option value="200" class="search0 option" id="srearch0-11">■プログラマー/エンジニア</option>
+<option value="210" class="search0 option" id="srearch0-12">├プログラマー</option>
+<option value="220" class="search0 option" id="srearch0-13">├ウェブプログラマー</option>
+<option value="230" class="search0 option" id="srearch0-14">├エンジニア</option>
+<option value="240" class="search0 option" id="srearch0-15">├アプリプログラマー</option>
+<option value="250" class="search0 option" id="srearch0-16">├Androidアプリエンジニア</option>
+<option value="260" class="search0 option" id="srearch0-17">└iPhoneアプリエンジニア</option>
+<option value="1003" class="search0 option" id="srearch0-18"></option>
+<option value="300" class="search0 option" id="srearch0-19">■ディレクター</option>
+<option value="310" class="search0 option" id="srearch0-20">├ウェブディレクター</option>
+<option value="320" class="search0 option" id="srearch0-21">├アートディレクター</option>
+<option value="330" class="search0 option" id="srearch0-22">├ゲームディレクター</option>
+<option value="340" class="search0 option" id="srearch0-23">└ソーシャルゲームディレクター</option>
+<option value="1004" class="search0 option" id="srearch0-24"></option>
+<option value="410" class="search0 option" id="srearch0-25">営業</option>
+<option value="420" class="search0 option" id="srearch0-26">マーケティング</option>
+<option value="430" class="search0 option" id="srearch0-27">プロデューサー</option>
+<option value="440" class="search0 option" id="srearch0-28">コンサルタント</option>
+<option value="450" class="search0 option" id="srearch0-29">経理</option>
+<option value="460" class="search0 option" id="srearch0-30">企画</option>
+<option value="1005" class="search0 option" id="srearch0-31"></option>
+<option value="990" class="search0 option" id="srearch0-32">その他業種</option>
+</select>
+
+                      </td>
+                      <td><input type="text" class="search2" name="search2" size="37" value="" /></td>
+                    </tr>
+                    <tr>
+                      <td><span class="orange">ヒント</span>：こちらより業種を選択</td>
+                      <td><span class="orange">ヒント</span>：東京、札幌、名古屋 など</td>
+                    </tr>
+                  </table>
+                </form>
+              </div>
+    <a href="https://twitter.com/ITBOT2" class="twitter-follow-button" data-show-count="false" data-lang="ja" data-size="large">@ITBOT2をフォロー</a>
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bit.ly/1eK2cVc" data-text="【Java】電力制御システム環境移行" data-via="ITBOT2" data-lang="ja" data-related="ITBOT2" data-count="none" data-hashtags="IT転職求人サーチ,求人,IT求人 ">ツイート</a>
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+              フォローするとIT新着求人を8分毎につぶやいてくれます！<br/>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="topnavibanner" align="center">
+      <script type="text/javascript"><!--
+      google_ad_client = "ca-pub-8624710640091217";
+      /* IT search 詳細バナー左 */
+      google_ad_slot = "9791641249";
+      google_ad_width = 250;
+      google_ad_height = 250;
+      //-->
+      </script>
+      <script type="text/javascript"
+      src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+      </script>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+
+      <script type="text/javascript"><!--
+      google_ad_client = "ca-pub-8624710640091217";
+      /* IT search 求人詳細　右 */
+      google_ad_slot = "3419527039";
+      google_ad_width = 250;
+      google_ad_height = 250;
+      //-->
+      </script>
+      <script type="text/javascript"
+      src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+      </script>
+
+    </div>
+  </div>
+  <div id="footer">
+    <p>Copyright minoribute 2012.</p>
+  </div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31780142-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>
+
