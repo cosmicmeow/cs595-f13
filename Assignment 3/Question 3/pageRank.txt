@@ -1,0 +1,12 @@
+PageRank	URI
+--------	---------
+0.6		http://tomshardware.com
+0.9		http://youtube.com
+0.9		http://bbc.co.uk
+0.9		http://youtube.com
+0.7		http://meristation.com
+0.6		http://tomshardware.com
+0.8		http://gamespot.com
+0.5		http://muylinux.com
+0.7		http://zdnet.fr
+N/A		http://kudosmercadotecnia.com

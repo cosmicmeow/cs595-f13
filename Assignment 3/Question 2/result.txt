@@ -1,0 +1,19 @@
+6	../Question1/processed/d8b8074c407c617b59dcba96da40ab45:Newell
+      
+3	../Question1/processed/c3dd4e9e073175261ebdea18159ca921:Newell
+      
+3	../Question1/processed/7e275659d5ce33c53f40291e0aa3320c:Newell
+      
+3	../Question1/processed/36da12c4897e064d6e266652176e7408:Newell
+      
+1	../Question1/processed/fa6bd54788cfafdfdcf868c1d6e9fcaa:Newell
+      
+1	../Question1/processed/d8b8074c407c617b59dcba96da40ab45:newell
+      
+1	../Question1/processed/ac976ed6cee59f242b5fd27af6eb317b:Newell
+      
+1	../Question1/processed/9e6706af9f61bac3cbf78df084da045e:newell
+      
+1	../Question1/processed/885cb296088042ead7849127c734efea:Newell
+     
+10	../Question1/processed/e06aaf5bc452f30a188fb0f6bc5feb4b:Newell
