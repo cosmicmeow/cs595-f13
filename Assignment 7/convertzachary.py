@@ -6,7 +6,7 @@ infile = open("zachary.dat", 'r')
 lines = infile.readlines()
 infile.close()
 
-outfile = open("zachary.json", 'w')
+outfile = open("karateclub.json", 'w')
 
 # create dictionary for each nodes and their respective links(edges)
 dict = {"nodes" : [], "links" : []}
@@ -22,10 +22,10 @@ for line in lines[41:]:
 	dict["nodes"].append(node)
 	connections = line.split()
 
-	for x in range(0, len(connections)):
-		weight = connections[x]
-		if weight != "0":
-			link = {"source" : num, "target"  : x, "weight" : int(weight)}
+	for i in range(0, len(connections)):
+		value = int(connections[i])
+		if value != 0:
+			link = {"source" : num, "target"  : i, "value" : int(value)}
 			dict["links"].append(link)
 
 	count = count + 1
